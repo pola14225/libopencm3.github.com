@@ -1,0 +1,19 @@
+digraph "flash_wait_for_last_operation"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="flash_wait_for_last\l_operation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="flash_erase_all_pages",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash_8c.html#af1804e22fb8a901f3a5f85535aa1ff7b"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="flash_erase_option\l_bytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash_8c.html#a6242ed6be7838125093c9b8b6adeeca1"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="flash_erase_page",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash_8c.html#a002e6ac054e5086830d0e686672b161b"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="flash_program_half_word",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash_8c.html#a1312105c3432840482d6678ef841e9e2"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="flash_program_option\l_bytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash_8c.html#ad617eda1ad9c5e6e6766d4aea700df5b"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="flash_program_word",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash_8c.html#ada59106b2abfe22eaffc9ad6f1b48899"];
+}

@@ -1,0 +1,1 @@
+Problems running dot: exit code=127, command='dot', arguments='"/home/esdentem/projects/libopencm3/libopencm3-git/doc/efm32lg/html/graph_legend.dot" -Tpng -o "/home/esdentem/projects/libopencm3/libopencm3-git/doc/efm32lg/html/graph_legend.png"'

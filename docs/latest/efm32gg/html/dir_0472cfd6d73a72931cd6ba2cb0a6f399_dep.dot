@@ -1,0 +1,9 @@
+digraph "/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/efm32/efm32gg/" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b3bc027bbb9aeff9e0e7a0d66de9ad28 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="efm32" fontname="Helvetica", fontsize="10", URL="dir_b3bc027bbb9aeff9e0e7a0d66de9ad28.html"]
+  dir_0472cfd6d73a72931cd6ba2cb0a6f399 [shape=box, label="efm32gg", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0472cfd6d73a72931cd6ba2cb0a6f399.html"];
+  }
+}

@@ -1,0 +1,28 @@
+var nvic_8h =
+[
+    [ "DEBUG_MONITOR_IRQ", "nvic_8h.html#ga6dd933d918f4be1675c61bb581936a40", null ],
+    [ "NVIC_BUS_FAULT_IRQ", "nvic_8h.html#gacd890922541397f8fd92856d392a865d", null ],
+    [ "NVIC_HARD_FAULT_IRQ", "nvic_8h.html#gaedbe55d3baf2439fb49301f0b5f9bc53", null ],
+    [ "NVIC_IABR", "nvic_8h.html#gaaf27ae37bd9f107e4773bae6d3405931", null ],
+    [ "NVIC_ICER", "nvic_8h.html#ga3fa79c5ca67b7a9037cf9ddc28e43c00", null ],
+    [ "NVIC_ICPR", "nvic_8h.html#gabbdb5811b29c0b99ebd769b35fc6b77d", null ],
+    [ "NVIC_IPR", "nvic_8h.html#gac70cd532c336bcab3735403a1e0a8c48", null ],
+    [ "NVIC_ISER", "nvic_8h.html#ga56d60698b9aa6c8bc051d3c81e1a1ee3", null ],
+    [ "NVIC_ISPR", "nvic_8h.html#ga6be3b05499bafab037e23f25d63d621c", null ],
+    [ "NVIC_MEM_MANAGE_IRQ", "nvic_8h.html#gaa842b6ef46aa6cecce5d382abac75271", null ],
+    [ "NVIC_NMI_IRQ", "nvic_8h.html#gabdeb6fa799341f6cf23d242d2e8e704b", null ],
+    [ "NVIC_PENDSV_IRQ", "nvic_8h.html#ga60500110edbdb7d0992e8aef8fe04b7d", null ],
+    [ "NVIC_STIR", "nvic_8h.html#gaaa80bc30d455351b9231f252632d481b", null ],
+    [ "NVIC_SV_CALL_IRQ", "nvic_8h.html#gaaefda4fe69bd9acbd73c12ff2d023ad2", null ],
+    [ "NVIC_SYSTICK_IRQ", "nvic_8h.html#gafd650ffcb7f54e1f619d2ff3b1331d1f", null ],
+    [ "NVIC_USAGE_FAULT_IRQ", "nvic_8h.html#gaa5477aa1c88059e4a0f84622795b0ea9", null ],
+    [ "nvic_clear_pending_irq", "nvic_8h.html#ga912739401591c8c16d54b68bf6a19145", null ],
+    [ "nvic_disable_irq", "nvic_8h.html#gaed0997045521d8dd7171a1efb9735b2f", null ],
+    [ "nvic_enable_irq", "nvic_8h.html#ga959934e2712ce7672d2a947d9ca42d32", null ],
+    [ "nvic_generate_software_interrupt", "nvic_8h.html#ga428725e696c0467c102d171425c93799", null ],
+    [ "nvic_get_active_irq", "nvic_8h.html#ga385b545f967c36f2a2df8bf56cc48049", null ],
+    [ "nvic_get_irq_enabled", "nvic_8h.html#ga760014a2f28e2c08c2c5ca8995541cf5", null ],
+    [ "nvic_get_pending_irq", "nvic_8h.html#ga32e4ae1adc2e9f7f9de43da182004417", null ],
+    [ "nvic_set_pending_irq", "nvic_8h.html#ga4fc9f0e63460ac98ddd9e0ba18d611a5", null ],
+    [ "nvic_set_priority", "nvic_8h.html#ga8d32953be2608382a7adfa053328b7ba", null ]
+];

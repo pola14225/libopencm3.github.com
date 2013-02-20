@@ -1,0 +1,16 @@
+error: Tag file `./stm32/stm32.tag' does not exist or is not a file. Skipping it...
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35149: Duplicate anchor dac_api_dual found
+
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35149: Duplicate anchor dac_api_basic_ex found
+
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35149: Duplicate anchor dac_api_dma_ex found
+
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35149: Duplicate anchor gpio_api_ex found
+
+<unknown>:1: group rtc_defines: ignoring title "RTC Defines" that does not match old title "Rtc_defines"
+
+<unknown>:1: group gpio_mode: ignoring title "GPIO Pin Direction and Analog/Digital Mode" that does not match old title "GPIO Pin Mode"
+
+<unknown>:1: group rtc_file: ignoring title "RTC" that does not match old title "Rtc_file"
+
+Problems running dot: exit code=127, command='dot', arguments='"/home/esdentem/projects/libopencm3/libopencm3-git/doc/html/graph_legend.dot" -Tpng -o "/home/esdentem/projects/libopencm3/libopencm3-git/doc/html/graph_legend.png"'

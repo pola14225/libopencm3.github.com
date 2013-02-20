@@ -1,0 +1,17 @@
+digraph "/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6c0c766218f8d9406171b3590f525a33 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lib" fontname="Helvetica", fontsize="10", URL="dir_6c0c766218f8d9406171b3590f525a33.html"]
+  subgraph clusterdir_55eaf1e33010ef6e6239f6fb75078880 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_55eaf1e33010ef6e6239f6fb75078880.html"];
+    dir_55eaf1e33010ef6e6239f6fb75078880 [shape=plaintext label="stm32"];
+    dir_2cc908344f7c033af6399289af991fc7 [shape=box label="common" color="black" fillcolor="white" style="filled" URL="dir_2cc908344f7c033af6399289af991fc7.html"];
+    dir_523a2e24776fe0f5973d0249b2b4e7e9 [shape=box label="f2" color="black" fillcolor="white" style="filled" URL="dir_523a2e24776fe0f5973d0249b2b4e7e9.html"];
+  }
+  }
+  dir_ead20f0c10569fc5b4f0cc70c3cf6bea [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html"];
+  dir_2cc908344f7c033af6399289af991fc7->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="1", labeldistance=1.5 headhref="dir_000007_000003.html"];
+  dir_523a2e24776fe0f5973d0249b2b4e7e9->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="12", labeldistance=1.5 headhref="dir_000002_000003.html"];
+}

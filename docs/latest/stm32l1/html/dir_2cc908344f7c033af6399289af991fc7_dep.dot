@@ -1,0 +1,9 @@
+digraph "/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_55eaf1e33010ef6e6239f6fb75078880 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="stm32" fontname="Helvetica", fontsize="10", URL="dir_55eaf1e33010ef6e6239f6fb75078880.html"]
+  dir_2cc908344f7c033af6399289af991fc7 [shape=box, label="common", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2cc908344f7c033af6399289af991fc7.html"];
+  }
+}

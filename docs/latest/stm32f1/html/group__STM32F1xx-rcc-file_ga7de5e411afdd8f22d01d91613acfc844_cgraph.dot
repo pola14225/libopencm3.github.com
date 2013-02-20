@@ -1,0 +1,29 @@
+digraph "rcc_clock_setup_in_hse_8mhz_out_72mhz"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="rcc_clock_setup_in\l_hse_8mhz_out_72mhz",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="flash_set_ws",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$flash_8h.html#a66164f6799767f17d6f6e845c4c5039e"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="rcc_osc_on",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga8dbd64d58e019803bf109609203d1afd",tooltip="RCC Turn on an Oscillator."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="rcc_set_adcpre",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#gab59dc079275228143e1c8922c2b124d2",tooltip="ADC Setup the A/D Clock."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="rcc_set_hpre",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga587f5be40f38a0bf0418ae4125129dc0",tooltip="RCC Set the AHB Prescale Factor."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="rcc_set_pll_multiplication\l_factor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#gac4e29905a035f775bae9d4273c3767af",tooltip="RCC Set the PLL Multiplication Factor."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="rcc_set_pll_source",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga2c3543cb0fc5e01678bb6d5bae1a51a1",tooltip="RCC Set the PLL Clock Source."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="rcc_set_pllxtpre",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga41ac1b6752615c234079c76a23a99989",tooltip="RCC Set the HSE Frequency Divider used as PLL Clock Source."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="rcc_set_ppre1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga8cb53f3681507b9819229b24bd3417cd",tooltip="RCC Set the APB1 Prescale Factor."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="rcc_set_ppre2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga411748dd9a8a99b746e802af6b448763",tooltip="RCC Set the APB2 Prescale Factor."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="rcc_set_sysclk_source",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga3edbf52144a86a1b8292b3e21e3959d7",tooltip="RCC Set the Source for the System Clock."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="rcc_wait_for_osc_ready",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga0f9fac6ac510e119aebe5f62c53f073a",tooltip="RCC Wait for Oscillator Ready."];
+}
