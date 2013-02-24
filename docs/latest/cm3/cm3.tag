@@ -2247,6 +2247,13 @@
     </member>
     <member kind="function">
       <type>u32</type>
+      <name>systick_get_reload</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga3fb33b45c79720f5455332f103ea9c42</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
       <name>systick_get_value</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga21390939e21bc6c4ef00fe1c798ae060</anchor>
@@ -2823,6 +2830,13 @@
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga4d72fc83df078118bd33f82e1eddd345</anchor>
       <arglist>(u32 value)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>systick_get_reload</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga3fb33b45c79720f5455332f103ea9c42</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>

@@ -17,6 +17,7 @@ var systick_8h =
     [ "systick_counter_enable", "systick_8h.html#gad1b556d07d6f0e3c0e55dc269e30a98a", null ],
     [ "systick_get_calib", "systick_8h.html#gab4bac496ec8a74914b6f4dc87471d586", null ],
     [ "systick_get_countflag", "systick_8h.html#ga6046a990cab767ab46dbe113d0929d6c", null ],
+    [ "systick_get_reload", "systick_8h.html#ga3fb33b45c79720f5455332f103ea9c42", null ],
     [ "systick_get_value", "systick_8h.html#ga21390939e21bc6c4ef00fe1c798ae060", null ],
     [ "systick_interrupt_disable", "systick_8h.html#gaee4e252973ddd7c5ffaa872da3b6a3fe", null ],
     [ "systick_interrupt_enable", "systick_8h.html#ga062163783d8d4106c8b945ed97b4decc", null ],

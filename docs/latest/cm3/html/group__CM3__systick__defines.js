@@ -16,6 +16,7 @@ var group__CM3__systick__defines =
     [ "systick_counter_enable", "group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a", null ],
     [ "systick_get_calib", "group__CM3__systick__defines.html#gab4bac496ec8a74914b6f4dc87471d586", null ],
     [ "systick_get_countflag", "group__CM3__systick__defines.html#ga6046a990cab767ab46dbe113d0929d6c", null ],
+    [ "systick_get_reload", "group__CM3__systick__defines.html#ga3fb33b45c79720f5455332f103ea9c42", null ],
     [ "systick_get_value", "group__CM3__systick__defines.html#ga21390939e21bc6c4ef00fe1c798ae060", null ],
     [ "systick_interrupt_disable", "group__CM3__systick__defines.html#gaee4e252973ddd7c5ffaa872da3b6a3fe", null ],
     [ "systick_interrupt_enable", "group__CM3__systick__defines.html#ga062163783d8d4106c8b945ed97b4decc", null ],
