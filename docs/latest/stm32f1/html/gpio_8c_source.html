@@ -281,9 +281,9 @@ $(document).ready(function(){initNavTree('gpio_8c_source.html','');});
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment">                @ref afio_remap_usart3. For connectivity line devices only @ref afio_remap_cld are</span></div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="comment">        also available.</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00165"></a><span class="lineno"><a class="code" href="group__gpio__file.html#ga482778b2525c545940de39fbf9ace3b3">  165</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga8c3efbd85b7be86d8315603317e263c8" title="Map Alternate Function Port Bits (Main Set)">gpio_primary_remap</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> swjdisable, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> maps)</div>
+<div class="line"><a name="l00165"></a><span class="lineno"><a class="code" href="group__gpio__file.html#ga2f5ad9da96cac415f5fb851e7a57554b">  165</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga09abe2f2f64812a4580050dbd34a4ff3" title="Map Alternate Function Port Bits (Main Set)">gpio_primary_remap</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> swjdisable, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> maps)</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;{</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <a class="code" href="group__gpio__defines.html#gae4983ba45516afa359733c5515ffe233">AFIO_MAPR</a> |= swjdisable | (maps &amp; 0x1FFFFF);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <a class="code" href="group__gpio__defines.html#gae4983ba45516afa359733c5515ffe233">AFIO_MAPR</a> |= (swjdisable &amp; <a class="code" href="group__afio__swj__disable.html#ga29fff43023c3494539c938f107764416">AFIO_MAPR_SWJ_MASK</a>) | (maps &amp; 0x1FFFFF);</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;}</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">/*-----------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -312,7 +312,7 @@ $(document).ready(function(){initNavTree('gpio_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="gpio_8c.html">gpio.c</a></li>
-    <li class="footer">Generated on Tue Feb 26 2013 03:21:13 for libopencm3 by
+    <li class="footer">Generated on Tue Feb 26 2013 16:21:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

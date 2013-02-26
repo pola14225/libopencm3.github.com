@@ -433,7 +433,7 @@ var group__gpio__defines =
     [ "gpio_port_config_lock", "group__gpio__defines.html#gada75d7db796f14b6a2e7c291f636d2c6", null ],
     [ "gpio_port_read", "group__gpio__defines.html#ga00667ed71e76ab23562b50cffeb3cab5", null ],
     [ "gpio_port_write", "group__gpio__defines.html#gaf6a2d241b055d6f50db08305e901c526", null ],
-    [ "gpio_primary_remap", "group__gpio__defines.html#ga8c3efbd85b7be86d8315603317e263c8", null ],
+    [ "gpio_primary_remap", "group__gpio__defines.html#ga09abe2f2f64812a4580050dbd34a4ff3", null ],
     [ "gpio_secondary_remap", "group__gpio__defines.html#gadcd7a1f65fe961d3ed1cefa514d5d2f7", null ],
     [ "gpio_set", "group__gpio__defines.html#ga570d0f02cc0784882629bf4580b41e5b", null ],
     [ "gpio_set_eventout", "group__gpio__defines.html#ga2d8001859b926b5f419c937c6c679459", null ],

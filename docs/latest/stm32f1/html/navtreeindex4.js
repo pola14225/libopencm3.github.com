@@ -220,7 +220,7 @@ var NAVTREEINDEX4 =
 "gpio_8c.html":[16,0,21],
 "gpio_8c.html#ga1d6842eeec137bb2df7ef9614e193188":[16,0,21,3],
 "gpio_8c.html#ga2d8001859b926b5f419c937c6c679459":[16,0,21,2],
-"gpio_8c.html#ga482778b2525c545940de39fbf9ace3b3":[16,0,21,0],
+"gpio_8c.html#ga2f5ad9da96cac415f5fb851e7a57554b":[16,0,21,0],
 "gpio_8c.html#gadcd7a1f65fe961d3ed1cefa514d5d2f7":[16,0,21,1],
 "gpio_8c_source.html":[16,0,21],
 "gpio_8h.html":[16,0,22],

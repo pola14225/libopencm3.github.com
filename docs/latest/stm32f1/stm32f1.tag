@@ -7992,8 +7992,8 @@
       <type>void</type>
       <name>gpio_primary_remap</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga482778b2525c545940de39fbf9ace3b3</anchor>
-      <arglist>(u8 swjdisable, u32 maps)</arglist>
+      <anchor>ga2f5ad9da96cac415f5fb851e7a57554b</anchor>
+      <arglist>(u32 swjdisable, u32 maps)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -11596,8 +11596,8 @@
       <type>void</type>
       <name>gpio_primary_remap</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8c3efbd85b7be86d8315603317e263c8</anchor>
-      <arglist>(u8 swjenable, u32 maps)</arglist>
+      <anchor>ga09abe2f2f64812a4580050dbd34a4ff3</anchor>
+      <arglist>(u32 swjenable, u32 maps)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -27458,8 +27458,8 @@
       <type>void</type>
       <name>gpio_primary_remap</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8c3efbd85b7be86d8315603317e263c8</anchor>
-      <arglist>(u8 swjenable, u32 maps)</arglist>
+      <anchor>ga09abe2f2f64812a4580050dbd34a4ff3</anchor>
+      <arglist>(u32 swjenable, u32 maps)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -35525,8 +35525,8 @@
       <type>void</type>
       <name>gpio_primary_remap</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga482778b2525c545940de39fbf9ace3b3</anchor>
-      <arglist>(u8 swjdisable, u32 maps)</arglist>
+      <anchor>ga2f5ad9da96cac415f5fb851e7a57554b</anchor>
+      <arglist>(u32 swjdisable, u32 maps)</arglist>
     </member>
     <member kind="function">
       <type>void</type>

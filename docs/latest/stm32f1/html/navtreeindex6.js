@@ -1,8 +1,8 @@
 var NAVTREEINDEX6 =
 {
+"gpio_8h.html#ga8bd219b83bef843fd34c42f89410a898":[16,0,22,124],
 "gpio_8h.html#ga8bdbc5cb4bbd6cb00a6800e9aaef7b57":[16,0,22,106],
 "gpio_8h.html#ga8beccbdef18b82356f758aaad71e546f":[16,0,22,423],
-"gpio_8h.html#ga8c3efbd85b7be86d8315603317e263c8":[16,0,22,510],
 "gpio_8h.html#ga8d2bb163aba2864ca5376c785a9b52ff":[16,0,22,484],
 "gpio_8h.html#ga8d3d1f53c361a7bb58c1117d2f54fea8":[16,0,22,193],
 "gpio_8h.html#ga8d4fd0ff69da08c3697646d1213b75d1":[16,0,22,467],
