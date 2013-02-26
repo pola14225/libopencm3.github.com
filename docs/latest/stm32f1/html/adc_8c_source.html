@@ -473,7 +473,7 @@ $(document).ready(function(){initNavTree('adc_8c_source.html','');});
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;{</div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordflow">if</span> ( (length-1) &gt; 7 ) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <a class="code" href="group__STM32F1xx__adc__defines.html#ga88ba3b646afe631e6d5eeb8ec579d25a">ADC_CR1</a>(adc) |= <a class="code" href="group__STM32F1xx__adc__defines.html#gabd690297fc73fca40d797f4c90800b9a" title="Discontinuous mode on regular channels.">ADC_CR1_DISCEN</a>; </div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <a class="code" href="group__STM32F1xx__adc__defines.html#ga7015caf0db482a0772aadbcdb5a29b98">ADC_CR2</a>(adc) |= ((length-1) &lt;&lt; <a class="code" href="group__STM32F1xx__adc__defines.html#ga117c2cf0428216dae7e16d546479c415">ADC_CR1_DISCNUM_SHIFT</a>);</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <a class="code" href="group__STM32F1xx__adc__defines.html#ga88ba3b646afe631e6d5eeb8ec579d25a">ADC_CR1</a>(adc) |= ((length-1) &lt;&lt; <a class="code" href="group__STM32F1xx__adc__defines.html#ga117c2cf0428216dae7e16d546479c415">ADC_CR1_DISCNUM_SHIFT</a>);</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;}</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;</div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<span class="comment">/*-----------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -1164,7 +1164,7 @@ $(document).ready(function(){initNavTree('adc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="adc_8c.html">adc.c</a></li>
-    <li class="footer">Generated on Mon Feb 25 2013 15:21:16 for libopencm3 by
+    <li class="footer">Generated on Tue Feb 26 2013 03:21:13 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
