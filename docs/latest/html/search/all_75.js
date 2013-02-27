@@ -1,6 +1,7 @@
 var searchData=
 [
   ['usage_5ffault',['usage_fault',['../../cm3/html/structvector__table__t.html#a9bc2b639e5ac8019bfad3a97cb35e414',1,'vector_table_t']]],
+  ['usage_5ffault_5fhandler',['usage_fault_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd',1,]]],
   ['usart_2ec',['usart.c',['../../stm32f1/html/usart_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/usart_8c.html',1,'(Global Namespace)']]],
   ['usart_2eh',['usart.h',['../../stm32f1/html/usart_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/usart_8h.html',1,'(Global Namespace)']]],
   ['usart_5fcommon_5fall_2ec',['usart_common_all.c',['../../stm32f1/html/usart__common__all_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/usart__common__all_8c.html',1,'(Global Namespace)']]],

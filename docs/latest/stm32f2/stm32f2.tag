@@ -14219,6 +14219,13 @@
       <arglist>(u32 spi)</arglist>
     </member>
     <member kind="function">
+      <type>u16</type>
+      <name>spi_clean_disable</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga59ceb29201f41181372b8e414ddacfe3</anchor>
+      <arglist>(u32 spi)</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>spi_write</name>
       <anchorfile>group__spi__file.html</anchorfile>
@@ -15320,6 +15327,13 @@
       <name>spi_disable</name>
       <anchorfile>group__spi__defines.html</anchorfile>
       <anchor>gaf370cdda0bd424244a85cf7eb74647a1</anchor>
+      <arglist>(u32 spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>spi_clean_disable</name>
+      <anchorfile>group__spi__defines.html</anchorfile>
+      <anchor>ga59ceb29201f41181372b8e414ddacfe3</anchor>
       <arglist>(u32 spi)</arglist>
     </member>
     <member kind="function">
@@ -21258,6 +21272,13 @@
       <arglist>(u32 spi)</arglist>
     </member>
     <member kind="function">
+      <type>u16</type>
+      <name>spi_clean_disable</name>
+      <anchorfile>group__spi__defines.html</anchorfile>
+      <anchor>ga59ceb29201f41181372b8e414ddacfe3</anchor>
+      <arglist>(u32 spi)</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>spi_write</name>
       <anchorfile>group__spi__defines.html</anchorfile>
@@ -25533,6 +25554,13 @@
       <name>spi_disable</name>
       <anchorfile>group__spi__file.html</anchorfile>
       <anchor>gaf370cdda0bd424244a85cf7eb74647a1</anchor>
+      <arglist>(u32 spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>spi_clean_disable</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga59ceb29201f41181372b8e414ddacfe3</anchor>
       <arglist>(u32 spi)</arglist>
     </member>
     <member kind="function">

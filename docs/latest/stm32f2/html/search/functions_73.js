@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['spi_5fclean_5fdisable',['spi_clean_disable',['../group__spi__defines.html#ga59ceb29201f41181372b8e414ddacfe3',1,'spi_clean_disable(u32 spi):&#160;spi_common_all.c'],['../group__spi__file.html#ga59ceb29201f41181372b8e414ddacfe3',1,'spi_clean_disable(u32 spi):&#160;spi_common_all.c']]],
   ['spi_5fdisable',['spi_disable',['../group__spi__defines.html#gaf370cdda0bd424244a85cf7eb74647a1',1,'spi_disable(u32 spi):&#160;spi_common_all.c'],['../group__spi__file.html#gaf370cdda0bd424244a85cf7eb74647a1',1,'spi_disable(u32 spi):&#160;spi_common_all.c']]],
   ['spi_5fdisable_5fcrc',['spi_disable_crc',['../group__spi__defines.html#ga1559b488c118a1378e14a0c431cb5b5d',1,'spi_disable_crc(u32 spi):&#160;spi_common_all.c'],['../group__spi__file.html#ga1559b488c118a1378e14a0c431cb5b5d',1,'spi_disable_crc(u32 spi):&#160;spi_common_all.c']]],
   ['spi_5fdisable_5ferror_5finterrupt',['spi_disable_error_interrupt',['../group__spi__defines.html#gad4343fbfc4811a6bc40cacca40cb427c',1,'spi_disable_error_interrupt(u32 spi):&#160;spi_common_all.c'],['../group__spi__file.html#gad4343fbfc4811a6bc40cacca40cb427c',1,'spi_disable_error_interrupt(u32 spi):&#160;spi_common_all.c']]],
@@ -45,6 +46,8 @@ var searchData=
   ['spi_5fset_5funidirectional_5fmode',['spi_set_unidirectional_mode',['../group__spi__defines.html#ga3592c5286b94fab3714215157fae24bc',1,'spi_set_unidirectional_mode(u32 spi):&#160;spi_common_all.c'],['../group__spi__file.html#ga3592c5286b94fab3714215157fae24bc',1,'spi_set_unidirectional_mode(u32 spi):&#160;spi_common_all.c']]],
   ['spi_5fwrite',['spi_write',['../group__spi__defines.html#ga2db53ca4fd33ed2948b92624074baaf7',1,'spi_write(u32 spi, u16 data):&#160;spi_common_all.c'],['../group__spi__file.html#ga2db53ca4fd33ed2948b92624074baaf7',1,'spi_write(u32 spi, u16 data):&#160;spi_common_all.c']]],
   ['spi_5fxfer',['spi_xfer',['../group__spi__defines.html#ga71a49f7a3d4b976d32eef9da45a6010f',1,'spi_xfer(u32 spi, u16 data):&#160;spi_common_all.c'],['../group__spi__file.html#ga71a49f7a3d4b976d32eef9da45a6010f',1,'spi_xfer(u32 spi, u16 data):&#160;spi_common_all.c']]],
+  ['sv_5fcall_5fhandler',['sv_call_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,]]],
+  ['sys_5ftick_5fhandler',['sys_tick_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,]]],
   ['systick_5fcounter_5fdisable',['systick_counter_disable',['../../../cm3/html/group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4',1,]]],
   ['systick_5fcounter_5fenable',['systick_counter_enable',['../../../cm3/html/group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a',1,]]],
   ['systick_5fget_5fcalib',['systick_get_calib',['../../../cm3/html/group__CM3__systick__defines.html#gab4bac496ec8a74914b6f4dc87471d586',1,]]],

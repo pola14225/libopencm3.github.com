@@ -1,6 +1,7 @@
 var searchData=
 [
   ['pend_5fsv',['pend_sv',['../../../cm3/html/structvector__table__t.html#afe26c2d806f2caef1935e36c053d7023',1,'vector_table_t']]],
+  ['pend_5fsv_5fhandler',['pend_sv_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga214eb2c5d993ec1fe7b0a25dd428d3ae',1,]]],
   ['periph_5fbase',['PERIPH_BASE',['../memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0',1,'memorymap.h']]],
   ['periph_5fbase_5fahb1',['PERIPH_BASE_AHB1',['../memorymap_8h.html#a6a7a706e5a4df2eed7899e972a183084',1,'memorymap.h']]],
   ['periph_5fbase_5fahb2',['PERIPH_BASE_AHB2',['../memorymap_8h.html#ad9208ba47ecaa9ac1eb39e7db2b9b5f8',1,'memorymap.h']]],

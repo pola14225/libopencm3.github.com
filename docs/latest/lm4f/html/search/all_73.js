@@ -64,6 +64,8 @@ var searchData=
   ['scc_5fwtimer5',['SCC_WTIMER5',['../systemcontrol_8h.html#a9fbad613b184a3b51402b61135965959af497645a2e76034377d94db5bffda572',1,'systemcontrol.h']]],
   ['scs_2eh',['scs.h',['../../../cm3/html/scs_8h.html',1,'']]],
   ['sv_5fcall',['sv_call',['../../../cm3/html/structvector__table__t.html#ace5b229bd0e04cbc018c8457168640a4',1,'vector_table_t']]],
+  ['sv_5fcall_5fhandler',['sv_call_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,]]],
+  ['sys_5ftick_5fhandler',['sys_tick_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,]]],
   ['sysctl_5fbase',['SYSCTL_BASE',['../memorymap_8h.html#a568834119b9aae01b7f69e8a012d3bf9',1,'memorymap.h']]],
   ['sysctl_5fdcgcacmp',['SYSCTL_DCGCACMP',['../systemcontrol_8h.html#a755efcbb2b5fbfbbec6a7b0bd0f617e0',1,'systemcontrol.h']]],
   ['sysctl_5fdcgcadc',['SYSCTL_DCGCADC',['../systemcontrol_8h.html#ab5ac513e510f39d285a9450e3edb3036',1,'systemcontrol.h']]],

@@ -16,6 +16,12 @@ var nvic_8h =
     [ "NVIC_SV_CALL_IRQ", "nvic_8h.html#gaaefda4fe69bd9acbd73c12ff2d023ad2", null ],
     [ "NVIC_SYSTICK_IRQ", "nvic_8h.html#gafd650ffcb7f54e1f619d2ff3b1331d1f", null ],
     [ "NVIC_USAGE_FAULT_IRQ", "nvic_8h.html#gaa5477aa1c88059e4a0f84622795b0ea9", null ],
+    [ "WEAK", "nvic_8h.html#gad1480e9557edcc543498ca259cee6c7d", null ],
+    [ "bus_fault_handler", "nvic_8h.html#ga84d66788b2cf78279367a038ccc07693", null ],
+    [ "debug_monitor_handler", "nvic_8h.html#ga4e2402066ee0ed85e53a72e2b6ee4be2", null ],
+    [ "hard_fault_handler", "nvic_8h.html#gae29640317be4df735067ff164aeeee0f", null ],
+    [ "mem_manage_handler", "nvic_8h.html#ga8a6f0bde31b38dec02a263eec9a7b816", null ],
+    [ "nmi_handler", "nvic_8h.html#ga181d6892388ef1987ba92d0ae80e9359", null ],
     [ "nvic_clear_pending_irq", "nvic_8h.html#ga912739401591c8c16d54b68bf6a19145", null ],
     [ "nvic_disable_irq", "nvic_8h.html#gaed0997045521d8dd7171a1efb9735b2f", null ],
     [ "nvic_enable_irq", "nvic_8h.html#ga959934e2712ce7672d2a947d9ca42d32", null ],
@@ -24,5 +30,10 @@ var nvic_8h =
     [ "nvic_get_irq_enabled", "nvic_8h.html#ga760014a2f28e2c08c2c5ca8995541cf5", null ],
     [ "nvic_get_pending_irq", "nvic_8h.html#ga32e4ae1adc2e9f7f9de43da182004417", null ],
     [ "nvic_set_pending_irq", "nvic_8h.html#ga4fc9f0e63460ac98ddd9e0ba18d611a5", null ],
-    [ "nvic_set_priority", "nvic_8h.html#ga8d32953be2608382a7adfa053328b7ba", null ]
+    [ "nvic_set_priority", "nvic_8h.html#ga8d32953be2608382a7adfa053328b7ba", null ],
+    [ "pend_sv_handler", "nvic_8h.html#ga214eb2c5d993ec1fe7b0a25dd428d3ae", null ],
+    [ "reset_handler", "nvic_8h.html#gaa13f582a41a6b190667d0ecd9c31072f", null ],
+    [ "sv_call_handler", "nvic_8h.html#ga38e39ab596274b8e97de76609cefa80a", null ],
+    [ "sys_tick_handler", "nvic_8h.html#gae71d437809f2932d8f4e2e993732497d", null ],
+    [ "usage_fault_handler", "nvic_8h.html#ga251b47f133382eae44fcf71ea3475acd", null ]
 ];

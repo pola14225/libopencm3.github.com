@@ -92,6 +92,7 @@ var group__spi__defines =
     [ "SPI_SR_TXE", "group__spi__defines.html#ga5bd5d21816947fcb25ccae7d3bf8eb2c", null ],
     [ "SPI_SR_UDR", "group__spi__defines.html#ga13d3292e963499c0e9a36869909229e6", null ],
     [ "SPI_TXCRCR", "group__spi__defines.html#gaf9558028fb34815a55a7e1c120293c9a", null ],
+    [ "spi_clean_disable", "group__spi__defines.html#ga59ceb29201f41181372b8e414ddacfe3", null ],
     [ "spi_disable", "group__spi__defines.html#gaf370cdda0bd424244a85cf7eb74647a1", null ],
     [ "spi_disable_crc", "group__spi__defines.html#ga1559b488c118a1378e14a0c431cb5b5d", null ],
     [ "spi_disable_error_interrupt", "group__spi__defines.html#gad4343fbfc4811a6bc40cacca40cb427c", null ],

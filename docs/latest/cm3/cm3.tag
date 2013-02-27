@@ -812,6 +812,13 @@
       <anchor>gafd650ffcb7f54e1f619d2ff3b1331d1f</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>WEAK</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>gad1480e9557edcc543498ca259cee6c7d</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>nvic_enable_irq</name>
@@ -874,6 +881,76 @@
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>ga428725e696c0467c102d171425c93799</anchor>
       <arglist>(u16 irqn)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>reset_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>gaa13f582a41a6b190667d0ecd9c31072f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>nmi_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga181d6892388ef1987ba92d0ae80e9359</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>hard_fault_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>gae29640317be4df735067ff164aeeee0f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>mem_manage_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga8a6f0bde31b38dec02a263eec9a7b816</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>bus_fault_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga84d66788b2cf78279367a038ccc07693</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>usage_fault_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga251b47f133382eae44fcf71ea3475acd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>sv_call_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga38e39ab596274b8e97de76609cefa80a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>debug_monitor_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga4e2402066ee0ed85e53a72e2b6ee4be2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>pend_sv_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga214eb2c5d993ec1fe7b0a25dd428d3ae</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>sys_tick_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>gae71d437809f2932d8f4e2e993732497d</anchor>
+      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2610,6 +2687,13 @@
       <anchor>gaaa80bc30d455351b9231f252632d481b</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>WEAK</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>gad1480e9557edcc543498ca259cee6c7d</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>nvic_enable_irq</name>
@@ -2672,6 +2756,76 @@
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>ga428725e696c0467c102d171425c93799</anchor>
       <arglist>(u16 irqn)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>reset_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>gaa13f582a41a6b190667d0ecd9c31072f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>nmi_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga181d6892388ef1987ba92d0ae80e9359</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>hard_fault_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>gae29640317be4df735067ff164aeeee0f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>mem_manage_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga8a6f0bde31b38dec02a263eec9a7b816</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>bus_fault_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga84d66788b2cf78279367a038ccc07693</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>usage_fault_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga251b47f133382eae44fcf71ea3475acd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>sv_call_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga38e39ab596274b8e97de76609cefa80a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>debug_monitor_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga4e2402066ee0ed85e53a72e2b6ee4be2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>pend_sv_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>ga214eb2c5d993ec1fe7b0a25dd428d3ae</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void WEAK</type>
+      <name>sys_tick_handler</name>
+      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
+      <anchor>gae71d437809f2932d8f4e2e993732497d</anchor>
+      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="group">

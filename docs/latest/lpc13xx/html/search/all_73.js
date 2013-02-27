@@ -5,6 +5,8 @@ var searchData=
   ['scs_2eh',['scs.h',['../../../cm3/html/scs_8h.html',1,'']]],
   ['ssp_5fbase',['SSP_BASE',['../memorymap_8h.html#a3c7d92bf868502c51e101e93ff1c7563',1,'memorymap.h']]],
   ['sv_5fcall',['sv_call',['../../../cm3/html/structvector__table__t.html#ace5b229bd0e04cbc018c8457168640a4',1,'vector_table_t']]],
+  ['sv_5fcall_5fhandler',['sv_call_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,]]],
+  ['sys_5ftick_5fhandler',['sys_tick_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,]]],
   ['sysctrl_5fbase',['SYSCTRL_BASE',['../memorymap_8h.html#aec1d72e4427b51a40b6ef5dd8299f95c',1,'memorymap.h']]],
   ['systick',['systick',['../../../cm3/html/structvector__table__t.html#acf9d4ecb17d3ebecbcbd24966c18102f',1,'vector_table_t']]],
   ['systick_2eh',['systick.h',['../../../cm3/html/systick_8h.html',1,'']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"group__spi__reg__base.html#gaf2c3d8ce359dcfbb2261e07ed42af72b":[6,1,8,0,1],
+"group__usart__cr1__mode.html":[6,1,9,3],
 "group__usart__cr1__mode.html#ga3efdc5989048ad122a5c9c1e325bb89c":[6,1,9,3,0],
 "group__usart__cr1__mode.html#ga7a2fcdc3486d2675cc147811b996eb16":[6,1,9,3,1],
 "group__usart__cr1__mode.html#ga82418ff60ab8dac647eb7a6ba6db1284":[6,1,9,3,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "i2c__common__all_8h.html#ga4598185d9092edfbf943464bcbb342ac":[17,0,22,28],
 "i2c__common__all_8h.html#ga48139cae20eb928299d34f7203abe678":[17,0,22,103],
 "i2c__common__all_8h.html#ga4b2976279024e832e53ad12796a7bb71":[17,0,22,97],
-"i2c__common__all_8h.html#ga4cfee7b020a49bd037fa7cf27c796abc":[17,0,22,36],
-"i2c__common__all_8h.html#ga5322887d34ae3f4440254a314f9d8cd3":[17,0,22,127],
-"i2c__common__all_8h.html#ga536bd697b493eb3006c06612037ce589":[17,0,22,63]
+"i2c__common__all_8h.html#ga4cfee7b020a49bd037fa7cf27c796abc":[17,0,22,36]
 };

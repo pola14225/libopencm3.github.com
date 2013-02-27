@@ -1,5 +1,6 @@
 var group__spi__file =
 [
+    [ "spi_clean_disable", "group__spi__file.html#ga59ceb29201f41181372b8e414ddacfe3", null ],
     [ "spi_disable", "group__spi__file.html#gaf370cdda0bd424244a85cf7eb74647a1", null ],
     [ "spi_disable_crc", "group__spi__file.html#ga1559b488c118a1378e14a0c431cb5b5d", null ],
     [ "spi_disable_error_interrupt", "group__spi__file.html#gad4343fbfc4811a6bc40cacca40cb427c", null ],

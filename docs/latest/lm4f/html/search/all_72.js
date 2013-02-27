@@ -85,5 +85,6 @@ var searchData=
   ['rcc_5fwtimer5',['RCC_WTIMER5',['../systemcontrol_8h.html#a9fbad613b184a3b51402b61135965959ab7be18f91861ada479d141a71cdc4a73',1,'systemcontrol.h']]],
   ['reserved_5fx001c',['reserved_x001c',['../../../cm3/html/structvector__table__t.html#a6578b9135633f588aee27e73367546e9',1,'vector_table_t']]],
   ['reserved_5fx0034',['reserved_x0034',['../../../cm3/html/structvector__table__t.html#aed397ae787125497ae9869cbe2673500',1,'vector_table_t']]],
-  ['reset',['reset',['../../../cm3/html/structvector__table__t.html#adc4942c678a88cab8494a58f80428077',1,'vector_table_t']]]
+  ['reset',['reset',['../../../cm3/html/structvector__table__t.html#adc4942c678a88cab8494a58f80428077',1,'vector_table_t']]],
+  ['reset_5fhandler',['reset_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gaa13f582a41a6b190667d0ecd9c31072f',1,]]]
 ];

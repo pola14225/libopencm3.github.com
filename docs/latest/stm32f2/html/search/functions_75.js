@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['usage_5ffault_5fhandler',['usage_fault_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd',1,]]],
   ['usart_5fdisable',['usart_disable',['../group__usart__defines.html#gaf0706787c9be24e8bd86090819d57d50',1,'usart_disable(u32 usart):&#160;usart_common_all.c'],['../group__usart__file.html#gaf0706787c9be24e8bd86090819d57d50',1,'usart_disable(u32 usart):&#160;usart_common_all.c']]],
   ['usart_5fdisable_5ferror_5finterrupt',['usart_disable_error_interrupt',['../group__usart__defines.html#gaf76dc23c5cf79a29e81ef314004dff65',1,'usart_disable_error_interrupt(u32 usart):&#160;usart_common_all.c'],['../group__usart__file.html#gaf76dc23c5cf79a29e81ef314004dff65',1,'usart_disable_error_interrupt(u32 usart):&#160;usart_common_all.c']]],
   ['usart_5fdisable_5frx_5fdma',['usart_disable_rx_dma',['../group__usart__defines.html#ga6735a9262d89a63746eb7eb4c69cc26c',1,'usart_disable_rx_dma(u32 usart):&#160;usart_common_all.c'],['../group__usart__file.html#ga6735a9262d89a63746eb7eb4c69cc26c',1,'usart_disable_rx_dma(u32 usart):&#160;usart_common_all.c']]],

@@ -30,6 +30,7 @@ var searchData=
   ['data_5falign',['data_align',['../../stm32f1/html/group__dac__defines.html#ga3f15c2d8c2dcfbc06b58b09e4c2d7b3c',1,'data_align()(Global Namespace)'],['../../stm32f4/html/group__dac__defines.html#ga3f15c2d8c2dcfbc06b58b09e4c2d7b3c',1,'data_align()(Global Namespace)']]],
   ['data_5fchannel',['data_channel',['../../stm32f1/html/group__dac__defines.html#gaddb2a9646f5222113db5545109cc700b',1,'data_channel()(Global Namespace)'],['../../stm32f4/html/group__dac__defines.html#gaddb2a9646f5222113db5545109cc700b',1,'data_channel()(Global Namespace)']]],
   ['debug_5fmonitor',['debug_monitor',['../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
+  ['debug_5fmonitor_5fhandler',['debug_monitor_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2',1,]]],
   ['debugging',['Debugging',['../../cm3/html/group__debugging.html',1,'']]],
   ['dma_2ec',['dma.c',['../../stm32f1/html/dma_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/dma_8c.html',1,'(Global Namespace)']]],
   ['dma_2eh',['dma.h',['../../stm32f1/html/dma_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/dma_8h.html',1,'(Global Namespace)']]],

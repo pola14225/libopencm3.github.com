@@ -142,6 +142,7 @@ var searchData=
   ['dbgmcu_5fbase',['DBGMCU_BASE',['../memorymap_8h.html#a4adaf4fd82ccc3a538f1f27a70cdbbef',1,'memorymap.h']]],
   ['dcmi_5fbase',['DCMI_BASE',['../memorymap_8h.html#a55b794507e021135486de57129a2505c',1,'memorymap.h']]],
   ['debug_5fmonitor',['debug_monitor',['../../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
+  ['debug_5fmonitor_5fhandler',['debug_monitor_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2',1,]]],
   ['debugging',['Debugging',['../../../cm3/html/group__debugging.html',1,'']]],
   ['dma_2ec',['dma.c',['../dma_8c.html',1,'']]],
   ['dma_2eh',['dma.h',['../dma_8h.html',1,'']]],

@@ -3,6 +3,8 @@ var searchData=
   ['scb_5freset_5fcore',['scb_reset_core',['../scb_8h.html#a5587367051fa35e27e6fc47d63cca5f4',1,'scb.h']]],
   ['scb_5freset_5fsystem',['scb_reset_system',['../scb_8h.html#aad4d08be4e2b209f97d3276b7c7731e6',1,'scb.h']]],
   ['scb_5fset_5fpriority_5fgrouping',['scb_set_priority_grouping',['../scb_8h.html#a0e97a2ebc013118cb220542999db3d8b',1,'scb.h']]],
+  ['sv_5fcall_5fhandler',['sv_call_handler',['../group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,'nvic.h']]],
+  ['sys_5ftick_5fhandler',['sys_tick_handler',['../group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,'nvic.h']]],
   ['systick_5fcounter_5fdisable',['systick_counter_disable',['../group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4',1,'systick.h']]],
   ['systick_5fcounter_5fenable',['systick_counter_enable',['../group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a',1,'systick.h']]],
   ['systick_5fget_5fcalib',['systick_get_calib',['../group__CM3__systick__defines.html#gab4bac496ec8a74914b6f4dc87471d586',1,'systick.h']]],

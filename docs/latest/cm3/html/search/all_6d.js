@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['mem_5fmanage_5fhandler',['mem_manage_handler',['../group__CM3__nvic__defines.html#ga8a6f0bde31b38dec02a263eec9a7b816',1,'nvic.h']]],
   ['memory_5fmanage_5ffault',['memory_manage_fault',['../structvector__table__t.html#a0f471d2e9ba10298c9a292dbf59aafde',1,'vector_table_t']]],
   ['memorymap_2eh',['memorymap.h',['../memorymap_8h.html',1,'']]],
   ['mmio16',['MMIO16',['../common_8h.html#abb0189383a963a89a7607442c420ba3f',1,'common.h']]],

@@ -33,5 +33,6 @@ var searchData=
   ['bit7',['BIT7',['../common_8h.html#aa6b8f3261ae9e2e1043380c192f7b5f0',1,'common.h']]],
   ['bit8',['BIT8',['../common_8h.html#a0e80e65237843fa1ff15c68cd78066f8',1,'common.h']]],
   ['bit9',['BIT9',['../common_8h.html#a3aa20ab5eb33383fa31b0e94f4401cdf',1,'common.h']]],
-  ['bus_5ffault',['bus_fault',['../structvector__table__t.html#a4c2b5debe7567df33665bca4ab8a4b2c',1,'vector_table_t']]]
+  ['bus_5ffault',['bus_fault',['../structvector__table__t.html#a4c2b5debe7567df33665bca4ab8a4b2c',1,'vector_table_t']]],
+  ['bus_5ffault_5fhandler',['bus_fault_handler',['../group__CM3__nvic__defines.html#ga84d66788b2cf78279367a038ccc07693',1,'nvic.h']]]
 ];

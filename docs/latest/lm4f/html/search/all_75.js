@@ -8,5 +8,6 @@ var searchData=
   ['uart5_5fbase',['UART5_BASE',['../memorymap_8h.html#aa155689c0e206e6994951dc3cf31052a',1,'memorymap.h']]],
   ['uart6_5fbase',['UART6_BASE',['../memorymap_8h.html#a77f0753cf94e8b7b3e04a52a896f9dcb',1,'memorymap.h']]],
   ['uart7_5fbase',['UART7_BASE',['../memorymap_8h.html#a3150e4b10ec876c0b20f22de12a8fa40',1,'memorymap.h']]],
-  ['usage_5ffault',['usage_fault',['../../../cm3/html/structvector__table__t.html#a9bc2b639e5ac8019bfad3a97cb35e414',1,'vector_table_t']]]
+  ['usage_5ffault',['usage_fault',['../../../cm3/html/structvector__table__t.html#a9bc2b639e5ac8019bfad3a97cb35e414',1,'vector_table_t']]],
+  ['usage_5ffault_5fhandler',['usage_fault_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd',1,]]]
 ];

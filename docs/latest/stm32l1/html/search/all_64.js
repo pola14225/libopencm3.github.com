@@ -141,6 +141,7 @@ var searchData=
   ['data_5fchannel',['data_channel',['../group__dac__defines.html#gaddb2a9646f5222113db5545109cc700b',1,'dac_common_all.h']]],
   ['dbgmcu_5fbase',['DBGMCU_BASE',['../memorymap_8h.html#a4adaf4fd82ccc3a538f1f27a70cdbbef',1,'memorymap.h']]],
   ['debug_5fmonitor',['debug_monitor',['../../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
+  ['debug_5fmonitor_5fhandler',['debug_monitor_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2',1,]]],
   ['debugging',['Debugging',['../../../cm3/html/group__debugging.html',1,'']]],
   ['desig_5fflash_5fsize_5fbase',['DESIG_FLASH_SIZE_BASE',['../memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1',1,'memorymap.h']]],
   ['desig_5funique_5fid_5fbase',['DESIG_UNIQUE_ID_BASE',['../memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b',1,'memorymap.h']]],

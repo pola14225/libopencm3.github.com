@@ -6,6 +6,8 @@ var searchData=
   ['ssp_5fread',['ssp_read',['../ssp_8h.html#aa8f794ca6faef448cbfd0d74f0bacf33',1,'ssp_read(ssp_num_t ssp_num):&#160;ssp.c'],['../ssp_8c.html#aa8f794ca6faef448cbfd0d74f0bacf33',1,'ssp_read(ssp_num_t ssp_num):&#160;ssp.c']]],
   ['ssp_5fwait_5funtil_5fnot_5fbusy',['ssp_wait_until_not_busy',['../ssp_8c.html#af3606050c56f9e7ccfbb91f703d38e46',1,'ssp.c']]],
   ['ssp_5fwrite',['ssp_write',['../ssp_8h.html#a367036890409f4a16496ffafa6ad6471',1,'ssp_write(ssp_num_t ssp_num, u16 data):&#160;ssp.c'],['../ssp_8c.html#a367036890409f4a16496ffafa6ad6471',1,'ssp_write(ssp_num_t ssp_num, u16 data):&#160;ssp.c']]],
+  ['sv_5fcall_5fhandler',['sv_call_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,]]],
+  ['sys_5ftick_5fhandler',['sys_tick_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,]]],
   ['systick_5fcounter_5fdisable',['systick_counter_disable',['../../../cm3/html/group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4',1,]]],
   ['systick_5fcounter_5fenable',['systick_counter_enable',['../../../cm3/html/group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a',1,]]],
   ['systick_5fget_5fcalib',['systick_get_calib',['../../../cm3/html/group__CM3__systick__defines.html#gab4bac496ec8a74914b6f4dc87471d586',1,]]],

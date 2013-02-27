@@ -71,6 +71,7 @@ var searchData=
   ['reset_5fext_5fstat7',['RESET_EXT_STAT7',['../rgu_8h.html#a124f55a836a30124c1e5b0561582b702',1,'rgu.h']]],
   ['reset_5fext_5fstat8',['RESET_EXT_STAT8',['../rgu_8h.html#a2455231e7c6a4de23ecc2e80e47248ee',1,'rgu.h']]],
   ['reset_5fext_5fstat9',['RESET_EXT_STAT9',['../rgu_8h.html#a92805bac4daa751c02940e54a379e6cd',1,'rgu.h']]],
+  ['reset_5fhandler',['reset_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gaa13f582a41a6b190667d0ecd9c31072f',1,]]],
   ['reset_5fstatus0',['RESET_STATUS0',['../rgu_8h.html#a66353c6e96cd2844c2da78093a2c90fd',1,'rgu.h']]],
   ['reset_5fstatus1',['RESET_STATUS1',['../rgu_8h.html#af4a064ba284b2e04785fab7b659d2ac2',1,'rgu.h']]],
   ['reset_5fstatus2',['RESET_STATUS2',['../rgu_8h.html#aa6bb6e598bceddd30d54c9b0a8db156d',1,'rgu.h']]],

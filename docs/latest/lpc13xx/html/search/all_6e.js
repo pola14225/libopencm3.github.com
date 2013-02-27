@@ -2,6 +2,7 @@ var searchData=
 [
   ['nvic_20defines',['NVIC Defines',['../../../cm3/html/group__CM3__nvic__defines.html',1,'']]],
   ['nmi',['nmi',['../../../cm3/html/structvector__table__t.html#a7da79b1d8184e743b15a5c878250b68a',1,'vector_table_t']]],
+  ['nmi_5fhandler',['nmi_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga181d6892388ef1987ba92d0ae80e9359',1,]]],
   ['nvic_2eh',['nvic.h',['../../../cm3/html/nvic_8h.html',1,'']]],
   ['nvic_5fclear_5fpending_5firq',['nvic_clear_pending_irq',['../../../cm3/html/group__CM3__nvic__defines.html#ga912739401591c8c16d54b68bf6a19145',1,]]],
   ['nvic_5fdisable_5firq',['nvic_disable_irq',['../../../cm3/html/group__CM3__nvic__defines.html#gaed0997045521d8dd7171a1efb9735b2f',1,]]],

@@ -2,6 +2,7 @@ var searchData=
 [
   ['uart1_5fbase',['UART1_BASE',['../memorymap_8h.html#a383bf0c4670c3a7fa72df80f66331a46',1,'memorymap.h']]],
   ['usage_5ffault',['usage_fault',['../../../cm3/html/structvector__table__t.html#a9bc2b639e5ac8019bfad3a97cb35e414',1,'vector_table_t']]],
+  ['usage_5ffault_5fhandler',['usage_fault_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd',1,]]],
   ['usart0_5fbase',['USART0_BASE',['../memorymap_8h.html#ac0876dab14e1a1017ec198c230ada762',1,'memorymap.h']]],
   ['usart2_5fbase',['USART2_BASE',['../memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090',1,'memorymap.h']]],
   ['usart3_5fbase',['USART3_BASE',['../memorymap_8h.html#abe0d6539ac0026d598274ee7f45b0251',1,'memorymap.h']]],

@@ -61,6 +61,7 @@ var searchData=
   ['dcc_5fwtimer4',['DCC_WTIMER4',['../systemcontrol_8h.html#a9fbad613b184a3b51402b61135965959a4049b8d01dbe4fe6ad17d4af74ad4757',1,'systemcontrol.h']]],
   ['dcc_5fwtimer5',['DCC_WTIMER5',['../systemcontrol_8h.html#a9fbad613b184a3b51402b61135965959a43d42bf96f91a44c4fb69aa9b21e7bad',1,'systemcontrol.h']]],
   ['debug_5fmonitor',['debug_monitor',['../../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
+  ['debug_5fmonitor_5fhandler',['debug_monitor_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2',1,]]],
   ['debugging',['Debugging',['../../../cm3/html/group__debugging.html',1,'']]],
   ['doc_2dcm3_2eh',['doc-cm3.h',['../../../cm3/html/doc-cm3_8h.html',1,'']]],
   ['doc_2dlm4f_2eh',['doc-lm4f.h',['../doc-lm4f_8h.html',1,'']]]
