@@ -114,7 +114,8 @@ $(document).ready(function(){initNavTree('gpio_8h.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">gpio.h File Reference</div>  </div>
 </div><!--header-->
@@ -189,6 +190,10 @@ Macros</h2></td></tr>
 <tr class="memitem:a20120fb44cc9d5fd0607de0464b6f3c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gpio_8h.html#a20120fb44cc9d5fd0607de0464b6f3c4">GPIO1_IC</a>&#160;&#160;&#160;<a class="el" href="gpio_8h.html#a5e404d06ce049dd4a37dafe10ddc60cd">GPIO_IC</a>(<a class="el" href="gpio_8h.html#abe59d3a7ce7a18e9440bd54cae1f3fc8">GPIO1</a>)</td></tr>
 <tr class="memitem:ace7ea36c621a76579071fda3c3b7a690"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gpio_8h.html#ace7ea36c621a76579071fda3c3b7a690">GPIO2_IC</a>&#160;&#160;&#160;<a class="el" href="gpio_8h.html#a5e404d06ce049dd4a37dafe10ddc60cd">GPIO_IC</a>(<a class="el" href="gpio_8h.html#a88a95401ea8409c83cbda42f31450cd0">GPIO2</a>)</td></tr>
 <tr class="memitem:a7e5212bf733d2a3a3cd553086e97e443"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gpio_8h.html#a7e5212bf733d2a3a3cd553086e97e443">GPIO3_IC</a>&#160;&#160;&#160;<a class="el" href="gpio_8h.html#a5e404d06ce049dd4a37dafe10ddc60cd">GPIO_IC</a>(<a class="el" href="gpio_8h.html#af3cc04d651b622d5323d74dc2f0999a0">GPIO3</a>)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4f5f8d2c3d951f1b0138a207c8515db1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gpio_8h.html#a4f5f8d2c3d951f1b0138a207c8515db1">gpio_set</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gpios)</td></tr>
 </table>
 <h2>Macro Definition Documentation</h2>
 <a class="anchor" id="a20f88dbc839eb32b5fec903474befdd7"></a>
@@ -915,13 +920,44 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<h2>Function Documentation</h2>
+<a class="anchor" id="a4f5f8d2c3d951f1b0138a207c8515db1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void gpio_set </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00022">22</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00037">GPIO_DATA</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_78dacd6b61454eade97c89bae3564eb7.html">lpc13xx</a></li><li class="navelem"><a class="el" href="gpio_8h.html">gpio.h</a></li>
-    <li class="footer">Generated on Wed Feb 27 2013 02:21:24 for libopencm3 by
+    <li class="footer">Generated on Wed Feb 27 2013 03:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

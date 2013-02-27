@@ -276,6 +276,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:gae23943c57d87646d9594bfeca58a2a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Transmitter Interrupt Enable.  <a href="#gae23943c57d87646d9594bfeca58a2a55"></a><br/></td></tr>
 <tr class="memitem:ga01269d3f4422b9e58657873a75ae0b68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__defines.html#ga01269d3f4422b9e58657873a75ae0b68">usart_disable_tx_interrupt</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> usart)</td></tr>
 <tr class="memdesc:ga01269d3f4422b9e58657873a75ae0b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Transmitter Interrupt Disable.  <a href="#ga01269d3f4422b9e58657873a75ae0b68"></a><br/></td></tr>
+<tr class="memitem:ga872890c964dd33b79935a17e34f46c08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__defines.html#ga872890c964dd33b79935a17e34f46c08">usart_enable_error_interrupt</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> usart)</td></tr>
+<tr class="memdesc:ga872890c964dd33b79935a17e34f46c08"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Error Interrupt Enable.  <a href="#ga872890c964dd33b79935a17e34f46c08"></a><br/></td></tr>
+<tr class="memitem:gaf76dc23c5cf79a29e81ef314004dff65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__defines.html#gaf76dc23c5cf79a29e81ef314004dff65">usart_disable_error_interrupt</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> usart)</td></tr>
+<tr class="memdesc:gaf76dc23c5cf79a29e81ef314004dff65"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Error Interrupt Disable.  <a href="#gaf76dc23c5cf79a29e81ef314004dff65"></a><br/></td></tr>
 <tr class="memitem:ga814239da588ea3390a4055cf375468e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__defines.html#ga814239da588ea3390a4055cf375468e7">usart_get_flag</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> usart, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> flag)</td></tr>
 <tr class="memdesc:ga814239da588ea3390a4055cf375468e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Read a Status Flag.  <a href="#ga814239da588ea3390a4055cf375468e7"></a><br/></td></tr>
 <tr class="memitem:ga034cc055ba8cf70f367f1555a3e75d3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__defines.html#ga034cc055ba8cf70f367f1555a3e75d3b">usart_get_interrupt_source</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> usart, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> flag)</td></tr>
@@ -1658,6 +1662,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="gaf76dc23c5cf79a29e81ef314004dff65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void usart_disable_error_interrupt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>usart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USART Error Interrupt Disable. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00405">405</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+
+<p>References <a class="el" href="usart__common__all_8h_source.html#l00088">USART_CR3</a>, and <a class="el" href="usart__common__all_8h_source.html#l00272">USART_CR3_EIE</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga6735a9262d89a63746eb7eb4c69cc26c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1795,6 +1827,34 @@ Functions</h2></td></tr>
 <p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00180">180</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 <p>References <a class="el" href="usart__common__all_8h_source.html#l00072">USART_CR1</a>, and <a class="el" href="usart__common__all_8h_source.html#l00157">USART_CR1_UE</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga872890c964dd33b79935a17e34f46c08"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void usart_enable_error_interrupt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>usart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USART Error Interrupt Enable. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00394">394</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+
+<p>References <a class="el" href="usart__common__all_8h_source.html#l00088">USART_CR3</a>, and <a class="el" href="usart__common__all_8h_source.html#l00272">USART_CR3_EIE</a>.</p>
 
 </div>
 </div>
@@ -2509,7 +2569,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Feb 27 2013 02:21:12 for libopencm3 by
+    <li class="footer">Generated on Wed Feb 27 2013 03:21:14 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"rtc__common__bcd_8h.html#gafe66826ace722bf46d1e72aeb2c03c7c":[17,0,46,124],
+"rtc__common__bcd_8h.html#gafecc4ef831d8e4c2f56ad97d79c7a63d":[17,0,46,47],
 "rtc__common__bcd_8h_source.html":[17,0,46],
 "spi_8c.html":[17,0,47],
 "spi_8c_source.html":[17,0,47],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "timer_8h_source.html":[17,0,52],
 "usart_8c.html":[17,0,53],
 "usart_8c_source.html":[17,0,53],
-"usart_8h.html":[17,0,54],
-"usart_8h_source.html":[17,0,54],
-"usart__common__all_8c.html":[17,0,55]
+"usart_8h.html":[17,0,54]
 };

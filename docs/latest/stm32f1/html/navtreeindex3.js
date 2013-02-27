@@ -215,6 +215,7 @@ var NAVTREEINDEX3 =
 "ethernet_8h.html#a2e8dfe321aeaecaa87e290f4d6e710dc":[16,0,17,13],
 "ethernet_8h.html#a340605767fdf406c393f046be44a1e09":[16,0,17,128],
 "ethernet_8h.html#a355a8ef08cc4a431601016a076ae9562":[16,0,17,136],
+"ethernet_8h.html#a358a8e7e3ade9e72efae8f2d2e331188":[16,0,17,149],
 "ethernet_8h.html#a37fc5c9c473407d77a379d7032147b59":[16,0,17,30],
 "ethernet_8h.html#a38ad823b7d50c85fc620a9a93d250d54":[16,0,17,77],
 "ethernet_8h.html#a3a1dbaa66b668cffc375bc9b5520dfb4":[16,0,17,112],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "ethernet_8h.html#a717f163fe72c7e1c999123160dde4143":[16,0,17,4],
 "ethernet_8h.html#a7453e895e8848c6d2ed7c9f978e97482":[16,0,17,8],
 "ethernet_8h.html#a7485dfc36920079da073f0f3b5301e84":[16,0,17,118],
-"ethernet_8h.html#a75794e848f34741e5ff47bf9194513f1":[16,0,17,54],
-"ethernet_8h.html#a764dd9b736867f6c5b590c7ca49017c2":[16,0,17,123]
+"ethernet_8h.html#a75794e848f34741e5ff47bf9194513f1":[16,0,17,54]
 };

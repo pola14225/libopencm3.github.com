@@ -114,7 +114,8 @@ $(document).ready(function(){initNavTree('ethernet_8h.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ethernet.h File Reference</div>  </div>
 </div><!--header-->
@@ -288,6 +289,11 @@ Macros</h2></td></tr>
 <tr class="memitem:a4fe43c4432e0505a5509424665692807"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a4fe43c4432e0505a5509424665692807">ETH_DMAIER_ERIE</a>&#160;&#160;&#160;0x00004000</td></tr>
 <tr class="memitem:a7ae9340fa928abb4664efbb5c8478756"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a7ae9340fa928abb4664efbb5c8478756">ETH_DMAIER_AISE</a>&#160;&#160;&#160;0x00008000</td></tr>
 <tr class="memitem:aeaeed77f7cc6c4df6bb370d84147e8f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aeaeed77f7cc6c4df6bb370d84147e8f9">ETH_DMAIER_NSIE</a>&#160;&#160;&#160;0x00010000</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a358a8e7e3ade9e72efae8f2d2e331188"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a358a8e7e3ade9e72efae8f2d2e331188">eth_smi_write</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> phy, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> reg, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> data)</td></tr>
+<tr class="memitem:af1bc3c2c0fe0625f8a029393b3f9408a"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#af1bc3c2c0fe0625f8a029393b3f9408a">eth_smi_read</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> phy, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> reg)</td></tr>
 </table>
 <h2>Macro Definition Documentation</h2>
 <a class="anchor" id="a47705301b586095530ac40c816431d16"></a>
@@ -2374,13 +2380,80 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<h2>Function Documentation</h2>
+<a class="anchor" id="af1bc3c2c0fe0625f8a029393b3f9408a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> eth_smi_read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>phy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>reg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ethernet_8c_source.html#l00038">38</a> of file <a class="el" href="ethernet_8c_source.html">ethernet.c</a>.</p>
+
+<p>References <a class="el" href="ethernet_8h_source.html#l00031">ETH_MACMIIAR</a>, <a class="el" href="ethernet_8h_source.html#l00120">ETH_MACMIIAR_MB</a>, <a class="el" href="ethernet_8h_source.html#l00127">ETH_MACMIIAR_MR</a>, <a class="el" href="ethernet_8h_source.html#l00121">ETH_MACMIIAR_MW</a>, <a class="el" href="ethernet_8h_source.html#l00128">ETH_MACMIIAR_PA</a>, and <a class="el" href="ethernet_8h_source.html#l00032">ETH_MACMIIDR</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a358a8e7e3ade9e72efae8f2d2e331188"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void eth_smi_write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>phy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ethernet_8c_source.html#l00022">22</a> of file <a class="el" href="ethernet_8c_source.html">ethernet.c</a>.</p>
+
+<p>References <a class="el" href="ethernet_8h_source.html#l00031">ETH_MACMIIAR</a>, <a class="el" href="ethernet_8h_source.html#l00120">ETH_MACMIIAR_MB</a>, <a class="el" href="ethernet_8h_source.html#l00127">ETH_MACMIIAR_MR</a>, <a class="el" href="ethernet_8h_source.html#l00121">ETH_MACMIIAR_MW</a>, <a class="el" href="ethernet_8h_source.html#l00128">ETH_MACMIIAR_PA</a>, and <a class="el" href="ethernet_8h_source.html#l00032">ETH_MACMIIDR</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_26e2099944f53a27f6cdf710ec04616c.html">f1</a></li><li class="navelem"><a class="el" href="ethernet_8h.html">ethernet.h</a></li>
-    <li class="footer">Generated on Wed Feb 27 2013 02:21:12 for libopencm3 by
+    <li class="footer">Generated on Wed Feb 27 2013 03:21:14 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

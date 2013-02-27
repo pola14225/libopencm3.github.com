@@ -55,5 +55,5 @@ var searchData=
   ['gpio_5fpio1_5fbase',['GPIO_PIO1_BASE',['../memorymap_8h.html#a0d0cfbbba49b9a5788b60e7d4aa9a6e2',1,'memorymap.h']]],
   ['gpio_5fpio2_5fbase',['GPIO_PIO2_BASE',['../memorymap_8h.html#ae35f890c10dcfb4d51592388cae93076',1,'memorymap.h']]],
   ['gpio_5fpio3_5fbase',['GPIO_PIO3_BASE',['../memorymap_8h.html#a179c793fc31574e3e578cf6b32a1a643',1,'memorymap.h']]],
-  ['gpio_5fset',['gpio_set',['../gpio_8c.html#a570d0f02cc0784882629bf4580b41e5b',1,'gpio.c']]]
+  ['gpio_5fset',['gpio_set',['../gpio_8h.html#a4f5f8d2c3d951f1b0138a207c8515db1',1,'gpio_set(u32 gpioport, u16 gpios):&#160;gpio.c'],['../gpio_8c.html#a570d0f02cc0784882629bf4580b41e5b',1,'gpio_set(u32 gpioport, u16 gpios):&#160;gpio.c']]]
 ];

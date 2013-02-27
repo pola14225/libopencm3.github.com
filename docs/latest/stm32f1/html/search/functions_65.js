@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['eth_5fsmi_5fread',['eth_smi_read',['../ethernet_8c.html#af1bc3c2c0fe0625f8a029393b3f9408a',1,'ethernet.c']]],
-  ['eth_5fsmi_5fwrite',['eth_smi_write',['../ethernet_8c.html#aa86180bb46fa3bf02f6fe6024e87b455',1,'ethernet.c']]],
+  ['eth_5fsmi_5fread',['eth_smi_read',['../ethernet_8h.html#af1bc3c2c0fe0625f8a029393b3f9408a',1,'eth_smi_read(u8 phy, u8 reg):&#160;ethernet.c'],['../ethernet_8c.html#af1bc3c2c0fe0625f8a029393b3f9408a',1,'eth_smi_read(u8 phy, u8 reg):&#160;ethernet.c']]],
+  ['eth_5fsmi_5fwrite',['eth_smi_write',['../ethernet_8h.html#a358a8e7e3ade9e72efae8f2d2e331188',1,'eth_smi_write(u8 phy, u8 reg, u16 data):&#160;ethernet.c'],['../ethernet_8c.html#aa86180bb46fa3bf02f6fe6024e87b455',1,'eth_smi_write(u8 phy, u8 reg, u16 data):&#160;ethernet.c']]],
   ['exti_5fdisable_5frequest',['exti_disable_request',['../exti_8c.html#ab5d0eede2b40eb24875dfee50851ccdb',1,'exti.c']]],
   ['exti_5fenable_5frequest',['exti_enable_request',['../exti_8c.html#a5407cff9341a4300d97cacb93b451ddd',1,'exti.c']]],
   ['exti_5freset_5frequest',['exti_reset_request',['../exti_8c.html#a0f7bda7226dd15e9d39787656f5cfd3d',1,'exti.c']]],

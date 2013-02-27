@@ -7384,6 +7384,20 @@
       <anchor>aeaeed77f7cc6c4df6bb370d84147e8f9</anchor>
       <arglist></arglist>
     </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>eth_smi_write</name>
+      <anchorfile>ethernet_8h.html</anchorfile>
+      <anchor>a358a8e7e3ade9e72efae8f2d2e331188</anchor>
+      <arglist>(u8 phy, u8 reg, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>eth_smi_read</name>
+      <anchorfile>ethernet_8h.html</anchorfile>
+      <anchor>af1bc3c2c0fe0625f8a029393b3f9408a</anchor>
+      <arglist>(u8 phy, u8 reg)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>exti.c</name>
@@ -16625,6 +16639,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_set_pll3_multiplication_factor</name>
+      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchor>ga94cea07a3bb5a95bbbaf3de4b7a8a23c</anchor>
+      <arglist>(u32 mul)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_set_pll_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
       <anchor>ga2c3543cb0fc5e01678bb6d5bae1a51a1</anchor>
@@ -16673,11 +16694,32 @@
       <arglist>(u32 usbpre)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
-      <name>rcc_get_system_clock_source</name>
+      <type>void</type>
+      <name>rcc_set_prediv1</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga1e40dfe4a039a6bfe3de23edf275d28c</anchor>
-      <arglist>(int i)</arglist>
+      <anchor>ga404b3270910c8bf40125728b25b5f30a</anchor>
+      <arglist>(u32 prediv)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_prediv2</name>
+      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchor>ga62f650e3f349ef9b12b56e1964ac31ac</anchor>
+      <arglist>(u32 prediv)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_prediv1_source</name>
+      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchor>ga28b46eb99d3eaf3602229f378f874a66</anchor>
+      <arglist>(u32 rccsrc)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>rcc_system_clock_source</name>
+      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchor>ga02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -21094,6 +21136,20 @@
       <name>usart_disable_tx_interrupt</name>
       <anchorfile>group__usart__defines.html</anchorfile>
       <anchor>ga01269d3f4422b9e58657873a75ae0b68</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>ga872890c964dd33b79935a17e34f46c08</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>gaf76dc23c5cf79a29e81ef314004dff65</anchor>
       <arglist>(u32 usart)</arglist>
     </member>
     <member kind="function">
@@ -30275,6 +30331,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_set_pll3_multiplication_factor</name>
+      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchor>ga94cea07a3bb5a95bbbaf3de4b7a8a23c</anchor>
+      <arglist>(u32 mul)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_set_pll_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
       <anchor>ga2c3543cb0fc5e01678bb6d5bae1a51a1</anchor>
@@ -30323,11 +30386,32 @@
       <arglist>(u32 usbpre)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
-      <name>rcc_get_system_clock_source</name>
+      <type>void</type>
+      <name>rcc_set_prediv1</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga1e40dfe4a039a6bfe3de23edf275d28c</anchor>
-      <arglist>(int i)</arglist>
+      <anchor>ga404b3270910c8bf40125728b25b5f30a</anchor>
+      <arglist>(u32 prediv)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_prediv2</name>
+      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchor>ga62f650e3f349ef9b12b56e1964ac31ac</anchor>
+      <arglist>(u32 prediv)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_prediv1_source</name>
+      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchor>ga28b46eb99d3eaf3602229f378f874a66</anchor>
+      <arglist>(u32 rccsrc)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>rcc_system_clock_source</name>
+      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchor>ga02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -33223,6 +33307,20 @@
       <name>usart_disable_tx_interrupt</name>
       <anchorfile>group__usart__defines.html</anchorfile>
       <anchor>ga01269d3f4422b9e58657873a75ae0b68</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>ga872890c964dd33b79935a17e34f46c08</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>gaf76dc23c5cf79a29e81ef314004dff65</anchor>
       <arglist>(u32 usart)</arglist>
     </member>
     <member kind="function">

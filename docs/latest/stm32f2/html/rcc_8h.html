@@ -495,7 +495,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ac56bc6cfdddb0b158cea58ed3e926201"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#ac56bc6cfdddb0b158cea58ed3e926201">rcc_set_rtcpre</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> rtcpre)</td></tr>
 <tr class="memitem:aad99f4e022d82c3e311be4e72cac74e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#aad99f4e022d82c3e311be4e72cac74e3">rcc_set_main_pll_hsi</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllm, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> plln, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllp, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllq)</td></tr>
 <tr class="memitem:aa615cefb749e25ad3a7a6a1e2f6df423"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#aa615cefb749e25ad3a7a6a1e2f6df423">rcc_set_main_pll_hse</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllm, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> plln, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllp, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllq)</td></tr>
-<tr class="memitem:a1e40dfe4a039a6bfe3de23edf275d28c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a1e40dfe4a039a6bfe3de23edf275d28c">rcc_get_system_clock_source</a> (int i)</td></tr>
+<tr class="memitem:a02ae4c7c3c5566f2d92738177d8f6367"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a02ae4c7c3c5566f2d92738177d8f6367">rcc_system_clock_source</a> (void)</td></tr>
 <tr class="memitem:a85e0da920f4567f343a9b812df7a5687"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a85e0da920f4567f343a9b812df7a5687">rcc_clock_setup_hse_3v3</a> (const <a class="el" href="structclock__scale__t.html">clock_scale_t</a> *clock)</td></tr>
 <tr class="memitem:aa02e63deae78644c393004fb900fe584"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#aa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a> (void)</td></tr>
 </table><table class="memberdecls">
@@ -5023,22 +5023,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a1e40dfe4a039a6bfe3de23edf275d28c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> rcc_get_system_clock_source </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a9152b74c16322ae76cec62ef93403916"></a>
 <div class="memitem">
 <div class="memproto">
@@ -5603,6 +5587,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a02ae4c7c3c5566f2d92738177d8f6367"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> rcc_system_clock_source </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00358">358</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+
+<p>References <a class="el" href="rcc_8h_source.html#l00032">RCC_CFGR</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a0f9fac6ac510e119aebe5f62c53f073a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -5718,7 +5722,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_b2ce1f7ead2d66d914db4e5ac397eede.html">f2</a></li><li class="navelem"><a class="el" href="rcc_8h.html">rcc.h</a></li>
-    <li class="footer">Generated on Wed Feb 27 2013 02:21:15 for libopencm3 by
+    <li class="footer">Generated on Wed Feb 27 2013 03:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

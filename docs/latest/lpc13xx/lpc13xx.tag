@@ -366,6 +366,13 @@
       <anchor>a7e5212bf733d2a3a3cd553086e97e443</anchor>
       <arglist></arglist>
     </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>gpio_set</name>
+      <anchorfile>gpio_8h.html</anchorfile>
+      <anchor>a4f5f8d2c3d951f1b0138a207c8515db1</anchor>
+      <arglist>(u32 gpioport, u16 gpios)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>license.dox</name>

@@ -56,12 +56,12 @@ var NAVTREEINDEX =
 "group__i2c__clock.html#gac70fb3f79ae6c24776f5623ea314a6df",
 "group__rtc__defines.html#ga25fe6d2f417858ff48426cf571474210",
 "group__spi__defines.html#ga68aa7d1012026ecdd5e19fbb8a376093",
-"group__usart__defines.html#gaead72d54c34b52a20bc01b91abd46055",
-"iwdg__common__all_8h.html#ga34546c166927c93af2977d7e8997e3e3",
-"rcc_8h.html#a23f8ee0f6c6e2ce8aa731d3fc86905aa",
-"rcc_8h.html#ae11baa29f4e6d122dabdd54c6b4be052",
-"rtc__common__bcd_8h_source.html",
-"usart__common__all_8c.html#ga01269d3f4422b9e58657873a75ae0b68"
+"group__usart__defines.html#gae5530ccff0818ee6c53e71f013f28b46",
+"iwdg__common__all_8h.html#ga1f2276cc41e9f7a588b645842b646d80",
+"rcc_8h.html#a2297cce07d5113023bf8eff03fc62c66",
+"rcc_8h.html#ae08a3510371b9234eb96369c91d3552f",
+"rtc__common__bcd_8h.html#gafe66826ace722bf46d1e72aeb2c03c7c",
+"usart_8h_source.html"
 ];
 
 var navTreeSubIndices = new Array();

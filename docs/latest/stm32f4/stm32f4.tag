@@ -9353,9 +9353,9 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>flash_data_cache_enable</name>
+      <name>flash_dcache_enable</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>ab7f24451095ecf7d9241d6fe2d953fc7</anchor>
+      <anchor>ae971613fad94342cea5285e1967a5d37</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -16496,10 +16496,10 @@
     </member>
     <member kind="function">
       <type>u32</type>
-      <name>rcc_get_system_clock_source</name>
+      <name>rcc_system_clock_source</name>
       <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a1e40dfe4a039a6bfe3de23edf275d28c</anchor>
-      <arglist>(int i)</arglist>
+      <anchor>a02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -20696,6 +20696,20 @@
       <name>usart_disable_tx_interrupt</name>
       <anchorfile>group__usart__defines.html</anchorfile>
       <anchor>ga01269d3f4422b9e58657873a75ae0b68</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>ga872890c964dd33b79935a17e34f46c08</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>gaf76dc23c5cf79a29e81ef314004dff65</anchor>
       <arglist>(u32 usart)</arglist>
     </member>
     <member kind="function">
@@ -27534,6 +27548,20 @@
       <name>usart_disable_tx_interrupt</name>
       <anchorfile>group__usart__defines.html</anchorfile>
       <anchor>ga01269d3f4422b9e58657873a75ae0b68</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>ga872890c964dd33b79935a17e34f46c08</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>gaf76dc23c5cf79a29e81ef314004dff65</anchor>
       <arglist>(u32 usart)</arglist>
     </member>
     <member kind="function">

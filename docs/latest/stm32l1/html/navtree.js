@@ -46,19 +46,19 @@ var NAVTREEINDEX =
 "dma__common__f24_8h.html#ga19e2919f6dc9b31bfdd40fb7d406e4e5",
 "dma__common__f24_8h.html#gad20a0a5e103def436d4e329fc0888482",
 "gpio_8h.html#ga6d376657d66d0a5939629b1722b27279",
-"group__STM32L1xx__rcc__defines.html#ga81ce757b20164fa21501b15fd91c9691",
-"group__dac__mamp1.html#ga0fefef1d798a2685b03e44bd9fdac06b",
-"group__dma__defines.html#ga5bcd07efcadd5fef598edec1cca70e38",
-"group__dma__defines.html#gae403e30129e2a688b7bc5bad28324a7d",
-"group__gpio__defines.html#gaf6a2d241b055d6f50db08305e901c526",
-"group__iwdg__file.html#gaac5931de084e9f80c7b1ab0f0e2843ca",
-"group__rtc__defines.html#gad81b16856acc1696768d7876668e039b",
-"group__usart__cr1__mode.html#ga82418ff60ab8dac647eb7a6ba6db1284",
-"i2c__common__all_8h.html#ga5bad561a6dd0da1597f0a61617e38eb6",
-"pwr__common__all_8h.html#ga0fae0ca13856ebe2b54921d08011ec53",
-"rcc_8h.html#gaa02e63deae78644c393004fb900fe584",
-"rtc__common__bcd_8h.html#ga9606e83364ad2d2d942646848ac23fe1",
-"spi__common__all_8h.html#gac871df249fb0c847813b5cb045ecea72"
+"group__STM32L1xx__rcc__defines.html#ga813d42b8d48ae6379c053a44870af49d",
+"group__dac__mamp1.html",
+"group__dma__defines.html#ga59bad79f1ae37b69b048834808e8d067",
+"group__dma__defines.html#gae0f58173c721a4cee3f3885b352fa2a3",
+"group__gpio__defines.html#gaef9c290201f1348720bf7716e32b0ce4",
+"group__iwdg__file.html#gaa4f196e28e96c7901f9ff25a5c7fd20d",
+"group__rtc__defines.html#gad66eb8c3b73524f427b98c2faf138040",
+"group__usart__cr1__mode.html#ga3efdc5989048ad122a5c9c1e325bb89c",
+"i2c__common__all_8h.html#ga53b3a2028f89192de338269ac9914cee",
+"pwr__common__all_8c.html#gaf79db56cf3c904ff69d1cc12984cfd1b",
+"rcc_8h.html#ga9c947f30deec0e4a9a082621480c39f9",
+"rtc__common__bcd_8h.html#ga8d9515fd74e3bcf03f4e62d8c7e1b070",
+"spi__common__all_8h.html#gabf9400c71f72c8f6bbf3432a79c5377d"
 ];
 
 var navTreeSubIndices = new Array();

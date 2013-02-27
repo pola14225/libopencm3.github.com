@@ -9665,8 +9665,8 @@
     <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_sysclk_status</name>
-      <anchorfile>rcc_8c.html</anchorfile>
-      <anchor>a6472eba195686b970de6216ab61ebd7c</anchor>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga6472eba195686b970de6216ab61ebd7c</anchor>
       <arglist>(osc_t osc)</arglist>
     </member>
     <member kind="function">
@@ -9784,15 +9784,15 @@
     <member kind="function">
       <type>void</type>
       <name>rcc_set_rtcpre</name>
-      <anchorfile>rcc_8c.html</anchorfile>
-      <anchor>ac56bc6cfdddb0b158cea58ed3e926201</anchor>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gac56bc6cfdddb0b158cea58ed3e926201</anchor>
       <arglist>(u32 rtcpre)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>
       <name>rcc_system_clock_source</name>
-      <anchorfile>rcc_8c.html</anchorfile>
-      <anchor>a02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga02ae4c7c3c5566f2d92738177d8f6367</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -11713,6 +11713,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_wait_for_sysclk_status</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga6472eba195686b970de6216ab61ebd7c</anchor>
+      <arglist>(osc_t osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_osc_on</name>
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
       <anchor>ga8dbd64d58e019803bf109609203d1afd</anchor>
@@ -11838,11 +11845,18 @@
       <arglist>(u32 usbpre)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
-      <name>rcc_get_system_clock_source</name>
+      <type>void</type>
+      <name>rcc_set_rtcpre</name>
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>ga1e40dfe4a039a6bfe3de23edf275d28c</anchor>
-      <arglist>(int i)</arglist>
+      <anchor>gac56bc6cfdddb0b158cea58ed3e926201</anchor>
+      <arglist>(u32 rtcpre)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>rcc_system_clock_source</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -15951,6 +15965,20 @@
       <name>usart_disable_tx_interrupt</name>
       <anchorfile>group__usart__defines.html</anchorfile>
       <anchor>ga01269d3f4422b9e58657873a75ae0b68</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>ga872890c964dd33b79935a17e34f46c08</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>gaf76dc23c5cf79a29e81ef314004dff65</anchor>
       <arglist>(u32 usart)</arglist>
     </member>
     <member kind="function">
@@ -20267,6 +20295,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_wait_for_sysclk_status</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga6472eba195686b970de6216ab61ebd7c</anchor>
+      <arglist>(osc_t osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_osc_on</name>
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
       <anchor>ga8dbd64d58e019803bf109609203d1afd</anchor>
@@ -20392,11 +20427,18 @@
       <arglist>(u32 usbpre)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
-      <name>rcc_get_system_clock_source</name>
+      <type>void</type>
+      <name>rcc_set_rtcpre</name>
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>ga1e40dfe4a039a6bfe3de23edf275d28c</anchor>
-      <arglist>(int i)</arglist>
+      <anchor>gac56bc6cfdddb0b158cea58ed3e926201</anchor>
+      <arglist>(u32 rtcpre)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>rcc_system_clock_source</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -23722,6 +23764,20 @@
       <name>usart_disable_tx_interrupt</name>
       <anchorfile>group__usart__defines.html</anchorfile>
       <anchor>ga01269d3f4422b9e58657873a75ae0b68</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>ga872890c964dd33b79935a17e34f46c08</anchor>
+      <arglist>(u32 usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_error_interrupt</name>
+      <anchorfile>group__usart__defines.html</anchorfile>
+      <anchor>gaf76dc23c5cf79a29e81ef314004dff65</anchor>
       <arglist>(u32 usart)</arglist>
     </member>
     <member kind="function">

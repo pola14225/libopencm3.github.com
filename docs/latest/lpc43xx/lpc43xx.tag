@@ -9830,6 +9830,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>ssp_wait_until_not_busy</name>
+      <anchorfile>ssp_8c.html</anchorfile>
+      <anchor>af3606050c56f9e7ccfbb91f703d38e46</anchor>
+      <arglist>(ssp_num_t ssp_num)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>ssp_disable</name>
       <anchorfile>ssp_8c.html</anchorfile>
       <anchor>a741020e6b94479e80107e428d552e5c3</anchor>
@@ -9847,13 +9854,6 @@
       <name>ssp_read</name>
       <anchorfile>ssp_8c.html</anchorfile>
       <anchor>aa8f794ca6faef448cbfd0d74f0bacf33</anchor>
-      <arglist>(ssp_num_t ssp_num)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>ssp_wait_until_not_busy</name>
-      <anchorfile>ssp_8c.html</anchorfile>
-      <anchor>af3606050c56f9e7ccfbb91f703d38e46</anchor>
       <arglist>(ssp_num_t ssp_num)</arglist>
     </member>
     <member kind="function">

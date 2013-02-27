@@ -25,11 +25,11 @@ digraph "rcc_clock_setup_in_hse_25mhz_out_72mhz"
   Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node11 [label="rcc_set_ppre2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga411748dd9a8a99b746e802af6b448763",tooltip="RCC Set the APB2 Prescale Factor."];
   Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node12 [label="rcc_set_prediv1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx-rcc-file.html#ga404b3270910c8bf40125728b25b5f30a"];
+  Node12 [label="rcc_set_prediv1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga404b3270910c8bf40125728b25b5f30a"];
   Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node13 [label="rcc_set_prediv1_source",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx-rcc-file.html#ga28b46eb99d3eaf3602229f378f874a66"];
+  Node13 [label="rcc_set_prediv1_source",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga28b46eb99d3eaf3602229f378f874a66"];
   Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node14 [label="rcc_set_prediv2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx-rcc-file.html#ga62f650e3f349ef9b12b56e1964ac31ac"];
+  Node14 [label="rcc_set_prediv2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga62f650e3f349ef9b12b56e1964ac31ac"];
   Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node15 [label="rcc_set_sysclk_source",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html#ga3edbf52144a86a1b8292b3e21e3959d7",tooltip="RCC Set the Source for the System Clock."];
   Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

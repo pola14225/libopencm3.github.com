@@ -511,7 +511,7 @@ $(document).ready(function(){initNavTree('usart__common__all_8c_source.html','')
 <div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;<span class="comment">@param[in] usart unsigned 32 bit. USART block register address base @ref usart_reg_base</span></div>
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
-<div class="line"><a name="l00394"></a><span class="lineno"><a class="code" href="group__usart__file.html#ga872890c964dd33b79935a17e34f46c08">  394</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usart__file.html#ga872890c964dd33b79935a17e34f46c08" title="USART Error Interrupt Enable.">usart_enable_error_interrupt</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> usart)</div>
+<div class="line"><a name="l00394"></a><span class="lineno"><a class="code" href="group__usart__file.html#ga872890c964dd33b79935a17e34f46c08">  394</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usart__defines.html#ga872890c964dd33b79935a17e34f46c08" title="USART Error Interrupt Enable.">usart_enable_error_interrupt</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> usart)</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;{</div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <a class="code" href="group__usart__defines.html#ga300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(usart) |= <a class="code" href="group__usart__defines.html#gaaed1a39c551b1641128f81893ff558d0">USART_CR3_EIE</a>;</div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;}</div>
@@ -522,7 +522,7 @@ $(document).ready(function(){initNavTree('usart__common__all_8c_source.html','')
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;<span class="comment">@param[in] usart unsigned 32 bit. USART block register address base @ref usart_reg_base</span></div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;</div>
-<div class="line"><a name="l00405"></a><span class="lineno"><a class="code" href="group__usart__file.html#gaf76dc23c5cf79a29e81ef314004dff65">  405</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usart__file.html#gaf76dc23c5cf79a29e81ef314004dff65" title="USART Error Interrupt Disable.">usart_disable_error_interrupt</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> usart)</div>
+<div class="line"><a name="l00405"></a><span class="lineno"><a class="code" href="group__usart__file.html#gaf76dc23c5cf79a29e81ef314004dff65">  405</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usart__defines.html#gaf76dc23c5cf79a29e81ef314004dff65" title="USART Error Interrupt Disable.">usart_disable_error_interrupt</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> usart)</div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;{</div>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        <a class="code" href="group__usart__defines.html#ga300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(usart) &amp;= ~<a class="code" href="group__usart__defines.html#gaaed1a39c551b1641128f81893ff558d0">USART_CR3_EIE</a>;</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;}</div>
@@ -576,7 +576,7 @@ $(document).ready(function(){initNavTree('usart__common__all_8c_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="usart__common__all_8c.html">usart_common_all.c</a></li>
-    <li class="footer">Generated on Wed Feb 27 2013 02:21:15 for libopencm3 by
+    <li class="footer">Generated on Wed Feb 27 2013 03:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -48,5 +48,6 @@ var gpio_8h =
     [ "GPIO_IEV", "gpio_8h.html#aea367cbbe8e1040667eef8b89533d954", null ],
     [ "GPIO_IRS", "gpio_8h.html#a2511ae74ce26c0f2dd2cfccba9ed96b1", null ],
     [ "GPIO_IS", "gpio_8h.html#af3168523aa71db397cc6b90d06c19a5e", null ],
-    [ "GPIO_MIS", "gpio_8h.html#a0a9247b9076a5e068506e4778bd7117c", null ]
+    [ "GPIO_MIS", "gpio_8h.html#a0a9247b9076a5e068506e4778bd7117c", null ],
+    [ "gpio_set", "gpio_8h.html#a4f5f8d2c3d951f1b0138a207c8515db1", null ]
 ];

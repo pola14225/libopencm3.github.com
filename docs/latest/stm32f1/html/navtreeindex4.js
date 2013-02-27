@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"ethernet_8h.html#a764dd9b736867f6c5b590c7ca49017c2":[16,0,17,123],
 "ethernet_8h.html#a7663102261c7de08f9ee0bee52ad3ef8":[16,0,17,46],
 "ethernet_8h.html#a77984e7a5202bdc300bccc9cc90fad3e":[16,0,17,79],
 "ethernet_8h.html#a7a9cd48115f0b32941ee3087e9c60ec9":[16,0,17,32],
@@ -67,6 +68,7 @@ var NAVTREEINDEX4 =
 "ethernet_8h.html#aeaeed77f7cc6c4df6bb370d84147e8f9":[16,0,17,24],
 "ethernet_8h.html#aee99dd08ad3581436f53b7f22452dcb9":[16,0,17,125],
 "ethernet_8h.html#af08aaa0c916bb56d2e4e71fdf0f034da":[16,0,17,49],
+"ethernet_8h.html#af1bc3c2c0fe0625f8a029393b3f9408a":[16,0,17,148],
 "ethernet_8h.html#af2cdb4ba6c97aba3e82e8192ebddcb5f":[16,0,17,107],
 "ethernet_8h.html#af2eec52cb081cdba237e1195fe8c324b":[16,0,17,88],
 "ethernet_8h.html#af34f51c72bc9733694ca11993cc384e1":[16,0,17,91],
@@ -204,8 +206,8 @@ var NAVTREEINDEX4 =
 "globals_defs_0x77.html":[16,1,5,15],
 "globals_enum.html":[16,1,3],
 "globals_eval.html":[16,1,4],
-"globals_func.html":[16,1,1,0],
 "globals_func.html":[16,1,1],
+"globals_func.html":[16,1,1,0],
 "globals_func_0x63.html":[16,1,1,1],
 "globals_func_0x64.html":[16,1,1,2],
 "globals_func_0x65.html":[16,1,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "gpio_8h.html#ga07450b17296a75232a7744a4503913f7":[16,0,22,288],
 "gpio_8h.html#ga074a1a06a23d1203f5e54dbaf69dabbf":[16,0,22,227],
 "gpio_8h.html#ga07cb96dc8e544ca14fb746ce1c475b19":[16,0,22,513],
-"gpio_8h.html#ga0885c91de776e4ba690238f13d3b0e79":[16,0,22,443],
-"gpio_8h.html#ga08db1d3769d2fe400cffb74e32b67a9f":[16,0,22,469],
-"gpio_8h.html#ga08eee36dde1585f0eb4f3ed7e617b8de":[16,0,22,466]
+"gpio_8h.html#ga0885c91de776e4ba690238f13d3b0e79":[16,0,22,443]
 };
