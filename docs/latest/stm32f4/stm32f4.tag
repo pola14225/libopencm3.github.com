@@ -16623,12 +16623,68 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>rtc_8c</filename>
     <includes id="rtc__common__bcd_8h" name="rtc_common_bcd.h" local="no" imported="no">libopencm3/stm32/common/rtc_common_bcd.h</includes>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_enable_wakeup_timer</name>
+      <anchorfile>rtc_8c.html</anchorfile>
+      <anchor>a09f8be3f6c04c89c445f9fc82a3d5ab7</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_disable_wakeup_timer</name>
+      <anchorfile>rtc_8c.html</anchorfile>
+      <anchor>a1e0c4ee2164c6aac547970a493be7676</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_enable_wakeup_timer_interrupt</name>
+      <anchorfile>rtc_8c.html</anchorfile>
+      <anchor>a4c6724c645e96d2741e262d5468d5827</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_disable_wakeup_timer_interrupt</name>
+      <anchorfile>rtc_8c.html</anchorfile>
+      <anchor>a36e2af549b7d24f24e5255bbbeb5de71</anchor>
+      <arglist>(void)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>rtc.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/</path>
     <filename>rtc_8h</filename>
     <includes id="rtc__common__bcd_8h" name="rtc_common_bcd.h" local="no" imported="no">libopencm3/stm32/common/rtc_common_bcd.h</includes>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>rtc_enable_wakeup_timer</name>
+      <anchorfile>rtc_8h.html</anchorfile>
+      <anchor>a79d4765fa1ab12869b4962f6129f66c0</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_disable_wakeup_timer</name>
+      <anchorfile>rtc_8h.html</anchorfile>
+      <anchor>a1e0c4ee2164c6aac547970a493be7676</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_enable_wakeup_timer_interrupt</name>
+      <anchorfile>rtc_8h.html</anchorfile>
+      <anchor>a4c6724c645e96d2741e262d5468d5827</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_disable_wakeup_timer_interrupt</name>
+      <anchorfile>rtc_8h.html</anchorfile>
+      <anchor>a36e2af549b7d24f24e5255bbbeb5de71</anchor>
+      <arglist>(void)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>rtc_common_bcd.c</name>
@@ -16660,6 +16716,20 @@
       <name>rtc_lock</name>
       <anchorfile>group__rtc__file.html</anchorfile>
       <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_set_wakeup_time</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
+      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_clear_wakeup_flag</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -16816,9 +16886,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_TR_TR_PM</name>
+      <name>RTC_TR_PM</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad681062bed2a815b4f8ce9fb9080e21f</anchor>
+      <anchor>ga3152952ac385ee1ce8dd868978d3fce9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -16952,6 +17022,13 @@
       <name>RTC_DR_MT</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
       <anchor>ga26f0d3ce1c6c6785bd8fbae556f68b31</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_MT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1ad7d5e6b06e97429e69ce78a01ce556</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -17162,13 +17239,6 @@
       <name>RTC_CR_REFCKON</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
       <anchor>ga646ef1071cacc2d30bbef5597c817021</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSEDGE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad076bde34be7d24f088fd2c003b7a7f7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -17939,6 +18009,20 @@
       <name>rtc_unlock</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
       <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_set_wakeup_time</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
+      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_clear_wakeup_flag</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -24687,9 +24771,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_TR_TR_PM</name>
+      <name>RTC_TR_PM</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad681062bed2a815b4f8ce9fb9080e21f</anchor>
+      <anchor>ga3152952ac385ee1ce8dd868978d3fce9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -24823,6 +24907,13 @@
       <name>RTC_DR_MT</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
       <anchor>ga26f0d3ce1c6c6785bd8fbae556f68b31</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_MT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1ad7d5e6b06e97429e69ce78a01ce556</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -25033,13 +25124,6 @@
       <name>RTC_CR_REFCKON</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
       <anchor>ga646ef1071cacc2d30bbef5597c817021</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSEDGE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad076bde34be7d24f088fd2c003b7a7f7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -25810,6 +25894,20 @@
       <name>rtc_unlock</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
       <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_set_wakeup_time</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
+      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_clear_wakeup_flag</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -31144,6 +31242,20 @@
       <name>rtc_lock</name>
       <anchorfile>group__rtc__file.html</anchorfile>
       <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_set_wakeup_time</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
+      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_clear_wakeup_flag</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>

@@ -52,14 +52,14 @@ var NAVTREEINDEX =
 "group__dma__defines.html#gae0f58173c721a4cee3f3885b352fa2a3",
 "group__gpio__defines.html#gaef9c290201f1348720bf7716e32b0ce4",
 "group__iwdg__file.html#gaa4f196e28e96c7901f9ff25a5c7fd20d",
-"group__rtc__defines.html#gad66eb8c3b73524f427b98c2faf138040",
-"group__spi__reg__base.html#gaf2c3d8ce359dcfbb2261e07ed42af72b",
-"i2c__common__all_8h.html#ga5322887d34ae3f4440254a314f9d8cd3",
-"pwr__common__all_8c.html#gadf5ec836f6a94f6ea6fb99b16e9efe1b",
-"rcc_8h.html#ga98f3b508ec0e52edc9c9fd22e292a3a5",
-"rtc__common__bcd_8h.html#ga8a8cdeac61f06e4737800b64a901d584",
-"spi__common__all_8h.html#gab929e9d5ddbb66f229c501ab18d0e6e8",
-"usart__common__f24_8h.html#ae16c5c1e521e87c4299779d290636a71"
+"group__rtc__defines.html#gad2c4d227971b56e3160c71b7479c769d",
+"group__spi__lsbfirst.html#gae8ae11ca80fc6836908bc0422be2bb59",
+"i2c__common__all_8h.html#ga4598185d9092edfbf943464bcbb342ac",
+"pwr__common__all_8c.html#gaa985590fc7eadc3a93a41fb59a85c9e1",
+"rcc_8h.html#ga97c9487ca04b0a1a992d0f2e00df739c",
+"rtc__common__bcd_8h.html#ga7fb2100cd23f48dabf098fd8de6be384",
+"spi__common__all_8h.html#gab1d48b214a986df19f304a656d09c4e0",
+"usart__common__f24_8h.html#a0a4f781c389ce231e70343e359cb807e"
 ];
 
 var navTreeSubIndices = new Array();

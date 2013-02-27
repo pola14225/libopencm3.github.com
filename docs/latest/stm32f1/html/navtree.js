@@ -49,14 +49,14 @@ var NAVTREEINDEX =
 "group__gpio__defines.html#gaa6c987e270e0910cfcb35986e704b4aa",
 "group__i2c__defines.html#ga2efbe5d96ed0ce447a45a62e8317a68a",
 "group__rcc__apb2enr__en.html#ga57b9f50cb96a2e4ceba37728b4a32a42",
-"group__rtc__defines.html#gade154d1bd10c16ebd2d266744300b758",
-"group__usart__cr1__parity.html#gae7630824c78a39366b7e5b4c55996200",
-"i2c__common__all_8h.html#ga5f21dd07c5089cf417fa5a746c8a4022",
-"pwr__common__all_8h.html#ga47f30c2ab88b0a18a2f343cf4f9c0743",
-"rcc_8h.html#ga86b613f6af828f006926a59d2000c4d8",
-"rtc__common__bcd_8h.html#ga2d893e026ea3fb6073777cffd93fefcc",
-"spi__common__all_8h.html#ga414c75158a81089c083dcdb827222524",
-"usart__common__all_8h.html#gabe44cb6da0793ec0fba165a5b5a8cd9e"
+"group__rtc__defines.html#gadd24cc883627dc5c59ee509123ad4497",
+"group__usart__cr1__mode.html#ga82418ff60ab8dac647eb7a6ba6db1284",
+"i2c__common__all_8h.html#ga573a42a0f7378a5242a07ce3c59b1599",
+"pwr__common__all_8h.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd",
+"rcc_8h.html#ga84741a7e4d0d974e1fbb80718dee378d",
+"rtc__common__bcd_8h.html#ga25fe6d2f417858ff48426cf571474210",
+"spi__common__all_8h.html#ga378953916b7701bd49f063c0366b703f",
+"usart__common__all_8h.html#gaacb1e95db24ea6e6abdd0ca2737f4242"
 ];
 
 var navTreeSubIndices = new Array();

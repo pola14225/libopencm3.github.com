@@ -54,14 +54,14 @@ var NAVTREEINDEX =
 "group__dma__defines.html#gaac528daa7dc150e14720af83f073049e",
 "group__dma__st__number.html",
 "group__i2c__clock.html#gac70fb3f79ae6c24776f5623ea314a6df",
-"group__rtc__defines.html#ga25fe6d2f417858ff48426cf571474210",
-"group__spi__defines.html#ga6761207ad6040842b8e9416295204770",
-"group__usart__defines.html#gae0cb9ab2eae74428d7316a0a8e46d18e",
-"iwdg__common__all_8c_source.html",
-"rcc_8h.html#a20b04813e5b27577fe2ef013a8337eee",
-"rcc_8h.html#adea5123ece7df53e695697e3a7d11a6b",
-"rtc__common__bcd_8h.html#gafdc4c3822c1c87fb00cf46060abc6cfc",
-"timer_8h_source.html"
+"group__rtc__defines.html#ga25813ce258a0d4d2865ec883fea0175b",
+"group__spi__defines.html#ga5cc382fdfc0efda4b928c83b6e4c4cef",
+"group__usart__defines.html#gad84079efc1d9893f33e6cc4118c7946f",
+"iwdg__common__all_8c.html#gaac5931de084e9f80c7b1ab0f0e2843ca",
+"rcc_8h.html#a1e1dca7f08a971d2c3bf39a928c49586",
+"rcc_8h.html#adb8228c9020595b4cf9995137b8c9a7d",
+"rtc__common__bcd_8h.html#gae7b4878edbec889efa71b0d970cffc8c",
+"structclock__scale__t.html#af529b713744995d39878f6954ad6e576"
 ];
 
 var navTreeSubIndices = new Array();

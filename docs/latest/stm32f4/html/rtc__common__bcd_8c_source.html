@@ -194,15 +194,46 @@ $(document).ready(function(){initNavTree('rtc__common__bcd_8c_source.html','');}
 <div class="line"><a name="l00074"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b">   74</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__defines.html#ga3e70e56710b30885a46bae6e88a36f9b" title="Lock write access to the RTC registers.">rtc_lock</a>(<span class="keywordtype">void</span>) {</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="group__rtc__defines.html#gab6487e9420e94ef109d0431f42c3c740">RTC_WPR</a> = 0xff;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">/** @brief Sets the wakeup time auto-reload value</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga7885e411216e5bca89417c0f8b0591a8">   82</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__defines.html#ga7885e411216e5bca89417c0f8b0591a8" title="Sets the wakeup time auto-reload value.">rtc_set_wakeup_time</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> wkup_time, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> rtc_cr_wucksel) {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">// FTFM:</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">// The following sequence is required to configure or change the wakeup timer</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">// auto-reload value (WUT[15:0] in RTC_WUTR):</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">// 1. Clear WUTE in RTC_CR to disable the wakeup timer.</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <a class="code" href="group__rtc__defines.html#gab12a646e66898472d5b47da87e6a39f9">RTC_CR</a> &amp;= ~<a class="code" href="group__rtc__defines.html#ga061be0d3cdea721e5cb695cda0699bc3">RTC_CR_WUTE</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">// 2. Poll WUTWF until it is set in RTC_ISR to make sure the access to wakeup</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">//    auto-reload counter and to WUCKSEL[2:0] bits is allowed. It takes around 2</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">//    RTCCLK clock cycles (due to clock synchronization).</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  <span class="keywordflow">while</span> (!((<a class="code" href="group__rtc__defines.html#gae2cc36a11795e461447f19b75ab3424e">RTC_ISR</a>) &amp; (<a class="code" href="group__rtc__defines.html#ga0e753321211e19bc48736fe0d30a7f40">RTC_ISR_WUTWF</a>))) { }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">// 3. Program the wakeup auto-reload value WUT[15:0], and the wakeup clock</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">//    selection (WUCKSEL[2:0] bits in RTC_CR).Set WUTE in RTC_CR to enable the</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">//    timer again. The wakeup timer restarts down-counting.</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <a class="code" href="group__rtc__defines.html#ga2b0bc0df97c0174474d9b40d4c77a50f">RTC_WUTR</a> = wkup_time;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <a class="code" href="group__rtc__defines.html#gab12a646e66898472d5b47da87e6a39f9">RTC_CR</a> |= (rtc_cr_wucksel &lt;&lt; <a class="code" href="group__rtc__defines.html#ga7fb2100cd23f48dabf098fd8de6be384">RTC_CR_WUCLKSEL_SHIFT</a>);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <a class="code" href="group__rtc__defines.html#gab12a646e66898472d5b47da87e6a39f9">RTC_CR</a> |= <a class="code" href="group__rtc__defines.html#ga061be0d3cdea721e5cb695cda0699bc3">RTC_CR_WUTE</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">/** @brief Clears the wakeup flag</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">                @details This function should be called first in the rtc_wkup_isr()</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="code" href="group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5">  105</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__defines.html#gaf12d879a95330d644ab2ec4490004de5" title="Clears the wakeup flag.">rtc_clear_wakeup_flag</a>(<span class="keywordtype">void</span>) {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <a class="code" href="group__rtc__defines.html#gae2cc36a11795e461447f19b75ab3424e">RTC_ISR</a> &amp;= ~<a class="code" href="group__rtc__defines.html#ga4eb5960300a402210e5378d78ce22766">RTC_ISR_WUTF</a>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">/**@}*/</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="rtc__common__bcd_8c.html">rtc_common_bcd.c</a></li>
-    <li class="footer">Generated on Wed Feb 27 2013 05:21:19 for libopencm3 by
+    <li class="footer">Generated on Wed Feb 27 2013 07:21:19 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

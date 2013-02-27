@@ -1,11 +1,11 @@
 error: Tag file `./stm32/stm32.tag' does not exist or is not a file. Skipping it...
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35205: Duplicate anchor dac_api_dual found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35317: Duplicate anchor dac_api_dual found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35205: Duplicate anchor dac_api_basic_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35317: Duplicate anchor dac_api_basic_ex found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35205: Duplicate anchor dac_api_dma_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35317: Duplicate anchor dac_api_dma_ex found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35205: Duplicate anchor gpio_api_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:35317: Duplicate anchor gpio_api_ex found
 
 <unknown>:1: group rtc_defines: ignoring title "RTC Defines" that does not match old title "Rtc_defines"
 

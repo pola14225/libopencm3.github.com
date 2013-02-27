@@ -114,6 +114,8 @@ $(document).ready(function(){initNavTree('rtc_8c.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">rtc.c File Reference</div>  </div>
 </div><!--header-->
@@ -129,13 +131,176 @@ Include dependency graph for rtc.c:</div>
 </div>
 </div>
 <p><a href="rtc_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a09f8be3f6c04c89c445f9fc82a3d5ab7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8c.html#a09f8be3f6c04c89c445f9fc82a3d5ab7">rtc_enable_wakeup_timer</a> (void)</td></tr>
+<tr class="memdesc:a09f8be3f6c04c89c445f9fc82a3d5ab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the wakeup timer.  <a href="#a09f8be3f6c04c89c445f9fc82a3d5ab7"></a><br/></td></tr>
+<tr class="memitem:a1e0c4ee2164c6aac547970a493be7676"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8c.html#a1e0c4ee2164c6aac547970a493be7676">rtc_disable_wakeup_timer</a> (void)</td></tr>
+<tr class="memdesc:a1e0c4ee2164c6aac547970a493be7676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the wakeup timer.  <a href="#a1e0c4ee2164c6aac547970a493be7676"></a><br/></td></tr>
+<tr class="memitem:a4c6724c645e96d2741e262d5468d5827"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8c.html#a4c6724c645e96d2741e262d5468d5827">rtc_enable_wakeup_timer_interrupt</a> (void)</td></tr>
+<tr class="memdesc:a4c6724c645e96d2741e262d5468d5827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the wakeup timer interrupt.  <a href="#a4c6724c645e96d2741e262d5468d5827"></a><br/></td></tr>
+<tr class="memitem:a36e2af549b7d24f24e5255bbbeb5de71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8c.html#a36e2af549b7d24f24e5255bbbeb5de71">rtc_disable_wakeup_timer_interrupt</a> (void)</td></tr>
+<tr class="memdesc:a36e2af549b7d24f24e5255bbbeb5de71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the wakeup timer interrupt.  <a href="#a36e2af549b7d24f24e5255bbbeb5de71"></a><br/></td></tr>
+</table>
+<h2>Function Documentation</h2>
+<a class="anchor" id="a1e0c4ee2164c6aac547970a493be7676"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rtc_disable_wakeup_timer </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable the wakeup timer. </p>
+<dl class="section warning"><dt>Warning</dt><dd>You must unlock the registers before using this function </dd></dl>
+
+<p>Definition at line <a class="el" href="rtc_8c_source.html#l00045">45</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+
+<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00046">RTC_CR</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00153">RTC_CR_WUTE</a>, and <a class="el" href="rtc_8c_source.html#l00076">rtc_disable_wakeup_timer_interrupt()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="rtc_8c_a1e0c4ee2164c6aac547970a493be7676_cgraph.png" border="0" usemap="#rtc_8c_a1e0c4ee2164c6aac547970a493be7676_cgraph" alt=""/></div>
+<map name="rtc_8c_a1e0c4ee2164c6aac547970a493be7676_cgraph" id="rtc_8c_a1e0c4ee2164c6aac547970a493be7676_cgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a36e2af549b7d24f24e5255bbbeb5de71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rtc_disable_wakeup_timer_interrupt </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable the wakeup timer interrupt. </p>
+<dl class="section warning"><dt>Warning</dt><dd>You must unlock the registers before using this function </dd></dl>
+
+<p>Definition at line <a class="el" href="rtc_8c_source.html#l00076">76</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+
+<p>References <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gaed0997045521d8dd7171a1efb9735b2f">nvic_disable_irq()</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00046">RTC_CR</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00149">RTC_CR_WUTIE</a>.</p>
+
+<p>Referenced by <a class="el" href="rtc_8c_source.html#l00045">rtc_disable_wakeup_timer()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="rtc_8c_a36e2af549b7d24f24e5255bbbeb5de71_cgraph.png" border="0" usemap="#rtc_8c_a36e2af549b7d24f24e5255bbbeb5de71_cgraph" alt=""/></div>
+<map name="rtc_8c_a36e2af549b7d24f24e5255bbbeb5de71_cgraph" id="rtc_8c_a36e2af549b7d24f24e5255bbbeb5de71_cgraph">
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="rtc_8c_a36e2af549b7d24f24e5255bbbeb5de71_icgraph.png" border="0" usemap="#rtc_8c_a36e2af549b7d24f24e5255bbbeb5de71_icgraph" alt=""/></div>
+<map name="rtc_8c_a36e2af549b7d24f24e5255bbbeb5de71_icgraph" id="rtc_8c_a36e2af549b7d24f24e5255bbbeb5de71_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a09f8be3f6c04c89c445f9fc82a3d5ab7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rtc_enable_wakeup_timer </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable the wakeup timer. </p>
+<dl class="section warning"><dt>Warning</dt><dd>You must unlock the registers before using this function </dd></dl>
+
+<p>Definition at line <a class="el" href="rtc_8c_source.html#l00035">35</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+
+<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00046">RTC_CR</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00136">RTC_CR_OSEL_SHIFT</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00141">RTC_CR_OSEL_WAKEUP</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00153">RTC_CR_WUTE</a>, and <a class="el" href="rtc_8c_source.html#l00055">rtc_enable_wakeup_timer_interrupt()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="rtc_8c_a09f8be3f6c04c89c445f9fc82a3d5ab7_cgraph.png" border="0" usemap="#rtc_8c_a09f8be3f6c04c89c445f9fc82a3d5ab7_cgraph" alt=""/></div>
+<map name="rtc_8c_a09f8be3f6c04c89c445f9fc82a3d5ab7_cgraph" id="rtc_8c_a09f8be3f6c04c89c445f9fc82a3d5ab7_cgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4c6724c645e96d2741e262d5468d5827"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rtc_enable_wakeup_timer_interrupt </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable the wakeup timer interrupt. </p>
+<dl class="section warning"><dt>Warning</dt><dd>You must unlock the registers before using this function </dd></dl>
+
+<p>Definition at line <a class="el" href="rtc_8c_source.html#l00055">55</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+
+<p>References <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#ga959934e2712ce7672d2a947d9ca42d32">nvic_enable_irq()</a>, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#ga8d32953be2608382a7adfa053328b7ba">nvic_set_priority()</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00046">RTC_CR</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00149">RTC_CR_WUTIE</a>.</p>
+
+<p>Referenced by <a class="el" href="rtc_8c_source.html#l00035">rtc_enable_wakeup_timer()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="rtc_8c_a4c6724c645e96d2741e262d5468d5827_cgraph.png" border="0" usemap="#rtc_8c_a4c6724c645e96d2741e262d5468d5827_cgraph" alt=""/></div>
+<map name="rtc_8c_a4c6724c645e96d2741e262d5468d5827_cgraph" id="rtc_8c_a4c6724c645e96d2741e262d5468d5827_cgraph">
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="rtc_8c_a4c6724c645e96d2741e262d5468d5827_icgraph.png" border="0" usemap="#rtc_8c_a4c6724c645e96d2741e262d5468d5827_icgraph" alt=""/></div>
+<map name="rtc_8c_a4c6724c645e96d2741e262d5468d5827_icgraph" id="rtc_8c_a4c6724c645e96d2741e262d5468d5827_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="rtc_8c.html">rtc.c</a></li>
-    <li class="footer">Generated on Wed Feb 27 2013 05:21:19 for libopencm3 by
+    <li class="footer">Generated on Wed Feb 27 2013 07:21:19 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
