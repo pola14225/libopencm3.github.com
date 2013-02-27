@@ -166,7 +166,7 @@ $(document).ready(function(){initNavTree('common_8h_source.html','');});
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/* Full-featured deprecation attribute with fallback for older compilers. */</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#ifdef __GNUC__</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#       if __GNUC__ &gt; 4 || (__GNUC__ == 4 &amp;&amp; __GNUC_MINOR_ &gt; 4)</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#       if __GNUC__ &gt; 4 || (__GNUC__ == 4 &amp;&amp; __GNUC_MINOR__ &gt; 4)</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#               define LIBOPENCM3_DEPRECATED(x) __attribute__ ((deprecated (x)))</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#       else</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#               define LIBOPENCM3_DEPRECATED(x) __attribute__ ((deprecated))</span></div>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('common_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="common_8h.html">common.h</a></li>
-    <li class="footer">Generated on Tue Feb 26 2013 16:21:12 for libopencm3 by
+    <li class="footer">Generated on Wed Feb 27 2013 01:21:12 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
