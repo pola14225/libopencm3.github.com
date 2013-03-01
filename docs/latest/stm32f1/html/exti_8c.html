@@ -137,6 +137,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a5407cff9341a4300d97cacb93b451ddd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exti_8c.html#a5407cff9341a4300d97cacb93b451ddd">exti_enable_request</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> extis)</td></tr>
 <tr class="memitem:ab5d0eede2b40eb24875dfee50851ccdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exti_8c.html#ab5d0eede2b40eb24875dfee50851ccdb">exti_disable_request</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> extis)</td></tr>
 <tr class="memitem:a0f7bda7226dd15e9d39787656f5cfd3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exti_8c.html#a0f7bda7226dd15e9d39787656f5cfd3d">exti_reset_request</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> extis)</td></tr>
+<tr class="memitem:a562e04df5f328e1ee0785b8385f14d95"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exti_8c.html#a562e04df5f328e1ee0785b8385f14d95">exti_get_flag_status</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> exti)</td></tr>
 <tr class="memitem:aec98942fea32ed9d1a96437be0188969"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exti_8c.html#aec98942fea32ed9d1a96437be0188969">exti_select_source</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> exti, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport)</td></tr>
 </table>
 <h2>Function Documentation</h2>
@@ -173,6 +174,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="exti_8c_source.html#l00041">41</a> of file <a class="el" href="exti_8c_source.html">exti.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a562e04df5f328e1ee0785b8385f14d95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> exti_get_flag_status </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>exti</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="exti_8c_source.html#l00071">71</a> of file <a class="el" href="exti_8c_source.html">exti.c</a>.</p>
 
 </div>
 </div>
@@ -218,7 +237,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="exti_8c_source.html#l00074">74</a> of file <a class="el" href="exti_8c_source.html">exti.c</a>.</p>
+<p>Definition at line <a class="el" href="exti_8c_source.html#l00082">82</a> of file <a class="el" href="exti_8c_source.html">exti.c</a>.</p>
 
 <p>References <a class="el" href="gpio_8h_source.html#l00673">AFIO_EXTICR1</a>, <a class="el" href="gpio_8h_source.html#l00676">AFIO_EXTICR2</a>, <a class="el" href="gpio_8h_source.html#l00679">AFIO_EXTICR3</a>, <a class="el" href="gpio_8h_source.html#l00682">AFIO_EXTICR4</a>, <a class="el" href="gpio_8h_source.html#l00054">GPIOA</a>, <a class="el" href="gpio_8h_source.html#l00055">GPIOB</a>, <a class="el" href="gpio_8h_source.html#l00056">GPIOC</a>, <a class="el" href="gpio_8h_source.html#l00057">GPIOD</a>, <a class="el" href="gpio_8h_source.html#l00058">GPIOE</a>, <a class="el" href="gpio_8h_source.html#l00059">GPIOF</a>, and <a class="el" href="gpio_8h_source.html#l00060">GPIOG</a>.</p>
 
@@ -258,7 +277,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="exti_8c.html">exti.c</a></li>
-    <li class="footer">Generated on Fri Mar 1 2013 19:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Mar 1 2013 20:21:14 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

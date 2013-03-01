@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"group__gpio__defines.html#ga060df1633e6662d74ac912c4a7831c5c":[3,1,4,286],
 "group__gpio__defines.html#ga061be7bb1841a3f5c83a6da99e1c1ed6":[3,1,4,160],
 "group__gpio__defines.html#ga0662adf03ea61825b41b02c42f5d20c0":[3,1,4,315],
 "group__gpio__defines.html#ga07450b17296a75232a7744a4503913f7":[3,1,4,223],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "group__gpio__defines.html#gaa3529add6983fb7747ecc873ff0e9b6e":[3,1,4,57],
 "group__gpio__defines.html#gaa38876ad6f3cb35b67b25e87a2ce193c":[3,1,4,428],
 "group__gpio__defines.html#gaa3ad2386574a0f8283eaf9495ba47c6e":[3,1,4,54],
-"group__gpio__defines.html#gaa3c2dd08238377decca3afa9af3be1aa":[3,1,4,382],
-"group__gpio__defines.html#gaa53c84875636a1d7baeb48fb490b5156":[3,1,4,396]
+"group__gpio__defines.html#gaa3c2dd08238377decca3afa9af3be1aa":[3,1,4,382]
 };

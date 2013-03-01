@@ -7433,6 +7433,13 @@
       <arglist>(u32 extis)</arglist>
     </member>
     <member kind="function">
+      <type>u32</type>
+      <name>exti_get_flag_status</name>
+      <anchorfile>exti_8c.html</anchorfile>
+      <anchor>a562e04df5f328e1ee0785b8385f14d95</anchor>
+      <arglist>(u32 exti)</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>exti_select_source</name>
       <anchorfile>exti_8c.html</anchorfile>

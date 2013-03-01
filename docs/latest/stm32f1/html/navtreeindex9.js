@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"group__STM32F1xx__rcc__defines.html#ga7d58f429410f5aaa9475a3a4b63492bc":[3,1,8,77],
 "group__STM32F1xx__rcc__defines.html#ga7de5e411afdd8f22d01d91613acfc844":[3,1,8,147],
 "group__STM32F1xx__rcc__defines.html#ga7e7f10468741ab47dc34808af0e49b2b":[3,1,8,127],
 "group__STM32F1xx__rcc__defines.html#ga7f1369a578c72e31c63b447ad3375d53":[3,1,8,46],
@@ -196,8 +197,8 @@ var NAVTREEINDEX9 =
 "group__adc__trigger__regular__12.html#gaa5bb6e1aaa1607c788852648480ee6bb":[3,1,0,5,7],
 "group__adc__trigger__regular__12.html#gaab1fdc2e964c548a7d7aada7867c48b9":[3,1,0,5,6],
 "group__adc__trigger__regular__12.html#gad526313d6d73e1f0c3fe51148c2f3912":[3,1,0,5,3],
-"group__adc__trigger__regular__12.html#gad919f43d6eb1411e52553b34d5761123":[3,1,0,5,5],
 "group__adc__trigger__regular__12.html#gad919f43d6eb1411e52553b34d5761123":[3,1,0,5,4],
+"group__adc__trigger__regular__12.html#gad919f43d6eb1411e52553b34d5761123":[3,1,0,5,5],
 "group__adc__trigger__regular__3.html":[3,1,0,6],
 "group__adc__trigger__regular__3.html#ga566020a83fb74279d53c72bd7d708d10":[3,1,0,6,4],
 "group__adc__trigger__regular__3.html#ga63990f0d521c907be2335ef3c46624b7":[3,1,0,6,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "group__afio__evcr__port.html#gab4931a15c9784e7b7d0e678271cba75a":[3,1,4,3,4],
 "group__afio__evcr__port.html#gad2d0d2c1f1c046bdf055bb99465592ef":[3,1,4,3,1],
 "group__afio__exti.html":[3,1,4,14],
-"group__afio__exti.html#ga189c8b5be8697d9916e41db15f88d73d":[3,1,4,14,15],
-"group__afio__exti.html#ga199310d772f7b0fec957415fb5a7a0fe":[3,1,4,14,2]
+"group__afio__exti.html#ga189c8b5be8697d9916e41db15f88d73d":[3,1,4,14,15]
 };
