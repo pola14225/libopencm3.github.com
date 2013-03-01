@@ -23,6 +23,6 @@ var gpio__common__all_8h =
     [ "gpio_port_config_lock", "gpio__common__all_8h.html#gada75d7db796f14b6a2e7c291f636d2c6", null ],
     [ "gpio_port_read", "gpio__common__all_8h.html#ga00667ed71e76ab23562b50cffeb3cab5", null ],
     [ "gpio_port_write", "gpio__common__all_8h.html#gaf6a2d241b055d6f50db08305e901c526", null ],
-    [ "gpio_set", "gpio__common__all_8h.html#ga570d0f02cc0784882629bf4580b41e5b", null ],
+    [ "gpio_set", "gpio__common__all_8h.html#ga4f5f8d2c3d951f1b0138a207c8515db1", null ],
     [ "gpio_toggle", "gpio__common__all_8h.html#gaa066370e84c91d65966ff9bb548d8b16", null ]
 ];

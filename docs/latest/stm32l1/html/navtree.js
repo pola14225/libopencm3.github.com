@@ -46,7 +46,7 @@ var NAVTREEINDEX =
 "dma__common__f24_8h.html#ga19e2919f6dc9b31bfdd40fb7d406e4e5",
 "dma__common__f24_8h.html#gad20a0a5e103def436d4e329fc0888482",
 "gpio_8h.html#ga6d376657d66d0a5939629b1722b27279",
-"group__STM32L1xx__rcc__defines.html#ga813d42b8d48ae6379c053a44870af49d",
+"group__STM32L1xx__rcc__defines.html#ga81ce757b20164fa21501b15fd91c9691",
 "group__dac__mamp1.html",
 "group__dma__defines.html#ga59bad79f1ae37b69b048834808e8d067",
 "group__dma__defines.html#gae0f58173c721a4cee3f3885b352fa2a3",
@@ -56,7 +56,7 @@ var NAVTREEINDEX =
 "group__spi__lsbfirst.html#gae8ae11ca80fc6836908bc0422be2bb59",
 "i2c__common__all_8h.html#ga4598185d9092edfbf943464bcbb342ac",
 "pwr__common__all_8c.html#gaa985590fc7eadc3a93a41fb59a85c9e1",
-"rcc_8h.html#ga97c9487ca04b0a1a992d0f2e00df739c",
+"rcc_8h.html#ga982989563f1a95c89bf7f4a25d99f704",
 "rtc__common__bcd_8h.html#ga7fb2100cd23f48dabf098fd8de6be384",
 "spi__common__all_8h.html#gab1d48b214a986df19f304a656d09c4e0",
 "usart__common__f24_8h.html#a0a4f781c389ce231e70343e359cb807e"

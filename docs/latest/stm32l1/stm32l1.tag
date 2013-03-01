@@ -7157,10 +7157,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
+      <anchor>ga4f5f8d2c3d951f1b0138a207c8515db1</anchor>
       <arglist>(u32 gpioport, u16 gpios)</arglist>
     </member>
     <member kind="function">
@@ -9617,7 +9617,7 @@
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>ga451b64c9cf47aaa4977f1c4a5c9eb170</anchor>
+      <anchor>gafb2280aff17e5e44119435da2aec144d</anchor>
       <arglist>(osc_t osc)</arglist>
     </member>
     <member kind="function">
@@ -11663,10 +11663,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>BEGIN_DECLS void</type>
       <name>rcc_osc_ready_int_clear</name>
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>ga451b64c9cf47aaa4977f1c4a5c9eb170</anchor>
+      <anchor>gafb2280aff17e5e44119435da2aec144d</anchor>
       <arglist>(osc_t osc)</arglist>
     </member>
     <member kind="function">
@@ -17331,10 +17331,10 @@
       <arglist>(u32 gpioport, u8 alt_func_num, u16 gpios)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
+      <anchor>ga4f5f8d2c3d951f1b0138a207c8515db1</anchor>
       <arglist>(u32 gpioport, u16 gpios)</arglist>
     </member>
     <member kind="function">
@@ -20287,10 +20287,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>BEGIN_DECLS void</type>
       <name>rcc_osc_ready_int_clear</name>
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>ga451b64c9cf47aaa4977f1c4a5c9eb170</anchor>
+      <anchor>gafb2280aff17e5e44119435da2aec144d</anchor>
       <arglist>(osc_t osc)</arglist>
     </member>
     <member kind="function">

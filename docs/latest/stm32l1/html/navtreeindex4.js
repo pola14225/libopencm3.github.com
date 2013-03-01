@@ -90,7 +90,7 @@ var NAVTREEINDEX4 =
 "gpio__common__all_8h.html#ga3820cacb614277004870fc37b33ad084":[17,0,18,13],
 "gpio__common__all_8h.html#ga46027cd97ff756e5ddadcc10811b5699":[17,0,18,12],
 "gpio__common__all_8h.html#ga4b7d9a3961712ddd2a58532f4dcedc1d":[17,0,18,5],
-"gpio__common__all_8h.html#ga570d0f02cc0784882629bf4580b41e5b":[17,0,18,23],
+"gpio__common__all_8h.html#ga4f5f8d2c3d951f1b0138a207c8515db1":[17,0,18,23],
 "gpio__common__all_8h.html#ga88a95401ea8409c83cbda42f31450cd0":[17,0,18,8],
 "gpio__common__all_8h.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8":[17,0,18,10],
 "gpio__common__all_8h.html#ga9f4da19f41fda0a3ec6d017e0bedfa4a":[17,0,18,16],
@@ -208,7 +208,6 @@ var NAVTREEINDEX4 =
 "group__STM32L1xx__rcc__defines.html#ga429f54feb0f589b6fb9fb007c87bdb5e":[6,1,6,209],
 "group__STM32L1xx__rcc__defines.html#ga431e24972b5319db8aa2cac25bba73ed":[6,1,6,83],
 "group__STM32L1xx__rcc__defines.html#ga439a5998fd60c3375411c7db2129ac89":[6,1,6,38],
-"group__STM32L1xx__rcc__defines.html#ga451b64c9cf47aaa4977f1c4a5c9eb170":[6,1,6,232],
 "group__STM32L1xx__rcc__defines.html#ga4641a35381254234afb284547689e43c":[6,1,6,25],
 "group__STM32L1xx__rcc__defines.html#ga46edb2b9568f002feba7b4312ed92c1f":[6,1,6,139],
 "group__STM32L1xx__rcc__defines.html#ga47d0a7e326c0acf2e2f834aa22e0faf3":[6,1,6,86],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "group__STM32L1xx__rcc__defines.html#ga7fb9c125237cfe5b6436ca795e7f3564":[6,1,6,46],
 "group__STM32L1xx__rcc__defines.html#ga803cbf97bda1ebaf9afee2a3c9f0851b":[6,1,6,184],
 "group__STM32L1xx__rcc__defines.html#ga8053aa13396d01a92ab6668dc18024b1":[6,1,6,7],
-"group__STM32L1xx__rcc__defines.html#ga8066343d8e26cdd92f744ec84934b83a":[6,1,6,106]
+"group__STM32L1xx__rcc__defines.html#ga8066343d8e26cdd92f744ec84934b83a":[6,1,6,106],
+"group__STM32L1xx__rcc__defines.html#ga813d42b8d48ae6379c053a44870af49d":[6,1,6,74]
 };

@@ -6693,10 +6693,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
+      <anchor>ga4f5f8d2c3d951f1b0138a207c8515db1</anchor>
       <arglist>(u32 gpioport, u16 gpios)</arglist>
     </member>
     <member kind="function">
@@ -18488,10 +18488,10 @@
       <arglist>(n)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
+      <anchor>ga4f5f8d2c3d951f1b0138a207c8515db1</anchor>
       <arglist>(u32 gpioport, u16 gpios)</arglist>
     </member>
     <member kind="function">
