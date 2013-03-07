@@ -5,16 +5,6 @@ var searchData=
   ['usart3_5fbase',['USART3_BASE',['../memorymap_8h.html#abe0d6539ac0026d598274ee7f45b0251',1,'memorymap.h']]],
   ['usart4_5fbase',['USART4_BASE',['../memorymap_8h.html#afa384bb1e7d610a806f7c1f1dbc72ac5',1,'memorymap.h']]],
   ['usart5_5fbase',['USART5_BASE',['../memorymap_8h.html#ab34de0b56d40b6895b53bb60ced2574f',1,'memorymap.h']]],
-  ['usart6',['USART6',['../usart__common__f24_8h.html#a2dab39a19ce3dd05fe360dcbb7b5dc84',1,'usart_common_f24.h']]],
-  ['usart6_5fbrr',['USART6_BRR',['../usart__common__f24_8h.html#a0a4f781c389ce231e70343e359cb807e',1,'usart_common_f24.h']]],
-  ['usart6_5fcr1',['USART6_CR1',['../usart__common__f24_8h.html#abe070876f1daa7a63bda346a7c4d5ffa',1,'usart_common_f24.h']]],
-  ['usart6_5fcr2',['USART6_CR2',['../usart__common__f24_8h.html#a1075203fcf57a3d7a44bf02d91c2d9c5',1,'usart_common_f24.h']]],
-  ['usart6_5fcr3',['USART6_CR3',['../usart__common__f24_8h.html#ae16c5c1e521e87c4299779d290636a71',1,'usart_common_f24.h']]],
-  ['usart6_5fdr',['USART6_DR',['../usart__common__f24_8h.html#ab08007a5a998177b3a423fc11c0daaf5',1,'usart_common_f24.h']]],
-  ['usart6_5fgtpr',['USART6_GTPR',['../usart__common__f24_8h.html#a3a07d3c38375d5ccb7d17628f1b4da26',1,'usart_common_f24.h']]],
-  ['usart6_5fsr',['USART6_SR',['../usart__common__f24_8h.html#a475701e7a1d2ca39768a19b0d3a00695',1,'usart_common_f24.h']]],
-  ['usart_5fcr1_5fover8',['USART_CR1_OVER8',['../usart__common__f24_8h.html#aed6caeb0cb48f1a7b34090f31a92a8e2',1,'usart_common_f24.h']]],
-  ['usart_5fcr3_5fonebit',['USART_CR3_ONEBIT',['../usart__common__f24_8h.html#a9a96fb1a7beab602cbc8cb0393593826',1,'usart_common_f24.h']]],
   ['usb_5fdev_5ffs_5fbase',['USB_DEV_FS_BASE',['../memorymap_8h.html#abc2885c95e0fe23dcd7ebf09f495acea',1,'memorymap.h']]],
   ['usb_5fsram_5fbase',['USB_SRAM_BASE',['../memorymap_8h.html#ada0f5e3f2d7f243b73ae631120a6461b',1,'memorymap.h']]]
 ];

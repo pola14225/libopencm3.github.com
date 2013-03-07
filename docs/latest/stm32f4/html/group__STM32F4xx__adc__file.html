@@ -265,7 +265,7 @@ Functions</h2></td></tr>
 <h1><a class="anchor" id="adc_f4_api_ex"></a>
 Basic ADC Handling API.</h1>
 <p>Example 1: Simple single channel conversion polled. Enable the peripheral clock and ADC, reset ADC and set the prescaler divider. Set multiple mode to independent.</p>
-<div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga83e88435c703f86b1a04022433d1bd26" title="Set GPIO Pin Mode.">gpio_mode_setup</a>(<a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__mode.html#ga7a04f9ab65ad572ad20791a35009220c">GPIO_MODE_ANALOG</a>, <a class="code" href="group__gpio__pup.html#gad53ebddfcc3973120b1c0271423f131e">GPIO_PUPD_NONE</a>, <a class="code" href="group__gpio__pin__id.html#gabe59d3a7ce7a18e9440bd54cae1f3fc8">GPIO1</a>);</div>
+<div class="fragment"><div class="line"><a class="code" href="group__gpio__file.html#ga29d6570ea3c66e023e28130a9f484025" title="Set GPIO Pin Mode.">gpio_mode_setup</a>(GPIOA, GPIO_MODE_ANALOG, GPIO_PUPD_NONE, GPIO1);</div>
 <div class="line"><a class="code" href="rcc_8h.html#a3b3e26e0374ad984ec7c442b738a8cd2">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="rcc_8h.html#a6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, <a class="code" href="rcc_8h.html#a57b9f50cb96a2e4ceba37728b4a32a42">RCC_APB2ENR_ADC1EN</a>);</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga7c826871009a2e7396ad9bcc5d680d0f" title="ADC Set Clock Prescale.">adc_set_clk_prescale</a>(RCC_CFGR_ADCPRE_BY2);</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga75e4b403cc6932aef35b4b84b56c8080" title="ADC Disable Scan Mode.">adc_disable_scan_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
@@ -2192,7 +2192,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 7 2013 02:21:23 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 10:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

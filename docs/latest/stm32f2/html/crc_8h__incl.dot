@@ -7,6 +7,4 @@ digraph "crc.h"
   Node2 [label="libopencm3/stm32/memorymap.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="libopencm3/stm32/common\l/crc_common_all.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$crc__common__all_8h.html"];
-  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="libopencm3/cm3/common.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="cm3.tag$common_8h.html"];
 }

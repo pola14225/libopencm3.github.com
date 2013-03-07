@@ -114,185 +114,19 @@ $(document).ready(function(){initNavTree('rng__common__f24_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">rng_common_f24.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;libopencm3/stm32/memorymap.h&gt;</code><br/>
-<code>#include &lt;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</code><br/>
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for rng_common_f24.h:</div>
-<div class="dyncontent">
-<div class="center"><img src="rng__common__f24_8h__incl.png" border="0" usemap="#rng__common__f24_8h" alt=""/></div>
-<map name="rng__common__f24_8h" id="rng__common__f24_8h">
-</map>
-</div>
-</div>
+
 <p><a href="rng__common__f24_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9f983dd60cadb7f93a7cbc3242bed807"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a9f983dd60cadb7f93a7cbc3242bed807">RNG_CR</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x00)</td></tr>
-<tr class="memitem:a0c576b22e5f9deb46a5200be5eb9d456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a0c576b22e5f9deb46a5200be5eb9d456">RNG_SR</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x04)</td></tr>
-<tr class="memitem:ae881013c41cbacedda4e1403d9edbfeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#ae881013c41cbacedda4e1403d9edbfeb">RNG_DR</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x08)</td></tr>
-<tr class="memitem:a6ee81827bb1d78e84e78a74449c8d56a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a6ee81827bb1d78e84e78a74449c8d56a">RNG_CR_RNGEN</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
-<tr class="memitem:a27424b682bcee7fff22f92a2dbcea57a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a27424b682bcee7fff22f92a2dbcea57a">RNG_CR_IE</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
-<tr class="memitem:a54434ed74bdb00fd0f13422d3e85a2fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a54434ed74bdb00fd0f13422d3e85a2fc">RNG_SR_DRDY</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
-<tr class="memitem:a4bb49d327474c3c61877bb20290f51d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a4bb49d327474c3c61877bb20290f51d0">RNG_SR_CECS</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
-<tr class="memitem:a5562bc13afe295893dc3997a4917fee2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a5562bc13afe295893dc3997a4917fee2">RNG_SR_SECS</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
-<tr class="memitem:a3b89a08bcc8a7a6078bd9f5f2f34bb53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a3b89a08bcc8a7a6078bd9f5f2f34bb53">RNG_SR_CEIS</a>&#160;&#160;&#160;(1 &lt;&lt; 5)</td></tr>
-<tr class="memitem:aa6b0e11930f20484f0d0aca79959d9b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#aa6b0e11930f20484f0d0aca79959d9b2">RNG_SR_SEIS</a>&#160;&#160;&#160;(1 &lt;&lt; 6)</td></tr>
-</table>
-<h2>Macro Definition Documentation</h2>
-<a class="anchor" id="a9f983dd60cadb7f93a7cbc3242bed807"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_CR&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x00)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00028">28</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a27424b682bcee7fff22f92a2dbcea57a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_CR_IE&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00042">42</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6ee81827bb1d78e84e78a74449c8d56a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_CR_RNGEN&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00039">39</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae881013c41cbacedda4e1403d9edbfeb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_DR&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x08)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00034">34</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0c576b22e5f9deb46a5200be5eb9d456"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_SR&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x04)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00031">31</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4bb49d327474c3c61877bb20290f51d0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_SR_CECS&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00050">50</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3b89a08bcc8a7a6078bd9f5f2f34bb53"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_SR_CEIS&#160;&#160;&#160;(1 &lt;&lt; 5)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00056">56</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a54434ed74bdb00fd0f13422d3e85a2fc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_SR_DRDY&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00047">47</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5562bc13afe295893dc3997a4917fee2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_SR_SECS&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00053">53</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa6b0e11930f20484f0d0aca79959d9b2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RNG_SR_SEIS&#160;&#160;&#160;(1 &lt;&lt; 6)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng__common__f24_8h_source.html#l00059">59</a> of file <a class="el" href="rng__common__f24_8h_source.html">rng_common_f24.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="rng__common__f24_8h.html">rng_common_f24.h</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 02:21:13 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 10:21:10 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -159,9 +159,9 @@ $(document).ready(function(){initNavTree('pwr_8c_source.html','');});
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="pwr_8c.html#aa22ffb6b23613688342c73dd591dcd60">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(<a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40">vos_scale_t</a> scale)</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">if</span> (scale == <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a09689abe50d1577a43c296951050af57">SCALE1</a>)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <a class="code" href="group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8">PWR_CR</a> |= <a class="code" href="pwr_8h.html#accc33f1ba4e374e116ffa50f3a503030">PWR_CR_VOS</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                PWR_CR |= <a class="code" href="pwr_8h.html#accc33f1ba4e374e116ffa50f3a503030">PWR_CR_VOS</a>;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (scale == <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a5132140ed531dfa4a08549302c36731a">SCALE2</a>)</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                <a class="code" href="group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8">PWR_CR</a> &amp;= <a class="code" href="pwr_8h.html#accc33f1ba4e374e116ffa50f3a503030">PWR_CR_VOS</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                PWR_CR &amp;= <a class="code" href="pwr_8h.html#accc33f1ba4e374e116ffa50f3a503030">PWR_CR_VOS</a>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -169,7 +169,7 @@ $(document).ready(function(){initNavTree('pwr_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="pwr_8c.html">pwr.c</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 02:21:22 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 10:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

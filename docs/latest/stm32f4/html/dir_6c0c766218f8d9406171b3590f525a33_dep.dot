@@ -8,5 +8,5 @@ digraph "/home/esdentem/projects/libopencm3/libopencm3-git/lib/" {
     dir_55eaf1e33010ef6e6239f6fb75078880 [shape=box label="stm32" color="red" fillcolor="white" style="filled" URL="dir_55eaf1e33010ef6e6239f6fb75078880.html"];
   }
   dir_ead20f0c10569fc5b4f0cc70c3cf6bea [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html"];
-  dir_55eaf1e33010ef6e6239f6fb75078880->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="15", labeldistance=1.5 headhref="dir_000001_000003.html"];
+  dir_55eaf1e33010ef6e6239f6fb75078880->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="13", labeldistance=1.5 headhref="dir_000001_000003.html"];
 }

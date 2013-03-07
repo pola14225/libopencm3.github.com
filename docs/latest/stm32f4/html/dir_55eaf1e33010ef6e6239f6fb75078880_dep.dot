@@ -12,6 +12,5 @@ digraph "/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/" {
   }
   }
   dir_ead20f0c10569fc5b4f0cc70c3cf6bea [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html"];
-  dir_2cc908344f7c033af6399289af991fc7->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="1", labeldistance=1.5 headhref="dir_000007_000003.html"];
-  dir_8603a816839418b9ab8fedea07208ea8->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="14", labeldistance=1.5 headhref="dir_000002_000003.html"];
+  dir_8603a816839418b9ab8fedea07208ea8->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="13", labeldistance=1.5 headhref="dir_000002_000003.html"];
 }

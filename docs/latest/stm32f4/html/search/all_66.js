@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['fifo_20status',['FIFO Status',['../group__dma__fifo__status.html',1,'']]],
-  ['fifo_20threshold_20selection',['FIFO Threshold selection',['../group__dma__fifo__thresh.html',1,'']]],
   ['flash_2ec',['flash.c',['../flash_8c.html',1,'']]],
   ['flash_2eh',['flash.h',['../flash_8h.html',1,'']]],
   ['flash_5facr',['FLASH_ACR',['../flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc',1,'flash.h']]],

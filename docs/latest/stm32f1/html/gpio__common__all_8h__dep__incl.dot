@@ -7,6 +7,4 @@ digraph "gpio_common_all.h"
   Node2 [label="gpio.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gpio_8h.html"];
   Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="exti.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$exti_8c.html"];
-  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="gpio.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gpio_8c.html"];
 }

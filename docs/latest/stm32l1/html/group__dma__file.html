@@ -264,8 +264,6 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00052">52</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
 
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00115">DMA_CMAR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00074">DMA_CNDTR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00094">DMA_CPAR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00049">DMA_IFCR</a>, and <a class="el" href="dma__common__f13_8h_source.html#l00257">DMA_IFCR_CIF</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga80b497897ab64ea7a455325c5c6beb88"></a>
@@ -304,15 +302,13 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel selection <a class="el" href="group__dma__ch__sel.html">DMA Channel Select</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel selection dma_ch_sel </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00337">337</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>.</p>
 
 </div>
 </div>
@@ -352,8 +348,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: <a class="el" href="group__dma__ch.html">DMA Channel Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Logical OR of interrupt numbers: <a class="el" href="group__dma__if__offset.html">DMA Interrupt Flag Offsets within channel flag group.</a></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: dma_ch </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Logical OR of interrupt numbers: dma_if_offset</td></tr>
   </table>
   </dd>
 </dl>
@@ -361,17 +357,15 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Bitwise OR of interrupt numbers: <a class="el" href="group__dma__if__offset.html">DMA Interrupt Flag Offsets within channel flag group.</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Bitwise OR of interrupt numbers: dma_if_offset </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00077">77</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
 
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00153">DMA_FLAG_OFFSET</a>, <a class="el" href="dma__common__f24_8h_source.html#l00097">DMA_HIFCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00049">DMA_IFCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00262">DMA_ISR_OFFSET</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00092">DMA_LIFCR</a>.</p>
-
-<p>Referenced by <a class="el" href="dma__common__f24_8c_source.html#l00566">dma_enable_direct_mode_error_interrupt()</a>, <a class="el" href="dma__common__f24_8c_source.html#l00591">dma_enable_fifo_error_interrupt()</a>, <a class="el" href="dma__common__f24_8c_source.html#l00516">dma_enable_half_transfer_interrupt()</a>, <a class="el" href="dma__common__f24_8c_source.html#l00541">dma_enable_transfer_complete_interrupt()</a>, and <a class="el" href="dma__common__f24_8c_source.html#l00491">dma_enable_transfer_error_interrupt()</a>.</p>
+<p>Referenced by <a class="el" href="dma__common__f24_8c_source.html#l00566">dma_enable_direct_mode_error_interrupt()</a>, and <a class="el" href="dma__common__f24_8c_source.html#l00591">dma_enable_fifo_error_interrupt()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -420,8 +414,6 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00369">369</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
 
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, and <a class="el" href="dma__common__f13_8h_source.html#l00331">DMA_CCR_EN</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gae5bd785334f757a0deb94fd32b911161"></a>
@@ -452,14 +444,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00579">579</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00375">DMA_SxCR_DMEIE</a>.</p>
 
 </div>
 </div>
@@ -491,14 +481,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00446">446</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00445">DMA_SxCR_DBM</a>.</p>
 
 </div>
 </div>
@@ -530,14 +518,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00604">604</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00219">DMA_SFCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00549">DMA_SxFCR_FEIE</a>.</p>
 
 </div>
 </div>
@@ -572,14 +558,12 @@ Here is the caller graph for this function:</div>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00319">319</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00325">DMA_CCR_HTIE</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00379">DMA_SxCR_HTIE</a>.</p>
 
 </div>
 </div>
@@ -619,14 +603,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00195">195</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00310">DMA_CCR_MINC</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00402">DMA_SxCR_MINC</a>.</p>
 
 </div>
 </div>
@@ -666,14 +648,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00223">223</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00313">DMA_CCR_PINC</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00400">DMA_SxCR_PINC</a>.</p>
 
 </div>
 </div>
@@ -706,14 +686,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00693">693</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00373">DMA_SxCR_EN</a>.</p>
 
 </div>
 </div>
@@ -748,14 +726,12 @@ Here is the caller graph for this function:</div>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00343">343</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00328">DMA_CCR_TCIE</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00381">DMA_SxCR_TCIE</a>.</p>
 
 </div>
 </div>
@@ -790,14 +766,12 @@ Here is the caller graph for this function:</div>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00295">295</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00322">DMA_CCR_TEIE</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00377">DMA_SxCR_TEIE</a>.</p>
 
 </div>
 </div>
@@ -835,8 +809,6 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00355">355</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, and <a class="el" href="dma__common__f13_8h_source.html#l00331">DMA_CCR_EN</a>.</p>
 
 </div>
 </div>
@@ -881,14 +853,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00242">242</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00316">DMA_CCR_CIRC</a>, <a class="el" href="dma__common__f13_8h_source.html#l00270">DMA_CCR_MEM2MEM</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00398">DMA_SxCR_CIRC</a>.</p>
 
 </div>
 </div>
@@ -921,14 +891,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00636">636</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00219">DMA_SFCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00529">DMA_SxFCR_DMDIS</a>.</p>
 
 </div>
 </div>
@@ -960,14 +928,14 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00566">566</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="dma__common__f24_8c_source.html#l00096">dma_clear_interrupt_flags()</a>, <a class="el" href="dma__common__f24_8h_source.html#l00256">DMA_ISR_DMEIF</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00375">DMA_SxCR_DMEIE</a>.</p>
+<p>References <a class="el" href="dma__common__f13_8c_source.html#l00077">dma_clear_interrupt_flags()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1011,14 +979,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00434">434</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00445">DMA_SxCR_DBM</a>.</p>
 
 </div>
 </div>
@@ -1050,14 +1016,14 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00591">591</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="dma__common__f24_8c_source.html#l00096">dma_clear_interrupt_flags()</a>, <a class="el" href="dma__common__f24_8h_source.html#l00258">DMA_ISR_FEIF</a>, <a class="el" href="dma__common__f24_8h_source.html#l00219">DMA_SFCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00549">DMA_SxFCR_FEIE</a>.</p>
+<p>References <a class="el" href="dma__common__f13_8c_source.html#l00077">dma_clear_interrupt_flags()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1099,14 +1065,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00650">650</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00219">DMA_SFCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00529">DMA_SxFCR_DMDIS</a>.</p>
 
 </div>
 </div>
@@ -1140,14 +1104,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00296">296</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00400">DMA_SxCR_PINC</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00429">DMA_SxCR_PINCOS</a>.</p>
 
 </div>
 </div>
@@ -1182,23 +1144,12 @@ Here is the call graph for this function:</div>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00307">307</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00325">DMA_CCR_HTIE</a>, <a class="el" href="dma__common__f24_8c_source.html#l00096">dma_clear_interrupt_flags()</a>, <a class="el" href="dma__common__f13_8h_source.html#l00171">DMA_ISR_HTIF</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00379">DMA_SxCR_HTIE</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="group__dma__file_ga22ea9a9d3595761a3570f8c59c3acad4_cgraph.png" border="0" usemap="#group__dma__file_ga22ea9a9d3595761a3570f8c59c3acad4_cgraph" alt=""/></div>
-<map name="group__dma__file_ga22ea9a9d3595761a3570f8c59c3acad4_cgraph" id="group__dma__file_ga22ea9a9d3595761a3570f8c59c3acad4_cgraph">
-</map>
-</div>
-</p>
 
 </div>
 </div>
@@ -1237,8 +1188,6 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00113">113</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00316">DMA_CCR_CIRC</a>, and <a class="el" href="dma__common__f13_8h_source.html#l00270">DMA_CCR_MEM2MEM</a>.</p>
 
 </div>
 </div>
@@ -1281,14 +1230,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00183">183</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00310">DMA_CCR_MINC</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00402">DMA_SxCR_MINC</a>.</p>
 
 </div>
 </div>
@@ -1331,14 +1278,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00211">211</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00313">DMA_CCR_PINC</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00400">DMA_SxCR_PINC</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00429">DMA_SxCR_PINCOS</a>.</p>
 
 </div>
 </div>
@@ -1370,14 +1315,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00679">679</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00373">DMA_SxCR_EN</a>.</p>
 
 </div>
 </div>
@@ -1412,23 +1355,12 @@ Here is the call graph for this function:</div>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00331">331</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00328">DMA_CCR_TCIE</a>, <a class="el" href="dma__common__f24_8c_source.html#l00096">dma_clear_interrupt_flags()</a>, <a class="el" href="dma__common__f13_8h_source.html#l00183">DMA_ISR_TCIF</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00381">DMA_SxCR_TCIE</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="group__dma__file_gadce242f0b1e229b0ffc24aa2227d7394_cgraph.png" border="0" usemap="#group__dma__file_gadce242f0b1e229b0ffc24aa2227d7394_cgraph" alt=""/></div>
-<map name="group__dma__file_gadce242f0b1e229b0ffc24aa2227d7394_cgraph" id="group__dma__file_gadce242f0b1e229b0ffc24aa2227d7394_cgraph">
-</map>
-</div>
-</p>
 
 </div>
 </div>
@@ -1463,23 +1395,12 @@ Here is the call graph for this function:</div>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00283">283</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00322">DMA_CCR_TEIE</a>, <a class="el" href="dma__common__f24_8c_source.html#l00096">dma_clear_interrupt_flags()</a>, <a class="el" href="dma__common__f13_8h_source.html#l00159">DMA_ISR_TEIF</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00377">DMA_SxCR_TEIE</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="group__dma__file_ga6f98fcb670463ff9fa0b350b8a55add6_cgraph.png" border="0" usemap="#group__dma__file_ga6f98fcb670463ff9fa0b350b8a55add6_cgraph" alt=""/></div>
-<map name="group__dma__file_ga6f98fcb670463ff9fa0b350b8a55add6_cgraph" id="group__dma__file_ga6f98fcb670463ff9fa0b350b8a55add6_cgraph">
-</map>
-</div>
-</p>
 
 </div>
 </div>
@@ -1512,15 +1433,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>u32 FIFO Status <a class="el" href="group__dma__fifo__status.html">FIFO Status</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>u32 FIFO Status <a class="el" href="group__dma__file.html#ga1b38dbfcd08570b6c1c76430560e5734">dma_fifo_status</a> </dd></dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00620">620</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00219">DMA_SFCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00544">DMA_SxFCR_FS_MASK</a>.</p>
 
 </div>
 </div>
@@ -1560,8 +1479,8 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: <a class="el" href="group__dma__ch.html">DMA Channel Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: <a class="el" href="group__dma__ch.html">DMA Channel Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: dma_ch </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: dma_ch </td></tr>
   </table>
   </dd>
 </dl>
@@ -1570,16 +1489,14 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: <a class="el" href="group__dma__if__offset.html">DMA Interrupt Flag Offsets within channel flag group.</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: dma_if_offset </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool interrupt flag is set. </dd></dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00095">95</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00153">DMA_FLAG_OFFSET</a>, <a class="el" href="dma__common__f24_8h_source.html#l00087">DMA_HISR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00044">DMA_ISR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00262">DMA_ISR_OFFSET</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00082">DMA_LISR</a>.</p>
 
 </div>
 </div>
@@ -1612,15 +1529,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>unsigned int8. Memory buffer in use: 0 or 1 </dd></dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00413">413</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00447">DMA_SxCR_CT</a>.</p>
 
 </div>
 </div>
@@ -1654,14 +1569,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00479">479</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00383">DMA_SxCR_PFCTRL</a>.</p>
 
 </div>
 </div>
@@ -1700,15 +1613,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>unsigned int8. Threshold setting <a class="el" href="group__dma__fifo__thresh.html">FIFO Threshold selection</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>unsigned int8. Threshold setting dma_fifo_thresh </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00666">666</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00219">DMA_SFCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00526">DMA_SxFCR_FTH_MASK</a>.</p>
 
 </div>
 </div>
@@ -1748,15 +1659,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">memory</td><td>unsigned int8. Initial memory pointer to use: 0 or 1 </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00393">393</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00447">DMA_SxCR_CT</a>.</p>
 
 </div>
 </div>
@@ -1806,15 +1715,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Memory Initial Address. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00405">405</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00331">DMA_CCR_EN</a>, <a class="el" href="dma__common__f13_8h_source.html#l00115">DMA_CMAR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00173">DMA_SM0AR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00447">DMA_SxCR_CT</a>, <a class="el" href="dma__common__f24_8h_source.html#l00445">DMA_SxCR_DBM</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00373">DMA_SxCR_EN</a>.</p>
 
 </div>
 </div>
@@ -1853,15 +1760,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Memory Initial Address. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00753">753</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00196">DMA_SM1AR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00447">DMA_SxCR_CT</a>, <a class="el" href="dma__common__f24_8h_source.html#l00445">DMA_SxCR_DBM</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00373">DMA_SxCR_EN</a>.</p>
 
 </div>
 </div>
@@ -1901,15 +1806,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">burst</td><td>unsigned int8. Memory Burst selection <a class="el" href="group__dma__mburst.html">DMA Memory Burst Length</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">burst</td><td>unsigned int8. Memory Burst selection dma_mburst </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00355">355</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00475">DMA_SxCR_MBURST_MASK</a>.</p>
 
 </div>
 </div>
@@ -1950,7 +1853,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width <a class="el" href="group__dma__ch__memwidth.html">DMA Channel Memory Word Width</a>.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width dma_ch_memwidth.</td></tr>
   </table>
   </dd>
 </dl>
@@ -1959,15 +1862,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width <a class="el" href="group__dma__st__memwidth.html">DMA Stream Memory Word Width</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width dma_st_memwidth. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00147">147</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00294">DMA_CCR_MSIZE_MASK</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00426">DMA_SxCR_MSIZE_MASK</a>.</p>
 
 </div>
 </div>
@@ -2016,15 +1917,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">number</td><td>unsigned int16. Number of data words to transfer (65535 maximum). </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00422">422</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00074">DMA_CNDTR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00127">DMA_SNDTR</a>.</p>
 
 </div>
 </div>
@@ -2075,15 +1974,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Peripheral Address. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00388">388</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00331">DMA_CCR_EN</a>, <a class="el" href="dma__common__f13_8h_source.html#l00094">DMA_CPAR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00150">DMA_SPAR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00373">DMA_SxCR_EN</a>.</p>
 
 </div>
 </div>
@@ -2123,15 +2020,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">burst</td><td>unsigned int8. Peripheral Burst selection <a class="el" href="group__dma__pburst.html">DMA Peripheral Burst Length</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">burst</td><td>unsigned int8. Peripheral Burst selection dma_pburst </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00374">374</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00462">DMA_SxCR_PBURST_MASK</a>.</p>
 
 </div>
 </div>
@@ -2165,14 +2060,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00463">463</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00383">DMA_SxCR_PFCTRL</a>.</p>
 
 </div>
 </div>
@@ -2213,7 +2106,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width <a class="el" href="group__dma__ch__perwidth.html">DMA Channel Peripheral Word Width</a>.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width dma_ch_perwidth.</td></tr>
   </table>
   </dd>
 </dl>
@@ -2222,15 +2115,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width <a class="el" href="group__dma__st__perwidth.html">DMA Stream Peripheral Word Width</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width dma_st_perwidth. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00166">166</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00306">DMA_CCR_PSIZE_MASK</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00414">DMA_SxCR_PSIZE_MASK</a>.</p>
 
 </div>
 </div>
@@ -2271,7 +2162,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level <a class="el" href="group__dma__ch__pri.html">DMA Channel Priority Levels</a>.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level dma_ch_pri.</td></tr>
   </table>
   </dd>
 </dl>
@@ -2280,15 +2171,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level <a class="el" href="group__dma__st__pri.html">DMA Stream Priority Levels</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level dma_st_pri. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00130">130</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00282">DMA_CCR_PL_MASK</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00442">DMA_SxCR_PL_MASK</a>.</p>
 
 </div>
 </div>
@@ -2328,8 +2217,6 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00271">271</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
 
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, and <a class="el" href="dma__common__f13_8h_source.html#l00319">DMA_CCR_DIR</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga1816ec1c02bc4731f7e0ce175c6ba272"></a>
@@ -2367,8 +2254,6 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f13_8c_source.html#l00257">257</a> of file <a class="el" href="dma__common__f13_8c_source.html">dma_common_f13.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f13_8h_source.html#l00054">DMA_CCR</a>, and <a class="el" href="dma__common__f13_8h_source.html#l00319">DMA_CCR_DIR</a>.</p>
 
 </div>
 </div>
@@ -2408,15 +2293,13 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">direction</td><td>unsigned int32. Data transfer direction <a class="el" href="group__dma__st__dir.html">DMA Stream Data transfer direction</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">direction</td><td>unsigned int32. Data transfer direction dma_st_dir </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00146">146</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00398">DMA_SxCR_CIRC</a>, <a class="el" href="dma__common__f24_8h_source.html#l00445">DMA_SxCR_DBM</a>, <a class="el" href="dma__common__f24_8h_source.html#l00395">DMA_SxCR_DIR_MASK</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00392">DMA_SxCR_DIR_MEM_TO_MEM</a>.</p>
 
 </div>
 </div>
@@ -2449,14 +2332,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00059">59</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
-
-<p>References <a class="el" href="dma__common__f24_8h_source.html#l00097">DMA_HIFCR</a>, <a class="el" href="dma__common__f13_8h_source.html#l00155">DMA_ISR_MASK</a>, <a class="el" href="dma__common__f24_8h_source.html#l00092">DMA_LIFCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00104">DMA_SCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00219">DMA_SFCR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00173">DMA_SM0AR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00196">DMA_SM1AR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00127">DMA_SNDTR</a>, <a class="el" href="dma__common__f24_8h_source.html#l00150">DMA_SPAR</a>, and <a class="el" href="dma__common__f24_8h_source.html#l00373">DMA_SxCR_EN</a>.</p>
 
 </div>
 </div>
@@ -2465,7 +2346,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 7 2013 02:21:13 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 10:21:11 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -210,14 +210,12 @@ Functions</h2></td></tr>
 <p>I2C Clear DMA last transfer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00401">401</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00055">I2C_CR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00147">I2C_CR2_LAST</a>.</p>
 
 </div>
 </div>
@@ -239,14 +237,12 @@ Functions</h2></td></tr>
 <p>Clear the "Send Stop" flag in the I2C config register</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00125">125</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00114">I2C_CR1_STOP</a>.</p>
 
 </div>
 </div>
@@ -268,14 +264,12 @@ Functions</h2></td></tr>
 <p>Disables acking of own 7/10 bit address </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00324">324</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00111">I2C_CR1_ACK</a>.</p>
 
 </div>
 </div>
@@ -296,14 +290,12 @@ Functions</h2></td></tr>
 <p>I2C Disable DMA. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00381">381</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00055">I2C_CR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00150">I2C_CR2_DMAEN</a>.</p>
 
 </div>
 </div>
@@ -334,15 +326,13 @@ Functions</h2></td></tr>
 <p>I2C Disable Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>Unsigned int32. Interrupt to disable. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00302">302</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00055">I2C_CR2</a>.</p>
 
 </div>
 </div>
@@ -364,14 +354,12 @@ Functions</h2></td></tr>
 <p>Enables acking of own 7/10 bit address </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00313">313</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00111">I2C_CR1_ACK</a>.</p>
 
 </div>
 </div>
@@ -392,14 +380,12 @@ Functions</h2></td></tr>
 <p>I2C Enable DMA. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00371">371</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00055">I2C_CR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00150">I2C_CR2_DMAEN</a>.</p>
 
 </div>
 </div>
@@ -430,15 +416,13 @@ Functions</h2></td></tr>
 <p>I2C Enable Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>Unsigned int32. Interrupt to enable. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00291">291</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00055">I2C_CR2</a>.</p>
 
 </div>
 </div>
@@ -459,14 +443,12 @@ Functions</h2></td></tr>
 <p>I2C Get Data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00280">280</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00070">I2C_DR</a>.</p>
 
 </div>
 </div>
@@ -488,14 +470,12 @@ Functions</h2></td></tr>
 <p>Causes the I2C controller to NACK the reception of the current byte</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00347">347</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00108">I2C_CR1_POS</a>.</p>
 
 </div>
 </div>
@@ -517,14 +497,12 @@ Functions</h2></td></tr>
 <p>Causes the I2C controller to NACK the reception of the next byte </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00335">335</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00108">I2C_CR1_POS</a>.</p>
 
 </div>
 </div>
@@ -546,14 +524,12 @@ Functions</h2></td></tr>
 <p>This must not be reset while in Master mode until a communication has finished. In Slave mode, the peripheral is disabled only after communication has ended.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00084">84</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00140">I2C_CR1_PE</a>.</p>
 
 </div>
 </div>
@@ -574,14 +550,12 @@ Functions</h2></td></tr>
 <p>I2C Peripheral Enable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00070">70</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00140">I2C_CR1_PE</a>.</p>
 
 </div>
 </div>
@@ -603,14 +577,14 @@ Functions</h2></td></tr>
 <p>The I2C peripheral and all its associated configuration registers are placed in the reset condition. The reset is effected via the RCC peripheral reset system.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C peripheral identifier <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C peripheral identifier i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00050">50</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00043">I2C1</a>, <a class="el" href="i2c__common__all_8h_source.html#l00044">I2C2</a>, <a class="el" href="rcc_8h_source.html#l00052">RCC_APB1RSTR</a>, <a class="el" href="rcc_8h_source.html#l00292">RCC_APB1RSTR_I2C1RST</a>, <a class="el" href="rcc_8h_source.html#l00291">RCC_APB1RSTR_I2C2RST</a>, <a class="el" href="rcc_8c_source.html#l00496">rcc_peripheral_clear_reset()</a>, and <a class="el" href="rcc_8c_source.html#l00475">rcc_peripheral_reset()</a>.</p>
+<p>References <a class="el" href="rcc_8h_source.html#l00052">RCC_APB1RSTR</a>, <a class="el" href="rcc_8h_source.html#l00292">RCC_APB1RSTR_I2C1RST</a>, <a class="el" href="rcc_8h_source.html#l00291">RCC_APB1RSTR_I2C2RST</a>, <a class="el" href="rcc_8c_source.html#l00496">rcc_peripheral_clear_reset()</a>, and <a class="el" href="rcc_8c_source.html#l00475">rcc_peripheral_reset()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -656,16 +630,14 @@ Here is the call graph for this function:</div>
 <p>I2C Send the 7-bit Slave Address. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">slave</td><td>Unsigned int16. Slave address 0...1023. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">readwrite</td><td>Unsigned int8. Single bit to instruct slave to receive or send <a class="el" href="group__i2c__rw.html">I2C Read/Write bit</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">readwrite</td><td>Unsigned int8. Single bit to instruct slave to receive or send i2c_rw. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00258">258</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00070">I2C_DR</a>.</p>
 
 </div>
 </div>
@@ -696,15 +668,13 @@ Here is the call graph for this function:</div>
 <p>I2C Send Data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Unsigned int8. Byte to send. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00270">270</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00070">I2C_DR</a>.</p>
 
 </div>
 </div>
@@ -726,14 +696,12 @@ Here is the call graph for this function:</div>
 <p>If in Master mode this will cause a restart condition to occur at the end of the current transmission. If in Slave mode, this will initiate a start condition when the current bus activity is completed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00099">99</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00117">I2C_CR1_START</a>.</p>
 
 </div>
 </div>
@@ -755,14 +723,12 @@ Here is the call graph for this function:</div>
 <p>After the current byte transfer this will initiate a stop condition if in Master mode, or simply release the bus if in Slave mode.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00113">113</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00114">I2C_CR1_STOP</a>.</p>
 
 </div>
 </div>
@@ -794,15 +760,13 @@ Here is the call graph for this function:</div>
 <p>Set the bus clock frequency. This is a 12 bit number (0...4095) calculated from the formulae given in the STM32F1 reference manual in the description of the CCR field. It is a divisor of the peripheral clock frequency <a class="el" href="group__i2c__file.html#ga92b19377d0ee4abea230636b340508e4">i2c_set_clock_frequency</a> modified by the fast mode setting <a class="el" href="group__i2c__file.html#ga320f30cd3c0e6b6a2f2df4ce68c131d6">i2c_set_fast_mode</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">freq</td><td>Unsigned int16. Bus Clock Frequency Setting 0...4095. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00224">224</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00085">I2C_CCR</a>.</p>
 
 </div>
 </div>
@@ -834,15 +798,13 @@ Here is the call graph for this function:</div>
 <p>Set the peripheral clock frequency: 2MHz to 36MHz (the APB frequency). Note that this is <b> not </b> the I2C bus clock. This is set in conjunction with the Clock Control register to generate the Master bus clock, see <a class="el" href="group__i2c__file.html#ga2c57f77dec4fd2c197fd94b3e076f6ae">i2c_set_ccr</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">freq</td><td>Unsigned int8. Clock Frequency Setting <a class="el" href="group__i2c__clock.html">I2C clock frequency settings</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">freq</td><td>Unsigned int8. Clock Frequency Setting i2c_clock. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00201">201</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00055">I2C_CR2</a>.</p>
 
 </div>
 </div>
@@ -863,14 +825,12 @@ Here is the call graph for this function:</div>
 <p>I2C Set DMA last transfer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00391">391</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00055">I2C_CR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00147">I2C_CR2_LAST</a>.</p>
 
 </div>
 </div>
@@ -901,15 +861,13 @@ Here is the call graph for this function:</div>
 <p>I2C Set clock duty cycle. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dutycycle</td><td>Unsigned int32. I2C duty cycle <a class="el" href="group__i2c__duty__cycle.html">I2C peripheral clock duty cycles</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dutycycle</td><td>Unsigned int32. I2C duty cycle i2c_duty_cycle. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00358">358</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00085">I2C_CCR</a>, <a class="el" href="i2c__common__all_8h_source.html#l00319">I2C_CCR_DUTY</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00320">I2C_CCR_DUTY_DIV2</a>.</p>
 
 </div>
 </div>
@@ -931,14 +889,12 @@ Here is the call graph for this function:</div>
 <p>Set the clock frequency to the high clock rate mode (up to 400kHz). The actual clock frequency must be set with <a class="el" href="group__i2c__file.html#ga92b19377d0ee4abea230636b340508e4">i2c_set_clock_frequency</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00171">171</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00085">I2C_CCR</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00312">I2C_CCR_FS</a>.</p>
 
 </div>
 </div>
@@ -970,15 +926,13 @@ Here is the call graph for this function:</div>
 <p>This sets an address for Slave mode operation, in 10 bit form.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">slave</td><td>Unsigned int16. Slave address 0...1023. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00157">157</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00060">I2C_OAR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00209">I2C_OAR1_ADDMODE</a>.</p>
 
 </div>
 </div>
@@ -1010,15 +964,13 @@ Here is the call graph for this function:</div>
 <p>This sets an address for Slave mode operation, in 7 bit form.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">slave</td><td>Unsigned int8. Slave address 0...127. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00139">139</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00060">I2C_OAR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00209">I2C_OAR1_ADDMODE</a>.</p>
 
 </div>
 </div>
@@ -1040,14 +992,12 @@ Here is the call graph for this function:</div>
 <p>Set the clock frequency to the standard clock rate mode (up to 100kHz). The actual clock frequency must be set with <a class="el" href="group__i2c__file.html#ga92b19377d0ee4abea230636b340508e4">i2c_set_clock_frequency</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00185">185</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00085">I2C_CCR</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00312">I2C_CCR_FS</a>.</p>
 
 </div>
 </div>
@@ -1079,15 +1029,13 @@ Here is the call graph for this function:</div>
 <p>Set the maximum rise time on the bus according to the I2C specification, as 1 more than the specified rise time in peripheral clock cycles. This is a 6 bit number.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address i2c_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">trise</td><td>Unsigned int16. Rise Time Setting 0...63. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00245">245</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
-
-<p>References <a class="el" href="i2c__common__all_8h_source.html#l00090">I2C_TRISE</a>.</p>
 
 </div>
 </div>
@@ -1096,7 +1044,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 7 2013 02:21:17 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 10:21:13 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

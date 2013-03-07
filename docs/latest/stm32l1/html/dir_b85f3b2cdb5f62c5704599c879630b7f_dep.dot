@@ -7,5 +7,5 @@ digraph "/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/" {
   dir_b85f3b2cdb5f62c5704599c879630b7f [shape=box, label="l1", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b85f3b2cdb5f62c5704599c879630b7f.html"];
   }
   dir_ead20f0c10569fc5b4f0cc70c3cf6bea [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html"];
-  dir_b85f3b2cdb5f62c5704599c879630b7f->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="11", labeldistance=1.5 headhref="dir_000002_000003.html"];
+  dir_b85f3b2cdb5f62c5704599c879630b7f->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="10", labeldistance=1.5 headhref="dir_000002_000003.html"];
 }

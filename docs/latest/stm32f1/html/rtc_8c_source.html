@@ -165,7 +165,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="group__STM32F1xx__rcc__defines.html#gad4baa1f26b04719fe3d4e2f02d7dde40">RCC_APB1ENR</a> |= (<a class="code" href="group__rcc__apb1enr__en.html#ga5c19997ccd28464b80a7c3325da0ca60">RCC_APB1ENR_PWREN</a> | <a class="code" href="group__rcc__apb1enr__en.html#gad32a0efcb7062b8ffbf77865951d2a54">RCC_APB1ENR_BKPEN</a>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">/* Enable access to the backup registers and the RTC. */</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8">PWR_CR</a> |= <a class="code" href="group__pwr__defines.html#gaf5c65ab845794ef48f09faa2ee44f718">PWR_CR_DBP</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        PWR_CR |= PWR_CR_DBP;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">/*</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">         * Reset the backup domain, clears everything RTC related.</span></div>
@@ -387,7 +387,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <a class="code" href="group__STM32F1xx__rcc__defines.html#gad4baa1f26b04719fe3d4e2f02d7dde40">RCC_APB1ENR</a> |= (<a class="code" href="group__rcc__apb1enr__en.html#ga5c19997ccd28464b80a7c3325da0ca60">RCC_APB1ENR_PWREN</a> | <a class="code" href="group__rcc__apb1enr__en.html#gad32a0efcb7062b8ffbf77865951d2a54">RCC_APB1ENR_BKPEN</a>);</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="comment">/* Enable access to the backup registers and the RTC. */</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <a class="code" href="group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8">PWR_CR</a> |= <a class="code" href="group__pwr__defines.html#gaf5c65ab845794ef48f09faa2ee44f718">PWR_CR_DBP</a>;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        PWR_CR |= PWR_CR_DBP;</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <span class="comment">/* Wait for the RSF bit in RTC_CRL to be set by hardware. */</span></div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <a class="code" href="rtc_8h.html#a6aa62269ca0c46d1a4ad61012dbc85f8">RTC_CRL</a> &amp;= ~<a class="code" href="rtc_8h.html#ae6fefe3020ad4d61b54a516e8a65f30d">RTC_CRL_RSF</a>;</div>
@@ -407,7 +407,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="comment">/* Enable access to the backup registers and the RTC. */</span></div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <span class="comment">/* TODO: Not sure if this is necessary to just read the flag. */</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <a class="code" href="group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8">PWR_CR</a> |= <a class="code" href="group__pwr__defines.html#gaf5c65ab845794ef48f09faa2ee44f718">PWR_CR_DBP</a>;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        PWR_CR |= PWR_CR_DBP;</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordflow">if</span> ((reg32 = <a class="code" href="group__STM32F1xx__rcc__defines.html#gabd13837c4c33c5df3bdff96f8886d438">RCC_BDCR</a> &amp; <a class="code" href="group__STM32F1xx__rcc__defines.html#ga79ea6f2df75f09b17df9582037ed6a53">RCC_BDCR_RTCEN</a>) != 0) {</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                <a class="code" href="rtc_8h.html#a19032c3fbc1546712c5bc534e5ddbf48">rtc_awake_from_standby</a>();</div>
@@ -422,7 +422,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="rtc_8c.html">rtc.c</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 02:21:16 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 10:21:12 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

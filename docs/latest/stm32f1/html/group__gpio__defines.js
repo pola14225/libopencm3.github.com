@@ -15,7 +15,6 @@ var group__gpio__defines =
     [ "Alternate Function Remap Controls for USART 3", "group__afio__remap__usart3.html", "group__afio__remap__usart3" ],
     [ "Alternate Function Remap Controls Secondary Set", "group__afio__remap2.html", "group__afio__remap2" ],
     [ "Alternate Function EXTI pin number", "group__afio__exti.html", "group__afio__exti" ],
-    [ "GPIO Pin Identifiers", "group__gpio__pin__id.html", "group__gpio__pin__id" ],
     [ "AFIO_EVCR", "group__gpio__defines.html#ga90bab4153925083cd23931c7d6507df6", null ],
     [ "AFIO_EVCR_EVOE", "group__gpio__defines.html#ga5a24af5abfbcc69a979fe2d4410dad79", null ],
     [ "AFIO_EXTICR1", "group__gpio__defines.html#gaf80e5cb2bb3b64e75d14534bf786f20c", null ],
@@ -251,7 +250,6 @@ var group__gpio__defines =
     [ "GPIO_JTDI", "group__gpio__defines.html#ga4f55ad1641a57251d1ac8a465f208823", null ],
     [ "GPIO_JTDO_TRACESWO", "group__gpio__defines.html#ga9602aba3b14edb3e29815becc33e7145", null ],
     [ "GPIO_JTMS_SWDIO", "group__gpio__defines.html#gaecaffac9c765afb1cd84e04c217401a7", null ],
-    [ "GPIO_LCKK", "group__gpio__defines.html#gabb9a59447b681234fadf66bd3f0fdd57", null ],
     [ "GPIO_LCKR", "group__gpio__defines.html#ga5917bb16212870dc89a81b853252f92c", null ],
     [ "GPIO_ODR", "group__gpio__defines.html#ga58655e9db856a8f3208e388814db2de1", null ],
     [ "GPIO_SPI1_MISO", "group__gpio__defines.html#gaf94898ceb685387a109fdf4916315c79", null ],
@@ -428,15 +426,8 @@ var group__gpio__defines =
     [ "GPIOG_IDR", "group__gpio__defines.html#gafe5c5bf512dd760c4d8c8199e49e5b16", null ],
     [ "GPIOG_LCKR", "group__gpio__defines.html#ga639ecc5a7b2226fbf42990e810ba799a", null ],
     [ "GPIOG_ODR", "group__gpio__defines.html#gaf6c66591bad804d5e29360387e25d40a", null ],
-    [ "gpio_clear", "group__gpio__defines.html#gaa38876ad6f3cb35b67b25e87a2ce193c", null ],
-    [ "gpio_get", "group__gpio__defines.html#ga1f8ff59ad8792d9cc6e505149b51889d", null ],
-    [ "gpio_port_config_lock", "group__gpio__defines.html#gada75d7db796f14b6a2e7c291f636d2c6", null ],
-    [ "gpio_port_read", "group__gpio__defines.html#ga00667ed71e76ab23562b50cffeb3cab5", null ],
-    [ "gpio_port_write", "group__gpio__defines.html#gaf6a2d241b055d6f50db08305e901c526", null ],
     [ "gpio_primary_remap", "group__gpio__defines.html#ga09abe2f2f64812a4580050dbd34a4ff3", null ],
     [ "gpio_secondary_remap", "group__gpio__defines.html#gadcd7a1f65fe961d3ed1cefa514d5d2f7", null ],
-    [ "gpio_set", "group__gpio__defines.html#ga4f5f8d2c3d951f1b0138a207c8515db1", null ],
     [ "gpio_set_eventout", "group__gpio__defines.html#ga2d8001859b926b5f419c937c6c679459", null ],
-    [ "gpio_set_mode", "group__gpio__defines.html#ga07cb96dc8e544ca14fb746ce1c475b19", null ],
-    [ "gpio_toggle", "group__gpio__defines.html#gaa066370e84c91d65966ff9bb548d8b16", null ]
+    [ "gpio_set_mode", "group__gpio__defines.html#ga07cb96dc8e544ca14fb746ce1c475b19", null ]
 ];
