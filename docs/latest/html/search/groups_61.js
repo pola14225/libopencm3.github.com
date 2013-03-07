@@ -5,6 +5,7 @@ var searchData=
   ['adc_20number_20of_20channels_20in_20discontinuous_20mode_2e',['ADC Number of channels in discontinuous mode.',['../../stm32f1/html/group__adc__cr1__discnum.html',1,'']]],
   ['adc_20mode_20selection',['ADC Mode Selection',['../../stm32f1/html/group__adc__cr1__dualmod.html',1,'']]],
   ['adc_20resolution_2e',['ADC Resolution.',['../../stm32f4/html/group__adc__cr1__res.html',1,'']]],
+  ['adc_20defines',['ADC Defines',['../../stm32f1/html/group__adc__defines.html',1,'']]],
   ['adc_20delay_20between_202_20sampling_20phases',['ADC Delay between 2 sampling phases',['../../stm32f4/html/group__adc__delay.html',1,'']]],
   ['adc_20dma_20mode_20for_20multi_20adc_20mode',['ADC DMA mode for multi ADC mode',['../../stm32f4/html/group__adc__dma__mode.html',1,'']]],
   ['adc_20number_20of_20channels_20in_20discontinuous_20mode_20fro_20injected_20channels_2e',['ADC Number of channels in discontinuous mode fro injected channels.',['../../stm32f1/html/group__adc__jsqr__jl.html',1,'']]],
@@ -32,7 +33,6 @@ var searchData=
   ['alternate_20function_20remap_20controls_20for_20timer_203',['Alternate Function Remap Controls for Timer 3',['../../stm32f1/html/group__afio__remap__tim3.html',1,'']]],
   ['alternate_20function_20remap_20controls_20for_20usart_203',['Alternate Function Remap Controls for USART 3',['../../stm32f1/html/group__afio__remap__usart3.html',1,'']]],
   ['alternate_20function_20pin_20selection',['Alternate Function Pin Selection',['../../stm32f4/html/group__gpio__af__num.html',1,'']]],
-  ['adc_20defines',['ADC Defines',['../../stm32f1/html/group__STM32F1xx__adc__defines.html',1,'']]],
   ['adc',['ADC',['../../stm32f1/html/group__STM32F1xx__adc__file.html',1,'']]],
   ['adc_20defines',['ADC Defines',['../../stm32f4/html/group__STM32F4xx__adc__defines.html',1,'']]],
   ['adc',['ADC',['../../stm32f4/html/group__STM32F4xx__adc__file.html',1,'']]]

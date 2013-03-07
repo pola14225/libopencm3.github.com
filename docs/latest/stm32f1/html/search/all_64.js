@@ -255,7 +255,7 @@ var searchData=
   ['dma_5fcommon_5ff13_2ec',['dma_common_f13.c',['../dma__common__f13_8c.html',1,'']]],
   ['dma_5fcommon_5ff13_2eh',['dma_common_f13.h',['../dma__common__f13_8h.html',1,'']]],
   ['dma_5fcpar',['DMA_CPAR',['../group__dma__defines.html#gaec132f1bff88ed77c84215aa7442c01d',1,'dma_common_f13.h']]],
-  ['dma_5fdefines',['Dma_defines',['../group__dma__defines.html',1,'']]],
+  ['dma_20defines',['DMA Defines',['../group__dma__defines.html',1,'']]],
   ['dma_5fdisable_5fchannel',['dma_disable_channel',['../group__dma__defines.html#gac5b68ba004c7aed8fc3101fed5f5acd1',1,'dma_disable_channel(u32 dma, u8 channel):&#160;dma_common_f13.c'],['../group__dma__file.html#gac5b68ba004c7aed8fc3101fed5f5acd1',1,'dma_disable_channel(u32 dma, u8 channel):&#160;dma_common_f13.c']]],
   ['dma_5fdisable_5fhalf_5ftransfer_5finterrupt',['dma_disable_half_transfer_interrupt',['../group__dma__defines.html#ga0b7997b16dba35056695aa3ed7c8c57d',1,'dma_disable_half_transfer_interrupt(u32 dma, u8 channel):&#160;dma_common_f13.c'],['../group__dma__file.html#ga0b7997b16dba35056695aa3ed7c8c57d',1,'dma_disable_half_transfer_interrupt(u32 dma, u8 channel):&#160;dma_common_f13.c']]],
   ['dma_5fdisable_5fmemory_5fincrement_5fmode',['dma_disable_memory_increment_mode',['../group__dma__defines.html#gaa668c99d665129a8e627bfd120f8fdee',1,'dma_disable_memory_increment_mode(u32 dma, u8 channel):&#160;dma_common_f13.c'],['../group__dma__file.html#gaa668c99d665129a8e627bfd120f8fdee',1,'dma_disable_memory_increment_mode(u32 dma, u8 channel):&#160;dma_common_f13.c']]],
@@ -372,6 +372,5 @@ var searchData=
   ['dma_5ftcif',['DMA_TCIF',['../group__dma__if__offset.html#ga6357e8c0fd2f815af82211abacb7bd3f',1,'dma_common_f13.h']]],
   ['dma_5fteif',['DMA_TEIF',['../group__dma__if__offset.html#ga641dfc0110f5f9aed33f8f8c78d7653b',1,'dma_common_f13.h']]],
   ['doc_2dcm3_2eh',['doc-cm3.h',['../../../cm3/html/doc-cm3_8h.html',1,'']]],
-  ['doc_2dstm32f1_2eh',['doc-stm32f1.h',['../doc-stm32f1_8h.html',1,'']]],
-  ['dma_20defines',['DMA Defines',['../group__STM32F1xx__dma__defines.html',1,'']]]
+  ['doc_2dstm32f1_2eh',['doc-stm32f1.h',['../doc-stm32f1_8h.html',1,'']]]
 ];

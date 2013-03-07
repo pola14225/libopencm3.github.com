@@ -3,7 +3,7 @@ var group__STM32F4xx__defines =
     [ "ADC Defines", "group__STM32F4xx__adc__defines.html", "group__STM32F4xx__adc__defines" ],
     [ "CRC Defines", "group__crc__defines.html", null ],
     [ "DAC Defines", "group__dac__defines.html", "group__dac__defines" ],
-    [ "DMA Defines", "group__STM32F4xx__dma__defines.html", "group__STM32F4xx__dma__defines" ],
+    [ "DMA Defines", "group__dma__defines.html", "group__dma__defines" ],
     [ "GPIO Defines", "group__gpio__defines.html", "group__gpio__defines" ],
     [ "I2C Defines", "group__i2c__defines.html", "group__i2c__defines" ],
     [ "IWDG Defines", "group__iwdg__defines.html", "group__iwdg__defines" ],

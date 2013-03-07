@@ -7,16 +7,16 @@ var NAVTREE =
     [ "STM32F1", "../stm32f1/html/modules.html", null ],
     [ "STM32F2", "../stm32f2/html/modules.html", null ],
     [ "STM32F4", "../stm32f4/html/modules.html", null ],
-    [ "STM32L1", "../../stm32l1/html/modules.html", null ],
+    [ "STM32L1", "../stm32l1/html/modules.html", null ],
     [ "LM3S", "../lm3s/html/modules.html", null ],
     [ "LM4F", "../lm4f/html/modules.html", null ],
     [ "LPC13", "../lpc13xx/html/modules.html", null ],
     [ "LPC17", "../lpc17xx/html/modules.html", null ],
     [ "LPC43", "../lpc43xx/html/modules.html", null ],
-    [ "EMF32 Gecko", "../../emf32g/html/modules.html", null ],
-    [ "EMF32 Giant Gecko", "../../emf32gg/html/modules.html", null ],
-    [ "EMF32 Leopard Gecko", "../../emf32lg/html/modules.html", null ],
-    [ "EMF32 Tiny Gecko", "../../emf32tg/html/modules.html", null ]
+    [ "EMF32 Gecko", "../emf32g/html/modules.html", null ],
+    [ "EMF32 Giant Gecko", "../emf32gg/html/modules.html", null ],
+    [ "EMF32 Leopard Gecko", "../emf32lg/html/modules.html", null ],
+    [ "EMF32 Tiny Gecko", "../emf32tg/html/modules.html", null ]
   ] ]
 ];
 

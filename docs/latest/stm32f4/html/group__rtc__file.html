@@ -143,6 +143,10 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <p><b>libopencm3 STM32F4xx RTC</b> </p>
+<dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>4 March 2013</dd></dl>
+<p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
+<dl class="section author"><dt>Author</dt><dd> &copy;  2012 Karl Palsson <a href="#" onclick="location.href='mai'+'lto:'+'kar'+'lp'+'@tw'+'ea'+'k.n'+'et'+'.au'; return false;">karlp<span style="display: none;">.nosp@m.</span>@twe<span style="display: none;">.nosp@m.</span>ak.ne<span style="display: none;">.nosp@m.</span>t.au</a> </dd></dl>
 <h2>Function Documentation</h2>
 <a class="anchor" id="gaf12d879a95330d644ab2ec4490004de5"></a>
 <div class="memitem">
@@ -161,9 +165,9 @@ Functions</h2></td></tr>
 <p>Clears the wakeup flag. </p>
 <p>This function should be called first in the rtc_wkup_isr() </p>
 
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00105">105</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00109">109</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
 
-<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00049">RTC_ISR</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00181">RTC_ISR_WUTF</a>.</p>
+<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00053">RTC_ISR</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00185">RTC_ISR_WUTF</a>.</p>
 
 </div>
 </div>
@@ -183,9 +187,9 @@ Functions</h2></td></tr>
 
 <p>Lock write access to the RTC registers. </p>
 
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00074">74</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00078">78</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
 
-<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00065">RTC_WPR</a>.</p>
+<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00069">RTC_WPR</a>.</p>
 
 </div>
 </div>
@@ -216,9 +220,9 @@ Functions</h2></td></tr>
 <p>Set RTC prescalars. </p>
 <p>This sets the RTC synchronous and asynchronous prescalars. </p>
 
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00032">32</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00036">36</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
 
-<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00052">RTC_PRER</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00194">RTC_PRER_PREDIV_A_SHIFT</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00197">RTC_PRER_PREDIV_S_MASK</a>.</p>
+<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00056">RTC_PRER</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00198">RTC_PRER_PREDIV_A_SHIFT</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00201">RTC_PRER_PREDIV_S_MASK</a>.</p>
 
 </div>
 </div>
@@ -248,9 +252,9 @@ Functions</h2></td></tr>
 
 <p>Sets the wakeup time auto-reload value. </p>
 
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00082">82</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00086">86</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
 
-<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00046">RTC_CR</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00163">RTC_CR_WUCLKSEL_SHIFT</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00153">RTC_CR_WUTE</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00049">RTC_ISR</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00189">RTC_ISR_WUTWF</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00055">RTC_WUTR</a>.</p>
+<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00050">RTC_CR</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00167">RTC_CR_WUCLKSEL_SHIFT</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00157">RTC_CR_WUTE</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00053">RTC_ISR</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00193">RTC_ISR_WUTWF</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00059">RTC_WUTR</a>.</p>
 
 </div>
 </div>
@@ -270,9 +274,9 @@ Functions</h2></td></tr>
 
 <p>Unlock write access to the RTC registers. </p>
 
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00065">65</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00069">69</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
 
-<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00065">RTC_WPR</a>.</p>
+<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00069">RTC_WPR</a>.</p>
 
 </div>
 </div>
@@ -293,9 +297,9 @@ Functions</h2></td></tr>
 <p>Wait for RTC registers to be synchronised with the APB1 bus. </p>
 <p>Time and Date are accessed through shadow registers which must be synchronized </p>
 
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00047">47</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00051">51</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
 
-<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00049">RTC_ISR</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00186">RTC_ISR_RSF</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00065">RTC_WPR</a>.</p>
+<p>References <a class="el" href="rtc__common__bcd_8h_source.html#l00053">RTC_ISR</a>, <a class="el" href="rtc__common__bcd_8h_source.html#l00190">RTC_ISR_RSF</a>, and <a class="el" href="rtc__common__bcd_8h_source.html#l00069">RTC_WPR</a>.</p>
 
 </div>
 </div>
@@ -304,7 +308,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Mar 1 2013 20:21:22 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 02:21:23 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

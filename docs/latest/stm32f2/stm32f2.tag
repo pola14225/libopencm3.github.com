@@ -1162,1682 +1162,6 @@
     <includes id="dma__common__f24_8h" name="dma_common_f24.h" local="no" imported="no">libopencm3/stm32/common/dma_common_f24.h</includes>
   </compound>
   <compound kind="file">
-    <name>dma_common_f13.c</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>dma__common__f13_8c</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_channel_reset</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1ff41cad6a8f897a0722c0c913dd07f0</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_clear_interrupt_flags</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1035bb6b7cbb49a026a64b96496fed61</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>dma_get_interrupt_flag</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0448de67c4697ca3efe1350751690446</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupt)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_mem2mem_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga617eb5cd853d37e116247915aee301be</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_priority</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5a79731815d899613f5fe9944ef776b2</anchor>
-      <arglist>(u32 dma, u8 channel, u32 prio)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_size</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4e36129b18538020951fce6476b33df4</anchor>
-      <arglist>(u32 dma, u8 channel, u32 mem_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_size</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga56fff16304df824cd19ada5ef5d14bfe</anchor>
-      <arglist>(u32 dma, u8 channel, u32 peripheral_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_memory_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga63b0ae23516392cb7b7fbb2cd78bd709</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_memory_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa668c99d665129a8e627bfd120f8fdee</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad8806134d462fcba72689bc8a8436885</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2b4d26d2919a322b98c7e4d350d98218</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_circular_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac9942cd4b0c10fa780fad38ea5840b6e</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_peripheral</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1816ec1c02bc4731f7e0ce175c6ba272</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_memory</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa70ac5daa668c30783552ea0e531d9df</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga6f98fcb670463ff9fa0b350b8a55add6</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3ca927ad8548f5df39f80e2a3580b257</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga22ea9a9d3595761a3570f8c59c3acad4</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0b7997b16dba35056695aa3ed7c8c57d</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gadce242f0b1e229b0ffc24aa2227d7394</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gafeb700fc225336070480f46ea6fdfd5b</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_channel</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga48e3c1011542fdfad681aa7e554608f5</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_channel</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac5b68ba004c7aed8fc3101fed5f5acd1</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_address</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga74057182d4be039db3d6a26c779fbdea</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_address</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac2f336cb2da513e171c2111e2e399c0a</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_number_of_data</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5bc9e05af8be84ecce2be41731de467f</anchor>
-      <arglist>(u32 dma, u8 channel, u16 number)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>dma_common_f13.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>dma__common__f13_8h</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacc16d2a5937f7585320a98f7f6b578f9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga506520140eec1708bc7570c49bdf972d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6d94c9580957aec3c23a0b1ca7d47468</anchor>
-      <arglist>(dma_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_ISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae546dd4d4b5b4c1f75926c572b9b4b6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_ISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab6ce8d56cb4b93eb312539ed3721e052</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8df83f6a1d06f281f9b4d2b8e6edc8a1</anchor>
-      <arglist>(dma_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_IFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac7525286f8eee2ac190de94811075900</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_IFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0d7e1762a5f0c91418f7cf0464454d6b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9de7b044f349e59350b27d9b2e3411a0</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6813cc65289a40a69991e41e70179a71</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga391eaedcafb133c7bc72ed817d869dcc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga869f8cb9fd84a06664c7697a36c80a1b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga651a5c3a15b5565c8ba679a8c387ea74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8171687f836ef9abf845ab4cb3e788a7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaded13078c0cf206edfb91b31d8f58d74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4e5c41c9e13788bf86fbe6354c5e2287</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga937b03df75296cbfa2d506b87a9d20fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga64753d2e797ddcb265e07e3361732975</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga61dff2b38a3ad5564827cf0d59ab01e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4f45d2e93f785f28168ae65b1f3b6604</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga13e74aeac02c56cd815204c819973f42</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7c90bd094fc05a5313d2d2fee1981a20</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga129adf55913ccbdd65258b490b97a030</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2d9e0542d5540e204d7ffd0217689bd0</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafa9d6b3d6e206a7291dd74e5245a5fb6</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae9b729fb7540fe8afbfe4e99d7dd4f4e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1ab7f2af4bb344201a25fdf18b9f1f87</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4b0dfc8b514e15ff2cb50010bb6701ef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0a480e229253f02de440909f96d6e925</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac346451cbdbcaf544cb65d8e896ab4be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7afdf1887c80eb60ea9bae5a255b528b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga81073b17989ca9fe01163fbc0caa2852</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2a2adddff957a6512e6138e9dc22ca6d</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabb57ba2194f5d34ce326c9975bb3f9d4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac0719974b3dcfb9f70ffc01941a1ad3d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabbf581f164b987f14d5697648cfe9aa0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga198f3a664e5da472ad3598d8fcb667d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafb133db8b4294374f0e16e6ce37107ed</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaec132f1bff88ed77c84215aa7442c01d</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga88d13e6f4d9731d2d37bab111dbd873c</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga15bdb91b645f13dac1b9b7b269a56f77</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad34f6db1f158f4b9a583761db8c51c52</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga09b1ea4330fb3e24cd69164d60cb452c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae0930ec8859650484d1850de42043bad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaac4b50aaa0a34e4de1da9f5d1425956f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacbddb6a70179e6ca8181f15beb17f980</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga585d545c237971a99b3c2aba2b3295b4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga86e6834b10736eb6e87eeedcbf95456d</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadfe59076a69127310d79f59b3782bcd2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3d93a63810b1067d965817ba325276f8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac30477625eac00725c6d15a98d653a9b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8fe6d24b188a12cad940ac2d75adf5a8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga158eb18f6c62f3e9d02402f2f6b33d8b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CMAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaad3b5daa5024d73be1253eb6c83b94b7</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6220887e1451469a54540385f608792e</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4dd3d427d2f8478ad24c158148a5e9cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa5d131d8bac849a234ab1212bdecc354</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab3ed7997482cb68e1286087814d778cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga680e200249499c09dc37e1de560043b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaac37a1d82a462c1b3eb54ca2e93f7a68</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga015c1fa67076c84953e66ce72d7ec012</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0a67d09a178adb0ba50ef07917417186</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad86363fc293b41a483363a2d7f401656</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2bd402bee3cade672dea9e10f694a09f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa2a49a58659bc8b7d8c7f34daf51e111</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2ea90ac3e92fd9a06153064fc5ecf605</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga99d6dab7cfa5c4b9ffb4ceb685be0bc9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1d24cd6be9f2c02ea0c21c95aec1b81f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_TEIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga641dfc0110f5f9aed33f8f8c78d7653b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HTIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga941a91b96de4c594c4d8acb91d560f4d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_TCIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga6357e8c0fd2f815af82211abacb7bd3f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_GIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga2c361a2f90c1e5852a62ffc23704416a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_FLAG_OFFSET</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga53d418dcbe069d230ea7fe4c7f65ffd5</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_FLAGS</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga850db3ca90d45af6e76e7163a8af7dfe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadcd862010a7cde210805f0854e1e7b7f</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga592f87630e5c1af457ac3fcdccf0af6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga250c05bdbe73f5e80171599e1f86639b</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga26bfd55e965445ae253a5c5fa8f1769a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5bcd07efcadd5fef598edec1cca70e38</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa624379143a2535d7a60d87d59834d10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga12fcc1471918f3e7b293b2d825177253</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga42f9b12c4c80cbb7cd0f94f139c73de3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae47d914969922381708ae06c1c71123a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf8333b3c78b7d0a07bd4b1e91e902b31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga63f55c78acda38971ebcaa55bb875fe5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga22f770c63ab88ac647e3d29192803fa2</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5f83359698adf05854b55705f78d8a5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8ee1947aef188f437f37d3ff444f8646</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga53bb9a00737c52faffaaa91ff08b34a1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga684cf326c770f1ab21c604a5f62907ad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3d1f2b8c82b1e20b4311af8ca9576736</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga41b6d9787aeff76a51581d9488b4604f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga769016c2b0bf22ff3ad6967b3dc0e2bb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga38018ed1c5ede6b0c132d10c96b82c9d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4cc23112667280b44989f839f79837a1</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1a1522414af27c7fff2cc27edac1d680</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga631741eb4843eda3578808a3d8b527b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga28664595df654d9d8052fb6f9cc48495</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad7d4e46949a35cf037a303bd65a0c87a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5ea57d09f13edbd6ad8afe9465e0fa70</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2d76395cf6c6ef50e05c96d7ae723058</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4528af54928542c09502c01827418732</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9c80402706a69eafecf1a3c61d55aa57</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacbdd4b044ab804cfc556d41e8f216627</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3475228c998897d0f408a4c5da066186</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga44fa823dbb15b829621961efc60d6a95</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacb0bd8fb0e580688c5cf617b618bbc17</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf4f69823d44810c353af1f0a89eaf180</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga83d4d9cba635d1e33e3477b773379cfd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac55f4836aa8e6cfc9bdcadfabf65b5d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga86f178e879b2d8ceeea351e4750272dd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0521298f12443236f93dcdb1cc1308c6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga43fc6e9976eadcdef88a442fcc06081f</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga989699cace2fa87efa867b825c1deb29</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4abb0afb7dbe362c150bf80c4c751a67</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga59bad79f1ae37b69b048834808e8d067</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6fdda8f7f2507c1d3988c7310a35d46c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6ec6326d337a773b4ced9d8a680c05a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1e523c5cbf5594ffe8540c317bce6933</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4076bf1ed67fb39d4a0175e5943d5f2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3ca91bcee960f96604570dce6beceb0c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga861a77828aaf0c8359be2d43e0b82f2c</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga66e9aa2475130fbf63db304ceea019eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3e769c78024a22b4d1f528ce03ccc760</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2dea86ca2ec8aa945b840f2c1866e1f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga950664b81ec2d4d843f89ef102107d7b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3c23c727a4dbbc45a356c8418299275d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae67273db02ffd8f2bfe0a5c93e9282a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa7378f7a26730bfd5c950b7c7efb9272</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga209f52ca23a54f28adc7d26dbcb25b44</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabae39332daf506f714051f241ec6cd86</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga60085fa798cf77f80365839e7d88c8f1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8505b947a04834750e164dc320dfae09</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaccb4c0c5e0f2e01dec12ba366b83cb4d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga34b431fd4e034f8333e44594712f75eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaae4c7d1d10beb535aec39de9a8bdc327</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac3dca486df2f235aac8f3975f5f4ab75</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac26181e8c2bd1fddc1e774cb7b621e5b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabd23e04bb52ec14f9ebdbb01eafa42e0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabae2910ff72333620c15c71878979b37</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga75ad797334d9fb70750ace14b16e0122</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab907e446bbf1e1400dc5fdbd929d0e5f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0d98e88c334091e20e931372646a6b0d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga73d22139e4567c89e2afcb4aef71104c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga943245d2a8300854d53fd07bb957a6fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7fc61098c5cf9a7d53ddcb155e34c984</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaad9f01dfeb289156448f5a5a0ad54099</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga65d5acb5b3d8a5cc489fb48f5db237a0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga582baaad9bd0949217f9c8b707611552</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga62378d43df70d8595e9788910f530850</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacb3685be7f2be2ba2aa99cc1f7838d2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9c91503f69c719662338b06ab6749b56</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4654981bc670a535a97f4bb8080820f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab742dffe27ebdac738cd724fb68ea883</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga07de9b897bdc4030894f177577214f1c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafbb6bc394e5c5951f766ab9e1989b955</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MEM2MEM</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5c87a41026384e25fe2312d03af76215</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_LOW</name>
-      <anchorfile>group__dma__ch__pri.html</anchorfile>
-      <anchor>ga9c5ae836d47137392f4a450cd62b370c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_MEDIUM</name>
-      <anchorfile>group__dma__ch__pri.html</anchorfile>
-      <anchor>gac8594f023fdec14bc6f83b210c069adf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_HIGH</name>
-      <anchorfile>group__dma__ch__pri.html</anchorfile>
-      <anchor>gaba1d489116e5f395de6cf500d8644393</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_VERY_HIGH</name>
-      <anchorfile>group__dma__ch__pri.html</anchorfile>
-      <anchor>ga4a657e997558322161744302430fdec9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa24c76d77301becc22c252a140f74402</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1f3ab5e5980b9e15d6200ac3f0191a31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_8BIT</name>
-      <anchorfile>group__dma__ch__memwidth.html</anchorfile>
-      <anchor>ga37688ed864b6cb9b5a38e56357112504</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_16BIT</name>
-      <anchorfile>group__dma__ch__memwidth.html</anchorfile>
-      <anchor>ga650ed126a3dd8d6cfdeb72d37f146d72</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_32BIT</name>
-      <anchorfile>group__dma__ch__memwidth.html</anchorfile>
-      <anchor>ga0452053fcf437a855834f8e6494af66a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacde80651d2bcf226e2c9b6414c23b6e0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gade083dc08df30eaa3220e82434702a4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_8BIT</name>
-      <anchorfile>group__dma__ch__perwidth.html</anchorfile>
-      <anchor>ga98479837dd483ab7f2e2b82dbb253c28</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_16BIT</name>
-      <anchorfile>group__dma__ch__perwidth.html</anchorfile>
-      <anchor>ga2c8b1e07caf409c7a4e25a2fe38cc1f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_32BIT</name>
-      <anchorfile>group__dma__ch__perwidth.html</anchorfile>
-      <anchor>ga2d37466080b8207d7cf2720a8652aa76</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf9282b1157209c1dd737d6cbc0f5702a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad396fb79516101e7014d2c342a611bf2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MINC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa189138f534283d876f654ec9474987e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PINC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga028cb96357bd24868a74ee1134a35b7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_CIRC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga445471396e741418bcd6f63404f4052c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_DIR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8f1ece172cf3c3e696b86d401d7345a2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_TEIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3dd2204c9046500140e3c720fb5a415f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_HTIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0f0fae31377ab1d33e36cead97b1811b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_TCIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaaba9cd82cab0cca23de038e946f81c6a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_EN</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gababa3817d21a78079be76bc26b2c10f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL1</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga7163a545d0ca12a84c34f7cd64ad5dea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL2</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga00cf4fbf98f20892dcfa48e51ac0dc5f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL3</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga977fe375ce029b779eb076ccac4b4399</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL4</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga1ff2bf05ff63cc68abece1cec995797b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL5</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga35352670a5bb03c4384d433cb5ea9da8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL6</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>gad17e72649f3047ede480f51d4c80b5aa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL7</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>gad3b878c26e0d3b54bafb2e1876c1dddb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>BEGIN_DECLS void</type>
-      <name>dma_channel_reset</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3b2bc730997955bfc6db23139525827c</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_clear_interrupt_flags</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1035bb6b7cbb49a026a64b96496fed61</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>dma_get_interrupt_flag</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0448de67c4697ca3efe1350751690446</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_mem2mem_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga617eb5cd853d37e116247915aee301be</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_priority</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5a79731815d899613f5fe9944ef776b2</anchor>
-      <arglist>(u32 dma, u8 channel, u32 prio)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_size</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4e36129b18538020951fce6476b33df4</anchor>
-      <arglist>(u32 dma, u8 channel, u32 mem_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_size</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga56fff16304df824cd19ada5ef5d14bfe</anchor>
-      <arglist>(u32 dma, u8 channel, u32 peripheral_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_memory_increment_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga63b0ae23516392cb7b7fbb2cd78bd709</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_memory_increment_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa668c99d665129a8e627bfd120f8fdee</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad8806134d462fcba72689bc8a8436885</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2b4d26d2919a322b98c7e4d350d98218</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_circular_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac9942cd4b0c10fa780fad38ea5840b6e</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_peripheral</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1816ec1c02bc4731f7e0ce175c6ba272</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_memory</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa70ac5daa668c30783552ea0e531d9df</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6f98fcb670463ff9fa0b350b8a55add6</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3ca927ad8548f5df39f80e2a3580b257</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga22ea9a9d3595761a3570f8c59c3acad4</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0b7997b16dba35056695aa3ed7c8c57d</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadce242f0b1e229b0ffc24aa2227d7394</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafeb700fc225336070480f46ea6fdfd5b</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_channel</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga48e3c1011542fdfad681aa7e554608f5</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_channel</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac5b68ba004c7aed8fc3101fed5f5acd1</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_address</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga74057182d4be039db3d6a26c779fbdea</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_address</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac2f336cb2da513e171c2111e2e399c0a</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_number_of_data</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5bc9e05af8be84ecce2be41731de467f</anchor>
-      <arglist>(u32 dma, u8 channel, u16 number)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>dma_common_f24.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>dma__common__f24_8c</filename>
@@ -2852,15 +1176,15 @@
       <type>void</type>
       <name>dma_clear_interrupt_flags</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1035bb6b7cbb49a026a64b96496fed61</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
+      <anchor>ga5c0470a08b21008f5a931874880c4cee</anchor>
+      <arglist>(u32 dma, u8 stream, u32 interrupts)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>dma_get_interrupt_flag</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0448de67c4697ca3efe1350751690446</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupt)</arglist>
+      <anchor>ga3f097eabdc84317f65ead7f003377ab8</anchor>
+      <arglist>(u32 dma, u8 stream, u32 interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2873,50 +1197,50 @@
       <type>void</type>
       <name>dma_set_priority</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5a79731815d899613f5fe9944ef776b2</anchor>
-      <arglist>(u32 dma, u8 channel, u32 prio)</arglist>
+      <anchor>ga4e73942551cab31bbe3a4e004a4f93b0</anchor>
+      <arglist>(u32 dma, u8 stream, u32 prio)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_size</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4e36129b18538020951fce6476b33df4</anchor>
-      <arglist>(u32 dma, u8 channel, u32 mem_size)</arglist>
+      <anchor>ga2b95f28d28220c0efd799e2d110f45fa</anchor>
+      <arglist>(u32 dma, u8 stream, u32 mem_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_peripheral_size</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga56fff16304df824cd19ada5ef5d14bfe</anchor>
-      <arglist>(u32 dma, u8 channel, u32 peripheral_size)</arglist>
+      <anchor>ga067a01d037d4fafb9b2a2e21b8030a79</anchor>
+      <arglist>(u32 dma, u8 stream, u32 peripheral_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_memory_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga63b0ae23516392cb7b7fbb2cd78bd709</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga387a649146bffc4de16989271aa57ce6</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_memory_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa668c99d665129a8e627bfd120f8fdee</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga28e5646d25467867762b24e76720807f</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_peripheral_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad8806134d462fcba72689bc8a8436885</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gacd78d1f802084da720779970144f7d2a</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_peripheral_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2b4d26d2919a322b98c7e4d350d98218</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gace6d8c4969bb3f13296220c12b070867</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2929,8 +1253,8 @@
       <type>void</type>
       <name>dma_enable_circular_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac9942cd4b0c10fa780fad38ea5840b6e</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga4357d9c2cce6820220880cfba461ddc5</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2999,43 +1323,43 @@
       <type>void</type>
       <name>dma_enable_transfer_error_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga6f98fcb670463ff9fa0b350b8a55add6</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga44bac096c7f6f16310dcd6018dd11ec6</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_error_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3ca927ad8548f5df39f80e2a3580b257</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga66e0c7b08350cff91a0056fb877e134d</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_half_transfer_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga22ea9a9d3595761a3570f8c59c3acad4</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gadb1424572c99abed55409f8f9d9c0770</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_half_transfer_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0b7997b16dba35056695aa3ed7c8c57d</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga9cf44d7f437a3022cb04c4fcc94699d8</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gadce242f0b1e229b0ffc24aa2227d7394</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gaa0c004f4beb0a0552400bc0c3b0e2d45</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gafeb700fc225336070480f46ea6fdfd5b</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gaf86fe4e326cd7500557fb77a23561c4b</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3111,15 +1435,15 @@
       <type>void</type>
       <name>dma_set_peripheral_address</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga74057182d4be039db3d6a26c779fbdea</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+      <anchor>ga0c66c7d1f2180986e1cb5cc33f2e5ffb</anchor>
+      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_address</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac2f336cb2da513e171c2111e2e399c0a</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+      <anchor>ga96c283b368df58291ba660ff9ffa04f7</anchor>
+      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3132,8 +1456,8 @@
       <type>void</type>
       <name>dma_set_number_of_data</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5bc9e05af8be84ecce2be41731de467f</anchor>
-      <arglist>(u32 dma, u8 channel, u16 number)</arglist>
+      <anchor>ga2031e06052340a4175ecc508a66edd55</anchor>
+      <arglist>(u32 dma, u8 stream, u16 number)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -5356,15 +3680,15 @@
       <type>void</type>
       <name>dma_clear_interrupt_flags</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1035bb6b7cbb49a026a64b96496fed61</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
+      <anchor>ga5c0470a08b21008f5a931874880c4cee</anchor>
+      <arglist>(u32 dma, u8 stream, u32 interrupts)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>dma_get_interrupt_flag</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0448de67c4697ca3efe1350751690446</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
+      <anchor>ga3f097eabdc84317f65ead7f003377ab8</anchor>
+      <arglist>(u32 dma, u8 stream, u32 interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5377,29 +3701,29 @@
       <type>void</type>
       <name>dma_set_priority</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5a79731815d899613f5fe9944ef776b2</anchor>
-      <arglist>(u32 dma, u8 channel, u32 prio)</arglist>
+      <anchor>ga4e73942551cab31bbe3a4e004a4f93b0</anchor>
+      <arglist>(u32 dma, u8 stream, u32 prio)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_size</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4e36129b18538020951fce6476b33df4</anchor>
-      <arglist>(u32 dma, u8 channel, u32 mem_size)</arglist>
+      <anchor>ga2b95f28d28220c0efd799e2d110f45fa</anchor>
+      <arglist>(u32 dma, u8 stream, u32 mem_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_peripheral_size</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga56fff16304df824cd19ada5ef5d14bfe</anchor>
-      <arglist>(u32 dma, u8 channel, u32 peripheral_size)</arglist>
+      <anchor>ga067a01d037d4fafb9b2a2e21b8030a79</anchor>
+      <arglist>(u32 dma, u8 stream, u32 peripheral_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_memory_increment_mode</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga63b0ae23516392cb7b7fbb2cd78bd709</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga387a649146bffc4de16989271aa57ce6</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5412,8 +3736,8 @@
       <type>void</type>
       <name>dma_enable_peripheral_increment_mode</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad8806134d462fcba72689bc8a8436885</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gacd78d1f802084da720779970144f7d2a</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5433,8 +3757,8 @@
       <type>void</type>
       <name>dma_enable_circular_mode</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac9942cd4b0c10fa780fad38ea5840b6e</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga4357d9c2cce6820220880cfba461ddc5</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5503,43 +3827,43 @@
       <type>void</type>
       <name>dma_enable_transfer_error_interrupt</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6f98fcb670463ff9fa0b350b8a55add6</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga44bac096c7f6f16310dcd6018dd11ec6</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_error_interrupt</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3ca927ad8548f5df39f80e2a3580b257</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga66e0c7b08350cff91a0056fb877e134d</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_half_transfer_interrupt</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga22ea9a9d3595761a3570f8c59c3acad4</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gadb1424572c99abed55409f8f9d9c0770</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_half_transfer_interrupt</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0b7997b16dba35056695aa3ed7c8c57d</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga9cf44d7f437a3022cb04c4fcc94699d8</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadce242f0b1e229b0ffc24aa2227d7394</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gaa0c004f4beb0a0552400bc0c3b0e2d45</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafeb700fc225336070480f46ea6fdfd5b</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gaf86fe4e326cd7500557fb77a23561c4b</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>
@@ -5615,15 +3939,15 @@
       <type>void</type>
       <name>dma_set_peripheral_address</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga74057182d4be039db3d6a26c779fbdea</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+      <anchor>ga0c66c7d1f2180986e1cb5cc33f2e5ffb</anchor>
+      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_address</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac2f336cb2da513e171c2111e2e399c0a</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+      <anchor>ga96c283b368df58291ba660ff9ffa04f7</anchor>
+      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5636,8 +3960,8 @@
       <type>void</type>
       <name>dma_set_number_of_data</name>
       <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5bc9e05af8be84ecce2be41731de467f</anchor>
-      <arglist>(u32 dma, u8 channel, u16 number)</arglist>
+      <anchor>ga2031e06052340a4175ecc508a66edd55</anchor>
+      <arglist>(u32 dma, u8 stream, u16 number)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -9773,105 +8097,105 @@
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
       <arglist>(u32 pvd_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_standby_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_stop_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_voltage_high</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
     </member>
@@ -17674,9 +15998,2155 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>STM32F2xx_dma_defines</name>
+    <name>dma_defines</name>
     <title>DMA Defines</title>
-    <filename>group__STM32F2xx__dma__defines.html</filename>
+    <filename>group__dma__defines.html</filename>
+    <subgroup>dma_st_number</subgroup>
+    <subgroup>dma_if_offset</subgroup>
+    <subgroup>dma_st_dir</subgroup>
+    <subgroup>dma_st_perwidth</subgroup>
+    <subgroup>dma_st_memwidth</subgroup>
+    <subgroup>dma_st_pri</subgroup>
+    <subgroup>dma_pburst</subgroup>
+    <subgroup>dma_mburst</subgroup>
+    <subgroup>dma_ch_sel</subgroup>
+    <subgroup>dma_fifo_thresh</subgroup>
+    <subgroup>dma_fifo_status</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacc16d2a5937f7585320a98f7f6b578f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga506520140eec1708bc7570c49bdf972d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_STREAM</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga373edae826e8be329bd95655b5524642</anchor>
+      <arglist>(port, n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_STREAM</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga237da62e1a3cd1d7df5f97453a123d4a</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_STREAM</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa50ac3f6fce8e2d6783c4b241b3b9298</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_STREAM0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabb325344bf3ab820d93354e366861e70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_STREAM1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa2a9ef0918dfa94c18970a59a638be35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_STREAM2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7aa893ebe356de882dfc096bb4640d4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_STREAM3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6e8be57ac11cbec15bc3e78b6ba5ef98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_STREAM4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga39e838dea0fa600e475a0e3b2d1a7a8f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_STREAM5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac10b6313da1f7943da3f9c5b04ad86e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_STREAM6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1a5e1a8ed679141575cfd595ff1a5c41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_STREAM7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad65baca06f113a2340e5e00abb25fc78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_STREAM0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0b6fa3a07607a6d9eb6f305f1ca1a345</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_STREAM1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9b270e74a56d5a37e65ee890af39ce7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_STREAM2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafb683f8af7af0075e2b253a815ac53e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_STREAM3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga14fe483b7785fe05710877fed9ab07c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_STREAM4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5b012d6c35e0154a0323abea3326a239</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_STREAM5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga57a817146fe5ca233e8a8af2366b8796</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_STREAM6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa805a63d66104f6f0dc048f9d063ed49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_STREAM7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf73ac59b037781c5cc0cc3562ffacadc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1cf8882b2c868df74fc89f835110900c</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_LISR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gada1651a6726ca6dc707018fa0dcd1e0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_LISR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga006a5b530e31ba5ee55890983deffb25</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6c1afc873de85a731bbb5f6691071b4e</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_HISR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2eedb4c57bfb6541a33eb01d7507d805</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_HISR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab09df81a2839f59c46f13f8550c6346d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5c986a020aa4a378754bb99615d94d7b</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_LIFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafcab6410344e059272e6f6f08eb75368</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_LIFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga781231b235ba0433a0c0c939b3516ff0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2b9dfd8607d952ee263d992491e543d1</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_HIFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga72bdd3df3f0f6beddc8f3d6e1c50304c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_HIFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3f95cefca1b883b04d48a7cd21a14ecf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga84ffa5dbbb264df435db69e9cdd84e49</anchor>
+      <arglist>(port, n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_SCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga11456f79e1e295e75cd8bad72486181f</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_SCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0ed5bf07e2aa31f9a6cf529cf1fff8dc</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S0CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac6f9b86977b4ea6c4851bca8f794e132</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S1CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5d7bdef8c4943f4af34b7d17aaf36f7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S2CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga277357f800b508b8d2bdb5ce0bd3ca98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S3CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab822c0403883e8c570ff3f5fe75184de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S4CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa42e51614999448250ac200eb1c84e89</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S5CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4fa799e005e3ca23ccaf73661f151242</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S6CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadc7d472c42ecbac81772ae568b57cbc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S7CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa36811536d60b7082dd41234336625c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S0CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga63d2f4e7ae4e1d323519714c34aedd33</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S1CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga10e4c411c0539e863a726e250e99a53e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S2CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga31a68dbcd4cfb5c2f606881054c769e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S3CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2583a3d085e82b5afe0a17486e357b46</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S4CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab745e52f0b8a0ada24c0e013b6f417f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S5CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga62aa55fcfc52b0b6af06596ce90f5cb3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S6CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7069fea64397b32559b70fa2f1ae8318</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S7CR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6fa0eb413131b25edb469fa679460ce4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SNDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf0ae68be4984d257d353fe849f95e230</anchor>
+      <arglist>(port, n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_SNDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7ab1262c4cee97ee0284e819c2809605</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_SNDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga200f073b5fd4a5a65c81136c4c2237c0</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S0NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac486d784a2b1e591e97277ff37d19bc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S1NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7d65376c5ab4ae4999df027da59b82a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S2NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac0de2b2494a1bd8ba596c214bf4cb011</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S3NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga68d6a2de33b1990e095240452ebf116f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S4NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga64ecc17b76961b7530cb108068e8e9f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S5NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad2a74bf8afa77c0077dae226c2914b77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S6NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga24427bad51984fe2b634e08ef32c9d34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S7NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8193237ea01174e76dd935667f0a85cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S0NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3c867b3b55d2e1d6ad2e725fa04ab770</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S1NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga08e4207f009790bbf707ad349035add9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S2NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5ed8f104145f8203f46913a6e1961ad6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S3NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga69a49a902833499dd49a04b83a826758</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S4NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga27e7f75b0f76da53409eab1c18818541</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S5NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gade94961499438624c3ad3187839d91c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S6NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga75325da563774c977191eca9f39dfde1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S7NDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga19e2919f6dc9b31bfdd40fb7d406e4e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SPAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf1e6eef691bf13f842b2f140fab99369</anchor>
+      <arglist>(port, n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_SPAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae403e30129e2a688b7bc5bad28324a7d</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_SPAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga49b36810f1afe62ee5d4afc0379995e8</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S0PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1081f1ed6b15d96b8e4f341f31847241</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S1PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae51c8bc7585fc447037973a7fc563b38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S2PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab2abf4cbf8d4453a48a480bd14335d40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S3PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga69d084d4c14c14b0dc7c886d1f82b4d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S4PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3b1ee36d9f95395dd7705ed41e4f7dd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S5PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga099320a4ea3dde3d2dec14e271ff7dfc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S6PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga391efad95a5a1fdcd59bbafac3d3160d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S7PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga13b6dead1ccd32daafdf9d8676d60de2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S0PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6712c2e806a539c859eadadbe803d2ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S1PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabea01c773dc6f8574992ef6b21115299</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S2PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga427a015a2a04eb7968d1420c905edd04</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S3PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4e7460f876327fcab46f3f45553ab088</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S4PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6b070b3cdbe084639265dc44d8d03100</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S5PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2b48b3df6c471ec3784db0c355aca89f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S6PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae42dc29196a8b270d89cc02e1e938415</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S7PAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac707973374874490b6502686dc57e84f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SM0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2ac093c52bc4db800b46204d12356da4</anchor>
+      <arglist>(port, n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_SM0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac285ba585d732b0bbf04dad369d7a48a</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_SM0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga86c782f1c908d5059379beee7f4752e5</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S0M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab44d309cf18a811acd58ea1762f055a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S1M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaca598ac74b7668eae689a76d61a91348</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S2M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4d79a8f6a232cf4c07f094b1082023b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S3M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga619689afc0c6b1e7c987120af2588fbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S4M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf4413434797ed78c5b396fb05068922a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S5M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga12bcc63be3a7e33b84d362fae0adffa0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S6M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga98b06ec340749811cc383ff1e2f097bd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S7M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae8dc0268425c34d6ba36ab51208bd43e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S0M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga616509f09ef415c22699a5b1d64db8d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S1M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0084afcb955e22838edcad3b8f9bc2a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S2M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf4685ff895fd5a7523153ea97fd48430</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S3M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga26bf611992205f18f7495e23e06e3255</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S4M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7d77630cda53ceadba307a5c455f77ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S5M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6ebf0e3ddb637a71e0f2d27805a1aec2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S6M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac6f35b25038caffefc16870a0a40f1bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S7M0AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf73db9fc4f0d1872c1dff809e54f927e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SM1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga220658f19d3669ad1fa71049f9bae5fc</anchor>
+      <arglist>(port, n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_SM1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf357d97bb0f447e9f0f437a17cebfc46</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_SM1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad952f8b347452937c6b59ac521441482</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S0M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga48730e56ed07531c301aa1dc67e53e2d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S1M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaac528daa7dc150e14720af83f073049e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S2M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga68715be6db413796baac83cdaf60fc0f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S3M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2441df1f5261e6958dcb742ccf54ff31</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S4M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga86eddfd65e6422e93acb0afac8cceb22</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S5M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga47fb155cfacfefdb871d33fe5d44cf00</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S6M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa409d4e648c1c4868c2b8dfd406f4631</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S7M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad76a017ae0c8b4095bf9d170617f4df2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S0M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaab5cb55fa0de55a1e09eb5d6d2fd7712</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S1M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad9ead7f762f2cc590c2c8a3a4609d980</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S2M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga01e5f1f9433fab93827110a539f9269e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S3M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa8cc2e3825c542bc311efddcd81134ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S4M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga66b44060fb0a6f5a81334d961d46594e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S5M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0e6a2ae22fba8d89615ee953204c27d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S6M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5920fd5e01c765884b8266fee1e5145c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S7M1AR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2386377436ee318192d16941759dda7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga02a15265c2385224ab3a1391f53e1c62</anchor>
+      <arglist>(port, n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_SFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga52b9ad2b38d46241eb8c2fa52a392606</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_SFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga97b29777056c1ff5fbacbc533ea32371</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S0FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2eb0680f6f0d599c680d5660ee024d19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S1FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga62cb923404caf886f388209b332bffff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S2FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga724cbeb74ded686dbab6455647977d21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S3FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3040c3b6f13fb4b7d262ea966e87f45b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S4FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa99b1ff56f7e4def547039b0ae59ee8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S5FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac552f85032025e052ec89788b612ccaa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S6FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9fff2e019b3dd018346b1a8171b53937</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_S7FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafa1f2886ae13400716b69243c6a5bf50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S0FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6d77a1da37de2f67564a63ef295896e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S1FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4716ab2528b6f0c01595eea4548488f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S2FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7686b73c7cee5b38ae4f5241145402ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S3FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga706085ec87149e7cda8dac9c5968ffe0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S4FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae66b5561b2f614ed98b0f965e0ccbf6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S5FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga87412e8f5f83925d056852800068a9e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S6FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7d0940d23c958e809357ff22b37021b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_S7FCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3058aec22f6a176f48e99d27c4209ade</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_OFFSET</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabb6767ef7efe5b6e57580e8f615e6ec2</anchor>
+      <arglist>(stream)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_FLAGS</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3b10d190e03d234b3e45a6e2b0becdde</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga32989a27e6f23ef043a5e7be4c59feb6</anchor>
+      <arglist>(stream)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_FEIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga79bcc3f8e773206a66aba95c6f889d6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_DMEIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga72de97ebc9d063dceb38bada91c44878</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_TEIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad43cdafa5acfcd683b7a2ee8976dd8ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_HTIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6181727d13abbc46283ff22ce359e3b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_TCIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadbc3f7e52c0688bed4b71fa37666901d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_FEIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafbc4fecde60c09e12f10113a156bb922</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_DMEIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa4903814bfc12dd6193416374fbddf8c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_TEIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0cd826db0b9ea5544d1a93beb90f8972</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_HTIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga04304a9f8891e325247c0aaa4c9fac72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_TCIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae02aec39ded937b3ce816d3df4520d9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_FEIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga99c42b194213872753460ef9b7745213</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_DMEIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabc7edcd7404f0dcf19a724dfad22026a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_TEIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga74d540802cadde42bdd6debae5d8ab89</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_HTIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6ca25185d14a1f0c208ec8ceadc787a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_TCIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf21350cce8c4cb5d7c6fcf5edc930cf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_FEIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5367443a1378eef82aed62ca22763952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_DMEIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga01fd1397b41221f5bdf6f107cb92e196</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_TEIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5dfaba3a5db7cdcbddf9ee5974b44c2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_HTIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa10c891ee2ec333b7f87eea5886d574f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LISR_TCIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga44e5bf8adbb2646d325cba8d5dd670d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_FEIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacab90057201b1da9774308ff3fb6cfa1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_DMEIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf716f1bc12ea70f49802d84fb77646e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_TEIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9005d4b958193fbd701c879eede467c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_HTIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadba8d24329c676d70560eda0b8c1e5b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_TCIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafcce25c245499f9e62cb757e1871d973</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_FEIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0d62494b31bb830433ddd683f4872519</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_DMEIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac5ee964eee9c88fa28d32ce3ea6478f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_TEIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf16fb0e5d87f704c89824f961bfb7637</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_HTIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8617bf8160d1027879ffd354e04908d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_TCIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga64f15eaf1dd30450d1d35ee517507321</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_FEIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafb297f94bde8d1aea580683d466ca8ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_DMEIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab7b58e7ba316d3fc296f4433b3e62c38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_TEIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1a7ec01955fb504a5aa4f9f16a9ac52c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_HTIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0d39c14138e9ff216c203b288137144b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_TCIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad29468aa609150e241d9ae62c477cf45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_FEIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadea53385fca360f16c4474db1cf18bc1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_DMEIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3bb23848f8a022a47ab4abd5aa9b7d39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_TEIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga960f094539b5afc7f9d5e45b7909afe6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_HTIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf535d1a3209d2e2e0e616e2d7501525d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HISR_TCIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad20a0a5e103def436d4e329fc0888482</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CFEIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadf6b8892189f3779f7fecf529ed87c74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CDMEIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafe80a122bf0537e8c95877ccf2b7b6d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CTEIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5824a64683ce2039260c952d989bf420</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CHTIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga44f83ba08feb98240a553403d977b8d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CTCIF0</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab7a0b2cc41c63504195714614e59dc8e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CFEIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga96cea0049553ab806bbc956f52528c37</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CDMEIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9a5aea54a390886f7de82e87e6dfc936</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CTEIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf6d8adf52567aee2969492db65d448d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CHTIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad2f38b0c141a9afb3943276dacdcb969</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CTCIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7494c54901b8f5bcb4894d20b8cfafed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CFEIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae0f58173c721a4cee3f3885b352fa2a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CDMEIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7680fc5f5e6c0032044f1d8ab7766de8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CTEIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa9d761752657a3d268da5434a04c6c6a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CHTIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae19254e8ad726a73c6edc01bc7cf2cfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CTCIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga52d6df2b5ab2b43da273a702fe139b59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CFEIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad9432964145dc55af9186aea425e9963</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CDMEIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabea10cdf2d3b0773b4e6b7fc9422f361</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CTEIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0a51c601387d1ae49333d5ace8ae86ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CHTIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0ed3ab4e5d7975f985eb25dc65f99be3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_LIFCR_CTCIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5210736d34dc24eb9507975921233137</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CFEIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1e5ea118900178d4fa2d19656c1b48ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CDMEIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0d70d58a4423ac8973c30ddbc7404b44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CTEIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9e05ff4fc6bace9cc6c0f0d4ec7b3314</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CHTIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf8f0afa9a6526f7f4413766417a56be8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CTCIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga42e529507a40f0dc4c16da7cc6d659db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CFEIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9a4e90af967fa0a76c842384264e0e52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CDMEIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga15b404d9e1601cf3627cbf0163b50221</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CTEIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga33394fe20a3567c8baaeb15ad9aab586</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CHTIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2cef7eeccd11737c1ebf5735284046cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CTCIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa55d19705147a6ee16effe9ec1012a72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CFEIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga39a0a7f42498f71dedae8140483b7ced</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CDMEIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7f73fa93a4e01fbf279e920eca139807</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CTEIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga69e01e2f6a5cd1c800321e4121f8e788</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CHTIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaed7cbbbc0602d00e101e3f57aa3b696a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CTCIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacd88be16962491e41e586f5109014bc6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CFEIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga50332abe2e7b5a4f9cffd65d9a29382a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CDMEIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad70bf852fd8c24d79fcc104c950a589f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CTEIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga84ab215e0b217547745beefb65dfefdf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CHTIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga95e9989cbd70b18d833bb4cfcb8afce9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_HIFCR_CTCIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadf8056629f4948fb236b4339e213cc69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_EN</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaabf69fe92e9a44167535365b0fe4ea9e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_DMEIE</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacaecc56f94a9af756d077cf7df1b6c41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_TEIE</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaeee99c36ba3ea56cdb4f73a0b01fb602</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_HTIE</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga13a7fe097608bc5031d42ba69effed20</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_TCIE</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6ae47cc2cd2e985d29cb6b0bb65da1d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_PFCTRL</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga11f412d256043bec3e01ceef7f2099f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_DIR_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac9c983f44820518668fba11a4c50bb4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_DIR_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad0d6d0169da045158c61141d784d9d4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_CIRC</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadc248dbc519cc580621cdadcdd8741fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_PINC</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga29c5d5c559dd14646fdc170e74f1f03b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_MINC</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga771a295832a584a3777ede523a691719</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_PSIZE_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga468be66e356701b43fd042d61019117d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_PSIZE_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac3daa2d0c3a3f9b25cf83a6c74fa6329</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_MSIZE_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2208295e71de0f78c77530391a2605cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_MSIZE_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3d02d137f12afb7f89786d2275d9f400</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_PINCOS</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaeb929908d2e7fdef2136c20c93377c70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_PL_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga33211e80749f56d7ecea589899d15a3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_PL_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa783648c398fb2e32cb8880b31c5cfb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_DBM</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga53a1cde736b2afc5a394a67849f0c497</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_CT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadd36c677ee53f56dc408cd549e64cf7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_PBURST_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf78efd2954e31b90cdd8694aacb28cd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_PBURST_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8ef82abd39506e9e63fac3348eebed6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_MBURST_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga20ea3ea9874062208fc50eb3d7c67c4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_MBURST_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaba4f176e94faad9b324c0cfce582c590</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_CHSEL_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga03a71dcd8185ccfaa16725ebe9ec487a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_CHSEL_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa94af3601c6eb8edb1ded8e74198799f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxCR_CHSEL</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf9160d70a35242586b9fb074d2e6b25a</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxFCR_FTH_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9cf93147a7d186ea14fe06b3de860cbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxFCR_FTH_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa369c56b6b1657057a4d8a423062ed83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxFCR_DMDIS</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga89406bb954742665691c0ac2f8d95ec9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxFCR_FS_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga69b99fc13de80969a6b3694d05bad785</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxFCR_FS_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad83feb1e3be065d3251b58277cfb2273</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_SxFCR_FEIE</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaba9ca2264bc381abe0f4183729ab1fb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>dma_stream_reset</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga42ed4c62751a40c00056541e65fb392d</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_clear_interrupt_flags</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5c0470a08b21008f5a931874880c4cee</anchor>
+      <arglist>(u32 dma, u8 stream, u32 interrupts)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>dma_get_interrupt_flag</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3f097eabdc84317f65ead7f003377ab8</anchor>
+      <arglist>(u32 dma, u8 stream, u32 interrupt)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_transfer_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0ea6a19503965c32eaaa85c7bd1afafc</anchor>
+      <arglist>(u32 dma, u8 stream, u32 direction)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_priority</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4e73942551cab31bbe3a4e004a4f93b0</anchor>
+      <arglist>(u32 dma, u8 stream, u32 prio)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_size</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2b95f28d28220c0efd799e2d110f45fa</anchor>
+      <arglist>(u32 dma, u8 stream, u32 mem_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_size</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga067a01d037d4fafb9b2a2e21b8030a79</anchor>
+      <arglist>(u32 dma, u8 stream, u32 peripheral_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_memory_increment_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga387a649146bffc4de16989271aa57ce6</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_memory_increment_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa668c99d665129a8e627bfd120f8fdee</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacd78d1f802084da720779970144f7d2a</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2b4d26d2919a322b98c7e4d350d98218</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_fixed_peripheral_increment_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadbb1a2fafa41e32d76f41d22966e2ddf</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_circular_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4357d9c2cce6820220880cfba461ddc5</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_channel_select</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga80b497897ab64ea7a455325c5c6beb88</anchor>
+      <arglist>(u32 dma, u8 stream, u32 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_burst</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa56a7d0e9f3080ee118c89b9c698f619</anchor>
+      <arglist>(u32 dma, u8 stream, u32 burst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_burst</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0840be17a0164d92a952e7e5bbe9f0ea</anchor>
+      <arglist>(u32 dma, u8 stream, u32 burst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_initial_target</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3e9058b9a31d7bdc7faf25f21b4cd161</anchor>
+      <arglist>(u32 dma, u8 stream, u8 memory)</arglist>
+    </member>
+    <member kind="function">
+      <type>u8</type>
+      <name>dma_get_target</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga508471ce9dcc24efad93fa2e3f94b748</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_double_buffer_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6096867a4cc26c84528a1436aecaa52f</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_double_buffer_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga20fd2fb68c8f1c6d440d15af5264ad23</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_flow_control</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacb22b2d0c008d166d4eff61cb0ad41cf</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_dma_flow_control</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab801cfdb74f87c90af2435b47b1b5806</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga44bac096c7f6f16310dcd6018dd11ec6</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga66e0c7b08350cff91a0056fb877e134d</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadb1424572c99abed55409f8f9d9c0770</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9cf44d7f437a3022cb04c4fcc94699d8</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa0c004f4beb0a0552400bc0c3b0e2d45</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf86fe4e326cd7500557fb77a23561c4b</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>dma_fifo_status</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1b38dbfcd08570b6c1c76430560e5734</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_direct_mode_error_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9ed60ff3a7753a7e97db7d6cdc7d4590</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_direct_mode_error_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae5bd785334f757a0deb94fd32b911161</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_fifo_error_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8f4431b94cee03c98cf69d6bb9d37273</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_fifo_error_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4e491aaddefe1915784b77dd03caf917</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_direct_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3b562e1845f3a6b5436a5fa78a4954f1</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_fifo_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2048378199ef568404905348c2a88914</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_fifo_threshold</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga78dd3ae2d812110282aa6e6878151142</anchor>
+      <arglist>(u32 dma, u8 stream, u32 threshold)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_stream</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadbba52dabdfddc96f6cf2f99eb79ed0e</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_stream</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga83feda3eee5b4c928e179814edf00dcc</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_address</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0c66c7d1f2180986e1cb5cc33f2e5ffb</anchor>
+      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_address</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga96c283b368df58291ba660ff9ffa04f7</anchor>
+      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_address_1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga28e354c039983c7b470cf478ca28802f</anchor>
+      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_number_of_data</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2031e06052340a4175ecc508a66edd55</anchor>
+      <arglist>(u32 dma, u8 stream, u16 number)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>STM32F2xx</name>
@@ -17698,10 +18168,11 @@
     <filename>group__STM32F2xx__defines.html</filename>
     <subgroup>crc_defines</subgroup>
     <subgroup>dac_defines</subgroup>
-    <subgroup>STM32F2xx_dma_defines</subgroup>
+    <subgroup>dma_defines</subgroup>
     <subgroup>gpio_defines</subgroup>
     <subgroup>i2c_defines</subgroup>
     <subgroup>iwdg_defines</subgroup>
+    <subgroup>pwr_defines</subgroup>
     <subgroup>rtc_defines</subgroup>
     <subgroup>spi_defines</subgroup>
     <subgroup>usart_defines</subgroup>
@@ -19355,6 +19826,215 @@
       <name>iwdg_reset</name>
       <anchorfile>group__iwdg__defines.html</anchorfile>
       <anchor>gacd206e0c18f9f66937da3e790384dda2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>pwr_defines</name>
+    <title>PWR Defines</title>
+    <filename>group__pwr__defines.html</filename>
+    <subgroup>pwr_pls</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga25cb9de3904b844fcf2f3898894ab8d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gafcc10bfc0bea18d4f6ba0e1e567d2e02</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_DBP</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gaf5c65ab845794ef48f09faa2ee44f718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_PLS_LSB</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gad85eef6c44b6b338dacdf882cc4d149f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_PLS_MASK</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga4bc2e827b1955849d278d1e7be03366e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_PVDE</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga05d5c39759e69a294c0ab9bea8f142e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_CSBF</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gab44484cacc35c80cf82eb011d6cbe13a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_CWUF</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga3928de64f633b84770b1cfecea702fa7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_PDDS</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga8c8075e98772470804c9e3fe74984115</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_LPDS</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga3aeb8d6f2539b0a3a4b851aeba0eea66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_EWUP</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga7ac8c15a08bbee754ea720b0d4a4f580</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_PVDO</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga3535ce181895cc00afeb28dcac68d04c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_SBF</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gab4fd42f153660593cad6f4fe22ff76bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_WUF</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga9465bb7ad9ca936688344e2a077539e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>pwr_disable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga4443bf357f96c7ec23b04ef32bdfd38f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_power_voltage_detect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
+      <arglist>(u32 pvd_level)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_power_voltage_detect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_standby_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_wakeup_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_standby_mode</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_stop_mode</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_on_in_stop</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_low_power_in_stop</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_wakeup_pin</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_wakeup_pin</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_voltage_high</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_standby_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_wakeup_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -22805,213 +23485,6 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>dma_if_offset</name>
-    <title>DMA Interrupt Flag Offsets within channel flag group.</title>
-    <filename>group__dma__if__offset.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_TEIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga641dfc0110f5f9aed33f8f8c78d7653b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HTIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga941a91b96de4c594c4d8acb91d560f4d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_TCIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga6357e8c0fd2f815af82211abacb7bd3f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_GIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga2c361a2f90c1e5852a62ffc23704416a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga2c8801aec540e13e326ef2bd903829fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga054576dc467aee546360251c00885bb0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>gafa1760dddffd565c829d98862fa2bdf2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_DMEIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>ga27ef21fd8d1050dc8c4a5064b9e2f402</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_FEIF</name>
-      <anchorfile>group__dma__if__offset.html</anchorfile>
-      <anchor>gacc09c2a28d94586d5c53b716b56af610</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>dma_ch_pri</name>
-    <title>DMA Channel Priority Levels</title>
-    <filename>group__dma__ch__pri.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_LOW</name>
-      <anchorfile>group__dma__ch__pri.html</anchorfile>
-      <anchor>ga9c5ae836d47137392f4a450cd62b370c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_MEDIUM</name>
-      <anchorfile>group__dma__ch__pri.html</anchorfile>
-      <anchor>gac8594f023fdec14bc6f83b210c069adf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_HIGH</name>
-      <anchorfile>group__dma__ch__pri.html</anchorfile>
-      <anchor>gaba1d489116e5f395de6cf500d8644393</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_VERY_HIGH</name>
-      <anchorfile>group__dma__ch__pri.html</anchorfile>
-      <anchor>ga4a657e997558322161744302430fdec9</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>dma_ch_memwidth</name>
-    <title>DMA Channel Memory Word Width</title>
-    <filename>group__dma__ch__memwidth.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_8BIT</name>
-      <anchorfile>group__dma__ch__memwidth.html</anchorfile>
-      <anchor>ga37688ed864b6cb9b5a38e56357112504</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_16BIT</name>
-      <anchorfile>group__dma__ch__memwidth.html</anchorfile>
-      <anchor>ga650ed126a3dd8d6cfdeb72d37f146d72</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_32BIT</name>
-      <anchorfile>group__dma__ch__memwidth.html</anchorfile>
-      <anchor>ga0452053fcf437a855834f8e6494af66a</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>dma_ch_perwidth</name>
-    <title>DMA Channel Peripheral Word Width</title>
-    <filename>group__dma__ch__perwidth.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_8BIT</name>
-      <anchorfile>group__dma__ch__perwidth.html</anchorfile>
-      <anchor>ga98479837dd483ab7f2e2b82dbb253c28</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_16BIT</name>
-      <anchorfile>group__dma__ch__perwidth.html</anchorfile>
-      <anchor>ga2c8b1e07caf409c7a4e25a2fe38cc1f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_32BIT</name>
-      <anchorfile>group__dma__ch__perwidth.html</anchorfile>
-      <anchor>ga2d37466080b8207d7cf2720a8652aa76</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>dma_ch</name>
-    <title>DMA Channel Number</title>
-    <filename>group__dma__ch.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL1</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga7163a545d0ca12a84c34f7cd64ad5dea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL2</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga00cf4fbf98f20892dcfa48e51ac0dc5f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL3</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga977fe375ce029b779eb076ccac4b4399</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL4</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga1ff2bf05ff63cc68abece1cec995797b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL5</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>ga35352670a5bb03c4384d433cb5ea9da8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL6</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>gad17e72649f3047ede480f51d4c80b5aa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CHANNEL7</name>
-      <anchorfile>group__dma__ch.html</anchorfile>
-      <anchor>gad3b878c26e0d3b54bafb2e1876c1dddb</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
     <name>dma_st_number</name>
     <title>DMA Stream Number</title>
     <filename>group__dma__st__number.html</filename>
@@ -23069,6 +23542,46 @@
       <name>DMA_STREAM7</name>
       <anchorfile>group__dma__st__number.html</anchorfile>
       <anchor>ga5d575ab07d75dabb82d260beb2b307c3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>dma_if_offset</name>
+    <title>DMA Interrupt Flag Offsets within stream flag group.</title>
+    <filename>group__dma__if__offset.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF</name>
+      <anchorfile>group__dma__if__offset.html</anchorfile>
+      <anchor>ga2c8801aec540e13e326ef2bd903829fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF</name>
+      <anchorfile>group__dma__if__offset.html</anchorfile>
+      <anchor>ga054576dc467aee546360251c00885bb0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF</name>
+      <anchorfile>group__dma__if__offset.html</anchorfile>
+      <anchor>gafa1760dddffd565c829d98862fa2bdf2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_DMEIF</name>
+      <anchorfile>group__dma__if__offset.html</anchorfile>
+      <anchor>ga27ef21fd8d1050dc8c4a5064b9e2f402</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_FEIF</name>
+      <anchorfile>group__dma__if__offset.html</anchorfile>
+      <anchor>gacc09c2a28d94586d5c53b716b56af610</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -24867,185 +25380,24 @@
     <filename>group__dma__file.html</filename>
     <member kind="function">
       <type>void</type>
-      <name>dma_channel_reset</name>
+      <name>dma_stream_reset</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1ff41cad6a8f897a0722c0c913dd07f0</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gad77d9e3d46237c6c1ee50cc1c0025dfe</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_clear_interrupt_flags</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1035bb6b7cbb49a026a64b96496fed61</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
+      <anchor>ga5c0470a08b21008f5a931874880c4cee</anchor>
+      <arglist>(u32 dma, u8 stream, u32 interrupts)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>dma_get_interrupt_flag</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0448de67c4697ca3efe1350751690446</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupt)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_mem2mem_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga617eb5cd853d37e116247915aee301be</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_priority</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5a79731815d899613f5fe9944ef776b2</anchor>
-      <arglist>(u32 dma, u8 channel, u32 prio)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_size</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4e36129b18538020951fce6476b33df4</anchor>
-      <arglist>(u32 dma, u8 channel, u32 mem_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_size</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga56fff16304df824cd19ada5ef5d14bfe</anchor>
-      <arglist>(u32 dma, u8 channel, u32 peripheral_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_memory_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga63b0ae23516392cb7b7fbb2cd78bd709</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_memory_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa668c99d665129a8e627bfd120f8fdee</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad8806134d462fcba72689bc8a8436885</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2b4d26d2919a322b98c7e4d350d98218</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_circular_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac9942cd4b0c10fa780fad38ea5840b6e</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_peripheral</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1816ec1c02bc4731f7e0ce175c6ba272</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_memory</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa70ac5daa668c30783552ea0e531d9df</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga6f98fcb670463ff9fa0b350b8a55add6</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3ca927ad8548f5df39f80e2a3580b257</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga22ea9a9d3595761a3570f8c59c3acad4</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0b7997b16dba35056695aa3ed7c8c57d</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gadce242f0b1e229b0ffc24aa2227d7394</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gafeb700fc225336070480f46ea6fdfd5b</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_channel</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga48e3c1011542fdfad681aa7e554608f5</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_channel</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac5b68ba004c7aed8fc3101fed5f5acd1</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_address</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga74057182d4be039db3d6a26c779fbdea</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_address</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac2f336cb2da513e171c2111e2e399c0a</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_number_of_data</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5bc9e05af8be84ecce2be41731de467f</anchor>
-      <arglist>(u32 dma, u8 channel, u16 number)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_stream_reset</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad77d9e3d46237c6c1ee50cc1c0025dfe</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
+      <anchor>ga3f097eabdc84317f65ead7f003377ab8</anchor>
+      <arglist>(u32 dma, u8 stream, u32 interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -25056,9 +25408,65 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>dma_set_priority</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga4e73942551cab31bbe3a4e004a4f93b0</anchor>
+      <arglist>(u32 dma, u8 stream, u32 prio)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_size</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga2b95f28d28220c0efd799e2d110f45fa</anchor>
+      <arglist>(u32 dma, u8 stream, u32 mem_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_size</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga067a01d037d4fafb9b2a2e21b8030a79</anchor>
+      <arglist>(u32 dma, u8 stream, u32 peripheral_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_memory_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga387a649146bffc4de16989271aa57ce6</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_memory_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga28e5646d25467867762b24e76720807f</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gacd78d1f802084da720779970144f7d2a</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gace6d8c4969bb3f13296220c12b070867</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>dma_enable_fixed_peripheral_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
       <anchor>gadbb1a2fafa41e32d76f41d22966e2ddf</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_circular_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga4357d9c2cce6820220880cfba461ddc5</anchor>
       <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
@@ -25122,6 +25530,48 @@
       <name>dma_set_dma_flow_control</name>
       <anchorfile>group__dma__file.html</anchorfile>
       <anchor>gab801cfdb74f87c90af2435b47b1b5806</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga44bac096c7f6f16310dcd6018dd11ec6</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga66e0c7b08350cff91a0056fb877e134d</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gadb1424572c99abed55409f8f9d9c0770</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga9cf44d7f437a3022cb04c4fcc94699d8</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaa0c004f4beb0a0552400bc0c3b0e2d45</anchor>
+      <arglist>(u32 dma, u8 stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaf86fe4e326cd7500557fb77a23561c4b</anchor>
       <arglist>(u32 dma, u8 stream)</arglist>
     </member>
     <member kind="function">
@@ -25196,10 +25646,31 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>dma_set_peripheral_address</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga0c66c7d1f2180986e1cb5cc33f2e5ffb</anchor>
+      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_address</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga96c283b368df58291ba660ff9ffa04f7</anchor>
+      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>dma_set_memory_address_1</name>
       <anchorfile>group__dma__file.html</anchorfile>
       <anchor>ga28e354c039983c7b470cf478ca28802f</anchor>
       <arglist>(u32 dma, u8 stream, u32 address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_number_of_data</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga2031e06052340a4175ecc508a66edd55</anchor>
+      <arglist>(u32 dma, u8 stream, u16 number)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -26095,3553 +26566,111 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>STM32F1xx-pwr-file</name>
+    <name>pwr-file</name>
     <title>PWR</title>
-    <filename>group__STM32F1xx-pwr-file.html</filename>
+    <filename>group__pwr-file.html</filename>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
       <arglist>(u32 pvd_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_standby_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_stop_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_voltage_high</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
-      <arglist>(void)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>dma_defines</name>
-    <title>Dma_defines</title>
-    <filename>group__dma__defines.html</filename>
-    <subgroup>dma_if_offset</subgroup>
-    <subgroup>dma_ch_pri</subgroup>
-    <subgroup>dma_ch_memwidth</subgroup>
-    <subgroup>dma_ch_perwidth</subgroup>
-    <subgroup>dma_ch</subgroup>
-    <subgroup>dma_st_number</subgroup>
-    <subgroup>dma_st_dir</subgroup>
-    <subgroup>dma_st_perwidth</subgroup>
-    <subgroup>dma_st_memwidth</subgroup>
-    <subgroup>dma_st_pri</subgroup>
-    <subgroup>dma_pburst</subgroup>
-    <subgroup>dma_mburst</subgroup>
-    <subgroup>dma_ch_sel</subgroup>
-    <subgroup>dma_fifo_thresh</subgroup>
-    <subgroup>dma_fifo_status</subgroup>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacc16d2a5937f7585320a98f7f6b578f9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga506520140eec1708bc7570c49bdf972d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6d94c9580957aec3c23a0b1ca7d47468</anchor>
-      <arglist>(dma_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_ISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae546dd4d4b5b4c1f75926c572b9b4b6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_ISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab6ce8d56cb4b93eb312539ed3721e052</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8df83f6a1d06f281f9b4d2b8e6edc8a1</anchor>
-      <arglist>(dma_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_IFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac7525286f8eee2ac190de94811075900</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_IFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0d7e1762a5f0c91418f7cf0464454d6b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9de7b044f349e59350b27d9b2e3411a0</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6813cc65289a40a69991e41e70179a71</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga391eaedcafb133c7bc72ed817d869dcc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga869f8cb9fd84a06664c7697a36c80a1b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga651a5c3a15b5565c8ba679a8c387ea74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8171687f836ef9abf845ab4cb3e788a7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaded13078c0cf206edfb91b31d8f58d74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4e5c41c9e13788bf86fbe6354c5e2287</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga937b03df75296cbfa2d506b87a9d20fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga64753d2e797ddcb265e07e3361732975</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga61dff2b38a3ad5564827cf0d59ab01e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4f45d2e93f785f28168ae65b1f3b6604</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga13e74aeac02c56cd815204c819973f42</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7c90bd094fc05a5313d2d2fee1981a20</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga129adf55913ccbdd65258b490b97a030</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2d9e0542d5540e204d7ffd0217689bd0</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafa9d6b3d6e206a7291dd74e5245a5fb6</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae9b729fb7540fe8afbfe4e99d7dd4f4e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1ab7f2af4bb344201a25fdf18b9f1f87</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4b0dfc8b514e15ff2cb50010bb6701ef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0a480e229253f02de440909f96d6e925</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac346451cbdbcaf544cb65d8e896ab4be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7afdf1887c80eb60ea9bae5a255b528b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga81073b17989ca9fe01163fbc0caa2852</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2a2adddff957a6512e6138e9dc22ca6d</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabb57ba2194f5d34ce326c9975bb3f9d4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac0719974b3dcfb9f70ffc01941a1ad3d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabbf581f164b987f14d5697648cfe9aa0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga198f3a664e5da472ad3598d8fcb667d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafb133db8b4294374f0e16e6ce37107ed</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaec132f1bff88ed77c84215aa7442c01d</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga88d13e6f4d9731d2d37bab111dbd873c</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga15bdb91b645f13dac1b9b7b269a56f77</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad34f6db1f158f4b9a583761db8c51c52</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga09b1ea4330fb3e24cd69164d60cb452c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae0930ec8859650484d1850de42043bad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaac4b50aaa0a34e4de1da9f5d1425956f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacbddb6a70179e6ca8181f15beb17f980</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga585d545c237971a99b3c2aba2b3295b4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga86e6834b10736eb6e87eeedcbf95456d</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadfe59076a69127310d79f59b3782bcd2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3d93a63810b1067d965817ba325276f8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac30477625eac00725c6d15a98d653a9b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8fe6d24b188a12cad940ac2d75adf5a8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga158eb18f6c62f3e9d02402f2f6b33d8b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CMAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaad3b5daa5024d73be1253eb6c83b94b7</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6220887e1451469a54540385f608792e</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4dd3d427d2f8478ad24c158148a5e9cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa5d131d8bac849a234ab1212bdecc354</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab3ed7997482cb68e1286087814d778cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga680e200249499c09dc37e1de560043b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaac37a1d82a462c1b3eb54ca2e93f7a68</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga015c1fa67076c84953e66ce72d7ec012</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0a67d09a178adb0ba50ef07917417186</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad86363fc293b41a483363a2d7f401656</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2bd402bee3cade672dea9e10f694a09f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa2a49a58659bc8b7d8c7f34daf51e111</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2ea90ac3e92fd9a06153064fc5ecf605</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga99d6dab7cfa5c4b9ffb4ceb685be0bc9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1d24cd6be9f2c02ea0c21c95aec1b81f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_FLAG_OFFSET</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga53d418dcbe069d230ea7fe4c7f65ffd5</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_FLAGS</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga850db3ca90d45af6e76e7163a8af7dfe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadcd862010a7cde210805f0854e1e7b7f</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga592f87630e5c1af457ac3fcdccf0af6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga250c05bdbe73f5e80171599e1f86639b</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga26bfd55e965445ae253a5c5fa8f1769a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5bcd07efcadd5fef598edec1cca70e38</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa624379143a2535d7a60d87d59834d10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga12fcc1471918f3e7b293b2d825177253</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga42f9b12c4c80cbb7cd0f94f139c73de3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae47d914969922381708ae06c1c71123a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf8333b3c78b7d0a07bd4b1e91e902b31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga63f55c78acda38971ebcaa55bb875fe5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga22f770c63ab88ac647e3d29192803fa2</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5f83359698adf05854b55705f78d8a5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8ee1947aef188f437f37d3ff444f8646</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga53bb9a00737c52faffaaa91ff08b34a1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga684cf326c770f1ab21c604a5f62907ad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3d1f2b8c82b1e20b4311af8ca9576736</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga41b6d9787aeff76a51581d9488b4604f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga769016c2b0bf22ff3ad6967b3dc0e2bb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga38018ed1c5ede6b0c132d10c96b82c9d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4cc23112667280b44989f839f79837a1</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1a1522414af27c7fff2cc27edac1d680</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga631741eb4843eda3578808a3d8b527b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga28664595df654d9d8052fb6f9cc48495</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad7d4e46949a35cf037a303bd65a0c87a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5ea57d09f13edbd6ad8afe9465e0fa70</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2d76395cf6c6ef50e05c96d7ae723058</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4528af54928542c09502c01827418732</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9c80402706a69eafecf1a3c61d55aa57</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacbdd4b044ab804cfc556d41e8f216627</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3475228c998897d0f408a4c5da066186</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga44fa823dbb15b829621961efc60d6a95</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacb0bd8fb0e580688c5cf617b618bbc17</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf4f69823d44810c353af1f0a89eaf180</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga83d4d9cba635d1e33e3477b773379cfd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac55f4836aa8e6cfc9bdcadfabf65b5d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga86f178e879b2d8ceeea351e4750272dd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0521298f12443236f93dcdb1cc1308c6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga43fc6e9976eadcdef88a442fcc06081f</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga989699cace2fa87efa867b825c1deb29</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4abb0afb7dbe362c150bf80c4c751a67</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga59bad79f1ae37b69b048834808e8d067</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6fdda8f7f2507c1d3988c7310a35d46c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6ec6326d337a773b4ced9d8a680c05a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1e523c5cbf5594ffe8540c317bce6933</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4076bf1ed67fb39d4a0175e5943d5f2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3ca91bcee960f96604570dce6beceb0c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga861a77828aaf0c8359be2d43e0b82f2c</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga66e9aa2475130fbf63db304ceea019eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3e769c78024a22b4d1f528ce03ccc760</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2dea86ca2ec8aa945b840f2c1866e1f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga950664b81ec2d4d843f89ef102107d7b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3c23c727a4dbbc45a356c8418299275d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae67273db02ffd8f2bfe0a5c93e9282a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa7378f7a26730bfd5c950b7c7efb9272</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga209f52ca23a54f28adc7d26dbcb25b44</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabae39332daf506f714051f241ec6cd86</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga60085fa798cf77f80365839e7d88c8f1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8505b947a04834750e164dc320dfae09</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaccb4c0c5e0f2e01dec12ba366b83cb4d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga34b431fd4e034f8333e44594712f75eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaae4c7d1d10beb535aec39de9a8bdc327</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac3dca486df2f235aac8f3975f5f4ab75</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac26181e8c2bd1fddc1e774cb7b621e5b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabd23e04bb52ec14f9ebdbb01eafa42e0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabae2910ff72333620c15c71878979b37</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga75ad797334d9fb70750ace14b16e0122</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab907e446bbf1e1400dc5fdbd929d0e5f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0d98e88c334091e20e931372646a6b0d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga73d22139e4567c89e2afcb4aef71104c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga943245d2a8300854d53fd07bb957a6fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7fc61098c5cf9a7d53ddcb155e34c984</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaad9f01dfeb289156448f5a5a0ad54099</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga65d5acb5b3d8a5cc489fb48f5db237a0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga582baaad9bd0949217f9c8b707611552</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga62378d43df70d8595e9788910f530850</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacb3685be7f2be2ba2aa99cc1f7838d2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9c91503f69c719662338b06ab6749b56</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4654981bc670a535a97f4bb8080820f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab742dffe27ebdac738cd724fb68ea883</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga07de9b897bdc4030894f177577214f1c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafbb6bc394e5c5951f766ab9e1989b955</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MEM2MEM</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5c87a41026384e25fe2312d03af76215</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa24c76d77301becc22c252a140f74402</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1f3ab5e5980b9e15d6200ac3f0191a31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacde80651d2bcf226e2c9b6414c23b6e0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gade083dc08df30eaa3220e82434702a4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf9282b1157209c1dd737d6cbc0f5702a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad396fb79516101e7014d2c342a611bf2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MINC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa189138f534283d876f654ec9474987e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PINC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga028cb96357bd24868a74ee1134a35b7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_CIRC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga445471396e741418bcd6f63404f4052c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_DIR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8f1ece172cf3c3e696b86d401d7345a2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_TEIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3dd2204c9046500140e3c720fb5a415f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_HTIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0f0fae31377ab1d33e36cead97b1811b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_TCIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaaba9cd82cab0cca23de038e946f81c6a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_EN</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gababa3817d21a78079be76bc26b2c10f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacc16d2a5937f7585320a98f7f6b578f9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga506520140eec1708bc7570c49bdf972d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_STREAM</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga373edae826e8be329bd95655b5524642</anchor>
-      <arglist>(port, n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_STREAM</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga237da62e1a3cd1d7df5f97453a123d4a</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_STREAM</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa50ac3f6fce8e2d6783c4b241b3b9298</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_STREAM0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabb325344bf3ab820d93354e366861e70</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_STREAM1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa2a9ef0918dfa94c18970a59a638be35</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_STREAM2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7aa893ebe356de882dfc096bb4640d4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_STREAM3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6e8be57ac11cbec15bc3e78b6ba5ef98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_STREAM4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga39e838dea0fa600e475a0e3b2d1a7a8f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_STREAM5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac10b6313da1f7943da3f9c5b04ad86e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_STREAM6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1a5e1a8ed679141575cfd595ff1a5c41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_STREAM7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad65baca06f113a2340e5e00abb25fc78</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_STREAM0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0b6fa3a07607a6d9eb6f305f1ca1a345</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_STREAM1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9b270e74a56d5a37e65ee890af39ce7a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_STREAM2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafb683f8af7af0075e2b253a815ac53e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_STREAM3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga14fe483b7785fe05710877fed9ab07c8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_STREAM4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5b012d6c35e0154a0323abea3326a239</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_STREAM5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga57a817146fe5ca233e8a8af2366b8796</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_STREAM6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa805a63d66104f6f0dc048f9d063ed49</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_STREAM7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf73ac59b037781c5cc0cc3562ffacadc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1cf8882b2c868df74fc89f835110900c</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_LISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gada1651a6726ca6dc707018fa0dcd1e0a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_LISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga006a5b530e31ba5ee55890983deffb25</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6c1afc873de85a731bbb5f6691071b4e</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_HISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2eedb4c57bfb6541a33eb01d7507d805</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_HISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab09df81a2839f59c46f13f8550c6346d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5c986a020aa4a378754bb99615d94d7b</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_LIFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafcab6410344e059272e6f6f08eb75368</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_LIFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga781231b235ba0433a0c0c939b3516ff0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2b9dfd8607d952ee263d992491e543d1</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_HIFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga72bdd3df3f0f6beddc8f3d6e1c50304c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_HIFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3f95cefca1b883b04d48a7cd21a14ecf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga84ffa5dbbb264df435db69e9cdd84e49</anchor>
-      <arglist>(port, n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_SCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga11456f79e1e295e75cd8bad72486181f</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_SCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0ed5bf07e2aa31f9a6cf529cf1fff8dc</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S0CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac6f9b86977b4ea6c4851bca8f794e132</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S1CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5d7bdef8c4943f4af34b7d17aaf36f7c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S2CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga277357f800b508b8d2bdb5ce0bd3ca98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S3CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab822c0403883e8c570ff3f5fe75184de</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S4CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa42e51614999448250ac200eb1c84e89</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S5CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4fa799e005e3ca23ccaf73661f151242</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S6CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadc7d472c42ecbac81772ae568b57cbc9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S7CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa36811536d60b7082dd41234336625c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S0CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga63d2f4e7ae4e1d323519714c34aedd33</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S1CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga10e4c411c0539e863a726e250e99a53e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S2CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga31a68dbcd4cfb5c2f606881054c769e8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S3CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2583a3d085e82b5afe0a17486e357b46</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S4CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab745e52f0b8a0ada24c0e013b6f417f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S5CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga62aa55fcfc52b0b6af06596ce90f5cb3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S6CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7069fea64397b32559b70fa2f1ae8318</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S7CR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6fa0eb413131b25edb469fa679460ce4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf0ae68be4984d257d353fe849f95e230</anchor>
-      <arglist>(port, n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_SNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7ab1262c4cee97ee0284e819c2809605</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_SNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga200f073b5fd4a5a65c81136c4c2237c0</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S0NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac486d784a2b1e591e97277ff37d19bc9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S1NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7d65376c5ab4ae4999df027da59b82a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S2NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac0de2b2494a1bd8ba596c214bf4cb011</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S3NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga68d6a2de33b1990e095240452ebf116f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S4NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga64ecc17b76961b7530cb108068e8e9f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S5NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad2a74bf8afa77c0077dae226c2914b77</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S6NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga24427bad51984fe2b634e08ef32c9d34</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S7NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8193237ea01174e76dd935667f0a85cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S0NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3c867b3b55d2e1d6ad2e725fa04ab770</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S1NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga08e4207f009790bbf707ad349035add9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S2NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5ed8f104145f8203f46913a6e1961ad6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S3NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga69a49a902833499dd49a04b83a826758</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S4NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga27e7f75b0f76da53409eab1c18818541</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S5NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gade94961499438624c3ad3187839d91c6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S6NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga75325da563774c977191eca9f39dfde1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S7NDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga19e2919f6dc9b31bfdd40fb7d406e4e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf1e6eef691bf13f842b2f140fab99369</anchor>
-      <arglist>(port, n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_SPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae403e30129e2a688b7bc5bad28324a7d</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_SPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga49b36810f1afe62ee5d4afc0379995e8</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S0PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1081f1ed6b15d96b8e4f341f31847241</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S1PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae51c8bc7585fc447037973a7fc563b38</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S2PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab2abf4cbf8d4453a48a480bd14335d40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S3PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga69d084d4c14c14b0dc7c886d1f82b4d5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S4PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3b1ee36d9f95395dd7705ed41e4f7dd3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S5PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga099320a4ea3dde3d2dec14e271ff7dfc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S6PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga391efad95a5a1fdcd59bbafac3d3160d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S7PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga13b6dead1ccd32daafdf9d8676d60de2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S0PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6712c2e806a539c859eadadbe803d2ed</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S1PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabea01c773dc6f8574992ef6b21115299</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S2PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga427a015a2a04eb7968d1420c905edd04</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S3PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4e7460f876327fcab46f3f45553ab088</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S4PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6b070b3cdbe084639265dc44d8d03100</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S5PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2b48b3df6c471ec3784db0c355aca89f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S6PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae42dc29196a8b270d89cc02e1e938415</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S7PAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac707973374874490b6502686dc57e84f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SM0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2ac093c52bc4db800b46204d12356da4</anchor>
-      <arglist>(port, n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_SM0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac285ba585d732b0bbf04dad369d7a48a</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_SM0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga86c782f1c908d5059379beee7f4752e5</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S0M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab44d309cf18a811acd58ea1762f055a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S1M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaca598ac74b7668eae689a76d61a91348</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S2M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4d79a8f6a232cf4c07f094b1082023b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S3M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga619689afc0c6b1e7c987120af2588fbe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S4M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf4413434797ed78c5b396fb05068922a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S5M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga12bcc63be3a7e33b84d362fae0adffa0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S6M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga98b06ec340749811cc383ff1e2f097bd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S7M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae8dc0268425c34d6ba36ab51208bd43e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S0M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga616509f09ef415c22699a5b1d64db8d5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S1M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0084afcb955e22838edcad3b8f9bc2a3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S2M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf4685ff895fd5a7523153ea97fd48430</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S3M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga26bf611992205f18f7495e23e06e3255</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S4M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7d77630cda53ceadba307a5c455f77ad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S5M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6ebf0e3ddb637a71e0f2d27805a1aec2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S6M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac6f35b25038caffefc16870a0a40f1bf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S7M0AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf73db9fc4f0d1872c1dff809e54f927e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SM1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga220658f19d3669ad1fa71049f9bae5fc</anchor>
-      <arglist>(port, n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_SM1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf357d97bb0f447e9f0f437a17cebfc46</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_SM1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad952f8b347452937c6b59ac521441482</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S0M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga48730e56ed07531c301aa1dc67e53e2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S1M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaac528daa7dc150e14720af83f073049e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S2M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga68715be6db413796baac83cdaf60fc0f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S3M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2441df1f5261e6958dcb742ccf54ff31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S4M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga86eddfd65e6422e93acb0afac8cceb22</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S5M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga47fb155cfacfefdb871d33fe5d44cf00</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S6M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa409d4e648c1c4868c2b8dfd406f4631</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S7M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad76a017ae0c8b4095bf9d170617f4df2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S0M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaab5cb55fa0de55a1e09eb5d6d2fd7712</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S1M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad9ead7f762f2cc590c2c8a3a4609d980</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S2M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga01e5f1f9433fab93827110a539f9269e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S3M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa8cc2e3825c542bc311efddcd81134ca</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S4M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga66b44060fb0a6f5a81334d961d46594e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S5M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0e6a2ae22fba8d89615ee953204c27d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S6M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5920fd5e01c765884b8266fee1e5145c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S7M1AR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2386377436ee318192d16941759dda7b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga02a15265c2385224ab3a1391f53e1c62</anchor>
-      <arglist>(port, n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_SFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga52b9ad2b38d46241eb8c2fa52a392606</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_SFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga97b29777056c1ff5fbacbc533ea32371</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S0FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2eb0680f6f0d599c680d5660ee024d19</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S1FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga62cb923404caf886f388209b332bffff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S2FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga724cbeb74ded686dbab6455647977d21</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S3FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3040c3b6f13fb4b7d262ea966e87f45b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S4FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa99b1ff56f7e4def547039b0ae59ee8a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S5FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac552f85032025e052ec89788b612ccaa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S6FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9fff2e019b3dd018346b1a8171b53937</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_S7FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafa1f2886ae13400716b69243c6a5bf50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S0FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6d77a1da37de2f67564a63ef295896e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S1FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4716ab2528b6f0c01595eea4548488f1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S2FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7686b73c7cee5b38ae4f5241145402ae</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S3FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga706085ec87149e7cda8dac9c5968ffe0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S4FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae66b5561b2f614ed98b0f965e0ccbf6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S5FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga87412e8f5f83925d056852800068a9e8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S6FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7d0940d23c958e809357ff22b37021b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_S7FCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3058aec22f6a176f48e99d27c4209ade</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_OFFSET</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabb6767ef7efe5b6e57580e8f615e6ec2</anchor>
-      <arglist>(stream)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_FLAGS</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3b10d190e03d234b3e45a6e2b0becdde</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga32989a27e6f23ef043a5e7be4c59feb6</anchor>
-      <arglist>(stream)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_FEIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga79bcc3f8e773206a66aba95c6f889d6f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_DMEIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga72de97ebc9d063dceb38bada91c44878</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_TEIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad43cdafa5acfcd683b7a2ee8976dd8ba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_HTIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6181727d13abbc46283ff22ce359e3b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_TCIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadbc3f7e52c0688bed4b71fa37666901d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_FEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafbc4fecde60c09e12f10113a156bb922</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_DMEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa4903814bfc12dd6193416374fbddf8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_TEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0cd826db0b9ea5544d1a93beb90f8972</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_HTIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga04304a9f8891e325247c0aaa4c9fac72</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_TCIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae02aec39ded937b3ce816d3df4520d9b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_FEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga99c42b194213872753460ef9b7745213</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_DMEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabc7edcd7404f0dcf19a724dfad22026a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_TEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga74d540802cadde42bdd6debae5d8ab89</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_HTIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6ca25185d14a1f0c208ec8ceadc787a6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_TCIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf21350cce8c4cb5d7c6fcf5edc930cf8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_FEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5367443a1378eef82aed62ca22763952</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_DMEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga01fd1397b41221f5bdf6f107cb92e196</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_TEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5dfaba3a5db7cdcbddf9ee5974b44c2f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_HTIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa10c891ee2ec333b7f87eea5886d574f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LISR_TCIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga44e5bf8adbb2646d325cba8d5dd670d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_FEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacab90057201b1da9774308ff3fb6cfa1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_DMEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf716f1bc12ea70f49802d84fb77646e8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_TEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9005d4b958193fbd701c879eede467c1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_HTIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadba8d24329c676d70560eda0b8c1e5b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_TCIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafcce25c245499f9e62cb757e1871d973</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_FEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0d62494b31bb830433ddd683f4872519</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_DMEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac5ee964eee9c88fa28d32ce3ea6478f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_TEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf16fb0e5d87f704c89824f961bfb7637</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_HTIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8617bf8160d1027879ffd354e04908d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_TCIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga64f15eaf1dd30450d1d35ee517507321</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_FEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafb297f94bde8d1aea580683d466ca8ca</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_DMEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab7b58e7ba316d3fc296f4433b3e62c38</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_TEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1a7ec01955fb504a5aa4f9f16a9ac52c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_HTIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0d39c14138e9ff216c203b288137144b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_TCIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad29468aa609150e241d9ae62c477cf45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_FEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadea53385fca360f16c4474db1cf18bc1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_DMEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3bb23848f8a022a47ab4abd5aa9b7d39</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_TEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga960f094539b5afc7f9d5e45b7909afe6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_HTIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf535d1a3209d2e2e0e616e2d7501525d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HISR_TCIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad20a0a5e103def436d4e329fc0888482</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CFEIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadf6b8892189f3779f7fecf529ed87c74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CDMEIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafe80a122bf0537e8c95877ccf2b7b6d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CTEIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5824a64683ce2039260c952d989bf420</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CHTIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga44f83ba08feb98240a553403d977b8d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CTCIF0</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab7a0b2cc41c63504195714614e59dc8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CFEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga96cea0049553ab806bbc956f52528c37</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CDMEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9a5aea54a390886f7de82e87e6dfc936</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CTEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf6d8adf52567aee2969492db65d448d4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CHTIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad2f38b0c141a9afb3943276dacdcb969</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CTCIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7494c54901b8f5bcb4894d20b8cfafed</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CFEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae0f58173c721a4cee3f3885b352fa2a3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CDMEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7680fc5f5e6c0032044f1d8ab7766de8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CTEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa9d761752657a3d268da5434a04c6c6a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CHTIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae19254e8ad726a73c6edc01bc7cf2cfa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CTCIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga52d6df2b5ab2b43da273a702fe139b59</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CFEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad9432964145dc55af9186aea425e9963</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CDMEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabea10cdf2d3b0773b4e6b7fc9422f361</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CTEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0a51c601387d1ae49333d5ace8ae86ee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CHTIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0ed3ab4e5d7975f985eb25dc65f99be3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_LIFCR_CTCIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5210736d34dc24eb9507975921233137</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CFEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1e5ea118900178d4fa2d19656c1b48ff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CDMEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0d70d58a4423ac8973c30ddbc7404b44</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CTEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9e05ff4fc6bace9cc6c0f0d4ec7b3314</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CHTIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf8f0afa9a6526f7f4413766417a56be8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CTCIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga42e529507a40f0dc4c16da7cc6d659db</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CFEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9a4e90af967fa0a76c842384264e0e52</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CDMEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga15b404d9e1601cf3627cbf0163b50221</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CTEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga33394fe20a3567c8baaeb15ad9aab586</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CHTIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2cef7eeccd11737c1ebf5735284046cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CTCIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa55d19705147a6ee16effe9ec1012a72</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CFEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga39a0a7f42498f71dedae8140483b7ced</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CDMEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7f73fa93a4e01fbf279e920eca139807</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CTEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga69e01e2f6a5cd1c800321e4121f8e788</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CHTIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaed7cbbbc0602d00e101e3f57aa3b696a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CTCIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacd88be16962491e41e586f5109014bc6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CFEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga50332abe2e7b5a4f9cffd65d9a29382a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CDMEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad70bf852fd8c24d79fcc104c950a589f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CTEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga84ab215e0b217547745beefb65dfefdf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CHTIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga95e9989cbd70b18d833bb4cfcb8afce9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_HIFCR_CTCIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadf8056629f4948fb236b4339e213cc69</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_EN</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaabf69fe92e9a44167535365b0fe4ea9e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_DMEIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacaecc56f94a9af756d077cf7df1b6c41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_TEIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaeee99c36ba3ea56cdb4f73a0b01fb602</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_HTIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga13a7fe097608bc5031d42ba69effed20</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_TCIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6ae47cc2cd2e985d29cb6b0bb65da1d7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_PFCTRL</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga11f412d256043bec3e01ceef7f2099f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_DIR_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac9c983f44820518668fba11a4c50bb4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_DIR_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad0d6d0169da045158c61141d784d9d4f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_CIRC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadc248dbc519cc580621cdadcdd8741fb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_PINC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga29c5d5c559dd14646fdc170e74f1f03b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_MINC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga771a295832a584a3777ede523a691719</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_PSIZE_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga468be66e356701b43fd042d61019117d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_PSIZE_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac3daa2d0c3a3f9b25cf83a6c74fa6329</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_MSIZE_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2208295e71de0f78c77530391a2605cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_MSIZE_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3d02d137f12afb7f89786d2275d9f400</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_PINCOS</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaeb929908d2e7fdef2136c20c93377c70</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_PL_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga33211e80749f56d7ecea589899d15a3d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_PL_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa783648c398fb2e32cb8880b31c5cfb1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_DBM</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga53a1cde736b2afc5a394a67849f0c497</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_CT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadd36c677ee53f56dc408cd549e64cf7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_PBURST_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf78efd2954e31b90cdd8694aacb28cd0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_PBURST_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8ef82abd39506e9e63fac3348eebed6e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_MBURST_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga20ea3ea9874062208fc50eb3d7c67c4d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_MBURST_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaba4f176e94faad9b324c0cfce582c590</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_CHSEL_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga03a71dcd8185ccfaa16725ebe9ec487a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_CHSEL_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa94af3601c6eb8edb1ded8e74198799f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxCR_CHSEL</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf9160d70a35242586b9fb074d2e6b25a</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxFCR_FTH_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9cf93147a7d186ea14fe06b3de860cbb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxFCR_FTH_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa369c56b6b1657057a4d8a423062ed83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxFCR_DMDIS</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga89406bb954742665691c0ac2f8d95ec9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxFCR_FS_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga69b99fc13de80969a6b3694d05bad785</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxFCR_FS_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad83feb1e3be065d3251b58277cfb2273</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_SxFCR_FEIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaba9ca2264bc381abe0f4183729ab1fb1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>BEGIN_DECLS void</type>
-      <name>dma_channel_reset</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3b2bc730997955bfc6db23139525827c</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_mem2mem_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga617eb5cd853d37e116247915aee301be</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_peripheral</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1816ec1c02bc4731f7e0ce175c6ba272</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_memory</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa70ac5daa668c30783552ea0e531d9df</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_channel</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga48e3c1011542fdfad681aa7e554608f5</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_channel</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac5b68ba004c7aed8fc3101fed5f5acd1</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>BEGIN_DECLS void</type>
-      <name>dma_stream_reset</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga42ed4c62751a40c00056541e65fb392d</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_transfer_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0ea6a19503965c32eaaa85c7bd1afafc</anchor>
-      <arglist>(u32 dma, u8 stream, u32 direction)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_fixed_peripheral_increment_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadbb1a2fafa41e32d76f41d22966e2ddf</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_channel_select</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga80b497897ab64ea7a455325c5c6beb88</anchor>
-      <arglist>(u32 dma, u8 stream, u32 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_burst</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa56a7d0e9f3080ee118c89b9c698f619</anchor>
-      <arglist>(u32 dma, u8 stream, u32 burst)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_burst</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0840be17a0164d92a952e7e5bbe9f0ea</anchor>
-      <arglist>(u32 dma, u8 stream, u32 burst)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_initial_target</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3e9058b9a31d7bdc7faf25f21b4cd161</anchor>
-      <arglist>(u32 dma, u8 stream, u8 memory)</arglist>
-    </member>
-    <member kind="function">
-      <type>u8</type>
-      <name>dma_get_target</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga508471ce9dcc24efad93fa2e3f94b748</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_double_buffer_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6096867a4cc26c84528a1436aecaa52f</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_double_buffer_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga20fd2fb68c8f1c6d440d15af5264ad23</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_flow_control</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacb22b2d0c008d166d4eff61cb0ad41cf</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_dma_flow_control</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab801cfdb74f87c90af2435b47b1b5806</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>u32</type>
-      <name>dma_fifo_status</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1b38dbfcd08570b6c1c76430560e5734</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_direct_mode_error_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9ed60ff3a7753a7e97db7d6cdc7d4590</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_direct_mode_error_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae5bd785334f757a0deb94fd32b911161</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_fifo_error_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8f4431b94cee03c98cf69d6bb9d37273</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_fifo_error_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4e491aaddefe1915784b77dd03caf917</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_direct_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3b562e1845f3a6b5436a5fa78a4954f1</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_fifo_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2048378199ef568404905348c2a88914</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_fifo_threshold</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga78dd3ae2d812110282aa6e6878151142</anchor>
-      <arglist>(u32 dma, u8 stream, u32 threshold)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_stream</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadbba52dabdfddc96f6cf2f99eb79ed0e</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_stream</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga83feda3eee5b4c928e179814edf00dcc</anchor>
-      <arglist>(u32 dma, u8 stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_address_1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga28e354c039983c7b470cf478ca28802f</anchor>
-      <arglist>(u32 dma, u8 stream, u32 address)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>pwr_defines</name>
-    <title>Pwr_defines</title>
-    <filename>group__pwr__defines.html</filename>
-    <subgroup>pwr_pls</subgroup>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga25cb9de3904b844fcf2f3898894ab8d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gafcc10bfc0bea18d4f6ba0e1e567d2e02</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_DBP</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gaf5c65ab845794ef48f09faa2ee44f718</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_PLS_LSB</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gad85eef6c44b6b338dacdf882cc4d149f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_PLS_MASK</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga4bc2e827b1955849d278d1e7be03366e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_PVDE</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga05d5c39759e69a294c0ab9bea8f142e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_CSBF</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gab44484cacc35c80cf82eb011d6cbe13a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_CWUF</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga3928de64f633b84770b1cfecea702fa7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_PDDS</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga8c8075e98772470804c9e3fe74984115</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_LPDS</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga3aeb8d6f2539b0a3a4b851aeba0eea66</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR_EWUP</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga7ac8c15a08bbee754ea720b0d4a4f580</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR_PVDO</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga3535ce181895cc00afeb28dcac68d04c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR_SBF</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gab4fd42f153660593cad6f4fe22ff76bb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR_WUF</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga9465bb7ad9ca936688344e2a077539e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>BEGIN_DECLS void</type>
-      <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga4443bf357f96c7ec23b04ef32bdfd38f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
-      <arglist>(u32 pvd_level)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_standby_mode</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_stop_mode</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_voltage_high</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_standby_flag</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
     </member>
@@ -29726,7 +26755,6 @@
     <filename>dir_c02db4a0946ae9b9bf4f96b1a4904c69.html</filename>
     <file>crc_common_all.h</file>
     <file>dac_common_all.h</file>
-    <file>dma_common_f13.h</file>
     <file>dma_common_f24.h</file>
     <file>gpio_common_all.h</file>
     <file>gpio_common_f24.h</file>
@@ -29747,7 +26775,6 @@
     <filename>dir_2cc908344f7c033af6399289af991fc7.html</filename>
     <file>crc_common_all.c</file>
     <file>dac_common_all.c</file>
-    <file>dma_common_f13.c</file>
     <file>dma_common_f24.c</file>
     <file>gpio_common_all.c</file>
     <file>gpio_common_f24.c</file>

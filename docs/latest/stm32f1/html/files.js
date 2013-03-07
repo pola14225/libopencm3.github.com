@@ -34,7 +34,7 @@ var files =
     [ "iwdg_common_all.c", "iwdg__common__all_8c.html", "iwdg__common__all_8c" ],
     [ "iwdg_common_all.h", "iwdg__common__all_8h.html", "iwdg__common__all_8h" ],
     [ "memorymap.h", "memorymap_8h.html", "memorymap_8h" ],
-    [ "pwr.c", "pwr_8c.html", "pwr_8c" ],
+    [ "pwr.c", "pwr_8c.html", null ],
     [ "pwr.h", "pwr_8h.html", null ],
     [ "pwr_common_all.c", "pwr__common__all_8c.html", "pwr__common__all_8c" ],
     [ "pwr_common_all.h", "pwr__common__all_8h.html", "pwr__common__all_8h" ],

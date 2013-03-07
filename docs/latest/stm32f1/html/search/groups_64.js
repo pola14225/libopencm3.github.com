@@ -13,8 +13,7 @@ var searchData=
   ['dma_20channel_20memory_20word_20width',['DMA Channel Memory Word Width',['../group__dma__ch__memwidth.html',1,'']]],
   ['dma_20channel_20peripheral_20word_20width',['DMA Channel Peripheral Word Width',['../group__dma__ch__perwidth.html',1,'']]],
   ['dma_20channel_20priority_20levels',['DMA Channel Priority Levels',['../group__dma__ch__pri.html',1,'']]],
-  ['dma_5fdefines',['Dma_defines',['../group__dma__defines.html',1,'']]],
+  ['dma_20defines',['DMA Defines',['../group__dma__defines.html',1,'']]],
   ['dma',['DMA',['../group__dma__file.html',1,'']]],
-  ['dma_20interrupt_20flag_20offsets_20within_20channel_20flag_20group_2e',['DMA Interrupt Flag Offsets within channel flag group.',['../group__dma__if__offset.html',1,'']]],
-  ['dma_20defines',['DMA Defines',['../group__STM32F1xx__dma__defines.html',1,'']]]
+  ['dma_20interrupt_20flag_20offsets_20within_20channel_20flag_20group_2e',['DMA Interrupt Flag Offsets within channel flag group.',['../group__dma__if__offset.html',1,'']]]
 ];

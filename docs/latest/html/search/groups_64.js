@@ -14,7 +14,7 @@ var searchData=
   ['dma_20channel_20peripheral_20word_20width',['DMA Channel Peripheral Word Width',['../../stm32f1/html/group__dma__ch__perwidth.html',1,'']]],
   ['dma_20channel_20priority_20levels',['DMA Channel Priority Levels',['../../stm32f1/html/group__dma__ch__pri.html',1,'']]],
   ['dma_20channel_20select',['DMA Channel Select',['../../stm32f4/html/group__dma__ch__sel.html',1,'']]],
-  ['dma_5fdefines',['Dma_defines',['../../stm32f1/html/group__dma__defines.html',1,'']]],
+  ['dma_20defines',['DMA Defines',['../../stm32f1/html/group__dma__defines.html',1,'']]],
   ['dma',['DMA',['../../stm32f1/html/group__dma__file.html',1,'']]],
   ['dma_20interrupt_20flag_20offsets_20within_20channel_20flag_20group_2e',['DMA Interrupt Flag Offsets within channel flag group.',['../../stm32f1/html/group__dma__if__offset.html',1,'']]],
   ['dma_20memory_20burst_20length',['DMA Memory Burst Length',['../../stm32f4/html/group__dma__mburst.html',1,'']]],
@@ -23,7 +23,5 @@ var searchData=
   ['dma_20stream_20memory_20word_20width',['DMA Stream Memory Word Width',['../../stm32f4/html/group__dma__st__memwidth.html',1,'']]],
   ['dma_20stream_20number',['DMA Stream Number',['../../stm32f4/html/group__dma__st__number.html',1,'']]],
   ['dma_20stream_20peripheral_20word_20width',['DMA Stream Peripheral Word Width',['../../stm32f4/html/group__dma__st__perwidth.html',1,'']]],
-  ['dma_20stream_20priority_20levels',['DMA Stream Priority Levels',['../../stm32f4/html/group__dma__st__pri.html',1,'']]],
-  ['dma_20defines',['DMA Defines',['../../stm32f1/html/group__STM32F1xx__dma__defines.html',1,'']]],
-  ['dma_20defines',['DMA Defines',['../../stm32f4/html/group__STM32F4xx__dma__defines.html',1,'']]]
+  ['dma_20stream_20priority_20levels',['DMA Stream Priority Levels',['../../stm32f4/html/group__dma__st__pri.html',1,'']]]
 ];

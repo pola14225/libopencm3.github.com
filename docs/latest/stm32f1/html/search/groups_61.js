@@ -3,6 +3,7 @@ var searchData=
   ['adc_20channel_20numbers',['ADC Channel Numbers',['../group__adc__channel.html',1,'']]],
   ['adc_20number_20of_20channels_20in_20discontinuous_20mode_2e',['ADC Number of channels in discontinuous mode.',['../group__adc__cr1__discnum.html',1,'']]],
   ['adc_20mode_20selection',['ADC Mode Selection',['../group__adc__cr1__dualmod.html',1,'']]],
+  ['adc_20defines',['ADC Defines',['../group__adc__defines.html',1,'']]],
   ['adc_20number_20of_20channels_20in_20discontinuous_20mode_20fro_20injected_20channels_2e',['ADC Number of channels in discontinuous mode fro injected channels.',['../group__adc__jsqr__jl.html',1,'']]],
   ['adc_20register_20base_20addresses',['ADC register base addresses',['../group__adc__reg__base.html',1,'']]],
   ['adc_20sample_20time_20selection_20for_20adc1',['ADC Sample Time Selection for ADC1',['../group__adc__sample__r1.html',1,'']]],
@@ -22,6 +23,5 @@ var searchData=
   ['alternate_20function_20remap_20controls_20for_20timer_202',['Alternate Function Remap Controls for Timer 2',['../group__afio__remap__tim2.html',1,'']]],
   ['alternate_20function_20remap_20controls_20for_20timer_203',['Alternate Function Remap Controls for Timer 3',['../group__afio__remap__tim3.html',1,'']]],
   ['alternate_20function_20remap_20controls_20for_20usart_203',['Alternate Function Remap Controls for USART 3',['../group__afio__remap__usart3.html',1,'']]],
-  ['adc_20defines',['ADC Defines',['../group__STM32F1xx__adc__defines.html',1,'']]],
   ['adc',['ADC',['../group__STM32F1xx__adc__file.html',1,'']]]
 ];

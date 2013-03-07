@@ -18,8 +18,8 @@ var searchData=
   ['rcc_5fcfgr_20usb_20prescale_20factors',['RCC_CFGR USB prescale Factors',['../../stm32f1/html/group__rcc__cfgr__usbpre.html',1,'']]],
   ['rcc_20defines',['RCC Defines',['../../lm4f/html/group__rcc__defines.html',1,'']]],
   ['rcc',['RCC',['../../lm4f/html/group__rcc__file.html',1,'']]],
-  ['rtc_5fdefines',['Rtc_defines',['../../stm32f1/html/group__rtc__defines.html',1,'']]],
-  ['rtc_5ffile',['Rtc_file',['../../stm32f1/html/group__rtc__file.html',1,'']]],
+  ['rtc_20defines',['RTC Defines',['../../stm32f1/html/group__rtc__defines.html',1,'']]],
+  ['rtc',['RTC',['../../stm32f1/html/group__rtc__file.html',1,'']]],
   ['rcc',['RCC',['../../stm32f1/html/group__STM32F1xx-rcc-file.html',1,'']]],
   ['rcc_20defines',['RCC Defines',['../../stm32f1/html/group__STM32F1xx__rcc__defines.html',1,'']]]
 ];

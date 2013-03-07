@@ -252,7 +252,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, and <a class="el" href="rcc_8h_source.html#l00382">RCC_BDCR_BDRST</a>.</p>
 
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00025">rtc_awake_from_off()</a>.</p>
+<p>Referenced by <a class="el" href="rtc_8c_source.html#l00041">rtc_awake_from_off()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -618,7 +618,7 @@ Here is the call graph for this function:</div>
 
 <p>RCC Disable Bypass. </p>
 <p>Re-enable the internal clock (high speed and low speed clocks only). The internal clock must be disabled (see <a class="el" href="group__STM32F1xx-rcc-file.html#ga5f5d6161e92d2708ee1e2d0517c10c28">rcc_osc_off</a>) for this to have effect.</p>
-<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot have bypass removed until the backup domain write protection has been removed (see <a class="el" href="group__STM32F1xx-pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>) or the backup domain has been reset (see <a class="el" href="group__STM32F1xx-rcc-file.html#gaa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>).</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot have bypass removed until the backup domain write protection has been removed (see <a class="el" href="group__pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>) or the backup domain has been reset (see <a class="el" href="group__STM32F1xx-rcc-file.html#gaa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">osc</td><td>enum <a class="el" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a>. Oscillator ID. Only HSE and LSE have effect. </td></tr>
@@ -648,7 +648,7 @@ Here is the call graph for this function:</div>
 
 <p>RCC Enable Bypass. </p>
 <p>Enable an external clock to bypass the internal clock (high speed and low speed clocks only). The external clock must be enabled (see <a class="el" href="group__STM32F1xx-rcc-file.html#ga8dbd64d58e019803bf109609203d1afd">rcc_osc_on</a>) and the internal clock must be disabled (see <a class="el" href="group__STM32F1xx-rcc-file.html#ga5f5d6161e92d2708ee1e2d0517c10c28">rcc_osc_off</a>) for this to have effect.</p>
-<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot be bypassed until the backup domain write protection has been removed (see <a class="el" href="group__STM32F1xx-pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>).</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot be bypassed until the backup domain write protection has been removed (see <a class="el" href="group__pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">osc</td><td>enum <a class="el" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a>. Oscillator ID. Only HSE and LSE have effect. </td></tr>
@@ -680,7 +680,7 @@ Here is the call graph for this function:</div>
 <p>Disable an oscillator and power off.</p>
 <dl class="section note"><dt>Note</dt><dd>An oscillator cannot be turned off if it is selected as the system clock. </dd>
 <dd>
-The LSE clock is in the backup domain and cannot be disabled until the backup domain write protection has been removed (see <a class="el" href="group__STM32F1xx-pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>) or the backup domain has been (see reset <a class="el" href="group__STM32F1xx-rcc-file.html#gaa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>).</dd></dl>
+The LSE clock is in the backup domain and cannot be disabled until the backup domain write protection has been removed (see <a class="el" href="group__pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>) or the backup domain has been (see reset <a class="el" href="group__STM32F1xx-rcc-file.html#gaa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">osc</td><td>enum <a class="el" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a>. Oscillator ID </td></tr>
@@ -710,7 +710,7 @@ The LSE clock is in the backup domain and cannot be disabled until the backup do
 
 <p>RCC Turn on an Oscillator. </p>
 <p>Enable an oscillator and power on. Each oscillator requires an amount of time to settle to a usable state. Refer to datasheets for time delay information. A status flag is available to indicate when the oscillator becomes ready (see <a class="el" href="group__STM32F1xx-rcc-file.html#gab01089842913b18e3df6e0e3ec89fd71">rcc_osc_ready_int_flag</a> and <a class="el" href="group__STM32F1xx-rcc-file.html#ga0f9fac6ac510e119aebe5f62c53f073a">rcc_wait_for_osc_ready</a>).</p>
-<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot be enabled until the backup domain write protection has been removed (see <a class="el" href="group__STM32F1xx-pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>).</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot be enabled until the backup domain write protection has been removed (see <a class="el" href="group__pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">osc</td><td>enum <a class="el" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a>. Oscillator ID </td></tr>
@@ -890,7 +890,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00496">496</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00055">i2c_reset()</a>, and <a class="el" href="spi__common__all_8c_source.html#l00083">spi_reset()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00050">i2c_reset()</a>, and <a class="el" href="spi__common__all_8c_source.html#l00079">spi_reset()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1030,7 +1030,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00475">475</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00055">i2c_reset()</a>, and <a class="el" href="spi__common__all_8c_source.html#l00083">spi_reset()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00050">i2c_reset()</a>, and <a class="el" href="spi__common__all_8c_source.html#l00079">spi_reset()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1665,7 +1665,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00056">56</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l01022">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01085">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01148">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00896">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00959">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00845">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00792">rcc_clock_setup_in_hsi_out_48mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_64mhz()</a>, and <a class="el" href="usart__common__all_8c_source.html#l00054">usart_set_baudrate()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l01022">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01085">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01148">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00896">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00959">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00845">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00792">rcc_clock_setup_in_hsi_out_48mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_64mhz()</a>, and <a class="el" href="usart__common__all_8c_source.html#l00050">usart_set_baudrate()</a>.</p>
 
 </div>
 </div>
@@ -1683,7 +1683,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00058">58</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l01022">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01085">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01148">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00896">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00959">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00845">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00792">rcc_clock_setup_in_hsi_out_48mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_64mhz()</a>, and <a class="el" href="usart__common__all_8c_source.html#l00054">usart_set_baudrate()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l01022">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01085">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01148">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00896">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00959">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00845">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00792">rcc_clock_setup_in_hsi_out_48mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_64mhz()</a>, and <a class="el" href="usart__common__all_8c_source.html#l00050">usart_set_baudrate()</a>.</p>
 
 </div>
 </div>
@@ -1692,7 +1692,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Mar 1 2013 20:21:15 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 02:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

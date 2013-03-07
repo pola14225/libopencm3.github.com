@@ -149,13 +149,13 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <p><b>libopencm3 STM32F4xx Independent Watchdog Timer</b> </p>
 <dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
-<dl class="section author"><dt>Author</dt><dd> &copy;  2012 Ken Sarkies <a href="#" onclick="location.href='mai'+'lto:'+'ksa'+'rk'+'ies'+'@i'+'nte'+'rn'+'ode'+'.o'+'n.n'+'et'; return false;">ksark<span style="display: none;">.nosp@m.</span>ies@<span style="display: none;">.nosp@m.</span>inter<span style="display: none;">.nosp@m.</span>node<span style="display: none;">.nosp@m.</span>.on.n<span style="display: none;">.nosp@m.</span>et</a></dd></dl>
 <dl class="section date"><dt>Date</dt><dd>18 August 2012</dd></dl>
+<p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
+<dl class="section author"><dt>Author</dt><dd> &copy;  2012 Ken Sarkies <a href="#" onclick="location.href='mai'+'lto:'+'ksa'+'rk'+'ies'+'@i'+'nte'+'rn'+'ode'+'.o'+'n.n'+'et'; return false;">ksark<span style="display: none;">.nosp@m.</span>ies@<span style="display: none;">.nosp@m.</span>inter<span style="display: none;">.nosp@m.</span>node<span style="display: none;">.nosp@m.</span>.on.n<span style="display: none;">.nosp@m.</span>et</a></dd></dl>
 <p>This library supports the Independent Watchdog Timer System in the STM32F1xx series of ARM Cortex Microcontrollers by ST Microelectronics.</p>
 <p>The watchdog timer uses the LSI (low speed internal) clock which is low power and continues to operate during stop and standby modes. Its frequency is nominally 32kHz (40kHz for the STM32F1xx series) but can vary from as low as 17kHz up to 60kHz (refer to datasheet electrical characteristics).</p>
 <p>Note that the User Configuration option byte provides a means of automatically enabling the IWDG timer at power on (with counter value 0xFFF). If the relevant bit is not set, the IWDG timer must be enabled by software.</p>
-<dl class="section note"><dt>Note</dt><dd>: Tested: CPU STM32F103RET6, Board ET-ARM Stamp STM32</dd></dl>
-<p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
+<dl class="section note"><dt>Note</dt><dd>: Tested: CPU STM32F103RET6, Board ET-ARM Stamp STM32 </dd></dl>
 <h2>Macro Definition Documentation</h2>
 <a class="anchor" id="gaac5931de084e9f80c7b1ab0f0e2843ca"></a>
 <div class="memitem">
@@ -167,7 +167,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00047">47</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00042">42</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -181,9 +181,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00048">48</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00043">43</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
 
-<p>Referenced by <a class="el" href="iwdg__common__all_8c_source.html#l00078">iwdg_set_period_ms()</a>.</p>
+<p>Referenced by <a class="el" href="iwdg__common__all_8c_source.html#l00073">iwdg_set_period_ms()</a>.</p>
 
 </div>
 </div>
@@ -197,7 +197,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00046">46</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00041">41</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -219,11 +219,11 @@ Functions</h2></td></tr>
 <p>IWDG Get Prescaler Register Status. </p>
 <dl class="section return"><dt>Returns</dt><dd>boolean: TRUE if the prescaler register is busy and unavailable for loading a new period value. </dd></dl>
 
-<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00123">123</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00118">118</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
 
-<p>References <a class="el" href="iwdg__common__all_8h_source.html#l00042">IWDG_SR</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00093">IWDG_SR_PVU</a>.</p>
+<p>References <a class="el" href="iwdg__common__all_8h_source.html#l00046">IWDG_SR</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00097">IWDG_SR_PVU</a>.</p>
 
-<p>Referenced by <a class="el" href="iwdg__common__all_8c_source.html#l00078">iwdg_set_period_ms()</a>.</p>
+<p>Referenced by <a class="el" href="iwdg__common__all_8c_source.html#l00073">iwdg_set_period_ms()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -253,11 +253,11 @@ Here is the caller graph for this function:</div>
 <p>IWDG Get Reload Register Status. </p>
 <dl class="section return"><dt>Returns</dt><dd>boolean: TRUE if the reload register is busy and unavailable for loading a new count value. </dd></dl>
 
-<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00111">111</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00106">106</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
 
-<p>References <a class="el" href="iwdg__common__all_8h_source.html#l00042">IWDG_SR</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00090">IWDG_SR_RVU</a>.</p>
+<p>References <a class="el" href="iwdg__common__all_8h_source.html#l00046">IWDG_SR</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00094">IWDG_SR_RVU</a>.</p>
 
-<p>Referenced by <a class="el" href="iwdg__common__all_8c_source.html#l00078">iwdg_set_period_ms()</a>.</p>
+<p>Referenced by <a class="el" href="iwdg__common__all_8c_source.html#l00073">iwdg_set_period_ms()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -287,9 +287,9 @@ Here is the caller graph for this function:</div>
 <p>IWDG reset Watchdog Timer. </p>
 <p>The watchdog timer is reset. The counter restarts from the value in the reload register. </p>
 
-<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00135">135</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00130">130</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
 
-<p>References <a class="el" href="iwdg__common__all_8h_source.html#l00033">IWDG_KR</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00053">IWDG_KR_RESET</a>.</p>
+<p>References <a class="el" href="iwdg__common__all_8h_source.html#l00037">IWDG_KR</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00057">IWDG_KR_RESET</a>.</p>
 
 </div>
 </div>
@@ -317,9 +317,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00078">78</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00073">73</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
 
-<p>References <a class="el" href="iwdg__common__all_8c_source.html#l00048">COUNT_MASK</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00033">IWDG_KR</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00054">IWDG_KR_UNLOCK</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00036">IWDG_PR</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00073">IWDG_PR_DIV128</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00070">IWDG_PR_DIV16</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00074">IWDG_PR_DIV256</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00071">IWDG_PR_DIV32</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00068">IWDG_PR_DIV4</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00072">IWDG_PR_DIV64</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00069">IWDG_PR_DIV8</a>, <a class="el" href="iwdg__common__all_8c_source.html#l00123">iwdg_prescaler_busy()</a>, <a class="el" href="iwdg__common__all_8c_source.html#l00111">iwdg_reload_busy()</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00039">IWDG_RLR</a>.</p>
+<p>References <a class="el" href="iwdg__common__all_8c_source.html#l00043">COUNT_MASK</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00037">IWDG_KR</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00058">IWDG_KR_UNLOCK</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00040">IWDG_PR</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00077">IWDG_PR_DIV128</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00074">IWDG_PR_DIV16</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00078">IWDG_PR_DIV256</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00075">IWDG_PR_DIV32</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00072">IWDG_PR_DIV4</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00076">IWDG_PR_DIV64</a>, <a class="el" href="iwdg__common__all_8h_source.html#l00073">IWDG_PR_DIV8</a>, <a class="el" href="iwdg__common__all_8c_source.html#l00118">iwdg_prescaler_busy()</a>, <a class="el" href="iwdg__common__all_8c_source.html#l00106">iwdg_reload_busy()</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00043">IWDG_RLR</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -349,9 +349,9 @@ Here is the call graph for this function:</div>
 <p>IWDG Enable Watchdog Timer. </p>
 <p>The watchdog timer is started. The timeout period defaults to 512 milliseconds unless it has been previously defined. </p>
 
-<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00058">58</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00053">53</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
 
-<p>References <a class="el" href="iwdg__common__all_8h_source.html#l00033">IWDG_KR</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00055">IWDG_KR_START</a>.</p>
+<p>References <a class="el" href="iwdg__common__all_8h_source.html#l00037">IWDG_KR</a>, and <a class="el" href="iwdg__common__all_8h_source.html#l00059">IWDG_KR_START</a>.</p>
 
 </div>
 </div>
@@ -360,7 +360,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Mar 1 2013 20:21:22 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 02:21:23 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

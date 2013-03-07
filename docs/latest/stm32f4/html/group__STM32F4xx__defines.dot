@@ -12,9 +12,9 @@ digraph "STM32F4xx Defines"
   Node7 [label="IWDG Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__iwdg__defines.html",tooltip="Defined Constants and Types for the STM32F4xx Independent Watchdog Timer"];
   Node10 [label="SPI Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__spi__defines.html",tooltip="Defined Constants and Types for the STM32F4xx SPI"];
   Node5 [label="GPIO Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gpio__defines.html",tooltip="Defined Constants and Types for the STM32F4xx General Purpose I/O"];
-  Node4 [label="DMA Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F4xx__dma__defines.html",tooltip="Defined Constants and Types for the STM32F4xx DMA Controller."];
   Node11 [label="USART Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html",tooltip="Defined Constants and Types for the STM32F4xx USART"];
   Node9 [label="RTC Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__rtc__defines.html",tooltip="Defined Constants and Types for the STM32F4xx RTC"];
+  Node4 [label="DMA Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dma__defines.html",tooltip="Defined Constants and Types for the STM32F4xx DMA Controller."];
   Node0->Node1 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node2 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node3 [shape=plaintext, color="midnightblue", dir="back", style="solid"];

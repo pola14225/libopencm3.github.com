@@ -24,7 +24,7 @@ var pwr__common__all_8h =
     [ "PWR_CSR_WUF", "pwr__common__all_8h.html#ga9465bb7ad9ca936688344e2a077539e6", null ],
     [ "pwr_clear_standby_flag", "pwr__common__all_8h.html#gacee516d449f1015a27246fbfedc534de", null ],
     [ "pwr_clear_wakeup_flag", "pwr__common__all_8h.html#ga652ae2d48d4833539f50f0c201e8fff2", null ],
-    [ "pwr_disable_backup_domain_write_protect", "pwr__common__all_8h.html#ga47f30c2ab88b0a18a2f343cf4f9c0743", null ],
+    [ "pwr_disable_backup_domain_write_protect", "pwr__common__all_8h.html#ga4443bf357f96c7ec23b04ef32bdfd38f", null ],
     [ "pwr_disable_power_voltage_detect", "pwr__common__all_8h.html#ga1d9e8bb70d3b9c9c2971d1ae2c049b8f", null ],
     [ "pwr_disable_wakeup_pin", "pwr__common__all_8h.html#ga932a753dc0d66718aaaab22b9d75aa97", null ],
     [ "pwr_enable_backup_domain_write_protect", "pwr__common__all_8h.html#ga13c9ac878969520462439771bbf3e621", null ],

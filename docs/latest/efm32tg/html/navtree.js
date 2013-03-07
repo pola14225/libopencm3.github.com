@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "libopencm3", "index.html", [
+    [ "libopencm3 EFM32 Tiny Gecko", "index.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
     [ "STM32F1", "../../stm32f1/html/modules.html", null ],
@@ -14,6 +15,7 @@ var NAVTREE =
     [ "LPC43", "../../lpc43xx/html/modules.html", null ],
     [ "EMF32 Gecko", "../../emf32g/html/modules.html", null ],
     [ "EMF32 Giant Gecko", "../../emf32gg/html/modules.html", null ],
+    [ "EFM32 Tiny Gecko", "modules.html", "modules" ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
@@ -26,7 +28,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"files.html"
+"doc-efm32tg_8h.html"
 ];
 
 var navTreeSubIndices = new Array();

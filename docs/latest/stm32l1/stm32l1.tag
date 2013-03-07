@@ -9240,105 +9240,105 @@
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
       <arglist>(u32 pvd_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_standby_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_stop_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_voltage_high</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
     </member>
@@ -16719,6 +16719,7 @@
     <subgroup>gpio_file</subgroup>
     <subgroup>i2c_file</subgroup>
     <subgroup>iwdg_file</subgroup>
+    <subgroup>pwr-file</subgroup>
     <subgroup>rtc_file</subgroup>
     <subgroup>spi_file</subgroup>
     <subgroup>usart_file</subgroup>
@@ -26295,6 +26296,116 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>pwr-file</name>
+    <title>PWR</title>
+    <filename>group__pwr-file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_power_voltage_detect</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
+      <arglist>(u32 pvd_level)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_power_voltage_detect</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_standby_flag</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_wakeup_flag</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_standby_mode</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_stop_mode</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_on_in_stop</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_low_power_in_stop</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_wakeup_pin</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_wakeup_pin</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_voltage_high</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_standby_flag</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_wakeup_flag</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
     <name>rtc_file</name>
     <title>RTC</title>
     <filename>group__rtc__file.html</filename>
@@ -26853,116 +26964,6 @@
       <anchorfile>group__usart__file.html</anchorfile>
       <anchor>ga034cc055ba8cf70f367f1555a3e75d3b</anchor>
       <arglist>(u32 usart, u32 flag)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>STM32F1xx-pwr-file</name>
-    <title>PWR</title>
-    <filename>group__STM32F1xx-pwr-file.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
-      <arglist>(u32 pvd_level)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_standby_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_stop_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_voltage_high</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
-      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="group">

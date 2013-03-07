@@ -12,8 +12,6 @@ var files =
     [ "dac_common_all.h", "dac__common__all_8h.html", "dac__common__all_8h" ],
     [ "dma.c", "dma_8c.html", null ],
     [ "dma.h", "dma_8h.html", null ],
-    [ "dma_common_f13.c", "dma__common__f13_8c.html", "dma__common__f13_8c" ],
-    [ "dma_common_f13.h", "dma__common__f13_8h.html", "dma__common__f13_8h" ],
     [ "dma_common_f24.c", "dma__common__f24_8c.html", "dma__common__f24_8c" ],
     [ "dma_common_f24.h", "dma__common__f24_8h.html", "dma__common__f24_8h" ],
     [ "doc-stm32f4.h", "doc-stm32f4_8h.html", null ],

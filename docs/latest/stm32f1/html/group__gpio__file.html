@@ -173,7 +173,8 @@ Basic GPIO Handling API.</h1>
 </div><!-- fragment --><p>Example 1: Digital input on port C12</p>
 <div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga07cb96dc8e544ca14fb746ce1c475b19" title="Set GPIO Pin Mode.">gpio_set_mode</a>(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>, <a class="code" href="group__gpio__mode.html#gaf40bec3146810028a84b628d37d3b391">GPIO_MODE_INPUT</a>, GPIO_CNF_INPUT, <a class="code" href="group__gpio__pin__id.html#ga1dfa6e5489489f2797d3d80c718716ce">GPIO12</a>);</div>
 <div class="line">reg16 = <a class="code" href="group__gpio__defines.html#ga00667ed71e76ab23562b50cffeb3cab5" title="Read from a Port.">gpio_port_read</a>(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>);</div>
-</div><!-- fragment --><p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
+</div><!-- fragment --><p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
+<dl class="section author"><dt>Author</dt><dd> &copy;  2009 Uwe Hermann <a href="#" onclick="location.href='mai'+'lto:'+'uwe'+'@h'+'erm'+'an'+'n-u'+'we'+'.de'; return false;">uwe@h<span style="display: none;">.nosp@m.</span>erma<span style="display: none;">.nosp@m.</span>nn-uw<span style="display: none;">.nosp@m.</span>e.de</a> </dd></dl>
 <h2>Function Documentation</h2>
 <a class="anchor" id="gaa38876ad6f3cb35b67b25e87a2ce193c"></a>
 <div class="memitem">
@@ -209,9 +210,9 @@ Basic GPIO Handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00051">51</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00055">55</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00571">GPIO_BSRR</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00567">GPIO_BSRR</a>.</p>
 
 </div>
 </div>
@@ -249,9 +250,9 @@ Basic GPIO Handling API.</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Unsigned int16 value of the pin values. The bit position of the pin value returned corresponds to the pin number. </dd></dl>
 
-<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00065">65</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00069">69</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
 
-<p>References <a class="el" href="gpio__common__all_8c_source.html#l00093">gpio_port_read()</a>.</p>
+<p>References <a class="el" href="gpio__common__all_8c_source.html#l00097">gpio_port_read()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -298,9 +299,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00121">121</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00125">125</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
 
-<p>References <a class="el" href="gpio__common__all_8h_source.html#l00036">GPIO_LCKK</a>, and <a class="el" href="gpio_8h_source.html#l00591">GPIO_LCKR</a>.</p>
+<p>References <a class="el" href="gpio__common__all_8h_source.html#l00041">GPIO_LCKK</a>, and <a class="el" href="gpio_8h_source.html#l00587">GPIO_LCKR</a>.</p>
 
 </div>
 </div>
@@ -328,11 +329,11 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Unsigned int16. The value held in the specified GPIO port. </dd></dl>
 
-<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00093">93</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00097">97</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00551">GPIO_IDR</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00547">GPIO_IDR</a>.</p>
 
-<p>Referenced by <a class="el" href="gpio__common__all_8c_source.html#l00065">gpio_get()</a>.</p>
+<p>Referenced by <a class="el" href="gpio__common__all_8c_source.html#l00069">gpio_get()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -379,9 +380,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00106">106</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00110">110</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00561">GPIO_ODR</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00557">GPIO_ODR</a>.</p>
 
 </div>
 </div>
@@ -423,7 +424,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00165">165</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00670">AFIO_MAPR</a>, and <a class="el" href="gpio_8h_source.html#l00769">AFIO_MAPR_SWJ_MASK</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00666">AFIO_MAPR</a>, and <a class="el" href="gpio_8h_source.html#l00765">AFIO_MAPR_SWJ_MASK</a>.</p>
 
 </div>
 </div>
@@ -453,7 +454,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00183">183</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00685">AFIO_MAPR2</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00681">AFIO_MAPR2</a>.</p>
 
 </div>
 </div>
@@ -491,9 +492,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00037">37</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00041">41</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00571">GPIO_BSRR</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00567">GPIO_BSRR</a>.</p>
 
 </div>
 </div>
@@ -533,7 +534,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00138">138</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00667">AFIO_EVCR</a>, and <a class="el" href="gpio_8h_source.html#l00690">AFIO_EVCR_EVOE</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00663">AFIO_EVCR</a>, and <a class="el" href="gpio_8h_source.html#l00686">AFIO_EVCR_EVOE</a>.</p>
 
 </div>
 </div>
@@ -587,7 +588,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00093">93</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00541">GPIO_CRH</a>, and <a class="el" href="gpio_8h_source.html#l00531">GPIO_CRL</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00537">GPIO_CRH</a>, and <a class="el" href="gpio_8h_source.html#l00527">GPIO_CRL</a>.</p>
 
 </div>
 </div>
@@ -625,9 +626,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00079">79</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00083">83</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00561">GPIO_ODR</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00557">GPIO_ODR</a>.</p>
 
 </div>
 </div>
@@ -636,7 +637,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Mar 1 2013 20:21:15 for libopencm3 by
+    <li class="footer">Generated on Thu Mar 7 2013 02:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

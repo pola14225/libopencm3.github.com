@@ -4,15 +4,16 @@ digraph "STM32F2xx Defines"
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir=LR;
   Node0 [label="STM32F2xx Defines",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node7 [label="PWR Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__pwr__defines.html",tooltip="Defined Constants and Types for the STM32F2xx PWR Control"];
   Node1 [label="CRC Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__crc__defines.html",tooltip="libopencm3 Defined Constants and Types for the STM32F2xx CRC Generator "];
   Node2 [label="DAC Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dac__defines.html",tooltip="Defined Constants and Types for the STM32F2xx DAC"];
-  Node3 [label="DMA Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F2xx__dma__defines.html",tooltip="Defined Constants and Types for the STM32F2xx DMA Controller."];
   Node5 [label="I2C Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__i2c__defines.html",tooltip="Defined Constants and Types for the STM32F2xx I2C "];
   Node6 [label="IWDG Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__iwdg__defines.html",tooltip="Defined Constants and Types for the STM32F2xx Independent Watchdog Timer"];
-  Node8 [label="SPI Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__spi__defines.html",tooltip="Defined Constants and Types for the STM32F2xx SPI"];
+  Node9 [label="SPI Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__spi__defines.html",tooltip="Defined Constants and Types for the STM32F2xx SPI"];
   Node4 [label="GPIO Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gpio__defines.html",tooltip="Defined Constants and Types for the STM32F2xx General Purpose I/O"];
-  Node9 [label="USART Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html",tooltip="Defined Constants and Types for the STM32F2xx USART"];
-  Node7 [label="RTC Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__rtc__defines.html",tooltip="Defined Constants and Types for the STM32F2xx RTC"];
+  Node10 [label="USART Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html",tooltip="Defined Constants and Types for the STM32F2xx USART"];
+  Node8 [label="RTC Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__rtc__defines.html",tooltip="Defined Constants and Types for the STM32F2xx RTC"];
+  Node3 [label="DMA Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dma__defines.html",tooltip="Defined Constants and Types for the STM32F2xx DMA Controller."];
   Node0->Node1 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node2 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node3 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
@@ -22,4 +23,5 @@ digraph "STM32F2xx Defines"
   Node0->Node7 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node8 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node9 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node10 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
 }

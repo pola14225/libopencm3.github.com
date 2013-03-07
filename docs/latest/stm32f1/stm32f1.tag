@@ -398,560 +398,560 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa80fdd25bb1f30fb64ba99a47628fcb1</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabcff75a3a7cb3bd72832317aac2daa44</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab0ab8a275dc37da4b712c0ca0c646200</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaca9a6b402852cfe9353a787e226d0568</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga88ba3b646afe631e6d5eeb8ec579d25a</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_CR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2f6aa6e282b5100ef29e7894f40ae352</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_CR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf493618743bd5832e67ff56bc3c4393f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_CR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaeab6fea28cc48ecd3d5f474c033d4b0c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7015caf0db482a0772aadbcdb5a29b98</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_CR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga819a037dbe86c4b403ec7de246f3fdba</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_CR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5141590d16f9145187393d7b71ca9da0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_CR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa85d3ec2f322f06fa8850f14bf2255ce</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5e60a406a0a614680824c2e060a27761</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SMPR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8088f1d2624782aeb0252f8d1f38e749</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SMPR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7e6f23aff15cdb078053be188d568a8e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SMPR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga88ea81f2324c3c353f2bbbcb4175e54d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadc1e8be3bafa939274574732734e2534</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SMPR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga388899f782f348c4f4913fa88e1a9041</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SMPR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0cb187fd6d8b3867ddfcbc52d3d1127b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SMPR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafcbe155627ca47a5cbcd762bb35fde1e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa57a02e716c27e7ec39a7255afba442a</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8259dffc9717312c93a22af0dcc0f4d6</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8599bd9c323e9e012e24a2f60ca74996</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac34f58a9ae9f3b02328618880ef02668</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JOFR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabd8f277084841e1dafdf424875028bbf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JOFR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0183fbbc640673449c5a8ef87276a365</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JOFR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5d57c81476533aa9dfccd23dd9606f7d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JOFR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga98bf61bf8a9287d1669ff0fd7c2419c0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JOFR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga697b70ff2da1e7c5a24a9ce5c4625804</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JOFR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1cad58d11aed35a21f6e1e92aad1f2fc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JOFR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8cf986f2c50e6afa247a9bab63ae9cc6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JOFR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga227a1761161651b1af395b7f455fd88e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JOFR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5b63a04aff42971561fdbc311b0b5317</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JOFR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga27e7e930905112fba97dbb699e9f073f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JOFR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8c20e4f29e60222672f6c812ec684858</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JOFR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa2570cb73bc1579c34c802b7ab62aaef</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_HTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga465972d5343177b3cf1654f0c262f798</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_HTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9c1916f61455513af72977119faebb52</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_HTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2a7e4b9cf83c7d653b8190a8815b4b50</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_HTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2079dcc2c54bf078929991ce11c5416b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_LTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga34fbae24f12816c8fd9ae2fc3e4d22be</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_LTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac9bda35bd5cf43dc3793bf21f5613729</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_LTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae819241387285a7b38c65e7314ade849</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_LTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6709d7fdfc10cb28ff61c31a4e161eff</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga95b12a20d804a1925f5678be1d8d6afa</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SQR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga04b6f31a8ec80c8bdb29c147d570b7ab</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SQR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga61da70a3c2c4b3104a2fe60e273c2a41</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SQR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac2b6b522d23c29e6f9fc9a65334e3fe6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab02f7bc7ef2574f1849d78941866bbd4</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SQR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad0231e0c9235e2432d58e2ab91b44707</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SQR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga524c8de6b21c2562ab013de528216567</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SQR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf4399f311f1158685dbb10f4fe0aaf09</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga97aedacbc0d896ff73dc6259b2d18644</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SQR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga14e17724ce810625e8bc8e3eb3c8b389</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SQR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga075eb8ef85f55de5c741259420e63fad</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SQR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga25dd8c0ec876d84aa7bbc430ad3600b1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga03a476b537d729858ea3bc324f27b506</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JSQR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7ae457e7eebea2a92f45d2f5427aba26</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JSQR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga20b99361d22391a4272e1ec750aea40d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JSQR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5cddc3452f88339115f36cc855ee2066</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac8b976d9ac593e2c747c02d9a4728ae2</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1a4bd5be51660aed7629022d7978c22a</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga69a199c19bfc7d4e086a972dd003372f</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae916fe033fdd6a0342f312d67960b171</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JDR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga71b99498b7f0454bc9f930512d490099</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JDR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga07635869f7d20fa258fbe09d479a896a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JDR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0af9af98c416bf4a0fb5f47d3c4f063f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JDR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa3c7518d66e4f67500ccf91157e4b790</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JDR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8ddc139242a58a6ee98a7064efae8477</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JDR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6483a0171bc3c9bdb297dba97d6f2659</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JDR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9cdf39f718d3062ed466a1bdb13e14f5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JDR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaae6bb5dc0b2457233525dd3957a7074b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JDR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gada45aa28b1f60a814bf359ad56e1241b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JDR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga477e0ea8e64c6d795af5db339958803d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JDR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa85c9daea797bf35a4d3b4df6ad44771</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JDR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga94debec90a7cd554f7542878031b7148</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_DR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga75a42466bd689031808050d4b4264a06</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_DR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga851f62156cf9d539d12693259f93500b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_DR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad4259caf01f8f67fa8410c9dd9f2a8fc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_DR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaea93f25eb21346ee47f8b43769fd582e</anchor>
       <arglist></arglist>
     </member>
@@ -1084,63 +1084,63 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3416b39e4841b9e27bb2e8e490cecf5b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabeb6d44733377a02098dff42d1b6977f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_STRT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga45eb11ad986d8220cde9fa47a91ed222</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_JSTRT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7340a01ffec051c06e80a037eee58a14</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_JEOC</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabc9f07589bb1a4e398781df372389b56</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_EOC</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3dc295c5253743aeb2cda582953b7b53</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_AWD</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8b7f27694281e4cad956da567e5583b2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDEN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6e006d43fcb9fe1306745c95a1bdd651</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_JAWDEN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4886de74bcd3a1e545094089f76fd0b3</anchor>
       <arglist></arglist>
     </member>
@@ -1217,14 +1217,14 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DUALMOD_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac78ef1c5c32a20f9059af58f33b6b83c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DUALMOD_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga83c1f1a6091cb9a422a53b1e0f77003c</anchor>
       <arglist></arglist>
     </member>
@@ -1287,70 +1287,70 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DISCNUM_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1727991cac68d4ef02b162a671d90a77</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DISCNUM_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga117c2cf0428216dae7e16d546479c415</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_JDISCEN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gacd06a2840346bf45ff335707db0b6e30</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DISCEN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabd690297fc73fca40d797f4c90800b9a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_JAUTO</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6353cb0d564410358b3a086dd0241f8c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDSGL</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5c9fc31f19c04033dfa98e982519c451</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_SCAN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaeab75ece0c73dd97e8f21911ed22d06</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_JEOCIE</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5c46fc1dc6c63acf88821f46a8f6d5e7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDIE</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gacd44f86b189696d5a3780342516de722</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_EOCIE</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa39fee2e812a7ca45998cccf32e90aea</anchor>
       <arglist></arglist>
     </member>
@@ -1483,42 +1483,42 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDCH_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4f54c32c22a663da6dc39dc12a3cabfd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDCH_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae7cd4a63e213f0c72c9d7fbfe5633718</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_TSVREFE</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae97d1f61aa9d8c2279557f18e7303308</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_SWSTART</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5eae65bad1a6c975e1911eb5ba117468</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_JSWSTART</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac12fe8a6cc24eef2ed2e1f1525855678</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_EXTTRIG</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1c0cfed2e6b3dfe7a8794b29822e314c</anchor>
       <arglist></arglist>
     </member>
@@ -1630,21 +1630,21 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_EXTSEL_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae5dd4b78a0e7beb8731bee7f17a752b9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_EXTSEL_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga01976fd4e171a40744e11230a8b7cf57</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_JEXTTRIG</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa17af96980f14bc008357812c13bc4b3</anchor>
       <arglist></arglist>
     </member>
@@ -1763,182 +1763,182 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_JEXTSEL_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga53d366c241faccff9206efc4c0d306f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_JEXTSEL_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9ca1e47c7fe2515edf4ab7b57e65f8dc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_ALIGN_RIGHT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga62a03bfb8e5a9db5689f9b32cb96bea4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_ALIGN_LEFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf7b5368b592edef5f01793afdf897533</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_ALIGN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf5950b5a7438a447584f6dd86c343362</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_DMA</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga017309ac4b532bc8c607388f4e2cbbec</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_RSTCAL</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga76a91ece4a71450541ef2637fdcdfdea</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_CAL</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2932a0004cf17558c1445f79baac54a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_CONT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga49bb71a868c9d88a0f7bbe48918b2140</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_ADON</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga89b646f092b052d8488d2016f6290f0e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP17_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa3207cb1a9d4e29f782cd8d35239dbf7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP16_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7b66e3da1f8764a156061cff02a435a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP15_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4899b8efa60e3970a92a924d32a6e462</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP14_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf17efcb85c0fe6aabfcd3fe2a63720dc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP13_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa6c0a7bfe53ae8c88bea85701d7ae251</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP12_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga32267b8de0b8980f5692756962882495</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP11_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9a05d631941e4e19b680fc91aa3bd3a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP10_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa2205c570764f15bdfae875ab44f1822</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP17_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac53a196d96a9af508f6cc12b0dad958f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP16_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad7f18bf40cc4f162a732dd9546692efc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP15_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gacfc6a099aa276233ad84c3b792aa0c80</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP14_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga44b54d4e69adcfb2a75088aa49ae8112</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP13_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2b319cfcf39f655ba3ffe87cd64caa46</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP12_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab68daa6c08a77d012977895bd115b701</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP11_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafe0664efaed02f83b3ad6237527fa93b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP10_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6532417f7eba2fc026409f24fbf6b777</anchor>
       <arglist></arglist>
     </member>
@@ -2001,140 +2001,140 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP9_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabfaef5f0de2434d907ee0c5bac8f39b6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP8_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga59f8eff58c4ac909b3e4fd847e7eb26f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP7_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga663dc2fea8a5a79c24dfc5e3e40cb4cb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP6_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae777a8b74abde8437fbd665ae658da1c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP5_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabfde4ea82865d87bbf027522eb6f7ed4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP4_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga61d044736b8af5c1eb5a8915dbfc0c79</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP3_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaef91c441f758e59b3e0456f215e4f31</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP2_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab99895f3a1c337bc34c5b5b7b60fce7f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP1_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5f33f0aad88ec9be4bf0f384609fbb76</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP0_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaab46ddcd209e15110d1887f0cabb446b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP9_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga81ffe7b4a6968f7b4ac70c6a30651e29</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP8_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac63130ac37df7211d6a64955ba91bea0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP7_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga282ae851c797291dee744cac80d2692a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP6_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga184d55b3891949987d2723cd734e9faf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP5_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaed54090d8a4b455787af15126ac4011c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP4_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadad8177b43aaf007f4300489c95af9c1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP3_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf324f7149edbc2b3531a94cc4de6e6b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP2_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2f4d139d759da83d57bd4331c3873768</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP1_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga37a1fb30f9bcac721cb6af804979955c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP0_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3265b52dffe83ac199e8682bc4809032</anchor>
       <arglist></arglist>
     </member>
@@ -2253,315 +2253,315 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFFSET_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3e7342ed87a38bf56a4450da5fcf0535</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFFSET_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaebe61b5b4917952871ddc1e0eb4ea6c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_HT_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga007c214feb69891e97648a641a260cb3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_HT_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa6306d52698ea51e3d35474abb5a47fe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_LT_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga294e5223072fb995b645f1ed730a1a4c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_LT_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaddb1cd35d2bed152e80b1096e1b82b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_L_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga96ec1ebd69432213c0185124da3e9c9d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ16_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga91e42102cb19291f40376b45ac1e66a2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ15_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5f21de89a1552a79f9a48ad7363f9b8d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ14_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5fb19fdbbe1bc88deee770c254072cd4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ13_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf9aaa7431970909275af4cafe4c521ba</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_L_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga796fd60244042f8b978839e62eda1ef1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ16_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0e569878ea206211226cce36fe17697b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ15_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3392d1eb494efa0313b477e04061aee1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ14_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga77712cc23a7c3fd4706353158016bcbd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ13_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga76b9cddcf861236d5fc56751592b596b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ12_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf684f7f079102f3c487213f499011a89</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ11_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad293855e34b56a8f0e6b2d3a9dca4d4c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ10_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga94ff77ab977be2a6b7ee4f95d4acd912</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ9_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa24692f8ab46e53441f967a89719fda2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ8_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga221a676d6259575bf65d3b39124e78c0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ7_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa7f27c9d0fc16be2486118ee244db052</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ12_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga03ab9df677136018a1a78bd2f9d3ebdf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ11_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga96b2ae442b44cc839cb8c6bdf5abfbe9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ10_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga43f2d9b7f50decd7974ba1735a1a611b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ9_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaea28f3ed7f53b9151e9b4c380fabe555</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ8_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf6b4bec2424f22e48f807dbe36963cae</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ7_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac6805070a80a5fe4633ed0e18e279f42</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ6_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac93c4609a674c7c76af5f56556cce4d5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ5_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab632d8822368a841ee2c9ad70002de8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ4_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab9b455a2cdac71a1ae7ceab977acb203</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ3_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabbbcd4666de7a7646d797f1b727bc488</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ2_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga62c5f0f07d4239d95a5d43c229a5a75e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ1_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8a7680d0956c7c40f4fe2085c5253b14</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ6_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae56f95e673bf14b5e39c834b1355f937</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ5_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3e551ad90d8c0ab6dde6796e2d3e5a77</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ4_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae7692c8210a051bb810b8e5a4b876b36</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ3_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gacac486035c2443b7da44a1346a960bad</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ2_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae9022100cd4e191b643a97b35701fb04</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ1_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gade1557009f6a5eed01f45fb93227722a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JL_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5de6fc1832c959e4d6caff4991383752</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ4_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga381d087af319941eead086e683c2e54f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ3_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf54e4d83fd3e1adddfd673d09877f224</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ2_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0d0868797d7c295c9f780a0b035f12cb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ1_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1cc573927f776cbad045bcbaa67cd85c</anchor>
       <arglist></arglist>
     </member>
@@ -2596,490 +2596,490 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JL_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad1220f2cb4f1a6ef9613c4e884b761e0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JL_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga879de268e46807ada83b9c9c1f04fd67</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ4_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga74eaabc439c27e5aa25e15a7f559b280</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ3_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa523b506b309a5984206994e3e448ff4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ2_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga297737b887887820c507bd945e9b1865</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ1_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa112893c55b5d2bb97781edf3fb77a43</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDATA_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa84f4af8cec075fee4e544254bd92893</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_DATA_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga943ea8e493f7deb62e330c6a0cfa982a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_ADC2DATA_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga71573fdbfb72fe9df505f18928810617</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDATA_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga650f06c9916c038b1cb7fa52f3f13bb2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_DATA_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga27b4a7439cd73e12fab501551b117a2d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_ADC2DATA_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadcd73e7b938addf1b7755061dbd496aa</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>adc_power_on</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga85c7730e97e8faff833ad787087aaea3</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_direct</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafc55f4769af43526e77edc11907be438</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_channel</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaddc132cf4636ce45eb772c62d6167794</anchor>
       <arglist>(u32 adc, u8 channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dual_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadc06dcc9c3e6f652f18dc7280feb2c11</anchor>
       <arglist>(u32 mode)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga830b0fc9370508bf04dc1b01cc09badb</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga186bfcb2659dfafb0c342c1975472f25</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>
       <name>adc_read_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0cb788d1d9e54f4ccf9fc8b3b95656ff</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>
       <name>adc_read_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafdcca79192331fc42e3241caddd6f7ef</anchor>
       <arglist>(u32 adc, u8 reg)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_offset</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga43bffb4e87049a19ea8ed264a6004285</anchor>
       <arglist>(u32 adc, u8 reg, u32 offset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5a1319d5fcfa28d0c5d616bb34636c44</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6232c6b32e8f6c761e6297ba40f7c067</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga46ea7596440e650c5640012aa74f2d21</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2e0ddcf0afcfaa7a818db8ea6ea66690</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8071fcf08d687582e7c8c5621588fc5a</anchor>
       <arglist>(u32 adc, u8 length)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2a4e78f6f0fb2f4d0a442946662079f2</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga71c6f47f070add23253af4bf8e84820e</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga78164c7d8ab5f99ca93ed52e913bf6e8</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_automatic_injected_group_conversion</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa55d33a50412f243f9dd50aa22e93e13</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_automatic_injected_group_conversion</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad60e8cc425daf6901d82100b2c3c5cd9</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_all_channels</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4887c1c1739ade1c0554df5f2f67dd42</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_selected_channel</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4ce1e75e61f656032b89484bf26c1889</anchor>
       <arglist>(u32 adc, u8 channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_scan_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac3658741ed79f6d6ec561d790f0c3531</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_scan_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga75e4b403cc6932aef35b4b84b56c8080</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga93bf810a8a531d5772d443c252364016</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaccc28c17498079897b5f80ae63af2921</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_awd_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0669ecb2cc0f1b4a54b4e049443ba709</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_awd_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga15cf1ba5c9d252b083fd2ac1b7190991</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9d5cfe916560d5a3c0a91064c19cddb2</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac8bdb409a1c15b7570b5c9cebbf516b8</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga39433b5b817fc20cdfa72d0a965a38a6</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadcfe29104bbb44d42c4121d8faacfc0c</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf8822481db78523a0d252dde571c17db</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga162cfe07991774853c1dd30770c282f9</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga368ee92a908a3fd3ec8a1331c32df351</anchor>
       <arglist>(u32 adc, u32 trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac9f171c3dd499f03899ead80449d3325</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga664f706e3ad9bdfe41d8697e011f4afa</anchor>
       <arglist>(u32 adc, u32 trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga15dac30e511736f67112db9997329c60</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_left_aligned</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabcc9f948ac15e47f1b8d0084018fbbaa</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_right_aligned</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0990e90f5815264493f75ff61b771477</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_dma</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaddcab138dd47a4b6dc9357837c9f3604</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_dma</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8c4e2c4b6c4ff8bbc00c6e53f277892f</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_reset_calibration</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4f4b72567aa568d180688708b4df9d48</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_calibration</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1d52e753fbe82fff9dce9347b6c1482b</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continuous_conversion_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga187af0456ee41251a4ccb9de164eb077</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_conversion_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga037cddef7f977288dde6a2a9bfe9ab69</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_on</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafcf149e9d9e029b384330deb30722cca</anchor>
       <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;will be removed in the first release&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_off</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga81d7963a320361ba7343eb3d094faaba</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9d08047fceee749485a72be74764db5c</anchor>
       <arglist>(u32 adc, u8 channel, u8 time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time_on_all_channels</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa6db4d6f3d5102470bb1ea84928f7713</anchor>
       <arglist>(u32 adc, u8 time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_high_threshold</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa2eac9de2e231fe46adaba9d81f82b08</anchor>
       <arglist>(u32 adc, u16 threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_low_threshold</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab12fb7ddc1517f1d06990daf82c04a70</anchor>
       <arglist>(u32 adc, u16 threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_regular_sequence</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaf0c33fdbed4e8ea63b6c0ee3030d9ea</anchor>
       <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_sequence</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1a7f811f45a7affd09aef0bce17fd213</anchor>
       <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continous_conversion_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaddfdf8bb682d12648252c8d1d1ff25db</anchor>
       <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_continuous_conversion_mode&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_conversion_time</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad2725e57f017905c1aff942d1861a7a8</anchor>
       <arglist>(u32 adc, u8 channel, u8 time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_conversion_time_on_all_channels</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa7e414a11da4f3215f4125fabf518564</anchor>
       <arglist>(u32 adc, u8 time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time_on_all_channels&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_jeoc_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf8e7daa0eede413f3cfab0d2b2be3633</anchor>
       <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_enable_eoc_interrupt_injected&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_jeoc_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9eee5deedf4ed18c0202fceff8bbb77d</anchor>
       <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_disable_eoc_interrupt_injected&quot;)</arglist>
     </member>
@@ -4646,7 +4646,6 @@
     <name>dma_common_f13.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>dma__common__f13_8c</filename>
-    <includes id="dma_8h" name="dma.h" local="no" imported="no">libopencm3/stm32/f1/dma.h</includes>
     <member kind="function">
       <type>void</type>
       <name>dma_channel_reset</name>
@@ -13754,111 +13753,6 @@
     <name>pwr.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/</path>
     <filename>pwr_8c</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
-      <arglist>(u32 pvd_level)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_standby_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_stop_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_voltage_high</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
-      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
-      <arglist>(void)</arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>pwr.h</name>
@@ -13873,105 +13767,105 @@
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
       <arglist>(u32 pvd_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_standby_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_stop_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_voltage_high</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
     </member>
@@ -14138,7 +14032,7 @@
       <type>BEGIN_DECLS void</type>
       <name>pwr_disable_backup_domain_write_protect</name>
       <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
+      <anchor>ga4443bf357f96c7ec23b04ef32bdfd38f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -16810,8 +16704,6 @@
     <name>rtc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/</path>
     <filename>rtc_8c</filename>
-    <includes id="rcc_8h" name="rcc.h" local="no" imported="no">libopencm3/stm32/f1/rcc.h</includes>
-    <includes id="rtc_8h" name="rtc.h" local="no" imported="no">libopencm3/stm32/f1/rtc.h</includes>
     <member kind="function">
       <type>void</type>
       <name>rtc_awake_from_off</name>
@@ -21217,9 +21109,9 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>STM32F1xx_adc_defines</name>
+    <name>adc_defines</name>
     <title>ADC Defines</title>
-    <filename>group__STM32F1xx__adc__defines.html</filename>
+    <filename>group__adc__defines.html</filename>
     <subgroup>adc_reg_base</subgroup>
     <subgroup>adc_channel</subgroup>
     <subgroup>adc_cr1_dualmod</subgroup>
@@ -21236,1897 +21128,1897 @@
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa80fdd25bb1f30fb64ba99a47628fcb1</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabcff75a3a7cb3bd72832317aac2daa44</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab0ab8a275dc37da4b712c0ca0c646200</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaca9a6b402852cfe9353a787e226d0568</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga88ba3b646afe631e6d5eeb8ec579d25a</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_CR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2f6aa6e282b5100ef29e7894f40ae352</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_CR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf493618743bd5832e67ff56bc3c4393f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_CR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaeab6fea28cc48ecd3d5f474c033d4b0c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7015caf0db482a0772aadbcdb5a29b98</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_CR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga819a037dbe86c4b403ec7de246f3fdba</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_CR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5141590d16f9145187393d7b71ca9da0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_CR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa85d3ec2f322f06fa8850f14bf2255ce</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5e60a406a0a614680824c2e060a27761</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SMPR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8088f1d2624782aeb0252f8d1f38e749</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SMPR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7e6f23aff15cdb078053be188d568a8e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SMPR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga88ea81f2324c3c353f2bbbcb4175e54d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadc1e8be3bafa939274574732734e2534</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SMPR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga388899f782f348c4f4913fa88e1a9041</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SMPR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0cb187fd6d8b3867ddfcbc52d3d1127b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SMPR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafcbe155627ca47a5cbcd762bb35fde1e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa57a02e716c27e7ec39a7255afba442a</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8259dffc9717312c93a22af0dcc0f4d6</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8599bd9c323e9e012e24a2f60ca74996</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac34f58a9ae9f3b02328618880ef02668</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JOFR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabd8f277084841e1dafdf424875028bbf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JOFR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0183fbbc640673449c5a8ef87276a365</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JOFR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5d57c81476533aa9dfccd23dd9606f7d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JOFR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga98bf61bf8a9287d1669ff0fd7c2419c0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JOFR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga697b70ff2da1e7c5a24a9ce5c4625804</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JOFR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1cad58d11aed35a21f6e1e92aad1f2fc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JOFR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8cf986f2c50e6afa247a9bab63ae9cc6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JOFR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga227a1761161651b1af395b7f455fd88e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JOFR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5b63a04aff42971561fdbc311b0b5317</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JOFR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga27e7e930905112fba97dbb699e9f073f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JOFR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8c20e4f29e60222672f6c812ec684858</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JOFR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa2570cb73bc1579c34c802b7ab62aaef</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_HTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga465972d5343177b3cf1654f0c262f798</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_HTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9c1916f61455513af72977119faebb52</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_HTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2a7e4b9cf83c7d653b8190a8815b4b50</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_HTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2079dcc2c54bf078929991ce11c5416b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_LTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga34fbae24f12816c8fd9ae2fc3e4d22be</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_LTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac9bda35bd5cf43dc3793bf21f5613729</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_LTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae819241387285a7b38c65e7314ade849</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_LTR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6709d7fdfc10cb28ff61c31a4e161eff</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga95b12a20d804a1925f5678be1d8d6afa</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SQR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga04b6f31a8ec80c8bdb29c147d570b7ab</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SQR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga61da70a3c2c4b3104a2fe60e273c2a41</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SQR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac2b6b522d23c29e6f9fc9a65334e3fe6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab02f7bc7ef2574f1849d78941866bbd4</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SQR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad0231e0c9235e2432d58e2ab91b44707</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SQR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga524c8de6b21c2562ab013de528216567</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SQR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf4399f311f1158685dbb10f4fe0aaf09</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga97aedacbc0d896ff73dc6259b2d18644</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_SQR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga14e17724ce810625e8bc8e3eb3c8b389</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_SQR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga075eb8ef85f55de5c741259420e63fad</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_SQR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga25dd8c0ec876d84aa7bbc430ad3600b1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga03a476b537d729858ea3bc324f27b506</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JSQR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7ae457e7eebea2a92f45d2f5427aba26</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JSQR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga20b99361d22391a4272e1ec750aea40d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JSQR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5cddc3452f88339115f36cc855ee2066</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac8b976d9ac593e2c747c02d9a4728ae2</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1a4bd5be51660aed7629022d7978c22a</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga69a199c19bfc7d4e086a972dd003372f</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae916fe033fdd6a0342f312d67960b171</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JDR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga71b99498b7f0454bc9f930512d490099</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JDR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga07635869f7d20fa258fbe09d479a896a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JDR1</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0af9af98c416bf4a0fb5f47d3c4f063f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JDR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa3c7518d66e4f67500ccf91157e4b790</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JDR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8ddc139242a58a6ee98a7064efae8477</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JDR2</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6483a0171bc3c9bdb297dba97d6f2659</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JDR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9cdf39f718d3062ed466a1bdb13e14f5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JDR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaae6bb5dc0b2457233525dd3957a7074b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JDR3</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gada45aa28b1f60a814bf359ad56e1241b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_JDR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga477e0ea8e64c6d795af5db339958803d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_JDR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa85c9daea797bf35a4d3b4df6ad44771</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_JDR4</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga94debec90a7cd554f7542878031b7148</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_DR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga75a42466bd689031808050d4b4264a06</anchor>
       <arglist>(block)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC1_DR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga851f62156cf9d539d12693259f93500b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC2_DR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad4259caf01f8f67fa8410c9dd9f2a8fc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC3_DR</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaea93f25eb21346ee47f8b43769fd582e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3416b39e4841b9e27bb2e8e490cecf5b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabeb6d44733377a02098dff42d1b6977f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_STRT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga45eb11ad986d8220cde9fa47a91ed222</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_JSTRT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7340a01ffec051c06e80a037eee58a14</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_JEOC</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabc9f07589bb1a4e398781df372389b56</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_EOC</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3dc295c5253743aeb2cda582953b7b53</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR_AWD</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8b7f27694281e4cad956da567e5583b2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDEN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6e006d43fcb9fe1306745c95a1bdd651</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_JAWDEN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4886de74bcd3a1e545094089f76fd0b3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DUALMOD_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac78ef1c5c32a20f9059af58f33b6b83c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DUALMOD_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga83c1f1a6091cb9a422a53b1e0f77003c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DISCNUM_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1727991cac68d4ef02b162a671d90a77</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DISCNUM_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga117c2cf0428216dae7e16d546479c415</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_JDISCEN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gacd06a2840346bf45ff335707db0b6e30</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_DISCEN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabd690297fc73fca40d797f4c90800b9a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_JAUTO</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6353cb0d564410358b3a086dd0241f8c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDSGL</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5c9fc31f19c04033dfa98e982519c451</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_SCAN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaeab75ece0c73dd97e8f21911ed22d06</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_JEOCIE</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5c46fc1dc6c63acf88821f46a8f6d5e7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDIE</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gacd44f86b189696d5a3780342516de722</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_EOCIE</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa39fee2e812a7ca45998cccf32e90aea</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDCH_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4f54c32c22a663da6dc39dc12a3cabfd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR1_AWDCH_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae7cd4a63e213f0c72c9d7fbfe5633718</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_TSVREFE</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae97d1f61aa9d8c2279557f18e7303308</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_SWSTART</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5eae65bad1a6c975e1911eb5ba117468</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_JSWSTART</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac12fe8a6cc24eef2ed2e1f1525855678</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_EXTTRIG</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1c0cfed2e6b3dfe7a8794b29822e314c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_EXTSEL_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae5dd4b78a0e7beb8731bee7f17a752b9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_EXTSEL_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga01976fd4e171a40744e11230a8b7cf57</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_JEXTTRIG</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa17af96980f14bc008357812c13bc4b3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_JEXTSEL_MASK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga53d366c241faccff9206efc4c0d306f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_JEXTSEL_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9ca1e47c7fe2515edf4ab7b57e65f8dc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_ALIGN_RIGHT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga62a03bfb8e5a9db5689f9b32cb96bea4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_ALIGN_LEFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf7b5368b592edef5f01793afdf897533</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_ALIGN</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf5950b5a7438a447584f6dd86c343362</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_DMA</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga017309ac4b532bc8c607388f4e2cbbec</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_RSTCAL</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga76a91ece4a71450541ef2637fdcdfdea</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_CAL</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2932a0004cf17558c1445f79baac54a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_CONT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga49bb71a868c9d88a0f7bbe48918b2140</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_CR2_ADON</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga89b646f092b052d8488d2016f6290f0e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP17_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa3207cb1a9d4e29f782cd8d35239dbf7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP16_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga7b66e3da1f8764a156061cff02a435a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP15_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4899b8efa60e3970a92a924d32a6e462</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP14_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf17efcb85c0fe6aabfcd3fe2a63720dc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP13_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa6c0a7bfe53ae8c88bea85701d7ae251</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP12_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga32267b8de0b8980f5692756962882495</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP11_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9a05d631941e4e19b680fc91aa3bd3a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP10_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa2205c570764f15bdfae875ab44f1822</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP17_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac53a196d96a9af508f6cc12b0dad958f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP16_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad7f18bf40cc4f162a732dd9546692efc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP15_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gacfc6a099aa276233ad84c3b792aa0c80</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP14_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga44b54d4e69adcfb2a75088aa49ae8112</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP13_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2b319cfcf39f655ba3ffe87cd64caa46</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP12_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab68daa6c08a77d012977895bd115b701</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP11_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafe0664efaed02f83b3ad6237527fa93b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR1_SMP10_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6532417f7eba2fc026409f24fbf6b777</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP9_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabfaef5f0de2434d907ee0c5bac8f39b6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP8_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga59f8eff58c4ac909b3e4fd847e7eb26f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP7_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga663dc2fea8a5a79c24dfc5e3e40cb4cb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP6_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae777a8b74abde8437fbd665ae658da1c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP5_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabfde4ea82865d87bbf027522eb6f7ed4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP4_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga61d044736b8af5c1eb5a8915dbfc0c79</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP3_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaef91c441f758e59b3e0456f215e4f31</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP2_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab99895f3a1c337bc34c5b5b7b60fce7f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP1_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5f33f0aad88ec9be4bf0f384609fbb76</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP0_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaab46ddcd209e15110d1887f0cabb446b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP9_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga81ffe7b4a6968f7b4ac70c6a30651e29</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP8_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac63130ac37df7211d6a64955ba91bea0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP7_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga282ae851c797291dee744cac80d2692a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP6_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga184d55b3891949987d2723cd734e9faf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP5_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaed54090d8a4b455787af15126ac4011c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP4_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadad8177b43aaf007f4300489c95af9c1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP3_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf324f7149edbc2b3531a94cc4de6e6b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP2_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2f4d139d759da83d57bd4331c3873768</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP1_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga37a1fb30f9bcac721cb6af804979955c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SMPR2_SMP0_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3265b52dffe83ac199e8682bc4809032</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFFSET_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3e7342ed87a38bf56a4450da5fcf0535</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JOFFSET_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaebe61b5b4917952871ddc1e0eb4ea6c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_HT_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga007c214feb69891e97648a641a260cb3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_HT_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa6306d52698ea51e3d35474abb5a47fe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_LT_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga294e5223072fb995b645f1ed730a1a4c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_LT_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaddb1cd35d2bed152e80b1096e1b82b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_L_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga96ec1ebd69432213c0185124da3e9c9d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ16_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga91e42102cb19291f40376b45ac1e66a2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ15_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5f21de89a1552a79f9a48ad7363f9b8d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ14_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5fb19fdbbe1bc88deee770c254072cd4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ13_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf9aaa7431970909275af4cafe4c521ba</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_L_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga796fd60244042f8b978839e62eda1ef1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ16_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0e569878ea206211226cce36fe17697b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ15_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3392d1eb494efa0313b477e04061aee1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ14_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga77712cc23a7c3fd4706353158016bcbd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR1_SQ13_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga76b9cddcf861236d5fc56751592b596b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ12_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf684f7f079102f3c487213f499011a89</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ11_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad293855e34b56a8f0e6b2d3a9dca4d4c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ10_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga94ff77ab977be2a6b7ee4f95d4acd912</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ9_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa24692f8ab46e53441f967a89719fda2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ8_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga221a676d6259575bf65d3b39124e78c0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ7_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa7f27c9d0fc16be2486118ee244db052</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ12_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga03ab9df677136018a1a78bd2f9d3ebdf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ11_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga96b2ae442b44cc839cb8c6bdf5abfbe9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ10_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga43f2d9b7f50decd7974ba1735a1a611b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ9_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaea28f3ed7f53b9151e9b4c380fabe555</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ8_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf6b4bec2424f22e48f807dbe36963cae</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR2_SQ7_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac6805070a80a5fe4633ed0e18e279f42</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ6_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac93c4609a674c7c76af5f56556cce4d5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ5_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab632d8822368a841ee2c9ad70002de8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ4_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab9b455a2cdac71a1ae7ceab977acb203</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ3_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabbbcd4666de7a7646d797f1b727bc488</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ2_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga62c5f0f07d4239d95a5d43c229a5a75e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ1_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8a7680d0956c7c40f4fe2085c5253b14</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ6_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae56f95e673bf14b5e39c834b1355f937</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ5_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3e551ad90d8c0ab6dde6796e2d3e5a77</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ4_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae7692c8210a051bb810b8e5a4b876b36</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ3_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gacac486035c2443b7da44a1346a960bad</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ2_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gae9022100cd4e191b643a97b35701fb04</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SQR3_SQ1_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gade1557009f6a5eed01f45fb93227722a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JL_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5de6fc1832c959e4d6caff4991383752</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ4_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga381d087af319941eead086e683c2e54f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ3_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf54e4d83fd3e1adddfd673d09877f224</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ2_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0d0868797d7c295c9f780a0b035f12cb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ1_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1cc573927f776cbad045bcbaa67cd85c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JL_SHIFT</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad1220f2cb4f1a6ef9613c4e884b761e0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JL_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga879de268e46807ada83b9c9c1f04fd67</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ4_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga74eaabc439c27e5aa25e15a7f559b280</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ3_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa523b506b309a5984206994e3e448ff4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ2_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga297737b887887820c507bd945e9b1865</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JSQR_JSQ1_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa112893c55b5d2bb97781edf3fb77a43</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDATA_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa84f4af8cec075fee4e544254bd92893</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_DATA_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga943ea8e493f7deb62e330c6a0cfa982a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_ADC2DATA_LSB</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga71573fdbfb72fe9df505f18928810617</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_JDATA_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga650f06c9916c038b1cb7fa52f3f13bb2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_DATA_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga27b4a7439cd73e12fab501551b117a2d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>ADC_ADC2DATA_MSK</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadcd73e7b938addf1b7755061dbd496aa</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>adc_power_on</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga85c7730e97e8faff833ad787087aaea3</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_direct</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafc55f4769af43526e77edc11907be438</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_channel</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaddc132cf4636ce45eb772c62d6167794</anchor>
       <arglist>(u32 adc, u8 channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dual_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadc06dcc9c3e6f652f18dc7280feb2c11</anchor>
       <arglist>(u32 mode)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga830b0fc9370508bf04dc1b01cc09badb</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga186bfcb2659dfafb0c342c1975472f25</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>
       <name>adc_read_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0cb788d1d9e54f4ccf9fc8b3b95656ff</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>
       <name>adc_read_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafdcca79192331fc42e3241caddd6f7ef</anchor>
       <arglist>(u32 adc, u8 reg)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_offset</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga43bffb4e87049a19ea8ed264a6004285</anchor>
       <arglist>(u32 adc, u8 reg, u32 offset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga5a1319d5fcfa28d0c5d616bb34636c44</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga6232c6b32e8f6c761e6297ba40f7c067</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga46ea7596440e650c5640012aa74f2d21</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2e0ddcf0afcfaa7a818db8ea6ea66690</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8071fcf08d687582e7c8c5621588fc5a</anchor>
       <arglist>(u32 adc, u8 length)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga2a4e78f6f0fb2f4d0a442946662079f2</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga71c6f47f070add23253af4bf8e84820e</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga78164c7d8ab5f99ca93ed52e913bf6e8</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_automatic_injected_group_conversion</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa55d33a50412f243f9dd50aa22e93e13</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_automatic_injected_group_conversion</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad60e8cc425daf6901d82100b2c3c5cd9</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_all_channels</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4887c1c1739ade1c0554df5f2f67dd42</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_selected_channel</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4ce1e75e61f656032b89484bf26c1889</anchor>
       <arglist>(u32 adc, u8 channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_scan_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac3658741ed79f6d6ec561d790f0c3531</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_scan_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga75e4b403cc6932aef35b4b84b56c8080</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga93bf810a8a531d5772d443c252364016</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaccc28c17498079897b5f80ae63af2921</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_awd_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0669ecb2cc0f1b4a54b4e049443ba709</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_awd_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga15cf1ba5c9d252b083fd2ac1b7190991</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9d5cfe916560d5a3c0a91064c19cddb2</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac8bdb409a1c15b7570b5c9cebbf516b8</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga39433b5b817fc20cdfa72d0a965a38a6</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gadcfe29104bbb44d42c4121d8faacfc0c</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf8822481db78523a0d252dde571c17db</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga162cfe07991774853c1dd30770c282f9</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga368ee92a908a3fd3ec8a1331c32df351</anchor>
       <arglist>(u32 adc, u32 trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_regular</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac9f171c3dd499f03899ead80449d3325</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga664f706e3ad9bdfe41d8697e011f4afa</anchor>
       <arglist>(u32 adc, u32 trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_injected</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga15dac30e511736f67112db9997329c60</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_left_aligned</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabcc9f948ac15e47f1b8d0084018fbbaa</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_right_aligned</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga0990e90f5815264493f75ff61b771477</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_dma</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaddcab138dd47a4b6dc9357837c9f3604</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_dma</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga8c4e2c4b6c4ff8bbc00c6e53f277892f</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_reset_calibration</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga4f4b72567aa568d180688708b4df9d48</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_calibration</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1d52e753fbe82fff9dce9347b6c1482b</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continuous_conversion_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga187af0456ee41251a4ccb9de164eb077</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_conversion_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga037cddef7f977288dde6a2a9bfe9ab69</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_on</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gafcf149e9d9e029b384330deb30722cca</anchor>
       <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;will be removed in the first release&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_off</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga81d7963a320361ba7343eb3d094faaba</anchor>
       <arglist>(u32 adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9d08047fceee749485a72be74764db5c</anchor>
       <arglist>(u32 adc, u8 channel, u8 time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time_on_all_channels</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa6db4d6f3d5102470bb1ea84928f7713</anchor>
       <arglist>(u32 adc, u8 time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_high_threshold</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa2eac9de2e231fe46adaba9d81f82b08</anchor>
       <arglist>(u32 adc, u16 threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_low_threshold</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gab12fb7ddc1517f1d06990daf82c04a70</anchor>
       <arglist>(u32 adc, u16 threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_regular_sequence</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaaf0c33fdbed4e8ea63b6c0ee3030d9ea</anchor>
       <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_sequence</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga1a7f811f45a7affd09aef0bce17fd213</anchor>
       <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continous_conversion_mode</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaddfdf8bb682d12648252c8d1d1ff25db</anchor>
       <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_continuous_conversion_mode&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_conversion_time</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gad2725e57f017905c1aff942d1861a7a8</anchor>
       <arglist>(u32 adc, u8 channel, u8 time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_conversion_time_on_all_channels</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaa7e414a11da4f3215f4125fabf518564</anchor>
       <arglist>(u32 adc, u8 time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time_on_all_channels&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_jeoc_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gaf8e7daa0eede413f3cfab0d2b2be3633</anchor>
       <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_enable_eoc_interrupt_injected&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_jeoc_interrupt</name>
-      <anchorfile>group__STM32F1xx__adc__defines.html</anchorfile>
+      <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga9eee5deedf4ed18c0202fceff8bbb77d</anchor>
       <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_disable_eoc_interrupt_injected&quot;)</arglist>
     </member>
@@ -24605,9 +24497,1358 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>STM32F1xx_dma_defines</name>
+    <name>dma_defines</name>
     <title>DMA Defines</title>
-    <filename>group__STM32F1xx__dma__defines.html</filename>
+    <filename>group__dma__defines.html</filename>
+    <subgroup>dma_if_offset</subgroup>
+    <subgroup>dma_ch_pri</subgroup>
+    <subgroup>dma_ch_memwidth</subgroup>
+    <subgroup>dma_ch_perwidth</subgroup>
+    <subgroup>dma_ch</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacc16d2a5937f7585320a98f7f6b578f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga506520140eec1708bc7570c49bdf972d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6d94c9580957aec3c23a0b1ca7d47468</anchor>
+      <arglist>(dma_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_ISR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae546dd4d4b5b4c1f75926c572b9b4b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_ISR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab6ce8d56cb4b93eb312539ed3721e052</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8df83f6a1d06f281f9b4d2b8e6edc8a1</anchor>
+      <arglist>(dma_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_IFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac7525286f8eee2ac190de94811075900</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_IFCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0d7e1762a5f0c91418f7cf0464454d6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9de7b044f349e59350b27d9b2e3411a0</anchor>
+      <arglist>(dma_base, channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6813cc65289a40a69991e41e70179a71</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CCR1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga391eaedcafb133c7bc72ed817d869dcc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CCR2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga869f8cb9fd84a06664c7697a36c80a1b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CCR3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga651a5c3a15b5565c8ba679a8c387ea74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CCR4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8171687f836ef9abf845ab4cb3e788a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CCR5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaded13078c0cf206edfb91b31d8f58d74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CCR6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4e5c41c9e13788bf86fbe6354c5e2287</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CCR7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga937b03df75296cbfa2d506b87a9d20fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CCR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga64753d2e797ddcb265e07e3361732975</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CCR1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga61dff2b38a3ad5564827cf0d59ab01e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CCR2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4f45d2e93f785f28168ae65b1f3b6604</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CCR3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga13e74aeac02c56cd815204c819973f42</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CCR4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7c90bd094fc05a5313d2d2fee1981a20</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CCR5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga129adf55913ccbdd65258b490b97a030</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CNDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2d9e0542d5540e204d7ffd0217689bd0</anchor>
+      <arglist>(dma_base, channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CNDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafa9d6b3d6e206a7291dd74e5245a5fb6</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CNDTR1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae9b729fb7540fe8afbfe4e99d7dd4f4e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CNDTR2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1ab7f2af4bb344201a25fdf18b9f1f87</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CNDTR3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4b0dfc8b514e15ff2cb50010bb6701ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CNDTR4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0a480e229253f02de440909f96d6e925</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CNDTR5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac346451cbdbcaf544cb65d8e896ab4be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CNDTR6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7afdf1887c80eb60ea9bae5a255b528b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CNDTR7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga81073b17989ca9fe01163fbc0caa2852</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CNDTR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2a2adddff957a6512e6138e9dc22ca6d</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CNDTR1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabb57ba2194f5d34ce326c9975bb3f9d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CNDTR2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac0719974b3dcfb9f70ffc01941a1ad3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CNDTR3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabbf581f164b987f14d5697648cfe9aa0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CNDTR4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga198f3a664e5da472ad3598d8fcb667d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CNDTR5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafb133db8b4294374f0e16e6ce37107ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CPAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaec132f1bff88ed77c84215aa7442c01d</anchor>
+      <arglist>(dma_base, channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CPAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga88d13e6f4d9731d2d37bab111dbd873c</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CPAR1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga15bdb91b645f13dac1b9b7b269a56f77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CPAR2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad34f6db1f158f4b9a583761db8c51c52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CPAR3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga09b1ea4330fb3e24cd69164d60cb452c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CPAR4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae0930ec8859650484d1850de42043bad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CPAR5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaac4b50aaa0a34e4de1da9f5d1425956f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CPAR6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacbddb6a70179e6ca8181f15beb17f980</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CPAR7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga585d545c237971a99b3c2aba2b3295b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CPAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga86e6834b10736eb6e87eeedcbf95456d</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CPAR1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadfe59076a69127310d79f59b3782bcd2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CPAR2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3d93a63810b1067d965817ba325276f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CPAR3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac30477625eac00725c6d15a98d653a9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CPAR4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8fe6d24b188a12cad940ac2d75adf5a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CPAR5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga158eb18f6c62f3e9d02402f2f6b33d8b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CMAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaad3b5daa5024d73be1253eb6c83b94b7</anchor>
+      <arglist>(dma_base, channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CMAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6220887e1451469a54540385f608792e</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CMAR1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4dd3d427d2f8478ad24c158148a5e9cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CMAR2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa5d131d8bac849a234ab1212bdecc354</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CMAR3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab3ed7997482cb68e1286087814d778cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CMAR4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga680e200249499c09dc37e1de560043b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CMAR5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaac37a1d82a462c1b3eb54ca2e93f7a68</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CMAR6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga015c1fa67076c84953e66ce72d7ec012</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA1_CMAR7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0a67d09a178adb0ba50ef07917417186</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CMAR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad86363fc293b41a483363a2d7f401656</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CMAR1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2bd402bee3cade672dea9e10f694a09f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CMAR2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa2a49a58659bc8b7d8c7f34daf51e111</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CMAR3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2ea90ac3e92fd9a06153064fc5ecf605</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CMAR4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga99d6dab7cfa5c4b9ffb4ceb685be0bc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA2_CMAR5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1d24cd6be9f2c02ea0c21c95aec1b81f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_FLAG_OFFSET</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga53d418dcbe069d230ea7fe4c7f65ffd5</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_FLAGS</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga850db3ca90d45af6e76e7163a8af7dfe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadcd862010a7cde210805f0854e1e7b7f</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF_BIT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga592f87630e5c1af457ac3fcdccf0af6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga250c05bdbe73f5e80171599e1f86639b</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga26bfd55e965445ae253a5c5fa8f1769a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5bcd07efcadd5fef598edec1cca70e38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa624379143a2535d7a60d87d59834d10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga12fcc1471918f3e7b293b2d825177253</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga42f9b12c4c80cbb7cd0f94f139c73de3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae47d914969922381708ae06c1c71123a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TEIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf8333b3c78b7d0a07bd4b1e91e902b31</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF_BIT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga63f55c78acda38971ebcaa55bb875fe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga22f770c63ab88ac647e3d29192803fa2</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5f83359698adf05854b55705f78d8a5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8ee1947aef188f437f37d3ff444f8646</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga53bb9a00737c52faffaaa91ff08b34a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga684cf326c770f1ab21c604a5f62907ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3d1f2b8c82b1e20b4311af8ca9576736</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga41b6d9787aeff76a51581d9488b4604f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_HTIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga769016c2b0bf22ff3ad6967b3dc0e2bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF_BIT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga38018ed1c5ede6b0c132d10c96b82c9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4cc23112667280b44989f839f79837a1</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1a1522414af27c7fff2cc27edac1d680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga631741eb4843eda3578808a3d8b527b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga28664595df654d9d8052fb6f9cc48495</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad7d4e46949a35cf037a303bd65a0c87a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5ea57d09f13edbd6ad8afe9465e0fa70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2d76395cf6c6ef50e05c96d7ae723058</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_TCIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4528af54928542c09502c01827418732</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_GIF_BIT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9c80402706a69eafecf1a3c61d55aa57</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_GIF</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacbdd4b044ab804cfc556d41e8f216627</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_GIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3475228c998897d0f408a4c5da066186</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_GIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga44fa823dbb15b829621961efc60d6a95</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_GIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacb0bd8fb0e580688c5cf617b618bbc17</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_GIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf4f69823d44810c353af1f0a89eaf180</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_GIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga83d4d9cba635d1e33e3477b773379cfd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_GIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac55f4836aa8e6cfc9bdcadfabf65b5d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_ISR_GIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga86f178e879b2d8ceeea351e4750272dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTEIF_BIT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0521298f12443236f93dcdb1cc1308c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTEIF</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga43fc6e9976eadcdef88a442fcc06081f</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTEIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga989699cace2fa87efa867b825c1deb29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTEIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4abb0afb7dbe362c150bf80c4c751a67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTEIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga59bad79f1ae37b69b048834808e8d067</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTEIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6fdda8f7f2507c1d3988c7310a35d46c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTEIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6ec6326d337a773b4ced9d8a680c05a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTEIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1e523c5cbf5594ffe8540c317bce6933</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTEIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4076bf1ed67fb39d4a0175e5943d5f2d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CHTIF_BIT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3ca91bcee960f96604570dce6beceb0c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CHTIF</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga861a77828aaf0c8359be2d43e0b82f2c</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CHTIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga66e9aa2475130fbf63db304ceea019eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CHTIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3e769c78024a22b4d1f528ce03ccc760</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CHTIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2dea86ca2ec8aa945b840f2c1866e1f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CHTIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga950664b81ec2d4d843f89ef102107d7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CHTIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3c23c727a4dbbc45a356c8418299275d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CHTIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gae67273db02ffd8f2bfe0a5c93e9282a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CHTIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa7378f7a26730bfd5c950b7c7efb9272</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTCIF_BIT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga209f52ca23a54f28adc7d26dbcb25b44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTCIF</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabae39332daf506f714051f241ec6cd86</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTCIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga60085fa798cf77f80365839e7d88c8f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTCIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8505b947a04834750e164dc320dfae09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTCIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaccb4c0c5e0f2e01dec12ba366b83cb4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTCIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga34b431fd4e034f8333e44594712f75eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTCIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaae4c7d1d10beb535aec39de9a8bdc327</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTCIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac3dca486df2f235aac8f3975f5f4ab75</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CTCIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac26181e8c2bd1fddc1e774cb7b621e5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CGIF_BIT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabd23e04bb52ec14f9ebdbb01eafa42e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CGIF</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gabae2910ff72333620c15c71878979b37</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CGIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga75ad797334d9fb70750ace14b16e0122</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CGIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab907e446bbf1e1400dc5fdbd929d0e5f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CGIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0d98e88c334091e20e931372646a6b0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CGIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga73d22139e4567c89e2afcb4aef71104c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CGIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga943245d2a8300854d53fd07bb957a6fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CGIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga7fc61098c5cf9a7d53ddcb155e34c984</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CGIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaad9f01dfeb289156448f5a5a0ad54099</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CIF_BIT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga65d5acb5b3d8a5cc489fb48f5db237a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CIF</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga582baaad9bd0949217f9c8b707611552</anchor>
+      <arglist>(channel)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CIF1</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga62378d43df70d8595e9788910f530850</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CIF2</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacb3685be7f2be2ba2aa99cc1f7838d2d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CIF3</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga9c91503f69c719662338b06ab6749b56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CIF4</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4654981bc670a535a97f4bb8080820f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CIF5</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gab742dffe27ebdac738cd724fb68ea883</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CIF6</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga07de9b897bdc4030894f177577214f1c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_IFCR_CIF7</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafbb6bc394e5c5951f766ab9e1989b955</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_MEM2MEM</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5c87a41026384e25fe2312d03af76215</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_PL_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa24c76d77301becc22c252a140f74402</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_PL_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1f3ab5e5980b9e15d6200ac3f0191a31</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_MSIZE_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gacde80651d2bcf226e2c9b6414c23b6e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_MSIZE_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gade083dc08df30eaa3220e82434702a4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_PSIZE_MASK</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf9282b1157209c1dd737d6cbc0f5702a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_PSIZE_SHIFT</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad396fb79516101e7014d2c342a611bf2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_MINC</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa189138f534283d876f654ec9474987e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_PINC</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga028cb96357bd24868a74ee1134a35b7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_CIRC</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga445471396e741418bcd6f63404f4052c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_DIR</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga8f1ece172cf3c3e696b86d401d7345a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_TEIE</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3dd2204c9046500140e3c720fb5a415f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_HTIE</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0f0fae31377ab1d33e36cead97b1811b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_TCIE</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaaba9cd82cab0cca23de038e946f81c6a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DMA_CCR_EN</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gababa3817d21a78079be76bc26b2c10f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>dma_channel_reset</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3b2bc730997955bfc6db23139525827c</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_clear_interrupt_flags</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1035bb6b7cbb49a026a64b96496fed61</anchor>
+      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>dma_get_interrupt_flag</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaf0799743c07c8c66f2332b62fa39ac80</anchor>
+      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_mem2mem_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga617eb5cd853d37e116247915aee301be</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_priority</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5a79731815d899613f5fe9944ef776b2</anchor>
+      <arglist>(u32 dma, u8 channel, u32 prio)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_size</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga4e36129b18538020951fce6476b33df4</anchor>
+      <arglist>(u32 dma, u8 channel, u32 mem_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_size</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga56fff16304df824cd19ada5ef5d14bfe</anchor>
+      <arglist>(u32 dma, u8 channel, u32 peripheral_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_memory_increment_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga63b0ae23516392cb7b7fbb2cd78bd709</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_memory_increment_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa668c99d665129a8e627bfd120f8fdee</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gad8806134d462fcba72689bc8a8436885</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga2b4d26d2919a322b98c7e4d350d98218</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_circular_mode</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac9942cd4b0c10fa780fad38ea5840b6e</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_read_from_peripheral</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga1816ec1c02bc4731f7e0ce175c6ba272</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_read_from_memory</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gaa70ac5daa668c30783552ea0e531d9df</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga6f98fcb670463ff9fa0b350b8a55add6</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga3ca927ad8548f5df39f80e2a3580b257</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga22ea9a9d3595761a3570f8c59c3acad4</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga0b7997b16dba35056695aa3ed7c8c57d</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gadce242f0b1e229b0ffc24aa2227d7394</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gafeb700fc225336070480f46ea6fdfd5b</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_channel</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga48e3c1011542fdfad681aa7e554608f5</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_channel</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac5b68ba004c7aed8fc3101fed5f5acd1</anchor>
+      <arglist>(u32 dma, u8 channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_address</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga74057182d4be039db3d6a26c779fbdea</anchor>
+      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_address</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>gac2f336cb2da513e171c2111e2e399c0a</anchor>
+      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_number_of_data</name>
+      <anchorfile>group__dma__defines.html</anchorfile>
+      <anchor>ga5bc9e05af8be84ecce2be41731de467f</anchor>
+      <arglist>(u32 dma, u8 channel, u16 number)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>STM32F1xx</name>
@@ -24620,8 +25861,9 @@
     <subgroup>gpio_file</subgroup>
     <subgroup>i2c_file</subgroup>
     <subgroup>iwdg_file</subgroup>
-    <subgroup>STM32F1xx-pwr-file</subgroup>
+    <subgroup>pwr-file</subgroup>
     <subgroup>STM32F1xx-rcc-file</subgroup>
+    <subgroup>rtc_file</subgroup>
     <subgroup>spi_file</subgroup>
     <subgroup>usart_file</subgroup>
   </compound>
@@ -24629,15 +25871,16 @@
     <name>STM32F1xx_defines</name>
     <title>STM32F1xx Defines</title>
     <filename>group__STM32F1xx__defines.html</filename>
-    <subgroup>STM32F1xx_adc_defines</subgroup>
+    <subgroup>adc_defines</subgroup>
     <subgroup>crc_defines</subgroup>
     <subgroup>dac_defines</subgroup>
-    <subgroup>STM32F1xx_dma_defines</subgroup>
+    <subgroup>dma_defines</subgroup>
     <subgroup>gpio_defines</subgroup>
     <subgroup>i2c_defines</subgroup>
     <subgroup>iwdg_defines</subgroup>
     <subgroup>pwr_defines</subgroup>
     <subgroup>STM32F1xx_rcc_defines</subgroup>
+    <subgroup>rtc_defines</subgroup>
     <subgroup>spi_defines</subgroup>
     <subgroup>usart_defines</subgroup>
   </compound>
@@ -29287,6 +30530,111 @@
       <anchor>ga9465bb7ad9ca936688344e2a077539e6</anchor>
       <arglist></arglist>
     </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>pwr_disable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga4443bf357f96c7ec23b04ef32bdfd38f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_power_voltage_detect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
+      <arglist>(u32 pvd_level)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_power_voltage_detect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_standby_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_wakeup_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_standby_mode</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_stop_mode</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_on_in_stop</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_low_power_in_stop</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_wakeup_pin</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_wakeup_pin</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_voltage_high</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_standby_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_wakeup_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
+      <arglist>(void)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>STM32F1xx_rcc_defines</name>
@@ -31633,6 +32981,1299 @@
       <anchorfile>group__rcc__ahbrstr__rst.html</anchorfile>
       <anchor>ga8d960c28bc23ce16f69b65c4862ad5e8</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>rtc_defines</name>
+    <title>RTC Defines</title>
+    <filename>group__rtc__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab7f3968366871c360f334e13b2e5f03c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga86eb15145a17a67b7e2d3bebde53aa96</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab12a646e66898472d5b47da87e6a39f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gae2cc36a11795e461447f19b75ab3424e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_PRER</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga6f602eed6e850324e6864df92284f6c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_WUTR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga2b0bc0df97c0174474d9b40d4c77a50f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CALIBR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gae8569e0a01af40c33a5a5a032c48d862</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMAR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4e42f3d5ad92ab8a5598ad9d8f30d2ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMBR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaa9133a5540853ecbe332c037b24fe98f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_WPR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab6487e9420e94ef109d0431f42c3c740</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_SSR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga31831515499751f2b047e98bc7bf433f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_SHIFTR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gad1f31c8249774ba3fe317d45ee7193ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3b5fd9c320bed9cf67fd2ab262a2d787</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab1e2138d67ef50e75f212682ef83437e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSSSR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3f4232d0efe2370a09beee71638e4707</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CALR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gafaf647bb57bb905fe6a9a3377ca34424</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga26de03df250ff35784528913577c72df</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMASSR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaaabf37f9d0b410bf5d664037a8e7484d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMBSSR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4919be7b0a730288b5c2eb1eae16a68d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_BKP_BASE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1d7765dbc5fc80310d28f75cb3d71089</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_BKPXR</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab701eac43b9bf61cd11922c15a4d8ee1</anchor>
+      <arglist>(reg)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_PM</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3152952ac385ee1ce8dd868978d3fce9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_HT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaaf89dd3016dea1f25a2e77cd346328df</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_HT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gabf81ff38ba8396520bc7096a1a041922</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_HU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga39f8942aae9b7fd6ce37808a7b4fde1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_HU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1392cf11019d8f3acb1777f98c43591a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_MNT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gabc6a8bf6656a7fbb509651166391cf96</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_MNT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaa7528d1b55e829ef5b72309eff20b4b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_MNU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga14e3a8c1af0e47c098c4c2ece80bcebf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_MNU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga2d893e026ea3fb6073777cffd93fefcc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_ST_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0a3525a806619247b9759ec71e324fa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_ST_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga5a1ff2da57ee453328826f0659249e7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_SU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7f6ba78c26df688fa310e5f9f81e35fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TR_SU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga56e202ccdf3f467c472e2204b9fe181e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_YT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3d86a57c71d0518d805e8ff175a096c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_YT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga5cdad136c4966fa6aedcacf4f755fd56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_YU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaefe82e362240f92f499e7bf30d22eec6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_YU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gabe00e8b7c47c66bdef5c74c0ed8c83cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_WDU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaad8b50c104f06e4e68ade114eb10d0f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_WDU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0e981c8352a0a6dd79698ef8e9a68c5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_MT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga26f0d3ce1c6c6785bd8fbae556f68b31</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_MT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1ad7d5e6b06e97429e69ce78a01ce556</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_MU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga45ec20978a87b7a4371acd0a32f19816</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_MU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4620f9fdbe0ba1759894c52afab80f9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_DT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga61e2102ae089ff41b5243a3fec0a0528</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_DT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga81d9ee62a268f903d61a89661a1e2023</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_DU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga86e344ae00a9837fe6677d4641572199</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_DR_DU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga6b9b03b39858e2c57f139211d6026ea5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_COE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3cdfa862acfa6068b7ba847f77269d60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_OSEL_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga9606e83364ad2d2d942646848ac23fe1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_OSEL_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga46bc8dfc9d0f3257e6616cb9993ab182</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_OSEL_DISABLED</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga31766791b9c355deb7d26179001e5f40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_OSEL_ALARMA</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4901df27bb4bf5f1080673130c0339e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_OSEL_ALARMB</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga237875d2e082c238db42a065f2a828b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_OSEL_WAKEUP</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gafecc4ef831d8e4c2f56ad97d79c7a63d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_POL</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga53f21b5adadbcc5eb255683d5decc9cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_COSEL</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga197c587884b9c1dcb2970e9ec2589b41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_BKP</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0e7a474de1a01816bc9d9b6fa7272289</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_SUB1H</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga220cf6237eac208acc8ae4c55e0b5e6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_ADD1H</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaae1a8439d08e28289398dcf3c2b4b47b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_TSIE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf376dffb9f2777ef275f23410e35600d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUTIE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga5e0a1419830a16667cea4f6454913226</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_ALRBIE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gac6269c9dd5cee650024ede0b0c42e87d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_ALRAIE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga9138f75267bd93f8de6738225217d583</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_TSE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga94fa98ca8cac9078b9bb82c89593d3c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUTE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga061be0d3cdea721e5cb695cda0699bc3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_ALRBE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga17d0850002ed42742ff75a82dc4e8586</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_ALRAE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga8a8cdeac61f06e4737800b64a901d584</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_DCE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4ce7cb8b575142e125863d61ea4765ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_FMT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab2706e31a1bc8d95b682fe47611e0dd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_BYPSHAD</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga34d50a3eff3364e6da4fefed9962a054</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_REFCKON</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga646ef1071cacc2d30bbef5597c817021</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_TSEDGE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gad076bde34be7d24f088fd2c003b7a7f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUCLKSEL_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7fb2100cd23f48dabf098fd8de6be384</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUCLKSEL_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0dc6c11dd47bd5203d4883f402967a4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUCLKSEL_RTC_DIV16</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf4a299e7d304a895cb9ea67cd5b6b64d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUCLKSEL_RTC_DIV8</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaef42ae617803d9c38cc35333afe01847</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUCLKSEL_RTC_DIV4</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gac5b62e2a99c81b7af88f8af60ece2bde</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUCLKSEL_RTC_DIV2</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gafc4613add60380f65ed4bede0e1a93bd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUCLKSEL_SPRE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gae72bcf840df1c5b8e9dbf18da2ee0d4b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_CR_WUCLKSEL_SPRE_216</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0dff3df721423c3e13d21fee04a6b2cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_RECALPF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga05189137cfd0e73903d9b70d071656b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_TAMP3F</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga9cbbb7637689d5396c719a6ddb04fe2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_TAMP2F</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gabdb176578e53b2d8e24a94c8d0212845</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_TAMP1F</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gae738b22f6a8123026921a1d14f9547c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_TSOVF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga766c238f964072decba204c7fce850ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_TSF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga68c0a60dbfc5f1570a48afe450395484</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_WUTF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4eb5960300a402210e5378d78ce22766</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_ALRBF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7976972a5fc6705fede85536520367d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_ALRAF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga96605e50a347507b7f274e9cd894a02c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_INIT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gae0eb2f998cd3e7325974347cb2a3d25a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_INITF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab16dcc6973c611e087030cdb15203972</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_RSF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga9bd683e789841f7d3f138709ffdbfbf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_INITS</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7b229bace5ba0c0b48bfeb5efc445292</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_SHPF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1c4536a874336778ac11109f14573eb9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_WUTWF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0e753321211e19bc48736fe0d30a7f40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_ALRBWF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga5a0c34bff6dc9fce29e2be35d32d9d05</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ISR_ALRAWF</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4d420b5c3f8623cf1116d42fa164be7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_PRER_PREDIV_A_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gad81b16856acc1696768d7876668e039b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_PRER_PREDIV_A_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gad249bea121f8bd3cf09f43100c5fd615</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_PRER_PREDIV_S_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaca3f81a738023a2a4ba9048f049915b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_PRER_PREDIV_S_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga615d9978f77688fb9cdfba80bde412dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_MSK4</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga28f42cc8417872db64a9f45fa6f0ae45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_WDSEL</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga53fcffd324af255c0777ac0115b42fcd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_DT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga20e1c5f64b8c61eb4cbf8a38dfeb6859</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_DT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gafe661ce0d245ad5ce56c045ea17c1a08</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_DU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf44b17197307f73ba26cd58161545626</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_DU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gac016da37090476d1754283715b002fd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_MSK3</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga38f4b3a3a84cbe064fda91d9faed9a2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_PM</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga5057382e80dec481b021465cc1641530</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_HT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga08d8cc2cba587bbfba916263553be5e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_HT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaa93d094df573008657ae4cd8f8c03e35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_HU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gad2f9087d0fcb317c72b131f2cc618796</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_HU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga52d7037128f944e9956cdfd110b327d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_MSK2</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab96f43d09988f45f5ab5e20d4ba6c0cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_MNT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf93bb190463ff2a2a01fc3fa8ffdc7be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_MNT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga84c702f00fd21d27e092e808315c0eef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_MNU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga150862b037f53faa237996e3e6270c78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_MNU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab5c3d67fe0d2c1652ba4ff6c4b51ca07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_MSK1</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7a3c9a66638271f2fcc2b513a0cd4bc4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_ST_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga881bb575db4cf46a8c8fbcdaec03bc2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_ST_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga589dfd57ed5a42fb9a5cca578514e145</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_SU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gadd24cc883627dc5c59ee509123ad4497</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_ALRMXR_SU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga9e7f0bce36a75b94f06a4f31edb9590a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_PM</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga84b3d044be3e63573a5f0d4d14d8e3b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_HT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf2710a228feee195cd28244eff721a12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_HT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab89740507af8b89b41ff22e415d2077c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_HU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga92ef88ea648ff7f974a3ee4b4e54c7ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_HU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga2ebd4ae3007f91a5acd3276077cb8e66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_MNT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0105eb3e873ee3eec6cff5efd3817930</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_MNT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga13a2d2befada70da08113bd26a8fc7c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_MNU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga25fe6d2f417858ff48426cf571474210</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_MNU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga2a4f140238291909bc8260c4054bf7cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_ST_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga70752f4c448f60d95908069faa09e0b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_ST_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga52b278366497c1cc671717a74d49aecf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_SU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga5acef5aae9e46b4ef9017ef026642c2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSTR_SU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga98f8e93c67e6584ec71e480552f44973</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR_WDU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gad66eb8c3b73524f427b98c2faf138040</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR_WDU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaeba08fc6087374a924251d294e8fdb12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR_MT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7bce43482443f2038a8eebc681067dd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR_MU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3874b6ce09046208ac560e9059d49e3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR_MU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0c8e9802673270b96c09091ae1859d39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR_DT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gacb48f83e52e02c83495fae264cb45ab9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR_DT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gae7b4878edbec889efa71b0d970cffc8c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR_DU_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gafc4f58c39250680d515b37a222f2b4e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TSDR_DU_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0f217be620b266abca83fe0f6dd5117b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_ALARMOUTTYPE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga8d9515fd74e3bcf03f4e62d8c7e1b070</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPPUDIS</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga9ef294e75771913e4a47386f42a23f72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPPRCH_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga5123d2489c7b789f9a2ee4d6074ba205</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPPRCH_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf00984169cfa42e0adde4cec189fd38c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPPRCH_1RTC</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gade7fe1c131b529094e8061440445903b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPPRCH_2RTC</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gae8372a162823e3fd5d9ee998508769de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPPRCH_4RTC</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gac977dbcaf500f2aae3e4819c69dc6512</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPPRCH_8RTC</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga948dee7649305745135671d365318a45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFLT_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga6296e75b05069e95b1b4d9c841299fda</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFLT_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga67fb705bb4bd518a608d20c317d60dc8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFLT_EDGE1</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gade154d1bd10c16ebd2d266744300b758</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFLT_EDGE2</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1289178f46d97eeb9406b981bef69797</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFLT_EDGE4</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3309fd45a2b6342db54855d8d5759287</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFLT_EDGE8</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gac84c7cf6641564593a6bfcdfca7970cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_SHIFT</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3d25cf652f7160f24bb389125900161f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_MASK</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga9d16e615c06c45e7812e43d6889c122e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_RTCDIV32K</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga56fd05a22d9ff116424f174a7b95a13b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_RTCDIV16K</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga9323edddf861336e125a4b0f13c92406</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_RTCDIV8K</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga0f6bfca00672a49a65701e4042b0cd41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_RTCDIV4K</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gafe66826ace722bf46d1e72aeb2c03c7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_RTCDIV2K</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga2f15cc74b1248d85a3f82fadd91cb260</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_RTCDIV1K</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga8b0eed7b432f7b6a97df0248206aad8e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_RTCDIV512</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga871c5063293abbce6ea66a2c5586c538</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPFREQ_RTCDIV256</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gafdc4c3822c1c87fb00cf46060abc6cfc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPTS</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gac929fab94fdca2d1b3b3cf7c93fe6e49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMP3TRG</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga890a7b3d51af77fd381528eb6639aaf2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMP3E</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4e8b2b80932b84a1bc7d399fba1a311e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMP2TRG</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gad2c4d227971b56e3160c71b7479c769d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMP2E</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7e98a0062ef81bcbc790a8d77720a61c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMPIE</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaa0fb33b24d2ebc19e7fe52f0661a3085</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMP1TRG</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga76f85925873bcd3f795417053bfc5f33</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RTC_TAFCR_TAMP1E</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaa68c195cf709d18cd426560302b97852</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>rtc_set_prescaler</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga58bc5a210650415afcd3770950355c46</anchor>
+      <arglist>(u32 sync, u32 async)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_wait_for_synchro</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga28b448062099ceb6ab758b85d1ddb785</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_lock</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_unlock</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_set_wakeup_time</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
+      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_clear_wakeup_flag</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
+      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -35996,111 +38637,111 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>STM32F1xx-pwr-file</name>
+    <name>pwr-file</name>
     <title>PWR</title>
-    <filename>group__STM32F1xx-pwr-file.html</filename>
+    <filename>group__pwr-file.html</filename>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
       <arglist>(u32 pvd_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_standby_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_stop_mode</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_voltage_high</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_standby_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__STM32F1xx-pwr-file.html</anchorfile>
+      <anchorfile>group__pwr-file.html</anchorfile>
       <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
     </member>
@@ -36416,6 +39057,53 @@
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
       <anchor>ga734b4f30d6b0845a57f5e8d4dc434f85</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>rtc_file</name>
+    <title>RTC</title>
+    <filename>group__rtc__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_set_prescaler</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gaa983b34f0a6901d7aa9ff91130a4c582</anchor>
+      <arglist>(u32 sync, u32 async)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_wait_for_synchro</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga28b448062099ceb6ab758b85d1ddb785</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_unlock</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_lock</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_set_wakeup_time</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
+      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_clear_wakeup_flag</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
+      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -36930,2700 +39618,6 @@
       <anchorfile>group__usart__file.html</anchorfile>
       <anchor>ga034cc055ba8cf70f367f1555a3e75d3b</anchor>
       <arglist>(u32 usart, u32 flag)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>dma_defines</name>
-    <title>Dma_defines</title>
-    <filename>group__dma__defines.html</filename>
-    <subgroup>dma_if_offset</subgroup>
-    <subgroup>dma_ch_pri</subgroup>
-    <subgroup>dma_ch_memwidth</subgroup>
-    <subgroup>dma_ch_perwidth</subgroup>
-    <subgroup>dma_ch</subgroup>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacc16d2a5937f7585320a98f7f6b578f9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga506520140eec1708bc7570c49bdf972d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6d94c9580957aec3c23a0b1ca7d47468</anchor>
-      <arglist>(dma_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_ISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae546dd4d4b5b4c1f75926c572b9b4b6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_ISR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab6ce8d56cb4b93eb312539ed3721e052</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8df83f6a1d06f281f9b4d2b8e6edc8a1</anchor>
-      <arglist>(dma_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_IFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac7525286f8eee2ac190de94811075900</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_IFCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0d7e1762a5f0c91418f7cf0464454d6b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9de7b044f349e59350b27d9b2e3411a0</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6813cc65289a40a69991e41e70179a71</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga391eaedcafb133c7bc72ed817d869dcc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga869f8cb9fd84a06664c7697a36c80a1b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga651a5c3a15b5565c8ba679a8c387ea74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8171687f836ef9abf845ab4cb3e788a7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaded13078c0cf206edfb91b31d8f58d74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4e5c41c9e13788bf86fbe6354c5e2287</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CCR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga937b03df75296cbfa2d506b87a9d20fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga64753d2e797ddcb265e07e3361732975</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga61dff2b38a3ad5564827cf0d59ab01e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4f45d2e93f785f28168ae65b1f3b6604</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga13e74aeac02c56cd815204c819973f42</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7c90bd094fc05a5313d2d2fee1981a20</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CCR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga129adf55913ccbdd65258b490b97a030</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2d9e0542d5540e204d7ffd0217689bd0</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafa9d6b3d6e206a7291dd74e5245a5fb6</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae9b729fb7540fe8afbfe4e99d7dd4f4e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1ab7f2af4bb344201a25fdf18b9f1f87</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4b0dfc8b514e15ff2cb50010bb6701ef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0a480e229253f02de440909f96d6e925</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac346451cbdbcaf544cb65d8e896ab4be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7afdf1887c80eb60ea9bae5a255b528b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CNDTR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga81073b17989ca9fe01163fbc0caa2852</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2a2adddff957a6512e6138e9dc22ca6d</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabb57ba2194f5d34ce326c9975bb3f9d4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac0719974b3dcfb9f70ffc01941a1ad3d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabbf581f164b987f14d5697648cfe9aa0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga198f3a664e5da472ad3598d8fcb667d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CNDTR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafb133db8b4294374f0e16e6ce37107ed</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaec132f1bff88ed77c84215aa7442c01d</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga88d13e6f4d9731d2d37bab111dbd873c</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga15bdb91b645f13dac1b9b7b269a56f77</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad34f6db1f158f4b9a583761db8c51c52</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga09b1ea4330fb3e24cd69164d60cb452c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae0930ec8859650484d1850de42043bad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaac4b50aaa0a34e4de1da9f5d1425956f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacbddb6a70179e6ca8181f15beb17f980</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CPAR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga585d545c237971a99b3c2aba2b3295b4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga86e6834b10736eb6e87eeedcbf95456d</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadfe59076a69127310d79f59b3782bcd2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3d93a63810b1067d965817ba325276f8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac30477625eac00725c6d15a98d653a9b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8fe6d24b188a12cad940ac2d75adf5a8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CPAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga158eb18f6c62f3e9d02402f2f6b33d8b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CMAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaad3b5daa5024d73be1253eb6c83b94b7</anchor>
-      <arglist>(dma_base, channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6220887e1451469a54540385f608792e</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4dd3d427d2f8478ad24c158148a5e9cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa5d131d8bac849a234ab1212bdecc354</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab3ed7997482cb68e1286087814d778cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga680e200249499c09dc37e1de560043b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaac37a1d82a462c1b3eb54ca2e93f7a68</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga015c1fa67076c84953e66ce72d7ec012</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA1_CMAR7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0a67d09a178adb0ba50ef07917417186</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad86363fc293b41a483363a2d7f401656</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2bd402bee3cade672dea9e10f694a09f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa2a49a58659bc8b7d8c7f34daf51e111</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2ea90ac3e92fd9a06153064fc5ecf605</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga99d6dab7cfa5c4b9ffb4ceb685be0bc9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA2_CMAR5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1d24cd6be9f2c02ea0c21c95aec1b81f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_FLAG_OFFSET</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga53d418dcbe069d230ea7fe4c7f65ffd5</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_FLAGS</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga850db3ca90d45af6e76e7163a8af7dfe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadcd862010a7cde210805f0854e1e7b7f</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga592f87630e5c1af457ac3fcdccf0af6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga250c05bdbe73f5e80171599e1f86639b</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga26bfd55e965445ae253a5c5fa8f1769a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5bcd07efcadd5fef598edec1cca70e38</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa624379143a2535d7a60d87d59834d10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga12fcc1471918f3e7b293b2d825177253</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga42f9b12c4c80cbb7cd0f94f139c73de3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae47d914969922381708ae06c1c71123a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf8333b3c78b7d0a07bd4b1e91e902b31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga63f55c78acda38971ebcaa55bb875fe5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga22f770c63ab88ac647e3d29192803fa2</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5f83359698adf05854b55705f78d8a5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8ee1947aef188f437f37d3ff444f8646</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga53bb9a00737c52faffaaa91ff08b34a1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga684cf326c770f1ab21c604a5f62907ad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3d1f2b8c82b1e20b4311af8ca9576736</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga41b6d9787aeff76a51581d9488b4604f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_HTIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga769016c2b0bf22ff3ad6967b3dc0e2bb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga38018ed1c5ede6b0c132d10c96b82c9d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4cc23112667280b44989f839f79837a1</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1a1522414af27c7fff2cc27edac1d680</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga631741eb4843eda3578808a3d8b527b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga28664595df654d9d8052fb6f9cc48495</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad7d4e46949a35cf037a303bd65a0c87a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5ea57d09f13edbd6ad8afe9465e0fa70</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2d76395cf6c6ef50e05c96d7ae723058</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_TCIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4528af54928542c09502c01827418732</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9c80402706a69eafecf1a3c61d55aa57</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacbdd4b044ab804cfc556d41e8f216627</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3475228c998897d0f408a4c5da066186</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga44fa823dbb15b829621961efc60d6a95</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacb0bd8fb0e580688c5cf617b618bbc17</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf4f69823d44810c353af1f0a89eaf180</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga83d4d9cba635d1e33e3477b773379cfd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac55f4836aa8e6cfc9bdcadfabf65b5d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_ISR_GIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga86f178e879b2d8ceeea351e4750272dd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0521298f12443236f93dcdb1cc1308c6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga43fc6e9976eadcdef88a442fcc06081f</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga989699cace2fa87efa867b825c1deb29</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4abb0afb7dbe362c150bf80c4c751a67</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga59bad79f1ae37b69b048834808e8d067</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6fdda8f7f2507c1d3988c7310a35d46c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6ec6326d337a773b4ced9d8a680c05a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1e523c5cbf5594ffe8540c317bce6933</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTEIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4076bf1ed67fb39d4a0175e5943d5f2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3ca91bcee960f96604570dce6beceb0c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga861a77828aaf0c8359be2d43e0b82f2c</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga66e9aa2475130fbf63db304ceea019eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3e769c78024a22b4d1f528ce03ccc760</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2dea86ca2ec8aa945b840f2c1866e1f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga950664b81ec2d4d843f89ef102107d7b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3c23c727a4dbbc45a356c8418299275d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gae67273db02ffd8f2bfe0a5c93e9282a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CHTIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa7378f7a26730bfd5c950b7c7efb9272</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga209f52ca23a54f28adc7d26dbcb25b44</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabae39332daf506f714051f241ec6cd86</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga60085fa798cf77f80365839e7d88c8f1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8505b947a04834750e164dc320dfae09</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaccb4c0c5e0f2e01dec12ba366b83cb4d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga34b431fd4e034f8333e44594712f75eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaae4c7d1d10beb535aec39de9a8bdc327</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac3dca486df2f235aac8f3975f5f4ab75</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CTCIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac26181e8c2bd1fddc1e774cb7b621e5b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabd23e04bb52ec14f9ebdbb01eafa42e0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gabae2910ff72333620c15c71878979b37</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga75ad797334d9fb70750ace14b16e0122</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab907e446bbf1e1400dc5fdbd929d0e5f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0d98e88c334091e20e931372646a6b0d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga73d22139e4567c89e2afcb4aef71104c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga943245d2a8300854d53fd07bb957a6fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga7fc61098c5cf9a7d53ddcb155e34c984</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CGIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaad9f01dfeb289156448f5a5a0ad54099</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF_BIT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga65d5acb5b3d8a5cc489fb48f5db237a0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga582baaad9bd0949217f9c8b707611552</anchor>
-      <arglist>(channel)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF1</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga62378d43df70d8595e9788910f530850</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF2</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacb3685be7f2be2ba2aa99cc1f7838d2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF3</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga9c91503f69c719662338b06ab6749b56</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF4</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4654981bc670a535a97f4bb8080820f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF5</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gab742dffe27ebdac738cd724fb68ea883</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF6</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga07de9b897bdc4030894f177577214f1c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_IFCR_CIF7</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafbb6bc394e5c5951f766ab9e1989b955</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MEM2MEM</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5c87a41026384e25fe2312d03af76215</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa24c76d77301becc22c252a140f74402</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PL_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1f3ab5e5980b9e15d6200ac3f0191a31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gacde80651d2bcf226e2c9b6414c23b6e0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MSIZE_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gade083dc08df30eaa3220e82434702a4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_MASK</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf9282b1157209c1dd737d6cbc0f5702a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PSIZE_SHIFT</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad396fb79516101e7014d2c342a611bf2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_MINC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa189138f534283d876f654ec9474987e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_PINC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga028cb96357bd24868a74ee1134a35b7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_CIRC</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga445471396e741418bcd6f63404f4052c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_DIR</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga8f1ece172cf3c3e696b86d401d7345a2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_TEIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3dd2204c9046500140e3c720fb5a415f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_HTIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0f0fae31377ab1d33e36cead97b1811b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_TCIE</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaaba9cd82cab0cca23de038e946f81c6a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DMA_CCR_EN</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gababa3817d21a78079be76bc26b2c10f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>BEGIN_DECLS void</type>
-      <name>dma_channel_reset</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3b2bc730997955bfc6db23139525827c</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_clear_interrupt_flags</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1035bb6b7cbb49a026a64b96496fed61</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>dma_get_interrupt_flag</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaf0799743c07c8c66f2332b62fa39ac80</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_mem2mem_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga617eb5cd853d37e116247915aee301be</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_priority</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5a79731815d899613f5fe9944ef776b2</anchor>
-      <arglist>(u32 dma, u8 channel, u32 prio)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_size</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga4e36129b18538020951fce6476b33df4</anchor>
-      <arglist>(u32 dma, u8 channel, u32 mem_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_size</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga56fff16304df824cd19ada5ef5d14bfe</anchor>
-      <arglist>(u32 dma, u8 channel, u32 peripheral_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_memory_increment_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga63b0ae23516392cb7b7fbb2cd78bd709</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_memory_increment_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa668c99d665129a8e627bfd120f8fdee</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gad8806134d462fcba72689bc8a8436885</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga2b4d26d2919a322b98c7e4d350d98218</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_circular_mode</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac9942cd4b0c10fa780fad38ea5840b6e</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_peripheral</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga1816ec1c02bc4731f7e0ce175c6ba272</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_memory</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gaa70ac5daa668c30783552ea0e531d9df</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga6f98fcb670463ff9fa0b350b8a55add6</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga3ca927ad8548f5df39f80e2a3580b257</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga22ea9a9d3595761a3570f8c59c3acad4</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga0b7997b16dba35056695aa3ed7c8c57d</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gadce242f0b1e229b0ffc24aa2227d7394</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gafeb700fc225336070480f46ea6fdfd5b</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_channel</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga48e3c1011542fdfad681aa7e554608f5</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_channel</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac5b68ba004c7aed8fc3101fed5f5acd1</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_address</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga74057182d4be039db3d6a26c779fbdea</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_address</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>gac2f336cb2da513e171c2111e2e399c0a</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_number_of_data</name>
-      <anchorfile>group__dma__defines.html</anchorfile>
-      <anchor>ga5bc9e05af8be84ecce2be41731de467f</anchor>
-      <arglist>(u32 dma, u8 channel, u16 number)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>rtc_defines</name>
-    <title>Rtc_defines</title>
-    <filename>group__rtc__defines.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab7f3968366871c360f334e13b2e5f03c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga86eb15145a17a67b7e2d3bebde53aa96</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab12a646e66898472d5b47da87e6a39f9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae2cc36a11795e461447f19b75ab3424e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga6f602eed6e850324e6864df92284f6c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_WUTR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2b0bc0df97c0174474d9b40d4c77a50f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CALIBR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae8569e0a01af40c33a5a5a032c48d862</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMAR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4e42f3d5ad92ab8a5598ad9d8f30d2ac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMBR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa9133a5540853ecbe332c037b24fe98f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_WPR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab6487e9420e94ef109d0431f42c3c740</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_SSR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga31831515499751f2b047e98bc7bf433f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_SHIFTR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad1f31c8249774ba3fe317d45ee7193ee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3b5fd9c320bed9cf67fd2ab262a2d787</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab1e2138d67ef50e75f212682ef83437e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSSSR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3f4232d0efe2370a09beee71638e4707</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CALR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafaf647bb57bb905fe6a9a3377ca34424</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga26de03df250ff35784528913577c72df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMASSR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaaabf37f9d0b410bf5d664037a8e7484d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMBSSR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4919be7b0a730288b5c2eb1eae16a68d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_BKP_BASE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1d7765dbc5fc80310d28f75cb3d71089</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_BKPXR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab701eac43b9bf61cd11922c15a4d8ee1</anchor>
-      <arglist>(reg)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_PM</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3152952ac385ee1ce8dd868978d3fce9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaaf89dd3016dea1f25a2e77cd346328df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabf81ff38ba8396520bc7096a1a041922</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga39f8942aae9b7fd6ce37808a7b4fde1a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1392cf11019d8f3acb1777f98c43591a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabc6a8bf6656a7fbb509651166391cf96</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa7528d1b55e829ef5b72309eff20b4b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga14e3a8c1af0e47c098c4c2ece80bcebf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2d893e026ea3fb6073777cffd93fefcc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_ST_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0a3525a806619247b9759ec71e324fa5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_ST_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5a1ff2da57ee453328826f0659249e7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_SU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7f6ba78c26df688fa310e5f9f81e35fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_SU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga56e202ccdf3f467c472e2204b9fe181e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3d86a57c71d0518d805e8ff175a096c1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5cdad136c4966fa6aedcacf4f755fd56</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaefe82e362240f92f499e7bf30d22eec6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabe00e8b7c47c66bdef5c74c0ed8c83cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_WDU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaad8b50c104f06e4e68ade114eb10d0f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_WDU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0e981c8352a0a6dd79698ef8e9a68c5b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga26f0d3ce1c6c6785bd8fbae556f68b31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1ad7d5e6b06e97429e69ce78a01ce556</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga45ec20978a87b7a4371acd0a32f19816</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4620f9fdbe0ba1759894c52afab80f9a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga61e2102ae089ff41b5243a3fec0a0528</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga81d9ee62a268f903d61a89661a1e2023</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga86e344ae00a9837fe6677d4641572199</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga6b9b03b39858e2c57f139211d6026ea5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_COE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3cdfa862acfa6068b7ba847f77269d60</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9606e83364ad2d2d942646848ac23fe1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga46bc8dfc9d0f3257e6616cb9993ab182</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_DISABLED</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga31766791b9c355deb7d26179001e5f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_ALARMA</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4901df27bb4bf5f1080673130c0339e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_ALARMB</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga237875d2e082c238db42a065f2a828b5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_WAKEUP</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafecc4ef831d8e4c2f56ad97d79c7a63d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_POL</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga53f21b5adadbcc5eb255683d5decc9cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_COSEL</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga197c587884b9c1dcb2970e9ec2589b41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_BKP</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0e7a474de1a01816bc9d9b6fa7272289</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_SUB1H</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga220cf6237eac208acc8ae4c55e0b5e6f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ADD1H</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaae1a8439d08e28289398dcf3c2b4b47b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf376dffb9f2777ef275f23410e35600d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUTIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5e0a1419830a16667cea4f6454913226</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRBIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac6269c9dd5cee650024ede0b0c42e87d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRAIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9138f75267bd93f8de6738225217d583</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga94fa98ca8cac9078b9bb82c89593d3c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUTE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga061be0d3cdea721e5cb695cda0699bc3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRBE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga17d0850002ed42742ff75a82dc4e8586</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRAE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga8a8cdeac61f06e4737800b64a901d584</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_DCE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4ce7cb8b575142e125863d61ea4765ba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_FMT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab2706e31a1bc8d95b682fe47611e0dd3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_BYPSHAD</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga34d50a3eff3364e6da4fefed9962a054</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_REFCKON</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga646ef1071cacc2d30bbef5597c817021</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSEDGE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad076bde34be7d24f088fd2c003b7a7f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7fb2100cd23f48dabf098fd8de6be384</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0dc6c11dd47bd5203d4883f402967a4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV16</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf4a299e7d304a895cb9ea67cd5b6b64d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV8</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaef42ae617803d9c38cc35333afe01847</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV4</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac5b62e2a99c81b7af88f8af60ece2bde</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV2</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafc4613add60380f65ed4bede0e1a93bd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_SPRE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae72bcf840df1c5b8e9dbf18da2ee0d4b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_SPRE_216</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0dff3df721423c3e13d21fee04a6b2cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_RECALPF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga05189137cfd0e73903d9b70d071656b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TAMP3F</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9cbbb7637689d5396c719a6ddb04fe2b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TAMP2F</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabdb176578e53b2d8e24a94c8d0212845</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TAMP1F</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae738b22f6a8123026921a1d14f9547c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TSOVF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga766c238f964072decba204c7fce850ff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TSF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga68c0a60dbfc5f1570a48afe450395484</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_WUTF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4eb5960300a402210e5378d78ce22766</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRBF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7976972a5fc6705fede85536520367d6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRAF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga96605e50a347507b7f274e9cd894a02c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_INIT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae0eb2f998cd3e7325974347cb2a3d25a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_INITF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab16dcc6973c611e087030cdb15203972</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_RSF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9bd683e789841f7d3f138709ffdbfbf8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_INITS</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7b229bace5ba0c0b48bfeb5efc445292</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_SHPF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1c4536a874336778ac11109f14573eb9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_WUTWF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0e753321211e19bc48736fe0d30a7f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRBWF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5a0c34bff6dc9fce29e2be35d32d9d05</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRAWF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4d420b5c3f8623cf1116d42fa164be7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_A_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad81b16856acc1696768d7876668e039b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_A_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad249bea121f8bd3cf09f43100c5fd615</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_S_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaca3f81a738023a2a4ba9048f049915b8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_S_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga615d9978f77688fb9cdfba80bde412dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK4</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga28f42cc8417872db64a9f45fa6f0ae45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_WDSEL</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga53fcffd324af255c0777ac0115b42fcd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga20e1c5f64b8c61eb4cbf8a38dfeb6859</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafe661ce0d245ad5ce56c045ea17c1a08</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf44b17197307f73ba26cd58161545626</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac016da37090476d1754283715b002fd0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK3</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga38f4b3a3a84cbe064fda91d9faed9a2a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_PM</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5057382e80dec481b021465cc1641530</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga08d8cc2cba587bbfba916263553be5e8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa93d094df573008657ae4cd8f8c03e35</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad2f9087d0fcb317c72b131f2cc618796</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga52d7037128f944e9956cdfd110b327d3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK2</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab96f43d09988f45f5ab5e20d4ba6c0cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf93bb190463ff2a2a01fc3fa8ffdc7be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga84c702f00fd21d27e092e808315c0eef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga150862b037f53faa237996e3e6270c78</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab5c3d67fe0d2c1652ba4ff6c4b51ca07</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK1</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7a3c9a66638271f2fcc2b513a0cd4bc4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_ST_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga881bb575db4cf46a8c8fbcdaec03bc2c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_ST_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga589dfd57ed5a42fb9a5cca578514e145</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_SU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gadd24cc883627dc5c59ee509123ad4497</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_SU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9e7f0bce36a75b94f06a4f31edb9590a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_PM</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga84b3d044be3e63573a5f0d4d14d8e3b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf2710a228feee195cd28244eff721a12</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab89740507af8b89b41ff22e415d2077c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga92ef88ea648ff7f974a3ee4b4e54c7ae</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2ebd4ae3007f91a5acd3276077cb8e66</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0105eb3e873ee3eec6cff5efd3817930</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga13a2d2befada70da08113bd26a8fc7c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga25fe6d2f417858ff48426cf571474210</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2a4f140238291909bc8260c4054bf7cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_ST_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga70752f4c448f60d95908069faa09e0b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_ST_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga52b278366497c1cc671717a74d49aecf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_SU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5acef5aae9e46b4ef9017ef026642c2e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_SU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga98f8e93c67e6584ec71e480552f44973</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_WDU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad66eb8c3b73524f427b98c2faf138040</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_WDU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaeba08fc6087374a924251d294e8fdb12</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_MT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7bce43482443f2038a8eebc681067dd7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_MU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3874b6ce09046208ac560e9059d49e3e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_MU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0c8e9802673270b96c09091ae1859d39</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gacb48f83e52e02c83495fae264cb45ab9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae7b4878edbec889efa71b0d970cffc8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafc4f58c39250680d515b37a222f2b4e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0f217be620b266abca83fe0f6dd5117b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_ALARMOUTTYPE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga8d9515fd74e3bcf03f4e62d8c7e1b070</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPUDIS</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9ef294e75771913e4a47386f42a23f72</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5123d2489c7b789f9a2ee4d6074ba205</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf00984169cfa42e0adde4cec189fd38c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_1RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gade7fe1c131b529094e8061440445903b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_2RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae8372a162823e3fd5d9ee998508769de</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_4RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac977dbcaf500f2aae3e4819c69dc6512</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_8RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga948dee7649305745135671d365318a45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga6296e75b05069e95b1b4d9c841299fda</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga67fb705bb4bd518a608d20c317d60dc8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE1</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gade154d1bd10c16ebd2d266744300b758</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE2</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1289178f46d97eeb9406b981bef69797</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE4</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3309fd45a2b6342db54855d8d5759287</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE8</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac84c7cf6641564593a6bfcdfca7970cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3d25cf652f7160f24bb389125900161f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9d16e615c06c45e7812e43d6889c122e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV32K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga56fd05a22d9ff116424f174a7b95a13b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV16K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9323edddf861336e125a4b0f13c92406</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV8K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0f6bfca00672a49a65701e4042b0cd41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV4K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafe66826ace722bf46d1e72aeb2c03c7c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV2K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2f15cc74b1248d85a3f82fadd91cb260</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV1K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga8b0eed7b432f7b6a97df0248206aad8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV512</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga871c5063293abbce6ea66a2c5586c538</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV256</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafdc4c3822c1c87fb00cf46060abc6cfc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPTS</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac929fab94fdca2d1b3b3cf7c93fe6e49</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP3TRG</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga890a7b3d51af77fd381528eb6639aaf2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP3E</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4e8b2b80932b84a1bc7d399fba1a311e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP2TRG</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad2c4d227971b56e3160c71b7479c769d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP2E</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7e98a0062ef81bcbc790a8d77720a61c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa0fb33b24d2ebc19e7fe52f0661a3085</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP1TRG</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga76f85925873bcd3f795417053bfc5f33</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP1E</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa68c195cf709d18cd426560302b97852</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>BEGIN_DECLS void</type>
-      <name>rtc_set_prescaler</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga58bc5a210650415afcd3770950355c46</anchor>
-      <arglist>(u32 sync, u32 async)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_wait_for_synchro</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga28b448062099ceb6ab758b85d1ddb785</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_lock</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_unlock</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_set_wakeup_time</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
-      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_clear_wakeup_flag</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
-      <arglist>(void)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>rtc_file</name>
-    <title>Rtc_file</title>
-    <filename>group__rtc__file.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_set_prescaler</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>gaa983b34f0a6901d7aa9ff91130a4c582</anchor>
-      <arglist>(u32 sync, u32 async)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_wait_for_synchro</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga28b448062099ceb6ab758b85d1ddb785</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_unlock</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_lock</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_set_wakeup_time</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
-      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_clear_wakeup_flag</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
-      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="dir">

@@ -42,23 +42,21 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"dma__common__f13_8h.html#ga2d9e0542d5540e204d7ffd0217689bd0",
-"dma__common__f24_8h.html#ga14fe483b7785fe05710877fed9ab07c8",
-"dma__common__f24_8h.html#gacc16d2a5937f7585320a98f7f6b578f9",
-"globals_func_0x73.html",
-"group__dac__defines.html#ga4664bbc3b0a4afb7321bbfe45370a234",
-"group__dma__defines.html#ga2dea86ca2ec8aa945b840f2c1866e1f6",
-"group__dma__defines.html#gaba9ca2264bc381abe0f4183729ab1fb1",
-"group__gpio__defines.html#ga01949fadbf0e4f41922b947850bcd51e",
-"group__i2c__defines.html#ga64532b3cb1d370389ddc22ee0f3677bc",
-"group__rtc__defines.html#ga61e2102ae089ff41b5243a3fec0a0528",
-"group__spi__defines.html#gacb8f70b297d87dff340508ea00269c83",
-"group__usart__sr__flags.html#ga4560fc7a60df4bdf402fc7219ae7b558",
-"memorymap_8h.html#a5b72f698b7a048a6f9fcfe2efe5bc1db",
-"rcc_8h.html#a4f8f18c88c6c897e0968c0c952a8b26d",
-"rng__common__f24_8h.html#ae881013c41cbacedda4e1403d9edbfeb",
-"spi__common__all_8c.html#gafe8744d530f18e5666b154eb8ab91e44",
-"usart__common__all_8h.html#ga30a0f69de25559d00f70751bd0f5015f"
+"dma__common__f24_8h.html#ga1081f1ed6b15d96b8e4f341f31847241",
+"dma__common__f24_8h.html#gac707973374874490b6502686dc57e84f",
+"globals_func.html",
+"group__dac__defines.html#ga5cfa52e5d0168c402e8c4034fa0077ec",
+"group__dma__defines.html#ga6096867a4cc26c84528a1436aecaa52f",
+"group__dma__mburst.html",
+"group__i2c__clock.html#ga9933a3132d74494cc70c15cf8f4c094e",
+"group__rtc__defines.html#ga0c8e9802673270b96c09091ae1859d39",
+"group__spi__defines.html#ga381b61bab28b1219b50030b13ad63f99",
+"group__usart__defines.html#gaaed1a39c551b1641128f81893ff558d0",
+"i2c__common__all_8h.html#gaf8499b5642b94779d31ae8564e3a5f24",
+"rcc_8h.html#a167ad9fc43674d6993a9550ac3b6e70f",
+"rcc_8h.html#ad4baa1f26b04719fe3d4e2f02d7dde40",
+"rtc__common__bcd_8h.html#gae738b22f6a8123026921a1d14f9547c0",
+"structclock__scale__t.html#af529b713744995d39878f6954ad6e576"
 ];
 
 var navTreeSubIndices = new Array();
