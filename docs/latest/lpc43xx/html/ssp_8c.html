@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('ssp_8c.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,43 +114,14 @@ $(document).ready(function(){initNavTree('ssp_8c.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ssp.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="ssp_8h_source.html">libopencm3/lpc43xx/ssp.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="cgu_8h_source.html">libopencm3/lpc43xx/cgu.h</a>&gt;</code><br/>
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for ssp.c:</div>
-<div class="dyncontent">
-<div class="center"><img src="ssp_8c__incl.png" border="0" usemap="#ssp_8c" alt=""/></div>
-<map name="ssp_8c" id="ssp_8c">
-</map>
-</div>
-</div>
+
 <p><a href="ssp_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a5e1e3c8fe45f774d29bab16a2d2959bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a5e1e3c8fe45f774d29bab16a2d2959bb">CGU_SRC_32K</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="memitem:a288f0520f8f2f4d2f155062f710c1144"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a288f0520f8f2f4d2f155062f710c1144">CGU_SRC_IRC</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="memitem:afe28c25f672a2aab5b9c73a71ad2fbbe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#afe28c25f672a2aab5b9c73a71ad2fbbe">CGU_SRC_ENET_RX</a>&#160;&#160;&#160;0x02</td></tr>
-<tr class="memitem:accb90b0b7d13529f109c0cdd68105bc9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#accb90b0b7d13529f109c0cdd68105bc9">CGU_SRC_ENET_TX</a>&#160;&#160;&#160;0x03</td></tr>
-<tr class="memitem:acf898e807dc93c7696178fcd7deec02c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#acf898e807dc93c7696178fcd7deec02c">CGU_SRC_GP_CLKIN</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="memitem:a82c9167adbe958e0bde1e296388ed803"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a82c9167adbe958e0bde1e296388ed803">CGU_SRC_XTAL</a>&#160;&#160;&#160;0x06</td></tr>
-<tr class="memitem:a528e575100f5fd9954138fbdb22b6045"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a528e575100f5fd9954138fbdb22b6045">CGU_SRC_PLL0USB</a>&#160;&#160;&#160;0x07</td></tr>
-<tr class="memitem:a2a9688bd85c5b9afce3c4eca11748e74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a2a9688bd85c5b9afce3c4eca11748e74">CGU_SRC_PLL0AUDIO</a>&#160;&#160;&#160;0x08</td></tr>
-<tr class="memitem:aff0a7587da9dbf9732f857698ddd0158"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#aff0a7587da9dbf9732f857698ddd0158">CGU_SRC_PLL1</a>&#160;&#160;&#160;0x09</td></tr>
-<tr class="memitem:ab601939c870da23435bfed638fb3351f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#ab601939c870da23435bfed638fb3351f">CGU_SRC_IDIVA</a>&#160;&#160;&#160;0x0C</td></tr>
-<tr class="memitem:a9f380b1e32973986d2fcdd67fca67d7d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a9f380b1e32973986d2fcdd67fca67d7d">CGU_SRC_IDIVB</a>&#160;&#160;&#160;0x0D</td></tr>
-<tr class="memitem:a1848f59977734a077dc4f7bd9e46e856"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a1848f59977734a077dc4f7bd9e46e856">CGU_SRC_IDIVC</a>&#160;&#160;&#160;0x0E</td></tr>
-<tr class="memitem:a669f03ddfdabb5a64687c206023118b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a669f03ddfdabb5a64687c206023118b7">CGU_SRC_IDIVD</a>&#160;&#160;&#160;0x0F</td></tr>
-<tr class="memitem:ae54b9677cd6cabec6e209cc6151de924"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#ae54b9677cd6cabec6e209cc6151de924">CGU_SRC_IDIVE</a>&#160;&#160;&#160;0x10</td></tr>
-<tr class="memitem:a5be5d445b6b212925f666d01135432bd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a5be5d445b6b212925f666d01135432bd">CGU_AUTOBLOCK_CLOCK_BIT</a>&#160;&#160;&#160;11</td></tr>
-<tr class="memitem:a5a328f92c8a91e58af869c42859d4197"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a5a328f92c8a91e58af869c42859d4197">CGU_BASE_CLK_SEL_SHIFT</a>&#160;&#160;&#160;24   /* clock source selection (5 bits) */</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:af3606050c56f9e7ccfbb91f703d38e46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#af3606050c56f9e7ccfbb91f703d38e46">ssp_wait_until_not_busy</a> (<a class="el" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num)</td></tr>
@@ -159,237 +130,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aa8f794ca6faef448cbfd0d74f0bacf33"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#aa8f794ca6faef448cbfd0d74f0bacf33">ssp_read</a> (<a class="el" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num)</td></tr>
 <tr class="memitem:a367036890409f4a16496ffafa6ad6471"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a367036890409f4a16496ffafa6ad6471">ssp_write</a> (<a class="el" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> data)</td></tr>
 </table>
-<h2>Macro Definition Documentation</h2>
-<a class="anchor" id="a5be5d445b6b212925f666d01135432bd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_AUTOBLOCK_CLOCK_BIT&#160;&#160;&#160;11</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00038">38</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-<p>Referenced by <a class="el" href="ssp_8c_source.html#l00063">ssp_init()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5a328f92c8a91e58af869c42859d4197"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_BASE_CLK_SEL_SHIFT&#160;&#160;&#160;24   /* clock source selection (5 bits) */</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00039">39</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-<p>Referenced by <a class="el" href="ssp_8c_source.html#l00063">ssp_init()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5e1e3c8fe45f774d29bab16a2d2959bb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_32K&#160;&#160;&#160;0x00</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00023">23</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afe28c25f672a2aab5b9c73a71ad2fbbe"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_ENET_RX&#160;&#160;&#160;0x02</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00025">25</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="accb90b0b7d13529f109c0cdd68105bc9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_ENET_TX&#160;&#160;&#160;0x03</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00026">26</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="acf898e807dc93c7696178fcd7deec02c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_GP_CLKIN&#160;&#160;&#160;0x04</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00027">27</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab601939c870da23435bfed638fb3351f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_IDIVA&#160;&#160;&#160;0x0C</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00032">32</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9f380b1e32973986d2fcdd67fca67d7d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_IDIVB&#160;&#160;&#160;0x0D</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00033">33</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1848f59977734a077dc4f7bd9e46e856"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_IDIVC&#160;&#160;&#160;0x0E</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00034">34</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a669f03ddfdabb5a64687c206023118b7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_IDIVD&#160;&#160;&#160;0x0F</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00035">35</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae54b9677cd6cabec6e209cc6151de924"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_IDIVE&#160;&#160;&#160;0x10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00036">36</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a288f0520f8f2f4d2f155062f710c1144"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_IRC&#160;&#160;&#160;0x01</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00024">24</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2a9688bd85c5b9afce3c4eca11748e74"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_PLL0AUDIO&#160;&#160;&#160;0x08</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00030">30</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a528e575100f5fd9954138fbdb22b6045"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_PLL0USB&#160;&#160;&#160;0x07</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00029">29</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aff0a7587da9dbf9732f857698ddd0158"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_PLL1&#160;&#160;&#160;0x09</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00031">31</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-<p>Referenced by <a class="el" href="ssp_8c_source.html#l00063">ssp_init()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a82c9167adbe958e0bde1e296388ed803"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CGU_SRC_XTAL&#160;&#160;&#160;0x06</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ssp_8c_source.html#l00028">28</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
-
-</div>
-</div>
 <h2>Function Documentation</h2>
 <a class="anchor" id="a741020e6b94479e80107e428d552e5c3"></a>
 <div class="memitem">
@@ -407,7 +147,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="ssp_8c_source.html#l00045">45</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
 
-<p>References <a class="el" href="ssp_8h_source.html#l00029">SSP0</a>, <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>, <a class="el" href="ssp_8h_source.html#l00030">SSP1</a>, and <a class="el" href="ssp_8h_source.html#l00041">SSP_CR1</a>.</p>
+<p>References <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>.</p>
 
 </div>
 </div>
@@ -479,7 +219,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="ssp_8c_source.html#l00063">63</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
 
-<p>References <a class="el" href="ssp_8c_source.html#l00038">CGU_AUTOBLOCK_CLOCK_BIT</a>, <a class="el" href="ssp_8c_source.html#l00039">CGU_BASE_CLK_SEL_SHIFT</a>, <a class="el" href="cgu_8h_source.html#l00128">CGU_BASE_SSP1_CLK</a>, <a class="el" href="ssp_8c_source.html#l00031">CGU_SRC_PLL1</a>, <a class="el" href="ssp_8h_source.html#l00029">SSP0</a>, <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>, <a class="el" href="ssp_8h_source.html#l00030">SSP1</a>, <a class="el" href="ssp_8h_source.html#l00062">SSP_CPSR</a>, <a class="el" href="ssp_8h_source.html#l00036">SSP_CR0</a>, <a class="el" href="ssp_8h_source.html#l00041">SSP_CR1</a>, and <a class="el" href="ssp_8h_source.html#l00141">SSP_ENABLE</a>.</p>
+<p>References <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>.</p>
 
 </div>
 </div>
@@ -499,7 +239,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="ssp_8c_source.html#l00102">102</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
 
-<p>References <a class="el" href="ssp_8h_source.html#l00029">SSP0</a>, <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>, <a class="el" href="ssp_8h_source.html#l00030">SSP1</a>, <a class="el" href="ssp_8h_source.html#l00046">SSP_DR</a>, <a class="el" href="ssp_8h_source.html#l00051">SSP_SR</a>, and <a class="el" href="ssp_8h_source.html#l00057">SSP_SR_RNE</a>.</p>
+<p>References <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>.</p>
 
 </div>
 </div>
@@ -519,7 +259,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="ssp_8c_source.html#l00119">119</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
 
-<p>References <a class="el" href="ssp_8h_source.html#l00029">SSP0</a>, <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>, <a class="el" href="ssp_8h_source.html#l00030">SSP1</a>, <a class="el" href="ssp_8h_source.html#l00051">SSP_SR</a>, and <a class="el" href="ssp_8h_source.html#l00059">SSP_SR_BSY</a>.</p>
+<p>References <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>.</p>
 
 <p>Referenced by <a class="el" href="ssp_8c_source.html#l00135">ssp_write()</a>.</p>
 
@@ -560,7 +300,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="ssp_8c_source.html#l00135">135</a> of file <a class="el" href="ssp_8c_source.html">ssp.c</a>.</p>
 
-<p>References <a class="el" href="ssp_8h_source.html#l00029">SSP0</a>, <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>, <a class="el" href="ssp_8h_source.html#l00030">SSP1</a>, <a class="el" href="ssp_8h_source.html#l00046">SSP_DR</a>, <a class="el" href="ssp_8h_source.html#l00051">SSP_SR</a>, <a class="el" href="ssp_8h_source.html#l00056">SSP_SR_TNF</a>, and <a class="el" href="ssp_8c_source.html#l00119">ssp_wait_until_not_busy()</a>.</p>
+<p>References <a class="el" href="ssp_8h_source.html#l00092">SSP0_NUM</a>, and <a class="el" href="ssp_8c_source.html#l00119">ssp_wait_until_not_busy()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -579,7 +319,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_d37d3c975ecef012b6a8fd7f0f6fedfb.html">lpc43xx</a></li><li class="navelem"><a class="el" href="ssp_8c.html">ssp.c</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:22 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:23 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

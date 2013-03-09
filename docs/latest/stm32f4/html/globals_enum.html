@@ -91,7 +91,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_vars.html"><span>Variables</span></a></li>
       <li class="current"><a href="globals_enum.html"><span>Enumerations</span></a></li>
       <li><a href="globals_eval.html"><span>Enumerator</span></a></li>
-      <li><a href="globals_defs.html"><span>Macros</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -114,7 +113,7 @@ $(document).ready(function(){initNavTree('globals_enum.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -128,8 +127,35 @@ $(document).ready(function(){initNavTree('globals_enum.html','');});
 <li>clock_3v3_t
 : <a class="el" href="rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cb">rcc.h</a>
 </li>
+<li>data_align
+: <a class="el" href="group__dac__defines.html#ga3f15c2d8c2dcfbc06b58b09e4c2d7b3c">dac_common_all.h</a>
+</li>
+<li>data_channel
+: <a class="el" href="group__dac__defines.html#gaddb2a9646f5222113db5545109cc700b">dac_common_all.h</a>
+</li>
 <li>osc_t
 : <a class="el" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823">rcc.h</a>
+</li>
+<li>tim_ic_filter
+: <a class="el" href="group__timer__defines.html#ga8a2a8722575e6301c3e059b9ec8f50c2">timer_common_all.h</a>
+</li>
+<li>tim_ic_id
+: <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">timer_common_all.h</a>
+</li>
+<li>tim_ic_input
+: <a class="el" href="group__timer__defines.html#gad3d3ef84edd2180d79321bac6394bb4d">timer_common_all.h</a>
+</li>
+<li>tim_ic_pol
+: <a class="el" href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468">timer_common_all.h</a>
+</li>
+<li>tim_ic_psc
+: <a class="el" href="group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62">timer_common_all.h</a>
+</li>
+<li>tim_oc_id
+: <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">timer_common_all.h</a>
+</li>
+<li>tim_oc_mode
+: <a class="el" href="group__timer__defines.html#ga9c6be6e4ccd5dcb325f1ebe499ca5216">timer_common_all.h</a>
 </li>
 <li>vos_scale_t
 : <a class="el" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40">pwr.h</a>
@@ -140,7 +166,7 @@ $(document).ready(function(){initNavTree('globals_enum.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:17 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

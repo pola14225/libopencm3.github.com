@@ -17,11 +17,7 @@ var NAVTREE =
     [ "EMF32 Giant Gecko", "../../emf32gg/html/modules.html", null ],
     [ "EFM32 Tiny Gecko", "modules.html", "modules" ],
     [ "Files", null, [
-      [ "File List", "files.html", "files" ],
-      [ "Globals", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
+      [ "File List", "files.html", "files" ]
     ] ]
   ] ]
 ];

@@ -6,13 +6,14 @@ digraph "STM32L1xx"
   Node6 [label="PWR",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__pwr-file.html",tooltip="libopencm3 STM32L1xx Power Control"];
   Node3 [label="GPIO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gpio__file.html",tooltip="libopencm3 STM32L1xx General Purpose I/O"];
   Node2 [label="DAC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dac__file.html",tooltip="libopencm3 STM32L1xx DAC"];
-  Node9 [label="USART",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__file.html",tooltip="libopencm3 STM32L1xx USART"];
+  Node10 [label="USART",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__file.html",tooltip="libopencm3 STM32L1xx USART"];
   Node5 [label="IWDG",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__iwdg__file.html",tooltip="libopencm3 STM32L1xx Independent Watchdog Timer"];
   Node7 [label="RTC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__rtc__file.html",tooltip="libopencm3 STM32L1xx RTC"];
   Node8 [label="SPI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__spi__file.html",tooltip="libopencm3 STM32L1xx SPI"];
   Node1 [label="CRC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__crc__file.html",tooltip="libopencm3 STM32L1xx CRC"];
   Node0 [label="STM32L1xx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
   Node4 [label="I2C",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__i2c__file.html",tooltip="libopencm3 STM32L1xx I2C"];
+  Node9 [label="Timers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer__file.html",tooltip="libopencm3 STM32L1xx Timers"];
   Node0->Node1 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node2 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node3 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
@@ -22,4 +23,5 @@ digraph "STM32L1xx"
   Node0->Node7 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node8 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node9 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node10 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
 }

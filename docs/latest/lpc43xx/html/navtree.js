@@ -24,8 +24,7 @@ var NAVTREE =
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", "globals_eval" ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "Enumerator", "globals_eval.html", "globals_eval" ]
       ] ]
     ] ]
   ] ]
@@ -34,12 +33,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "adc_8h.html",
-"cgu_8h.html#adf6c32a47753cc3f4584cc8c164cf762",
-"gpio_8h.html#a8316900553ae1efb7d0a6bc489423d5b",
-"rgu_8h.html#a40d9a7ab5b6d7fca3b9063e0042ad198",
-"scu_8h.html#a9ebba78e64868d90ae94cabceec832d2a18905ee29670369b16d5d5fd303374ae",
-"scu_8h.html#af179bf52b62dfec0b4f9438f1f18693e",
-"ssp_8c.html#a9f380b1e32973986d2fcdd67fca67d7d"
+"scu_8h.html#a9ebba78e64868d90ae94cabceec832d2af7da371a007188db645f365f367a10a8"
 ];
 
 var navTreeSubIndices = new Array();

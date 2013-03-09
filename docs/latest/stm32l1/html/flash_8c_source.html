@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -143,32 +143,32 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="code" href="flash_8c.html#a46ea5d4032d7ea65641376eca38202f8">   24</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#ad571f19d231295129eb0baf856670ce4">flash_64bit_enable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> |= <a class="code" href="flash_8h.html#ac469106633ce3df56306668ff4da0451">FLASH_ACR_ACC64</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        FLASH_ACR |= FLASH_ACR_ACC64;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="code" href="flash_8c.html#a9b6dde9700facc4f5486ba01307d21bf">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a9b6dde9700facc4f5486ba01307d21bf">flash_64bit_disable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> &amp;= ~<a class="code" href="flash_8h.html#ac469106633ce3df56306668ff4da0451">FLASH_ACR_ACC64</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        FLASH_ACR &amp;= ~FLASH_ACR_ACC64;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="code" href="flash_8c.html#a0f76604d23e55a997cef486d8f93c8f7">   34</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a0f76604d23e55a997cef486d8f93c8f7">flash_prefetch_enable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> |= <a class="code" href="flash_8h.html#a082e7e91fffee86db39676396d01a8e0">FLASH_ACR_PRFTEN</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        FLASH_ACR |= FLASH_ACR_PRFTEN;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="flash_8c.html#a1b35f387b1aa45b20bccc40456cb33fc">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a1b35f387b1aa45b20bccc40456cb33fc">flash_prefetch_disable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> &amp;= ~<a class="code" href="flash_8h.html#a082e7e91fffee86db39676396d01a8e0">FLASH_ACR_PRFTEN</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        FLASH_ACR &amp;= ~FLASH_ACR_PRFTEN;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="flash_8c.html#a66164f6799767f17d6f6e845c4c5039e">   44</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a66164f6799767f17d6f6e845c4c5039e">flash_set_ws</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> ws)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        reg32 = <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        reg32 = FLASH_ACR;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        reg32 &amp;= ~(1 &lt;&lt; 0);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        reg32 |= ws;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> = reg32;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        FLASH_ACR = reg32;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_b85f3b2cdb5f62c5704599c879630b7f.html">l1</a></li><li class="navelem"><a class="el" href="flash_8c.html">flash.c</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:10 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:10 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

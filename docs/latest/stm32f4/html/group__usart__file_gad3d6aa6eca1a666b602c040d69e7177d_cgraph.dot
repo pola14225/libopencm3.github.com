@@ -5,7 +5,7 @@ digraph "usart_recv_blocking"
   rankdir="LR";
   Node1 [label="usart_recv_blocking",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="usart_recv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__file.html#gaa67496df79d937fbce18a6e36b9a806a",tooltip="USART Read a Received Data Word."];
+  Node2 [label="usart_recv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html#gaa67496df79d937fbce18a6e36b9a806a",tooltip="USART Read a Received Data Word."];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="usart_wait_recv_ready",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__file.html#gaf565cfc012a00290a37c729dc457cf16",tooltip="USART Wait for Received Data Available."];
+  Node3 [label="usart_wait_recv_ready",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html#gaf565cfc012a00290a37c729dc457cf16",tooltip="USART Wait for Received Data Available."];
 }

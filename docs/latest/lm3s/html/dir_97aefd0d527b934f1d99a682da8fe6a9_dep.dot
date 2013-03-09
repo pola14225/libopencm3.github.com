@@ -7,6 +7,4 @@ digraph "/home/esdentem/projects/libopencm3/libopencm3-git/lib/" {
     dir_97aefd0d527b934f1d99a682da8fe6a9 [shape=plaintext label="lib"];
     dir_869293064a8640c73deffbae3587a3ed [shape=box label="lm3s" color="black" fillcolor="white" style="filled" URL="dir_869293064a8640c73deffbae3587a3ed.html"];
   }
-  dir_d44c64559bbebec7f509842c48db8b23 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_d44c64559bbebec7f509842c48db8b23.html"];
-  dir_869293064a8640c73deffbae3587a3ed->dir_d44c64559bbebec7f509842c48db8b23 [headlabel="1", labeldistance=1.5 headhref="dir_000004_000000.html"];
 }

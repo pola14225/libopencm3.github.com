@@ -11,5 +11,4 @@ digraph "/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/st
     dir_1fc15a2279e09b93b0b15236ec8117f8 [shape=box label="f4" color="black" fillcolor="white" style="filled" URL="dir_1fc15a2279e09b93b0b15236ec8117f8.html"];
   }
   }
-  dir_1fc15a2279e09b93b0b15236ec8117f8->dir_c02db4a0946ae9b9bf4f96b1a4904c69 [headlabel="11", labeldistance=1.5 headhref="dir_000006_000008.html"];
 }

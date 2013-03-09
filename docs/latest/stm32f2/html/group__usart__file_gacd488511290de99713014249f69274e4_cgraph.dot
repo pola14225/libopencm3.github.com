@@ -5,7 +5,7 @@ digraph "usart_send_blocking"
   rankdir="LR";
   Node1 [label="usart_send_blocking",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="usart_send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__file.html#gaaaa61a498fcb090540f2dc9d862c26c6",tooltip="USART Send a Data Word."];
+  Node2 [label="usart_send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html#gaaaa61a498fcb090540f2dc9d862c26c6",tooltip="USART Send a Data Word."];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="usart_wait_send_ready",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__file.html#gab575fd7d6b2dcb6e5419ae75169503ea",tooltip="USART Wait for Transmit Data Buffer Empty."];
+  Node3 [label="usart_wait_send_ready",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html#gab575fd7d6b2dcb6e5419ae75169503ea",tooltip="USART Wait for Transmit Data Buffer Empty."];
 }

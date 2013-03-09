@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('wwdt_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -113,125 +113,19 @@ $(document).ready(function(){initNavTree('wwdt_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">wwdt.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="memorymap_8h_source.html">libopencm3/lpc43xx/memorymap.h</a>&gt;</code><br/>
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for wwdt.h:</div>
-<div class="dyncontent">
-<div class="center"><img src="wwdt_8h__incl.png" border="0" usemap="#wwdt_8h" alt=""/></div>
-<map name="wwdt_8h" id="wwdt_8h">
-</map>
-</div>
-</div>
+
 <p><a href="wwdt_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ad59e3761f34b70dd5d1cfc6b95e58cea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wwdt_8h.html#ad59e3761f34b70dd5d1cfc6b95e58cea">WWDT_MOD</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x000)</td></tr>
-<tr class="memitem:a9eaff9e2530902424b4cd1c0724f64c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wwdt_8h.html#a9eaff9e2530902424b4cd1c0724f64c3">WWDT_TC</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x004)</td></tr>
-<tr class="memitem:acec32868dc8a3329e2144406f79c799f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wwdt_8h.html#acec32868dc8a3329e2144406f79c799f">WWDT_FEED</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x008)</td></tr>
-<tr class="memitem:a3773f3ca95504d7f38f053b2ceafa84c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wwdt_8h.html#a3773f3ca95504d7f38f053b2ceafa84c">WWDT_TV</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x00C)</td></tr>
-<tr class="memitem:afdc6cb26f5ebf54241fc297b7b77ba6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wwdt_8h.html#afdc6cb26f5ebf54241fc297b7b77ba6e">WWDT_WARNINT</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x014)</td></tr>
-<tr class="memitem:aa9c8c4d8d1e3f2779ccc4fa9710e718f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wwdt_8h.html#aa9c8c4d8d1e3f2779ccc4fa9710e718f">WWDT_WINDOW</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x018)</td></tr>
-</table>
-<h2>Macro Definition Documentation</h2>
-<a class="anchor" id="acec32868dc8a3329e2144406f79c799f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WWDT_FEED&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x008)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="wwdt_8h_source.html#l00035">35</a> of file <a class="el" href="wwdt_8h_source.html">wwdt.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad59e3761f34b70dd5d1cfc6b95e58cea"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WWDT_MOD&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="wwdt_8h_source.html#l00029">29</a> of file <a class="el" href="wwdt_8h_source.html">wwdt.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9eaff9e2530902424b4cd1c0724f64c3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WWDT_TC&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x004)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="wwdt_8h_source.html#l00032">32</a> of file <a class="el" href="wwdt_8h_source.html">wwdt.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3773f3ca95504d7f38f053b2ceafa84c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WWDT_TV&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x00C)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="wwdt_8h_source.html#l00038">38</a> of file <a class="el" href="wwdt_8h_source.html">wwdt.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afdc6cb26f5ebf54241fc297b7b77ba6e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WWDT_WARNINT&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x014)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="wwdt_8h_source.html#l00041">41</a> of file <a class="el" href="wwdt_8h_source.html">wwdt.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa9c8c4d8d1e3f2779ccc4fa9710e718f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WWDT_WINDOW&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a2e03465382873f5ec4eb6842d3d7acad">WWDT_BASE</a> + 0x018)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="wwdt_8h_source.html#l00044">44</a> of file <a class="el" href="wwdt_8h_source.html">wwdt.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="wwdt_8h.html">wwdt.h</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:22 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:23 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

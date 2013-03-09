@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('adc_8c.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -119,15 +119,7 @@ $(document).ready(function(){initNavTree('adc_8c.html','');});
 <div class="title">adc.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="adc_8h_source.html">libopencm3/stm32/f1/adc.h</a>&gt;</code><br/>
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for adc.c:</div>
-<div class="dyncontent">
-<div class="center"><img src="adc_8c__incl.png" border="0" usemap="#adc_8c" alt=""/></div>
-<map name="adc_8c" id="adc_8c">
-</map>
-</div>
-</div>
+
 <p><a href="adc_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
@@ -236,6 +228,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaaf0c33fdbed4e8ea63b6c0ee3030d9ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set a Regular Channel Conversion Sequence.  <a href="group__STM32F1xx__adc__file.html#gaaf0c33fdbed4e8ea63b6c0ee3030d9ea"></a><br/></td></tr>
 <tr class="memitem:ga1a7f811f45a7affd09aef0bce17fd213"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx__adc__file.html#ga1a7f811f45a7affd09aef0bce17fd213">adc_set_injected_sequence</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> adc, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> length, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> channel[])</td></tr>
 <tr class="memdesc:ga1a7f811f45a7affd09aef0bce17fd213"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set an Injected Channel Conversion Sequence.  <a href="group__STM32F1xx__adc__file.html#ga1a7f811f45a7affd09aef0bce17fd213"></a><br/></td></tr>
+<tr class="memitem:ga7a46f4564ba3ce1fa78cc8478c88c201"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx__adc__file.html#ga7a46f4564ba3ce1fa78cc8478c88c201">adc_set_continous_conversion_mode</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> adc) __attribute__((alias(&quot;adc_set_continuous_conversion_mode&quot;)))</td></tr>
+<tr class="memitem:gaa31900416a9a3fd7c395f1c60a42a1b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx__adc__file.html#gaa31900416a9a3fd7c395f1c60a42a1b1">adc_set_conversion_time</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> adc, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> channel, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> time) __attribute__((alias(&quot;adc_set_sample_time&quot;)))</td></tr>
+<tr class="memitem:ga5730fa262951ddbab44d629513350cef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx__adc__file.html#ga5730fa262951ddbab44d629513350cef">adc_set_conversion_time_on_all_channels</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> adc, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> time) __attribute__((alias(&quot;adc_set_sample_time_on_all_channels&quot;)))</td></tr>
+<tr class="memitem:ga5ba5d3a7933589c86ae9402ad821e745"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx__adc__file.html#ga5ba5d3a7933589c86ae9402ad821e745">adc_enable_jeoc_interrupt</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> adc) __attribute__((alias(&quot;adc_enable_eoc_interrupt_injected&quot;)))</td></tr>
+<tr class="memitem:gaaa227f236910152ce6256a251052d7ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx__adc__file.html#gaaa227f236910152ce6256a251052d7ce">adc_disable_jeoc_interrupt</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> adc) __attribute__((alias(&quot;adc_disable_eoc_interrupt_injected&quot;)))</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -243,7 +240,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="adc_8c.html">adc.c</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:12 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:12 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

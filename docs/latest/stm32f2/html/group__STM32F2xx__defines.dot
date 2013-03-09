@@ -11,7 +11,8 @@ digraph "STM32F2xx Defines"
   Node6 [label="IWDG Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__iwdg__defines.html",tooltip="Defined Constants and Types for the STM32F2xx Independent Watchdog Timer"];
   Node9 [label="SPI Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__spi__defines.html",tooltip="Defined Constants and Types for the STM32F2xx SPI"];
   Node4 [label="GPIO Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gpio__defines.html",tooltip="Defined Constants and Types for the STM32F2xx General Purpose I/O"];
-  Node10 [label="USART Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html",tooltip="Defined Constants and Types for the STM32F2xx USART"];
+  Node10 [label="Timer Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer__defines.html",tooltip="libopencm3 Defined Constants and Types for the STM32F2xx Timers"];
+  Node11 [label="USART Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html",tooltip="Defined Constants and Types for the STM32F2xx USART"];
   Node8 [label="RTC Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__rtc__defines.html",tooltip="Defined Constants and Types for the STM32F2xx RTC"];
   Node3 [label="DMA Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dma__defines.html",tooltip="Defined Constants and Types for the STM32F2xx DMA Controller."];
   Node0->Node1 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
@@ -24,4 +25,5 @@ digraph "STM32F2xx Defines"
   Node0->Node8 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node9 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node10 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node11 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
 }

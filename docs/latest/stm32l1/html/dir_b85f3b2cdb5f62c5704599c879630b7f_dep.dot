@@ -6,6 +6,4 @@ digraph "/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/" {
     graph [ bgcolor="#ddddee", pencolor="black", label="stm32" fontname="Helvetica", fontsize="10", URL="dir_55eaf1e33010ef6e6239f6fb75078880.html"]
   dir_b85f3b2cdb5f62c5704599c879630b7f [shape=box, label="l1", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b85f3b2cdb5f62c5704599c879630b7f.html"];
   }
-  dir_ead20f0c10569fc5b4f0cc70c3cf6bea [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html"];
-  dir_b85f3b2cdb5f62c5704599c879630b7f->dir_ead20f0c10569fc5b4f0cc70c3cf6bea [headlabel="10", labeldistance=1.5 headhref="dir_000002_000003.html"];
 }

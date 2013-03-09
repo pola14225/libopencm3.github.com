@@ -1,7 +1,5 @@
 var group__dac__file =
 [
-    [ "MASK12", "group__dac__file.html#gaadc521eaef05336daa84e25cfaa8b793", null ],
-    [ "MASK8", "group__dac__file.html#ga0702746ecb6d016a15f759948f39ef69", null ],
     [ "dac_buffer_disable", "group__dac__file.html#ga9fb96b4d44b951974e57c093faed0611", null ],
     [ "dac_buffer_enable", "group__dac__file.html#gae474e0c35329b87c281c933afe656228", null ],
     [ "dac_disable", "group__dac__file.html#ga22d83a8b387dffeed4a134ee25d0fa8b", null ],

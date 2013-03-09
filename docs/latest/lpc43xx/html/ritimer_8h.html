@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('ritimer_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -113,95 +113,19 @@ $(document).ready(function(){initNavTree('ritimer_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">ritimer.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="memorymap_8h_source.html">libopencm3/lpc43xx/memorymap.h</a>&gt;</code><br/>
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for ritimer.h:</div>
-<div class="dyncontent">
-<div class="center"><img src="ritimer_8h__incl.png" border="0" usemap="#ritimer_8h" alt=""/></div>
-<map name="ritimer_8h" id="ritimer_8h">
-</map>
-</div>
-</div>
+
 <p><a href="ritimer_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ae6ae6accfdce25bbc1893d9e94fe3381"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ritimer_8h.html#ae6ae6accfdce25bbc1893d9e94fe3381">RITIMER_COMPVAL</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5d52ff7661e807a6d9400e06e7b1cc0e">RITIMER_BASE</a> + 0x000)</td></tr>
-<tr class="memitem:a1c6e29a29abaa6219b4d65a4ab088432"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ritimer_8h.html#a1c6e29a29abaa6219b4d65a4ab088432">RITIMER_MASK</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5d52ff7661e807a6d9400e06e7b1cc0e">RITIMER_BASE</a> + 0x004)</td></tr>
-<tr class="memitem:a5ca307874701888f1296dbbf7844c865"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ritimer_8h.html#a5ca307874701888f1296dbbf7844c865">RITIMER_CTRL</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5d52ff7661e807a6d9400e06e7b1cc0e">RITIMER_BASE</a> + 0x008)</td></tr>
-<tr class="memitem:a4f7813b383c8457d2cf68ee32f0902af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ritimer_8h.html#a4f7813b383c8457d2cf68ee32f0902af">RITIMER_COUNTER</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5d52ff7661e807a6d9400e06e7b1cc0e">RITIMER_BASE</a> + 0x00C)</td></tr>
-</table>
-<h2>Macro Definition Documentation</h2>
-<a class="anchor" id="ae6ae6accfdce25bbc1893d9e94fe3381"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RITIMER_COMPVAL&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5d52ff7661e807a6d9400e06e7b1cc0e">RITIMER_BASE</a> + 0x000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ritimer_8h_source.html#l00029">29</a> of file <a class="el" href="ritimer_8h_source.html">ritimer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4f7813b383c8457d2cf68ee32f0902af"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RITIMER_COUNTER&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5d52ff7661e807a6d9400e06e7b1cc0e">RITIMER_BASE</a> + 0x00C)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ritimer_8h_source.html#l00038">38</a> of file <a class="el" href="ritimer_8h_source.html">ritimer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5ca307874701888f1296dbbf7844c865"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RITIMER_CTRL&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5d52ff7661e807a6d9400e06e7b1cc0e">RITIMER_BASE</a> + 0x008)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ritimer_8h_source.html#l00035">35</a> of file <a class="el" href="ritimer_8h_source.html">ritimer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1c6e29a29abaa6219b4d65a4ab088432"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RITIMER_MASK&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5d52ff7661e807a6d9400e06e7b1cc0e">RITIMER_BASE</a> + 0x004)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="ritimer_8h_source.html#l00032">32</a> of file <a class="el" href="ritimer_8h_source.html">ritimer.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="ritimer_8h.html">ritimer.h</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:22 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:23 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

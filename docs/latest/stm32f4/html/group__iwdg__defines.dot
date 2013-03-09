@@ -4,6 +4,10 @@ digraph "IWDG Defines"
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir=LR;
   Node1 [label="STM32F4xx Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F4xx__defines.html",tooltip="Defined Constants and Types for the STM32F4xx series."];
+  Node2 [label="IWDG Key Values",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__iwdg__key.html"];
   Node0 [label="IWDG Defines",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node3 [label="IWDG Prescaler divider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__iwdg__prediv.html"];
   Node1->Node0 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
 }

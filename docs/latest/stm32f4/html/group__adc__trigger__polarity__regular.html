@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('group__adc__trigger__polarity__regular
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -108,8 +108,6 @@ $(document).ready(function(){initNavTree('group__adc__trigger__polarity__regular
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">ADC Trigger Polarity</div>  </div>
 <div class="ingroups"><a class="el" href="group__STM32F4xx__adc__defines.html">ADC Defines</a></div></div><!--header-->
@@ -122,78 +120,12 @@ Collaboration diagram for ADC Trigger Polarity:</div>
 </map>
 </td></tr></table></center>
 </div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:gaaadeb615d80f9197825769d096b18d92"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__trigger__polarity__regular.html#gaaadeb615d80f9197825769d096b18d92">ADC_CR2_EXTEN_DISABLED</a>&#160;&#160;&#160;(0x0 &lt;&lt; 28)</td></tr>
-<tr class="memitem:gacc1472ad4e2cbc92711064bd7058fcf1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__trigger__polarity__regular.html#gacc1472ad4e2cbc92711064bd7058fcf1">ADC_CR2_EXTEN_RISING_EDGE</a>&#160;&#160;&#160;(0x1 &lt;&lt; 28)</td></tr>
-<tr class="memitem:ga332879b467baeab7e6d6d55d548fd86e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__trigger__polarity__regular.html#ga332879b467baeab7e6d6d55d548fd86e">ADC_CR2_EXTEN_FALLING_EDGE</a>&#160;&#160;&#160;(0x2 &lt;&lt; 28)</td></tr>
-<tr class="memitem:ga761f876af4b48e4f6776ff3168653366"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__trigger__polarity__regular.html#ga761f876af4b48e4f6776ff3168653366">ADC_CR2_EXTEN_BOTH_EDGES</a>&#160;&#160;&#160;(0x3 &lt;&lt; 28)</td></tr>
-</table>
-<a name="details" id="details"></a><h2>Detailed Description</h2>
-<h2>Macro Definition Documentation</h2>
-<a class="anchor" id="ga761f876af4b48e4f6776ff3168653366"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR2_EXTEN_BOTH_EDGES&#160;&#160;&#160;(0x3 &lt;&lt; 28)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00330">330</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="gaaadeb615d80f9197825769d096b18d92"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR2_EXTEN_DISABLED&#160;&#160;&#160;(0x0 &lt;&lt; 28)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00327">327</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga332879b467baeab7e6d6d55d548fd86e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR2_EXTEN_FALLING_EDGE&#160;&#160;&#160;(0x2 &lt;&lt; 28)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00329">329</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="gacc1472ad4e2cbc92711064bd7058fcf1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR2_EXTEN_RISING_EDGE&#160;&#160;&#160;(0x1 &lt;&lt; 28)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00328">328</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:16 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

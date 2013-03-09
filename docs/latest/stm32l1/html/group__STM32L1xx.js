@@ -8,5 +8,6 @@ var group__STM32L1xx =
     [ "PWR", "group__pwr-file.html", "group__pwr-file" ],
     [ "RTC", "group__rtc__file.html", "group__rtc__file" ],
     [ "SPI", "group__spi__file.html", "group__spi__file" ],
+    [ "Timers", "group__timer__file.html", "group__timer__file" ],
     [ "USART", "group__usart__file.html", "group__usart__file" ]
 ];

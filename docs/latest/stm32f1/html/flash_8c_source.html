@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -141,67 +141,67 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="flash_8c.html#a1f646323f7860901e86ca15027838396">   23</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a3dcb91a73f8857782fb75bdec01819a9">flash_prefetch_buffer_enable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> |= <a class="code" href="flash_8h.html#a5285ab198307213dce0629f9b7c6fc86">FLASH_ACR_PRFTBE</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        FLASH_ACR |= FLASH_ACR_PRFTBE;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="flash_8c.html#a2628cc1edfc44b2decb15d989f6c79ec">   28</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a2628cc1edfc44b2decb15d989f6c79ec">flash_prefetch_buffer_disable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> &amp;= ~<a class="code" href="flash_8h.html#a5285ab198307213dce0629f9b7c6fc86">FLASH_ACR_PRFTBE</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        FLASH_ACR &amp;= ~FLASH_ACR_PRFTBE;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="flash_8c.html#ad1bac4f23619580572e4d2d1c947c8b8">   33</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#ad1bac4f23619580572e4d2d1c947c8b8">flash_halfcycle_enable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> |= <a class="code" href="flash_8h.html#a6e66d0fa94c019e9c27a3d79e8228cd9">FLASH_ACR_HLFCYA</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        FLASH_ACR |= FLASH_ACR_HLFCYA;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="code" href="flash_8c.html#a8b840fef744d2ba6c4b7108256ec082a">   38</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a8b840fef744d2ba6c4b7108256ec082a">flash_halfcycle_disable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> &amp;= ~<a class="code" href="flash_8h.html#a6e66d0fa94c019e9c27a3d79e8228cd9">FLASH_ACR_HLFCYA</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        FLASH_ACR &amp;= ~FLASH_ACR_HLFCYA;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
 <div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="flash_8c.html#a66164f6799767f17d6f6e845c4c5039e">   43</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a66164f6799767f17d6f6e845c4c5039e">flash_set_ws</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> ws)</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        reg32 = <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        reg32 = FLASH_ACR;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        reg32 &amp;= ~((1 &lt;&lt; 0) | (1 &lt;&lt; 1) | (1 &lt;&lt; 2));</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        reg32 |= ws;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> = reg32;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        FLASH_ACR = reg32;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="flash_8c.html#a4da79f8ffb9ed9576ca165e74f496dbe">   53</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a4da79f8ffb9ed9576ca165e74f496dbe">flash_unlock</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">/* Clear the unlock state. */</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#ab25f1fa4127fa015361b61a6f3180784">FLASH_CR_LOCK</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        FLASH_CR |= FLASH_CR_LOCK;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">/* Authorize the FPEC access. */</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="flash_8h.html#a2973b6c10e5a02be98c7917ab8d57f6e">FLASH_KEYR</a> = <a class="code" href="flash_8h.html#af75755c3dd5d4157820e95378ae7bb47">FLASH_KEYR_KEY1</a>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="flash_8h.html#a2973b6c10e5a02be98c7917ab8d57f6e">FLASH_KEYR</a> = <a class="code" href="flash_8h.html#acb42e782d41d363a3bc986d45962f2ac">FLASH_KEYR_KEY2</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        FLASH_KEYR = FLASH_KEYR_KEY1;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        FLASH_KEYR = FLASH_KEYR_KEY2;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
 <div class="line"><a name="l00063"></a><span class="lineno"><a class="code" href="flash_8c.html#acd9e0d8e9f52bd1c65fda2ce553f7600">   63</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#acd9e0d8e9f52bd1c65fda2ce553f7600">flash_lock</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#ab25f1fa4127fa015361b61a6f3180784">FLASH_CR_LOCK</a>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        FLASH_CR |= FLASH_CR_LOCK;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
 <div class="line"><a name="l00068"></a><span class="lineno"><a class="code" href="flash_8c.html#a8b028c13f819606dfb542931cc87c22e">   68</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a8b028c13f819606dfb542931cc87c22e">flash_clear_pgerr_flag</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;{</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="flash_8h.html#a2899915141a0fbc7a0c6bfa34e04b2fe">FLASH_SR</a> |= <a class="code" href="flash_8h.html#a60f40ca765714598a62aa216a5ccd8e4">FLASH_SR_PGERR</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        FLASH_SR |= FLASH_SR_PGERR;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
 <div class="line"><a name="l00073"></a><span class="lineno"><a class="code" href="flash_8c.html#a824b51d54d30e1ab5e3c47f4bc8b3031">   73</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a824b51d54d30e1ab5e3c47f4bc8b3031">flash_clear_eop_flag</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="flash_8h.html#a2899915141a0fbc7a0c6bfa34e04b2fe">FLASH_SR</a> |= <a class="code" href="flash_8h.html#ae1301c6b487cfefa247c54a576a0c12b">FLASH_SR_EOP</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        FLASH_SR |= FLASH_SR_EOP;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
 <div class="line"><a name="l00078"></a><span class="lineno"><a class="code" href="flash_8c.html#a9c1b3869d9a031db08c634e7f8a396bb">   78</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a9c1b3869d9a031db08c634e7f8a396bb">flash_clear_wrprterr_flag</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="flash_8h.html#a2899915141a0fbc7a0c6bfa34e04b2fe">FLASH_SR</a> |= <a class="code" href="flash_8h.html#a2e403606e5ac23cb07701aeebc1f73e5">FLASH_SR_WRPRTERR</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        FLASH_SR |= FLASH_SR_WRPRTERR;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="line"><a name="l00083"></a><span class="lineno"><a class="code" href="flash_8c.html#a37dfda93743e7b6285c3d01a7d519001">   83</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a37dfda93743e7b6285c3d01a7d519001">flash_clear_bsy_flag</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="flash_8h.html#a2899915141a0fbc7a0c6bfa34e04b2fe">FLASH_SR</a> &amp;= ~<a class="code" href="flash_8h.html#a4b86181a96fd2f1cc3828e9d8d83d368">FLASH_SR_BSY</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        FLASH_SR &amp;= ~FLASH_SR_BSY;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
 <div class="line"><a name="l00088"></a><span class="lineno"><a class="code" href="flash_8c.html#a8bf42e68b53ee74583675289608dae65">   88</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a8bf42e68b53ee74583675289608dae65">flash_clear_status_flags</a>(<span class="keywordtype">void</span>)</div>
@@ -215,13 +215,13 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div class="line"><a name="l00096"></a><span class="lineno"><a class="code" href="flash_8c.html#a5458fca5ecb9ec90b21bebbb64c861c4">   96</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a5458fca5ecb9ec90b21bebbb64c861c4">flash_unlock_option_bytes</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;{</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="comment">/* F1 uses same keys for flash and option */</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="flash_8h.html#ad6329e3fdd2b67f6f6492ccd5078712f">FLASH_OPTKEYR</a> = <a class="code" href="flash_8h.html#af75755c3dd5d4157820e95378ae7bb47">FLASH_KEYR_KEY1</a>;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <a class="code" href="flash_8h.html#ad6329e3fdd2b67f6f6492ccd5078712f">FLASH_OPTKEYR</a> = <a class="code" href="flash_8h.html#acb42e782d41d363a3bc986d45962f2ac">FLASH_KEYR_KEY2</a>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        FLASH_OPTKEYR = FLASH_KEYR_KEY1;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        FLASH_OPTKEYR = FLASH_KEYR_KEY2;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
 <div class="line"><a name="l00103"></a><span class="lineno"><a class="code" href="flash_8c.html#a72ce389bb20296771479ace8cdb62dff">  103</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">while</span> ((<a class="code" href="flash_8h.html#a2899915141a0fbc7a0c6bfa34e04b2fe">FLASH_SR</a> &amp; <a class="code" href="flash_8h.html#a4b86181a96fd2f1cc3828e9d8d83d368">FLASH_SR_BSY</a>) == FLASH_SR_BSY)</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">while</span> ((FLASH_SR &amp; FLASH_SR_BSY) == FLASH_SR_BSY)</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                ;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
@@ -231,7 +231,7 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="comment">/* Enable writes to flash. */</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#a47754b39bd7a7c79c251d6376f97f661">FLASH_CR_PG</a>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="comment">/* Program the first half of the word. */</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        (*(<span class="keyword">volatile</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> *)address) = (<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>)data;</div>
@@ -246,69 +246,69 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="comment">/* Disable writes to flash. */</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> &amp;= ~<a class="code" href="flash_8h.html#a47754b39bd7a7c79c251d6376f97f661">FLASH_CR_PG</a>;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
 <div class="line"><a name="l00133"></a><span class="lineno"><a class="code" href="flash_8c.html#a1312105c3432840482d6678ef841e9e2">  133</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a1312105c3432840482d6678ef841e9e2">flash_program_half_word</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> data)</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#a47754b39bd7a7c79c251d6376f97f661">FLASH_CR_PG</a>;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        (*(<span class="keyword">volatile</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> *)address) = data;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> &amp;= ~<a class="code" href="flash_8h.html#a47754b39bd7a7c79c251d6376f97f661">FLASH_CR_PG</a>;               <span class="comment">/* Disable the PG bit. */</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;               <span class="comment">/* Disable the PG bit. */</span></div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;}</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
 <div class="line"><a name="l00146"></a><span class="lineno"><a class="code" href="flash_8c.html#a002e6ac054e5086830d0e686672b161b">  146</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a002e6ac054e5086830d0e686672b161b">flash_erase_page</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> page_address)</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;{</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#ad845355ade49d56cf70ad0ff09595a23">FLASH_CR_PER</a>;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <a class="code" href="flash_8h.html#a1472d15c64a505e4da185ab2779aadfc">FLASH_AR</a> = page_address;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#afe4dd28134f93f52b1d4ec5b36a99864">FLASH_CR_STRT</a>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        FLASH_CR |= FLASH_CR_PER;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        FLASH_AR = page_address;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        FLASH_CR |= FLASH_CR_STRT;</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> &amp;= ~<a class="code" href="flash_8h.html#ad845355ade49d56cf70ad0ff09595a23">FLASH_CR_PER</a>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PER;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;}</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
 <div class="line"><a name="l00158"></a><span class="lineno"><a class="code" href="flash_8c.html#af1804e22fb8a901f3a5f85535aa1ff7b">  158</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#af1804e22fb8a901f3a5f85535aa1ff7b">flash_erase_all_pages</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;{</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#a4a287aa5a625125301306a02fb69c53a">FLASH_CR_MER</a>;               <span class="comment">/* Enable mass erase. */</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#afe4dd28134f93f52b1d4ec5b36a99864">FLASH_CR_STRT</a>;              <span class="comment">/* Trigger the erase. */</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        FLASH_CR |= FLASH_CR_MER;               <span class="comment">/* Enable mass erase. */</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        FLASH_CR |= FLASH_CR_STRT;              <span class="comment">/* Trigger the erase. */</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> &amp;= ~<a class="code" href="flash_8h.html#a4a287aa5a625125301306a02fb69c53a">FLASH_CR_MER</a>;              <span class="comment">/* Disable mass erase. */</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_MER;              <span class="comment">/* Disable mass erase. */</span></div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
 <div class="line"><a name="l00169"></a><span class="lineno"><a class="code" href="flash_8c.html#a6242ed6be7838125093c9b8b6adeeca1">  169</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a6242ed6be7838125093c9b8b6adeeca1">flash_erase_option_bytes</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> &amp; <a class="code" href="flash_8h.html#a27d44bc9617cc430de9413b385dfe0c3">FLASH_CR_OPTWRE</a>) == 0)</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">if</span> ((FLASH_CR &amp; FLASH_CR_OPTWRE) == 0)</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <a class="code" href="flash_8h.html#a5458fca5ecb9ec90b21bebbb64c861c4">flash_unlock_option_bytes</a>();</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#a19fbf5dc4339b1ec8630675f03ad6fe0">FLASH_CR_OPTER</a>;     <span class="comment">/* Enable option byte erase. */</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#afe4dd28134f93f52b1d4ec5b36a99864">FLASH_CR_STRT</a>;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        FLASH_CR |= FLASH_CR_OPTER;     <span class="comment">/* Enable option byte erase. */</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        FLASH_CR |= FLASH_CR_STRT;</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> &amp;= ~<a class="code" href="flash_8h.html#a19fbf5dc4339b1ec8630675f03ad6fe0">FLASH_CR_OPTER</a>;    <span class="comment">/* Disable option byte erase. */</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_OPTER;    <span class="comment">/* Disable option byte erase. */</span></div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
 <div class="line"><a name="l00182"></a><span class="lineno"><a class="code" href="flash_8c.html#ad617eda1ad9c5e6e6766d4aea700df5b">  182</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#ad617eda1ad9c5e6e6766d4aea700df5b">flash_program_option_bytes</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> data)</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;{</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> &amp; <a class="code" href="flash_8h.html#a27d44bc9617cc430de9413b385dfe0c3">FLASH_CR_OPTWRE</a>) == 0)</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">if</span> ((FLASH_CR &amp; FLASH_CR_OPTWRE) == 0)</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                <a class="code" href="flash_8h.html#a5458fca5ecb9ec90b21bebbb64c861c4">flash_unlock_option_bytes</a>();</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> |= <a class="code" href="flash_8h.html#a6736a5478a87f35a6a0cb66d8784a5ab">FLASH_CR_OPTPG</a>;     <span class="comment">/* Enable option byte programming. */</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        FLASH_CR |= FLASH_CR_OPTPG;     <span class="comment">/* Enable option byte programming. */</span></div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        (*(<span class="keyword">volatile</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> *)address) = data;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <a class="code" href="flash_8h.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <a class="code" href="flash_8h.html#a900ab18dd1277874aca0524b9a482fe0">FLASH_CR</a> &amp;= ~<a class="code" href="flash_8h.html#a6736a5478a87f35a6a0cb66d8784a5ab">FLASH_CR_OPTPG</a>;    <span class="comment">/* Disable option byte programming. */</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_OPTPG;    <span class="comment">/* Disable option byte programming. */</span></div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -316,7 +316,7 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="flash_8c.html">flash.c</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:12 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:12 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

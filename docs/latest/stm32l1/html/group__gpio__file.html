@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('group__gpio__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -179,14 +179,12 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00055">55</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio_8h_source.html#l00115">GPIO_BSRR</a>.</p>
 
 </div>
 </div>
@@ -218,7 +216,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be read, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be read, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -268,14 +266,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be locked, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be locked, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00125">125</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio_8h_source.html#l00213">GPIO_LCKK</a>, and <a class="el" href="gpio_8h_source.html#l00124">GPIO_LCKR</a>.</p>
 
 </div>
 </div>
@@ -304,8 +300,6 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>Unsigned int16. The value held in the specified GPIO port. </dd></dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00097">97</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio_8h_source.html#l00097">GPIO_IDR</a>.</p>
 
 <p>Referenced by <a class="el" href="gpio__common__all_8c_source.html#l00069">gpio_get()</a>.</p>
 
@@ -356,8 +350,6 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00110">110</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00106">GPIO_ODR</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga570d0f02cc0784882629bf4580b41e5b"></a>
@@ -389,14 +381,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00041">41</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio_8h_source.html#l00115">GPIO_BSRR</a>.</p>
 
 </div>
 </div>
@@ -429,14 +419,12 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00083">83</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio_8h_source.html#l00106">GPIO_ODR</a>.</p>
 
 </div>
 </div>
@@ -445,7 +433,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:11 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:11 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

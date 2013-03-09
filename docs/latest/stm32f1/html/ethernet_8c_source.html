@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('ethernet_8c_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -141,33 +141,33 @@ $(document).ready(function(){initNavTree('ethernet_8c_source.html','');});
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="ethernet_8c.html#aa86180bb46fa3bf02f6fe6024e87b455">   22</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="ethernet_8h.html#a358a8e7e3ade9e72efae8f2d2e331188">eth_smi_write</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> phy, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> reg, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> data)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="comment">/* Set PHY and register addresses for write access. */</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a> &amp;= ~(<a class="code" href="ethernet_8h.html#aa2ab5db007b55dca29e98ba3b31f7e66">ETH_MACMIIAR_MR</a> | <a class="code" href="ethernet_8h.html#a712f44a77db4edfaf961e469153e34a4">ETH_MACMIIAR_PA</a>);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a> |= (phy &lt;&lt; 11) | (reg &lt;&lt; 6) | <a class="code" href="ethernet_8h.html#affdb940b35822107a5959cdd1ab06482">ETH_MACMIIAR_MW</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        ETH_MACMIIAR &amp;= ~(ETH_MACMIIAR_MR | ETH_MACMIIAR_PA);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        ETH_MACMIIAR |= (phy &lt;&lt; 11) | (reg &lt;&lt; 6) | ETH_MACMIIAR_MW;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="comment">/* Set register value. */</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="ethernet_8h.html#a7485dfc36920079da073f0f3b5301e84">ETH_MACMIIDR</a> = data;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        ETH_MACMIIDR = data;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="comment">/* Begin transaction. */</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a> |= <a class="code" href="ethernet_8h.html#a4e3bd36fdbb97a3ec5b541997bf952aa">ETH_MACMIIAR_MB</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        ETH_MACMIIAR |= ETH_MACMIIAR_MB;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="comment">/* Wait for not busy. */</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a> &amp; <a class="code" href="ethernet_8h.html#a4e3bd36fdbb97a3ec5b541997bf952aa">ETH_MACMIIAR_MB</a>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">while</span> (ETH_MACMIIAR &amp; ETH_MACMIIAR_MB);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="code" href="ethernet_8c.html#af1bc3c2c0fe0625f8a029393b3f9408a">   38</a></span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> <a class="code" href="ethernet_8h.html#af1bc3c2c0fe0625f8a029393b3f9408a">eth_smi_read</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> phy, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> reg)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="comment">/* Set PHY and register addresses for write access. */</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a> &amp;= ~(<a class="code" href="ethernet_8h.html#aa2ab5db007b55dca29e98ba3b31f7e66">ETH_MACMIIAR_MR</a> | <a class="code" href="ethernet_8h.html#a712f44a77db4edfaf961e469153e34a4">ETH_MACMIIAR_PA</a> | <a class="code" href="ethernet_8h.html#affdb940b35822107a5959cdd1ab06482">ETH_MACMIIAR_MW</a>);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a> |= (phy &lt;&lt; 11) | (reg &lt;&lt; 6);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        ETH_MACMIIAR &amp;= ~(ETH_MACMIIAR_MR | ETH_MACMIIAR_PA | ETH_MACMIIAR_MW);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        ETH_MACMIIAR |= (phy &lt;&lt; 11) | (reg &lt;&lt; 6);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="comment">/* Begin transaction. */</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a> |= <a class="code" href="ethernet_8h.html#a4e3bd36fdbb97a3ec5b541997bf952aa">ETH_MACMIIAR_MB</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        ETH_MACMIIAR |= ETH_MACMIIAR_MB;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">/* Wait for not busy. */</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a> &amp; <a class="code" href="ethernet_8h.html#a4e3bd36fdbb97a3ec5b541997bf952aa">ETH_MACMIIAR_MB</a>);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">while</span> (ETH_MACMIIAR &amp; ETH_MACMIIAR_MB);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">/* Set register value. */</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> (<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>)(<a class="code" href="ethernet_8h.html#a7485dfc36920079da073f0f3b5301e84">ETH_MACMIIDR</a>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> (<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>)(ETH_MACMIIDR);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -175,7 +175,7 @@ $(document).ready(function(){initNavTree('ethernet_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="ethernet_8c.html">ethernet.c</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:12 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:12 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

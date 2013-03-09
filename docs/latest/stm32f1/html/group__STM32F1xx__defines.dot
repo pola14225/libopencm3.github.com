@@ -11,9 +11,10 @@ digraph "STM32F1xx Defines"
   Node7 [label="IWDG Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__iwdg__defines.html",tooltip="Defined Constants and Types for the STM32F1xx Independent Watchdog Timer"];
   Node11 [label="SPI Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__spi__defines.html",tooltip="Defined Constants and Types for the STM32F1xx SPI"];
   Node5 [label="GPIO Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gpio__defines.html",tooltip="Defined Constants and Types for the STM32F1xx General Purpose I/O"];
+  Node12 [label="Timer Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer__defines.html",tooltip="libopencm3 Defined Constants and Types for the STM32F1xx Timers"];
   Node9 [label="RCC Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__STM32F1xx__rcc__defines.html",tooltip="libopencm3 STM32F1xx Reset and Clock Control"];
   Node1 [label="ADC Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__adc__defines.html",tooltip="Defined Constants and Types for the STM32F1xx Analog to Digital Converters"];
-  Node12 [label="USART Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html",tooltip="Defined Constants and Types for the STM32F1xx USART"];
+  Node13 [label="USART Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__usart__defines.html",tooltip="Defined Constants and Types for the STM32F1xx USART"];
   Node10 [label="RTC Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__rtc__defines.html",tooltip="Defined Constants and Types for the STM32F1xx Real Time Clock"];
   Node4 [label="DMA Defines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dma__defines.html",tooltip="Defined Constants and Types for the STM32F1xx DMA Controller."];
   Node0->Node1 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
@@ -28,4 +29,5 @@ digraph "STM32F1xx Defines"
   Node0->Node10 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node11 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
   Node0->Node12 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
+  Node0->Node13 [shape=plaintext, color="midnightblue", dir="back", style="solid"];
 }

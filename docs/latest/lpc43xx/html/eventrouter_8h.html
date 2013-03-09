@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('eventrouter_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -113,155 +113,19 @@ $(document).ready(function(){initNavTree('eventrouter_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">eventrouter.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="memorymap_8h_source.html">libopencm3/lpc43xx/memorymap.h</a>&gt;</code><br/>
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for eventrouter.h:</div>
-<div class="dyncontent">
-<div class="center"><img src="eventrouter_8h__incl.png" border="0" usemap="#eventrouter_8h" alt=""/></div>
-<map name="eventrouter_8h" id="eventrouter_8h">
-</map>
-</div>
-</div>
+
 <p><a href="eventrouter_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a45aed8afbef7e2dfb49727a5bdfda8ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrouter_8h.html#a45aed8afbef7e2dfb49727a5bdfda8ec">EVENTROUTER_HILO</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0x000)</td></tr>
-<tr class="memitem:aff10d8b525609e09b80cd2d502c1d25d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrouter_8h.html#aff10d8b525609e09b80cd2d502c1d25d">EVENTROUTER_EDGE</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0x004)</td></tr>
-<tr class="memitem:ab7fcc9f1d59e2bea926170ea21a5739c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrouter_8h.html#ab7fcc9f1d59e2bea926170ea21a5739c">EVENTROUTER_CLR_EN</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFD8)</td></tr>
-<tr class="memitem:a6e8a4351f50915a9129a175c073a3f7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrouter_8h.html#a6e8a4351f50915a9129a175c073a3f7b">EVENTROUTER_ET_EN</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFDC)</td></tr>
-<tr class="memitem:a5ea66dd212afd08f012b321843d94ec3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrouter_8h.html#a5ea66dd212afd08f012b321843d94ec3">EVENTROUTER_STATUS</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFE0)</td></tr>
-<tr class="memitem:a04d8c5a90415a1de6d68fbdcc2d0e90f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrouter_8h.html#a04d8c5a90415a1de6d68fbdcc2d0e90f">EVENTROUTER_ENABLE</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFE4)</td></tr>
-<tr class="memitem:a553d3bf99d90a1fc5027df2fcd7a19f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrouter_8h.html#a553d3bf99d90a1fc5027df2fcd7a19f8">EVENTROUTER_CLR_STAT</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFE8)</td></tr>
-<tr class="memitem:a9aeca7fd1e7c4c7bb6641298c0a96a0e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eventrouter_8h.html#a9aeca7fd1e7c4c7bb6641298c0a96a0e">EVENTROUTER_SET_STAT</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFEC)</td></tr>
-</table>
-<h2>Macro Definition Documentation</h2>
-<a class="anchor" id="ab7fcc9f1d59e2bea926170ea21a5739c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENTROUTER_CLR_EN&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFD8)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="eventrouter_8h_source.html#l00035">35</a> of file <a class="el" href="eventrouter_8h_source.html">eventrouter.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a553d3bf99d90a1fc5027df2fcd7a19f8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENTROUTER_CLR_STAT&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFE8)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="eventrouter_8h_source.html#l00047">47</a> of file <a class="el" href="eventrouter_8h_source.html">eventrouter.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aff10d8b525609e09b80cd2d502c1d25d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENTROUTER_EDGE&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0x004)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="eventrouter_8h_source.html#l00032">32</a> of file <a class="el" href="eventrouter_8h_source.html">eventrouter.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a04d8c5a90415a1de6d68fbdcc2d0e90f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENTROUTER_ENABLE&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFE4)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="eventrouter_8h_source.html#l00044">44</a> of file <a class="el" href="eventrouter_8h_source.html">eventrouter.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6e8a4351f50915a9129a175c073a3f7b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENTROUTER_ET_EN&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFDC)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="eventrouter_8h_source.html#l00038">38</a> of file <a class="el" href="eventrouter_8h_source.html">eventrouter.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a45aed8afbef7e2dfb49727a5bdfda8ec"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENTROUTER_HILO&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0x000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="eventrouter_8h_source.html#l00029">29</a> of file <a class="el" href="eventrouter_8h_source.html">eventrouter.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9aeca7fd1e7c4c7bb6641298c0a96a0e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENTROUTER_SET_STAT&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFEC)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="eventrouter_8h_source.html#l00050">50</a> of file <a class="el" href="eventrouter_8h_source.html">eventrouter.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5ea66dd212afd08f012b321843d94ec3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENTROUTER_STATUS&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">EVENTROUTER_BASE</a> + 0xFE0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="eventrouter_8h_source.html#l00041">41</a> of file <a class="el" href="eventrouter_8h_source.html">eventrouter.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="eventrouter_8h.html">eventrouter.h</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:22 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:23 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

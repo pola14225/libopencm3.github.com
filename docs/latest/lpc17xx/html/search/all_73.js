@@ -3,8 +3,6 @@ var searchData=
   ['systick_20defines',['SysTick Defines',['../../../cm3/html/group__CM3__systick__defines.html',1,'']]],
   ['scb_2eh',['scb.h',['../../../cm3/html/scb_8h.html',1,'']]],
   ['scs_2eh',['scs.h',['../../../cm3/html/scs_8h.html',1,'']]],
-  ['spi_5fbase',['SPI_BASE',['../memorymap_8h.html#a4a3757b6bf87a9402b4cc6ff355dd015',1,'memorymap.h']]],
-  ['ssp1_5fbase',['SSP1_BASE',['../memorymap_8h.html#ac071f483e44c2839bce3691134e35122',1,'memorymap.h']]],
   ['sv_5fcall',['sv_call',['../../../cm3/html/structvector__table__t.html#ace5b229bd0e04cbc018c8457168640a4',1,'vector_table_t']]],
   ['sv_5fcall_5fhandler',['sv_call_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,]]],
   ['sys_5ftick_5fhandler',['sys_tick_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,]]],

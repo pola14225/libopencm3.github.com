@@ -32,8 +32,7 @@ var NAVTREE =
         [ "Functions", "globals_func.html", "globals_func" ],
         [ "Variables", "globals_vars.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "Enumerator", "globals_eval.html", null ]
       ] ]
     ] ]
   ] ]
@@ -42,12 +41,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"gpio_8h.html#ga08db1d3769d2fe400cffb74e32b67a9f",
-"group__STM32L1xx__rcc__defines.html#ga81ce757b20164fa21501b15fd91c9691",
-"group__gpio__defines.html#ga2feba6285ccd987896fe1bba82990add",
-"group__usart__file.html",
-"rcc_8h.html#ga144b5147f3a8d0bfda04618e301986aa",
-"rcc_8h.html#gaf6a53d37df11a56412ae06f73626f637"
+"globals_func_0x74.html",
+"group__gpio__port__id.html",
+"group__timer__defines.html#ga125f353468205ae4fe68e86776562b27",
+"group__usart__file.html#gac2078990ee718355fb6eca50658a38c4",
+"rtc__common__bcd_8h.html#ga28b448062099ceb6ab758b85d1ddb785",
+"timer__common__all_8h.html#ga74bf7c73490501c48ca3d4d37836ba8b"
 ];
 
 var navTreeSubIndices = new Array();

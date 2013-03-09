@@ -8,5 +8,6 @@ var group__STM32F2xx =
     [ "IWDG", "group__iwdg__file.html", "group__iwdg__file" ],
     [ "RTC", "group__rtc__file.html", "group__rtc__file" ],
     [ "SPI", "group__spi__file.html", "group__spi__file" ],
+    [ "Timers", "group__timer__file.html", "group__timer__file" ],
     [ "USART", "group__usart__file.html", "group__usart__file" ]
 ];

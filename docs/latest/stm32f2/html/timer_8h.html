@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('timer_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,265 +114,19 @@ $(document).ready(function(){initNavTree('timer_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">timer.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;libopencm3/stm32/timer.h&gt;</code><br/>
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for timer.h:</div>
-<div class="dyncontent">
-<div class="center"><img src="timer_8h__incl.png" border="0" usemap="#timer_8h" alt=""/></div>
-<map name="timer_8h" id="timer_8h">
-</map>
-</div>
-</div>
+
 <p><a href="timer_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a771caff3f9ee766b27e3658e24629d58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">TIM_OR</a>(tim_base)&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(tim_base + 0x50)</td></tr>
-<tr class="memitem:a1d0a9ed79cfba2ccd0606a8a887224af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a1d0a9ed79cfba2ccd0606a8a887224af">TIM2_OR</a>&#160;&#160;&#160;<a class="el" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">TIM_OR</a>(TIM2)</td></tr>
-<tr class="memitem:a3aaf7dce11ea38ad4ef20b340f1eea6b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a3aaf7dce11ea38ad4ef20b340f1eea6b">TIM5_OR</a>&#160;&#160;&#160;<a class="el" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">TIM_OR</a>(TIM5)</td></tr>
-<tr class="memitem:a0ab04b7bc20143bac1a36499bda10644"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a0ab04b7bc20143bac1a36499bda10644">TIM2_OR_ITR1_RMP_TIM8_TRGOU</a>&#160;&#160;&#160;(0x0 &lt;&lt; 10)</td></tr>
-<tr class="memitem:a5bf824a2828c43461d53e9fcb159a89f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a5bf824a2828c43461d53e9fcb159a89f">TIM2_OR_ITR1_RMP_PTP</a>&#160;&#160;&#160;(0x1 &lt;&lt; 10)</td></tr>
-<tr class="memitem:a202633e8bd465fb1889254b27181e8b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a202633e8bd465fb1889254b27181e8b5">TIM2_OR_ITR1_RMP_OTG_FS_SOF</a>&#160;&#160;&#160;(0x2 &lt;&lt; 10)</td></tr>
-<tr class="memitem:afbd068b523fbe3cf9b1c7a98c2722128"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#afbd068b523fbe3cf9b1c7a98c2722128">TIM2_OR_ITR1_RMP_OTG_HS_SOF</a>&#160;&#160;&#160;(0x3 &lt;&lt; 10)</td></tr>
-<tr class="memitem:af591b81e48b0ae5d4787621412ed548e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#af591b81e48b0ae5d4787621412ed548e">TIM2_OR_ITR1_RMP_MASK</a>&#160;&#160;&#160;(0x3 &lt;&lt; 10)</td></tr>
-<tr class="memitem:a11dce0895f418ed17fdd2cee508fc6a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a11dce0895f418ed17fdd2cee508fc6a1">TIM5_OR_TI4_RMP_GPIO</a>&#160;&#160;&#160;(0x0 &lt;&lt; 6)</td></tr>
-<tr class="memitem:a96f1c26e5b7757e8eb8cf309fff93bef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a96f1c26e5b7757e8eb8cf309fff93bef">TIM5_OR_TI4_RMP_LSI</a>&#160;&#160;&#160;(0x1 &lt;&lt; 6)</td></tr>
-<tr class="memitem:a4bab55801b72e7629b328d0c12a2fb46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a4bab55801b72e7629b328d0c12a2fb46">TIM5_OR_TI4_RMP_LSE</a>&#160;&#160;&#160;(0x2 &lt;&lt; 6)</td></tr>
-<tr class="memitem:a4a2f3e05fae7789e304b052aa4cfecf3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a4a2f3e05fae7789e304b052aa4cfecf3">TIM5_OR_TI4_RMP_RTC</a>&#160;&#160;&#160;(0x3 &lt;&lt; 6)</td></tr>
-<tr class="memitem:a67abf10187b03aa51ba6da8fc23b7528"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a67abf10187b03aa51ba6da8fc23b7528">TIM5_OR_TI4_RMP_MASK</a>&#160;&#160;&#160;(0x3 &lt;&lt; 6)</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a042ad9645f1a67ae7e3aedcde9b26868"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8h.html#a042ad9645f1a67ae7e3aedcde9b26868">timer_set_option</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> option)</td></tr>
-</table>
-<h2>Macro Definition Documentation</h2>
-<a class="anchor" id="a1d0a9ed79cfba2ccd0606a8a887224af"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM2_OR&#160;&#160;&#160;<a class="el" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">TIM_OR</a>(TIM2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00032">32</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af591b81e48b0ae5d4787621412ed548e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM2_OR_ITR1_RMP_MASK&#160;&#160;&#160;(0x3 &lt;&lt; 10)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00042">42</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a202633e8bd465fb1889254b27181e8b5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM2_OR_ITR1_RMP_OTG_FS_SOF&#160;&#160;&#160;(0x2 &lt;&lt; 10)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00040">40</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afbd068b523fbe3cf9b1c7a98c2722128"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM2_OR_ITR1_RMP_OTG_HS_SOF&#160;&#160;&#160;(0x3 &lt;&lt; 10)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00041">41</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5bf824a2828c43461d53e9fcb159a89f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM2_OR_ITR1_RMP_PTP&#160;&#160;&#160;(0x1 &lt;&lt; 10)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00039">39</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0ab04b7bc20143bac1a36499bda10644"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM2_OR_ITR1_RMP_TIM8_TRGOU&#160;&#160;&#160;(0x0 &lt;&lt; 10)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00038">38</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3aaf7dce11ea38ad4ef20b340f1eea6b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM5_OR&#160;&#160;&#160;<a class="el" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">TIM_OR</a>(TIM5)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00033">33</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a11dce0895f418ed17fdd2cee508fc6a1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM5_OR_TI4_RMP_GPIO&#160;&#160;&#160;(0x0 &lt;&lt; 6)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00047">47</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4bab55801b72e7629b328d0c12a2fb46"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM5_OR_TI4_RMP_LSE&#160;&#160;&#160;(0x2 &lt;&lt; 6)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00049">49</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a96f1c26e5b7757e8eb8cf309fff93bef"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM5_OR_TI4_RMP_LSI&#160;&#160;&#160;(0x1 &lt;&lt; 6)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00048">48</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a67abf10187b03aa51ba6da8fc23b7528"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM5_OR_TI4_RMP_MASK&#160;&#160;&#160;(0x3 &lt;&lt; 6)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00051">51</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4a2f3e05fae7789e304b052aa4cfecf3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM5_OR_TI4_RMP_RTC&#160;&#160;&#160;(0x3 &lt;&lt; 6)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00050">50</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a771caff3f9ee766b27e3658e24629d58"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIM_OR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">tim_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(tim_base + 0x50)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="timer_8h_source.html#l00031">31</a> of file <a class="el" href="timer_8h_source.html">timer.h</a>.</p>
-
-</div>
-</div>
-<h2>Function Documentation</h2>
-<a class="anchor" id="a042ad9645f1a67ae7e3aedcde9b26868"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void timer_set_option </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>timer_peripheral</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>option</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_b2ce1f7ead2d66d914db4e5ac397eede.html">f2</a></li><li class="navelem"><a class="el" href="timer_8h.html">timer.h</a></li>
-    <li class="footer">Generated on Thu Mar 7 2013 10:21:15 for libopencm3 by
+    <li class="footer">Generated on Sat Mar 9 2013 06:21:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
