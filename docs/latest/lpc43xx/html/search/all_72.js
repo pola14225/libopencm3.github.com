@@ -5,5 +5,7 @@ var searchData=
   ['reset',['reset',['../../../cm3/html/structvector__table__t.html#adc4942c678a88cab8494a58f80428077',1,'vector_table_t']]],
   ['reset_5fhandler',['reset_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gaa13f582a41a6b190667d0ecd9c31072f',1,]]],
   ['rgu_2eh',['rgu.h',['../rgu_8h.html',1,'']]],
-  ['ritimer_2eh',['ritimer.h',['../ritimer_8h.html',1,'']]]
+  ['reset_20generation_20unit_20defines',['Reset Generation Unit Defines',['../group__rgu__defines.html',1,'']]],
+  ['ritimer_2eh',['ritimer.h',['../ritimer_8h.html',1,'']]],
+  ['repetitive_20interrupt_20timer_20defines',['Repetitive Interrupt Timer Defines',['../group__ritimer__defines.html',1,'']]]
 ];

@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="../../cm3/html/modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../usb/html/modules.html"><span>Generic&#160;USB</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -189,9 +190,9 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__rcc__defines.html#ga8f09204cad649f070887682ed6549ea9" title="Predefined crystal values.">xtal_t</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00117">117</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00118">118</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00440">rcc_sysclk_config()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00442">rcc_sysclk_config()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -221,7 +222,7 @@ Here is the caller graph for this function:</div>
 <p>Disable the internal oscillator. </p>
 <p>Sets the IOSCDIS bit in SYSCTL_RCC, disabling the internal oscillator. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00142">142</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00143">143</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 </div>
 </div>
@@ -242,7 +243,7 @@ Here is the caller graph for this function:</div>
 <p>Disable the main oscillator. </p>
 <p>Sets the IOSCDIS bit in SYSCTL_RCC, disabling the main oscillator. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00132">132</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00133">133</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 </div>
 </div>
@@ -263,7 +264,7 @@ Here is the caller graph for this function:</div>
 <p>Enable the internal oscillator. </p>
 <p>Clears the IOSCDIS bit in SYSCTL_RCC, enabling the internal oscillator. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00162">162</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00163">163</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 </div>
 </div>
@@ -284,9 +285,9 @@ Here is the caller graph for this function:</div>
 <p>Enable the main oscillator. </p>
 <p>Clears the MOSCDIS bit in SYSCTL_RCC, enabling the main oscillator. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00152">152</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00153">153</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00440">rcc_sysclk_config()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00442">rcc_sysclk_config()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -316,9 +317,9 @@ Here is the caller graph for this function:</div>
 <p>Enable the use of SYSCTL_RCC2 register for clock control. </p>
 <p>Enables the USERCC2 bit in SYSCTTL_RCC2. Settings in SYSCTL_RCC2 will override settings in SYSCTL_RCC. This function must be called before other calls to manipulate the clock, as libopencm3 uses the SYSCTL_RCC2 register. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00175">175</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00176">176</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00440">rcc_sysclk_config()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00442">rcc_sysclk_config()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -349,9 +350,9 @@ Here is the caller graph for this function:</div>
 <p>Clear BYPASS2 in SYSCTL_RCC2. The system clock is derived from the PLL clock divided by the divisor specified in SYSDIV2.</p>
 <p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00233">233</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00234">234</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00361">rcc_change_pll_divisor()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00363">rcc_change_pll_divisor()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -382,9 +383,9 @@ Here is the caller graph for this function:</div>
 <p>Set BYPASS2 in SYSCTL_RCC2. The system clock is derived from the oscillator clock divided by the divisor specified in SYSDIV2.</p>
 <p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00247">247</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00248">248</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00361">rcc_change_pll_divisor()</a>, and <a class="el" href="rcc_8c_source.html#l00440">rcc_sysclk_config()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00363">rcc_change_pll_divisor()</a>, and <a class="el" href="rcc_8c_source.html#l00442">rcc_sysclk_config()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -415,7 +416,7 @@ Here is the caller graph for this function:</div>
 <p>Sets the SYSCTL_RCC2_PWRDN2 in SYSCTL_RCC2 to power down the PLL.</p>
 <p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00188">188</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00189">189</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 </div>
 </div>
@@ -437,9 +438,9 @@ Here is the caller graph for this function:</div>
 <p>Clears the PWRDN2 in SYSCTL_RCC2 to power on the PLL.</p>
 <p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00201">201</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00202">202</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00440">rcc_sysclk_config()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00442">rcc_sysclk_config()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -470,9 +471,9 @@ Here is the caller graph for this function:</div>
 <p>Set the clock source for the system clock.</p>
 <p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00214">214</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00215">215</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00440">rcc_sysclk_config()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00442">rcc_sysclk_config()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -510,9 +511,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00271">271</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00272">272</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00361">rcc_change_pll_divisor()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00363">rcc_change_pll_divisor()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -549,7 +550,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__rcc__defines.html#ga13f5e74c594f9314b816fa4e694e9504" title="PWM clock divisor values.">pwm_clkdiv_t</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00292">292</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00293">293</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 </div>
 </div>
@@ -571,7 +572,7 @@ Here is the caller graph for this function:</div>
 <p>Sets the USBPWRDN in SYSCTL_RCC2 to power down the USB PLL.</p>
 <p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00310">310</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00311">311</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 </div>
 </div>
@@ -593,7 +594,7 @@ Here is the caller graph for this function:</div>
 <p>Clears the USBPWRDN in SYSCTL_RCC2 to power on the USB PLL.</p>
 <p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00323">323</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00324">324</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 </div>
 </div>
@@ -614,9 +615,9 @@ Here is the caller graph for this function:</div>
 <p>Wait for main PLL to lock. </p>
 <p>Waits until the LOCK bit in SYSCTL_PLLSTAT is set. This guarantees that the PLL is locked, and ready to use. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00334">334</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00335">335</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00361">rcc_change_pll_divisor()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00363">rcc_change_pll_divisor()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -647,9 +648,9 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment --><p>If write access is desired (i.e. when changing the system clock via the fine-grained mechanisms), then include the following line in your code: </p>
 <div class="fragment"><div class="line"><span class="keyword">extern</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="group__rcc__low__level.html#ga45ac0a3082a27e5d55e718de67fde983" title="System clock frequency.">lm4f_rcc_sysclk_freq</a>;</div>
 </div><!-- fragment --> 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00104">104</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00105">105</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00361">rcc_change_pll_divisor()</a>, <a class="el" href="rcc_8c_source.html#l00380">rcc_get_system_clock_frequency()</a>, and <a class="el" href="rcc_8c_source.html#l00440">rcc_sysclk_config()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00363">rcc_change_pll_divisor()</a>, <a class="el" href="rcc_8c_source.html#l00382">rcc_get_system_clock_frequency()</a>, and <a class="el" href="rcc_8c_source.html#l00442">rcc_sysclk_config()</a>.</p>
 
 </div>
 </div>
@@ -658,7 +659,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Apr 14 2013 15:21:35 for libopencm3 by
+    <li class="footer">Generated on Sun Apr 14 2013 16:21:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

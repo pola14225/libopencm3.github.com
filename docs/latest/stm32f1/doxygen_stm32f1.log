@@ -319,7 +319,7 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1822: warning: argument 'Unsigned' of command @param is not found in the argument list of timer_set_counter(u32 timer_peripheral, u32 count)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1822: warning: The following parameters of timer_set_counter(u32 timer_peripheral, u32 count) are not documented:
   parameter 'count'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/crc_common_all.h:82: warning: The following parameters of crc_calculate_block(u32 *datap, int size) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/crc_common_all.h:84: warning: The following parameters of crc_calculate_block(u32 *datap, int size) are not documented:
   parameter 'size'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1822: warning: argument 'Unsigned' of command @param is not found in the argument list of timer_set_counter(u32 timer_peripheral, u32 count)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1822: warning: The following parameters of timer_set_counter(u32 timer_peripheral, u32 count) are not documented:

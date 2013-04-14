@@ -12,8 +12,8 @@
     <member kind="function">
       <type>void</type>
       <name>gpio_set</name>
-      <anchorfile>gpio_8c.html</anchorfile>
-      <anchor>a570d0f02cc0784882629bf4580b41e5b</anchor>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
       <arglist>(u32 gpioport, u16 gpios)</arglist>
     </member>
   </compound>
@@ -24,8 +24,8 @@
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
-      <anchorfile>gpio_8h.html</anchorfile>
-      <anchor>a4f5f8d2c3d951f1b0138a207c8515db1</anchor>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga4f5f8d2c3d951f1b0138a207c8515db1</anchor>
       <arglist>(u32 gpioport, u16 gpios)</arglist>
     </member>
   </compound>
@@ -43,11 +43,37 @@
     <name>LPC13xx</name>
     <title>LPC13xx</title>
     <filename>group__LPC13xx.html</filename>
+    <subgroup>gpio_file</subgroup>
   </compound>
   <compound kind="group">
     <name>LPC13xx_defines</name>
     <title>LPC13xx Defines</title>
     <filename>group__LPC13xx__defines.html</filename>
+    <subgroup>gpio_defines</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>gpio_defines</name>
+    <title>GPIO Defines</title>
+    <filename>group__gpio__defines.html</filename>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>gpio_set</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga4f5f8d2c3d951f1b0138a207c8515db1</anchor>
+      <arglist>(u32 gpioport, u16 gpios)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>gpio_file</name>
+    <title>GPIO</title>
+    <filename>group__gpio__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
+      <arglist>(u32 gpioport, u16 gpios)</arglist>
+    </member>
   </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/</name>

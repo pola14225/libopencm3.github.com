@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="../../cm3/html/modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../usb/html/modules.html"><span>Generic&#160;USB</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -158,11 +159,11 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00361">361</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00363">363</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8c_source.html#l00104">lm4f_rcc_sysclk_freq</a>, <a class="el" href="rcc_8c_source.html#l00233">rcc_pll_bypass_disable()</a>, <a class="el" href="rcc_8c_source.html#l00247">rcc_pll_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00271">rcc_set_pll_divisor()</a>, and <a class="el" href="rcc_8c_source.html#l00334">rcc_wait_for_pll_ready()</a>.</p>
+<p>References <a class="el" href="rcc_8c_source.html#l00105">lm4f_rcc_sysclk_freq</a>, <a class="el" href="rcc_8c_source.html#l00234">rcc_pll_bypass_disable()</a>, <a class="el" href="rcc_8c_source.html#l00248">rcc_pll_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00272">rcc_set_pll_divisor()</a>, and <a class="el" href="rcc_8c_source.html#l00335">rcc_wait_for_pll_ready()</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00440">rcc_sysclk_config()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00442">rcc_sysclk_config()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -201,9 +202,9 @@ Here is the caller graph for this function:</div>
 <p>Get the system clock frequency. </p>
 <dl class="section return"><dt>Returns</dt><dd>System clock frequency in Hz </dd></dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00380">380</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00382">382</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8c_source.html#l00104">lm4f_rcc_sysclk_freq</a>.</p>
+<p>References <a class="el" href="rcc_8c_source.html#l00105">lm4f_rcc_sysclk_freq</a>.</p>
 
 </div>
 </div>
@@ -251,9 +252,9 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>System clock frequency in Hz </dd></dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00440">440</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00442">442</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8c_source.html#l00104">lm4f_rcc_sysclk_freq</a>, <a class="el" href="rcc_8h_source.html#l00043">OSCSRC_30K_INT</a>, <a class="el" href="rcc_8h_source.html#l00044">OSCSRC_32K_EXT</a>, <a class="el" href="rcc_8h_source.html#l00040">OSCSRC_MOSC</a>, <a class="el" href="rcc_8h_source.html#l00041">OSCSRC_PIOSC</a>, <a class="el" href="rcc_8h_source.html#l00042">OSCSRC_PIOSC_D4</a>, <a class="el" href="rcc_8c_source.html#l00361">rcc_change_pll_divisor()</a>, <a class="el" href="rcc_8c_source.html#l00117">rcc_configure_xtal()</a>, <a class="el" href="rcc_8c_source.html#l00152">rcc_enable_main_osc()</a>, <a class="el" href="rcc_8c_source.html#l00175">rcc_enable_rcc2()</a>, <a class="el" href="rcc_8c_source.html#l00247">rcc_pll_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00201">rcc_pll_on()</a>, <a class="el" href="rcc_8c_source.html#l00214">rcc_set_osc_source()</a>, and <a class="el" href="rcc_8c_source.html#l00386">xtal_to_freq()</a>.</p>
+<p>References <a class="el" href="rcc_8c_source.html#l00105">lm4f_rcc_sysclk_freq</a>, <a class="el" href="rcc_8h_source.html#l00058">OSCSRC_30K_INT</a>, <a class="el" href="rcc_8h_source.html#l00059">OSCSRC_32K_EXT</a>, <a class="el" href="rcc_8h_source.html#l00055">OSCSRC_MOSC</a>, <a class="el" href="rcc_8h_source.html#l00056">OSCSRC_PIOSC</a>, <a class="el" href="rcc_8h_source.html#l00057">OSCSRC_PIOSC_D4</a>, <a class="el" href="rcc_8c_source.html#l00363">rcc_change_pll_divisor()</a>, <a class="el" href="rcc_8c_source.html#l00118">rcc_configure_xtal()</a>, <a class="el" href="rcc_8c_source.html#l00153">rcc_enable_main_osc()</a>, <a class="el" href="rcc_8c_source.html#l00176">rcc_enable_rcc2()</a>, <a class="el" href="rcc_8c_source.html#l00248">rcc_pll_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00202">rcc_pll_on()</a>, <a class="el" href="rcc_8c_source.html#l00215">rcc_set_osc_source()</a>, and <a class="el" href="rcc_8c_source.html#l00388">xtal_to_freq()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -288,11 +289,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00386">386</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00388">388</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8h_source.html#l00071">XTAL_4M</a>.</p>
+<p>References <a class="el" href="rcc_8h_source.html#l00086">XTAL_4M</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00440">rcc_sysclk_config()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00442">rcc_sysclk_config()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -310,7 +311,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Apr 14 2013 15:21:35 for libopencm3 by
+    <li class="footer">Generated on Sun Apr 14 2013 16:21:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

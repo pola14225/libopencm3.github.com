@@ -12,15 +12,15 @@
     <member kind="function">
       <type>void</type>
       <name>gpio_set</name>
-      <anchorfile>gpio_8c.html</anchorfile>
-      <anchor>a2b992000a6582e34257a0a6b83f34dee</anchor>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga2b992000a6582e34257a0a6b83f34dee</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
-      <anchorfile>gpio_8c.html</anchorfile>
-      <anchor>a21fef3ab33c3e8196be7dddca90e9e8a</anchor>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
   </compound>
@@ -31,15 +31,15 @@
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
-      <anchorfile>gpio_8h.html</anchorfile>
-      <anchor>aa564feebba58c35fb47b4af84c8810ca</anchor>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaa564feebba58c35fb47b4af84c8810ca</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
-      <anchorfile>gpio_8h.html</anchorfile>
-      <anchor>a21fef3ab33c3e8196be7dddca90e9e8a</anchor>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
   </compound>
@@ -59,14 +59,60 @@
     <filename>systemcontrol_8h</filename>
   </compound>
   <compound kind="group">
-    <name>LM3S</name>
+    <name>LM3Sxx</name>
     <title>LM3S</title>
-    <filename>group__LM3S.html</filename>
+    <filename>group__LM3Sxx.html</filename>
+    <subgroup>gpio_file</subgroup>
   </compound>
   <compound kind="group">
-    <name>LM3S_defines</name>
+    <name>LM3Sxx_defines</name>
     <title>LM3S Defines</title>
-    <filename>group__LM3S__defines.html</filename>
+    <filename>group__LM3Sxx__defines.html</filename>
+    <subgroup>gpio_defines</subgroup>
+    <subgroup>systemcontrol_defines</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>gpio_defines</name>
+    <title>General Purpose I/O Defines</title>
+    <filename>group__gpio__defines.html</filename>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>gpio_set</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaa564feebba58c35fb47b4af84c8810ca</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_clear</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>systemcontrol_defines</name>
+    <title>System Control</title>
+    <filename>group__systemcontrol__defines.html</filename>
+  </compound>
+  <compound kind="group">
+    <name>gpio_file</name>
+    <title>General Purpose I/O</title>
+    <filename>group__gpio__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga2b992000a6582e34257a0a6b83f34dee</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_clear</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
   </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/</name>

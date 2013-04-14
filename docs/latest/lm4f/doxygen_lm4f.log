@@ -1,40 +1,30 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:182: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:184: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:186: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:188: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:194: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:196: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/rcc.h:36: group rcc_defines: ignoring title "RCC Defines" that does not match old title "Reset and Clock Control"
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:198: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:200: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:208: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:202: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:213: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:204: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:218: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:210: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:220: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:212: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:226: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:214: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:232: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:216: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:224: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:229: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:234: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:236: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:238: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:240: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:246: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:242: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:248: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
@@ -44,7 +34,7 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:254: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:260: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:256: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:262: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
@@ -54,7 +44,7 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:268: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:274: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:270: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:276: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
@@ -66,7 +56,7 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:284: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:286: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:290: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:292: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
@@ -78,70 +68,82 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:300: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:302: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:308: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:310: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:312: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:335: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:314: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:341: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:316: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:343: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:324: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:368: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:326: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:370: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:328: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:372: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:351: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:374: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:357: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:376: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:378: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:380: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:382: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:359: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:384: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:386: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:397: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:388: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:399: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:390: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:401: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:392: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:412: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:394: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:418: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:396: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:420: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:398: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:422: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:400: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:424: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:402: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:430: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:413: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:432: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:415: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:417: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:428: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:434: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:439: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:436: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:441: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:438: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:447: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:440: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:449: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:446: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:448: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:450: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:455: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:252: warning: argument 'div' of command @param is not found in the argument list of rcc_set_pll_divisor(u8 div400)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:252: warning: The following parameters of rcc_set_pll_divisor(u8 div400) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:457: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:463: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:465: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:471: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: argument 'div' of command @param is not found in the argument list of rcc_set_pll_divisor(u8 div400)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: The following parameters of rcc_set_pll_divisor(u8 div400) are not documented:
   parameter 'div400'

@@ -19,13 +19,13 @@ var searchData=
   ['common_2eh',['common.h',['../../../cm3/html/common_8h.html',1,'']]],
   ['crc_2ec',['crc.c',['../crc_8c.html',1,'']]],
   ['crc_2eh',['crc.h',['../crc_8h.html',1,'']]],
-  ['crc_5fcalculate',['crc_calculate',['../group__crc__file.html#gadd37c58ab37425dcd78e0f23b5fd5db2',1,'crc_calculate(u32 data):&#160;crc_common_all.c'],['../group__crc__file.html#gadd37c58ab37425dcd78e0f23b5fd5db2',1,'crc_calculate(u32 data):&#160;crc_common_all.c']]],
-  ['crc_5fcalculate_5fblock',['crc_calculate_block',['../group__crc__file.html#ga0508527cd6e9a236c8e1733dff867d5e',1,'crc_calculate_block(u32 *datap, int size):&#160;crc_common_all.c'],['../group__crc__file.html#ga0508527cd6e9a236c8e1733dff867d5e',1,'crc_calculate_block(u32 *datap, int size):&#160;crc_common_all.c']]],
+  ['crc_5fcalculate',['crc_calculate',['../group__crc__defines.html#gadd37c58ab37425dcd78e0f23b5fd5db2',1,'crc_calculate(u32 data):&#160;crc_common_all.c'],['../group__crc__file.html#gadd37c58ab37425dcd78e0f23b5fd5db2',1,'crc_calculate(u32 data):&#160;crc_common_all.c']]],
+  ['crc_5fcalculate_5fblock',['crc_calculate_block',['../group__crc__defines.html#ga0508527cd6e9a236c8e1733dff867d5e',1,'crc_calculate_block(u32 *datap, int size):&#160;crc_common_all.c'],['../group__crc__file.html#ga0508527cd6e9a236c8e1733dff867d5e',1,'crc_calculate_block(u32 *datap, int size):&#160;crc_common_all.c']]],
   ['crc_5fcommon_5fall_2ec',['crc_common_all.c',['../crc__common__all_8c.html',1,'']]],
   ['crc_5fcommon_5fall_2eh',['crc_common_all.h',['../crc__common__all_8h.html',1,'']]],
   ['crc_20defines',['CRC Defines',['../group__crc__defines.html',1,'']]],
   ['crc',['CRC',['../group__crc__file.html',1,'']]],
-  ['crc_5freset',['crc_reset',['../group__crc__file.html#ga9b1b3754c7aac60163254b184f993501',1,'crc_reset(void):&#160;crc_common_all.c'],['../group__crc__file.html#ga9b1b3754c7aac60163254b184f993501',1,'crc_reset(void):&#160;crc_common_all.c']]],
+  ['crc_5freset',['crc_reset',['../group__crc__defines.html#ga4c73a7b92ca247ec7bef15ce1cf205c9',1,'crc_reset(void):&#160;crc_common_all.c'],['../group__crc__file.html#ga9b1b3754c7aac60163254b184f993501',1,'crc_reset(void):&#160;crc_common_all.c']]],
   ['cortex_20m3_2fm4_20system_20interrupts',['Cortex M3/M4 System Interrupts',['../../../cm3/html/group__nvic__sysint.html',1,'']]],
   ['clock_20source_20selection',['Clock source selection',['../../../cm3/html/group__systick__clksource.html',1,'']]]
 ];

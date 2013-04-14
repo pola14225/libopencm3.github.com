@@ -4,6 +4,7 @@ var NAVTREE =
     [ "libopencm3 LM4F", "index.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
+    [ "Generic USB", "../../usb/html/modules.html", null ],
     [ "STM32F1", "../../stm32f1/html/modules.html", null ],
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
@@ -33,7 +34,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "doc-lm4f_8h.html",
-"systemcontrol_8h.html#a9fbad613b184a3b51402b61135965959a600bd6f61da0eaed2c2f8fdf49fbb9c9"
+"group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ad1c9598c70b899240aa22be7b66e4765",
+"systemcontrol_8h.html#gga9fbad613b184a3b51402b61135965959ab52675509b66c5eb36a859554102f26c"
 ];
 
 var navTreeSubIndices = new Array();

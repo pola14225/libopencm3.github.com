@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="../../cm3/html/modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../usb/html/modules.html"><span>Generic&#160;USB</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -117,198 +118,216 @@ $(document).ready(function(){initNavTree('ssp_8h_source.html','');});
 <div class="title">ssp.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="ssp_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">* This file is part of the libopencm3 project.</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">*</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">* Copyright (C) 2012 Michael Ossmann &lt;mike@ossmann.com&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">*</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">* This library is free software: you can redistribute it and/or modify</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">* it under the terms of the GNU Lesser General Public License as published by</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">* the Free Software Foundation, either version 3 of the License, or</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">* (at your option) any later version.</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">*</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">* This library is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">* but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">* GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">*</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">* You should have received a copy of the GNU Lesser General Public License</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">* along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#ifndef LPC43XX_SSP_H</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LPC43XX_SSP_H</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="memorymap_8h.html">libopencm3/lpc43xx/memorymap.h</a>&gt;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/* --- Convenience macros -------------------------------------------------- */</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">/* SSP port base addresses (for convenience) */</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#define SSP0                            SSP0_BASE</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1                            SSP1_BASE</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">/* --- SSP registers ------------------------------------------------------- */</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">/* Control Register 0 */</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#define SSP_CR0(port)                   MMIO32(port + 0x000)</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_CR0                        SSP_CR0(SSP0)</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_CR0                        SSP_CR0(SSP1)</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">/* Control Register 1 */</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#define SSP_CR1(port)                   MMIO32(port + 0x004)</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_CR1                        SSP_CR1(SSP0)</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_CR1                        SSP_CR1(SSP1)</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/* Data Register */</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#define SSP_DR(port)                    MMIO32(port + 0x008)</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_DR                         SSP_DR(SSP0)</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_DR                         SSP_DR(SSP1)</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">/* Status Register */</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define SSP_SR(port)                    MMIO32(port + 0x00C)</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_SR                         SSP_SR(SSP0)</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_SR                         SSP_SR(SSP1)</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#define SSP_SR_TFE                      BIT0</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP_SR_TNF                      BIT1</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP_SR_RNE                      BIT2</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP_SR_RFF                      BIT3</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP_SR_BSY                      BIT4</span></div>
+<a href="ssp_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/** @defgroup ssp_defines Synchronous Serial Port</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">@brief &lt;b&gt;Defined Constants and Types for the LPC43xx Synchronous Serial Port&lt;/b&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">@ingroup LPC43xx_defines</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">@version 1.0.0</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">@author @htmlonly &amp;copy; @endhtmlonly 2012 Michael Ossmann &lt;mike@ossmann.com&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">@date 10 March 2013</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">LGPL License Terms @ref lgpl_license</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">* This file is part of the libopencm3 project.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">*</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">* Copyright (C) 2012 Michael Ossmann &lt;mike@ossmann.com&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">*</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">* This library is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">* it under the terms of the GNU Lesser General Public License as published by</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">* the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">* (at your option) any later version.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">*</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">* This library is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">* but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">* GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">*</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">* You should have received a copy of the GNU Lesser General Public License</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">* along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#ifndef LPC43XX_SSP_H</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LPC43XX_SSP_H</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">/**@{*/</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &lt;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="memorymap_8h.html">libopencm3/lpc43xx/memorymap.h</a>&gt;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/* --- Convenience macros -------------------------------------------------- */</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">/* SSP port base addresses (for convenience) */</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#define SSP0                            SSP0_BASE</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1                            SSP1_BASE</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/* --- SSP registers ------------------------------------------------------- */</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/* Control Register 0 */</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#define SSP_CR0(port)                   MMIO32(port + 0x000)</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_CR0                        SSP_CR0(SSP0)</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_CR0                        SSP_CR0(SSP1)</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">/* Control Register 1 */</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#define SSP_CR1(port)                   MMIO32(port + 0x004)</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_CR1                        SSP_CR1(SSP0)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_CR1                        SSP_CR1(SSP1)</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">/* Clock Prescale Register */</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#define SSP_CPSR(port)                  MMIO32(port + 0x010)</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_CPSR                       SSP_CPSR(SSP0)</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_CPSR                       SSP_CPSR(SSP1)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">/* Data Register */</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#define SSP_DR(port)                    MMIO32(port + 0x008)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_DR                         SSP_DR(SSP0)</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_DR                         SSP_DR(SSP1)</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">/* Interrupt Mask Set and Clear Register */</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#define SSP_IMSC(port)                  MMIO32(port + 0x014)</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_IMSC                       SSP_IMSC(SSP0)</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_IMSC                       SSP_IMSC(SSP1)</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">/* Status Register */</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#define SSP_SR(port)                    MMIO32(port + 0x00C)</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_SR                         SSP_SR(SSP0)</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_SR                         SSP_SR(SSP1)</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">/* Raw Interrupt Status Register */</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#define SSP_RIS(port)                   MMIO32(port + 0x018)</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_RIS                        SSP_RIS(SSP0)</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_RIS                        SSP_RIS(SSP1)</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">/* Masked Interrupt Status Register */</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#define SSP_MIS(port)                   MMIO32(port + 0x01C)</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_MIS                        SSP_MIS(SSP0)</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_MIS                        SSP_MIS(SSP1)</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">/* SSPICR Interrupt Clear Register */</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#define SSP_ICR(port)                   MMIO32(port + 0x020)</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_ICR                        SSP_ICR(SSP0)</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_ICR                        SSP_ICR(SSP1)</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* SSP1 DMA control register */</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#define SSP_DMACR(port)                 MMIO32(port + 0x024)</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_DMACR                      SSP_DMACR(SSP0)</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_DMACR                      SSP_DMACR(SSP1)</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00091"></a><span class="lineno"><a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5">   91</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00092"></a><span class="lineno"><a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5ac19d047f1ea04a8db3aad0551c779bb5">   92</a></span>&#160;        <a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5ac19d047f1ea04a8db3aad0551c779bb5">SSP0_NUM</a> = 0x0,</div>
-<div class="line"><a name="l00093"></a><span class="lineno"><a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5a326f1df5390afcf7be2d6b5365abaee4">   93</a></span>&#160;        <a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5a326f1df5390afcf7be2d6b5365abaee4">SSP1_NUM</a> = 0x1</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;} <a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">/* </span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">* SSP Control Register 0</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">/* SSP Data Size Bits 0 to 3 */</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800">  100</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a0d7b7b814303de1e0e3c36cbbfe24d45">  101</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a0d7b7b814303de1e0e3c36cbbfe24d45">SSP_DATA_4BITS</a>  = 0x3,</div>
-<div class="line"><a name="l00102"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800af7b0f6e185f5d6cf383ee493dd94df7b">  102</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800af7b0f6e185f5d6cf383ee493dd94df7b">SSP_DATA_5BITS</a>  = 0x4,</div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a4a4d6f14526647efc873400eb074834f">  103</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a4a4d6f14526647efc873400eb074834f">SSP_DATA_6BITS</a>  = 0x5,</div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800ae84801f721f0b572fd65d36d31b5a086">  104</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800ae84801f721f0b572fd65d36d31b5a086">SSP_DATA_7BITS</a>  = 0x6,</div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a57485dd81d5b5e8cdab39a3bb9a82fa9">  105</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a57485dd81d5b5e8cdab39a3bb9a82fa9">SSP_DATA_8BITS</a>  = 0x7,</div>
-<div class="line"><a name="l00106"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a2edfb5d3eb807f0842b404e9f2ceb1dc">  106</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a2edfb5d3eb807f0842b404e9f2ceb1dc">SSP_DATA_9BITS</a>  = 0x8,</div>
-<div class="line"><a name="l00107"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a6853a01c29acad61b4dcff755fbed282">  107</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a6853a01c29acad61b4dcff755fbed282">SSP_DATA_10BITS</a> = 0x9,</div>
-<div class="line"><a name="l00108"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800aa6357c31d468d0b053871489f4774dd8">  108</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800aa6357c31d468d0b053871489f4774dd8">SSP_DATA_11BITS</a> = 0xA,</div>
-<div class="line"><a name="l00109"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a4bcc07ee54412b8d7b8f609ff4a37a89">  109</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a4bcc07ee54412b8d7b8f609ff4a37a89">SSP_DATA_12BITS</a> = 0xB,</div>
-<div class="line"><a name="l00110"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800aa5af348caf8dd1fddbcd7dc84db18059">  110</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800aa5af348caf8dd1fddbcd7dc84db18059">SSP_DATA_13BITS</a> = 0xC,</div>
-<div class="line"><a name="l00111"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a075931ad815014ff5138f32aa4135092">  111</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a075931ad815014ff5138f32aa4135092">SSP_DATA_14BITS</a> = 0xD,</div>
-<div class="line"><a name="l00112"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a8a2f43c8a05497a8ffa9f5127ebe2c61">  112</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800a8a2f43c8a05497a8ffa9f5127ebe2c61">SSP_DATA_15BITS</a> = 0xE,</div>
-<div class="line"><a name="l00113"></a><span class="lineno"><a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800ae28621362fffe14340e913991c3a01fc">  113</a></span>&#160;        <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800ae28621362fffe14340e913991c3a01fc">SSP_DATA_16BITS</a> = 0xF </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;} <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800">ssp_datasize_t</a>;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment">/* SSP Frame Format/Type Bits 4 &amp; 5 */</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno"><a class="code" href="ssp_8h.html#acc61e9edfc3e24e61392013df130c3b7">  117</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00118"></a><span class="lineno"><a class="code" href="ssp_8h.html#acc61e9edfc3e24e61392013df130c3b7a73e4ed9e73dc1cbc3f8f9e5a2e7dd510">  118</a></span>&#160;        <a class="code" href="ssp_8h.html#acc61e9edfc3e24e61392013df130c3b7a73e4ed9e73dc1cbc3f8f9e5a2e7dd510">SSP_FRAME_SPI</a>      = 0x00,</div>
-<div class="line"><a name="l00119"></a><span class="lineno"><a class="code" href="ssp_8h.html#acc61e9edfc3e24e61392013df130c3b7ac57784f02b1f2ccd8342c5ba252de336">  119</a></span>&#160;        <a class="code" href="ssp_8h.html#acc61e9edfc3e24e61392013df130c3b7ac57784f02b1f2ccd8342c5ba252de336">SSP_FRAME_TI</a>       = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa731e0b6cf75f4e637ee88959315f5e4">BIT4</a>,</div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="code" href="ssp_8h.html#acc61e9edfc3e24e61392013df130c3b7a99df491bcb365a929f16da8c62e8811d">  120</a></span>&#160;        <a class="code" href="ssp_8h.html#acc61e9edfc3e24e61392013df130c3b7a99df491bcb365a929f16da8c62e8811d">SSP_FRAM_MICROWIRE</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ae692bc3df48028ceb1ddc2534a993bb8">BIT5</a></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;} <a class="code" href="ssp_8h.html#acc61e9edfc3e24e61392013df130c3b7">ssp_frame_format_t</a>;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">/* Clock Out Polarity / Clock Out Phase Bits Bits 6 &amp; 7 */</span></div>
-<div class="line"><a name="l00124"></a><span class="lineno"><a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3">  124</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00125"></a><span class="lineno"><a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3ab46860943d40321145d534fdc288469c">  125</a></span>&#160;        <a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3ab46860943d40321145d534fdc288469c">SSP_CPOL_0_CPHA_0</a> = 0x0,</div>
-<div class="line"><a name="l00126"></a><span class="lineno"><a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3a68f5a9b168acf10fd56c8a6671d486e5">  126</a></span>&#160;        <a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3a68f5a9b168acf10fd56c8a6671d486e5">SSP_CPOL_1_CPHA_0</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acc2d074401e2b6322ee8f03476c24677">BIT6</a>,</div>
-<div class="line"><a name="l00127"></a><span class="lineno"><a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3a8499017a8fe63e4caee5b562ef705b92">  127</a></span>&#160;        <a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3a8499017a8fe63e4caee5b562ef705b92">SSP_CPOL_0_CPHA_1</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa6b8f3261ae9e2e1043380c192f7b5f0">BIT7</a>,</div>
-<div class="line"><a name="l00128"></a><span class="lineno"><a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3aff86cc0d11515d146357d6223d5ecff4">  128</a></span>&#160;        <a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3aff86cc0d11515d146357d6223d5ecff4">SSP_CPOL_1_CPHA_1</a> = (<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acc2d074401e2b6322ee8f03476c24677">BIT6</a>|<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa6b8f3261ae9e2e1043380c192f7b5f0">BIT7</a>)</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;} <a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3">ssp_cpol_cpha_t</a>;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">/* </span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">* SSP Control Register 1</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">/* SSP Mode Bit0  */</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno"><a class="code" href="ssp_8h.html#a4c83c504102618d0a0bc9f145ac6802d">  135</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00136"></a><span class="lineno"><a class="code" href="ssp_8h.html#a4c83c504102618d0a0bc9f145ac6802dae6e6b8cbbe73607cda959363e036eaa4">  136</a></span>&#160;        <a class="code" href="ssp_8h.html#a4c83c504102618d0a0bc9f145ac6802dae6e6b8cbbe73607cda959363e036eaa4">SSP_MODE_NORMAL</a>   = 0x0,</div>
-<div class="line"><a name="l00137"></a><span class="lineno"><a class="code" href="ssp_8h.html#a4c83c504102618d0a0bc9f145ac6802dafa216f12fa906e5007ab0142127e8645">  137</a></span>&#160;        <a class="code" href="ssp_8h.html#a4c83c504102618d0a0bc9f145ac6802dafa216f12fa906e5007ab0142127e8645">SSP_MODE_LOOPBACK</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ad4d43f8748b542bce39e18790f845ecc">BIT0</a></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;} <a class="code" href="ssp_8h.html#a4c83c504102618d0a0bc9f145ac6802d">ssp_mode_t</a>;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment">/* SSP Enable Bit1  */</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="preprocessor">#define SSP_ENABLE  BIT1</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="comment">/* SSP Master/Slave Mode Bit2 */</span></div>
-<div class="line"><a name="l00144"></a><span class="lineno"><a class="code" href="ssp_8h.html#ae671ddfc1f8a0faef3e8254feeb36da8">  144</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00145"></a><span class="lineno"><a class="code" href="ssp_8h.html#ae671ddfc1f8a0faef3e8254feeb36da8a91080da0865684afa8a3281fa2cbdfcb">  145</a></span>&#160;        <a class="code" href="ssp_8h.html#ae671ddfc1f8a0faef3e8254feeb36da8a91080da0865684afa8a3281fa2cbdfcb">SSP_MASTER</a> = 0x0,</div>
-<div class="line"><a name="l00146"></a><span class="lineno"><a class="code" href="ssp_8h.html#ae671ddfc1f8a0faef3e8254feeb36da8afb66cc9f8a02749a9190f59d80df908b">  146</a></span>&#160;        <a class="code" href="ssp_8h.html#ae671ddfc1f8a0faef3e8254feeb36da8afb66cc9f8a02749a9190f59d80df908b">SSP_SLAVE</a>  = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a9c9560bccccb00174801c728f1ed1399">BIT2</a></div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;} <a class="code" href="ssp_8h.html#ae671ddfc1f8a0faef3e8254feeb36da8">ssp_master_slave_t</a>;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">* SSP Slave Output Disable Bit3</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="comment">* Slave Output Disable. This bit is relevant only in slave mode</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment">* (MS = 1). If it is 1, this blocks this SSP controller from driving the</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="comment">* transmit data line (MISO).</span></div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno"><a class="code" href="ssp_8h.html#a897178b84d3d8b35bc271c7928fe9ac8">  155</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00156"></a><span class="lineno"><a class="code" href="ssp_8h.html#a897178b84d3d8b35bc271c7928fe9ac8a0d1f8380221f836aa9f3621d89c742db">  156</a></span>&#160;        <a class="code" href="ssp_8h.html#a897178b84d3d8b35bc271c7928fe9ac8a0d1f8380221f836aa9f3621d89c742db">SSP_SLAVE_OUT_ENABLE</a>  = 0x0,</div>
-<div class="line"><a name="l00157"></a><span class="lineno"><a class="code" href="ssp_8h.html#a897178b84d3d8b35bc271c7928fe9ac8a4b209af4073f43455ec8b146fc7dd67e">  157</a></span>&#160;        <a class="code" href="ssp_8h.html#a897178b84d3d8b35bc271c7928fe9ac8a4b209af4073f43455ec8b146fc7dd67e">SSP_SLAVE_OUT_DISABLE</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a8e44574a8a8becc885b05f3bc367ef6a">BIT3</a></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;} <a class="code" href="ssp_8h.html#a897178b84d3d8b35bc271c7928fe9ac8">ssp_slave_option_t</a>; <span class="comment">/* This option is relevant only in slave mode */</span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="keywordtype">void</span> <a class="code" href="ssp_8h.html#a52c20b5c622d539ed80d0740abb5a065">ssp_disable</a>(<a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num);</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">/* </span></div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="comment"> * SSP Init</span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment"> * clk_prescale shall be in range 2 to 254 (even number only).</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment"> * Clock computation: PCLK / (CPSDVSR * [SCR+1]) =&gt; CPSDVSR=clk_prescale, SCR=serial_clock_rate</span></div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="keywordtype">void</span> <a class="code" href="ssp_8h.html#a369c8d3dd4ca7df4cef01e0d59003dbc">ssp_init</a>(<a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num,</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                                <a class="code" href="ssp_8h.html#a35229549353548cb3eb59eef04583800">ssp_datasize_t</a> data_size,</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                <a class="code" href="ssp_8h.html#acc61e9edfc3e24e61392013df130c3b7">ssp_frame_format_t</a> frame_format,</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                                <a class="code" href="ssp_8h.html#ac91ac517b85c512c01dfcd8e4646a4e3">ssp_cpol_cpha_t</a> cpol_cpha_format,</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                                <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> serial_clock_rate,</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> clk_prescale,</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                                <a class="code" href="ssp_8h.html#a4c83c504102618d0a0bc9f145ac6802d">ssp_mode_t</a> mode,</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                                <a class="code" href="ssp_8h.html#ae671ddfc1f8a0faef3e8254feeb36da8">ssp_master_slave_t</a> master_slave,</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                <a class="code" href="ssp_8h.html#a897178b84d3d8b35bc271c7928fe9ac8">ssp_slave_option_t</a> slave_option);</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> <a class="code" href="ssp_8h.html#aa8f794ca6faef448cbfd0d74f0bacf33">ssp_read</a>(<a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num);</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="keywordtype">void</span> <a class="code" href="ssp_8h.html#a367036890409f4a16496ffafa6ad6471">ssp_write</a>(<a class="code" href="ssp_8h.html#a56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> data);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#define SSP_SR_TFE                      BIT0</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP_SR_TNF                      BIT1</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP_SR_RNE                      BIT2</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP_SR_RFF                      BIT3</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP_SR_BSY                      BIT4</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">/* Clock Prescale Register */</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#define SSP_CPSR(port)                  MMIO32(port + 0x010)</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_CPSR                       SSP_CPSR(SSP0)</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_CPSR                       SSP_CPSR(SSP1)</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">/* Interrupt Mask Set and Clear Register */</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#define SSP_IMSC(port)                  MMIO32(port + 0x014)</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_IMSC                       SSP_IMSC(SSP0)</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_IMSC                       SSP_IMSC(SSP1)</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">/* Raw Interrupt Status Register */</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#define SSP_RIS(port)                   MMIO32(port + 0x018)</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_RIS                        SSP_RIS(SSP0)</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_RIS                        SSP_RIS(SSP1)</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/* Masked Interrupt Status Register */</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#define SSP_MIS(port)                   MMIO32(port + 0x01C)</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_MIS                        SSP_MIS(SSP0)</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_MIS                        SSP_MIS(SSP1)</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">/* SSPICR Interrupt Clear Register */</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#define SSP_ICR(port)                   MMIO32(port + 0x020)</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_ICR                        SSP_ICR(SSP0)</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_ICR                        SSP_ICR(SSP1)</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">/* SSP1 DMA control register */</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#define SSP_DMACR(port)                 MMIO32(port + 0x024)</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP0_DMACR                      SSP_DMACR(SSP0)</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SSP1_DMACR                      SSP_DMACR(SSP1)</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ga56f2d17013b67f1998d132dc6be0b8d5">  107</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga56f2d17013b67f1998d132dc6be0b8d5ac19d047f1ea04a8db3aad0551c779bb5">  108</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga56f2d17013b67f1998d132dc6be0b8d5ac19d047f1ea04a8db3aad0551c779bb5">SSP0_NUM</a> = 0x0,</div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga56f2d17013b67f1998d132dc6be0b8d5a326f1df5390afcf7be2d6b5365abaee4">  109</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga56f2d17013b67f1998d132dc6be0b8d5a326f1df5390afcf7be2d6b5365abaee4">SSP1_NUM</a> = 0x1</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;} <a class="code" href="group__ssp__defines.html#ga56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">/* </span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">* SSP Control Register 0</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment">/* SSP Data Size Bits 0 to 3 */</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ga35229549353548cb3eb59eef04583800">  116</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a0d7b7b814303de1e0e3c36cbbfe24d45">  117</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a0d7b7b814303de1e0e3c36cbbfe24d45">SSP_DATA_4BITS</a>  = 0x3,</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800af7b0f6e185f5d6cf383ee493dd94df7b">  118</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800af7b0f6e185f5d6cf383ee493dd94df7b">SSP_DATA_5BITS</a>  = 0x4,</div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a4a4d6f14526647efc873400eb074834f">  119</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a4a4d6f14526647efc873400eb074834f">SSP_DATA_6BITS</a>  = 0x5,</div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800ae84801f721f0b572fd65d36d31b5a086">  120</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800ae84801f721f0b572fd65d36d31b5a086">SSP_DATA_7BITS</a>  = 0x6,</div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a57485dd81d5b5e8cdab39a3bb9a82fa9">  121</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a57485dd81d5b5e8cdab39a3bb9a82fa9">SSP_DATA_8BITS</a>  = 0x7,</div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a2edfb5d3eb807f0842b404e9f2ceb1dc">  122</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a2edfb5d3eb807f0842b404e9f2ceb1dc">SSP_DATA_9BITS</a>  = 0x8,</div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a6853a01c29acad61b4dcff755fbed282">  123</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a6853a01c29acad61b4dcff755fbed282">SSP_DATA_10BITS</a> = 0x9,</div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800aa6357c31d468d0b053871489f4774dd8">  124</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800aa6357c31d468d0b053871489f4774dd8">SSP_DATA_11BITS</a> = 0xA,</div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a4bcc07ee54412b8d7b8f609ff4a37a89">  125</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a4bcc07ee54412b8d7b8f609ff4a37a89">SSP_DATA_12BITS</a> = 0xB,</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800aa5af348caf8dd1fddbcd7dc84db18059">  126</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800aa5af348caf8dd1fddbcd7dc84db18059">SSP_DATA_13BITS</a> = 0xC,</div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a075931ad815014ff5138f32aa4135092">  127</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a075931ad815014ff5138f32aa4135092">SSP_DATA_14BITS</a> = 0xD,</div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a8a2f43c8a05497a8ffa9f5127ebe2c61">  128</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800a8a2f43c8a05497a8ffa9f5127ebe2c61">SSP_DATA_15BITS</a> = 0xE,</div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800ae28621362fffe14340e913991c3a01fc">  129</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga35229549353548cb3eb59eef04583800ae28621362fffe14340e913991c3a01fc">SSP_DATA_16BITS</a> = 0xF </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;} <a class="code" href="group__ssp__defines.html#ga35229549353548cb3eb59eef04583800">ssp_datasize_t</a>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">/* SSP Frame Format/Type Bits 4 &amp; 5 */</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gacc61e9edfc3e24e61392013df130c3b7">  133</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ggacc61e9edfc3e24e61392013df130c3b7a73e4ed9e73dc1cbc3f8f9e5a2e7dd510">  134</a></span>&#160;        <a class="code" href="group__ssp__defines.html#ggacc61e9edfc3e24e61392013df130c3b7a73e4ed9e73dc1cbc3f8f9e5a2e7dd510">SSP_FRAME_SPI</a>      = 0x00,</div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ggacc61e9edfc3e24e61392013df130c3b7ac57784f02b1f2ccd8342c5ba252de336">  135</a></span>&#160;        <a class="code" href="group__ssp__defines.html#ggacc61e9edfc3e24e61392013df130c3b7ac57784f02b1f2ccd8342c5ba252de336">SSP_FRAME_TI</a>       = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa731e0b6cf75f4e637ee88959315f5e4">BIT4</a>,</div>
+<div class="line"><a name="l00136"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ggacc61e9edfc3e24e61392013df130c3b7a99df491bcb365a929f16da8c62e8811d">  136</a></span>&#160;        <a class="code" href="group__ssp__defines.html#ggacc61e9edfc3e24e61392013df130c3b7a99df491bcb365a929f16da8c62e8811d">SSP_FRAM_MICROWIRE</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ae692bc3df48028ceb1ddc2534a993bb8">BIT5</a></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;} <a class="code" href="group__ssp__defines.html#gacc61e9edfc3e24e61392013df130c3b7">ssp_frame_format_t</a>;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">/* Clock Out Polarity / Clock Out Phase Bits Bits 6 &amp; 7 */</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gac91ac517b85c512c01dfcd8e4646a4e3">  140</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00141"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ggac91ac517b85c512c01dfcd8e4646a4e3ab46860943d40321145d534fdc288469c">  141</a></span>&#160;        <a class="code" href="group__ssp__defines.html#ggac91ac517b85c512c01dfcd8e4646a4e3ab46860943d40321145d534fdc288469c">SSP_CPOL_0_CPHA_0</a> = 0x0,</div>
+<div class="line"><a name="l00142"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ggac91ac517b85c512c01dfcd8e4646a4e3a68f5a9b168acf10fd56c8a6671d486e5">  142</a></span>&#160;        <a class="code" href="group__ssp__defines.html#ggac91ac517b85c512c01dfcd8e4646a4e3a68f5a9b168acf10fd56c8a6671d486e5">SSP_CPOL_1_CPHA_0</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acc2d074401e2b6322ee8f03476c24677">BIT6</a>,</div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ggac91ac517b85c512c01dfcd8e4646a4e3a8499017a8fe63e4caee5b562ef705b92">  143</a></span>&#160;        <a class="code" href="group__ssp__defines.html#ggac91ac517b85c512c01dfcd8e4646a4e3a8499017a8fe63e4caee5b562ef705b92">SSP_CPOL_0_CPHA_1</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa6b8f3261ae9e2e1043380c192f7b5f0">BIT7</a>,</div>
+<div class="line"><a name="l00144"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ggac91ac517b85c512c01dfcd8e4646a4e3aff86cc0d11515d146357d6223d5ecff4">  144</a></span>&#160;        <a class="code" href="group__ssp__defines.html#ggac91ac517b85c512c01dfcd8e4646a4e3aff86cc0d11515d146357d6223d5ecff4">SSP_CPOL_1_CPHA_1</a> = (<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acc2d074401e2b6322ee8f03476c24677">BIT6</a>|<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa6b8f3261ae9e2e1043380c192f7b5f0">BIT7</a>)</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;} <a class="code" href="group__ssp__defines.html#gac91ac517b85c512c01dfcd8e4646a4e3">ssp_cpol_cpha_t</a>;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="comment">/* </span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="comment">* SSP Control Register 1</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">/* SSP Mode Bit0  */</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ga4c83c504102618d0a0bc9f145ac6802d">  151</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00152"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga4c83c504102618d0a0bc9f145ac6802dae6e6b8cbbe73607cda959363e036eaa4">  152</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga4c83c504102618d0a0bc9f145ac6802dae6e6b8cbbe73607cda959363e036eaa4">SSP_MODE_NORMAL</a>   = 0x0,</div>
+<div class="line"><a name="l00153"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga4c83c504102618d0a0bc9f145ac6802dafa216f12fa906e5007ab0142127e8645">  153</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga4c83c504102618d0a0bc9f145ac6802dafa216f12fa906e5007ab0142127e8645">SSP_MODE_LOOPBACK</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ad4d43f8748b542bce39e18790f845ecc">BIT0</a></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;} <a class="code" href="group__ssp__defines.html#ga4c83c504102618d0a0bc9f145ac6802d">ssp_mode_t</a>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">/* SSP Enable Bit1  */</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="preprocessor">#define SSP_ENABLE  BIT1</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="comment">/* SSP Master/Slave Mode Bit2 */</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gae671ddfc1f8a0faef3e8254feeb36da8">  160</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00161"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ggae671ddfc1f8a0faef3e8254feeb36da8a91080da0865684afa8a3281fa2cbdfcb">  161</a></span>&#160;        <a class="code" href="group__ssp__defines.html#ggae671ddfc1f8a0faef3e8254feeb36da8a91080da0865684afa8a3281fa2cbdfcb">SSP_MASTER</a> = 0x0,</div>
+<div class="line"><a name="l00162"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ggae671ddfc1f8a0faef3e8254feeb36da8afb66cc9f8a02749a9190f59d80df908b">  162</a></span>&#160;        <a class="code" href="group__ssp__defines.html#ggae671ddfc1f8a0faef3e8254feeb36da8afb66cc9f8a02749a9190f59d80df908b">SSP_SLAVE</a>  = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a9c9560bccccb00174801c728f1ed1399">BIT2</a></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;} <a class="code" href="group__ssp__defines.html#gae671ddfc1f8a0faef3e8254feeb36da8">ssp_master_slave_t</a>;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment">* SSP Slave Output Disable Bit3</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">* Slave Output Disable. This bit is relevant only in slave mode</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">* (MS = 1). If it is 1, this blocks this SSP controller from driving the</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">* transmit data line (MISO).</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#ga897178b84d3d8b35bc271c7928fe9ac8">  171</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00172"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga897178b84d3d8b35bc271c7928fe9ac8a0d1f8380221f836aa9f3621d89c742db">  172</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga897178b84d3d8b35bc271c7928fe9ac8a0d1f8380221f836aa9f3621d89c742db">SSP_SLAVE_OUT_ENABLE</a>  = 0x0,</div>
+<div class="line"><a name="l00173"></a><span class="lineno"><a class="code" href="group__ssp__defines.html#gga897178b84d3d8b35bc271c7928fe9ac8a4b209af4073f43455ec8b146fc7dd67e">  173</a></span>&#160;        <a class="code" href="group__ssp__defines.html#gga897178b84d3d8b35bc271c7928fe9ac8a4b209af4073f43455ec8b146fc7dd67e">SSP_SLAVE_OUT_DISABLE</a> = <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a8e44574a8a8becc885b05f3bc367ef6a">BIT3</a></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;} <a class="code" href="group__ssp__defines.html#ga897178b84d3d8b35bc271c7928fe9ac8">ssp_slave_option_t</a>; <span class="comment">/* This option is relevant only in slave mode */</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__ssp__defines.html#ga52c20b5c622d539ed80d0740abb5a065">ssp_disable</a>(<a class="code" href="group__ssp__defines.html#ga56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment">/* </span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="comment"> * SSP Init</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="comment"> * clk_prescale shall be in range 2 to 254 (even number only).</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="comment"> * Clock computation: PCLK / (CPSDVSR * [SCR+1]) =&gt; CPSDVSR=clk_prescale, SCR=serial_clock_rate</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__ssp__defines.html#ga369c8d3dd4ca7df4cef01e0d59003dbc">ssp_init</a>(<a class="code" href="group__ssp__defines.html#ga56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num,</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                                <a class="code" href="group__ssp__defines.html#ga35229549353548cb3eb59eef04583800">ssp_datasize_t</a> data_size,</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                                <a class="code" href="group__ssp__defines.html#gacc61e9edfc3e24e61392013df130c3b7">ssp_frame_format_t</a> frame_format,</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                <a class="code" href="group__ssp__defines.html#gac91ac517b85c512c01dfcd8e4646a4e3">ssp_cpol_cpha_t</a> cpol_cpha_format,</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                                <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> serial_clock_rate,</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                                <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> clk_prescale,</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                <a class="code" href="group__ssp__defines.html#ga4c83c504102618d0a0bc9f145ac6802d">ssp_mode_t</a> mode,</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                                <a class="code" href="group__ssp__defines.html#gae671ddfc1f8a0faef3e8254feeb36da8">ssp_master_slave_t</a> master_slave,</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                                <a class="code" href="group__ssp__defines.html#ga897178b84d3d8b35bc271c7928fe9ac8">ssp_slave_option_t</a> slave_option);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> <a class="code" href="group__ssp__defines.html#gaa8f794ca6faef448cbfd0d74f0bacf33">ssp_read</a>(<a class="code" href="group__ssp__defines.html#ga56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__ssp__defines.html#ga367036890409f4a16496ffafa6ad6471">ssp_write</a>(<a class="code" href="group__ssp__defines.html#ga56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> data);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="ssp_8h.html">ssp.h</a></li>
-    <li class="footer">Generated on Sun Apr 14 2013 15:21:37 for libopencm3 by
+    <li class="footer">Generated on Sun Apr 14 2013 16:21:31 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

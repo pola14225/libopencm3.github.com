@@ -43,21 +43,21 @@
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>crc_reset</name>
-      <anchorfile>group__crc__file.html</anchorfile>
-      <anchor>ga9b1b3754c7aac60163254b184f993501</anchor>
+      <anchorfile>group__crc__defines.html</anchorfile>
+      <anchor>ga4c73a7b92ca247ec7bef15ce1cf205c9</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>
       <name>crc_calculate</name>
-      <anchorfile>group__crc__file.html</anchorfile>
+      <anchorfile>group__crc__defines.html</anchorfile>
       <anchor>gadd37c58ab37425dcd78e0f23b5fd5db2</anchor>
       <arglist>(u32 data)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>
       <name>crc_calculate_block</name>
-      <anchorfile>group__crc__file.html</anchorfile>
+      <anchorfile>group__crc__defines.html</anchorfile>
       <anchor>ga0508527cd6e9a236c8e1733dff867d5e</anchor>
       <arglist>(u32 *datap, int size)</arglist>
     </member>
@@ -5489,6 +5489,27 @@
     <name>crc_defines</name>
     <title>CRC Defines</title>
     <filename>group__crc__defines.html</filename>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>crc_reset</name>
+      <anchorfile>group__crc__defines.html</anchorfile>
+      <anchor>ga4c73a7b92ca247ec7bef15ce1cf205c9</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>crc_calculate</name>
+      <anchorfile>group__crc__defines.html</anchorfile>
+      <anchor>gadd37c58ab37425dcd78e0f23b5fd5db2</anchor>
+      <arglist>(u32 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>crc_calculate_block</name>
+      <anchorfile>group__crc__defines.html</anchorfile>
+      <anchor>ga0508527cd6e9a236c8e1733dff867d5e</anchor>
+      <arglist>(u32 *datap, int size)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>dac_defines</name>

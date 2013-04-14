@@ -12,15 +12,15 @@
     <member kind="function">
       <type>void</type>
       <name>gpio_set</name>
-      <anchorfile>gpio_8c.html</anchorfile>
-      <anchor>ae31f1b37eb4ad8b41538b2797a9fe2e3</anchor>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>gae31f1b37eb4ad8b41538b2797a9fe2e3</anchor>
       <arglist>(u32 gpioport, u32 gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
-      <anchorfile>gpio_8c.html</anchorfile>
-      <anchor>a29ffb563ecb14ca058d05f9f22383b19</anchor>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga29ffb563ecb14ca058d05f9f22383b19</anchor>
       <arglist>(u32 gpioport, u32 gpios)</arglist>
     </member>
   </compound>
@@ -31,15 +31,15 @@
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
-      <anchorfile>gpio_8h.html</anchorfile>
-      <anchor>a05afc3b495268d8dd26aec3ec0f4301b</anchor>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga05afc3b495268d8dd26aec3ec0f4301b</anchor>
       <arglist>(u32 gpioport, u32 gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
-      <anchorfile>gpio_8h.html</anchorfile>
-      <anchor>a29ffb563ecb14ca058d05f9f22383b19</anchor>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga29ffb563ecb14ca058d05f9f22383b19</anchor>
       <arglist>(u32 gpioport, u32 gpios)</arglist>
     </member>
   </compound>
@@ -54,14 +54,54 @@
     <filename>memorymap_8h</filename>
   </compound>
   <compound kind="group">
-    <name>LPC13xx</name>
-    <title>LPC13xx</title>
-    <filename>group__LPC13xx.html</filename>
+    <name>LPC17xx</name>
+    <title>LPC17xx</title>
+    <filename>group__LPC17xx.html</filename>
+    <subgroup>gpio_file</subgroup>
   </compound>
   <compound kind="group">
-    <name>LPC13xx_defines</name>
-    <title>LPC13xx Defines</title>
-    <filename>group__LPC13xx__defines.html</filename>
+    <name>LPC17xx_defines</name>
+    <title>LPC17xx Defines</title>
+    <filename>group__LPC17xx__defines.html</filename>
+    <subgroup>gpio_defines</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>gpio_defines</name>
+    <title>GPIO Defines</title>
+    <filename>group__gpio__defines.html</filename>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>gpio_set</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga05afc3b495268d8dd26aec3ec0f4301b</anchor>
+      <arglist>(u32 gpioport, u32 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_clear</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga29ffb563ecb14ca058d05f9f22383b19</anchor>
+      <arglist>(u32 gpioport, u32 gpios)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>gpio_file</name>
+    <title>GPIO</title>
+    <filename>group__gpio__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>gae31f1b37eb4ad8b41538b2797a9fe2e3</anchor>
+      <arglist>(u32 gpioport, u32 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_clear</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga29ffb563ecb14ca058d05f9f22383b19</anchor>
+      <arglist>(u32 gpioport, u32 gpios)</arglist>
+    </member>
   </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/</name>
@@ -97,7 +137,7 @@
   </compound>
   <compound kind="page">
     <name>index</name>
-    <title>libopencm3 LPC13xx</title>
+    <title>libopencm3 LPC17xx</title>
     <filename>index</filename>
   </compound>
 </tagfile>

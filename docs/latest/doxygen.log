@@ -1,17 +1,29 @@
 error: Tag file `./stm32/stm32.tag' does not exist or is not a file. Skipping it...
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11732: Duplicate anchor dac_api_dual found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11753: Duplicate anchor dac_api_dual found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11732: Duplicate anchor dac_api_basic_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11753: Duplicate anchor dac_api_basic_ex found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11732: Duplicate anchor dac_api_dma_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11753: Duplicate anchor dac_api_dma_ex found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11732: Duplicate anchor gpio_api_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11753: Duplicate anchor gpio_api_ex found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11732: Duplicate anchor tim_common found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11753: Duplicate anchor tim_common found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11732: Duplicate anchor tim_api_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:11753: Duplicate anchor tim_api_ex found
 
 <unknown>:1: group dma_if_offset: ignoring title "DMA Interrupt Flag Offsets within stream flag group." that does not match old title "DMA Interrupt Flag Offsets within channel flag group."
 
 <unknown>:1: group gpio_mode: ignoring title "GPIO Pin Direction and Analog/Digital Mode" that does not match old title "GPIO Pin Mode"
+
+<unknown>:1: group gpio_defines: ignoring title "General Purpose I/O Defines" that does not match old title "GPIO Defines"
+
+<unknown>:1: group gpio_file: ignoring title "General Purpose I/O" that does not match old title "GPIO"
+
+<unknown>:1: group gpio_defines: ignoring title "General Purpose I/O Defines" that does not match old title "GPIO Defines"
+
+<unknown>:1: group gpio_file: ignoring title "General Purpose I/O" that does not match old title "GPIO"
+
+<unknown>:1: group gpio_defines: ignoring title "General Purpose I/O Defines" that does not match old title "GPIO Defines"
+
+<unknown>:1: group timer_defines: ignoring title "Timer" that does not match old title "Timer Defines"
 

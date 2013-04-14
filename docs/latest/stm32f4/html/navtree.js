@@ -4,6 +4,7 @@ var NAVTREE =
     [ "libopencm3 STM32F4", "index.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
+    [ "Generic USB", "../../usb/html/modules.html", null ],
     [ "STM32F1", "../../stm32f1/html/modules.html", null ],
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
     [ "STM32F4", "modules.html", "modules" ],
@@ -42,12 +43,12 @@ var NAVTREEINDEX =
 [
 "adc_8c.html",
 "dma__common__f24_8h.html#ga44bac096c7f6f16310dcd6018dd11ec6",
-"group__dac__defines.html#ga9fb96b4d44b951974e57c093faed0611",
-"group__pwr-file.html#gae6f11b3114892d8a0d754a6f3fa5c3ec",
-"group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2ad35cca55366df3164c8b7bc0d5a75fab",
-"iwdg__common__all_8h.html#gac41c803dacac27e4798287eab40725ef",
-"spi__common__all_8h.html#gad4343fbfc4811a6bc40cacca40cb427c",
-"usart__common__all_8c.html"
+"group__dac__defines.html#ga5c8dc7708ee76ac6e3487e4489f40d8e",
+"group__pwr-file.html#gacee516d449f1015a27246fbfedc534de",
+"group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2ab974b1c6b9287cf2e3ae6478844e01de",
+"iwdg__common__all_8h.html#gaa4f196e28e96c7901f9ff25a5c7fd20d",
+"spi__common__all_8h.html#gac871df249fb0c847813b5cb045ecea72",
+"usart_8c_source.html"
 ];
 
 var navTreeSubIndices = new Array();

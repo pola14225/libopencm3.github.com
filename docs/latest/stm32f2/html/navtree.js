@@ -4,6 +4,7 @@ var NAVTREE =
     [ "libopencm3 STM32F2", "index.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
+    [ "Generic USB", "../../usb/html/modules.html", null ],
     [ "STM32F1", "../../stm32f1/html/modules.html", null ],
     [ "STM32F2", "modules.html", "modules" ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
@@ -42,11 +43,11 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "gpio_8h.html",
-"group__i2c__file.html#ga7112eec67635f56b52bb9f6a55e68f51",
-"group__timer__defines.html#ga963e0b642ec3f313132b0bf6fd4ac186",
-"i2c__common__all_8h.html#ga04d2d695cc0fb5f71fcdf3d8e245afbb",
-"spi__common__all_8h.html#ga195eb27ccd5f60d9d2cbeb42899f3ca8",
-"timer__common__all_8h.html#ggaa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6"
+"group__i2c__file.html#ga4416e975cdd2999d85adc8b0148c3bb0",
+"group__timer__defines.html#ga8c06c5329b8e136c909965f76885a360",
+"i2c__common__all_8c.html#gadec104ea943d9c5dd4bcb34a1e530cfc",
+"spi__common__all_8h.html#ga1422c5d0076faeb9abf109001745793f",
+"timer__common__all_8h.html#gga9c6be6e4ccd5dcb325f1ebe499ca5216a58d53d7c5f653ccdb3820cb5f4c216c2"
 ];
 
 var navTreeSubIndices = new Array();

@@ -1,0 +1,6 @@
+<map id="LPC43xx" name="LPC43xx">
+<area shape="rect" id="node1" href="$group__gpio__file.html" title="libopencm3 LPC43xx General Purpose I/O" alt="" coords="175,5,228,35"/>
+<area shape="rect" id="node2" href="$group__scu__file.html" title="libopencm3 LPC43xx System Control Unit" alt="" coords="131,59,272,88"/>
+<area shape="rect" id="node4" href="$group__i2c__file.html" title="libopencm3 LPC43xx I2C" alt="" coords="180,112,223,141"/>
+<area shape="rect" id="node5" href="$group__ssp__file.html" title="libopencm3 LPC43xx SSP" alt="" coords="177,165,225,195"/>
+</map>

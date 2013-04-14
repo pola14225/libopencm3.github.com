@@ -7,6 +7,7 @@ var searchData=
   ['sv_5fcall_5fhandler',['sv_call_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,]]],
   ['sys_5ftick_5fhandler',['sys_tick_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,]]],
   ['systemcontrol_2eh',['systemcontrol.h',['../systemcontrol_8h.html',1,'']]],
+  ['system_20control',['System Control',['../group__systemcontrol__defines.html',1,'']]],
   ['systick',['systick',['../../../cm3/html/structvector__table__t.html#acf9d4ecb17d3ebecbcbd24966c18102f',1,'vector_table_t']]],
   ['systick_2eh',['systick.h',['../../../cm3/html/systick_8h.html',1,'']]],
   ['systick_5fcounter_5fdisable',['systick_counter_disable',['../../../cm3/html/group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4',1,]]],

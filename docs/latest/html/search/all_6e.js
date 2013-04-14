@@ -5,6 +5,7 @@ var searchData=
   ['nmi_5fhandler',['nmi_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga181d6892388ef1987ba92d0ae80e9359',1,]]],
   ['nvic_2eh',['nvic.h',['../../cm3/html/nvic_8h.html',1,'(Global Namespace)'],['../../lm4f/html/nvic_8h.html',1,'(Global Namespace)']]],
   ['nvic_5fclear_5fpending_5firq',['nvic_clear_pending_irq',['../../cm3/html/group__CM3__nvic__defines.html#ga912739401591c8c16d54b68bf6a19145',1,]]],
+  ['nested_20vectored_20interrupt_20controller',['Nested Vectored Interrupt Controller',['../../lm4f/html/group__nvic__defines.html',1,'']]],
   ['nvic_5fdisable_5firq',['nvic_disable_irq',['../../cm3/html/group__CM3__nvic__defines.html#gaed0997045521d8dd7171a1efb9735b2f',1,]]],
   ['nvic_5fenable_5firq',['nvic_enable_irq',['../../cm3/html/group__CM3__nvic__defines.html#ga959934e2712ce7672d2a947d9ca42d32',1,]]],
   ['nvic_5fgenerate_5fsoftware_5finterrupt',['nvic_generate_software_interrupt',['../../cm3/html/group__CM3__nvic__defines.html#ga428725e696c0467c102d171425c93799',1,]]],
