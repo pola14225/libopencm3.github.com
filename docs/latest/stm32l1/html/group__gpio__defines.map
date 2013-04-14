@@ -1,0 +1,10 @@
+<map id="GPIO Defines" name="GPIO Defines">
+<area shape="rect" id="node1" href="$group__gpio__pin__id.html" title="GPIO Pin Identifiers" alt="" coords="375,5,513,35"/>
+<area shape="rect" id="node2" href="$group__gpio__output__type.html" title="Push Pull &#160;Open Drain" alt="" coords="348,59,540,88"/>
+<area shape="rect" id="node3" href="$group__gpio__mode.html" title="GPIO Pin Direction\l and Analog/Digital Mode" alt="" coords="360,111,528,158"/>
+<area shape="rect" id="node4" href="$group__gpio__speed.html" title="GPIO Output Pin Speed" alt="" coords="363,181,525,211"/>
+<area shape="rect" id="node5" href="$group__gpio__pup.html" title="GPIO Output Pin Pullup" alt="" coords="364,235,524,264"/>
+<area shape="rect" id="node6" href="$group__gpio__port__id.html" title="GPIO Port IDs" alt="" coords="391,288,497,317"/>
+<area shape="rect" id="node7" href="$group__gpio__af__num.html" title="Alternate Function\l Pin Selection" alt="" coords="380,341,508,387"/>
+<area shape="rect" id="node9" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series." alt="" coords="5,181,147,211"/>
+</map>

@@ -32,6 +32,7 @@ var searchData=
   ['debug_5fmonitor',['debug_monitor',['../../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
   ['debug_5fmonitor_5fhandler',['debug_monitor_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2',1,]]],
   ['debugging',['Debugging',['../../../cm3/html/group__debugging.html',1,'']]],
+  ['dma_2eh',['dma.h',['../dma_8h.html',1,'']]],
   ['dma_20channel_20number',['DMA Channel Number',['../group__dma__ch.html',1,'']]],
   ['dma_20channel_20memory_20word_20width',['DMA Channel Memory Word Width',['../group__dma__ch__memwidth.html',1,'']]],
   ['dma_20channel_20peripheral_20word_20width',['DMA Channel Peripheral Word Width',['../group__dma__ch__perwidth.html',1,'']]],
@@ -100,5 +101,6 @@ var searchData=
   ['dma_20stream_20priority_20levels',['DMA Stream Priority Levels',['../group__dma__st__pri.html',1,'']]],
   ['dma_5fstream_5freset',['dma_stream_reset',['../group__dma__defines.html#ga42ed4c62751a40c00056541e65fb392d',1,'dma_stream_reset(u32 dma, u8 stream):&#160;dma_common_f24.c'],['../group__dma__file.html#gad77d9e3d46237c6c1ee50cc1c0025dfe',1,'dma_stream_reset(u32 dma, u8 stream):&#160;dma_common_f24.c']]],
   ['doc_2dcm3_2eh',['doc-cm3.h',['../../../cm3/html/doc-cm3_8h.html',1,'']]],
-  ['doc_2dstm32l1_2eh',['doc-stm32l1.h',['../doc-stm32l1_8h.html',1,'']]]
+  ['doc_2dstm32l1_2eh',['doc-stm32l1.h',['../doc-stm32l1_8h.html',1,'']]],
+  ['dma_20defines',['DMA Defines',['../group__STM32L1xx__dma__defines.html',1,'']]]
 ];

@@ -1,0 +1,14 @@
+<map id="DMA Defines" name="DMA Defines">
+<area shape="rect" id="node1" href="$group__STM32F2xx__defines.html" title="Defined Constants and Types for the STM32F2xx series." alt="" coords="7,339,148,368"/>
+<area shape="rect" id="node2" href="$group__dma__pburst.html" title="DMA Peripheral Burst\l Length" alt="" coords="364,5,513,51"/>
+<area shape="rect" id="node3" href="$group__dma__st__dir.html" title="DMA Stream Data transfer\l direction" alt="" coords="349,74,528,121"/>
+<area shape="rect" id="node4" href="$group__dma__if__offset.html" title="DMA Interrupt Flag\l Offsets within stream\l flag group." alt="" coords="364,144,513,208"/>
+<area shape="rect" id="node5" href="$group__dma__st__number.html" title="DMA Stream Number" alt="" coords="365,232,512,261"/>
+<area shape="rect" id="node6" href="$group__dma__fifo__status.html" title="FIFO Status" alt="" coords="392,285,485,315"/>
+<area shape="rect" id="node7" href="$group__dma__mburst.html" title="DMA Memory Burst Length" alt="" coords="348,339,529,368"/>
+<area shape="rect" id="node8" href="$group__dma__st__memwidth.html" title="DMA Stream Memory Word\l Width" alt="" coords="347,391,531,438"/>
+<area shape="rect" id="node9" href="$group__dma__ch__sel.html" title="DMA Channel Select" alt="" coords="367,461,511,491"/>
+<area shape="rect" id="node10" href="$group__dma__fifo__thresh.html" title="FIFO Threshold selection" alt="" coords="355,515,523,544"/>
+<area shape="rect" id="node11" href="$group__dma__st__pri.html" title="DMA Stream Priority\l Levels" alt="" coords="368,567,509,614"/>
+<area shape="rect" id="node13" href="$group__dma__st__perwidth.html" title="DMA Stream Peripheral\l Word Width" alt="" coords="359,637,519,683"/>
+</map>

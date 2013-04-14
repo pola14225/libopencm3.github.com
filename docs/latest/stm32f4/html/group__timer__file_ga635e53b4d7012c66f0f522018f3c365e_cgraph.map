@@ -1,0 +1,4 @@
+<map id="timer_reset" name="timer_reset">
+<area shape="rect" id="node3" href="$rcc_8h.html#a6f657d65ef6704cf3fdc8a78b0a042a8" title="rcc_peripheral_clear\l_reset" alt="" coords="141,5,280,51"/>
+<area shape="rect" id="node5" href="$rcc_8h.html#a076c5e84cf8bf9293559648e72b0a04f" title="rcc_peripheral_reset" alt="" coords="141,75,280,104"/>
+</map>

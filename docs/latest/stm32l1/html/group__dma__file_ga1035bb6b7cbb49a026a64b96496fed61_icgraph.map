@@ -1,0 +1,7 @@
+<map id="dma_clear_interrupt_flags" name="dma_clear_interrupt_flags">
+<area shape="rect" id="node3" href="$group__dma__file.html#ga9ed60ff3a7753a7e97db7d6cdc7d4590" title="DMA Stream Enable Interrupt on Direct Mode Error." alt="" coords="189,5,360,51"/>
+<area shape="rect" id="node5" href="$group__dma__file.html#ga8f4431b94cee03c98cf69d6bb9d37273" title="DMA Enable Interrupt on FIFO Error." alt="" coords="200,74,349,121"/>
+<area shape="rect" id="node7" href="$group__dma__defines.html#ga22ea9a9d3595761a3570f8c59c3acad4" title="DMA Stream Enable Interrupt on Transfer Half Complete." alt="" coords="189,143,360,190"/>
+<area shape="rect" id="node9" href="$group__dma__defines.html#gadce242f0b1e229b0ffc24aa2227d7394" title="DMA Stream Enable Interrupt on Transfer Complete." alt="" coords="204,213,345,259"/>
+<area shape="rect" id="node11" href="$group__dma__defines.html#ga6f98fcb670463ff9fa0b350b8a55add6" title="DMA Stream Enable Interrupt on Transfer Error." alt="" coords="204,282,345,329"/>
+</map>

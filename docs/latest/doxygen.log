@@ -15,4 +15,3 @@ error: Tag file `./stm32/stm32.tag' does not exist or is not a file. Skipping it
 
 <unknown>:1: group gpio_mode: ignoring title "GPIO Pin Direction and Analog/Digital Mode" that does not match old title "GPIO Pin Mode"
 
-Problems running dot: exit code=127, command='dot', arguments='"/home/esdentem/projects/libopencm3/libopencm3-git/doc/html/graph_legend.dot" -Tpng -o "/home/esdentem/projects/libopencm3/libopencm3-git/doc/html/graph_legend.png"'

@@ -1,0 +1,5 @@
+<map id="rcc_osc_on" name="rcc_osc_on">
+<area shape="rect" id="node3" href="$group__STM32L1xx__rcc__defines.html#ga3d30e886f8749e059865bd3fc7a14ccd" title="rcc_clock_setup_hsi" alt="" coords="147,5,288,35"/>
+<area shape="rect" id="node5" href="$group__STM32L1xx__rcc__defines.html#ga71d9ff219cb4e09c3cddbf383e8c47b3" title="rcc_clock_setup_msi" alt="" coords="145,59,289,88"/>
+<area shape="rect" id="node7" href="$group__STM32L1xx__rcc__defines.html#ga76b12063e828a7af960d375dee952d31" title="rcc_clock_setup_pll" alt="" coords="149,112,285,141"/>
+</map>

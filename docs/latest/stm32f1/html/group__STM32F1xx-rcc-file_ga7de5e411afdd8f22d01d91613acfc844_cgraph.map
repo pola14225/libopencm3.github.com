@@ -1,0 +1,13 @@
+<map id="rcc_clock_setup_in_hse_8mhz_out_72mhz" name="rcc_clock_setup_in_hse_8mhz_out_72mhz">
+<area shape="rect" id="node3" href="$flash_8h.html#a66164f6799767f17d6f6e845c4c5039e" title="flash_set_ws" alt="" coords="248,5,347,35"/>
+<area shape="rect" id="node5" href="$group__STM32F1xx__rcc__defines.html#ga8dbd64d58e019803bf109609203d1afd" title="RCC Turn on an Oscillator." alt="" coords="253,59,341,88"/>
+<area shape="rect" id="node7" href="$group__STM32F1xx__rcc__defines.html#gab59dc079275228143e1c8922c2b124d2" title="ADC Setup the A/D Clock." alt="" coords="243,112,352,141"/>
+<area shape="rect" id="node9" href="$group__STM32F1xx__rcc__defines.html#ga587f5be40f38a0bf0418ae4125129dc0" title="RCC Set the AHB Prescale Factor." alt="" coords="249,165,345,195"/>
+<area shape="rect" id="node11" href="$group__STM32F1xx__rcc__defines.html#gac4e29905a035f775bae9d4273c3767af" title="RCC Set the PLL Multiplication Factor." alt="" coords="213,218,381,265"/>
+<area shape="rect" id="node13" href="$group__STM32F1xx__rcc__defines.html#ga2c3543cb0fc5e01678bb6d5bae1a51a1" title="RCC Set the PLL Clock Source." alt="" coords="232,288,363,317"/>
+<area shape="rect" id="node15" href="$group__STM32F1xx__rcc__defines.html#ga41ac1b6752615c234079c76a23a99989" title="RCC Set the HSE Frequency Divider used as PLL Clock Source." alt="" coords="240,341,355,371"/>
+<area shape="rect" id="node17" href="$group__STM32F1xx__rcc__defines.html#ga8cb53f3681507b9819229b24bd3417cd" title="RCC Set the APB1 Prescale Factor." alt="" coords="245,395,349,424"/>
+<area shape="rect" id="node19" href="$group__STM32F1xx__rcc__defines.html#ga411748dd9a8a99b746e802af6b448763" title="RCC Set the APB2 Prescale Factor." alt="" coords="245,448,349,477"/>
+<area shape="rect" id="node21" href="$group__STM32F1xx__rcc__defines.html#ga3edbf52144a86a1b8292b3e21e3959d7" title="RCC Set the Source for the System Clock." alt="" coords="220,501,375,531"/>
+<area shape="rect" id="node23" href="$group__STM32F1xx__rcc__defines.html#ga0f9fac6ac510e119aebe5f62c53f073a" title="RCC Wait for Oscillator Ready." alt="" coords="217,555,377,584"/>
+</map>

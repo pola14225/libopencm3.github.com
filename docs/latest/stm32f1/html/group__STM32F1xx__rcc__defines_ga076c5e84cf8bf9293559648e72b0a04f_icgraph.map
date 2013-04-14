@@ -1,0 +1,5 @@
+<map id="rcc_peripheral_reset" name="rcc_peripheral_reset">
+<area shape="rect" id="node3" href="$group__i2c__file.html#ga7112eec67635f56b52bb9f6a55e68f51" title="I2C Reset." alt="" coords="199,5,273,35"/>
+<area shape="rect" id="node5" href="$group__spi__file.html#gaf6817753de3cd11b9805db6f4cc4ddc7" title="SPI Reset." alt="" coords="199,59,273,88"/>
+<area shape="rect" id="node7" href="$group__timer__file.html#ga635e53b4d7012c66f0f522018f3c365e" title="Reset a Timer." alt="" coords="193,112,279,141"/>
+</map>

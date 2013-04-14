@@ -1,9 +1,0 @@
-digraph "/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/" {
-  compound=true
-  node [ fontsize="10", fontname="Helvetica"];
-  edge [ labelfontsize="10", labelfontname="Helvetica"];
-  subgraph clusterdir_45f2d6d22892326e20da1249658b8a7a {
-    graph [ bgcolor="#ddddee", pencolor="black", label="stm32" fontname="Helvetica", fontsize="10", URL="dir_45f2d6d22892326e20da1249658b8a7a.html"]
-  dir_1fc15a2279e09b93b0b15236ec8117f8 [shape=box, label="f4", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1fc15a2279e09b93b0b15236ec8117f8.html"];
-  }
-}

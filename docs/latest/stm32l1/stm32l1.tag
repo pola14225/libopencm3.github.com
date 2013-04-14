@@ -341,6 +341,11 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>dma.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/</path>
+    <filename>dma_8h</filename>
+  </compound>
+  <compound kind="file">
     <name>dma_common_f13.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>dma__common__f13_8c</filename>
@@ -5650,6 +5655,11 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>STM32L1xx_dma_defines</name>
+    <title>DMA Defines</title>
+    <filename>group__STM32L1xx__dma__defines.html</filename>
+  </compound>
+  <compound kind="group">
     <name>STM32L1xx</name>
     <title>STM32L1xx</title>
     <filename>group__STM32L1xx.html</filename>
@@ -5670,6 +5680,7 @@
     <filename>group__STM32L1xx__defines.html</filename>
     <subgroup>crc_defines</subgroup>
     <subgroup>dac_defines</subgroup>
+    <subgroup>STM32L1xx_dma_defines</subgroup>
     <subgroup>gpio_defines</subgroup>
     <subgroup>i2c_defines</subgroup>
     <subgroup>iwdg_defines</subgroup>
@@ -10597,6 +10608,7 @@
     <filename>dir_5042fe5b58720bedf351b6ae0cadd586.html</filename>
     <file>crc.h</file>
     <file>dac.h</file>
+    <file>dma.h</file>
     <file>doc-stm32l1.h</file>
     <file>flash.h</file>
     <file>gpio.h</file>

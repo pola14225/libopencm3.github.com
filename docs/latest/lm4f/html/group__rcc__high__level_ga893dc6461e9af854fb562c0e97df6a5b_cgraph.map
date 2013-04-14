@@ -1,0 +1,13 @@
+<map id="rcc_sysclk_config" name="rcc_sysclk_config">
+<area shape="rect" id="node3" href="$group__rcc__high__level.html#ga8a17e04e6b457ec201d76ba1ee418a9d" title="Change the PLL divisor." alt="" coords="181,59,336,88"/>
+<area shape="rect" id="node5" href="$group__rcc__low__level.html#ga269054cc63981ae593e6820de2fe76b1" title="Enable the PLL bypass and use the oscillator clock." alt="" coords="385,5,540,35"/>
+<area shape="rect" id="node13" href="$group__rcc__low__level.html#ga3d715276910605af035ccbf374c15d3a" title="Configure the crystal type connected to the device." alt="" coords="195,112,323,141"/>
+<area shape="rect" id="node15" href="$group__rcc__low__level.html#gafc653bc7b616053515e1fd4aeb54f972" title="Enable the main oscillator." alt="" coords="185,165,332,195"/>
+<area shape="rect" id="node17" href="$group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control." alt="" coords="200,219,317,248"/>
+<area shape="rect" id="node20" href="$group__rcc__low__level.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL." alt="" coords="219,272,299,301"/>
+<area shape="rect" id="node22" href="$group__rcc__low__level.html#gabde4ea299b0ce6f81a9f44387881e29b" title="Set the oscillator source to be used by the system clock." alt="" coords="189,325,328,355"/>
+<area shape="rect" id="node24" href="$group__rcc__high__level.html#gaf2fc6f12a382f0e34221330ee37fe0ff" title="xtal_to_freq" alt="" coords="213,379,304,408"/>
+<area shape="rect" id="node7" href="$group__rcc__low__level.html#gaf867d8975967972fff96350206c36a2e" title="Set the PLL clock divisor (from 400MHz)" alt="" coords="397,59,528,88"/>
+<area shape="rect" id="node9" href="$group__rcc__low__level.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock." alt="" coords="387,112,539,141"/>
+<area shape="rect" id="node11" href="$group__rcc__low__level.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock." alt="" coords="384,165,541,195"/>
+</map>

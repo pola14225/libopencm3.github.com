@@ -1,0 +1,9 @@
+<map id="DAC Defines" name="DAC Defines">
+<area shape="rect" id="node1" href="$group__dac__mamp1.html" title="Unmask bits [(n&#45;1)..0] of LFSR/Triangle Amplitude equal to (2**(n+1)&#45;1." alt="" coords="348,5,519,69"/>
+<area shape="rect" id="node2" href="$group__dac__mamp2.html" title="Unmask bits [(n&#45;1)..0] of LFSR/Triangle Amplitude equal to (2**(n)&#45;1." alt="" coords="348,93,519,157"/>
+<area shape="rect" id="node4" href="$group__dac__wave2__en.html" title="DAC Channel 2 Waveform\l Generation Enable" alt="" coords="344,181,523,227"/>
+<area shape="rect" id="node5" href="$group__dac__wave1__en.html" title="DAC Channel 1 Waveform\l Generation Enable" alt="" coords="344,250,523,297"/>
+<area shape="rect" id="node6" href="$group__dac__trig1__sel.html" title="DAC Channel 1 Trigger\l Source Selection" alt="" coords="355,319,512,366"/>
+<area shape="rect" id="node7" href="$group__dac__trig2__sel.html" title="DAC Channel 2 Trigger\l Source Selection" alt="" coords="355,389,512,435"/>
+<area shape="rect" id="node8" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series." alt="" coords="5,224,147,253"/>
+</map>

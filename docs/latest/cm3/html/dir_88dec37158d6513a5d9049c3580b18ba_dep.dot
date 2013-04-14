@@ -1,9 +1,0 @@
-digraph "/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/" {
-  compound=true
-  node [ fontsize="10", fontname="Helvetica"];
-  edge [ labelfontsize="10", labelfontname="Helvetica"];
-  subgraph clusterdir_e1040081471ffd682e8357aa53c82f70 {
-    graph [ bgcolor="#ddddee", pencolor="black", label="libopencm3" fontname="Helvetica", fontsize="10", URL="dir_e1040081471ffd682e8357aa53c82f70.html"]
-  dir_88dec37158d6513a5d9049c3580b18ba [shape=box, label="cm3", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_88dec37158d6513a5d9049c3580b18ba.html"];
-  }
-}
