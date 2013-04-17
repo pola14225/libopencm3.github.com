@@ -1,5 +1,10 @@
 var searchData=
 [
+  ['r0',['r0',['../../../cm3/html/structscb__exception__stack__frame.html#a18e0eb119e02ac5e8d79c24d0989441e',1,'scb_exception_stack_frame']]],
+  ['r1',['r1',['../../../cm3/html/structscb__exception__stack__frame.html#a693f4634524e0310b5df29445430f81b',1,'scb_exception_stack_frame']]],
+  ['r12',['r12',['../../../cm3/html/structscb__exception__stack__frame.html#a0a94427f260d232306e7fbeffee543cb',1,'scb_exception_stack_frame']]],
+  ['r2',['r2',['../../../cm3/html/structscb__exception__stack__frame.html#af05aed409686f5fe6890f6403b29935c',1,'scb_exception_stack_frame']]],
+  ['r3',['r3',['../../../cm3/html/structscb__exception__stack__frame.html#a98b1085fff8645a87c6186f031a5067a',1,'scb_exception_stack_frame']]],
   ['range1',['RANGE1',['../pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a15e188ed9b712b2d0de04db6b782c4eb',1,'pwr.h']]],
   ['range2',['RANGE2',['../pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a69f2f7f39de6f1dcea47320100b82926',1,'pwr.h']]],
   ['range3',['RANGE3',['../pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a07a05dfcddb0d6988ed06828b40a2af2',1,'pwr.h']]],

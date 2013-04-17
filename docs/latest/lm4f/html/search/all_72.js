@@ -1,5 +1,10 @@
 var searchData=
 [
+  ['r0',['r0',['../../../cm3/html/structscb__exception__stack__frame.html#a18e0eb119e02ac5e8d79c24d0989441e',1,'scb_exception_stack_frame']]],
+  ['r1',['r1',['../../../cm3/html/structscb__exception__stack__frame.html#a693f4634524e0310b5df29445430f81b',1,'scb_exception_stack_frame']]],
+  ['r12',['r12',['../../../cm3/html/structscb__exception__stack__frame.html#a0a94427f260d232306e7fbeffee543cb',1,'scb_exception_stack_frame']]],
+  ['r2',['r2',['../../../cm3/html/structscb__exception__stack__frame.html#af05aed409686f5fe6890f6403b29935c',1,'scb_exception_stack_frame']]],
+  ['r3',['r3',['../../../cm3/html/structscb__exception__stack__frame.html#a98b1085fff8645a87c6186f031a5067a',1,'scb_exception_stack_frame']]],
   ['rcc_2ec',['rcc.c',['../rcc_8c.html',1,'']]],
   ['rcc_2eh',['rcc.h',['../rcc_8h.html',1,'']]],
   ['rcc_5facmp0',['RCC_ACMP0',['../group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab043d91156620faf65bd2e7ba3b4892f',1,'systemcontrol.h']]],

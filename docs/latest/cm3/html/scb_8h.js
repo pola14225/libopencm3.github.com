@@ -1,5 +1,6 @@
 var scb_8h =
 [
+    [ "scb_exception_stack_frame", "structscb__exception__stack__frame.html", "structscb__exception__stack__frame" ],
     [ "SCB_AFSR", "scb_8h.html#a16a8b546ae510f0d470908e8ac913d11", null ],
     [ "SCB_AIRCR", "scb_8h.html#afb55c4d149b907fe569a1d8bb31cade1", null ],
     [ "SCB_AIRCR_ENDIANESS", "scb_8h.html#ade5876f1c12d6322a188b09efe77f69d", null ],
@@ -52,6 +53,7 @@ var scb_8h =
     [ "SCB_FPCAR", "scb_8h.html#af8ddf0d9521ba02283056c087b7dd1c1", null ],
     [ "SCB_FPCCR", "scb_8h.html#a2dedfeb9f0d103f0770bfaee423b9b17", null ],
     [ "SCB_FPDSCR", "scb_8h.html#ad454e6232fc0e7a89ef4567bd42c8245", null ],
+    [ "SCB_GET_EXCEPTION_STACK_FRAME", "scb_8h.html#a0cc5fd2659edd23ae8abb4f4be7263ac", null ],
     [ "SCB_HFSR", "scb_8h.html#af8ffd3e54cbb7642101d979bd91cfa25", null ],
     [ "SCB_HFSR_DEBUG_VT", "scb_8h.html#a7e0175b83b042650f12a013e5d938e68", null ],
     [ "SCB_HFSR_FORCED", "scb_8h.html#ac83ebdcd8f8eb57b964e6f7d28836a93", null ],
@@ -118,7 +120,7 @@ var scb_8h =
     [ "SCP_CPUID_PARTNO_LSB", "scb_8h.html#a2f83cc3d6d72046d14d0d8394c255107", null ],
     [ "SCP_CPUID_REVISION_LSB", "scb_8h.html#a32d76811c5bd63de76997ea734608abe", null ],
     [ "SCP_CPUID_VARIANT_LSB", "scb_8h.html#a3bf3d8f722d181a25b4d88bffe57758a", null ],
-    [ "scb_reset_core", "scb_8h.html#a5587367051fa35e27e6fc47d63cca5f4", null ],
+    [ "scb_reset_core", "scb_8h.html#a8425a250161ee83d6aa8b38c5c3fb4a4", null ],
     [ "scb_reset_system", "scb_8h.html#aad4d08be4e2b209f97d3276b7c7731e6", null ],
     [ "scb_set_priority_grouping", "scb_8h.html#a0e97a2ebc013118cb220542999db3d8b", null ]
 ];

@@ -959,6 +959,7 @@
     <filename>scb_8h</filename>
     <includes id="memorymap_8h" name="memorymap.h" local="no" imported="no">libopencm3/cm3/memorymap.h</includes>
     <includes id="common_8h" name="common.h" local="no" imported="no">libopencm3/cm3/common.h</includes>
+    <class kind="struct">scb_exception_stack_frame</class>
     <member kind="define">
       <type>#define</type>
       <name>SCB_CPUID</name>
@@ -1785,11 +1786,18 @@
       <anchor>af3ff3fc901f6b4e608e2084e61125daf</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SCB_GET_EXCEPTION_STACK_FRAME</name>
+      <anchorfile>scb_8h.html</anchorfile>
+      <anchor>a0cc5fd2659edd23ae8abb4f4be7263ac</anchor>
+      <arglist>(f)</arglist>
+    </member>
     <member kind="function">
-      <type>BEGIN_DECLS void</type>
+      <type>void</type>
       <name>scb_reset_core</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a5587367051fa35e27e6fc47d63cca5f4</anchor>
+      <anchor>a8425a250161ee83d6aa8b38c5c3fb4a4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -3065,6 +3073,66 @@
       <name>STK_CTRL_CLKSOURCE_AHB</name>
       <anchorfile>group__systick__clksource.html</anchorfile>
       <anchor>ga4cf91426a66d9f5b1b4733d135dd1c86</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>scb_exception_stack_frame</name>
+    <filename>structscb__exception__stack__frame.html</filename>
+    <member kind="variable">
+      <type>u32</type>
+      <name>r0</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a18e0eb119e02ac5e8d79c24d0989441e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>u32</type>
+      <name>r1</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a693f4634524e0310b5df29445430f81b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>u32</type>
+      <name>r2</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>af05aed409686f5fe6890f6403b29935c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>u32</type>
+      <name>r3</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a98b1085fff8645a87c6186f031a5067a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>u32</type>
+      <name>r12</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a0a94427f260d232306e7fbeffee543cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>u32</type>
+      <name>lr</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a2c0564ce9d892ae6ed3dfbc8264b9a07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>u32</type>
+      <name>pc</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>ace9870e73f3bae8222b1daf9b73eca21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>u32</type>
+      <name>xpsr</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a4b83499b78da9f6d7f4ac795476349d1</anchor>
       <arglist></arglist>
     </member>
   </compound>
