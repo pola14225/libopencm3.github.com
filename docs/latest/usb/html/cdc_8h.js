@@ -1,0 +1,27 @@
+var cdc_8h =
+[
+    [ "usb_cdc_header_descriptor", "structusb__cdc__header__descriptor.html", "structusb__cdc__header__descriptor" ],
+    [ "usb_cdc_union_descriptor", "structusb__cdc__union__descriptor.html", "structusb__cdc__union__descriptor" ],
+    [ "usb_cdc_call_management_descriptor", "structusb__cdc__call__management__descriptor.html", "structusb__cdc__call__management__descriptor" ],
+    [ "usb_cdc_acm_descriptor", "structusb__cdc__acm__descriptor.html", "structusb__cdc__acm__descriptor" ],
+    [ "usb_cdc_line_coding", "structusb__cdc__line__coding.html", "structusb__cdc__line__coding" ],
+    [ "usb_cdc_notification", "structusb__cdc__notification.html", "structusb__cdc__notification" ],
+    [ "__attribute__", "cdc_8h.html#gab6677e82689abb017cf4e5590b1305fa", null ],
+    [ "bcdCDC", "cdc_8h.html#a8d93f4dc339e2b93f1936bc8379053ea", null ],
+    [ "bCharFormat", "cdc_8h.html#a979573baf34aef2377f42c7457d234b0", null ],
+    [ "bControlInterface", "cdc_8h.html#ab4e6fe864873105f8e007331b4e456a3", null ],
+    [ "bDataBits", "cdc_8h.html#aad12e236e2d98e282eecda84c236d5bc", null ],
+    [ "bDataInterface", "cdc_8h.html#a856be28e5decda9135c9b148a4897716", null ],
+    [ "bDescriptorSubtype", "cdc_8h.html#a647561cc46bc5a0d3e0d9e962c43c605", null ],
+    [ "bDescriptorType", "cdc_8h.html#af6d6c7e334878414c973fc10e54cfb4e", null ],
+    [ "bFunctionLength", "cdc_8h.html#a26c0bc44674a4154a958ce07a0d5b0fd", null ],
+    [ "bmCapabilities", "cdc_8h.html#a9ad7ca27543639baeed1b53c6f24e149", null ],
+    [ "bmRequestType", "cdc_8h.html#a9119649a830686614e70e2e8d42c91d3", null ],
+    [ "bNotification", "cdc_8h.html#a8fe00ac1bfe15b7ba3967fa036bd2714", null ],
+    [ "bParityType", "cdc_8h.html#aa4bacb5291241e2a338b40c77d73ebd5", null ],
+    [ "bSubordinateInterface0", "cdc_8h.html#aa9671b5a92b5251a996c540cc090bef3", null ],
+    [ "dwDTERate", "cdc_8h.html#a0880b491e21b4049653c96c27616ede0", null ],
+    [ "wIndex", "cdc_8h.html#a3fd493f43a628394c42583147a16b1f1", null ],
+    [ "wLength", "cdc_8h.html#adc69e007bb0640c8859cc127ab3380ae", null ],
+    [ "wValue", "cdc_8h.html#adca196b62eb4165c58f42adc2cf4a901", null ]
+];

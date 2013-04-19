@@ -4,6 +4,7 @@ var NAVTREE =
     [ "libopencm3 Developer Documentation", "index.html", null ],
     [ "Top Level", "../html/index.html", null ],
     [ "CM3 Core", "../cm3/html/modules.html", null ],
+    [ "Generic USB", "../usb/html/modules.html", null ],
     [ "STM32F1", "../stm32f1/html/modules.html", null ],
     [ "STM32F2", "../stm32f2/html/modules.html", null ],
     [ "STM32F4", "../stm32f4/html/modules.html", null ],

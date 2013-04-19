@@ -1,0 +1,10 @@
+<map id="usb_descriptor_index" name="usb_descriptor_index">
+<area shape="rect" id="node3" href="$group__usb__standard__file.html#ga91e820a9540208bd0918b6ca0454e8aa" title="usb_standard_get_descriptor" alt="" coords="200,33,389,63"/>
+<area shape="rect" id="node5" href="$usb__standard_8c.html#a17cfcc187ad80d6d25addc7c538d733e" title="_usbd_standard_request\l_device" alt="" coords="439,25,601,71"/>
+<area shape="rect" id="node7" href="$usb__standard_8c.html#a73b0c20466d768f5fe3fa1688503ab6c" title="_usbd_standard_request" alt="" coords="652,33,815,63"/>
+<area shape="rect" id="node9" href="$group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="864,25,1003,71"/>
+<area shape="rect" id="node11" href="$usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="1267,5,1395,35"/>
+<area shape="rect" id="node15" href="$group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="1051,59,1211,88"/>
+<area shape="rect" id="node13" href="$group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7" title="Main initialization entry point." alt="" coords="1451,32,1525,61"/>
+<area shape="rect" id="node17" href="$usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="1260,59,1401,88"/>
+</map>

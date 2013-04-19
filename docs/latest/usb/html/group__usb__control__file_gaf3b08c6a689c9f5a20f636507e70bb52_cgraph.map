@@ -1,0 +1,4 @@
+<map id="usb_control_recv_chunk" name="usb_control_recv_chunk">
+<area shape="rect" id="node3" href="$group__usb__driver__defines.html#gac8730e4d84b1a3862c49c8f2443ff59d" title="usbd_ep_read_packet" alt="" coords="216,5,365,35"/>
+<area shape="rect" id="node5" href="$group__usb__driver__defines.html#ga16977a6f4e056a1fda2a12625063bb6f" title="usbd_ep_stall_set" alt="" coords="228,59,353,88"/>
+</map>

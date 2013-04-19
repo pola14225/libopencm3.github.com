@@ -1,0 +1,6 @@
+<map id="usb_control_request_dispatch" name="usb_control_request_dispatch">
+<area shape="rect" id="node3" href="$usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="408,5,536,35"/>
+<area shape="rect" id="node7" href="$group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="192,59,352,88"/>
+<area shape="rect" id="node5" href="$group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7" title="Main initialization entry point." alt="" coords="592,32,667,61"/>
+<area shape="rect" id="node9" href="$usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="401,59,543,88"/>
+</map>

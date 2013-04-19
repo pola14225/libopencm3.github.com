@@ -1,0 +1,6 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/usb_f103.c:81: warning: The following parameters of usb_set_ep_rx_bufsize(usbd_device *dev, u8 ep, u32 size) are not documented:
+  parameter 'dev'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/usb.c:45: warning: The following parameters of usbd_init(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings) are not documented:
+  parameter 'num_strings'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/usb.c:45: warning: The following parameters of usbd_init(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings) are not documented:
+  parameter 'num_strings'

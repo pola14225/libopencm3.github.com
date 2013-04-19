@@ -1,0 +1,25 @@
+<map id="usb_control_setup_read" name="usb_control_setup_read">
+<area shape="rect" id="node3" href="$group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="228,523,367,570"/>
+<area shape="rect" id="node33" href="$group__usb__driver__defines.html#ga16977a6f4e056a1fda2a12625063bb6f" title="usbd_ep_stall_set" alt="" coords="1127,435,1252,464"/>
+<area shape="rect" id="node46" href="$group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="215,723,380,752"/>
+<area shape="rect" id="node48" href="$group__usb__driver__defines.html#gac23b5da866ceb13217dd2eaff42bed11" title="usbd_ep_write_packet" alt="" coords="436,748,588,777"/>
+<area shape="rect" id="node5" href="$usb__private_8h.html#a73b0c20466d768f5fe3fa1688503ab6c" title="_usbd_standard_request" alt="" coords="431,444,593,473"/>
+<area shape="rect" id="node7" href="$usb__private_8h.html#a17cfcc187ad80d6d25addc7c538d733e" title="_usbd_standard_request\l_device" alt="" coords="644,146,807,193"/>
+<area shape="rect" id="node25" href="$usb__private_8h.html#a34205b3ec752b4c4d986c786f53154fd" title="_usbd_standard_request\l_endpoint" alt="" coords="644,391,807,438"/>
+<area shape="rect" id="node38" href="$usb__private_8h.html#adcd7f04df4db8aebb7a55a7d27344e87" title="_usbd_standard_request\l_interface" alt="" coords="644,522,807,569"/>
+<area shape="rect" id="node9" href="$group__usb__standard__file.html#gacdc22149f70b70c1cf3273b2554ca2b9" title="usb_standard_device\l_get_status" alt="" coords="888,5,1032,51"/>
+<area shape="rect" id="node11" href="$group__usb__standard__file.html#gadf7ed528da88dd38891a7d0576827486" title="usb_standard_get_configuration" alt="" coords="857,75,1063,104"/>
+<area shape="rect" id="node13" href="$group__usb__standard__file.html#ga91e820a9540208bd0918b6ca0454e8aa" title="usb_standard_get_descriptor" alt="" coords="865,128,1055,157"/>
+<area shape="rect" id="node21" href="$group__usb__standard__file.html#ga30540969a7d80fcd5d5d70654df295d7" title="usb_standard_set_address" alt="" coords="871,181,1049,211"/>
+<area shape="rect" id="node23" href="$group__usb__standard__file.html#gaa5c48d8dffc0736981700cc6fd019b3b" title="usb_standard_set_configuration" alt="" coords="857,235,1063,264"/>
+<area shape="rect" id="node15" href="$group__usb__standard__file.html#gacbbbae8f1b81e1f3d3cc14389334edac" title="usb_descriptor_index" alt="" coords="1117,75,1261,104"/>
+<area shape="rect" id="node17" href="$group__usb__standard__file.html#ga8e2a32b39cce0aba9ffe57b5981fa82b" title="usb_descriptor_type" alt="" coords="1120,128,1259,157"/>
+<area shape="rect" id="node19" href="$group__usb__standard__file.html#ga9ddd779d7d2991ea9e744b115e726a7e" title="build_config_descriptor" alt="" coords="1112,181,1267,211"/>
+<area shape="rect" id="node27" href="$group__usb__standard__file.html#ga6bf1bc18fbba36b1a74510cff6404bc8" title="usb_standard_endpoint\l_get_status" alt="" coords="883,287,1037,334"/>
+<area shape="rect" id="node31" href="$group__usb__standard__file.html#ga79017fc3543de11a160ce349cf695b95" title="usb_standard_endpoint\l_stall" alt="" coords="883,357,1037,403"/>
+<area shape="rect" id="node35" href="$group__usb__standard__file.html#ga4086e86746d87cfeadb304387c262476" title="usb_standard_endpoint\l_unstall" alt="" coords="883,426,1037,473"/>
+<area shape="rect" id="node29" href="$group__usb__driver__defines.html#ga2143a6d72b1f2215f9720562ecd5dbe0" title="usbd_ep_stall_get" alt="" coords="1127,296,1252,325"/>
+<area shape="rect" id="node40" href="$group__usb__standard__file.html#gab42dc32db05b0f94ca308ac0797f5ad0" title="usb_standard_get_interface" alt="" coords="869,496,1051,525"/>
+<area shape="rect" id="node42" href="$group__usb__standard__file.html#gae599ca81577e439ae80f0cb7a0dc45bc" title="usb_standard_interface\l_get_status" alt="" coords="881,549,1039,595"/>
+<area shape="rect" id="node44" href="$group__usb__standard__file.html#ga2378512ec5ceced5811a54511a58c749" title="usb_standard_set_interface" alt="" coords="869,619,1051,648"/>
+</map>
