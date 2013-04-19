@@ -43,7 +43,7 @@ var NAVTREEINDEX =
 [
 "adc_8c.html",
 "dma__common__f24_8h.html#ga44bac096c7f6f16310dcd6018dd11ec6",
-"group__dac__defines.html#ga5c8dc7708ee76ac6e3487e4489f40d8e",
+"group__dac__defines.html#ga71c7a4aaded827d86bc9247d580683c9",
 "group__pwr-file.html#gacee516d449f1015a27246fbfedc534de",
 "group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2ab974b1c6b9287cf2e3ae6478844e01de",
 "iwdg__common__all_8h.html#gaa4f196e28e96c7901f9ff25a5c7fd20d",

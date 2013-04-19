@@ -984,15 +984,15 @@
       <type>void</type>
       <name>dac_load_data_buffer_single</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>gab8b8d40f4cc66f713a2039ba8b9d4f06</anchor>
-      <arglist>(u32 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
+      <anchor>gac5d6bc856982b2f33b2f5665bd16f2ca</anchor>
+      <arglist>(u16 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_load_data_buffer_dual</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>ga4589e4bc00c888e68165a9f8d94131f2</anchor>
-      <arglist>(u32 dac_data1, u32 dac_data2, data_align dac_data_format)</arglist>
+      <anchor>ga9d7d3043af42e83f1620bb9f7c9fde49</anchor>
+      <arglist>(u16 dac_data1, u16 dac_data2, data_align dac_data_format)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -1142,15 +1142,15 @@
       <type>void</type>
       <name>dac_load_data_buffer_single</name>
       <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>gab8b8d40f4cc66f713a2039ba8b9d4f06</anchor>
-      <arglist>(u32 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
+      <anchor>gac5d6bc856982b2f33b2f5665bd16f2ca</anchor>
+      <arglist>(u16 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_load_data_buffer_dual</name>
       <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>ga4589e4bc00c888e68165a9f8d94131f2</anchor>
-      <arglist>(u32 dac_data1, u32 dac_data2, data_align dac_data_format)</arglist>
+      <anchor>ga9d7d3043af42e83f1620bb9f7c9fde49</anchor>
+      <arglist>(u16 dac_data1, u16 dac_data2, data_align dac_data_format)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -6983,15 +6983,15 @@
       <type>void</type>
       <name>dac_load_data_buffer_single</name>
       <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>gab8b8d40f4cc66f713a2039ba8b9d4f06</anchor>
-      <arglist>(u32 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
+      <anchor>gac5d6bc856982b2f33b2f5665bd16f2ca</anchor>
+      <arglist>(u16 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_load_data_buffer_dual</name>
       <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>ga4589e4bc00c888e68165a9f8d94131f2</anchor>
-      <arglist>(u32 dac_data1, u32 dac_data2, data_align dac_data_format)</arglist>
+      <anchor>ga9d7d3043af42e83f1620bb9f7c9fde49</anchor>
+      <arglist>(u16 dac_data1, u16 dac_data2, data_align dac_data_format)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -10400,15 +10400,15 @@
       <type>void</type>
       <name>dac_load_data_buffer_single</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>gab8b8d40f4cc66f713a2039ba8b9d4f06</anchor>
-      <arglist>(u32 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
+      <anchor>gac5d6bc856982b2f33b2f5665bd16f2ca</anchor>
+      <arglist>(u16 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_load_data_buffer_dual</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>ga4589e4bc00c888e68165a9f8d94131f2</anchor>
-      <arglist>(u32 dac_data1, u32 dac_data2, data_align dac_data_format)</arglist>
+      <anchor>ga9d7d3043af42e83f1620bb9f7c9fde49</anchor>
+      <arglist>(u16 dac_data1, u16 dac_data2, data_align dac_data_format)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
