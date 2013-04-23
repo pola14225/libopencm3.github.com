@@ -3361,6 +3361,20 @@
       <anchor>a6732b60b662d0168e6995cddc5027c29</anchor>
       <arglist>[CLOCK_3V3_END]</arglist>
     </member>
+    <member kind="variable">
+      <type>const clock_scale_t</type>
+      <name>hse_12mhz_3v3</name>
+      <anchorfile>rcc_8c.html</anchorfile>
+      <anchor>afaf3b6c383f86ea1730ceedc0eb5a0c4</anchor>
+      <arglist>[CLOCK_3V3_END]</arglist>
+    </member>
+    <member kind="variable">
+      <type>const clock_scale_t</type>
+      <name>hse_16mhz_3v3</name>
+      <anchorfile>rcc_8c.html</anchorfile>
+      <anchor>a24a53fce58c72ae809ee796bdf93b693</anchor>
+      <arglist>[CLOCK_3V3_END]</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>rcc.h</name>
@@ -3371,6 +3385,12 @@
       <name>clock_3v3_t</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>acae56f4b5e84d794b6bcd14481dd11cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CLOCK_3V3_48MHZ</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>acae56f4b5e84d794b6bcd14481dd11cbad14774147c799b99145fa1b40f579152</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -3649,6 +3669,20 @@
       <name>hse_8mhz_3v3</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a6732b60b662d0168e6995cddc5027c29</anchor>
+      <arglist>[CLOCK_3V3_END]</arglist>
+    </member>
+    <member kind="variable">
+      <type>const clock_scale_t</type>
+      <name>hse_12mhz_3v3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>afaf3b6c383f86ea1730ceedc0eb5a0c4</anchor>
+      <arglist>[CLOCK_3V3_END]</arglist>
+    </member>
+    <member kind="variable">
+      <type>const clock_scale_t</type>
+      <name>hse_16mhz_3v3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a24a53fce58c72ae809ee796bdf93b693</anchor>
       <arglist>[CLOCK_3V3_END]</arglist>
     </member>
   </compound>

@@ -29,6 +29,8 @@ var rcc_8c =
     [ "rcc_system_clock_source", "rcc_8c.html#a02ae4c7c3c5566f2d92738177d8f6367", null ],
     [ "rcc_wait_for_osc_ready", "rcc_8c.html#a0f9fac6ac510e119aebe5f62c53f073a", null ],
     [ "rcc_wait_for_sysclk_status", "rcc_8c.html#a6472eba195686b970de6216ab61ebd7c", null ],
+    [ "hse_12mhz_3v3", "rcc_8c.html#afaf3b6c383f86ea1730ceedc0eb5a0c4", null ],
+    [ "hse_16mhz_3v3", "rcc_8c.html#a24a53fce58c72ae809ee796bdf93b693", null ],
     [ "hse_8mhz_3v3", "rcc_8c.html#a6732b60b662d0168e6995cddc5027c29", null ],
     [ "rcc_ppre1_frequency", "rcc_8c.html#a2ef92a5b2a7fffd75a80adb496391c8c", null ],
     [ "rcc_ppre2_frequency", "rcc_8c.html#a734b4f30d6b0845a57f5e8d4dc434f85", null ]

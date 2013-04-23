@@ -47,8 +47,8 @@ var NAVTREEINDEX =
 "group__pwr-file.html#gacee516d449f1015a27246fbfedc534de",
 "group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2ab974b1c6b9287cf2e3ae6478844e01de",
 "iwdg__common__all_8h.html#gaa4f196e28e96c7901f9ff25a5c7fd20d",
-"spi__common__all_8h.html#gac871df249fb0c847813b5cb045ecea72",
-"usart_8c_source.html"
+"spi__common__all_8h.html#gaa1c55da2ee36d0652ef375201f96c8d6",
+"timer__common__f24_8c_source.html"
 ];
 
 var navTreeSubIndices = new Array();
