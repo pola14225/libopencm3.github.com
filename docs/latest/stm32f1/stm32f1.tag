@@ -1709,6 +1709,13 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
+      <type>u32</type>
+      <name>flash_get_status_flags</name>
+      <anchorfile>flash_8c.html</anchorfile>
+      <anchor>a9d09d8024fecdc2acf0e1a5354d51dfc</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>flash_unlock_option_bytes</name>
       <anchorfile>flash_8c.html</anchorfile>
@@ -1851,6 +1858,13 @@
       <name>flash_clear_status_flags</name>
       <anchorfile>flash_8h.html</anchorfile>
       <anchor>a8bf42e68b53ee74583675289608dae65</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>flash_get_status_flags</name>
+      <anchorfile>flash_8h.html</anchorfile>
+      <anchor>a9d09d8024fecdc2acf0e1a5354d51dfc</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">

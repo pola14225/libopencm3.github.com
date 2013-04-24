@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"group__STM32F1xx__rcc__defines.html#ga94cea07a3bb5a95bbbaf3de4b7a8a23c":[4,1,8,46],
+"group__STM32F1xx__rcc__defines.html#gaa02e63deae78644c393004fb900fe584":[4,1,8,17],
 "group__STM32F1xx__rcc__defines.html#gaa57d9566802a3e2df024cb679df1e990":[4,1,8,56],
 "group__STM32F1xx__rcc__defines.html#gab01089842913b18e3df6e0e3ec89fd71":[4,1,8,37],
 "group__STM32F1xx__rcc__defines.html#gab1b45443e00d0774628de632257ba9f4":[4,1,8,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "group__gpio__port__id.html":[4,1,4,0],
 "group__i2c__clock.html":[4,1,5,1],
 "group__i2c__defines.html":[4,1,5],
-"group__i2c__defines.html#ga04d2d695cc0fb5f71fcdf3d8e245afbb":[4,1,5,4],
-"group__i2c__defines.html#ga0871e204718f58fab7e0f557fc771892":[4,1,5,30],
-"group__i2c__defines.html#ga199a2627362321a61292199ebbe2f700":[4,1,5,6]
+"group__i2c__defines.html#ga04d2d695cc0fb5f71fcdf3d8e245afbb":[4,1,5,4]
 };

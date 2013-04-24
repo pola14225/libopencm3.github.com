@@ -8,6 +8,7 @@ var flash_8h =
     [ "flash_erase_all_pages", "flash_8h.html#af1804e22fb8a901f3a5f85535aa1ff7b", null ],
     [ "flash_erase_option_bytes", "flash_8h.html#a6242ed6be7838125093c9b8b6adeeca1", null ],
     [ "flash_erase_page", "flash_8h.html#a002e6ac054e5086830d0e686672b161b", null ],
+    [ "flash_get_status_flags", "flash_8h.html#a9d09d8024fecdc2acf0e1a5354d51dfc", null ],
     [ "flash_halfcycle_disable", "flash_8h.html#a8b840fef744d2ba6c4b7108256ec082a", null ],
     [ "flash_halfcycle_enable", "flash_8h.html#ad1bac4f23619580572e4d2d1c947c8b8", null ],
     [ "flash_lock", "flash_8h.html#acd9e0d8e9f52bd1c65fda2ce553f7600", null ],

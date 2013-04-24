@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"group__timer__defines.html#ga0707c846866f5260b792279eec88a7f5":[4,1,11,44],
+"group__timer__defines.html#ga08949f4ce2e140ebc2dd4c404431e06f":[4,1,11,19],
 "group__timer__defines.html#ga0a38b28af8f01532ad42e2844ffed7d6":[4,1,11,60],
 "group__timer__defines.html#ga0ae6fd9111170e1fc63535967bdb6461":[4,1,11,94],
 "group__timer__defines.html#ga125f353468205ae4fe68e86776562b27":[4,1,11,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "group__usart__file.html#ga624d64068c2317509c8c5c17fd0cd989":[4,0,12,22],
 "group__usart__file.html#ga6735a9262d89a63746eb7eb4c69cc26c":[4,0,12,2],
 "group__usart__file.html#ga814239da588ea3390a4055cf375468e7":[4,0,12,12],
-"group__usart__file.html#ga872890c964dd33b79935a17e34f46c08":[4,0,12,7],
-"group__usart__file.html#gaa67496df79d937fbce18a6e36b9a806a":[4,0,12,14],
-"group__usart__file.html#gaaaa61a498fcb090540f2dc9d862c26c6":[4,0,12,16]
+"group__usart__file.html#ga872890c964dd33b79935a17e34f46c08":[4,0,12,7]
 };
