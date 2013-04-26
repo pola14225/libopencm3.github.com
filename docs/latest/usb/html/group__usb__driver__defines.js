@@ -16,7 +16,7 @@ var group__usb__driver__defines =
     [ "usbd_ep_stall_get", "group__usb__driver__defines.html#ga2143a6d72b1f2215f9720562ecd5dbe0", null ],
     [ "usbd_ep_stall_set", "group__usb__driver__defines.html#ga16977a6f4e056a1fda2a12625063bb6f", null ],
     [ "usbd_ep_write_packet", "group__usb__driver__defines.html#gac23b5da866ceb13217dd2eaff42bed11", null ],
-    [ "usbd_init", "group__usb__driver__defines.html#ga832fda52dcd6d119aeee16b52bb166e7", null ],
+    [ "usbd_init", "group__usb__driver__defines.html#ga1f62ead53fa54455f5a66af287a8c65a", null ],
     [ "usbd_poll", "group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134", null ],
     [ "usbd_register_control_callback", "group__usb__driver__defines.html#gad8aed7dd977c0d8d2f604d4d3909f067", null ],
     [ "usbd_register_reset_callback", "group__usb__driver__defines.html#ga2cdd6f2cd24e7e222b2add6e08283a7e", null ],
@@ -24,10 +24,8 @@ var group__usb__driver__defines =
     [ "usbd_register_set_config_callback", "group__usb__driver__defines.html#gad1c7cdafca2aecf946bf1000545b5cea", null ],
     [ "usbd_register_sof_callback", "group__usb__driver__defines.html#gad8e688f14cac90c4933954e3ebbfc3b7", null ],
     [ "usbd_register_suspend_callback", "group__usb__driver__defines.html#ga064f9d058427b1fb6f40b35e03a8cd5b", null ],
-    [ "usbd_set_control_buffer_size", "group__usb__driver__defines.html#ga9f8a2ccff874221c0e8f00704c20f614", null ],
     [ "__attribute__", "group__usb__driver__defines.html#ga2530c9cbb5ab3be81daa4e988c2ce579", null ],
     [ "stm32f103_usb_driver", "group__usb__driver__defines.html#gaf75394477d6005c2032c0d2aebb7a9a6", null ],
     [ "stm32f107_usb_driver", "group__usb__driver__defines.html#ga5adac4ccb88c72946fa692670d0bfc16", null ],
-    [ "stm32f207_usb_driver", "group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12", null ],
-    [ "usbd_control_buffer", "group__usb__driver__defines.html#ga94439fb30be8cad22d28dde6a2967ac3", null ]
+    [ "stm32f207_usb_driver", "group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12", null ]
 ];

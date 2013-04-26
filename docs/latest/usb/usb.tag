@@ -484,18 +484,11 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
     <filename>usb_8c</filename>
     <member kind="function">
-      <type>u8 usbd_control_buffer[128]</type>
-      <name>__attribute__</name>
-      <anchorfile>group__usb__drivers__file.html</anchorfile>
-      <anchor>ga2566da6fff1a2c7fb108a39c34a431ea</anchor>
-      <arglist>((weak))</arglist>
-    </member>
-    <member kind="function">
       <type>usbd_device *</type>
       <name>usbd_init</name>
       <anchorfile>group__usb__drivers__file.html</anchorfile>
-      <anchor>ga832fda52dcd6d119aeee16b52bb166e7</anchor>
-      <arglist>(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings)</arglist>
+      <anchor>ga1f62ead53fa54455f5a66af287a8c65a</anchor>
+      <arglist>(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings, u8 *control_buffer, u16 control_buffer_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -524,13 +517,6 @@
       <anchorfile>group__usb__drivers__file.html</anchorfile>
       <anchor>gad8e688f14cac90c4933954e3ebbfc3b7</anchor>
       <arglist>(usbd_device *usbd_dev, void(*callback)(void))</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usbd_set_control_buffer_size</name>
-      <anchorfile>group__usb__drivers__file.html</anchorfile>
-      <anchor>ga9f8a2ccff874221c0e8f00704c20f614</anchor>
-      <arglist>(usbd_device *usbd_dev, u16 size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -1263,15 +1249,8 @@
       <type>usbd_device *</type>
       <name>usbd_init</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga832fda52dcd6d119aeee16b52bb166e7</anchor>
-      <arglist>(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usbd_set_control_buffer_size</name>
-      <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga9f8a2ccff874221c0e8f00704c20f614</anchor>
-      <arglist>(usbd_device *usbd_dev, u16 size)</arglist>
+      <anchor>ga1f62ead53fa54455f5a66af287a8c65a</anchor>
+      <arglist>(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings, u8 *control_buffer, u16 control_buffer_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -1405,13 +1384,6 @@
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>ga2170186d661d2005c6b18c06d7f49f12</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>u8</type>
-      <name>usbd_control_buffer</name>
-      <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga94439fb30be8cad22d28dde6a2967ac3</anchor>
-      <arglist>[]</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2134,15 +2106,8 @@
       <type>usbd_device *</type>
       <name>usbd_init</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga832fda52dcd6d119aeee16b52bb166e7</anchor>
-      <arglist>(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usbd_set_control_buffer_size</name>
-      <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga9f8a2ccff874221c0e8f00704c20f614</anchor>
-      <arglist>(usbd_device *usbd_dev, u16 size)</arglist>
+      <anchor>ga1f62ead53fa54455f5a66af287a8c65a</anchor>
+      <arglist>(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings, u8 *control_buffer, u16 control_buffer_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2277,13 +2242,6 @@
       <anchor>ga2170186d661d2005c6b18c06d7f49f12</anchor>
       <arglist></arglist>
     </member>
-    <member kind="variable">
-      <type>u8</type>
-      <name>usbd_control_buffer</name>
-      <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga94439fb30be8cad22d28dde6a2967ac3</anchor>
-      <arglist>[]</arglist>
-    </member>
   </compound>
   <compound kind="group">
     <name>usb_type_defines</name>
@@ -2329,18 +2287,11 @@
     <title>Generic USB Drivers</title>
     <filename>group__usb__drivers__file.html</filename>
     <member kind="function">
-      <type>u8 usbd_control_buffer[128]</type>
-      <name>__attribute__</name>
-      <anchorfile>group__usb__drivers__file.html</anchorfile>
-      <anchor>ga2566da6fff1a2c7fb108a39c34a431ea</anchor>
-      <arglist>((weak))</arglist>
-    </member>
-    <member kind="function">
       <type>usbd_device *</type>
       <name>usbd_init</name>
       <anchorfile>group__usb__drivers__file.html</anchorfile>
-      <anchor>ga832fda52dcd6d119aeee16b52bb166e7</anchor>
-      <arglist>(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings)</arglist>
+      <anchor>ga1f62ead53fa54455f5a66af287a8c65a</anchor>
+      <arglist>(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings, u8 *control_buffer, u16 control_buffer_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2369,13 +2320,6 @@
       <anchorfile>group__usb__drivers__file.html</anchorfile>
       <anchor>gad8e688f14cac90c4933954e3ebbfc3b7</anchor>
       <arglist>(usbd_device *usbd_dev, void(*callback)(void))</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usbd_set_control_buffer_size</name>
-      <anchorfile>group__usb__drivers__file.html</anchorfile>
-      <anchor>ga9f8a2ccff874221c0e8f00704c20f614</anchor>
-      <arglist>(usbd_device *usbd_dev, u16 size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>

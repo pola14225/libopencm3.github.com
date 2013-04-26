@@ -130,14 +130,12 @@ Collaboration diagram for Generic USB Drivers:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga2566da6fff1a2c7fb108a39c34a431ea"><td class="memItemLeft" align="right" valign="top">u8 <a class="el" href="group__usb__driver__defines.html#ga94439fb30be8cad22d28dde6a2967ac3">usbd_control_buffer</a>[128]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#ga2566da6fff1a2c7fb108a39c34a431ea">__attribute__</a> ((weak))</td></tr>
-<tr class="memitem:ga832fda52dcd6d119aeee16b52bb166e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7">usbd_init</a> (const <a class="el" href="group__usb__driver__defines.html#gaf89d061a4e982ccc705dbf1fc7f14fca">usbd_driver</a> *driver, const struct <a class="el" href="structusb__device__descriptor.html">usb_device_descriptor</a> *dev, const struct <a class="el" href="structusb__config__descriptor.html">usb_config_descriptor</a> *conf, const char **strings, int num_strings)</td></tr>
-<tr class="memdesc:ga832fda52dcd6d119aeee16b52bb166e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main initialization entry point.  <a href="#ga832fda52dcd6d119aeee16b52bb166e7"></a><br/></td></tr>
+<tr class="memitem:ga1f62ead53fa54455f5a66af287a8c65a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a">usbd_init</a> (const <a class="el" href="group__usb__driver__defines.html#gaf89d061a4e982ccc705dbf1fc7f14fca">usbd_driver</a> *driver, const struct <a class="el" href="structusb__device__descriptor.html">usb_device_descriptor</a> *dev, const struct <a class="el" href="structusb__config__descriptor.html">usb_config_descriptor</a> *conf, const char **strings, int num_strings, u8 *control_buffer, u16 control_buffer_size)</td></tr>
+<tr class="memdesc:ga1f62ead53fa54455f5a66af287a8c65a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main initialization entry point.  <a href="#ga1f62ead53fa54455f5a66af287a8c65a"></a><br/></td></tr>
 <tr class="memitem:ga2cdd6f2cd24e7e222b2add6e08283a7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#ga2cdd6f2cd24e7e222b2add6e08283a7e">usbd_register_reset_callback</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, void(*callback)(void))</td></tr>
 <tr class="memitem:ga064f9d058427b1fb6f40b35e03a8cd5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#ga064f9d058427b1fb6f40b35e03a8cd5b">usbd_register_suspend_callback</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, void(*callback)(void))</td></tr>
 <tr class="memitem:ga004c77a73e4dcd6216678925f3fa1f41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#ga004c77a73e4dcd6216678925f3fa1f41">usbd_register_resume_callback</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, void(*callback)(void))</td></tr>
 <tr class="memitem:gad8e688f14cac90c4933954e3ebbfc3b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#gad8e688f14cac90c4933954e3ebbfc3b7">usbd_register_sof_callback</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, void(*callback)(void))</td></tr>
-<tr class="memitem:ga9f8a2ccff874221c0e8f00704c20f614"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#ga9f8a2ccff874221c0e8f00704c20f614">usbd_set_control_buffer_size</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, u16 size)</td></tr>
 <tr class="memitem:ga3bc8dd33500621a1e900c78a42dcaf27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">_usbd_reset</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>)</td></tr>
 <tr class="memitem:ga94eba5aff7befd8009cea2f2abb43134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#ga94eba5aff7befd8009cea2f2abb43134">usbd_poll</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>)</td></tr>
 <tr class="memitem:gaef20aadd330e4bb9e97635eeb751d8f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__drivers__file.html#gaef20aadd330e4bb9e97635eeb751d8f9">usbd_disconnect</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, bool disconnected)</td></tr>
@@ -155,22 +153,6 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>10 March 2013</dd></dl>
 <p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
 <h2>Function Documentation</h2>
-<a class="anchor" id="ga2566da6fff1a2c7fb108a39c34a431ea"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">u8 <a class="el" href="group__usb__driver__defines.html#ga94439fb30be8cad22d28dde6a2967ac3">usbd_control_buffer</a> [128] __attribute__ </td>
-          <td>(</td>
-          <td class="paramtype">(weak)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ga3bc8dd33500621a1e900c78a42dcaf27"></a>
 <div class="memitem">
 <div class="memproto">
@@ -185,9 +167,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00115">115</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00113">113</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
-<p>References <a class="el" href="usb__private_8h_source.html#l00054">_usbd_device::current_address</a>, <a class="el" href="usb__private_8h_source.html#l00055">_usbd_device::current_config</a>, <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, <a class="el" href="usb__private_8h_source.html#l00139">_usbd_driver::set_address</a>, <a class="el" href="usb_8c_source.html#l00139">usbd_ep_setup()</a>, and <a class="el" href="usb__private_8h_source.html#l00060">_usbd_device::user_callback_reset</a>.</p>
+<p>References <a class="el" href="usb__private_8h_source.html#l00054">_usbd_device::current_address</a>, <a class="el" href="usb__private_8h_source.html#l00055">_usbd_device::current_config</a>, <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, <a class="el" href="usb__private_8h_source.html#l00139">_usbd_driver::set_address</a>, <a class="el" href="usb_8c_source.html#l00137">usbd_ep_setup()</a>, and <a class="el" href="usb__private_8h_source.html#l00060">_usbd_device::user_callback_reset</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__f103_8c_source.html#l00278">stm32f103_poll()</a>, and <a class="el" href="usb__fx07__common_8c_source.html#l00226">stm32fx07_poll()</a>.</p>
 
@@ -235,7 +217,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00132">132</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00130">130</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00151">_usbd_driver::disconnect</a>, and <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>.</p>
 
@@ -271,7 +253,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00166">166</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00164">164</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, and <a class="el" href="usb__private_8h_source.html#l00144">_usbd_driver::ep_nak_set</a>.</p>
 
@@ -313,7 +295,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00151">151</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00149">149</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, and <a class="el" href="usb__private_8h_source.html#l00148">_usbd_driver::ep_read_packet</a>.</p>
 
@@ -324,7 +306,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__usb__drivers__file_gac8730e4d84b1a3862c49c8f2443ff59d_icgraph.png" border="0" usemap="#group__usb__drivers__file_gac8730e4d84b1a3862c49c8f2443ff59d_icgraph" alt=""/></div>
 <map name="group__usb__drivers__file_gac8730e4d84b1a3862c49c8f2443ff59d_icgraph" id="group__usb__drivers__file_gac8730e4d84b1a3862c49c8f2443ff59d_icgraph">
-<area shape="rect" id="node3" href="usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="421,22,549,51"/><area shape="rect" id="node7" href="usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="415,75,556,104"/><area shape="rect" id="node10" href="group__usb__control__file.html#gaf3b08c6a689c9f5a20f636507e70bb52" title="usb_control_recv_chunk" alt="" coords="203,23,365,52"/><area shape="rect" id="node5" href="group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7" title="Main initialization entry point." alt="" coords="605,48,680,78"/></map>
+<area shape="rect" id="node3" href="usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="421,22,549,51"/><area shape="rect" id="node7" href="usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="415,75,556,104"/><area shape="rect" id="node10" href="group__usb__control__file.html#gaf3b08c6a689c9f5a20f636507e70bb52" title="usb_control_recv_chunk" alt="" coords="203,23,365,52"/><area shape="rect" id="node5" href="group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a" title="Main initialization entry point." alt="" coords="605,48,680,78"/></map>
 </div>
 </p>
 
@@ -372,11 +354,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00139">139</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00137">137</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, and <a class="el" href="usb__private_8h_source.html#l00140">_usbd_driver::ep_setup</a>.</p>
 
-<p>Referenced by <a class="el" href="usb_8c_source.html#l00115">_usbd_reset()</a>.</p>
+<p>Referenced by <a class="el" href="usb_8c_source.html#l00113">_usbd_reset()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -413,7 +395,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00161">161</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00159">159</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, and <a class="el" href="usb__private_8h_source.html#l00145">_usbd_driver::ep_stall_get</a>.</p>
 
@@ -424,7 +406,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__usb__drivers__file_ga2143a6d72b1f2215f9720562ecd5dbe0_icgraph.png" border="0" usemap="#group__usb__drivers__file_ga2143a6d72b1f2215f9720562ecd5dbe0_icgraph" alt=""/></div>
 <map name="group__usb__drivers__file_ga2143a6d72b1f2215f9720562ecd5dbe0_icgraph" id="group__usb__drivers__file_ga2143a6d72b1f2215f9720562ecd5dbe0_icgraph">
-<area shape="rect" id="node3" href="group__usb__standard__file.html#ga6bf1bc18fbba36b1a74510cff6404bc8" title="usb_standard_endpoint\l_get_status" alt="" coords="183,25,337,71"/><area shape="rect" id="node5" href="usb__standard_8c.html#a34205b3ec752b4c4d986c786f53154fd" title="_usbd_standard_request\l_endpoint" alt="" coords="388,25,551,71"/><area shape="rect" id="node7" href="usb__standard_8c.html#a73b0c20466d768f5fe3fa1688503ab6c" title="_usbd_standard_request" alt="" coords="601,33,764,63"/><area shape="rect" id="node9" href="group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="813,25,952,71"/><area shape="rect" id="node11" href="group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="1000,7,1160,36"/><area shape="rect" id="node17" href="usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="1216,59,1344,88"/><area shape="rect" id="node13" href="usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="1209,5,1351,35"/><area shape="rect" id="node15" href="group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7" title="Main initialization entry point." alt="" coords="1400,32,1475,61"/></map>
+<area shape="rect" id="node3" href="group__usb__standard__file.html#ga6bf1bc18fbba36b1a74510cff6404bc8" title="usb_standard_endpoint\l_get_status" alt="" coords="183,25,337,71"/><area shape="rect" id="node5" href="usb__standard_8c.html#a34205b3ec752b4c4d986c786f53154fd" title="_usbd_standard_request\l_endpoint" alt="" coords="388,25,551,71"/><area shape="rect" id="node7" href="usb__standard_8c.html#a73b0c20466d768f5fe3fa1688503ab6c" title="_usbd_standard_request" alt="" coords="601,33,764,63"/><area shape="rect" id="node9" href="group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="813,25,952,71"/><area shape="rect" id="node11" href="group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="1000,7,1160,36"/><area shape="rect" id="node17" href="usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="1216,59,1344,88"/><area shape="rect" id="node13" href="usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="1209,5,1351,35"/><area shape="rect" id="node15" href="group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a" title="Main initialization entry point." alt="" coords="1400,32,1475,61"/></map>
 </div>
 </p>
 
@@ -460,7 +442,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00156">156</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00154">154</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, and <a class="el" href="usb__private_8h_source.html#l00143">_usbd_driver::ep_stall_set</a>.</p>
 
@@ -471,7 +453,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__usb__drivers__file_ga16977a6f4e056a1fda2a12625063bb6f_icgraph.png" border="0" usemap="#group__usb__drivers__file_ga16977a6f4e056a1fda2a12625063bb6f_icgraph" alt=""/></div>
 <map name="group__usb__drivers__file_ga16977a6f4e056a1fda2a12625063bb6f_icgraph" id="group__usb__drivers__file_ga16977a6f4e056a1fda2a12625063bb6f_icgraph">
-<area shape="rect" id="node3" href="usb__private_8h.html#a77bb9a74d9a1efb29421dbfca2de7e1b" title="_usbd_control_in" alt="" coords="409,5,529,35"/><area shape="rect" id="node7" href="usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="1040,109,1168,139"/><area shape="rect" id="node10" href="usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="1233,321,1375,351"/><area shape="rect" id="node13" href="group__usb__control__file.html#gaf3b08c6a689c9f5a20f636507e70bb52" title="usb_control_recv_chunk" alt="" coords="601,109,764,139"/><area shape="rect" id="node16" href="group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="1024,296,1184,325"/><area shape="rect" id="node19" href="group__usb__control__file.html#gab9305438ecc3aaa7359aacdbc4f55c29" title="usb_control_setup_write" alt="" coords="813,348,976,377"/><area shape="rect" id="node22" href="group__usb__standard__file.html#ga79017fc3543de11a160ce349cf695b95" title="usb_standard_endpoint\l_stall" alt="" coords="183,229,337,275"/><area shape="rect" id="node32" href="group__usb__standard__file.html#ga4086e86746d87cfeadb304387c262476" title="usb_standard_endpoint\l_unstall" alt="" coords="183,159,337,206"/><area shape="rect" id="node5" href="group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7" title="Main initialization entry point." alt="" coords="1424,109,1499,139"/><area shape="rect" id="node24" href="usb__standard_8c.html#a34205b3ec752b4c4d986c786f53154fd" title="_usbd_standard_request\l_endpoint" alt="" coords="388,194,551,241"/><area shape="rect" id="node26" href="usb__standard_8c.html#a73b0c20466d768f5fe3fa1688503ab6c" title="_usbd_standard_request" alt="" coords="601,203,764,232"/><area shape="rect" id="node28" href="group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="825,194,964,241"/></map>
+<area shape="rect" id="node3" href="usb__private_8h.html#a77bb9a74d9a1efb29421dbfca2de7e1b" title="_usbd_control_in" alt="" coords="409,5,529,35"/><area shape="rect" id="node7" href="usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="1040,109,1168,139"/><area shape="rect" id="node10" href="usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="1233,321,1375,351"/><area shape="rect" id="node13" href="group__usb__control__file.html#gaf3b08c6a689c9f5a20f636507e70bb52" title="usb_control_recv_chunk" alt="" coords="601,109,764,139"/><area shape="rect" id="node16" href="group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="1024,296,1184,325"/><area shape="rect" id="node19" href="group__usb__control__file.html#gab9305438ecc3aaa7359aacdbc4f55c29" title="usb_control_setup_write" alt="" coords="813,348,976,377"/><area shape="rect" id="node22" href="group__usb__standard__file.html#ga79017fc3543de11a160ce349cf695b95" title="usb_standard_endpoint\l_stall" alt="" coords="183,229,337,275"/><area shape="rect" id="node32" href="group__usb__standard__file.html#ga4086e86746d87cfeadb304387c262476" title="usb_standard_endpoint\l_unstall" alt="" coords="183,159,337,206"/><area shape="rect" id="node5" href="group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a" title="Main initialization entry point." alt="" coords="1424,109,1499,139"/><area shape="rect" id="node24" href="usb__standard_8c.html#a34205b3ec752b4c4d986c786f53154fd" title="_usbd_standard_request\l_endpoint" alt="" coords="388,194,551,241"/><area shape="rect" id="node26" href="usb__standard_8c.html#a73b0c20466d768f5fe3fa1688503ab6c" title="_usbd_standard_request" alt="" coords="601,203,764,232"/><area shape="rect" id="node28" href="group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="825,194,964,241"/></map>
 </div>
 </p>
 
@@ -513,7 +495,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00145">145</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00143">143</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, and <a class="el" href="usb__private_8h_source.html#l00146">_usbd_driver::ep_write_packet</a>.</p>
 
@@ -524,13 +506,13 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__usb__drivers__file_gac23b5da866ceb13217dd2eaff42bed11_icgraph.png" border="0" usemap="#group__usb__drivers__file_gac23b5da866ceb13217dd2eaff42bed11_icgraph" alt=""/></div>
 <map name="group__usb__drivers__file_gac23b5da866ceb13217dd2eaff42bed11_icgraph" id="group__usb__drivers__file_gac23b5da866ceb13217dd2eaff42bed11_icgraph">
-<area shape="rect" id="node3" href="usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="637,5,765,35"/><area shape="rect" id="node7" href="group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="207,109,372,139"/><area shape="rect" id="node9" href="group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="421,57,581,87"/><area shape="rect" id="node5" href="group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7" title="Main initialization entry point." alt="" coords="821,59,896,88"/><area shape="rect" id="node14" href="usb__private_8h.html#a77bb9a74d9a1efb29421dbfca2de7e1b" title="_usbd_control_in" alt="" coords="441,111,561,140"/><area shape="rect" id="node11" href="usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="631,59,772,88"/></map>
+<area shape="rect" id="node3" href="usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="637,5,765,35"/><area shape="rect" id="node7" href="group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="207,109,372,139"/><area shape="rect" id="node9" href="group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="421,57,581,87"/><area shape="rect" id="node5" href="group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a" title="Main initialization entry point." alt="" coords="821,59,896,88"/><area shape="rect" id="node14" href="usb__private_8h.html#a77bb9a74d9a1efb29421dbfca2de7e1b" title="_usbd_control_in" alt="" coords="441,111,561,140"/><area shape="rect" id="node11" href="usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="631,59,772,88"/></map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ga832fda52dcd6d119aeee16b52bb166e7"></a>
+<a class="anchor" id="ga1f62ead53fa54455f5a66af287a8c65a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -562,7 +544,19 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_strings</em>&#160;</td>
+          <td class="paramname"><em>num_strings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">u8 *&#160;</td>
+          <td class="paramname"><em>control_buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">u16&#160;</td>
+          <td class="paramname"><em>control_buffer_size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -581,20 +575,22 @@ Here is the caller graph for this function:</div>
     <tr><td class="paramname">dev</td><td>Pointer to USB device descriptor. This must not be changed while the device is in use. </td></tr>
     <tr><td class="paramname">conf</td><td>Pointer to array of USB configuration descriptors. These must not be changed while the device is in use. The length of this array is determined by the bNumConfigurations field in the device descriptor. </td></tr>
     <tr><td class="paramname">strings</td><td>TODO </td></tr>
+    <tr><td class="paramname">control_buffer</td><td>Pointer to array that would hold the data received during control requests with DATA stage </td></tr>
+    <tr><td class="paramname">control_buffer_size</td><td>Size of control_buffer </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Zero on success (currently cannot fail). </dd></dl>
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00061">61</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00063">63</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
-<p>References <a class="el" href="usb__control_8c_source.html#l00237">_usbd_control_in()</a>, <a class="el" href="usb__control_8c_source.html#l00195">_usbd_control_out()</a>, <a class="el" href="usb__control_8c_source.html#l00174">_usbd_control_setup()</a>, <a class="el" href="usb__private_8h_source.html#l00047">_usbd_device::config</a>, <a class="el" href="usb__private_8h_source.html#l00051">_usbd_device::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00052">_usbd_device::ctrl_buf_len</a>, <a class="el" href="usb__private_8h_source.html#l00046">_usbd_device::desc</a>, <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, <a class="el" href="usb__private_8h_source.html#l00138">_usbd_driver::init</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::num_strings</a>, <a class="el" href="usb__private_8h_source.html#l00048">_usbd_device::strings</a>, <a class="el" href="usb__private_8h_source.html#l00110">USB_TRANSACTION_IN</a>, <a class="el" href="usb__private_8h_source.html#l00111">USB_TRANSACTION_OUT</a>, <a class="el" href="usb__private_8h_source.html#l00112">USB_TRANSACTION_SETUP</a>, <a class="el" href="group__usb__driver__defines.html#ga94439fb30be8cad22d28dde6a2967ac3">usbd_control_buffer</a>, <a class="el" href="usb__f103_8c_source.html#l00043">usbd_dev</a>, and <a class="el" href="usb__private_8h_source.html#l00084">_usbd_device::user_callback_ctr</a>.</p>
+<p>References <a class="el" href="usb__control_8c_source.html#l00237">_usbd_control_in()</a>, <a class="el" href="usb__control_8c_source.html#l00195">_usbd_control_out()</a>, <a class="el" href="usb__control_8c_source.html#l00174">_usbd_control_setup()</a>, <a class="el" href="usb__private_8h_source.html#l00047">_usbd_device::config</a>, <a class="el" href="usb__private_8h_source.html#l00051">_usbd_device::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00052">_usbd_device::ctrl_buf_len</a>, <a class="el" href="usb__private_8h_source.html#l00046">_usbd_device::desc</a>, <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, <a class="el" href="usb__private_8h_source.html#l00138">_usbd_driver::init</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::num_strings</a>, <a class="el" href="usb__private_8h_source.html#l00048">_usbd_device::strings</a>, <a class="el" href="usb__private_8h_source.html#l00110">USB_TRANSACTION_IN</a>, <a class="el" href="usb__private_8h_source.html#l00111">USB_TRANSACTION_OUT</a>, <a class="el" href="usb__private_8h_source.html#l00112">USB_TRANSACTION_SETUP</a>, <a class="el" href="usb__f103_8c_source.html#l00043">usbd_dev</a>, and <a class="el" href="usb__private_8h_source.html#l00084">_usbd_device::user_callback_ctr</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__usb__drivers__file_ga832fda52dcd6d119aeee16b52bb166e7_cgraph.png" border="0" usemap="#group__usb__drivers__file_ga832fda52dcd6d119aeee16b52bb166e7_cgraph" alt=""/></div>
-<map name="group__usb__drivers__file_ga832fda52dcd6d119aeee16b52bb166e7_cgraph" id="group__usb__drivers__file_ga832fda52dcd6d119aeee16b52bb166e7_cgraph">
+<div class="center"><img src="group__usb__drivers__file_ga1f62ead53fa54455f5a66af287a8c65a_cgraph.png" border="0" usemap="#group__usb__drivers__file_ga1f62ead53fa54455f5a66af287a8c65a_cgraph" alt=""/></div>
+<map name="group__usb__drivers__file_ga1f62ead53fa54455f5a66af287a8c65a_cgraph" id="group__usb__drivers__file_ga1f62ead53fa54455f5a66af287a8c65a_cgraph">
 <area shape="rect" id="node3" href="usb__control_8c.html#a77bb9a74d9a1efb29421dbfca2de7e1b" title="_usbd_control_in" alt="" coords="340,977,460,1007"/><area shape="rect" id="node11" href="usb__control_8c.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="336,496,464,525"/><area shape="rect" id="node63" href="usb__control_8c.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="129,747,271,776"/><area shape="rect" id="node5" href="group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="529,824,695,853"/><area shape="rect" id="node9" href="group__usb__driver__defines.html#ga16977a6f4e056a1fda2a12625063bb6f" title="usbd_ep_stall_set" alt="" coords="1441,707,1567,736"/><area shape="rect" id="node7" href="group__usb__driver__defines.html#gac23b5da866ceb13217dd2eaff42bed11" title="usbd_ep_write_packet" alt="" coords="751,824,903,853"/><area shape="rect" id="node13" href="group__usb__control__file.html#gaf3b08c6a689c9f5a20f636507e70bb52" title="usb_control_recv_chunk" alt="" coords="531,445,693,475"/><area shape="rect" id="node15" href="group__usb__driver__defines.html#gac8730e4d84b1a3862c49c8f2443ff59d" title="usbd_ep_read_packet" alt="" coords="752,497,901,527"/><area shape="rect" id="node18" href="group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="543,650,681,697"/><area shape="rect" id="node20" href="usb__private_8h.html#a73b0c20466d768f5fe3fa1688503ab6c" title="_usbd_standard_request" alt="" coords="745,624,908,653"/><area shape="rect" id="node22" href="usb__private_8h.html#a17cfcc187ad80d6d25addc7c538d733e" title="_usbd_standard_request\l_device" alt="" coords="959,238,1121,285"/><area shape="rect" id="node40" href="usb__private_8h.html#a34205b3ec752b4c4d986c786f53154fd" title="_usbd_standard_request\l_endpoint" alt="" coords="959,546,1121,593"/><area shape="rect" id="node52" href="usb__private_8h.html#adcd7f04df4db8aebb7a55a7d27344e87" title="_usbd_standard_request\l_interface" alt="" coords="959,681,1121,727"/><area shape="rect" id="node24" href="group__usb__standard__file.html#gacdc22149f70b70c1cf3273b2554ca2b9" title="usb_standard_device\l_get_status" alt="" coords="1203,269,1347,315"/><area shape="rect" id="node26" href="group__usb__standard__file.html#gadf7ed528da88dd38891a7d0576827486" title="usb_standard_get_configuration" alt="" coords="1172,339,1377,368"/><area shape="rect" id="node28" href="group__usb__standard__file.html#ga91e820a9540208bd0918b6ca0454e8aa" title="usb_standard_get_descriptor" alt="" coords="1180,59,1369,88"/><area shape="rect" id="node36" href="group__usb__standard__file.html#ga30540969a7d80fcd5d5d70654df295d7" title="usb_standard_set_address" alt="" coords="1185,163,1364,192"/><area shape="rect" id="node38" href="group__usb__standard__file.html#gaa5c48d8dffc0736981700cc6fd019b3b" title="usb_standard_set_configuration" alt="" coords="1172,216,1377,245"/><area shape="rect" id="node30" href="group__usb__standard__file.html#gacbbbae8f1b81e1f3d3cc14389334edac" title="usb_descriptor_index" alt="" coords="1432,112,1576,141"/><area shape="rect" id="node32" href="group__usb__standard__file.html#ga8e2a32b39cce0aba9ffe57b5981fa82b" title="usb_descriptor_type" alt="" coords="1435,5,1573,35"/><area shape="rect" id="node34" href="group__usb__standard__file.html#ga9ddd779d7d2991ea9e744b115e726a7e" title="build_config_descriptor" alt="" coords="1427,59,1581,88"/><area shape="rect" id="node42" href="group__usb__standard__file.html#ga6bf1bc18fbba36b1a74510cff6404bc8" title="usb_standard_endpoint\l_get_status" alt="" coords="1197,442,1352,489"/><area shape="rect" id="node46" href="group__usb__standard__file.html#ga79017fc3543de11a160ce349cf695b95" title="usb_standard_endpoint\l_stall" alt="" coords="1197,581,1352,627"/><area shape="rect" id="node49" href="group__usb__standard__file.html#ga4086e86746d87cfeadb304387c262476" title="usb_standard_endpoint\l_unstall" alt="" coords="1197,511,1352,558"/><area shape="rect" id="node44" href="group__usb__driver__defines.html#ga2143a6d72b1f2215f9720562ecd5dbe0" title="usbd_ep_stall_get" alt="" coords="1441,451,1567,480"/><area shape="rect" id="node54" href="group__usb__standard__file.html#gab42dc32db05b0f94ca308ac0797f5ad0" title="usb_standard_get_interface" alt="" coords="1184,773,1365,803"/><area shape="rect" id="node56" href="group__usb__standard__file.html#gae599ca81577e439ae80f0cb7a0dc45bc" title="usb_standard_interface\l_get_status" alt="" coords="1196,650,1353,697"/><area shape="rect" id="node58" href="group__usb__standard__file.html#ga2378512ec5ceced5811a54511a58c749" title="usb_standard_set_interface" alt="" coords="1184,720,1365,749"/><area shape="rect" id="node65" href="group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="320,772,480,801"/><area shape="rect" id="node71" href="group__usb__control__file.html#gab9305438ecc3aaa7359aacdbc4f55c29" title="usb_control_setup_write" alt="" coords="531,720,693,749"/></map>
 </div>
 </p>
@@ -615,7 +611,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00127">127</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00125">125</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::driver</a>, and <a class="el" href="usb__private_8h_source.html#l00150">_usbd_driver::poll</a>.</p>
 
@@ -645,7 +641,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00088">88</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00091">91</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00060">_usbd_device::user_callback_reset</a>.</p>
 
@@ -675,7 +671,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00099">99</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00102">102</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00062">_usbd_device::user_callback_resume</a>.</p>
 
@@ -705,7 +701,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00105">105</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00108">108</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00063">_usbd_device::user_callback_sof</a>.</p>
 
@@ -735,39 +731,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00093">93</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
+<p>Definition at line <a class="el" href="usb_8c_source.html#l00096">96</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00061">_usbd_device::user_callback_suspend</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga9f8a2ccff874221c0e8f00704c20f614"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void usbd_set_control_buffer_size </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *&#160;</td>
-          <td class="paramname"><em>usbd_dev</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">u16&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="usb_8c_source.html#l00110">110</a> of file <a class="el" href="usb_8c_source.html">usb.c</a>.</p>
-
-<p>References <a class="el" href="usb__private_8h_source.html#l00052">_usbd_device::ctrl_buf_len</a>.</p>
 
 </div>
 </div>
@@ -776,7 +742,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Apr 26 2013 02:21:09 for libopencm3 by
+    <li class="footer">Generated on Fri Apr 26 2013 03:21:10 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

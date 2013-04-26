@@ -7,7 +7,7 @@
 <area shape="rect" id="node19" href="$group__usb__control__file.html#gab9305438ecc3aaa7359aacdbc4f55c29" title="usb_control_setup_write" alt="" coords="813,348,976,377"/>
 <area shape="rect" id="node22" href="$group__usb__standard__file.html#ga79017fc3543de11a160ce349cf695b95" title="usb_standard_endpoint\l_stall" alt="" coords="183,229,337,275"/>
 <area shape="rect" id="node32" href="$group__usb__standard__file.html#ga4086e86746d87cfeadb304387c262476" title="usb_standard_endpoint\l_unstall" alt="" coords="183,159,337,206"/>
-<area shape="rect" id="node5" href="$group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7" title="Main initialization entry point." alt="" coords="1424,109,1499,139"/>
+<area shape="rect" id="node5" href="$group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a" title="Main initialization entry point." alt="" coords="1424,109,1499,139"/>
 <area shape="rect" id="node24" href="$usb__standard_8c.html#a34205b3ec752b4c4d986c786f53154fd" title="_usbd_standard_request\l_endpoint" alt="" coords="388,194,551,241"/>
 <area shape="rect" id="node26" href="$usb__standard_8c.html#a73b0c20466d768f5fe3fa1688503ab6c" title="_usbd_standard_request" alt="" coords="601,203,764,232"/>
 <area shape="rect" id="node28" href="$group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="825,194,964,241"/>

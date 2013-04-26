@@ -2,5 +2,5 @@
 <area shape="rect" id="node3" href="$usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="421,22,549,51"/>
 <area shape="rect" id="node7" href="$usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="415,75,556,104"/>
 <area shape="rect" id="node10" href="$group__usb__control__file.html#gaf3b08c6a689c9f5a20f636507e70bb52" title="usb_control_recv_chunk" alt="" coords="203,23,365,52"/>
-<area shape="rect" id="node5" href="$group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7" title="Main initialization entry point." alt="" coords="605,48,680,78"/>
+<area shape="rect" id="node5" href="$group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a" title="Main initialization entry point." alt="" coords="605,48,680,78"/>
 </map>

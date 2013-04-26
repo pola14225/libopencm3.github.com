@@ -1,4 +1,4 @@
 <map id="usb_control_setup_read" name="usb_control_setup_read">
 <area shape="rect" id="node3" href="$usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="215,5,356,35"/>
-<area shape="rect" id="node5" href="$group__usb__drivers__file.html#ga832fda52dcd6d119aeee16b52bb166e7" title="Main initialization entry point." alt="" coords="405,5,480,35"/>
+<area shape="rect" id="node5" href="$group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a" title="Main initialization entry point." alt="" coords="405,5,480,35"/>
 </map>
