@@ -371,20 +371,20 @@ $(document).ready(function(){initNavTree('dma__common__f24_8h_source.html','');}
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment">@{*/</span><span class="comment"></span></div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="comment">/** Transfer Complete Interrupt Flag */</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">#define DMA_ISR_TCIF                    (1 &lt;&lt; 5)</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">#define DMA_TCIF                    (1 &lt;&lt; 5)</span></div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor"></span><span class="comment">/** Half Transfer Interrupt Flag */</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor">#define DMA_ISR_HTIF                    (1 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor">#define DMA_HTIF                    (1 &lt;&lt; 4)</span></div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="preprocessor"></span><span class="comment">/** Transfer Error Interrupt Flag */</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="preprocessor">#define DMA_ISR_TEIF                    (1 &lt;&lt; 3)</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="preprocessor">#define DMA_TEIF                    (1 &lt;&lt; 3)</span></div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor"></span><span class="comment">/** Direct Mode Error Interrupt Flag */</span></div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor">#define DMA_ISR_DMEIF           (1 &lt;&lt; 2)</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor">#define DMA_DMEIF                   (1 &lt;&lt; 2)</span></div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="preprocessor"></span><span class="comment">/** FIFO Error Interrupt Flag */</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">#define DMA_ISR_FEIF                    (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">#define DMA_FEIF                    (1 &lt;&lt; 0)</span></div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="comment">/* Offset within interrupt status register to start of stream interrupt flag field */</span></div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">#define DMA_ISR_OFFSET(stream)          (6*(stream &amp; 0x01)+16*((stream &amp; 0x02) &gt;&gt; 1))</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DMA_ISR_FLAGS                   (DMA_ISR_TCIF | DMA_ISR_HTIF | DMA_ISR_TEIF | DMA_ISR_DMEIF | DMA_ISR_FEIF)</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DMA_ISR_FLAGS                       (DMA_TCIF | DMA_HTIF | DMA_TEIF | DMA_DMEIF | DMA_FEIF)</span></div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DMA_ISR_MASK(stream)            DMA_ISR_FLAGS &lt;&lt; DMA_ISR_OFFSET(stream)</span></div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="comment">/* --- DMA_LISR values ----------------------------------------------------- */</span></div>
@@ -739,7 +739,7 @@ $(document).ready(function(){initNavTree('dma__common__f24_8h_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="dma__common__f24_8h.html">dma_common_f24.h</a></li>
-    <li class="footer">Generated on Fri Apr 26 2013 03:21:26 for libopencm3 by
+    <li class="footer">Generated on Fri Apr 26 2013 06:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

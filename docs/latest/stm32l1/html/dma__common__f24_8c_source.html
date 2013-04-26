@@ -611,7 +611,7 @@ $(document).ready(function(){initNavTree('dma__common__f24_8c_source.html','');}
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;</div>
 <div class="line"><a name="l00491"></a><span class="lineno"><a class="code" href="group__dma__defines.html#ga6f98fcb670463ff9fa0b350b8a55add6">  491</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__dma__defines.html#ga6f98fcb670463ff9fa0b350b8a55add6" title="DMA Stream Enable Interrupt on Transfer Error.">dma_enable_transfer_error_interrupt</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> dma, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> stream)</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;{</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_ISR_TEIF);</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_TEIF);</div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;        DMA_SCR(dma, stream) |= DMA_SxCR_TEIE;</div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;}</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;</div>
@@ -636,7 +636,7 @@ $(document).ready(function(){initNavTree('dma__common__f24_8c_source.html','');}
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;</div>
 <div class="line"><a name="l00516"></a><span class="lineno"><a class="code" href="group__dma__defines.html#ga22ea9a9d3595761a3570f8c59c3acad4">  516</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__dma__defines.html#ga22ea9a9d3595761a3570f8c59c3acad4" title="DMA Stream Enable Interrupt on Transfer Half Complete.">dma_enable_half_transfer_interrupt</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> dma, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> stream)</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;{</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_ISR_HTIF);</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_HTIF);</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        DMA_SCR(dma, stream) |= DMA_SxCR_HTIE;</div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;}</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;</div>
@@ -661,7 +661,7 @@ $(document).ready(function(){initNavTree('dma__common__f24_8c_source.html','');}
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;</div>
 <div class="line"><a name="l00541"></a><span class="lineno"><a class="code" href="group__dma__defines.html#gadce242f0b1e229b0ffc24aa2227d7394">  541</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__dma__defines.html#gadce242f0b1e229b0ffc24aa2227d7394" title="DMA Stream Enable Interrupt on Transfer Complete.">dma_enable_transfer_complete_interrupt</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> dma, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> stream)</div>
 <div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;{</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_ISR_TCIF);</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_TCIF);</div>
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        DMA_SCR(dma, stream) |= DMA_SxCR_TCIE;</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;}</div>
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;</div>
@@ -686,7 +686,7 @@ $(document).ready(function(){initNavTree('dma__common__f24_8c_source.html','');}
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;</div>
 <div class="line"><a name="l00566"></a><span class="lineno"><a class="code" href="group__dma__file.html#ga9ed60ff3a7753a7e97db7d6cdc7d4590">  566</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__dma__defines.html#ga9ed60ff3a7753a7e97db7d6cdc7d4590" title="DMA Stream Enable Interrupt on Direct Mode Error.">dma_enable_direct_mode_error_interrupt</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> dma, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> stream)</div>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;{</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_ISR_DMEIF);</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_DMEIF);</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        DMA_SCR(dma, stream) |= DMA_SxCR_DMEIE;</div>
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;}</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;</div>
@@ -711,7 +711,7 @@ $(document).ready(function(){initNavTree('dma__common__f24_8c_source.html','');}
 <div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;</div>
 <div class="line"><a name="l00591"></a><span class="lineno"><a class="code" href="group__dma__file.html#ga8f4431b94cee03c98cf69d6bb9d37273">  591</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__dma__defines.html#ga8f4431b94cee03c98cf69d6bb9d37273" title="DMA Enable Interrupt on FIFO Error.">dma_enable_fifo_error_interrupt</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> dma, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> stream)</div>
 <div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;{</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_ISR_FEIF);</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        <a class="code" href="group__dma__defines.html#ga1035bb6b7cbb49a026a64b96496fed61" title="DMA Stream Clear Interrupt Flag.">dma_clear_interrupt_flags</a>(dma, stream, DMA_FEIF);</div>
 <div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        DMA_SFCR(dma, stream) |= DMA_SxFCR_FEIE;</div>
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;}</div>
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;</div>
@@ -901,7 +901,7 @@ $(document).ready(function(){initNavTree('dma__common__f24_8c_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="dma__common__f24_8c.html">dma_common_f24.c</a></li>
-    <li class="footer">Generated on Fri Apr 26 2013 03:21:12 for libopencm3 by
+    <li class="footer">Generated on Fri Apr 26 2013 06:21:11 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
