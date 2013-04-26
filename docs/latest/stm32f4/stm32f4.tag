@@ -1951,29 +1951,29 @@
       <type>void</type>
       <name>flash_program_double_word</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>abb675381373e971c2a5426cf9760e2fb</anchor>
-      <arglist>(u32 address, u64 data, u32 program_size)</arglist>
+      <anchor>aa6a574e7b653d9b141e4fd3cf1e0e972</anchor>
+      <arglist>(u32 address, u64 data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_word</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>aae4075990f57404004825bda973e7623</anchor>
-      <arglist>(u32 address, u32 data, u32 program_size)</arglist>
+      <anchor>ada59106b2abfe22eaffc9ad6f1b48899</anchor>
+      <arglist>(u32 address, u32 data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_half_word</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>aac4100306eb53c8497f3fc90a31a2e1c</anchor>
-      <arglist>(u32 address, u16 data, u32 program_size)</arglist>
+      <anchor>a1312105c3432840482d6678ef841e9e2</anchor>
+      <arglist>(u32 address, u16 data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_byte</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a85157f1ed587388d5f7884b9672643f8</anchor>
-      <arglist>(u32 address, u8 data, u32 program_size)</arglist>
+      <anchor>a3290e17548ecd0059208f77d00aaa81e</anchor>
+      <arglist>(u32 address, u8 data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2159,29 +2159,29 @@
       <type>void</type>
       <name>flash_program_double_word</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>abb675381373e971c2a5426cf9760e2fb</anchor>
-      <arglist>(u32 address, u64 data, u32 program_size)</arglist>
+      <anchor>aa6a574e7b653d9b141e4fd3cf1e0e972</anchor>
+      <arglist>(u32 address, u64 data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_word</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>aae4075990f57404004825bda973e7623</anchor>
-      <arglist>(u32 address, u32 data, u32 program_size)</arglist>
+      <anchor>ada59106b2abfe22eaffc9ad6f1b48899</anchor>
+      <arglist>(u32 address, u32 data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_half_word</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>aac4100306eb53c8497f3fc90a31a2e1c</anchor>
-      <arglist>(u32 address, u16 data, u32 program_size)</arglist>
+      <anchor>a1312105c3432840482d6678ef841e9e2</anchor>
+      <arglist>(u32 address, u16 data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_byte</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a85157f1ed587388d5f7884b9672643f8</anchor>
-      <arglist>(u32 address, u8 data, u32 program_size)</arglist>
+      <anchor>a3290e17548ecd0059208f77d00aaa81e</anchor>
+      <arglist>(u32 address, u8 data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
