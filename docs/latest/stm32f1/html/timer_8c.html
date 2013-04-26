@@ -114,19 +114,72 @@ $(document).ready(function(){initNavTree('timer_8c.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">timer.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="timer_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac2b7d3b13f8b80dd5276bcdd2513b3cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8c.html#ac2b7d3b13f8b80dd5276bcdd2513b3cc">timer_ic_set_polarity</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic, enum <a class="el" href="timer_8h.html#aa0406d9433193e18143f359076f1f468">tim_ic_pol</a> pol)</td></tr>
+<tr class="memdesc:ac2b7d3b13f8b80dd5276bcdd2513b3cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Input Polarity.  <a href="#ac2b7d3b13f8b80dd5276bcdd2513b3cc"></a><br/></td></tr>
+</table>
+<h2>Function Documentation</h2>
+<a class="anchor" id="ac2b7d3b13f8b80dd5276bcdd2513b3cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer_ic_set_polarity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a>&#160;</td>
+          <td class="paramname"><em>ic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="timer_8h.html#aa0406d9433193e18143f359076f1f468">tim_ic_pol</a>&#160;</td>
+          <td class="paramname"><em>pol</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set Input Polarity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td><a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac" title="Input Capture channel designators.">tim_ic_id</a>. Input Capture channel designator. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pol</td><td><a class="el" href="timer_8h.html#aa0406d9433193e18143f359076f1f468" title="Input Capture input polarity.">tim_ic_pol</a>. Input Capture polarity. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00049">49</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="timer_8c.html">timer.c</a></li>
-    <li class="footer">Generated on Fri Apr 26 2013 06:21:16 for libopencm3 by
+    <li class="footer">Generated on Fri Apr 26 2013 21:21:19 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

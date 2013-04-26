@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['tim_5fet_5ffalling',['TIM_ET_FALLING',['../group__timer__defines.html#ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82',1,'timer_common_all.h']]],
+  ['tim_5fet_5frising',['TIM_ET_RISING',['../group__timer__defines.html#ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061',1,'timer_common_all.h']]],
   ['tim_5fic1',['TIM_IC1',['../group__timer__defines.html#ggaf76612839feedf9c605872cacb0ac5aca4b6755792734c9dd9b1d3079cf1a0a7e',1,'timer_common_all.h']]],
   ['tim_5fic2',['TIM_IC2',['../group__timer__defines.html#ggaf76612839feedf9c605872cacb0ac5acac14df3fa4a9bca71f25c8253c18fe11a',1,'timer_common_all.h']]],
   ['tim_5fic3',['TIM_IC3',['../group__timer__defines.html#ggaf76612839feedf9c605872cacb0ac5acad93c1b280114d4cd6fb97ac683d3a311',1,'timer_common_all.h']]],
@@ -19,7 +21,7 @@ var searchData=
   ['tim_5fic_5fdtf_5fdiv_5f4_5fn_5f8',['TIM_IC_DTF_DIV_4_N_8',['../group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2a71fbb46d5e57873a4e62fb8a1a840c43',1,'timer_common_all.h']]],
   ['tim_5fic_5fdtf_5fdiv_5f8_5fn_5f6',['TIM_IC_DTF_DIV_8_N_6',['../group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2a255a1b8917936a7e885806206c2a0ef6',1,'timer_common_all.h']]],
   ['tim_5fic_5fdtf_5fdiv_5f8_5fn_5f8',['TIM_IC_DTF_DIV_8_N_8',['../group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2adc7d8205f1b63538286047ce3304dc8c',1,'timer_common_all.h']]],
-  ['tim_5fic_5ffalling',['TIM_IC_FALLING',['../group__timer__defines.html#ggaa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6',1,'timer_common_all.h']]],
+  ['tim_5fic_5ffalling',['TIM_IC_FALLING',['../timer_8h.html#aa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6',1,'timer.h']]],
   ['tim_5fic_5fin_5fti1',['TIM_IC_IN_TI1',['../group__timer__defines.html#ggad3d3ef84edd2180d79321bac6394bb4dae04c09ee69729af2d887c6709cf1ad3b',1,'timer_common_all.h']]],
   ['tim_5fic_5fin_5fti2',['TIM_IC_IN_TI2',['../group__timer__defines.html#ggad3d3ef84edd2180d79321bac6394bb4da623054604bc26d9458a20efbb81189aa',1,'timer_common_all.h']]],
   ['tim_5fic_5fin_5fti3',['TIM_IC_IN_TI3',['../group__timer__defines.html#ggad3d3ef84edd2180d79321bac6394bb4da87e62cbc57b773c7fcfb91669f8993cd',1,'timer_common_all.h']]],
@@ -31,7 +33,7 @@ var searchData=
   ['tim_5fic_5fpsc_5f4',['TIM_IC_PSC_4',['../group__timer__defines.html#gga3231b651e821b33d1adeeb21e2a7ae62a599d86695c5aa8d0e068b83ef4e952ed',1,'timer_common_all.h']]],
   ['tim_5fic_5fpsc_5f8',['TIM_IC_PSC_8',['../group__timer__defines.html#gga3231b651e821b33d1adeeb21e2a7ae62a210470f6dd4713b60114014c05f9b117',1,'timer_common_all.h']]],
   ['tim_5fic_5fpsc_5foff',['TIM_IC_PSC_OFF',['../group__timer__defines.html#gga3231b651e821b33d1adeeb21e2a7ae62a75a00e88015eb89ca04af2ac1c43c3db',1,'timer_common_all.h']]],
-  ['tim_5fic_5frising',['TIM_IC_RISING',['../group__timer__defines.html#ggaa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f',1,'timer_common_all.h']]],
+  ['tim_5fic_5frising',['TIM_IC_RISING',['../timer_8h.html#aa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f',1,'timer.h']]],
   ['tim_5foc1',['TIM_OC1',['../group__timer__defines.html#ggacd988319d070e7128b530d4ac1a4f4ffa7dae30b9cd1ce046d8fbaaf04fc36fc9',1,'timer_common_all.h']]],
   ['tim_5foc1n',['TIM_OC1N',['../group__timer__defines.html#ggacd988319d070e7128b530d4ac1a4f4ffa4e28548e62af311bdcfbfd7d518dd3e3',1,'timer_common_all.h']]],
   ['tim_5foc2',['TIM_OC2',['../group__timer__defines.html#ggacd988319d070e7128b530d4ac1a4f4ffac434465fe88f27cdbd85b10de337f823',1,'timer_common_all.h']]],

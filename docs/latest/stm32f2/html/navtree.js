@@ -44,10 +44,10 @@ var NAVTREEINDEX =
 "annotated.html",
 "gpio_8h.html",
 "group__i2c__file.html#ga4416e975cdd2999d85adc8b0148c3bb0",
-"group__timer__defines.html#ga8c06c5329b8e136c909965f76885a360",
-"i2c__common__all_8c.html#gadec104ea943d9c5dd4bcb34a1e530cfc",
-"spi__common__all_8h.html#ga1422c5d0076faeb9abf109001745793f",
-"timer__common__all_8h.html#gga9c6be6e4ccd5dcb325f1ebe499ca5216a58d53d7c5f653ccdb3820cb5f4c216c2"
+"group__timer__defines.html#ga9638fa58c94d8ff3ec72a5f51cb5ef72",
+"i2c__common__all_8c_source.html",
+"spi__common__all_8h.html#ga1559b488c118a1378e14a0c431cb5b5d",
+"timer__common__all_8h.html#ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061"
 ];
 
 var navTreeSubIndices = new Array();

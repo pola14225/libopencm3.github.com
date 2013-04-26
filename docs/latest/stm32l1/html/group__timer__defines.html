@@ -219,10 +219,10 @@ Enumerations</h2></td></tr>
 <br/>
  }</td></tr>
 <tr class="memdesc:gad3d3ef84edd2180d79321bac6394bb4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input Capture input source.  <a href="group__timer__defines.html#gad3d3ef84edd2180d79321bac6394bb4d">More...</a><br/></td></tr>
-<tr class="memitem:gaa0406d9433193e18143f359076f1f468"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468">tim_ic_pol</a> { <a class="el" href="group__timer__defines.html#ggaa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f">TIM_IC_RISING</a>, 
-<a class="el" href="group__timer__defines.html#ggaa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6">TIM_IC_FALLING</a>
+<tr class="memitem:gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be">tim_et_pol</a> { <a class="el" href="group__timer__defines.html#ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061">TIM_ET_RISING</a>, 
+<a class="el" href="group__timer__defines.html#ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82">TIM_ET_FALLING</a>
  }</td></tr>
-<tr class="memdesc:gaa0406d9433193e18143f359076f1f468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input Capture input polarity.  <a href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468">More...</a><br/></td></tr>
+<tr class="memdesc:gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slave external trigger polarity.  <a href="group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be">More...</a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -364,8 +364,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga28361996826e8f8de6bbe9cef6569f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Input Capture Prescaler.  <a href="#ga28361996826e8f8de6bbe9cef6569f7c"></a><br/></td></tr>
 <tr class="memitem:ga4817b575c83a6f8e6664e9a43bb422a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga4817b575c83a6f8e6664e9a43bb422a7">timer_ic_set_input</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic, enum <a class="el" href="group__timer__defines.html#gad3d3ef84edd2180d79321bac6394bb4d">tim_ic_input</a> in)</td></tr>
 <tr class="memdesc:ga4817b575c83a6f8e6664e9a43bb422a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Capture/Compare Channel Direction/Input.  <a href="#ga4817b575c83a6f8e6664e9a43bb422a7"></a><br/></td></tr>
-<tr class="memitem:ga53ee1dc7ca2e167153f5b6921b443ee5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga53ee1dc7ca2e167153f5b6921b443ee5">timer_ic_set_polarity</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic, enum <a class="el" href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468">tim_ic_pol</a> pol)</td></tr>
-<tr class="memdesc:ga53ee1dc7ca2e167153f5b6921b443ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Input Polarity.  <a href="#ga53ee1dc7ca2e167153f5b6921b443ee5"></a><br/></td></tr>
 <tr class="memitem:ga74bf7c73490501c48ca3d4d37836ba8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga74bf7c73490501c48ca3d4d37836ba8b">timer_ic_enable</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic)</td></tr>
 <tr class="memdesc:ga74bf7c73490501c48ca3d4d37836ba8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Timer Input Capture.  <a href="#ga74bf7c73490501c48ca3d4d37836ba8b"></a><br/></td></tr>
 <tr class="memitem:ga7c42504b252e1a977f1630ddfbdae624"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga7c42504b252e1a977f1630ddfbdae624">timer_ic_disable</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic)</td></tr>
@@ -374,8 +372,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga44fbed6e858e94839a0a2e23ebcefd48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set External Trigger Filter Parameters for Slave.  <a href="#ga44fbed6e858e94839a0a2e23ebcefd48"></a><br/></td></tr>
 <tr class="memitem:gaa5d5e17504c44a0176b9f5d1323b4205"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#gaa5d5e17504c44a0176b9f5d1323b4205">timer_slave_set_prescaler</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer, enum <a class="el" href="group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62">tim_ic_psc</a> psc)</td></tr>
 <tr class="memdesc:gaa5d5e17504c44a0176b9f5d1323b4205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set External Trigger Prescaler for Slave.  <a href="#gaa5d5e17504c44a0176b9f5d1323b4205"></a><br/></td></tr>
-<tr class="memitem:ga3fea74700fbd5e16c51b4e45c49bf111"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga3fea74700fbd5e16c51b4e45c49bf111">timer_slave_set_polarity</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer, enum <a class="el" href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468">tim_ic_pol</a> pol)</td></tr>
-<tr class="memdesc:ga3fea74700fbd5e16c51b4e45c49bf111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set External Trigger Polarity for Slave.  <a href="#ga3fea74700fbd5e16c51b4e45c49bf111"></a><br/></td></tr>
+<tr class="memitem:gae3e6a506f144a7c8fabf0f647600dc4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#gae3e6a506f144a7c8fabf0f647600dc4d">timer_slave_set_polarity</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer, enum <a class="el" href="group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be">tim_et_pol</a> pol)</td></tr>
+<tr class="memdesc:gae3e6a506f144a7c8fabf0f647600dc4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set External Trigger Polarity for Slave.  <a href="#gae3e6a506f144a7c8fabf0f647600dc4d"></a><br/></td></tr>
 <tr class="memitem:ga164500c2a7f64d79846873a21424582b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga164500c2a7f64d79846873a21424582b">timer_slave_set_mode</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> mode)</td></tr>
 <tr class="memdesc:ga164500c2a7f64d79846873a21424582b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Slave Mode.  <a href="#ga164500c2a7f64d79846873a21424582b"></a><br/></td></tr>
 <tr class="memitem:gab1a92f4bf6f1d748d5b349e5996c372f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#gab1a92f4bf6f1d748d5b349e5996c372f">timer_slave_set_trigger</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> trigger)</td></tr>
@@ -389,6 +387,30 @@ Functions</h2></td></tr>
 <p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2009 Piotr Esden-Tempski <a href="#" onclick="location.href='mai'+'lto:'+'pio'+'tr'+'@es'+'de'+'n.n'+'et'; return false;">piotr<span style="display: none;">.nosp@m.</span>@esd<span style="display: none;">.nosp@m.</span>en.ne<span style="display: none;">.nosp@m.</span>t</a> </dd></dl>
 <h2>Enumeration Type Documentation</h2>
+<a class="anchor" id="gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be">tim_et_pol</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Slave external trigger polarity. </p>
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061"></a>TIM_ET_RISING</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82"></a>TIM_ET_FALLING</em>&nbsp;</td><td>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+<p>Definition at line <a class="el" href="timer__common__all_8h_source.html#l01016">1016</a> of file <a class="el" href="timer__common__all_8h_source.html">timer_common_all.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga8a2a8722575e6301c3e059b9ec8f50c2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -501,30 +523,6 @@ Functions</h2></td></tr>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8h_source.html#l01006">1006</a> of file <a class="el" href="timer__common__all_8h_source.html">timer_common_all.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="gaa0406d9433193e18143f359076f1f468"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468">tim_ic_pol</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Input Capture input polarity. </p>
-<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em><a class="anchor" id="ggaa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f"></a>TIM_IC_RISING</em>&nbsp;</td><td>
-</td></tr>
-<tr><td valign="top"><em><a class="anchor" id="ggaa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6"></a>TIM_IC_FALLING</em>&nbsp;</td><td>
-</td></tr>
-</table>
-</dd>
-</dl>
-
-<p>Definition at line <a class="el" href="timer__common__all_8h_source.html#l01016">1016</a> of file <a class="el" href="timer__common__all_8h_source.html">timer_common_all.h</a>.</p>
 
 </div>
 </div>
@@ -1635,7 +1633,7 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01988">1988</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01972">1972</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -1672,7 +1670,7 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01976">1976</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01960">1960</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -1781,50 +1779,6 @@ these parameters are writable only when the channel is off.</dd></dl>
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01923">1923</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 <p>References <a class="el" href="timer__common__all_8h_source.html#l00960">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00961">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00962">TIM_IC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00963">TIM_IC4</a>, <a class="el" href="timer__common__all_8h_source.html#l01008">TIM_IC_IN_TI1</a>, and <a class="el" href="timer__common__all_8h_source.html#l01009">TIM_IC_IN_TI2</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga53ee1dc7ca2e167153f5b6921b443ee5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void timer_ic_set_polarity </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>timer_peripheral</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a>&#160;</td>
-          <td class="paramname"><em>ic</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468">tim_ic_pol</a>&#160;</td>
-          <td class="paramname"><em>pol</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set Input Polarity. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td><a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac" title="Input Capture channel designators.">tim_ic_id</a>. Input Capture channel designator. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pol</td><td><a class="el" href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468" title="Input Capture input polarity.">tim_ic_pol</a>. Input Capture polarity. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01961">1961</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -3129,7 +3083,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02005">2005</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01989">1989</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -3166,11 +3120,11 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02048">2048</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02032">2032</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ga3fea74700fbd5e16c51b4e45c49bf111"></a>
+<a class="anchor" id="gae3e6a506f144a7c8fabf0f647600dc4d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3183,7 +3137,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468">tim_ic_pol</a>&#160;</td>
+          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be">tim_et_pol</a>&#160;</td>
           <td class="paramname"><em>pol</em>&#160;</td>
         </tr>
         <tr>
@@ -3198,12 +3152,12 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pol</td><td><a class="el" href="group__timer__defines.html#gaa0406d9433193e18143f359076f1f468" title="Input Capture input polarity.">tim_ic_pol</a>. Input Capture polarity. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pol</td><td><a class="el" href="group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be" title="Slave external trigger polarity.">tim_et_pol</a>. Slave External Trigger polarity. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02033">2033</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02017">2017</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -3241,7 +3195,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02020">2020</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02004">2004</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -3278,7 +3232,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02061">2061</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02045">2045</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -3345,7 +3299,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Apr 26 2013 06:21:12 for libopencm3 by
+    <li class="footer">Generated on Fri Apr 26 2013 21:21:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

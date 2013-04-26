@@ -5024,13 +5024,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>timer_ic_set_polarity</name>
-      <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gac2b7d3b13f8b80dd5276bcdd2513b3cc</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>timer_ic_enable</name>
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>gaf74f4ed834f30d68ca294349ec64b902</anchor>
@@ -5061,8 +5054,8 @@
       <type>void</type>
       <name>timer_slave_set_polarity</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7f41cd15f87d39274bda6eb6e96b2644</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_pol pol)</arglist>
+      <anchor>gaca29467a4cb5700e0b9a457664cda471</anchor>
+      <arglist>(u32 timer_peripheral, enum tim_et_pol pol)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5390,21 +5383,21 @@
       <arglist></arglist>
     </member>
     <member kind="enumeration">
-      <name>tim_ic_pol</name>
+      <name>tim_et_pol</name>
       <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa0406d9433193e18143f359076f1f468</anchor>
+      <anchor>gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>TIM_IC_RISING</name>
+      <name>TIM_ET_RISING</name>
       <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f</anchor>
+      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>TIM_IC_FALLING</name>
+      <name>TIM_ET_FALLING</name>
       <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6</anchor>
+      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -5892,13 +5885,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>timer_ic_set_polarity</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga53ee1dc7ca2e167153f5b6921b443ee5</anchor>
-      <arglist>(u32 timer, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>timer_ic_enable</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga74bf7c73490501c48ca3d4d37836ba8b</anchor>
@@ -5929,8 +5915,8 @@
       <type>void</type>
       <name>timer_slave_set_polarity</name>
       <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3fea74700fbd5e16c51b4e45c49bf111</anchor>
-      <arglist>(u32 timer, enum tim_ic_pol pol)</arglist>
+      <anchor>gae3e6a506f144a7c8fabf0f647600dc4d</anchor>
+      <arglist>(u32 timer, enum tim_et_pol pol)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5958,17 +5944,55 @@
       <anchor>ga5be6e15edbb1bbf01c81644def269fee</anchor>
       <arglist>(u32 timer_peripheral, u32 option)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_set_polarity</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>gac2b7d3b13f8b80dd5276bcdd2513b3cc</anchor>
+      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>timer_common_f24.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>timer__common__f24_8h</filename>
+    <member kind="enumeration">
+      <name>tim_ic_pol</name>
+      <anchorfile>timer__common__f24_8h.html</anchorfile>
+      <anchor>aa0406d9433193e18143f359076f1f468</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_RISING</name>
+      <anchorfile>timer__common__f24_8h.html</anchorfile>
+      <anchor>aa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_FALLING</name>
+      <anchorfile>timer__common__f24_8h.html</anchorfile>
+      <anchor>aa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_BOTH</name>
+      <anchorfile>timer__common__f24_8h.html</anchorfile>
+      <anchor>aa0406d9433193e18143f359076f1f468ad8b9427de52eb6d1475803b85f026cd2</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>timer_set_option</name>
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>ga5be6e15edbb1bbf01c81644def269fee</anchor>
       <arglist>(u32 timer_peripheral, u32 option)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_set_polarity</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>gac2b7d3b13f8b80dd5276bcdd2513b3cc</anchor>
+      <arglist>(u32 timer, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -8152,21 +8176,21 @@
       <arglist></arglist>
     </member>
     <member kind="enumeration">
-      <name>tim_ic_pol</name>
+      <name>tim_et_pol</name>
       <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa0406d9433193e18143f359076f1f468</anchor>
+      <anchor>gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>TIM_IC_RISING</name>
+      <name>TIM_ET_RISING</name>
       <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f</anchor>
+      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>TIM_IC_FALLING</name>
+      <name>TIM_ET_FALLING</name>
       <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6</anchor>
+      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -8654,13 +8678,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>timer_ic_set_polarity</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga53ee1dc7ca2e167153f5b6921b443ee5</anchor>
-      <arglist>(u32 timer, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>timer_ic_enable</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga74bf7c73490501c48ca3d4d37836ba8b</anchor>
@@ -8691,8 +8708,8 @@
       <type>void</type>
       <name>timer_slave_set_polarity</name>
       <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3fea74700fbd5e16c51b4e45c49bf111</anchor>
-      <arglist>(u32 timer, enum tim_ic_pol pol)</arglist>
+      <anchor>gae3e6a506f144a7c8fabf0f647600dc4d</anchor>
+      <arglist>(u32 timer, enum tim_et_pol pol)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -11332,13 +11349,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>timer_ic_set_polarity</name>
-      <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gac2b7d3b13f8b80dd5276bcdd2513b3cc</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>timer_ic_enable</name>
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>gaf74f4ed834f30d68ca294349ec64b902</anchor>
@@ -11369,8 +11379,8 @@
       <type>void</type>
       <name>timer_slave_set_polarity</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7f41cd15f87d39274bda6eb6e96b2644</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_pol pol)</arglist>
+      <anchor>gaca29467a4cb5700e0b9a457664cda471</anchor>
+      <arglist>(u32 timer_peripheral, enum tim_et_pol pol)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -11392,6 +11402,13 @@
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>ga5be6e15edbb1bbf01c81644def269fee</anchor>
       <arglist>(u32 timer_peripheral, u32 option)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_set_polarity</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>gac2b7d3b13f8b80dd5276bcdd2513b3cc</anchor>
+      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
     </member>
     <docanchor file="group__timer__file">tim_common</docanchor>
     <docanchor file="group__timer__file">tim_api_ex</docanchor>

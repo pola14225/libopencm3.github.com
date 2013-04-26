@@ -73,7 +73,7 @@ var group__timer__file =
     [ "timer_set_ti1_ch123_xor", "group__timer__file.html#ga6cf985750d50b19b4b793f435adca686", null ],
     [ "timer_slave_set_filter", "group__timer__file.html#ga6f7dd59db59dd01a2573ff3b69557161", null ],
     [ "timer_slave_set_mode", "group__timer__file.html#ga741240e46390f98f507d33a6bc1830ca", null ],
-    [ "timer_slave_set_polarity", "group__timer__file.html#ga7f41cd15f87d39274bda6eb6e96b2644", null ],
+    [ "timer_slave_set_polarity", "group__timer__file.html#gaca29467a4cb5700e0b9a457664cda471", null ],
     [ "timer_slave_set_prescaler", "group__timer__file.html#ga68d1d708b99cc49fdd590f1e77b68ff1", null ],
     [ "timer_slave_set_trigger", "group__timer__file.html#ga69431c3b065b4f35f74fe871d9b8604c", null ],
     [ "timer_update_on_any", "group__timer__file.html#ga0ae6fd9111170e1fc63535967bdb6461", null ],

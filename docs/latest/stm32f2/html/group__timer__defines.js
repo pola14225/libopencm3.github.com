@@ -14,6 +14,10 @@ var group__timer__defines =
     [ "TIM_BDTR_LOCK Timer Lock Values", "group__tim__lock.html", null ],
     [ "TIM2_OR Timer 2 Option Register Internal Trigger 1 Remap", "group__tim2__opt__trigger__remap.html", null ],
     [ "TIM5_OR Timer 5 Option Register Internal Trigger 4 Remap", "group__tim5__opt__trigger__remap.html", null ],
+    [ "tim_et_pol", "group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be", [
+      [ "TIM_ET_RISING", "group__timer__defines.html#ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061", null ],
+      [ "TIM_ET_FALLING", "group__timer__defines.html#ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82", null ]
+    ] ],
     [ "tim_ic_filter", "group__timer__defines.html#ga8a2a8722575e6301c3e059b9ec8f50c2", [
       [ "TIM_IC_OFF", "group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2a76d65bc64029afa2f1ed52ee2baa9ad0", null ],
       [ "TIM_IC_CK_INT_N_2", "group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2a5429214f18c8998abf133557978417ca", null ],
@@ -45,10 +49,6 @@ var group__timer__defines =
       [ "TIM_IC_IN_TRC", "group__timer__defines.html#ggad3d3ef84edd2180d79321bac6394bb4da5e17d937da575af5b1074acee7460d06", null ],
       [ "TIM_IC_IN_TI3", "group__timer__defines.html#ggad3d3ef84edd2180d79321bac6394bb4da87e62cbc57b773c7fcfb91669f8993cd", null ],
       [ "TIM_IC_IN_TI4", "group__timer__defines.html#ggad3d3ef84edd2180d79321bac6394bb4da9b9803faff5acc1d1d02110c30d81fbe", null ]
-    ] ],
-    [ "tim_ic_pol", "group__timer__defines.html#gaa0406d9433193e18143f359076f1f468", [
-      [ "TIM_IC_RISING", "group__timer__defines.html#ggaa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f", null ],
-      [ "TIM_IC_FALLING", "group__timer__defines.html#ggaa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6", null ]
     ] ],
     [ "tim_ic_psc", "group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62", [
       [ "TIM_IC_PSC_OFF", "group__timer__defines.html#gga3231b651e821b33d1adeeb21e2a7ae62a75a00e88015eb89ca04af2ac1c43c3db", null ],
@@ -110,7 +110,6 @@ var group__timer__defines =
     [ "timer_ic_enable", "group__timer__defines.html#ga74bf7c73490501c48ca3d4d37836ba8b", null ],
     [ "timer_ic_set_filter", "group__timer__defines.html#gac3a23ad2b3f96bbfd1e56e4ac6821a18", null ],
     [ "timer_ic_set_input", "group__timer__defines.html#ga4817b575c83a6f8e6664e9a43bb422a7", null ],
-    [ "timer_ic_set_polarity", "group__timer__defines.html#ga53ee1dc7ca2e167153f5b6921b443ee5", null ],
     [ "timer_ic_set_prescaler", "group__timer__defines.html#ga28361996826e8f8de6bbe9cef6569f7c", null ],
     [ "timer_interrupt_source", "group__timer__defines.html#ga44293cf4df17227863493a16439314a0", null ],
     [ "timer_one_shot_mode", "group__timer__defines.html#gafc1a99f8422c484c9abdf3638ddd7018", null ],
@@ -147,7 +146,7 @@ var group__timer__defines =
     [ "timer_set_ti1_ch123_xor", "group__timer__defines.html#ga6cf985750d50b19b4b793f435adca686", null ],
     [ "timer_slave_set_filter", "group__timer__defines.html#ga44fbed6e858e94839a0a2e23ebcefd48", null ],
     [ "timer_slave_set_mode", "group__timer__defines.html#ga164500c2a7f64d79846873a21424582b", null ],
-    [ "timer_slave_set_polarity", "group__timer__defines.html#ga3fea74700fbd5e16c51b4e45c49bf111", null ],
+    [ "timer_slave_set_polarity", "group__timer__defines.html#gae3e6a506f144a7c8fabf0f647600dc4d", null ],
     [ "timer_slave_set_prescaler", "group__timer__defines.html#gaa5d5e17504c44a0176b9f5d1323b4205", null ],
     [ "timer_slave_set_trigger", "group__timer__defines.html#gab1a92f4bf6f1d748d5b349e5996c372f", null ],
     [ "timer_update_on_any", "group__timer__defines.html#ga0ae6fd9111170e1fc63535967bdb6461", null ],
