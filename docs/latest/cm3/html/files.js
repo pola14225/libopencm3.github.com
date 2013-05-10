@@ -9,6 +9,7 @@ var files =
     [ "nvic.h", "nvic_8h.html", "nvic_8h" ],
     [ "scb.h", "scb_8h.html", "scb_8h" ],
     [ "scs.h", "scs_8h.html", "scs_8h" ],
+    [ "sync.h", "sync_8h.html", "sync_8h" ],
     [ "systick.h", "systick_8h.html", "systick_8h" ],
     [ "tpiu.h", "tpiu_8h.html", "tpiu_8h" ],
     [ "vector.h", "vector_8h.html", "vector_8h" ]

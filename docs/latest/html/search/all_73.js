@@ -185,6 +185,7 @@ var searchData=
   ['stm32f4xx_20defines',['STM32F4xx Defines',['../../stm32f4/html/group__STM32F4xx__defines.html',1,'']]],
   ['sv_5fcall',['sv_call',['../../cm3/html/structvector__table__t.html#ace5b229bd0e04cbc018c8457168640a4',1,'vector_table_t']]],
   ['sv_5fcall_5fhandler',['sv_call_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,]]],
+  ['sync_2eh',['sync.h',['../../cm3/html/sync_8h.html',1,'']]],
   ['sys_5ftick_5fhandler',['sys_tick_handler',['../../cm3/html/group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,]]],
   ['systemcontrol_2ec',['systemcontrol.c',['../../lm4f/html/systemcontrol_8c.html',1,'']]],
   ['systemcontrol_2eh',['systemcontrol.h',['../../lm3s/html/systemcontrol_8h.html',1,'(Global Namespace)'],['../../lm4f/html/systemcontrol_8h.html',1,'(Global Namespace)']]],

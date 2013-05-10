@@ -40,8 +40,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"nvic_8h.html#gae29640317be4df735067ff164aeeee0f",
-"tpiu_8h.html#a48b19f62a98db8ff6206b30a6d04bc52"
+"nvic_8h.html#gad1480e9557edcc543498ca259cee6c7d",
+"systick_8h_source.html"
 ];
 
 var navTreeSubIndices = new Array();

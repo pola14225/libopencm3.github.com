@@ -3,5 +3,6 @@
 <area shape="rect" id="node5" href="$nvic_8h.html" title="nvic.h" alt="" coords="99,83,155,112"/>
 <area shape="rect" id="node7" href="$vector_8h.html" title="Definitions for handling vector tables." alt="" coords="124,160,193,189"/>
 <area shape="rect" id="node9" href="$scb_8h.html" title="scb.h" alt="" coords="229,83,283,112"/>
-<area shape="rect" id="node11" href="$systick_8h.html" title="systick.h" alt="" coords="307,83,381,112"/>
+<area shape="rect" id="node11" href="$sync_8h.html" title="sync.h" alt="" coords="307,83,368,112"/>
+<area shape="rect" id="node13" href="$systick_8h.html" title="systick.h" alt="" coords="392,83,467,112"/>
 </map>

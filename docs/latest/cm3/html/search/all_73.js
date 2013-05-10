@@ -202,6 +202,7 @@ var searchData=
   ['stk_5fval',['STK_VAL',['../group__CM3__systick__defines.html#ga9944fae2f819211da9884f03db333ad8',1,'systick.h']]],
   ['sv_5fcall',['sv_call',['../structvector__table__t.html#ace5b229bd0e04cbc018c8457168640a4',1,'vector_table_t']]],
   ['sv_5fcall_5fhandler',['sv_call_handler',['../group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,'nvic.h']]],
+  ['sync_2eh',['sync.h',['../sync_8h.html',1,'']]],
   ['sys_5ftick_5fbase',['SYS_TICK_BASE',['../memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f',1,'memorymap.h']]],
   ['sys_5ftick_5fhandler',['sys_tick_handler',['../group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,'nvic.h']]],
   ['systick',['systick',['../structvector__table__t.html#acf9d4ecb17d3ebecbcbd24966c18102f',1,'vector_table_t']]],

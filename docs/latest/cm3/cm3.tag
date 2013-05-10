@@ -2227,6 +2227,68 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>sync.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
+    <filename>sync_8h</filename>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">common.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>MUTEX_UNLOCKED</name>
+      <anchorfile>sync_8h.html</anchorfile>
+      <anchor>ad963991010089c6e899c1ddfb1b4369a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MUTEX_LOCKED</name>
+      <anchorfile>sync_8h.html</anchorfile>
+      <anchor>a3d27b30a62d1c92d0b419cbca98e65dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>u32</type>
+      <name>mutex_t</name>
+      <anchorfile>sync_8h.html</anchorfile>
+      <anchor>ab7e6b445d77c6dc958a98a7710f21ce2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>__ldrex</name>
+      <anchorfile>sync_8h.html</anchorfile>
+      <anchor>a23cdbd17af97f07155c1433bc75a5196</anchor>
+      <arglist>(volatile u32 *addr)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>__strex</name>
+      <anchorfile>sync_8h.html</anchorfile>
+      <anchor>ae6ca6872082f5544d3d266adbe1d3d60</anchor>
+      <arglist>(u32 val, volatile u32 *addr)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>__dmb</name>
+      <anchorfile>sync_8h.html</anchorfile>
+      <anchor>ad1ca1eff93298efc081ecc4b22ebed95</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>mutex_lock</name>
+      <anchorfile>sync_8h.html</anchorfile>
+      <anchor>a3582a040ff9bb0cfd05bdd660f1f0d4f</anchor>
+      <arglist>(mutex_t *m)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>mutex_unlock</name>
+      <anchorfile>sync_8h.html</anchorfile>
+      <anchor>ae11e971acf52cb10a0e471c291cd9505</anchor>
+      <arglist>(mutex_t *m)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>systick.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
     <filename>systick_8h</filename>
@@ -3251,6 +3313,7 @@
     <file>nvic.h</file>
     <file>scb.h</file>
     <file>scs.h</file>
+    <file>sync.h</file>
     <file>systick.h</file>
     <file>tpiu.h</file>
     <file>vector.h</file>

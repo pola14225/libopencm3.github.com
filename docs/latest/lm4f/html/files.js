@@ -8,5 +8,7 @@ var files =
     [ "rcc.c", "rcc_8c.html", "rcc_8c" ],
     [ "rcc.h", "rcc_8h.html", "rcc_8h" ],
     [ "systemcontrol.c", "systemcontrol_8c.html", "systemcontrol_8c" ],
-    [ "systemcontrol.h", "systemcontrol_8h.html", "systemcontrol_8h" ]
+    [ "systemcontrol.h", "systemcontrol_8h.html", "systemcontrol_8h" ],
+    [ "uart.c", "uart_8c.html", "uart_8c" ],
+    [ "uart.h", "uart_8h.html", "uart_8h" ]
 ];

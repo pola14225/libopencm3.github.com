@@ -13,6 +13,7 @@ var searchData=
   ['spi_5fcommon_5ff24_2eh',['spi_common_f24.h',['../../stm32f4/html/spi__common__f24_8h.html',1,'']]],
   ['ssp_2ec',['ssp.c',['../../lpc43xx/html/ssp_8c.html',1,'']]],
   ['ssp_2eh',['ssp.h',['../../lpc43xx/html/ssp_8h.html',1,'']]],
+  ['sync_2eh',['sync.h',['../../cm3/html/sync_8h.html',1,'']]],
   ['systemcontrol_2ec',['systemcontrol.c',['../../lm4f/html/systemcontrol_8c.html',1,'']]],
   ['systemcontrol_2eh',['systemcontrol.h',['../../lm3s/html/systemcontrol_8h.html',1,'(Global Namespace)'],['../../lm4f/html/systemcontrol_8h.html',1,'(Global Namespace)']]],
   ['systick_2eh',['systick.h',['../../cm3/html/systick_8h.html',1,'']]]

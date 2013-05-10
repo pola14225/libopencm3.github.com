@@ -1,4 +1,5 @@
 <map id="LM4F" name="LM4F">
 <area shape="rect" id="node1" href="$group__rcc__file.html" title="libopencm3 LM4F Clock control API" alt="" coords="155,5,205,35"/>
 <area shape="rect" id="node2" href="$group__gpio__file.html" title="LM4F General Purpose I/O" alt="" coords="109,59,251,88"/>
+<area shape="rect" id="node4" href="$group__uart__file.html" title="libopencm3 LM4F Universal Asynchronous Receiver Transmitter" alt="" coords="151,112,209,141"/>
 </map>

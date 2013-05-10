@@ -1682,12 +1682,563 @@
       <arglist>(clken_t periph)</arglist>
     </member>
   </compound>
+  <compound kind="file">
+    <name>uart.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/</path>
+    <filename>uart_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga1986760b76baaca81b12d65b69f7efb5</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga25e5d256338110603c9f5e9d7f764679</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_baudrate</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga0bf883f060f4daeb16d479786c5bb205</anchor>
+      <arglist>(u32 uart, u32 baud)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_databits</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>gadbc7cedf5cbb59437049265a97a441ab</anchor>
+      <arglist>(u32 uart, u8 databits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_stopbits</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>gab1535ac90c9962a33560ba83f08d3a02</anchor>
+      <arglist>(u32 uart, u8 stopbits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_parity</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>gafe7c6f22987bd7394cc3effa35ebf393</anchor>
+      <arglist>(u32 uart, enum uart_parity parity)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_flow_control</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga4cef6e53b5e108404b5b4cc61e9e011d</anchor>
+      <arglist>(u32 uart, enum uart_flowctl flow)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clock_from_piosc</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga6fd10c339086a6fc244ddd61e07a9042</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clock_from_sysclk</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>gad068d0d195488bc40ebe22ed6d3a9160</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_send</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>ga644097552146ac9c31b1c28a0098dd78</anchor>
+      <arglist>(u32 uart, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>uart_recv</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>gaa340e677480980b6751ac0ad83aabfd8</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_wait_send_ready</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>ga5ced85790f760618b3f9583c10b40944</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_wait_recv_ready</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>ga57075c0822d1505c40725c906310011b</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_send_blocking</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>gaddc763c3c98025e1ccd0722768f0b184</anchor>
+      <arglist>(u32 uart, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>uart_recv_blocking</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>ga20c33a40f18e40219379cddf0b987814</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_interrupts</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_interrupts</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga6dd2f50f82e63295d2a0992ea1266e71</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_rx_interrupt</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga9b489b9e7a5175ef7368edf2738bdea3</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_rx_interrupt</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>gab9cba946fe4287dceeb1af377f5f184d</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_tx_interrupt</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga8976eda1efdcac1bf5c1fb8d9070a969</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_tx_interrupt</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga478001bc20021b274250fd135bf491d5</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clear_interrupt_flag</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_rx_dma</name>
+      <anchorfile>group__uart__dma.html</anchorfile>
+      <anchor>ga0b93072916945c485bb6daee91e73b4d</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_rx_dma</name>
+      <anchorfile>group__uart__dma.html</anchorfile>
+      <anchor>gad05e92d61088a06f466b19b83c25c98e</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_tx_dma</name>
+      <anchorfile>group__uart__dma.html</anchorfile>
+      <anchor>gaa5650bb5ea598dddbd4a0c29daf040e9</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_tx_dma</name>
+      <anchorfile>group__uart__dma.html</anchorfile>
+      <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>uart.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/</path>
+    <filename>uart_8h</filename>
+    <member kind="enumeration">
+      <name>uart_parity</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaef0010d952178bd0d851bcf3b63daeca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_NONE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaaa80d2d8ea61454045ebe71d155e85b3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_ODD</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaad90cc425f5ba447773a44a75be6593e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_EVEN</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaad908a637b1dd23f93b149dd2d8bdfdb8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_STICK_0</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaa38e4b2e7c5b38024a01f2195748b77f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_STICK_1</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaaf20f92778e29fd61d30d276c03353085</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_flowctl</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga50eb7d8c1338b309a11dda5e86240706</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FLOWCTL_NONE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gga50eb7d8c1338b309a11dda5e86240706a087e42c5229a10b6b02aa7f3548e0e18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FLOWCTL_RTS</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gga50eb7d8c1338b309a11dda5e86240706a8105549da2b48f557f98e5575dd48fc5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FLOWCTL_CTS</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gga50eb7d8c1338b309a11dda5e86240706a0d9da2df46dc2f980c019b5c0c955a2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FLOWCTL_RTS_CTS</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gga50eb7d8c1338b309a11dda5e86240706a8e06515da93c430fa99ac8838772040e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_interrupt_flag</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gad02c1455d23262a6dbda84d6053d1f7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_LME5</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea22d9d80af21c49fd2845e65ae8964dfc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_LME1</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eabea77aada0f38984ab084b876d26e23c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_LMSB</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea1c2452c3b449ba88c7796845815a974d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_9BIT</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea8775b5683b20ec15d876196c580c584a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_OE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea9de058b4403afc1fa2aa7099c45d0b06</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_BE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea163453765b5cb996248cd1145c1dac7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_PE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eafcfec516eb93a5484263c358cfe27fe9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_FE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eaf222be4a67ad2277a89bca5696d17fbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_RT</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eab0ad539c76928c0113725547575376ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_TX</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea2a145ce488762550b48d111c76e03a60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_RX</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea32eca039b291092af8df630b6ea6613d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_DSR</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eab03ddef3181bfb7cb0e11bfbb8a42950</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_DCD</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea26117cec3a3d09416668f45aad1ae08f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_CTS</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eac8355e07c854f7e22921e01bbc17d5df</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_RI</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea19236a41b0921ff78c01940fb02a9654</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>uart_set_baudrate</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga272000d8efe4ed2d788b93468e33bf09</anchor>
+      <arglist>(u32 uart, u32 baud)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_databits</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gadbc7cedf5cbb59437049265a97a441ab</anchor>
+      <arglist>(u32 uart, u8 databits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_stopbits</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gab1535ac90c9962a33560ba83f08d3a02</anchor>
+      <arglist>(u32 uart, u8 stopbits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_parity</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gafe7c6f22987bd7394cc3effa35ebf393</anchor>
+      <arglist>(u32 uart, enum uart_parity parity)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_mode</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga7dacfd5754ba93b9552dc8d28aaae007</anchor>
+      <arglist>(u32 uart, u32 mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_flow_control</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga4cef6e53b5e108404b5b4cc61e9e011d</anchor>
+      <arglist>(u32 uart, enum uart_flowctl flow)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga1986760b76baaca81b12d65b69f7efb5</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga25e5d256338110603c9f5e9d7f764679</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clock_from_piosc</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga6fd10c339086a6fc244ddd61e07a9042</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clock_from_sysclk</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gad068d0d195488bc40ebe22ed6d3a9160</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_send</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga644097552146ac9c31b1c28a0098dd78</anchor>
+      <arglist>(u32 uart, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>uart_recv</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaa340e677480980b6751ac0ad83aabfd8</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_wait_send_ready</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga5ced85790f760618b3f9583c10b40944</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_wait_recv_ready</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga57075c0822d1505c40725c906310011b</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_send_blocking</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaddc763c3c98025e1ccd0722768f0b184</anchor>
+      <arglist>(u32 uart, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>uart_recv_blocking</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga20c33a40f18e40219379cddf0b987814</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_rx_dma</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga0b93072916945c485bb6daee91e73b4d</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_rx_dma</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gad05e92d61088a06f466b19b83c25c98e</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_tx_dma</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaa5650bb5ea598dddbd4a0c29daf040e9</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_tx_dma</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_interrupts</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_interrupts</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga6dd2f50f82e63295d2a0992ea1266e71</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_rx_interrupt</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga9b489b9e7a5175ef7368edf2738bdea3</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_rx_interrupt</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gab9cba946fe4287dceeb1af377f5f184d</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_tx_interrupt</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga8976eda1efdcac1bf5c1fb8d9070a969</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_tx_interrupt</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga478001bc20021b274250fd135bf491d5</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clear_interrupt_flag</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_interrupt_source</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga0a4de5017ea5b32ef5e1b9a7229bd166</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag source)</arglist>
+    </member>
+  </compound>
   <compound kind="group">
     <name>LM4Fxx</name>
     <title>LM4F</title>
     <filename>group__LM4Fxx.html</filename>
     <subgroup>gpio_file</subgroup>
     <subgroup>rcc_file</subgroup>
+    <subgroup>uart_file</subgroup>
   </compound>
   <compound kind="group">
     <name>LM4Fxx_defines</name>
@@ -1697,6 +2248,7 @@
     <subgroup>nvic_defines</subgroup>
     <subgroup>rcc_defines</subgroup>
     <subgroup>systemcontrol_defines</subgroup>
+    <subgroup>uart_defines</subgroup>
   </compound>
   <compound kind="group">
     <name>gpio_defines</name>
@@ -3176,6 +3728,368 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>uart_defines</name>
+    <title>UART Control</title>
+    <filename>group__uart__defines.html</filename>
+    <subgroup>uart_reg_base</subgroup>
+    <member kind="enumeration">
+      <name>uart_parity</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaef0010d952178bd0d851bcf3b63daeca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_NONE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaaa80d2d8ea61454045ebe71d155e85b3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_ODD</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaad90cc425f5ba447773a44a75be6593e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_EVEN</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaad908a637b1dd23f93b149dd2d8bdfdb8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_STICK_0</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaa38e4b2e7c5b38024a01f2195748b77f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_STICK_1</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaef0010d952178bd0d851bcf3b63daecaaf20f92778e29fd61d30d276c03353085</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_flowctl</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga50eb7d8c1338b309a11dda5e86240706</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FLOWCTL_NONE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gga50eb7d8c1338b309a11dda5e86240706a087e42c5229a10b6b02aa7f3548e0e18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FLOWCTL_RTS</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gga50eb7d8c1338b309a11dda5e86240706a8105549da2b48f557f98e5575dd48fc5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FLOWCTL_CTS</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gga50eb7d8c1338b309a11dda5e86240706a0d9da2df46dc2f980c019b5c0c955a2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FLOWCTL_RTS_CTS</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gga50eb7d8c1338b309a11dda5e86240706a8e06515da93c430fa99ac8838772040e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_interrupt_flag</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gad02c1455d23262a6dbda84d6053d1f7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_LME5</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea22d9d80af21c49fd2845e65ae8964dfc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_LME1</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eabea77aada0f38984ab084b876d26e23c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_LMSB</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea1c2452c3b449ba88c7796845815a974d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_9BIT</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea8775b5683b20ec15d876196c580c584a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_OE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea9de058b4403afc1fa2aa7099c45d0b06</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_BE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea163453765b5cb996248cd1145c1dac7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_PE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eafcfec516eb93a5484263c358cfe27fe9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_FE</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eaf222be4a67ad2277a89bca5696d17fbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_RT</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eab0ad539c76928c0113725547575376ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_TX</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea2a145ce488762550b48d111c76e03a60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_RX</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea32eca039b291092af8df630b6ea6613d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_DSR</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eab03ddef3181bfb7cb0e11bfbb8a42950</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_DCD</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea26117cec3a3d09416668f45aad1ae08f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_CTS</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7eac8355e07c854f7e22921e01bbc17d5df</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_INT_RI</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea19236a41b0921ff78c01940fb02a9654</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>uart_set_baudrate</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga272000d8efe4ed2d788b93468e33bf09</anchor>
+      <arglist>(u32 uart, u32 baud)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_databits</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gadbc7cedf5cbb59437049265a97a441ab</anchor>
+      <arglist>(u32 uart, u8 databits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_stopbits</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gab1535ac90c9962a33560ba83f08d3a02</anchor>
+      <arglist>(u32 uart, u8 stopbits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_parity</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gafe7c6f22987bd7394cc3effa35ebf393</anchor>
+      <arglist>(u32 uart, enum uart_parity parity)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_mode</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga7dacfd5754ba93b9552dc8d28aaae007</anchor>
+      <arglist>(u32 uart, u32 mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_flow_control</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga4cef6e53b5e108404b5b4cc61e9e011d</anchor>
+      <arglist>(u32 uart, enum uart_flowctl flow)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga1986760b76baaca81b12d65b69f7efb5</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga25e5d256338110603c9f5e9d7f764679</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clock_from_piosc</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga6fd10c339086a6fc244ddd61e07a9042</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clock_from_sysclk</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gad068d0d195488bc40ebe22ed6d3a9160</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_send</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga644097552146ac9c31b1c28a0098dd78</anchor>
+      <arglist>(u32 uart, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>uart_recv</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaa340e677480980b6751ac0ad83aabfd8</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_wait_send_ready</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga5ced85790f760618b3f9583c10b40944</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_wait_recv_ready</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga57075c0822d1505c40725c906310011b</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_send_blocking</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaddc763c3c98025e1ccd0722768f0b184</anchor>
+      <arglist>(u32 uart, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>uart_recv_blocking</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga20c33a40f18e40219379cddf0b987814</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_rx_dma</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga0b93072916945c485bb6daee91e73b4d</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_rx_dma</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gad05e92d61088a06f466b19b83c25c98e</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_tx_dma</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaa5650bb5ea598dddbd4a0c29daf040e9</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_tx_dma</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_interrupts</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_interrupts</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga6dd2f50f82e63295d2a0992ea1266e71</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_rx_interrupt</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga9b489b9e7a5175ef7368edf2738bdea3</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_rx_interrupt</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gab9cba946fe4287dceeb1af377f5f184d</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_tx_interrupt</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga8976eda1efdcac1bf5c1fb8d9070a969</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_tx_interrupt</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga478001bc20021b274250fd135bf491d5</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clear_interrupt_flag</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>uart_reg_base</name>
+    <title>UART register base addresses</title>
+    <filename>group__uart__reg__base.html</filename>
+  </compound>
+  <compound kind="group">
     <name>gpio_file</name>
     <title>General Purpose I/O</title>
     <filename>group__gpio__file.html</filename>
@@ -3358,6 +4272,224 @@
       <arglist>(osc_src_t osc_src, xtal_t xtal, u8 pll_div400)</arglist>
     </member>
   </compound>
+  <compound kind="group">
+    <name>uart_file</name>
+    <title>UART</title>
+    <filename>group__uart__file.html</filename>
+    <subgroup>uart_config</subgroup>
+    <subgroup>uart_send_recv</subgroup>
+    <subgroup>uart_irq</subgroup>
+    <subgroup>uart_dma</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>uart_config</name>
+    <title>UART configuration</title>
+    <filename>group__uart__config.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga1986760b76baaca81b12d65b69f7efb5</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga25e5d256338110603c9f5e9d7f764679</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_baudrate</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga0bf883f060f4daeb16d479786c5bb205</anchor>
+      <arglist>(u32 uart, u32 baud)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_databits</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>gadbc7cedf5cbb59437049265a97a441ab</anchor>
+      <arglist>(u32 uart, u8 databits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_stopbits</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>gab1535ac90c9962a33560ba83f08d3a02</anchor>
+      <arglist>(u32 uart, u8 stopbits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_parity</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>gafe7c6f22987bd7394cc3effa35ebf393</anchor>
+      <arglist>(u32 uart, enum uart_parity parity)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_flow_control</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga4cef6e53b5e108404b5b4cc61e9e011d</anchor>
+      <arglist>(u32 uart, enum uart_flowctl flow)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clock_from_piosc</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>ga6fd10c339086a6fc244ddd61e07a9042</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clock_from_sysclk</name>
+      <anchorfile>group__uart__config.html</anchorfile>
+      <anchor>gad068d0d195488bc40ebe22ed6d3a9160</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>uart_send_recv</name>
+    <title>UART transmission and reception</title>
+    <filename>group__uart__send__recv.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_send</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>ga644097552146ac9c31b1c28a0098dd78</anchor>
+      <arglist>(u32 uart, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>uart_recv</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>gaa340e677480980b6751ac0ad83aabfd8</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_wait_send_ready</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>ga5ced85790f760618b3f9583c10b40944</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_wait_recv_ready</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>ga57075c0822d1505c40725c906310011b</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_send_blocking</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>gaddc763c3c98025e1ccd0722768f0b184</anchor>
+      <arglist>(u32 uart, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>u16</type>
+      <name>uart_recv_blocking</name>
+      <anchorfile>group__uart__send__recv.html</anchorfile>
+      <anchor>ga20c33a40f18e40219379cddf0b987814</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>uart_irq</name>
+    <title>UART Interrupt control</title>
+    <filename>group__uart__irq.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_interrupts</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_interrupts</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga6dd2f50f82e63295d2a0992ea1266e71</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_rx_interrupt</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga9b489b9e7a5175ef7368edf2738bdea3</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_rx_interrupt</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>gab9cba946fe4287dceeb1af377f5f184d</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_tx_interrupt</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga8976eda1efdcac1bf5c1fb8d9070a969</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_tx_interrupt</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga478001bc20021b274250fd135bf491d5</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_clear_interrupt_flag</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_interrupt_source</name>
+      <anchorfile>group__uart__irq.html</anchorfile>
+      <anchor>ga0a4de5017ea5b32ef5e1b9a7229bd166</anchor>
+      <arglist>(u32 uart, enum uart_interrupt_flag source)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>uart_dma</name>
+    <title>UART DMA control</title>
+    <filename>group__uart__dma.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_rx_dma</name>
+      <anchorfile>group__uart__dma.html</anchorfile>
+      <anchor>ga0b93072916945c485bb6daee91e73b4d</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_rx_dma</name>
+      <anchorfile>group__uart__dma.html</anchorfile>
+      <anchor>gad05e92d61088a06f466b19b83c25c98e</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_tx_dma</name>
+      <anchorfile>group__uart__dma.html</anchorfile>
+      <anchor>gaa5650bb5ea598dddbd4a0c29daf040e9</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_tx_dma</name>
+      <anchorfile>group__uart__dma.html</anchorfile>
+      <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+  </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
@@ -3383,6 +4515,7 @@
     <file>gpio.c</file>
     <file>rcc.c</file>
     <file>systemcontrol.c</file>
+    <file>uart.c</file>
   </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/</name>
@@ -3394,6 +4527,7 @@
     <file>nvic.h</file>
     <file>rcc.h</file>
     <file>systemcontrol.h</file>
+    <file>uart.h</file>
   </compound>
   <compound kind="page">
     <name>index</name>

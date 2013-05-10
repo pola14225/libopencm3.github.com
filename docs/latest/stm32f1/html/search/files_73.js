@@ -6,5 +6,6 @@ var searchData=
   ['spi_2eh',['spi.h',['../spi_8h.html',1,'']]],
   ['spi_5fcommon_5fall_2ec',['spi_common_all.c',['../spi__common__all_8c.html',1,'']]],
   ['spi_5fcommon_5fall_2eh',['spi_common_all.h',['../spi__common__all_8h.html',1,'']]],
+  ['sync_2eh',['sync.h',['../../../cm3/html/sync_8h.html',1,'']]],
   ['systick_2eh',['systick.h',['../../../cm3/html/systick_8h.html',1,'']]]
 ];

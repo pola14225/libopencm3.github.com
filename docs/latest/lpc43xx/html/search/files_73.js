@@ -8,5 +8,6 @@ var searchData=
   ['sgpio_2eh',['sgpio.h',['../sgpio_8h.html',1,'']]],
   ['ssp_2ec',['ssp.c',['../ssp_8c.html',1,'']]],
   ['ssp_2eh',['ssp.h',['../ssp_8h.html',1,'']]],
+  ['sync_2eh',['sync.h',['../../../cm3/html/sync_8h.html',1,'']]],
   ['systick_2eh',['systick.h',['../../../cm3/html/systick_8h.html',1,'']]]
 ];
