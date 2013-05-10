@@ -140,25 +140,25 @@ Modules</h2></td></tr>
 <div class="line"><span class="preprocessor">#define PLLDIV_80MHZ 5</span></div>
 <div class="line"><span class="preprocessor"></span></div>
 <div class="line"><span class="comment">// Enable the main oscillator</span></div>
-<div class="line"><a class="code" href="group__rcc__low__level.html#gafc653bc7b616053515e1fd4aeb54f972" title="Enable the main oscillator.">rcc_enable_main_osc</a>();</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gafc653bc7b616053515e1fd4aeb54f972" title="Enable the main oscillator.">rcc_enable_main_osc</a>();</div>
 <div class="line"></div>
 <div class="line"><span class="comment">// Make RCC2 override RCC</span></div>
-<div class="line"><a class="code" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2</a>();</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2</a>();</div>
 <div class="line"></div>
 <div class="line"><span class="comment">// Set XTAL value to 16MHz</span></div>
-<div class="line"><a class="code" href="group__rcc__low__level.html#ga3d715276910605af035ccbf374c15d3a" title="Configure the crystal type connected to the device.">rcc_configure_xtal</a>(<a class="code" href="group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a72d6d58d8b24db9d249f76876e753016">XTAL_16M</a>);</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gafe2c334adb77d1117b4f91404a659ea1" title="Configure the crystal type connected to the device.">rcc_configure_xtal</a>(<a class="code" href="group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a72d6d58d8b24db9d249f76876e753016">XTAL_16M</a>);</div>
 <div class="line"><span class="comment">// Set the oscillator source as the main oscillator</span></div>
-<div class="line"><a class="code" href="group__rcc__low__level.html#gabde4ea299b0ce6f81a9f44387881e29b" title="Set the oscillator source to be used by the system clock.">rcc_set_osc_source</a>(<a class="code" href="group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022adb9b675853b16e89501a2eb677c12894">OSCSRC_MOSC</a>);</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gabde4ea299b0ce6f81a9f44387881e29b" title="Set the oscillator source to be used by the system clock.">rcc_set_osc_source</a>(<a class="code" href="group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022adb9b675853b16e89501a2eb677c12894">OSCSRC_MOSC</a>);</div>
 <div class="line"><span class="comment">// Enable the PLL</span></div>
-<div class="line"><a class="code" href="group__rcc__low__level.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL.">rcc_pll_on</a>();</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL.">rcc_pll_on</a>();</div>
 <div class="line"></div>
 <div class="line"><span class="comment">// Change the clock divisor</span></div>
-<div class="line"><a class="code" href="group__rcc__low__level.html#gaf867d8975967972fff96350206c36a2e" title="Set the PLL clock divisor (from 400MHz)">rcc_set_pll_divisor</a>(PLLDIV_80MHZ);</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gaf867d8975967972fff96350206c36a2e" title="Set the PLL clock divisor (from 400MHz)">rcc_set_pll_divisor</a>(PLLDIV_80MHZ);</div>
 <div class="line"></div>
 <div class="line"><span class="comment">// We cannot use the PLL as a clock source until it locks</span></div>
-<div class="line"><a class="code" href="group__rcc__low__level.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock.">rcc_wait_for_pll_ready</a>();</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock.">rcc_wait_for_pll_ready</a>();</div>
 <div class="line"><span class="comment">// Disable PLL bypass to derive the system clock from the PLL clock</span></div>
-<div class="line"><a class="code" href="group__rcc__low__level.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock.">rcc_pll_bypass_disable</a>();</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock.">rcc_pll_bypass_disable</a>();</div>
 <div class="line"></div>
 <div class="line"><span class="comment">// Keep track of frequency</span></div>
 <div class="line"><a class="code" href="group__rcc__low__level.html#ga45ac0a3082a27e5d55e718de67fde983" title="System clock frequency.">lm4f_rcc_sysclk_freq</a> = 80E6;</div>
@@ -166,13 +166,13 @@ Modules</h2></td></tr>
 <div class="fragment"><div class="line"><span class="comment">// A divisor of 5 gives us a clock of 400/5 = 80MHz</span></div>
 <div class="line"><span class="preprocessor">#define PLLDIV_80MHZ 5</span></div>
 <div class="line"><span class="preprocessor"></span></div>
-<div class="line"><a class="code" href="group__rcc__high__level.html#ga893dc6461e9af854fb562c0e97df6a5b" title="Configure the system clock source.">rcc_sysclk_config</a>(<a class="code" href="group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022adb9b675853b16e89501a2eb677c12894">OSCSRC_MOSC</a>, <a class="code" href="group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a72d6d58d8b24db9d249f76876e753016">XTAL_16M</a>, PLLDIV_80MHZ);</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#ga2f7b0475bc8a219cfa43ed0f5efd3597" title="Configure the system clock source.">rcc_sysclk_config</a>(<a class="code" href="group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022adb9b675853b16e89501a2eb677c12894">OSCSRC_MOSC</a>, <a class="code" href="group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a72d6d58d8b24db9d249f76876e753016">XTAL_16M</a>, PLLDIV_80MHZ);</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 8 2013 19:21:34 for libopencm3 by
+    <li class="footer">Generated on Fri May 10 2013 23:21:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

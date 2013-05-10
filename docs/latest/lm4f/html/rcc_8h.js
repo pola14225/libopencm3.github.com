@@ -38,8 +38,8 @@ var rcc_8h =
       [ "XTAL_24M", "rcc_8h.html#gga8f09204cad649f070887682ed6549ea9abc98d766583e32076c0504b9297dfa8e", null ],
       [ "XTAL_25M", "rcc_8h.html#gga8f09204cad649f070887682ed6549ea9a8ac164b085138f1c24abb51ee35cf5d5", null ]
     ] ],
-    [ "rcc_change_pll_divisor", "rcc_8h.html#ga8a17e04e6b457ec201d76ba1ee418a9d", null ],
-    [ "rcc_configure_xtal", "rcc_8h.html#ga3d715276910605af035ccbf374c15d3a", null ],
+    [ "rcc_change_pll_divisor", "rcc_8h.html#gaf94026ce3a7b5628a286fb1f67c569fd", null ],
+    [ "rcc_configure_xtal", "rcc_8h.html#gafe2c334adb77d1117b4f91404a659ea1", null ],
     [ "rcc_disable_interal_osc", "rcc_8h.html#ga25df4f03d0154ac5b09b875dad1226e0", null ],
     [ "rcc_disable_main_osc", "rcc_8h.html#ga5f536734177d63215d1494e6dea715d0", null ],
     [ "rcc_enable_interal_osc", "rcc_8h.html#ga191546fa4ded6cb6d3c753e0de255464", null ],
@@ -53,7 +53,7 @@ var rcc_8h =
     [ "rcc_set_osc_source", "rcc_8h.html#gabde4ea299b0ce6f81a9f44387881e29b", null ],
     [ "rcc_set_pll_divisor", "rcc_8h.html#gaf867d8975967972fff96350206c36a2e", null ],
     [ "rcc_set_pwm_divisor", "rcc_8h.html#ga390df69d68a12c67ac2484b741cea22e", null ],
-    [ "rcc_sysclk_config", "rcc_8h.html#ga893dc6461e9af854fb562c0e97df6a5b", null ],
+    [ "rcc_sysclk_config", "rcc_8h.html#ga2f7b0475bc8a219cfa43ed0f5efd3597", null ],
     [ "rcc_usb_pll_off", "rcc_8h.html#ga68c7027c77c2a1a0d6d202e191c1baf5", null ],
     [ "rcc_usb_pll_on", "rcc_8h.html#gae31973474f6d00125a57784e84230c86", null ],
     [ "rcc_wait_for_pll_ready", "rcc_8h.html#ga0f5f3bea5dbfde10760a9cd775951a51", null ]

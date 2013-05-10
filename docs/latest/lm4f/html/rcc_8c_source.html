@@ -235,7 +235,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment"> * @param[in] xtal predefined crystal type @see xtal_t</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga3d715276910605af035ccbf374c15d3a">  118</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#ga3d715276910605af035ccbf374c15d3a" title="Configure the crystal type connected to the device.">rcc_configure_xtal</a>(<a class="code" href="group__rcc__defines.html#ga8f09204cad649f070887682ed6549ea9" title="Predefined crystal values.">xtal_t</a> xtal)</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga3d715276910605af035ccbf374c15d3a">  118</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gafe2c334adb77d1117b4f91404a659ea1" title="Configure the crystal type connected to the device.">rcc_configure_xtal</a>(<a class="code" href="group__rcc__defines.html#ga8f09204cad649f070887682ed6549ea9" title="Predefined crystal values.">xtal_t</a> xtal)</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;{</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
@@ -250,7 +250,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment"> * Sets the IOSCDIS bit in SYSCTL_RCC, disabling the main oscillator.</span></div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga5f536734177d63215d1494e6dea715d0">  133</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#ga5f536734177d63215d1494e6dea715d0" title="Disable the main oscillator.">rcc_disable_main_osc</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga5f536734177d63215d1494e6dea715d0">  133</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga5f536734177d63215d1494e6dea715d0" title="Disable the main oscillator.">rcc_disable_main_osc</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        SYSCTL_RCC |= SYSCTL_RCC_MOSCDIS;</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
@@ -260,7 +260,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment"> * Sets the IOSCDIS bit in SYSCTL_RCC, disabling the internal oscillator.</span></div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga25df4f03d0154ac5b09b875dad1226e0">  143</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#ga25df4f03d0154ac5b09b875dad1226e0" title="Disable the internal oscillator.">rcc_disable_interal_osc</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga25df4f03d0154ac5b09b875dad1226e0">  143</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga25df4f03d0154ac5b09b875dad1226e0" title="Disable the internal oscillator.">rcc_disable_interal_osc</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;{</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        SYSCTL_RCC |= SYSCTL_RCC_IOSCDIS;</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;}</div>
@@ -270,7 +270,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="comment"> * Clears the MOSCDIS bit in SYSCTL_RCC, enabling the main oscillator.</span></div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gafc653bc7b616053515e1fd4aeb54f972">  153</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#gafc653bc7b616053515e1fd4aeb54f972" title="Enable the main oscillator.">rcc_enable_main_osc</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00153"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gafc653bc7b616053515e1fd4aeb54f972">  153</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gafc653bc7b616053515e1fd4aeb54f972" title="Enable the main oscillator.">rcc_enable_main_osc</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;{</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        SYSCTL_RCC &amp;= ~SYSCTL_RCC_MOSCDIS;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;}</div>
@@ -280,7 +280,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="comment"> * Clears the IOSCDIS bit in SYSCTL_RCC, enabling the internal oscillator.</span></div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga191546fa4ded6cb6d3c753e0de255464">  163</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#ga191546fa4ded6cb6d3c753e0de255464" title="Enable the internal oscillator.">rcc_enable_interal_osc</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00163"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga191546fa4ded6cb6d3c753e0de255464">  163</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga191546fa4ded6cb6d3c753e0de255464" title="Enable the internal oscillator.">rcc_enable_interal_osc</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;{</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        SYSCTL_RCC &amp;= ~SYSCTL_RCC_IOSCDIS;</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;}</div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment"> * This function must be called before other calls to manipulate the clock, as</span></div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment"> * libopencm3 uses the SYSCTL_RCC2 register.</span></div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9">  176</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00176"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9">  176</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;{</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        SYSCTL_RCC2 |= SYSCTL_RCC2_USERCC2;</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;}</div>
@@ -306,7 +306,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="comment"> * USERCC2 must have been set by a call to rcc_enable_rcc2() before calling this</span></div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="comment"> * function.</span></div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00189"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga31217830e7f538e902e8b157e2715428">  189</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#ga31217830e7f538e902e8b157e2715428" title="Power down the main PLL.">rcc_pll_off</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00189"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga31217830e7f538e902e8b157e2715428">  189</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga31217830e7f538e902e8b157e2715428" title="Power down the main PLL.">rcc_pll_off</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;{</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        SYSCTL_RCC2 |= SYSCTL_RCC2_PWRDN2;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;}</div>
@@ -319,7 +319,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="comment"> * USERCC2 must have been set by a call to rcc_enable_rcc2() before calling this</span></div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="comment"> * function.</span></div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00202"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gaf58b85261f65604132b67d3567c2b0c3">  202</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL.">rcc_pll_on</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gaf58b85261f65604132b67d3567c2b0c3">  202</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL.">rcc_pll_on</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        SYSCTL_RCC2 &amp;= ~SYSCTL_RCC2_PWRDN2;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;}</div>
@@ -332,7 +332,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="comment"> * USERCC2 must have been set by a call to rcc_enable_rcc2() before calling this</span></div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="comment"> * function.</span></div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00215"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gabde4ea299b0ce6f81a9f44387881e29b">  215</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#gabde4ea299b0ce6f81a9f44387881e29b" title="Set the oscillator source to be used by the system clock.">rcc_set_osc_source</a>(<a class="code" href="group__rcc__defines.html#ga931f75a5969f2dda1abaa7ee1b2fb022" title="Oscillator source values.">osc_src_t</a> src)</div>
+<div class="line"><a name="l00215"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gabde4ea299b0ce6f81a9f44387881e29b">  215</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gabde4ea299b0ce6f81a9f44387881e29b" title="Set the oscillator source to be used by the system clock.">rcc_set_osc_source</a>(<a class="code" href="group__rcc__defines.html#ga931f75a5969f2dda1abaa7ee1b2fb022" title="Oscillator source values.">osc_src_t</a> src)</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;{</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
@@ -351,7 +351,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="comment"> * USERCC2 must have been set by a call to rcc_enable_rcc2() before calling this</span></div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="comment"> * function.</span></div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gabbbe68ef690e48ae19d4ff04e69cc9c3">  234</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock.">rcc_pll_bypass_disable</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00234"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gabbbe68ef690e48ae19d4ff04e69cc9c3">  234</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock.">rcc_pll_bypass_disable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;{</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        SYSCTL_RCC2 &amp;= ~SYSCTL_RCC2_BYPASS2;</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;}</div>
@@ -365,7 +365,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment"> * USERCC2 must have been set by a call to rcc_enable_rcc2() before calling this</span></div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="comment"> * function.</span></div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00248"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga269054cc63981ae593e6820de2fe76b1">  248</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#ga269054cc63981ae593e6820de2fe76b1" title="Enable the PLL bypass and use the oscillator clock.">rcc_pll_bypass_enable</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00248"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga269054cc63981ae593e6820de2fe76b1">  248</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga269054cc63981ae593e6820de2fe76b1" title="Enable the PLL bypass and use the oscillator clock.">rcc_pll_bypass_enable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;{</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        SYSCTL_RCC2 |= SYSCTL_RCC2_BYPASS2;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;}</div>
@@ -389,7 +389,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="comment"> *            caller&#39;s responsibility to ensure that the divisor will not create</span></div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="comment"> *            a system clock that is out of spec.</span></div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gaf867d8975967972fff96350206c36a2e">  272</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#gaf867d8975967972fff96350206c36a2e" title="Set the PLL clock divisor (from 400MHz)">rcc_set_pll_divisor</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> div400)</div>
+<div class="line"><a name="l00272"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gaf867d8975967972fff96350206c36a2e">  272</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gaf867d8975967972fff96350206c36a2e" title="Set the PLL clock divisor (from 400MHz)">rcc_set_pll_divisor</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> div400)</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;{</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
@@ -410,7 +410,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment"> * @param[in] div clock divisor to use @see pwm_clkdiv_t</span></div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00293"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga390df69d68a12c67ac2484b741cea22e">  293</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#ga390df69d68a12c67ac2484b741cea22e" title="Set the PWM unit clock divisor.">rcc_set_pwm_divisor</a>(<a class="code" href="group__rcc__defines.html#ga13f5e74c594f9314b816fa4e694e9504" title="PWM clock divisor values.">pwm_clkdiv_t</a> div)</div>
+<div class="line"><a name="l00293"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga390df69d68a12c67ac2484b741cea22e">  293</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga390df69d68a12c67ac2484b741cea22e" title="Set the PWM unit clock divisor.">rcc_set_pwm_divisor</a>(<a class="code" href="group__rcc__defines.html#ga13f5e74c594f9314b816fa4e694e9504" title="PWM clock divisor values.">pwm_clkdiv_t</a> div)</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;{</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
@@ -428,7 +428,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="comment"> * USERCC2 must have been set by a call to rcc_enable_rcc2() before calling this</span></div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="comment"> * function.</span></div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga68c7027c77c2a1a0d6d202e191c1baf5">  311</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#ga68c7027c77c2a1a0d6d202e191c1baf5" title="Power down the USB PLL.">rcc_usb_pll_off</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00311"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga68c7027c77c2a1a0d6d202e191c1baf5">  311</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga68c7027c77c2a1a0d6d202e191c1baf5" title="Power down the USB PLL.">rcc_usb_pll_off</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;{</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        SYSCTL_RCC2 |= SYSCTL_RCC2_USBPWRDN;</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;}</div>
@@ -441,7 +441,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment"> * USERCC2 must have been set by a call to rcc_enable_rcc2() before calling this</span></div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="comment"> * function.</span></div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gae31973474f6d00125a57784e84230c86">  324</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#gae31973474f6d00125a57784e84230c86" title="Power up the USB PLL.">rcc_usb_pll_on</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00324"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#gae31973474f6d00125a57784e84230c86">  324</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gae31973474f6d00125a57784e84230c86" title="Power up the USB PLL.">rcc_usb_pll_on</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;{</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        SYSCTL_RCC2 &amp;= ~SYSCTL_RCC2_USBPWRDN;</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;}</div>
@@ -452,7 +452,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="comment"> * Waits until the LOCK bit in SYSCTL_PLLSTAT is set. This guarantees that the</span></div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="comment"> * PLL is locked, and ready to use.</span></div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga0f5f3bea5dbfde10760a9cd775951a51">  335</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__low__level.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock.">rcc_wait_for_pll_ready</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00335"></a><span class="lineno"><a class="code" href="group__rcc__low__level.html#ga0f5f3bea5dbfde10760a9cd775951a51">  335</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock.">rcc_wait_for_pll_ready</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;{</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <span class="keywordflow">while</span>(!(SYSCTL_PLLSTAT &amp; SYSCTL_PLLSTAT_LOCK));</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;}</div>
@@ -480,16 +480,16 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="comment"> * @param [in] pll_div400 The clock divisor to apply to the 400MHz PLL clock.</span></div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00363"></a><span class="lineno"><a class="code" href="group__rcc__high__level.html#ga8a17e04e6b457ec201d76ba1ee418a9d">  363</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__high__level.html#ga8a17e04e6b457ec201d76ba1ee418a9d" title="Change the PLL divisor.">rcc_change_pll_divisor</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> pll_div400)</div>
+<div class="line"><a name="l00363"></a><span class="lineno"><a class="code" href="group__rcc__high__level.html#ga8a17e04e6b457ec201d76ba1ee418a9d">  363</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gaf94026ce3a7b5628a286fb1f67c569fd" title="Change the PLL divisor.">rcc_change_pll_divisor</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> pll_div400)</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;{</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <span class="comment">/* Bypass the PLL while its settings are modified */</span></div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        <a class="code" href="group__rcc__low__level.html#ga269054cc63981ae593e6820de2fe76b1" title="Enable the PLL bypass and use the oscillator clock.">rcc_pll_bypass_enable</a>();</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        <a class="code" href="group__rcc__defines.html#ga269054cc63981ae593e6820de2fe76b1" title="Enable the PLL bypass and use the oscillator clock.">rcc_pll_bypass_enable</a>();</div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        <span class="comment">/* Change the clock divisor */</span></div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        <a class="code" href="group__rcc__low__level.html#gaf867d8975967972fff96350206c36a2e" title="Set the PLL clock divisor (from 400MHz)">rcc_set_pll_divisor</a>(pll_div400);</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        <a class="code" href="group__rcc__defines.html#gaf867d8975967972fff96350206c36a2e" title="Set the PLL clock divisor (from 400MHz)">rcc_set_pll_divisor</a>(pll_div400);</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        <span class="comment">/* We cannot use the PLL as a clock source until it locks */</span></div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <a class="code" href="group__rcc__low__level.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock.">rcc_wait_for_pll_ready</a>();</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <a class="code" href="group__rcc__defines.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock.">rcc_wait_for_pll_ready</a>();</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        <span class="comment">/* Disable PLL bypass to derive the system clock from the PLL clock */</span></div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        <a class="code" href="group__rcc__low__level.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock.">rcc_pll_bypass_disable</a>();</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        <a class="code" href="group__rcc__defines.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock.">rcc_pll_bypass_disable</a>();</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="comment">/* Update the system clock frequency for housekeeping */</span></div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        <a class="code" href="group__rcc__low__level.html#ga45ac0a3082a27e5d55e718de67fde983" title="System clock frequency.">lm4f_rcc_sysclk_freq</a> = (<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)400E6 / pll_div400;</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;}</div>
@@ -499,7 +499,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="comment"> * @return System clock frequency in Hz</span></div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00382"></a><span class="lineno"><a class="code" href="group__rcc__high__level.html#gaebfa606dfc58689248800e62bceb2f93">  382</a></span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="group__rcc__high__level.html#gaebfa606dfc58689248800e62bceb2f93" title="Get the system clock frequency.">rcc_get_system_clock_frequency</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00382"></a><span class="lineno"><a class="code" href="group__rcc__high__level.html#gaebfa606dfc58689248800e62bceb2f93">  382</a></span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="group__rcc__defines.html#gaebfa606dfc58689248800e62bceb2f93" title="Get the system clock frequency.">rcc_get_system_clock_frequency</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;{</div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="group__rcc__low__level.html#ga45ac0a3082a27e5d55e718de67fde983" title="System clock frequency.">lm4f_rcc_sysclk_freq</a>;</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;}</div>
@@ -559,30 +559,30 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;<span class="comment"> * @return System clock frequency in Hz</span></div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00442"></a><span class="lineno"><a class="code" href="group__rcc__high__level.html#ga893dc6461e9af854fb562c0e97df6a5b">  442</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__high__level.html#ga893dc6461e9af854fb562c0e97df6a5b" title="Configure the system clock source.">rcc_sysclk_config</a>(<a class="code" href="group__rcc__defines.html#ga931f75a5969f2dda1abaa7ee1b2fb022" title="Oscillator source values.">osc_src_t</a> osc_src, <a class="code" href="group__rcc__defines.html#ga8f09204cad649f070887682ed6549ea9" title="Predefined crystal values.">xtal_t</a> xtal, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> pll_div400)</div>
+<div class="line"><a name="l00442"></a><span class="lineno"><a class="code" href="group__rcc__high__level.html#ga893dc6461e9af854fb562c0e97df6a5b">  442</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga2f7b0475bc8a219cfa43ed0f5efd3597" title="Configure the system clock source.">rcc_sysclk_config</a>(<a class="code" href="group__rcc__defines.html#ga931f75a5969f2dda1abaa7ee1b2fb022" title="Oscillator source values.">osc_src_t</a> osc_src, <a class="code" href="group__rcc__defines.html#ga8f09204cad649f070887682ed6549ea9" title="Predefined crystal values.">xtal_t</a> xtal, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> pll_div400)</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;{</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        <span class="comment">/*</span></div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;<span class="comment">         * We could be using the PLL at this point, or we could be running of a</span></div>
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;<span class="comment">         * raw clock. Either way, it is safer to bypass the PLL now.</span></div>
 <div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        <a class="code" href="group__rcc__low__level.html#ga269054cc63981ae593e6820de2fe76b1" title="Enable the PLL bypass and use the oscillator clock.">rcc_pll_bypass_enable</a>();</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        <a class="code" href="group__rcc__defines.html#ga269054cc63981ae593e6820de2fe76b1" title="Enable the PLL bypass and use the oscillator clock.">rcc_pll_bypass_enable</a>();</div>
 <div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;</div>
 <div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;        <span class="comment">/* Enable the main oscillator, if needed */</span></div>
 <div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        <span class="keywordflow">if</span> (osc_src == <a class="code" href="group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022adb9b675853b16e89501a2eb677c12894">OSCSRC_MOSC</a>)</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;                <a class="code" href="group__rcc__low__level.html#gafc653bc7b616053515e1fd4aeb54f972" title="Enable the main oscillator.">rcc_enable_main_osc</a>();</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;                <a class="code" href="group__rcc__defines.html#gafc653bc7b616053515e1fd4aeb54f972" title="Enable the main oscillator.">rcc_enable_main_osc</a>();</div>
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        <span class="comment">/* Make RCC2 override RCC */</span></div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <a class="code" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2</a>();</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <a class="code" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2</a>();</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="comment">/* Set XTAL value to 16MHz */</span></div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        <a class="code" href="group__rcc__low__level.html#ga3d715276910605af035ccbf374c15d3a" title="Configure the crystal type connected to the device.">rcc_configure_xtal</a>(xtal);</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        <a class="code" href="group__rcc__defines.html#gafe2c334adb77d1117b4f91404a659ea1" title="Configure the crystal type connected to the device.">rcc_configure_xtal</a>(xtal);</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        <span class="comment">/* Set the oscillator source */</span></div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        <a class="code" href="group__rcc__low__level.html#gabde4ea299b0ce6f81a9f44387881e29b" title="Set the oscillator source to be used by the system clock.">rcc_set_osc_source</a>(osc_src);</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        <a class="code" href="group__rcc__defines.html#gabde4ea299b0ce6f81a9f44387881e29b" title="Set the oscillator source to be used by the system clock.">rcc_set_osc_source</a>(osc_src);</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;        <span class="keywordflow">if</span> (pll_div400) {</div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                <span class="comment">/* Enable the PLL */</span></div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;                <a class="code" href="group__rcc__low__level.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL.">rcc_pll_on</a>();</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;                <a class="code" href="group__rcc__defines.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL.">rcc_pll_on</a>();</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;                <span class="comment">/* Configure the PLL to the divisor we want */</span></div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;                <a class="code" href="group__rcc__high__level.html#ga8a17e04e6b457ec201d76ba1ee418a9d" title="Change the PLL divisor.">rcc_change_pll_divisor</a>(pll_div400);</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;                <a class="code" href="group__rcc__defines.html#gaf94026ce3a7b5628a286fb1f67c569fd" title="Change the PLL divisor.">rcc_change_pll_divisor</a>(pll_div400);</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;                <span class="comment">/* We are running off a raw clock */</span></div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;                <span class="keywordflow">switch</span> (osc_src) {</div>
@@ -621,7 +621,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_12fee2a8ab17b1bb753631ffb3fddc2a.html">lm4f</a></li><li class="navelem"><a class="el" href="rcc_8c.html">rcc.c</a></li>
-    <li class="footer">Generated on Wed May 8 2013 19:21:34 for libopencm3 by
+    <li class="footer">Generated on Fri May 10 2013 23:21:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

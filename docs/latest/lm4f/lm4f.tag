@@ -427,134 +427,134 @@
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>rcc_configure_xtal</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
-      <anchor>ga3d715276910605af035ccbf374c15d3a</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafe2c334adb77d1117b4f91404a659ea1</anchor>
       <arglist>(xtal_t xtal)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_disable_main_osc</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga5f536734177d63215d1494e6dea715d0</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_disable_interal_osc</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga25df4f03d0154ac5b09b875dad1226e0</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_enable_main_osc</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gafc653bc7b616053515e1fd4aeb54f972</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_enable_interal_osc</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga191546fa4ded6cb6d3c753e0de255464</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_enable_rcc2</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae166a674c8b6592adea0ff77c1e009e9</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_pll_off</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga31217830e7f538e902e8b157e2715428</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_pll_on</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaf58b85261f65604132b67d3567c2b0c3</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_osc_source</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabde4ea299b0ce6f81a9f44387881e29b</anchor>
       <arglist>(osc_src_t src)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_pll_bypass_disable</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabbbe68ef690e48ae19d4ff04e69cc9c3</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_pll_bypass_enable</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga269054cc63981ae593e6820de2fe76b1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_divisor</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaf867d8975967972fff96350206c36a2e</anchor>
       <arglist>(u8 div400)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pwm_divisor</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga390df69d68a12c67ac2484b741cea22e</anchor>
       <arglist>(pwm_clkdiv_t div)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_usb_pll_off</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga68c7027c77c2a1a0d6d202e191c1baf5</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_usb_pll_on</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae31973474f6d00125a57784e84230c86</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_pll_ready</name>
-      <anchorfile>group__rcc__low__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga0f5f3bea5dbfde10760a9cd775951a51</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_change_pll_divisor</name>
-      <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>ga8a17e04e6b457ec201d76ba1ee418a9d</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf94026ce3a7b5628a286fb1f67c569fd</anchor>
       <arglist>(u8 plldiv400)</arglist>
     </member>
     <member kind="function">
       <type>u32</type>
       <name>rcc_get_system_clock_frequency</name>
-      <anchorfile>group__rcc__high__level.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaebfa606dfc58689248800e62bceb2f93</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_sysclk_config</name>
-      <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>ga893dc6461e9af854fb562c0e97df6a5b</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2f7b0475bc8a219cfa43ed0f5efd3597</anchor>
       <arglist>(osc_src_t src, xtal_t xtal, u8 pll_div400)</arglist>
     </member>
   </compound>
@@ -1935,6 +1935,139 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga8f09204cad649f070887682ed6549ea9a8ac164b085138f1c24abb51ee35cf5d5</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>rcc_configure_xtal</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafe2c334adb77d1117b4f91404a659ea1</anchor>
+      <arglist>(xtal_t xtal)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_disable_main_osc</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga5f536734177d63215d1494e6dea715d0</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_disable_interal_osc</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga25df4f03d0154ac5b09b875dad1226e0</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_enable_main_osc</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafc653bc7b616053515e1fd4aeb54f972</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_enable_interal_osc</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga191546fa4ded6cb6d3c753e0de255464</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_enable_rcc2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae166a674c8b6592adea0ff77c1e009e9</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_pll_off</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga31217830e7f538e902e8b157e2715428</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_pll_on</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf58b85261f65604132b67d3567c2b0c3</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_osc_source</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gabde4ea299b0ce6f81a9f44387881e29b</anchor>
+      <arglist>(osc_src_t src)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_pll_bypass_disable</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gabbbe68ef690e48ae19d4ff04e69cc9c3</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_pll_bypass_enable</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga269054cc63981ae593e6820de2fe76b1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pll_divisor</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf867d8975967972fff96350206c36a2e</anchor>
+      <arglist>(u8 div400)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pwm_divisor</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga390df69d68a12c67ac2484b741cea22e</anchor>
+      <arglist>(pwm_clkdiv_t div)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_usb_pll_off</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga68c7027c77c2a1a0d6d202e191c1baf5</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_usb_pll_on</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae31973474f6d00125a57784e84230c86</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_wait_for_pll_ready</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga0f5f3bea5dbfde10760a9cd775951a51</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_change_pll_divisor</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf94026ce3a7b5628a286fb1f67c569fd</anchor>
+      <arglist>(u8 plldiv400)</arglist>
+    </member>
+    <member kind="function">
+      <type>u32</type>
+      <name>rcc_get_system_clock_frequency</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaebfa606dfc58689248800e62bceb2f93</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_sysclk_config</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2f7b0475bc8a219cfa43ed0f5efd3597</anchor>
+      <arglist>(osc_src_t src, xtal_t xtal, u8 pll_div400)</arglist>
     </member>
   </compound>
   <compound kind="group">

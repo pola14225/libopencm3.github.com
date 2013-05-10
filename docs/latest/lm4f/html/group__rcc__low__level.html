@@ -348,7 +348,7 @@ Here is the caller graph for this function:</div>
 
 <p>Disable the PLL bypass and use the PLL clock. </p>
 <p>Clear BYPASS2 in SYSCTL_RCC2. The system clock is derived from the PLL clock divided by the divisor specified in SYSDIV2.</p>
-<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
+<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00234">234</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
@@ -381,7 +381,7 @@ Here is the caller graph for this function:</div>
 
 <p>Enable the PLL bypass and use the oscillator clock. </p>
 <p>Set BYPASS2 in SYSCTL_RCC2. The system clock is derived from the oscillator clock divided by the divisor specified in SYSDIV2.</p>
-<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
+<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00248">248</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
@@ -414,7 +414,7 @@ Here is the caller graph for this function:</div>
 
 <p>Power down the main PLL. </p>
 <p>Sets the SYSCTL_RCC2_PWRDN2 in SYSCTL_RCC2 to power down the PLL.</p>
-<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
+<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00189">189</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
@@ -436,7 +436,7 @@ Here is the caller graph for this function:</div>
 
 <p>Power up the main PLL. </p>
 <p>Clears the PWRDN2 in SYSCTL_RCC2 to power on the PLL.</p>
-<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
+<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00202">202</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
@@ -469,7 +469,7 @@ Here is the caller graph for this function:</div>
 
 <p>Set the oscillator source to be used by the system clock. </p>
 <p>Set the clock source for the system clock.</p>
-<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
+<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00215">215</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
@@ -503,7 +503,7 @@ Here is the caller graph for this function:</div>
 <p>Set the PLL clock divisor (from 400MHz) </p>
 <p>Set the binary divisor used to predivide the system clock down for use as the timing reference for the PWM module. The divisor is expected to be a divisor from 400MHz, not 200MHz. The DIV400 is also set.</p>
 <p>Specifies the divisor that used to generate the system clock from either the PLL output or the oscillator source (depending on the BYPASS2 bit in SYSCTL_RCC2). SYSDIV2 is used for the divisor when both the USESYSDIV bit in SYSCTL_RCC is set.</p>
-<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function.</p>
+<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">div</td><td>clock divisor to apply to the 400MHz PLL clock. It is the caller's responsibility to ensure that the divisor will not create a system clock that is out of spec. </td></tr>
@@ -570,7 +570,7 @@ Here is the caller graph for this function:</div>
 
 <p>Power down the USB PLL. </p>
 <p>Sets the USBPWRDN in SYSCTL_RCC2 to power down the USB PLL.</p>
-<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
+<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00311">311</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
@@ -592,7 +592,7 @@ Here is the caller graph for this function:</div>
 
 <p>Power up the USB PLL. </p>
 <p>Clears the USBPWRDN in SYSCTL_RCC2 to power on the USB PLL.</p>
-<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
+<p>USERCC2 must have been set by a call to <a class="el" href="group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control.">rcc_enable_rcc2()</a> before calling this function. </p>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00324">324</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
@@ -644,7 +644,7 @@ Here is the caller graph for this function:</div>
 <p>System clock frequency. </p>
 <p>This variable is provided to keep track of the system clock frequency. It should be updated every time the system clock is changed via the fine-grained mechanisms. The initial value is 16MHz, which corresponds to the clock of the internal 16MHz oscillator.</p>
 <p>High-level routines update the system clock automatically. For read access, it is recommended to acces this variable via </p>
-<div class="fragment"><div class="line"><a class="code" href="group__rcc__high__level.html#gaebfa606dfc58689248800e62bceb2f93" title="Get the system clock frequency.">rcc_get_system_clock_frequency</a>();</div>
+<div class="fragment"><div class="line"><a class="code" href="group__rcc__defines.html#gaebfa606dfc58689248800e62bceb2f93" title="Get the system clock frequency.">rcc_get_system_clock_frequency</a>();</div>
 </div><!-- fragment --><p>If write access is desired (i.e. when changing the system clock via the fine-grained mechanisms), then include the following line in your code: </p>
 <div class="fragment"><div class="line"><span class="keyword">extern</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="group__rcc__low__level.html#ga45ac0a3082a27e5d55e718de67fde983" title="System clock frequency.">lm4f_rcc_sysclk_freq</a>;</div>
 </div><!-- fragment --> 
@@ -659,7 +659,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 8 2013 19:21:34 for libopencm3 by
+    <li class="footer">Generated on Fri May 10 2013 23:21:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

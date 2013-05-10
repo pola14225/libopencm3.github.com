@@ -1,5 +1,3 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/rcc.h:36: group rcc_defines: ignoring title "RCC Defines" that does not match old title "Reset and Clock Control"
-
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:198: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:200: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
@@ -144,6 +142,9 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:471: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: argument 'div' of command @param is not found in the argument list of rcc_set_pll_divisor(u8 div400)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: The following parameters of rcc_set_pll_divisor(u8 div400) are not documented:
+  parameter 'div400'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: argument 'div' of command @param is not found in the argument list of rcc_set_pll_divisor(u8 div400)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: The following parameters of rcc_set_pll_divisor(u8 div400) are not documented:
   parameter 'div400'
