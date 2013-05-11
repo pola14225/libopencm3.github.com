@@ -1,4 +1,0 @@
-<map id="flash_erase_all_sectors" name="flash_erase_all_sectors">
-<area shape="rect" id="node3" href="$flash_8c.html#aa2c107c924d8f78bbfc2e0a1b6e5331a" title="flash_set_program_size" alt="" coords="213,5,373,35"/>
-<area shape="rect" id="node5" href="$flash_8h.html#a72ce389bb20296771479ace8cdb62dff" title="flash_wait_for_last\l_operation" alt="" coords="228,58,359,105"/>
-</map>

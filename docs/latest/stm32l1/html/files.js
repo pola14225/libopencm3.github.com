@@ -16,6 +16,8 @@ var files =
     [ "doc-stm32l1.h", "doc-stm32l1_8h.html", null ],
     [ "flash.c", "flash_8c.html", "flash_8c" ],
     [ "flash.h", "flash_8h.html", "flash_8h" ],
+    [ "flash_common_f24.c", "flash__common__f24_8c.html", "flash__common__f24_8c" ],
+    [ "flash_common_f24.h", "flash__common__f24_8h.html", "flash__common__f24_8h" ],
     [ "gpio.c", "gpio_8c.html", null ],
     [ "gpio.h", "gpio_8h.html", "gpio_8h" ],
     [ "gpio_common_all.c", "gpio__common__all_8c.html", "gpio__common__all_8c" ],

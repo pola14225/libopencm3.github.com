@@ -1,8 +1,0 @@
-<map id="flash_set_program_size" name="flash_set_program_size">
-<area shape="rect" id="node3" href="$flash_8c.html#a2030d965cf8826ff2a1f6681e834c8fe" title="flash_erase_all_sectors" alt="" coords="227,5,384,35"/>
-<area shape="rect" id="node5" href="$flash_8c.html#ab85773c0f784589c32bcb23a6bbc77df" title="flash_erase_sector" alt="" coords="240,59,371,88"/>
-<area shape="rect" id="node7" href="$flash_8c.html#a3290e17548ecd0059208f77d00aaa81e" title="flash_program_byte" alt="" coords="237,112,373,141"/>
-<area shape="rect" id="node9" href="$flash_8c.html#aa6a574e7b653d9b141e4fd3cf1e0e972" title="flash_program_double_word" alt="" coords="213,165,397,195"/>
-<area shape="rect" id="node11" href="$flash_8c.html#a1312105c3432840482d6678ef841e9e2" title="flash_program_half_word" alt="" coords="223,219,388,248"/>
-<area shape="rect" id="node13" href="$flash_8c.html#ada59106b2abfe22eaffc9ad6f1b48899" title="flash_program_word" alt="" coords="236,272,375,301"/>
-</map>

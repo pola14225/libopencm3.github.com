@@ -1389,6 +1389,429 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>flash_common_f24.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>flash__common__f24_8c</filename>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>flash_set_program_size</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>aa2c107c924d8f78bbfc2e0a1b6e5331a</anchor>
+      <arglist>(u32 psize)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_enable</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>ae971613fad94342cea5285e1967a5d37</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_disable</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>aa2eec070b11319798ae9c2854d459003</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_enable</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a9d59965c0a87a40026078799f362533f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_disable</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a2a73f933c575f521b4cdc6559619ba9c</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_enable</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a0f76604d23e55a997cef486d8f93c8f7</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_disable</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a1b35f387b1aa45b20bccc40456cb33fc</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_reset</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a25665e20fde09cbadf5f93914e09b81f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_reset</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a815a61f826353dcace5efeb0ede3388a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_set_ws</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a66164f6799767f17d6f6e845c4c5039e</anchor>
+      <arglist>(u32 ws)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>acd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgserr_flag</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a7b549ad0d946f48af3339b29b5e193cd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgperr_flag</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgaerr_flag</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a77fd96d480e100aef32edb3ec8303bf1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_eop_flag</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_wrperr_flag</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>aea367649d8d5709137bec03a9a9d2c66</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_bsy_flag</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a37dfda93743e7b6285c3d01a7d519001</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_status_flags</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a8bf42e68b53ee74583675289608dae65</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_option_bytes</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_option_bytes</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a3e656c078b282798add1874cd398f1eb</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_wait_for_last_operation</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a72ce389bb20296771479ace8cdb62dff</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_double_word</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>aa6a574e7b653d9b141e4fd3cf1e0e972</anchor>
+      <arglist>(u32 address, u64 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_word</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>ada59106b2abfe22eaffc9ad6f1b48899</anchor>
+      <arglist>(u32 address, u32 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_half_word</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a1312105c3432840482d6678ef841e9e2</anchor>
+      <arglist>(u32 address, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_byte</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a3290e17548ecd0059208f77d00aaa81e</anchor>
+      <arglist>(u32 address, u8 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a44d2f407460c17b84f3383af8951e8f4</anchor>
+      <arglist>(u32 address, u8 *data, u32 len)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_erase_sector</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a26e4d5b7fff605c3aa86318ce3787f29</anchor>
+      <arglist>(u8 sector, u32 program_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_erase_all_sectors</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>a2030d965cf8826ff2a1f6681e834c8fe</anchor>
+      <arglist>(u32 program_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_option_bytes</name>
+      <anchorfile>flash__common__f24_8c.html</anchorfile>
+      <anchor>ad7e8a68703e3eeb90eb16caf255758db</anchor>
+      <arglist>(u32 data)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>flash_common_f24.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>flash__common__f24_8h</filename>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>flash_dcache_enable</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>ab32e6a9ccd5249924ce7cc36ec8237ee</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_disable</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>aa2eec070b11319798ae9c2854d459003</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_enable</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a9d59965c0a87a40026078799f362533f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_disable</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a2a73f933c575f521b4cdc6559619ba9c</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_enable</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a0f76604d23e55a997cef486d8f93c8f7</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_disable</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a1b35f387b1aa45b20bccc40456cb33fc</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_reset</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a25665e20fde09cbadf5f93914e09b81f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_reset</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a815a61f826353dcace5efeb0ede3388a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_set_ws</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a66164f6799767f17d6f6e845c4c5039e</anchor>
+      <arglist>(u32 ws)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>acd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgserr_flag</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a7b549ad0d946f48af3339b29b5e193cd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgperr_flag</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgaerr_flag</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a77fd96d480e100aef32edb3ec8303bf1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_eop_flag</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_wrperr_flag</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>aea367649d8d5709137bec03a9a9d2c66</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_bsy_flag</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a37dfda93743e7b6285c3d01a7d519001</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_status_flags</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a8bf42e68b53ee74583675289608dae65</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_option_bytes</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_option_bytes</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a3e656c078b282798add1874cd398f1eb</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_erase_all_sectors</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a2030d965cf8826ff2a1f6681e834c8fe</anchor>
+      <arglist>(u32 program_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_erase_sector</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a26e4d5b7fff605c3aa86318ce3787f29</anchor>
+      <arglist>(u8 sector, u32 program_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_double_word</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>aa6a574e7b653d9b141e4fd3cf1e0e972</anchor>
+      <arglist>(u32 address, u64 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_word</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>ada59106b2abfe22eaffc9ad6f1b48899</anchor>
+      <arglist>(u32 address, u32 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_half_word</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a1312105c3432840482d6678ef841e9e2</anchor>
+      <arglist>(u32 address, u16 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_byte</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a3290e17548ecd0059208f77d00aaa81e</anchor>
+      <arglist>(u32 address, u8 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a44d2f407460c17b84f3383af8951e8f4</anchor>
+      <arglist>(u32 address, u8 *data, u32 len)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_wait_for_last_operation</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>a72ce389bb20296771479ace8cdb62dff</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_option_bytes</name>
+      <anchorfile>flash__common__f24_8h.html</anchorfile>
+      <anchor>ad7e8a68703e3eeb90eb16caf255758db</anchor>
+      <arglist>(u32 data)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>gpio.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/</path>
     <filename>gpio_8c</filename>
@@ -10559,6 +10982,7 @@
     <file>dac_common_all.h</file>
     <file>dma_common_f13.h</file>
     <file>dma_common_f24.h</file>
+    <file>flash_common_f24.h</file>
     <file>gpio_common_all.h</file>
     <file>i2c_common_all.h</file>
     <file>i2c_common_f24.h</file>
@@ -10580,6 +11004,7 @@
     <file>dac_common_all.c</file>
     <file>dma_common_f13.c</file>
     <file>dma_common_f24.c</file>
+    <file>flash_common_f24.c</file>
     <file>gpio_common_all.c</file>
     <file>i2c_common_all.c</file>
     <file>iwdg_common_all.c</file>
