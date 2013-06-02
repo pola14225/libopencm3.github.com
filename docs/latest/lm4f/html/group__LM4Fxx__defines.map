@@ -4,4 +4,5 @@
 <area shape="rect" id="node3" href="$group__uart__defines.html" title="Defined Constants and Types for the LM4F UART Control" alt="" coords="192,128,296,157"/>
 <area shape="rect" id="node4" href="$group__systemcontrol__defines.html" title="Defined Constants and Types for the LM4F System Control" alt="" coords="188,181,300,211"/>
 <area shape="rect" id="node5" href="$group__gpio__defines.html" title="Defined Constants and Types for the LM4F General Purpose I/O" alt="" coords="173,234,315,281"/>
+<area shape="rect" id="node7" href="$group__usb__defines.html" title="Defined Constants and Types for the LM4F USB Controller" alt="" coords="189,304,299,333"/>
 </map>

@@ -14,5 +14,7 @@ var searchData=
   ['usart_20defines',['USART Defines',['../../stm32f1/html/group__usart__defines.html',1,'']]],
   ['usart',['USART',['../../stm32f1/html/group__usart__file.html',1,'']]],
   ['usart_20register_20base_20addresses',['USART register base addresses',['../../stm32f1/html/group__usart__reg__base.html',1,'']]],
-  ['usart_20status_20register_20flags',['USART Status register Flags',['../../stm32f1/html/group__usart__sr__flags.html',1,'']]]
+  ['usart_20status_20register_20flags',['USART Status register Flags',['../../stm32f1/html/group__usart__sr__flags.html',1,'']]],
+  ['usb_20controller',['USB Controller',['../../lm4f/html/group__usb__defines.html',1,'']]],
+  ['usb',['USB',['../../lm4f/html/group__usb__file.html',1,'']]]
 ];

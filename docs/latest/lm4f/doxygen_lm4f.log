@@ -272,6 +272,128 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/uart.h:357: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:164: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:170: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:172: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:174: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:176: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:178: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:180: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:202: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:204: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:206: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:208: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:210: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:216: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:222: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:228: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:230: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:236: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:254: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:256: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:262: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:264: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:266: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:268: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:270: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:272: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:274: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:276: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:282: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:288: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:290: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:292: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:294: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:296: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:298: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:300: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:306: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:308: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:310: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:312: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:314: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:316: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:322: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:324: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:326: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:328: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:330: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:332: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:334: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:336: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:342: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:344: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:346: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:348: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:350: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:356: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:362: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:368: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:374: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:376: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:382: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:384: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
+
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: argument 'div' of command @param is not found in the argument list of rcc_set_pll_divisor(u8 div400)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: The following parameters of rcc_set_pll_divisor(u8 div400) are not documented:
   parameter 'div400'
@@ -294,3 +416,6 @@
   parameter 'stopbits'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:320: warning: The following parameters of uart_send_blocking(u32 uart, u16 data) are not documented:
   parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/usb_lm4f.c:41: warning: unable to resolve reference to `usbd_poll()' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/usb_lm4f.c:52: warning: unable to resolve reference to `usbd_poll()' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/usb_lm4f.c:69: warning: unable to resolve reference to `usbd_poll()' for \ref command

@@ -2232,6 +2232,141 @@
       <arglist>(u32 uart, enum uart_interrupt_flag source)</arglist>
     </member>
   </compound>
+  <compound kind="file">
+    <name>usb.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/</path>
+    <filename>usb_8h</filename>
+    <member kind="enumeration">
+      <name>usb_interrupt</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga0f2f22f2ab06463da36ae9c6c2a63ea6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_DISCON</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6ab7203dd6b18353416e992310394ed995</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_SOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6a0d3be5f3ef316460b344e80ead93a4e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_RESET</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6aa45692bc816bdd9bf6819db51f98ad3a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_RESUME</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6a3d7fca27fa1e3edbc72a0b278398ca42</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_SUSPEND</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6aa36cce94b72cb32846cb6478806e933b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>usb_ep_interrupt</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf0a19719081410c9b09041a7dd65cd11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP0_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a93a6bce8bca9bc79fb14552c840ae41d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP1_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a90bb9c7bfad2314c174df49c83129a3c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP2_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a4325207f3d1ac8680292e80fe4361c51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP3_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11ae7eeedf54e147181ba987a244951154e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP4_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a188f2d830cb08f1eaa8ca64d6fa90510</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP5_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11ae49ed0b247c7d8c63f13818096e5218f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP6_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11ab578ebf1ba7080c3e865681a91da0192</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP7_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a9735ada9074d7afcc7fbaee751b8e6a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>usb_enable_interrupts</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga93af0bc1b5144b4c0829cfcd91025a0b</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_disable_interrupts</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga86efee4380227664681caba4d4c2a010</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>usb_lm4f.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/</path>
+    <filename>usb__lm4f_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_enable_interrupts</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>gad6acfc8a14795d10ae71053b0cfbf717</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_disable_interrupts</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>ga86efee4380227664681caba4d4c2a010</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="variable">
+      <type>struct _usbd_driver</type>
+      <name>lm4f_usb_driver</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>gaa36c79137f3e29484275d9c75a27f9c2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="group">
     <name>LM4Fxx</name>
     <title>LM4F</title>
@@ -2239,6 +2374,7 @@
     <subgroup>gpio_file</subgroup>
     <subgroup>rcc_file</subgroup>
     <subgroup>uart_file</subgroup>
+    <subgroup>usb_file</subgroup>
   </compound>
   <compound kind="group">
     <name>LM4Fxx_defines</name>
@@ -2249,6 +2385,7 @@
     <subgroup>rcc_defines</subgroup>
     <subgroup>systemcontrol_defines</subgroup>
     <subgroup>uart_defines</subgroup>
+    <subgroup>usb_defines</subgroup>
   </compound>
   <compound kind="group">
     <name>gpio_defines</name>
@@ -4090,6 +4227,115 @@
     <filename>group__uart__reg__base.html</filename>
   </compound>
   <compound kind="group">
+    <name>usb_defines</name>
+    <title>USB Controller</title>
+    <filename>group__usb__defines.html</filename>
+    <member kind="enumeration">
+      <name>usb_interrupt</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga0f2f22f2ab06463da36ae9c6c2a63ea6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_DISCON</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6ab7203dd6b18353416e992310394ed995</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_SOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6a0d3be5f3ef316460b344e80ead93a4e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_RESET</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6aa45692bc816bdd9bf6819db51f98ad3a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_RESUME</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6a3d7fca27fa1e3edbc72a0b278398ca42</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_INT_SUSPEND</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gga0f2f22f2ab06463da36ae9c6c2a63ea6aa36cce94b72cb32846cb6478806e933b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>usb_ep_interrupt</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf0a19719081410c9b09041a7dd65cd11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP0_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a93a6bce8bca9bc79fb14552c840ae41d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP1_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a90bb9c7bfad2314c174df49c83129a3c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP2_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a4325207f3d1ac8680292e80fe4361c51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP3_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11ae7eeedf54e147181ba987a244951154e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP4_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a188f2d830cb08f1eaa8ca64d6fa90510</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP5_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11ae49ed0b247c7d8c63f13818096e5218f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP6_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11ab578ebf1ba7080c3e865681a91da0192</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_EP7_INT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ggaf0a19719081410c9b09041a7dd65cd11a9735ada9074d7afcc7fbaee751b8e6a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>usb_enable_interrupts</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga93af0bc1b5144b4c0829cfcd91025a0b</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_disable_interrupts</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga86efee4380227664681caba4d4c2a010</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
     <name>gpio_file</name>
     <title>General Purpose I/O</title>
     <filename>group__gpio__file.html</filename>
@@ -4490,6 +4736,32 @@
       <arglist>(u32 uart)</arglist>
     </member>
   </compound>
+  <compound kind="group">
+    <name>usb_file</name>
+    <title>USB</title>
+    <filename>group__usb__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_enable_interrupts</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>gad6acfc8a14795d10ae71053b0cfbf717</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_disable_interrupts</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>ga86efee4380227664681caba4d4c2a010</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="variable">
+      <type>struct _usbd_driver</type>
+      <name>lm4f_usb_driver</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>gaa36c79137f3e29484275d9c75a27f9c2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
@@ -4516,6 +4788,7 @@
     <file>rcc.c</file>
     <file>systemcontrol.c</file>
     <file>uart.c</file>
+    <file>usb_lm4f.c</file>
   </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/</name>
@@ -4528,6 +4801,7 @@
     <file>rcc.h</file>
     <file>systemcontrol.h</file>
     <file>uart.h</file>
+    <file>usb.h</file>
   </compound>
   <compound kind="page">
     <name>index</name>

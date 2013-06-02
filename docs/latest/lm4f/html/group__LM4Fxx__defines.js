@@ -4,5 +4,6 @@ var group__LM4Fxx__defines =
     [ "Nested Vectored Interrupt Controller", "group__nvic__defines.html", null ],
     [ "Reset and Clock Control", "group__rcc__defines.html", "group__rcc__defines" ],
     [ "System Control", "group__systemcontrol__defines.html", "group__systemcontrol__defines" ],
-    [ "UART Control", "group__uart__defines.html", "group__uart__defines" ]
+    [ "UART Control", "group__uart__defines.html", "group__uart__defines" ],
+    [ "USB Controller", "group__usb__defines.html", "group__usb__defines" ]
 ];

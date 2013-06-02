@@ -7,6 +7,7 @@ var searchData=
   ['lm3s',['LM3S',['../../lm3s/html/group__LM3Sxx.html',1,'']]],
   ['lm3s_20defines',['LM3S Defines',['../../lm3s/html/group__LM3Sxx__defines.html',1,'']]],
   ['lm4f_5frcc_5fsysclk_5ffreq',['lm4f_rcc_sysclk_freq',['../../lm4f/html/group__rcc__low__level.html#ga45ac0a3082a27e5d55e718de67fde983',1,]]],
+  ['lm4f_5fusb_5fdriver',['lm4f_usb_driver',['../../lm4f/html/group__usb__file.html#gaa36c79137f3e29484275d9c75a27f9c2',1,]]],
   ['lm4f',['LM4F',['../../lm4f/html/group__LM4Fxx.html',1,'']]],
   ['lm4f_20defines',['LM4F Defines',['../../lm4f/html/group__LM4Fxx__defines.html',1,'']]],
   ['lpc13xx',['LPC13xx',['../../lpc13xx/html/group__LPC13xx.html',1,'']]],
