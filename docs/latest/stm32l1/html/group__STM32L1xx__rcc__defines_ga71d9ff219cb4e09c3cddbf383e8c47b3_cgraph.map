@@ -4,9 +4,10 @@
 <area shape="rect" id="node7" href="$flash_8h.html#a66164f6799767f17d6f6e845c4c5039e" title="flash_set_ws" alt="" coords="231,112,329,141"/>
 <area shape="rect" id="node9" href="$pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139" title="pwr_set_vos_scale" alt="" coords="213,165,347,195"/>
 <area shape="rect" id="node11" href="$group__STM32L1xx__rcc__defines.html#ga8dbd64d58e019803bf109609203d1afd" title="rcc_osc_on" alt="" coords="236,219,324,248"/>
-<area shape="rect" id="node13" href="$group__STM32L1xx__rcc__defines.html#ga587f5be40f38a0bf0418ae4125129dc0" title="rcc_set_hpre" alt="" coords="232,272,328,301"/>
-<area shape="rect" id="node15" href="$group__STM32L1xx__rcc__defines.html#ga8cb53f3681507b9819229b24bd3417cd" title="rcc_set_ppre1" alt="" coords="228,325,332,355"/>
-<area shape="rect" id="node17" href="$group__STM32L1xx__rcc__defines.html#ga411748dd9a8a99b746e802af6b448763" title="rcc_set_ppre2" alt="" coords="228,379,332,408"/>
-<area shape="rect" id="node19" href="$group__STM32L1xx__rcc__defines.html#ga3edbf52144a86a1b8292b3e21e3959d7" title="rcc_set_sysclk_source" alt="" coords="203,432,357,461"/>
-<area shape="rect" id="node21" href="$group__STM32L1xx__rcc__defines.html#ga0f9fac6ac510e119aebe5f62c53f073a" title="rcc_wait_for_osc_ready" alt="" coords="200,485,360,515"/>
+<area shape="rect" id="node13" href="$group__STM32L1xx__rcc__defines.html#ga3b3e26e0374ad984ec7c442b738a8cd2" title="rcc_peripheral_enable\l_clock" alt="" coords="207,271,353,318"/>
+<area shape="rect" id="node15" href="$group__STM32L1xx__rcc__defines.html#ga587f5be40f38a0bf0418ae4125129dc0" title="rcc_set_hpre" alt="" coords="232,341,328,371"/>
+<area shape="rect" id="node17" href="$group__STM32L1xx__rcc__defines.html#ga8cb53f3681507b9819229b24bd3417cd" title="rcc_set_ppre1" alt="" coords="228,395,332,424"/>
+<area shape="rect" id="node19" href="$group__STM32L1xx__rcc__defines.html#ga411748dd9a8a99b746e802af6b448763" title="rcc_set_ppre2" alt="" coords="228,448,332,477"/>
+<area shape="rect" id="node21" href="$group__STM32L1xx__rcc__defines.html#ga3edbf52144a86a1b8292b3e21e3959d7" title="rcc_set_sysclk_source" alt="" coords="203,501,357,531"/>
+<area shape="rect" id="node23" href="$group__STM32L1xx__rcc__defines.html#ga0f9fac6ac510e119aebe5f62c53f073a" title="rcc_wait_for_osc_ready" alt="" coords="200,555,360,584"/>
 </map>

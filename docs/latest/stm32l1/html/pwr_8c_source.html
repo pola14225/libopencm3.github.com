@@ -156,30 +156,34 @@ $(document).ready(function(){initNavTree('pwr_8c_source.html','');});
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/pwr.h&gt;</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="pwr_8c.html#aa22ffb6b23613688342c73dd591dcd60">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(<a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40">vos_scale_t</a> scale)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        PWR_CR &amp;= ~(<a class="code" href="pwr_8h.html#a06db718126d979cbf61fc27991514e1a">PWR_CR_VOS_MASK</a>);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">switch</span> (scale) {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a15e188ed9b712b2d0de04db6b782c4eb">RANGE1</a>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                PWR_CR |= <a class="code" href="group__pwr__vos.html#gacf97c6fa060796dc67ec47e6d897aa14">PWR_CR_VOS_RANGE1</a>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a69f2f7f39de6f1dcea47320100b82926">RANGE2</a>:</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                PWR_CR |= <a class="code" href="group__pwr__vos.html#ga3428a34be04892007ffaa40a59f2492f">PWR_CR_VOS_RANGE2</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/rcc.h&gt;</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="code" href="pwr_8c.html#aa22ffb6b23613688342c73dd591dcd60">   40</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(<a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40">vos_scale_t</a> scale)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="comment">/* You are not allowed to write zeros here, don&#39;t try and optimize! */</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg = PWR_CR;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        reg &amp;= ~(<a class="code" href="pwr_8h.html#a06db718126d979cbf61fc27991514e1a">PWR_CR_VOS_MASK</a>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">switch</span> (scale) {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a15e188ed9b712b2d0de04db6b782c4eb">RANGE1</a>:</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                reg |= <a class="code" href="group__pwr__vos.html#gacf97c6fa060796dc67ec47e6d897aa14">PWR_CR_VOS_RANGE1</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a07a05dfcddb0d6988ed06828b40a2af2">RANGE3</a>:</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                PWR_CR |= <a class="code" href="group__pwr__vos.html#gab760fe0b783cb51a37e4d0089c4077fa">PWR_CR_VOS_RANGE3</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a69f2f7f39de6f1dcea47320100b82926">RANGE2</a>:</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                reg |= <a class="code" href="group__pwr__vos.html#ga3428a34be04892007ffaa40a59f2492f">PWR_CR_VOS_RANGE2</a>;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a07a05dfcddb0d6988ed06828b40a2af2">RANGE3</a>:</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                reg |= <a class="code" href="group__pwr__vos.html#gab760fe0b783cb51a37e4d0089c4077fa">PWR_CR_VOS_RANGE3</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        PWR_CR = reg;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_b85f3b2cdb5f62c5704599c879630b7f.html">l1</a></li><li class="navelem"><a class="el" href="pwr_8c.html">pwr.c</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 04:21:13 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 22:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
