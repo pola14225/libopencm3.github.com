@@ -21,12 +21,13 @@ var NAVTREEINDEX1 =
 "globals_func_0x64.html":[18,1,1,1],
 "globals_func_0x66.html":[18,1,1,2],
 "globals_func_0x67.html":[18,1,1,3],
-"globals_func_0x69.html":[18,1,1,4],
-"globals_func_0x70.html":[18,1,1,5],
-"globals_func_0x72.html":[18,1,1,6],
-"globals_func_0x73.html":[18,1,1,7],
-"globals_func_0x74.html":[18,1,1,8],
-"globals_func_0x75.html":[18,1,1,9],
+"globals_func_0x68.html":[18,1,1,4],
+"globals_func_0x69.html":[18,1,1,5],
+"globals_func_0x70.html":[18,1,1,6],
+"globals_func_0x72.html":[18,1,1,7],
+"globals_func_0x73.html":[18,1,1,8],
+"globals_func_0x74.html":[18,1,1,9],
+"globals_func_0x75.html":[18,1,1,10],
 "globals_vars.html":[18,1,2],
 "gpio_8c.html":[18,0,18],
 "gpio_8c_source.html":[18,0,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "group__STM32L1xx__rcc__defines.html#ga439a5998fd60c3375411c7db2129ac89":[7,1,7,38],
 "group__STM32L1xx__rcc__defines.html#ga4641a35381254234afb284547689e43c":[7,1,7,25],
 "group__STM32L1xx__rcc__defines.html#ga46edb2b9568f002feba7b4312ed92c1f":[7,1,7,139],
-"group__STM32L1xx__rcc__defines.html#ga47d0a7e326c0acf2e2f834aa22e0faf3":[7,1,7,86],
-"group__STM32L1xx__rcc__defines.html#ga4938eb41feca4bb20697a641bf702c04":[7,1,7,216]
+"group__STM32L1xx__rcc__defines.html#ga47d0a7e326c0acf2e2f834aa22e0faf3":[7,1,7,86]
 };

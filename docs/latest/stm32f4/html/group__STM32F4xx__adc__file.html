@@ -271,7 +271,7 @@ Basic ADC Handling API.</h1>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga7c826871009a2e7396ad9bcc5d680d0f" title="ADC Set Clock Prescale.">adc_set_clk_prescale</a>(RCC_CFGR_ADCPRE_BY2);</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga75e4b403cc6932aef35b4b84b56c8080" title="ADC Disable Scan Mode.">adc_disable_scan_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga037cddef7f977288dde6a2a9bfe9ab69" title="ADC Enable Single Conversion Mode.">adc_set_single_conversion_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
-<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga9d08047fceee749485a72be74764db5c" title="ADC Set the Sample Time for a Single Channel.">adc_set_sample_time</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>, <a class="code" href="group__adc__sample__r1.html#gae18cb818a4acbb827613d8eec1167370">ADC_SMPR1_SMP_1DOT5CYC</a>);</div>
+<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga9d08047fceee749485a72be74764db5c" title="ADC Set the Sample Time for a Single Channel.">adc_set_sample_time</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>, ADC_SMPR1_SMP_1DOT5CYC);</div>
 <div class="line"><a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> channels[] = <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>;</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#gaaf0c33fdbed4e8ea63b6c0ee3030d9ea" title="ADC Set a Regular Channel Conversion Sequence.">adc_set_regular_sequence</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, 1, channels);</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga9aaee2a130e44f843b7707e19b608d68" title="ADC Set Dual/Triple Mode.">adc_set_multi_mode</a>(<a class="code" href="group__adc__multi__mode.html#ga79f321af423af2c4006b7a1bf9dbb937" title="All ADCs independent.">ADC_CCR_MULTI_INDEPENDENT</a>);</div>
@@ -741,7 +741,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l01013">1013</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00688">ADC_CCR_TSVREFE</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00658">ADC_CCR_TSVREFE</a>.</p>
 
 </div>
 </div>
@@ -1270,7 +1270,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00999">999</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00688">ADC_CCR_TSVREFE</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00658">ADC_CCR_TSVREFE</a>.</p>
 
 </div>
 </div>
@@ -1578,7 +1578,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00758">758</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00706">ADC_CCR_ADCPRE_MASK</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00676">ADC_CCR_ADCPRE_MASK</a>.</p>
 
 </div>
 </div>
@@ -1759,7 +1759,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00616">616</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00136">ADC_JSQR</a>, and <a class="el" href="adc_8h_source.html#l00592">ADC_JSQR_JL_LSB</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00136">ADC_JSQR</a>, and <a class="el" href="adc_8h_source.html#l00562">ADC_JSQR_JL_LSB</a>.</p>
 
 </div>
 </div>
@@ -1864,7 +1864,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00580">580</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00118">ADC_SQR1</a>, <a class="el" href="adc_8h_source.html#l00549">ADC_SQR1_L_LSB</a>, <a class="el" href="adc_8h_source.html#l00124">ADC_SQR2</a>, and <a class="el" href="adc_8h_source.html#l00130">ADC_SQR3</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00118">ADC_SQR1</a>, <a class="el" href="adc_8h_source.html#l00519">ADC_SQR1_L_LSB</a>, <a class="el" href="adc_8h_source.html#l00124">ADC_SQR2</a>, and <a class="el" href="adc_8h_source.html#l00130">ADC_SQR3</a>.</p>
 
 </div>
 </div>
@@ -2193,7 +2193,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 03:21:26 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 04:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -1,3 +1,7 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/hash_common_f24.h:179: warning: end of file while inside a group
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:161: warning: end of file while inside a group
+
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/adc.c:1005: warning: argument 'adc' of command @param is not found in the argument list of adc_disable_temperature_sensor(void)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/adc.c:991: warning: argument 'adc' of command @param is not found in the argument list of adc_enable_temperature_sensor(void)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:203: warning: explicit link request to 'data_channel' could not be resolved
@@ -307,3 +311,9 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:99: warning: unable to resolve reference to `usart_cr2_stopbits' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:235: warning: unable to resolve reference to `usart_reg_base' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:221: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:142: warning: argument 'algorithm' of command @param is not found in the argument list of hash_get_result(u32 *data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:145: warning: unable to resolve reference to `hash_algorithm' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:51: warning: unable to resolve reference to `hash_algorithm' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:65: warning: unable to resolve reference to `hash_data_type' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:79: warning: unable to resolve reference to `hash_key_length' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:37: warning: unable to resolve reference to `hash_mode' for \ref command

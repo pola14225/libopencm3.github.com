@@ -263,7 +263,7 @@ Basic ADC Handling API.</h1>
 <div class="line"><a class="code" href="group__adc__defines.html#gadc06dcc9c3e6f652f18dc7280feb2c11" title="ADC Set Dual A/D Mode.">adc_set_dual_mode</a>(<a class="code" href="group__adc__cr1__dualmod.html#ga0612e25706d813f4ae16cd855839b195" title="Independent (non-dual) mode.">ADC_CR1_DUALMOD_IND</a>);</div>
 <div class="line"><a class="code" href="group__adc__defines.html#ga75e4b403cc6932aef35b4b84b56c8080" title="ADC Disable Scan Mode.">adc_disable_scan_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
 <div class="line"><a class="code" href="group__adc__defines.html#ga037cddef7f977288dde6a2a9bfe9ab69" title="ADC Enable Single Conversion Mode.">adc_set_single_conversion_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
-<div class="line"><a class="code" href="group__adc__defines.html#ga9d08047fceee749485a72be74764db5c" title="ADC Set the Sample Time for a Single Channel.">adc_set_sample_time</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>, <a class="code" href="group__adc__sample__r1.html#gae18cb818a4acbb827613d8eec1167370">ADC_SMPR1_SMP_1DOT5CYC</a>);</div>
+<div class="line"><a class="code" href="group__adc__defines.html#ga9d08047fceee749485a72be74764db5c" title="ADC Set the Sample Time for a Single Channel.">adc_set_sample_time</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>, ADC_SMPR1_SMP_1DOT5CYC);</div>
 <div class="line"><a class="code" href="group__adc__defines.html#gaddc132cf4636ce45eb772c62d6167794">adc_set_single_channel</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>);</div>
 <div class="line">adc_enable_trigger(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, <a class="code" href="group__adc__trigger__regular__12.html#ga9ba6bf1a7a74bd9b0a069d482640184c" title="Software Trigger.">ADC_CR2_EXTSEL_SWSTART</a>);</div>
 <div class="line"><a class="code" href="group__adc__defines.html#ga85c7730e97e8faff833ad787087aaea3" title="ADC Power On.">adc_power_on</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
@@ -1625,7 +1625,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l01011">1011</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00136">ADC_JSQR</a>, and <a class="el" href="adc_8h_source.html#l00627">ADC_JSQR_JL_LSB</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00136">ADC_JSQR</a>, and <a class="el" href="adc_8h_source.html#l00597">ADC_JSQR_JL_LSB</a>.</p>
 
 </div>
 </div>
@@ -1700,7 +1700,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00975">975</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00118">ADC_SQR1</a>, <a class="el" href="adc_8h_source.html#l00585">ADC_SQR1_L_LSB</a>, <a class="el" href="adc_8h_source.html#l00124">ADC_SQR2</a>, and <a class="el" href="adc_8h_source.html#l00130">ADC_SQR3</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00118">ADC_SQR1</a>, <a class="el" href="adc_8h_source.html#l00555">ADC_SQR1_L_LSB</a>, <a class="el" href="adc_8h_source.html#l00124">ADC_SQR2</a>, and <a class="el" href="adc_8h_source.html#l00130">ADC_SQR3</a>.</p>
 
 </div>
 </div>
@@ -2022,7 +2022,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 03:21:17 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 04:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

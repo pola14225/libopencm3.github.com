@@ -1,3 +1,7 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/hash_common_f24.h:179: warning: end of file while inside a group
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:161: warning: end of file while inside a group
+
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:166: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:1: warning: Found unknown command `\list'
@@ -317,5 +321,11 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:140: warning: unable to resolve reference to `dma_st_number' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:141: warning: unable to resolve reference to `dma_st_dir' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:54: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:142: warning: argument 'algorithm' of command @param is not found in the argument list of hash_get_result(u32 *data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:145: warning: unable to resolve reference to `hash_algorithm' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:51: warning: unable to resolve reference to `hash_algorithm' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:65: warning: unable to resolve reference to `hash_data_type' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:79: warning: unable to resolve reference to `hash_key_length' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:37: warning: unable to resolve reference to `hash_mode' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:166: warning: Found unknown command `\list'

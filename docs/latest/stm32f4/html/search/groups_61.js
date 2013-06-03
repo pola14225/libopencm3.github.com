@@ -9,8 +9,6 @@ var searchData=
   ['adc_20number_20of_20channels_20in_20discontinuous_20mode_20fro_20injected_20channels_2e',['ADC Number of channels in discontinuous mode fro injected channels.',['../group__adc__jsqr__jl.html',1,'']]],
   ['adc_20multi_20mode_20selection',['ADC Multi mode selection',['../group__adc__multi__mode.html',1,'']]],
   ['adc_20register_20base_20addresses',['ADC register base addresses',['../group__adc__reg__base.html',1,'']]],
-  ['adc_20sample_20time_20selection_20for_20adc1',['ADC Sample Time Selection for ADC1',['../group__adc__sample__r1.html',1,'']]],
-  ['adc_20sample_20time_20selection_20for_20adc2',['ADC Sample Time Selection for ADC2',['../group__adc__sample__r2.html',1,'']]],
   ['adc_20sample_20time_20selection_20for_20all_20channels',['ADC Sample Time Selection for All Channels',['../group__adc__sample__rg.html',1,'']]],
   ['adc_20trigger_20identifier_20for_20injected_20group',['ADC Trigger Identifier for Injected group',['../group__adc__trigger__injected.html',1,'']]],
   ['adc_20injected_20trigger_20polarity',['ADC Injected Trigger Polarity',['../group__adc__trigger__polarity__injected.html',1,'']]],

@@ -8,7 +8,8 @@
 <area shape="rect" id="node8" href="$group__spi__defines.html" title="Defined Constants and Types for the STM32F4xx SPI" alt="" coords="209,325,303,355"/>
 <area shape="rect" id="node9" href="$group__gpio__defines.html" title="Defined Constants and Types for the STM32F4xx General Purpose I/O" alt="" coords="204,379,308,408"/>
 <area shape="rect" id="node10" href="$group__timer__defines.html" title="libopencm3 Defined Constants and Types for the STM32F4xx Timers" alt="" coords="204,432,308,461"/>
-<area shape="rect" id="node11" href="$group__usart__defines.html" title="Defined Constants and Types for the STM32F4xx USART" alt="" coords="197,485,315,515"/>
-<area shape="rect" id="node12" href="$group__rtc__defines.html" title="Defined Constants and Types for the STM32F4xx RTC" alt="" coords="207,539,305,568"/>
-<area shape="rect" id="node13" href="$group__dma__defines.html" title="Defined Constants and Types for the STM32F4xx DMA Controller." alt="" coords="205,592,307,621"/>
+<area shape="rect" id="node11" href="$group__hash__defines.html" title="Defined Constants and Types for the STM32F4xx HASH Controller." alt="" coords="201,485,311,515"/>
+<area shape="rect" id="node12" href="$group__usart__defines.html" title="Defined Constants and Types for the STM32F4xx USART" alt="" coords="197,539,315,568"/>
+<area shape="rect" id="node13" href="$group__rtc__defines.html" title="Defined Constants and Types for the STM32F4xx RTC" alt="" coords="207,592,305,621"/>
+<area shape="rect" id="node14" href="$group__dma__defines.html" title="Defined Constants and Types for the STM32F4xx DMA Controller." alt="" coords="205,645,307,675"/>
 </map>

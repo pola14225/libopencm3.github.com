@@ -1944,62 +1944,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1_SMP_1DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gae18cb818a4acbb827613d8eec1167370</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_7DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gafc835fc8754b0be3eabd6fd6ca5cd826</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_13DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gabfa01ff6fcb4c3a12ee76234d90a92d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_28DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga8f57e4935bb2f18ea28d5779d99908a0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_41DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gad572c63cc3880aea12e30dcb362fb437</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_55DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga86001c9898ed795b45f37e5c3f5acb23</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_71DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gaf3c6c99203125f44e7a62fc813ecd3fb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_239DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gad99ba0f6ed2458f96150ca44fe15b207</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC_SMPR2_SMP9_LSB</name>
       <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gabfaef5f0de2434d907ee0c5bac8f39b6</anchor>
@@ -2136,62 +2080,6 @@
       <name>ADC_SMPR2_SMP0_MSK</name>
       <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga3265b52dffe83ac199e8682bc4809032</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_1DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>gab7f83c83f3a76eb4412fee98cab3a3a6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_7DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>ga5569fff47fe8b181c620e6ea35932c17</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_13DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>gabdccd116b04d6edbc21ee918281c0cbd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_28DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>ga07bfe170ab02dd0c1c7bd2b8e250a8dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_41DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>ga03f7f477438e41d287499f4d71c282c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_55DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>ga520c067bff46b79fe7c83c612935f2a2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_71DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>gacf995dc788f0df17e912ad1bfcfd313e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_239DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>gaa000daffb08b31faa1bdaa2549d9898d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -14301,8 +14189,6 @@
     <subgroup>adc_trigger_regular_3</subgroup>
     <subgroup>adc_trigger_injected_12</subgroup>
     <subgroup>adc_trigger_injected_3</subgroup>
-    <subgroup>adc_sample_r1</subgroup>
-    <subgroup>adc_sample_r2</subgroup>
     <subgroup>adc_sample_rg</subgroup>
     <subgroup>adc_jsqr_jl</subgroup>
     <member kind="define">
@@ -16861,128 +16747,6 @@
       <name>ADC_CR2_JEXTSEL_TIM5_CC4</name>
       <anchorfile>group__adc__trigger__injected__3.html</anchorfile>
       <anchor>ga093e5bb8d2cd3a6d65a3fa71de89c6a8</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>adc_sample_r1</name>
-    <title>ADC Sample Time Selection for ADC1</title>
-    <filename>group__adc__sample__r1.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_1DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gae18cb818a4acbb827613d8eec1167370</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_7DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gafc835fc8754b0be3eabd6fd6ca5cd826</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_13DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gabfa01ff6fcb4c3a12ee76234d90a92d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_28DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga8f57e4935bb2f18ea28d5779d99908a0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_41DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gad572c63cc3880aea12e30dcb362fb437</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_55DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga86001c9898ed795b45f37e5c3f5acb23</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_71DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gaf3c6c99203125f44e7a62fc813ecd3fb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_239DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gad99ba0f6ed2458f96150ca44fe15b207</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>adc_sample_r2</name>
-    <title>ADC Sample Time Selection for ADC2</title>
-    <filename>group__adc__sample__r2.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_1DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>gab7f83c83f3a76eb4412fee98cab3a3a6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_7DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>ga5569fff47fe8b181c620e6ea35932c17</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_13DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>gabdccd116b04d6edbc21ee918281c0cbd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_28DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>ga07bfe170ab02dd0c1c7bd2b8e250a8dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_41DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>ga03f7f477438e41d287499f4d71c282c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_55DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>ga520c067bff46b79fe7c83c612935f2a2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_71DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>gacf995dc788f0df17e912ad1bfcfd313e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2_SMP_239DOT5CYC</name>
-      <anchorfile>group__adc__sample__r2.html</anchorfile>
-      <anchor>gaa000daffb08b31faa1bdaa2549d9898d</anchor>
       <arglist></arglist>
     </member>
   </compound>

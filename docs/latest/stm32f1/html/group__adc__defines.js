@@ -9,8 +9,6 @@ var group__adc__defines =
     [ "ADC Trigger Identifier for ADC3", "group__adc__trigger__regular__3.html", "group__adc__trigger__regular__3" ],
     [ "ADC Injected Trigger Identifier for ADC1 and ADC2", "group__adc__trigger__injected__12.html", "group__adc__trigger__injected__12" ],
     [ "ADC Injected Trigger Identifier for ADC3", "group__adc__trigger__injected__3.html", "group__adc__trigger__injected__3" ],
-    [ "ADC Sample Time Selection for ADC1", "group__adc__sample__r1.html", "group__adc__sample__r1" ],
-    [ "ADC Sample Time Selection for ADC2", "group__adc__sample__r2.html", "group__adc__sample__r2" ],
     [ "ADC Sample Time Selection for All Channels", "group__adc__sample__rg.html", "group__adc__sample__rg" ],
     [ "ADC Number of channels in discontinuous mode fro injected channels.", "group__adc__jsqr__jl.html", "group__adc__jsqr__jl" ],
     [ "ADC1_CR1", "group__adc__defines.html#ga2f6aa6e282b5100ef29e7894f40ae352", null ],

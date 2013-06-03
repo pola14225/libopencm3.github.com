@@ -247,7 +247,7 @@ var NAVTREEINDEX0 =
 "globals_0x75.html":[18,1,0,15],
 "globals_0x76.html":[18,1,0,16],
 "globals_0x77.html":[18,1,0,17],
-"globals_defs.html":[18,1,5,0],
 "globals_defs.html":[18,1,5],
+"globals_defs.html":[18,1,5,0],
 "globals_defs_0x63.html":[18,1,5,1]
 };

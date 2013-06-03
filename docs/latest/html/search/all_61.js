@@ -59,8 +59,6 @@ var searchData=
   ['adc_5fread_5fregular',['adc_read_regular',['../../stm32f1/html/group__adc__defines.html#ga0cb788d1d9e54f4ccf9fc8b3b95656ff',1,'adc_read_regular(u32 adc)(Global Namespace)'],['../../stm32f1/html/group__STM32F1xx__adc__file.html#ga0cb788d1d9e54f4ccf9fc8b3b95656ff',1,'adc_read_regular(u32 adc)(Global Namespace)'],['../../stm32f4/html/group__STM32F4xx__adc__file.html#ga0cb788d1d9e54f4ccf9fc8b3b95656ff',1,'adc_read_regular(u32 adc)(Global Namespace)']]],
   ['adc_20register_20base_20addresses',['ADC register base addresses',['../../stm32f1/html/group__adc__reg__base.html',1,'']]],
   ['adc_5freset_5fcalibration',['adc_reset_calibration',['../../stm32f1/html/group__adc__defines.html#ga4f4b72567aa568d180688708b4df9d48',1,'adc_reset_calibration(u32 adc)(Global Namespace)'],['../../stm32f1/html/group__STM32F1xx__adc__file.html#ga4f4b72567aa568d180688708b4df9d48',1,'adc_reset_calibration(u32 adc)(Global Namespace)']]],
-  ['adc_20sample_20time_20selection_20for_20adc1',['ADC Sample Time Selection for ADC1',['../../stm32f1/html/group__adc__sample__r1.html',1,'']]],
-  ['adc_20sample_20time_20selection_20for_20adc2',['ADC Sample Time Selection for ADC2',['../../stm32f1/html/group__adc__sample__r2.html',1,'']]],
   ['adc_20sample_20time_20selection_20for_20all_20channels',['ADC Sample Time Selection for All Channels',['../../stm32f1/html/group__adc__sample__rg.html',1,'']]],
   ['adc_5fset_5fclk_5fprescale',['adc_set_clk_prescale',['../../stm32f4/html/group__STM32F4xx__adc__file.html#ga7c826871009a2e7396ad9bcc5d680d0f',1,]]],
   ['adc_5fset_5fcontinous_5fconversion_5fmode',['adc_set_continous_conversion_mode',['../../stm32f1/html/group__adc__defines.html#gaddfdf8bb682d12648252c8d1d1ff25db',1,]]],

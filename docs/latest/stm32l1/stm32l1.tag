@@ -2303,6 +2303,79 @@
     <filename>gpio__common__all_8h</filename>
   </compound>
   <compound kind="file">
+    <name>hash_common_f24.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>hash__common__f24_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_mode</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>gaf72752f2fe0eda9a1723243b6201d257</anchor>
+      <arglist>(u8 mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_algorithm</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga8f2cdf967efa17f960dc30f96adfd0bc</anchor>
+      <arglist>(u8 algorithm)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_data_type</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga51f92e4b8626f7ef7140598cb0306680</anchor>
+      <arglist>(u8 datatype)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_key_length</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga1a483475f4cf7363354b18dd0b715b66</anchor>
+      <arglist>(u8 keylength)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_last_word_valid_bits</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga411e4a877d223a52b4954b02de7a906d</anchor>
+      <arglist>(u8 validbits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_init</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga683e547b89f26dd62e5445cd1f044079</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_add_data</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>gae4d65ab45c1f126bad02ad746d22ca52</anchor>
+      <arglist>(u32 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_digest</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga725cf50596382752eaf525ff028de921</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_get_result</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga86100d80a667d6129bf2a2519e6d5393</anchor>
+      <arglist>(u32 *data)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>hash_common_f24.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>hash__common__f24_8h</filename>
+  </compound>
+  <compound kind="file">
     <name>i2c.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/</path>
     <filename>i2c_8c</filename>
@@ -11657,6 +11730,11 @@
     <filename>group__dma__defines.html</filename>
   </compound>
   <compound kind="group">
+    <name>hash_defines</name>
+    <title>Hash_defines</title>
+    <filename>group__hash__defines.html</filename>
+  </compound>
+  <compound kind="group">
     <name>dma_file</name>
     <title>Dma_file</title>
     <filename>group__dma__file.html</filename>
@@ -11997,6 +12075,74 @@
       <arglist>(u32 dma, u8 stream, u32 address)</arglist>
     </member>
   </compound>
+  <compound kind="group">
+    <name>hash_file</name>
+    <title>Hash_file</title>
+    <filename>group__hash__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_mode</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>gaf72752f2fe0eda9a1723243b6201d257</anchor>
+      <arglist>(u8 mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_algorithm</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga8f2cdf967efa17f960dc30f96adfd0bc</anchor>
+      <arglist>(u8 algorithm)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_data_type</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga51f92e4b8626f7ef7140598cb0306680</anchor>
+      <arglist>(u8 datatype)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_key_length</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga1a483475f4cf7363354b18dd0b715b66</anchor>
+      <arglist>(u8 keylength)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_set_last_word_valid_bits</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga411e4a877d223a52b4954b02de7a906d</anchor>
+      <arglist>(u8 validbits)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_init</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga683e547b89f26dd62e5445cd1f044079</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_add_data</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>gae4d65ab45c1f126bad02ad746d22ca52</anchor>
+      <arglist>(u32 data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_digest</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga725cf50596382752eaf525ff028de921</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>hash_get_result</name>
+      <anchorfile>group__hash__file.html</anchorfile>
+      <anchor>ga86100d80a667d6129bf2a2519e6d5393</anchor>
+      <arglist>(u32 *data)</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>clock_scale_t</name>
     <filename>structclock__scale__t.html</filename>
@@ -12088,6 +12234,7 @@
     <file>dma_common_f24.h</file>
     <file>flash_common_f24.h</file>
     <file>gpio_common_all.h</file>
+    <file>hash_common_f24.h</file>
     <file>i2c_common_all.h</file>
     <file>i2c_common_f24.h</file>
     <file>iwdg_common_all.h</file>
@@ -12110,6 +12257,7 @@
     <file>dma_common_f24.c</file>
     <file>flash_common_f24.c</file>
     <file>gpio_common_all.c</file>
+    <file>hash_common_f24.c</file>
     <file>i2c_common_all.c</file>
     <file>iwdg_common_all.c</file>
     <file>pwr_common_all.c</file>

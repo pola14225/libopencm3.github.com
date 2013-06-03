@@ -6,8 +6,6 @@ var searchData=
   ['adc_20defines',['ADC Defines',['../group__adc__defines.html',1,'']]],
   ['adc_20number_20of_20channels_20in_20discontinuous_20mode_20fro_20injected_20channels_2e',['ADC Number of channels in discontinuous mode fro injected channels.',['../group__adc__jsqr__jl.html',1,'']]],
   ['adc_20register_20base_20addresses',['ADC register base addresses',['../group__adc__reg__base.html',1,'']]],
-  ['adc_20sample_20time_20selection_20for_20adc1',['ADC Sample Time Selection for ADC1',['../group__adc__sample__r1.html',1,'']]],
-  ['adc_20sample_20time_20selection_20for_20adc2',['ADC Sample Time Selection for ADC2',['../group__adc__sample__r2.html',1,'']]],
   ['adc_20sample_20time_20selection_20for_20all_20channels',['ADC Sample Time Selection for All Channels',['../group__adc__sample__rg.html',1,'']]],
   ['adc_20injected_20trigger_20identifier_20for_20adc1_20and_20adc2',['ADC Injected Trigger Identifier for ADC1 and ADC2',['../group__adc__trigger__injected__12.html',1,'']]],
   ['adc_20injected_20trigger_20identifier_20for_20adc3',['ADC Injected Trigger Identifier for ADC3',['../group__adc__trigger__injected__3.html',1,'']]],
