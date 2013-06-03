@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('group__usart__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -209,7 +209,7 @@ Functions</h2></td></tr>
 <p>At the end of the current frame, the USART is disabled to reduce power.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -235,7 +235,7 @@ Functions</h2></td></tr>
 <p>USART Error Interrupt Disable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -261,7 +261,7 @@ Functions</h2></td></tr>
 <p>USART Receiver DMA Disable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -287,7 +287,7 @@ Functions</h2></td></tr>
 <p>USART Receiver Interrupt Disable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -313,7 +313,7 @@ Functions</h2></td></tr>
 <p>USART Transmitter DMA Disable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -339,7 +339,7 @@ Functions</h2></td></tr>
 <p>USART Transmitter Interrupt Disable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -365,7 +365,7 @@ Functions</h2></td></tr>
 <p>USART Enable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -391,7 +391,7 @@ Functions</h2></td></tr>
 <p>USART Error Interrupt Enable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -424,7 +424,7 @@ Functions</h2></td></tr>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -450,7 +450,7 @@ Functions</h2></td></tr>
 <p>USART Receiver Interrupt Enable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -483,7 +483,7 @@ Functions</h2></td></tr>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -509,7 +509,7 @@ Functions</h2></td></tr>
 <p>USART Transmitter Interrupt Enable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -545,8 +545,8 @@ Functions</h2></td></tr>
 <p>USART Read a Status Flag. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag <a class="el" href="group__usart__sr__flags.html">USART Status register Flags</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag usart_sr_flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -584,8 +584,8 @@ Functions</h2></td></tr>
 <p>Returns true if the specified interrupt flag (IDLE, RXNE, TC, TXE or OE) was set and the interrupt was enabled. If the specified flag is not an interrupt flag, the function returns false.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag <a class="el" href="group__usart__sr__flags.html">USART Status register Flags</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag usart_sr_flags. </td></tr>
   </table>
   </dd>
 </dl>
@@ -613,7 +613,7 @@ Functions</h2></td></tr>
 <p>If parity is enabled the MSB (bit 7 or 8 depending on the word length) is the parity bit.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -652,7 +652,7 @@ Here is the caller graph for this function:</div>
 <p>Wait until a data word has been received then return the word.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -667,7 +667,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__usart__file_gad3d6aa6eca1a666b602c040d69e7177d_cgraph.png" border="0" usemap="#group__usart__file_gad3d6aa6eca1a666b602c040d69e7177d_cgraph" alt=""/></div>
 <map name="group__usart__file_gad3d6aa6eca1a666b602c040d69e7177d_cgraph" id="group__usart__file_gad3d6aa6eca1a666b602c040d69e7177d_cgraph">
-<area shape="rect" id="node3" href="group__usart__defines.html#gaa67496df79d937fbce18a6e36b9a806a" title="USART Read a Received Data Word." alt="" coords="228,5,311,35"/><area shape="rect" id="node5" href="group__usart__defines.html#gaf565cfc012a00290a37c729dc457cf16" title="USART Wait for Received Data Available." alt="" coords="193,59,345,88"/></map>
+<area shape="rect" id="node3" href="group__usart__file.html#gaa67496df79d937fbce18a6e36b9a806a" title="USART Read a Received Data Word." alt="" coords="228,5,311,35"/><area shape="rect" id="node5" href="group__usart__file.html#gaf565cfc012a00290a37c729dc457cf16" title="USART Wait for Received Data Available." alt="" coords="193,59,345,88"/></map>
 </div>
 </p>
 
@@ -700,7 +700,7 @@ Here is the call graph for this function:</div>
 <p>USART Send a Data Word. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>unsigned 16 bit. </td></tr>
   </table>
   </dd>
@@ -749,7 +749,7 @@ Here is the caller graph for this function:</div>
 <p>Blocks until the transmit data buffer becomes empty then writes the next data word for transmission.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>unsigned 16 bit. </td></tr>
   </table>
   </dd>
@@ -764,7 +764,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__usart__file_gacd488511290de99713014249f69274e4_cgraph.png" border="0" usemap="#group__usart__file_gacd488511290de99713014249f69274e4_cgraph" alt=""/></div>
 <map name="group__usart__file_gacd488511290de99713014249f69274e4_cgraph" id="group__usart__file_gacd488511290de99713014249f69274e4_cgraph">
-<area shape="rect" id="node3" href="group__usart__defines.html#gaaaa61a498fcb090540f2dc9d862c26c6" title="USART Send a Data Word." alt="" coords="231,5,316,35"/><area shape="rect" id="node5" href="group__usart__defines.html#gab575fd7d6b2dcb6e5419ae75169503ea" title="USART Wait for Transmit Data Buffer Empty." alt="" coords="196,59,351,88"/></map>
+<area shape="rect" id="node3" href="group__usart__file.html#gaaaa61a498fcb090540f2dc9d862c26c6" title="USART Send a Data Word." alt="" coords="231,5,316,35"/><area shape="rect" id="node5" href="group__usart__file.html#gab575fd7d6b2dcb6e5419ae75169503ea" title="USART Wait for Transmit Data Buffer Empty." alt="" coords="196,59,351,88"/></map>
 </div>
 </p>
 
@@ -798,7 +798,7 @@ Here is the call graph for this function:</div>
 <p>The baud rate is computed from the APB high-speed prescaler clock (for USART1/6) or the APB low-speed prescaler clock (for other USARTs). These values must be correctly set before calling this function (refer to the rcc_clock_setup-* functions in RCC).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">baud</td><td>unsigned 32 bit. Baud rate specified in Hz. </td></tr>
   </table>
   </dd>
@@ -838,7 +838,7 @@ Here is the call graph for this function:</div>
 <p>The word length is set to 8 or 9 bits. Note that the last bit will be a parity bit if parity is enabled, in which case the data length will be 7 or 8 bits respectively.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">bits</td><td>unsigned 32 bit. Word length in bits 8 or 9. </td></tr>
   </table>
   </dd>
@@ -876,8 +876,8 @@ Here is the call graph for this function:</div>
 <p>The flow control bit can be selected as none, RTS, CTS or RTS+CTS.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flowcontrol</td><td>unsigned 32 bit. Flowcontrol <a class="el" href="group__usart__cr3__flowcontrol.html">USART Hardware Flow Control Selection</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flowcontrol</td><td>unsigned 32 bit. Flowcontrol usart_cr3_flowcontrol. </td></tr>
   </table>
   </dd>
 </dl>
@@ -914,8 +914,8 @@ Here is the call graph for this function:</div>
 <p>The mode can be selected as Rx only, Tx only or Rx+Tx.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>unsigned 32 bit. Mode <a class="el" href="group__usart__cr1__mode.html">USART Tx/Rx Mode Selection</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>unsigned 32 bit. Mode usart_cr1_mode. </td></tr>
   </table>
   </dd>
 </dl>
@@ -952,8 +952,8 @@ Here is the call graph for this function:</div>
 <p>The parity bit can be selected as none, even or odd.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">parity</td><td>unsigned 32 bit. Parity <a class="el" href="group__usart__cr1__parity.html">USART Parity Selection</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">parity</td><td>unsigned 32 bit. Parity usart_cr1_parity. </td></tr>
   </table>
   </dd>
 </dl>
@@ -990,8 +990,8 @@ Here is the call graph for this function:</div>
 <p>The stop bits are specified as 0.5, 1, 1.5 or 2.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stopbits</td><td>unsigned 32 bit. Stop bits <a class="el" href="group__usart__cr2__stopbits.html">USART Stop Bit Selection</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stopbits</td><td>unsigned 32 bit. Stop bits usart_cr2_stopbits. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1018,7 +1018,7 @@ Here is the call graph for this function:</div>
 <p>Blocks until the receive data buffer holds a valid received data word.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -1056,7 +1056,7 @@ Here is the caller graph for this function:</div>
 <p>Blocks until the transmit data buffer becomes empty and is ready to accept the next data word.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base usart_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -1081,7 +1081,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:31 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:23 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

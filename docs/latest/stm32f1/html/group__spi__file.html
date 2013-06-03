@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('group__spi__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -234,13 +234,13 @@ Functions</h2></td></tr>
 <dd>
 The I2S protocol shares the SPI hardware so the two protocols cannot be used at the same time on the same peripheral.</dd></dl>
 <p>Example: 1Mbps, positive clock polarity, leading edge trigger, 8-bit words, LSB first. </p>
-<div class="fragment"><div class="line"><a class="code" href="group__spi__defines.html#gacac125eda08c8fa3b3f9e1c35b474ee2" title="Configure the SPI as Master.">spi_init_master</a>(SPI1, 1000000, SPI_CR1_CPOL_CLK_TO_0_WHEN_IDLE,</div>
+<div class="fragment"><div class="line"><a class="code" href="group__spi__file.html#gacac125eda08c8fa3b3f9e1c35b474ee2" title="Configure the SPI as Master.">spi_init_master</a>(SPI1, 1000000, SPI_CR1_CPOL_CLK_TO_0_WHEN_IDLE,</div>
 <div class="line">                SPI_CR1_CPHA_CLK_TRANSITION_1, SPI_CR1_DFF_8BIT,</div>
 <div class="line">                SPI_CR1_LSBFIRST);</div>
-<div class="line"><a class="code" href="group__spi__defines.html#ga2db53ca4fd33ed2948b92624074baaf7" title="SPI Data Write.">spi_write</a>(SPI1, 0x55);          <span class="comment">// 8-bit write</span></div>
-<div class="line"><a class="code" href="group__spi__defines.html#ga2db53ca4fd33ed2948b92624074baaf7" title="SPI Data Write.">spi_write</a>(SPI1, 0xaa88);        <span class="comment">// 16-bit write</span></div>
-<div class="line">reg8 = <a class="code" href="group__spi__defines.html#gae64b42540c65efb4a0c80c24ff18c87b" title="SPI Data Read.">spi_read</a>(SPI1);          <span class="comment">// 8-bit read</span></div>
-<div class="line">reg16 = <a class="code" href="group__spi__defines.html#gae64b42540c65efb4a0c80c24ff18c87b" title="SPI Data Read.">spi_read</a>(SPI1);         <span class="comment">// 16-bit read</span></div>
+<div class="line"><a class="code" href="group__spi__file.html#ga2db53ca4fd33ed2948b92624074baaf7" title="SPI Data Write.">spi_write</a>(SPI1, 0x55);          <span class="comment">// 8-bit write</span></div>
+<div class="line"><a class="code" href="group__spi__file.html#ga2db53ca4fd33ed2948b92624074baaf7" title="SPI Data Write.">spi_write</a>(SPI1, 0xaa88);        <span class="comment">// 16-bit write</span></div>
+<div class="line">reg8 = <a class="code" href="group__spi__file.html#gae64b42540c65efb4a0c80c24ff18c87b" title="SPI Data Read.">spi_read</a>(SPI1);          <span class="comment">// 8-bit read</span></div>
+<div class="line">reg16 = <a class="code" href="group__spi__file.html#gae64b42540c65efb4a0c80c24ff18c87b" title="SPI Data Read.">spi_read</a>(SPI1);         <span class="comment">// 16-bit read</span></div>
 </div><!-- fragment --><h2>Function Documentation</h2>
 <a class="anchor" id="ga59ceb29201f41181372b8e414ddacfe3"></a>
 <div class="memitem">
@@ -260,7 +260,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>Disable the SPI peripheral according to the procedure in section 23.3.8 of the reference manual. This prevents corruption of any ongoing transfers and prevents the BSY flag from becoming unreliable.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -288,7 +288,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>The SPI peripheral is disabled.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -314,7 +314,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>SPI Disable the CRC. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -340,7 +340,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>SPI Disable the Error Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -366,7 +366,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>SPI Disable the Receive Buffer Ready Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -392,7 +392,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>SPI Disable Receive Transfers via DMA. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -419,7 +419,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>In slave mode the NSS hardware input is used as a select enable for the slave.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -446,7 +446,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>In master mode this allows the master to sense the presence of other masters. If NSS is then pulled low the master is placed into slave mode. In slave mode NSS becomes a slave enable.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -472,7 +472,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>SPI Disable the Transmit Buffer Empty Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -498,7 +498,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>SPI Disable Transmit Transfers via DMA. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -525,7 +525,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>The SPI peripheral is enabled.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -552,7 +552,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>The SPI peripheral is set to use a CRC field for transmit and receive.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -578,7 +578,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>SPI Enable the Error Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -604,7 +604,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>SPI Enable the Receive Buffer Ready Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -631,7 +631,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>This allows received data streams to proceed unattended using DMA to move data from the receive buffer as data becomes available. The DMA channels provided for each SPI peripheral are given in the Technical Manual DMA section.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -658,7 +658,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>In slave mode the NSS hardware input is replaced by an internal software enable/disable of the slave (<a class="el" href="group__spi__file.html#ga8c3873fe2885bc6321c0b9e66ccc283b">spi_set_nss_high</a>).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -685,7 +685,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>Normally used in master mode to allows the master to place all devices on the SPI bus into slave mode. Multimaster mode is not possible.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -711,7 +711,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>SPI Enable the Transmit Buffer Empty Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -738,7 +738,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>This allows transmissions to proceed unattended using DMA to move data to the transmit buffer as it becomes available. The DMA channels provided for each SPI peripheral are given in the Technical Manual DMA section.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -799,12 +799,12 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>The SPI peripheral is configured as a master with communication parameters baudrate, data format 8/16 bits, frame format lsb/msb first, clock polarity and phase. The SPI enable, CRC enable and CRC next controls are not affected. These must be controlled separately.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">br</td><td>Unsigned int32. Baudrate <a class="el" href="group__spi__baudrate.html">SPI peripheral baud rates</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cpol</td><td>Unsigned int32. Clock polarity <a class="el" href="group__spi__cpol.html">SPI clock polarity</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cpha</td><td>Unsigned int32. Clock Phase <a class="el" href="group__spi__cpha.html">SPI clock phase</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dff</td><td>Unsigned int32. Data frame format 8/16 bits <a class="el" href="group__spi__dff.html">SPI data frame format</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">lsbfirst</td><td>Unsigned int32. Frame format lsb/msb first <a class="el" href="group__spi__lsbfirst.html">SPI lsb/msb first</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">br</td><td>Unsigned int32. Baudrate spi_baudrate. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cpol</td><td>Unsigned int32. Clock polarity spi_cpol. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cpha</td><td>Unsigned int32. Clock Phase spi_cpha. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dff</td><td>Unsigned int32. Data frame format 8/16 bits spi_dff. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lsbfirst</td><td>Unsigned int32. Frame format lsb/msb first spi_lsbfirst. </td></tr>
   </table>
   </dd>
 </dl>
@@ -832,7 +832,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>Data is read from the SPI interface after the incoming transfer has finished.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -860,14 +860,14 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 <p>The SPI peripheral and all its associated configuration registers are placed in the reset condition. The reset is effected via the RCC peripheral reset system.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi_peripheral</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi_peripheral</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00079">79</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8c_source.html#l00496">rcc_peripheral_clear_reset()</a>, and <a class="el" href="rcc_8c_source.html#l00475">rcc_peripheral_reset()</a>.</p>
+<p>References <a class="el" href="rcc_8h_source.html#l00052">RCC_APB1RSTR</a>, <a class="el" href="rcc_8h_source.html#l00298">RCC_APB1RSTR_SPI2RST</a>, <a class="el" href="rcc_8h_source.html#l00297">RCC_APB1RSTR_SPI3RST</a>, <a class="el" href="rcc_8h_source.html#l00051">RCC_APB2RSTR</a>, <a class="el" href="rcc_8h_source.html#l00264">RCC_APB2RSTR_SPI1RST</a>, <a class="el" href="rcc_8c_source.html#l00496">rcc_peripheral_clear_reset()</a>, and <a class="el" href="rcc_8c_source.html#l00475">rcc_peripheral_reset()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -908,7 +908,7 @@ Here is the call graph for this function:</div>
 <p>Data is written to the SPI interface after the previous write transfer has finished.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Unsigned int16. 8 or 16 bit data to be written. </td></tr>
   </table>
   </dd>
@@ -935,7 +935,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set to Send LSB First. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -961,7 +961,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set to Send MSB First. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -997,8 +997,8 @@ Here is the call graph for this function:</div>
 <p>SPI Set the Baudrate Prescaler. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">baudrate</td><td>Unsigned int8. Baudrate prescale value <a class="el" href="group__spi__br__pre.html">SPI peripheral baud rate prescale values</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">baudrate</td><td>Unsigned int8. Baudrate prescale value spi_br_pre. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1025,7 +1025,7 @@ Here is the call graph for this function:</div>
 <p>The SPI peripheral is set for bidirectional transfers in two-wire simplex mode (using a clock wire and a bidirectional data wire).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1052,7 +1052,7 @@ Here is the call graph for this function:</div>
 <p>The SPI peripheral is set for bidirectional transfers in two-wire simplex mode (using a clock wire and a bidirectional data wire), and is placed in a receive state.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1079,7 +1079,7 @@ Here is the call graph for this function:</div>
 <p>The SPI peripheral is set for bidirectional transfers in two-wire simplex mode (using a clock wire and a bidirectional data wire), and is placed in a transmit state.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1105,7 +1105,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set the Clock Phase to Capture on Leading Edge. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1131,7 +1131,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set the Clock Phase to Capture on Trailing Edge. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1157,7 +1157,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set the Clock Polarity to Low when Idle. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1183,7 +1183,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set the Clock Polarity to High when Idle. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1209,7 +1209,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set Data Frame Format to 16 bits. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1235,7 +1235,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set Data Frame Format to 8 bits. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1261,7 +1261,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set Full Duplex (3-wire) Mode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1287,7 +1287,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set to Master Mode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1314,7 +1314,7 @@ Here is the call graph for this function:</div>
 <p>The next transmission to take place is a data word from the transmit buffer. This must be called before transmission to distinguish between sending of a data or CRC word.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1341,7 +1341,7 @@ Here is the call graph for this function:</div>
 <p>The next transmission to take place is a crc word from the hardware crc unit. This must be called before transmission to distinguish between sending of a data or CRC word.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1368,7 +1368,7 @@ Here is the call graph for this function:</div>
 <p>In slave mode, and only when software slave management is used, this replaces the NSS signal with a slave select enable signal.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1395,7 +1395,7 @@ Here is the call graph for this function:</div>
 <p>In slave mode, and only when software slave management is used, this replaces the NSS signal with a slave select disable signal.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1421,7 +1421,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set Receive Only Mode for Simplex (2-wire) Unidirectional Transfers. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1447,7 +1447,7 @@ Here is the call graph for this function:</div>
 <p>SPI Set to Slave Mode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1474,7 +1474,7 @@ Here is the call graph for this function:</div>
 <p>The SPI peripheral is set for unidirectional transfers. This is used in full duplex mode or when the SPI is placed in two-wire simplex mode that uses a clock wire and a unidirectional data wire.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1511,7 +1511,7 @@ Here is the call graph for this function:</div>
 <p>Data is written to the SPI interface.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Unsigned int16. 8 or 16 bit data to be written. </td></tr>
   </table>
   </dd>
@@ -1560,7 +1560,7 @@ Here is the caller graph for this function:</div>
 <p>Data is written to the SPI interface, then a read is done after the incoming transfer has finished.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Unsigned int16. 8 or 16 bit data to be written. </td></tr>
   </table>
   </dd>
@@ -1576,7 +1576,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__spi__file_ga71a49f7a3d4b976d32eef9da45a6010f_cgraph.png" border="0" usemap="#group__spi__file_ga71a49f7a3d4b976d32eef9da45a6010f_cgraph" alt=""/></div>
 <map name="group__spi__file_ga71a49f7a3d4b976d32eef9da45a6010f_cgraph" id="group__spi__file_ga71a49f7a3d4b976d32eef9da45a6010f_cgraph">
-<area shape="rect" id="node3" href="group__spi__defines.html#ga2db53ca4fd33ed2948b92624074baaf7" title="SPI Data Write." alt="" coords="123,5,197,35"/></map>
+<area shape="rect" id="node3" href="group__spi__file.html#ga2db53ca4fd33ed2948b92624074baaf7" title="SPI Data Write." alt="" coords="123,5,197,35"/></map>
 </div>
 </p>
 
@@ -1587,7 +1587,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:25 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

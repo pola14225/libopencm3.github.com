@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('group__timer__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('group__timer__file.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Timers</div>  </div>
@@ -126,6 +127,10 @@ Collaboration diagram for Timers:</div>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga711ae4623ab95c5cad3d35fd10cb2859"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga711ae4623ab95c5cad3d35fd10cb2859">ADVANCED_TIMERS</a>&#160;&#160;&#160;(defined(<a class="el" href="memorymap_8h.html#af8aa324ca5011b8173ab16585ed7324a">TIM1_BASE</a>) || defined(<a class="el" href="memorymap_8h.html#a5b72f698b7a048a6f9fcfe2efe5bc1db">TIM8_BASE</a>))</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga635e53b4d7012c66f0f522018f3c365e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga635e53b4d7012c66f0f522018f3c365e">timer_reset</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral)</td></tr>
@@ -198,33 +203,33 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga7e34a1d15b96a337f3bec9755a192fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Value for the Timer Repetition Counter.  <a href="#ga7e34a1d15b96a337f3bec9755a192fc2"></a><br/></td></tr>
 <tr class="memitem:ga2b10c31d8ae7fc2ec8907508ed732460"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga2b10c31d8ae7fc2ec8907508ed732460">timer_set_period</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> period)</td></tr>
 <tr class="memdesc:ga2b10c31d8ae7fc2ec8907508ed732460"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Set Period.  <a href="#ga2b10c31d8ae7fc2ec8907508ed732460"></a><br/></td></tr>
-<tr class="memitem:ga9adc9883c39d4cdf0c9e62a19e231bad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga9adc9883c39d4cdf0c9e62a19e231bad">timer_enable_oc_clear</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:ga9adc9883c39d4cdf0c9e62a19e231bad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga9adc9883c39d4cdf0c9e62a19e231bad">timer_enable_oc_clear</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:ga9adc9883c39d4cdf0c9e62a19e231bad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Enable the Output Compare Clear Function.  <a href="#ga9adc9883c39d4cdf0c9e62a19e231bad"></a><br/></td></tr>
-<tr class="memitem:gaa67b098cb7feada26afc97ad7d7cb9b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaa67b098cb7feada26afc97ad7d7cb9b8">timer_disable_oc_clear</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:gaa67b098cb7feada26afc97ad7d7cb9b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaa67b098cb7feada26afc97ad7d7cb9b8">timer_disable_oc_clear</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:gaa67b098cb7feada26afc97ad7d7cb9b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Disable the Output Compare Clear Function.  <a href="#gaa67b098cb7feada26afc97ad7d7cb9b8"></a><br/></td></tr>
-<tr class="memitem:gae350b9002441eac8736a450e9ac14b29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gae350b9002441eac8736a450e9ac14b29">timer_set_oc_fast_mode</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:gae350b9002441eac8736a450e9ac14b29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gae350b9002441eac8736a450e9ac14b29">timer_set_oc_fast_mode</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:gae350b9002441eac8736a450e9ac14b29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Enable the Output Compare Fast Mode.  <a href="#gae350b9002441eac8736a450e9ac14b29"></a><br/></td></tr>
-<tr class="memitem:ga23e68651bdc9bd617e1f3b0d5aae5676"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga23e68651bdc9bd617e1f3b0d5aae5676">timer_set_oc_slow_mode</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:ga23e68651bdc9bd617e1f3b0d5aae5676"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga23e68651bdc9bd617e1f3b0d5aae5676">timer_set_oc_slow_mode</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:ga23e68651bdc9bd617e1f3b0d5aae5676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Enable the Output Compare Slow Mode.  <a href="#ga23e68651bdc9bd617e1f3b0d5aae5676"></a><br/></td></tr>
-<tr class="memitem:ga6c1e8366c5da793f1b9df0fec57ea55c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga6c1e8366c5da793f1b9df0fec57ea55c">timer_set_oc_mode</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id, enum <a class="el" href="group__timer__defines.html#ga9c6be6e4ccd5dcb325f1ebe499ca5216">tim_oc_mode</a> oc_mode)</td></tr>
+<tr class="memitem:ga6c1e8366c5da793f1b9df0fec57ea55c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga6c1e8366c5da793f1b9df0fec57ea55c">timer_set_oc_mode</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id, enum tim_oc_mode oc_mode)</td></tr>
 <tr class="memdesc:ga6c1e8366c5da793f1b9df0fec57ea55c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Set Output Compare Mode.  <a href="#ga6c1e8366c5da793f1b9df0fec57ea55c"></a><br/></td></tr>
-<tr class="memitem:ga9638fa58c94d8ff3ec72a5f51cb5ef72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga9638fa58c94d8ff3ec72a5f51cb5ef72">timer_enable_oc_preload</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:ga9638fa58c94d8ff3ec72a5f51cb5ef72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga9638fa58c94d8ff3ec72a5f51cb5ef72">timer_enable_oc_preload</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:ga9638fa58c94d8ff3ec72a5f51cb5ef72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Enable the Output Compare Preload Register.  <a href="#ga9638fa58c94d8ff3ec72a5f51cb5ef72"></a><br/></td></tr>
-<tr class="memitem:gaa4b64c4c7ffb122a64730ef7acb7a1cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaa4b64c4c7ffb122a64730ef7acb7a1cd">timer_disable_oc_preload</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:gaa4b64c4c7ffb122a64730ef7acb7a1cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaa4b64c4c7ffb122a64730ef7acb7a1cd">timer_disable_oc_preload</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:gaa4b64c4c7ffb122a64730ef7acb7a1cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Disable the Output Compare Preload Register.  <a href="#gaa4b64c4c7ffb122a64730ef7acb7a1cd"></a><br/></td></tr>
-<tr class="memitem:gad165353f0c1ae3ba4475549fc1a0be7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gad165353f0c1ae3ba4475549fc1a0be7b">timer_set_oc_polarity_high</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:gad165353f0c1ae3ba4475549fc1a0be7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gad165353f0c1ae3ba4475549fc1a0be7b">timer_set_oc_polarity_high</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:gad165353f0c1ae3ba4475549fc1a0be7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Set the Output Polarity High.  <a href="#gad165353f0c1ae3ba4475549fc1a0be7b"></a><br/></td></tr>
-<tr class="memitem:ga4b53b4ef67eae28546d8884135f33418"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga4b53b4ef67eae28546d8884135f33418">timer_set_oc_polarity_low</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:ga4b53b4ef67eae28546d8884135f33418"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga4b53b4ef67eae28546d8884135f33418">timer_set_oc_polarity_low</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:ga4b53b4ef67eae28546d8884135f33418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Set the Output Polarity Low.  <a href="#ga4b53b4ef67eae28546d8884135f33418"></a><br/></td></tr>
-<tr class="memitem:ga7c00d58815f19a5b18fdbbfbdc101f88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga7c00d58815f19a5b18fdbbfbdc101f88">timer_enable_oc_output</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:ga7c00d58815f19a5b18fdbbfbdc101f88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga7c00d58815f19a5b18fdbbfbdc101f88">timer_enable_oc_output</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:ga7c00d58815f19a5b18fdbbfbdc101f88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Enable the Output Compare.  <a href="#ga7c00d58815f19a5b18fdbbfbdc101f88"></a><br/></td></tr>
-<tr class="memitem:ga28c1fed137713fa37109f1287149cf28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga28c1fed137713fa37109f1287149cf28">timer_disable_oc_output</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:ga28c1fed137713fa37109f1287149cf28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga28c1fed137713fa37109f1287149cf28">timer_disable_oc_output</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:ga28c1fed137713fa37109f1287149cf28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Disable the Output Compare.  <a href="#ga28c1fed137713fa37109f1287149cf28"></a><br/></td></tr>
-<tr class="memitem:ga30f58f4f442f2991ea35f6798a674a48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga30f58f4f442f2991ea35f6798a674a48">timer_set_oc_idle_state_set</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:ga30f58f4f442f2991ea35f6798a674a48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga30f58f4f442f2991ea35f6798a674a48">timer_set_oc_idle_state_set</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:ga30f58f4f442f2991ea35f6798a674a48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer set Output Compare Idle State High.  <a href="#ga30f58f4f442f2991ea35f6798a674a48"></a><br/></td></tr>
-<tr class="memitem:gaa2d3aa47db5049bb8a58b2661761e306"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaa2d3aa47db5049bb8a58b2661761e306">timer_set_oc_idle_state_unset</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id)</td></tr>
+<tr class="memitem:gaa2d3aa47db5049bb8a58b2661761e306"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaa2d3aa47db5049bb8a58b2661761e306">timer_set_oc_idle_state_unset</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id)</td></tr>
 <tr class="memdesc:gaa2d3aa47db5049bb8a58b2661761e306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Set Output Compare Idle State Low.  <a href="#gaa2d3aa47db5049bb8a58b2661761e306"></a><br/></td></tr>
-<tr class="memitem:ga28a50f22d76db42c4fd319146d06c75b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga28a50f22d76db42c4fd319146d06c75b">timer_set_oc_value</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a> oc_id, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> value)</td></tr>
+<tr class="memitem:ga28a50f22d76db42c4fd319146d06c75b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga28a50f22d76db42c4fd319146d06c75b">timer_set_oc_value</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_oc_id oc_id, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> value)</td></tr>
 <tr class="memdesc:ga28a50f22d76db42c4fd319146d06c75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer Set Output Compare Value.  <a href="#ga28a50f22d76db42c4fd319146d06c75b"></a><br/></td></tr>
 <tr class="memitem:gac6562012ceafd3de5f7fff044a60db54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gac6562012ceafd3de5f7fff044a60db54">timer_enable_break_main_output</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral)</td></tr>
 <tr class="memdesc:gac6562012ceafd3de5f7fff044a60db54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Output in Break.  <a href="#gac6562012ceafd3de5f7fff044a60db54"></a><br/></td></tr>
@@ -260,21 +265,21 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga8c06c5329b8e136c909965f76885a360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Counter.  <a href="#ga8c06c5329b8e136c909965f76885a360"></a><br/></td></tr>
 <tr class="memitem:ga714fd0379dbfe072a7f622d504bd0703"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga714fd0379dbfe072a7f622d504bd0703">timer_set_counter</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> count)</td></tr>
 <tr class="memdesc:ga714fd0379dbfe072a7f622d504bd0703"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Counter.  <a href="#ga714fd0379dbfe072a7f622d504bd0703"></a><br/></td></tr>
-<tr class="memitem:ga553aec0a092ec74ca3050ffbc1a9ab82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga553aec0a092ec74ca3050ffbc1a9ab82">timer_ic_set_filter</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic, enum <a class="el" href="group__timer__defines.html#ga8a2a8722575e6301c3e059b9ec8f50c2">tim_ic_filter</a> flt)</td></tr>
+<tr class="memitem:ga553aec0a092ec74ca3050ffbc1a9ab82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga553aec0a092ec74ca3050ffbc1a9ab82">timer_ic_set_filter</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_ic_id ic, enum tim_ic_filter flt)</td></tr>
 <tr class="memdesc:ga553aec0a092ec74ca3050ffbc1a9ab82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Input Capture Filter Parameters.  <a href="#ga553aec0a092ec74ca3050ffbc1a9ab82"></a><br/></td></tr>
-<tr class="memitem:ga0c1243538b7ae8b7ae12598c6519a339"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga0c1243538b7ae8b7ae12598c6519a339">timer_ic_set_prescaler</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic, enum <a class="el" href="group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62">tim_ic_psc</a> psc)</td></tr>
+<tr class="memitem:ga0c1243538b7ae8b7ae12598c6519a339"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga0c1243538b7ae8b7ae12598c6519a339">timer_ic_set_prescaler</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_ic_id ic, enum tim_ic_psc psc)</td></tr>
 <tr class="memdesc:ga0c1243538b7ae8b7ae12598c6519a339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Input Capture Prescaler.  <a href="#ga0c1243538b7ae8b7ae12598c6519a339"></a><br/></td></tr>
-<tr class="memitem:ga0a6724d4c7a40e38dd94dfe70950815b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga0a6724d4c7a40e38dd94dfe70950815b">timer_ic_set_input</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic, enum <a class="el" href="group__timer__defines.html#gad3d3ef84edd2180d79321bac6394bb4d">tim_ic_input</a> in)</td></tr>
+<tr class="memitem:ga0a6724d4c7a40e38dd94dfe70950815b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga0a6724d4c7a40e38dd94dfe70950815b">timer_ic_set_input</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_ic_id ic, enum tim_ic_input in)</td></tr>
 <tr class="memdesc:ga0a6724d4c7a40e38dd94dfe70950815b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Capture/Compare Channel Direction/Input.  <a href="#ga0a6724d4c7a40e38dd94dfe70950815b"></a><br/></td></tr>
-<tr class="memitem:gaf74f4ed834f30d68ca294349ec64b902"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaf74f4ed834f30d68ca294349ec64b902">timer_ic_enable</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic)</td></tr>
+<tr class="memitem:gaf74f4ed834f30d68ca294349ec64b902"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaf74f4ed834f30d68ca294349ec64b902">timer_ic_enable</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_ic_id ic)</td></tr>
 <tr class="memdesc:gaf74f4ed834f30d68ca294349ec64b902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Timer Input Capture.  <a href="#gaf74f4ed834f30d68ca294349ec64b902"></a><br/></td></tr>
-<tr class="memitem:ga842d2e829baab6e3737ca903f3deec1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga842d2e829baab6e3737ca903f3deec1a">timer_ic_disable</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic)</td></tr>
+<tr class="memitem:ga842d2e829baab6e3737ca903f3deec1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga842d2e829baab6e3737ca903f3deec1a">timer_ic_disable</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_ic_id ic)</td></tr>
 <tr class="memdesc:ga842d2e829baab6e3737ca903f3deec1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable Timer Input Capture.  <a href="#ga842d2e829baab6e3737ca903f3deec1a"></a><br/></td></tr>
-<tr class="memitem:ga6f7dd59db59dd01a2573ff3b69557161"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga6f7dd59db59dd01a2573ff3b69557161">timer_slave_set_filter</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#ga8a2a8722575e6301c3e059b9ec8f50c2">tim_ic_filter</a> flt)</td></tr>
+<tr class="memitem:ga6f7dd59db59dd01a2573ff3b69557161"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga6f7dd59db59dd01a2573ff3b69557161">timer_slave_set_filter</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_ic_filter flt)</td></tr>
 <tr class="memdesc:ga6f7dd59db59dd01a2573ff3b69557161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set External Trigger Filter Parameters for Slave.  <a href="#ga6f7dd59db59dd01a2573ff3b69557161"></a><br/></td></tr>
-<tr class="memitem:ga68d1d708b99cc49fdd590f1e77b68ff1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga68d1d708b99cc49fdd590f1e77b68ff1">timer_slave_set_prescaler</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62">tim_ic_psc</a> psc)</td></tr>
+<tr class="memitem:ga68d1d708b99cc49fdd590f1e77b68ff1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga68d1d708b99cc49fdd590f1e77b68ff1">timer_slave_set_prescaler</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_ic_psc psc)</td></tr>
 <tr class="memdesc:ga68d1d708b99cc49fdd590f1e77b68ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set External Trigger Prescaler for Slave.  <a href="#ga68d1d708b99cc49fdd590f1e77b68ff1"></a><br/></td></tr>
-<tr class="memitem:gaca29467a4cb5700e0b9a457664cda471"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaca29467a4cb5700e0b9a457664cda471">timer_slave_set_polarity</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum <a class="el" href="group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be">tim_et_pol</a> pol)</td></tr>
+<tr class="memitem:gaca29467a4cb5700e0b9a457664cda471"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#gaca29467a4cb5700e0b9a457664cda471">timer_slave_set_polarity</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, enum tim_et_pol pol)</td></tr>
 <tr class="memdesc:gaca29467a4cb5700e0b9a457664cda471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set External Trigger Polarity for Slave.  <a href="#gaca29467a4cb5700e0b9a457664cda471"></a><br/></td></tr>
 <tr class="memitem:ga741240e46390f98f507d33a6bc1830ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga741240e46390f98f507d33a6bc1830ca">timer_slave_set_mode</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> mode)</td></tr>
 <tr class="memdesc:ga741240e46390f98f507d33a6bc1830ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Slave Mode.  <a href="#ga741240e46390f98f507d33a6bc1830ca"></a><br/></td></tr>
@@ -297,27 +302,42 @@ Basic TIMER handling API.</h1>
 <p>Enable the timer clock first. The timer mode sets the clock division ratio, the count alignment (edge or centred) and count direction. Finally enable the timer.</p>
 <p>The timer output compare block produces a signal that can be configured for output to a pin or passed to other peripherals for use as a trigger. In all cases the output compare mode must be set to define how the output responds to a compare match, and the output must be enabled. If output to a pin is required, enable the appropriate GPIO clock and set the pin to alternate output mode.</p>
 <p>Example: Timer 2 with 2x clock divide, edge aligned and up counting. </p>
-<div class="fragment"><div class="line"><a class="code" href="group__STM32F1xx__rcc__defines.html#ga3b3e26e0374ad984ec7c442b738a8cd2" title="RCC Enable Peripheral Clocks.">rcc_peripheral_enable_clock</a>(&amp;RCC_APB2ENR, RCC_APB2ENR_TIM2EN);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#ga691c668098d1d0d8849e3283b596f7cc" title="Reset a Timer.">timer_reset</a>(TIM2);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#gac0440a753422d13658b852c4927ed936" title="Set the Timer Mode.">timer_set_mode</a>(TIM2, TIM_CR1_CKD_CK_INT_MUL_2,</div>
+<div class="fragment"><div class="line"><a class="code" href="group__STM32F1xx__rcc__defines.html#ga3b3e26e0374ad984ec7c442b738a8cd2" title="RCC Enable Peripheral Clocks.">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__STM32F1xx__rcc__defines.html#ga6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, RCC_APB2ENR_TIM2EN);</div>
+<div class="line"><a class="code" href="group__timer__file.html#ga635e53b4d7012c66f0f522018f3c365e" title="Reset a Timer.">timer_reset</a>(TIM2);</div>
+<div class="line"><a class="code" href="group__timer__file.html#gac0440a753422d13658b852c4927ed936" title="Set the Timer Mode.">timer_set_mode</a>(TIM2, TIM_CR1_CKD_CK_INT_MUL_2,</div>
 <div class="line">       TIM_CR1_CMS_EDGE, TIM_CR1_DIR_UP);</div>
 <div class="line">...</div>
 <div class="line">timer_set_period(TIM2, 1000);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#ga7cb473e295e9ab427331071cad5489b4" title="Enable the timer to start counting.">timer_enable_counter</a>(TIM2);</div>
+<div class="line"><a class="code" href="group__timer__file.html#ga7cb473e295e9ab427331071cad5489b4" title="Enable the timer to start counting.">timer_enable_counter</a>(TIM2);</div>
 </div><!-- fragment --><p> Example: Timer 1 with PWM output, no clock divide and centre alignment. Set the Output Compare mode to PWM and enable the output of channel 1. Note that for the advanced timers the break functionality must be enabled before the signal will appear at the output, even though break is not being used. This is in addition to the normal output enable. Enable the alternate function clock (APB2 only) and port A clock. Set ports A8 and A9 (timer 1 channel 1 compare outputs) to alternate function push-pull outputs where the PWM output will appear.</p>
-<div class="fragment"><div class="line"><a class="code" href="group__STM32F1xx__rcc__defines.html#ga3b3e26e0374ad984ec7c442b738a8cd2" title="RCC Enable Peripheral Clocks.">rcc_peripheral_enable_clock</a>(&amp;RCC_APB2ENR, RCC_APB2ENR_IOPAEN | RCC_APB2ENR_AFIOEN);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#ga07cb96dc8e544ca14fb746ce1c475b19" title="Set GPIO Pin Mode.">gpio_set_mode</a>(GPIOA, GPIO_MODE_OUTPUT_50_MHZ,</div>
-<div class="line">              GPIO_CNF_OUTPUT_ALTFN_PUSHPULL, GPIO8 | GPIO9);</div>
-<div class="line"><a class="code" href="group__STM32F1xx__rcc__defines.html#ga3b3e26e0374ad984ec7c442b738a8cd2" title="RCC Enable Peripheral Clocks.">rcc_peripheral_enable_clock</a>(&amp;RCC_APB2ENR, RCC_APB2ENR_TIM1EN);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#ga691c668098d1d0d8849e3283b596f7cc" title="Reset a Timer.">timer_reset</a>(TIM1);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#gac0440a753422d13658b852c4927ed936" title="Set the Timer Mode.">timer_set_mode</a>(TIM1, TIM_CR1_CKD_CK_INT, TIM_CR1_CMS_CENTER_1, TIM_CR1_DIR_UP);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#ga6c1e8366c5da793f1b9df0fec57ea55c" title="Timer Set Output Compare Mode.">timer_set_oc_mode</a>(TIM1, <a class="code" href="group__timer__defines.html#ggacd988319d070e7128b530d4ac1a4f4ffa7dae30b9cd1ce046d8fbaaf04fc36fc9">TIM_OC1</a>, <a class="code" href="group__timer__defines.html#gga9c6be6e4ccd5dcb325f1ebe499ca5216a5649585668cfa883f69de691a4399102">TIM_OCM_PWM2</a>);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#ga7c00d58815f19a5b18fdbbfbdc101f88" title="Timer Enable the Output Compare.">timer_enable_oc_output</a>(TIM1, <a class="code" href="group__timer__defines.html#ggacd988319d070e7128b530d4ac1a4f4ffa7dae30b9cd1ce046d8fbaaf04fc36fc9">TIM_OC1</a>);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#gac6562012ceafd3de5f7fff044a60db54" title="Enable Output in Break.">timer_enable_break_main_output</a>(TIM1);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#ga28a50f22d76db42c4fd319146d06c75b" title="Timer Set Output Compare Value.">timer_set_oc_value</a>(TIM1, <a class="code" href="group__timer__defines.html#ggacd988319d070e7128b530d4ac1a4f4ffa7dae30b9cd1ce046d8fbaaf04fc36fc9">TIM_OC1</a>, 200);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#ga2b10c31d8ae7fc2ec8907508ed732460" title="Timer Set Period.">timer_set_period</a>(TIM1, 1000);</div>
-<div class="line"><a class="code" href="group__timer__defines.html#ga7cb473e295e9ab427331071cad5489b4" title="Enable the timer to start counting.">timer_enable_counter</a>(TIM1);</div>
-</div><!-- fragment --><h2>Function Documentation</h2>
+<div class="fragment"><div class="line"><a class="code" href="group__STM32F1xx__rcc__defines.html#ga3b3e26e0374ad984ec7c442b738a8cd2" title="RCC Enable Peripheral Clocks.">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__STM32F1xx__rcc__defines.html#ga6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, <a class="code" href="group__rcc__apb2enr__en.html#gad7b860fbeb386425bd7d4ef00ce17c27">RCC_APB2ENR_IOPAEN</a> | <a class="code" href="group__rcc__apb2enr__en.html#gaf67d9fc402ce254dd914525bee7361a6">RCC_APB2ENR_AFIOEN</a>);</div>
+<div class="line"><a class="code" href="group__gpio__defines.html#ga07cb96dc8e544ca14fb746ce1c475b19" title="Set GPIO Pin Mode.">gpio_set_mode</a>(<a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__mode.html#ga6b417f015356fa1b8816fdc9f5b966ce">GPIO_MODE_OUTPUT_50_MHZ</a>,</div>
+<div class="line">              <a class="code" href="group__gpio__cnf.html#gafdb5d21e4c813c645906c8b7e9472daf" title="Alternate Function Output Pushpull.">GPIO_CNF_OUTPUT_ALTFN_PUSHPULL</a>, GPIO8 | GPIO9);</div>
+<div class="line"><a class="code" href="group__STM32F1xx__rcc__defines.html#ga3b3e26e0374ad984ec7c442b738a8cd2" title="RCC Enable Peripheral Clocks.">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__STM32F1xx__rcc__defines.html#ga6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, <a class="code" href="group__rcc__apb2enr__en.html#ga25852ad4ebc09edc724814de967816bc">RCC_APB2ENR_TIM1EN</a>);</div>
+<div class="line"><a class="code" href="group__timer__file.html#ga635e53b4d7012c66f0f522018f3c365e" title="Reset a Timer.">timer_reset</a>(TIM1);</div>
+<div class="line"><a class="code" href="group__timer__file.html#gac0440a753422d13658b852c4927ed936" title="Set the Timer Mode.">timer_set_mode</a>(TIM1, TIM_CR1_CKD_CK_INT, TIM_CR1_CMS_CENTER_1, TIM_CR1_DIR_UP);</div>
+<div class="line"><a class="code" href="group__timer__file.html#ga6c1e8366c5da793f1b9df0fec57ea55c" title="Timer Set Output Compare Mode.">timer_set_oc_mode</a>(TIM1, TIM_OC1, TIM_OCM_PWM2);</div>
+<div class="line"><a class="code" href="group__timer__file.html#ga7c00d58815f19a5b18fdbbfbdc101f88" title="Timer Enable the Output Compare.">timer_enable_oc_output</a>(TIM1, TIM_OC1);</div>
+<div class="line"><a class="code" href="group__timer__file.html#gac6562012ceafd3de5f7fff044a60db54" title="Enable Output in Break.">timer_enable_break_main_output</a>(TIM1);</div>
+<div class="line"><a class="code" href="group__timer__file.html#ga28a50f22d76db42c4fd319146d06c75b" title="Timer Set Output Compare Value.">timer_set_oc_value</a>(TIM1, TIM_OC1, 200);</div>
+<div class="line"><a class="code" href="group__timer__file.html#ga2b10c31d8ae7fc2ec8907508ed732460" title="Timer Set Period.">timer_set_period</a>(TIM1, 1000);</div>
+<div class="line"><a class="code" href="group__timer__file.html#ga7cb473e295e9ab427331071cad5489b4" title="Enable the timer to start counting.">timer_enable_counter</a>(TIM1);</div>
+</div><!-- fragment --><h2>Macro Definition Documentation</h2>
+<a class="anchor" id="ga711ae4623ab95c5cad3d35fd10cb2859"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADVANCED_TIMERS&#160;&#160;&#160;(defined(<a class="el" href="memorymap_8h.html#af8aa324ca5011b8173ab16585ed7324a">TIM1_BASE</a>) || defined(<a class="el" href="memorymap_8h.html#a5b72f698b7a048a6f9fcfe2efe5bc1db">TIM8_BASE</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00098">98</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+
+</div>
+</div>
+<h2>Function Documentation</h2>
 <a class="anchor" id="ga08949f4ce2e140ebc2dd4c404431e06f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -345,8 +365,8 @@ Basic TIMER handling API.</h1>
 <p>Clear a Status Flag. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. <a class="el" href="group__tim__sr__values.html">TIMx_SR Timer Status Register Flags</a>. Status register flag. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. tim_sr_values. Status register flag. </td></tr>
   </table>
   </dd>
 </dl>
@@ -372,7 +392,7 @@ Basic TIMER handling API.</h1>
 <p>Enable the Timer to Run Continuously. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -399,7 +419,7 @@ Basic TIMER handling API.</h1>
 <p>This has no effect if the timer is set to center aligned.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -426,7 +446,7 @@ Basic TIMER handling API.</h1>
 <p>This has no effect if the timer is set to center aligned.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -538,7 +558,7 @@ Basic TIMER handling API.</h1>
 <dl class="section note"><dt>Note</dt><dd>This setting is only valid for the advanced timer channels with complementary outputs.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -564,7 +584,7 @@ Basic TIMER handling API.</h1>
 <p>Stop the timer from counting. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -600,8 +620,8 @@ Basic TIMER handling API.</h1>
 <p>Disable Interrupts for a Timer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">irq</td><td>Unsigned int32. <a class="el" href="group__tim__irq__enable.html">TIMx_DIER Timer DMA and Interrupt Enable Values</a>. Logical OR of all interrupt enable bits to be cleared </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">irq</td><td>Unsigned int32. tim_irq_enable. Logical OR of all interrupt enable bits to be cleared </td></tr>
   </table>
   </dd>
 </dl>
@@ -623,7 +643,7 @@ Basic TIMER handling API.</h1>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -637,15 +657,13 @@ Basic TIMER handling API.</h1>
 <p>Timer Disable the Output Compare Clear Function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00788">788</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -662,7 +680,7 @@ Basic TIMER handling API.</h1>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -677,15 +695,13 @@ Basic TIMER handling API.</h1>
 <p>The channel output compare functionality is disabled.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01293">1293</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -702,7 +718,7 @@ Basic TIMER handling API.</h1>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -716,15 +732,13 @@ Basic TIMER handling API.</h1>
 <p>Timer Disable the Output Compare Preload Register. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01083">1083</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -746,7 +760,7 @@ Basic TIMER handling API.</h1>
 <p>This causes the counter to be loaded immediately with a new count value when the auto-reload register is written, so that the new value becomes effective for the current count cycle rather than for the cycle following an update event.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -774,7 +788,7 @@ Basic TIMER handling API.</h1>
 <dl class="section note"><dt>Note</dt><dd>This setting is only valid for the advanced timer channels with complementary outputs.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -801,7 +815,7 @@ Basic TIMER handling API.</h1>
 <p>Update events are not generated and the shadow registers keep their values.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -915,7 +929,7 @@ It is necessary to call this function to enable the output on an advanced timer 
 <dl class="section note"><dt>Note</dt><dd>This setting is only valid for the advanced timer channels with complementary outputs.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -942,7 +956,7 @@ It is necessary to call this function to enable the output on an advanced timer 
 <p>This should be called after the timer initial configuration has been completed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -978,8 +992,8 @@ It is necessary to call this function to enable the output on an advanced timer 
 <p>Enable Interrupts for a Timer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">irq</td><td>Unsigned int32. <a class="el" href="group__tim__irq__enable.html">TIMx_DIER Timer DMA and Interrupt Enable Values</a>. Logical OR of all interrupt enable bits to be set </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">irq</td><td>Unsigned int32. tim_irq_enable. Logical OR of all interrupt enable bits to be set </td></tr>
   </table>
   </dd>
 </dl>
@@ -1001,7 +1015,7 @@ It is necessary to call this function to enable the output on an advanced timer 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -1016,15 +1030,13 @@ It is necessary to call this function to enable the output on an advanced timer 
 <p>When this is enabled, the output compare signal is cleared when a high is detected on the external trigger input. This works in the output compare and PWM modes only (not forced mode). The output compare signal remains off until the next update event.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00757">757</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -1041,7 +1053,7 @@ It is necessary to call this function to enable the output on an advanced timer 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -1056,15 +1068,13 @@ It is necessary to call this function to enable the output on an advanced timer 
 <p>The channel output compare functionality is enabled.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01234">1234</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +1091,7 @@ It is necessary to call this function to enable the output on an advanced timer 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -1095,15 +1105,13 @@ It is necessary to call this function to enable the output on an advanced timer 
 <p>Timer Enable the Output Compare Preload Register. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01052">1052</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -1125,7 +1133,7 @@ It is necessary to call this function to enable the output on an advanced timer 
 <p>During counter operation this causes the counter to be loaded from its auto-reload register only at the next update event.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -1153,7 +1161,7 @@ It is necessary to call this function to enable the output on an advanced timer 
 <dl class="section note"><dt>Note</dt><dd>This setting is only valid for the advanced timer channels with complementary outputs.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -1179,7 +1187,7 @@ It is necessary to call this function to enable the output on an advanced timer 
 <p>Enable Timer Update Events. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -1217,7 +1225,7 @@ It is necessary to call this function to enable the output on an advanced timer 
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>Unsigned int32. Event specification <a class="el" href="group__tim__event__gen.html">TIMx_EGR Timer Event Generator Values</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>Unsigned int32. Event specification tim_event_gen </td></tr>
   </table>
   </dd>
 </dl>
@@ -1281,8 +1289,8 @@ It is necessary to call this function to enable the output on an advanced timer 
 <p>Read a Status Flag. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag <a class="el" href="group__tim__sr__values.html">TIMx_SR Timer Status Register Flags</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag tim_sr_values. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1305,7 +1313,7 @@ It is necessary to call this function to enable the output on an advanced timer 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_id&#160;</td>
           <td class="paramname"><em>ic</em>&#160;</td>
         </tr>
         <tr>
@@ -1320,7 +1328,7 @@ It is necessary to call this function to enable the output on an advanced timer 
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td><a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac" title="Input Capture channel designators.">tim_ic_id</a>. Input Capture channel designator. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td>::tim_ic_id. Input Capture channel designator. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1342,7 +1350,7 @@ It is necessary to call this function to enable the output on an advanced timer 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_id&#160;</td>
           <td class="paramname"><em>ic</em>&#160;</td>
         </tr>
         <tr>
@@ -1357,7 +1365,7 @@ It is necessary to call this function to enable the output on an advanced timer 
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td><a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac" title="Input Capture channel designators.">tim_ic_id</a>. Input Capture channel designator. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td>::tim_ic_id. Input Capture channel designator. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1379,13 +1387,13 @@ It is necessary to call this function to enable the output on an advanced timer 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_id&#160;</td>
           <td class="paramname"><em>ic</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#ga8a2a8722575e6301c3e059b9ec8f50c2">tim_ic_filter</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_filter&#160;</td>
           <td class="paramname"><em>flt</em>&#160;</td>
         </tr>
         <tr>
@@ -1406,15 +1414,13 @@ It is necessary to call this function to enable the output on an advanced timer 
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td><a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac" title="Input Capture channel designators.">tim_ic_id</a>. Input Capture channel designator. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flt</td><td><a class="el" href="group__timer__defines.html#ga8a2a8722575e6301c3e059b9ec8f50c2" title="Input Capture input filter.">tim_ic_filter</a>. Input Capture Filter identifier. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td>::tim_ic_id. Input Capture channel designator. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flt</td><td>::tim_ic_filter. Input Capture Filter identifier. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01848">1848</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00960">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00961">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00962">TIM_IC3</a>, and <a class="el" href="timer__common__all_8h_source.html#l00963">TIM_IC4</a>.</p>
 
 </div>
 </div>
@@ -1431,13 +1437,13 @@ It is necessary to call this function to enable the output on an advanced timer 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_id&#160;</td>
           <td class="paramname"><em>ic</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gad3d3ef84edd2180d79321bac6394bb4d">tim_ic_input</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_input&#160;</td>
           <td class="paramname"><em>in</em>&#160;</td>
         </tr>
         <tr>
@@ -1462,15 +1468,13 @@ these parameters are writable only when the channel is off.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td><a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac" title="Input Capture channel designators.">tim_ic_id</a>. Input Capture channel designator. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td><a class="el" href="group__timer__defines.html#gad3d3ef84edd2180d79321bac6394bb4d" title="Input Capture input source.">tim_ic_input</a>. Input Capture channel direction and source input. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td>::tim_ic_id. Input Capture channel designator. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>::tim_ic_input. Input Capture channel direction and source input. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01923">1923</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00960">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00961">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00962">TIM_IC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00963">TIM_IC4</a>, <a class="el" href="timer__common__all_8h_source.html#l01008">TIM_IC_IN_TI1</a>, and <a class="el" href="timer__common__all_8h_source.html#l01009">TIM_IC_IN_TI2</a>.</p>
 
 </div>
 </div>
@@ -1487,13 +1491,13 @@ these parameters are writable only when the channel is off.</dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_id&#160;</td>
           <td class="paramname"><em>ic</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62">tim_ic_psc</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_psc&#160;</td>
           <td class="paramname"><em>psc</em>&#160;</td>
         </tr>
         <tr>
@@ -1509,15 +1513,13 @@ these parameters are writable only when the channel is off.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td><a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac" title="Input Capture channel designators.">tim_ic_id</a>. Input Capture channel designator. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">psc</td><td><a class="el" href="group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62" title="Input Capture input prescaler.">tim_ic_psc</a>. Input Capture sample clock prescaler. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td>::tim_ic_id. Input Capture channel designator. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">psc</td><td>::tim_ic_psc. Input Capture sample clock prescaler. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01880">1880</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00960">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00961">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00962">TIM_IC3</a>, and <a class="el" href="timer__common__all_8h_source.html#l00963">TIM_IC4</a>.</p>
 
 </div>
 </div>
@@ -1549,8 +1551,8 @@ these parameters are writable only when the channel is off.</dd></dl>
 <p>Returns true if the specified interrupt flag (UIF, TIF or CCxIF, with BIF or COMIF for advanced timers) was set and the interrupt was enabled. If the specified flag is not an interrupt flag, the function returns false.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag <a class="el" href="group__tim__sr__values.html">TIMx_SR Timer Status Register Flags</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag tim_sr_values. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1577,7 +1579,7 @@ these parameters are writable only when the channel is off.</dd></dl>
 <p>Enable the Timer for One Cycle and Stop. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -1604,14 +1606,14 @@ these parameters are writable only when the channel is off.</dd></dl>
 <p>The counter and all its associated configuration registers are placed in the reset condition. The reset is effected via the RCC peripheral reset system.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> (TIM9 .. TIM14 not yet supported here). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base (TIM9 .. TIM14 not yet supported here). </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00111">111</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8c_source.html#l00496">rcc_peripheral_clear_reset()</a>, and <a class="el" href="rcc_8c_source.html#l00475">rcc_peripheral_reset()</a>.</p>
+<p>References <a class="el" href="rcc_8h_source.html#l00052">RCC_APB1RSTR</a>, <a class="el" href="rcc_8h_source.html#l00305">RCC_APB1RSTR_TIM2RST</a>, <a class="el" href="rcc_8h_source.html#l00304">RCC_APB1RSTR_TIM3RST</a>, <a class="el" href="rcc_8h_source.html#l00303">RCC_APB1RSTR_TIM4RST</a>, <a class="el" href="rcc_8h_source.html#l00302">RCC_APB1RSTR_TIM5RST</a>, <a class="el" href="rcc_8h_source.html#l00301">RCC_APB1RSTR_TIM6RST</a>, <a class="el" href="rcc_8h_source.html#l00300">RCC_APB1RSTR_TIM7RST</a>, <a class="el" href="rcc_8h_source.html#l00051">RCC_APB2RSTR</a>, <a class="el" href="rcc_8h_source.html#l00265">RCC_APB2RSTR_TIM1RST</a>, <a class="el" href="rcc_8h_source.html#l00263">RCC_APB2RSTR_TIM8RST</a>, <a class="el" href="rcc_8c_source.html#l00496">rcc_peripheral_clear_reset()</a>, and <a class="el" href="rcc_8c_source.html#l00475">rcc_peripheral_reset()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1654,8 +1656,8 @@ Here is the call graph for this function:</div>
 <dl class="section note"><dt>Note</dt><dd>This setting is only valid for the advanced timers.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">outputs</td><td>Unsigned int32. Timer Output Idle State Controls <a class="el" href="group__tim__x__cr2__ois.html">TIMx_CR2_OIS: Force Output Idle State Control Values</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">outputs</td><td>Unsigned int32. Timer Output Idle State Controls tim_x_cr2_ois </td></tr>
   </table>
   </dd>
 </dl>
@@ -1692,8 +1694,8 @@ Here is the call graph for this function:</div>
 <p>The mode can be edge aligned or centered.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">alignment</td><td>Unsigned int32. Alignment bits in 5,6: <a class="el" href="group__tim__x__cr1__cms.html">TIMx_CR1 CMS[1:0]: Center-aligned Mode Selection</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alignment</td><td>Unsigned int32. Alignment bits in 5,6: tim_x_cr1_cms </td></tr>
   </table>
   </dd>
 </dl>
@@ -1732,7 +1734,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base TIM1 or TIM8 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">lock</td><td>Unsigned int32. Lock specification <a class="el" href="group__tim__lock.html">TIM_BDTR_LOCK Timer Lock Values</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lock</td><td>Unsigned int32. Lock specification tim_lock </td></tr>
   </table>
   </dd>
 </dl>
@@ -1825,8 +1827,8 @@ Here is the call graph for this function:</div>
 <p>This forms the sampling clock for the input filters and the dead-time clock in the advanced timers 1 and 8, by division from the timer clock.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">clock_div</td><td>Unsigned int32. Clock Divider Ratio in bits 8,9: <a class="el" href="group__tim__x__cr1__cdr.html">TIMx_CR1 CKD[1:0] Clock Division Ratio</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">clock_div</td><td>Unsigned int32. Clock Divider Ratio in bits 8,9: tim_x_cr1_cdr </td></tr>
   </table>
   </dd>
 </dl>
@@ -1864,7 +1866,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Unsigned</td><td>int32. Counter value. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>Unsigned int32. Counter value. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1992,7 +1994,7 @@ Here is the call graph for this function:</div>
 <p>Capture/compare events will cause DMA requests to be generated.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -2019,7 +2021,7 @@ Here is the call graph for this function:</div>
 <p>Update events will cause DMA requests to be generated.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -2112,8 +2114,8 @@ Here is the call graph for this function:</div>
 <p>This sets the Trigger Output TRGO for synchronizing with slave timers or passing as an internal trigger to the ADC or DAC.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Unsigned int32. Master Mode <a class="el" href="group__tim__mastermode.html">TIMx_CR2 MMS[6:4]: Master Mode Selection</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Unsigned int32. Master Mode tim_mastermode </td></tr>
   </table>
   </dd>
 </dl>
@@ -2169,10 +2171,10 @@ Here is the call graph for this function:</div>
 <dl class="section note"><dt>Note</dt><dd>: When center alignment mode is selected, count direction is controlled by hardware and cannot be written. The count direction setting has no effect in this case.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> (TIM1, TIM2 ... TIM5, TIM8) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">clock_div</td><td>Unsigned int32. Clock Divider Ratio in bits 8,9: <a class="el" href="group__tim__x__cr1__cdr.html">TIMx_CR1 CKD[1:0] Clock Division Ratio</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">alignment</td><td>Unsigned int32. Alignment bits in 5,6: <a class="el" href="group__tim__x__cr1__cms.html">TIMx_CR1 CMS[1:0]: Center-aligned Mode Selection</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">direction</td><td>Unsigned int32. Count direction in bit 4,: <a class="el" href="group__tim__x__cr1__dir.html">TIMx_CR1 DIR: Direction</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base (TIM1, TIM2 ... TIM5, TIM8) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">clock_div</td><td>Unsigned int32. Clock Divider Ratio in bits 8,9: tim_x_cr1_cdr </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alignment</td><td>Unsigned int32. Alignment bits in 5,6: tim_x_cr1_cms </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">direction</td><td>Unsigned int32. Count direction in bit 4,: tim_x_cr1_dir </td></tr>
   </table>
   </dd>
 </dl>
@@ -2194,7 +2196,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -2209,15 +2211,13 @@ Here is the call graph for this function:</div>
 <p>When this is enabled, the output compare signal is forced to the compare state by a trigger input, independently of the compare match. This speeds up the setting of the output compare to 3 clock cycles as opposed to at least 5 in the slow mode. This works in the PWM1 and PWM2 modes only.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00824">824</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2234,7 +2234,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -2250,15 +2250,13 @@ Here is the call graph for this function:</div>
 <dl class="section note"><dt>Note</dt><dd>This setting is only valid for the advanced timers.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01355">1355</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2275,7 +2273,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -2291,15 +2289,13 @@ Here is the call graph for this function:</div>
 <dl class="section note"><dt>Note</dt><dd>This setting is only valid for the advanced timers.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01404">1404</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2316,13 +2312,13 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#ga9c6be6e4ccd5dcb325f1ebe499ca5216">tim_oc_mode</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_mode&#160;</td>
           <td class="paramname"><em>oc_mode</em>&#160;</td>
         </tr>
         <tr>
@@ -2347,16 +2343,14 @@ Here is the call graph for this function:</div>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_mode</td><td>enum <a class="el" href="group__timer__defines.html#ga9c6be6e4ccd5dcb325f1ebe499ca5216" title="Output Compare mode designators.">tim_oc_mode</a>. OC mode designators. TIM_OCM_FROZEN, TIM_OCM_ACTIVE, TIM_OCM_INACTIVE, TIM_OCM_TOGGLE, TIM_OCM_FORCE_LOW, TIM_OCM_FORCE_HIGH, TIM_OCM_PWM1, TIM_OCM_PWM2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_mode</td><td>enum ::tim_oc_mode. OC mode designators. TIM_OCM_FROZEN, TIM_OCM_ACTIVE, TIM_OCM_INACTIVE, TIM_OCM_TOGGLE, TIM_OCM_FORCE_LOW, TIM_OCM_FORCE_HIGH, TIM_OCM_PWM1, TIM_OCM_PWM2 </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00904">904</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OCM_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00953">TIM_OCM_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00952">TIM_OCM_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OCM_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OCM_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00954">TIM_OCM_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00955">TIM_OCM_PWM2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00951">TIM_OCM_TOGGLE</a>.</p>
 
 </div>
 </div>
@@ -2373,7 +2367,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -2388,15 +2382,13 @@ Here is the call graph for this function:</div>
 <p>The polarity of the channel output is set active high.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01116">1116</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2413,7 +2405,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -2428,15 +2420,13 @@ Here is the call graph for this function:</div>
 <p>The polarity of the channel output is set active low.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (only for advanced timers 1 and 8) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01175">1175</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2453,7 +2443,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>&#160;</td>
         </tr>
         <tr>
@@ -2468,15 +2458,13 @@ Here is the call graph for this function:</div>
 <p>This disables the fast compare mode and the output compare depends on the counter and compare register values.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00858">858</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2493,7 +2481,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff">tim_oc_id</a>&#160;</td>
+          <td class="paramtype">enum tim_oc_id&#160;</td>
           <td class="paramname"><em>oc_id</em>, </td>
         </tr>
         <tr>
@@ -2514,16 +2502,14 @@ Here is the call graph for this function:</div>
 <p>This is a convenience function to set the OC preload register value for loading to the compare register.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> (TIM9 .. TIM14 not yet supported here). </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum <a class="el" href="group__timer__defines.html#gacd988319d070e7128b530d4ac1a4f4ff" title="Output Compare channel designators.">tim_oc_id</a> OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base (TIM9 .. TIM14 not yet supported here). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oc_id</td><td>enum ::tim_oc_id OC channel designators TIM_OCx where x=1..4, TIM_OCxN where x=1..3 (no action taken) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Unsigned int32. Compare value. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01453">1453</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
-
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00937">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00938">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00939">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00940">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00941">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00942">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2557,8 +2543,8 @@ Here is the call graph for this function:</div>
 <dl class="section note"><dt>Note</dt><dd>This setting is only valid for the advanced timers.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">outputs</td><td>Unsigned int32. Timer Output Idle State Controls <a class="el" href="group__tim__x__cr2__ois.html">TIMx_CR2_OIS: Force Output Idle State Control Values</a>. If several settings are to be made, use the logical OR of the output control values. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">outputs</td><td>Unsigned int32. Timer Output Idle State Controls tim_x_cr2_ois. If several settings are to be made, use the logical OR of the output control values. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2595,7 +2581,7 @@ Here is the call graph for this function:</div>
 <p>Specify the timer period in the auto-reload register.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">period</td><td>Unsigned int32. Period in counter clock ticks. </td></tr>
   </table>
   </dd>
@@ -2633,7 +2619,7 @@ Here is the call graph for this function:</div>
 <p>The timer clock is prescaled by the 16 bit scale value plus 1.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Unsigned int32. Prescaler values 0...0xFFFF. </td></tr>
   </table>
   </dd>
@@ -2672,7 +2658,7 @@ Here is the call graph for this function:</div>
 <dl class="section note"><dt>Note</dt><dd>This setting is only valid for the advanced timers.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Unsigned int32. Repetition values 0...0xFF. </td></tr>
   </table>
   </dd>
@@ -2700,7 +2686,7 @@ Here is the call graph for this function:</div>
 <p>The first timer capture input is taken from the timer input channel 1 only.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -2727,7 +2713,7 @@ Here is the call graph for this function:</div>
 <p>The first timer capture input is formed from the XOR of the first three timer input channels 1, 2, 3.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -2749,7 +2735,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#ga8a2a8722575e6301c3e059b9ec8f50c2">tim_ic_filter</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_filter&#160;</td>
           <td class="paramname"><em>flt</em>&#160;</td>
         </tr>
         <tr>
@@ -2770,7 +2756,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flt</td><td><a class="el" href="group__timer__defines.html#ga8a2a8722575e6301c3e059b9ec8f50c2" title="Input Capture input filter.">tim_ic_filter</a>. Input Capture Filter identifier. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flt</td><td>::tim_ic_filter. Input Capture Filter identifier. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2807,7 +2793,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Unsigned int8. Slave mode <a class="el" href="group__tim__sms.html">SMS Slave mode selection</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Unsigned int8. Slave mode tim_sms </td></tr>
   </table>
   </dd>
 </dl>
@@ -2829,7 +2815,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be">tim_et_pol</a>&#160;</td>
+          <td class="paramtype">enum tim_et_pol&#160;</td>
           <td class="paramname"><em>pol</em>&#160;</td>
         </tr>
         <tr>
@@ -2844,7 +2830,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pol</td><td><a class="el" href="group__timer__defines.html#gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be" title="Slave external trigger polarity.">tim_et_pol</a>. Slave External Trigger polarity. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pol</td><td>::tim_et_pol. Slave External Trigger polarity. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2866,7 +2852,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62">tim_ic_psc</a>&#160;</td>
+          <td class="paramtype">enum tim_ic_psc&#160;</td>
           <td class="paramname"><em>psc</em>&#160;</td>
         </tr>
         <tr>
@@ -2882,7 +2868,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">psc</td><td><a class="el" href="group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62" title="Input Capture input prescaler.">tim_ic_psc</a>. Input Capture sample clock prescaler. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">psc</td><td>::tim_ic_psc. Input Capture sample clock prescaler. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2919,7 +2905,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">trigger</td><td>Unsigned int8. Slave trigger source <a class="el" href="group__tim__ts.html">TS Trigger selection</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">trigger</td><td>Unsigned int8. Slave trigger source tim_ts </td></tr>
   </table>
   </dd>
 </dl>
@@ -2951,7 +2937,7 @@ Here is the call graph for this function:</div>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -2977,7 +2963,7 @@ Here is the call graph for this function:</div>
 <p>Set the Timer to Generate Update IRQ or DMA only from Under/Overflow Events. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base <a class="el" href="group__tim__reg__base.html">Timer register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base tim_reg_base </td></tr>
   </table>
   </dd>
 </dl>
@@ -2991,7 +2977,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:25 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

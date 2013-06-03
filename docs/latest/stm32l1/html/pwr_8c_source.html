@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('pwr_8c_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -159,16 +159,16 @@ $(document).ready(function(){initNavTree('pwr_8c_source.html','');});
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="pwr_8c.html#aa22ffb6b23613688342c73dd591dcd60">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(<a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40">vos_scale_t</a> scale)</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        PWR_CR &amp;= ~(PWR_CR_VOS_MASK);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        PWR_CR &amp;= ~(<a class="code" href="pwr_8h.html#a06db718126d979cbf61fc27991514e1a">PWR_CR_VOS_MASK</a>);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">switch</span> (scale) {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a15e188ed9b712b2d0de04db6b782c4eb">RANGE1</a>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                PWR_CR |= PWR_CR_VOS_RANGE1;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                PWR_CR |= <a class="code" href="group__pwr__vos.html#gacf97c6fa060796dc67ec47e6d897aa14">PWR_CR_VOS_RANGE1</a>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a69f2f7f39de6f1dcea47320100b82926">RANGE2</a>:</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                PWR_CR |= PWR_CR_VOS_RANGE2;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                PWR_CR |= <a class="code" href="group__pwr__vos.html#ga3428a34be04892007ffaa40a59f2492f">PWR_CR_VOS_RANGE2</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a07a05dfcddb0d6988ed06828b40a2af2">RANGE3</a>:</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                PWR_CR |= PWR_CR_VOS_RANGE3;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                PWR_CR |= <a class="code" href="group__pwr__vos.html#gab760fe0b783cb51a37e4d0089c4077fa">PWR_CR_VOS_RANGE3</a>;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
@@ -179,7 +179,7 @@ $(document).ready(function(){initNavTree('pwr_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_b85f3b2cdb5f62c5704599c879630b7f.html">l1</a></li><li class="navelem"><a class="el" href="pwr_8c.html">pwr.c</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:20 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:12 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

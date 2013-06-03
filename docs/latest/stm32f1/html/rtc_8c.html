@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('rtc_8c.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -120,7 +120,17 @@ $(document).ready(function(){initNavTree('rtc_8c.html','');});
 <div class="title">rtc.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;libopencm3/stm32/rcc.h&gt;</code><br/>
+<code>#include &lt;libopencm3/stm32/rtc.h&gt;</code><br/>
+<code>#include &lt;libopencm3/stm32/pwr.h&gt;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for rtc.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="rtc_8c__incl.png" border="0" usemap="#rtc_8c" alt=""/></div>
+<map name="rtc_8c" id="rtc_8c">
+</map>
+</div>
+</div>
 <p><a href="rtc_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
@@ -170,7 +180,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00282">282</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8c_source.html#l00041">rtc_awake_from_off()</a>, <a class="el" href="rtc_8c_source.html#l00263">rtc_awake_from_standby()</a>, and <a class="el" href="rtc_8c_source.html#l00151">rtc_set_prescale_val()</a>.</p>
+<p>References <a class="el" href="rcc_8h_source.html#l00055">RCC_APB1ENR</a>, <a class="el" href="rcc_8h_source.html#l00358">RCC_APB1ENR_BKPEN</a>, <a class="el" href="rcc_8h_source.html#l00357">RCC_APB1ENR_PWREN</a>, <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00383">RCC_BDCR_RTCEN</a>, <a class="el" href="rtc_8c_source.html#l00041">rtc_awake_from_off()</a>, <a class="el" href="rtc_8c_source.html#l00263">rtc_awake_from_standby()</a>, and <a class="el" href="rtc_8c_source.html#l00151">rtc_set_prescale_val()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -199,7 +209,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00041">41</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8h_source.html#l00494">HSE</a>, <a class="el" href="rcc_8h_source.html#l00494">HSI</a>, <a class="el" href="rcc_8h_source.html#l00494">LSE</a>, <a class="el" href="rcc_8h_source.html#l00494">LSI</a>, <a class="el" href="rcc_8h_source.html#l00494">PLL</a>, <a class="el" href="rcc_8h_source.html#l00494">PLL2</a>, <a class="el" href="rcc_8h_source.html#l00494">PLL3</a>, and <a class="el" href="rcc_8c_source.html#l01206">rcc_backupdomain_reset()</a>.</p>
+<p>References <a class="el" href="rcc_8h_source.html#l00494">HSE</a>, <a class="el" href="rcc_8h_source.html#l00494">HSI</a>, <a class="el" href="rcc_8h_source.html#l00494">LSE</a>, <a class="el" href="rcc_8h_source.html#l00494">LSI</a>, <a class="el" href="rcc_8h_source.html#l00494">PLL</a>, <a class="el" href="rcc_8h_source.html#l00494">PLL2</a>, <a class="el" href="rcc_8h_source.html#l00494">PLL3</a>, <a class="el" href="rcc_8h_source.html#l00055">RCC_APB1ENR</a>, <a class="el" href="rcc_8h_source.html#l00358">RCC_APB1ENR_BKPEN</a>, <a class="el" href="rcc_8h_source.html#l00357">RCC_APB1ENR_PWREN</a>, <a class="el" href="rcc_8c_source.html#l01206">rcc_backupdomain_reset()</a>, <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00387">RCC_BDCR_LSEON</a>, <a class="el" href="rcc_8h_source.html#l00386">RCC_BDCR_LSERDY</a>, <a class="el" href="rcc_8h_source.html#l00383">RCC_BDCR_RTCEN</a>, <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00072">RCC_CR_HSEON</a>, <a class="el" href="rcc_8h_source.html#l00071">RCC_CR_HSERDY</a>, <a class="el" href="rcc_8h_source.html#l00057">RCC_CSR</a>, <a class="el" href="rcc_8h_source.html#l00399">RCC_CSR_LSION</a>, <a class="el" href="rcc_8h_source.html#l00398">RCC_CSR_LSIRDY</a>, <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00095">RTC_CRL_RSF</a>, and <a class="el" href="rtc_8h_source.html#l00089">RTC_CRL_RTOFF</a>.</p>
 
 <p>Referenced by <a class="el" href="rtc_8c_source.html#l00282">rtc_auto_awake()</a>.</p>
 
@@ -239,6 +249,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00263">263</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
+<p>References <a class="el" href="rcc_8h_source.html#l00055">RCC_APB1ENR</a>, <a class="el" href="rcc_8h_source.html#l00358">RCC_APB1ENR_BKPEN</a>, <a class="el" href="rcc_8h_source.html#l00357">RCC_APB1ENR_PWREN</a>, <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00095">RTC_CRL_RSF</a>, and <a class="el" href="rtc_8h_source.html#l00089">RTC_CRL_RTOFF</a>.</p>
+
 <p>Referenced by <a class="el" href="rtc_8c_source.html#l00282">rtc_auto_awake()</a>.</p>
 
 <p><div class="dynheader">
@@ -268,7 +280,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00240">240</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
+<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00101">RTC_CRL_ALRF</a>, <a class="el" href="rtc_8h_source.html#l00098">RTC_CRL_OWF</a>, <a class="el" href="rtc_8h_source.html#l00104">RTC_CRL_SECF</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
 
 </div>
 </div>
@@ -288,7 +300,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00222">222</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
+<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00101">RTC_CRL_ALRF</a>, <a class="el" href="rtc_8h_source.html#l00098">RTC_CRL_OWF</a>, <a class="el" href="rtc_8h_source.html#l00104">RTC_CRL_SECF</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
 
 </div>
 </div>
@@ -308,7 +320,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00144">144</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
+<p>References <a class="el" href="rtc_8h_source.html#l00050">RTC_CRH</a>, <a class="el" href="rtc_8h_source.html#l00079">RTC_CRH_ALRIE</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -337,7 +349,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00137">137</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
+<p>References <a class="el" href="rtc_8h_source.html#l00050">RTC_CRH</a>, <a class="el" href="rtc_8h_source.html#l00079">RTC_CRH_ALRIE</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -365,6 +377,8 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00107">107</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+
+<p>References <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00092">RTC_CRL_CNF</a>, and <a class="el" href="rtc_8h_source.html#l00089">RTC_CRL_RTOFF</a>.</p>
 
 <p>Referenced by <a class="el" href="rtc_8c_source.html#l00144">rtc_disable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00137">rtc_enable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00202">rtc_interrupt_disable()</a>, <a class="el" href="rtc_8c_source.html#l00182">rtc_interrupt_enable()</a>, <a class="el" href="rtc_8c_source.html#l00129">rtc_set_alarm_time()</a>, <a class="el" href="rtc_8c_source.html#l00174">rtc_set_counter_val()</a>, and <a class="el" href="rtc_8c_source.html#l00151">rtc_set_prescale_val()</a>.</p>
 
@@ -395,6 +409,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00118">118</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
+<p>References <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00092">RTC_CRL_CNF</a>, and <a class="el" href="rtc_8h_source.html#l00089">RTC_CRL_RTOFF</a>.</p>
+
 <p>Referenced by <a class="el" href="rtc_8c_source.html#l00144">rtc_disable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00137">rtc_enable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00202">rtc_interrupt_disable()</a>, <a class="el" href="rtc_8c_source.html#l00182">rtc_interrupt_enable()</a>, <a class="el" href="rtc_8c_source.html#l00129">rtc_set_alarm_time()</a>, <a class="el" href="rtc_8c_source.html#l00174">rtc_set_counter_val()</a>, and <a class="el" href="rtc_8c_source.html#l00151">rtc_set_prescale_val()</a>.</p>
 
 <p><div class="dynheader">
@@ -424,6 +440,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00169">169</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
+<p>References <a class="el" href="rtc_8h_source.html#l00068">RTC_ALRH</a>, and <a class="el" href="rtc_8h_source.html#l00069">RTC_ALRL</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a9357c94173184a5f0ebc5d18022bde4e"></a>
@@ -441,6 +459,8 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00159">159</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+
+<p>References <a class="el" href="rtc_8h_source.html#l00064">RTC_CNTH</a>, and <a class="el" href="rtc_8h_source.html#l00065">RTC_CNTL</a>.</p>
 
 </div>
 </div>
@@ -460,6 +480,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00164">164</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
+<p>References <a class="el" href="rtc_8h_source.html#l00060">RTC_DIVH</a>, and <a class="el" href="rtc_8h_source.html#l00061">RTC_DIVL</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a4de126c91f7eedf70262a99e663a6fc5"></a>
@@ -478,7 +500,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00202">202</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
+<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00050">RTC_CRH</a>, <a class="el" href="rtc_8h_source.html#l00079">RTC_CRH_ALRIE</a>, <a class="el" href="rtc_8h_source.html#l00076">RTC_CRH_OWIE</a>, <a class="el" href="rtc_8h_source.html#l00082">RTC_CRH_SECIE</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -507,7 +529,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00182">182</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
+<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00050">RTC_CRH</a>, <a class="el" href="rtc_8h_source.html#l00079">RTC_CRH_ALRIE</a>, <a class="el" href="rtc_8h_source.html#l00076">RTC_CRH_OWIE</a>, <a class="el" href="rtc_8h_source.html#l00082">RTC_CRH_SECIE</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -536,7 +558,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00129">129</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
+<p>References <a class="el" href="rtc_8h_source.html#l00068">RTC_ALRH</a>, <a class="el" href="rtc_8h_source.html#l00069">RTC_ALRL</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -565,7 +587,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00174">174</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
+<p>References <a class="el" href="rtc_8h_source.html#l00064">RTC_CNTH</a>, <a class="el" href="rtc_8h_source.html#l00065">RTC_CNTL</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -594,7 +616,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rtc_8c_source.html#l00151">151</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
+<p>References <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>, <a class="el" href="rtc_8h_source.html#l00056">RTC_PRLH</a>, and <a class="el" href="rtc_8h_source.html#l00057">RTC_PRLL</a>.</p>
 
 <p>Referenced by <a class="el" href="rtc_8c_source.html#l00282">rtc_auto_awake()</a>.</p>
 
@@ -624,7 +646,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="rtc_8c.html">rtc.c</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:24 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

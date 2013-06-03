@@ -1,7 +1,11 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:185: warning: Member gpio_enable_ahb_aperture found in multiple @defgroup groups! The member will be put in group gpio_config, and not in group gpio_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:439: warning: Member gpio_toggle found in multiple @defgroup groups! The member will be put in group gpio_control, and not in group gpio_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:525: warning: Member gpio_configure_trigger found in multiple @defgroup groups! The member will be put in group gpio_irq, and not in group gpio_file
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:94: warning: Member uart_enable found in multiple @defgroup groups! The member will be put in group uart_config, and not in group uart_file
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:274: warning: Member uart_send found in multiple @defgroup groups! The member will be put in group uart_send_recv, and not in group uart_file
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:429: warning: Member uart_enable_interrupts found in multiple @defgroup groups! The member will be put in group uart_irq, and not in group uart_file
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:526: warning: Member uart_enable_rx_dma found in multiple @defgroup groups! The member will be put in group uart_dma, and not in group uart_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:593: warning: Member uart_enable_fifo found in multiple @defgroup groups! The member will be put in group uart_fifo, and not in group uart_file
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:198: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:200: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
@@ -394,6 +398,7 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/usb.h:384: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/gpio.h:317: warning: argument 'gpios' of command @param is not found in the argument list of gpio_port_write(u32 gpioport, u8 data)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: argument 'div' of command @param is not found in the argument list of rcc_set_pll_divisor(u8 div400)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: The following parameters of rcc_set_pll_divisor(u8 div400) are not documented:
   parameter 'div400'
@@ -405,6 +410,8 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:153: warning: argument 'bits' of command @param is not found in the argument list of uart_set_stopbits(u32 uart, u8 stopbits)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:153: warning: The following parameters of uart_set_stopbits(u32 uart, u8 stopbits) are not documented:
   parameter 'stopbits'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/gpio.h:317: warning: argument 'gpios' of command @param is not found in the argument list of gpio_port_write(u32 gpioport, u8 data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:447: warning: unable to resolve reference to `gpio_configure_int_trigger()' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: argument 'div' of command @param is not found in the argument list of rcc_set_pll_divisor(u8 div400)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:253: warning: The following parameters of rcc_set_pll_divisor(u8 div400) are not documented:
   parameter 'div400'

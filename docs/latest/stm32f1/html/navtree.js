@@ -25,7 +25,8 @@ var NAVTREE =
         [ "Functions", "globals_func.html", "globals_func" ],
         [ "Variables", "globals_vars.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ]
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -34,13 +35,21 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "adc_8c.html",
-"exti_8c.html#a0f7bda7226dd15e9d39787656f5cfd3d",
-"group__STM32F1xx__rcc__defines.html#ga94cea07a3bb5a95bbbaf3de4b7a8a23c",
-"group__i2c__defines.html#ga0871e204718f58fab7e0f557fc771892",
-"group__timer__defines.html#ga0707c846866f5260b792279eec88a7f5",
-"group__usart__file.html#gab575fd7d6b2dcb6e5419ae75169503ea",
-"rtc_8c.html#a9357c94173184a5f0ebc5d18022bde4e",
-"timer__common__all_8h.html#ga2b10c31d8ae7fc2ec8907508ed732460"
+"adc_8h.html#ga8c4e2c4b6c4ff8bbc00c6e53f277892f",
+"bkp_8h_source.html",
+"flash_8c.html#a8b840fef744d2ba6c4b7108256ec082a",
+"gpio_8h.html#ga3bdddcc7c3261e89ce5b15f1918d3cb9",
+"gpio_8h.html#gac375fe9da82088b311c56004b64587a3",
+"group__STM32F1xx__adc__file.html#gaddcab138dd47a4b6dc9357837c9f3604",
+"group__adc__defines.html#ga1a7f811f45a7affd09aef0bce17fd213",
+"group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a",
+"group__gpio__defines.html#ga05e02c7c98267054e334d607b2f5e8c5",
+"group__gpio__defines.html#gaa745dba45b4c858c38ba1a66245bdb8e",
+"group__rcc__apb1enr__en.html#ga24a9eea153892405f53007f521efee2e",
+"group__timer__file.html#ga7e34a1d15b96a337f3bec9755a192fc2",
+"rcc_8h.html#ga017674a2614bb741ddf187bbf6ebbb5f",
+"rcc_8h.html#gad32a0efcb7062b8ffbf77865951d2a54",
+"timer__common__all_8c.html#ga741240e46390f98f507d33a6bc1830ca"
 ];
 
 var navTreeSubIndices = new Array();

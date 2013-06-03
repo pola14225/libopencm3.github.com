@@ -11,16 +11,65 @@
     <filename>gpio_8c</filename>
     <member kind="function">
       <type>void</type>
-      <name>gpio_set</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga2b992000a6582e34257a0a6b83f34dee</anchor>
+      <name>gpio_enable_ahb_aperture</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>ga973a4b2fdbe9c67f34d323e8426e45e3</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_mode_setup</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>gac3ca54b7e2b154aeb9da53f8b3e905ba</anchor>
+      <arglist>(u32 gpioport, enum gpio_mode mode, enum gpio_pullup pullup, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_output_config</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>gaeb5dfc3b455c08949eb1bcd871175ec6</anchor>
+      <arglist>(u32 gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_af</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>gaa275d2d5cc2b242926f2fd113245083d</anchor>
+      <arglist>(u32 gpioport, u8 alt_func_num, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_unlock_commit</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>gad85a11697ef4bef24da7e75f7420a529</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>gpio_clear</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
+      <name>gpio_toggle</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gaf43516eb9715f3c7359c069140114c22</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_configure_trigger</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>gaa89149570d495a7f2de9e8de63976b6c</anchor>
+      <arglist>(u32 gpioport, enum gpio_trigger trigger, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_enable_interrupts</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>ga8455249d912f67fb02844a723dcceabb</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_disable_interrupts</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>gae52605679f01558f602673209ebfb232</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
   </compound>
@@ -28,18 +77,255 @@
     <name>gpio.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/</path>
     <filename>gpio_8h</filename>
+    <member kind="enumeration">
+      <name>gpio_mode</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga620d533a2ccc5296d2f6c8b95bf89fe1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_MODE_OUTPUT</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga620d533a2ccc5296d2f6c8b95bf89fe1aa5824cd687ac84449b093087c25cec7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_MODE_INPUT</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga620d533a2ccc5296d2f6c8b95bf89fe1a61ddb59c5e9a9cc6d9cf99d11a36920b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_MODE_ANALOG</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga620d533a2ccc5296d2f6c8b95bf89fe1a5a5b8916bf45f2a4ff3818fa75f85d27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>gpio_pullup</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga45e6c8e8730474e4644929cc5528400b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_PUPD_NONE</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga45e6c8e8730474e4644929cc5528400ba7807e2b9a6941fdb1326d9506af81a67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_PUPD_PULLUP</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga45e6c8e8730474e4644929cc5528400ba10489125ed48a34dd001fa33e13ae396</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_PUPD_PULLDOWN</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga45e6c8e8730474e4644929cc5528400ba700268e334e769a26b44a8bf253017d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>gpio_output_type</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gad59707c5e578193702cfb29b49b88108</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_OTYPE_PP</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggad59707c5e578193702cfb29b49b88108a6f3629cecfb427731be8487dce2970ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_OTYPE_OD</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggad59707c5e578193702cfb29b49b88108a2f6c5d8dcae60adb9f33fa337fad91ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>gpio_drive_strength</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga14eba84c1c8f80b08a770775d3bf060a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_DRIVE_2MA</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga14eba84c1c8f80b08a770775d3bf060aaea65a1945ac5ef1b9c311ce0795a136d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_DRIVE_4MA</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga14eba84c1c8f80b08a770775d3bf060aafea3985b235eba4f68685de32f0fd7a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_DRIVE_8MA</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga14eba84c1c8f80b08a770775d3bf060aa769a972b3ebbb6ad8dcf54abdb24df10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_DRIVE_8MA_SLEW_CTL</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga14eba84c1c8f80b08a770775d3bf060aa13cff51bcb9a3b105a9d0c288bf73b83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>gpio_trigger</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaf59a0ba6300bcfc24d4dbf13000a2fbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_LVL_LOW</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbeac94012614bbe9b2145034b62207cc52e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_LVL_HIGH</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbead8f2e505b5428ce834d192e911b87265</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_EDGE_FALL</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbea36956d1dafc73d361288ad3349b5ed19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_EDGE_RISE</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_EDGE_BOTH</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>BEGIN_DECLS void</type>
-      <name>gpio_set</name>
+      <name>gpio_enable_ahb_aperture</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa564feebba58c35fb47b4af84c8810ca</anchor>
+      <anchor>ga2c31c812d3e1456162b2d5a7004f8c0b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_mode_setup</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gac3ca54b7e2b154aeb9da53f8b3e905ba</anchor>
+      <arglist>(u32 gpioport, enum gpio_mode mode, enum gpio_pullup pullup, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_output_config</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaeb5dfc3b455c08949eb1bcd871175ec6</anchor>
+      <arglist>(u32 gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_af</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaa275d2d5cc2b242926f2fd113245083d</anchor>
+      <arglist>(u32 gpioport, u8 alt_func_num, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_toggle</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaf43516eb9715f3c7359c069140114c22</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>gpio_clear</name>
+      <name>gpio_unlock_commit</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
+      <anchor>gad85a11697ef4bef24da7e75f7420a529</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_configure_trigger</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaa89149570d495a7f2de9e8de63976b6c</anchor>
+      <arglist>(u32 gpioport, enum gpio_trigger trigger, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_enable_interrupts</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga8455249d912f67fb02844a723dcceabb</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_disable_interrupts</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gae52605679f01558f602673209ebfb232</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static u8</type>
+      <name>gpio_read</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gadb29085c0de18f59e471160453a0a149</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_write</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>ga80f98da8ce519c206aa60774fa8bd7fb</anchor>
+      <arglist>(u32 gpioport, u8 gpios, u8 data)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_set</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gae1ae1ae1fceffa7393e51d2be384bc4f</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_clear</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gae7e38f79b34a83bdd1b6360b81e76d3f</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static u8</type>
+      <name>gpio_port_read</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>ga2348b95cf0a72037d7f34018cc03fd96</anchor>
+      <arglist>(u32 gpioport)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_port_write</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>ga27e1eb5389ebf38b9d470e5005851552</anchor>
+      <arglist>(u32 gpioport, u8 data)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>gpio_is_interrupt_source</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>gaf9a98ff021b857053ee093777626d075</anchor>
+      <arglist>(u32 gpioport, u8 srcpins)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_clear_interrupt_flag</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>ga1229fe96162a64427017b1f84745d5a3</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
   </compound>
@@ -1868,6 +2154,27 @@
       <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
       <arglist>(u32 uart)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_fifo</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>gab3cd10b3ae6cad525820b2ad331f9362</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_fifo</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga089f1c5dca7359ccf26e29728f548765</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_fifo_trigger_levels</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>gaf2a3f0dac0cecc4d431072f68e9829d9</anchor>
+      <arglist>(u32 uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>uart.h</name>
@@ -2035,6 +2342,78 @@
       <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea19236a41b0921ff78c01940fb02a9654</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumeration">
+      <name>uart_fifo_rx_trigger_level</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gabb9ce81df1867ef09b554e02c63f9be5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_1_8</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a9a9d22fe9ad81f42dc7dd48e3c0522f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_1_4</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a698200c109ea3fb1035cc81ff5c3f34c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_1_2</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a370cf31f3500cdbd65b9d6acd71efc2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_3_4</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a4f86835a14f9d693d8982534bc2e50e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_7_8</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a73fd9cb5457a327d74fdf727be6f580e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_fifo_tx_trigger_level</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaf79e87f1a6f23cc0501f4d2e3667a848</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_7_8</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848ad73b67cad4b485679cd70f2af3fa73f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_3_4</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848a0ba87eebf5636a89499d1c75f4524fc5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_1_2</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848a6cf07bc1412bbf702f39ad478add22fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_1_4</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848a3b6765a42c9e8794949062283819221a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_1_8</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848a38c34c00f7ccd0a9424cf3d48338a4c2</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>uart_set_baudrate</name>
@@ -2177,6 +2556,27 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>uart_enable_fifo</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gab3cd10b3ae6cad525820b2ad331f9362</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_fifo</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga089f1c5dca7359ccf26e29728f548765</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_fifo_trigger_levels</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaf2a3f0dac0cecc4d431072f68e9829d9</anchor>
+      <arglist>(u32 uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>uart_enable_interrupts</name>
       <anchorfile>group__uart__defines.html</anchorfile>
       <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
@@ -2223,6 +2623,34 @@
       <anchorfile>group__uart__defines.html</anchorfile>
       <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
       <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_tx_fifo_full</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga61159b452775347036209c1ccb516a2b</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_tx_fifo_empty</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga2749cb5cc83bde92004c55c27558be88</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_rx_fifo_full</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga2efe8fa623488be63244beb71545c862</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_rx_fifo_empty</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>gaa7b271162dd8bdb3a7aed7aca8c558d1</anchor>
+      <arglist>(u32 uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
@@ -2391,20 +2819,255 @@
     <name>gpio_defines</name>
     <title>General Purpose I/O Defines</title>
     <filename>group__gpio__defines.html</filename>
+    <subgroup>gpio_reg_base</subgroup>
+    <subgroup>gpio_pin_id</subgroup>
+    <member kind="enumeration">
+      <name>gpio_mode</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga620d533a2ccc5296d2f6c8b95bf89fe1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_MODE_OUTPUT</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga620d533a2ccc5296d2f6c8b95bf89fe1aa5824cd687ac84449b093087c25cec7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_MODE_INPUT</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga620d533a2ccc5296d2f6c8b95bf89fe1a61ddb59c5e9a9cc6d9cf99d11a36920b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_MODE_ANALOG</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga620d533a2ccc5296d2f6c8b95bf89fe1a5a5b8916bf45f2a4ff3818fa75f85d27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>gpio_pullup</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga45e6c8e8730474e4644929cc5528400b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_PUPD_NONE</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga45e6c8e8730474e4644929cc5528400ba7807e2b9a6941fdb1326d9506af81a67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_PUPD_PULLUP</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga45e6c8e8730474e4644929cc5528400ba10489125ed48a34dd001fa33e13ae396</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_PUPD_PULLDOWN</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga45e6c8e8730474e4644929cc5528400ba700268e334e769a26b44a8bf253017d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>gpio_output_type</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gad59707c5e578193702cfb29b49b88108</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_OTYPE_PP</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggad59707c5e578193702cfb29b49b88108a6f3629cecfb427731be8487dce2970ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_OTYPE_OD</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggad59707c5e578193702cfb29b49b88108a2f6c5d8dcae60adb9f33fa337fad91ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>gpio_drive_strength</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga14eba84c1c8f80b08a770775d3bf060a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_DRIVE_2MA</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga14eba84c1c8f80b08a770775d3bf060aaea65a1945ac5ef1b9c311ce0795a136d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_DRIVE_4MA</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga14eba84c1c8f80b08a770775d3bf060aafea3985b235eba4f68685de32f0fd7a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_DRIVE_8MA</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga14eba84c1c8f80b08a770775d3bf060aa769a972b3ebbb6ad8dcf54abdb24df10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_DRIVE_8MA_SLEW_CTL</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gga14eba84c1c8f80b08a770775d3bf060aa13cff51bcb9a3b105a9d0c288bf73b83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>gpio_trigger</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaf59a0ba6300bcfc24d4dbf13000a2fbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_LVL_LOW</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbeac94012614bbe9b2145034b62207cc52e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_LVL_HIGH</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbead8f2e505b5428ce834d192e911b87265</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_EDGE_FALL</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbea36956d1dafc73d361288ad3349b5ed19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_EDGE_RISE</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>GPIO_TRIG_EDGE_BOTH</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>BEGIN_DECLS void</type>
-      <name>gpio_set</name>
+      <name>gpio_enable_ahb_aperture</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa564feebba58c35fb47b4af84c8810ca</anchor>
+      <anchor>ga2c31c812d3e1456162b2d5a7004f8c0b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_mode_setup</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gac3ca54b7e2b154aeb9da53f8b3e905ba</anchor>
+      <arglist>(u32 gpioport, enum gpio_mode mode, enum gpio_pullup pullup, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_output_config</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaeb5dfc3b455c08949eb1bcd871175ec6</anchor>
+      <arglist>(u32 gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_af</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaa275d2d5cc2b242926f2fd113245083d</anchor>
+      <arglist>(u32 gpioport, u8 alt_func_num, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_toggle</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaf43516eb9715f3c7359c069140114c22</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>gpio_clear</name>
+      <name>gpio_unlock_commit</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
+      <anchor>gad85a11697ef4bef24da7e75f7420a529</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_configure_trigger</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaa89149570d495a7f2de9e8de63976b6c</anchor>
+      <arglist>(u32 gpioport, enum gpio_trigger trigger, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_enable_interrupts</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga8455249d912f67fb02844a723dcceabb</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_disable_interrupts</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gae52605679f01558f602673209ebfb232</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_write</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>ga80f98da8ce519c206aa60774fa8bd7fb</anchor>
+      <arglist>(u32 gpioport, u8 gpios, u8 data)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_set</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gae1ae1ae1fceffa7393e51d2be384bc4f</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_clear</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gae7e38f79b34a83bdd1b6360b81e76d3f</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static u8</type>
+      <name>gpio_port_read</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>ga2348b95cf0a72037d7f34018cc03fd96</anchor>
+      <arglist>(u32 gpioport)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_port_write</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>ga27e1eb5389ebf38b9d470e5005851552</anchor>
+      <arglist>(u32 gpioport, u8 data)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_clear_interrupt_flag</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>ga1229fe96162a64427017b1f84745d5a3</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>gpio_reg_base</name>
+    <title>GPIO register base addresses</title>
+    <filename>group__gpio__reg__base.html</filename>
+  </compound>
+  <compound kind="group">
+    <name>gpio_pin_id</name>
+    <title>GPIO pin identifiers</title>
+    <filename>group__gpio__pin__id.html</filename>
   </compound>
   <compound kind="group">
     <name>nvic_defines</name>
@@ -4031,6 +4694,78 @@
       <anchor>ggad02c1455d23262a6dbda84d6053d1f7ea19236a41b0921ff78c01940fb02a9654</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumeration">
+      <name>uart_fifo_rx_trigger_level</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gabb9ce81df1867ef09b554e02c63f9be5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_1_8</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a9a9d22fe9ad81f42dc7dd48e3c0522f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_1_4</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a698200c109ea3fb1035cc81ff5c3f34c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_1_2</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a370cf31f3500cdbd65b9d6acd71efc2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_3_4</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a4f86835a14f9d693d8982534bc2e50e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_RX_TRIG_7_8</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggabb9ce81df1867ef09b554e02c63f9be5a73fd9cb5457a327d74fdf727be6f580e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_fifo_tx_trigger_level</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaf79e87f1a6f23cc0501f4d2e3667a848</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_7_8</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848ad73b67cad4b485679cd70f2af3fa73f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_3_4</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848a0ba87eebf5636a89499d1c75f4524fc5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_1_2</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848a6cf07bc1412bbf702f39ad478add22fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_1_4</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848a3b6765a42c9e8794949062283819221a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_FIFO_TX_TRIG_1_8</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ggaf79e87f1a6f23cc0501f4d2e3667a848a38c34c00f7ccd0a9424cf3d48338a4c2</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>BEGIN_DECLS void</type>
       <name>uart_set_baudrate</name>
@@ -4173,6 +4908,27 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>uart_enable_fifo</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gab3cd10b3ae6cad525820b2ad331f9362</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_fifo</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>ga089f1c5dca7359ccf26e29728f548765</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_fifo_trigger_levels</name>
+      <anchorfile>group__uart__defines.html</anchorfile>
+      <anchor>gaf2a3f0dac0cecc4d431072f68e9829d9</anchor>
+      <arglist>(u32 uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>uart_enable_interrupts</name>
       <anchorfile>group__uart__defines.html</anchorfile>
       <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
@@ -4219,6 +4975,27 @@
       <anchorfile>group__uart__defines.html</anchorfile>
       <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
       <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_tx_fifo_empty</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga2749cb5cc83bde92004c55c27558be88</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_rx_fifo_full</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga2efe8fa623488be63244beb71545c862</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_rx_fifo_empty</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>gaa7b271162dd8bdb3a7aed7aca8c558d1</anchor>
+      <arglist>(u32 uart)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -4337,20 +5114,149 @@
   </compound>
   <compound kind="group">
     <name>gpio_file</name>
-    <title>General Purpose I/O</title>
+    <title>GPIO</title>
     <filename>group__gpio__file.html</filename>
+    <subgroup>gpio_config</subgroup>
+    <subgroup>gpio_control</subgroup>
+    <subgroup>gpio_irq</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>gpio_config</name>
+    <title>GPIO pin configuration</title>
+    <filename>group__gpio__config.html</filename>
     <member kind="function">
       <type>void</type>
+      <name>gpio_enable_ahb_aperture</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>ga973a4b2fdbe9c67f34d323e8426e45e3</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_mode_setup</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>gac3ca54b7e2b154aeb9da53f8b3e905ba</anchor>
+      <arglist>(u32 gpioport, enum gpio_mode mode, enum gpio_pullup pullup, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_output_config</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>gaeb5dfc3b455c08949eb1bcd871175ec6</anchor>
+      <arglist>(u32 gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_af</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>gaa275d2d5cc2b242926f2fd113245083d</anchor>
+      <arglist>(u32 gpioport, u8 alt_func_num, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_unlock_commit</name>
+      <anchorfile>group__gpio__config.html</anchorfile>
+      <anchor>gad85a11697ef4bef24da7e75f7420a529</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <docanchor file="group__gpio__config">gpio_api_enable</docanchor>
+    <docanchor file="group__gpio__config">gpio_api_in</docanchor>
+    <docanchor file="group__gpio__config">gpio_api_out</docanchor>
+    <docanchor file="group__gpio__config">gpio_api_analog</docanchor>
+    <docanchor file="group__gpio__config">gpio_api_alf_func</docanchor>
+    <docanchor file="group__gpio__config">gpio_api_sfpins</docanchor>
+  </compound>
+  <compound kind="group">
+    <name>gpio_control</name>
+    <title>GPIO pin control</title>
+    <filename>group__gpio__control.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_toggle</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gaf43516eb9715f3c7359c069140114c22</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static u8</type>
+      <name>gpio_read</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gadb29085c0de18f59e471160453a0a149</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_write</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>ga80f98da8ce519c206aa60774fa8bd7fb</anchor>
+      <arglist>(u32 gpioport, u8 gpios, u8 data)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>gpio_set</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga2b992000a6582e34257a0a6b83f34dee</anchor>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gae1ae1ae1fceffa7393e51d2be384bc4f</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_clear</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>gae7e38f79b34a83bdd1b6360b81e76d3f</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static u8</type>
+      <name>gpio_port_read</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>ga2348b95cf0a72037d7f34018cc03fd96</anchor>
+      <arglist>(u32 gpioport)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_port_write</name>
+      <anchorfile>group__gpio__control.html</anchorfile>
+      <anchor>ga27e1eb5389ebf38b9d470e5005851552</anchor>
+      <arglist>(u32 gpioport, u8 data)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>gpio_irq</name>
+    <title>GPIO Interrupt control</title>
+    <filename>group__gpio__irq.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_configure_trigger</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>gaa89149570d495a7f2de9e8de63976b6c</anchor>
+      <arglist>(u32 gpioport, enum gpio_trigger trigger, u8 gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_enable_interrupts</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>ga8455249d912f67fb02844a723dcceabb</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>gpio_clear</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
+      <name>gpio_disable_interrupts</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>gae52605679f01558f602673209ebfb232</anchor>
+      <arglist>(u32 gpioport, u8 gpios)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>gpio_is_interrupt_source</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>gaf9a98ff021b857053ee093777626d075</anchor>
+      <arglist>(u32 gpioport, u8 srcpins)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>gpio_clear_interrupt_flag</name>
+      <anchorfile>group__gpio__irq.html</anchorfile>
+      <anchor>ga1229fe96162a64427017b1f84745d5a3</anchor>
       <arglist>(u32 gpioport, u8 gpios)</arglist>
     </member>
   </compound>
@@ -4526,6 +5432,7 @@
     <subgroup>uart_send_recv</subgroup>
     <subgroup>uart_irq</subgroup>
     <subgroup>uart_dma</subgroup>
+    <subgroup>uart_fifo</subgroup>
   </compound>
   <compound kind="group">
     <name>uart_config</name>
@@ -4733,6 +5640,60 @@
       <name>uart_disable_tx_dma</name>
       <anchorfile>group__uart__dma.html</anchorfile>
       <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>uart_fifo</name>
+    <title>UART FIFO control</title>
+    <filename>group__uart__fifo.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_enable_fifo</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>gab3cd10b3ae6cad525820b2ad331f9362</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_disable_fifo</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga089f1c5dca7359ccf26e29728f548765</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_set_fifo_trigger_levels</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>gaf2a3f0dac0cecc4d431072f68e9829d9</anchor>
+      <arglist>(u32 uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_tx_fifo_full</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga61159b452775347036209c1ccb516a2b</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_tx_fifo_empty</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga2749cb5cc83bde92004c55c27558be88</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_rx_fifo_full</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>ga2efe8fa623488be63244beb71545c862</anchor>
+      <arglist>(u32 uart)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>uart_is_rx_fifo_empty</name>
+      <anchorfile>group__uart__fifo.html</anchorfile>
+      <anchor>gaa7b271162dd8bdb3a7aed7aca8c558d1</anchor>
       <arglist>(u32 uart)</arglist>
     </member>
   </compound>

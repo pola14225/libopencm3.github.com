@@ -17,7 +17,6 @@ var searchData=
   ['adc_20trigger_20polarity',['ADC Trigger Polarity',['../group__adc__trigger__polarity__regular.html',1,'']]],
   ['adc_20trigger_20identifier_20for_20regular_20group',['ADC Trigger Identifier for Regular group',['../group__adc__trigger__regular.html',1,'']]],
   ['adc_20watchdog_20channel',['ADC watchdog channel',['../group__adc__watchdog__channel.html',1,'']]],
-  ['alternate_20function_20pin_20selection',['Alternate Function Pin Selection',['../group__gpio__af__num.html',1,'']]],
   ['adc_20defines',['ADC Defines',['../group__STM32F4xx__adc__defines.html',1,'']]],
   ['adc',['ADC',['../group__STM32F4xx__adc__file.html',1,'']]]
 ];

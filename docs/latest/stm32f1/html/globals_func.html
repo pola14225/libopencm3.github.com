@@ -91,6 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_vars.html"><span>Variables</span></a></li>
       <li><a href="globals_enum.html"><span>Enumerations</span></a></li>
       <li><a href="globals_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="globals_defs.html"><span>Macros</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -129,7 +130,7 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -192,7 +193,6 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 </li>
 <li>adc_disable_jeoc_interrupt()
 : <a class="el" href="group__adc__defines.html#ga9eee5deedf4ed18c0202fceff8bbb77d">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#gaaa227f236910152ce6256a251052d7ce">adc.c</a>
 </li>
 <li>adc_disable_scan_mode()
 : <a class="el" href="group__adc__defines.html#ga75e4b403cc6932aef35b4b84b56c8080">adc.h</a>
@@ -203,8 +203,8 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="group__STM32F1xx__adc__file.html#gadcfe29104bbb44d42c4121d8faacfc0c">adc.c</a>
 </li>
 <li>adc_enable_analog_watchdog_injected()
-: <a class="el" href="group__STM32F1xx__adc__file.html#ga46ea7596440e650c5640012aa74f2d21">adc.c</a>
-, <a class="el" href="group__adc__defines.html#ga46ea7596440e650c5640012aa74f2d21">adc.h</a>
+: <a class="el" href="group__adc__defines.html#ga46ea7596440e650c5640012aa74f2d21">adc.h</a>
+, <a class="el" href="group__STM32F1xx__adc__file.html#ga46ea7596440e650c5640012aa74f2d21">adc.c</a>
 </li>
 <li>adc_enable_analog_watchdog_on_all_channels()
 : <a class="el" href="group__adc__defines.html#ga4887c1c1739ade1c0554df5f2f67dd42">adc.h</a>
@@ -256,7 +256,6 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 </li>
 <li>adc_enable_jeoc_interrupt()
 : <a class="el" href="group__adc__defines.html#gaf8e7daa0eede413f3cfab0d2b2be3633">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#ga5ba5d3a7933589c86ae9402ad821e745">adc.c</a>
 </li>
 <li>adc_enable_scan_mode()
 : <a class="el" href="group__adc__defines.html#gac3658741ed79f6d6ec561d790f0c3531">adc.h</a>
@@ -267,12 +266,12 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="group__STM32F1xx__adc__file.html#ga39433b5b817fc20cdfa72d0a965a38a6">adc.c</a>
 </li>
 <li>adc_eoc()
-: <a class="el" href="group__STM32F1xx__adc__file.html#ga830b0fc9370508bf04dc1b01cc09badb">adc.c</a>
-, <a class="el" href="group__adc__defines.html#ga830b0fc9370508bf04dc1b01cc09badb">adc.h</a>
+: <a class="el" href="group__adc__defines.html#ga830b0fc9370508bf04dc1b01cc09badb">adc.h</a>
+, <a class="el" href="group__STM32F1xx__adc__file.html#ga830b0fc9370508bf04dc1b01cc09badb">adc.c</a>
 </li>
 <li>adc_eoc_injected()
-: <a class="el" href="group__adc__defines.html#ga186bfcb2659dfafb0c342c1975472f25">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#ga186bfcb2659dfafb0c342c1975472f25">adc.c</a>
+: <a class="el" href="group__STM32F1xx__adc__file.html#ga186bfcb2659dfafb0c342c1975472f25">adc.c</a>
+, <a class="el" href="group__adc__defines.html#ga186bfcb2659dfafb0c342c1975472f25">adc.h</a>
 </li>
 <li>adc_off()
 : <a class="el" href="group__adc__defines.html#ga81d7963a320361ba7343eb3d094faaba">adc.h</a>
@@ -283,16 +282,16 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="group__STM32F1xx__adc__file.html#ga74bdf134679d1224538ccc0fed2feb77">adc.c</a>
 </li>
 <li>adc_power_on()
-: <a class="el" href="group__STM32F1xx__adc__file.html#ga887a6fe0bbf2610f2ab0f8a7ab3bce40">adc.c</a>
-, <a class="el" href="group__adc__defines.html#ga85c7730e97e8faff833ad787087aaea3">adc.h</a>
+: <a class="el" href="group__adc__defines.html#ga85c7730e97e8faff833ad787087aaea3">adc.h</a>
+, <a class="el" href="group__STM32F1xx__adc__file.html#ga887a6fe0bbf2610f2ab0f8a7ab3bce40">adc.c</a>
 </li>
 <li>adc_read_injected()
-: <a class="el" href="group__adc__defines.html#gafdcca79192331fc42e3241caddd6f7ef">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#gafdcca79192331fc42e3241caddd6f7ef">adc.c</a>
+: <a class="el" href="group__STM32F1xx__adc__file.html#gafdcca79192331fc42e3241caddd6f7ef">adc.c</a>
+, <a class="el" href="group__adc__defines.html#gafdcca79192331fc42e3241caddd6f7ef">adc.h</a>
 </li>
 <li>adc_read_regular()
-: <a class="el" href="group__STM32F1xx__adc__file.html#ga0cb788d1d9e54f4ccf9fc8b3b95656ff">adc.c</a>
-, <a class="el" href="group__adc__defines.html#ga0cb788d1d9e54f4ccf9fc8b3b95656ff">adc.h</a>
+: <a class="el" href="group__adc__defines.html#ga0cb788d1d9e54f4ccf9fc8b3b95656ff">adc.h</a>
+, <a class="el" href="group__STM32F1xx__adc__file.html#ga0cb788d1d9e54f4ccf9fc8b3b95656ff">adc.c</a>
 </li>
 <li>adc_reset_calibration()
 : <a class="el" href="group__adc__defines.html#ga4f4b72567aa568d180688708b4df9d48">adc.h</a>
@@ -300,62 +299,59 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 </li>
 <li>adc_set_continous_conversion_mode()
 : <a class="el" href="group__adc__defines.html#gaddfdf8bb682d12648252c8d1d1ff25db">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#ga7a46f4564ba3ce1fa78cc8478c88c201">adc.c</a>
 </li>
 <li>adc_set_continuous_conversion_mode()
-: <a class="el" href="group__adc__defines.html#ga187af0456ee41251a4ccb9de164eb077">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#ga187af0456ee41251a4ccb9de164eb077">adc.c</a>
+: <a class="el" href="group__STM32F1xx__adc__file.html#ga187af0456ee41251a4ccb9de164eb077">adc.c</a>
+, <a class="el" href="group__adc__defines.html#ga187af0456ee41251a4ccb9de164eb077">adc.h</a>
 </li>
 <li>adc_set_conversion_time()
 : <a class="el" href="group__adc__defines.html#gad2725e57f017905c1aff942d1861a7a8">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#gaa31900416a9a3fd7c395f1c60a42a1b1">adc.c</a>
 </li>
 <li>adc_set_conversion_time_on_all_channels()
-: <a class="el" href="group__STM32F1xx__adc__file.html#ga5730fa262951ddbab44d629513350cef">adc.c</a>
-, <a class="el" href="group__adc__defines.html#gaa7e414a11da4f3215f4125fabf518564">adc.h</a>
+: <a class="el" href="group__adc__defines.html#gaa7e414a11da4f3215f4125fabf518564">adc.h</a>
 </li>
 <li>adc_set_dual_mode()
-: <a class="el" href="group__STM32F1xx__adc__file.html#gadc06dcc9c3e6f652f18dc7280feb2c11">adc.c</a>
-, <a class="el" href="group__adc__defines.html#gadc06dcc9c3e6f652f18dc7280feb2c11">adc.h</a>
+: <a class="el" href="group__adc__defines.html#gadc06dcc9c3e6f652f18dc7280feb2c11">adc.h</a>
+, <a class="el" href="group__STM32F1xx__adc__file.html#gadc06dcc9c3e6f652f18dc7280feb2c11">adc.c</a>
 </li>
 <li>adc_set_injected_offset()
-: <a class="el" href="group__STM32F1xx__adc__file.html#ga43bffb4e87049a19ea8ed264a6004285">adc.c</a>
-, <a class="el" href="group__adc__defines.html#ga43bffb4e87049a19ea8ed264a6004285">adc.h</a>
+: <a class="el" href="group__adc__defines.html#ga43bffb4e87049a19ea8ed264a6004285">adc.h</a>
+, <a class="el" href="group__STM32F1xx__adc__file.html#ga43bffb4e87049a19ea8ed264a6004285">adc.c</a>
 </li>
 <li>adc_set_injected_sequence()
-: <a class="el" href="group__STM32F1xx__adc__file.html#ga1a7f811f45a7affd09aef0bce17fd213">adc.c</a>
-, <a class="el" href="group__adc__defines.html#ga1a7f811f45a7affd09aef0bce17fd213">adc.h</a>
+: <a class="el" href="group__adc__defines.html#ga1a7f811f45a7affd09aef0bce17fd213">adc.h</a>
+, <a class="el" href="group__STM32F1xx__adc__file.html#ga1a7f811f45a7affd09aef0bce17fd213">adc.c</a>
 </li>
 <li>adc_set_left_aligned()
-: <a class="el" href="group__adc__defines.html#gabcc9f948ac15e47f1b8d0084018fbbaa">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#gabcc9f948ac15e47f1b8d0084018fbbaa">adc.c</a>
+: <a class="el" href="group__STM32F1xx__adc__file.html#gabcc9f948ac15e47f1b8d0084018fbbaa">adc.c</a>
+, <a class="el" href="group__adc__defines.html#gabcc9f948ac15e47f1b8d0084018fbbaa">adc.h</a>
 </li>
 <li>adc_set_regular_sequence()
-: <a class="el" href="group__adc__defines.html#gaaf0c33fdbed4e8ea63b6c0ee3030d9ea">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#gaaf0c33fdbed4e8ea63b6c0ee3030d9ea">adc.c</a>
+: <a class="el" href="group__STM32F1xx__adc__file.html#gaaf0c33fdbed4e8ea63b6c0ee3030d9ea">adc.c</a>
+, <a class="el" href="group__adc__defines.html#gaaf0c33fdbed4e8ea63b6c0ee3030d9ea">adc.h</a>
 </li>
 <li>adc_set_right_aligned()
 : <a class="el" href="group__adc__defines.html#ga0990e90f5815264493f75ff61b771477">adc.h</a>
 , <a class="el" href="group__STM32F1xx__adc__file.html#ga0990e90f5815264493f75ff61b771477">adc.c</a>
 </li>
 <li>adc_set_sample_time()
-: <a class="el" href="group__adc__defines.html#ga9d08047fceee749485a72be74764db5c">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#ga9d08047fceee749485a72be74764db5c">adc.c</a>
+: <a class="el" href="group__STM32F1xx__adc__file.html#ga9d08047fceee749485a72be74764db5c">adc.c</a>
+, <a class="el" href="group__adc__defines.html#ga9d08047fceee749485a72be74764db5c">adc.h</a>
 </li>
 <li>adc_set_sample_time_on_all_channels()
-: <a class="el" href="group__adc__defines.html#gaa6db4d6f3d5102470bb1ea84928f7713">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#gaa6db4d6f3d5102470bb1ea84928f7713">adc.c</a>
+: <a class="el" href="group__STM32F1xx__adc__file.html#gaa6db4d6f3d5102470bb1ea84928f7713">adc.c</a>
+, <a class="el" href="group__adc__defines.html#gaa6db4d6f3d5102470bb1ea84928f7713">adc.h</a>
 </li>
 <li>adc_set_single_channel()
 : <a class="el" href="group__adc__defines.html#gaddc132cf4636ce45eb772c62d6167794">adc.h</a>
 </li>
 <li>adc_set_single_conversion_mode()
-: <a class="el" href="group__adc__defines.html#ga037cddef7f977288dde6a2a9bfe9ab69">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#ga037cddef7f977288dde6a2a9bfe9ab69">adc.c</a>
+: <a class="el" href="group__STM32F1xx__adc__file.html#ga037cddef7f977288dde6a2a9bfe9ab69">adc.c</a>
+, <a class="el" href="group__adc__defines.html#ga037cddef7f977288dde6a2a9bfe9ab69">adc.h</a>
 </li>
 <li>adc_set_watchdog_high_threshold()
-: <a class="el" href="group__adc__defines.html#gaa2eac9de2e231fe46adaba9d81f82b08">adc.h</a>
-, <a class="el" href="group__STM32F1xx__adc__file.html#gaa2eac9de2e231fe46adaba9d81f82b08">adc.c</a>
+: <a class="el" href="group__STM32F1xx__adc__file.html#gaa2eac9de2e231fe46adaba9d81f82b08">adc.c</a>
+, <a class="el" href="group__adc__defines.html#gaa2eac9de2e231fe46adaba9d81f82b08">adc.h</a>
 </li>
 <li>adc_set_watchdog_low_threshold()
 : <a class="el" href="group__adc__defines.html#gab12fb7ddc1517f1d06990daf82c04a70">adc.h</a>
@@ -370,8 +366,8 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="group__STM32F1xx__adc__file.html#ga162cfe07991774853c1dd30770c282f9">adc.c</a>
 </li>
 <li>adc_start_conversion_regular()
-: <a class="el" href="group__STM32F1xx__adc__file.html#gaf8822481db78523a0d252dde571c17db">adc.c</a>
-, <a class="el" href="group__adc__defines.html#gaf8822481db78523a0d252dde571c17db">adc.h</a>
+: <a class="el" href="group__adc__defines.html#gaf8822481db78523a0d252dde571c17db">adc.h</a>
+, <a class="el" href="group__STM32F1xx__adc__file.html#gaf8822481db78523a0d252dde571c17db">adc.c</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -379,7 +375,7 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:25 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

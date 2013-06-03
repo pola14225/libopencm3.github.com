@@ -1,5 +1,5 @@
 <map id="rcc_clock_setup_hse_3v3" name="rcc_clock_setup_hse_3v3">
-<area shape="rect" id="node3" href="$flash__common__f24_8h.html#a66164f6799767f17d6f6e845c4c5039e" title="flash_set_ws" alt="" coords="257,5,356,35"/>
+<area shape="rect" id="node3" href="$flash__common__f24_8c.html#a66164f6799767f17d6f6e845c4c5039e" title="flash_set_ws" alt="" coords="257,5,356,35"/>
 <area shape="rect" id="node5" href="$rcc_8h.html#a8dbd64d58e019803bf109609203d1afd" title="rcc_osc_on" alt="" coords="263,59,351,88"/>
 <area shape="rect" id="node7" href="$rcc_8h.html#a587f5be40f38a0bf0418ae4125129dc0" title="rcc_set_hpre" alt="" coords="259,112,355,141"/>
 <area shape="rect" id="node9" href="$rcc_8h.html#aa615cefb749e25ad3a7a6a1e2f6df423" title="rcc_set_main_pll_hse" alt="" coords="233,165,380,195"/>

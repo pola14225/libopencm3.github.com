@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('group__iwdg__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('group__iwdg__file.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">IWDG</div>  </div>
@@ -127,6 +128,12 @@ Collaboration diagram for IWDG:</div>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gac3a052b86bfb2e144bff152e95ec8f2b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__iwdg__file.html#gac3a052b86bfb2e144bff152e95ec8f2b">LSI_FREQUENCY</a>&#160;&#160;&#160;32000</td></tr>
+<tr class="memitem:gaac5931de084e9f80c7b1ab0f0e2843ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__iwdg__file.html#gaac5931de084e9f80c7b1ab0f0e2843ca">COUNT_LENGTH</a>&#160;&#160;&#160;12</td></tr>
+<tr class="memitem:ga321c7b6be759f7ebe121991742274d46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__iwdg__file.html#ga321c7b6be759f7ebe121991742274d46">COUNT_MASK</a>&#160;&#160;&#160;((1 &lt;&lt; <a class="el" href="group__iwdg__file.html#gaac5931de084e9f80c7b1ab0f0e2843ca">COUNT_LENGTH</a>)-1)</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga37118c514f7cc1ada7f28157de603a02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__iwdg__file.html#ga37118c514f7cc1ada7f28157de603a02">iwdg_start</a> (void)</td></tr>
@@ -150,6 +157,51 @@ Functions</h2></td></tr>
 <p>The watchdog timer uses the LSI (low speed internal) clock which is low power and continues to operate during stop and standby modes. Its frequency is nominally 32kHz (40kHz for the STM32F1xx series) but can vary from as low as 17kHz up to 60kHz (refer to datasheet electrical characteristics).</p>
 <p>Note that the User Configuration option byte provides a means of automatically enabling the IWDG timer at power on (with counter value 0xFFF). If the relevant bit is not set, the IWDG timer must be enabled by software.</p>
 <dl class="section note"><dt>Note</dt><dd>: Tested: CPU STM32F103RET6, Board ET-ARM Stamp STM32 </dd></dl>
+<h2>Macro Definition Documentation</h2>
+<a class="anchor" id="gaac5931de084e9f80c7b1ab0f0e2843ca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define COUNT_LENGTH&#160;&#160;&#160;12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00042">42</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga321c7b6be759f7ebe121991742274d46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define COUNT_MASK&#160;&#160;&#160;((1 &lt;&lt; <a class="el" href="group__iwdg__file.html#gaac5931de084e9f80c7b1ab0f0e2843ca">COUNT_LENGTH</a>)-1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00043">43</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+
+<p>Referenced by <a class="el" href="iwdg__common__all_8c_source.html#l00073">iwdg_set_period_ms()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac3a052b86bfb2e144bff152e95ec8f2b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LSI_FREQUENCY&#160;&#160;&#160;32000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00041">41</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
+
+</div>
+</div>
 <h2>Function Documentation</h2>
 <a class="anchor" id="gab5d11cd4f7d3c567c12acb26742d1eee"></a>
 <div class="memitem">
@@ -262,14 +314,14 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="iwdg__common__all_8c_source.html#l00073">73</a> of file <a class="el" href="iwdg__common__all_8c_source.html">iwdg_common_all.c</a>.</p>
 
-<p>References <a class="el" href="iwdg__common__all_8c_source.html#l00118">iwdg_prescaler_busy()</a>, and <a class="el" href="iwdg__common__all_8c_source.html#l00106">iwdg_reload_busy()</a>.</p>
+<p>References <a class="el" href="iwdg__common__all_8c_source.html#l00043">COUNT_MASK</a>, <a class="el" href="iwdg__common__all_8c_source.html#l00118">iwdg_prescaler_busy()</a>, and <a class="el" href="iwdg__common__all_8c_source.html#l00106">iwdg_reload_busy()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__iwdg__file_gaa4f196e28e96c7901f9ff25a5c7fd20d_cgraph.png" border="0" usemap="#group__iwdg__file_gaa4f196e28e96c7901f9ff25a5c7fd20d_cgraph" alt=""/></div>
 <map name="group__iwdg__file_gaa4f196e28e96c7901f9ff25a5c7fd20d_cgraph" id="group__iwdg__file_gaa4f196e28e96c7901f9ff25a5c7fd20d_cgraph">
-<area shape="rect" id="node3" href="group__iwdg__defines.html#gab5d11cd4f7d3c567c12acb26742d1eee" title="IWDG Get Prescaler Register Status." alt="" coords="195,5,339,35"/><area shape="rect" id="node5" href="group__iwdg__defines.html#gaa9844c03c29a289e394398d646e52187" title="IWDG Get Reload Register Status." alt="" coords="204,59,329,88"/></map>
+<area shape="rect" id="node3" href="group__iwdg__file.html#gab5d11cd4f7d3c567c12acb26742d1eee" title="IWDG Get Prescaler Register Status." alt="" coords="195,5,339,35"/><area shape="rect" id="node5" href="group__iwdg__file.html#gaa9844c03c29a289e394398d646e52187" title="IWDG Get Reload Register Status." alt="" coords="204,59,329,88"/></map>
 </div>
 </p>
 
@@ -301,7 +353,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:30 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:22 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

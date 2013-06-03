@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('group__rtc__defines.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -109,8 +109,6 @@ $(document).ready(function(){initNavTree('group__rtc__defines.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">RTC Defines</div>  </div>
 <div class="ingroups"><a class="el" href="group__STM32L1xx__defines.html">STM32L1xx Defines</a></div></div><!--header-->
@@ -126,178 +124,17 @@ Collaboration diagram for RTC Defines:</div>
 <area shape="rect" id="node1" href="group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series." alt="" coords="5,5,147,35"/></map>
 </td></tr></table></center>
 </div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ga58bc5a210650415afcd3770950355c46"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga58bc5a210650415afcd3770950355c46">rtc_set_prescaler</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sync, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> async)</td></tr>
-<tr class="memdesc:ga58bc5a210650415afcd3770950355c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set RTC prescalars.  <a href="#ga58bc5a210650415afcd3770950355c46"></a><br/></td></tr>
-<tr class="memitem:ga28b448062099ceb6ab758b85d1ddb785"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_wait_for_synchro</a> (void)</td></tr>
-<tr class="memdesc:ga28b448062099ceb6ab758b85d1ddb785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for RTC registers to be synchronised with the APB1 bus.  <a href="#ga28b448062099ceb6ab758b85d1ddb785"></a><br/></td></tr>
-<tr class="memitem:ga3e70e56710b30885a46bae6e88a36f9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga3e70e56710b30885a46bae6e88a36f9b">rtc_lock</a> (void)</td></tr>
-<tr class="memdesc:ga3e70e56710b30885a46bae6e88a36f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock write access to the RTC registers.  <a href="#ga3e70e56710b30885a46bae6e88a36f9b"></a><br/></td></tr>
-<tr class="memitem:ga25813ce258a0d4d2865ec883fea0175b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga25813ce258a0d4d2865ec883fea0175b">rtc_unlock</a> (void)</td></tr>
-<tr class="memdesc:ga25813ce258a0d4d2865ec883fea0175b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock write access to the RTC registers.  <a href="#ga25813ce258a0d4d2865ec883fea0175b"></a><br/></td></tr>
-<tr class="memitem:ga7885e411216e5bca89417c0f8b0591a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga7885e411216e5bca89417c0f8b0591a8">rtc_set_wakeup_time</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> wkup_time, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> rtc_cr_wucksel)</td></tr>
-<tr class="memdesc:ga7885e411216e5bca89417c0f8b0591a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the wakeup time auto-reload value.  <a href="#ga7885e411216e5bca89417c0f8b0591a8"></a><br/></td></tr>
-<tr class="memitem:gaf12d879a95330d644ab2ec4490004de5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gaf12d879a95330d644ab2ec4490004de5">rtc_clear_wakeup_flag</a> (void)</td></tr>
-<tr class="memdesc:gaf12d879a95330d644ab2ec4490004de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the wakeup flag.  <a href="#gaf12d879a95330d644ab2ec4490004de5"></a><br/></td></tr>
-</table>
-<a name="details" id="details"></a><h2>Detailed Description</h2>
 <p><b>Defined Constants and Types for the STM32L1xx RTC</b> </p>
 <dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
 <dl class="section date"><dt>Date</dt><dd>5 December 2012</dd></dl>
 <p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2012 Karl Palsson <a href="#" onclick="location.href='mai'+'lto:'+'kar'+'lp'+'@tw'+'ea'+'k.n'+'et'+'.au'; return false;">karlp<span style="display: none;">.nosp@m.</span>@twe<span style="display: none;">.nosp@m.</span>ak.ne<span style="display: none;">.nosp@m.</span>t.au</a> </dd></dl>
-<h2>Function Documentation</h2>
-<a class="anchor" id="gaf12d879a95330d644ab2ec4490004de5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_clear_wakeup_flag </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Clears the wakeup flag. </p>
-<p>This function should be called first in the rtc_wkup_isr() </p>
-
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00109">109</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga3e70e56710b30885a46bae6e88a36f9b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_lock </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Lock write access to the RTC registers. </p>
-
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00078">78</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga58bc5a210650415afcd3770950355c46"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void rtc_set_prescaler </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>sync</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>async</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set RTC prescalars. </p>
-<p>This sets the RTC synchronous and asynchronous prescalars. </p>
-
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00036">36</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga7885e411216e5bca89417c0f8b0591a8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_set_wakeup_time </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td>
-          <td class="paramname"><em>wkup_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
-          <td class="paramname"><em>rtc_cr_wucksel</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the wakeup time auto-reload value. </p>
-
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00086">86</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga25813ce258a0d4d2865ec883fea0175b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_unlock </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Unlock write access to the RTC registers. </p>
-
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00069">69</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga28b448062099ceb6ab758b85d1ddb785"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_wait_for_synchro </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Wait for RTC registers to be synchronised with the APB1 bus. </p>
-<p>Time and Date are accessed through shadow registers which must be synchronized </p>
-
-<p>Definition at line <a class="el" href="rtc__common__bcd_8c_source.html#l00051">51</a> of file <a class="el" href="rtc__common__bcd_8c_source.html">rtc_common_bcd.c</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:20 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:13 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

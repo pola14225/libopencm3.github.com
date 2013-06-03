@@ -1,3 +1,5 @@
 <map id="General Purpose I/O Defines" name="General Purpose I/O Defines">
-<area shape="rect" id="node2" href="$group__LM4Fxx__defines.html" title="Defined Constants and Types for the LM4F series." alt="" coords="5,13,109,43"/>
+<area shape="rect" id="node1" href="$group__gpio__pin__id.html" title="GPIO pin identifiers" alt="" coords="347,5,483,35"/>
+<area shape="rect" id="node2" href="$group__gpio__reg__base.html" title="GPIO register base\l addresses" alt="" coords="348,58,481,105"/>
+<area shape="rect" id="node4" href="$group__LM4Fxx__defines.html" title="Defined Constants and Types for the LM4F series." alt="" coords="5,36,109,65"/>
 </map>

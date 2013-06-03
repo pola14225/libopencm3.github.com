@@ -1,5 +1,7 @@
 var dac__common__all_8c =
 [
+    [ "MASK12", "dac__common__all_8c.html#gaadc521eaef05336daa84e25cfaa8b793", null ],
+    [ "MASK8", "dac__common__all_8c.html#ga0702746ecb6d016a15f759948f39ef69", null ],
     [ "dac_buffer_disable", "dac__common__all_8c.html#ga9fb96b4d44b951974e57c093faed0611", null ],
     [ "dac_buffer_enable", "dac__common__all_8c.html#gae474e0c35329b87c281c933afe656228", null ],
     [ "dac_disable", "dac__common__all_8c.html#ga22d83a8b387dffeed4a134ee25d0fa8b", null ],

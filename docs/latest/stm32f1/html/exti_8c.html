@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('exti_8c.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -120,7 +120,16 @@ $(document).ready(function(){initNavTree('exti_8c.html','');});
 <div class="title">exti.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;libopencm3/stm32/exti.h&gt;</code><br/>
+<code>#include &lt;<a class="el" href="gpio_8h_source.html">libopencm3/stm32/f1/gpio.h</a>&gt;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for exti.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="exti_8c__incl.png" border="0" usemap="#exti_8c" alt=""/></div>
+<map name="exti_8c" id="exti_8c">
+<area shape="rect" id="node5" href="gpio_8h.html" title="libopencm3/stm32/f1\l/gpio.h" alt="" coords="192,83,333,130"/><area shape="rect" id="node9" href="gpio__common__all_8h.html" title="libopencm3/stm32/common\l/gpio_common_all.h" alt="" coords="283,179,464,226"/></map>
+</div>
+</div>
 <p><a href="exti_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
@@ -231,6 +240,8 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="exti_8c_source.html#l00082">82</a> of file <a class="el" href="exti_8c_source.html">exti.c</a>.</p>
 
+<p>References <a class="el" href="gpio_8h_source.html#l00669">AFIO_EXTICR1</a>, <a class="el" href="gpio_8h_source.html#l00672">AFIO_EXTICR2</a>, <a class="el" href="gpio_8h_source.html#l00675">AFIO_EXTICR3</a>, <a class="el" href="gpio_8h_source.html#l00678">AFIO_EXTICR4</a>, <a class="el" href="gpio_8h_source.html#l00050">GPIOA</a>, <a class="el" href="gpio_8h_source.html#l00051">GPIOB</a>, <a class="el" href="gpio_8h_source.html#l00052">GPIOC</a>, <a class="el" href="gpio_8h_source.html#l00053">GPIOD</a>, <a class="el" href="gpio_8h_source.html#l00054">GPIOE</a>, <a class="el" href="gpio_8h_source.html#l00055">GPIOF</a>, and <a class="el" href="gpio_8h_source.html#l00056">GPIOG</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a96a34cf8cf9e86b79323dfab823163b1"></a>
@@ -267,7 +278,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="exti_8c.html">exti.c</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:24 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

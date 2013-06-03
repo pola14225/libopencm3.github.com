@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -164,9 +164,9 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/* Timer 2/3 option register (TIMx_OR) */</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#define TIM_OR(tim_base)                MMIO32(tim_base + 0x50)</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TIM2_OR                         TIM_OR(TIM2)</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TIM3_OR                         TIM_OR(TIM3)</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="code" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">   46</a></span>&#160;<span class="preprocessor">#define TIM_OR(tim_base)                MMIO32(tim_base + 0x50)</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="code" href="timer_8h.html#a1d0a9ed79cfba2ccd0606a8a887224af">   47</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TIM2_OR                         TIM_OR(TIM2)</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="code" href="timer_8h.html#a298fb778fe0c87ec4872685814f696a6">   48</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TIM3_OR                         TIM_OR(TIM3)</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">/* --- TIMx_OR values ---------------------------------------------------- */</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
@@ -177,11 +177,11 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">@{*/</span><span class="comment"></span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">/** Internal Trigger 1 remapped to timer 10 output compare */</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#define TIM2_OR_ITR1_RMP_TIM10_OC       (0x0 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="code" href="group__tim2__opt__trigger__remap.html#ga548312ccffd997d5d7170c36a278a040">   59</a></span>&#160;<span class="preprocessor">#define TIM2_OR_ITR1_RMP_TIM10_OC       (0x0 &lt;&lt; 0)</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span><span class="comment">/** Internal Trigger 1 remapped to timer 5 TGO */</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#define TIM2_OR_ITR1_RMP_TIM5_TGO       (0x1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="code" href="group__tim2__opt__trigger__remap.html#ga57ad548663cb535ee6f13e46bb373b35">   61</a></span>&#160;<span class="preprocessor">#define TIM2_OR_ITR1_RMP_TIM5_TGO       (0x1 &lt;&lt; 0)</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#define TIM3_OR_ITR1_RMP_MASK           (0x1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="code" href="timer_8h.html#ac955240beeed0397747a45559bd0bb1f">   63</a></span>&#160;<span class="preprocessor">#define TIM3_OR_ITR1_RMP_MASK           (0x1 &lt;&lt; 0)</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/* --- TIMx_OR values ---------------------------------------------------- */</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
@@ -192,11 +192,11 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">@{*/</span><span class="comment"></span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">/** Internal Trigger 1 remapped to timer 11 output compare */</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#define TIM3_OR_ITR2_RMP_TIM8_TRGOU     (0x0 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="code" href="group__tim3__opt__trigger__remap.html#ga0d81dfdef6920c9c42d69c8f8daa807b">   74</a></span>&#160;<span class="preprocessor">#define TIM3_OR_ITR2_RMP_TIM8_TRGOU     (0x0 &lt;&lt; 0)</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor"></span><span class="comment">/** Internal Trigger 1 remapped to timer 5 TGO */</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#define TIM3_OR_ITR2_RMP_PTP            (0x1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="code" href="group__tim3__opt__trigger__remap.html#ga78dabbfa772e50b993545d3ddce6a140">   76</a></span>&#160;<span class="preprocessor">#define TIM3_OR_ITR2_RMP_PTP            (0x1 &lt;&lt; 0)</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#define TIM3_OR_ITR2_RMP_MASK           (0x1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="code" href="timer_8h.html#a4fa62620b78871454940077d1ce9ac78">   78</a></span>&#160;<span class="preprocessor">#define TIM3_OR_ITR2_RMP_MASK           (0x1 &lt;&lt; 0)</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">/* --- Function prototypes ------------------------------------------------- */</span></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
@@ -213,7 +213,7 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_5042fe5b58720bedf351b6ae0cadd586.html">l1</a></li><li class="navelem"><a class="el" href="timer_8h.html">timer.h</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:20 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:12 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

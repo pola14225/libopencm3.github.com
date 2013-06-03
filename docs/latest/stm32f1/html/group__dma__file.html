@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('group__dma__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -263,8 +263,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: <a class="el" href="group__dma__ch.html">DMA Channel Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Logical OR of interrupt numbers: <a class="el" href="group__dma__if__offset.html">DMA Interrupt Flag Offsets within channel flag group.</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: dma_ch </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Logical OR of interrupt numbers: dma_if_offset </td></tr>
   </table>
   </dd>
 </dl>
@@ -832,8 +832,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: <a class="el" href="group__dma__ch.html">DMA Channel Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: <a class="el" href="group__dma__ch.html">DMA Channel Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: dma_ch </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: dma_if_offset </td></tr>
   </table>
   </dd>
 </dl>
@@ -924,7 +924,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width <a class="el" href="group__dma__ch__memwidth.html">DMA Channel Memory Word Width</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width dma_ch_memwidth. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1060,7 +1060,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width <a class="el" href="group__dma__ch__perwidth.html">DMA Channel Peripheral Word Width</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width dma_ch_perwidth. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1105,7 +1105,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level <a class="el" href="group__dma__ch__pri.html">DMA Channel Priority Levels</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level dma_ch_pri. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1195,7 +1195,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:25 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -1,5 +1,6 @@
 var group__timer__file =
 [
+    [ "ADVANCED_TIMERS", "group__timer__file.html#ga711ae4623ab95c5cad3d35fd10cb2859", null ],
     [ "timer_clear_flag", "group__timer__file.html#ga08949f4ce2e140ebc2dd4c404431e06f", null ],
     [ "timer_continuous_mode", "group__timer__file.html#ga4deb7a1c4f1f8b7899201db36f4abbe0", null ],
     [ "timer_direction_down", "group__timer__file.html#ga6a84ea5503d1610e0f8d746ba12142ce", null ],

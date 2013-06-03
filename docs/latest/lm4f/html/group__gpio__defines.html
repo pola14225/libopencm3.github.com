@@ -109,6 +109,8 @@ $(document).ready(function(){initNavTree('group__gpio__defines.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#groups">Modules</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">General Purpose I/O Defines</div>  </div>
@@ -122,28 +124,395 @@ Collaboration diagram for General Purpose I/O Defines:</div>
 <div class="dyncontent">
 <center><table><tr><td><img src="group__gpio__defines.png" border="0" alt="" usemap="#group____gpio____defines"/>
 <map name="group____gpio____defines" id="group____gpio____defines">
-<area shape="rect" id="node2" href="group__LM4Fxx__defines.html" title="Defined Constants and Types for the LM4F series." alt="" coords="5,13,109,43"/></map>
+<area shape="rect" id="node1" href="group__gpio__pin__id.html" title="GPIO pin identifiers" alt="" coords="347,5,483,35"/><area shape="rect" id="node2" href="group__gpio__reg__base.html" title="GPIO register base\l addresses" alt="" coords="348,58,481,105"/><area shape="rect" id="node4" href="group__LM4Fxx__defines.html" title="Defined Constants and Types for the LM4F series." alt="" coords="5,36,109,65"/></map>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:group__gpio__reg__base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a></td></tr>
+<tr class="memitem:group__gpio__pin__id"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga620d533a2ccc5296d2f6c8b95bf89fe1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">gpio_mode</a> { <a class="el" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1aa5824cd687ac84449b093087c25cec7c">GPIO_MODE_OUTPUT</a>, 
+<a class="el" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a61ddb59c5e9a9cc6d9cf99d11a36920b">GPIO_MODE_INPUT</a>, 
+<a class="el" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a5a5b8916bf45f2a4ff3818fa75f85d27">GPIO_MODE_ANALOG</a>
+ }</td></tr>
+<tr class="memitem:ga45e6c8e8730474e4644929cc5528400b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">gpio_pullup</a> { <a class="el" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba7807e2b9a6941fdb1326d9506af81a67">GPIO_PUPD_NONE</a>, 
+<a class="el" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba10489125ed48a34dd001fa33e13ae396">GPIO_PUPD_PULLUP</a>, 
+<a class="el" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba700268e334e769a26b44a8bf253017d2">GPIO_PUPD_PULLDOWN</a>
+ }</td></tr>
+<tr class="memitem:gad59707c5e578193702cfb29b49b88108"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">gpio_output_type</a> { <a class="el" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a6f3629cecfb427731be8487dce2970ef">GPIO_OTYPE_PP</a>, 
+<a class="el" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a2f6c5d8dcae60adb9f33fa337fad91ea">GPIO_OTYPE_OD</a>
+ }</td></tr>
+<tr class="memitem:ga14eba84c1c8f80b08a770775d3bf060a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">gpio_drive_strength</a> { <a class="el" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aaea65a1945ac5ef1b9c311ce0795a136d">GPIO_DRIVE_2MA</a>, 
+<a class="el" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aafea3985b235eba4f68685de32f0fd7a4">GPIO_DRIVE_4MA</a>, 
+<a class="el" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa769a972b3ebbb6ad8dcf54abdb24df10">GPIO_DRIVE_8MA</a>, 
+<a class="el" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa13cff51bcb9a3b105a9d0c288bf73b83">GPIO_DRIVE_8MA_SLEW_CTL</a>
+ }</td></tr>
+<tr class="memitem:gaf59a0ba6300bcfc24d4dbf13000a2fbe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a> { <br/>
+&#160;&#160;<a class="el" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeac94012614bbe9b2145034b62207cc52e">GPIO_TRIG_LVL_LOW</a>, 
+<a class="el" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbead8f2e505b5428ce834d192e911b87265">GPIO_TRIG_LVL_HIGH</a>, 
+<a class="el" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea36956d1dafc73d361288ad3349b5ed19">GPIO_TRIG_EDGE_FALL</a>, 
+<a class="el" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91">GPIO_TRIG_EDGE_RISE</a>, 
+<br/>
+&#160;&#160;<a class="el" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1">GPIO_TRIG_EDGE_BOTH</a>
+<br/>
+ }</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa564feebba58c35fb47b4af84c8810ca"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gaa564feebba58c35fb47b4af84c8810ca">gpio_set</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
-<tr class="memitem:ga21fef3ab33c3e8196be7dddca90e9e8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga21fef3ab33c3e8196be7dddca90e9e8a">gpio_clear</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memitem:ga2c31c812d3e1456162b2d5a7004f8c0b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga2c31c812d3e1456162b2d5a7004f8c0b">gpio_enable_ahb_aperture</a> (void)</td></tr>
+<tr class="memdesc:ga2c31c812d3e1456162b2d5a7004f8c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable access to GPIO registers via the AHB aperture.  <a href="#ga2c31c812d3e1456162b2d5a7004f8c0b"></a><br/></td></tr>
+<tr class="memitem:gac3ca54b7e2b154aeb9da53f8b3e905ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gac3ca54b7e2b154aeb9da53f8b3e905ba">gpio_mode_setup</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, enum <a class="el" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">gpio_mode</a> mode, enum <a class="el" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">gpio_pullup</a> pullup, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:gac3ca54b7e2b154aeb9da53f8b3e905ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure a group of pins.  <a href="#gac3ca54b7e2b154aeb9da53f8b3e905ba"></a><br/></td></tr>
+<tr class="memitem:gaeb5dfc3b455c08949eb1bcd871175ec6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gaeb5dfc3b455c08949eb1bcd871175ec6">gpio_set_output_config</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, enum <a class="el" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">gpio_output_type</a> otype, enum <a class="el" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">gpio_drive_strength</a> drive, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:gaeb5dfc3b455c08949eb1bcd871175ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure output parameters of a group of pins.  <a href="#gaeb5dfc3b455c08949eb1bcd871175ec6"></a><br/></td></tr>
+<tr class="memitem:gaa275d2d5cc2b242926f2fd113245083d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gaa275d2d5cc2b242926f2fd113245083d">gpio_set_af</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> alt_func_num, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:gaa275d2d5cc2b242926f2fd113245083d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplex group of pins to the given alternate function.  <a href="#gaa275d2d5cc2b242926f2fd113245083d"></a><br/></td></tr>
+<tr class="memitem:gaf43516eb9715f3c7359c069140114c22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gaf43516eb9715f3c7359c069140114c22">gpio_toggle</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:gaf43516eb9715f3c7359c069140114c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle a Group of Pins.  <a href="#gaf43516eb9715f3c7359c069140114c22"></a><br/></td></tr>
+<tr class="memitem:gad85a11697ef4bef24da7e75f7420a529"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gad85a11697ef4bef24da7e75f7420a529">gpio_unlock_commit</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:gad85a11697ef4bef24da7e75f7420a529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock the commit control of a special function pin.  <a href="#gad85a11697ef4bef24da7e75f7420a529"></a><br/></td></tr>
+<tr class="memitem:gaa89149570d495a7f2de9e8de63976b6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gaa89149570d495a7f2de9e8de63976b6c">gpio_configure_trigger</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, enum <a class="el" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a> trigger, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:gaa89149570d495a7f2de9e8de63976b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the interrupt trigger on the given GPIO pins.  <a href="#gaa89149570d495a7f2de9e8de63976b6c"></a><br/></td></tr>
+<tr class="memitem:ga8455249d912f67fb02844a723dcceabb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga8455249d912f67fb02844a723dcceabb">gpio_enable_interrupts</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:ga8455249d912f67fb02844a723dcceabb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable interrupts on specified GPIO pins.  <a href="#ga8455249d912f67fb02844a723dcceabb"></a><br/></td></tr>
+<tr class="memitem:gae52605679f01558f602673209ebfb232"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gae52605679f01558f602673209ebfb232">gpio_disable_interrupts</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:gae52605679f01558f602673209ebfb232"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable interrupts on specified GPIO pins.  <a href="#gae52605679f01558f602673209ebfb232"></a><br/></td></tr>
+<tr class="memitem:ga80f98da8ce519c206aa60774fa8bd7fb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb">gpio_write</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> data)</td></tr>
+<tr class="memdesc:ga80f98da8ce519c206aa60774fa8bd7fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set level of a Group of Pins (atomic)  <a href="#ga80f98da8ce519c206aa60774fa8bd7fb"></a><br/></td></tr>
+<tr class="memitem:gae1ae1ae1fceffa7393e51d2be384bc4f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__control.html#gae1ae1ae1fceffa7393e51d2be384bc4f">gpio_set</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:gae1ae1ae1fceffa7393e51d2be384bc4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a Group of Pins (atomic)  <a href="#gae1ae1ae1fceffa7393e51d2be384bc4f"></a><br/></td></tr>
+<tr class="memitem:gae7e38f79b34a83bdd1b6360b81e76d3f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__control.html#gae7e38f79b34a83bdd1b6360b81e76d3f">gpio_clear</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:gae7e38f79b34a83bdd1b6360b81e76d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear a Group of Pins (atomic)  <a href="#gae7e38f79b34a83bdd1b6360b81e76d3f"></a><br/></td></tr>
+<tr class="memitem:ga2348b95cf0a72037d7f34018cc03fd96"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__control.html#ga2348b95cf0a72037d7f34018cc03fd96">gpio_port_read</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport)</td></tr>
+<tr class="memdesc:ga2348b95cf0a72037d7f34018cc03fd96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read level of all pins from a port (atomic)  <a href="#ga2348b95cf0a72037d7f34018cc03fd96"></a><br/></td></tr>
+<tr class="memitem:ga27e1eb5389ebf38b9d470e5005851552"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__control.html#ga27e1eb5389ebf38b9d470e5005851552">gpio_port_write</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> data)</td></tr>
+<tr class="memdesc:ga27e1eb5389ebf38b9d470e5005851552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set level of of all pins from a port (atomic)  <a href="#ga27e1eb5389ebf38b9d470e5005851552"></a><br/></td></tr>
+<tr class="memitem:ga1229fe96162a64427017b1f84745d5a3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__irq.html#ga1229fe96162a64427017b1f84745d5a3">gpio_clear_interrupt_flag</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</td></tr>
+<tr class="memdesc:ga1229fe96162a64427017b1f84745d5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark interrupt as serviced.  <a href="#ga1229fe96162a64427017b1f84745d5a3"></a><br/></td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <p><b>Defined Constants and Types for the LM4F General Purpose I/O</b> </p>
 <dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
-<dl class="section author"><dt>Author</dt><dd> &copy;  2011 Gareth McMullin <a href="#" onclick="location.href='mai'+'lto:'+'gar'+'et'+'h@b'+'la'+'cks'+'ph'+'ere'+'.c'+'o.n'+'z'; return false;">garet<span style="display: none;">.nosp@m.</span>h@bl<span style="display: none;">.nosp@m.</span>acksp<span style="display: none;">.nosp@m.</span>here<span style="display: none;">.nosp@m.</span>.co.n<span style="display: none;">.nosp@m.</span>z</a></dd></dl>
-<dl class="section date"><dt>Date</dt><dd>10 March 2013</dd></dl>
+<dl class="section author"><dt>Author</dt><dd> &copy;  2011 Gareth McMullin <a href="#" onclick="location.href='mai'+'lto:'+'gar'+'et'+'h@b'+'la'+'cks'+'ph'+'ere'+'.c'+'o.n'+'z'; return false;">garet<span style="display: none;">.nosp@m.</span>h@bl<span style="display: none;">.nosp@m.</span>acksp<span style="display: none;">.nosp@m.</span>here<span style="display: none;">.nosp@m.</span>.co.n<span style="display: none;">.nosp@m.</span>z</a> </dd>
+<dd>
+ &copy;  2013 Alexandru Gagniuc <a href="#" onclick="location.href='mai'+'lto:'+'mr.'+'nu'+'ke.'+'me'+'@gm'+'ai'+'l.c'+'om'; return false;">mr.nu<span style="display: none;">.nosp@m.</span>ke.m<span style="display: none;">.nosp@m.</span>e@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
+<dl class="section date"><dt>Date</dt><dd>16 March 2013</dd></dl>
 <p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
+<h2>Enumeration Type Documentation</h2>
+<a class="anchor" id="ga14eba84c1c8f80b08a770775d3bf060a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">gpio_drive_strength</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="gga14eba84c1c8f80b08a770775d3bf060aaea65a1945ac5ef1b9c311ce0795a136d"></a>GPIO_DRIVE_2MA</em>&nbsp;</td><td>
+<p>2mA drive </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="gga14eba84c1c8f80b08a770775d3bf060aafea3985b235eba4f68685de32f0fd7a4"></a>GPIO_DRIVE_4MA</em>&nbsp;</td><td>
+<p>4mA drive </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="gga14eba84c1c8f80b08a770775d3bf060aa769a972b3ebbb6ad8dcf54abdb24df10"></a>GPIO_DRIVE_8MA</em>&nbsp;</td><td>
+<p>8mA drive </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="gga14eba84c1c8f80b08a770775d3bf060aa13cff51bcb9a3b105a9d0c288bf73b83"></a>GPIO_DRIVE_8MA_SLEW_CTL</em>&nbsp;</td><td>
+<p>8mA drive with slew rate control </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00198">198</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga620d533a2ccc5296d2f6c8b95bf89fe1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">gpio_mode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="gga620d533a2ccc5296d2f6c8b95bf89fe1aa5824cd687ac84449b093087c25cec7c"></a>GPIO_MODE_OUTPUT</em>&nbsp;</td><td>
+<p>Configure pin as output. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="gga620d533a2ccc5296d2f6c8b95bf89fe1a61ddb59c5e9a9cc6d9cf99d11a36920b"></a>GPIO_MODE_INPUT</em>&nbsp;</td><td>
+<p>Configure pin as input. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="gga620d533a2ccc5296d2f6c8b95bf89fe1a5a5b8916bf45f2a4ff3818fa75f85d27"></a>GPIO_MODE_ANALOG</em>&nbsp;</td><td>
+<p>Configure pin as analog function. </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00181">181</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gad59707c5e578193702cfb29b49b88108"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">gpio_output_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="ggad59707c5e578193702cfb29b49b88108a6f3629cecfb427731be8487dce2970ef"></a>GPIO_OTYPE_PP</em>&nbsp;</td><td>
+<p>Push-pull configuration. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="ggad59707c5e578193702cfb29b49b88108a2f6c5d8dcae60adb9f33fa337fad91ea"></a>GPIO_OTYPE_OD</em>&nbsp;</td><td>
+<p>Open drain configuration. </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00193">193</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga45e6c8e8730474e4644929cc5528400b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">gpio_pullup</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="gga45e6c8e8730474e4644929cc5528400ba7807e2b9a6941fdb1326d9506af81a67"></a>GPIO_PUPD_NONE</em>&nbsp;</td><td>
+<p>Do not pull the pin high or low. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="gga45e6c8e8730474e4644929cc5528400ba10489125ed48a34dd001fa33e13ae396"></a>GPIO_PUPD_PULLUP</em>&nbsp;</td><td>
+<p>Pull the pin high. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="gga45e6c8e8730474e4644929cc5528400ba700268e334e769a26b44a8bf253017d2"></a>GPIO_PUPD_PULLDOWN</em>&nbsp;</td><td>
+<p>Pull the pin low. </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00187">187</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaf59a0ba6300bcfc24d4dbf13000a2fbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="ggaf59a0ba6300bcfc24d4dbf13000a2fbeac94012614bbe9b2145034b62207cc52e"></a>GPIO_TRIG_LVL_LOW</em>&nbsp;</td><td>
+<p>Level trigger, signal low. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="ggaf59a0ba6300bcfc24d4dbf13000a2fbead8f2e505b5428ce834d192e911b87265"></a>GPIO_TRIG_LVL_HIGH</em>&nbsp;</td><td>
+<p>Level trigger, signal high. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="ggaf59a0ba6300bcfc24d4dbf13000a2fbea36956d1dafc73d361288ad3349b5ed19"></a>GPIO_TRIG_EDGE_FALL</em>&nbsp;</td><td>
+<p>Falling edge trigger. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91"></a>GPIO_TRIG_EDGE_RISE</em>&nbsp;</td><td>
+<p>Rising edge trigger. </p>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1"></a>GPIO_TRIG_EDGE_BOTH</em>&nbsp;</td><td>
+<p>Falling and Rising edges trigger. </p>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00205">205</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
 <h2>Function Documentation</h2>
-<a class="anchor" id="ga21fef3ab33c3e8196be7dddca90e9e8a"></a>
+<a class="anchor" id="gae7e38f79b34a83bdd1b6360b81e76d3f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void gpio_clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear a Group of Pins (atomic) </p>
+<p>Clear one or more pins of the given GPIO port. This is an atomic operation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00296">296</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00267">gpio_write()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gpio__control_gae7e38f79b34a83bdd1b6360b81e76d3f_cgraph.png" border="0" usemap="#group__gpio__control_gae7e38f79b34a83bdd1b6360b81e76d3f_cgraph" alt=""/></div>
+<map name="group__gpio__control_gae7e38f79b34a83bdd1b6360b81e76d3f_cgraph" id="group__gpio__control_gae7e38f79b34a83bdd1b6360b81e76d3f_cgraph">
+<area shape="rect" id="node3" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb" title="Set level of a Group of Pins (atomic)" alt="" coords="137,5,217,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga1229fe96162a64427017b1f84745d5a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void gpio_clear_interrupt_flag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mark interrupt as serviced. </p>
+<p>After an interrupt is services, its flag must be cleared. If the flag is not cleared, then execution will jump back to the start of the ISR after the ISR returns.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00365">365</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaa89149570d495a7f2de9e8de63976b6c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void gpio_clear </td>
+          <td class="memname">void gpio_configure_trigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a>&#160;</td>
+          <td class="paramname"><em>trigger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the interrupt trigger on the given GPIO pins. </p>
+<p>Sets the Pin direction, analog/digital mode, and pull-up configuration of or a set of GPIO pins on a given GPIO port.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">trigger</td><td>Trigger configuration (<a class="el" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a>) <br/>
+<ul>
+<li>GPIO_TRIG_LVL_LOW &ndash; Trigger on low level <br/>
+</li>
+<li>GPIO_TRIG_LVL_HIGH &ndash; Trigger on high level <br/>
+</li>
+<li>GPIO_TRIG_EDGE_FALL &ndash; Trigger on falling edges <br/>
+</li>
+<li>GPIO_TRIG_EDGE_RISE &ndash; Trigger on rising edges <br/>
+</li>
+<li>GPIO_TRIG_EDGE_BOTH &ndash; Trigger on all edges </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00524">524</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00210">GPIO_TRIG_EDGE_BOTH</a>, <a class="el" href="gpio_8h_source.html#l00208">GPIO_TRIG_EDGE_FALL</a>, <a class="el" href="gpio_8h_source.html#l00209">GPIO_TRIG_EDGE_RISE</a>, <a class="el" href="gpio_8h_source.html#l00207">GPIO_TRIG_LVL_HIGH</a>, and <a class="el" href="gpio_8h_source.html#l00206">GPIO_TRIG_LVL_LOW</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gae52605679f01558f602673209ebfb232"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_disable_interrupts </td>
           <td>(</td>
           <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
           <td class="paramname"><em>gpioport</em>, </td>
@@ -162,16 +531,48 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gpio_8c_source.html#l00045">45</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+<p>Disable interrupts on specified GPIO pins. </p>
+<p>Disable interrupts on the specified GPIO pins</p>
+<p>Note that the NVIC must be enabled and properly configured for the interrupt to be routed to the CPU.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Pins whose interrupts to disable. Any combination of pins may be specified by OR'ing them together. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00586">586</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="gaa564feebba58c35fb47b4af84c8810ca"></a>
+<a class="anchor" id="ga2c31c812d3e1456162b2d5a7004f8c0b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void gpio_set </td>
+          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void gpio_enable_ahb_aperture </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable access to GPIO registers via the AHB aperture. </p>
+<p>All GPIO registers are accessed in libopencm3 via the AHB aperture. It provides faster control over the older APB aperture. This aperture must be enabled before calling any other gpio_*() function. </p>
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00184">184</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8455249d912f67fb02844a723dcceabb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_enable_interrupts </td>
           <td>(</td>
           <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
           <td class="paramname"><em>gpioport</em>, </td>
@@ -190,7 +591,509 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gpio_8c_source.html#l00039">39</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+<p>Enable interrupts on specified GPIO pins. </p>
+<p>Enable interrupts on the specified GPIO pins</p>
+<p>Note that the NVIC must be enabled and properly configured for the interrupt to be routed to the CPU.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Pins whose interrupts to enable. Any combination of pins may be specified by OR'ing them together. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00568">568</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac3ca54b7e2b154aeb9da53f8b3e905ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_mode_setup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">gpio_mode</a>&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">gpio_pullup</a>&#160;</td>
+          <td class="paramname"><em>pullup</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure a group of pins. </p>
+<p>Sets the Pin direction, analog/digital mode, and pull-up configuration of or a set of GPIO pins on a given GPIO port.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Pin mode (<a class="el" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">gpio_mode</a>) <br/>
+<ul>
+<li>GPIO_MODE_OUTPUT &ndash; Configure pin as output <br/>
+</li>
+<li>GPIO_MODE_INPUT &ndash; Configure pin as input <br/>
+</li>
+<li>GPIO_MODE_ANALOG &ndash; Configure pin as analog function </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pullup</td><td>Pin pullup/pulldown configuration (<a class="el" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">gpio_pullup</a>) <br/>
+<ul>
+<li>GPIO_PUPD_NONE &ndash; Do not pull the pin high or low <br/>
+</li>
+<li>GPIO_PUPD_PULLUP &ndash; Pull the pin high <br/>
+</li>
+<li>GPIO_PUPD_PULLDOWN &ndash; Pull the pin low </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00207">207</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00184">GPIO_MODE_ANALOG</a>, <a class="el" href="gpio_8h_source.html#l00183">GPIO_MODE_INPUT</a>, <a class="el" href="gpio_8h_source.html#l00182">GPIO_MODE_OUTPUT</a>, <a class="el" href="gpio_8h_source.html#l00188">GPIO_PUPD_NONE</a>, <a class="el" href="gpio_8h_source.html#l00190">GPIO_PUPD_PULLDOWN</a>, and <a class="el" href="gpio_8h_source.html#l00189">GPIO_PUPD_PULLUP</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga2348b95cf0a72037d7f34018cc03fd96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpio_port_read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read level of all pins from a port (atomic) </p>
+<p>Read the current value of the given GPIO port. This is an atomic operation.</p>
+<p>This is functionally identical to <a class="el" href="group__gpio__control.html#gadb29085c0de18f59e471160453a0a149">gpio_read</a> (gpioport, GPIO_ALL).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The level of all the pins on the GPIO port. </dd></dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00312">312</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00247">gpio_read()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gpio__control_ga2348b95cf0a72037d7f34018cc03fd96_cgraph.png" border="0" usemap="#group__gpio__control_ga2348b95cf0a72037d7f34018cc03fd96_cgraph" alt=""/></div>
+<map name="group__gpio__control_ga2348b95cf0a72037d7f34018cc03fd96_cgraph" id="group__gpio__control_ga2348b95cf0a72037d7f34018cc03fd96_cgraph">
+<area shape="rect" id="node3" href="group__gpio__control.html#gadb29085c0de18f59e471160453a0a149" title="Get status of a Group of Pins (atomic)" alt="" coords="161,5,239,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga27e1eb5389ebf38b9d470e5005851552"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void gpio_port_write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set level of of all pins from a port (atomic) </p>
+<p>Set the level of all pins on the given GPIO port. This is an atomic operation.</p>
+<p>This is functionally identical to <a class="el" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb">gpio_write</a> (gpioport, GPIO_ALL, data).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Level to set pin to. Bit 0 of data corresponds to GPIO0, bit 1 to GPIO1. and so on. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00330">330</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00267">gpio_write()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gpio__control_ga27e1eb5389ebf38b9d470e5005851552_cgraph.png" border="0" usemap="#group__gpio__control_ga27e1eb5389ebf38b9d470e5005851552_cgraph" alt=""/></div>
+<map name="group__gpio__control_ga27e1eb5389ebf38b9d470e5005851552_cgraph" id="group__gpio__control_ga27e1eb5389ebf38b9d470e5005851552_cgraph">
+<area shape="rect" id="node3" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb" title="Set level of a Group of Pins (atomic)" alt="" coords="167,5,247,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="gae1ae1ae1fceffa7393e51d2be384bc4f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void gpio_set </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set a Group of Pins (atomic) </p>
+<p>Set one or more pins of the given GPIO port. This is an atomic operation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00282">282</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00267">gpio_write()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gpio__control_gae1ae1ae1fceffa7393e51d2be384bc4f_cgraph.png" border="0" usemap="#group__gpio__control_gae1ae1ae1fceffa7393e51d2be384bc4f_cgraph" alt=""/></div>
+<map name="group__gpio__control_gae1ae1ae1fceffa7393e51d2be384bc4f_cgraph" id="group__gpio__control_gae1ae1ae1fceffa7393e51d2be384bc4f_cgraph">
+<area shape="rect" id="node3" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb" title="Set level of a Group of Pins (atomic)" alt="" coords="127,5,207,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="gaa275d2d5cc2b242926f2fd113245083d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_set_af </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>alt_func_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiplex group of pins to the given alternate function. </p>
+<p>Mux the pin or group of pins to the given alternate function. Note that a number of pins may be set but only with a single AF number. This is useful when one or more of a peripheral's pins are assigned to the same alternate function.</p>
+<p>Because AF0 is not used on the LM4F, passing 0 as the alt_func_num parameter will disable the alternate function of the given pins.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alt_func_num</td><td>Pin alternate function number or 0 to disable the alternate function multiplexing. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00319">319</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaeb5dfc3b455c08949eb1bcd871175ec6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_set_output_config </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">gpio_output_type</a>&#160;</td>
+          <td class="paramname"><em>otype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">gpio_drive_strength</a>&#160;</td>
+          <td class="paramname"><em>drive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure output parameters of a group of pins. </p>
+<p>Sets the output configuration and drive strength, of or a set of GPIO pins for a set of GPIO pins in output mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">otype</td><td>Output driver configuration (<a class="el" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">gpio_output_type</a>) <br/>
+<ul>
+<li>GPIO_OTYPE_PP &ndash; Configure pin driver as push-pull <br/>
+</li>
+<li>GPIO_OTYPE_OD &ndash; Configure pin driver as open drain </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">drive</td><td>Pin drive strength (<a class="el" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">gpio_drive_strength</a>) <br/>
+<ul>
+<li>GPIO_DRIVE_2MA &ndash; 2mA drive <br/>
+</li>
+<li>GPIO_DRIVE_4MA &ndash; 4mA drive <br/>
+</li>
+<li>GPIO_DRIVE_8MA &ndash; 8mA drive <br/>
+</li>
+<li>GPIO_DRIVE_8MA_SLEW_CTL &ndash; 8mA drive with slew rate control </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00268">268</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00199">GPIO_DRIVE_2MA</a>, <a class="el" href="gpio_8h_source.html#l00200">GPIO_DRIVE_4MA</a>, <a class="el" href="gpio_8h_source.html#l00201">GPIO_DRIVE_8MA</a>, <a class="el" href="gpio_8h_source.html#l00202">GPIO_DRIVE_8MA_SLEW_CTL</a>, and <a class="el" href="gpio_8h_source.html#l00195">GPIO_OTYPE_OD</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaf43516eb9715f3c7359c069140114c22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_toggle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Toggle a Group of Pins. </p>
+<p>Toggle one or more pins of the given GPIO port.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Pin identifiers. <a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00438">438</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gad85a11697ef4bef24da7e75f7420a529"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_unlock_commit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unlock the commit control of a special function pin. </p>
+<p>Unlocks the commit control of the given pin or group of pins. If a pin is a JTAG/SWD or NMI, the pin may then be reconfigured as a GPIO pin. If the pin is not locked by default, this has no effect.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00362">362</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga80f98da8ce519c206aa60774fa8bd7fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void gpio_write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>gpioport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>gpios</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set level of a Group of Pins (atomic) </p>
+<p>Sets the level of the given pins. Bit 0 of the data parameter corresponds to GPIO0, bit 1 to GPIO1. and so on. Maskedpins (corresponding bit of gpios parameter set to zero) are returned not affected.</p>
+<p>This is an atomic operation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>GPIO block register address base <a class="el" href="group__gpio__reg__base.html">GPIO register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td><a class="el" href="group__gpio__pin__id.html">GPIO pin identifiers</a>. Any combination of pins may be specified by OR'ing then together. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Level to set pin to. Bit 0 of data corresponds to GPIO0, bit 1 to GPIO1. and so on. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00267">267</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+<p>Referenced by <a class="el" href="gpio_8h_source.html#l00296">gpio_clear()</a>, <a class="el" href="gpio_8h_source.html#l00330">gpio_port_write()</a>, and <a class="el" href="gpio_8h_source.html#l00282">gpio_set()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__gpio__control_ga80f98da8ce519c206aa60774fa8bd7fb_icgraph.png" border="0" usemap="#group__gpio__control_ga80f98da8ce519c206aa60774fa8bd7fb_icgraph" alt=""/></div>
+<map name="group__gpio__control_ga80f98da8ce519c206aa60774fa8bd7fb_icgraph" id="group__gpio__control_ga80f98da8ce519c206aa60774fa8bd7fb_icgraph">
+<area shape="rect" id="node3" href="group__gpio__control.html#gae7e38f79b34a83bdd1b6360b81e76d3f" title="Clear a Group of Pins (atomic)" alt="" coords="152,5,232,35"/><area shape="rect" id="node5" href="group__gpio__control.html#ga27e1eb5389ebf38b9d470e5005851552" title="Set level of of all pins from a port (atomic)" alt="" coords="137,59,247,88"/><area shape="rect" id="node7" href="group__gpio__control.html#gae1ae1ae1fceffa7393e51d2be384bc4f" title="Set a Group of Pins (atomic)" alt="" coords="157,112,227,141"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -199,7 +1102,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:42 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:31 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

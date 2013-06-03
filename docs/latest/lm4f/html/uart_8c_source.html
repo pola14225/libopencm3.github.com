@@ -678,16 +678,78 @@ $(document).ready(function(){initNavTree('uart_8c_source.html','');});
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;}<span class="comment"></span></div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;<span class="comment">/**@}*/</span></div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;<span class="comment"> * @}</span></div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;<span class="comment">/** @defgroup uart_fifo UART FIFO control</span></div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;<span class="comment"> * @ingroup uart_file</span></div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;<span class="comment"> * \brief &lt;b&gt;Enabling and controlling UART FIFO&lt;/b&gt;</span></div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;<span class="comment"> * The UART on the LM4F can either be used with a single character TX and RX</span></div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;<span class="comment"> * buffer, or with a 8 character TX and RX FIFO. In order to use the FIFO it</span></div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;<span class="comment"> * must be enabled, this is done with uart_enable_fifo() and can be disabled</span></div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;<span class="comment"> * again with uart_disable_fifo().  On reset the FIFO is disabled, and it must</span></div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;<span class="comment"> * be explicitly be enabled.</span></div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;<span class="comment"> * When enabling the UART FIFOs, RX and TX interrupts are triggered according</span></div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;<span class="comment"> * to the amount of data in the FIFOs. For the RX FIFO the trigger level is</span></div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;<span class="comment"> * defined by how full the FIFO is.  The TX FIFO trigger level is defined by</span></div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;<span class="comment"> * how empty the FIFO is instead.</span></div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;<span class="comment"> * For example, to enable the FIFOs and trigger interrupts for a single</span></div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;<span class="comment"> * received and single transmitted character:</span></div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;<span class="comment"> * @code{.c}</span></div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;<span class="comment"> *      uart_enable_fifo(UART0);</span></div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;<span class="comment"> *      uart_set_fifo_trigger_levels(UART0, UART_FIFO_RX_TRIG_1_8,</span></div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;<span class="comment"> *                                   UART_FIFO_TX_TRIG_7_8);</span></div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;<span class="comment"> * @endcode</span></div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;<span class="comment"> */</span><span class="comment"></span></div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;<span class="comment">/**@{*/</span></div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;<span class="comment"> * \brief Enable FIFO for the UART.</span></div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;<span class="comment"> * @param[in] uart UART block register address base @ref uart_reg_base</span></div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00592"></a><span class="lineno"><a class="code" href="group__uart__fifo.html#gab3cd10b3ae6cad525820b2ad331f9362">  592</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__uart__defines.html#gab3cd10b3ae6cad525820b2ad331f9362" title="Enable FIFO for the UART.">uart_enable_fifo</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;{</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        UART_LCRH(uart) |= UART_LCRH_FEN;</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;}</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;<span class="comment"> * \brief Disable FIFO for the UART.</span></div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;<span class="comment"> * @param[in] uart UART block register address base @ref uart_reg_base</span></div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00602"></a><span class="lineno"><a class="code" href="group__uart__fifo.html#ga089f1c5dca7359ccf26e29728f548765">  602</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__uart__defines.html#ga089f1c5dca7359ccf26e29728f548765" title="Disable FIFO for the UART.">uart_disable_fifo</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;{</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        UART_LCRH(uart) &amp;= ~UART_LCRH_FEN;</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;}</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;<span class="comment"> * \brief Set the FIFO trigger levels.</span></div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;<span class="comment"> * @param[in] uart UART block register address base @ref uart_reg_base</span></div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;<span class="comment"> * @param[in] rx_level Trigger level for RX FIFO</span></div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;<span class="comment"> * @param[in] tx_level Trigger level for TX FIFO</span></div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00614"></a><span class="lineno"><a class="code" href="group__uart__fifo.html#gaf2a3f0dac0cecc4d431072f68e9829d9">  614</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__uart__defines.html#gaf2a3f0dac0cecc4d431072f68e9829d9" title="Set the FIFO trigger levels.">uart_set_fifo_trigger_levels</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart,</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                                  <span class="keyword">enum</span> <a class="code" href="group__uart__defines.html#gabb9ce81df1867ef09b554e02c63f9be5" title="UART RX FIFO interrupt trigger levels.">uart_fifo_rx_trigger_level</a> rx_level,</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                                  <span class="keyword">enum</span> <a class="code" href="group__uart__defines.html#gaf79e87f1a6f23cc0501f4d2e3667a848" title="UART TX FIFO interrupt trigger levels.">uart_fifo_tx_trigger_level</a> tx_level)</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;{</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        UART_IFLS(uart) = rx_level | tx_level;</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;}<span class="comment"></span></div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;<span class="comment"> * @}</span></div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;<span class="comment"> */</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_12fee2a8ab17b1bb753631ffb3fddc2a.html">lm4f</a></li><li class="navelem"><a class="el" href="uart_8c.html">uart.c</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:41 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:31 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

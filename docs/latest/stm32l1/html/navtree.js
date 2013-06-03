@@ -33,7 +33,8 @@ var NAVTREE =
         [ "Functions", "globals_func.html", "globals_func" ],
         [ "Variables", "globals_vars.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ]
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -42,12 +43,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"flash__common__f24_8c.html#ad7e8a68703e3eeb90eb16caf255758db",
-"group__dma__file.html#ga22ea9a9d3595761a3570f8c59c3acad4",
-"group__spi__file.html#ga0080ef5cde6069297a6134f611664435",
-"group__timer__file.html#ga9f38a400c0645c5eeb8eb72fb9bb2789",
-"rcc_8h.html#ga076c5e84cf8bf9293559648e72b0a04f",
-"timer__common__all_8c.html#gaa1292389cecf41b1cb68ab6d439b0ce6"
+"globals_defs_0x64.html",
+"group__STM32L1xx__rcc__defines.html#ga4da417e0164b80ffbd09fbc22990a1d1",
+"group__dma__file.html#gadbba52dabdfddc96f6cf2f99eb79ed0e",
+"group__spi__file.html#ga273965becb9a1283bab7138838cc3da1",
+"memorymap_8h.html#abe0d6539ac0026d598274ee7f45b0251",
+"rcc_8h.html#ga8d3d47b43c4a3f97ba2365df114766c1",
+"timer__common__all_8c.html#ga0707c846866f5260b792279eec88a7f5"
 ];
 
 var navTreeSubIndices = new Array();

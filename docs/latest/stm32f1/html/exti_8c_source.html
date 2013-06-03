@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -233,42 +233,42 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        }</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">switch</span> (gpioport) {</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">case</span> GPIOA:</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>:</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                bits = 0xf;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">case</span> GPIOB:</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="group__gpio__port__id.html#ga68b66ac73be4c836db878a42e1fea3cd">GPIOB</a>:</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                bits = 0xe;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">case</span> GPIOC:</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>:</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                bits = 0xd;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">case</span> GPIOD:</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="group__gpio__port__id.html#ga7580b1a929ea9df59725ba9c18eba6ac">GPIOD</a>:</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                bits = 0xc;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordflow">case</span> GPIOE:</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="group__gpio__port__id.html#gae04bdb5e8acc47cab1d0532e6b0d0763">GPIOE</a>:</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                bits = 0xb;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">case</span> GPIOF:</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="group__gpio__port__id.html#ga43c3022dede7c9db7a58d3c3409dbc8d">GPIOF</a>:</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                bits = 0xa;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">case</span> GPIOG:</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="group__gpio__port__id.html#ga02a2a23a32f9b02166a8c64012842414">GPIOG</a>:</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                bits = 0x9;</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        }</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="comment">/* Ensure that only valid EXTI lines are used. */</span></div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordflow">if</span> (exti &lt; EXTI4) {</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                AFIO_EXTICR1 &amp;= ~(0x000F &lt;&lt; shift);</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                AFIO_EXTICR1 |= (~bits &lt;&lt; shift);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                <a class="code" href="group__gpio__defines.html#gaf80e5cb2bb3b64e75d14534bf786f20c">AFIO_EXTICR1</a> &amp;= ~(0x000F &lt;&lt; shift);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                <a class="code" href="group__gpio__defines.html#gaf80e5cb2bb3b64e75d14534bf786f20c">AFIO_EXTICR1</a> |= (~bits &lt;&lt; shift);</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exti &lt; EXTI8) {</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                AFIO_EXTICR2 &amp;= ~(0x000F &lt;&lt; shift);</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                AFIO_EXTICR2 |= (~bits &lt;&lt; shift);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                <a class="code" href="group__gpio__defines.html#ga9395b182ec3421876b6da0f3ef51fc34">AFIO_EXTICR2</a> &amp;= ~(0x000F &lt;&lt; shift);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                <a class="code" href="group__gpio__defines.html#ga9395b182ec3421876b6da0f3ef51fc34">AFIO_EXTICR2</a> |= (~bits &lt;&lt; shift);</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exti &lt; EXTI12) {</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                AFIO_EXTICR3 &amp;= ~(0x000F &lt;&lt; shift);</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                AFIO_EXTICR3 |= (~bits &lt;&lt; shift);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                <a class="code" href="group__gpio__defines.html#ga1411f8f04d1d7ea301bf4dbe7530b9b0">AFIO_EXTICR3</a> &amp;= ~(0x000F &lt;&lt; shift);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                <a class="code" href="group__gpio__defines.html#ga1411f8f04d1d7ea301bf4dbe7530b9b0">AFIO_EXTICR3</a> |= (~bits &lt;&lt; shift);</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exti &lt; EXTI16) {</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                AFIO_EXTICR4 &amp;= ~(0x000F &lt;&lt; shift);</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                AFIO_EXTICR4 |= (~bits &lt;&lt; shift);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                <a class="code" href="group__gpio__defines.html#ga464524a11dd41cc545a21810404572ad">AFIO_EXTICR4</a> &amp;= ~(0x000F &lt;&lt; shift);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                <a class="code" href="group__gpio__defines.html#ga464524a11dd41cc545a21810404572ad">AFIO_EXTICR4</a> |= (~bits &lt;&lt; shift);</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        }</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
@@ -277,7 +277,7 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="exti_8c.html">exti.c</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:24 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

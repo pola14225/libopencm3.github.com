@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('group__gpio__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -167,18 +167,18 @@ Functions</h2></td></tr>
 <h1><a class="anchor" id="gpio_api_ex"></a>
 Basic GPIO Handling API.</h1>
 <p>Example 1: Push-pull digital output actions with pullup on ports C2 and C9</p>
-<div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga83e88435c703f86b1a04022433d1bd26" title="Set GPIO Pin Mode.">gpio_mode_setup</a>(GPIOC, GPIO_MODE_OUTPUT,</div>
+<div class="fragment"><div class="line"><a class="code" href="group__gpio__file.html#ga29d6570ea3c66e023e28130a9f484025" title="Set GPIO Pin Mode.">gpio_mode_setup</a>(GPIOC, GPIO_MODE_OUTPUT,</div>
 <div class="line">                    GPIO_PUPD_PULLUP,  GPIO2 | GPIO9);</div>
 <div class="line">gpio_output_options(GPIOC, GPIO_OTYPE_PP,</div>
 <div class="line">                    GPIO_OSPEED_25MHZ,  GPIO2 | GPIO9);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#ga4f5f8d2c3d951f1b0138a207c8515db1" title="Set a Group of Pins Atomic.">gpio_set</a>(GPIOC, GPIO2 | GPIO9);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#gaa38876ad6f3cb35b67b25e87a2ce193c" title="Clear a Group of Pins Atomic.">gpio_clear</a>(GPIOC, GPIO2);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#gaa066370e84c91d65966ff9bb548d8b16" title="Toggle a Group of Pins.">gpio_toggle</a>(GPIOC, GPIO2 | GPIO9);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#gaf6a2d241b055d6f50db08305e901c526" title="Write to a Port.">gpio_port_write</a>(GPIOC, 0x204);</div>
+<div class="line"><a class="code" href="group__gpio__file.html#ga570d0f02cc0784882629bf4580b41e5b" title="Set a Group of Pins Atomic.">gpio_set</a>(GPIOC, GPIO2 | GPIO9);</div>
+<div class="line"><a class="code" href="group__gpio__file.html#gaa38876ad6f3cb35b67b25e87a2ce193c" title="Clear a Group of Pins Atomic.">gpio_clear</a>(GPIOC, GPIO2);</div>
+<div class="line"><a class="code" href="group__gpio__file.html#gaa066370e84c91d65966ff9bb548d8b16" title="Toggle a Group of Pins.">gpio_toggle</a>(GPIOC, GPIO2 | GPIO9);</div>
+<div class="line"><a class="code" href="group__gpio__file.html#gaf6a2d241b055d6f50db08305e901c526" title="Write to a Port.">gpio_port_write</a>(GPIOC, 0x204);</div>
 </div><!-- fragment --><p>Example 2: Digital input on port C12 with pullup</p>
-<div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga83e88435c703f86b1a04022433d1bd26" title="Set GPIO Pin Mode.">gpio_mode_setup</a>(GPIOC, GPIO_MODE_INPUT,</div>
+<div class="fragment"><div class="line"><a class="code" href="group__gpio__file.html#ga29d6570ea3c66e023e28130a9f484025" title="Set GPIO Pin Mode.">gpio_mode_setup</a>(GPIOC, GPIO_MODE_INPUT,</div>
 <div class="line">                    GPIO_PUPD_PULLUP, GPIO12);</div>
-<div class="line">reg16 = <a class="code" href="group__gpio__defines.html#ga00667ed71e76ab23562b50cffeb3cab5" title="Read from a Port.">gpio_port_read</a>(GPIOC);</div>
+<div class="line">reg16 = <a class="code" href="group__gpio__file.html#ga00667ed71e76ab23562b50cffeb3cab5" title="Read from a Port.">gpio_port_read</a>(GPIOC);</div>
 </div><!-- fragment --> <h2>Function Documentation</h2>
 <a class="anchor" id="gaa38876ad6f3cb35b67b25e87a2ce193c"></a>
 <div class="memitem">
@@ -208,8 +208,8 @@ Basic GPIO Handling API.</h1>
 <p>Clear one or more pins of the given GPIO port to 0 in an atomic operation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -245,8 +245,8 @@ Basic GPIO Handling API.</h1>
 <p>Read a Group of Pins. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be read, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be read, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -261,7 +261,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__gpio__file_ga1f8ff59ad8792d9cc6e505149b51889d_cgraph.png" border="0" usemap="#group__gpio__file_ga1f8ff59ad8792d9cc6e505149b51889d_cgraph" alt=""/></div>
 <map name="group__gpio__file_ga1f8ff59ad8792d9cc6e505149b51889d_cgraph" id="group__gpio__file_ga1f8ff59ad8792d9cc6e505149b51889d_cgraph">
-<area shape="rect" id="node3" href="group__gpio__defines.html#ga00667ed71e76ab23562b50cffeb3cab5" title="Read from a Port." alt="" coords="125,5,232,35"/></map>
+<area shape="rect" id="node3" href="group__gpio__file.html#ga00667ed71e76ab23562b50cffeb3cab5" title="Read from a Port." alt="" coords="125,5,232,35"/></map>
 </div>
 </p>
 
@@ -307,10 +307,10 @@ Here is the call graph for this function:</div>
 <p>Sets the Pin Direction and Analog/Digital Mode, and Output Pin Pullup, for a set of GPIO pins on a given GPIO port.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Unsigned int8. Pin mode <a class="el" href="group__gpio__mode.html">GPIO Pin Direction and Analog/Digital Mode</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pull_up_down</td><td>Unsigned int8. Pin pullup/pulldown configuration <a class="el" href="group__gpio__pup.html">GPIO Output Pin Pullup</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Unsigned int8. Pin mode gpio_mode </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pull_up_down</td><td>Unsigned int8. Pin pullup/pulldown configuration gpio_pup </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -347,8 +347,8 @@ Here is the call graph for this function:</div>
 <p>The configuration of one or more pins of the given GPIO port is locked. There is no mechanism to unlock these via software. Unlocking occurs at the next reset.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be locked, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be locked, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -375,7 +375,7 @@ Here is the call graph for this function:</div>
 <p>Read the current value of the given GPIO port. Only the lower 16 bits contain valid pin data.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
   </table>
   </dd>
 </dl>
@@ -424,7 +424,7 @@ Here is the caller graph for this function:</div>
 <p>Write a value to the given GPIO port.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Unsigned int16. The value to be written to the GPIO port. </td></tr>
   </table>
   </dd>
@@ -462,8 +462,8 @@ Here is the caller graph for this function:</div>
 <p>Set one or more pins of the given GPIO port to 1 in an atomic operation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -507,9 +507,9 @@ Here is the caller graph for this function:</div>
 <p>Note that a number of pins may be set but only with a single AF number. In practice this would rarely be useful as each pin is likely to require a different number.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">alt_func_num</td><td>Unsigned int8. Pin alternate function number <a class="el" href="group__gpio__af__num.html">Alternate Function Pin Selection</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alt_func_num</td><td>Unsigned int8. Pin alternate function number gpio_af_num </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -558,10 +558,10 @@ Here is the caller graph for this function:</div>
 <p>When the pin is set to output mode, this sets the configuration (analog/digital and open drain/push pull) and speed, for a set of GPIO pins on a given GPIO port.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">otype</td><td>Unsigned int8. Pin output type <a class="el" href="group__gpio__output__type.html">GPIO Output Pin Driver Type</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">speed</td><td>Unsigned int8. Pin speed <a class="el" href="group__gpio__speed.html">GPIO Output Pin Speed</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">otype</td><td>Unsigned int8. Pin output type gpio_output_type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">speed</td><td>Unsigned int8. Pin speed gpio_speed </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -598,8 +598,8 @@ Here is the caller graph for this function:</div>
 <p>Toggle one or more pins of the given GPIO port. This is not an atomic operation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers gpio_pin_id If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -613,7 +613,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:35 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

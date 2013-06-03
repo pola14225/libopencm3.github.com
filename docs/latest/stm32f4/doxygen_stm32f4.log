@@ -1,258 +1,309 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:259: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:262: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:265: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:268: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:271: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:274: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:277: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:280: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:343: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:345: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:347: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:349: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:351: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:353: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:355: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:357: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:359: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:361: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:363: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:365: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:367: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:369: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:371: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:373: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:765: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:769: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:771: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:773: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:775: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:777: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:779: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:783: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:785: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:787: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:789: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:791: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/adc.h:793: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_f24.h:254: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_f24.h:256: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_f24.h:258: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_f24.h:260: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_f24.h:262: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:308: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:311: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:314: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:317: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:320: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:323: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:326: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:402: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:404: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:406: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:408: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:410: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:412: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:414: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:416: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:426: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:429: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:432: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:435: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:438: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:440: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:442: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:444: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:456: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:459: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:462: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:465: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:468: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:471: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:474: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:477: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:480: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:483: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:486: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:489: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:492: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:495: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:498: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:509: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:512: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:515: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:518: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:521: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:524: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:527: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:530: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:533: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:536: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:539: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:542: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:554: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:557: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:560: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:563: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:566: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:569: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:572: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_all.h:575: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_f24.h:58: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_f24.h:60: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_f24.h:62: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_f24.h:64: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_f24.h:79: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_f24.h:81: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_f24.h:83: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/timer_common_f24.h:85: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:120: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:123: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:126: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:129: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:132: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:135: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:138: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:141: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:144: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/usart_common_all.h:147: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f24.h:192: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f24.h:193: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/gpio.h:1: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/gpio.h:2: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1822: warning: argument 'Unsigned' of command @param is not found in the argument list of timer_set_counter(u32 timer_peripheral, u32 count)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1822: warning: The following parameters of timer_set_counter(u32 timer_peripheral, u32 count) are not documented:
-  parameter 'count'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f24.h:192: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f24.h:193: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f24.h:192: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f24.h:193: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/adc.c:1005: warning: argument 'adc' of command @param is not found in the argument list of adc_disable_temperature_sensor(void)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/adc.c:991: warning: argument 'adc' of command @param is not found in the argument list of adc_enable_temperature_sensor(void)
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/crc_common_all.h:84: warning: The following parameters of crc_calculate_block(u32 *datap, int size) are not documented:
-  parameter 'size'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1822: warning: argument 'Unsigned' of command @param is not found in the argument list of timer_set_counter(u32 timer_peripheral, u32 count)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1822: warning: The following parameters of timer_set_counter(u32 timer_peripheral, u32 count) are not documented:
-  parameter 'count'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:203: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:179: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:153: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:355: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:250: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:227: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:130: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:452: warning: explicit link request to 'data_align' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:406: warning: explicit link request to 'data_align' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:407: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:323: warning: unable to resolve reference to `dac_trig2_sel' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:323: warning: unable to resolve reference to `dac_trig1_sel' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:387: warning: unable to resolve reference to `dac_mamp2' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:387: warning: unable to resolve reference to `dac_mamp1' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:341: warning: unable to resolve reference to `dac_wave1_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:341: warning: unable to resolve reference to `dac_wave2_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:476: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:299: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:276: warning: explicit link request to 'data_channel' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:331: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:332: warning: unable to resolve reference to `dma_ch_sel' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:90: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:91: warning: unable to resolve reference to `dma_if_offset' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:574: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:441: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:599: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:524: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:240: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:273: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:688: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:549: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:499: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:313: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:631: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:561: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:429: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:586: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:645: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:291: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:511: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:226: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:258: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:674: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:536: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:486: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:614: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:115: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:116: warning: unable to resolve reference to `dma_if_offset' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:407: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:474: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:660: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:661: warning: unable to resolve reference to `dma_fifo_thresh' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:387: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:727: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:747: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:349: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:350: warning: unable to resolve reference to `dma_mburst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:185: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:186: warning: unable to resolve reference to `dma_st_memwidth' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:765: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:706: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:368: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:369: warning: unable to resolve reference to `dma_pburst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:458: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:206: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:207: warning: unable to resolve reference to `dma_st_perwidth' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:166: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:167: warning: unable to resolve reference to `dma_st_pri' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:140: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:141: warning: unable to resolve reference to `dma_st_dir' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_f24.c:54: warning: unable to resolve reference to `dma_st_number' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:49: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:50: warning: unable to resolve reference to `gpio_pin_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:63: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:64: warning: unable to resolve reference to `gpio_pin_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:77: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:78: warning: unable to resolve reference to `gpio_mode' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:79: warning: unable to resolve reference to `gpio_pup' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:80: warning: unable to resolve reference to `gpio_pin_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:119: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:120: warning: unable to resolve reference to `gpio_pin_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:92: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:105: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:35: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:36: warning: unable to resolve reference to `gpio_pin_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:156: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:157: warning: unable to resolve reference to `gpio_af_num' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:158: warning: unable to resolve reference to `gpio_pin_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:116: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:117: warning: unable to resolve reference to `gpio_output_type' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:118: warning: unable to resolve reference to `gpio_speed' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f24.c:119: warning: unable to resolve reference to `gpio_pin_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:77: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:78: warning: unable to resolve reference to `gpio_pin_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:397: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:123: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:320: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:377: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:297: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:309: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:367: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:286: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:278: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:343: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:331: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:81: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:67: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:47: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:253: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:255: warning: unable to resolve reference to `i2c_rw' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:266: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:96: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:110: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:220: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:197: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:198: warning: unable to resolve reference to `i2c_clock' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:387: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:353: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:354: warning: unable to resolve reference to `i2c_duty_cycle' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:168: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:153: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:135: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:182: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/i2c_common_all.c:241: warning: unable to resolve reference to `i2c_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/pwr_common_all.c:59: warning: unable to resolve reference to `pwr_pls' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:181: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:162: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:357: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:661: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:639: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:742: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:442: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:690: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:617: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:716: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:148: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:346: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:650: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:628: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:731: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:456: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:675: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:606: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:705: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:109: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:110: warning: unable to resolve reference to `spi_baudrate' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:111: warning: unable to resolve reference to `spi_cpol' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:112: warning: unable to resolve reference to `spi_cpha' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:113: warning: unable to resolve reference to `spi_dff' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:114: warning: unable to resolve reference to `spi_lsbfirst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:245: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:76: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:226: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:497: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:508: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:521: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:522: warning: unable to resolve reference to `spi_br_pre' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:288: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:317: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:332: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:595: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:584: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:573: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:562: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:407: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:396: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:418: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:540: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:370: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:385: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:472: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:486: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:429: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:551: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:303: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:211: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_all.c:265: warning: unable to resolve reference to `spi_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:253: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:254: warning: unable to resolve reference to `tim_sr_values' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:403: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:381: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:368: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:637: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:478: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:197: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:198: warning: unable to resolve reference to `tim_irq_enable' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:781: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:782: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1286: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1287: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1076: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1077: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:339: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:680: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:454: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:614: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:467: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:183: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:184: warning: unable to resolve reference to `tim_irq_enable' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:750: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:751: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1227: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1228: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1045: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1046: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:324: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:659: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:441: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1799: warning: unable to resolve reference to `tim_event_gen' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:236: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:237: warning: unable to resolve reference to `tim_sr_values' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1967: warning: explicit link request to 'tim_ic_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1955: warning: explicit link request to 'tim_ic_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1842: warning: explicit link request to 'tim_ic_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1843: warning: explicit link request to 'tim_ic_filter' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1917: warning: explicit link request to 'tim_ic_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1918: warning: explicit link request to 'tim_ic_input' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f24.c:54: warning: explicit link request to 'tim_ic_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f24.c:55: warning: explicit link request to 'tim_ic_pol' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1874: warning: explicit link request to 'tim_ic_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1875: warning: explicit link request to 'tim_ic_psc' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:215: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:216: warning: unable to resolve reference to `tim_sr_values' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:392: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:107: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:520: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:521: warning: unable to resolve reference to `tim_x_cr2_ois' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:352: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:353: warning: unable to resolve reference to `tim_x_cr1_cms' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1744: warning: unable to resolve reference to `tim_lock' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:307: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:308: warning: unable to resolve reference to `tim_x_cr1_cdr' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:583: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:596: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:566: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:567: warning: unable to resolve reference to `tim_mastermode' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:281: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:282: warning: unable to resolve reference to `tim_x_cr1_cdr' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:283: warning: unable to resolve reference to `tim_x_cr1_cms' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:284: warning: unable to resolve reference to `tim_x_cr1_dir' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:817: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:818: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1348: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1349: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1397: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1398: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:894: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:895: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:897: warning: explicit link request to 'tim_oc_mode' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1109: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1110: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1168: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1169: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:851: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:852: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1444: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1446: warning: explicit link request to 'tim_oc_id' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f24.c:34: warning: unable to resolve reference to `tim2_opt_trigger_remap' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f24.c:34: warning: unable to resolve reference to `tim5_opt_trigger_remap' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f24.c:30: warning: The following parameters of timer_set_option(u32 timer_peripheral, u32 option) are not documented:
   parameter 'option'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f24.h:192: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f24.h:193: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:495: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:496: warning: unable to resolve reference to `tim_x_cr2_ois' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:733: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:698: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:715: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:554: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:541: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1984: warning: explicit link request to 'tim_ic_filter' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:2027: warning: unable to resolve reference to `tim_sms' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:2012: warning: explicit link request to 'tim_et_pol' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1999: warning: explicit link request to 'tim_ic_psc' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:2040: warning: unable to resolve reference to `tim_ts' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:419: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:430: warning: unable to resolve reference to `tim_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:181: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:393: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:298: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:349: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:326: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:371: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:168: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:382: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:287: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:337: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:315: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:360: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:404: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:405: warning: unable to resolve reference to `usart_sr_flags' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:423: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:424: warning: unable to resolve reference to `usart_sr_flags' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:207: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:267: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:192: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:250: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:44: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:81: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:152: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:153: warning: unable to resolve reference to `usart_cr3_flowcontrol' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:134: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:135: warning: unable to resolve reference to `usart_cr1_mode' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:116: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:117: warning: unable to resolve reference to `usart_cr1_parity' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:98: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:99: warning: unable to resolve reference to `usart_cr2_stopbits' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:235: warning: unable to resolve reference to `usart_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_all.c:221: warning: unable to resolve reference to `usart_reg_base' for \ref command

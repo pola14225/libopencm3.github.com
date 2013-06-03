@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('group__dma__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -263,8 +263,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel selection <a class="el" href="group__dma__ch__sel.html">DMA Channel Select</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel selection dma_ch_sel </td></tr>
   </table>
   </dd>
 </dl>
@@ -308,8 +308,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Bitwise OR of interrupt numbers: <a class="el" href="group__dma__if__offset.html">DMA Interrupt Flag Offsets within stream flag group.</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Bitwise OR of interrupt numbers: dma_if_offset </td></tr>
   </table>
   </dd>
 </dl>
@@ -357,7 +357,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -394,7 +394,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -431,7 +431,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -468,7 +468,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -506,7 +506,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -544,7 +544,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -582,7 +582,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -619,7 +619,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -656,7 +656,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -696,7 +696,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -734,7 +734,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -771,7 +771,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -785,7 +785,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dma__file_ga9ed60ff3a7753a7e97db7d6cdc7d4590_cgraph.png" border="0" usemap="#group__dma__file_ga9ed60ff3a7753a7e97db7d6cdc7d4590_cgraph" alt=""/></div>
 <map name="group__dma__file_ga9ed60ff3a7753a7e97db7d6cdc7d4590_cgraph" id="group__dma__file_ga9ed60ff3a7753a7e97db7d6cdc7d4590_cgraph">
-<area shape="rect" id="node3" href="group__dma__defines.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="224,5,360,51"/></map>
+<area shape="rect" id="node3" href="group__dma__file.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="224,5,360,51"/></map>
 </div>
 </p>
 
@@ -822,7 +822,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -859,7 +859,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -873,7 +873,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dma__file_ga8f4431b94cee03c98cf69d6bb9d37273_cgraph.png" border="0" usemap="#group__dma__file_ga8f4431b94cee03c98cf69d6bb9d37273_cgraph" alt=""/></div>
 <map name="group__dma__file_ga8f4431b94cee03c98cf69d6bb9d37273_cgraph" id="group__dma__file_ga8f4431b94cee03c98cf69d6bb9d37273_cgraph">
-<area shape="rect" id="node3" href="group__dma__defines.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="205,5,341,51"/></map>
+<area shape="rect" id="node3" href="group__dma__file.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="205,5,341,51"/></map>
 </div>
 </p>
 
@@ -908,7 +908,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -947,7 +947,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -984,7 +984,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -998,7 +998,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dma__file_gadb1424572c99abed55409f8f9d9c0770_cgraph.png" border="0" usemap="#group__dma__file_gadb1424572c99abed55409f8f9d9c0770_cgraph" alt=""/></div>
 <map name="group__dma__file_gadb1424572c99abed55409f8f9d9c0770_cgraph" id="group__dma__file_gadb1424572c99abed55409f8f9d9c0770_cgraph">
-<area shape="rect" id="node3" href="group__dma__defines.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="224,5,360,51"/></map>
+<area shape="rect" id="node3" href="group__dma__file.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="224,5,360,51"/></map>
 </div>
 </p>
 
@@ -1034,7 +1034,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -1073,7 +1073,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -1110,7 +1110,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -1147,7 +1147,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -1161,7 +1161,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dma__file_gaa0c004f4beb0a0552400bc0c3b0e2d45_cgraph.png" border="0" usemap="#group__dma__file_gaa0c004f4beb0a0552400bc0c3b0e2d45_cgraph" alt=""/></div>
 <map name="group__dma__file_gaa0c004f4beb0a0552400bc0c3b0e2d45_cgraph" id="group__dma__file_gaa0c004f4beb0a0552400bc0c3b0e2d45_cgraph">
-<area shape="rect" id="node3" href="group__dma__defines.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="197,5,333,51"/></map>
+<area shape="rect" id="node3" href="group__dma__file.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="197,5,333,51"/></map>
 </div>
 </p>
 
@@ -1195,7 +1195,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -1209,7 +1209,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dma__file_ga44bac096c7f6f16310dcd6018dd11ec6_cgraph.png" border="0" usemap="#group__dma__file_ga44bac096c7f6f16310dcd6018dd11ec6_cgraph" alt=""/></div>
 <map name="group__dma__file_ga44bac096c7f6f16310dcd6018dd11ec6_cgraph" id="group__dma__file_ga44bac096c7f6f16310dcd6018dd11ec6_cgraph">
-<area shape="rect" id="node3" href="group__dma__defines.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="197,5,333,51"/></map>
+<area shape="rect" id="node3" href="group__dma__file.html#ga5c0470a08b21008f5a931874880c4cee" title="DMA Stream Clear Interrupt Flag." alt="" coords="197,5,333,51"/></map>
 </div>
 </p>
 
@@ -1244,11 +1244,11 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>u32 FIFO Status <a class="el" href="group__dma__fifo__status.html">FIFO Status</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>u32 FIFO Status <a class="el" href="group__dma__file.html#ga1b38dbfcd08570b6c1c76430560e5734">dma_fifo_status</a> </dd></dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00620">620</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
 
@@ -1289,8 +1289,8 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: <a class="el" href="group__dma__if__offset.html">DMA Interrupt Flag Offsets within stream flag group.</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: dma_if_offset </td></tr>
   </table>
   </dd>
 </dl>
@@ -1329,7 +1329,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -1369,7 +1369,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -1413,8 +1413,8 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>unsigned int8. Threshold setting <a class="el" href="group__dma__fifo__thresh.html">FIFO Threshold selection</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>unsigned int8. Threshold setting dma_fifo_thresh </td></tr>
   </table>
   </dd>
 </dl>
@@ -1459,7 +1459,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">memory</td><td>unsigned int8. Initial memory pointer to use: 0 or 1 </td></tr>
   </table>
   </dd>
@@ -1505,7 +1505,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Memory Initial Address. </td></tr>
   </table>
   </dd>
@@ -1550,7 +1550,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Memory Initial Address. </td></tr>
   </table>
   </dd>
@@ -1596,8 +1596,8 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">burst</td><td>unsigned int8. Memory Burst selection <a class="el" href="group__dma__mburst.html">DMA Memory Burst Length</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">burst</td><td>unsigned int8. Memory Burst selection dma_mburst </td></tr>
   </table>
   </dd>
 </dl>
@@ -1642,8 +1642,8 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width <a class="el" href="group__dma__st__memwidth.html">DMA Stream Memory Word Width</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width dma_st_memwidth. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1687,7 +1687,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">number</td><td>unsigned int16. Number of data words to transfer (65535 maximum). </td></tr>
   </table>
   </dd>
@@ -1733,7 +1733,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Peripheral Address. </td></tr>
   </table>
   </dd>
@@ -1779,8 +1779,8 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">burst</td><td>unsigned int8. Peripheral Burst selection <a class="el" href="group__dma__pburst.html">DMA Peripheral Burst Length</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">burst</td><td>unsigned int8. Peripheral Burst selection dma_pburst </td></tr>
   </table>
   </dd>
 </dl>
@@ -1819,7 +1819,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -1864,8 +1864,8 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width <a class="el" href="group__dma__st__perwidth.html">DMA Stream Peripheral Word Width</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width dma_st_perwidth. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1910,8 +1910,8 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level <a class="el" href="group__dma__st__pri.html">DMA Stream Priority Levels</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level dma_st_pri. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1956,8 +1956,8 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">direction</td><td>unsigned int32. Data transfer direction <a class="el" href="group__dma__st__dir.html">DMA Stream Data transfer direction</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">direction</td><td>unsigned int32. Data transfer direction dma_st_dir </td></tr>
   </table>
   </dd>
 </dl>
@@ -1995,7 +1995,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: <a class="el" href="group__dma__st__number.html">DMA Stream Number</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
   </table>
   </dd>
 </dl>
@@ -2009,7 +2009,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:35 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

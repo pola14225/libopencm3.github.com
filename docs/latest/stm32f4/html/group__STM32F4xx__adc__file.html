@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('group__STM32F4xx__adc__file.html','');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -266,19 +266,19 @@ Functions</h2></td></tr>
 <h1><a class="anchor" id="adc_f4_api_ex"></a>
 Basic ADC Handling API.</h1>
 <p>Example 1: Simple single channel conversion polled. Enable the peripheral clock and ADC, reset ADC and set the prescaler divider. Set multiple mode to independent.</p>
-<div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga83e88435c703f86b1a04022433d1bd26" title="Set GPIO Pin Mode.">gpio_mode_setup</a>(GPIOA, GPIO_MODE_ANALOG, GPIO_PUPD_NONE, GPIO1);</div>
-<div class="line"><a class="code" href="rcc_8h.html#a3b3e26e0374ad984ec7c442b738a8cd2">rcc_peripheral_enable_clock</a>(&amp;RCC_APB2ENR, RCC_APB2ENR_ADC1EN);</div>
+<div class="fragment"><div class="line"><a class="code" href="group__gpio__file.html#ga29d6570ea3c66e023e28130a9f484025" title="Set GPIO Pin Mode.">gpio_mode_setup</a>(GPIOA, GPIO_MODE_ANALOG, GPIO_PUPD_NONE, GPIO1);</div>
+<div class="line"><a class="code" href="rcc_8h.html#a3b3e26e0374ad984ec7c442b738a8cd2">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="rcc_8h.html#a6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, <a class="code" href="rcc_8h.html#a57b9f50cb96a2e4ceba37728b4a32a42">RCC_APB2ENR_ADC1EN</a>);</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga7c826871009a2e7396ad9bcc5d680d0f" title="ADC Set Clock Prescale.">adc_set_clk_prescale</a>(RCC_CFGR_ADCPRE_BY2);</div>
-<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga75e4b403cc6932aef35b4b84b56c8080" title="ADC Disable Scan Mode.">adc_disable_scan_mode</a>(ADC1);</div>
-<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga037cddef7f977288dde6a2a9bfe9ab69" title="ADC Enable Single Conversion Mode.">adc_set_single_conversion_mode</a>(ADC1);</div>
-<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga9d08047fceee749485a72be74764db5c" title="ADC Set the Sample Time for a Single Channel.">adc_set_sample_time</a>(ADC1, ADC_CHANNEL0, ADC_SMPR1_SMP_1DOT5CYC);</div>
-<div class="line"><a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> channels[] = ADC_CHANNEL0;</div>
-<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#gaaf0c33fdbed4e8ea63b6c0ee3030d9ea" title="ADC Set a Regular Channel Conversion Sequence.">adc_set_regular_sequence</a>(ADC1, 1, channels);</div>
-<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga9aaee2a130e44f843b7707e19b608d68" title="ADC Set Dual/Triple Mode.">adc_set_multi_mode</a>(ADC_CCR_MULTI_INDEPENDENT);</div>
-<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga887a6fe0bbf2610f2ab0f8a7ab3bce40" title="ADC Power On.">adc_power_on</a>(ADC1);</div>
-<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#gaf8822481db78523a0d252dde571c17db" title="ADC Software Triggered Conversion on Regular Channels.">adc_start_conversion_regular</a>(ADC1);</div>
-<div class="line"><span class="keywordflow">while</span> (! <a class="code" href="group__STM32F4xx__adc__file.html#ga830b0fc9370508bf04dc1b01cc09badb" title="ADC Read the End-of-Conversion Flag.">adc_eoc</a>(ADC1));</div>
-<div class="line">reg16 = <a class="code" href="group__STM32F4xx__adc__file.html#ga0cb788d1d9e54f4ccf9fc8b3b95656ff" title="ADC Read from the Regular Conversion Result Register.">adc_read_regular</a>(ADC1);</div>
+<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga75e4b403cc6932aef35b4b84b56c8080" title="ADC Disable Scan Mode.">adc_disable_scan_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
+<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga037cddef7f977288dde6a2a9bfe9ab69" title="ADC Enable Single Conversion Mode.">adc_set_single_conversion_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
+<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga9d08047fceee749485a72be74764db5c" title="ADC Set the Sample Time for a Single Channel.">adc_set_sample_time</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>, <a class="code" href="group__adc__sample__r1.html#gae18cb818a4acbb827613d8eec1167370">ADC_SMPR1_SMP_1DOT5CYC</a>);</div>
+<div class="line"><a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> channels[] = <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>;</div>
+<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#gaaf0c33fdbed4e8ea63b6c0ee3030d9ea" title="ADC Set a Regular Channel Conversion Sequence.">adc_set_regular_sequence</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, 1, channels);</div>
+<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga9aaee2a130e44f843b7707e19b608d68" title="ADC Set Dual/Triple Mode.">adc_set_multi_mode</a>(<a class="code" href="group__adc__multi__mode.html#ga79f321af423af2c4006b7a1bf9dbb937" title="All ADCs independent.">ADC_CCR_MULTI_INDEPENDENT</a>);</div>
+<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga887a6fe0bbf2610f2ab0f8a7ab3bce40" title="ADC Power On.">adc_power_on</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
+<div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#gaf8822481db78523a0d252dde571c17db" title="ADC Software Triggered Conversion on Regular Channels.">adc_start_conversion_regular</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
+<div class="line"><span class="keywordflow">while</span> (! <a class="code" href="group__STM32F4xx__adc__file.html#ga830b0fc9370508bf04dc1b01cc09badb" title="ADC Read the End-of-Conversion Flag.">adc_eoc</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>));</div>
+<div class="line">reg16 = <a class="code" href="group__STM32F4xx__adc__file.html#ga0cb788d1d9e54f4ccf9fc8b3b95656ff" title="ADC Read from the Regular Conversion Result Register.">adc_read_regular</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
 </div><!-- fragment --><p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
 <h2>Function Documentation</h2>
 <a class="anchor" id="gaeaded5d1ab44ce44ea47be576f2dae8c"></a>
@@ -306,6 +306,8 @@ Basic ADC Handling API.</h1>
 <dl class="section return"><dt>Returns</dt><dd>bool. AWD flag. </dd></dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00985">985</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00058">ADC_SR</a>, and <a class="el" href="adc_8h_source.html#l00208">ADC_SR_AWD</a>.</p>
 
 </div>
 </div>
@@ -335,6 +337,8 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00915">915</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00058">ADC_SR</a>, and <a class="el" href="adc_8h_source.html#l00203">ADC_SR_OVR</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga2e0ddcf0afcfaa7a818db8ea6ea66690"></a>
@@ -360,6 +364,8 @@ Basic ADC Handling API.</h1>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00147">147</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00237">ADC_CR1_JAWDEN</a>.</p>
 
 </div>
 </div>
@@ -387,6 +393,8 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00121">121</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00234">ADC_CR1_AWDEN</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gad60e8cc425daf6901d82100b2c3c5cd9"></a>
@@ -412,6 +420,8 @@ Basic ADC Handling API.</h1>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00233">233</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00264">ADC_CR1_JAUTO</a>.</p>
 
 </div>
 </div>
@@ -439,6 +449,8 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00350">350</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00276">ADC_CR1_AWDIE</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga78164c7d8ab5f99ca93ed52e913bf6e8"></a>
@@ -464,6 +476,8 @@ Basic ADC Handling API.</h1>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00206">206</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00258">ADC_CR1_JDISCEN</a>.</p>
 
 </div>
 </div>
@@ -491,6 +505,8 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00180">180</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00261">ADC_CR1_DISCEN</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga8c4e2c4b6c4ff8bbc00c6e53f277892f"></a>
@@ -516,6 +532,8 @@ Basic ADC Handling API.</h1>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00452">452</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00434">ADC_CR2_DMA</a>.</p>
 
 </div>
 </div>
@@ -543,6 +561,8 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00372">372</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00279">ADC_CR1_EOCIE</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gaccc28c17498079897b5f80ae63af2921"></a>
@@ -569,6 +589,8 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00328">328</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00273">ADC_CR1_JEOCIE</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga15dac30e511736f67112db9997329c60"></a>
@@ -594,6 +616,8 @@ Basic ADC Handling API.</h1>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00838">838</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00393">ADC_CR2_JEXTEN_MASK</a>.</p>
 
 <p>Referenced by <a class="el" href="adc_8c_source.html#l00221">adc_enable_automatic_injected_group_conversion()</a>.</p>
 
@@ -632,6 +656,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00807">807</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00332">ADC_CR2_EXTEN_MASK</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gad4d9daf8d4a07e2dd14f4bca4a18b58b"></a>
@@ -658,6 +684,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00883">883</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00213">ADC_CR1_OVRIE</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga75e4b403cc6932aef35b4b84b56c8080"></a>
@@ -683,6 +711,8 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00306">306</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00270">ADC_CR1_SCAN</a>.</p>
 
 </div>
 </div>
@@ -711,6 +741,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l01013">1013</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00688">ADC_CCR_TSVREFE</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga46ea7596440e650c5640012aa74f2d21"></a>
@@ -737,6 +769,8 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00136">136</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00237">ADC_CR1_JAWDEN</a>.</p>
 
 </div>
 </div>
@@ -765,6 +799,8 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00253">253</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00267">ADC_CR1_AWDSGL</a>.</p>
 
 </div>
 </div>
@@ -805,6 +841,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00274">274</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, <a class="el" href="adc_8h_source.html#l00313">ADC_CR1_AWDCH_MASK</a>, and <a class="el" href="adc_8h_source.html#l00267">ADC_CR1_AWDSGL</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga5a1319d5fcfa28d0c5d616bb34636c44"></a>
@@ -831,6 +869,8 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00110">110</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00234">ADC_CR1_AWDEN</a>.</p>
 
 </div>
 </div>
@@ -859,7 +899,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00221">221</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8c_source.html#l00838">adc_disable_external_trigger_injected()</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, <a class="el" href="adc_8h_source.html#l00264">ADC_CR1_JAUTO</a>, and <a class="el" href="adc_8c_source.html#l00838">adc_disable_external_trigger_injected()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -896,6 +936,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00339">339</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00276">ADC_CR1_AWDIE</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga71c6f47f070add23253af4bf8e84820e"></a>
@@ -922,6 +964,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00195">195</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00258">ADC_CR1_JDISCEN</a>.</p>
 
 </div>
 </div>
@@ -961,6 +1005,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00167">167</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, <a class="el" href="adc_8h_source.html#l00261">ADC_CR1_DISCEN</a>, and <a class="el" href="adc_8h_source.html#l00255">ADC_CR1_DISCNUM_SHIFT</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gaddcab138dd47a4b6dc9357837c9f3604"></a>
@@ -986,6 +1032,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00441">441</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00434">ADC_CR2_DMA</a>.</p>
 
 </div>
 </div>
@@ -1013,6 +1061,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00361">361</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00279">ADC_CR1_EOCIE</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga93bf810a8a531d5772d443c252364016"></a>
@@ -1038,6 +1088,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00317">317</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00273">ADC_CR1_JEOCIE</a>.</p>
 
 </div>
 </div>
@@ -1084,6 +1136,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00823">823</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, <a class="el" href="adc_8h_source.html#l00393">ADC_CR2_JEXTEN_MASK</a>, and <a class="el" href="adc_8h_source.html#l00419">ADC_CR2_JEXTSEL_MASK</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga12d997b39b0e6e35b3e95a4b563817eb"></a>
@@ -1129,6 +1183,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00792">792</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, <a class="el" href="adc_8h_source.html#l00332">ADC_CR2_EXTEN_MASK</a>, and <a class="el" href="adc_8h_source.html#l00374">ADC_CR2_EXTSEL_MASK</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga76202ff99e88fc148c2dbabd66cfd921"></a>
@@ -1155,6 +1211,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00872">872</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00213">ADC_CR1_OVRIE</a>.</p>
 
 </div>
 </div>
@@ -1183,6 +1241,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00295">295</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00270">ADC_CR1_SCAN</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga9e06102aeaf2f57f34c2b12124bd8be6"></a>
@@ -1209,6 +1269,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00999">999</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00688">ADC_CCR_TSVREFE</a>.</p>
 
 </div>
 </div>
@@ -1238,6 +1300,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00643">643</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00058">ADC_SR</a>, and <a class="el" href="adc_8h_source.html#l00207">ADC_SR_EOC</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga8ed44a2d7b094c8af0dbc301b6e52da5"></a>
@@ -1265,6 +1329,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00930">930</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00428">ADC_CR2_EOCS</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga221a96a36781d1ebb927c33d0519fd01"></a>
@@ -1291,6 +1357,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00944">944</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00428">ADC_CR2_EOCS</a>.</p>
 
 </div>
 </div>
@@ -1320,6 +1388,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00657">657</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00058">ADC_SR</a>, and <a class="el" href="adc_8h_source.html#l00206">ADC_SR_JEOC</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gad545951867199df2321218d8e3bfe31a"></a>
@@ -1348,6 +1418,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00899">899</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00058">ADC_SR</a>, and <a class="el" href="adc_8h_source.html#l00203">ADC_SR_OVR</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga81d7963a320361ba7343eb3d094faaba"></a>
@@ -1375,6 +1447,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00095">95</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00447">ADC_CR2_ADON</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga887a6fe0bbf2610f2ab0f8a7ab3bce40"></a>
@@ -1401,6 +1475,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00745">745</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00447">ADC_CR2_ADON</a>.</p>
 
 </div>
 </div>
@@ -1442,6 +1518,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00690">690</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00142">ADC_JDR1</a>, <a class="el" href="adc_8h_source.html#l00143">ADC_JDR2</a>, <a class="el" href="adc_8h_source.html#l00144">ADC_JDR3</a>, and <a class="el" href="adc_8h_source.html#l00145">ADC_JDR4</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga0cb788d1d9e54f4ccf9fc8b3b95656ff"></a>
@@ -1471,6 +1549,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00673">673</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00160">ADC_DR</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga7c826871009a2e7396ad9bcc5d680d0f"></a>
@@ -1497,6 +1577,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00758">758</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00706">ADC_CCR_ADCPRE_MASK</a>.</p>
 
 </div>
 </div>
@@ -1525,6 +1607,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00466">466</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00439">ADC_CR2_CONT</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga8114a48a937a5ae9b89cb3ddb46632a9"></a>
@@ -1552,6 +1636,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00958">958</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00431">ADC_CR2_DDS</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gae8df37a5ef308cd16b596c1dd7ff39e1"></a>
@@ -1578,6 +1664,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00972">972</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00431">ADC_CR2_DDS</a>.</p>
 
 </div>
 </div>
@@ -1624,6 +1712,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00717">717</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00088">ADC_JOFR1</a>, <a class="el" href="adc_8h_source.html#l00089">ADC_JOFR2</a>, <a class="el" href="adc_8h_source.html#l00090">ADC_JOFR3</a>, and <a class="el" href="adc_8h_source.html#l00091">ADC_JOFR4</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga1a7f811f45a7affd09aef0bce17fd213"></a>
@@ -1669,6 +1759,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00616">616</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00136">ADC_JSQR</a>, and <a class="el" href="adc_8h_source.html#l00592">ADC_JSQR_JL_LSB</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gabcc9f948ac15e47f1b8d0084018fbbaa"></a>
@@ -1694,6 +1786,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00419">419</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00425">ADC_CR2_ALIGN</a>.</p>
 
 </div>
 </div>
@@ -1722,6 +1816,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00775">775</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00168">ADC_CCR</a>.</p>
 
 </div>
 </div>
@@ -1768,6 +1864,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00580">580</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00118">ADC_SQR1</a>, <a class="el" href="adc_8h_source.html#l00549">ADC_SQR1_L_LSB</a>, <a class="el" href="adc_8h_source.html#l00124">ADC_SQR2</a>, and <a class="el" href="adc_8h_source.html#l00130">ADC_SQR3</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gaecc2f1ce80efe1a1b02ae7e7bdf29a44"></a>
@@ -1806,6 +1904,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00853">853</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00064">ADC_CR1</a>, and <a class="el" href="adc_8h_source.html#l00226">ADC_CR1_RES_MASK</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga0990e90f5815264493f75ff61b771477"></a>
@@ -1831,6 +1931,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00430">430</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00425">ADC_CR2_ALIGN</a>.</p>
 
 </div>
 </div>
@@ -1877,6 +1979,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00495">495</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00076">ADC_SMPR1</a>, and <a class="el" href="adc_8h_source.html#l00082">ADC_SMPR2</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gaa6db4d6f3d5102470bb1ea84928f7713"></a>
@@ -1915,6 +2019,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00522">522</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00076">ADC_SMPR1</a>, and <a class="el" href="adc_8h_source.html#l00082">ADC_SMPR2</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga037cddef7f977288dde6a2a9bfe9ab69"></a>
@@ -1941,6 +2047,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00480">480</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00439">ADC_CR2_CONT</a>.</p>
 
 </div>
 </div>
@@ -1979,6 +2087,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00543">543</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00106">ADC_HTR</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gab12fb7ddc1517f1d06990daf82c04a70"></a>
@@ -2016,6 +2126,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00559">559</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00112">ADC_LTR</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga162cfe07991774853c1dd30770c282f9"></a>
@@ -2042,6 +2154,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00404">404</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00380">ADC_CR2_JSWSTART</a>.</p>
 
 </div>
 </div>
@@ -2070,6 +2184,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00386">386</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
+<p>References <a class="el" href="adc_8h_source.html#l00070">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00319">ADC_CR2_SWSTART</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -2077,7 +2193,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:35 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

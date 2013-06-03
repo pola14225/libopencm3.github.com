@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('group__gpio__mode.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -108,6 +108,8 @@ $(document).ready(function(){initNavTree('group__gpio__mode.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">GPIO Pin Mode</div>  </div>
 <div class="ingroups"><a class="el" href="group__gpio__defines.html">GPIO Defines</a></div></div><!--header-->
@@ -120,18 +122,84 @@ Collaboration diagram for GPIO Pin Mode:</div>
 <area shape="rect" id="node2" href="group__gpio__defines.html" title="Defined Constants and Types for the STM32F1xx General Purpose I/O" alt="" coords="5,5,109,35"/></map>
 </td></tr></table></center>
 </div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gaf40bec3146810028a84b628d37d3b391"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__mode.html#gaf40bec3146810028a84b628d37d3b391">GPIO_MODE_INPUT</a>&#160;&#160;&#160;0x00	/* Default */</td></tr>
+<tr class="memitem:gaccaafde9d3ff789887f676fa34cdbecd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__mode.html#gaccaafde9d3ff789887f676fa34cdbecd">GPIO_MODE_OUTPUT_10_MHZ</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memitem:ga59a8723fe181155fbdf46ca231d4b5e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__mode.html#ga59a8723fe181155fbdf46ca231d4b5e5">GPIO_MODE_OUTPUT_2_MHZ</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memitem:ga6b417f015356fa1b8816fdc9f5b966ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__mode.html#ga6b417f015356fa1b8816fdc9f5b966ce">GPIO_MODE_OUTPUT_50_MHZ</a>&#160;&#160;&#160;0x03</td></tr>
+</table>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
 <ul>
 <li>Input (default after reset) </li>
 <li>Output mode at 10 MHz maximum speed </li>
 <li>Output mode at 2 MHz maximum speed </li>
 <li>Output mode at 50 MHz maximum speed </li>
 </ul>
+<h2>Macro Definition Documentation</h2>
+<a class="anchor" id="gaf40bec3146810028a84b628d37d3b391"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPIO_MODE_INPUT&#160;&#160;&#160;0x00	/* Default */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00637">637</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaccaafde9d3ff789887f676fa34cdbecd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPIO_MODE_OUTPUT_10_MHZ&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00638">638</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga59a8723fe181155fbdf46ca231d4b5e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPIO_MODE_OUTPUT_2_MHZ&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00639">639</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga6b417f015356fa1b8816fdc9f5b966ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPIO_MODE_OUTPUT_50_MHZ&#160;&#160;&#160;0x03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00640">640</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:25 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

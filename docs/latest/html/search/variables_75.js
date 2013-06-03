@@ -1,5 +1,15 @@
 var searchData=
 [
+  ['uart_5ffifo_5frx_5ftrig_5f1_5f2',['UART_FIFO_RX_TRIG_1_2',['../../lm4f/html/group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a370cf31f3500cdbd65b9d6acd71efc2e',1,]]],
+  ['uart_5ffifo_5frx_5ftrig_5f1_5f4',['UART_FIFO_RX_TRIG_1_4',['../../lm4f/html/group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a698200c109ea3fb1035cc81ff5c3f34c',1,]]],
+  ['uart_5ffifo_5frx_5ftrig_5f1_5f8',['UART_FIFO_RX_TRIG_1_8',['../../lm4f/html/group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a9a9d22fe9ad81f42dc7dd48e3c0522f9',1,]]],
+  ['uart_5ffifo_5frx_5ftrig_5f3_5f4',['UART_FIFO_RX_TRIG_3_4',['../../lm4f/html/group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a4f86835a14f9d693d8982534bc2e50e5',1,]]],
+  ['uart_5ffifo_5frx_5ftrig_5f7_5f8',['UART_FIFO_RX_TRIG_7_8',['../../lm4f/html/group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a73fd9cb5457a327d74fdf727be6f580e',1,]]],
+  ['uart_5ffifo_5ftx_5ftrig_5f1_5f2',['UART_FIFO_TX_TRIG_1_2',['../../lm4f/html/group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a6cf07bc1412bbf702f39ad478add22fc',1,]]],
+  ['uart_5ffifo_5ftx_5ftrig_5f1_5f4',['UART_FIFO_TX_TRIG_1_4',['../../lm4f/html/group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a3b6765a42c9e8794949062283819221a',1,]]],
+  ['uart_5ffifo_5ftx_5ftrig_5f1_5f8',['UART_FIFO_TX_TRIG_1_8',['../../lm4f/html/group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a38c34c00f7ccd0a9424cf3d48338a4c2',1,]]],
+  ['uart_5ffifo_5ftx_5ftrig_5f3_5f4',['UART_FIFO_TX_TRIG_3_4',['../../lm4f/html/group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a0ba87eebf5636a89499d1c75f4524fc5',1,]]],
+  ['uart_5ffifo_5ftx_5ftrig_5f7_5f8',['UART_FIFO_TX_TRIG_7_8',['../../lm4f/html/group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848ad73b67cad4b485679cd70f2af3fa73f7',1,]]],
   ['uart_5fflowctl_5fcts',['UART_FLOWCTL_CTS',['../../lm4f/html/group__uart__defines.html#gga50eb7d8c1338b309a11dda5e86240706a0d9da2df46dc2f980c019b5c0c955a2c',1,]]],
   ['uart_5fflowctl_5fnone',['UART_FLOWCTL_NONE',['../../lm4f/html/group__uart__defines.html#gga50eb7d8c1338b309a11dda5e86240706a087e42c5229a10b6b02aa7f3548e0e18',1,]]],
   ['uart_5fflowctl_5frts',['UART_FLOWCTL_RTS',['../../lm4f/html/group__uart__defines.html#gga50eb7d8c1338b309a11dda5e86240706a8105549da2b48f557f98e5575dd48fc5',1,]]],

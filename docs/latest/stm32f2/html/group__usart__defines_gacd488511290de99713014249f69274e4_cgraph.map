@@ -1,4 +1,0 @@
-<map id="usart_send_blocking" name="usart_send_blocking">
-<area shape="rect" id="node3" href="$group__usart__defines.html#gaaaa61a498fcb090540f2dc9d862c26c6" title="USART Send a Data Word." alt="" coords="231,5,316,35"/>
-<area shape="rect" id="node5" href="$group__usart__defines.html#gab575fd7d6b2dcb6e5419ae75169503ea" title="USART Wait for Transmit Data Buffer Empty." alt="" coords="196,59,351,88"/>
-</map>

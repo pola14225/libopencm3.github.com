@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8c_source.html','');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -158,9 +158,9 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8c_source.html','');
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/iwdg.h&gt;</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#define LSI_FREQUENCY 32000</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COUNT_LENGTH 12</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COUNT_MASK ((1 &lt;&lt; COUNT_LENGTH)-1)</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gac3a052b86bfb2e144bff152e95ec8f2b">   41</a></span>&#160;<span class="preprocessor">#define LSI_FREQUENCY 32000</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gaac5931de084e9f80c7b1ab0f0e2843ca">   42</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COUNT_LENGTH 12</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#ga321c7b6be759f7ebe121991742274d46">   43</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COUNT_MASK ((1 &lt;&lt; COUNT_LENGTH)-1)</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/*-----------------------------------------------------------------------------*/</span><span class="comment"></span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/** @brief IWDG Enable Watchdog Timer</span></div>
@@ -170,7 +170,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8c_source.html','');
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#ga37118c514f7cc1ada7f28157de603a02">   53</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__defines.html#gac41c803dacac27e4798287eab40725ef" title="IWDG Enable Watchdog Timer.">iwdg_start</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#ga37118c514f7cc1ada7f28157de603a02">   53</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__file.html#ga37118c514f7cc1ada7f28157de603a02" title="IWDG Enable Watchdog Timer.">iwdg_start</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        IWDG_KR = IWDG_KR_START;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
@@ -190,14 +190,14 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8c_source.html','');
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">a system reset is issued.</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gaa4f196e28e96c7901f9ff25a5c7fd20d">   73</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__defines.html#gaa4f196e28e96c7901f9ff25a5c7fd20d" title="IWDG Set Period in Milliseconds.">iwdg_set_period_ms</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> period)</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gaa4f196e28e96c7901f9ff25a5c7fd20d">   73</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__file.html#gaa4f196e28e96c7901f9ff25a5c7fd20d" title="IWDG Set Period in Milliseconds.">iwdg_set_period_ms</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> period)</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> count, prescale, reload, exponent;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">/* Set the count to represent ticks of the 32kHz LSI clock */</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        count = (period &lt;&lt; 5);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">/* Strip off the first 12 bits to get the prescale value required */</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        prescale = (count &gt;&gt; 12);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">if</span> (prescale &gt; 256)      {exponent = IWDG_PR_DIV256;  reload = COUNT_MASK;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">if</span> (prescale &gt; 256)      {exponent = IWDG_PR_DIV256;  reload = <a class="code" href="group__iwdg__file.html#ga321c7b6be759f7ebe121991742274d46">COUNT_MASK</a>;}</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (prescale &gt; 128) {exponent = IWDG_PR_DIV256;  reload = (count &gt;&gt; 8);}</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (prescale &gt; 64)  {exponent = IWDG_PR_DIV128;  reload = (count &gt;&gt; 7);}</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (prescale &gt; 32)  {exponent = IWDG_PR_DIV64;   reload = (count &gt;&gt; 6);}</div>
@@ -208,12 +208,12 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8c_source.html','');
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">/* Avoid the undefined situation of a zero count */</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">if</span> (count == 0) count = 1;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="group__iwdg__defines.html#gab5d11cd4f7d3c567c12acb26742d1eee" title="IWDG Get Prescaler Register Status.">iwdg_prescaler_busy</a>());</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="group__iwdg__file.html#gab5d11cd4f7d3c567c12acb26742d1eee" title="IWDG Get Prescaler Register Status.">iwdg_prescaler_busy</a>());</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        IWDG_KR = IWDG_KR_UNLOCK;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        IWDG_PR = exponent;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="group__iwdg__defines.html#gaa9844c03c29a289e394398d646e52187" title="IWDG Get Reload Register Status.">iwdg_reload_busy</a>());</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="group__iwdg__file.html#gaa9844c03c29a289e394398d646e52187" title="IWDG Get Reload Register Status.">iwdg_reload_busy</a>());</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        IWDG_KR = IWDG_KR_UNLOCK;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        IWDG_RLR = (reload &amp; COUNT_MASK);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        IWDG_RLR = (reload &amp; <a class="code" href="group__iwdg__file.html#ga321c7b6be759f7ebe121991742274d46">COUNT_MASK</a>);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">/*-----------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8c_source.html','');
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">a new count value.</span></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gaa9844c03c29a289e394398d646e52187">  106</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__iwdg__defines.html#gaa9844c03c29a289e394398d646e52187" title="IWDG Get Reload Register Status.">iwdg_reload_busy</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gaa9844c03c29a289e394398d646e52187">  106</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__iwdg__file.html#gaa9844c03c29a289e394398d646e52187" title="IWDG Get Reload Register Status.">iwdg_reload_busy</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;{</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> (IWDG_SR &amp; IWDG_SR_RVU);</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
@@ -235,7 +235,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8c_source.html','');
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment">a new period value.</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gab5d11cd4f7d3c567c12acb26742d1eee">  118</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__iwdg__defines.html#gab5d11cd4f7d3c567c12acb26742d1eee" title="IWDG Get Prescaler Register Status.">iwdg_prescaler_busy</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gab5d11cd4f7d3c567c12acb26742d1eee">  118</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__iwdg__file.html#gab5d11cd4f7d3c567c12acb26742d1eee" title="IWDG Get Prescaler Register Status.">iwdg_prescaler_busy</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;{</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> (IWDG_SR &amp; IWDG_SR_PVU);</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
@@ -247,7 +247,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8c_source.html','');
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">register.</span></div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
-<div class="line"><a name="l00130"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gacd206e0c18f9f66937da3e790384dda2">  130</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__defines.html#gacd206e0c18f9f66937da3e790384dda2" title="IWDG reset Watchdog Timer.">iwdg_reset</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="code" href="group__iwdg__file.html#gacd206e0c18f9f66937da3e790384dda2">  130</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__file.html#gacd206e0c18f9f66937da3e790384dda2" title="IWDG reset Watchdog Timer.">iwdg_reset</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        IWDG_KR = IWDG_KR_RESET;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}<span class="comment"></span></div>
@@ -259,7 +259,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8c_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="iwdg__common__all_8c.html">iwdg_common_all.c</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:24 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

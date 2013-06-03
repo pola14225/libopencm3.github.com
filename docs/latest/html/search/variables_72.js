@@ -69,7 +69,5 @@ var searchData=
   ['rcc_5fwtimer5',['RCC_WTIMER5',['../../lm4f/html/group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab7be18f91861ada479d141a71cdc4a73',1,]]],
   ['reserved_5fx001c',['reserved_x001c',['../../cm3/html/structvector__table__t.html#a6578b9135633f588aee27e73367546e9',1,'vector_table_t']]],
   ['reserved_5fx0034',['reserved_x0034',['../../cm3/html/structvector__table__t.html#aed397ae787125497ae9869cbe2673500',1,'vector_table_t']]],
-  ['reset',['reset',['../../cm3/html/structvector__table__t.html#adc4942c678a88cab8494a58f80428077',1,'vector_table_t']]],
-  ['right12',['RIGHT12',['../../stm32f1/html/group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3cad408f5668e25f95a1de8445228d5c815',1,'RIGHT12()(Global Namespace)'],['../../stm32f4/html/group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3cad408f5668e25f95a1de8445228d5c815',1,'RIGHT12()(Global Namespace)']]],
-  ['right8',['RIGHT8',['../../stm32f1/html/group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca30397d5f6477c6e6281797ef363c43d9',1,'RIGHT8()(Global Namespace)'],['../../stm32f4/html/group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca30397d5f6477c6e6281797ef363c43d9',1,'RIGHT8()(Global Namespace)']]]
+  ['reset',['reset',['../../cm3/html/structvector__table__t.html#adc4942c678a88cab8494a58f80428077',1,'vector_table_t']]]
 ];

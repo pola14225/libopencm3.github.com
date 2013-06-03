@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('rtc__common__bcd_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,37 +114,19 @@ $(document).ready(function(){initNavTree('rtc__common__bcd_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">rtc_common_bcd.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="rtc__common__bcd_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ga58bc5a210650415afcd3770950355c46"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga58bc5a210650415afcd3770950355c46">rtc_set_prescaler</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sync, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> async)</td></tr>
-<tr class="memdesc:ga58bc5a210650415afcd3770950355c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set RTC prescalars.  <a href="group__rtc__defines.html#ga58bc5a210650415afcd3770950355c46"></a><br/></td></tr>
-<tr class="memitem:ga28b448062099ceb6ab758b85d1ddb785"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_wait_for_synchro</a> (void)</td></tr>
-<tr class="memdesc:ga28b448062099ceb6ab758b85d1ddb785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for RTC registers to be synchronised with the APB1 bus.  <a href="group__rtc__defines.html#ga28b448062099ceb6ab758b85d1ddb785"></a><br/></td></tr>
-<tr class="memitem:ga3e70e56710b30885a46bae6e88a36f9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga3e70e56710b30885a46bae6e88a36f9b">rtc_lock</a> (void)</td></tr>
-<tr class="memdesc:ga3e70e56710b30885a46bae6e88a36f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock write access to the RTC registers.  <a href="group__rtc__defines.html#ga3e70e56710b30885a46bae6e88a36f9b"></a><br/></td></tr>
-<tr class="memitem:ga25813ce258a0d4d2865ec883fea0175b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga25813ce258a0d4d2865ec883fea0175b">rtc_unlock</a> (void)</td></tr>
-<tr class="memdesc:ga25813ce258a0d4d2865ec883fea0175b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock write access to the RTC registers.  <a href="group__rtc__defines.html#ga25813ce258a0d4d2865ec883fea0175b"></a><br/></td></tr>
-<tr class="memitem:ga7885e411216e5bca89417c0f8b0591a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga7885e411216e5bca89417c0f8b0591a8">rtc_set_wakeup_time</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> wkup_time, <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> rtc_cr_wucksel)</td></tr>
-<tr class="memdesc:ga7885e411216e5bca89417c0f8b0591a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the wakeup time auto-reload value.  <a href="group__rtc__defines.html#ga7885e411216e5bca89417c0f8b0591a8"></a><br/></td></tr>
-<tr class="memitem:gaf12d879a95330d644ab2ec4490004de5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gaf12d879a95330d644ab2ec4490004de5">rtc_clear_wakeup_flag</a> (void)</td></tr>
-<tr class="memdesc:gaf12d879a95330d644ab2ec4490004de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the wakeup flag.  <a href="group__rtc__defines.html#gaf12d879a95330d644ab2ec4490004de5"></a><br/></td></tr>
-</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="rtc__common__bcd_8h.html">rtc_common_bcd.h</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:24 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

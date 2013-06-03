@@ -162,6 +162,26 @@ Enumerations</h2></td></tr>
 <br/>
  }</td></tr>
 <tr class="memdesc:gad02c1455d23262a6dbda84d6053d1f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">UART interrupt masks.  <a href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">More...</a><br/></td></tr>
+<tr class="memitem:gabb9ce81df1867ef09b554e02c63f9be5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__defines.html#gabb9ce81df1867ef09b554e02c63f9be5">uart_fifo_rx_trigger_level</a> { <br/>
+&#160;&#160;<a class="el" href="group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a9a9d22fe9ad81f42dc7dd48e3c0522f9">UART_FIFO_RX_TRIG_1_8</a> =  UART_IFLS_RXIFLSEL_1_8, 
+<a class="el" href="group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a698200c109ea3fb1035cc81ff5c3f34c">UART_FIFO_RX_TRIG_1_4</a> =  UART_IFLS_RXIFLSEL_1_4, 
+<a class="el" href="group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a370cf31f3500cdbd65b9d6acd71efc2e">UART_FIFO_RX_TRIG_1_2</a> =  UART_IFLS_RXIFLSEL_1_2, 
+<a class="el" href="group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a4f86835a14f9d693d8982534bc2e50e5">UART_FIFO_RX_TRIG_3_4</a> =  UART_IFLS_RXIFLSEL_3_4, 
+<br/>
+&#160;&#160;<a class="el" href="group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a73fd9cb5457a327d74fdf727be6f580e">UART_FIFO_RX_TRIG_7_8</a> =  UART_IFLS_RXIFLSEL_7_8
+<br/>
+ }</td></tr>
+<tr class="memdesc:gabb9ce81df1867ef09b554e02c63f9be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">UART RX FIFO interrupt trigger levels.  <a href="group__uart__defines.html#gabb9ce81df1867ef09b554e02c63f9be5">More...</a><br/></td></tr>
+<tr class="memitem:gaf79e87f1a6f23cc0501f4d2e3667a848"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__defines.html#gaf79e87f1a6f23cc0501f4d2e3667a848">uart_fifo_tx_trigger_level</a> { <br/>
+&#160;&#160;<a class="el" href="group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848ad73b67cad4b485679cd70f2af3fa73f7">UART_FIFO_TX_TRIG_7_8</a> =  UART_IFLS_TXIFLSEL_7_8, 
+<a class="el" href="group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a0ba87eebf5636a89499d1c75f4524fc5">UART_FIFO_TX_TRIG_3_4</a> =  UART_IFLS_TXIFLSEL_3_4, 
+<a class="el" href="group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a6cf07bc1412bbf702f39ad478add22fc">UART_FIFO_TX_TRIG_1_2</a> =  UART_IFLS_TXIFLSEL_1_2, 
+<a class="el" href="group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a3b6765a42c9e8794949062283819221a">UART_FIFO_TX_TRIG_1_4</a> =  UART_IFLS_TXIFLSEL_1_4, 
+<br/>
+&#160;&#160;<a class="el" href="group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a38c34c00f7ccd0a9424cf3d48338a4c2">UART_FIFO_TX_TRIG_1_8</a> =  UART_IFLS_TXIFLSEL_1_8
+<br/>
+ }</td></tr>
+<tr class="memdesc:gaf79e87f1a6f23cc0501f4d2e3667a848"><td class="mdescLeft">&#160;</td><td class="mdescRight">UART TX FIFO interrupt trigger levels.  <a href="group__uart__defines.html#gaf79e87f1a6f23cc0501f4d2e3667a848">More...</a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -204,6 +224,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaa5650bb5ea598dddbd4a0c29daf040e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the UART Transmit DMA.  <a href="group__uart__defines.html#gaa5650bb5ea598dddbd4a0c29daf040e9"></a><br/></td></tr>
 <tr class="memitem:ga82dd7ed60d0e7de658ed7a6ff5eaf033"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__defines.html#ga82dd7ed60d0e7de658ed7a6ff5eaf033">uart_disable_tx_dma</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
 <tr class="memdesc:ga82dd7ed60d0e7de658ed7a6ff5eaf033"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the UART Transmit DMA.  <a href="group__uart__defines.html#ga82dd7ed60d0e7de658ed7a6ff5eaf033"></a><br/></td></tr>
+<tr class="memitem:gab3cd10b3ae6cad525820b2ad331f9362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__defines.html#gab3cd10b3ae6cad525820b2ad331f9362">uart_enable_fifo</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
+<tr class="memdesc:gab3cd10b3ae6cad525820b2ad331f9362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable FIFO for the UART.  <a href="group__uart__defines.html#gab3cd10b3ae6cad525820b2ad331f9362"></a><br/></td></tr>
+<tr class="memitem:ga089f1c5dca7359ccf26e29728f548765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__defines.html#ga089f1c5dca7359ccf26e29728f548765">uart_disable_fifo</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
+<tr class="memdesc:ga089f1c5dca7359ccf26e29728f548765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable FIFO for the UART.  <a href="group__uart__defines.html#ga089f1c5dca7359ccf26e29728f548765"></a><br/></td></tr>
+<tr class="memitem:gaf2a3f0dac0cecc4d431072f68e9829d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__defines.html#gaf2a3f0dac0cecc4d431072f68e9829d9">uart_set_fifo_trigger_levels</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart, enum <a class="el" href="group__uart__defines.html#gabb9ce81df1867ef09b554e02c63f9be5">uart_fifo_rx_trigger_level</a> rx_level, enum <a class="el" href="group__uart__defines.html#gaf79e87f1a6f23cc0501f4d2e3667a848">uart_fifo_tx_trigger_level</a> tx_level)</td></tr>
+<tr class="memdesc:gaf2a3f0dac0cecc4d431072f68e9829d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the FIFO trigger levels.  <a href="group__uart__defines.html#gaf2a3f0dac0cecc4d431072f68e9829d9"></a><br/></td></tr>
 <tr class="memitem:ga232f483b487e1858eaf22b6a024e6778"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__defines.html#ga232f483b487e1858eaf22b6a024e6778">uart_enable_interrupts</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart, enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a> ints)</td></tr>
 <tr class="memdesc:ga232f483b487e1858eaf22b6a024e6778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Specific UART Interrupts.  <a href="group__uart__defines.html#ga232f483b487e1858eaf22b6a024e6778"></a><br/></td></tr>
 <tr class="memitem:ga6dd2f50f82e63295d2a0992ea1266e71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__defines.html#ga6dd2f50f82e63295d2a0992ea1266e71">uart_disable_interrupts</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart, enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a> ints)</td></tr>
@@ -219,6 +245,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga924a61bf45265d78ef59b6f068209988"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__defines.html#ga924a61bf45265d78ef59b6f068209988">uart_clear_interrupt_flag</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart, enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a> ints)</td></tr>
 <tr class="memdesc:ga924a61bf45265d78ef59b6f068209988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark interrupt as serviced.  <a href="group__uart__defines.html#ga924a61bf45265d78ef59b6f068209988"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ga61159b452775347036209c1ccb516a2b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga61159b452775347036209c1ccb516a2b">uart_is_tx_fifo_full</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
+<tr class="memdesc:ga61159b452775347036209c1ccb516a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the TX fifo is full.  <a href="group__uart__fifo.html#ga61159b452775347036209c1ccb516a2b"></a><br/></td></tr>
+<tr class="memitem:ga2749cb5cc83bde92004c55c27558be88"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga2749cb5cc83bde92004c55c27558be88">uart_is_tx_fifo_empty</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
+<tr class="memdesc:ga2749cb5cc83bde92004c55c27558be88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the TX fifo is empty.  <a href="group__uart__fifo.html#ga2749cb5cc83bde92004c55c27558be88"></a><br/></td></tr>
+<tr class="memitem:ga2efe8fa623488be63244beb71545c862"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga2efe8fa623488be63244beb71545c862">uart_is_rx_fifo_full</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
+<tr class="memdesc:ga2efe8fa623488be63244beb71545c862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the RX fifo is full.  <a href="group__uart__fifo.html#ga2efe8fa623488be63244beb71545c862"></a><br/></td></tr>
+<tr class="memitem:gaa7b271162dd8bdb3a7aed7aca8c558d1"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#gaa7b271162dd8bdb3a7aed7aca8c558d1">uart_is_rx_fifo_empty</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
+<tr class="memdesc:gaa7b271162dd8bdb3a7aed7aca8c558d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the RX fifo is empty.  <a href="group__uart__fifo.html#gaa7b271162dd8bdb3a7aed7aca8c558d1"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:ga0a4de5017ea5b32ef5e1b9a7229bd166"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__irq.html#ga0a4de5017ea5b32ef5e1b9a7229bd166">uart_is_interrupt_source</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart, enum <a class="el" href="group__uart__defines.html#gad02c1455d23262a6dbda84d6053d1f7e">uart_interrupt_flag</a> source)</td></tr>
 <tr class="memdesc:ga0a4de5017ea5b32ef5e1b9a7229bd166"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if interrupt is generated by the given source.  <a href="group__uart__irq.html#ga0a4de5017ea5b32ef5e1b9a7229bd166"></a><br/></td></tr>
 </table>
@@ -228,7 +263,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_16a49d58821e47b8957c58c692243696.html">lm4f</a></li><li class="navelem"><a class="el" href="uart_8h.html">uart.h</a></li>
-    <li class="footer">Generated on Mon Jun 3 2013 01:21:42 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 3 2013 03:21:31 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

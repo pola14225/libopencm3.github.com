@@ -1,5 +1,3 @@
 <map id="IWDG Defines" name="IWDG Defines">
-<area shape="rect" id="node1" href="$group__iwdg__key.html" title="IWDG Key Values" alt="" coords="367,5,497,35"/>
-<area shape="rect" id="node4" href="$group__iwdg__prediv.html" title="IWDG Prescaler divider" alt="" coords="352,59,512,88"/>
-<area shape="rect" id="node3" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series." alt="" coords="5,32,147,61"/>
+<area shape="rect" id="node2" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series." alt="" coords="5,5,147,35"/>
 </map>
