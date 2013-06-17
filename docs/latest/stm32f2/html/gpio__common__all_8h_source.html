@@ -121,103 +121,105 @@ $(document).ready(function(){initNavTree('gpio__common__all_8h_source.html','');
 <div class="contents">
 <a href="gpio__common__all_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/** @addtogroup gpio_defines</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">@author @htmlonly &amp;copy; @endhtmlonly 2011 Fergus Noble &lt;fergusnoble@gmail.com&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">@author @htmlonly &amp;copy; @endhtmlonly 2012 Ken Sarkies &lt;ksarkies@internode.on.net&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * Copyright (C) 2011 Fergus Noble &lt;fergusnoble@gmail.com&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * Copyright (C) 2012 Ken Sarkies &lt;ksarkies@internode.on.net&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">/* THIS FILE SHOULD NOT BE INCLUDED DIRECTLY, BUT ONLY VIA GPIO.H </span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">The order of header inclusion is important. gpio.h includes the device</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">specific memorymap.h header before including this header file.*/</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">/** @cond */</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#if defined (LIBOPENCM3_GPIO_H) || defined (LIBOPENCM3_GPIO_COMMON_F24_H)</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span><span class="comment">/** @endcond */</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#ifndef LIBOPENCM3_GPIO_COMMON_ALL_H</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LIBOPENCM3_GPIO_COMMON_ALL_H</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">/**@{*/</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &lt;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">@author @htmlonly &amp;copy; @endhtmlonly 2011</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">Fergus Noble &lt;fergusnoble@gmail.com&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">@author @htmlonly &amp;copy; @endhtmlonly 2012</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">Ken Sarkies &lt;ksarkies@internode.on.net&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * Copyright (C) 2011 Fergus Noble &lt;fergusnoble@gmail.com&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * Copyright (C) 2012 Ken Sarkies &lt;ksarkies@internode.on.net&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">/* THIS FILE SHOULD NOT BE INCLUDED DIRECTLY, BUT ONLY VIA GPIO.H</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">The order of header inclusion is important. gpio.h includes the device</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">specific memorymap.h header before including this header file.*/</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">/** @cond */</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#if defined(LIBOPENCM3_GPIO_H) || defined(LIBOPENCM3_GPIO_COMMON_F24_H)</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span><span class="comment">/** @endcond */</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#ifndef LIBOPENCM3_GPIO_COMMON_ALL_H</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LIBOPENCM3_GPIO_COMMON_ALL_H</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">/**@{*/</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/* --- Convenience macros -------------------------------------------------- */</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &lt;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">/* --- GPIO_LCKR values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">/* --- Convenience macros -------------------------------------------------- */</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#define GPIO_LCKK                       (1 &lt;&lt; 16)</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor"></span><span class="comment">/* GPIO_LCKR[15:0]: LCKy: Port x lock bit y (y = 0..15) */</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/* GPIO number definitions (for convenience) */</span><span class="comment"></span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">/** @defgroup gpio_pin_id GPIO Pin Identifiers</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">@ingroup gpio_defines</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">@{*/</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#define GPIO0                           (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO1                           (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO2                           (1 &lt;&lt; 2)</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO3                           (1 &lt;&lt; 3)</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO4                           (1 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO5                           (1 &lt;&lt; 5)</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO6                           (1 &lt;&lt; 6)</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO7                           (1 &lt;&lt; 7)</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO8                           (1 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO9                           (1 &lt;&lt; 9)</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO10                          (1 &lt;&lt; 10)</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO11                          (1 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO12                          (1 &lt;&lt; 12)</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO13                          (1 &lt;&lt; 13)</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO14                          (1 &lt;&lt; 14)</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO15                          (1 &lt;&lt; 15)</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_ALL                        0xffff</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/* --- GPIO_LCKR values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#define GPIO_LCKK                       (1 &lt;&lt; 16)</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span><span class="comment">/* GPIO_LCKR[15:0]: LCKy: Port x lock bit y (y = 0..15) */</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/* GPIO number definitions (for convenience) */</span><span class="comment"></span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/** @defgroup gpio_pin_id GPIO Pin Identifiers</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">@ingroup gpio_defines</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">@{*/</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#define GPIO0                           (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO1                           (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO2                           (1 &lt;&lt; 2)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO3                           (1 &lt;&lt; 3)</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO4                           (1 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO5                           (1 &lt;&lt; 5)</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO6                           (1 &lt;&lt; 6)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO7                           (1 &lt;&lt; 7)</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO8                           (1 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO9                           (1 &lt;&lt; 9)</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO10                          (1 &lt;&lt; 10)</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO11                          (1 &lt;&lt; 11)</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO12                          (1 &lt;&lt; 12)</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO13                          (1 &lt;&lt; 13)</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO14                          (1 &lt;&lt; 14)</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO15                          (1 &lt;&lt; 15)</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_ALL                        0xffff</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga570d0f02cc0784882629bf4580b41e5b" title="Set a Group of Pins Atomic.">gpio_set</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gpios);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#gaa38876ad6f3cb35b67b25e87a2ce193c" title="Clear a Group of Pins Atomic.">gpio_clear</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gpios);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> <a class="code" href="group__gpio__file.html#ga1f8ff59ad8792d9cc6e505149b51889d" title="Read a Group of Pins.">gpio_get</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gpios);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#gaa066370e84c91d65966ff9bb548d8b16" title="Toggle a Group of Pins.">gpio_toggle</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gpios);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> <a class="code" href="group__gpio__file.html#ga00667ed71e76ab23562b50cffeb3cab5" title="Read from a Port.">gpio_port_read</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#gaf6a2d241b055d6f50db08305e901c526" title="Write to a Port.">gpio_port_write</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> data);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#gada75d7db796f14b6a2e7c291f636d2c6" title="Lock the Configuration of a Group of Pins.">gpio_port_config_lock</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gpios);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor"></span><span class="comment">/** @cond */</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#warning &quot;gpio_common_all.h should not be included explicitly, only via gpio.h&quot;</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor"></span><span class="comment">/** @endcond */</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga7fb65a68e4fc7175660f396395f6b44e" title="Set a Group of Pins Atomic.">gpio_set</a>(uint32_t gpioport, uint16_t gpios);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga8970f778a63c9d78ffd8d4d36628c7e1" title="Clear a Group of Pins Atomic.">gpio_clear</a>(uint32_t gpioport, uint16_t gpios);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;uint16_t <a class="code" href="group__gpio__file.html#ga5fee90e8e5af7de567890ffae5ed50c8" title="Read a Group of Pins.">gpio_get</a>(uint32_t gpioport, uint16_t gpios);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga5ce25ff1552b12093b009978322fcb5c" title="Toggle a Group of Pins.">gpio_toggle</a>(uint32_t gpioport, uint16_t gpios);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;uint16_t <a class="code" href="group__gpio__file.html#gac7a671c0d057a8db484357b344d66b23" title="Read from a Port.">gpio_port_read</a>(uint32_t gpioport);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#gaeb877f5252652d6a574a08b085ef14f5" title="Write to a Port.">gpio_port_write</a>(uint32_t gpioport, uint16_t data);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga749adc86df621552b5a0908ecf5b2ebe" title="Lock the Configuration of a Group of Pins.">gpio_port_config_lock</a>(uint32_t gpioport, uint16_t gpios);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor"></span><span class="comment">/** @cond */</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#warning &quot;gpio_common_all.h should not be included explicitly, only via gpio.h&quot;</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor"></span><span class="comment">/** @endcond */</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="gpio__common__all_8h.html">gpio_common_all.h</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:22 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:21 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

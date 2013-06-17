@@ -13,15 +13,15 @@
       <type>void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga2b992000a6582e34257a0a6b83f34dee</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gae2da85fc404588943117ce78a3df6185</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga262e83997025f340bb1edcdea4d8ad49</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -32,15 +32,15 @@
       <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa564feebba58c35fb47b4af84c8810ca</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga60c8d480c8cefcf784a7d2719d465523</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga262e83997025f340bb1edcdea4d8ad49</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -79,15 +79,15 @@
       <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa564feebba58c35fb47b4af84c8810ca</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga60c8d480c8cefcf784a7d2719d465523</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga262e83997025f340bb1edcdea4d8ad49</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -103,15 +103,15 @@
       <type>void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga2b992000a6582e34257a0a6b83f34dee</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gae2da85fc404588943117ce78a3df6185</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga21fef3ab33c3e8196be7dddca90e9e8a</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga262e83997025f340bb1edcdea4d8ad49</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="dir">

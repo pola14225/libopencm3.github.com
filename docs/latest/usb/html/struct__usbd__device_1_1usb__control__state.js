@@ -10,7 +10,7 @@ var struct__usbd__device_1_1usb__control__state =
     [ "STATUS_OUT", "struct__usbd__device_1_1usb__control__state.html#a27f5fbdb66c93cd1b600ebaa63140890a60e953b1e72ce2e6aa3fe204dabfdae3", null ],
     [ "__attribute__", "struct__usbd__device_1_1usb__control__state.html#a2dfd02e13d09c8452ef9e9d346465027", null ],
     [ "complete", "struct__usbd__device_1_1usb__control__state.html#a615c531ff2301a9a18f6a49aa1a938c3", null ],
-    [ "ctrl_buf", "struct__usbd__device_1_1usb__control__state.html#a76069a9f43ad6480303309dfbc05275a", null ],
-    [ "ctrl_len", "struct__usbd__device_1_1usb__control__state.html#a275764c97bdaf6686a84590388352d23", null ],
+    [ "ctrl_buf", "struct__usbd__device_1_1usb__control__state.html#a261f6c057a987f0ad538ecc8ad4d49b3", null ],
+    [ "ctrl_len", "struct__usbd__device_1_1usb__control__state.html#ad9e2cd348bdd9ca9135cedb7679ed916", null ],
     [ "state", "struct__usbd__device_1_1usb__control__state.html#a4560c0bfa6988db823f43be71118f60b", null ]
 ];

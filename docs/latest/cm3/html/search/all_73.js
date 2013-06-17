@@ -1,9 +1,6 @@
 var searchData=
 [
   ['systick_20defines',['SysTick Defines',['../group__CM3__systick__defines.html',1,'']]],
-  ['s16',['s16',['../common_8h.html#aa980e2c02ba2305e0f489d5650655425',1,'common.h']]],
-  ['s32',['s32',['../common_8h.html#ae9b1af5c037e57a98884758875d3a7c4',1,'common.h']]],
-  ['s8',['s8',['../common_8h.html#a9e382f207c65ca13ab4ae98363aeda80',1,'common.h']]],
   ['scb_2eh',['scb.h',['../scb_8h.html',1,'']]],
   ['scb_5fafsr',['SCB_AFSR',['../scb_8h.html#a16a8b546ae510f0d470908e8ac913d11',1,'scb.h']]],
   ['scb_5faircr',['SCB_AIRCR',['../scb_8h.html#afb55c4d149b907fe569a1d8bb31cade1',1,'scb.h']]],
@@ -96,7 +93,7 @@ var searchData=
   ['scb_5fscr_5fseveonpend',['SCB_SCR_SEVEONPEND',['../scb_8h.html#a01af8b70a406fa303e76bb5f2f916f63',1,'scb.h']]],
   ['scb_5fscr_5fsleepdeep',['SCB_SCR_SLEEPDEEP',['../scb_8h.html#ac4f4f02bfc91aef800b88fa58329cb92',1,'scb.h']]],
   ['scb_5fscr_5fsleeponexit',['SCB_SCR_SLEEPONEXIT',['../scb_8h.html#aef484612839a04567ebaeeb57ca0b015',1,'scb.h']]],
-  ['scb_5fset_5fpriority_5fgrouping',['scb_set_priority_grouping',['../scb_8h.html#a0e97a2ebc013118cb220542999db3d8b',1,'scb.h']]],
+  ['scb_5fset_5fpriority_5fgrouping',['scb_set_priority_grouping',['../scb_8h.html#a1c1ccff67eb7696c04e59ab4f9c0a2ab',1,'scb.h']]],
   ['scb_5fshcsr',['SCB_SHCSR',['../scb_8h.html#a00f70fc0cb709999835d54fb1a8d4112',1,'scb.h']]],
   ['scb_5fshcsr_5fbusfaultact',['SCB_SHCSR_BUSFAULTACT',['../scb_8h.html#a22a35f7e2e94c192befb04bab6976598',1,'scb.h']]],
   ['scb_5fshcsr_5fbusfaultena',['SCB_SHCSR_BUSFAULTENA',['../scb_8h.html#a213b425d7d1da3cbaf977d90dc29297d',1,'scb.h']]],
@@ -209,12 +206,12 @@ var searchData=
   ['systick_2eh',['systick.h',['../systick_8h.html',1,'']]],
   ['systick_5fcounter_5fdisable',['systick_counter_disable',['../group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4',1,'systick.h']]],
   ['systick_5fcounter_5fenable',['systick_counter_enable',['../group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a',1,'systick.h']]],
-  ['systick_5fget_5fcalib',['systick_get_calib',['../group__CM3__systick__defines.html#gab4bac496ec8a74914b6f4dc87471d586',1,'systick.h']]],
-  ['systick_5fget_5fcountflag',['systick_get_countflag',['../group__CM3__systick__defines.html#ga6046a990cab767ab46dbe113d0929d6c',1,'systick.h']]],
-  ['systick_5fget_5freload',['systick_get_reload',['../group__CM3__systick__defines.html#ga3fb33b45c79720f5455332f103ea9c42',1,'systick.h']]],
-  ['systick_5fget_5fvalue',['systick_get_value',['../group__CM3__systick__defines.html#ga21390939e21bc6c4ef00fe1c798ae060',1,'systick.h']]],
+  ['systick_5fget_5fcalib',['systick_get_calib',['../group__CM3__systick__defines.html#ga4351bcd52c07a23b5b999b062c123084',1,'systick.h']]],
+  ['systick_5fget_5fcountflag',['systick_get_countflag',['../group__CM3__systick__defines.html#ga04dd39e8ef61f9d6be437a43fc16dcdf',1,'systick.h']]],
+  ['systick_5fget_5freload',['systick_get_reload',['../group__CM3__systick__defines.html#gad26b5b9932a41cfe9e3600431b918831',1,'systick.h']]],
+  ['systick_5fget_5fvalue',['systick_get_value',['../group__CM3__systick__defines.html#gae6a4663107e824d7fe2936bdcbead94c',1,'systick.h']]],
   ['systick_5finterrupt_5fdisable',['systick_interrupt_disable',['../group__CM3__systick__defines.html#gaee4e252973ddd7c5ffaa872da3b6a3fe',1,'systick.h']]],
   ['systick_5finterrupt_5fenable',['systick_interrupt_enable',['../group__CM3__systick__defines.html#ga062163783d8d4106c8b945ed97b4decc',1,'systick.h']]],
-  ['systick_5fset_5fclocksource',['systick_set_clocksource',['../group__CM3__systick__defines.html#gaa02dec290465a9d5dd1cf066448e88c2',1,'systick.h']]],
-  ['systick_5fset_5freload',['systick_set_reload',['../group__CM3__systick__defines.html#ga4d72fc83df078118bd33f82e1eddd345',1,'systick.h']]]
+  ['systick_5fset_5fclocksource',['systick_set_clocksource',['../group__CM3__systick__defines.html#ga13726e0964b31c85269beddbdc1d35e7',1,'systick.h']]],
+  ['systick_5fset_5freload',['systick_set_reload',['../group__CM3__systick__defines.html#gac8dbc7c5f007177712824ccf91cc3b33',1,'systick.h']]]
 ];

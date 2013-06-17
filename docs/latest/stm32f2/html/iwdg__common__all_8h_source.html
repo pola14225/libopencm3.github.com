@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8h_source.html','');
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">/* THIS FILE SHOULD NOT BE INCLUDED DIRECTLY, BUT ONLY VIA IWDG.H </span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">/* THIS FILE SHOULD NOT BE INCLUDED DIRECTLY, BUT ONLY VIA IWDG.H</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">The order of header inclusion is important. iwdg.h includes the device</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">specific memorymap.h header before including this header file.*/</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"></span></div>
@@ -191,7 +191,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8h_source.html','');
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">/* PR[2:0]: Prescaler divider */</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#define IWDG_PR_LSB                     0</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor"></span><span class="comment">/** @defgroup iwdg_prediv IWDG Prescaler divider</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor"></span><span class="comment">/** @defgroup iwdg_prediv IWDG prescaler divider</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">@ingroup STM32F_iwdg_defines</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">@{*/</span></div>
@@ -227,7 +227,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8h_source.html','');
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__file.html#ga37118c514f7cc1ada7f28157de603a02" title="IWDG Enable Watchdog Timer.">iwdg_start</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__file.html#gaa4f196e28e96c7901f9ff25a5c7fd20d" title="IWDG Set Period in Milliseconds.">iwdg_set_period_ms</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> period);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__file.html#ga9fddf4170e5fb9d3b4df309a152e27e5" title="IWDG Set Period in Milliseconds.">iwdg_set_period_ms</a>(uint32_t period);</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__iwdg__file.html#gaa9844c03c29a289e394398d646e52187" title="IWDG Get Reload Register Status.">iwdg_reload_busy</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__iwdg__file.html#gab5d11cd4f7d3c567c12acb26742d1eee" title="IWDG Get Prescaler Register Status.">iwdg_prescaler_busy</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__iwdg__file.html#gacd206e0c18f9f66937da3e790384dda2" title="IWDG reset Watchdog Timer.">iwdg_reset</a>(<span class="keywordtype">void</span>);</div>
@@ -248,7 +248,7 @@ $(document).ready(function(){initNavTree('iwdg__common__all_8h_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="iwdg__common__all_8h.html">iwdg_common_all.h</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:22 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:21 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

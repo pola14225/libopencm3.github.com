@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('pwr_8c_source.html','');});
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="code" href="pwr_8c.html#aa22ffb6b23613688342c73dd591dcd60">   40</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(<a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40">vos_scale_t</a> scale)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="comment">/* You are not allowed to write zeros here, don&#39;t try and optimize! */</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg = PWR_CR;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        uint32_t reg = PWR_CR;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        reg &amp;= ~(<a class="code" href="pwr_8h.html#a06db718126d979cbf61fc27991514e1a">PWR_CR_VOS_MASK</a>);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">switch</span> (scale) {</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a15e188ed9b712b2d0de04db6b782c4eb">RANGE1</a>:</div>
@@ -183,7 +183,7 @@ $(document).ready(function(){initNavTree('pwr_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_b85f3b2cdb5f62c5704599c879630b7f.html">l1</a></li><li class="navelem"><a class="el" href="pwr_8c.html">pwr.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:12 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:11 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

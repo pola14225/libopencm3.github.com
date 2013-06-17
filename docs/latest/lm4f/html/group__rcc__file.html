@@ -153,7 +153,7 @@ Modules</h2></td></tr>
 <div class="line"><a class="code" href="group__rcc__defines.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL.">rcc_pll_on</a>();</div>
 <div class="line"></div>
 <div class="line"><span class="comment">// Change the clock divisor</span></div>
-<div class="line"><a class="code" href="group__rcc__defines.html#gaf867d8975967972fff96350206c36a2e" title="Set the PLL clock divisor (from 400MHz)">rcc_set_pll_divisor</a>(PLLDIV_80MHZ);</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#ga104041e1468a0fc62d6c584a25859053" title="Set the PLL clock divisor (from 400MHz)">rcc_set_pll_divisor</a>(PLLDIV_80MHZ);</div>
 <div class="line"></div>
 <div class="line"><span class="comment">// We cannot use the PLL as a clock source until it locks</span></div>
 <div class="line"><a class="code" href="group__rcc__defines.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock.">rcc_wait_for_pll_ready</a>();</div>
@@ -161,18 +161,18 @@ Modules</h2></td></tr>
 <div class="line"><a class="code" href="group__rcc__defines.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock.">rcc_pll_bypass_disable</a>();</div>
 <div class="line"></div>
 <div class="line"><span class="comment">// Keep track of frequency</span></div>
-<div class="line"><a class="code" href="group__rcc__low__level.html#ga45ac0a3082a27e5d55e718de67fde983" title="System clock frequency.">lm4f_rcc_sysclk_freq</a> = 80E6;</div>
+<div class="line"><a class="code" href="group__rcc__low__level.html#ga53588dcb636da3e059dd7c45d82f6504" title="System clock frequency.">lm4f_rcc_sysclk_freq</a> = 80E6;</div>
 </div><!-- fragment --><p>The same can be achieved by a simple call to high-level routines: </p>
 <div class="fragment"><div class="line"><span class="comment">// A divisor of 5 gives us a clock of 400/5 = 80MHz</span></div>
 <div class="line"><span class="preprocessor">#define PLLDIV_80MHZ 5</span></div>
 <div class="line"><span class="preprocessor"></span></div>
-<div class="line"><a class="code" href="group__rcc__defines.html#ga2f7b0475bc8a219cfa43ed0f5efd3597" title="Configure the system clock source.">rcc_sysclk_config</a>(<a class="code" href="group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022adb9b675853b16e89501a2eb677c12894">OSCSRC_MOSC</a>, <a class="code" href="group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a72d6d58d8b24db9d249f76876e753016">XTAL_16M</a>, PLLDIV_80MHZ);</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gac30c6e5d8aa6f46dba80abc44751c888" title="Configure the system clock source.">rcc_sysclk_config</a>(<a class="code" href="group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022adb9b675853b16e89501a2eb677c12894">OSCSRC_MOSC</a>, <a class="code" href="group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a72d6d58d8b24db9d249f76876e753016">XTAL_16M</a>, PLLDIV_80MHZ);</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:32 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

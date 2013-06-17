@@ -85,7 +85,7 @@ var group__gpio__defines =
     [ "GPIOH_OSPEEDR", "group__gpio__defines.html#ga7e7321e18a22ad8258e25033e191db7b", null ],
     [ "GPIOH_OTYPER", "group__gpio__defines.html#ga8125b3bb1ab6367d04f3b0cb2d2a1e98", null ],
     [ "GPIOH_PUPDR", "group__gpio__defines.html#ga7a8a7c3e039a6ccc66870506d038f809", null ],
-    [ "gpio_mode_setup", "group__gpio__defines.html#ga83e88435c703f86b1a04022433d1bd26", null ],
-    [ "gpio_set_af", "group__gpio__defines.html#ga3c9ed9fd92b82d2283ffd4df71afb8a3", null ],
-    [ "gpio_set_output_options", "group__gpio__defines.html#gae84ed7bb43f8c3dc722721e75a986184", null ]
+    [ "gpio_mode_setup", "group__gpio__defines.html#gaef8f9edf5cd8aa11c98924c6ccc37140", null ],
+    [ "gpio_set_af", "group__gpio__defines.html#ga2937f803468b3440302fae213c4c3c14", null ],
+    [ "gpio_set_output_options", "group__gpio__defines.html#gab05e7f5b963f49c7442a69e5999f9319", null ]
 ];

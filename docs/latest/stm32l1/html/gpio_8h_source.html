@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00171"></a><span class="lineno"><a class="code" href="group__gpio__output__type.html#ga791ebbd755e6497dc96a855ad63f82f8">  171</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_OTYPE_OD                   0x1</span></div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">/* Output speed values */</span>       </div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">/* Output speed values */</span></div>
 <div class="line"><a name="l00175"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gace95963eed66db5185437b6f8c52360e">  175</a></span>&#160;<span class="preprocessor">#define GPIO_OSPEED(n, speed)           (speed &lt;&lt; (2 * (n)))</span></div>
 <div class="line"><a name="l00176"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gae9fabfe2cf725c75240d7c7c14c6e995">  176</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_OSPEED_MASK(n)             (0x3 &lt;&lt; (2 * (n)))</span></div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor"></span><span class="comment">/** @defgroup gpio_speed GPIO Output Pin Speed</span></div>
@@ -372,22 +372,24 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment"> * TODO: this should all really be moved to a &quot;common&quot; gpio header</span></div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga83e88435c703f86b1a04022433d1bd26">gpio_mode_setup</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> mode, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> pull_up_down, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gpios);</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gae84ed7bb43f8c3dc722721e75a986184">gpio_set_output_options</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> otype, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> speed, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gpios);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga3c9ed9fd92b82d2283ffd4df71afb8a3">gpio_set_af</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> alt_func_num, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gpios);</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gaef8f9edf5cd8aa11c98924c6ccc37140">gpio_mode_setup</a>(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down,</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                     uint16_t gpios);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gab05e7f5b963f49c7442a69e5999f9319">gpio_set_output_options</a>(uint32_t gpioport, uint8_t otype, uint8_t speed,</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                             uint16_t gpios);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga2937f803468b3440302fae213c4c3c14">gpio_set_af</a>(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios);</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_5042fe5b58720bedf351b6ae0cadd586.html">l1</a></li><li class="navelem"><a class="el" href="gpio_8h.html">gpio.h</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:12 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:11 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

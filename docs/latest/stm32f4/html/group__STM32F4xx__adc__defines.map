@@ -9,10 +9,10 @@
 <area shape="rect" id="node9" href="$group__adc__cr1__res.html" title="ADC Resolution." alt="" coords="384,373,504,403"/>
 <area shape="rect" id="node10" href="$group__adc__trigger__polarity__regular.html" title="ADC Trigger Polarity" alt="" coords="373,427,515,456"/>
 <area shape="rect" id="node11" href="$group__adc__cr1__discnum.html" title="ADC Number of channels\l in discontinuous mode." alt="" coords="359,479,529,526"/>
-<area shape="rect" id="node12" href="$group__adc__jsqr__jl.html" title="ADC Number of channels\l in discontinuous mode\l fro injected channels." alt="" coords="359,549,529,613"/>
-<area shape="rect" id="node13" href="$group__adc__watchdog__channel.html" title="ADC watchdog channel" alt="" coords="364,637,524,667"/>
-<area shape="rect" id="node14" href="$group__adc__sample__rg.html" title="ADC Sample Time Selection\l for All Channels" alt="" coords="349,690,539,737"/>
-<area shape="rect" id="node15" href="$group__adc__trigger__injected.html" title="ADC Trigger Identifier\l for Injected group" alt="" coords="369,759,519,806"/>
-<area shape="rect" id="node16" href="$group__adc__delay.html" title="ADC Delay between 2\l sampling phases" alt="" coords="368,829,520,875"/>
-<area shape="rect" id="node17" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="347,899,541,928"/>
+<area shape="rect" id="node12" href="$group__adc__jsqr__jl.html" title="injected channels." alt="" coords="357,549,531,595"/>
+<area shape="rect" id="node13" href="$group__adc__watchdog__channel.html" title="ADC watchdog channel" alt="" coords="364,619,524,648"/>
+<area shape="rect" id="node14" href="$group__adc__sample__rg.html" title="ADC Sample Time Selection\l for All Channels" alt="" coords="349,671,539,718"/>
+<area shape="rect" id="node15" href="$group__adc__trigger__injected.html" title="ADC Trigger Identifier\l for Injected group" alt="" coords="369,741,519,787"/>
+<area shape="rect" id="node16" href="$group__adc__delay.html" title="ADC Delay between 2\l sampling phases" alt="" coords="368,810,520,857"/>
+<area shape="rect" id="node17" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="347,880,541,909"/>
 </map>

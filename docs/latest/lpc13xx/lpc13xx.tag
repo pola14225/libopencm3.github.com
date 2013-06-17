@@ -13,8 +13,8 @@
       <type>void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga7fb65a68e4fc7175660f396395f6b44e</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -25,8 +25,8 @@
       <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga4f5f8d2c3d951f1b0138a207c8515db1</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga8b088f627bc6f74d01e69ba1f3dbb2c8</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -59,8 +59,8 @@
       <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga4f5f8d2c3d951f1b0138a207c8515db1</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga8b088f627bc6f74d01e69ba1f3dbb2c8</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -71,8 +71,8 @@
       <type>void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga7fb65a68e4fc7175660f396395f6b44e</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="dir">

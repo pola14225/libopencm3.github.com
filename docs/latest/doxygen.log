@@ -11,6 +11,8 @@ error: Tag file `./stm32/stm32.tag' does not exist or is not a file. Skipping it
 
 /home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:13314: Duplicate anchor tim_api_ex found
 
+<unknown>:1: group adc_jsqr_jl: ignoring title "ADC Number of channels in discontinuous mode fro" that does not match old title "ADC Number of channels in discontinuous mode from"
+
 <unknown>:1: group gpio_defines: ignoring title "General Purpose I/O Defines" that does not match old title "GPIO Defines"
 
 <unknown>:1: group gpio_file: ignoring title "General Purpose I/O" that does not match old title "GPIO"

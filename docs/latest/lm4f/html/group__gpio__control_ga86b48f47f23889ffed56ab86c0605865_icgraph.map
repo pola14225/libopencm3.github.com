@@ -1,0 +1,5 @@
+<map id="gpio_write" name="gpio_write">
+<area shape="rect" id="node3" href="$group__gpio__control.html#gaed9a0283ed78d8746f72a298889207f4" title="Clear a Group of Pins (atomic)" alt="" coords="152,5,232,35"/>
+<area shape="rect" id="node5" href="$group__gpio__control.html#ga00eeea592868471ce4eecce176b062f7" title="Set level of of all pins from a port (atomic)" alt="" coords="137,59,247,88"/>
+<area shape="rect" id="node7" href="$group__gpio__control.html#ga8ce0832cd5110fa7bbe0f6c968a04a09" title="Set a Group of Pins (atomic)" alt="" coords="157,112,227,141"/>
+</map>

@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['iconfiguration',['iConfiguration',['../structusb__config__descriptor.html#a50c72977ed4160565345d4fe8b79d567',1,'usb_config_descriptor::iConfiguration()'],['../usbstd_8h.html#a836aa4bfb503b80ec1fefbc48b13494a',1,'iConfiguration():&#160;usbstd.h']]],
+  ['iconfiguration',['iConfiguration',['../structusb__config__descriptor.html#ace6c0975162873b87744269bd188d297',1,'usb_config_descriptor::iConfiguration()'],['../usbstd_8h.html#a5ad4440b4eb1935d66b154d274f8a272',1,'iConfiguration():&#160;usbstd.h']]],
   ['idle',['IDLE',['../struct__usbd__device_1_1usb__control__state.html#a27f5fbdb66c93cd1b600ebaa63140890aa9114b048bdf93917cd2e2499e0232e1',1,'_usbd_device::usb_control_state']]],
-  ['idproduct',['idProduct',['../structusb__device__descriptor.html#a676d569d3873bbcac6ae4c2beb7abea5',1,'usb_device_descriptor::idProduct()'],['../usbstd_8h.html#a519c2f3b9ade6de6e761b4ada00d31b9',1,'idProduct():&#160;usbstd.h']]],
-  ['idvendor',['idVendor',['../structusb__device__descriptor.html#a6737199fed9c38e3162e83c1c41889d0',1,'usb_device_descriptor::idVendor()'],['../usbstd_8h.html#a7a7c71d161c32f997811107e4d546ca8',1,'idVendor():&#160;usbstd.h']]],
+  ['idproduct',['idProduct',['../structusb__device__descriptor.html#a70d5ecc7bad486b8a8840d86aa151579',1,'usb_device_descriptor::idProduct()'],['../usbstd_8h.html#a2cf29745398a958349d784b1911c6b2b',1,'idProduct():&#160;usbstd.h']]],
+  ['idvendor',['idVendor',['../structusb__device__descriptor.html#a043126e48bebbab536540e44428b6b4f',1,'usb_device_descriptor::idVendor()'],['../usbstd_8h.html#ab393e07556e3858fed36ed2e260d4b4c',1,'idVendor():&#160;usbstd.h']]],
   ['iface_5fassoc',['iface_assoc',['../structusb__config__descriptor_1_1usb__interface.html#a2fee7d4ff3e5a3353dc7df2d8a01a48c',1,'usb_config_descriptor::usb_interface::iface_assoc()'],['../structusb__interface.html#ab602f44402ea8f0683fc42405c70d207',1,'usb_interface::iface_assoc()']]],
-  ['ifunction',['iFunction',['../structusb__iface__assoc__descriptor.html#a1356114688707e71c27e5154527e4aa5',1,'usb_iface_assoc_descriptor::iFunction()'],['../usbstd_8h.html#a54e9d594c57511df2955b416cdde6ca7',1,'iFunction():&#160;usbstd.h']]],
-  ['iinterface',['iInterface',['../structusb__interface__descriptor.html#a73c45b9cd4d3d3025b7b0b9d9cc85d97',1,'usb_interface_descriptor::iInterface()'],['../usbstd_8h.html#a08ba0e1160648c2e45d24d1f00484466',1,'iInterface():&#160;usbstd.h']]],
-  ['imanufacturer',['iManufacturer',['../structusb__device__descriptor.html#a303d0389fa0b537424e84fd66b14ac67',1,'usb_device_descriptor::iManufacturer()'],['../usbstd_8h.html#aae88465cfdcbe8c3654a5d317ca2a428',1,'iManufacturer():&#160;usbstd.h']]],
+  ['ifunction',['iFunction',['../structusb__iface__assoc__descriptor.html#aa429753fa6dcc07d97979d28610e3313',1,'usb_iface_assoc_descriptor::iFunction()'],['../usbstd_8h.html#ab84d4b3bced6c09c62350d56fd69d226',1,'iFunction():&#160;usbstd.h']]],
+  ['iinterface',['iInterface',['../structusb__interface__descriptor.html#a63008abbea76cc397836554747386055',1,'usb_interface_descriptor::iInterface()'],['../usbstd_8h.html#a2e4535908d90f195c6347a91e15b544d',1,'iInterface():&#160;usbstd.h']]],
+  ['imanufacturer',['iManufacturer',['../structusb__device__descriptor.html#ad082330020575944b8471459b816cb40',1,'usb_device_descriptor::iManufacturer()'],['../usbstd_8h.html#a7ee6ae41b483f3c49d1ddb39a83a8a43',1,'iManufacturer():&#160;usbstd.h']]],
   ['init',['init',['../struct__usbd__driver.html#a957bce226109cb43c918fc7898124c05',1,'_usbd_driver']]],
   ['interface',['interface',['../structusb__config__descriptor.html#a87b0ec29118a53e0372001a7cb998f1e',1,'usb_config_descriptor::interface()'],['../usbstd_8h.html#aeecaa52d810ae4ad91d5420961311f0c',1,'interface():&#160;usbstd.h']]],
-  ['iproduct',['iProduct',['../structusb__device__descriptor.html#a77e89b1a86cc796ec6ec2d4c59e23f3e',1,'usb_device_descriptor::iProduct()'],['../usbstd_8h.html#a038aa24fddd7b42b20976e13392954f2',1,'iProduct():&#160;usbstd.h']]],
-  ['iserialnumber',['iSerialNumber',['../structusb__device__descriptor.html#a7f24b42701bee81c56ccee03435dec5d',1,'usb_device_descriptor::iSerialNumber()'],['../usbstd_8h.html#ad5cf25949929f3baddc6f1b2751835dc',1,'iSerialNumber():&#160;usbstd.h']]]
+  ['iproduct',['iProduct',['../structusb__device__descriptor.html#acb90b91c59e65adbcc21949cf0f486f7',1,'usb_device_descriptor::iProduct()'],['../usbstd_8h.html#a77c33850b90ff7617243c40ce61d9168',1,'iProduct():&#160;usbstd.h']]],
+  ['iserialnumber',['iSerialNumber',['../structusb__device__descriptor.html#a105d91b68091e61c9b13ea673fb98eaf',1,'usb_device_descriptor::iSerialNumber()'],['../usbstd_8h.html#aeb129fc0d41494f69369da70d73eac11',1,'iSerialNumber():&#160;usbstd.h']]]
 ];

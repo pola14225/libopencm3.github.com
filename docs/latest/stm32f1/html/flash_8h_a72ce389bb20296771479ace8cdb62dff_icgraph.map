@@ -1,8 +1,8 @@
 <map id="flash_wait_for_last_operation" name="flash_wait_for_last_operation">
 <area shape="rect" id="node3" href="$flash_8c.html#af1804e22fb8a901f3a5f85535aa1ff7b" title="flash_erase_all_pages" alt="" coords="193,5,343,35"/>
 <area shape="rect" id="node5" href="$flash_8c.html#a6242ed6be7838125093c9b8b6adeeca1" title="flash_erase_option\l_bytes" alt="" coords="203,58,333,105"/>
-<area shape="rect" id="node7" href="$flash_8c.html#a002e6ac054e5086830d0e686672b161b" title="flash_erase_page" alt="" coords="207,128,329,157"/>
-<area shape="rect" id="node9" href="$flash_8c.html#a1312105c3432840482d6678ef841e9e2" title="flash_program_half_word" alt="" coords="185,181,351,211"/>
-<area shape="rect" id="node11" href="$flash_8c.html#ad617eda1ad9c5e6e6766d4aea700df5b" title="flash_program_option\l_bytes" alt="" coords="195,234,341,281"/>
-<area shape="rect" id="node13" href="$flash_8c.html#ada59106b2abfe22eaffc9ad6f1b48899" title="flash_program_word" alt="" coords="199,304,337,333"/>
+<area shape="rect" id="node7" href="$flash_8c.html#a0aee649731aaa8c1316c12f5bea7c31b" title="flash_erase_page" alt="" coords="207,128,329,157"/>
+<area shape="rect" id="node9" href="$flash_8c.html#af5077b5726c70fa9418db9d73182f89d" title="flash_program_half_word" alt="" coords="185,181,351,211"/>
+<area shape="rect" id="node11" href="$flash_8c.html#ab759a6e89a54cfb15a60c0e8f4eb66df" title="flash_program_option\l_bytes" alt="" coords="195,234,341,281"/>
+<area shape="rect" id="node13" href="$flash_8c.html#a73937aa6df8710e95425b165730626a2" title="flash_program_word" alt="" coords="199,304,337,333"/>
 </map>

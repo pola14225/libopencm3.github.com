@@ -160,64 +160,70 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">    @warning You must unlock the registers before using this function</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="rtc_8c.html#a09f8be3f6c04c89c445f9fc82a3d5ab7">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a79d4765fa1ab12869b4962f6129f66c0" title="Enable the wakeup timer.">rtc_enable_wakeup_timer</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  RTC_CR |= RTC_CR_WUTE | (RTC_CR_OSEL_WAKEUP &lt;&lt; RTC_CR_OSEL_SHIFT);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <a class="code" href="rtc_8h.html#a4c6724c645e96d2741e262d5468d5827" title="Enable the wakeup timer interrupt.">rtc_enable_wakeup_timer_interrupt</a>();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/** @brief Disable the wakeup timer</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">    @warning You must unlock the registers before using this function</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="code" href="rtc_8c.html#a1e0c4ee2164c6aac547970a493be7676">   52</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a1e0c4ee2164c6aac547970a493be7676" title="Disable the wakeup timer.">rtc_disable_wakeup_timer</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  RTC_CR &amp;= ~RTC_CR_WUTE;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <a class="code" href="rtc_8h.html#a36e2af549b7d24f24e5255bbbeb5de71" title="Disable the wakeup timer interrupt.">rtc_disable_wakeup_timer_interrupt</a>();</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">/** @brief Enable the wakeup timer interrupt</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">    @warning You must unlock the registers before using this function</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="code" href="rtc_8c.html#a4c6724c645e96d2741e262d5468d5827">   62</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a4c6724c645e96d2741e262d5468d5827" title="Enable the wakeup timer interrupt.">rtc_enable_wakeup_timer_interrupt</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">// FTFM:</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">// To enable the RTC Wakeup interrupt, the following sequence is required:</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">// 1. Configure and enable the EXTI Line 22 in interrupt mode and select the</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">//    rising edge sensitivity.</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  exti_enable_request(EXTI22);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  exti_set_trigger(EXTI22, EXTI_TRIGGER_RISING);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">// 2. Configure and enable the RTC_WKUP IRQ channel in the NVIC.</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#ga959934e2712ce7672d2a947d9ca42d32">nvic_enable_irq</a>(NVIC_RTC_WKUP_IRQ);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#ga8d32953be2608382a7adfa053328b7ba">nvic_set_priority</a>(NVIC_RTC_WKUP_IRQ, 1);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">// 3. Configure the RTC to generate the RTC wakeup timer event.</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  RTC_CR |= RTC_CR_WUTIE;   <span class="comment">// Enable the interrupt</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">/** @brief Disable the wakeup timer interrupt</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">    @warning You must unlock the registers before using this function</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="code" href="rtc_8c.html#a36e2af549b7d24f24e5255bbbeb5de71">   83</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a36e2af549b7d24f24e5255bbbeb5de71" title="Disable the wakeup timer interrupt.">rtc_disable_wakeup_timer_interrupt</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">// 1. Disable EXTI Line 22</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  exti_disable_request(EXTI22);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">// 2. Disable RTC_WKUP IRQ channel in the NVIC.</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gaed0997045521d8dd7171a1efb9735b2f">nvic_disable_irq</a>(NVIC_RTC_WKUP_IRQ);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">// 3. Disable RTC wakeup timer event.</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  RTC_CR &amp;= ~RTC_CR_WUTIE;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="rtc_8c.html#a09f8be3f6c04c89c445f9fc82a3d5ab7">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a79d4765fa1ab12869b4962f6129f66c0" title="Enable the wakeup timer.">rtc_enable_wakeup_timer</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        RTC_CR |= RTC_CR_WUTE | (RTC_CR_OSEL_WAKEUP &lt;&lt; RTC_CR_OSEL_SHIFT);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="rtc_8h.html#a4c6724c645e96d2741e262d5468d5827" title="Enable the wakeup timer interrupt.">rtc_enable_wakeup_timer_interrupt</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/** @brief Disable the wakeup timer</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">    @warning You must unlock the registers before using this function</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="rtc_8c.html#a1e0c4ee2164c6aac547970a493be7676">   53</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a1e0c4ee2164c6aac547970a493be7676" title="Disable the wakeup timer.">rtc_disable_wakeup_timer</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        RTC_CR &amp;= ~RTC_CR_WUTE;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="rtc_8h.html#a36e2af549b7d24f24e5255bbbeb5de71" title="Disable the wakeup timer interrupt.">rtc_disable_wakeup_timer_interrupt</a>();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/** @brief Enable the wakeup timer interrupt</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">    @warning You must unlock the registers before using this function</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="code" href="rtc_8c.html#a4c6724c645e96d2741e262d5468d5827">   64</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a4c6724c645e96d2741e262d5468d5827" title="Enable the wakeup timer interrupt.">rtc_enable_wakeup_timer_interrupt</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="comment">/* FTFM:</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">         * To enable the RTC Wakeup interrupt, the following sequence is</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">         * required:</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">         * 1. Configure and enable the EXTI Line 22 in interrupt mode and</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">         *    select the rising edge sensitivity.</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        exti_enable_request(EXTI22);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        exti_set_trigger(EXTI22, EXTI_TRIGGER_RISING);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="comment">/* 2. Configure and enable the RTC_WKUP IRQ channel in the NVIC. */</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#ga8feba3782b3c6c173969f6ddcee3cfb6">nvic_enable_irq</a>(NVIC_RTC_WKUP_IRQ);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66">nvic_set_priority</a>(NVIC_RTC_WKUP_IRQ, 1);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="comment">/* 3. Configure the RTC to generate the RTC wakeup timer event. */</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        RTC_CR |= RTC_CR_WUTIE;   <span class="comment">/* Enable the interrupt */</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">/** @brief Disable the wakeup timer interrupt</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">    @warning You must unlock the registers before using this function</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="code" href="rtc_8c.html#a36e2af549b7d24f24e5255bbbeb5de71">   88</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a36e2af549b7d24f24e5255bbbeb5de71" title="Disable the wakeup timer interrupt.">rtc_disable_wakeup_timer_interrupt</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;{</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="comment">/* 1. Disable EXTI Line 22 */</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        exti_disable_request(EXTI22);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="comment">/* 2. Disable RTC_WKUP IRQ channel in the NVIC. */</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gaf95cc3827a6e48d82c6046c639c80dc9">nvic_disable_irq</a>(NVIC_RTC_WKUP_IRQ);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="comment">/* 3. Disable RTC wakeup timer event. */</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        RTC_CR &amp;= ~RTC_CR_WUTIE;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="rtc_8c.html">rtc.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:26 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:24 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

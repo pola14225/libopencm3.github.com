@@ -1,14 +1,14 @@
 var group__gpio__file =
 [
-    [ "gpio_clear", "group__gpio__file.html#gaa38876ad6f3cb35b67b25e87a2ce193c", null ],
-    [ "gpio_get", "group__gpio__file.html#ga1f8ff59ad8792d9cc6e505149b51889d", null ],
-    [ "gpio_port_config_lock", "group__gpio__file.html#gada75d7db796f14b6a2e7c291f636d2c6", null ],
-    [ "gpio_port_read", "group__gpio__file.html#ga00667ed71e76ab23562b50cffeb3cab5", null ],
-    [ "gpio_port_write", "group__gpio__file.html#gaf6a2d241b055d6f50db08305e901c526", null ],
-    [ "gpio_primary_remap", "group__gpio__file.html#ga2f5ad9da96cac415f5fb851e7a57554b", null ],
-    [ "gpio_secondary_remap", "group__gpio__file.html#gadcd7a1f65fe961d3ed1cefa514d5d2f7", null ],
-    [ "gpio_set", "group__gpio__file.html#ga570d0f02cc0784882629bf4580b41e5b", null ],
-    [ "gpio_set_eventout", "group__gpio__file.html#ga2d8001859b926b5f419c937c6c679459", null ],
-    [ "gpio_set_mode", "group__gpio__file.html#ga1d6842eeec137bb2df7ef9614e193188", null ],
-    [ "gpio_toggle", "group__gpio__file.html#gaa066370e84c91d65966ff9bb548d8b16", null ]
+    [ "gpio_clear", "group__gpio__file.html#ga8970f778a63c9d78ffd8d4d36628c7e1", null ],
+    [ "gpio_get", "group__gpio__file.html#ga5fee90e8e5af7de567890ffae5ed50c8", null ],
+    [ "gpio_port_config_lock", "group__gpio__file.html#ga749adc86df621552b5a0908ecf5b2ebe", null ],
+    [ "gpio_port_read", "group__gpio__file.html#gac7a671c0d057a8db484357b344d66b23", null ],
+    [ "gpio_port_write", "group__gpio__file.html#gaeb877f5252652d6a574a08b085ef14f5", null ],
+    [ "gpio_primary_remap", "group__gpio__file.html#ga793f728ea95a83f58e1d27d07d2fe0eb", null ],
+    [ "gpio_secondary_remap", "group__gpio__file.html#ga3e5ba590258c8bb68b11ffb52d02ecb7", null ],
+    [ "gpio_set", "group__gpio__file.html#ga7fb65a68e4fc7175660f396395f6b44e", null ],
+    [ "gpio_set_eventout", "group__gpio__file.html#gabab0dfbc150f8658cea822421f5f6ac1", null ],
+    [ "gpio_set_mode", "group__gpio__file.html#gae4a927a78f0ed245472ba05de9c7e940", null ],
+    [ "gpio_toggle", "group__gpio__file.html#ga5ce25ff1552b12093b009978322fcb5c", null ]
 ];

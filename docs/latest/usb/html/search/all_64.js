@@ -32,7 +32,7 @@ var searchData=
   ['dfu_5fupload',['DFU_UPLOAD',['../group__usb__dfu__defines.html#gga1eb1afd96bccc953e4c19022df7d2171af7427780a3977ec43a36b102c639289c',1,'dfu.h']]],
   ['disconnect',['disconnect',['../struct__usbd__driver.html#a03f9f050e760c93eb4fd178873214157',1,'_usbd_driver']]],
   ['doc_2dusb_2eh',['doc-usb.h',['../doc-usb_8h.html',1,'']]],
-  ['doeptsiz',['doeptsiz',['../struct__usbd__device.html#a093f3b15087d6dd1e2bdb2db92bb3d3e',1,'_usbd_device']]],
+  ['doeptsiz',['doeptsiz',['../struct__usbd__device.html#a56153dea109cdf0eb2b0871bc1ea31ae',1,'_usbd_device']]],
   ['driver',['driver',['../struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc',1,'_usbd_device']]],
-  ['dwdterate',['dwDTERate',['../structusb__cdc__line__coding.html#a38f6eaa40b808d0e8b779d3c03d541a6',1,'usb_cdc_line_coding::dwDTERate()'],['../cdc_8h.html#a0880b491e21b4049653c96c27616ede0',1,'dwDTERate():&#160;cdc.h']]]
+  ['dwdterate',['dwDTERate',['../structusb__cdc__line__coding.html#abba439cd113503e9223c9d61865319d2',1,'usb_cdc_line_coding::dwDTERate()'],['../cdc_8h.html#a1c7eaa2f09ca8253de1711d01e05e02c',1,'dwDTERate():&#160;cdc.h']]]
 ];

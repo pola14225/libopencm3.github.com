@@ -126,381 +126,385 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * @version 1.0.0</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * @author @htmlonly &amp;copy; @endhtmlonly 2011 Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * @author @htmlonly &amp;copy; @endhtmlonly 2013 Alexandru Gagniuc &lt;mr.nuke.me@gmail.com&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * @date 16 March 2013</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * @author @htmlonly &amp;copy; @endhtmlonly 2011</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * @author @htmlonly &amp;copy; @endhtmlonly 2013</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * Alexandru Gagniuc &lt;mr.nuke.me@gmail.com&gt;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * LGPL License Terms @ref lgpl_license</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * Copyright (C) 2011 Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> * Copyright (C) 2013 Alexandru Gagniuc &lt;mr.nuke.me@gmail.com&gt;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#ifndef LM4F_GPIO_H</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LM4F_GPIO_H</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">/**@{*/</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &lt;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="memorymap_8h.html">libopencm3/lm4f/memorymap.h</a>&gt;</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/* =============================================================================</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"> * Convenience macros</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/** @defgroup gpio_reg_base GPIO register base addresses</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment"> * @{*/</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define GPIOA                           GPIOA_BASE</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOB                           GPIOB_BASE</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOC                           GPIOC_BASE</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOD                           GPIOD_BASE</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOE                           GPIOE_BASE</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOF                           GPIOF_BASE</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOG                           GPIOG_BASE</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOH                           GPIOH_BASE</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOJ                           GPIOJ_BASE</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOK                           GPIOK_BASE</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOL                           GPIOL_BASE</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOM                           GPIOM_BASE</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPION                           GPION_BASE</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOP                           GPIOP_BASE</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOQ                           GPIOQ_BASE</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor"></span><span class="comment">/** @} */</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">/* =============================================================================</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment"> * GPIO number definitions (for convenience)</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment"> * These are usable across all GPIO registers,</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment"> * except GPIO_LOCK and GPIO_PCTL</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">/** @defgroup gpio_pin_id GPIO pin identifiers</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment"> * @{*/</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#define GPIO0                           (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO1                           (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO2                           (1 &lt;&lt; 2)</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO3                           (1 &lt;&lt; 3)</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO4                           (1 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO5                           (1 &lt;&lt; 5)</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO6                           (1 &lt;&lt; 6)</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO7                           (1 &lt;&lt; 7)</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_ALL                        0xff</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor"></span><span class="comment">/** @} */</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* =============================================================================</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment"> * GPIO registers</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">/* GPIO Data */</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#define GPIO_DATA(port)                 ((volatile u32 *)(port + 0x000))</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">/* GPIO Direction */</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#define GPIO_DIR(port)                  MMIO32(port + 0x400)</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">/* GPIO Interrupt Sense */</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#define GPIO_IS(port)                   MMIO32(port + 0x404)</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">/* GPIO Interrupt Both Edges */</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#define GPIO_IBE(port)                  MMIO32(port + 0x408)</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">/* GPIO Interrupt Event */</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#define GPIO_IEV(port)                  MMIO32(port + 0x40c)</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">/* GPIO Interrupt Mask */</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#define GPIO_IM(port)                   MMIO32(port + 0x410)</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">/* GPIO Raw Interrupt Status */</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">#define GPIO_RIS(port)                  MMIO32(port + 0x414)</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">/* GPIO Masked Interrupt Status */</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">#define GPIO_MIS(port)                  MMIO32(port + 0x418)</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment">/* GPIO Interrupt Clear */</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">#define GPIO_ICR(port)                  MMIO32(port + 0x41c)</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">/* GPIO Alternate Function Select */</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">#define GPIO_AFSEL(port)                MMIO32(port + 0x420)</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">/* GPIO 2-mA Drive Select */</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#define GPIO_DR2R(port)                 MMIO32(port + 0x500)</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">/* GPIO 4-mA Drive Select */</span></div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">#define GPIO_DR4R(port)                 MMIO32(port + 0x504)</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="comment">/* GPIO 8-mA Drive Select */</span></div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor">#define GPIO_DR8R(port)                 MMIO32(port + 0x508)</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment">/* GPIO Open Drain Select */</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#define GPIO_ODR(port)                  MMIO32(port + 0x50c)</span></div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">/* GPIO Pull-Up Select */</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#define GPIO_PUR(port)                  MMIO32(port + 0x510)</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="comment">/* GPIO Pull-Down Select */</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">#define GPIO_PDR(port)                  MMIO32(port + 0x514)</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="comment">/* GPIO Slew Rate Control Select */</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">#define GPIO_SLR(port)                  MMIO32(port + 0x518)</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment">/* GPIO Digital Enable */</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="preprocessor">#define GPIO_DEN(port)                  MMIO32(port + 0x51c)</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="comment">/* GPIO Lock */</span></div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="preprocessor">#define GPIO_LOCK(port)                 MMIO32(port + 0x520)</span></div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="comment">/* GPIO Commit */</span></div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor">#define GPIO_CR(port)                   MMIO32(port + 0x524)</span></div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">/* GPIO Analog Mode Select */</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor">#define GPIO_AMSEL(port)                MMIO32(port + 0x528)</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="comment">/* GPIO Port Control */</span></div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor">#define GPIO_PCTL(port)                 MMIO32(port + 0x52C)</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">/* GPIO ADC Control */</span></div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="preprocessor">#define GPIO_ADCCTL(port)               MMIO32(port + 0x530)</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="comment">/* GPIO DMA Control */</span></div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="preprocessor">#define GPIO_DMACTL(port)               MMIO32(port + 0x534)</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment">/* GPIO Peripheral Identification */</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor">#define GPIO_PERIPH_ID4(port)           MMIO32(port + 0xFD0)</span></div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID5(port)           MMIO32(port + 0xFD4)</span></div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID6(port)           MMIO32(port + 0xFD8)</span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID7(port)           MMIO32(port + 0xFDC)</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID0(port)           MMIO32(port + 0xFE0)</span></div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID1(port)           MMIO32(port + 0xFE4)</span></div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID2(port)           MMIO32(port + 0xFE8)</span></div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID3(port)           MMIO32(port + 0xFEC)</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">/* GPIO PrimeCell Identification */</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor">#define GPIO_PCELL_ID0(port)            MMIO32(port + 0xFF0)</span></div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PCELL_ID1(port)            MMIO32(port + 0xFF4)</span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PCELL_ID2(port)            MMIO32(port + 0xFF8)</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PCELL_ID3(port)            MMIO32(port + 0xFFC)</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment">/* =============================================================================</span></div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="comment"> * Convenience enums</span></div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span></div>
-<div class="line"><a name="l00181"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">  181</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">gpio_mode</a> {</div>
-<div class="line"><a name="l00182"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1aa5824cd687ac84449b093087c25cec7c">  182</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1aa5824cd687ac84449b093087c25cec7c" title="Configure pin as output.">GPIO_MODE_OUTPUT</a>,       <span class="comment">/**&lt; Configure pin as output */</span></div>
-<div class="line"><a name="l00183"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a61ddb59c5e9a9cc6d9cf99d11a36920b">  183</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a61ddb59c5e9a9cc6d9cf99d11a36920b" title="Configure pin as input.">GPIO_MODE_INPUT</a>,        <span class="comment">/**&lt; Configure pin as input */</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a5a5b8916bf45f2a4ff3818fa75f85d27">  184</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a5a5b8916bf45f2a4ff3818fa75f85d27" title="Configure pin as analog function.">GPIO_MODE_ANALOG</a>,       <span class="comment">/**&lt; Configure pin as analog function */</span></div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;};</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
-<div class="line"><a name="l00187"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">  187</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">gpio_pullup</a> {</div>
-<div class="line"><a name="l00188"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba7807e2b9a6941fdb1326d9506af81a67">  188</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba7807e2b9a6941fdb1326d9506af81a67" title="Do not pull the pin high or low.">GPIO_PUPD_NONE</a>,         <span class="comment">/**&lt; Do not pull the pin high or low */</span></div>
-<div class="line"><a name="l00189"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba10489125ed48a34dd001fa33e13ae396">  189</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba10489125ed48a34dd001fa33e13ae396" title="Pull the pin high.">GPIO_PUPD_PULLUP</a>,       <span class="comment">/**&lt; Pull the pin high */</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba700268e334e769a26b44a8bf253017d2">  190</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba700268e334e769a26b44a8bf253017d2" title="Pull the pin low.">GPIO_PUPD_PULLDOWN</a>,     <span class="comment">/**&lt; Pull the pin low */</span></div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;};</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">  193</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">gpio_output_type</a> {</div>
-<div class="line"><a name="l00194"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a6f3629cecfb427731be8487dce2970ef">  194</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a6f3629cecfb427731be8487dce2970ef" title="Push-pull configuration.">GPIO_OTYPE_PP</a>,          <span class="comment">/**&lt; Push-pull configuration */</span></div>
-<div class="line"><a name="l00195"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a2f6c5d8dcae60adb9f33fa337fad91ea">  195</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a2f6c5d8dcae60adb9f33fa337fad91ea" title="Open drain configuration.">GPIO_OTYPE_OD</a>,          <span class="comment">/**&lt; Open drain configuration */</span></div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;};</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
-<div class="line"><a name="l00198"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">  198</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">gpio_drive_strength</a> {</div>
-<div class="line"><a name="l00199"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aaea65a1945ac5ef1b9c311ce0795a136d">  199</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aaea65a1945ac5ef1b9c311ce0795a136d" title="2mA drive">GPIO_DRIVE_2MA</a>,         <span class="comment">/**&lt; 2mA drive */</span></div>
-<div class="line"><a name="l00200"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aafea3985b235eba4f68685de32f0fd7a4">  200</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aafea3985b235eba4f68685de32f0fd7a4" title="4mA drive">GPIO_DRIVE_4MA</a>,         <span class="comment">/**&lt; 4mA drive */</span></div>
-<div class="line"><a name="l00201"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa769a972b3ebbb6ad8dcf54abdb24df10">  201</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa769a972b3ebbb6ad8dcf54abdb24df10" title="8mA drive">GPIO_DRIVE_8MA</a>,         <span class="comment">/**&lt; 8mA drive */</span></div>
-<div class="line"><a name="l00202"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa13cff51bcb9a3b105a9d0c288bf73b83">  202</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa13cff51bcb9a3b105a9d0c288bf73b83" title="8mA drive with slew rate control">GPIO_DRIVE_8MA_SLEW_CTL</a>,<span class="comment">/**&lt; 8mA drive with slew rate control */</span></div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;};</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
-<div class="line"><a name="l00205"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">  205</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a> {</div>
-<div class="line"><a name="l00206"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeac94012614bbe9b2145034b62207cc52e">  206</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeac94012614bbe9b2145034b62207cc52e" title="Level trigger, signal low.">GPIO_TRIG_LVL_LOW</a>,      <span class="comment">/**&lt; Level trigger, signal low */</span></div>
-<div class="line"><a name="l00207"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbead8f2e505b5428ce834d192e911b87265">  207</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbead8f2e505b5428ce834d192e911b87265" title="Level trigger, signal high.">GPIO_TRIG_LVL_HIGH</a>,     <span class="comment">/**&lt; Level trigger, signal high */</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea36956d1dafc73d361288ad3349b5ed19">  208</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea36956d1dafc73d361288ad3349b5ed19" title="Falling edge trigger.">GPIO_TRIG_EDGE_FALL</a>,    <span class="comment">/**&lt; Falling edge trigger */</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91">  209</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91" title="Rising edge trigger.">GPIO_TRIG_EDGE_RISE</a>,    <span class="comment">/**&lt; Rising edge trigger*/</span></div>
-<div class="line"><a name="l00210"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1">  210</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1" title="Falling and Rising edges trigger.">GPIO_TRIG_EDGE_BOTH</a>,    <span class="comment">/**&lt; Falling and Rising edges trigger*/</span></div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;};</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="comment">/* =============================================================================</span></div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="comment"> * Function prototypes</span></div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span></div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga2c31c812d3e1456162b2d5a7004f8c0b" title="Enable access to GPIO registers via the AHB aperture.">gpio_enable_ahb_aperture</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gac3ca54b7e2b154aeb9da53f8b3e905ba" title="Configure a group of pins.">gpio_mode_setup</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">gpio_mode</a> mode, <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">gpio_pullup</a> pullup,</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                     <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios);</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gaeb5dfc3b455c08949eb1bcd871175ec6" title="Configure output parameters of a group of pins.">gpio_set_output_config</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">gpio_output_type</a> otype,</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                            <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">gpio_drive_strength</a> drive, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios);</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gaa275d2d5cc2b242926f2fd113245083d" title="Multiplex group of pins to the given alternate function.">gpio_set_af</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> alt_func_num, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios);</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gaf43516eb9715f3c7359c069140114c22" title="Toggle a Group of Pins.">gpio_toggle</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios);</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gad85a11697ef4bef24da7e75f7420a529" title="Unlock the commit control of a special function pin.">gpio_unlock_commit</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="comment">/* Let&#39;s keep these ones inlined. GPIO control should be fast */</span><span class="comment"></span></div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="comment">/** @ingroup gpio_control</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="comment"> * @{ */</span></div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="comment"> * \brief Get status of a Group of Pins (atomic)</span></div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="comment"> * Reads the level of the given pins. Bit 0 of the returned data corresponds to</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="comment"> * GPIO0 level, bit 1 to GPIO1 level. and so on. Bits corresponding to masked</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="comment"> * pins (corresponding bit of gpios parameter set to zero) are returned as 0.</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="comment"> * This is an atomic operation.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * @date 16 March 2013</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * LGPL License Terms @ref lgpl_license</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Copyright (C) 2011 Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * Copyright (C) 2013 Alexandru Gagniuc &lt;mr.nuke.me@gmail.com&gt;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#ifndef LM4F_GPIO_H</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LM4F_GPIO_H</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/**@{*/</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &lt;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="memorymap_8h.html">libopencm3/lm4f/memorymap.h</a>&gt;</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">/* =============================================================================</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"> * Convenience macros</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">/** @defgroup gpio_reg_base GPIO register base addresses</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment"> * @{*/</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#define GPIOA                           GPIOA_BASE</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOB                           GPIOB_BASE</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOC                           GPIOC_BASE</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOD                           GPIOD_BASE</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOE                           GPIOE_BASE</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOF                           GPIOF_BASE</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOG                           GPIOG_BASE</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOH                           GPIOH_BASE</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOJ                           GPIOJ_BASE</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOK                           GPIOK_BASE</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOL                           GPIOL_BASE</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOM                           GPIOM_BASE</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPION                           GPION_BASE</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOP                           GPIOP_BASE</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIOQ                           GPIOQ_BASE</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span><span class="comment">/** @} */</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">/* =============================================================================</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment"> * GPIO number definitions (for convenience)</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment"> * These are usable across all GPIO registers,</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment"> * except GPIO_LOCK and GPIO_PCTL</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">/** @defgroup gpio_pin_id GPIO pin identifiers</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment"> * @{*/</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#define GPIO0                           (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO1                           (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO2                           (1 &lt;&lt; 2)</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO3                           (1 &lt;&lt; 3)</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO4                           (1 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO5                           (1 &lt;&lt; 5)</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO6                           (1 &lt;&lt; 6)</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO7                           (1 &lt;&lt; 7)</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_ALL                        0xff</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor"></span><span class="comment">/** @} */</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">/* =============================================================================</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment"> * GPIO registers</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/* GPIO Data */</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#define GPIO_DATA(port)                 (&amp;MMIO32(port + 0x000))</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">/* GPIO Direction */</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#define GPIO_DIR(port)                  MMIO32(port + 0x400)</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">/* GPIO Interrupt Sense */</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#define GPIO_IS(port)                   MMIO32(port + 0x404)</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">/* GPIO Interrupt Both Edges */</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#define GPIO_IBE(port)                  MMIO32(port + 0x408)</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">/* GPIO Interrupt Event */</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">#define GPIO_IEV(port)                  MMIO32(port + 0x40c)</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">/* GPIO Interrupt Mask */</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">#define GPIO_IM(port)                   MMIO32(port + 0x410)</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">/* GPIO Raw Interrupt Status */</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">#define GPIO_RIS(port)                  MMIO32(port + 0x414)</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">/* GPIO Masked Interrupt Status */</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">#define GPIO_MIS(port)                  MMIO32(port + 0x418)</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment">/* GPIO Interrupt Clear */</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#define GPIO_ICR(port)                  MMIO32(port + 0x41c)</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">/* GPIO Alternate Function Select */</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#define GPIO_AFSEL(port)                MMIO32(port + 0x420)</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment">/* GPIO 2-mA Drive Select */</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">#define GPIO_DR2R(port)                 MMIO32(port + 0x500)</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="comment">/* GPIO 4-mA Drive Select */</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor">#define GPIO_DR4R(port)                 MMIO32(port + 0x504)</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">/* GPIO 8-mA Drive Select */</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">#define GPIO_DR8R(port)                 MMIO32(port + 0x508)</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">/* GPIO Open Drain Select */</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#define GPIO_ODR(port)                  MMIO32(port + 0x50c)</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">/* GPIO Pull-Up Select */</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="preprocessor">#define GPIO_PUR(port)                  MMIO32(port + 0x510)</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="comment">/* GPIO Pull-Down Select */</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="preprocessor">#define GPIO_PDR(port)                  MMIO32(port + 0x514)</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment">/* GPIO Slew Rate Control Select */</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="preprocessor">#define GPIO_SLR(port)                  MMIO32(port + 0x518)</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="comment">/* GPIO Digital Enable */</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="preprocessor">#define GPIO_DEN(port)                  MMIO32(port + 0x51c)</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="comment">/* GPIO Lock */</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="preprocessor">#define GPIO_LOCK(port)                 MMIO32(port + 0x520)</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment">/* GPIO Commit */</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">#define GPIO_CR(port)                   MMIO32(port + 0x524)</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment">/* GPIO Analog Mode Select */</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor">#define GPIO_AMSEL(port)                MMIO32(port + 0x528)</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="comment">/* GPIO Port Control */</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="preprocessor">#define GPIO_PCTL(port)                 MMIO32(port + 0x52C)</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="comment">/* GPIO ADC Control */</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor">#define GPIO_ADCCTL(port)               MMIO32(port + 0x530)</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="comment">/* GPIO DMA Control */</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">#define GPIO_DMACTL(port)               MMIO32(port + 0x534)</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">/* GPIO Peripheral Identification */</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="preprocessor">#define GPIO_PERIPH_ID4(port)           MMIO32(port + 0xFD0)</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID5(port)           MMIO32(port + 0xFD4)</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID6(port)           MMIO32(port + 0xFD8)</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID7(port)           MMIO32(port + 0xFDC)</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID0(port)           MMIO32(port + 0xFE0)</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID1(port)           MMIO32(port + 0xFE4)</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID2(port)           MMIO32(port + 0xFE8)</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PERIPH_ID3(port)           MMIO32(port + 0xFEC)</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">/* GPIO PrimeCell Identification */</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor">#define GPIO_PCELL_ID0(port)            MMIO32(port + 0xFF0)</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PCELL_ID1(port)            MMIO32(port + 0xFF4)</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PCELL_ID2(port)            MMIO32(port + 0xFF8)</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPIO_PCELL_ID3(port)            MMIO32(port + 0xFFC)</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment">/* =============================================================================</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="comment"> * Convenience enums</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">  183</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">gpio_mode</a> {</div>
+<div class="line"><a name="l00184"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1aa5824cd687ac84449b093087c25cec7c">  184</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1aa5824cd687ac84449b093087c25cec7c" title="Configure pin as output.">GPIO_MODE_OUTPUT</a>,       <span class="comment">/**&lt; Configure pin as output */</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a61ddb59c5e9a9cc6d9cf99d11a36920b">  185</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a61ddb59c5e9a9cc6d9cf99d11a36920b" title="Configure pin as input.">GPIO_MODE_INPUT</a>,        <span class="comment">/**&lt; Configure pin as input */</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a5a5b8916bf45f2a4ff3818fa75f85d27">  186</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a5a5b8916bf45f2a4ff3818fa75f85d27" title="Configure pin as analog function.">GPIO_MODE_ANALOG</a>,       <span class="comment">/**&lt; Configure pin as analog function */</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;};</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
+<div class="line"><a name="l00189"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">  189</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">gpio_pullup</a> {</div>
+<div class="line"><a name="l00190"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba7807e2b9a6941fdb1326d9506af81a67">  190</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba7807e2b9a6941fdb1326d9506af81a67" title="Do not pull the pin high or low.">GPIO_PUPD_NONE</a>,         <span class="comment">/**&lt; Do not pull the pin high or low */</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba10489125ed48a34dd001fa33e13ae396">  191</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba10489125ed48a34dd001fa33e13ae396" title="Pull the pin high.">GPIO_PUPD_PULLUP</a>,       <span class="comment">/**&lt; Pull the pin high */</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba700268e334e769a26b44a8bf253017d2">  192</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga45e6c8e8730474e4644929cc5528400ba700268e334e769a26b44a8bf253017d2" title="Pull the pin low.">GPIO_PUPD_PULLDOWN</a>,     <span class="comment">/**&lt; Pull the pin low */</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;};</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
+<div class="line"><a name="l00195"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">  195</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">gpio_output_type</a> {</div>
+<div class="line"><a name="l00196"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a6f3629cecfb427731be8487dce2970ef">  196</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a6f3629cecfb427731be8487dce2970ef" title="Push-pull configuration.">GPIO_OTYPE_PP</a>,          <span class="comment">/**&lt; Push-pull configuration */</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a2f6c5d8dcae60adb9f33fa337fad91ea">  197</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggad59707c5e578193702cfb29b49b88108a2f6c5d8dcae60adb9f33fa337fad91ea" title="Open drain configuration.">GPIO_OTYPE_OD</a>,          <span class="comment">/**&lt; Open drain configuration */</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;};</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00200"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">  200</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">gpio_drive_strength</a> {</div>
+<div class="line"><a name="l00201"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aaea65a1945ac5ef1b9c311ce0795a136d">  201</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aaea65a1945ac5ef1b9c311ce0795a136d" title="2mA drive">GPIO_DRIVE_2MA</a>,         <span class="comment">/**&lt; 2mA drive */</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aafea3985b235eba4f68685de32f0fd7a4">  202</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aafea3985b235eba4f68685de32f0fd7a4" title="4mA drive">GPIO_DRIVE_4MA</a>,         <span class="comment">/**&lt; 4mA drive */</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa769a972b3ebbb6ad8dcf54abdb24df10">  203</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa769a972b3ebbb6ad8dcf54abdb24df10" title="8mA drive">GPIO_DRIVE_8MA</a>,         <span class="comment">/**&lt; 8mA drive */</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa13cff51bcb9a3b105a9d0c288bf73b83">  204</a></span>&#160;        <a class="code" href="group__gpio__defines.html#gga14eba84c1c8f80b08a770775d3bf060aa13cff51bcb9a3b105a9d0c288bf73b83" title="8mA drive with slew rate control">GPIO_DRIVE_8MA_SLEW_CTL</a>,<span class="comment">/**&lt; 8mA drive with slew rate control */</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;};</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
+<div class="line"><a name="l00207"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">  207</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a> {</div>
+<div class="line"><a name="l00208"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeac94012614bbe9b2145034b62207cc52e">  208</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeac94012614bbe9b2145034b62207cc52e" title="Level trigger, signal low.">GPIO_TRIG_LVL_LOW</a>,      <span class="comment">/**&lt; Level trigger, signal low */</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbead8f2e505b5428ce834d192e911b87265">  209</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbead8f2e505b5428ce834d192e911b87265" title="Level trigger, signal high.">GPIO_TRIG_LVL_HIGH</a>,     <span class="comment">/**&lt; Level trigger, signal high */</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea36956d1dafc73d361288ad3349b5ed19">  210</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea36956d1dafc73d361288ad3349b5ed19" title="Falling edge trigger.">GPIO_TRIG_EDGE_FALL</a>,    <span class="comment">/**&lt; Falling edge trigger */</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91">  211</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91" title="Rising edge trigger.">GPIO_TRIG_EDGE_RISE</a>,    <span class="comment">/**&lt; Rising edge trigger*/</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno"><a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1">  212</a></span>&#160;        <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1" title="Falling and Rising edges trigger.">GPIO_TRIG_EDGE_BOTH</a>,    <span class="comment">/**&lt; Falling and Rising edges trigger*/</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;};</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="comment">/* =============================================================================</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;<span class="comment"> * Function prototypes</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="comment"> * ---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga2c31c812d3e1456162b2d5a7004f8c0b" title="Enable access to GPIO registers via the AHB aperture.">gpio_enable_ahb_aperture</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga03c124c823e28cfee2bbf904ca12020b" title="Configure a group of pins.">gpio_mode_setup</a>(uint32_t gpioport, <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga620d533a2ccc5296d2f6c8b95bf89fe1">gpio_mode</a> mode,</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                     <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga45e6c8e8730474e4644929cc5528400b">gpio_pullup</a> pullup, uint8_t gpios);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga83d7dc913be2bd27110019cae5ecf25d" title="Configure output parameters of a group of pins.">gpio_set_output_config</a>(uint32_t gpioport, <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#gad59707c5e578193702cfb29b49b88108">gpio_output_type</a> otype,</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                            <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#ga14eba84c1c8f80b08a770775d3bf060a">gpio_drive_strength</a> drive, uint8_t gpios);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga08c5e974d93f738dcd80cf95b2447a6a" title="Multiplex group of pins to the given alternate function.">gpio_set_af</a>(uint32_t gpioport, uint8_t alt_func_num, uint8_t gpios);</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gac7fe863cd889722d5e06916617b007b1" title="Toggle a Group of Pins.">gpio_toggle</a>(uint32_t gpioport, uint8_t gpios);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga070a8a3682a7e30e037a6de9b287355c" title="Unlock the commit control of a special function pin.">gpio_unlock_commit</a>(uint32_t gpioport, uint8_t gpios);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="comment">/* Let&#39;s keep these ones inlined. GPIO control should be fast */</span><span class="comment"></span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="comment">/** @ingroup gpio_control</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="comment"> * @{ */</span></div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="comment"> * \brief Get status of a Group of Pins (atomic)</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="comment"> * Reads the level of the given pins. Bit 0 of the returned data corresponds to</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="comment"> * GPIO0 level, bit 1 to GPIO1 level. and so on. Bits corresponding to masked</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="comment"> * pins (corresponding bit of gpios parameter set to zero) are returned as 0.</span></div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="comment"> * @return The level of the GPIO port. The pins not specified in gpios are</span></div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment"> *         masked to zero.</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno"><a class="code" href="group__gpio__control.html#gadb29085c0de18f59e471160453a0a149">  247</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> <a class="code" href="group__gpio__control.html#gadb29085c0de18f59e471160453a0a149" title="Get status of a Group of Pins (atomic)">gpio_read</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;{</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordflow">return</span> GPIO_DATA(gpioport)[gpios];</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;}</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment"> * \brief Set level of a Group of Pins (atomic)</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="comment"> * Sets the level of the given pins. Bit 0 of the data parameter corresponds to</span></div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment"> * GPIO0, bit 1 to GPIO1. and so on. Maskedpins (corresponding bit of gpios</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment"> * parameter set to zero) are returned not affected.</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment"> * This is an atomic operation.</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="comment"> * This is an atomic operation.</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="comment"> * @return The level of the GPIO port. The pins not specified in gpios are</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="comment"> *         masked to zero.</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno"><a class="code" href="group__gpio__control.html#ga4efb268c94f062228de2339d8273af82">  249</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> uint8_t <a class="code" href="group__gpio__control.html#ga4efb268c94f062228de2339d8273af82" title="Get status of a Group of Pins (atomic)">gpio_read</a>(uint32_t gpioport, uint8_t gpios)</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;{</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">return</span> GPIO_DATA(gpioport)[gpios];</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;}</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="comment"> * \brief Set level of a Group of Pins (atomic)</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment"> * Sets the level of the given pins. Bit 0 of the data parameter corresponds to</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment"> * GPIO0, bit 1 to GPIO1. and so on. Maskedpins (corresponding bit of gpios</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment"> * parameter set to zero) are returned not affected.</span></div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="comment"> * @param[in] data Level to set pin to. Bit 0 of data corresponds to GPIO0, bit</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="comment"> *                 1 to GPIO1. and so on.</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno"><a class="code" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb">  267</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb" title="Set level of a Group of Pins (atomic)">gpio_write</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> data)</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;{</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="comment">/* ipaddr[9:2] mask the bits to be set, hence the array index */</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        GPIO_DATA(gpioport)[gpios] = data;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;}</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="comment"> * \brief Set a Group of Pins (atomic)</span></div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="comment"> * Set one or more pins of the given GPIO port. This is an atomic operation.</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment"> * This is an atomic operation.</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="comment"> * @param[in] data Level to set pin to. Bit 0 of data corresponds to GPIO0, bit</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="comment"> *                 1 to GPIO1. and so on.</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno"><a class="code" href="group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865">  269</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865" title="Set level of a Group of Pins (atomic)">gpio_write</a>(uint32_t gpioport, uint8_t gpios, uint8_t data)</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;{</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="comment">/* ipaddr[9:2] mask the bits to be set, hence the array index */</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        GPIO_DATA(gpioport)[gpios] = data;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;}</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="comment"> * \brief Set a Group of Pins (atomic)</span></div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno"><a class="code" href="group__gpio__control.html#gae1ae1ae1fceffa7393e51d2be384bc4f">  282</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__control.html#gae1ae1ae1fceffa7393e51d2be384bc4f" title="Set a Group of Pins (atomic)">gpio_set</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;{</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <a class="code" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb" title="Set level of a Group of Pins (atomic)">gpio_write</a>(gpioport, gpios, 0xff);</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;}</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment"> * \brief Clear a Group of Pins (atomic)</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="comment"> * Clear one or more pins of the given GPIO port. This is an atomic operation.</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="comment"> * Set one or more pins of the given GPIO port. This is an atomic operation.</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno"><a class="code" href="group__gpio__control.html#ga8ce0832cd5110fa7bbe0f6c968a04a09">  284</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__control.html#ga8ce0832cd5110fa7bbe0f6c968a04a09" title="Set a Group of Pins (atomic)">gpio_set</a>(uint32_t gpioport, uint8_t gpios)</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;{</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <a class="code" href="group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865" title="Set level of a Group of Pins (atomic)">gpio_write</a>(gpioport, gpios, 0xff);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;}</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="comment"> * \brief Clear a Group of Pins (atomic)</span></div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno"><a class="code" href="group__gpio__control.html#gae7e38f79b34a83bdd1b6360b81e76d3f">  296</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__control.html#gae7e38f79b34a83bdd1b6360b81e76d3f" title="Clear a Group of Pins (atomic)">gpio_clear</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;{</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <a class="code" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb" title="Set level of a Group of Pins (atomic)">gpio_write</a>(gpioport, gpios, 0);</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;}</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="comment"> * \brief Read level of all pins from a port (atomic)</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="comment"> * Read the current value of the given GPIO port. This is an atomic operation.</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment"> * Clear one or more pins of the given GPIO port. This is an atomic operation.</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno"><a class="code" href="group__gpio__control.html#gaed9a0283ed78d8746f72a298889207f4">  298</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__control.html#gaed9a0283ed78d8746f72a298889207f4" title="Clear a Group of Pins (atomic)">gpio_clear</a>(uint32_t gpioport, uint8_t gpios)</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;{</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <a class="code" href="group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865" title="Set level of a Group of Pins (atomic)">gpio_write</a>(gpioport, gpios, 0);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;}</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="comment"> * \brief Read level of all pins from a port (atomic)</span></div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="comment"> * This is functionally identical to @ref gpio_read (gpioport, GPIO_ALL).</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="comment"> * Read the current value of the given GPIO port. This is an atomic operation.</span></div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="comment"> * This is functionally identical to @ref gpio_read (gpioport, GPIO_ALL).</span></div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="comment"> * @return The level of all the pins on the GPIO port.</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00312"></a><span class="lineno"><a class="code" href="group__gpio__control.html#ga2348b95cf0a72037d7f34018cc03fd96">  312</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> <a class="code" href="group__gpio__control.html#ga2348b95cf0a72037d7f34018cc03fd96" title="Read level of all pins from a port (atomic)">gpio_port_read</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport)</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;{</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="group__gpio__control.html#gadb29085c0de18f59e471160453a0a149" title="Get status of a Group of Pins (atomic)">gpio_read</a>(gpioport, GPIO_ALL);</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;}</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment"> * \brief Set level of of all pins from a port (atomic)</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="comment"> * Set the level of all pins on the given GPIO port. This is an atomic operation.</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="comment"> * @return The level of all the pins on the GPIO port.</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="code" href="group__gpio__control.html#gae3a2f79057d2a87a5f08b28242ea8ba8">  314</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> uint8_t <a class="code" href="group__gpio__control.html#gae3a2f79057d2a87a5f08b28242ea8ba8" title="Read level of all pins from a port (atomic)">gpio_port_read</a>(uint32_t gpioport)</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;{</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="group__gpio__control.html#ga4efb268c94f062228de2339d8273af82" title="Get status of a Group of Pins (atomic)">gpio_read</a>(gpioport, GPIO_ALL);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;}</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="comment"> * \brief Set level of of all pins from a port (atomic)</span></div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="comment"> * This is functionally identical to @ref gpio_write (gpioport, GPIO_ALL, data).</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment"> * @param[in] data Level to set pin to. Bit 0 of data corresponds to GPIO0, bit</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment"> *                 1 to GPIO1. and so on.</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno"><a class="code" href="group__gpio__control.html#ga27e1eb5389ebf38b9d470e5005851552">  330</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__control.html#ga27e1eb5389ebf38b9d470e5005851552" title="Set level of of all pins from a port (atomic)">gpio_port_write</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> data)</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;{</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <a class="code" href="group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb" title="Set level of a Group of Pins (atomic)">gpio_write</a>(gpioport, GPIO_ALL, data);</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;}<span class="comment"></span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="comment">/** @} */</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gaa89149570d495a7f2de9e8de63976b6c" title="Configure the interrupt trigger on the given GPIO pins.">gpio_configure_trigger</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a> trigger, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios);</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga8455249d912f67fb02844a723dcceabb" title="Enable interrupts on specified GPIO pins.">gpio_enable_interrupts</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios);</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gae52605679f01558f602673209ebfb232" title="Disable interrupts on specified GPIO pins.">gpio_disable_interrupts</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios);</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="comment">/* Let&#39;s keep these ones inlined. GPIO. They are designed to be used in ISRs */</span><span class="comment"></span></div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="comment">/** @ingroup gpio_irq</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="comment"> * @{ */</span><span class="comment"></span></div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="comment">/** \brief Determine if interrupt is generated by the given pin</span></div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="comment"> * @param[in] srcpins source pin or group of pins to check.</span></div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno"><a class="code" href="group__gpio__irq.html#gaf9a98ff021b857053ee093777626d075">  349</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="group__gpio__irq.html#gaf9a98ff021b857053ee093777626d075" title="Determine if interrupt is generated by the given pin.">gpio_is_interrupt_source</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> srcpins)</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;{</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <span class="keywordflow">return</span> GPIO_MIS(gpioport) &amp; srcpins;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;}</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="comment"> * \brief Mark interrupt as serviced</span></div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="comment"> * After an interrupt is services, its flag must be cleared. If the flag is not</span></div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="comment"> * cleared, then execution will jump back to the start of the ISR after the ISR</span></div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="comment"> * returns.</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="comment"> * Set the level of all pins on the given GPIO port. This is an atomic</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment"> * operation.</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="comment"> * This is functionally identical to @ref gpio_write (gpioport, GPIO_ALL, data).</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="comment"> * @param[in] data Level to set pin to. Bit 0 of data corresponds to GPIO0, bit</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="comment"> *                 1 to GPIO1. and so on.</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno"><a class="code" href="group__gpio__control.html#ga00eeea592868471ce4eecce176b062f7">  333</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__control.html#ga00eeea592868471ce4eecce176b062f7" title="Set level of of all pins from a port (atomic)">gpio_port_write</a>(uint32_t gpioport, uint8_t data)</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;{</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <a class="code" href="group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865" title="Set level of a Group of Pins (atomic)">gpio_write</a>(gpioport, GPIO_ALL, data);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;}<span class="comment"></span></div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="comment">/** @} */</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga6a3a20a7f47ef2eb7c6efa9360f51fc9" title="Configure the interrupt trigger on the given GPIO pins.">gpio_configure_trigger</a>(uint32_t gpioport, <span class="keyword">enum</span> <a class="code" href="group__gpio__defines.html#gaf59a0ba6300bcfc24d4dbf13000a2fbe">gpio_trigger</a> trigger,</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                            uint8_t gpios);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga6647e613abe8223c2e78f773dfa279ce" title="Enable interrupts on specified GPIO pins.">gpio_enable_interrupts</a>(uint32_t gpioport, uint8_t gpios);</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gaa85cd2d1a8cbcfa7406e11afb15c1b6b" title="Disable interrupts on specified GPIO pins.">gpio_disable_interrupts</a>(uint32_t gpioport, uint8_t gpios);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="comment">/* Let&#39;s keep these ones inlined. GPIO. They are designed to be used in ISRs */</span><span class="comment"></span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="comment">/** @ingroup gpio_irq</span></div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="comment"> * @{ */</span><span class="comment"></span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="comment">/** \brief Determine if interrupt is generated by the given pin</span></div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<span class="comment"> * @param[in] srcpins source pin or group of pins to check.</span></div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00353"></a><span class="lineno"><a class="code" href="group__gpio__irq.html#ga6526582457c0936b5a978b2548336610">  353</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="group__gpio__irq.html#ga6526582457c0936b5a978b2548336610" title="Determine if interrupt is generated by the given pin.">gpio_is_interrupt_source</a>(uint32_t gpioport, uint8_t srcpins)</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;{</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordflow">return</span> GPIO_MIS(gpioport) &amp; srcpins;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;}</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="comment"> * \brief Mark interrupt as serviced</span></div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00365"></a><span class="lineno"><a class="code" href="group__gpio__irq.html#ga1229fe96162a64427017b1f84745d5a3">  365</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__irq.html#ga1229fe96162a64427017b1f84745d5a3" title="Mark interrupt as serviced.">gpio_clear_interrupt_flag</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gpios)</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;{</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        GPIO_ICR(gpioport) |= gpios;</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;}</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;<span class="comment">/** @} */</span></div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="comment"> * After an interrupt is services, its flag must be cleared. If the flag is not</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="comment"> * cleared, then execution will jump back to the start of the ISR after the ISR</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="comment"> * returns.</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<span class="comment"> * @param[in] gpioport GPIO block register address base @ref gpio_reg_base</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<span class="comment"> * @param[in] gpios @ref gpio_pin_id. Any combination of pins may be specified</span></div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;<span class="comment"> *                  by OR&#39;ing then together.</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00369"></a><span class="lineno"><a class="code" href="group__gpio__irq.html#ga0eff5e23114c6346aff26c0b275d7464">  369</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__gpio__irq.html#ga0eff5e23114c6346aff26c0b275d7464" title="Mark interrupt as serviced.">gpio_clear_interrupt_flag</a>(uint32_t gpioport, uint8_t gpios)</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;{</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        GPIO_ICR(gpioport) |= gpios;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;}</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;<span class="comment">/** @} */</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_16a49d58821e47b8957c58c692243696.html">lm4f</a></li><li class="navelem"><a class="el" href="gpio_8h.html">gpio.h</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:31 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

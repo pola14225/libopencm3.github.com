@@ -293,231 +293,232 @@ $(document).ready(function(){initNavTree('scb_8h_source.html','');});
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">/* Bits [31:30]: reserved - must be kept cleared */</span></div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment">/* TBLOFF[29:9]: Vector table base offset field */</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno"><a class="code" href="scb_8h.html#a1cc0ca066d04fe66a4b5f6f1795f99f1">  176</a></span>&#160;<span class="preprocessor">#define SCB_VTOR_TBLOFF_LSB                     9       </span><span class="comment">/* inconsistent datasheet - LSB could be 11 */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment">/* --- SCB_AIRCR values ---------------------------------------------------- */</span></div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment">/* VECTKEYSTAT[31:16]/ VECTKEY[31:16] Register key */</span></div>
-<div class="line"><a name="l00181"></a><span class="lineno"><a class="code" href="scb_8h.html#a74ce167fa84d1dc80c497279e981f560">  181</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_VECTKEYSTAT_LSB               16</span></div>
-<div class="line"><a name="l00182"></a><span class="lineno"><a class="code" href="scb_8h.html#ae9c09346491834693c481c5d5a20886d">  182</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_VECTKEY                       0x05FA0000</span></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor"></span><span class="comment">/* ENDIANESS Data endianness bit */</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno"><a class="code" href="scb_8h.html#ade5876f1c12d6322a188b09efe77f69d">  184</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_ENDIANESS                     (1 &lt;&lt; 15)</span></div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [14:11]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="comment">/* PRIGROUP[10:8]: Interrupt priority grouping field */</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno"><a class="code" href="scb_8h.html#a65a827fd5c10f051ebd5f63580cd7692">  187</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_PRIGROUP_GROUP16_NOSUB        (0x3 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00188"></a><span class="lineno"><a class="code" href="scb_8h.html#a7bd9cb7cca87a5021b89d51881c6a6ee">  188</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_GROUP8_SUB2          (0x4 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00189"></a><span class="lineno"><a class="code" href="scb_8h.html#a9c6b8c975b56eb9f9a3c1f9895a65dfc">  189</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_GROUP4_SUB4          (0x5 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno"><a class="code" href="scb_8h.html#a902210002a97dd547757a9fd4c9f7eb6">  190</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_GROUP2_SUB8          (0x6 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00191"></a><span class="lineno"><a class="code" href="scb_8h.html#afce39c37a9e5c25abea0d3ab2de79a0e">  191</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_NOGROUP_SUB16        (0x7 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00192"></a><span class="lineno"><a class="code" href="scb_8h.html#a4fda9c879425b15aae24d451ad3ba208">  192</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_MASK                 (0x7 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00193"></a><span class="lineno"><a class="code" href="scb_8h.html#a9dc62ab5e1be9158658945f9887a9550">  193</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_SHIFT                8</span></div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [7:3]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="comment">/* SYSRESETREQ System reset request */</span></div>
-<div class="line"><a name="l00196"></a><span class="lineno"><a class="code" href="scb_8h.html#a86c65d10100e2fb5fdcf826b2573b5d8">  196</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_SYSRESETREQ                   (1 &lt;&lt; 2)</span></div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="preprocessor"></span><span class="comment">/* VECTCLRACTIVE */</span></div>
-<div class="line"><a name="l00198"></a><span class="lineno"><a class="code" href="scb_8h.html#ae3d9b3c94c860a0b0b038285ca817fd3">  198</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_VECTCLRACTIVE                 (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="preprocessor"></span><span class="comment">/* VECTRESET */</span></div>
-<div class="line"><a name="l00200"></a><span class="lineno"><a class="code" href="scb_8h.html#aec31f9ed3b476e1ec623b0d89df51280">  200</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_VECTRESET                     (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="comment">/* --- SCB_SCR values ------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="comment">/* Bits [31:5]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="comment">/* SEVEONPEND Send Event on Pending bit */</span></div>
-<div class="line"><a name="l00206"></a><span class="lineno"><a class="code" href="scb_8h.html#a01af8b70a406fa303e76bb5f2f916f63">  206</a></span>&#160;<span class="preprocessor">#define SCB_SCR_SEVEONPEND                      (1 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 3: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="comment">/* SLEEPDEEP */</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno"><a class="code" href="scb_8h.html#ac4f4f02bfc91aef800b88fa58329cb92">  209</a></span>&#160;<span class="preprocessor">#define SCB_SCR_SLEEPDEEP                       (1 &lt;&lt; 2)</span></div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor"></span><span class="comment">/* SLEEPONEXIT */</span></div>
-<div class="line"><a name="l00211"></a><span class="lineno"><a class="code" href="scb_8h.html#aef484612839a04567ebaeeb57ca0b015">  211</a></span>&#160;<span class="preprocessor">#define SCB_SCR_SLEEPONEXIT                     (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 0: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="comment">/* --- SCB_CCR values ------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="comment">/* Bits [31:10]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="comment">/* STKALIGN */</span></div>
-<div class="line"><a name="l00218"></a><span class="lineno"><a class="code" href="scb_8h.html#a8c71d4e534d7d822ce32c3dec82bebd9">  218</a></span>&#160;<span class="preprocessor">#define SCB_CCR_STKALIGN                        (1 &lt;&lt; 9)</span></div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="preprocessor"></span><span class="comment">/* BFHFNMIGN */</span></div>
-<div class="line"><a name="l00220"></a><span class="lineno"><a class="code" href="scb_8h.html#a985f7560606f6e257a8b2bc2671ed33d">  220</a></span>&#160;<span class="preprocessor">#define SCB_CCR_BFHFNMIGN                       (1 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [7:5]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="comment">/* DIV_0_TRP */</span></div>
-<div class="line"><a name="l00223"></a><span class="lineno"><a class="code" href="scb_8h.html#a9a1ca0625d0b4b5be3c4332258c28ec4">  223</a></span>&#160;<span class="preprocessor">#define SCB_CCR_DIV_0_TRP                       (1 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="preprocessor"></span><span class="comment">/* UNALIGN_TRP */</span></div>
-<div class="line"><a name="l00225"></a><span class="lineno"><a class="code" href="scb_8h.html#a6a075d1f9722f6972ed1a98305e24cf9">  225</a></span>&#160;<span class="preprocessor">#define SCB_CCR_UNALIGN_TRP                     (1 &lt;&lt; 3)</span></div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 2: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="comment">/* USERSETMPEND */</span></div>
-<div class="line"><a name="l00228"></a><span class="lineno"><a class="code" href="scb_8h.html#a7f3eb65ed64479d1c4223b69be60a786">  228</a></span>&#160;<span class="preprocessor">#define SCB_CCR_USERSETMPEND                    (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="preprocessor"></span><span class="comment">/* NONBASETHRDENA */</span></div>
-<div class="line"><a name="l00230"></a><span class="lineno"><a class="code" href="scb_8h.html#a737bd09d6c94b325cfe96733585ee307">  230</a></span>&#160;<span class="preprocessor">#define SCB_CCR_NONBASETHRDENA                  (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="comment">/* --- SCB_SHPR1 values ---------------------------------------------------- */</span></div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="comment">/* Bits [31:24]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="comment">/* PRI_6[23:16]: Priority of system handler 6, usage fault */</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno"><a class="code" href="scb_8h.html#a4e69a475562d679d080c6600a35498ff">  236</a></span>&#160;<span class="preprocessor">#define SCB_SHPR1_PRI_6_LSB                     16</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor"></span><span class="comment">/* PRI_5[15:8]: Priority of system handler 5, bus fault */</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno"><a class="code" href="scb_8h.html#a242d6f4ce14633b5a8e0299de837fe9d">  238</a></span>&#160;<span class="preprocessor">#define SCB_SHPR1_PRI_5_LSB                     8</span></div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="preprocessor"></span><span class="comment">/* PRI_4[7:0]: Priority of system handler 4, memory management fault */</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno"><a class="code" href="scb_8h.html#ade7ff15b26c19b3243887fed7cbe17f4">  240</a></span>&#160;<span class="preprocessor">#define SCB_SHPR1_PRI_4_LSB                     0</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="comment">/* --- SCB_SHPR2 values ---------------------------------------------------- */</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="comment">/* PRI_11[31:24]: Priority of system handler 11, SVCall */</span></div>
-<div class="line"><a name="l00245"></a><span class="lineno"><a class="code" href="scb_8h.html#a6768bf98a5c8a484bf4cf5ecd7a1e45c">  245</a></span>&#160;<span class="preprocessor">#define SCB_SHPR2_PRI_11_LSB                    24</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [23:0]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="comment">/* --- SCB_SHPR3 values ---------------------------------------------------- */</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="comment">/* PRI_15[31:24]: Priority of system handler 15, SysTick exception */</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno"><a class="code" href="scb_8h.html#a349a836be339cfba1f1bb532d1d426e5">  251</a></span>&#160;<span class="preprocessor">#define SCB_SHPR3_PRI_15_LSB                    24</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor"></span><span class="comment">/* PRI_14[23:16]: Priority of system handler 14, PendSV */</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno"><a class="code" href="scb_8h.html#a7bb765d591d70bcc7bb54b6b78a987c0">  253</a></span>&#160;<span class="preprocessor">#define SCB_SHPR3_PRI_14_LSB                    16</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [15:0]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment">/* --- SCB_SHCSR values ---------------------------------------------------- */</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment">/* Bits [31:19]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment">/* USGFAULTENA: Usage fault enable */</span></div>
-<div class="line"><a name="l00260"></a><span class="lineno"><a class="code" href="scb_8h.html#a5cc5ea368212d871d8fce47fee90527a">  260</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_USGFAULTENA                   (1 &lt;&lt; 18)</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor"></span><span class="comment">/* BUSFAULTENA: Bus fault enable */</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno"><a class="code" href="scb_8h.html#a213b425d7d1da3cbaf977d90dc29297d">  262</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_BUSFAULTENA                   (1 &lt;&lt; 17)</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor"></span><span class="comment">/* MEMFAULTENA: Memory management fault enable */</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno"><a class="code" href="scb_8h.html#ac2465518e8ed884599f6b882f27ee6f0">  264</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_MEMFAULTENA                   (1 &lt;&lt; 16)</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor"></span><span class="comment">/* SVCALLPENDED: SVC call pending */</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno"><a class="code" href="scb_8h.html#a1300357a6f3ff42e08be39ed6dbfea73">  266</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_SVCALLPENDED                  (1 &lt;&lt; 15)</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor"></span><span class="comment">/* BUSFAULTPENDED: Bus fault exception pending */</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno"><a class="code" href="scb_8h.html#a5c2813665d25281e4777600f0cbdc99c">  268</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_BUSFAULTPENDED                (1 &lt;&lt; 14)</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor"></span><span class="comment">/* MEMFAULTPENDED: Memory management fault exception pending */</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno"><a class="code" href="scb_8h.html#afac0c649448a364c53b212ba515e433d">  270</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_MEMFAULTPENDED                (1 &lt;&lt; 13)</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor"></span><span class="comment">/* USGFAULTPENDED: Usage fault exception pending */</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno"><a class="code" href="scb_8h.html#a5d4a7079ca06fdca02ebe45cd6432cd0">  272</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_USGFAULTPENDED                (1 &lt;&lt; 12)</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor"></span><span class="comment">/* SYSTICKACT: SysTick exception active */</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno"><a class="code" href="scb_8h.html#a2f474b85e95da35c9ee1f59d3e3ffbdb">  274</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_SYSTICKACT                    (1 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor"></span><span class="comment">/* PENDSVACT: PendSV exception active */</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno"><a class="code" href="scb_8h.html#ae5ce384582328f1a9d38466239e03017">  276</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_PENDSVACT                     (1 &lt;&lt; 10)</span></div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 9: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="comment">/* MONITORACT: Debug monitor active */</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno"><a class="code" href="scb_8h.html#a9d926840743a22c4ff50db650b2a0d75">  279</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_MONITORACT                    (1 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor"></span><span class="comment">/* SVCALLACT: SVC call active */</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno"><a class="code" href="scb_8h.html#a395ad78789946e84ddbb0a91a575331d">  281</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_SVCALLACT                     (1 &lt;&lt; 7)</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [6:4]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment">/* USGFAULTACT: Usage fault exception active */</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno"><a class="code" href="scb_8h.html#ab6121f12dfa519ab80357d2389830990">  284</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_USGFAULTACT                   (1 &lt;&lt; 3)</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 2: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="comment">/* BUSFAULTACT: Bus fault exception active */</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno"><a class="code" href="scb_8h.html#a22a35f7e2e94c192befb04bab6976598">  287</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_BUSFAULTACT                   (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor"></span><span class="comment">/* MEMFAULTACT: Memory management fault exception active */</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno"><a class="code" href="scb_8h.html#af7e9f142e8f310010b8314e41d21bef1">  289</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_MEMFAULTACT                   (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment">/* --- SCB_CFSR values ----------------------------------------------------- */</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="comment">/* Bits [31:26]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="comment">/* DIVBYZERO: Divide by zero usage fault */</span></div>
-<div class="line"><a name="l00295"></a><span class="lineno"><a class="code" href="scb_8h.html#ab9ae7e5d5a7432cfd436d2e09a3dab84">  295</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_DIVBYZERO                      (1 &lt;&lt; 25)</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="preprocessor"></span><span class="comment">/* UNALIGNED: Unaligned access usage fault */</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno"><a class="code" href="scb_8h.html#af8f4e8e6fa2c0a706df0dd0d167cfe10">  297</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_UNALIGNED                      (1 &lt;&lt; 24)</span></div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [23:20]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="comment">/* NOCP: No coprocessor usage fault */</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno"><a class="code" href="scb_8h.html#afc890a270e6baf8bb6c76ca81d70236d">  300</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_NOCP                           (1 &lt;&lt; 19)</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor"></span><span class="comment">/* INVPC: Invalid PC load usage fault */</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno"><a class="code" href="scb_8h.html#aced0c08c35b56d5b9b2c2c2bed7b869b">  302</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_INVPC                          (1 &lt;&lt; 18)</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor"></span><span class="comment">/* INVSTATE: Invalid state usage fault */</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno"><a class="code" href="scb_8h.html#a93d1d5e9fda7e579adf017c6e1fd391c">  304</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_INVSTATE                       (1 &lt;&lt; 17)</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor"></span><span class="comment">/* UNDEFINSTR: Undefined instruction usage fault */</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno"><a class="code" href="scb_8h.html#afb585bfb9849d490ca5a9c5309e15d92">  306</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_UNDEFINSTR                     (1 &lt;&lt; 16)</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor"></span><span class="comment">/* BFARVALID: Bus Fault Address Register (BFAR) valid flag */</span></div>
-<div class="line"><a name="l00308"></a><span class="lineno"><a class="code" href="scb_8h.html#ab98e5207b4666912c14d8d025fd945e9">  308</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_BFARVALID                      (1 &lt;&lt; 15)</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [14:13]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="comment">/* STKERR: Bus fault on stacking for exception entry */</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno"><a class="code" href="scb_8h.html#a923371d7146ba7049580ade8ade972b7">  311</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_STKERR                         (1 &lt;&lt; 12)</span></div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="preprocessor"></span><span class="comment">/* UNSTKERR: Bus fault on unstacking for a return from exception */</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno"><a class="code" href="scb_8h.html#ac0d8bc67ad889cf6e7ae4f2f25add5fe">  313</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_UNSTKERR                       (1 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor"></span><span class="comment">/* IMPRECISERR: Imprecise data bus error */</span></div>
-<div class="line"><a name="l00315"></a><span class="lineno"><a class="code" href="scb_8h.html#ad2464f89eaba18baa6249586cc5b79b3">  315</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_IMPRECISERR                    (1 &lt;&lt; 10)</span></div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="preprocessor"></span><span class="comment">/* PRECISERR: Precise data bus error */</span></div>
-<div class="line"><a name="l00317"></a><span class="lineno"><a class="code" href="scb_8h.html#a5eaebb9d9bc21b989cd725c6e6f15803">  317</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_PRECISERR                      (1 &lt;&lt; 9)</span></div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="preprocessor"></span><span class="comment">/* IBUSERR: Instruction bus error */</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno"><a class="code" href="scb_8h.html#a378bbf2518753b08a0c179c2e268dc50">  319</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_IBUSERR                        (1 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="preprocessor"></span><span class="comment">/* MMARVALID: Memory Management Fault Address Register (MMAR) valid flag */</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno"><a class="code" href="scb_8h.html#aa36c9f483ec60455b3b1c26ea982e214">  321</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_MMARVALID                      (1 &lt;&lt; 7)</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [6:5]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment">/* MSTKERR: Memory manager fault on stacking for exception entry */</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno"><a class="code" href="scb_8h.html#a4b1e442beded4c10598ed3004e8189cb">  324</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_MSTKERR                        (1 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor"></span><span class="comment">/* MUNSTKERR: Memory manager fault on unstacking for a return from exception */</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno"><a class="code" href="scb_8h.html#a5332dd0529939aff8423098fa15ad0dc">  326</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_MUNSTKERR                      (1 &lt;&lt; 3)</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 2: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment">/* DACCVIOL: Data access violation flag */</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno"><a class="code" href="scb_8h.html#a9f410df03c7f484fabaa4119abd9746d">  329</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_DACCVIOL                       (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor"></span><span class="comment">/* IACCVIOL: Instruction access violation flag */</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno"><a class="code" href="scb_8h.html#afc88b5969d2dbb51bf897110d3cc0242">  331</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_IACCVIOL                       (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="comment">/* --- SCB_HFSR values ----------------------------------------------------- */</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="comment">/* DEBUG_VT: reserved for debug use */</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno"><a class="code" href="scb_8h.html#a7e0175b83b042650f12a013e5d938e68">  336</a></span>&#160;<span class="preprocessor">#define SCB_HFSR_DEBUG_VT                       (1 &lt;&lt; 31)</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor"></span><span class="comment">/* FORCED: Forced hard fault */</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno"><a class="code" href="scb_8h.html#ac83ebdcd8f8eb57b964e6f7d28836a93">  338</a></span>&#160;<span class="preprocessor">#define SCB_HFSR_FORCED                         (1 &lt;&lt; 30)</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [29:2]: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="comment">/* VECTTBL: Vector table hard fault */</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno"><a class="code" href="scb_8h.html#a3027c1edb7f5348120c336517b1c5981">  341</a></span>&#160;<span class="preprocessor">#define SCB_HFSR_VECTTBL                        (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 0: reserved - must be kept cleared */</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="comment">/* --- SCB_MMFAR values ---------------------------------------------------- */</span></div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="comment">/* MMFAR [31:0]: Memory management fault address */</span></div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="comment">/* --- SCB_BFAR values ----------------------------------------------------- */</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;<span class="comment">/* BFAR [31:0]: Bus fault address */</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<span class="comment">/* --- SCB_CPACR values ---------------------------------------------------- */</span></div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="comment">/* CPACR CPn: Access privileges values */</span></div>
-<div class="line"><a name="l00355"></a><span class="lineno"><a class="code" href="scb_8h.html#af029d69dee41120fcf700760ceaf33ec">  355</a></span>&#160;<span class="preprocessor">#define SCB_CPACR_NONE                  0       </span><span class="comment">/* Access denied */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00356"></a><span class="lineno"><a class="code" href="scb_8h.html#a0fd5eb37faf0640ef0d3214a5445047f">  356</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_CPACR_PRIV                  1       </span><span class="comment">/* Privileged access only */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00357"></a><span class="lineno"><a class="code" href="scb_8h.html#a84ee577a698d3f204d6bfb1376982418">  357</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_CPACR_FULL                  3       </span><span class="comment">/* Full access */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="comment">/* CPACR [20:21]: Access privileges for coprocessor 10 */</span></div>
-<div class="line"><a name="l00360"></a><span class="lineno"><a class="code" href="scb_8h.html#a5c9b93f33d757549cba83cd6816a8c28">  360</a></span>&#160;<span class="preprocessor">#define SCB_CPACR_CP10                  (1 &lt;&lt; 20)</span></div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="preprocessor"></span><span class="comment">/* CPACR [22:23]: Access privileges for coprocessor 11 */</span></div>
-<div class="line"><a name="l00362"></a><span class="lineno"><a class="code" href="scb_8h.html#af3ff3fc901f6b4e608e2084e61125daf">  362</a></span>&#160;<span class="preprocessor">#define SCB_CPACR_CP11                  (1 &lt;&lt; 22)</span></div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="comment">/* --- SCB functions ------------------------------------------------------- */</span></div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<a class="code" href="common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;</div>
-<div class="line"><a name="l00368"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html">  368</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structscb__exception__stack__frame.html">scb_exception_stack_frame</a> {</div>
-<div class="line"><a name="l00369"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a18e0eb119e02ac5e8d79c24d0989441e">  369</a></span>&#160;        <a class="code" href="common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="structscb__exception__stack__frame.html#a18e0eb119e02ac5e8d79c24d0989441e">r0</a>;</div>
-<div class="line"><a name="l00370"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a693f4634524e0310b5df29445430f81b">  370</a></span>&#160;        <a class="code" href="common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="structscb__exception__stack__frame.html#a693f4634524e0310b5df29445430f81b">r1</a>;</div>
-<div class="line"><a name="l00371"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#af05aed409686f5fe6890f6403b29935c">  371</a></span>&#160;        <a class="code" href="common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="structscb__exception__stack__frame.html#af05aed409686f5fe6890f6403b29935c">r2</a>;</div>
-<div class="line"><a name="l00372"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a98b1085fff8645a87c6186f031a5067a">  372</a></span>&#160;        <a class="code" href="common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="structscb__exception__stack__frame.html#a98b1085fff8645a87c6186f031a5067a">r3</a>;</div>
-<div class="line"><a name="l00373"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a0a94427f260d232306e7fbeffee543cb">  373</a></span>&#160;        <a class="code" href="common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="structscb__exception__stack__frame.html#a0a94427f260d232306e7fbeffee543cb">r12</a>;</div>
-<div class="line"><a name="l00374"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a2c0564ce9d892ae6ed3dfbc8264b9a07">  374</a></span>&#160;        <a class="code" href="common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="structscb__exception__stack__frame.html#a2c0564ce9d892ae6ed3dfbc8264b9a07">lr</a>;</div>
-<div class="line"><a name="l00375"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#ace9870e73f3bae8222b1daf9b73eca21">  375</a></span>&#160;        <a class="code" href="common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="structscb__exception__stack__frame.html#ace9870e73f3bae8222b1daf9b73eca21">pc</a>;</div>
-<div class="line"><a name="l00376"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a4b83499b78da9f6d7f4ac795476349d1">  376</a></span>&#160;        <a class="code" href="common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="structscb__exception__stack__frame.html#a4b83499b78da9f6d7f4ac795476349d1">xpsr</a>;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;} __attribute__((packed));</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
-<div class="line"><a name="l00379"></a><span class="lineno"><a class="code" href="scb_8h.html#a0cc5fd2659edd23ae8abb4f4be7263ac">  379</a></span>&#160;<span class="preprocessor">#define SCB_GET_EXCEPTION_STACK_FRAME(f)                                \</span></div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="preprocessor">        do {                                                            \</span></div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="preprocessor">                asm volatile (&quot;mov %[frameptr], sp&quot;                     \</span></div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="preprocessor">                              : [frameptr]&quot;=r&quot; (f));                    \</span></div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;<span class="preprocessor">        } while (0)</span></div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="keywordtype">void</span> <a class="code" href="scb_8h.html#a8425a250161ee83d6aa8b38c5c3fb4a4">scb_reset_core</a>(<span class="keywordtype">void</span>) __attribute__((noreturn, naked));</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<span class="keywordtype">void</span> <a class="code" href="scb_8h.html#aad4d08be4e2b209f97d3276b7c7731e6">scb_reset_system</a>(<span class="keywordtype">void</span>) __attribute__((noreturn, naked));</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;<span class="keywordtype">void</span> <a class="code" href="scb_8h.html#a0e97a2ebc013118cb220542999db3d8b">scb_set_priority_grouping</a>(<a class="code" href="common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> prigroup);</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;<span class="comment">/* TODO: */</span></div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;<a class="code" href="common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment">/* inconsistent datasheet - LSB could be 11 */</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="code" href="scb_8h.html#a1cc0ca066d04fe66a4b5f6f1795f99f1">  177</a></span>&#160;<span class="preprocessor">#define SCB_VTOR_TBLOFF_LSB                     9</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="comment">/* --- SCB_AIRCR values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="comment">/* VECTKEYSTAT[31:16]/ VECTKEY[31:16] Register key */</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="code" href="scb_8h.html#a74ce167fa84d1dc80c497279e981f560">  182</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_VECTKEYSTAT_LSB               16</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno"><a class="code" href="scb_8h.html#ae9c09346491834693c481c5d5a20886d">  183</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_VECTKEY                       0x05FA0000</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="preprocessor"></span><span class="comment">/* ENDIANESS Data endianness bit */</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno"><a class="code" href="scb_8h.html#ade5876f1c12d6322a188b09efe77f69d">  185</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_ENDIANESS                     (1 &lt;&lt; 15)</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [14:11]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="comment">/* PRIGROUP[10:8]: Interrupt priority grouping field */</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno"><a class="code" href="scb_8h.html#a65a827fd5c10f051ebd5f63580cd7692">  188</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_PRIGROUP_GROUP16_NOSUB        (0x3 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno"><a class="code" href="scb_8h.html#a7bd9cb7cca87a5021b89d51881c6a6ee">  189</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_GROUP8_SUB2          (0x4 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno"><a class="code" href="scb_8h.html#a9c6b8c975b56eb9f9a3c1f9895a65dfc">  190</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_GROUP4_SUB4          (0x5 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno"><a class="code" href="scb_8h.html#a902210002a97dd547757a9fd4c9f7eb6">  191</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_GROUP2_SUB8          (0x6 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="code" href="scb_8h.html#afce39c37a9e5c25abea0d3ab2de79a0e">  192</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_NOGROUP_SUB16        (0x7 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno"><a class="code" href="scb_8h.html#a4fda9c879425b15aae24d451ad3ba208">  193</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_MASK                 (0x7 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno"><a class="code" href="scb_8h.html#a9dc62ab5e1be9158658945f9887a9550">  194</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_AIRCR_PRIGROUP_SHIFT                8</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [7:3]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="comment">/* SYSRESETREQ System reset request */</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="code" href="scb_8h.html#a86c65d10100e2fb5fdcf826b2573b5d8">  197</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_SYSRESETREQ                   (1 &lt;&lt; 2)</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="preprocessor"></span><span class="comment">/* VECTCLRACTIVE */</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno"><a class="code" href="scb_8h.html#ae3d9b3c94c860a0b0b038285ca817fd3">  199</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_VECTCLRACTIVE                 (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="preprocessor"></span><span class="comment">/* VECTRESET */</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno"><a class="code" href="scb_8h.html#aec31f9ed3b476e1ec623b0d89df51280">  201</a></span>&#160;<span class="preprocessor">#define SCB_AIRCR_VECTRESET                     (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="comment">/* --- SCB_SCR values ------------------------------------------------------ */</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="comment">/* Bits [31:5]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="comment">/* SEVEONPEND Send Event on Pending bit */</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno"><a class="code" href="scb_8h.html#a01af8b70a406fa303e76bb5f2f916f63">  207</a></span>&#160;<span class="preprocessor">#define SCB_SCR_SEVEONPEND                      (1 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 3: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="comment">/* SLEEPDEEP */</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno"><a class="code" href="scb_8h.html#ac4f4f02bfc91aef800b88fa58329cb92">  210</a></span>&#160;<span class="preprocessor">#define SCB_SCR_SLEEPDEEP                       (1 &lt;&lt; 2)</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor"></span><span class="comment">/* SLEEPONEXIT */</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno"><a class="code" href="scb_8h.html#aef484612839a04567ebaeeb57ca0b015">  212</a></span>&#160;<span class="preprocessor">#define SCB_SCR_SLEEPONEXIT                     (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 0: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;<span class="comment">/* --- SCB_CCR values ------------------------------------------------------ */</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="comment">/* Bits [31:10]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="comment">/* STKALIGN */</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno"><a class="code" href="scb_8h.html#a8c71d4e534d7d822ce32c3dec82bebd9">  219</a></span>&#160;<span class="preprocessor">#define SCB_CCR_STKALIGN                        (1 &lt;&lt; 9)</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="preprocessor"></span><span class="comment">/* BFHFNMIGN */</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno"><a class="code" href="scb_8h.html#a985f7560606f6e257a8b2bc2671ed33d">  221</a></span>&#160;<span class="preprocessor">#define SCB_CCR_BFHFNMIGN                       (1 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [7:5]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="comment">/* DIV_0_TRP */</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno"><a class="code" href="scb_8h.html#a9a1ca0625d0b4b5be3c4332258c28ec4">  224</a></span>&#160;<span class="preprocessor">#define SCB_CCR_DIV_0_TRP                       (1 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="preprocessor"></span><span class="comment">/* UNALIGN_TRP */</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno"><a class="code" href="scb_8h.html#a6a075d1f9722f6972ed1a98305e24cf9">  226</a></span>&#160;<span class="preprocessor">#define SCB_CCR_UNALIGN_TRP                     (1 &lt;&lt; 3)</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 2: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="comment">/* USERSETMPEND */</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno"><a class="code" href="scb_8h.html#a7f3eb65ed64479d1c4223b69be60a786">  229</a></span>&#160;<span class="preprocessor">#define SCB_CCR_USERSETMPEND                    (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="preprocessor"></span><span class="comment">/* NONBASETHRDENA */</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno"><a class="code" href="scb_8h.html#a737bd09d6c94b325cfe96733585ee307">  231</a></span>&#160;<span class="preprocessor">#define SCB_CCR_NONBASETHRDENA                  (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="comment">/* --- SCB_SHPR1 values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="comment">/* Bits [31:24]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="comment">/* PRI_6[23:16]: Priority of system handler 6, usage fault */</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno"><a class="code" href="scb_8h.html#a4e69a475562d679d080c6600a35498ff">  237</a></span>&#160;<span class="preprocessor">#define SCB_SHPR1_PRI_6_LSB                     16</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor"></span><span class="comment">/* PRI_5[15:8]: Priority of system handler 5, bus fault */</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno"><a class="code" href="scb_8h.html#a242d6f4ce14633b5a8e0299de837fe9d">  239</a></span>&#160;<span class="preprocessor">#define SCB_SHPR1_PRI_5_LSB                     8</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="preprocessor"></span><span class="comment">/* PRI_4[7:0]: Priority of system handler 4, memory management fault */</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno"><a class="code" href="scb_8h.html#ade7ff15b26c19b3243887fed7cbe17f4">  241</a></span>&#160;<span class="preprocessor">#define SCB_SHPR1_PRI_4_LSB                     0</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment">/* --- SCB_SHPR2 values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment">/* PRI_11[31:24]: Priority of system handler 11, SVCall */</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="code" href="scb_8h.html#a6768bf98a5c8a484bf4cf5ecd7a1e45c">  246</a></span>&#160;<span class="preprocessor">#define SCB_SHPR2_PRI_11_LSB                    24</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [23:0]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="comment">/* --- SCB_SHPR3 values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment">/* PRI_15[31:24]: Priority of system handler 15, SysTick exception */</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno"><a class="code" href="scb_8h.html#a349a836be339cfba1f1bb532d1d426e5">  252</a></span>&#160;<span class="preprocessor">#define SCB_SHPR3_PRI_15_LSB                    24</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor"></span><span class="comment">/* PRI_14[23:16]: Priority of system handler 14, PendSV */</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno"><a class="code" href="scb_8h.html#a7bb765d591d70bcc7bb54b6b78a987c0">  254</a></span>&#160;<span class="preprocessor">#define SCB_SHPR3_PRI_14_LSB                    16</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [15:0]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment">/* --- SCB_SHCSR values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment">/* Bits [31:19]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="comment">/* USGFAULTENA: Usage fault enable */</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno"><a class="code" href="scb_8h.html#a5cc5ea368212d871d8fce47fee90527a">  261</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_USGFAULTENA                   (1 &lt;&lt; 18)</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor"></span><span class="comment">/* BUSFAULTENA: Bus fault enable */</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno"><a class="code" href="scb_8h.html#a213b425d7d1da3cbaf977d90dc29297d">  263</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_BUSFAULTENA                   (1 &lt;&lt; 17)</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="preprocessor"></span><span class="comment">/* MEMFAULTENA: Memory management fault enable */</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno"><a class="code" href="scb_8h.html#ac2465518e8ed884599f6b882f27ee6f0">  265</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_MEMFAULTENA                   (1 &lt;&lt; 16)</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor"></span><span class="comment">/* SVCALLPENDED: SVC call pending */</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno"><a class="code" href="scb_8h.html#a1300357a6f3ff42e08be39ed6dbfea73">  267</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_SVCALLPENDED                  (1 &lt;&lt; 15)</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor"></span><span class="comment">/* BUSFAULTPENDED: Bus fault exception pending */</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno"><a class="code" href="scb_8h.html#a5c2813665d25281e4777600f0cbdc99c">  269</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_BUSFAULTPENDED                (1 &lt;&lt; 14)</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor"></span><span class="comment">/* MEMFAULTPENDED: Memory management fault exception pending */</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno"><a class="code" href="scb_8h.html#afac0c649448a364c53b212ba515e433d">  271</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_MEMFAULTPENDED                (1 &lt;&lt; 13)</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor"></span><span class="comment">/* USGFAULTPENDED: Usage fault exception pending */</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno"><a class="code" href="scb_8h.html#a5d4a7079ca06fdca02ebe45cd6432cd0">  273</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_USGFAULTPENDED                (1 &lt;&lt; 12)</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor"></span><span class="comment">/* SYSTICKACT: SysTick exception active */</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno"><a class="code" href="scb_8h.html#a2f474b85e95da35c9ee1f59d3e3ffbdb">  275</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_SYSTICKACT                    (1 &lt;&lt; 11)</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor"></span><span class="comment">/* PENDSVACT: PendSV exception active */</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno"><a class="code" href="scb_8h.html#ae5ce384582328f1a9d38466239e03017">  277</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_PENDSVACT                     (1 &lt;&lt; 10)</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 9: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="comment">/* MONITORACT: Debug monitor active */</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno"><a class="code" href="scb_8h.html#a9d926840743a22c4ff50db650b2a0d75">  280</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_MONITORACT                    (1 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor"></span><span class="comment">/* SVCALLACT: SVC call active */</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno"><a class="code" href="scb_8h.html#a395ad78789946e84ddbb0a91a575331d">  282</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_SVCALLACT                     (1 &lt;&lt; 7)</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [6:4]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment">/* USGFAULTACT: Usage fault exception active */</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno"><a class="code" href="scb_8h.html#ab6121f12dfa519ab80357d2389830990">  285</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_USGFAULTACT                   (1 &lt;&lt; 3)</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 2: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="comment">/* BUSFAULTACT: Bus fault exception active */</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno"><a class="code" href="scb_8h.html#a22a35f7e2e94c192befb04bab6976598">  288</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_BUSFAULTACT                   (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor"></span><span class="comment">/* MEMFAULTACT: Memory management fault exception active */</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno"><a class="code" href="scb_8h.html#af7e9f142e8f310010b8314e41d21bef1">  290</a></span>&#160;<span class="preprocessor">#define SCB_SHCSR_MEMFAULTACT                   (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment">/* --- SCB_CFSR values ----------------------------------------------------- */</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="comment">/* Bits [31:26]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="comment">/* DIVBYZERO: Divide by zero usage fault */</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno"><a class="code" href="scb_8h.html#ab9ae7e5d5a7432cfd436d2e09a3dab84">  296</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_DIVBYZERO                      (1 &lt;&lt; 25)</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor"></span><span class="comment">/* UNALIGNED: Unaligned access usage fault */</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno"><a class="code" href="scb_8h.html#af8f4e8e6fa2c0a706df0dd0d167cfe10">  298</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_UNALIGNED                      (1 &lt;&lt; 24)</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [23:20]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="comment">/* NOCP: No coprocessor usage fault */</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno"><a class="code" href="scb_8h.html#afc890a270e6baf8bb6c76ca81d70236d">  301</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_NOCP                           (1 &lt;&lt; 19)</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor"></span><span class="comment">/* INVPC: Invalid PC load usage fault */</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno"><a class="code" href="scb_8h.html#aced0c08c35b56d5b9b2c2c2bed7b869b">  303</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_INVPC                          (1 &lt;&lt; 18)</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor"></span><span class="comment">/* INVSTATE: Invalid state usage fault */</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno"><a class="code" href="scb_8h.html#a93d1d5e9fda7e579adf017c6e1fd391c">  305</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_INVSTATE                       (1 &lt;&lt; 17)</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="preprocessor"></span><span class="comment">/* UNDEFINSTR: Undefined instruction usage fault */</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno"><a class="code" href="scb_8h.html#afb585bfb9849d490ca5a9c5309e15d92">  307</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_UNDEFINSTR                     (1 &lt;&lt; 16)</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="preprocessor"></span><span class="comment">/* BFARVALID: Bus Fault Address Register (BFAR) valid flag */</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno"><a class="code" href="scb_8h.html#ab98e5207b4666912c14d8d025fd945e9">  309</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_BFARVALID                      (1 &lt;&lt; 15)</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [14:13]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="comment">/* STKERR: Bus fault on stacking for exception entry */</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno"><a class="code" href="scb_8h.html#a923371d7146ba7049580ade8ade972b7">  312</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_STKERR                         (1 &lt;&lt; 12)</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor"></span><span class="comment">/* UNSTKERR: Bus fault on unstacking for a return from exception */</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="code" href="scb_8h.html#ac0d8bc67ad889cf6e7ae4f2f25add5fe">  314</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_UNSTKERR                       (1 &lt;&lt; 11)</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="preprocessor"></span><span class="comment">/* IMPRECISERR: Imprecise data bus error */</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno"><a class="code" href="scb_8h.html#ad2464f89eaba18baa6249586cc5b79b3">  316</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_IMPRECISERR                    (1 &lt;&lt; 10)</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor"></span><span class="comment">/* PRECISERR: Precise data bus error */</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno"><a class="code" href="scb_8h.html#a5eaebb9d9bc21b989cd725c6e6f15803">  318</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_PRECISERR                      (1 &lt;&lt; 9)</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="preprocessor"></span><span class="comment">/* IBUSERR: Instruction bus error */</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno"><a class="code" href="scb_8h.html#a378bbf2518753b08a0c179c2e268dc50">  320</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_IBUSERR                        (1 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor"></span><span class="comment">/* MMARVALID: Memory Management Fault Address Register (MMAR) valid flag */</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno"><a class="code" href="scb_8h.html#aa36c9f483ec60455b3b1c26ea982e214">  322</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_MMARVALID                      (1 &lt;&lt; 7)</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [6:5]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="comment">/* MSTKERR: Memory manager fault on stacking for exception entry */</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno"><a class="code" href="scb_8h.html#a4b1e442beded4c10598ed3004e8189cb">  325</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_MSTKERR                        (1 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="preprocessor"></span><span class="comment">/* MUNSTKERR: Memory manager fault on unstacking for a return from exception */</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno"><a class="code" href="scb_8h.html#a5332dd0529939aff8423098fa15ad0dc">  327</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_MUNSTKERR                      (1 &lt;&lt; 3)</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 2: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment">/* DACCVIOL: Data access violation flag */</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno"><a class="code" href="scb_8h.html#a9f410df03c7f484fabaa4119abd9746d">  330</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_DACCVIOL                       (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="preprocessor"></span><span class="comment">/* IACCVIOL: Instruction access violation flag */</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno"><a class="code" href="scb_8h.html#afc88b5969d2dbb51bf897110d3cc0242">  332</a></span>&#160;<span class="preprocessor">#define SCB_CFSR_IACCVIOL                       (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="comment">/* --- SCB_HFSR values ----------------------------------------------------- */</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="comment">/* DEBUG_VT: reserved for debug use */</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno"><a class="code" href="scb_8h.html#a7e0175b83b042650f12a013e5d938e68">  337</a></span>&#160;<span class="preprocessor">#define SCB_HFSR_DEBUG_VT                       (1 &lt;&lt; 31)</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor"></span><span class="comment">/* FORCED: Forced hard fault */</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno"><a class="code" href="scb_8h.html#ac83ebdcd8f8eb57b964e6f7d28836a93">  339</a></span>&#160;<span class="preprocessor">#define SCB_HFSR_FORCED                         (1 &lt;&lt; 30)</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [29:2]: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="comment">/* VECTTBL: Vector table hard fault */</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno"><a class="code" href="scb_8h.html#a3027c1edb7f5348120c336517b1c5981">  342</a></span>&#160;<span class="preprocessor">#define SCB_HFSR_VECTTBL                        (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bit 0: reserved - must be kept cleared */</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="comment">/* --- SCB_MMFAR values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="comment">/* MMFAR [31:0]: Memory management fault address */</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="comment">/* --- SCB_BFAR values ----------------------------------------------------- */</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<span class="comment">/* BFAR [31:0]: Bus fault address */</span></div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="comment">/* --- SCB_CPACR values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="comment">/* CPACR CPn: Access privileges values */</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno"><a class="code" href="scb_8h.html#af029d69dee41120fcf700760ceaf33ec">  356</a></span>&#160;<span class="preprocessor">#define SCB_CPACR_NONE                  0       </span><span class="comment">/* Access denied */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00357"></a><span class="lineno"><a class="code" href="scb_8h.html#a0fd5eb37faf0640ef0d3214a5445047f">  357</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_CPACR_PRIV                  1       </span><span class="comment">/* Privileged access only */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00358"></a><span class="lineno"><a class="code" href="scb_8h.html#a84ee577a698d3f204d6bfb1376982418">  358</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SCB_CPACR_FULL                  3       </span><span class="comment">/* Full access */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<span class="comment">/* CPACR [20:21]: Access privileges for coprocessor 10 */</span></div>
+<div class="line"><a name="l00361"></a><span class="lineno"><a class="code" href="scb_8h.html#a5c9b93f33d757549cba83cd6816a8c28">  361</a></span>&#160;<span class="preprocessor">#define SCB_CPACR_CP10                  (1 &lt;&lt; 20)</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="preprocessor"></span><span class="comment">/* CPACR [22:23]: Access privileges for coprocessor 11 */</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno"><a class="code" href="scb_8h.html#af3ff3fc901f6b4e608e2084e61125daf">  363</a></span>&#160;<span class="preprocessor">#define SCB_CPACR_CP11                  (1 &lt;&lt; 22)</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<span class="comment">/* --- SCB functions ------------------------------------------------------- */</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;<a class="code" href="common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
+<div class="line"><a name="l00369"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html">  369</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structscb__exception__stack__frame.html">scb_exception_stack_frame</a> {</div>
+<div class="line"><a name="l00370"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#ae7ebc5fa67cc65d5039f8f978e3a2062">  370</a></span>&#160;        uint32_t <a class="code" href="structscb__exception__stack__frame.html#ae7ebc5fa67cc65d5039f8f978e3a2062">r0</a>;</div>
+<div class="line"><a name="l00371"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a9fea68a34dc0a9d385390205092162e9">  371</a></span>&#160;        uint32_t <a class="code" href="structscb__exception__stack__frame.html#a9fea68a34dc0a9d385390205092162e9">r1</a>;</div>
+<div class="line"><a name="l00372"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#ac38c8c267ebaa36b9e8114e0c8da6b33">  372</a></span>&#160;        uint32_t <a class="code" href="structscb__exception__stack__frame.html#ac38c8c267ebaa36b9e8114e0c8da6b33">r2</a>;</div>
+<div class="line"><a name="l00373"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a974713f74276b9c27efaf8dd8e066784">  373</a></span>&#160;        uint32_t <a class="code" href="structscb__exception__stack__frame.html#a974713f74276b9c27efaf8dd8e066784">r3</a>;</div>
+<div class="line"><a name="l00374"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a0e6126588086c406b720b3961bda7311">  374</a></span>&#160;        uint32_t <a class="code" href="structscb__exception__stack__frame.html#a0e6126588086c406b720b3961bda7311">r12</a>;</div>
+<div class="line"><a name="l00375"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#ac66306df89b575b3c3ae413f89211d8d">  375</a></span>&#160;        uint32_t <a class="code" href="structscb__exception__stack__frame.html#ac66306df89b575b3c3ae413f89211d8d">lr</a>;</div>
+<div class="line"><a name="l00376"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a44ebd35215d8e75f0154f26cc14165bc">  376</a></span>&#160;        uint32_t <a class="code" href="structscb__exception__stack__frame.html#a44ebd35215d8e75f0154f26cc14165bc">pc</a>;</div>
+<div class="line"><a name="l00377"></a><span class="lineno"><a class="code" href="structscb__exception__stack__frame.html#a2e6e69032909f740145d93bac2fec49b">  377</a></span>&#160;        uint32_t <a class="code" href="structscb__exception__stack__frame.html#a2e6e69032909f740145d93bac2fec49b">xpsr</a>;</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;} __attribute__((packed));</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;</div>
+<div class="line"><a name="l00380"></a><span class="lineno"><a class="code" href="scb_8h.html#a0cc5fd2659edd23ae8abb4f4be7263ac">  380</a></span>&#160;<span class="preprocessor">#define SCB_GET_EXCEPTION_STACK_FRAME(f)                                \</span></div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="preprocessor">        do {                                                            \</span></div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="preprocessor">                asm volatile (&quot;mov %[frameptr], sp&quot;                     \</span></div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;<span class="preprocessor">                              : [frameptr]&quot;=r&quot; (f));                    \</span></div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;<span class="preprocessor">        } while (0)</span></div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<span class="keywordtype">void</span> <a class="code" href="scb_8h.html#a8425a250161ee83d6aa8b38c5c3fb4a4">scb_reset_core</a>(<span class="keywordtype">void</span>) __attribute__((noreturn, naked));</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;<span class="keywordtype">void</span> <a class="code" href="scb_8h.html#aad4d08be4e2b209f97d3276b7c7731e6">scb_reset_system</a>(<span class="keywordtype">void</span>) __attribute__((noreturn, naked));</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;<span class="keywordtype">void</span> <a class="code" href="scb_8h.html#a1c1ccff67eb7696c04e59ab4f9c0a2ab">scb_set_priority_grouping</a>(uint32_t prigroup);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;<span class="comment">/* TODO: */</span></div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;<a class="code" href="common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="scb_8h.html">scb.h</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:09 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:07 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

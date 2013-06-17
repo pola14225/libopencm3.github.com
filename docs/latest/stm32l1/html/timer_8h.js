@@ -9,5 +9,5 @@ var timer_8h =
     [ "TIM3_OR_ITR2_RMP_PTP", "timer_8h.html#ga78dabbfa772e50b993545d3ddce6a140", null ],
     [ "TIM3_OR_ITR2_RMP_TIM8_TRGOU", "timer_8h.html#ga0d81dfdef6920c9c42d69c8f8daa807b", null ],
     [ "TIM_OR", "timer_8h.html#a771caff3f9ee766b27e3658e24629d58", null ],
-    [ "timer_set_option", "timer_8h.html#ga5be6e15edbb1bbf01c81644def269fee", null ]
+    [ "timer_set_option", "timer_8h.html#gaba637f20873990bcd2349c6845d07d2b", null ]
 ];

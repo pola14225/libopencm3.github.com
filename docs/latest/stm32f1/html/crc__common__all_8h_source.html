@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('crc__common__all_8h_source.html','');}
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/* THIS FILE SHOULD NOT BE INCLUDED DIRECTLY, BUT ONLY VIA CRC.H </span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/* THIS FILE SHOULD NOT BE INCLUDED DIRECTLY, BUT ONLY VIA CRC.H</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">The order of header inclusion is important. crc.h includes the device</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">specific memorymap.h header before including this header file.*/</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"></span></div>
@@ -197,11 +197,11 @@ $(document).ready(function(){initNavTree('crc__common__all_8h_source.html','');}
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__crc__file.html#ga9b1b3754c7aac60163254b184f993501" title="CRC Reset.">crc_reset</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment"> * Add a word to the crc calculator and return the result.</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment"> * @param data new word to add to the crc calculator</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment"> * @return final crc calculator value</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment"> * Add a word to the CRC calculator and return the result.</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment"> * @param data new word to add to the CRC calculator</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment"> * @return final CRC calculator value</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="group__crc__file.html#gadd37c58ab37425dcd78e0f23b5fd5db2" title="CRC Calculate.">crc_calculate</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> data);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;uint32_t <a class="code" href="group__crc__file.html#gabd1ee47183330de057df47d4aab2fc74" title="CRC Calculate.">crc_calculate</a>(uint32_t data);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/**</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment"> * Add a block of data to the CRC calculator and return the final result</span></div>
@@ -209,7 +209,7 @@ $(document).ready(function(){initNavTree('crc__common__all_8h_source.html','');}
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment"> * @param size length of data, in 32bit increments</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment"> * @return final CRC calculator value</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="group__crc__file.html#ga0508527cd6e9a236c8e1733dff867d5e" title="CRC Calculate of a Block of Data.">crc_calculate_block</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> *datap, <span class="keywordtype">int</span> size);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;uint32_t <a class="code" href="group__crc__file.html#ga88a426790ad1ae4a43a6019cdb247220" title="CRC Calculate of a Block of Data.">crc_calculate_block</a>(uint32_t *datap, <span class="keywordtype">int</span> size);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment"></span></div>
@@ -228,7 +228,7 @@ $(document).ready(function(){initNavTree('crc__common__all_8h_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="crc__common__all_8h.html">crc_common_all.h</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:16 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

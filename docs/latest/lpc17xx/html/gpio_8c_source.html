@@ -154,12 +154,12 @@ $(document).ready(function(){initNavTree('gpio_8c_source.html','');});
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="gpio_8h.html">libopencm3/lpc17xx/gpio.h</a>&gt;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="group__gpio__file.html#gae31f1b37eb4ad8b41538b2797a9fe2e3">   37</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga05afc3b495268d8dd26aec3ec0f4301b">gpio_set</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpios)</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="group__gpio__file.html#ga337dd6d11654653c466fc76b146727bf">   37</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga0d59176f466c98b5a902bee27f20caf1">gpio_set</a>(uint32_t gpioport, uint32_t gpios)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        GPIO_SET(gpioport) = gpios;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="group__gpio__file.html#ga29ffb563ecb14ca058d05f9f22383b19">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga29ffb563ecb14ca058d05f9f22383b19">gpio_clear</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpios)</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="group__gpio__file.html#gab84d6793fa4dc0c81a522c1cd47c1b7b">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gab84d6793fa4dc0c81a522c1cd47c1b7b">gpio_clear</a>(uint32_t gpioport, uint32_t gpios)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        GPIO_CLR(gpioport) = gpios;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
@@ -172,7 +172,7 @@ $(document).ready(function(){initNavTree('gpio_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_f9dfdb53076d236e85e20774ccbdc816.html">lpc17xx</a></li><li class="navelem"><a class="el" href="gpio_8c.html">gpio.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:33 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:32 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

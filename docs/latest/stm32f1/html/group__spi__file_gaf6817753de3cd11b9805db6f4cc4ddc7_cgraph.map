@@ -1,4 +1,0 @@
-<map id="spi_reset" name="spi_reset">
-<area shape="rect" id="node3" href="$group__STM32F1xx__rcc__defines.html#ga6f657d65ef6704cf3fdc8a78b0a042a8" title="RCC Remove Reset on Peripherals." alt="" coords="128,5,267,51"/>
-<area shape="rect" id="node5" href="$group__STM32F1xx__rcc__defines.html#ga076c5e84cf8bf9293559648e72b0a04f" title="RCC Reset Peripherals." alt="" coords="128,75,267,104"/>
-</map>

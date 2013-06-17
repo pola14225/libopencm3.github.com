@@ -1,8 +1,0 @@
-<map id="usbd_ep_write_packet" name="usbd_ep_write_packet">
-<area shape="rect" id="node3" href="$usb__private_8h.html#ada8135d73d89908812bfff48177201d5" title="_usbd_control_out" alt="" coords="637,5,765,35"/>
-<area shape="rect" id="node7" href="$group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="207,109,372,139"/>
-<area shape="rect" id="node9" href="$group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="421,57,581,87"/>
-<area shape="rect" id="node5" href="$group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a" title="Main initialization entry point." alt="" coords="821,59,896,88"/>
-<area shape="rect" id="node14" href="$usb__private_8h.html#a77bb9a74d9a1efb29421dbfca2de7e1b" title="_usbd_control_in" alt="" coords="441,111,561,140"/>
-<area shape="rect" id="node11" href="$usb__private_8h.html#a63064e4135fd6d9b91d8b0cff6389088" title="_usbd_control_setup" alt="" coords="631,59,772,88"/>
-</map>

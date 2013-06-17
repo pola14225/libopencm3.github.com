@@ -6,7 +6,7 @@ var searchData=
   ['adc_20resolution_2e',['ADC Resolution.',['../group__adc__cr1__res.html',1,'']]],
   ['adc_20delay_20between_202_20sampling_20phases',['ADC Delay between 2 sampling phases',['../group__adc__delay.html',1,'']]],
   ['adc_20dma_20mode_20for_20multi_20adc_20mode',['ADC DMA mode for multi ADC mode',['../group__adc__dma__mode.html',1,'']]],
-  ['adc_20number_20of_20channels_20in_20discontinuous_20mode_20fro_20injected_20channels_2e',['ADC Number of channels in discontinuous mode fro injected channels.',['../group__adc__jsqr__jl.html',1,'']]],
+  ['adc_20number_20of_20channels_20in_20discontinuous_20mode_20fro',['ADC Number of channels in discontinuous mode fro',['../group__adc__jsqr__jl.html',1,'']]],
   ['adc_20multi_20mode_20selection',['ADC Multi mode selection',['../group__adc__multi__mode.html',1,'']]],
   ['adc_20register_20base_20addresses',['ADC register base addresses',['../group__adc__reg__base.html',1,'']]],
   ['adc_20sample_20time_20selection_20for_20all_20channels',['ADC Sample Time Selection for All Channels',['../group__adc__sample__rg.html',1,'']]],

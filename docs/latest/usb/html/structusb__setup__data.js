@@ -1,8 +1,8 @@
 var structusb__setup__data =
 [
-    [ "bmRequestType", "structusb__setup__data.html#a923b886bbf162aa5328fc12743438950", null ],
-    [ "bRequest", "structusb__setup__data.html#ab6bb0f0a4d3c76090efcc9ce4b9ba693", null ],
-    [ "wIndex", "structusb__setup__data.html#aa1c3510315a2637ba42398847200eee0", null ],
-    [ "wLength", "structusb__setup__data.html#a6acf910eed9b981b29fe284927e79fb1", null ],
-    [ "wValue", "structusb__setup__data.html#a2ede8700fc5545a74e1212eae8e6ab7e", null ]
+    [ "bmRequestType", "structusb__setup__data.html#a593d22b430d1bd2f80a7c8795a4659fb", null ],
+    [ "bRequest", "structusb__setup__data.html#a30dbf7050fed7686bdf9a87c2dd1eb5c", null ],
+    [ "wIndex", "structusb__setup__data.html#a2ed7d2d64541da9f237a13435edd3f3a", null ],
+    [ "wLength", "structusb__setup__data.html#ae8dc4ecb24d13bb2ad31ab8b313fd3e2", null ],
+    [ "wValue", "structusb__setup__data.html#a8c0e8f7a6d919a7a05c93f6cf5b22b0b", null ]
 ];

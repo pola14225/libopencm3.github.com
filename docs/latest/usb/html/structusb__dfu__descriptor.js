@@ -1,9 +1,9 @@
 var structusb__dfu__descriptor =
 [
-    [ "bcdDFUVersion", "structusb__dfu__descriptor.html#a23abfafae6bfc0145f287688a0b97f80", null ],
-    [ "bDescriptorType", "structusb__dfu__descriptor.html#aa11b4ce65b51180e899a33e2ca2c20b3", null ],
-    [ "bLength", "structusb__dfu__descriptor.html#a065fb46774bc62a88e161fa1a88ab35a", null ],
-    [ "bmAttributes", "structusb__dfu__descriptor.html#a4bcd7b6065568a0699bec4574730b505", null ],
-    [ "wDetachTimeout", "structusb__dfu__descriptor.html#a51ba9e31a69a1f1d4ba1ceb78a5474d4", null ],
-    [ "wTransferSize", "structusb__dfu__descriptor.html#a8eeb220edc22b2a1cb47d55619c63785", null ]
+    [ "bcdDFUVersion", "structusb__dfu__descriptor.html#ac917f4ae3b4cda852e7e23a1378cc584", null ],
+    [ "bDescriptorType", "structusb__dfu__descriptor.html#a545d551fdf9612abab9679ad9092fe21", null ],
+    [ "bLength", "structusb__dfu__descriptor.html#aaae3ed6f5fc202453e5a295b25c391e0", null ],
+    [ "bmAttributes", "structusb__dfu__descriptor.html#a6eda776c2fa8ad9e92da5a9c0771c017", null ],
+    [ "wDetachTimeout", "structusb__dfu__descriptor.html#a1c30b936c3e7ab6d94cd14464394a818", null ],
+    [ "wTransferSize", "structusb__dfu__descriptor.html#a6f28ae6870039d8ba994a2aed1d6b8b9", null ]
 ];

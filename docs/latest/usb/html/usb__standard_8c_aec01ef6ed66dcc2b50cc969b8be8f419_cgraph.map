@@ -1,0 +1,5 @@
+<map id="_usbd_standard_request_interface" name="_usbd_standard_request_interface">
+<area shape="rect" id="node3" href="$group__usb__standard__file.html#ga22c09fa8b89c6d0cb46e290cfecdf33f" title="usb_standard_get_interface" alt="" coords="220,5,401,35"/>
+<area shape="rect" id="node5" href="$group__usb__standard__file.html#ga3af045144aef2572263f2ec0a2fdbef9" title="usb_standard_interface\l_get_status" alt="" coords="232,58,389,105"/>
+<area shape="rect" id="node7" href="$group__usb__standard__file.html#ga137aae06450b52a0c22f7ffa6fba5ba0" title="usb_standard_set_interface" alt="" coords="220,128,401,157"/>
+</map>

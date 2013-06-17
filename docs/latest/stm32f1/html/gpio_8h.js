@@ -510,8 +510,8 @@ var gpio_8h =
     [ "GPIOG_IDR", "gpio_8h.html#gafe5c5bf512dd760c4d8c8199e49e5b16", null ],
     [ "GPIOG_LCKR", "gpio_8h.html#ga639ecc5a7b2226fbf42990e810ba799a", null ],
     [ "GPIOG_ODR", "gpio_8h.html#gaf6c66591bad804d5e29360387e25d40a", null ],
-    [ "gpio_primary_remap", "gpio_8h.html#ga09abe2f2f64812a4580050dbd34a4ff3", null ],
-    [ "gpio_secondary_remap", "gpio_8h.html#gadcd7a1f65fe961d3ed1cefa514d5d2f7", null ],
-    [ "gpio_set_eventout", "gpio_8h.html#ga2d8001859b926b5f419c937c6c679459", null ],
-    [ "gpio_set_mode", "gpio_8h.html#ga07cb96dc8e544ca14fb746ce1c475b19", null ]
+    [ "gpio_primary_remap", "gpio_8h.html#ga9fa7b8ed1d38d8b3d0e22bdfbabb9003", null ],
+    [ "gpio_secondary_remap", "gpio_8h.html#ga3e5ba590258c8bb68b11ffb52d02ecb7", null ],
+    [ "gpio_set_eventout", "gpio_8h.html#gabab0dfbc150f8658cea822421f5f6ac1", null ],
+    [ "gpio_set_mode", "gpio_8h.html#ga5273739c01f6cbc3c400ae81d4330294", null ]
 ];

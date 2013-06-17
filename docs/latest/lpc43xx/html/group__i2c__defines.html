@@ -130,8 +130,8 @@ Collaboration diagram for I2C Defines:</div>
 Functions</h2></td></tr>
 <tr class="memitem:gaf48dc42ebc887041523c54f0be37d9b4"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#gaf48dc42ebc887041523c54f0be37d9b4">i2c0_init</a> (void)</td></tr>
 <tr class="memitem:ga6f5d4e3103e8d7c5fcc929a1c17113c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#ga6f5d4e3103e8d7c5fcc929a1c17113c5">i2c0_tx_start</a> (void)</td></tr>
-<tr class="memitem:gaaaa592440bab1f7b3089e9ce92fad15f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#gaaaa592440bab1f7b3089e9ce92fad15f">i2c0_tx_byte</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> byte)</td></tr>
-<tr class="memitem:ga2b54833122c3d5733784bdeaea666029"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#ga2b54833122c3d5733784bdeaea666029">i2c0_rx_byte</a> (void)</td></tr>
+<tr class="memitem:ga59d6e9ccaa09b279e24a263d21407ae4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#ga59d6e9ccaa09b279e24a263d21407ae4">i2c0_tx_byte</a> (uint8_t byte)</td></tr>
+<tr class="memitem:ga33abe40b345d3546dc0c9f72abc80b52"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#ga33abe40b345d3546dc0c9f72abc80b52">i2c0_rx_byte</a> (void)</td></tr>
 <tr class="memitem:ga7b95bb8aa6e5a8f06a4394bc73ed265b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#ga7b95bb8aa6e5a8f06a4394bc73ed265b">i2c0_stop</a> (void)</td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
@@ -159,12 +159,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga2b54833122c3d5733784bdeaea666029"></a>
+<a class="anchor" id="ga33abe40b345d3546dc0c9f72abc80b52"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> i2c0_rx_byte </td>
+          <td class="memname">uint8_t i2c0_rx_byte </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -173,7 +173,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="i2c_8c_source.html#l00092">92</a> of file <a class="el" href="i2c_8c_source.html">i2c.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c_8c_source.html#l00093">93</a> of file <a class="el" href="i2c_8c_source.html">i2c.c</a>.</p>
 
 </div>
 </div>
@@ -191,18 +191,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="i2c_8c_source.html#l00102">102</a> of file <a class="el" href="i2c_8c_source.html">i2c.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c_8c_source.html#l00104">104</a> of file <a class="el" href="i2c_8c_source.html">i2c.c</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="gaaaa592440bab1f7b3089e9ce92fad15f"></a>
+<a class="anchor" id="ga59d6e9ccaa09b279e24a263d21407ae4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void i2c0_tx_byte </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>byte</em></td><td>)</td>
           <td></td>
         </tr>
@@ -236,7 +236,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:34 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

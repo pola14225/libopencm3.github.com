@@ -166,21 +166,23 @@ $(document).ready(function(){initNavTree('timer_8c_source.html','');});
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">@param[in] pol ::tim_ic_pol. Input Capture polarity.</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="timer_8c.html#ac2b7d3b13f8b80dd5276bcdd2513b3cc">   49</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="timer_8h.html#aeb7e4824d10caad8cc41de911075e9ce" title="Set Input Polarity.">timer_ic_set_polarity</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> timer_peripheral, <span class="keyword">enum</span> tim_ic_id ic, <span class="keyword">enum</span> <a class="code" href="timer_8h.html#aa0406d9433193e18143f359076f1f468" title="Input Capture input polarity.">tim_ic_pol</a> pol)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> (pol)</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                TIM_CCER(timer_peripheral) |= (0x2 &lt;&lt; (ic * 4));</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                TIM_CCER(timer_peripheral) &amp;= ~(0x2 &lt;&lt; (ic * 4));</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="timer_8c.html#a5cc4c3f615f4b661a7ba3be837bfb424">   49</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="timer_8h.html#acfd133e94bb2fa81cd789a8f333654d9" title="Set Input Polarity.">timer_ic_set_polarity</a>(uint32_t timer_peripheral, <span class="keyword">enum</span> tim_ic_id ic,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                           <span class="keyword">enum</span> <a class="code" href="timer_8h.html#aa0406d9433193e18143f359076f1f468" title="Input Capture input polarity.">tim_ic_pol</a> pol)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> (pol) {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                TIM_CCER(timer_peripheral) |= (0x2 &lt;&lt; (ic * 4));</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                TIM_CCER(timer_peripheral) &amp;= ~(0x2 &lt;&lt; (ic * 4));</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="timer_8c.html">timer.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:16 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

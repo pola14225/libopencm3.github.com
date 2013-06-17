@@ -1,7 +1,0 @@
-<map id="_usbd_standard_request_endpoint" name="_usbd_standard_request_endpoint">
-<area shape="rect" id="node3" href="$group__usb__standard__file.html#ga6bf1bc18fbba36b1a74510cff6404bc8" title="usb_standard_endpoint\l_get_status" alt="" coords="220,5,375,51"/>
-<area shape="rect" id="node7" href="$group__usb__standard__file.html#ga79017fc3543de11a160ce349cf695b95" title="usb_standard_endpoint\l_stall" alt="" coords="220,74,375,121"/>
-<area shape="rect" id="node11" href="$group__usb__standard__file.html#ga4086e86746d87cfeadb304387c262476" title="usb_standard_endpoint\l_unstall" alt="" coords="220,143,375,190"/>
-<area shape="rect" id="node5" href="$group__usb__driver__defines.html#ga2143a6d72b1f2215f9720562ecd5dbe0" title="usbd_ep_stall_get" alt="" coords="425,13,551,43"/>
-<area shape="rect" id="node9" href="$group__usb__driver__defines.html#ga16977a6f4e056a1fda2a12625063bb6f" title="usbd_ep_stall_set" alt="" coords="425,117,551,147"/>
-</map>

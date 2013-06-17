@@ -1,0 +1,4 @@
+<map id="i2c_reset" name="i2c_reset">
+<area shape="rect" id="node3" href="$group__STM32L1xx__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566" title="rcc_peripheral_clear\l_reset" alt="" coords="128,5,267,51"/>
+<area shape="rect" id="node5" href="$group__STM32L1xx__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205" title="rcc_peripheral_reset" alt="" coords="128,75,267,104"/>
+</map>

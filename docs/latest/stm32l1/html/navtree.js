@@ -44,11 +44,11 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "globals_defs_0x64.html",
-"group__STM32L1xx__rcc__defines.html#ga4938eb41feca4bb20697a641bf702c04",
-"group__dma__file.html#gadbb1a2fafa41e32d76f41d22966e2ddf",
+"group__STM32L1xx__rcc__defines.html#ga51baa4f973f66eb9781d690fa061f97f",
+"group__dma__file.html#gae7a8decadc1f0b0c57bd1bb8af31ff1e",
 "group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5",
 "memorymap_8h.html#a656a447589e785594cbf2f45c835ad7e",
-"rcc_8h.html#ga75bfa33eb00ee30c6e22f7ceea464ac7",
+"rcc_8h.html#ga7b818d0d9747621c936ad16c93a4956a",
 "structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b"
 ];
 

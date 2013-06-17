@@ -1,5 +1,0 @@
-<map id="_usbd_control_in" name="_usbd_control_in">
-<area shape="rect" id="node3" href="$group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="175,5,340,35"/>
-<area shape="rect" id="node7" href="$group__usb__driver__defines.html#ga16977a6f4e056a1fda2a12625063bb6f" title="usbd_ep_stall_set" alt="" coords="195,59,320,88"/>
-<area shape="rect" id="node5" href="$group__usb__driver__defines.html#gac23b5da866ceb13217dd2eaff42bed11" title="usbd_ep_write_packet" alt="" coords="389,5,541,35"/>
-</map>

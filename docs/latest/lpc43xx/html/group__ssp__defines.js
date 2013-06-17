@@ -43,7 +43,7 @@ var group__ssp__defines =
       [ "SSP_SLAVE_OUT_DISABLE", "group__ssp__defines.html#gga897178b84d3d8b35bc271c7928fe9ac8a4b209af4073f43455ec8b146fc7dd67e", null ]
     ] ],
     [ "ssp_disable", "group__ssp__defines.html#ga52c20b5c622d539ed80d0740abb5a065", null ],
-    [ "ssp_init", "group__ssp__defines.html#ga369c8d3dd4ca7df4cef01e0d59003dbc", null ],
-    [ "ssp_read", "group__ssp__defines.html#gaa8f794ca6faef448cbfd0d74f0bacf33", null ],
-    [ "ssp_write", "group__ssp__defines.html#ga367036890409f4a16496ffafa6ad6471", null ]
+    [ "ssp_init", "group__ssp__defines.html#gabf3b154339113853936a35f87ea2f1f9", null ],
+    [ "ssp_read", "group__ssp__defines.html#ga0617d554c518d8fd1bd375bb4f837a58", null ],
+    [ "ssp_write", "group__ssp__defines.html#ga336309809e6e0212aa355fbf70ed9faa", null ]
 ];

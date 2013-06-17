@@ -1,5 +1,5 @@
 <map id="Timer Defines" name="Timer Defines">
-<area shape="rect" id="node1" href="$group__tim2__opt__trigger__remap.html" title="TIM2_OR Timer 2 Option\l Register Internal Trigger\l 1 Remap" alt="" coords="348,5,516,69"/>
-<area shape="rect" id="node2" href="$group__tim3__opt__trigger__remap.html" title="TIM3_OR Timer 3 Option\l Register Internal Trigger\l 2 Remap" alt="" coords="348,93,516,157"/>
-<area shape="rect" id="node4" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series." alt="" coords="5,67,147,96"/>
+<area shape="rect" id="node1" href="$group__tim2__opt__trigger__remap.html" title="Trigger 1 Remap." alt="" coords="348,5,516,51"/>
+<area shape="rect" id="node2" href="$group__tim3__opt__trigger__remap.html" title="TIM3_OR Timer 3 Option\l Register Internal Trigger\l 2 Remap" alt="" coords="348,75,516,139"/>
+<area shape="rect" id="node4" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series." alt="" coords="5,53,147,83"/>
 </map>

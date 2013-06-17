@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"gpio_8h.html#ga4239c7a3d7f5fc6ade6c9784744b91ea":[17,0,22,331],
-"gpio_8h.html#ga42650cbdbee0c6fa44fe374e4848d2f3":[17,0,22,431],
 "gpio_8h.html#ga439c8d7670cfef18450ff624d19ec525":[17,0,22,85],
 "gpio_8h.html#ga43c3022dede7c9db7a58d3c3409dbc8d":[17,0,22,494],
 "gpio_8h.html#ga445f2482ccf8bcf18a7bbacbd2511c3b":[17,0,22,278],
@@ -33,6 +31,7 @@ var NAVTREEINDEX4 =
 "gpio_8h.html#ga51cfc4f94c659391c673fa834c8da644":[17,0,22,12],
 "gpio_8h.html#ga51d2fb407fd7c467c3a2621ac1d86b7c":[17,0,22,155],
 "gpio_8h.html#ga5207aae7c474c5e1cd6471ba1b291877":[17,0,22,410],
+"gpio_8h.html#ga5273739c01f6cbc3c400ae81d4330294":[17,0,22,513],
 "gpio_8h.html#ga544a4ee97414d40a6757bc92aea7c23b":[17,0,22,6],
 "gpio_8h.html#ga54cf46cdf41330942c4279c05bab3af1":[17,0,22,477],
 "gpio_8h.html#ga5501f7041aca80005eea65be489ceb48":[17,0,22,190],
@@ -171,6 +170,7 @@ var NAVTREEINDEX4 =
 "gpio_8h.html#ga9d81eb770dba2e815811e92a63be8e86":[17,0,22,465],
 "gpio_8h.html#ga9f6acc9461988b420333eb3e530d7781":[17,0,22,209],
 "gpio_8h.html#ga9f786238b7ca3762442e36e951b8788c":[17,0,22,407],
+"gpio_8h.html#ga9fa7b8ed1d38d8b3d0e22bdfbabb9003":[17,0,22,510],
 "gpio_8h.html#gaa05a8f303e80f3ea3e05d85006957edf":[17,0,22,116],
 "gpio_8h.html#gaa17c162711242ab52b1644ba933788f3":[17,0,22,120],
 "gpio_8h.html#gaa1a75f53627b24004cdb1edcd1e31451":[17,0,22,281],
@@ -216,6 +216,7 @@ var NAVTREEINDEX4 =
 "gpio_8h.html#gab98248695a348d74ab86759a4bd9e41a":[17,0,22,36],
 "gpio_8h.html#gab9b70f478f271cb8939e9539bd04865b":[17,0,22,69],
 "gpio_8h.html#gab9d7f07aeb3332a031cb43bd6703d93c":[17,0,22,383],
+"gpio_8h.html#gabab0dfbc150f8658cea822421f5f6ac1":[17,0,22,512],
 "gpio_8h.html#gabab8da331b8c5bbf320a28bdfe87b62f":[17,0,22,388],
 "gpio_8h.html#gabbae9762ea2ebd3158758663e7c07204":[17,0,22,243],
 "gpio_8h.html#gabc38b09a5f434fc87f68f834210eb95f":[17,0,22,377],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "gpio_8h.html#gac7f56f6149edcedfc1479b91d5d86210":[17,0,22,213],
 "gpio_8h.html#gac8aad2847b4ad05593b01bcffdac5d24":[17,0,22,384],
 "gpio_8h.html#gac8c9d493121483b6e8ca72a4176371b8":[17,0,22,394],
-"gpio_8h.html#gacb94286b94b23dc693ee6277d58e99b3":[17,0,22,144],
-"gpio_8h.html#gacbae2c7ab00faaaaedef638a30d585c1":[17,0,22,365]
+"gpio_8h.html#gacb94286b94b23dc693ee6277d58e99b3":[17,0,22,144]
 };

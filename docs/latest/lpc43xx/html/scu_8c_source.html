@@ -154,25 +154,29 @@ $(document).ready(function(){initNavTree('scu_8c_source.html','');});
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="scu_8h.html">libopencm3/lpc43xx/scu.h</a>&gt;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">/* For pin_conf_normal value see scu.h define SCU_CONF_XXX or Configuration for different I/O pins types */</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="code" href="group__scu__file.html#gaea5bc9764cb29b95e6e2a53caf93b54c">   38</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__scu__defines.html#gaa3d58744b52822ed95253a8273bfc321">scu_pinmux</a>(<a class="code" href="group__scu__defines.html#ga9ebba78e64868d90ae94cabceec832d2">scu_grp_pin_t</a> group_pin, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> scu_conf)</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(group_pin) = scu_conf;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">/* For other special SCU register USB1, I2C0, ADC0/1, DAC, EMC clock delay See scu.h */</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">/* For pin_conf_normal value see scu.h define SCU_CONF_XXX or Configuration for</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> * different I/O pins types</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="code" href="group__scu__file.html#ga10fed4eae1d8270ecaee5f3b9b3b3394">   40</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__scu__defines.html#gac3fa7534cb7b7179ca75d7bc3ba43e59">scu_pinmux</a>(<a class="code" href="group__scu__defines.html#ga9ebba78e64868d90ae94cabceec832d2">scu_grp_pin_t</a> group_pin, uint32_t scu_conf)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(group_pin) = scu_conf;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/* For Pin interrupt select register see scu.h SCU_PINTSEL0 &amp; SCU_PINTSEL1 */</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/* For other special SCU register USB1, I2C0, ADC0/1, DAC, EMC clock delay See</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"> * scu.h</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/* For Pin interrupt select register see scu.h SCU_PINTSEL0 &amp; SCU_PINTSEL1 */</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_d37d3c975ecef012b6a8fd7f0f6fedfb.html">lpc43xx</a></li><li class="navelem"><a class="el" href="scu_8c.html">scu.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:34 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

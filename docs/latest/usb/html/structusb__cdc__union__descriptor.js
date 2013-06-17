@@ -1,8 +1,8 @@
 var structusb__cdc__union__descriptor =
 [
-    [ "bControlInterface", "structusb__cdc__union__descriptor.html#a0f746d435b3775b89f11445d68355def", null ],
-    [ "bDescriptorSubtype", "structusb__cdc__union__descriptor.html#ab093f69afbeb73cd5715b5cd5a3581b9", null ],
-    [ "bDescriptorType", "structusb__cdc__union__descriptor.html#a974ef4a55f5134f14ebb312f7e0fb30c", null ],
-    [ "bFunctionLength", "structusb__cdc__union__descriptor.html#a30cb5785d862f08b2b53544022eef44b", null ],
-    [ "bSubordinateInterface0", "structusb__cdc__union__descriptor.html#a60e8731a5b8863572bb3e7e7b7a6ef50", null ]
+    [ "bControlInterface", "structusb__cdc__union__descriptor.html#a233201a145a5c0a0783d702a7bbd89b1", null ],
+    [ "bDescriptorSubtype", "structusb__cdc__union__descriptor.html#aaae2bfc7d765011a39150b818b75b243", null ],
+    [ "bDescriptorType", "structusb__cdc__union__descriptor.html#a12a70496baf70c311a5362d2955e9f78", null ],
+    [ "bFunctionLength", "structusb__cdc__union__descriptor.html#ab46252197d3d587b19032f7b51e80e44", null ],
+    [ "bSubordinateInterface0", "structusb__cdc__union__descriptor.html#a4b409e885d9e7457a21918f5fff2b118", null ]
 ];

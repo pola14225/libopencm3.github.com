@@ -318,55 +318,6 @@
       <anchor>adfb09898dca36071e32cb1fbeec479e5</anchor>
       <arglist></arglist>
     </member>
-    <member kind="typedef">
-      <type>int8_t</type>
-      <name>s8</name>
-      <anchorfile>common_8h.html</anchorfile>
-      <anchor>a9e382f207c65ca13ab4ae98363aeda80</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>int16_t</type>
-      <name>s16</name>
-      <anchorfile>common_8h.html</anchorfile>
-      <anchor>aa980e2c02ba2305e0f489d5650655425</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>int32_t</type>
-      <name>s32</name>
-      <anchorfile>common_8h.html</anchorfile>
-      <anchor>ae9b1af5c037e57a98884758875d3a7c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>uint8_t</type>
-      <name>u8</name>
-      <anchorfile>common_8h.html</anchorfile>
-      <anchor>a92c50087ca0e64fa93fc59402c55f8ca</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>uint16_t</type>
-      <name>u16</name>
-      <anchorfile>common_8h.html</anchorfile>
-      <anchor>ace9d960e74685e2cd84b36132dbbf8aa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>uint32_t</type>
-      <name>u32</name>
-      <anchorfile>common_8h.html</anchorfile>
-      <anchor>afaa62991928fb9fb18ff0db62a040aba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>uint64_t</type>
-      <name>u64</name>
-      <anchorfile>common_8h.html</anchorfile>
-      <anchor>a3f7e2bcbb0b4c338f3c4f6c937cd4234</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>doc-cm3.h</name>
@@ -823,64 +774,64 @@
       <type>BEGIN_DECLS void</type>
       <name>nvic_enable_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga959934e2712ce7672d2a947d9ca42d32</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>ga8feba3782b3c6c173969f6ddcee3cfb6</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_disable_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>gaed0997045521d8dd7171a1efb9735b2f</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>gaf95cc3827a6e48d82c6046c639c80dc9</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>nvic_get_pending_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga32e4ae1adc2e9f7f9de43da182004417</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>ga0af0d73b09caec78a330d202829391bf</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_set_pending_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga4fc9f0e63460ac98ddd9e0ba18d611a5</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>ga3de46ef1bb9421e41fad4f407d0c8242</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_clear_pending_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga912739401591c8c16d54b68bf6a19145</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>ga55916a6ef4b3380692dc46bb0135386e</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>nvic_get_active_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga385b545f967c36f2a2df8bf56cc48049</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>gaa5ef6143fd0b814310e5475473f80b43</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>nvic_get_irq_enabled</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga760014a2f28e2c08c2c5ca8995541cf5</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>gaa2244a9f5f8c94a82bc8cf41d6ef254d</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_set_priority</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga8d32953be2608382a7adfa053328b7ba</anchor>
-      <arglist>(u8 irqn, u8 priority)</arglist>
+      <anchor>ga404123c81365250fe09e0545b4c6bf66</anchor>
+      <arglist>(uint8_t irqn, uint8_t priority)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_generate_software_interrupt</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga428725e696c0467c102d171425c93799</anchor>
-      <arglist>(u16 irqn)</arglist>
+      <anchor>ga236a68110c418bc6b100eb6756ec4ea9</anchor>
+      <arglist>(uint16_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void WEAK</type>
@@ -1811,8 +1762,8 @@
       <type>void</type>
       <name>scb_set_priority_grouping</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a0e97a2ebc013118cb220542999db3d8b</anchor>
-      <arglist>(u32 prigroup)</arglist>
+      <anchor>a1c1ccff67eb7696c04e59ab4f9c0a2ab</anchor>
+      <arglist>(uint32_t prigroup)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2246,25 +2197,25 @@
       <arglist></arglist>
     </member>
     <member kind="typedef">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>mutex_t</name>
       <anchorfile>sync_8h.html</anchorfile>
-      <anchor>ab7e6b445d77c6dc958a98a7710f21ce2</anchor>
+      <anchor>a8250bc58df6e4e18b2402823f6b95922</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>__ldrex</name>
       <anchorfile>sync_8h.html</anchorfile>
-      <anchor>a23cdbd17af97f07155c1433bc75a5196</anchor>
-      <arglist>(volatile u32 *addr)</arglist>
+      <anchor>a5558bda451735f4b52ba755d379f1933</anchor>
+      <arglist>(volatile uint32_t *addr)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>__strex</name>
       <anchorfile>sync_8h.html</anchorfile>
-      <anchor>ae6ca6872082f5544d3d266adbe1d3d60</anchor>
-      <arglist>(u32 val, volatile u32 *addr)</arglist>
+      <anchor>a48735f2cc888fa55f57192e25a5b244f</anchor>
+      <arglist>(uint32_t val, volatile uint32_t *addr)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2389,29 +2340,29 @@
       <type>BEGIN_DECLS void</type>
       <name>systick_set_reload</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga4d72fc83df078118bd33f82e1eddd345</anchor>
-      <arglist>(u32 value)</arglist>
+      <anchor>gac8dbc7c5f007177712824ccf91cc3b33</anchor>
+      <arglist>(uint32_t value)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>systick_get_reload</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga3fb33b45c79720f5455332f103ea9c42</anchor>
+      <anchor>gad26b5b9932a41cfe9e3600431b918831</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>systick_get_value</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga21390939e21bc6c4ef00fe1c798ae060</anchor>
+      <anchor>gae6a4663107e824d7fe2936bdcbead94c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>systick_set_clocksource</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gaa02dec290465a9d5dd1cf066448e88c2</anchor>
-      <arglist>(u8 clocksource)</arglist>
+      <anchor>ga13726e0964b31c85269beddbdc1d35e7</anchor>
+      <arglist>(uint8_t clocksource)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2442,17 +2393,17 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>systick_get_countflag</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga6046a990cab767ab46dbe113d0929d6c</anchor>
+      <anchor>ga04dd39e8ef61f9d6be437a43fc16dcdf</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>systick_get_calib</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gab4bac496ec8a74914b6f4dc87471d586</anchor>
+      <anchor>ga4351bcd52c07a23b5b999b062c123084</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -2768,64 +2719,64 @@
       <type>BEGIN_DECLS void</type>
       <name>nvic_enable_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga959934e2712ce7672d2a947d9ca42d32</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>ga8feba3782b3c6c173969f6ddcee3cfb6</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_disable_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>gaed0997045521d8dd7171a1efb9735b2f</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>gaf95cc3827a6e48d82c6046c639c80dc9</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>nvic_get_pending_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga32e4ae1adc2e9f7f9de43da182004417</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>ga0af0d73b09caec78a330d202829391bf</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_set_pending_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga4fc9f0e63460ac98ddd9e0ba18d611a5</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>ga3de46ef1bb9421e41fad4f407d0c8242</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_clear_pending_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga912739401591c8c16d54b68bf6a19145</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>ga55916a6ef4b3380692dc46bb0135386e</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>nvic_get_active_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga385b545f967c36f2a2df8bf56cc48049</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>gaa5ef6143fd0b814310e5475473f80b43</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>nvic_get_irq_enabled</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga760014a2f28e2c08c2c5ca8995541cf5</anchor>
-      <arglist>(u8 irqn)</arglist>
+      <anchor>gaa2244a9f5f8c94a82bc8cf41d6ef254d</anchor>
+      <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_set_priority</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga8d32953be2608382a7adfa053328b7ba</anchor>
-      <arglist>(u8 irqn, u8 priority)</arglist>
+      <anchor>ga404123c81365250fe09e0545b4c6bf66</anchor>
+      <arglist>(uint8_t irqn, uint8_t priority)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>nvic_generate_software_interrupt</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga428725e696c0467c102d171425c93799</anchor>
-      <arglist>(u16 irqn)</arglist>
+      <anchor>ga236a68110c418bc6b100eb6756ec4ea9</anchor>
+      <arglist>(uint16_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void WEAK</type>
@@ -3052,29 +3003,29 @@
       <type>BEGIN_DECLS void</type>
       <name>systick_set_reload</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga4d72fc83df078118bd33f82e1eddd345</anchor>
-      <arglist>(u32 value)</arglist>
+      <anchor>gac8dbc7c5f007177712824ccf91cc3b33</anchor>
+      <arglist>(uint32_t value)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>systick_get_reload</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga3fb33b45c79720f5455332f103ea9c42</anchor>
+      <anchor>gad26b5b9932a41cfe9e3600431b918831</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>systick_get_value</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga21390939e21bc6c4ef00fe1c798ae060</anchor>
+      <anchor>gae6a4663107e824d7fe2936bdcbead94c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>systick_set_clocksource</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gaa02dec290465a9d5dd1cf066448e88c2</anchor>
-      <arglist>(u8 clocksource)</arglist>
+      <anchor>ga13726e0964b31c85269beddbdc1d35e7</anchor>
+      <arglist>(uint8_t clocksource)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3105,17 +3056,17 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>systick_get_countflag</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga6046a990cab767ab46dbe113d0929d6c</anchor>
+      <anchor>ga04dd39e8ef61f9d6be437a43fc16dcdf</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>systick_get_calib</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gab4bac496ec8a74914b6f4dc87471d586</anchor>
+      <anchor>ga4351bcd52c07a23b5b999b062c123084</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -3142,59 +3093,59 @@
     <name>scb_exception_stack_frame</name>
     <filename>structscb__exception__stack__frame.html</filename>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>r0</name>
       <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a18e0eb119e02ac5e8d79c24d0989441e</anchor>
+      <anchor>ae7ebc5fa67cc65d5039f8f978e3a2062</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>r1</name>
       <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a693f4634524e0310b5df29445430f81b</anchor>
+      <anchor>a9fea68a34dc0a9d385390205092162e9</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>r2</name>
       <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>af05aed409686f5fe6890f6403b29935c</anchor>
+      <anchor>ac38c8c267ebaa36b9e8114e0c8da6b33</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>r3</name>
       <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a98b1085fff8645a87c6186f031a5067a</anchor>
+      <anchor>a974713f74276b9c27efaf8dd8e066784</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>r12</name>
       <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a0a94427f260d232306e7fbeffee543cb</anchor>
+      <anchor>a0e6126588086c406b720b3961bda7311</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>lr</name>
       <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a2c0564ce9d892ae6ed3dfbc8264b9a07</anchor>
+      <anchor>ac66306df89b575b3c3ae413f89211d8d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>pc</name>
       <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>ace9870e73f3bae8222b1daf9b73eca21</anchor>
+      <anchor>a44ebd35215d8e75f0154f26cc14165bc</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>xpsr</name>
       <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a4b83499b78da9f6d7f4ac795476349d1</anchor>
+      <anchor>a2e6e69032909f740145d93bac2fec49b</anchor>
       <arglist></arglist>
     </member>
   </compound>

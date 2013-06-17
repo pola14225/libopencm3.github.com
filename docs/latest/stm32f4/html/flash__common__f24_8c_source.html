@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('flash__common__f24_8c_source.html','')
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/flash.h&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#aa2c107c924d8f78bbfc2e0a1b6e5331a">   23</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#aa2c107c924d8f78bbfc2e0a1b6e5331a">flash_set_program_size</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> psize)</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#abe30bb2a8f268a494d3600c0dfc5406d">   23</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#abe30bb2a8f268a494d3600c0dfc5406d">flash_set_program_size</a>(uint32_t psize)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        FLASH_CR &amp;= ~(((1 &lt;&lt; 0) | (1 &lt;&lt; 1)) &lt;&lt; 8);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        FLASH_CR |= psize;</div>
@@ -187,9 +187,9 @@ $(document).ready(function(){initNavTree('flash__common__f24_8c_source.html','')
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        FLASH_ACR |= FLASH_ACR_ICRST;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a66164f6799767f17d6f6e845c4c5039e">   69</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a66164f6799767f17d6f6e845c4c5039e">flash_set_ws</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> ws)</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a9347b16d27d64b79f507dc9cad8633b2">   69</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(uint32_t ws)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        uint32_t reg32;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        reg32 = FLASH_ACR;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        reg32 &amp;= ~((1 &lt;&lt; 0) | (1 &lt;&lt; 1) | (1 &lt;&lt; 2));</div>
@@ -269,130 +269,132 @@ $(document).ready(function(){initNavTree('flash__common__f24_8c_source.html','')
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
 <div class="line"><a name="l00149"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">  149</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;{</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">while</span> ((FLASH_SR &amp; FLASH_SR_BSY) == FLASH_SR_BSY)</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                ;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;}</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
-<div class="line"><a name="l00155"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#aa6a574e7b653d9b141e4fd3cf1e0e972">  155</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#aa6a574e7b653d9b141e4fd3cf1e0e972">flash_program_double_word</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a3f7e2bcbb0b4c338f3c4f6c937cd4234">u64</a> data)</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;{</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="comment">/* Ensure that all flash operations are complete. */</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <a class="code" href="flash__common__f24_8c.html#aa2c107c924d8f78bbfc2e0a1b6e5331a">flash_set_program_size</a>(FLASH_CR_PROGRAM_X64);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="comment">/* Enable writes to flash. */</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="comment">/* Program the first half of the word. */</span></div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ac297642f26c83beb456c4aae0556baab">MMIO64</a>(address) = data;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="comment">/* Wait for the write to complete. */</span></div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="comment">/* Disable writes to flash. */</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;}</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#ada59106b2abfe22eaffc9ad6f1b48899">  174</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#ada59106b2abfe22eaffc9ad6f1b48899">flash_program_word</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> data)</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;{</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="comment">/* Ensure that all flash operations are complete. */</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <a class="code" href="flash__common__f24_8c.html#aa2c107c924d8f78bbfc2e0a1b6e5331a">flash_set_program_size</a>(FLASH_CR_PROGRAM_X32);</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="comment">/* Enable writes to flash. */</span></div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="comment">/* Program the first half of the word. */</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(address) = data;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="comment">/* Wait for the write to complete. */</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="comment">/* Disable writes to flash. */</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;}</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a1312105c3432840482d6678ef841e9e2">  193</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a1312105c3432840482d6678ef841e9e2">flash_program_half_word</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> data)</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;{</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <a class="code" href="flash__common__f24_8c.html#aa2c107c924d8f78bbfc2e0a1b6e5331a">flash_set_program_size</a>(FLASH_CR_PROGRAM_X16);</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#abb0189383a963a89a7607442c420ba3f">MMIO16</a>(address) = data;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;               <span class="comment">/* Disable the PG bit. */</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;}</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
-<div class="line"><a name="l00207"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a3290e17548ecd0059208f77d00aaa81e">  207</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a3290e17548ecd0059208f77d00aaa81e">flash_program_byte</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> data)</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;{</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <a class="code" href="flash__common__f24_8c.html#aa2c107c924d8f78bbfc2e0a1b6e5331a">flash_set_program_size</a>(FLASH_CR_PROGRAM_X8);</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(address) = data;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;               <span class="comment">/* Disable the PG bit. */</span></div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;}</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
-<div class="line"><a name="l00221"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a44d2f407460c17b84f3383af8951e8f4">  221</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a44d2f407460c17b84f3383af8951e8f4">flash_program</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>* data, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> len)</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;{</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;  <span class="comment">/* TODO: Use dword and word size program operations where possible for turbo</span></div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="comment">   * speed. */</span></div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> i;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;  <span class="keywordflow">for</span> (i=0; i&lt;len; i++)</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <a class="code" href="flash__common__f24_8c.html#a3290e17548ecd0059208f77d00aaa81e">flash_program_byte</a>(address+i, data[i]);</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;}</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
-<div class="line"><a name="l00230"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a26e4d5b7fff605c3aa86318ce3787f29">  230</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a26e4d5b7fff605c3aa86318ce3787f29">flash_erase_sector</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> sector, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> program_size)</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;{</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <a class="code" href="flash__common__f24_8c.html#aa2c107c924d8f78bbfc2e0a1b6e5331a">flash_set_program_size</a>(program_size);</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        FLASH_CR &amp;= ~(0xF &lt;&lt; 3);</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        FLASH_CR |= (sector &lt;&lt; 3) &amp; 0x78;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        FLASH_CR |= FLASH_CR_SER;</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        FLASH_CR |= FLASH_CR_STRT;</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_SER;</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        FLASH_CR &amp;= ~(0xF &lt;&lt; 3);</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;}</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
-<div class="line"><a name="l00245"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a2030d965cf8826ff2a1f6681e834c8fe">  245</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a2030d965cf8826ff2a1f6681e834c8fe">flash_erase_all_sectors</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> program_size)</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;{</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <a class="code" href="flash__common__f24_8c.html#aa2c107c924d8f78bbfc2e0a1b6e5331a">flash_set_program_size</a>(program_size);</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        FLASH_CR |= FLASH_CR_MER;               <span class="comment">/* Enable mass erase. */</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        FLASH_CR |= FLASH_CR_STRT;              <span class="comment">/* Trigger the erase. */</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_MER;              <span class="comment">/* Disable mass erase. */</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;}</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
-<div class="line"><a name="l00257"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#ad7e8a68703e3eeb90eb16caf255758db">  257</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#ad7e8a68703e3eeb90eb16caf255758db">flash_program_option_bytes</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> data)</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;{</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keywordflow">if</span> (FLASH_OPTCR &amp; FLASH_OPTCR_OPTLOCK)</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                <a class="code" href="flash__common__f24_8c.html#a5458fca5ecb9ec90b21bebbb64c861c4">flash_unlock_option_bytes</a>();</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        FLASH_OPTCR = data &amp; ~0x3;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        FLASH_OPTCR |= FLASH_OPTCR_OPTSTRT;     <span class="comment">/* Enable option byte programming. */</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;}</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">while</span> ((FLASH_SR &amp; FLASH_SR_BSY) == FLASH_SR_BSY);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;}</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
+<div class="line"><a name="l00154"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#ab8f20c93b7162f8a3b672caee01c7e09">  154</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#ab8f20c93b7162f8a3b672caee01c7e09">flash_program_double_word</a>(uint32_t address, uint64_t data)</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="comment">/* Ensure that all flash operations are complete. */</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <a class="code" href="flash__common__f24_8c.html#abe30bb2a8f268a494d3600c0dfc5406d">flash_set_program_size</a>(FLASH_CR_PROGRAM_X64);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="comment">/* Enable writes to flash. */</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="comment">/* Program the first half of the word. */</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ac297642f26c83beb456c4aae0556baab">MMIO64</a>(address) = data;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="comment">/* Wait for the write to complete. */</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="comment">/* Disable writes to flash. */</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;}</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00173"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a73937aa6df8710e95425b165730626a2">  173</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a73937aa6df8710e95425b165730626a2">flash_program_word</a>(uint32_t address, uint32_t data)</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;{</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="comment">/* Ensure that all flash operations are complete. */</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="flash__common__f24_8c.html#abe30bb2a8f268a494d3600c0dfc5406d">flash_set_program_size</a>(FLASH_CR_PROGRAM_X32);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="comment">/* Enable writes to flash. */</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="comment">/* Program the first half of the word. */</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(address) = data;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="comment">/* Wait for the write to complete. */</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="comment">/* Disable writes to flash. */</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#af5077b5726c70fa9418db9d73182f89d">  192</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#af5077b5726c70fa9418db9d73182f89d">flash_program_half_word</a>(uint32_t address, uint16_t data)</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;{</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="flash__common__f24_8c.html#abe30bb2a8f268a494d3600c0dfc5406d">flash_set_program_size</a>(FLASH_CR_PROGRAM_X16);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#abb0189383a963a89a7607442c420ba3f">MMIO16</a>(address) = data;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;               <span class="comment">/* Disable the PG bit. */</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
+<div class="line"><a name="l00206"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#aecb2ef6a6334477e36fceed302b1ab6d">  206</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#aecb2ef6a6334477e36fceed302b1ab6d">flash_program_byte</a>(uint32_t address, uint8_t data)</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;{</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <a class="code" href="flash__common__f24_8c.html#abe30bb2a8f268a494d3600c0dfc5406d">flash_set_program_size</a>(FLASH_CR_PROGRAM_X8);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        FLASH_CR |= FLASH_CR_PG;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(address) = data;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_PG;               <span class="comment">/* Disable the PG bit. */</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;}</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
+<div class="line"><a name="l00220"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a9149ea4d291a737b89ca7475471806a0">  220</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a9149ea4d291a737b89ca7475471806a0">flash_program</a>(uint32_t address, uint8_t *data, uint32_t len)</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;{</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="comment">/* TODO: Use dword and word size program operations where possible for</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="comment">         * turbo speed.</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        uint32_t i;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; len; i++) {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                <a class="code" href="flash__common__f24_8c.html#aecb2ef6a6334477e36fceed302b1ab6d">flash_program_byte</a>(address+i, data[i]);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;}</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00231"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#ad49638626fa6ff605563012ef599bb11">  231</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#ad49638626fa6ff605563012ef599bb11">flash_erase_sector</a>(uint8_t sector, uint32_t program_size)</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;{</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <a class="code" href="flash__common__f24_8c.html#abe30bb2a8f268a494d3600c0dfc5406d">flash_set_program_size</a>(program_size);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        FLASH_CR &amp;= ~(0xF &lt;&lt; 3);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        FLASH_CR |= (sector &lt;&lt; 3) &amp; 0x78;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        FLASH_CR |= FLASH_CR_SER;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        FLASH_CR |= FLASH_CR_STRT;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_SER;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        FLASH_CR &amp;= ~(0xF &lt;&lt; 3);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;}</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a6374518c449cb5f79631be81a818d75b">  246</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a6374518c449cb5f79631be81a818d75b">flash_erase_all_sectors</a>(uint32_t program_size)</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;{</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <a class="code" href="flash__common__f24_8c.html#abe30bb2a8f268a494d3600c0dfc5406d">flash_set_program_size</a>(program_size);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        FLASH_CR |= FLASH_CR_MER;               <span class="comment">/* Enable mass erase. */</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        FLASH_CR |= FLASH_CR_STRT;              <span class="comment">/* Trigger the erase. */</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        FLASH_CR &amp;= ~FLASH_CR_MER;              <span class="comment">/* Disable mass erase. */</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;}</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
+<div class="line"><a name="l00258"></a><span class="lineno"><a class="code" href="flash__common__f24_8c.html#a06a93b6102d8799e0ed6fe5a6415ffc2">  258</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash__common__f24_8c.html#a06a93b6102d8799e0ed6fe5a6415ffc2">flash_program_option_bytes</a>(uint32_t data)</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;{</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">if</span> (FLASH_OPTCR &amp; FLASH_OPTCR_OPTLOCK) {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                <a class="code" href="flash__common__f24_8c.html#a5458fca5ecb9ec90b21bebbb64c861c4">flash_unlock_option_bytes</a>();</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        }</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        FLASH_OPTCR = data &amp; ~0x3;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        FLASH_OPTCR |= FLASH_OPTCR_OPTSTRT;  <span class="comment">/* Enable option byte prog. */</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation</a>();</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="flash__common__f24_8c.html">flash_common_f24.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:25 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:24 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

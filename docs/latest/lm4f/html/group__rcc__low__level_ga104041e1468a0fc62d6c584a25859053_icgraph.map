@@ -1,0 +1,4 @@
+<map id="rcc_set_pll_divisor" name="rcc_set_pll_divisor">
+<area shape="rect" id="node3" href="$group__rcc__high__level.html#ga1c5a8dbbc0a6bac380b0041962075269" title="Change the PLL divisor." alt="" coords="184,5,339,35"/>
+<area shape="rect" id="node5" href="$group__rcc__high__level.html#ga9650a2780970b01221f64600797ca681" title="Configure the system clock source." alt="" coords="388,5,513,35"/>
+</map>

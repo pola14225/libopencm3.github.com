@@ -122,5 +122,5 @@ var scb_8h =
     [ "SCP_CPUID_VARIANT_LSB", "scb_8h.html#a3bf3d8f722d181a25b4d88bffe57758a", null ],
     [ "scb_reset_core", "scb_8h.html#a8425a250161ee83d6aa8b38c5c3fb4a4", null ],
     [ "scb_reset_system", "scb_8h.html#aad4d08be4e2b209f97d3276b7c7731e6", null ],
-    [ "scb_set_priority_grouping", "scb_8h.html#a0e97a2ebc013118cb220542999db3d8b", null ]
+    [ "scb_set_priority_grouping", "scb_8h.html#a1c1ccff67eb7696c04e59ab4f9c0a2ab", null ]
 ];

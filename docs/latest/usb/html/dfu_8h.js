@@ -43,10 +43,10 @@ var dfu_8h =
     ] ],
     [ "__attribute__", "dfu_8h.html#ga53297a7dd343d62a8a8efde4909b3248", null ],
     [ "__attribute__", "dfu_8h.html#ga4d78e80f3bfe9cf800b0d82933262813", null ],
-    [ "bcdDFUVersion", "dfu_8h.html#ab320aee7bd7cc51cf6bf90a57981b7d3", null ],
-    [ "bDescriptorType", "dfu_8h.html#af6d6c7e334878414c973fc10e54cfb4e", null ],
-    [ "bLength", "dfu_8h.html#a904ce9aea3e1db94a9a1ec5a0a22b65d", null ],
-    [ "bmAttributes", "dfu_8h.html#a2733c047911192e6e1630eb85167cd42", null ],
-    [ "wDetachTimeout", "dfu_8h.html#afdf1c9e1dada8cbe049cdf07c718043f", null ],
-    [ "wTransferSize", "dfu_8h.html#a9842023b075b63e913c5104c5302f0f9", null ]
+    [ "bcdDFUVersion", "dfu_8h.html#a7e5857b7c9ed4541e1c7283c2d3f44af", null ],
+    [ "bDescriptorType", "dfu_8h.html#a67d7027b9eb9ed268d28e84fbc675707", null ],
+    [ "bLength", "dfu_8h.html#a1deca1f1d6e5815b290e6e1015bce5b8", null ],
+    [ "bmAttributes", "dfu_8h.html#ae7c63b4cda39953db5710012a5d91c6f", null ],
+    [ "wDetachTimeout", "dfu_8h.html#aba725b47e591dfa9a30a01e80fa1aa49", null ],
+    [ "wTransferSize", "dfu_8h.html#abf7c6492df9b515329616580afb383d2", null ]
 ];

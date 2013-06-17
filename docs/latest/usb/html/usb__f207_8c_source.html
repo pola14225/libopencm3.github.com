@@ -156,14 +156,14 @@ $(document).ready(function(){initNavTree('usb__f207_8c_source.html','');});
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="code" href="group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12">   35</a></span>&#160;<span class="keyword">const</span> <span class="keyword">struct </span><a class="code" href="struct__usbd__driver.html">_usbd_driver</a> <a class="code" href="group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12">stm32f207_usb_driver</a> = {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        .<a class="code" href="struct__usbd__driver.html#a957bce226109cb43c918fc7898124c05">init</a> = <a class="code" href="usb__f207_8c.html#a68c4ceb309e31e2895e61e4248adc958" title="Initialize the USB device controller hardware of the STM32.">stm32f207_usbd_init</a>,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        .set_address = <a class="code" href="usb__fx07__common_8c.html#a6c4331e75647c989f9092bc4f18996fd">stm32fx07_set_address</a>,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        .ep_setup = <a class="code" href="usb__fx07__common_8c.html#a1432ab0ce4eec83005db098b824a889e">stm32fx07_ep_setup</a>,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        .set_address = <a class="code" href="usb__fx07__common_8c.html#a13ff93197dbe1e4a33c382718ab936a4">stm32fx07_set_address</a>,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        .ep_setup = <a class="code" href="usb__fx07__common_8c.html#ae2625812391f4d41bfce2007187a68bc">stm32fx07_ep_setup</a>,</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        .ep_reset = <a class="code" href="usb__fx07__common_8c.html#a5f11ba15e82378b9c64ffe3421adf464">stm32fx07_endpoints_reset</a>,</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        .ep_stall_set = <a class="code" href="usb__fx07__common_8c.html#a7c5c0a101485f64256483f177f2a681c">stm32fx07_ep_stall_set</a>,</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        .ep_stall_get = <a class="code" href="usb__fx07__common_8c.html#af695951f53b884700a5f49a3c33834e5">stm32fx07_ep_stall_get</a>,</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        .ep_nak_set = <a class="code" href="usb__fx07__common_8c.html#a1b30ec296728f3e7cd6937feaa377a1e">stm32fx07_ep_nak_set</a>,</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        .ep_write_packet = <a class="code" href="usb__fx07__common_8c.html#a3da9d54056e58344660e8a2ca63e0561">stm32fx07_ep_write_packet</a>,</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        .ep_read_packet = <a class="code" href="usb__fx07__common_8c.html#a5e069d1f1dde553f1860ac09325c8238">stm32fx07_ep_read_packet</a>,</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        .ep_stall_set = <a class="code" href="usb__fx07__common_8c.html#a0e2ff8af2add12281fffad6aa8bb44a1">stm32fx07_ep_stall_set</a>,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        .ep_stall_get = <a class="code" href="usb__fx07__common_8c.html#a4f8070cf295dc3c253c384724b9971d6">stm32fx07_ep_stall_get</a>,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        .ep_nak_set = <a class="code" href="usb__fx07__common_8c.html#a5be6f7b00bfb0d98dd96e54b798e376e">stm32fx07_ep_nak_set</a>,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        .ep_write_packet = <a class="code" href="usb__fx07__common_8c.html#ae1410725ae62247feeb257c608f43542">stm32fx07_ep_write_packet</a>,</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        .ep_read_packet = <a class="code" href="usb__fx07__common_8c.html#aa263b30fa161295b25907aed2167503a">stm32fx07_ep_read_packet</a>,</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        .poll = <a class="code" href="usb__fx07__common_8c.html#a6ac887edf6cf4f3bc7233df12ba9eefd">stm32fx07_poll</a>,</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        .disconnect = <a class="code" href="usb__fx07__common_8c.html#a780f34c82133eae2d2e02a5105d7e70c">stm32fx07_disconnect</a>,</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        .base_address = USB_OTG_HS_BASE,</div>
@@ -181,10 +181,10 @@ $(document).ready(function(){initNavTree('usb__f207_8c_source.html','');});
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        OTG_HS_GCCFG |= OTG_HS_GCCFG_VBUSBSEN | OTG_HS_GCCFG_PWRDWN;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="comment">/* Wait for AHB idle. */</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">while</span> (!(OTG_HS_GRSTCTL &amp; OTG_HS_GRSTCTL_AHBIDL)) ;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">while</span> (!(OTG_HS_GRSTCTL &amp; OTG_HS_GRSTCTL_AHBIDL));</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="comment">/* Do core soft reset. */</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        OTG_HS_GRSTCTL |= OTG_HS_GRSTCTL_CSRST;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">while</span> (OTG_HS_GRSTCTL &amp; OTG_HS_GRSTCTL_CSRST) ;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">while</span> (OTG_HS_GRSTCTL &amp; OTG_HS_GRSTCTL_CSRST);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">/* Force peripheral only mode. */</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        OTG_HS_GUSBCFG |= OTG_HS_GUSBCFG_FDMOD | OTG_HS_GUSBCFG_TRDT_MASK;</div>
@@ -195,8 +195,8 @@ $(document).ready(function(){initNavTree('usb__f207_8c_source.html','');});
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">/* Restart the PHY clock. */</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        OTG_HS_PCGCCTL = 0;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        OTG_HS_GRXFSIZ = stm32f207_usb_driver.<a class="code" href="struct__usbd__driver.html#a778f474973b2cadba3c43eaec70098cc">rx_fifo_size</a>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>.<a class="code" href="struct__usbd__device.html#a212245da83ffeb58ceb0b35df4482f82">fifo_mem_top</a> = stm32f207_usb_driver.<a class="code" href="struct__usbd__driver.html#a778f474973b2cadba3c43eaec70098cc">rx_fifo_size</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        OTG_HS_GRXFSIZ = stm32f207_usb_driver.<a class="code" href="struct__usbd__driver.html#a5fa81d06fb7e305b7218d5aa83322870">rx_fifo_size</a>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>.<a class="code" href="struct__usbd__device.html#a212245da83ffeb58ceb0b35df4482f82">fifo_mem_top</a> = stm32f207_usb_driver.<a class="code" href="struct__usbd__driver.html#a5fa81d06fb7e305b7218d5aa83322870">rx_fifo_size</a>;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="comment">/* Unmask interrupts for TX and RX. */</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        OTG_HS_GAHBCFG |= OTG_HS_GAHBCFG_GINT;</div>
@@ -217,7 +217,7 @@ $(document).ready(function(){initNavTree('usb__f207_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_77fc19f7d89a3cad4d832c4128eaabbf.html">usb</a></li><li class="navelem"><a class="el" href="usb__f207_8c.html">usb_f207.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:09 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:08 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

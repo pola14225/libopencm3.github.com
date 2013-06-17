@@ -1,4 +1,0 @@
-<map id="uart_enable_interrupts" name="uart_enable_interrupts">
-<area shape="rect" id="node3" href="$group__uart__irq.html#ga9b489b9e7a5175ef7368edf2738bdea3" title="Enable the UART Receive Interrupt." alt="" coords="207,5,367,35"/>
-<area shape="rect" id="node5" href="$group__uart__irq.html#ga8976eda1efdcac1bf5c1fb8d9070a969" title="Enable the UART Transmit Interrupt." alt="" coords="207,59,367,88"/>
-</map>

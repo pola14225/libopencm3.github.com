@@ -20,57 +20,57 @@
       <type>void</type>
       <name>gpio_mode_setup</name>
       <anchorfile>group__gpio__config.html</anchorfile>
-      <anchor>gac3ca54b7e2b154aeb9da53f8b3e905ba</anchor>
-      <arglist>(u32 gpioport, enum gpio_mode mode, enum gpio_pullup pullup, u8 gpios)</arglist>
+      <anchor>ga03c124c823e28cfee2bbf904ca12020b</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_mode mode, enum gpio_pullup pullup, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_output_config</name>
       <anchorfile>group__gpio__config.html</anchorfile>
-      <anchor>gaeb5dfc3b455c08949eb1bcd871175ec6</anchor>
-      <arglist>(u32 gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, u8 gpios)</arglist>
+      <anchor>ga83d7dc913be2bd27110019cae5ecf25d</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_af</name>
       <anchorfile>group__gpio__config.html</anchorfile>
-      <anchor>gaa275d2d5cc2b242926f2fd113245083d</anchor>
-      <arglist>(u32 gpioport, u8 alt_func_num, u8 gpios)</arglist>
+      <anchor>ga08c5e974d93f738dcd80cf95b2447a6a</anchor>
+      <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_unlock_commit</name>
       <anchorfile>group__gpio__config.html</anchorfile>
-      <anchor>gad85a11697ef4bef24da7e75f7420a529</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga070a8a3682a7e30e037a6de9b287355c</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gaf43516eb9715f3c7359c069140114c22</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gac7fe863cd889722d5e06916617b007b1</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_configure_trigger</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>gaa89149570d495a7f2de9e8de63976b6c</anchor>
-      <arglist>(u32 gpioport, enum gpio_trigger trigger, u8 gpios)</arglist>
+      <anchor>ga6a3a20a7f47ef2eb7c6efa9360f51fc9</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_trigger trigger, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_enable_interrupts</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>ga8455249d912f67fb02844a723dcceabb</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga6647e613abe8223c2e78f773dfa279ce</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_disable_interrupts</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>gae52605679f01558f602673209ebfb232</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gaa85cd2d1a8cbcfa7406e11afb15c1b6b</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -220,113 +220,113 @@
       <type>void</type>
       <name>gpio_mode_setup</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gac3ca54b7e2b154aeb9da53f8b3e905ba</anchor>
-      <arglist>(u32 gpioport, enum gpio_mode mode, enum gpio_pullup pullup, u8 gpios)</arglist>
+      <anchor>ga03c124c823e28cfee2bbf904ca12020b</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_mode mode, enum gpio_pullup pullup, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_output_config</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaeb5dfc3b455c08949eb1bcd871175ec6</anchor>
-      <arglist>(u32 gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, u8 gpios)</arglist>
+      <anchor>ga83d7dc913be2bd27110019cae5ecf25d</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_af</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa275d2d5cc2b242926f2fd113245083d</anchor>
-      <arglist>(u32 gpioport, u8 alt_func_num, u8 gpios)</arglist>
+      <anchor>ga08c5e974d93f738dcd80cf95b2447a6a</anchor>
+      <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf43516eb9715f3c7359c069140114c22</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gac7fe863cd889722d5e06916617b007b1</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_unlock_commit</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gad85a11697ef4bef24da7e75f7420a529</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga070a8a3682a7e30e037a6de9b287355c</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_configure_trigger</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa89149570d495a7f2de9e8de63976b6c</anchor>
-      <arglist>(u32 gpioport, enum gpio_trigger trigger, u8 gpios)</arglist>
+      <anchor>ga6a3a20a7f47ef2eb7c6efa9360f51fc9</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_trigger trigger, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_enable_interrupts</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8455249d912f67fb02844a723dcceabb</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga6647e613abe8223c2e78f773dfa279ce</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_disable_interrupts</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae52605679f01558f602673209ebfb232</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gaa85cd2d1a8cbcfa7406e11afb15c1b6b</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static u8</type>
+      <type>static uint8_t</type>
       <name>gpio_read</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gadb29085c0de18f59e471160453a0a149</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga4efb268c94f062228de2339d8273af82</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_write</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>ga80f98da8ce519c206aa60774fa8bd7fb</anchor>
-      <arglist>(u32 gpioport, u8 gpios, u8 data)</arglist>
+      <anchor>ga86b48f47f23889ffed56ab86c0605865</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios, uint8_t data)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gae1ae1ae1fceffa7393e51d2be384bc4f</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga8ce0832cd5110fa7bbe0f6c968a04a09</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gae7e38f79b34a83bdd1b6360b81e76d3f</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gaed9a0283ed78d8746f72a298889207f4</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static u8</type>
+      <type>static uint8_t</type>
       <name>gpio_port_read</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>ga2348b95cf0a72037d7f34018cc03fd96</anchor>
-      <arglist>(u32 gpioport)</arglist>
+      <anchor>gae3a2f79057d2a87a5f08b28242ea8ba8</anchor>
+      <arglist>(uint32_t gpioport)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_port_write</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>ga27e1eb5389ebf38b9d470e5005851552</anchor>
-      <arglist>(u32 gpioport, u8 data)</arglist>
+      <anchor>ga00eeea592868471ce4eecce176b062f7</anchor>
+      <arglist>(uint32_t gpioport, uint8_t data)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>gpio_is_interrupt_source</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>gaf9a98ff021b857053ee093777626d075</anchor>
-      <arglist>(u32 gpioport, u8 srcpins)</arglist>
+      <anchor>ga6526582457c0936b5a978b2548336610</anchor>
+      <arglist>(uint32_t gpioport, uint8_t srcpins)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_clear_interrupt_flag</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>ga1229fe96162a64427017b1f84745d5a3</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga0eff5e23114c6346aff26c0b275d7464</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -429,8 +429,8 @@
       <type>void</type>
       <name>rcc_set_pll_divisor</name>
       <anchorfile>group__rcc__low__level.html</anchorfile>
-      <anchor>gaf867d8975967972fff96350206c36a2e</anchor>
-      <arglist>(u8 div400)</arglist>
+      <anchor>ga104041e1468a0fc62d6c584a25859053</anchor>
+      <arglist>(uint8_t div400)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -464,35 +464,35 @@
       <type>void</type>
       <name>rcc_change_pll_divisor</name>
       <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>ga8a17e04e6b457ec201d76ba1ee418a9d</anchor>
-      <arglist>(u8 pll_div400)</arglist>
+      <anchor>ga1c5a8dbbc0a6bac380b0041962075269</anchor>
+      <arglist>(uint8_t pll_div400)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_get_system_clock_frequency</name>
       <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>gaebfa606dfc58689248800e62bceb2f93</anchor>
+      <anchor>ga14ed842866228082443acad62da172f4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static u32</type>
+      <type>static uint32_t</type>
       <name>xtal_to_freq</name>
       <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>gaf2fc6f12a382f0e34221330ee37fe0ff</anchor>
+      <anchor>ga7e2e905c72a0c519ccc4a3fcdf3e476f</anchor>
       <arglist>(xtal_t xtal)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_sysclk_config</name>
       <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>ga893dc6461e9af854fb562c0e97df6a5b</anchor>
-      <arglist>(osc_src_t osc_src, xtal_t xtal, u8 pll_div400)</arglist>
+      <anchor>ga9650a2780970b01221f64600797ca681</anchor>
+      <arglist>(osc_src_t osc_src, xtal_t xtal, uint8_t pll_div400)</arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>lm4f_rcc_sysclk_freq</name>
       <anchorfile>group__rcc__low__level.html</anchorfile>
-      <anchor>ga45ac0a3082a27e5d55e718de67fde983</anchor>
+      <anchor>ga53588dcb636da3e059dd7c45d82f6504</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -791,8 +791,8 @@
       <type>void</type>
       <name>rcc_set_pll_divisor</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf867d8975967972fff96350206c36a2e</anchor>
-      <arglist>(u8 div400)</arglist>
+      <anchor>ga104041e1468a0fc62d6c584a25859053</anchor>
+      <arglist>(uint8_t div400)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -826,22 +826,22 @@
       <type>void</type>
       <name>rcc_change_pll_divisor</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf94026ce3a7b5628a286fb1f67c569fd</anchor>
-      <arglist>(u8 plldiv400)</arglist>
+      <anchor>ga70fca8e561f7e2b2b7062c22d85419b4</anchor>
+      <arglist>(uint8_t plldiv400)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_get_system_clock_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaebfa606dfc58689248800e62bceb2f93</anchor>
+      <anchor>ga14ed842866228082443acad62da172f4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_sysclk_config</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga2f7b0475bc8a219cfa43ed0f5efd3597</anchor>
-      <arglist>(osc_src_t src, xtal_t xtal, u8 pll_div400)</arglist>
+      <anchor>gac30c6e5d8aa6f46dba80abc44751c888</anchor>
+      <arglist>(osc_src_t src, xtal_t xtal, uint8_t pll_div400)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1976,204 +1976,204 @@
       <type>void</type>
       <name>uart_enable</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga1986760b76baaca81b12d65b69f7efb5</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gacd6ffe5e9e3f555d07a3af7ee7fdf74a</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga25e5d256338110603c9f5e9d7f764679</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga0167757699a14269e55640b5034ffcbf</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_baudrate</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga0bf883f060f4daeb16d479786c5bb205</anchor>
-      <arglist>(u32 uart, u32 baud)</arglist>
+      <anchor>ga05a4513fed24167dd33ebc5805b9ca77</anchor>
+      <arglist>(uint32_t uart, uint32_t baud)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_databits</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>gadbc7cedf5cbb59437049265a97a441ab</anchor>
-      <arglist>(u32 uart, u8 databits)</arglist>
+      <anchor>gadafb5a1c4596fb687bdc99dff191d88f</anchor>
+      <arglist>(uint32_t uart, uint8_t databits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_stopbits</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>gab1535ac90c9962a33560ba83f08d3a02</anchor>
-      <arglist>(u32 uart, u8 stopbits)</arglist>
+      <anchor>gaf3ddb4b6b173fb6cd30139ac67ca62cb</anchor>
+      <arglist>(uint32_t uart, uint8_t stopbits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_parity</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>gafe7c6f22987bd7394cc3effa35ebf393</anchor>
-      <arglist>(u32 uart, enum uart_parity parity)</arglist>
+      <anchor>ga7b0acac78989b94dab26d92d1b640e05</anchor>
+      <arglist>(uint32_t uart, enum uart_parity parity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_flow_control</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga4cef6e53b5e108404b5b4cc61e9e011d</anchor>
-      <arglist>(u32 uart, enum uart_flowctl flow)</arglist>
+      <anchor>gabc37af12e01b5827d40f5ed7d149076f</anchor>
+      <arglist>(uint32_t uart, enum uart_flowctl flow)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clock_from_piosc</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga6fd10c339086a6fc244ddd61e07a9042</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gab9d2f5223bc6f08621e9b6d38f8a4fb9</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clock_from_sysclk</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>gad068d0d195488bc40ebe22ed6d3a9160</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga917d75f562fe93eea7c684756f9f02c1</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_send</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>ga644097552146ac9c31b1c28a0098dd78</anchor>
-      <arglist>(u32 uart, u16 data)</arglist>
+      <anchor>ga225444640f9510f126a597004fe3dcfc</anchor>
+      <arglist>(uint32_t uart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>uart_recv</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>gaa340e677480980b6751ac0ad83aabfd8</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga58e1b434c54c8994d9120194e2b542ab</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_wait_send_ready</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>ga5ced85790f760618b3f9583c10b40944</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga9546f62d7bb1695a34748ae418d2ed7f</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_wait_recv_ready</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>ga57075c0822d1505c40725c906310011b</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga42ff0fbee0d1b80cc77667c14c3213dc</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_send_blocking</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>gaddc763c3c98025e1ccd0722768f0b184</anchor>
-      <arglist>(u32 uart, u16 data)</arglist>
+      <anchor>ga2a621068c90e83ee0d9646235dda7ba6</anchor>
+      <arglist>(uint32_t uart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>uart_recv_blocking</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>ga20c33a40f18e40219379cddf0b987814</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga5a7498f353526e8cb9e6c8bc5735d1f1</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_interrupts</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>ga20cf32aae3969a9b1e857cd1ca145a27</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_interrupts</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga6dd2f50f82e63295d2a0992ea1266e71</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>ga2fdf35d91a90e2452368b0358d942f93</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_rx_interrupt</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga9b489b9e7a5175ef7368edf2738bdea3</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gac40fe4cd2b2d331d83100e305c2f6f78</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_rx_interrupt</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>gab9cba946fe4287dceeb1af377f5f184d</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga6c46b4228c1da4010f8e8d5a66bde0c0</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_tx_interrupt</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga8976eda1efdcac1bf5c1fb8d9070a969</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gaab2f52c4fdb9b8ba9e89670e93727ecf</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_tx_interrupt</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga478001bc20021b274250fd135bf491d5</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga2d6559da0d940412e88374af5fe8a5dc</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clear_interrupt_flag</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>gab5fd7ee81bc609e4aca33a4b9079611b</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_rx_dma</name>
       <anchorfile>group__uart__dma.html</anchorfile>
-      <anchor>ga0b93072916945c485bb6daee91e73b4d</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga1028a66c1d0794aa79c9f9c3f116f124</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_rx_dma</name>
       <anchorfile>group__uart__dma.html</anchorfile>
-      <anchor>gad05e92d61088a06f466b19b83c25c98e</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga0260bfb6563f9ffde298d76e71265994</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_tx_dma</name>
       <anchorfile>group__uart__dma.html</anchorfile>
-      <anchor>gaa5650bb5ea598dddbd4a0c29daf040e9</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga8efe31511341bd42f7ed5c60aa4a29a2</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_tx_dma</name>
       <anchorfile>group__uart__dma.html</anchorfile>
-      <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga92c430ac58b1716402b67ec2ab3be426</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_fifo</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>gab3cd10b3ae6cad525820b2ad331f9362</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga01026f3f8ddd0939fd8e291ea3837365</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_fifo</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga089f1c5dca7359ccf26e29728f548765</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gad0ef308eb0c6b5a6009c97b3127d014c</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_fifo_trigger_levels</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>gaf2a3f0dac0cecc4d431072f68e9829d9</anchor>
-      <arglist>(u32 uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
+      <anchor>ga37814e8f7102ff91e9e73d17ffb0e55a</anchor>
+      <arglist>(uint32_t uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2418,246 +2418,246 @@
       <type>BEGIN_DECLS void</type>
       <name>uart_set_baudrate</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga272000d8efe4ed2d788b93468e33bf09</anchor>
-      <arglist>(u32 uart, u32 baud)</arglist>
+      <anchor>ga5e530a66e67a91f2cb782b9abce0d896</anchor>
+      <arglist>(uint32_t uart, uint32_t baud)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_databits</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gadbc7cedf5cbb59437049265a97a441ab</anchor>
-      <arglist>(u32 uart, u8 databits)</arglist>
+      <anchor>gadafb5a1c4596fb687bdc99dff191d88f</anchor>
+      <arglist>(uint32_t uart, uint8_t databits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_stopbits</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gab1535ac90c9962a33560ba83f08d3a02</anchor>
-      <arglist>(u32 uart, u8 stopbits)</arglist>
+      <anchor>gaf3ddb4b6b173fb6cd30139ac67ca62cb</anchor>
+      <arglist>(uint32_t uart, uint8_t stopbits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_parity</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gafe7c6f22987bd7394cc3effa35ebf393</anchor>
-      <arglist>(u32 uart, enum uart_parity parity)</arglist>
+      <anchor>ga7b0acac78989b94dab26d92d1b640e05</anchor>
+      <arglist>(uint32_t uart, enum uart_parity parity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_mode</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga7dacfd5754ba93b9552dc8d28aaae007</anchor>
-      <arglist>(u32 uart, u32 mode)</arglist>
+      <anchor>ga35e0dc6cb6910a92c425b6303006e273</anchor>
+      <arglist>(uint32_t uart, uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_flow_control</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga4cef6e53b5e108404b5b4cc61e9e011d</anchor>
-      <arglist>(u32 uart, enum uart_flowctl flow)</arglist>
+      <anchor>gabc37af12e01b5827d40f5ed7d149076f</anchor>
+      <arglist>(uint32_t uart, enum uart_flowctl flow)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga1986760b76baaca81b12d65b69f7efb5</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gacd6ffe5e9e3f555d07a3af7ee7fdf74a</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga25e5d256338110603c9f5e9d7f764679</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga0167757699a14269e55640b5034ffcbf</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clock_from_piosc</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga6fd10c339086a6fc244ddd61e07a9042</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gab9d2f5223bc6f08621e9b6d38f8a4fb9</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clock_from_sysclk</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gad068d0d195488bc40ebe22ed6d3a9160</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga917d75f562fe93eea7c684756f9f02c1</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_send</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga644097552146ac9c31b1c28a0098dd78</anchor>
-      <arglist>(u32 uart, u16 data)</arglist>
+      <anchor>ga225444640f9510f126a597004fe3dcfc</anchor>
+      <arglist>(uint32_t uart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>uart_recv</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gaa340e677480980b6751ac0ad83aabfd8</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga58e1b434c54c8994d9120194e2b542ab</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_wait_send_ready</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga5ced85790f760618b3f9583c10b40944</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga9546f62d7bb1695a34748ae418d2ed7f</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_wait_recv_ready</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga57075c0822d1505c40725c906310011b</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga42ff0fbee0d1b80cc77667c14c3213dc</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_send_blocking</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gaddc763c3c98025e1ccd0722768f0b184</anchor>
-      <arglist>(u32 uart, u16 data)</arglist>
+      <anchor>ga2a621068c90e83ee0d9646235dda7ba6</anchor>
+      <arglist>(uint32_t uart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>uart_recv_blocking</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga20c33a40f18e40219379cddf0b987814</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga5a7498f353526e8cb9e6c8bc5735d1f1</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_rx_dma</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga0b93072916945c485bb6daee91e73b4d</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga1028a66c1d0794aa79c9f9c3f116f124</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_rx_dma</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gad05e92d61088a06f466b19b83c25c98e</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga0260bfb6563f9ffde298d76e71265994</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_tx_dma</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gaa5650bb5ea598dddbd4a0c29daf040e9</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga8efe31511341bd42f7ed5c60aa4a29a2</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_tx_dma</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga92c430ac58b1716402b67ec2ab3be426</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_fifo</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gab3cd10b3ae6cad525820b2ad331f9362</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga01026f3f8ddd0939fd8e291ea3837365</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_fifo</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga089f1c5dca7359ccf26e29728f548765</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gad0ef308eb0c6b5a6009c97b3127d014c</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_fifo_trigger_levels</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gaf2a3f0dac0cecc4d431072f68e9829d9</anchor>
-      <arglist>(u32 uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
+      <anchor>ga37814e8f7102ff91e9e73d17ffb0e55a</anchor>
+      <arglist>(uint32_t uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_interrupts</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>ga20cf32aae3969a9b1e857cd1ca145a27</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_interrupts</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga6dd2f50f82e63295d2a0992ea1266e71</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>ga2fdf35d91a90e2452368b0358d942f93</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_rx_interrupt</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga9b489b9e7a5175ef7368edf2738bdea3</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gac40fe4cd2b2d331d83100e305c2f6f78</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_rx_interrupt</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gab9cba946fe4287dceeb1af377f5f184d</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga6c46b4228c1da4010f8e8d5a66bde0c0</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_tx_interrupt</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga8976eda1efdcac1bf5c1fb8d9070a969</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gaab2f52c4fdb9b8ba9e89670e93727ecf</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_tx_interrupt</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga478001bc20021b274250fd135bf491d5</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga2d6559da0d940412e88374af5fe8a5dc</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clear_interrupt_flag</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>gab5fd7ee81bc609e4aca33a4b9079611b</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_tx_fifo_full</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga61159b452775347036209c1ccb516a2b</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga509d7ccd81a766a5a240558f85e3ca0b</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_tx_fifo_empty</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga2749cb5cc83bde92004c55c27558be88</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gad1246f6b0b156022d942ded6a7a7e398</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_rx_fifo_full</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga2efe8fa623488be63244beb71545c862</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga6a2584c859c685b3ff9693c7e9b1d657</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_rx_fifo_empty</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>gaa7b271162dd8bdb3a7aed7aca8c558d1</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga840603de8127f2b63abdd1f5d113f938</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_interrupt_source</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga0a4de5017ea5b32ef5e1b9a7229bd166</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag source)</arglist>
+      <anchor>ga6271114e5fe89f29dd5243c7c0c1934d</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag source)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2964,99 +2964,99 @@
       <type>void</type>
       <name>gpio_mode_setup</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gac3ca54b7e2b154aeb9da53f8b3e905ba</anchor>
-      <arglist>(u32 gpioport, enum gpio_mode mode, enum gpio_pullup pullup, u8 gpios)</arglist>
+      <anchor>ga03c124c823e28cfee2bbf904ca12020b</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_mode mode, enum gpio_pullup pullup, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_output_config</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaeb5dfc3b455c08949eb1bcd871175ec6</anchor>
-      <arglist>(u32 gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, u8 gpios)</arglist>
+      <anchor>ga83d7dc913be2bd27110019cae5ecf25d</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_af</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa275d2d5cc2b242926f2fd113245083d</anchor>
-      <arglist>(u32 gpioport, u8 alt_func_num, u8 gpios)</arglist>
+      <anchor>ga08c5e974d93f738dcd80cf95b2447a6a</anchor>
+      <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf43516eb9715f3c7359c069140114c22</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gac7fe863cd889722d5e06916617b007b1</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_unlock_commit</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gad85a11697ef4bef24da7e75f7420a529</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga070a8a3682a7e30e037a6de9b287355c</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_configure_trigger</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa89149570d495a7f2de9e8de63976b6c</anchor>
-      <arglist>(u32 gpioport, enum gpio_trigger trigger, u8 gpios)</arglist>
+      <anchor>ga6a3a20a7f47ef2eb7c6efa9360f51fc9</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_trigger trigger, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_enable_interrupts</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8455249d912f67fb02844a723dcceabb</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga6647e613abe8223c2e78f773dfa279ce</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_disable_interrupts</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae52605679f01558f602673209ebfb232</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gaa85cd2d1a8cbcfa7406e11afb15c1b6b</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_write</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>ga80f98da8ce519c206aa60774fa8bd7fb</anchor>
-      <arglist>(u32 gpioport, u8 gpios, u8 data)</arglist>
+      <anchor>ga86b48f47f23889ffed56ab86c0605865</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios, uint8_t data)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gae1ae1ae1fceffa7393e51d2be384bc4f</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga8ce0832cd5110fa7bbe0f6c968a04a09</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gae7e38f79b34a83bdd1b6360b81e76d3f</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gaed9a0283ed78d8746f72a298889207f4</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static u8</type>
+      <type>static uint8_t</type>
       <name>gpio_port_read</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>ga2348b95cf0a72037d7f34018cc03fd96</anchor>
-      <arglist>(u32 gpioport)</arglist>
+      <anchor>gae3a2f79057d2a87a5f08b28242ea8ba8</anchor>
+      <arglist>(uint32_t gpioport)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_port_write</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>ga27e1eb5389ebf38b9d470e5005851552</anchor>
-      <arglist>(u32 gpioport, u8 data)</arglist>
+      <anchor>ga00eeea592868471ce4eecce176b062f7</anchor>
+      <arglist>(uint32_t gpioport, uint8_t data)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_clear_interrupt_flag</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>ga1229fe96162a64427017b1f84745d5a3</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga0eff5e23114c6346aff26c0b275d7464</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -3369,8 +3369,8 @@
       <type>void</type>
       <name>rcc_set_pll_divisor</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf867d8975967972fff96350206c36a2e</anchor>
-      <arglist>(u8 div400)</arglist>
+      <anchor>ga104041e1468a0fc62d6c584a25859053</anchor>
+      <arglist>(uint8_t div400)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3404,22 +3404,22 @@
       <type>void</type>
       <name>rcc_change_pll_divisor</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf94026ce3a7b5628a286fb1f67c569fd</anchor>
-      <arglist>(u8 plldiv400)</arglist>
+      <anchor>ga70fca8e561f7e2b2b7062c22d85419b4</anchor>
+      <arglist>(uint8_t plldiv400)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_get_system_clock_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaebfa606dfc58689248800e62bceb2f93</anchor>
+      <anchor>ga14ed842866228082443acad62da172f4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_sysclk_config</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga2f7b0475bc8a219cfa43ed0f5efd3597</anchor>
-      <arglist>(osc_src_t src, xtal_t xtal, u8 pll_div400)</arglist>
+      <anchor>gac30c6e5d8aa6f46dba80abc44751c888</anchor>
+      <arglist>(osc_src_t src, xtal_t xtal, uint8_t pll_div400)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -4770,232 +4770,232 @@
       <type>BEGIN_DECLS void</type>
       <name>uart_set_baudrate</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga272000d8efe4ed2d788b93468e33bf09</anchor>
-      <arglist>(u32 uart, u32 baud)</arglist>
+      <anchor>ga5e530a66e67a91f2cb782b9abce0d896</anchor>
+      <arglist>(uint32_t uart, uint32_t baud)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_databits</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gadbc7cedf5cbb59437049265a97a441ab</anchor>
-      <arglist>(u32 uart, u8 databits)</arglist>
+      <anchor>gadafb5a1c4596fb687bdc99dff191d88f</anchor>
+      <arglist>(uint32_t uart, uint8_t databits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_stopbits</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gab1535ac90c9962a33560ba83f08d3a02</anchor>
-      <arglist>(u32 uart, u8 stopbits)</arglist>
+      <anchor>gaf3ddb4b6b173fb6cd30139ac67ca62cb</anchor>
+      <arglist>(uint32_t uart, uint8_t stopbits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_parity</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gafe7c6f22987bd7394cc3effa35ebf393</anchor>
-      <arglist>(u32 uart, enum uart_parity parity)</arglist>
+      <anchor>ga7b0acac78989b94dab26d92d1b640e05</anchor>
+      <arglist>(uint32_t uart, enum uart_parity parity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_mode</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga7dacfd5754ba93b9552dc8d28aaae007</anchor>
-      <arglist>(u32 uart, u32 mode)</arglist>
+      <anchor>ga35e0dc6cb6910a92c425b6303006e273</anchor>
+      <arglist>(uint32_t uart, uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_flow_control</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga4cef6e53b5e108404b5b4cc61e9e011d</anchor>
-      <arglist>(u32 uart, enum uart_flowctl flow)</arglist>
+      <anchor>gabc37af12e01b5827d40f5ed7d149076f</anchor>
+      <arglist>(uint32_t uart, enum uart_flowctl flow)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga1986760b76baaca81b12d65b69f7efb5</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gacd6ffe5e9e3f555d07a3af7ee7fdf74a</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga25e5d256338110603c9f5e9d7f764679</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga0167757699a14269e55640b5034ffcbf</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clock_from_piosc</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga6fd10c339086a6fc244ddd61e07a9042</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gab9d2f5223bc6f08621e9b6d38f8a4fb9</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clock_from_sysclk</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gad068d0d195488bc40ebe22ed6d3a9160</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga917d75f562fe93eea7c684756f9f02c1</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_send</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga644097552146ac9c31b1c28a0098dd78</anchor>
-      <arglist>(u32 uart, u16 data)</arglist>
+      <anchor>ga225444640f9510f126a597004fe3dcfc</anchor>
+      <arglist>(uint32_t uart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>uart_recv</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gaa340e677480980b6751ac0ad83aabfd8</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga58e1b434c54c8994d9120194e2b542ab</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_wait_send_ready</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga5ced85790f760618b3f9583c10b40944</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga9546f62d7bb1695a34748ae418d2ed7f</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_wait_recv_ready</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga57075c0822d1505c40725c906310011b</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga42ff0fbee0d1b80cc77667c14c3213dc</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_send_blocking</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gaddc763c3c98025e1ccd0722768f0b184</anchor>
-      <arglist>(u32 uart, u16 data)</arglist>
+      <anchor>ga2a621068c90e83ee0d9646235dda7ba6</anchor>
+      <arglist>(uint32_t uart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>uart_recv_blocking</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga20c33a40f18e40219379cddf0b987814</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga5a7498f353526e8cb9e6c8bc5735d1f1</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_rx_dma</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga0b93072916945c485bb6daee91e73b4d</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga1028a66c1d0794aa79c9f9c3f116f124</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_rx_dma</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gad05e92d61088a06f466b19b83c25c98e</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga0260bfb6563f9ffde298d76e71265994</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_tx_dma</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gaa5650bb5ea598dddbd4a0c29daf040e9</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga8efe31511341bd42f7ed5c60aa4a29a2</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_tx_dma</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga92c430ac58b1716402b67ec2ab3be426</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_fifo</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gab3cd10b3ae6cad525820b2ad331f9362</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga01026f3f8ddd0939fd8e291ea3837365</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_fifo</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga089f1c5dca7359ccf26e29728f548765</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gad0ef308eb0c6b5a6009c97b3127d014c</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_fifo_trigger_levels</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gaf2a3f0dac0cecc4d431072f68e9829d9</anchor>
-      <arglist>(u32 uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
+      <anchor>ga37814e8f7102ff91e9e73d17ffb0e55a</anchor>
+      <arglist>(uint32_t uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_interrupts</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>ga20cf32aae3969a9b1e857cd1ca145a27</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_interrupts</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga6dd2f50f82e63295d2a0992ea1266e71</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>ga2fdf35d91a90e2452368b0358d942f93</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_rx_interrupt</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga9b489b9e7a5175ef7368edf2738bdea3</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gac40fe4cd2b2d331d83100e305c2f6f78</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_rx_interrupt</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>gab9cba946fe4287dceeb1af377f5f184d</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga6c46b4228c1da4010f8e8d5a66bde0c0</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_tx_interrupt</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga8976eda1efdcac1bf5c1fb8d9070a969</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gaab2f52c4fdb9b8ba9e89670e93727ecf</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_tx_interrupt</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga478001bc20021b274250fd135bf491d5</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga2d6559da0d940412e88374af5fe8a5dc</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clear_interrupt_flag</name>
       <anchorfile>group__uart__defines.html</anchorfile>
-      <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>gab5fd7ee81bc609e4aca33a4b9079611b</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_tx_fifo_empty</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga2749cb5cc83bde92004c55c27558be88</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gad1246f6b0b156022d942ded6a7a7e398</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_rx_fifo_full</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga2efe8fa623488be63244beb71545c862</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga6a2584c859c685b3ff9693c7e9b1d657</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_rx_fifo_empty</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>gaa7b271162dd8bdb3a7aed7aca8c558d1</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga840603de8127f2b63abdd1f5d113f938</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -5135,29 +5135,29 @@
       <type>void</type>
       <name>gpio_mode_setup</name>
       <anchorfile>group__gpio__config.html</anchorfile>
-      <anchor>gac3ca54b7e2b154aeb9da53f8b3e905ba</anchor>
-      <arglist>(u32 gpioport, enum gpio_mode mode, enum gpio_pullup pullup, u8 gpios)</arglist>
+      <anchor>ga03c124c823e28cfee2bbf904ca12020b</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_mode mode, enum gpio_pullup pullup, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_output_config</name>
       <anchorfile>group__gpio__config.html</anchorfile>
-      <anchor>gaeb5dfc3b455c08949eb1bcd871175ec6</anchor>
-      <arglist>(u32 gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, u8 gpios)</arglist>
+      <anchor>ga83d7dc913be2bd27110019cae5ecf25d</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_output_type otype, enum gpio_drive_strength drive, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_af</name>
       <anchorfile>group__gpio__config.html</anchorfile>
-      <anchor>gaa275d2d5cc2b242926f2fd113245083d</anchor>
-      <arglist>(u32 gpioport, u8 alt_func_num, u8 gpios)</arglist>
+      <anchor>ga08c5e974d93f738dcd80cf95b2447a6a</anchor>
+      <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_unlock_commit</name>
       <anchorfile>group__gpio__config.html</anchorfile>
-      <anchor>gad85a11697ef4bef24da7e75f7420a529</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga070a8a3682a7e30e037a6de9b287355c</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <docanchor file="group__gpio__config">gpio_api_enable</docanchor>
     <docanchor file="group__gpio__config">gpio_api_in</docanchor>
@@ -5174,50 +5174,50 @@
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gaf43516eb9715f3c7359c069140114c22</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gac7fe863cd889722d5e06916617b007b1</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static u8</type>
+      <type>static uint8_t</type>
       <name>gpio_read</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gadb29085c0de18f59e471160453a0a149</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga4efb268c94f062228de2339d8273af82</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_write</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>ga80f98da8ce519c206aa60774fa8bd7fb</anchor>
-      <arglist>(u32 gpioport, u8 gpios, u8 data)</arglist>
+      <anchor>ga86b48f47f23889ffed56ab86c0605865</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios, uint8_t data)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gae1ae1ae1fceffa7393e51d2be384bc4f</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga8ce0832cd5110fa7bbe0f6c968a04a09</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>gae7e38f79b34a83bdd1b6360b81e76d3f</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gaed9a0283ed78d8746f72a298889207f4</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static u8</type>
+      <type>static uint8_t</type>
       <name>gpio_port_read</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>ga2348b95cf0a72037d7f34018cc03fd96</anchor>
-      <arglist>(u32 gpioport)</arglist>
+      <anchor>gae3a2f79057d2a87a5f08b28242ea8ba8</anchor>
+      <arglist>(uint32_t gpioport)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_port_write</name>
       <anchorfile>group__gpio__control.html</anchorfile>
-      <anchor>ga27e1eb5389ebf38b9d470e5005851552</anchor>
-      <arglist>(u32 gpioport, u8 data)</arglist>
+      <anchor>ga00eeea592868471ce4eecce176b062f7</anchor>
+      <arglist>(uint32_t gpioport, uint8_t data)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -5228,36 +5228,36 @@
       <type>void</type>
       <name>gpio_configure_trigger</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>gaa89149570d495a7f2de9e8de63976b6c</anchor>
-      <arglist>(u32 gpioport, enum gpio_trigger trigger, u8 gpios)</arglist>
+      <anchor>ga6a3a20a7f47ef2eb7c6efa9360f51fc9</anchor>
+      <arglist>(uint32_t gpioport, enum gpio_trigger trigger, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_enable_interrupts</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>ga8455249d912f67fb02844a723dcceabb</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga6647e613abe8223c2e78f773dfa279ce</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_disable_interrupts</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>gae52605679f01558f602673209ebfb232</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>gaa85cd2d1a8cbcfa7406e11afb15c1b6b</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>gpio_is_interrupt_source</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>gaf9a98ff021b857053ee093777626d075</anchor>
-      <arglist>(u32 gpioport, u8 srcpins)</arglist>
+      <anchor>ga6526582457c0936b5a978b2548336610</anchor>
+      <arglist>(uint32_t gpioport, uint8_t srcpins)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>gpio_clear_interrupt_flag</name>
       <anchorfile>group__gpio__irq.html</anchorfile>
-      <anchor>ga1229fe96162a64427017b1f84745d5a3</anchor>
-      <arglist>(u32 gpioport, u8 gpios)</arglist>
+      <anchor>ga0eff5e23114c6346aff26c0b275d7464</anchor>
+      <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -5352,8 +5352,8 @@
       <type>void</type>
       <name>rcc_set_pll_divisor</name>
       <anchorfile>group__rcc__low__level.html</anchorfile>
-      <anchor>gaf867d8975967972fff96350206c36a2e</anchor>
-      <arglist>(u8 div400)</arglist>
+      <anchor>ga104041e1468a0fc62d6c584a25859053</anchor>
+      <arglist>(uint8_t div400)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5384,10 +5384,10 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>lm4f_rcc_sysclk_freq</name>
       <anchorfile>group__rcc__low__level.html</anchorfile>
-      <anchor>ga45ac0a3082a27e5d55e718de67fde983</anchor>
+      <anchor>ga53588dcb636da3e059dd7c45d82f6504</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5399,29 +5399,29 @@
       <type>void</type>
       <name>rcc_change_pll_divisor</name>
       <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>ga8a17e04e6b457ec201d76ba1ee418a9d</anchor>
-      <arglist>(u8 pll_div400)</arglist>
+      <anchor>ga1c5a8dbbc0a6bac380b0041962075269</anchor>
+      <arglist>(uint8_t pll_div400)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_get_system_clock_frequency</name>
       <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>gaebfa606dfc58689248800e62bceb2f93</anchor>
+      <anchor>ga14ed842866228082443acad62da172f4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static u32</type>
+      <type>static uint32_t</type>
       <name>xtal_to_freq</name>
       <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>gaf2fc6f12a382f0e34221330ee37fe0ff</anchor>
+      <anchor>ga7e2e905c72a0c519ccc4a3fcdf3e476f</anchor>
       <arglist>(xtal_t xtal)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_sysclk_config</name>
       <anchorfile>group__rcc__high__level.html</anchorfile>
-      <anchor>ga893dc6461e9af854fb562c0e97df6a5b</anchor>
-      <arglist>(osc_src_t osc_src, xtal_t xtal, u8 pll_div400)</arglist>
+      <anchor>ga9650a2780970b01221f64600797ca681</anchor>
+      <arglist>(osc_src_t osc_src, xtal_t xtal, uint8_t pll_div400)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -5442,64 +5442,64 @@
       <type>void</type>
       <name>uart_enable</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga1986760b76baaca81b12d65b69f7efb5</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gacd6ffe5e9e3f555d07a3af7ee7fdf74a</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga25e5d256338110603c9f5e9d7f764679</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga0167757699a14269e55640b5034ffcbf</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_baudrate</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga0bf883f060f4daeb16d479786c5bb205</anchor>
-      <arglist>(u32 uart, u32 baud)</arglist>
+      <anchor>ga05a4513fed24167dd33ebc5805b9ca77</anchor>
+      <arglist>(uint32_t uart, uint32_t baud)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_databits</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>gadbc7cedf5cbb59437049265a97a441ab</anchor>
-      <arglist>(u32 uart, u8 databits)</arglist>
+      <anchor>gadafb5a1c4596fb687bdc99dff191d88f</anchor>
+      <arglist>(uint32_t uart, uint8_t databits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_stopbits</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>gab1535ac90c9962a33560ba83f08d3a02</anchor>
-      <arglist>(u32 uart, u8 stopbits)</arglist>
+      <anchor>gaf3ddb4b6b173fb6cd30139ac67ca62cb</anchor>
+      <arglist>(uint32_t uart, uint8_t stopbits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_parity</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>gafe7c6f22987bd7394cc3effa35ebf393</anchor>
-      <arglist>(u32 uart, enum uart_parity parity)</arglist>
+      <anchor>ga7b0acac78989b94dab26d92d1b640e05</anchor>
+      <arglist>(uint32_t uart, enum uart_parity parity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_flow_control</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga4cef6e53b5e108404b5b4cc61e9e011d</anchor>
-      <arglist>(u32 uart, enum uart_flowctl flow)</arglist>
+      <anchor>gabc37af12e01b5827d40f5ed7d149076f</anchor>
+      <arglist>(uint32_t uart, enum uart_flowctl flow)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clock_from_piosc</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>ga6fd10c339086a6fc244ddd61e07a9042</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gab9d2f5223bc6f08621e9b6d38f8a4fb9</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clock_from_sysclk</name>
       <anchorfile>group__uart__config.html</anchorfile>
-      <anchor>gad068d0d195488bc40ebe22ed6d3a9160</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga917d75f562fe93eea7c684756f9f02c1</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -5510,43 +5510,43 @@
       <type>void</type>
       <name>uart_send</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>ga644097552146ac9c31b1c28a0098dd78</anchor>
-      <arglist>(u32 uart, u16 data)</arglist>
+      <anchor>ga225444640f9510f126a597004fe3dcfc</anchor>
+      <arglist>(uint32_t uart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>uart_recv</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>gaa340e677480980b6751ac0ad83aabfd8</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga58e1b434c54c8994d9120194e2b542ab</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_wait_send_ready</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>ga5ced85790f760618b3f9583c10b40944</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga9546f62d7bb1695a34748ae418d2ed7f</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_wait_recv_ready</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>ga57075c0822d1505c40725c906310011b</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga42ff0fbee0d1b80cc77667c14c3213dc</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_send_blocking</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>gaddc763c3c98025e1ccd0722768f0b184</anchor>
-      <arglist>(u32 uart, u16 data)</arglist>
+      <anchor>ga2a621068c90e83ee0d9646235dda7ba6</anchor>
+      <arglist>(uint32_t uart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>uart_recv_blocking</name>
       <anchorfile>group__uart__send__recv.html</anchorfile>
-      <anchor>ga20c33a40f18e40219379cddf0b987814</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga5a7498f353526e8cb9e6c8bc5735d1f1</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -5557,57 +5557,57 @@
       <type>void</type>
       <name>uart_enable_interrupts</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga232f483b487e1858eaf22b6a024e6778</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>ga20cf32aae3969a9b1e857cd1ca145a27</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_interrupts</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga6dd2f50f82e63295d2a0992ea1266e71</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>ga2fdf35d91a90e2452368b0358d942f93</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_rx_interrupt</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga9b489b9e7a5175ef7368edf2738bdea3</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gac40fe4cd2b2d331d83100e305c2f6f78</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_rx_interrupt</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>gab9cba946fe4287dceeb1af377f5f184d</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga6c46b4228c1da4010f8e8d5a66bde0c0</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_tx_interrupt</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga8976eda1efdcac1bf5c1fb8d9070a969</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gaab2f52c4fdb9b8ba9e89670e93727ecf</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_tx_interrupt</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga478001bc20021b274250fd135bf491d5</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga2d6559da0d940412e88374af5fe8a5dc</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_clear_interrupt_flag</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga924a61bf45265d78ef59b6f068209988</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag ints)</arglist>
+      <anchor>gab5fd7ee81bc609e4aca33a4b9079611b</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag ints)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_interrupt_source</name>
       <anchorfile>group__uart__irq.html</anchorfile>
-      <anchor>ga0a4de5017ea5b32ef5e1b9a7229bd166</anchor>
-      <arglist>(u32 uart, enum uart_interrupt_flag source)</arglist>
+      <anchor>ga6271114e5fe89f29dd5243c7c0c1934d</anchor>
+      <arglist>(uint32_t uart, enum uart_interrupt_flag source)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -5618,29 +5618,29 @@
       <type>void</type>
       <name>uart_enable_rx_dma</name>
       <anchorfile>group__uart__dma.html</anchorfile>
-      <anchor>ga0b93072916945c485bb6daee91e73b4d</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga1028a66c1d0794aa79c9f9c3f116f124</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_rx_dma</name>
       <anchorfile>group__uart__dma.html</anchorfile>
-      <anchor>gad05e92d61088a06f466b19b83c25c98e</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga0260bfb6563f9ffde298d76e71265994</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_enable_tx_dma</name>
       <anchorfile>group__uart__dma.html</anchorfile>
-      <anchor>gaa5650bb5ea598dddbd4a0c29daf040e9</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga8efe31511341bd42f7ed5c60aa4a29a2</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_tx_dma</name>
       <anchorfile>group__uart__dma.html</anchorfile>
-      <anchor>ga82dd7ed60d0e7de658ed7a6ff5eaf033</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga92c430ac58b1716402b67ec2ab3be426</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -5651,50 +5651,50 @@
       <type>void</type>
       <name>uart_enable_fifo</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>gab3cd10b3ae6cad525820b2ad331f9362</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga01026f3f8ddd0939fd8e291ea3837365</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_disable_fifo</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga089f1c5dca7359ccf26e29728f548765</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gad0ef308eb0c6b5a6009c97b3127d014c</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>uart_set_fifo_trigger_levels</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>gaf2a3f0dac0cecc4d431072f68e9829d9</anchor>
-      <arglist>(u32 uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
+      <anchor>ga37814e8f7102ff91e9e73d17ffb0e55a</anchor>
+      <arglist>(uint32_t uart, enum uart_fifo_rx_trigger_level rx_level, enum uart_fifo_tx_trigger_level tx_level)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_tx_fifo_full</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga61159b452775347036209c1ccb516a2b</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga509d7ccd81a766a5a240558f85e3ca0b</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_tx_fifo_empty</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga2749cb5cc83bde92004c55c27558be88</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>gad1246f6b0b156022d942ded6a7a7e398</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_rx_fifo_full</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>ga2efe8fa623488be63244beb71545c862</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga6a2584c859c685b3ff9693c7e9b1d657</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static bool</type>
       <name>uart_is_rx_fifo_empty</name>
       <anchorfile>group__uart__fifo.html</anchorfile>
-      <anchor>gaa7b271162dd8bdb3a7aed7aca8c558d1</anchor>
-      <arglist>(u32 uart)</arglist>
+      <anchor>ga840603de8127f2b63abdd1f5d113f938</anchor>
+      <arglist>(uint32_t uart)</arglist>
     </member>
   </compound>
   <compound kind="group">

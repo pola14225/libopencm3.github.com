@@ -1,18 +1,18 @@
 var group__usb__standard__file =
 [
-    [ "build_config_descriptor", "group__usb__standard__file.html#ga9ddd779d7d2991ea9e744b115e726a7e", null ],
-    [ "usb_descriptor_index", "group__usb__standard__file.html#gacbbbae8f1b81e1f3d3cc14389334edac", null ],
-    [ "usb_descriptor_type", "group__usb__standard__file.html#ga8e2a32b39cce0aba9ffe57b5981fa82b", null ],
-    [ "usb_standard_device_get_status", "group__usb__standard__file.html#gacdc22149f70b70c1cf3273b2554ca2b9", null ],
-    [ "usb_standard_endpoint_get_status", "group__usb__standard__file.html#ga6bf1bc18fbba36b1a74510cff6404bc8", null ],
-    [ "usb_standard_endpoint_stall", "group__usb__standard__file.html#ga79017fc3543de11a160ce349cf695b95", null ],
-    [ "usb_standard_endpoint_unstall", "group__usb__standard__file.html#ga4086e86746d87cfeadb304387c262476", null ],
-    [ "usb_standard_get_configuration", "group__usb__standard__file.html#gadf7ed528da88dd38891a7d0576827486", null ],
-    [ "usb_standard_get_descriptor", "group__usb__standard__file.html#ga91e820a9540208bd0918b6ca0454e8aa", null ],
-    [ "usb_standard_get_interface", "group__usb__standard__file.html#gab42dc32db05b0f94ca308ac0797f5ad0", null ],
-    [ "usb_standard_interface_get_status", "group__usb__standard__file.html#gae599ca81577e439ae80f0cb7a0dc45bc", null ],
-    [ "usb_standard_set_address", "group__usb__standard__file.html#ga30540969a7d80fcd5d5d70654df295d7", null ],
-    [ "usb_standard_set_configuration", "group__usb__standard__file.html#gaa5c48d8dffc0736981700cc6fd019b3b", null ],
-    [ "usb_standard_set_interface", "group__usb__standard__file.html#ga2378512ec5ceced5811a54511a58c749", null ],
-    [ "usbd_register_set_config_callback", "group__usb__standard__file.html#gad1c7cdafca2aecf946bf1000545b5cea", null ]
+    [ "build_config_descriptor", "group__usb__standard__file.html#gaf8a21c66ec88535a258872791c468098", null ],
+    [ "usb_descriptor_index", "group__usb__standard__file.html#gaf52328d55b34702e49cb14ec9005ca19", null ],
+    [ "usb_descriptor_type", "group__usb__standard__file.html#ga2df65bb0dcba3643cde420b3fdc08ff0", null ],
+    [ "usb_standard_device_get_status", "group__usb__standard__file.html#ga2c512d44bd72a83d9b438859ab3ee352", null ],
+    [ "usb_standard_endpoint_get_status", "group__usb__standard__file.html#ga4cfdd2484f7002da2cc98eea1e6a69e9", null ],
+    [ "usb_standard_endpoint_stall", "group__usb__standard__file.html#gad24d6daf25ffd5539979b9ea1648ec6f", null ],
+    [ "usb_standard_endpoint_unstall", "group__usb__standard__file.html#ga9714d02e4367d72d66f7d71abe10a70f", null ],
+    [ "usb_standard_get_configuration", "group__usb__standard__file.html#ga430326cdf658101dd4b02d52ebb0cf3c", null ],
+    [ "usb_standard_get_descriptor", "group__usb__standard__file.html#gad9327961f96b6203ac232d69d53afcf6", null ],
+    [ "usb_standard_get_interface", "group__usb__standard__file.html#ga22c09fa8b89c6d0cb46e290cfecdf33f", null ],
+    [ "usb_standard_interface_get_status", "group__usb__standard__file.html#ga3af045144aef2572263f2ec0a2fdbef9", null ],
+    [ "usb_standard_set_address", "group__usb__standard__file.html#ga2e39a66a58cc636b01e3d90cb70c7625", null ],
+    [ "usb_standard_set_configuration", "group__usb__standard__file.html#ga11f2ca9802883c0ff1dc312799e7250d", null ],
+    [ "usb_standard_set_interface", "group__usb__standard__file.html#ga137aae06450b52a0c22f7ffa6fba5ba0", null ],
+    [ "usbd_register_set_config_callback", "group__usb__standard__file.html#ga28898ad3bf7358d58944646882009a93", null ]
 ];

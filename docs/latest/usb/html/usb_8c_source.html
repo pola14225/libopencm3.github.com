@@ -128,175 +128,180 @@ $(document).ready(function(){initNavTree('usb_8c_source.html','');});
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">@version 1.0.0</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">@author @htmlonly &amp;copy; @endhtmlonly 2010 Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">@date 10 March 2013</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">LGPL License Terms @ref lgpl_license</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * Copyright (C) 2010 Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">/**@{*/</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="usbd_8h.html">libopencm3/usb/usbd.h</a>&gt;</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="usb__private_8h.html">usb_private.h</a>&quot;</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment"> * Main initialization entry point.</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"> * Initialize the USB firmware library to implement the USB device described</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment"> * by the descriptors provided.</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"> * It is required that the 48MHz USB clock is already available.</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment"> * @param driver TODO</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"> * @param dev Pointer to USB device descriptor. This must not be changed while</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment"> *            the device is in use.</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment"> * @param conf Pointer to array of USB configuration descriptors. These must</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment"> *             not be changed while the device is in use. The length of this</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"> *             array is determined by the bNumConfigurations field in the</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"> *             device descriptor.</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment"> * @param strings TODO</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment"> * @param control_buffer Pointer to array that would hold the data</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment"> *                       received during control requests with DATA</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment"> *                       stage</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment"> * @param control_buffer_size Size of control_buffer</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"> * @return Zero on success (currently cannot fail).</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga1f62ead53fa54455f5a66af287a8c65a">   63</a></span>&#160;<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *<a class="code" href="group__usb__driver__defines.html#ga1f62ead53fa54455f5a66af287a8c65a" title="Main initialization entry point.">usbd_init</a>(<span class="keyword">const</span> <a class="code" href="struct__usbd__driver.html">usbd_driver</a> *driver,</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                       <span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="structusb__device__descriptor.html">usb_device_descriptor</a> *dev,</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                       <span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="structusb__config__descriptor.html">usb_config_descriptor</a> *conf,</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                       <span class="keyword">const</span> <span class="keywordtype">char</span> **strings, <span class="keywordtype">int</span> num_strings,</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                       u8 *control_buffer, u16 control_buffer_size)</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *<a class="code" href="usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        usbd_dev = driver-&gt;<a class="code" href="struct__usbd__driver.html#a957bce226109cb43c918fc7898124c05">init</a>();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a> = driver;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ab105dbb2455d6b6a68a5bca98b68a228">desc</a> = dev;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a2f4398945c4fc7c51eac4d27fd861642">config</a> = conf;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a76f748749894cc0316e3e95ea7a8be27">strings</a> = strings;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a3fe1f0382e2bc3e687152bc47b7e4342">num_strings</a> = num_strings;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ac50e242041303ffefda020bb3f23b69f" title="Internal buffer used for control transfers.">ctrl_buf</a> = control_buffer;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a3ee986fbc060f131201b498a9f3dddf9">ctrl_buf_len</a> = control_buffer_size;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ae05d28c0c39d7c7c4c3ed64c04ceda40">user_callback_ctr</a>[0][<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018">USB_TRANSACTION_SETUP</a>] =</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <a class="code" href="usb__control_8c.html#a63064e4135fd6d9b91d8b0cff6389088">_usbd_control_setup</a>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ae05d28c0c39d7c7c4c3ed64c04ceda40">user_callback_ctr</a>[0][<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994ab016c2caf10af8d5cd6adbb926a18c90">USB_TRANSACTION_OUT</a>] =</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <a class="code" href="usb__control_8c.html#ada8135d73d89908812bfff48177201d5">_usbd_control_out</a>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ae05d28c0c39d7c7c4c3ed64c04ceda40">user_callback_ctr</a>[0][<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff">USB_TRANSACTION_IN</a>] =</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <a class="code" href="usb__control_8c.html#a77bb9a74d9a1efb29421dbfca2de7e1b">_usbd_control_in</a>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga2cdd6f2cd24e7e222b2add6e08283a7e">   91</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga2cdd6f2cd24e7e222b2add6e08283a7e">usbd_register_reset_callback</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *<a class="code" href="usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, <span class="keywordtype">void</span> (*callback)(<span class="keywordtype">void</span>))</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;{</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488">user_callback_reset</a> = callback;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga064f9d058427b1fb6f40b35e03a8cd5b">   96</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga064f9d058427b1fb6f40b35e03a8cd5b">usbd_register_suspend_callback</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev,</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                    <span class="keywordtype">void</span> (*callback)(<span class="keywordtype">void</span>))</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a82eeeabe86839be7e3acdd1d6bd81c73">user_callback_suspend</a> = callback;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga004c77a73e4dcd6216678925f3fa1f41">  102</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga004c77a73e4dcd6216678925f3fa1f41">usbd_register_resume_callback</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev,</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                   <span class="keywordtype">void</span> (*callback)(<span class="keywordtype">void</span>))</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#acaf5ea2b1ee04aaa31407f99dc98316c">user_callback_resume</a> = callback;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00108"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#gad8e688f14cac90c4933954e3ebbfc3b7">  108</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#gad8e688f14cac90c4933954e3ebbfc3b7">usbd_register_sof_callback</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, <span class="keywordtype">void</span> (*callback)(<span class="keywordtype">void</span>))</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;{</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ac0918a3ad67373dbf43e873c1d1b026e">user_callback_sof</a> = callback;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
-<div class="line"><a name="l00113"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">  113</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">_usbd_reset</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev)</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;{</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a2c504d3d10df2417a0486ae8f2207c35">current_address</a> = 0;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ac6c5ddcce2e61a2beb8ebd704fc8757a">current_config</a> = 0;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="group__usb__driver__defines.html#ga5d114242c443ea83391ff20ec0846a53">usbd_ep_setup</a>(usbd_dev, 0, USB_ENDPOINT_ATTR_CONTROL, 64, NULL);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a17b1efdd90ccce3b01fadd1fc4eda41c">set_address</a>(usbd_dev, 0);</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488">user_callback_reset</a>)</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488">user_callback_reset</a>();</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="comment">/* Functions to wrap the low-level driver */</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga94eba5aff7befd8009cea2f2abb43134">  125</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134">usbd_poll</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev)</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;{</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a89634686f1bc08d0f550d89378700f73">poll</a>(usbd_dev);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
-<div class="line"><a name="l00130"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#gaef20aadd330e4bb9e97635eeb751d8f9">  130</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#gaef20aadd330e4bb9e97635eeb751d8f9">usbd_disconnect</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, <span class="keywordtype">bool</span> disconnected)</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="comment">/* not all drivers support disconnection */</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a03f9f050e760c93eb4fd178873214157">disconnect</a>)</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a03f9f050e760c93eb4fd178873214157">disconnect</a>(usbd_dev, disconnected);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
-<div class="line"><a name="l00137"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga5d114242c443ea83391ff20ec0846a53">  137</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga5d114242c443ea83391ff20ec0846a53">usbd_ep_setup</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, u8 addr, u8 type, u16 max_size,</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                   <span class="keywordtype">void</span> (*callback)(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, u8 ep))</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;{</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#aa537b7593e6cdcac76534d5028e5d1aa">ep_setup</a>(usbd_dev, addr, type, max_size, callback);</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;}</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
-<div class="line"><a name="l00143"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#gac23b5da866ceb13217dd2eaff42bed11">  143</a></span>&#160;u16 <a class="code" href="group__usb__driver__defines.html#gac23b5da866ceb13217dd2eaff42bed11">usbd_ep_write_packet</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, u8 addr,</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                         <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, u16 len)</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;{</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">return</span> usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a9d56e70a1735ea3819189aa68991d97b">ep_write_packet</a>(usbd_dev, addr, buf, len);</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;}</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
-<div class="line"><a name="l00149"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#gac8730e4d84b1a3862c49c8f2443ff59d">  149</a></span>&#160;u16 <a class="code" href="group__usb__driver__defines.html#gac8730e4d84b1a3862c49c8f2443ff59d">usbd_ep_read_packet</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, u8 addr, <span class="keywordtype">void</span> *buf, u16 len)</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;{</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">return</span> usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a92252fdcc9110063c30a550d09fa728e">ep_read_packet</a>(usbd_dev, addr, buf, len);</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;}</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
-<div class="line"><a name="l00154"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga16977a6f4e056a1fda2a12625063bb6f">  154</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga16977a6f4e056a1fda2a12625063bb6f">usbd_ep_stall_set</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, u8 addr, u8 stall)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">@author @htmlonly &amp;copy; @endhtmlonly 2010</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">@date 10 March 2013</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">LGPL License Terms @ref lgpl_license</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * Copyright (C) 2010 Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">/**@{*/</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="usbd_8h.html">libopencm3/usb/usbd.h</a>&gt;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="usb__private_8h.html">usb_private.h</a>&quot;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> * Main initialization entry point.</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment"> * Initialize the USB firmware library to implement the USB device described</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"> * by the descriptors provided.</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"> * It is required that the 48MHz USB clock is already available.</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"> * @param driver TODO</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment"> * @param dev Pointer to USB device descriptor. This must not be changed while</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment"> *            the device is in use.</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment"> * @param conf Pointer to array of USB configuration descriptors. These must</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"> *             not be changed while the device is in use. The length of this</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"> *             array is determined by the bNumConfigurations field in the</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment"> *             device descriptor.</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment"> * @param strings TODO</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment"> * @param control_buffer Pointer to array that would hold the data</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment"> *                       received during control requests with DATA</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment"> *                       stage</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"> * @param control_buffer_size Size of control_buffer</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment"> * @return Zero on success (currently cannot fail).</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga8bbc488106ca72c2b550c1c9f89d5748">   64</a></span>&#160;<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *<a class="code" href="group__usb__driver__defines.html#ga8bbc488106ca72c2b550c1c9f89d5748" title="Main initialization entry point.">usbd_init</a>(<span class="keyword">const</span> <a class="code" href="struct__usbd__driver.html">usbd_driver</a> *driver,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                       <span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="structusb__device__descriptor.html">usb_device_descriptor</a> *dev,</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                       <span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="structusb__config__descriptor.html">usb_config_descriptor</a> *conf,</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                       <span class="keyword">const</span> <span class="keywordtype">char</span> **strings, <span class="keywordtype">int</span> num_strings,</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                       uint8_t *control_buffer, uint16_t control_buffer_size)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;{</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *<a class="code" href="usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        usbd_dev = driver-&gt;<a class="code" href="struct__usbd__driver.html#a957bce226109cb43c918fc7898124c05">init</a>();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a> = driver;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ab105dbb2455d6b6a68a5bca98b68a228">desc</a> = dev;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a2f4398945c4fc7c51eac4d27fd861642">config</a> = conf;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a76f748749894cc0316e3e95ea7a8be27">strings</a> = strings;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a3fe1f0382e2bc3e687152bc47b7e4342">num_strings</a> = num_strings;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ac28d5ce184bf3812d6e85be62ce27ea4" title="Internal buffer used for control transfers.">ctrl_buf</a> = control_buffer;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a10d573425d5619bf41cf70c0e3bd298d">ctrl_buf_len</a> = control_buffer_size;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a6e82880b623706d1dd345e54fed03445">user_callback_ctr</a>[0][<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018">USB_TRANSACTION_SETUP</a>] =</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <a class="code" href="usb__control_8c.html#ad4bc495b7e757434644e1dece336b261">_usbd_control_setup</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a6e82880b623706d1dd345e54fed03445">user_callback_ctr</a>[0][<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994ab016c2caf10af8d5cd6adbb926a18c90">USB_TRANSACTION_OUT</a>] =</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <a class="code" href="usb__control_8c.html#a1a921e8785fafeee17c588aa26cff014">_usbd_control_out</a>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a6e82880b623706d1dd345e54fed03445">user_callback_ctr</a>[0][<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff">USB_TRANSACTION_IN</a>] =</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="usb__control_8c.html#a322b01bbbac6fb3c095d4bb6fc54184d">_usbd_control_in</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga2cdd6f2cd24e7e222b2add6e08283a7e">   92</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga2cdd6f2cd24e7e222b2add6e08283a7e">usbd_register_reset_callback</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *<a class="code" href="usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, <span class="keywordtype">void</span> (*callback)(<span class="keywordtype">void</span>))</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488">user_callback_reset</a> = callback;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga064f9d058427b1fb6f40b35e03a8cd5b">   97</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga064f9d058427b1fb6f40b35e03a8cd5b">usbd_register_suspend_callback</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev,</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                    <span class="keywordtype">void</span> (*callback)(<span class="keywordtype">void</span>))</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;{</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a82eeeabe86839be7e3acdd1d6bd81c73">user_callback_suspend</a> = callback;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga004c77a73e4dcd6216678925f3fa1f41">  103</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga004c77a73e4dcd6216678925f3fa1f41">usbd_register_resume_callback</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev,</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                   <span class="keywordtype">void</span> (*callback)(<span class="keywordtype">void</span>))</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;{</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#acaf5ea2b1ee04aaa31407f99dc98316c">user_callback_resume</a> = callback;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#gad8e688f14cac90c4933954e3ebbfc3b7">  109</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#gad8e688f14cac90c4933954e3ebbfc3b7">usbd_register_sof_callback</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, <span class="keywordtype">void</span> (*callback)(<span class="keywordtype">void</span>))</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ac0918a3ad67373dbf43e873c1d1b026e">user_callback_sof</a> = callback;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">  114</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">_usbd_reset</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#acb76927d8afd9bf487d2f8f645e2ee0d">current_address</a> = 0;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a72a6261b52abbe62672c230967268d59">current_config</a> = 0;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="group__usb__driver__defines.html#ga888110ac1598406bb834b494c8db7f6c">usbd_ep_setup</a>(usbd_dev, 0, USB_ENDPOINT_ATTR_CONTROL, 64, NULL);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a83d43957334b79f85d86cb86258db22a">set_address</a>(usbd_dev, 0);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488">user_callback_reset</a>) {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488">user_callback_reset</a>();</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="comment">/* Functions to wrap the low-level driver */</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga94eba5aff7befd8009cea2f2abb43134">  127</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134">usbd_poll</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev)</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a89634686f1bc08d0f550d89378700f73">poll</a>(usbd_dev);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#gaef20aadd330e4bb9e97635eeb751d8f9">  132</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#gaef20aadd330e4bb9e97635eeb751d8f9">usbd_disconnect</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, <span class="keywordtype">bool</span> disconnected)</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="comment">/* not all drivers support disconnection */</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a03f9f050e760c93eb4fd178873214157">disconnect</a>) {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a03f9f050e760c93eb4fd178873214157">disconnect</a>(usbd_dev, disconnected);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;}</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga888110ac1598406bb834b494c8db7f6c">  140</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga888110ac1598406bb834b494c8db7f6c">usbd_ep_setup</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, uint8_t addr, uint8_t type,</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                   uint16_t max_size,</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                   <span class="keywordtype">void</span> (*callback)(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, uint8_t ep))</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;{</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a426cf7004950aba552645f341f9ce18a">ep_setup</a>(usbd_dev, addr, type, max_size, callback);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;}</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#gaa5b245bdd9757cdc79d1fe721ebcf03f">  147</a></span>&#160;uint16_t <a class="code" href="group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f">usbd_ep_write_packet</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, uint8_t addr,</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                         <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, uint16_t len)</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;{</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">return</span> usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#afbe059ac205acfab256e5a4f11f01dbc">ep_write_packet</a>(usbd_dev, addr, buf, len);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;}</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#gabd42dc86361dbf9c639fd883ada1f572">  153</a></span>&#160;uint16_t <a class="code" href="group__usb__driver__defines.html#gabd42dc86361dbf9c639fd883ada1f572">usbd_ep_read_packet</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, uint8_t addr, <span class="keywordtype">void</span> *buf,</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                             uint16_t len)</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a96987453de96620af17a8d3c9a0a9f55">ep_stall_set</a>(usbd_dev, addr, stall);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">return</span> usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a4f4757bc5241d86d985553fb1086f310">ep_read_packet</a>(usbd_dev, addr, buf, len);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;}</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
-<div class="line"><a name="l00159"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga2143a6d72b1f2215f9720562ecd5dbe0">  159</a></span>&#160;u8 <a class="code" href="group__usb__driver__defines.html#ga2143a6d72b1f2215f9720562ecd5dbe0">usbd_ep_stall_get</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, u8 addr)</div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga6d16be856512df298e40dfa31a216172">  159</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172">usbd_ep_stall_set</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, uint8_t addr, uint8_t stall)</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;{</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">return</span> usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a8e0aa5c82e6c306f425b8badda9abe7c">ep_stall_get</a>(usbd_dev, addr);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a96af12c6cc85533f53c09e132c840d97">ep_stall_set</a>(usbd_dev, addr, stall);</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;}</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
-<div class="line"><a name="l00164"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#gaf841bf965fc7312bb5995fb22b7d313e">  164</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#gaf841bf965fc7312bb5995fb22b7d313e">usbd_ep_nak_set</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, u8 addr, u8 nak)</div>
+<div class="line"><a name="l00164"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga396b34ccbe5bf6718417ef3ee0c3b788">  164</a></span>&#160;uint8_t <a class="code" href="group__usb__driver__defines.html#ga396b34ccbe5bf6718417ef3ee0c3b788">usbd_ep_stall_get</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, uint8_t addr)</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;{</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#ad7df56c0eb0340273e85e9aacf85c69e">ep_nak_set</a>(usbd_dev, addr, nak);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">return</span> usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#ab3c4fe8dfd17e46c718797b0ed9ab1a3">ep_stall_get</a>(usbd_dev, addr);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
+<div class="line"><a name="l00169"></a><span class="lineno"><a class="code" href="group__usb__drivers__file.html#ga2f2a7dac5031fd8d1b5eb076d3f24b42">  169</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga2f2a7dac5031fd8d1b5eb076d3f24b42">usbd_ep_nak_set</a>(<a class="code" href="struct__usbd__device.html" title="Internal collection of device information.">usbd_device</a> *usbd_dev, uint8_t addr, uint8_t nak)</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a85fb9f01f31d0bce972912bd8b2711d3">ep_nak_set</a>(usbd_dev, addr, nak);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;}</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_77fc19f7d89a3cad4d832c4128eaabbf.html">usb</a></li><li class="navelem"><a class="el" href="usb_8c.html">usb.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:09 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:08 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

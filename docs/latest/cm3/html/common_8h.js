@@ -38,12 +38,5 @@ var common_8h =
     [ "MMIO16", "common_8h.html#abb0189383a963a89a7607442c420ba3f", null ],
     [ "MMIO32", "common_8h.html#aa424823d5a675828feee4e8be0a64a65", null ],
     [ "MMIO64", "common_8h.html#ac297642f26c83beb456c4aae0556baab", null ],
-    [ "MMIO8", "common_8h.html#a90fa73df23b66cce82b8633dd05e2b02", null ],
-    [ "s16", "common_8h.html#aa980e2c02ba2305e0f489d5650655425", null ],
-    [ "s32", "common_8h.html#ae9b1af5c037e57a98884758875d3a7c4", null ],
-    [ "s8", "common_8h.html#a9e382f207c65ca13ab4ae98363aeda80", null ],
-    [ "u16", "common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa", null ],
-    [ "u32", "common_8h.html#afaa62991928fb9fb18ff0db62a040aba", null ],
-    [ "u64", "common_8h.html#a3f7e2bcbb0b4c338f3c4f6c937cd4234", null ],
-    [ "u8", "common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca", null ]
+    [ "MMIO8", "common_8h.html#a90fa73df23b66cce82b8633dd05e2b02", null ]
 ];

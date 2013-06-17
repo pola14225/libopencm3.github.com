@@ -11,10 +11,10 @@ var group__rcc__low__level =
     [ "rcc_pll_off", "group__rcc__low__level.html#ga31217830e7f538e902e8b157e2715428", null ],
     [ "rcc_pll_on", "group__rcc__low__level.html#gaf58b85261f65604132b67d3567c2b0c3", null ],
     [ "rcc_set_osc_source", "group__rcc__low__level.html#gabde4ea299b0ce6f81a9f44387881e29b", null ],
-    [ "rcc_set_pll_divisor", "group__rcc__low__level.html#gaf867d8975967972fff96350206c36a2e", null ],
+    [ "rcc_set_pll_divisor", "group__rcc__low__level.html#ga104041e1468a0fc62d6c584a25859053", null ],
     [ "rcc_set_pwm_divisor", "group__rcc__low__level.html#ga390df69d68a12c67ac2484b741cea22e", null ],
     [ "rcc_usb_pll_off", "group__rcc__low__level.html#ga68c7027c77c2a1a0d6d202e191c1baf5", null ],
     [ "rcc_usb_pll_on", "group__rcc__low__level.html#gae31973474f6d00125a57784e84230c86", null ],
     [ "rcc_wait_for_pll_ready", "group__rcc__low__level.html#ga0f5f3bea5dbfde10760a9cd775951a51", null ],
-    [ "lm4f_rcc_sysclk_freq", "group__rcc__low__level.html#ga45ac0a3082a27e5d55e718de67fde983", null ]
+    [ "lm4f_rcc_sysclk_freq", "group__rcc__low__level.html#ga53588dcb636da3e059dd7c45d82f6504", null ]
 ];

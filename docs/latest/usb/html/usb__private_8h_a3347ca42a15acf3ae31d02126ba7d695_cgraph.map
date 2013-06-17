@@ -1,0 +1,21 @@
+<map id="_usbd_standard_request" name="_usbd_standard_request">
+<area shape="rect" id="node3" href="$usb__private_8h.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="220,130,383,177"/>
+<area shape="rect" id="node21" href="$usb__private_8h.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="220,357,383,403"/>
+<area shape="rect" id="node34" href="$usb__private_8h.html#aec01ef6ed66dcc2b50cc969b8be8f419" title="_usbd_standard_request\l_interface" alt="" coords="220,514,383,561"/>
+<area shape="rect" id="node5" href="$group__usb__standard__file.html#ga2e39a66a58cc636b01e3d90cb70c7625" title="usb_standard_set_address" alt="" coords="447,5,625,35"/>
+<area shape="rect" id="node7" href="$group__usb__standard__file.html#ga11f2ca9802883c0ff1dc312799e7250d" title="usb_standard_set_configuration" alt="" coords="433,59,639,88"/>
+<area shape="rect" id="node9" href="$group__usb__standard__file.html#ga430326cdf658101dd4b02d52ebb0cf3c" title="usb_standard_get_configuration" alt="" coords="433,112,639,141"/>
+<area shape="rect" id="node11" href="$group__usb__standard__file.html#gad9327961f96b6203ac232d69d53afcf6" title="usb_standard_get_descriptor" alt="" coords="441,165,631,195"/>
+<area shape="rect" id="node19" href="$group__usb__standard__file.html#ga2c512d44bd72a83d9b438859ab3ee352" title="usb_standard_device\l_get_status" alt="" coords="464,218,608,265"/>
+<area shape="rect" id="node13" href="$group__usb__standard__file.html#gaf52328d55b34702e49cb14ec9005ca19" title="usb_descriptor_index" alt="" coords="693,112,837,141"/>
+<area shape="rect" id="node15" href="$group__usb__standard__file.html#ga2df65bb0dcba3643cde420b3fdc08ff0" title="usb_descriptor_type" alt="" coords="696,165,835,195"/>
+<area shape="rect" id="node17" href="$group__usb__standard__file.html#gaf8a21c66ec88535a258872791c468098" title="build_config_descriptor" alt="" coords="688,219,843,248"/>
+<area shape="rect" id="node23" href="$group__usb__standard__file.html#ga9714d02e4367d72d66f7d71abe10a70f" title="usb_standard_endpoint\l_unstall" alt="" coords="459,287,613,334"/>
+<area shape="rect" id="node27" href="$group__usb__standard__file.html#gad24d6daf25ffd5539979b9ea1648ec6f" title="usb_standard_endpoint\l_stall" alt="" coords="459,357,613,403"/>
+<area shape="rect" id="node30" href="$group__usb__standard__file.html#ga4cfdd2484f7002da2cc98eea1e6a69e9" title="usb_standard_endpoint\l_get_status" alt="" coords="459,426,613,473"/>
+<area shape="rect" id="node25" href="$group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="usbd_ep_stall_set" alt="" coords="703,331,828,360"/>
+<area shape="rect" id="node32" href="$group__usb__driver__defines.html#ga396b34ccbe5bf6718417ef3ee0c3b788" title="usbd_ep_stall_get" alt="" coords="703,435,828,464"/>
+<area shape="rect" id="node36" href="$group__usb__standard__file.html#ga22c09fa8b89c6d0cb46e290cfecdf33f" title="usb_standard_get_interface" alt="" coords="445,496,627,525"/>
+<area shape="rect" id="node38" href="$group__usb__standard__file.html#ga137aae06450b52a0c22f7ffa6fba5ba0" title="usb_standard_set_interface" alt="" coords="445,549,627,579"/>
+<area shape="rect" id="node40" href="$group__usb__standard__file.html#ga3af045144aef2572263f2ec0a2fdbef9" title="usb_standard_interface\l_get_status" alt="" coords="457,602,615,649"/>
+</map>

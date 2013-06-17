@@ -154,91 +154,101 @@ $(document).ready(function(){initNavTree('rtc__common__bcd_8c_source.html','');}
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">This sets the RTC synchronous and asynchronous prescalars.</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="code" href="group__rtc__file.html#gaa983b34f0a6901d7aa9ff91130a4c582">   36</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#gaa983b34f0a6901d7aa9ff91130a4c582" title="Set RTC prescalars.">rtc_set_prescaler</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sync, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> async) {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="comment">/*</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">         * Even if only one of the two fields needs to be changed,</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">         * 2 separate write accesses must be performed to the RTC_PRER register.</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        RTC_PRER = (sync &amp; RTC_PRER_PREDIV_S_MASK);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        RTC_PRER |= (async &lt;&lt; RTC_PRER_PREDIV_A_SHIFT);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/** @brief Wait for RTC registers to be synchronised with the APB1 bus</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"> Time and Date are accessed through shadow registers which must be synchronized</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785">   51</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785" title="Wait for RTC registers to be synchronised with the APB1 bus.">rtc_wait_for_synchro</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">/* Unlock RTC registers */</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        RTC_WPR = 0xca;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        RTC_WPR = 0x53;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        RTC_ISR &amp;= ~(RTC_ISR_RSF);</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga7c05857df37f0631153fdb9893df5c00">   36</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#ga7c05857df37f0631153fdb9893df5c00" title="Set RTC prescalars.">rtc_set_prescaler</a>(uint32_t sync, uint32_t async)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">         * Even if only one of the two fields needs to be changed,</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">         * 2 separate write accesses must be performed to the RTC_PRER register.</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        RTC_PRER = (sync &amp; RTC_PRER_PREDIV_S_MASK);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        RTC_PRER |= (async &lt;&lt; RTC_PRER_PREDIV_A_SHIFT);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">/** @brief Wait for RTC registers to be synchronised with the APB1 bus</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment"> Time and Date are accessed through shadow registers which must be synchronized</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785">   52</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785" title="Wait for RTC registers to be synchronised with the APB1 bus.">rtc_wait_for_synchro</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="comment">/* Unlock RTC registers */</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        RTC_WPR = 0xca;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        RTC_WPR = 0x53;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">while</span> (!(RTC_ISR &amp; RTC_ISR_RSF)) {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                ;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="comment">/* disable write protection again */</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        RTC_WPR = 0xff;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">/** @brief Unlock write access to the RTC registers</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga25813ce258a0d4d2865ec883fea0175b">   69</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#ga25813ce258a0d4d2865ec883fea0175b" title="Unlock write access to the RTC registers.">rtc_unlock</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        RTC_WPR = 0xca;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        RTC_WPR = 0x53;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">/** @brief Lock write access to the RTC registers</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b">   78</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b" title="Lock write access to the RTC registers.">rtc_lock</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        RTC_WPR = 0xff;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">/** @brief Sets the wakeup time auto-reload value</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga7885e411216e5bca89417c0f8b0591a8">   86</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#ga7885e411216e5bca89417c0f8b0591a8" title="Sets the wakeup time auto-reload value.">rtc_set_wakeup_time</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> wkup_time, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> rtc_cr_wucksel) {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">// FTFM:</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">// The following sequence is required to configure or change the wakeup timer</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">// auto-reload value (WUT[15:0] in RTC_WUTR):</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">// 1. Clear WUTE in RTC_CR to disable the wakeup timer.</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  RTC_CR &amp;= ~RTC_CR_WUTE;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">// 2. Poll WUTWF until it is set in RTC_ISR to make sure the access to wakeup</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">//    auto-reload counter and to WUCKSEL[2:0] bits is allowed. It takes around 2</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">//    RTCCLK clock cycles (due to clock synchronization).</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordflow">while</span> (!((RTC_ISR) &amp; (RTC_ISR_WUTWF))) { }</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">// 3. Program the wakeup auto-reload value WUT[15:0], and the wakeup clock</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">//    selection (WUCKSEL[2:0] bits in RTC_CR).Set WUTE in RTC_CR to enable the</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">//    timer again. The wakeup timer restarts down-counting.</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  RTC_WUTR = wkup_time;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  RTC_CR |= (rtc_cr_wucksel &lt;&lt; RTC_CR_WUCLKSEL_SHIFT);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  RTC_CR |= RTC_CR_WUTE;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">/** @brief Clears the wakeup flag</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">                @details This function should be called first in the rtc_wkup_isr()</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno"><a class="code" href="group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5">  109</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5" title="Clears the wakeup flag.">rtc_clear_wakeup_flag</a>(<span class="keywordtype">void</span>) {</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  RTC_ISR &amp;= ~RTC_ISR_WUTF;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        RTC_ISR &amp;= ~(RTC_ISR_RSF);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">while</span> (!(RTC_ISR &amp; RTC_ISR_RSF));</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="comment">/* disable write protection again */</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        RTC_WPR = 0xff;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">/** @brief Unlock write access to the RTC registers</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga25813ce258a0d4d2865ec883fea0175b">   70</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#ga25813ce258a0d4d2865ec883fea0175b" title="Unlock write access to the RTC registers.">rtc_unlock</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        RTC_WPR = 0xca;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        RTC_WPR = 0x53;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">/** @brief Lock write access to the RTC registers</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="code" href="group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b">   80</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b" title="Lock write access to the RTC registers.">rtc_lock</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        RTC_WPR = 0xff;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/** @brief Sets the wakeup time auto-reload value</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="code" href="group__rtc__file.html#gacffca2b1f3a82b3f82923e9ab14f004f">   89</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#gacffca2b1f3a82b3f82923e9ab14f004f" title="Sets the wakeup time auto-reload value.">rtc_set_wakeup_time</a>(uint16_t wkup_time, uint8_t rtc_cr_wucksel)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="comment">/* FTFM:</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">         * The following sequence is required to configure or change the wakeup</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">         * timer auto-reload value (WUT[15:0] in RTC_WUTR):</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">         * 1. Clear WUTE in RTC_CR to disable the wakeup timer.</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        RTC_CR &amp;= ~RTC_CR_WUTE;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="comment">/* 2. Poll WUTWF until it is set in RTC_ISR to make sure the access to</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">         *    wakeup auto-reload counter and to WUCKSEL[2:0] bits is allowed.</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">         *    It takes around 2 RTCCLK clock cycles (due to clock</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">         *    synchronization).</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">while</span> (!((RTC_ISR) &amp; (RTC_ISR_WUTWF)));</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="comment">/* 3. Program the wakeup auto-reload value WUT[15:0], and the wakeup</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">         *    clock selection (WUCKSEL[2:0] bits in RTC_CR).Set WUTE in RTC_CR</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">         *    to enable the timer again. The wakeup timer restarts</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">         *    down-counting.</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        RTC_WUTR = wkup_time;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        RTC_CR |= (rtc_cr_wucksel &lt;&lt; RTC_CR_WUCLKSEL_SHIFT);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        RTC_CR |= RTC_CR_WUTE;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment">/** @brief Clears the wakeup flag</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment">@details This function should be called first in the rtc_wkup_isr()</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="code" href="group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5">  118</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5" title="Clears the wakeup flag.">rtc_clear_wakeup_flag</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;{</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        RTC_ISR &amp;= ~RTC_ISR_WUTF;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">/**@}*/</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="rtc__common__bcd_8c.html">rtc_common_bcd.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:26 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:24 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

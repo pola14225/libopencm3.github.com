@@ -145,20 +145,20 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="flash_8h.html">libopencm3/stm32/f2/flash.h</a>&gt;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/* Set the default ppre1 and ppre2 peripheral clock frequencies after reset. */</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="code" href="rcc_8c.html#a2ef92a5b2a7fffd75a80adb496391c8c">   27</a></span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="rcc_8h.html#a2ef92a5b2a7fffd75a80adb496391c8c">rcc_ppre1_frequency</a> = 16000000;</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="rcc_8c.html#a734b4f30d6b0845a57f5e8d4dc434f85">   28</a></span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="rcc_8h.html#a734b4f30d6b0845a57f5e8d4dc434f85">rcc_ppre2_frequency</a> = 16000000;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="code" href="rcc_8c.html#a71455852cfe7420e0c33a63e0e09c4e5">   27</a></span>&#160;uint32_t <a class="code" href="rcc_8h.html#a71455852cfe7420e0c33a63e0e09c4e5">rcc_ppre1_frequency</a> = 16000000;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="rcc_8c.html#ae9ac2772ba7880c2a2941d8a7150c477">   28</a></span>&#160;uint32_t <a class="code" href="rcc_8h.html#ae9ac2772ba7880c2a2941d8a7150c477">rcc_ppre2_frequency</a> = 16000000;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="code" href="rcc_8c.html#a6732b60b662d0168e6995cddc5027c29">   30</a></span>&#160;<span class="keyword">const</span> <a class="code" href="structclock__scale__t.html">clock_scale_t</a> <a class="code" href="rcc_8h.html#a6732b60b662d0168e6995cddc5027c29">hse_8mhz_3v3</a>[<a class="code" href="rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cbac8297646d4feef220ebf141158d668cb">CLOCK_3V3_END</a>] =</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        { <span class="comment">/* 120MHz */</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                .<a class="code" href="structclock__scale__t.html#af529b713744995d39878f6954ad6e576">pllm</a> = 8,</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                .plln = 240,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                .pllp = 2,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                .pllq = 5,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                .hpre = <a class="code" href="rcc_8h.html#a334ce40a0a1c4342acb1eb1282f4b17a">RCC_CFGR_HPRE_DIV_NONE</a>,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                .ppre1 = <a class="code" href="rcc_8h.html#a565b22e5d2e16a4709d75ba0d3a420c0">RCC_CFGR_PPRE_DIV_4</a>,</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                .ppre2 = <a class="code" href="rcc_8h.html#aee4ef935d1b94ff94741e5d24ba9aa97">RCC_CFGR_PPRE_DIV_2</a>,</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                .flash_config = FLASH_ACR_ICE | FLASH_ACR_DCE | FLASH_ACR_LATENCY_3WS,</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="code" href="rcc_8c.html#a6732b60b662d0168e6995cddc5027c29">   30</a></span>&#160;<span class="keyword">const</span> <a class="code" href="structclock__scale__t.html">clock_scale_t</a> <a class="code" href="rcc_8h.html#a6732b60b662d0168e6995cddc5027c29">hse_8mhz_3v3</a>[<a class="code" href="rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cbac8297646d4feef220ebf141158d668cb">CLOCK_3V3_END</a>] = {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        { <span class="comment">/* 120MHz */</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                .<a class="code" href="structclock__scale__t.html#af529b713744995d39878f6954ad6e576">pllm</a> = 8,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                .plln = 240,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                .pllp = 2,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                .pllq = 5,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                .hpre = <a class="code" href="rcc_8h.html#a334ce40a0a1c4342acb1eb1282f4b17a">RCC_CFGR_HPRE_DIV_NONE</a>,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                .ppre1 = <a class="code" href="rcc_8h.html#a565b22e5d2e16a4709d75ba0d3a420c0">RCC_CFGR_PPRE_DIV_4</a>,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                .ppre2 = <a class="code" href="rcc_8h.html#aee4ef935d1b94ff94741e5d24ba9aa97">RCC_CFGR_PPRE_DIV_2</a>,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                .flash_config = FLASH_ACR_ICE | FLASH_ACR_DCE |</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                                FLASH_ACR_LATENCY_3WS,</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                .apb1_frequency = 30000000,</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                .apb2_frequency = 60000000,</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        },</div>
@@ -385,160 +385,162 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        }</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;}</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
-<div class="line"><a name="l00267"></a><span class="lineno"><a class="code" href="rcc_8c.html#a3b3e26e0374ad984ec7c442b738a8cd2">  267</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a3b3e26e0374ad984ec7c442b738a8cd2">rcc_peripheral_enable_clock</a>(<span class="keyword">volatile</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> *reg, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> en)</div>
+<div class="line"><a name="l00267"></a><span class="lineno"><a class="code" href="rcc_8c.html#aaf3dd53c1ced02082fce0076976547a8">  267</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#aaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(<span class="keyword">volatile</span> uint32_t *reg, uint32_t en)</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;{</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        *reg |= en;</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;}</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
-<div class="line"><a name="l00272"></a><span class="lineno"><a class="code" href="rcc_8c.html#a20b04813e5b27577fe2ef013a8337eee">  272</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a20b04813e5b27577fe2ef013a8337eee">rcc_peripheral_disable_clock</a>(<span class="keyword">volatile</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> *reg, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> en)</div>
+<div class="line"><a name="l00272"></a><span class="lineno"><a class="code" href="rcc_8c.html#af9fddc20e14204db6d4a4a54132d191b">  272</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#af9fddc20e14204db6d4a4a54132d191b">rcc_peripheral_disable_clock</a>(<span class="keyword">volatile</span> uint32_t *reg, uint32_t en)</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;{</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        *reg &amp;= ~en;</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;}</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
-<div class="line"><a name="l00277"></a><span class="lineno"><a class="code" href="rcc_8c.html#a076c5e84cf8bf9293559648e72b0a04f">  277</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a076c5e84cf8bf9293559648e72b0a04f">rcc_peripheral_reset</a>(<span class="keyword">volatile</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> *reg, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reset)</div>
+<div class="line"><a name="l00277"></a><span class="lineno"><a class="code" href="rcc_8c.html#a3779f1460275e6788f706c61d7f77205">  277</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a3779f1460275e6788f706c61d7f77205">rcc_peripheral_reset</a>(<span class="keyword">volatile</span> uint32_t *reg, uint32_t reset)</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;{</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        *reg |= reset;</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;}</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;</div>
-<div class="line"><a name="l00282"></a><span class="lineno"><a class="code" href="rcc_8c.html#a6f657d65ef6704cf3fdc8a78b0a042a8">  282</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a6f657d65ef6704cf3fdc8a78b0a042a8">rcc_peripheral_clear_reset</a>(<span class="keyword">volatile</span> <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> *reg, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> clear_reset)</div>
+<div class="line"><a name="l00282"></a><span class="lineno"><a class="code" href="rcc_8c.html#abb1b312c6db8db25447460742dcdb566">  282</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#abb1b312c6db8db25447460742dcdb566">rcc_peripheral_clear_reset</a>(<span class="keyword">volatile</span> uint32_t *reg, uint32_t clear_reset)</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;{</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        *reg &amp;= ~clear_reset;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;}</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
-<div class="line"><a name="l00287"></a><span class="lineno"><a class="code" href="rcc_8c.html#a3edbf52144a86a1b8292b3e21e3959d7">  287</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a3edbf52144a86a1b8292b3e21e3959d7">rcc_set_sysclk_source</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> clk)</div>
+<div class="line"><a name="l00287"></a><span class="lineno"><a class="code" href="rcc_8c.html#a2c291271812c333d975807cd5ec99a36">  287</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a2c291271812c333d975807cd5ec99a36">rcc_set_sysclk_source</a>(uint32_t clk)</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;{</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        uint32_t reg32;</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        reg32 = <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a>;</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        reg32 &amp;= ~((1 &lt;&lt; 1) | (1 &lt;&lt; 0));</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a> = (reg32 | clk);</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;}</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
-<div class="line"><a name="l00296"></a><span class="lineno"><a class="code" href="rcc_8c.html#a2c3543cb0fc5e01678bb6d5bae1a51a1">  296</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a2c3543cb0fc5e01678bb6d5bae1a51a1">rcc_set_pll_source</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllsrc)</div>
+<div class="line"><a name="l00296"></a><span class="lineno"><a class="code" href="rcc_8c.html#a2f2bd45ad9c8b32e0fe5affe9bf181bf">  296</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a2f2bd45ad9c8b32e0fe5affe9bf181bf">rcc_set_pll_source</a>(uint32_t pllsrc)</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;{</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        uint32_t reg32;</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        reg32 = <a class="code" href="rcc_8h.html#a838793cbec63d7be4f2ec76c8f605de0">RCC_PLLCFGR</a>;</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        reg32 &amp;= ~(1 &lt;&lt; 22);</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        <a class="code" href="rcc_8h.html#a838793cbec63d7be4f2ec76c8f605de0">RCC_PLLCFGR</a> = (reg32 | (pllsrc &lt;&lt; 22));</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;}</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
-<div class="line"><a name="l00305"></a><span class="lineno"><a class="code" href="rcc_8c.html#a411748dd9a8a99b746e802af6b448763">  305</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a411748dd9a8a99b746e802af6b448763">rcc_set_ppre2</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> ppre2)</div>
+<div class="line"><a name="l00305"></a><span class="lineno"><a class="code" href="rcc_8c.html#ac40c9478480f3a44c381c15482a563cd">  305</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#ac40c9478480f3a44c381c15482a563cd">rcc_set_ppre2</a>(uint32_t ppre2)</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;{</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        uint32_t reg32;</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        reg32 = <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a>;</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        reg32 &amp;= ~((1 &lt;&lt; 13) | (1 &lt;&lt; 14) | (1 &lt;&lt; 15));</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a> = (reg32 | (ppre2 &lt;&lt; 13));</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;}</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
-<div class="line"><a name="l00314"></a><span class="lineno"><a class="code" href="rcc_8c.html#a8cb53f3681507b9819229b24bd3417cd">  314</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a8cb53f3681507b9819229b24bd3417cd">rcc_set_ppre1</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> ppre1)</div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="code" href="rcc_8c.html#aaf1b9174131b00a7014c0328a53a65a1">  314</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#aaf1b9174131b00a7014c0328a53a65a1">rcc_set_ppre1</a>(uint32_t ppre1)</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;{</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        uint32_t reg32;</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        reg32 = <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a>;</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        reg32 &amp;= ~((1 &lt;&lt; 10) | (1 &lt;&lt; 11) | (1 &lt;&lt; 12));</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a> = (reg32 | (ppre1 &lt;&lt; 10));</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;}</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
-<div class="line"><a name="l00323"></a><span class="lineno"><a class="code" href="rcc_8c.html#a587f5be40f38a0bf0418ae4125129dc0">  323</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a587f5be40f38a0bf0418ae4125129dc0">rcc_set_hpre</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> hpre)</div>
+<div class="line"><a name="l00323"></a><span class="lineno"><a class="code" href="rcc_8c.html#ae192b2cd0f37124db5ed76d599a5671b">  323</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#ae192b2cd0f37124db5ed76d599a5671b">rcc_set_hpre</a>(uint32_t hpre)</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;{</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        uint32_t reg32;</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        reg32 = <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a>;</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        reg32 &amp;= ~((1 &lt;&lt; 4) | (1 &lt;&lt; 5) | (1 &lt;&lt; 6) | (1 &lt;&lt; 7));</div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a> = (reg32 | (hpre &lt;&lt; 4));</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;}</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
-<div class="line"><a name="l00332"></a><span class="lineno"><a class="code" href="rcc_8c.html#ac56bc6cfdddb0b158cea58ed3e926201">  332</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#ac56bc6cfdddb0b158cea58ed3e926201">rcc_set_rtcpre</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> rtcpre)</div>
+<div class="line"><a name="l00332"></a><span class="lineno"><a class="code" href="rcc_8c.html#a63aa2b3fb8156ad6b6d2b08d4fe8f12e">  332</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a63aa2b3fb8156ad6b6d2b08d4fe8f12e">rcc_set_rtcpre</a>(uint32_t rtcpre)</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;{</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> reg32;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        uint32_t reg32;</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        reg32 = <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a>;</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        reg32 &amp;= ~((1 &lt;&lt; 16) | (1 &lt;&lt; 17) | (1 &lt;&lt; 18) | (1 &lt;&lt; 19) | (1 &lt;&lt; 20));</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        <a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a> = (reg32 | (rtcpre &lt;&lt; 16));</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;}</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
-<div class="line"><a name="l00341"></a><span class="lineno"><a class="code" href="rcc_8c.html#aad99f4e022d82c3e311be4e72cac74e3">  341</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#aad99f4e022d82c3e311be4e72cac74e3">rcc_set_main_pll_hsi</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllm, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> plln, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllp, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllq)</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;{</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <a class="code" href="rcc_8h.html#a838793cbec63d7be4f2ec76c8f605de0">RCC_PLLCFGR</a> = (pllm &lt;&lt; <a class="code" href="rcc_8h.html#ad7dcc662cce20de5eb8a10fb189b5c97">RCC_PLLCFGR_PLLM_SHIFT</a>) |</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                (plln &lt;&lt; <a class="code" href="rcc_8h.html#a01fadb9f1fc91bb2830620ab5eee5324">RCC_PLLCFGR_PLLN_SHIFT</a>) |</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                (((pllp &gt;&gt; 1) - 1) &lt;&lt; <a class="code" href="rcc_8h.html#aef2c2e5574b2454c04aea9aae06d3c92">RCC_PLLCFGR_PLLP_SHIFT</a>) |</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                (pllq &lt;&lt; <a class="code" href="rcc_8h.html#ac4df0bb6bd16afd9fbf2e30d3089e93c">RCC_PLLCFGR_PLLQ_SHIFT</a>);</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;}</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
-<div class="line"><a name="l00349"></a><span class="lineno"><a class="code" href="rcc_8c.html#aa615cefb749e25ad3a7a6a1e2f6df423">  349</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#aa615cefb749e25ad3a7a6a1e2f6df423">rcc_set_main_pll_hse</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllm, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> plln, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllp, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> pllq)</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;{</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <a class="code" href="rcc_8h.html#a838793cbec63d7be4f2ec76c8f605de0">RCC_PLLCFGR</a> = (pllm &lt;&lt; <a class="code" href="rcc_8h.html#ad7dcc662cce20de5eb8a10fb189b5c97">RCC_PLLCFGR_PLLM_SHIFT</a>) |</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                (plln &lt;&lt; <a class="code" href="rcc_8h.html#a01fadb9f1fc91bb2830620ab5eee5324">RCC_PLLCFGR_PLLN_SHIFT</a>) |</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                (((pllp &gt;&gt; 1) - 1) &lt;&lt; <a class="code" href="rcc_8h.html#aef2c2e5574b2454c04aea9aae06d3c92">RCC_PLLCFGR_PLLP_SHIFT</a>) |</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                <a class="code" href="rcc_8h.html#a92cb53ea81d2c47537eb217cc6659a2e">RCC_PLLCFGR_PLLSRC</a> |</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;                (pllq &lt;&lt; <a class="code" href="rcc_8h.html#ac4df0bb6bd16afd9fbf2e30d3089e93c">RCC_PLLCFGR_PLLQ_SHIFT</a>);</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;}</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
-<div class="line"><a name="l00358"></a><span class="lineno"><a class="code" href="rcc_8c.html#a02ae4c7c3c5566f2d92738177d8f6367">  358</a></span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="rcc_8h.html#a02ae4c7c3c5566f2d92738177d8f6367">rcc_system_clock_source</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;{</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        <span class="comment">/* Return the clock source which is used as system clock. */</span></div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="keywordflow">return</span> ((<a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a> &amp; 0x000c) &gt;&gt; 2);</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;}</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;</div>
-<div class="line"><a name="l00364"></a><span class="lineno"><a class="code" href="rcc_8c.html#a85e0da920f4567f343a9b812df7a5687">  364</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a85e0da920f4567f343a9b812df7a5687">rcc_clock_setup_hse_3v3</a>(<span class="keyword">const</span> <a class="code" href="structclock__scale__t.html">clock_scale_t</a> *clock)</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;{</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        <span class="comment">/* Enable internal high-speed oscillator. */</span></div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        <a class="code" href="rcc_8h.html#a8dbd64d58e019803bf109609203d1afd">rcc_osc_on</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823aae2bb333077d91b3c2aa75978f89e084">HSI</a>);</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        <a class="code" href="rcc_8h.html#a0f9fac6ac510e119aebe5f62c53f073a">rcc_wait_for_osc_ready</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823aae2bb333077d91b3c2aa75978f89e084">HSI</a>);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <span class="comment">/* Select HSI as SYSCLK source. */</span></div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        <a class="code" href="rcc_8h.html#a3edbf52144a86a1b8292b3e21e3959d7">rcc_set_sysclk_source</a>(<a class="code" href="rcc_8h.html#acbac8bae4f0808b3c3a5185aa10081fb">RCC_CFGR_SW_HSI</a>);</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="comment">/* Enable external high-speed oscillator 8MHz. */</span></div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        <a class="code" href="rcc_8h.html#a8dbd64d58e019803bf109609203d1afd">rcc_osc_on</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a744bf841212e605b891f8ced6e20eb43">HSE</a>);</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        <a class="code" href="rcc_8h.html#a0f9fac6ac510e119aebe5f62c53f073a">rcc_wait_for_osc_ready</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a744bf841212e605b891f8ced6e20eb43">HSE</a>);</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <span class="comment">/*</span></div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;<span class="comment">         * Set prescalers for AHB, ADC, ABP1, ABP2.</span></div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;<span class="comment">         * Do this before touching the PLL (TODO: why?).</span></div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        <a class="code" href="rcc_8h.html#a587f5be40f38a0bf0418ae4125129dc0">rcc_set_hpre</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#ac8be876648665f481c96a13f39bfd70e">hpre</a>);</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <a class="code" href="rcc_8h.html#a8cb53f3681507b9819229b24bd3417cd">rcc_set_ppre1</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3">ppre1</a>);</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <a class="code" href="rcc_8h.html#a411748dd9a8a99b746e802af6b448763">rcc_set_ppre2</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a">ppre2</a>);</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <a class="code" href="rcc_8h.html#aa615cefb749e25ad3a7a6a1e2f6df423">rcc_set_main_pll_hse</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#af529b713744995d39878f6954ad6e576">pllm</a>, clock-&gt;<a class="code" href="structclock__scale__t.html#ad9e813c3a0093ba7a95a954aa2ae2308">plln</a>,</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                             clock-&gt;<a class="code" href="structclock__scale__t.html#ad9cdc535a720177e5d63c41808fa7e7a">pllp</a>, clock-&gt;<a class="code" href="structclock__scale__t.html#a36708c358ff0cc8a88301f6b3ba1698f">pllq</a>);</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        <span class="comment">/* Enable PLL oscillator and wait for it to stabilize. */</span></div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        <a class="code" href="rcc_8h.html#a8dbd64d58e019803bf109609203d1afd">rcc_osc_on</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a>);</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <a class="code" href="rcc_8h.html#a0f9fac6ac510e119aebe5f62c53f073a">rcc_wait_for_osc_ready</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a>);</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="comment">/* Configure flash settings. */</span></div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a66164f6799767f17d6f6e845c4c5039e">flash_set_ws</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b">flash_config</a>);</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        <span class="comment">/* Select PLL as SYSCLK source. */</span></div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <a class="code" href="rcc_8h.html#a3edbf52144a86a1b8292b3e21e3959d7">rcc_set_sysclk_source</a>(<a class="code" href="rcc_8h.html#a87389cacb2eaf53730da13a2a33cd487">RCC_CFGR_SW_PLL</a>);</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="comment">/* Wait for PLL clock to be selected. */</span></div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        <a class="code" href="rcc_8h.html#a6472eba195686b970de6216ab61ebd7c">rcc_wait_for_sysclk_status</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a>);</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        <span class="comment">/* Set the peripheral clock frequencies used. */</span></div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        <a class="code" href="rcc_8h.html#a2ef92a5b2a7fffd75a80adb496391c8c">rcc_ppre1_frequency</a> = clock-&gt;<a class="code" href="structclock__scale__t.html#a0efec8dad9231991558c458c12a9b909">apb1_frequency</a>;</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <a class="code" href="rcc_8h.html#a734b4f30d6b0845a57f5e8d4dc434f85">rcc_ppre2_frequency</a> = clock-&gt;<a class="code" href="structclock__scale__t.html#abd1b982df203472532b6016961fe657d">apb2_frequency</a>;</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;}</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;</div>
-<div class="line"><a name="l00406"></a><span class="lineno"><a class="code" href="rcc_8c.html#aa02e63deae78644c393004fb900fe584">  406</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#aa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;{</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        <span class="comment">/* Set the backup domain software reset. */</span></div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <a class="code" href="rcc_8h.html#abd13837c4c33c5df3bdff96f8886d438">RCC_BDCR</a> |= <a class="code" href="rcc_8h.html#a2b85b3ab656dfa2809b15e6e530c17a2">RCC_BDCR_BDRST</a>;</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        <span class="comment">/* Clear the backup domain software reset. */</span></div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <a class="code" href="rcc_8h.html#abd13837c4c33c5df3bdff96f8886d438">RCC_BDCR</a> &amp;= ~<a class="code" href="rcc_8h.html#a2b85b3ab656dfa2809b15e6e530c17a2">RCC_BDCR_BDRST</a>;</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;}</div>
+<div class="line"><a name="l00341"></a><span class="lineno"><a class="code" href="rcc_8c.html#acfad289e21cd0d348cf2a765ce702aff">  341</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#acfad289e21cd0d348cf2a765ce702aff">rcc_set_main_pll_hsi</a>(uint32_t pllm, uint32_t plln, uint32_t pllp,</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                          uint32_t pllq)</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;{</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        <a class="code" href="rcc_8h.html#a838793cbec63d7be4f2ec76c8f605de0">RCC_PLLCFGR</a> = (pllm &lt;&lt; <a class="code" href="rcc_8h.html#ad7dcc662cce20de5eb8a10fb189b5c97">RCC_PLLCFGR_PLLM_SHIFT</a>) |</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                (plln &lt;&lt; <a class="code" href="rcc_8h.html#a01fadb9f1fc91bb2830620ab5eee5324">RCC_PLLCFGR_PLLN_SHIFT</a>) |</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                (((pllp &gt;&gt; 1) - 1) &lt;&lt; <a class="code" href="rcc_8h.html#aef2c2e5574b2454c04aea9aae06d3c92">RCC_PLLCFGR_PLLP_SHIFT</a>) |</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                (pllq &lt;&lt; <a class="code" href="rcc_8h.html#ac4df0bb6bd16afd9fbf2e30d3089e93c">RCC_PLLCFGR_PLLQ_SHIFT</a>);</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;}</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
+<div class="line"><a name="l00350"></a><span class="lineno"><a class="code" href="rcc_8c.html#ac9cad56153485b68efc5c3b444beddd4">  350</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#ac9cad56153485b68efc5c3b444beddd4">rcc_set_main_pll_hse</a>(uint32_t pllm, uint32_t plln, uint32_t pllp,</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                          uint32_t pllq)</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;{</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <a class="code" href="rcc_8h.html#a838793cbec63d7be4f2ec76c8f605de0">RCC_PLLCFGR</a> = (pllm &lt;&lt; <a class="code" href="rcc_8h.html#ad7dcc662cce20de5eb8a10fb189b5c97">RCC_PLLCFGR_PLLM_SHIFT</a>) |</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                (plln &lt;&lt; <a class="code" href="rcc_8h.html#a01fadb9f1fc91bb2830620ab5eee5324">RCC_PLLCFGR_PLLN_SHIFT</a>) |</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;                (((pllp &gt;&gt; 1) - 1) &lt;&lt; <a class="code" href="rcc_8h.html#aef2c2e5574b2454c04aea9aae06d3c92">RCC_PLLCFGR_PLLP_SHIFT</a>) |</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;                <a class="code" href="rcc_8h.html#a92cb53ea81d2c47537eb217cc6659a2e">RCC_PLLCFGR_PLLSRC</a> |</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;                (pllq &lt;&lt; <a class="code" href="rcc_8h.html#ac4df0bb6bd16afd9fbf2e30d3089e93c">RCC_PLLCFGR_PLLQ_SHIFT</a>);</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;}</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;</div>
+<div class="line"><a name="l00360"></a><span class="lineno"><a class="code" href="rcc_8c.html#a3373359648b1677ac49d2fe86bff99b7">  360</a></span>&#160;uint32_t <a class="code" href="rcc_8h.html#a3373359648b1677ac49d2fe86bff99b7">rcc_system_clock_source</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;{</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        <span class="comment">/* Return the clock source which is used as system clock. */</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="rcc_8h.html#a8f7780f390ef4cbb05efa06554ba0998">RCC_CFGR</a> &amp; 0x000c) &gt;&gt; 2;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;}</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
+<div class="line"><a name="l00366"></a><span class="lineno"><a class="code" href="rcc_8c.html#a85e0da920f4567f343a9b812df7a5687">  366</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a85e0da920f4567f343a9b812df7a5687">rcc_clock_setup_hse_3v3</a>(<span class="keyword">const</span> <a class="code" href="structclock__scale__t.html">clock_scale_t</a> *clock)</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;{</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        <span class="comment">/* Enable internal high-speed oscillator. */</span></div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        <a class="code" href="rcc_8h.html#a8dbd64d58e019803bf109609203d1afd">rcc_osc_on</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823aae2bb333077d91b3c2aa75978f89e084">HSI</a>);</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <a class="code" href="rcc_8h.html#a0f9fac6ac510e119aebe5f62c53f073a">rcc_wait_for_osc_ready</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823aae2bb333077d91b3c2aa75978f89e084">HSI</a>);</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        <span class="comment">/* Select HSI as SYSCLK source. */</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <a class="code" href="rcc_8h.html#a2c291271812c333d975807cd5ec99a36">rcc_set_sysclk_source</a>(<a class="code" href="rcc_8h.html#acbac8bae4f0808b3c3a5185aa10081fb">RCC_CFGR_SW_HSI</a>);</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        <span class="comment">/* Enable external high-speed oscillator 8MHz. */</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        <a class="code" href="rcc_8h.html#a8dbd64d58e019803bf109609203d1afd">rcc_osc_on</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a744bf841212e605b891f8ced6e20eb43">HSE</a>);</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <a class="code" href="rcc_8h.html#a0f9fac6ac510e119aebe5f62c53f073a">rcc_wait_for_osc_ready</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a744bf841212e605b891f8ced6e20eb43">HSE</a>);</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="comment">         * Set prescalers for AHB, ADC, ABP1, ABP2.</span></div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="comment">         * Do this before touching the PLL (TODO: why?).</span></div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <a class="code" href="rcc_8h.html#ae192b2cd0f37124db5ed76d599a5671b">rcc_set_hpre</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#ac8be876648665f481c96a13f39bfd70e">hpre</a>);</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <a class="code" href="rcc_8h.html#aaf1b9174131b00a7014c0328a53a65a1">rcc_set_ppre1</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3">ppre1</a>);</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <a class="code" href="rcc_8h.html#ac40c9478480f3a44c381c15482a563cd">rcc_set_ppre2</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a">ppre2</a>);</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <a class="code" href="rcc_8h.html#ac9cad56153485b68efc5c3b444beddd4">rcc_set_main_pll_hse</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#af529b713744995d39878f6954ad6e576">pllm</a>, clock-&gt;<a class="code" href="structclock__scale__t.html#ad9e813c3a0093ba7a95a954aa2ae2308">plln</a>,</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                             clock-&gt;<a class="code" href="structclock__scale__t.html#ad9cdc535a720177e5d63c41808fa7e7a">pllp</a>, clock-&gt;<a class="code" href="structclock__scale__t.html#a36708c358ff0cc8a88301f6b3ba1698f">pllq</a>);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="comment">/* Enable PLL oscillator and wait for it to stabilize. */</span></div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <a class="code" href="rcc_8h.html#a8dbd64d58e019803bf109609203d1afd">rcc_osc_on</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a>);</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <a class="code" href="rcc_8h.html#a0f9fac6ac510e119aebe5f62c53f073a">rcc_wait_for_osc_ready</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a>);</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        <span class="comment">/* Configure flash settings. */</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b">flash_config</a>);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="comment">/* Select PLL as SYSCLK source. */</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <a class="code" href="rcc_8h.html#a2c291271812c333d975807cd5ec99a36">rcc_set_sysclk_source</a>(<a class="code" href="rcc_8h.html#a87389cacb2eaf53730da13a2a33cd487">RCC_CFGR_SW_PLL</a>);</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        <span class="comment">/* Wait for PLL clock to be selected. */</span></div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        <a class="code" href="rcc_8h.html#a6472eba195686b970de6216ab61ebd7c">rcc_wait_for_sysclk_status</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a>);</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="comment">/* Set the peripheral clock frequencies used. */</span></div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        <a class="code" href="rcc_8h.html#a71455852cfe7420e0c33a63e0e09c4e5">rcc_ppre1_frequency</a> = clock-&gt;<a class="code" href="structclock__scale__t.html#a0efec8dad9231991558c458c12a9b909">apb1_frequency</a>;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        <a class="code" href="rcc_8h.html#ae9ac2772ba7880c2a2941d8a7150c477">rcc_ppre2_frequency</a> = clock-&gt;<a class="code" href="structclock__scale__t.html#abd1b982df203472532b6016961fe657d">apb2_frequency</a>;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;}</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
+<div class="line"><a name="l00408"></a><span class="lineno"><a class="code" href="rcc_8c.html#aa02e63deae78644c393004fb900fe584">  408</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#aa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;{</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        <span class="comment">/* Set the backup domain software reset. */</span></div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        <a class="code" href="rcc_8h.html#abd13837c4c33c5df3bdff96f8886d438">RCC_BDCR</a> |= <a class="code" href="rcc_8h.html#a2b85b3ab656dfa2809b15e6e530c17a2">RCC_BDCR_BDRST</a>;</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        <span class="comment">/* Clear the backup domain software reset. */</span></div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        <a class="code" href="rcc_8h.html#abd13837c4c33c5df3bdff96f8886d438">RCC_BDCR</a> &amp;= ~<a class="code" href="rcc_8h.html#a2b85b3ab656dfa2809b15e6e530c17a2">RCC_BDCR_BDRST</a>;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_523a2e24776fe0f5973d0249b2b4e7e9.html">f2</a></li><li class="navelem"><a class="el" href="rcc_8c.html">rcc.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:22 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:21 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

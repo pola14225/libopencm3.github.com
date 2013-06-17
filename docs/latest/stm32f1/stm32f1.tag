@@ -9,365 +9,365 @@
       <type>void</type>
       <name>adc_power_on</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga887a6fe0bbf2610f2ab0f8a7ab3bce40</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_direct</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gafc55f4769af43526e77edc11907be438</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga455f91c3461744ff38517f4cd54c31b4</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dual_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gadc06dcc9c3e6f652f18dc7280feb2c11</anchor>
-      <arglist>(u32 mode)</arglist>
+      <anchor>gac6f35b3d65fcda9f9599058799f2dbf0</anchor>
+      <arglist>(uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga830b0fc9370508bf04dc1b01cc09badb</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga186bfcb2659dfafb0c342c1975472f25</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gad2a065923adced21827480f124ff4a61</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>adc_read_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga0cb788d1d9e54f4ccf9fc8b3b95656ff</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>adc_read_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gafdcca79192331fc42e3241caddd6f7ef</anchor>
-      <arglist>(u32 adc, u8 reg)</arglist>
+      <anchor>gab96e1ce8d28ce696dc70e231a8da936e</anchor>
+      <arglist>(uint32_t adc, uint8_t reg)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_offset</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga43bffb4e87049a19ea8ed264a6004285</anchor>
-      <arglist>(u32 adc, u8 reg, u32 offset)</arglist>
+      <anchor>gac3af5b84c1af074f2c9de07b0ed73470</anchor>
+      <arglist>(uint32_t adc, uint8_t reg, uint32_t offset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga5a1319d5fcfa28d0c5d616bb34636c44</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga6232c6b32e8f6c761e6297ba40f7c067</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaffa5256174cec880eaea7d82a1caf968</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga46ea7596440e650c5640012aa74f2d21</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gab4cc03bbad2f235b9fb8ed1b89e24d25</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga2e0ddcf0afcfaa7a818db8ea6ea66690</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gac97660f8ac7f23bd22c5a867d86dc80c</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga8071fcf08d687582e7c8c5621588fc5a</anchor>
-      <arglist>(u32 adc, u8 length)</arglist>
+      <anchor>ga57b3c58283977a60ab7e94b33d502ef8</anchor>
+      <arglist>(uint32_t adc, uint8_t length)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga2a4e78f6f0fb2f4d0a442946662079f2</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3c7c004f76958f5b9d4c2f66dad7f8df</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga71c6f47f070add23253af4bf8e84820e</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga214a9ead42c311498474678796e8e768</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga78164c7d8ab5f99ca93ed52e913bf6e8</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gafe352fb7c779e3b540056f0dd926e8b3</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_automatic_injected_group_conversion</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaa55d33a50412f243f9dd50aa22e93e13</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga9965805fdbb3e7dd26a1afed91cc4fd2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_automatic_injected_group_conversion</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gad60e8cc425daf6901d82100b2c3c5cd9</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga118817f8db889310eb249519d9b8ae39</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_all_channels</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga4887c1c1739ade1c0554df5f2f67dd42</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga756eb74470362394a05dacf33f3e647d</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_selected_channel</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga4ce1e75e61f656032b89484bf26c1889</anchor>
-      <arglist>(u32 adc, u8 channel)</arglist>
+      <anchor>gac59be11190b92659467a130485ed3083</anchor>
+      <arglist>(uint32_t adc, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_scan_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gac3658741ed79f6d6ec561d790f0c3531</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_scan_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga75e4b403cc6932aef35b4b84b56c8080</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga93bf810a8a531d5772d443c252364016</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gab2b359caa41226508e5414a9fdf18fcd</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaccc28c17498079897b5f80ae63af2921</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga59b482216ccaeeeaf22d7c5cfed7f3e2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_awd_interrupt</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga0669ecb2cc0f1b4a54b4e049443ba709</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_awd_interrupt</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga15cf1ba5c9d252b083fd2ac1b7190991</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga9d5cfe916560d5a3c0a91064c19cddb2</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gac8bdb409a1c15b7570b5c9cebbf516b8</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga39433b5b817fc20cdfa72d0a965a38a6</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga076a483dddf265550d82b6f7134abe43</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gadcfe29104bbb44d42c4121d8faacfc0c</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0c2097fd773feee0af1201d361dedfc9</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaf8822481db78523a0d252dde571c17db</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga162cfe07991774853c1dd30770c282f9</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga368ee92a908a3fd3ec8a1331c32df351</anchor>
-      <arglist>(u32 adc, u32 trigger)</arglist>
+      <anchor>gaa6f45976d2bcf60d61940dd179698531</anchor>
+      <arglist>(uint32_t adc, uint32_t trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gac9f171c3dd499f03899ead80449d3325</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf91d45a5dcbc9d884a9f878ff6323bbe</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga664f706e3ad9bdfe41d8697e011f4afa</anchor>
-      <arglist>(u32 adc, u32 trigger)</arglist>
+      <anchor>ga7089ba2bbbb3a1836535b74bf2f9dd55</anchor>
+      <arglist>(uint32_t adc, uint32_t trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga15dac30e511736f67112db9997329c60</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_left_aligned</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gabcc9f948ac15e47f1b8d0084018fbbaa</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_right_aligned</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga0990e90f5815264493f75ff61b771477</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_dma</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaddcab138dd47a4b6dc9357837c9f3604</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_dma</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga8c4e2c4b6c4ff8bbc00c6e53f277892f</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_reset_calibration</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga4f4b72567aa568d180688708b4df9d48</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga640d0e7ddeb7b7be90693edee48b10f1</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_calibration</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga1d52e753fbe82fff9dce9347b6c1482b</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3c48b602bbe9d9ce30eda5f069366dcb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continuous_conversion_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga187af0456ee41251a4ccb9de164eb077</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_conversion_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga037cddef7f977288dde6a2a9bfe9ab69</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_on</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga74bdf134679d1224538ccc0fed2feb77</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gafdd1cc3cf5cb0833e881c0f9b3d54a85</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_off</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga81d7963a320361ba7343eb3d094faaba</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga9d08047fceee749485a72be74764db5c</anchor>
-      <arglist>(u32 adc, u8 channel, u8 time)</arglist>
+      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time_on_all_channels</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaa6db4d6f3d5102470bb1ea84928f7713</anchor>
-      <arglist>(u32 adc, u8 time)</arglist>
+      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
+      <arglist>(uint32_t adc, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_high_threshold</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaa2eac9de2e231fe46adaba9d81f82b08</anchor>
-      <arglist>(u32 adc, u16 threshold)</arglist>
+      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_low_threshold</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gab12fb7ddc1517f1d06990daf82c04a70</anchor>
-      <arglist>(u32 adc, u16 threshold)</arglist>
+      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_regular_sequence</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaaf0c33fdbed4e8ea63b6c0ee3030d9ea</anchor>
-      <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_sequence</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga1a7f811f45a7affd09aef0bce17fd213</anchor>
-      <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
+      <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2569,407 +2569,407 @@
       <type>BEGIN_DECLS void</type>
       <name>adc_power_on</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga85c7730e97e8faff833ad787087aaea3</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga4411d46556442a9121328a768d74a3a5</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_direct</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gafc55f4769af43526e77edc11907be438</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga455f91c3461744ff38517f4cd54c31b4</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_channel</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaddc132cf4636ce45eb772c62d6167794</anchor>
-      <arglist>(u32 adc, u8 channel)</arglist>
+      <anchor>ga196e492cbc237675e6a5c2cbebad2639</anchor>
+      <arglist>(uint32_t adc, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dual_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gadc06dcc9c3e6f652f18dc7280feb2c11</anchor>
-      <arglist>(u32 mode)</arglist>
+      <anchor>gac6f35b3d65fcda9f9599058799f2dbf0</anchor>
+      <arglist>(uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga830b0fc9370508bf04dc1b01cc09badb</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga186bfcb2659dfafb0c342c1975472f25</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gad2a065923adced21827480f124ff4a61</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>adc_read_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga0cb788d1d9e54f4ccf9fc8b3b95656ff</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>adc_read_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gafdcca79192331fc42e3241caddd6f7ef</anchor>
-      <arglist>(u32 adc, u8 reg)</arglist>
+      <anchor>gab96e1ce8d28ce696dc70e231a8da936e</anchor>
+      <arglist>(uint32_t adc, uint8_t reg)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_offset</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga43bffb4e87049a19ea8ed264a6004285</anchor>
-      <arglist>(u32 adc, u8 reg, u32 offset)</arglist>
+      <anchor>gac3af5b84c1af074f2c9de07b0ed73470</anchor>
+      <arglist>(uint32_t adc, uint8_t reg, uint32_t offset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga5a1319d5fcfa28d0c5d616bb34636c44</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga6232c6b32e8f6c761e6297ba40f7c067</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaffa5256174cec880eaea7d82a1caf968</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga46ea7596440e650c5640012aa74f2d21</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gab4cc03bbad2f235b9fb8ed1b89e24d25</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga2e0ddcf0afcfaa7a818db8ea6ea66690</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gac97660f8ac7f23bd22c5a867d86dc80c</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga8071fcf08d687582e7c8c5621588fc5a</anchor>
-      <arglist>(u32 adc, u8 length)</arglist>
+      <anchor>ga57b3c58283977a60ab7e94b33d502ef8</anchor>
+      <arglist>(uint32_t adc, uint8_t length)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga2a4e78f6f0fb2f4d0a442946662079f2</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3c7c004f76958f5b9d4c2f66dad7f8df</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga71c6f47f070add23253af4bf8e84820e</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga214a9ead42c311498474678796e8e768</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga78164c7d8ab5f99ca93ed52e913bf6e8</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gafe352fb7c779e3b540056f0dd926e8b3</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_automatic_injected_group_conversion</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaa55d33a50412f243f9dd50aa22e93e13</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga9965805fdbb3e7dd26a1afed91cc4fd2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_automatic_injected_group_conversion</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gad60e8cc425daf6901d82100b2c3c5cd9</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga118817f8db889310eb249519d9b8ae39</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_all_channels</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga4887c1c1739ade1c0554df5f2f67dd42</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga756eb74470362394a05dacf33f3e647d</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_selected_channel</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga4ce1e75e61f656032b89484bf26c1889</anchor>
-      <arglist>(u32 adc, u8 channel)</arglist>
+      <anchor>gac59be11190b92659467a130485ed3083</anchor>
+      <arglist>(uint32_t adc, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_scan_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gac3658741ed79f6d6ec561d790f0c3531</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_scan_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga75e4b403cc6932aef35b4b84b56c8080</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga93bf810a8a531d5772d443c252364016</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gab2b359caa41226508e5414a9fdf18fcd</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaccc28c17498079897b5f80ae63af2921</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga59b482216ccaeeeaf22d7c5cfed7f3e2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_awd_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga0669ecb2cc0f1b4a54b4e049443ba709</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_awd_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga15cf1ba5c9d252b083fd2ac1b7190991</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga9d5cfe916560d5a3c0a91064c19cddb2</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gac8bdb409a1c15b7570b5c9cebbf516b8</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga39433b5b817fc20cdfa72d0a965a38a6</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga076a483dddf265550d82b6f7134abe43</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gadcfe29104bbb44d42c4121d8faacfc0c</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0c2097fd773feee0af1201d361dedfc9</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaf8822481db78523a0d252dde571c17db</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga162cfe07991774853c1dd30770c282f9</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga368ee92a908a3fd3ec8a1331c32df351</anchor>
-      <arglist>(u32 adc, u32 trigger)</arglist>
+      <anchor>gaa6f45976d2bcf60d61940dd179698531</anchor>
+      <arglist>(uint32_t adc, uint32_t trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gac9f171c3dd499f03899ead80449d3325</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf91d45a5dcbc9d884a9f878ff6323bbe</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga664f706e3ad9bdfe41d8697e011f4afa</anchor>
-      <arglist>(u32 adc, u32 trigger)</arglist>
+      <anchor>ga7089ba2bbbb3a1836535b74bf2f9dd55</anchor>
+      <arglist>(uint32_t adc, uint32_t trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga15dac30e511736f67112db9997329c60</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_left_aligned</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gabcc9f948ac15e47f1b8d0084018fbbaa</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_right_aligned</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga0990e90f5815264493f75ff61b771477</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_dma</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaddcab138dd47a4b6dc9357837c9f3604</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_dma</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga8c4e2c4b6c4ff8bbc00c6e53f277892f</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_reset_calibration</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga4f4b72567aa568d180688708b4df9d48</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga640d0e7ddeb7b7be90693edee48b10f1</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_calibration</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga1d52e753fbe82fff9dce9347b6c1482b</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3c48b602bbe9d9ce30eda5f069366dcb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continuous_conversion_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga187af0456ee41251a4ccb9de164eb077</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_conversion_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga037cddef7f977288dde6a2a9bfe9ab69</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_on</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gafcf149e9d9e029b384330deb30722cca</anchor>
-      <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;will be removed in the first release&quot;)</arglist>
+      <anchor>ga3ec44a6d5e28b3626c59ef9a85c7c4e5</anchor>
+      <arglist>(uint32_t adc) LIBOPENCM3_DEPRECATED(&quot;will be removed in the first release&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_off</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga81d7963a320361ba7343eb3d094faaba</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga9d08047fceee749485a72be74764db5c</anchor>
-      <arglist>(u32 adc, u8 channel, u8 time)</arglist>
+      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time_on_all_channels</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaa6db4d6f3d5102470bb1ea84928f7713</anchor>
-      <arglist>(u32 adc, u8 time)</arglist>
+      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
+      <arglist>(uint32_t adc, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_high_threshold</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaa2eac9de2e231fe46adaba9d81f82b08</anchor>
-      <arglist>(u32 adc, u16 threshold)</arglist>
+      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_low_threshold</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gab12fb7ddc1517f1d06990daf82c04a70</anchor>
-      <arglist>(u32 adc, u16 threshold)</arglist>
+      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_regular_sequence</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaaf0c33fdbed4e8ea63b6c0ee3030d9ea</anchor>
-      <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_sequence</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga1a7f811f45a7affd09aef0bce17fd213</anchor>
-      <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
+      <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continous_conversion_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaddfdf8bb682d12648252c8d1d1ff25db</anchor>
-      <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_continuous_conversion_mode&quot;)</arglist>
+      <anchor>ga7dfd6f60a7c3af3f9300b4dd4b99c9a1</anchor>
+      <arglist>(uint32_t adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_continuous_conversion_mode&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_conversion_time</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gad2725e57f017905c1aff942d1861a7a8</anchor>
-      <arglist>(u32 adc, u8 channel, u8 time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time&quot;)</arglist>
+      <anchor>gaa5d159dcb4a0aa14098ab591b3341ea5</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_conversion_time_on_all_channels</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaa7e414a11da4f3215f4125fabf518564</anchor>
-      <arglist>(u32 adc, u8 time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time_on_all_channels&quot;)</arglist>
+      <anchor>ga60abf21393d574c414182d895d072f61</anchor>
+      <arglist>(uint32_t adc, uint8_t time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time_on_all_channels&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_jeoc_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaf8e7daa0eede413f3cfab0d2b2be3633</anchor>
-      <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_enable_eoc_interrupt_injected&quot;)</arglist>
+      <anchor>ga7faf36aab0c52aa9801d9e7d4e743367</anchor>
+      <arglist>(uint32_t adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_enable_eoc_interrupt_injected&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_jeoc_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga9eee5deedf4ed18c0202fceff8bbb77d</anchor>
-      <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_disable_eoc_interrupt_injected&quot;)</arglist>
+      <anchor>ga5027a7de926dbda1adcdadeb1004c27e</anchor>
+      <arglist>(uint32_t adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_disable_eoc_interrupt_injected&quot;)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -3393,18 +3393,18 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>crc_calculate</name>
       <anchorfile>group__crc__file.html</anchorfile>
-      <anchor>gadd37c58ab37425dcd78e0f23b5fd5db2</anchor>
-      <arglist>(u32 data)</arglist>
+      <anchor>gabd1ee47183330de057df47d4aab2fc74</anchor>
+      <arglist>(uint32_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>crc_calculate_block</name>
       <anchorfile>group__crc__file.html</anchorfile>
-      <anchor>ga0508527cd6e9a236c8e1733dff867d5e</anchor>
-      <arglist>(u32 *datap, int size)</arglist>
+      <anchor>ga88a426790ad1ae4a43a6019cdb247220</anchor>
+      <arglist>(uint32_t *datap, int size)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -3502,15 +3502,15 @@
       <type>void</type>
       <name>dac_set_trigger_source</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>gaacf3bb83d74f04b8de3a83b68a53c0dd</anchor>
-      <arglist>(u32 dac_trig_src)</arglist>
+      <anchor>ga6ab076c50ee6f788648a9a6ebe161ab2</anchor>
+      <arglist>(uint32_t dac_trig_src)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_set_waveform_generation</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>gad0174ee14375a51feedac395b423bab5</anchor>
-      <arglist>(u32 dac_wave_ens)</arglist>
+      <anchor>gaa0a78f45943398ea085e7332611e95f9</anchor>
+      <arglist>(uint32_t dac_wave_ens)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3523,22 +3523,22 @@
       <type>void</type>
       <name>dac_set_waveform_characteristics</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>ga4987ce6c59997b02835188e3b7220d83</anchor>
-      <arglist>(u32 dac_mamp)</arglist>
+      <anchor>ga89fb44b8fd880a1c0415e77f2762c6af</anchor>
+      <arglist>(uint32_t dac_mamp)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_load_data_buffer_single</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>gac5d6bc856982b2f33b2f5665bd16f2ca</anchor>
-      <arglist>(u16 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
+      <anchor>gabdef300140d86666393d9d66102bc76d</anchor>
+      <arglist>(uint16_t dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_load_data_buffer_dual</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>ga9d7d3043af42e83f1620bb9f7c9fde49</anchor>
-      <arglist>(u16 dac_data1, u16 dac_data2, data_align dac_data_format)</arglist>
+      <anchor>ga4d573e5c5ac0b0b496890f4518089c6b</anchor>
+      <arglist>(uint16_t dac_data1, uint16_t dac_data2, data_align dac_data_format)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3573,176 +3573,176 @@
       <type>void</type>
       <name>dma_channel_reset</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1ff41cad6a8f897a0722c0c913dd07f0</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gaa0e2c035b7be3a35d966b5d3f4576cd6</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_clear_interrupt_flags</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1035bb6b7cbb49a026a64b96496fed61</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
+      <anchor>gac40a8639d6c302311f96cfe757149d65</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupts)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>dma_get_interrupt_flag</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0448de67c4697ca3efe1350751690446</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupt)</arglist>
+      <anchor>ga2bbc4d202b36d8e8a198210b73b55fd5</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_mem2mem_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga617eb5cd853d37e116247915aee301be</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gad831d792923d1f4934ea1502a178fde2</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_priority</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5a79731815d899613f5fe9944ef776b2</anchor>
-      <arglist>(u32 dma, u8 channel, u32 prio)</arglist>
+      <anchor>ga1f69698a62a464cf9854ec02461bec89</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t prio)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_size</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4e36129b18538020951fce6476b33df4</anchor>
-      <arglist>(u32 dma, u8 channel, u32 mem_size)</arglist>
+      <anchor>gaf4e5396e694acaf0076172051b0bc73b</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t mem_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_peripheral_size</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga56fff16304df824cd19ada5ef5d14bfe</anchor>
-      <arglist>(u32 dma, u8 channel, u32 peripheral_size)</arglist>
+      <anchor>gae7a8decadc1f0b0c57bd1bb8af31ff1e</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t peripheral_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_memory_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga63b0ae23516392cb7b7fbb2cd78bd709</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga4603fbb63b0bc28f40e12b574d8dca06</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_memory_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa668c99d665129a8e627bfd120f8fdee</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga2c403250cd21d8d58c5e7a6041e8ece5</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_peripheral_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad8806134d462fcba72689bc8a8436885</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga815827721ac00bc6c5861ac72e969da6</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_peripheral_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2b4d26d2919a322b98c7e4d350d98218</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gab68711de9988ae47bab7e02ff6d90577</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_circular_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac9942cd4b0c10fa780fad38ea5840b6e</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga9bbce5e1378bc9468a7ab36e1994139b</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_read_from_peripheral</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1816ec1c02bc4731f7e0ce175c6ba272</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga5e6948cc934466d0b26c6fffaecdb999</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_read_from_memory</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa70ac5daa668c30783552ea0e531d9df</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga1446d08000d09fe53ccc60f51baee51a</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_transfer_error_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga6f98fcb670463ff9fa0b350b8a55add6</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gaa0cf00a33e2e4db3678fb03ea9df9848</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_error_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3ca927ad8548f5df39f80e2a3580b257</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga4d83c30e746520f4376db4d507203cdd</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_half_transfer_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga22ea9a9d3595761a3570f8c59c3acad4</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gadbcda7ee605e555d66cbf99e4bc156af</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_half_transfer_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0b7997b16dba35056695aa3ed7c8c57d</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga7a04611f195e968869795da7bb1a962e</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gadce242f0b1e229b0ffc24aa2227d7394</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga2342cb0ead24ea5274d2cc0e3c7c1c7b</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gafeb700fc225336070480f46ea6fdfd5b</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga145370b8df947290a81f8d69f03d2ef3</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_channel</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga48e3c1011542fdfad681aa7e554608f5</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga8ceb0c8c8ce56a288bca8180d426c178</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_channel</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac5b68ba004c7aed8fc3101fed5f5acd1</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga6a414141caca0417be5def3b1c8e661a</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_peripheral_address</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga74057182d4be039db3d6a26c779fbdea</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+      <anchor>gaf3e4413e433bfb1f1909eb44abc855e3</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_address</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac2f336cb2da513e171c2111e2e399c0a</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+      <anchor>ga24372b0a92d96913ababcbe0ad0a7e98</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_number_of_data</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5bc9e05af8be84ecce2be41731de467f</anchor>
-      <arglist>(u32 dma, u8 channel, u16 number)</arglist>
+      <anchor>ga3d9bf8f1d34626faae129830dad95a78</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint16_t number)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -3764,15 +3764,15 @@
       <type>void</type>
       <name>eth_smi_write</name>
       <anchorfile>ethernet_8c.html</anchorfile>
-      <anchor>aa86180bb46fa3bf02f6fe6024e87b455</anchor>
-      <arglist>(u8 phy, u8 reg, u16 data)</arglist>
+      <anchor>a792615b218f5177655db66776b2ef93f</anchor>
+      <arglist>(uint8_t phy, uint8_t reg, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>eth_smi_read</name>
       <anchorfile>ethernet_8c.html</anchorfile>
-      <anchor>af1bc3c2c0fe0625f8a029393b3f9408a</anchor>
-      <arglist>(u8 phy, u8 reg)</arglist>
+      <anchor>a7ec34f2f7d95e170c72bbdd37ba217b3</anchor>
+      <arglist>(uint8_t phy, uint8_t reg)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -4819,15 +4819,15 @@
       <type>BEGIN_DECLS void</type>
       <name>eth_smi_write</name>
       <anchorfile>ethernet_8h.html</anchorfile>
-      <anchor>a358a8e7e3ade9e72efae8f2d2e331188</anchor>
-      <arglist>(u8 phy, u8 reg, u16 data)</arglist>
+      <anchor>a068191da035f43e8f38c0f5d701ecb90</anchor>
+      <arglist>(uint8_t phy, uint8_t reg, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>eth_smi_read</name>
       <anchorfile>ethernet_8h.html</anchorfile>
-      <anchor>af1bc3c2c0fe0625f8a029393b3f9408a</anchor>
-      <arglist>(u8 phy, u8 reg)</arglist>
+      <anchor>a7ec34f2f7d95e170c72bbdd37ba217b3</anchor>
+      <arglist>(uint8_t phy, uint8_t reg)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -4839,43 +4839,43 @@
       <type>void</type>
       <name>exti_set_trigger</name>
       <anchorfile>exti_8c.html</anchorfile>
-      <anchor>a96a34cf8cf9e86b79323dfab823163b1</anchor>
-      <arglist>(u32 extis, exti_trigger_type trig)</arglist>
+      <anchor>af5c2d8b107da8a6d904c83df0512e66b</anchor>
+      <arglist>(uint32_t extis, exti_trigger_type trig)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_enable_request</name>
       <anchorfile>exti_8c.html</anchorfile>
-      <anchor>a5407cff9341a4300d97cacb93b451ddd</anchor>
-      <arglist>(u32 extis)</arglist>
+      <anchor>acb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
+      <arglist>(uint32_t extis)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_disable_request</name>
       <anchorfile>exti_8c.html</anchorfile>
-      <anchor>ab5d0eede2b40eb24875dfee50851ccdb</anchor>
-      <arglist>(u32 extis)</arglist>
+      <anchor>a1752fef240fb05e1135548449943ce0b</anchor>
+      <arglist>(uint32_t extis)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_reset_request</name>
       <anchorfile>exti_8c.html</anchorfile>
-      <anchor>a0f7bda7226dd15e9d39787656f5cfd3d</anchor>
-      <arglist>(u32 extis)</arglist>
+      <anchor>aa86779017820fedee955563adc8b5f4a</anchor>
+      <arglist>(uint32_t extis)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>exti_get_flag_status</name>
       <anchorfile>exti_8c.html</anchorfile>
-      <anchor>a562e04df5f328e1ee0785b8385f14d95</anchor>
-      <arglist>(u32 exti)</arglist>
+      <anchor>a80d89279aab6cc63a8141b7421cd2dd1</anchor>
+      <arglist>(uint32_t exti)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_select_source</name>
       <anchorfile>exti_8c.html</anchorfile>
-      <anchor>aec98942fea32ed9d1a96437be0188969</anchor>
-      <arglist>(u32 exti, u32 gpioport)</arglist>
+      <anchor>a81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
+      <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -4915,8 +4915,8 @@
       <type>void</type>
       <name>flash_set_ws</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a66164f6799767f17d6f6e845c4c5039e</anchor>
-      <arglist>(u32 ws)</arglist>
+      <anchor>a9347b16d27d64b79f507dc9cad8633b2</anchor>
+      <arglist>(uint32_t ws)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -4968,10 +4968,10 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>flash_get_status_flags</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a9d09d8024fecdc2acf0e1a5354d51dfc</anchor>
+      <anchor>a5afd52a33a55a6423d536eca1f04933b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -4992,22 +4992,22 @@
       <type>void</type>
       <name>flash_program_word</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>ada59106b2abfe22eaffc9ad6f1b48899</anchor>
-      <arglist>(u32 address, u32 data)</arglist>
+      <anchor>a73937aa6df8710e95425b165730626a2</anchor>
+      <arglist>(uint32_t address, uint32_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_half_word</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a1312105c3432840482d6678ef841e9e2</anchor>
-      <arglist>(u32 address, u16 data)</arglist>
+      <anchor>af5077b5726c70fa9418db9d73182f89d</anchor>
+      <arglist>(uint32_t address, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_erase_page</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a002e6ac054e5086830d0e686672b161b</anchor>
-      <arglist>(u32 page_address)</arglist>
+      <anchor>a0aee649731aaa8c1316c12f5bea7c31b</anchor>
+      <arglist>(uint32_t page_address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5027,8 +5027,8 @@
       <type>void</type>
       <name>flash_program_option_bytes</name>
       <anchorfile>flash_8c.html</anchorfile>
-      <anchor>ad617eda1ad9c5e6e6766d4aea700df5b</anchor>
-      <arglist>(u32 address, u16 data)</arglist>
+      <anchor>ab759a6e89a54cfb15a60c0e8f4eb66df</anchor>
+      <arglist>(uint32_t address, uint16_t data)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -5319,8 +5319,8 @@
       <type>void</type>
       <name>flash_set_ws</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a66164f6799767f17d6f6e845c4c5039e</anchor>
-      <arglist>(u32 ws)</arglist>
+      <anchor>a9347b16d27d64b79f507dc9cad8633b2</anchor>
+      <arglist>(uint32_t ws)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5372,10 +5372,10 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>flash_get_status_flags</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a9d09d8024fecdc2acf0e1a5354d51dfc</anchor>
+      <anchor>a5afd52a33a55a6423d536eca1f04933b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -5396,22 +5396,22 @@
       <type>void</type>
       <name>flash_erase_page</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a002e6ac054e5086830d0e686672b161b</anchor>
-      <arglist>(u32 page_address)</arglist>
+      <anchor>a0aee649731aaa8c1316c12f5bea7c31b</anchor>
+      <arglist>(uint32_t page_address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_word</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ada59106b2abfe22eaffc9ad6f1b48899</anchor>
-      <arglist>(u32 address, u32 data)</arglist>
+      <anchor>a73937aa6df8710e95425b165730626a2</anchor>
+      <arglist>(uint32_t address, uint32_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_half_word</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a1312105c3432840482d6678ef841e9e2</anchor>
-      <arglist>(u32 address, u16 data)</arglist>
+      <anchor>af5077b5726c70fa9418db9d73182f89d</anchor>
+      <arglist>(uint32_t address, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -5431,8 +5431,8 @@
       <type>void</type>
       <name>flash_program_option_bytes</name>
       <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ad617eda1ad9c5e6e6766d4aea700df5b</anchor>
-      <arglist>(u32 address, u16 data)</arglist>
+      <anchor>ab759a6e89a54cfb15a60c0e8f4eb66df</anchor>
+      <arglist>(uint32_t address, uint16_t data)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -5443,29 +5443,29 @@
       <type>void</type>
       <name>gpio_set_mode</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga1d6842eeec137bb2df7ef9614e193188</anchor>
-      <arglist>(u32 gpioport, u8 mode, u8 cnf, u16 gpios)</arglist>
+      <anchor>gae4a927a78f0ed245472ba05de9c7e940</anchor>
+      <arglist>(uint32_t gpioport, uint8_t mode, uint8_t cnf, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_eventout</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga2d8001859b926b5f419c937c6c679459</anchor>
-      <arglist>(u8 evoutport, u8 evoutpin)</arglist>
+      <anchor>gabab0dfbc150f8658cea822421f5f6ac1</anchor>
+      <arglist>(uint8_t evoutport, uint8_t evoutpin)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_primary_remap</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga2f5ad9da96cac415f5fb851e7a57554b</anchor>
-      <arglist>(u32 swjdisable, u32 maps)</arglist>
+      <anchor>ga793f728ea95a83f58e1d27d07d2fe0eb</anchor>
+      <arglist>(uint32_t swjdisable, uint32_t maps)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_secondary_remap</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gadcd7a1f65fe961d3ed1cefa514d5d2f7</anchor>
-      <arglist>(u32 maps)</arglist>
+      <anchor>ga3e5ba590258c8bb68b11ffb52d02ecb7</anchor>
+      <arglist>(uint32_t maps)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -9047,29 +9047,29 @@
       <type>BEGIN_DECLS void</type>
       <name>gpio_set_mode</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga07cb96dc8e544ca14fb746ce1c475b19</anchor>
-      <arglist>(u32 gpioport, u8 mode, u8 cnf, u16 gpios)</arglist>
+      <anchor>ga5273739c01f6cbc3c400ae81d4330294</anchor>
+      <arglist>(uint32_t gpioport, uint8_t mode, uint8_t cnf, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_eventout</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga2d8001859b926b5f419c937c6c679459</anchor>
-      <arglist>(u8 evoutport, u8 evoutpin)</arglist>
+      <anchor>gabab0dfbc150f8658cea822421f5f6ac1</anchor>
+      <arglist>(uint8_t evoutport, uint8_t evoutpin)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_primary_remap</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga09abe2f2f64812a4580050dbd34a4ff3</anchor>
-      <arglist>(u32 swjenable, u32 maps)</arglist>
+      <anchor>ga9fa7b8ed1d38d8b3d0e22bdfbabb9003</anchor>
+      <arglist>(uint32_t swjenable, uint32_t maps)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_secondary_remap</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gadcd7a1f65fe961d3ed1cefa514d5d2f7</anchor>
-      <arglist>(u32 maps)</arglist>
+      <anchor>ga3e5ba590258c8bb68b11ffb52d02ecb7</anchor>
+      <arglist>(uint32_t maps)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -9087,50 +9087,50 @@
       <type>void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga7fb65a68e4fc7175660f396395f6b44e</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gaa38876ad6f3cb35b67b25e87a2ce193c</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga8970f778a63c9d78ffd8d4d36628c7e1</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>gpio_get</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga1f8ff59ad8792d9cc6e505149b51889d</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga5fee90e8e5af7de567890ffae5ed50c8</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gaa066370e84c91d65966ff9bb548d8b16</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga5ce25ff1552b12093b009978322fcb5c</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>gpio_port_read</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga00667ed71e76ab23562b50cffeb3cab5</anchor>
-      <arglist>(u32 gpioport)</arglist>
+      <anchor>gac7a671c0d057a8db484357b344d66b23</anchor>
+      <arglist>(uint32_t gpioport)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_port_write</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gaf6a2d241b055d6f50db08305e901c526</anchor>
-      <arglist>(u32 gpioport, u16 data)</arglist>
+      <anchor>gaeb877f5252652d6a574a08b085ef14f5</anchor>
+      <arglist>(uint32_t gpioport, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_port_config_lock</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gada75d7db796f14b6a2e7c291f636d2c6</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga749adc86df621552b5a0908ecf5b2ebe</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -9158,190 +9158,190 @@
       <type>void</type>
       <name>i2c_reset</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga7112eec67635f56b52bb9f6a55e68f51</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga6c98abcc0cf310ed84795260384d9992</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_peripheral_enable</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga774bebee5ea20401a3dd1a6ff06fe989</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga91c48df3ee37b0e960527ba59581a585</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_peripheral_disable</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gaaf774eb724b01cf7e146850a41711006</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga600d06defb26076b7b702160a0c5603d</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_send_start</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gadec104ea943d9c5dd4bcb34a1e530cfc</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga5c21ca1eb1791661f78247cdccf82734</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_send_stop</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga5bad561a6dd0da1597f0a61617e38eb6</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga90b4cd40407eefb70f18e5aa43630d44</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_clear_stop</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga9bc2a2a5c0a174fe20be22b4cf8834c2</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gabb626d99345195735bedd6134b6cf3c6</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_own_7bit_slave_address</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gab9be5ee960694900deccd9e5ea3e72e9</anchor>
-      <arglist>(u32 i2c, u8 slave)</arglist>
+      <anchor>ga770a4f23cdb45e344a789e32202c4cab</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_own_10bit_slave_address</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gad505be113c34b3ddfc38b8fda296ad95</anchor>
-      <arglist>(u32 i2c, u16 slave)</arglist>
+      <anchor>ga9c45f244fee2f34d1cb10fc7accd5af8</anchor>
+      <arglist>(uint32_t i2c, uint16_t slave)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_fast_mode</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga320f30cd3c0e6b6a2f2df4ce68c131d6</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga500a4416fdd04daa0439cf9b887a95e5</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_standard_mode</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga77d7a226c041dbc2b75a31bc729a1ff4</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga83ec05549c5d3d3412b3e5c902ad1d07</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_clock_frequency</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga92b19377d0ee4abea230636b340508e4</anchor>
-      <arglist>(u32 i2c, u8 freq)</arglist>
+      <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
+      <arglist>(uint32_t i2c, uint8_t freq)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_ccr</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga2c57f77dec4fd2c197fd94b3e076f6ae</anchor>
-      <arglist>(u32 i2c, u16 freq)</arglist>
+      <anchor>gac49e8baa5610af5907ea5ba76f78c69c</anchor>
+      <arglist>(uint32_t i2c, uint16_t freq)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_trise</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga0871e204718f58fab7e0f557fc771892</anchor>
-      <arglist>(u32 i2c, u16 trise)</arglist>
+      <anchor>ga8b5fb1ea0be082f192030aa475a0e142</anchor>
+      <arglist>(uint32_t i2c, uint16_t trise)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_send_7bit_address</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga4416e975cdd2999d85adc8b0148c3bb0</anchor>
-      <arglist>(u32 i2c, u8 slave, u8 readwrite)</arglist>
+      <anchor>gac84a8cc0d49c99f032f7ea87ac0f1302</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave, uint8_t readwrite)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_send_data</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gacc740d575fc8623222db6f1dd9fe3e26</anchor>
-      <arglist>(u32 i2c, u8 data)</arglist>
+      <anchor>gaad83fb76f31941e9d0e1083d8e4ea6f0</anchor>
+      <arglist>(uint32_t i2c, uint8_t data)</arglist>
     </member>
     <member kind="function">
       <type>uint8_t</type>
       <name>i2c_get_data</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga30aee037b2a42328565c71853a3bfff5</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gab0fae615ab83fcd0dac9885fd04c4731</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_enable_interrupt</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga8104d7ef9ff93ad81ea5f0064a7c8933</anchor>
-      <arglist>(u32 i2c, u32 interrupt)</arglist>
+      <anchor>ga16c892319b9438eab63cf4ea3a15f4ae</anchor>
+      <arglist>(uint32_t i2c, uint32_t interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_disable_interrupt</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga7789386ddaa0532e80a9905d499d4d66</anchor>
-      <arglist>(u32 i2c, u32 interrupt)</arglist>
+      <anchor>ga0fc2e57eeb3efee6810e6ca3c5df4cf8</anchor>
+      <arglist>(uint32_t i2c, uint32_t interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_enable_ack</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gac1df9dc75fc88c6693b0b9b82b06f22c</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga5a96238eca687f4af66247ea570d96dc</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_disable_ack</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga199a2627362321a61292199ebbe2f700</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga395fd658d7c467511669ba6e1871c160</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_nack_next</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gac41410320d5999bf1d77ff404856ab11</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga9a1c593d122706af68c83355ccdf59bc</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_nack_current</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga64377349e77645d231d692235e8289f8</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga437111967f0cc3f37713132ac2e71a5a</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_dutycycle</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga1d1dd013c0fee7328698a1fd4ee30e24</anchor>
-      <arglist>(u32 i2c, u32 dutycycle)</arglist>
+      <anchor>ga6cc091f487de5bb53913400af74d80d7</anchor>
+      <arglist>(uint32_t i2c, uint32_t dutycycle)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_enable_dma</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gaba985705bbb9c46e6862fd2afb8664a7</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gaf45142a5b574acf77396134539c90159</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_disable_dma</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gab47de122fb3c32c443256a250b29116b</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gaa3ab44e02ffd8a6808189d7a9deba130</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_dma_last_transfer</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gad1a39fc80809dc32e0dbb718aca11fcd</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga3d8ba1ccc288f257d065704fcaa37b73</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_clear_dma_last_transfer</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga04d2d695cc0fb5f71fcdf3d8e245afbb</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gaae33768054505eb804c47d4d3f95775f</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -9397,8 +9397,8 @@
       <type>void</type>
       <name>iwdg_set_period_ms</name>
       <anchorfile>group__iwdg__file.html</anchorfile>
-      <anchor>gaa4f196e28e96c7901f9ff25a5c7fd20d</anchor>
-      <arglist>(u32 period)</arglist>
+      <anchor>ga9fddf4170e5fb9d3b4df309a152e27e5</anchor>
+      <arglist>(uint32_t period)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -9918,8 +9918,8 @@
       <type>void</type>
       <name>pwr_enable_power_voltage_detect</name>
       <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
-      <arglist>(u32 pvd_level)</arglist>
+      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
+      <arglist>(uint32_t pvd_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -10112,140 +10112,140 @@
       <type>void</type>
       <name>rcc_peripheral_enable_clock</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga3b3e26e0374ad984ec7c442b738a8cd2</anchor>
-      <arglist>(volatile u32 *reg, u32 en)</arglist>
+      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_disable_clock</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga20b04813e5b27577fe2ef013a8337eee</anchor>
-      <arglist>(volatile u32 *reg, u32 en)</arglist>
+      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_reset</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga076c5e84cf8bf9293559648e72b0a04f</anchor>
-      <arglist>(volatile u32 *reg, u32 reset)</arglist>
+      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_clear_reset</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga6f657d65ef6704cf3fdc8a78b0a042a8</anchor>
-      <arglist>(volatile u32 *reg, u32 clear_reset)</arglist>
+      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_sysclk_source</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga3edbf52144a86a1b8292b3e21e3959d7</anchor>
-      <arglist>(u32 clk)</arglist>
+      <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
+      <arglist>(uint32_t clk)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>gac4e29905a035f775bae9d4273c3767af</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll2_multiplication_factor</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga592aefe9e6864f9b5f3872006b05dc7e</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga648726dbed9b010d181306103c9eb51c</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll3_multiplication_factor</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga94cea07a3bb5a95bbbaf3de4b7a8a23c</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga548fdeeacbf0c2199b0851a8c71ff872</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_source</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga2c3543cb0fc5e01678bb6d5bae1a51a1</anchor>
-      <arglist>(u32 pllsrc)</arglist>
+      <anchor>ga2f2bd45ad9c8b32e0fe5affe9bf181bf</anchor>
+      <arglist>(uint32_t pllsrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pllxtpre</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga41ac1b6752615c234079c76a23a99989</anchor>
-      <arglist>(u32 pllxtpre)</arglist>
+      <anchor>gae307406af5f22597be382a3eecc7b54b</anchor>
+      <arglist>(uint32_t pllxtpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_adcpre</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>gab59dc079275228143e1c8922c2b124d2</anchor>
-      <arglist>(u32 adcpre)</arglist>
+      <anchor>ga190cb3bbb95d687334d00e15bfab5b56</anchor>
+      <arglist>(uint32_t adcpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre2</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga411748dd9a8a99b746e802af6b448763</anchor>
-      <arglist>(u32 ppre2)</arglist>
+      <anchor>gac40c9478480f3a44c381c15482a563cd</anchor>
+      <arglist>(uint32_t ppre2)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre1</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga8cb53f3681507b9819229b24bd3417cd</anchor>
-      <arglist>(u32 ppre1)</arglist>
+      <anchor>gaaf1b9174131b00a7014c0328a53a65a1</anchor>
+      <arglist>(uint32_t ppre1)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_hpre</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga587f5be40f38a0bf0418ae4125129dc0</anchor>
-      <arglist>(u32 hpre)</arglist>
+      <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
+      <arglist>(uint32_t hpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_usbpre</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>gaa57d9566802a3e2df024cb679df1e990</anchor>
-      <arglist>(u32 usbpre)</arglist>
+      <anchor>gad434015520b42043657d7478f8308c37</anchor>
+      <arglist>(uint32_t usbpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga404b3270910c8bf40125728b25b5f30a</anchor>
-      <arglist>(u32 prediv)</arglist>
+      <anchor>ga3002a6fe10a813069b1d13c98c0a6da7</anchor>
+      <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv2</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga62f650e3f349ef9b12b56e1964ac31ac</anchor>
-      <arglist>(u32 prediv)</arglist>
+      <anchor>ga3a206a5322c1c6f7737654e13a01c6b8</anchor>
+      <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1_source</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga28b46eb99d3eaf3602229f378f874a66</anchor>
-      <arglist>(u32 rccsrc)</arglist>
+      <anchor>ga2ce7e31318695e354e955004c0050a85</anchor>
+      <arglist>(uint32_t rccsrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_mco</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>gac677415398035d6a65da1650789243ce</anchor>
-      <arglist>(u32 mcosrc)</arglist>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_system_clock_source</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <anchor>ga3373359648b1677ac49d2fe86bff99b7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -10312,17 +10312,17 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_ppre1_frequency</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga2ef92a5b2a7fffd75a80adb496391c8c</anchor>
+      <anchor>ga71455852cfe7420e0c33a63e0e09c4e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_ppre2_frequency</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga734b4f30d6b0845a57f5e8d4dc434f85</anchor>
+      <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -12349,8 +12349,8 @@
       <type>void</type>
       <name>rcc_set_mco</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>gac677415398035d6a65da1650789243ce</anchor>
-      <arglist>(u32 mcosrc)</arglist>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -12370,133 +12370,133 @@
       <type>void</type>
       <name>rcc_peripheral_enable_clock</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga3b3e26e0374ad984ec7c442b738a8cd2</anchor>
-      <arglist>(volatile u32 *reg, u32 en)</arglist>
+      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_disable_clock</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga20b04813e5b27577fe2ef013a8337eee</anchor>
-      <arglist>(volatile u32 *reg, u32 en)</arglist>
+      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_reset</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga076c5e84cf8bf9293559648e72b0a04f</anchor>
-      <arglist>(volatile u32 *reg, u32 reset)</arglist>
+      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_clear_reset</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga6f657d65ef6704cf3fdc8a78b0a042a8</anchor>
-      <arglist>(volatile u32 *reg, u32 clear_reset)</arglist>
+      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_sysclk_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga3edbf52144a86a1b8292b3e21e3959d7</anchor>
-      <arglist>(u32 clk)</arglist>
+      <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
+      <arglist>(uint32_t clk)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>gac4e29905a035f775bae9d4273c3767af</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll2_multiplication_factor</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga592aefe9e6864f9b5f3872006b05dc7e</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga648726dbed9b010d181306103c9eb51c</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll3_multiplication_factor</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga94cea07a3bb5a95bbbaf3de4b7a8a23c</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga548fdeeacbf0c2199b0851a8c71ff872</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga2c3543cb0fc5e01678bb6d5bae1a51a1</anchor>
-      <arglist>(u32 pllsrc)</arglist>
+      <anchor>ga2f2bd45ad9c8b32e0fe5affe9bf181bf</anchor>
+      <arglist>(uint32_t pllsrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pllxtpre</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga41ac1b6752615c234079c76a23a99989</anchor>
-      <arglist>(u32 pllxtpre)</arglist>
+      <anchor>gae307406af5f22597be382a3eecc7b54b</anchor>
+      <arglist>(uint32_t pllxtpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_adcpre</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>gab59dc079275228143e1c8922c2b124d2</anchor>
-      <arglist>(u32 adcpre)</arglist>
+      <anchor>ga190cb3bbb95d687334d00e15bfab5b56</anchor>
+      <arglist>(uint32_t adcpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre2</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga411748dd9a8a99b746e802af6b448763</anchor>
-      <arglist>(u32 ppre2)</arglist>
+      <anchor>gac40c9478480f3a44c381c15482a563cd</anchor>
+      <arglist>(uint32_t ppre2)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre1</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga8cb53f3681507b9819229b24bd3417cd</anchor>
-      <arglist>(u32 ppre1)</arglist>
+      <anchor>gaaf1b9174131b00a7014c0328a53a65a1</anchor>
+      <arglist>(uint32_t ppre1)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_hpre</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga587f5be40f38a0bf0418ae4125129dc0</anchor>
-      <arglist>(u32 hpre)</arglist>
+      <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
+      <arglist>(uint32_t hpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_usbpre</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>gaa57d9566802a3e2df024cb679df1e990</anchor>
-      <arglist>(u32 usbpre)</arglist>
+      <anchor>gad434015520b42043657d7478f8308c37</anchor>
+      <arglist>(uint32_t usbpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga404b3270910c8bf40125728b25b5f30a</anchor>
-      <arglist>(u32 prediv)</arglist>
+      <anchor>ga3002a6fe10a813069b1d13c98c0a6da7</anchor>
+      <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv2</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga62f650e3f349ef9b12b56e1964ac31ac</anchor>
-      <arglist>(u32 prediv)</arglist>
+      <anchor>ga3a206a5322c1c6f7737654e13a01c6b8</anchor>
+      <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga28b46eb99d3eaf3602229f378f874a66</anchor>
-      <arglist>(u32 rccsrc)</arglist>
+      <anchor>ga2ce7e31318695e354e955004c0050a85</anchor>
+      <arglist>(uint32_t rccsrc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_system_clock_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <anchor>ga3373359648b1677ac49d2fe86bff99b7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -12563,17 +12563,17 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_ppre1_frequency</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga2ef92a5b2a7fffd75a80adb496391c8c</anchor>
+      <anchor>ga71455852cfe7420e0c33a63e0e09c4e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_ppre2_frequency</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga734b4f30d6b0845a57f5e8d4dc434f85</anchor>
+      <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -12606,8 +12606,8 @@
       <type>void</type>
       <name>rtc_set_alarm_time</name>
       <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a3b52032f6d43a47b97696e7cd37404e8</anchor>
-      <arglist>(u32 alarm_time)</arglist>
+      <anchor>a3f53231bbbeef79acc322f2a6b045d3f</anchor>
+      <arglist>(uint32_t alarm_time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -12627,36 +12627,36 @@
       <type>void</type>
       <name>rtc_set_prescale_val</name>
       <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a507927c5f04e2055266bccfdb6dfb0b6</anchor>
-      <arglist>(u32 prescale_val)</arglist>
+      <anchor>a1b2c2b6aa8879eb16f7cf3207587725e</anchor>
+      <arglist>(uint32_t prescale_val)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rtc_get_counter_val</name>
       <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a9357c94173184a5f0ebc5d18022bde4e</anchor>
+      <anchor>a16c4bf05c4660f7782efacb0b6f13069</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rtc_get_prescale_div_val</name>
       <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a4630902296ddd21d604fc0b26665c28b</anchor>
+      <anchor>ac18d0fabc363be97a41cf05cb220739a</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rtc_get_alarm_val</name>
       <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a6bd9c2c4eb29b38b5e612470684b64f2</anchor>
+      <anchor>a7cbe2e2000e3f9d3420c9e130d4019e8</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_counter_val</name>
       <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a80456afcb675924bbb2dbcfc19b2b108</anchor>
-      <arglist>(u32 counter_val)</arglist>
+      <anchor>acd673063942c2bedededd5760e4764ff</anchor>
+      <arglist>(uint32_t counter_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -12680,10 +12680,10 @@
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rtc_check_flag</name>
       <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a1c3cd41407a7eff6bc6c55c1732bf5c7</anchor>
+      <anchor>a94da35b2f8d7af8985c2e21bc1253349</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
@@ -12697,8 +12697,8 @@
       <type>void</type>
       <name>rtc_auto_awake</name>
       <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>aa9dd82290a6d0a238a9ad0abfa629a53</anchor>
-      <arglist>(osc_t clock_source, u32 prescale_val)</arglist>
+      <anchor>a619d9fdf532556f29e48b063f1fbfb29</anchor>
+      <arglist>(osc_t clock_source, uint32_t prescale_val)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -12888,8 +12888,8 @@
       <type>void</type>
       <name>rtc_set_alarm_time</name>
       <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a3b52032f6d43a47b97696e7cd37404e8</anchor>
-      <arglist>(u32 alarm_time)</arglist>
+      <anchor>a3f53231bbbeef79acc322f2a6b045d3f</anchor>
+      <arglist>(uint32_t alarm_time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -12909,36 +12909,36 @@
       <type>void</type>
       <name>rtc_set_prescale_val</name>
       <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a507927c5f04e2055266bccfdb6dfb0b6</anchor>
-      <arglist>(u32 prescale_val)</arglist>
+      <anchor>a1b2c2b6aa8879eb16f7cf3207587725e</anchor>
+      <arglist>(uint32_t prescale_val)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rtc_get_counter_val</name>
       <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a9357c94173184a5f0ebc5d18022bde4e</anchor>
+      <anchor>a16c4bf05c4660f7782efacb0b6f13069</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rtc_get_prescale_div_val</name>
       <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a4630902296ddd21d604fc0b26665c28b</anchor>
+      <anchor>ac18d0fabc363be97a41cf05cb220739a</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rtc_get_alarm_val</name>
       <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a6bd9c2c4eb29b38b5e612470684b64f2</anchor>
+      <anchor>a7cbe2e2000e3f9d3420c9e130d4019e8</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_counter_val</name>
       <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a80456afcb675924bbb2dbcfc19b2b108</anchor>
-      <arglist>(u32 counter_val)</arglist>
+      <anchor>acd673063942c2bedededd5760e4764ff</anchor>
+      <arglist>(uint32_t counter_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -12962,10 +12962,10 @@
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rtc_check_flag</name>
       <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a1c3cd41407a7eff6bc6c55c1732bf5c7</anchor>
+      <anchor>a94da35b2f8d7af8985c2e21bc1253349</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
@@ -12979,8 +12979,8 @@
       <type>void</type>
       <name>rtc_auto_awake</name>
       <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>aa9dd82290a6d0a238a9ad0abfa629a53</anchor>
-      <arglist>(osc_t clock_source, u32 prescale_val)</arglist>
+      <anchor>a619d9fdf532556f29e48b063f1fbfb29</anchor>
+      <arglist>(osc_t clock_source, uint32_t prescale_val)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -12991,8 +12991,8 @@
       <type>void</type>
       <name>rtc_set_prescaler</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>gaa983b34f0a6901d7aa9ff91130a4c582</anchor>
-      <arglist>(u32 sync, u32 async)</arglist>
+      <anchor>ga7c05857df37f0631153fdb9893df5c00</anchor>
+      <arglist>(uint32_t sync, uint32_t async)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -13019,8 +13019,8 @@
       <type>void</type>
       <name>rtc_set_wakeup_time</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
-      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
+      <anchor>gacffca2b1f3a82b3f82923e9ab14f004f</anchor>
+      <arglist>(uint16_t wkup_time, uint8_t rtc_cr_wucksel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -13055,323 +13055,323 @@
       <type>void</type>
       <name>spi_reset</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf6817753de3cd11b9805db6f4cc4ddc7</anchor>
-      <arglist>(u32 spi_peripheral)</arglist>
+      <anchor>gaae815897f2f548556dde9fa8ecb13058</anchor>
+      <arglist>(uint32_t spi_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>spi_init_master</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gacac125eda08c8fa3b3f9e1c35b474ee2</anchor>
-      <arglist>(u32 spi, u32 br, u32 cpol, u32 cpha, u32 dff, u32 lsbfirst)</arglist>
+      <anchor>gaa963b02acbae0939ec4537a8136873ed</anchor>
+      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga31154d569d02249fc81c2963435e61df</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga33fbdd2e4f6b876273a2b3f0e05eb6b4</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf370cdda0bd424244a85cf7eb74647a1</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga3a67a664d96e95e80d3308b7d53736e6</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>spi_clean_disable</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga59ceb29201f41181372b8e414ddacfe3</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaf76785dab1741f75d4fc2f03793b57d9</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_write</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga2db53ca4fd33ed2948b92624074baaf7</anchor>
-      <arglist>(u32 spi, u16 data)</arglist>
+      <anchor>ga6c3dfa86916c2c38d4a1957f4704bb47</anchor>
+      <arglist>(uint32_t spi, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_send</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga7964fd2d68f820499350825870e65cb1</anchor>
-      <arglist>(u32 spi, u16 data)</arglist>
+      <anchor>ga1fcf7661af69bcf8999ae3f6d102fd8b</anchor>
+      <arglist>(uint32_t spi, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>spi_read</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gae64b42540c65efb4a0c80c24ff18c87b</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga1bfe6bd4512dc398cb7f680feec01b20</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>spi_xfer</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga71a49f7a3d4b976d32eef9da45a6010f</anchor>
-      <arglist>(u32 spi, u16 data)</arglist>
+      <anchor>gae453ac946166bc51a42c35738d9d005b</anchor>
+      <arglist>(uint32_t spi, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_bidirectional_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gae4c856513169c1d952c4d7fdcc7daba2</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaf0088037e6a1aa78a9ed4c4e261a55ac</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_unidirectional_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3592c5286b94fab3714215157fae24bc</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga25ed748ce16f85c263594198b702d949</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_bidirectional_receive_only_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gac871df249fb0c847813b5cb045ecea72</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaf27f88063c2cb644a2935490d61202c5</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_bidirectional_transmit_only_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gae215ddb868a7664f8021c0843cd486c5</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga8ad1268a257456a854b960f8aa73b1ce</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_crc</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3104a2ae150ba7d0d2f48c773cd49553</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga3993016e02c92b696c8661840e602a00</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_crc</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1559b488c118a1378e14a0c431cb5b5d</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga168934fcc518d617447514ca06a48b3c</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_next_tx_from_buffer</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga55a7bc2d9ea533f0aec6b3b8498464b0</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga0f70abf18588bb5bbe24da6457cb9ff7</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_next_tx_from_crc</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga2b63afc458e6dfd2018958c6b590a6d3</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaabd95475b2fe0fab2a7c22c5ae50aa14</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_dff_8bit</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1c8af00a955693b1b50b4fb603e9b081</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga715bcb5541f2908d16a661b0a6a07014</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_dff_16bit</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga50c43646a17a91dd626607425116faea</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga6665731fd5d37e5dfb00f29f859e6c9c</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_full_duplex_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gafe8744d530f18e5666b154eb8ab91e44</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga714f48c6586abf8ce6e3e118f6303708</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_receive_only_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf1340cdfae703bd10802cd8357d0a655</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaacdf55f39a2de0f53ac356233cc34cbb</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_software_slave_management</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga139cdd3fede6f9de9802896c908851f8</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga4cf9bda5fa58c220e6d45d6a809737c4</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_software_slave_management</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaddecb6ffa53d76feaee2b9915cbf706d</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gab3cb4176148e6f3602a0b238f32eb83b</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_nss_high</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga8c3873fe2885bc6321c0b9e66ccc283b</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gad86076b9c51c2ce18f844d42053ed8cc</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_nss_low</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga38956e6a9292d8e6e68eacee6224209c</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga47838ebf43d91e96b65338b6b0a50786</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_send_lsb_first</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga75934e3e4f86c5bf8dca6eed835b7755</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga9f834ea1e68b2c23a4b0866f96f38578</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_send_msb_first</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf863d960278fa09b74aab0c900e54020</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gae19e92c8051fe49e4eac918ee51feeac</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_baudrate_prescaler</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1c3f08eb6dab40581c68357ab4cb5050</anchor>
-      <arglist>(u32 spi, u8 baudrate)</arglist>
+      <anchor>ga69a60fb0cd832d3b9a16ce4411328e64</anchor>
+      <arglist>(uint32_t spi, uint8_t baudrate)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_master_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga273965becb9a1283bab7138838cc3da1</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gafca8671510322b29ef82b291dec68dc7</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_slave_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga334b0d794067220c3bd6f344bbbce12b</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gae9700a3a5f8301b5b3a8442d257d75dd</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_clock_polarity_1</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga6d31277c3554e8c5c7fcc33e2af68c09</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga379382439ed44f061ab6fd4232d47319</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_clock_polarity_0</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga157b01dd2c66cbf2a74e1ffb3d3b584b</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga683b0840af6f7bee227ccb31d57dc36a</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_clock_phase_1</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gabf9400c71f72c8f6bbf3432a79c5377d</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gacd6b278668088bce197d6401787c4e62</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_clock_phase_0</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga195eb27ccd5f60d9d2cbeb42899f3ca8</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gac01452c132ec4c5ffc5d281d43d975d7</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_tx_buffer_empty_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga7a70736fbed3fd0399c4117e5d8b727f</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga4c552fab799a9009bc541a3fb41061fe</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_tx_buffer_empty_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga36cf7a17d93725170846e44ce82dcd39</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gac803fac4d999f49c7ecbda22aa5b7221</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_rx_buffer_not_empty_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gacaededf922c8da18099b343f315e67aa</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gad05d3885fad620fc84d284fc9b42554e</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_rx_buffer_not_empty_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga0987768f3e0157d61d3cb439e0244eee</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gada77b72d4924b55840e73ed14a325978</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_error_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3245ecd1f8af7a012499a788e4f43f1f</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaedf50e8ee8ec6f033231a2c49b4ac1a1</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_error_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gad4343fbfc4811a6bc40cacca40cb427c</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaa84513c1f4d95c7de20b9416447c2148</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_ss_output</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaa1c55da2ee36d0652ef375201f96c8d6</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gada533027af13ff16aceb7daad049c4e4</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_ss_output</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga0080ef5cde6069297a6134f611664435</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga8cd024f5b5f4806bbeeec58e8e79162b</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_tx_dma</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gac6f7c535f0263b4e52006120c5beda2f</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga74726047b7cad9c11465a3cf4d0fd090</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_tx_dma</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaafea5169476615f637b5bc16cc267126</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gafc90aaa52298179b5190ee677ac5d4cc</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_rx_dma</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1422c5d0076faeb9abf109001745793f</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gac860af47e3356336e01495554de5e506</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_rx_dma</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga81ad7615ae2375ea230caf25c608a8fe</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -13388,8 +13388,8 @@
       <type>void</type>
       <name>timer_ic_set_polarity</name>
       <anchorfile>timer_8c.html</anchorfile>
-      <anchor>ac2b7d3b13f8b80dd5276bcdd2513b3cc</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
+      <anchor>a5cc4c3f615f4b661a7ba3be837bfb424</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -13419,8 +13419,8 @@
       <type>BEGIN_DECLS void</type>
       <name>timer_ic_set_polarity</name>
       <anchorfile>timer_8h.html</anchorfile>
-      <anchor>aeb7e4824d10caad8cc41de911075e9ce</anchor>
-      <arglist>(u32 timer, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
+      <anchor>acfd133e94bb2fa81cd789a8f333654d9</anchor>
+      <arglist>(uint32_t timer, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -13438,533 +13438,533 @@
       <type>void</type>
       <name>timer_reset</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga635e53b4d7012c66f0f522018f3c365e</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga90cade2e35c32d50534a531903e642be</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_irq</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaf73d9dd65f53fbae82390c13994fb5e0</anchor>
-      <arglist>(u32 timer_peripheral, u32 irq)</arglist>
+      <anchor>gabe7ccf1e2f9d2d8be692b58ad4e5b304</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t irq)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_irq</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gad87e16872e37134cb0c006d74bf64633</anchor>
-      <arglist>(u32 timer_peripheral, u32 irq)</arglist>
+      <anchor>gaf653149dc5374ff126d7ab8b63ea6d37</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t irq)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>timer_interrupt_source</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga44293cf4df17227863493a16439314a0</anchor>
-      <arglist>(u32 timer_peripheral, u32 flag)</arglist>
+      <anchor>ga5ac041bc0363fbb857b2c783e675fc69</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>timer_get_flag</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga008158c5be1d433c73b154eae9678355</anchor>
-      <arglist>(u32 timer_peripheral, u32 flag)</arglist>
+      <anchor>ga3515ea09b71ac6aad4df293e4d15c540</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_clear_flag</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga08949f4ce2e140ebc2dd4c404431e06f</anchor>
-      <arglist>(u32 timer_peripheral, u32 flag)</arglist>
+      <anchor>gaf3686ed077ae1d79bf34050cb23ee373</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gac0440a753422d13658b852c4927ed936</anchor>
-      <arglist>(u32 timer_peripheral, u32 clock_div, u32 alignment, u32 direction)</arglist>
+      <anchor>ga3d24e3347572755cc1d95a3ed6307aa8</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t clock_div, uint32_t alignment, uint32_t direction)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_clock_division</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7d86bb43f67eba7fd1fa5265b5b07744</anchor>
-      <arglist>(u32 timer_peripheral, u32 clock_div)</arglist>
+      <anchor>gaf7ee4b3730e8989df3b7366ded65ad07</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t clock_div)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_preload</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0707c846866f5260b792279eec88a7f5</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga1311e6fc4fcd830db8cacc6f1cab99c3</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_preload</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaf876e0a48aa7db8e3133ac68d0291ec9</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga45cb21df9ad54411ad2cde8eb29f1a9f</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_alignment</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0a38b28af8f01532ad42e2844ffed7d6</anchor>
-      <arglist>(u32 timer_peripheral, u32 alignment)</arglist>
+      <anchor>ga6bda1a80f9b7474a2faea5d8cc8ae9fd</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t alignment)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_direction_up</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga031d862ecf5588fba41c8dfc2f19ffaa</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac60be2f7fedf3ac0b234eb721a74ec17</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_direction_down</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6a84ea5503d1610e0f8d746ba12142ce</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gaa9a7db17cdc0078e5f1a4a7f6f72d3e6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_one_shot_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gafc1a99f8422c484c9abdf3638ddd7018</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga1697ca3e864a9cfd07ce47bef8313525</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_continuous_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga4deb7a1c4f1f8b7899201db36f4abbe0</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga0055340e46362635c32a117c6b2bbe2e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_update_on_any</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0ae6fd9111170e1fc63535967bdb6461</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gaba4fbba9e50b02eac3c909e09d7cdb00</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_update_on_overflow</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gade4c3d344e26649725f28b01bb76fffc</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga279cd24b158ccd2e2209c88d9853d09d</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_update_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga487db0d3abba198228650a3ee872e66f</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga83b865bbaba61578793c252cce77e177</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_update_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga58dfd0eecb107287207cf7c4b089faba</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gacd3de4978e884feb8a7ab8d190d9b08b</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7cb473e295e9ab427331071cad5489b4</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga8d2e8fb94b1988df5239852f2b3301d6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga1811f1b8c7d5dbeede857b084748102e</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga48290e3b69592031f0d29066fafc780e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_output_idle_state</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga9edcef1f51be3e0ebf90a6f65c25f3b1</anchor>
-      <arglist>(u32 timer_peripheral, u32 outputs)</arglist>
+      <anchor>ga74493385947c60267324ad52658aeaae</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t outputs)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_reset_output_idle_state</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga5f53c8ece5b6b2805986e7d050943e19</anchor>
-      <arglist>(u32 timer_peripheral, u32 outputs)</arglist>
+      <anchor>ga1588d783af458b13957c92d0a61ebc48</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t outputs)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_ti1_ch123_xor</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6cf985750d50b19b4b793f435adca686</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gacddad82e5abc73bdbcf87514c935b9cc</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_ti1_ch1</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga67c8e0e5fe1e082b8be9ecf3cd23b97c</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga9e943f5e6af679422c7eb45a53c1f926</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_master_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaa1292389cecf41b1cb68ab6d439b0ce6</anchor>
-      <arglist>(u32 timer_peripheral, u32 mode)</arglist>
+      <anchor>ga17f2e416e48d857ad6ff2dd6b4651b65</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_dma_on_compare_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6514c14c36863e6d9b8a7a8dea4c86b6</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga222af772ac588e4cce08b4d4c30aade6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_dma_on_update_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga2ed60cd87411bc0c11ee1337d69596a9</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga77c7e3f0358e1747ce7802ccf0ab0519</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_compare_control_update_on_trigger</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga23eb87368600a18b40f51b0165b274d0</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga36de90953e6ad0da84ddc353ea451fb8</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_compare_control_update_on_trigger</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga125f353468205ae4fe68e86776562b27</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gaa9c3942a9b647d8e92b07275e9dd2c58</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_preload_complementry_enable_bits</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gac91c91692586120fc179f69042c71558</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga88dabeaade4785e8711b682cbecc68b3</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_preload_complementry_enable_bits</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga429edc46c0915f2f645fb7da774550ea</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga1d84b1bb9bd6496a09fa2914a3665797</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_prescaler</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga9f38a400c0645c5eeb8eb72fb9bb2789</anchor>
-      <arglist>(u32 timer_peripheral, u32 value)</arglist>
+      <anchor>ga45e2ff5caa76f1baac62985affa04908</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t value)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_repetition_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7e34a1d15b96a337f3bec9755a192fc2</anchor>
-      <arglist>(u32 timer_peripheral, u32 value)</arglist>
+      <anchor>gaeeeee34f61f1b5494c96a777502d40bb</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t value)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_period</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga2b10c31d8ae7fc2ec8907508ed732460</anchor>
-      <arglist>(u32 timer_peripheral, u32 period)</arglist>
+      <anchor>gaea0fda57594cc30e644de916dff31b98</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t period)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_oc_clear</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga9adc9883c39d4cdf0c9e62a19e231bad</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga4c1e08343758db3ed4bceaadceb4360c</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_oc_clear</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaa67b098cb7feada26afc97ad7d7cb9b8</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga413d13a8ed5f52729ae847b5d51731bd</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_fast_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gae350b9002441eac8736a450e9ac14b29</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga23ff68b1e45d180ad74eb04d660e8088</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_slow_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga23e68651bdc9bd617e1f3b0d5aae5676</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga097426b09f737df077536d59f0e8b499</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6c1e8366c5da793f1b9df0fec57ea55c</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id, enum tim_oc_mode oc_mode)</arglist>
+      <anchor>ga518f01cdb7d391eb7e884d49defcc0a1</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id, enum tim_oc_mode oc_mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_oc_preload</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga9638fa58c94d8ff3ec72a5f51cb5ef72</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga71f1515c2ab3f2ccc74077337ded51ec</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_oc_preload</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaa4b64c4c7ffb122a64730ef7acb7a1cd</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>gaa89f1b35bc6616d12999b59559f5317c</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_polarity_high</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gad165353f0c1ae3ba4475549fc1a0be7b</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga3c3b4a7253fe8b383695a995bc772719</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_polarity_low</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga4b53b4ef67eae28546d8884135f33418</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>gadb746de22bafa181826f3911f9be5023</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_oc_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7c00d58815f19a5b18fdbbfbdc101f88</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>gaca2dbcb8b8f3fd059c5a9342a3a9728a</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_oc_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga28c1fed137713fa37109f1287149cf28</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga988310ebc85afe99caaa00d18e23805a</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_idle_state_set</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga30f58f4f442f2991ea35f6798a674a48</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>gaa6d2d7f0f8ac9940c7ed90718b6b0d71</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_idle_state_unset</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaa2d3aa47db5049bb8a58b2661761e306</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga547d7a817bc3588bbe5b5a80967a42e7</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_value</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga28a50f22d76db42c4fd319146d06c75b</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id, u32 value)</arglist>
+      <anchor>gad25fd7a45af7d78d27473421897a28e0</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id, uint32_t value)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_break_main_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gac6562012ceafd3de5f7fff044a60db54</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac85d21c50ab47956f23b1413531509e6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_break_main_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga3e504a3c171eb9789e1ba17b6acfa278</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga38de2ddba2d0da279f17e976f92ba43a</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_break_automatic_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga3218a1d998bdf8449cfa9bacdf2ad139</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac0fa6733dce1b400df606f9d46ed171a</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_break_automatic_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga963e0b642ec3f313132b0bf6fd4ac186</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gadc5affbaaa9aced0f28cf3b7b385b67d</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_break_polarity_high</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga64ede951b6598ac96bbd61b6cd213891</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga4ceb747a6c4de3b6f8f687fc208b2e81</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_break_polarity_low</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga297fe65e5e89a06b30fd25264e863a33</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gade854ae04e5ac57770cb0249b6533f10</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_break</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gae2c7bb51c64b1c30b7316697dc40af70</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga3a3a36222ab1f686e4da5a8355056097</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_break</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga3104f4cc73a216b3bf66995c70e49462</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gabb206669c5e556ccbcccb4205ed872a3</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_enabled_off_state_in_run_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6da4ee96037aa39963b988334b05923b</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac450e52a726bc05532369ff445839a6c</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_disabled_off_state_in_run_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaca085edfbaf3a2dc25c7915c7e926a3e</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac912b678e1b5142001e3f69eaaae74bc</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_enabled_off_state_in_idle_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaeececb772ee3d19640b41df149ee845e</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga7afd7dae739404fa2bb305feb7a4d95e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_disabled_off_state_in_idle_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaaf04c1fffdac349d03ae9149b4e243c7</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga3177151403d6d7af037a41739d82fbac</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_break_lock</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga951e179c1d6edf9738127142e4680377</anchor>
-      <arglist>(u32 timer_peripheral, u32 lock)</arglist>
+      <anchor>ga42351ef19afe18243e5b2337ad14f2ca</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t lock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_deadtime</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga71029c3aebac58d5e22385c9e4cf280f</anchor>
-      <arglist>(u32 timer_peripheral, u32 deadtime)</arglist>
+      <anchor>ga635cae0b5d26ee04a7d0f04ee647c5be</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t deadtime)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_generate_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga3b2f48b8382c137c0d89ca6ef1dac78e</anchor>
-      <arglist>(u32 timer_peripheral, u32 event)</arglist>
+      <anchor>gae4eef64c8f1c7d9a3c5f187541adb697</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t event)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>timer_get_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga8c06c5329b8e136c909965f76885a360</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gae2d6fd0793f48922743ae64d04671f6b</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga714fd0379dbfe072a7f622d504bd0703</anchor>
-      <arglist>(u32 timer_peripheral, u32 count)</arglist>
+      <anchor>ga7057701df512bf79f039da9d6379a895</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t count)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_filter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga553aec0a092ec74ca3050ffbc1a9ab82</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_filter flt)</arglist>
+      <anchor>ga93008db9bfd48c1a8f93e90aacf0bc96</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_filter flt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_prescaler</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0c1243538b7ae8b7ae12598c6519a339</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_psc psc)</arglist>
+      <anchor>ga8dfef123f54719260da6841c6ac91958</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_psc psc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_input</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0a6724d4c7a40e38dd94dfe70950815b</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_input in)</arglist>
+      <anchor>gadc5738856e9b3d8776950176b468a738</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_input in)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_enable</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaf74f4ed834f30d68ca294349ec64b902</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic)</arglist>
+      <anchor>gade3715490b612154cf66018ab53a497d</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_disable</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga842d2e829baab6e3737ca903f3deec1a</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic)</arglist>
+      <anchor>ga569a781dbed735fc1fdb811b68769969</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_filter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6f7dd59db59dd01a2573ff3b69557161</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_filter flt)</arglist>
+      <anchor>gaf51fe268bea5f97f6a6a050daa33d7b4</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_filter flt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_prescaler</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga68d1d708b99cc49fdd590f1e77b68ff1</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_psc psc)</arglist>
+      <anchor>gad568a6cf1019657a3832ebc4713d5e75</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_psc psc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_polarity</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaca29467a4cb5700e0b9a457664cda471</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_et_pol pol)</arglist>
+      <anchor>ga6ef0099abc0d08d9c3663aac09414b4e</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_et_pol pol)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga741240e46390f98f507d33a6bc1830ca</anchor>
-      <arglist>(u32 timer_peripheral, u8 mode)</arglist>
+      <anchor>ga3195fd7db596710da384857068922626</anchor>
+      <arglist>(uint32_t timer_peripheral, uint8_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_trigger</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga69431c3b065b4f35f74fe871d9b8604c</anchor>
-      <arglist>(u32 timer_peripheral, u8 trigger)</arglist>
+      <anchor>ga07c712d9ab62bbcea1de4f865a077a5c</anchor>
+      <arglist>(uint32_t timer_peripheral, uint8_t trigger)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -13992,183 +13992,183 @@
       <type>void</type>
       <name>usart_set_baudrate</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gad8d895b98365e66def238b360e1bec75</anchor>
-      <arglist>(u32 usart, u32 baud)</arglist>
+      <anchor>ga848295ffaf99550cf92d77dbcf15d416</anchor>
+      <arglist>(uint32_t usart, uint32_t baud)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_databits</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga1cb759c50e5196fae5e400854dc75b7d</anchor>
-      <arglist>(u32 usart, u32 bits)</arglist>
+      <anchor>ga8333883729d5f460bf02c1f24bd3c37d</anchor>
+      <arglist>(uint32_t usart, uint32_t bits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_stopbits</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga2a9c94c07d16b8245300e70402d44889</anchor>
-      <arglist>(u32 usart, u32 stopbits)</arglist>
+      <anchor>gaaa411b6c22983d153a58e1a5fda9735d</anchor>
+      <arglist>(uint32_t usart, uint32_t stopbits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_parity</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga624d64068c2317509c8c5c17fd0cd989</anchor>
-      <arglist>(u32 usart, u32 parity)</arglist>
+      <anchor>ga5187a886145e91b6cb6a6fccb0e4246e</anchor>
+      <arglist>(uint32_t usart, uint32_t parity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_mode</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gadccf6057ae3dab0078a9c1463fc5262e</anchor>
-      <arglist>(u32 usart, u32 mode)</arglist>
+      <anchor>ga741d76be9dc09a2b3f544965ab0206cb</anchor>
+      <arglist>(uint32_t usart, uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_flow_control</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga3d5e41acdf023af53f6648cb5ac7b71f</anchor>
-      <arglist>(u32 usart, u32 flowcontrol)</arglist>
+      <anchor>gad87beaac6e79ec1f72b29866bb1993c4</anchor>
+      <arglist>(uint32_t usart, uint32_t flowcontrol)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaead72d54c34b52a20bc01b91abd46055</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>gaaada3d0ba3a27758dcbfb9169d828d59</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaf0706787c9be24e8bd86090819d57d50</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga735e4ace80295d87203f64e6d7e6ac76</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_send</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaaaa61a498fcb090540f2dc9d862c26c6</anchor>
-      <arglist>(u32 usart, u16 data)</arglist>
+      <anchor>ga26d0bd4c0eab8e4d32ca13df9526722d</anchor>
+      <arglist>(uint32_t usart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>usart_recv</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaa67496df79d937fbce18a6e36b9a806a</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga0f539661fcdc2e82c4489152393f5d74</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_wait_send_ready</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gab575fd7d6b2dcb6e5419ae75169503ea</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga6d6df6e7a152e4d6e7c433a810403258</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_wait_recv_ready</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaf565cfc012a00290a37c729dc457cf16</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga4b3dd5bff30927f603d5acc433cc2073</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_send_blocking</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gacd488511290de99713014249f69274e4</anchor>
-      <arglist>(u32 usart, u16 data)</arglist>
+      <anchor>gae8458acbe30cf746fd98ff1cc81fcff1</anchor>
+      <arglist>(uint32_t usart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>usart_recv_blocking</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gad3d6aa6eca1a666b602c040d69e7177d</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga8e0013f2829bfb8687e4a56973d56b57</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_rx_dma</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga07c8c1d37ab632eb54ae2eb1f8441669</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga223b4141d19ac1f6a7dd2045c504e994</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_rx_dma</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga6735a9262d89a63746eb7eb4c69cc26c</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga5a48860c9886aafa10ddfda37c725f28</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_tx_dma</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga41572427746d76d568819c5cd7c7fbd3</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>gab2f95a34df377c2c9d36049f1f625f23</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_tx_dma</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gac2078990ee718355fb6eca50658a38c4</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga5364eb42831db14fa372ec876faf7b97</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_rx_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gad84079efc1d9893f33e6cc4118c7946f</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga910b36a1d17590e9a12ab87c61275437</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_rx_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gac89e1619b05e032b5c9fead6e3614107</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga709361bc6862187f53a4673508e10178</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_tx_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gae23943c57d87646d9594bfeca58a2a55</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga2b2b2b838e5bef63e2ae0c6b3e98684b</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_tx_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga01269d3f4422b9e58657873a75ae0b68</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>gae201b528891b97d83a92df7b9c18b2ae</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_error_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga872890c964dd33b79935a17e34f46c08</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga1179e84fdb16ba51136fdc7c6a03c956</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_error_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaf76dc23c5cf79a29e81ef314004dff65</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>gaac35e7ef814d1a7a5c28ababd16436c0</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>usart_get_flag</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga814239da588ea3390a4055cf375468e7</anchor>
-      <arglist>(u32 usart, u32 flag)</arglist>
+      <anchor>gafb005f4e7635fbb379593ac0198032f3</anchor>
+      <arglist>(uint32_t usart, uint32_t flag)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>usart_get_interrupt_source</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga034cc055ba8cf70f367f1555a3e75d3b</anchor>
-      <arglist>(u32 usart, u32 flag)</arglist>
+      <anchor>ga761c6089dcd796e78f4f5ba495f7fc37</anchor>
+      <arglist>(uint32_t usart, uint32_t flag)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15686,407 +15686,407 @@
       <type>BEGIN_DECLS void</type>
       <name>adc_power_on</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga85c7730e97e8faff833ad787087aaea3</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga4411d46556442a9121328a768d74a3a5</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_direct</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gafc55f4769af43526e77edc11907be438</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga455f91c3461744ff38517f4cd54c31b4</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_channel</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaddc132cf4636ce45eb772c62d6167794</anchor>
-      <arglist>(u32 adc, u8 channel)</arglist>
+      <anchor>ga196e492cbc237675e6a5c2cbebad2639</anchor>
+      <arglist>(uint32_t adc, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dual_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gadc06dcc9c3e6f652f18dc7280feb2c11</anchor>
-      <arglist>(u32 mode)</arglist>
+      <anchor>gac6f35b3d65fcda9f9599058799f2dbf0</anchor>
+      <arglist>(uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga830b0fc9370508bf04dc1b01cc09badb</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga186bfcb2659dfafb0c342c1975472f25</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gad2a065923adced21827480f124ff4a61</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>adc_read_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga0cb788d1d9e54f4ccf9fc8b3b95656ff</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>adc_read_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gafdcca79192331fc42e3241caddd6f7ef</anchor>
-      <arglist>(u32 adc, u8 reg)</arglist>
+      <anchor>gab96e1ce8d28ce696dc70e231a8da936e</anchor>
+      <arglist>(uint32_t adc, uint8_t reg)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_offset</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga43bffb4e87049a19ea8ed264a6004285</anchor>
-      <arglist>(u32 adc, u8 reg, u32 offset)</arglist>
+      <anchor>gac3af5b84c1af074f2c9de07b0ed73470</anchor>
+      <arglist>(uint32_t adc, uint8_t reg, uint32_t offset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga5a1319d5fcfa28d0c5d616bb34636c44</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga6232c6b32e8f6c761e6297ba40f7c067</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaffa5256174cec880eaea7d82a1caf968</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga46ea7596440e650c5640012aa74f2d21</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gab4cc03bbad2f235b9fb8ed1b89e24d25</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga2e0ddcf0afcfaa7a818db8ea6ea66690</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gac97660f8ac7f23bd22c5a867d86dc80c</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga8071fcf08d687582e7c8c5621588fc5a</anchor>
-      <arglist>(u32 adc, u8 length)</arglist>
+      <anchor>ga57b3c58283977a60ab7e94b33d502ef8</anchor>
+      <arglist>(uint32_t adc, uint8_t length)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga2a4e78f6f0fb2f4d0a442946662079f2</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3c7c004f76958f5b9d4c2f66dad7f8df</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga71c6f47f070add23253af4bf8e84820e</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga214a9ead42c311498474678796e8e768</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga78164c7d8ab5f99ca93ed52e913bf6e8</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gafe352fb7c779e3b540056f0dd926e8b3</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_automatic_injected_group_conversion</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaa55d33a50412f243f9dd50aa22e93e13</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga9965805fdbb3e7dd26a1afed91cc4fd2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_automatic_injected_group_conversion</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gad60e8cc425daf6901d82100b2c3c5cd9</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga118817f8db889310eb249519d9b8ae39</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_all_channels</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga4887c1c1739ade1c0554df5f2f67dd42</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga756eb74470362394a05dacf33f3e647d</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_selected_channel</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga4ce1e75e61f656032b89484bf26c1889</anchor>
-      <arglist>(u32 adc, u8 channel)</arglist>
+      <anchor>gac59be11190b92659467a130485ed3083</anchor>
+      <arglist>(uint32_t adc, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_scan_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gac3658741ed79f6d6ec561d790f0c3531</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_scan_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga75e4b403cc6932aef35b4b84b56c8080</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga93bf810a8a531d5772d443c252364016</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gab2b359caa41226508e5414a9fdf18fcd</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaccc28c17498079897b5f80ae63af2921</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga59b482216ccaeeeaf22d7c5cfed7f3e2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_awd_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga0669ecb2cc0f1b4a54b4e049443ba709</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_awd_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga15cf1ba5c9d252b083fd2ac1b7190991</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga9d5cfe916560d5a3c0a91064c19cddb2</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gac8bdb409a1c15b7570b5c9cebbf516b8</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga39433b5b817fc20cdfa72d0a965a38a6</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga076a483dddf265550d82b6f7134abe43</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gadcfe29104bbb44d42c4121d8faacfc0c</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0c2097fd773feee0af1201d361dedfc9</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaf8822481db78523a0d252dde571c17db</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga162cfe07991774853c1dd30770c282f9</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga368ee92a908a3fd3ec8a1331c32df351</anchor>
-      <arglist>(u32 adc, u32 trigger)</arglist>
+      <anchor>gaa6f45976d2bcf60d61940dd179698531</anchor>
+      <arglist>(uint32_t adc, uint32_t trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_regular</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gac9f171c3dd499f03899ead80449d3325</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf91d45a5dcbc9d884a9f878ff6323bbe</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga664f706e3ad9bdfe41d8697e011f4afa</anchor>
-      <arglist>(u32 adc, u32 trigger)</arglist>
+      <anchor>ga7089ba2bbbb3a1836535b74bf2f9dd55</anchor>
+      <arglist>(uint32_t adc, uint32_t trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_injected</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga15dac30e511736f67112db9997329c60</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_left_aligned</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gabcc9f948ac15e47f1b8d0084018fbbaa</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_right_aligned</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga0990e90f5815264493f75ff61b771477</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_dma</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaddcab138dd47a4b6dc9357837c9f3604</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_dma</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga8c4e2c4b6c4ff8bbc00c6e53f277892f</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_reset_calibration</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga4f4b72567aa568d180688708b4df9d48</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga640d0e7ddeb7b7be90693edee48b10f1</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_calibration</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga1d52e753fbe82fff9dce9347b6c1482b</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3c48b602bbe9d9ce30eda5f069366dcb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continuous_conversion_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga187af0456ee41251a4ccb9de164eb077</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_conversion_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga037cddef7f977288dde6a2a9bfe9ab69</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_on</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gafcf149e9d9e029b384330deb30722cca</anchor>
-      <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;will be removed in the first release&quot;)</arglist>
+      <anchor>ga3ec44a6d5e28b3626c59ef9a85c7c4e5</anchor>
+      <arglist>(uint32_t adc) LIBOPENCM3_DEPRECATED(&quot;will be removed in the first release&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_off</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga81d7963a320361ba7343eb3d094faaba</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga9d08047fceee749485a72be74764db5c</anchor>
-      <arglist>(u32 adc, u8 channel, u8 time)</arglist>
+      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time_on_all_channels</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaa6db4d6f3d5102470bb1ea84928f7713</anchor>
-      <arglist>(u32 adc, u8 time)</arglist>
+      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
+      <arglist>(uint32_t adc, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_high_threshold</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaa2eac9de2e231fe46adaba9d81f82b08</anchor>
-      <arglist>(u32 adc, u16 threshold)</arglist>
+      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_low_threshold</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gab12fb7ddc1517f1d06990daf82c04a70</anchor>
-      <arglist>(u32 adc, u16 threshold)</arglist>
+      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_regular_sequence</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaaf0c33fdbed4e8ea63b6c0ee3030d9ea</anchor>
-      <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_sequence</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga1a7f811f45a7affd09aef0bce17fd213</anchor>
-      <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
+      <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continous_conversion_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaddfdf8bb682d12648252c8d1d1ff25db</anchor>
-      <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_continuous_conversion_mode&quot;)</arglist>
+      <anchor>ga7dfd6f60a7c3af3f9300b4dd4b99c9a1</anchor>
+      <arglist>(uint32_t adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_continuous_conversion_mode&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_conversion_time</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gad2725e57f017905c1aff942d1861a7a8</anchor>
-      <arglist>(u32 adc, u8 channel, u8 time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time&quot;)</arglist>
+      <anchor>gaa5d159dcb4a0aa14098ab591b3341ea5</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_conversion_time_on_all_channels</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaa7e414a11da4f3215f4125fabf518564</anchor>
-      <arglist>(u32 adc, u8 time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time_on_all_channels&quot;)</arglist>
+      <anchor>ga60abf21393d574c414182d895d072f61</anchor>
+      <arglist>(uint32_t adc, uint8_t time) LIBOPENCM3_DEPRECATED(&quot;change to adc_set_sample_time_on_all_channels&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_jeoc_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaf8e7daa0eede413f3cfab0d2b2be3633</anchor>
-      <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_enable_eoc_interrupt_injected&quot;)</arglist>
+      <anchor>ga7faf36aab0c52aa9801d9e7d4e743367</anchor>
+      <arglist>(uint32_t adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_enable_eoc_interrupt_injected&quot;)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_jeoc_interrupt</name>
       <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga9eee5deedf4ed18c0202fceff8bbb77d</anchor>
-      <arglist>(u32 adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_disable_eoc_interrupt_injected&quot;)</arglist>
+      <anchor>ga5027a7de926dbda1adcdadeb1004c27e</anchor>
+      <arglist>(uint32_t adc) LIBOPENCM3_DEPRECATED(&quot;change to adc_disable_eoc_interrupt_injected&quot;)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -16630,7 +16630,7 @@
   </compound>
   <compound kind="group">
     <name>adc_trigger_injected_12</name>
-    <title>ADC Injected Trigger Identifier for ADC1 and ADC2</title>
+    <title>ADC Injected Trigger Identifier for ADC1</title>
     <filename>group__adc__trigger__injected__12.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -16813,7 +16813,7 @@
   </compound>
   <compound kind="group">
     <name>adc_jsqr_jl</name>
-    <title>ADC Number of channels in discontinuous mode fro injected channels.</title>
+    <title>ADC Number of channels in discontinuous mode from</title>
     <filename>group__adc__jsqr__jl.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -19795,29 +19795,29 @@
       <type>BEGIN_DECLS void</type>
       <name>gpio_set_mode</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga07cb96dc8e544ca14fb746ce1c475b19</anchor>
-      <arglist>(u32 gpioport, u8 mode, u8 cnf, u16 gpios)</arglist>
+      <anchor>ga5273739c01f6cbc3c400ae81d4330294</anchor>
+      <arglist>(uint32_t gpioport, uint8_t mode, uint8_t cnf, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_eventout</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga2d8001859b926b5f419c937c6c679459</anchor>
-      <arglist>(u8 evoutport, u8 evoutpin)</arglist>
+      <anchor>gabab0dfbc150f8658cea822421f5f6ac1</anchor>
+      <arglist>(uint8_t evoutport, uint8_t evoutpin)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_primary_remap</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga09abe2f2f64812a4580050dbd34a4ff3</anchor>
-      <arglist>(u32 swjenable, u32 maps)</arglist>
+      <anchor>ga9fa7b8ed1d38d8b3d0e22bdfbabb9003</anchor>
+      <arglist>(uint32_t swjenable, uint32_t maps)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_secondary_remap</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gadcd7a1f65fe961d3ed1cefa514d5d2f7</anchor>
-      <arglist>(u32 maps)</arglist>
+      <anchor>ga3e5ba590258c8bb68b11ffb52d02ecb7</anchor>
+      <arglist>(uint32_t maps)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -21627,8 +21627,8 @@
       <type>void</type>
       <name>rcc_set_mco</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>gac677415398035d6a65da1650789243ce</anchor>
-      <arglist>(u32 mcosrc)</arglist>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -21648,133 +21648,133 @@
       <type>void</type>
       <name>rcc_peripheral_enable_clock</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga3b3e26e0374ad984ec7c442b738a8cd2</anchor>
-      <arglist>(volatile u32 *reg, u32 en)</arglist>
+      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_disable_clock</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga20b04813e5b27577fe2ef013a8337eee</anchor>
-      <arglist>(volatile u32 *reg, u32 en)</arglist>
+      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_reset</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga076c5e84cf8bf9293559648e72b0a04f</anchor>
-      <arglist>(volatile u32 *reg, u32 reset)</arglist>
+      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_clear_reset</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga6f657d65ef6704cf3fdc8a78b0a042a8</anchor>
-      <arglist>(volatile u32 *reg, u32 clear_reset)</arglist>
+      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_sysclk_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga3edbf52144a86a1b8292b3e21e3959d7</anchor>
-      <arglist>(u32 clk)</arglist>
+      <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
+      <arglist>(uint32_t clk)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>gac4e29905a035f775bae9d4273c3767af</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll2_multiplication_factor</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga592aefe9e6864f9b5f3872006b05dc7e</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga648726dbed9b010d181306103c9eb51c</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll3_multiplication_factor</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga94cea07a3bb5a95bbbaf3de4b7a8a23c</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga548fdeeacbf0c2199b0851a8c71ff872</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga2c3543cb0fc5e01678bb6d5bae1a51a1</anchor>
-      <arglist>(u32 pllsrc)</arglist>
+      <anchor>ga2f2bd45ad9c8b32e0fe5affe9bf181bf</anchor>
+      <arglist>(uint32_t pllsrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pllxtpre</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga41ac1b6752615c234079c76a23a99989</anchor>
-      <arglist>(u32 pllxtpre)</arglist>
+      <anchor>gae307406af5f22597be382a3eecc7b54b</anchor>
+      <arglist>(uint32_t pllxtpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_adcpre</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>gab59dc079275228143e1c8922c2b124d2</anchor>
-      <arglist>(u32 adcpre)</arglist>
+      <anchor>ga190cb3bbb95d687334d00e15bfab5b56</anchor>
+      <arglist>(uint32_t adcpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre2</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga411748dd9a8a99b746e802af6b448763</anchor>
-      <arglist>(u32 ppre2)</arglist>
+      <anchor>gac40c9478480f3a44c381c15482a563cd</anchor>
+      <arglist>(uint32_t ppre2)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre1</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga8cb53f3681507b9819229b24bd3417cd</anchor>
-      <arglist>(u32 ppre1)</arglist>
+      <anchor>gaaf1b9174131b00a7014c0328a53a65a1</anchor>
+      <arglist>(uint32_t ppre1)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_hpre</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga587f5be40f38a0bf0418ae4125129dc0</anchor>
-      <arglist>(u32 hpre)</arglist>
+      <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
+      <arglist>(uint32_t hpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_usbpre</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>gaa57d9566802a3e2df024cb679df1e990</anchor>
-      <arglist>(u32 usbpre)</arglist>
+      <anchor>gad434015520b42043657d7478f8308c37</anchor>
+      <arglist>(uint32_t usbpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga404b3270910c8bf40125728b25b5f30a</anchor>
-      <arglist>(u32 prediv)</arglist>
+      <anchor>ga3002a6fe10a813069b1d13c98c0a6da7</anchor>
+      <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv2</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga62f650e3f349ef9b12b56e1964ac31ac</anchor>
-      <arglist>(u32 prediv)</arglist>
+      <anchor>ga3a206a5322c1c6f7737654e13a01c6b8</anchor>
+      <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga28b46eb99d3eaf3602229f378f874a66</anchor>
-      <arglist>(u32 rccsrc)</arglist>
+      <anchor>ga2ce7e31318695e354e955004c0050a85</anchor>
+      <arglist>(uint32_t rccsrc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_system_clock_source</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <anchor>ga3373359648b1677ac49d2fe86bff99b7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -21841,17 +21841,17 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_ppre1_frequency</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga2ef92a5b2a7fffd75a80adb496391c8c</anchor>
+      <anchor>ga71455852cfe7420e0c33a63e0e09c4e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_ppre2_frequency</name>
       <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
-      <anchor>ga734b4f30d6b0845a57f5e8d4dc434f85</anchor>
+      <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -22106,7 +22106,7 @@
   </compound>
   <compound kind="group">
     <name>rcc_cfgr_adcpre</name>
-    <title>RCC ADC Clock Prescaler enable values</title>
+    <title>RCC ADC clock prescaler enable values</title>
     <filename>group__rcc__cfgr__adcpre.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -22139,7 +22139,7 @@
   </compound>
   <compound kind="group">
     <name>rcc_cfgr_apb2pre</name>
-    <title>RCC_CFGR APB2 Prescale Factors</title>
+    <title>RCC_CFGR APB2 prescale Factors</title>
     <filename>group__rcc__cfgr__apb2pre.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -22179,7 +22179,7 @@
   </compound>
   <compound kind="group">
     <name>rcc_cfgr_apb1pre</name>
-    <title>RCC_CFGR APB1 Prescale Factors</title>
+    <title>RCC_CFGR APB1 prescale Factors</title>
     <filename>group__rcc__cfgr__apb1pre.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -22219,7 +22219,7 @@
   </compound>
   <compound kind="group">
     <name>rcc_cfgr_ahbpre</name>
-    <title>RCC_CFGR AHB Prescale Factors</title>
+    <title>RCC_CFGR AHB prescale Factors</title>
     <filename>group__rcc__cfgr__ahbpre.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -22978,365 +22978,365 @@
       <type>void</type>
       <name>adc_power_on</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga887a6fe0bbf2610f2ab0f8a7ab3bce40</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_direct</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gafc55f4769af43526e77edc11907be438</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga455f91c3461744ff38517f4cd54c31b4</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dual_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gadc06dcc9c3e6f652f18dc7280feb2c11</anchor>
-      <arglist>(u32 mode)</arglist>
+      <anchor>gac6f35b3d65fcda9f9599058799f2dbf0</anchor>
+      <arglist>(uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga830b0fc9370508bf04dc1b01cc09badb</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_eoc_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga186bfcb2659dfafb0c342c1975472f25</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gad2a065923adced21827480f124ff4a61</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>adc_read_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga0cb788d1d9e54f4ccf9fc8b3b95656ff</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>adc_read_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gafdcca79192331fc42e3241caddd6f7ef</anchor>
-      <arglist>(u32 adc, u8 reg)</arglist>
+      <anchor>gab96e1ce8d28ce696dc70e231a8da936e</anchor>
+      <arglist>(uint32_t adc, uint8_t reg)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_offset</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga43bffb4e87049a19ea8ed264a6004285</anchor>
-      <arglist>(u32 adc, u8 reg, u32 offset)</arglist>
+      <anchor>gac3af5b84c1af074f2c9de07b0ed73470</anchor>
+      <arglist>(uint32_t adc, uint8_t reg, uint32_t offset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga5a1319d5fcfa28d0c5d616bb34636c44</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga6232c6b32e8f6c761e6297ba40f7c067</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaffa5256174cec880eaea7d82a1caf968</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga46ea7596440e650c5640012aa74f2d21</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gab4cc03bbad2f235b9fb8ed1b89e24d25</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_analog_watchdog_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga2e0ddcf0afcfaa7a818db8ea6ea66690</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gac97660f8ac7f23bd22c5a867d86dc80c</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga8071fcf08d687582e7c8c5621588fc5a</anchor>
-      <arglist>(u32 adc, u8 length)</arglist>
+      <anchor>ga57b3c58283977a60ab7e94b33d502ef8</anchor>
+      <arglist>(uint32_t adc, uint8_t length)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga2a4e78f6f0fb2f4d0a442946662079f2</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3c7c004f76958f5b9d4c2f66dad7f8df</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_discontinuous_mode_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga71c6f47f070add23253af4bf8e84820e</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga214a9ead42c311498474678796e8e768</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_discontinuous_mode_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga78164c7d8ab5f99ca93ed52e913bf6e8</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gafe352fb7c779e3b540056f0dd926e8b3</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_automatic_injected_group_conversion</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaa55d33a50412f243f9dd50aa22e93e13</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga9965805fdbb3e7dd26a1afed91cc4fd2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_automatic_injected_group_conversion</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gad60e8cc425daf6901d82100b2c3c5cd9</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga118817f8db889310eb249519d9b8ae39</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_all_channels</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga4887c1c1739ade1c0554df5f2f67dd42</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga756eb74470362394a05dacf33f3e647d</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_analog_watchdog_on_selected_channel</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga4ce1e75e61f656032b89484bf26c1889</anchor>
-      <arglist>(u32 adc, u8 channel)</arglist>
+      <anchor>gac59be11190b92659467a130485ed3083</anchor>
+      <arglist>(uint32_t adc, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_scan_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gac3658741ed79f6d6ec561d790f0c3531</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_scan_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga75e4b403cc6932aef35b4b84b56c8080</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga93bf810a8a531d5772d443c252364016</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gab2b359caa41226508e5414a9fdf18fcd</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaccc28c17498079897b5f80ae63af2921</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga59b482216ccaeeeaf22d7c5cfed7f3e2</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_awd_interrupt</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga0669ecb2cc0f1b4a54b4e049443ba709</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_awd_interrupt</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga15cf1ba5c9d252b083fd2ac1b7190991</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_eoc_interrupt</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga9d5cfe916560d5a3c0a91064c19cddb2</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_eoc_interrupt</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gac8bdb409a1c15b7570b5c9cebbf516b8</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga39433b5b817fc20cdfa72d0a965a38a6</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga076a483dddf265550d82b6f7134abe43</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gadcfe29104bbb44d42c4121d8faacfc0c</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0c2097fd773feee0af1201d361dedfc9</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaf8822481db78523a0d252dde571c17db</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_start_conversion_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga162cfe07991774853c1dd30770c282f9</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga368ee92a908a3fd3ec8a1331c32df351</anchor>
-      <arglist>(u32 adc, u32 trigger)</arglist>
+      <anchor>gaa6f45976d2bcf60d61940dd179698531</anchor>
+      <arglist>(uint32_t adc, uint32_t trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_regular</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gac9f171c3dd499f03899ead80449d3325</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gaf91d45a5dcbc9d884a9f878ff6323bbe</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga664f706e3ad9bdfe41d8697e011f4afa</anchor>
-      <arglist>(u32 adc, u32 trigger)</arglist>
+      <anchor>ga7089ba2bbbb3a1836535b74bf2f9dd55</anchor>
+      <arglist>(uint32_t adc, uint32_t trigger)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_injected</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga15dac30e511736f67112db9997329c60</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_left_aligned</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gabcc9f948ac15e47f1b8d0084018fbbaa</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_right_aligned</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga0990e90f5815264493f75ff61b771477</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_dma</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaddcab138dd47a4b6dc9357837c9f3604</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_dma</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga8c4e2c4b6c4ff8bbc00c6e53f277892f</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_reset_calibration</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga4f4b72567aa568d180688708b4df9d48</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga640d0e7ddeb7b7be90693edee48b10f1</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_calibration</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga1d52e753fbe82fff9dce9347b6c1482b</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3c48b602bbe9d9ce30eda5f069366dcb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_continuous_conversion_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga187af0456ee41251a4ccb9de164eb077</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_single_conversion_mode</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga037cddef7f977288dde6a2a9bfe9ab69</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_on</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga74bdf134679d1224538ccc0fed2feb77</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>gafdd1cc3cf5cb0833e881c0f9b3d54a85</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_off</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga81d7963a320361ba7343eb3d094faaba</anchor>
-      <arglist>(u32 adc)</arglist>
+      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga9d08047fceee749485a72be74764db5c</anchor>
-      <arglist>(u32 adc, u8 channel, u8 time)</arglist>
+      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time_on_all_channels</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaa6db4d6f3d5102470bb1ea84928f7713</anchor>
-      <arglist>(u32 adc, u8 time)</arglist>
+      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
+      <arglist>(uint32_t adc, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_high_threshold</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaa2eac9de2e231fe46adaba9d81f82b08</anchor>
-      <arglist>(u32 adc, u16 threshold)</arglist>
+      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_watchdog_low_threshold</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gab12fb7ddc1517f1d06990daf82c04a70</anchor>
-      <arglist>(u32 adc, u16 threshold)</arglist>
+      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_regular_sequence</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>gaaf0c33fdbed4e8ea63b6c0ee3030d9ea</anchor>
-      <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_injected_sequence</name>
       <anchorfile>group__STM32F1xx__adc__file.html</anchorfile>
-      <anchor>ga1a7f811f45a7affd09aef0bce17fd213</anchor>
-      <arglist>(u32 adc, u8 length, u8 channel[])</arglist>
+      <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
     </member>
     <docanchor file="group__STM32F1xx__adc__file">adc_api_ex</docanchor>
   </compound>
@@ -23352,18 +23352,18 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>crc_calculate</name>
       <anchorfile>group__crc__file.html</anchorfile>
-      <anchor>gadd37c58ab37425dcd78e0f23b5fd5db2</anchor>
-      <arglist>(u32 data)</arglist>
+      <anchor>gabd1ee47183330de057df47d4aab2fc74</anchor>
+      <arglist>(uint32_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>crc_calculate_block</name>
       <anchorfile>group__crc__file.html</anchorfile>
-      <anchor>ga0508527cd6e9a236c8e1733dff867d5e</anchor>
-      <arglist>(u32 *datap, int size)</arglist>
+      <anchor>ga88a426790ad1ae4a43a6019cdb247220</anchor>
+      <arglist>(uint32_t *datap, int size)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -23444,15 +23444,15 @@
       <type>void</type>
       <name>dac_set_trigger_source</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>gaacf3bb83d74f04b8de3a83b68a53c0dd</anchor>
-      <arglist>(u32 dac_trig_src)</arglist>
+      <anchor>ga6ab076c50ee6f788648a9a6ebe161ab2</anchor>
+      <arglist>(uint32_t dac_trig_src)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_set_waveform_generation</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>gad0174ee14375a51feedac395b423bab5</anchor>
-      <arglist>(u32 dac_wave_ens)</arglist>
+      <anchor>gaa0a78f45943398ea085e7332611e95f9</anchor>
+      <arglist>(uint32_t dac_wave_ens)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -23465,22 +23465,22 @@
       <type>void</type>
       <name>dac_set_waveform_characteristics</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>ga4987ce6c59997b02835188e3b7220d83</anchor>
-      <arglist>(u32 dac_mamp)</arglist>
+      <anchor>ga89fb44b8fd880a1c0415e77f2762c6af</anchor>
+      <arglist>(uint32_t dac_mamp)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_load_data_buffer_single</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>gac5d6bc856982b2f33b2f5665bd16f2ca</anchor>
-      <arglist>(u16 dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
+      <anchor>gabdef300140d86666393d9d66102bc76d</anchor>
+      <arglist>(uint16_t dac_data, data_align dac_data_format, data_channel dac_channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dac_load_data_buffer_dual</name>
       <anchorfile>group__dac__file.html</anchorfile>
-      <anchor>ga9d7d3043af42e83f1620bb9f7c9fde49</anchor>
-      <arglist>(u16 dac_data1, u16 dac_data2, data_align dac_data_format)</arglist>
+      <anchor>ga4d573e5c5ac0b0b496890f4518089c6b</anchor>
+      <arglist>(uint16_t dac_data1, uint16_t dac_data2, data_align dac_data_format)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -23501,176 +23501,176 @@
       <type>void</type>
       <name>dma_channel_reset</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1ff41cad6a8f897a0722c0c913dd07f0</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gaa0e2c035b7be3a35d966b5d3f4576cd6</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_clear_interrupt_flags</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1035bb6b7cbb49a026a64b96496fed61</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupts)</arglist>
+      <anchor>gac40a8639d6c302311f96cfe757149d65</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupts)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>dma_get_interrupt_flag</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0448de67c4697ca3efe1350751690446</anchor>
-      <arglist>(u32 dma, u8 channel, u32 interrupt)</arglist>
+      <anchor>ga2bbc4d202b36d8e8a198210b73b55fd5</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_mem2mem_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga617eb5cd853d37e116247915aee301be</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gad831d792923d1f4934ea1502a178fde2</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_priority</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5a79731815d899613f5fe9944ef776b2</anchor>
-      <arglist>(u32 dma, u8 channel, u32 prio)</arglist>
+      <anchor>ga1f69698a62a464cf9854ec02461bec89</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t prio)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_size</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4e36129b18538020951fce6476b33df4</anchor>
-      <arglist>(u32 dma, u8 channel, u32 mem_size)</arglist>
+      <anchor>gaf4e5396e694acaf0076172051b0bc73b</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t mem_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_peripheral_size</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga56fff16304df824cd19ada5ef5d14bfe</anchor>
-      <arglist>(u32 dma, u8 channel, u32 peripheral_size)</arglist>
+      <anchor>gae7a8decadc1f0b0c57bd1bb8af31ff1e</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t peripheral_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_memory_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga63b0ae23516392cb7b7fbb2cd78bd709</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga4603fbb63b0bc28f40e12b574d8dca06</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_memory_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa668c99d665129a8e627bfd120f8fdee</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga2c403250cd21d8d58c5e7a6041e8ece5</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_peripheral_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad8806134d462fcba72689bc8a8436885</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga815827721ac00bc6c5861ac72e969da6</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_peripheral_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2b4d26d2919a322b98c7e4d350d98218</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gab68711de9988ae47bab7e02ff6d90577</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_circular_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac9942cd4b0c10fa780fad38ea5840b6e</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga9bbce5e1378bc9468a7ab36e1994139b</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_read_from_peripheral</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1816ec1c02bc4731f7e0ce175c6ba272</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga5e6948cc934466d0b26c6fffaecdb999</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_read_from_memory</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa70ac5daa668c30783552ea0e531d9df</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga1446d08000d09fe53ccc60f51baee51a</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_transfer_error_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga6f98fcb670463ff9fa0b350b8a55add6</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gaa0cf00a33e2e4db3678fb03ea9df9848</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_error_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3ca927ad8548f5df39f80e2a3580b257</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga4d83c30e746520f4376db4d507203cdd</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_half_transfer_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga22ea9a9d3595761a3570f8c59c3acad4</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>gadbcda7ee605e555d66cbf99e4bc156af</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_half_transfer_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga0b7997b16dba35056695aa3ed7c8c57d</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga7a04611f195e968869795da7bb1a962e</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gadce242f0b1e229b0ffc24aa2227d7394</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga2342cb0ead24ea5274d2cc0e3c7c1c7b</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gafeb700fc225336070480f46ea6fdfd5b</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga145370b8df947290a81f8d69f03d2ef3</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_channel</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga48e3c1011542fdfad681aa7e554608f5</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga8ceb0c8c8ce56a288bca8180d426c178</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_channel</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac5b68ba004c7aed8fc3101fed5f5acd1</anchor>
-      <arglist>(u32 dma, u8 channel)</arglist>
+      <anchor>ga6a414141caca0417be5def3b1c8e661a</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_peripheral_address</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga74057182d4be039db3d6a26c779fbdea</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+      <anchor>gaf3e4413e433bfb1f1909eb44abc855e3</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_address</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac2f336cb2da513e171c2111e2e399c0a</anchor>
-      <arglist>(u32 dma, u8 channel, u32 address)</arglist>
+      <anchor>ga24372b0a92d96913ababcbe0ad0a7e98</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_number_of_data</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5bc9e05af8be84ecce2be41731de467f</anchor>
-      <arglist>(u32 dma, u8 channel, u16 number)</arglist>
+      <anchor>ga3d9bf8f1d34626faae129830dad95a78</anchor>
+      <arglist>(uint32_t dma, uint8_t channel, uint16_t number)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -23681,78 +23681,78 @@
       <type>void</type>
       <name>gpio_set_mode</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga1d6842eeec137bb2df7ef9614e193188</anchor>
-      <arglist>(u32 gpioport, u8 mode, u8 cnf, u16 gpios)</arglist>
+      <anchor>gae4a927a78f0ed245472ba05de9c7e940</anchor>
+      <arglist>(uint32_t gpioport, uint8_t mode, uint8_t cnf, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_eventout</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga2d8001859b926b5f419c937c6c679459</anchor>
-      <arglist>(u8 evoutport, u8 evoutpin)</arglist>
+      <anchor>gabab0dfbc150f8658cea822421f5f6ac1</anchor>
+      <arglist>(uint8_t evoutport, uint8_t evoutpin)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_primary_remap</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga2f5ad9da96cac415f5fb851e7a57554b</anchor>
-      <arglist>(u32 swjdisable, u32 maps)</arglist>
+      <anchor>ga793f728ea95a83f58e1d27d07d2fe0eb</anchor>
+      <arglist>(uint32_t swjdisable, uint32_t maps)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_secondary_remap</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gadcd7a1f65fe961d3ed1cefa514d5d2f7</anchor>
-      <arglist>(u32 maps)</arglist>
+      <anchor>ga3e5ba590258c8bb68b11ffb52d02ecb7</anchor>
+      <arglist>(uint32_t maps)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga570d0f02cc0784882629bf4580b41e5b</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga7fb65a68e4fc7175660f396395f6b44e</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gaa38876ad6f3cb35b67b25e87a2ce193c</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga8970f778a63c9d78ffd8d4d36628c7e1</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>gpio_get</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga1f8ff59ad8792d9cc6e505149b51889d</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga5fee90e8e5af7de567890ffae5ed50c8</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gaa066370e84c91d65966ff9bb548d8b16</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga5ce25ff1552b12093b009978322fcb5c</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>gpio_port_read</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga00667ed71e76ab23562b50cffeb3cab5</anchor>
-      <arglist>(u32 gpioport)</arglist>
+      <anchor>gac7a671c0d057a8db484357b344d66b23</anchor>
+      <arglist>(uint32_t gpioport)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_port_write</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gaf6a2d241b055d6f50db08305e901c526</anchor>
-      <arglist>(u32 gpioport, u16 data)</arglist>
+      <anchor>gaeb877f5252652d6a574a08b085ef14f5</anchor>
+      <arglist>(uint32_t gpioport, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_port_config_lock</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gada75d7db796f14b6a2e7c291f636d2c6</anchor>
-      <arglist>(u32 gpioport, u16 gpios)</arglist>
+      <anchor>ga749adc86df621552b5a0908ecf5b2ebe</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
     <docanchor file="group__gpio__file">gpio_api_ex</docanchor>
   </compound>
@@ -23764,190 +23764,190 @@
       <type>void</type>
       <name>i2c_reset</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga7112eec67635f56b52bb9f6a55e68f51</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga6c98abcc0cf310ed84795260384d9992</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_peripheral_enable</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga774bebee5ea20401a3dd1a6ff06fe989</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga91c48df3ee37b0e960527ba59581a585</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_peripheral_disable</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gaaf774eb724b01cf7e146850a41711006</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga600d06defb26076b7b702160a0c5603d</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_send_start</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gadec104ea943d9c5dd4bcb34a1e530cfc</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga5c21ca1eb1791661f78247cdccf82734</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_send_stop</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga5bad561a6dd0da1597f0a61617e38eb6</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga90b4cd40407eefb70f18e5aa43630d44</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_clear_stop</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga9bc2a2a5c0a174fe20be22b4cf8834c2</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gabb626d99345195735bedd6134b6cf3c6</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_own_7bit_slave_address</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gab9be5ee960694900deccd9e5ea3e72e9</anchor>
-      <arglist>(u32 i2c, u8 slave)</arglist>
+      <anchor>ga770a4f23cdb45e344a789e32202c4cab</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_own_10bit_slave_address</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gad505be113c34b3ddfc38b8fda296ad95</anchor>
-      <arglist>(u32 i2c, u16 slave)</arglist>
+      <anchor>ga9c45f244fee2f34d1cb10fc7accd5af8</anchor>
+      <arglist>(uint32_t i2c, uint16_t slave)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_fast_mode</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga320f30cd3c0e6b6a2f2df4ce68c131d6</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga500a4416fdd04daa0439cf9b887a95e5</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_standard_mode</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga77d7a226c041dbc2b75a31bc729a1ff4</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga83ec05549c5d3d3412b3e5c902ad1d07</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_clock_frequency</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga92b19377d0ee4abea230636b340508e4</anchor>
-      <arglist>(u32 i2c, u8 freq)</arglist>
+      <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
+      <arglist>(uint32_t i2c, uint8_t freq)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_ccr</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga2c57f77dec4fd2c197fd94b3e076f6ae</anchor>
-      <arglist>(u32 i2c, u16 freq)</arglist>
+      <anchor>gac49e8baa5610af5907ea5ba76f78c69c</anchor>
+      <arglist>(uint32_t i2c, uint16_t freq)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_trise</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga0871e204718f58fab7e0f557fc771892</anchor>
-      <arglist>(u32 i2c, u16 trise)</arglist>
+      <anchor>ga8b5fb1ea0be082f192030aa475a0e142</anchor>
+      <arglist>(uint32_t i2c, uint16_t trise)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_send_7bit_address</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga4416e975cdd2999d85adc8b0148c3bb0</anchor>
-      <arglist>(u32 i2c, u8 slave, u8 readwrite)</arglist>
+      <anchor>gac84a8cc0d49c99f032f7ea87ac0f1302</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave, uint8_t readwrite)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_send_data</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gacc740d575fc8623222db6f1dd9fe3e26</anchor>
-      <arglist>(u32 i2c, u8 data)</arglist>
+      <anchor>gaad83fb76f31941e9d0e1083d8e4ea6f0</anchor>
+      <arglist>(uint32_t i2c, uint8_t data)</arglist>
     </member>
     <member kind="function">
       <type>uint8_t</type>
       <name>i2c_get_data</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga30aee037b2a42328565c71853a3bfff5</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gab0fae615ab83fcd0dac9885fd04c4731</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_enable_interrupt</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga8104d7ef9ff93ad81ea5f0064a7c8933</anchor>
-      <arglist>(u32 i2c, u32 interrupt)</arglist>
+      <anchor>ga16c892319b9438eab63cf4ea3a15f4ae</anchor>
+      <arglist>(uint32_t i2c, uint32_t interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_disable_interrupt</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga7789386ddaa0532e80a9905d499d4d66</anchor>
-      <arglist>(u32 i2c, u32 interrupt)</arglist>
+      <anchor>ga0fc2e57eeb3efee6810e6ca3c5df4cf8</anchor>
+      <arglist>(uint32_t i2c, uint32_t interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_enable_ack</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gac1df9dc75fc88c6693b0b9b82b06f22c</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga5a96238eca687f4af66247ea570d96dc</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_disable_ack</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga199a2627362321a61292199ebbe2f700</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga395fd658d7c467511669ba6e1871c160</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_nack_next</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gac41410320d5999bf1d77ff404856ab11</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga9a1c593d122706af68c83355ccdf59bc</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_nack_current</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga64377349e77645d231d692235e8289f8</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga437111967f0cc3f37713132ac2e71a5a</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_dutycycle</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga1d1dd013c0fee7328698a1fd4ee30e24</anchor>
-      <arglist>(u32 i2c, u32 dutycycle)</arglist>
+      <anchor>ga6cc091f487de5bb53913400af74d80d7</anchor>
+      <arglist>(uint32_t i2c, uint32_t dutycycle)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_enable_dma</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gaba985705bbb9c46e6862fd2afb8664a7</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gaf45142a5b574acf77396134539c90159</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_disable_dma</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gab47de122fb3c32c443256a250b29116b</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gaa3ab44e02ffd8a6808189d7a9deba130</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_set_dma_last_transfer</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gad1a39fc80809dc32e0dbb718aca11fcd</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>ga3d8ba1ccc288f257d065704fcaa37b73</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>i2c_clear_dma_last_transfer</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga04d2d695cc0fb5f71fcdf3d8e245afbb</anchor>
-      <arglist>(u32 i2c)</arglist>
+      <anchor>gaae33768054505eb804c47d4d3f95775f</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -23986,8 +23986,8 @@
       <type>void</type>
       <name>iwdg_set_period_ms</name>
       <anchorfile>group__iwdg__file.html</anchorfile>
-      <anchor>gaa4f196e28e96c7901f9ff25a5c7fd20d</anchor>
-      <arglist>(u32 period)</arglist>
+      <anchor>ga9fddf4170e5fb9d3b4df309a152e27e5</anchor>
+      <arglist>(uint32_t period)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -24033,8 +24033,8 @@
       <type>void</type>
       <name>pwr_enable_power_voltage_detect</name>
       <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gad06edc8bc523b715f91e7b7226b27ce7</anchor>
-      <arglist>(u32 pvd_level)</arglist>
+      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
+      <arglist>(uint32_t pvd_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -24220,140 +24220,140 @@
       <type>void</type>
       <name>rcc_peripheral_enable_clock</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga3b3e26e0374ad984ec7c442b738a8cd2</anchor>
-      <arglist>(volatile u32 *reg, u32 en)</arglist>
+      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_disable_clock</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga20b04813e5b27577fe2ef013a8337eee</anchor>
-      <arglist>(volatile u32 *reg, u32 en)</arglist>
+      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_reset</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga076c5e84cf8bf9293559648e72b0a04f</anchor>
-      <arglist>(volatile u32 *reg, u32 reset)</arglist>
+      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_clear_reset</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga6f657d65ef6704cf3fdc8a78b0a042a8</anchor>
-      <arglist>(volatile u32 *reg, u32 clear_reset)</arglist>
+      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_sysclk_source</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga3edbf52144a86a1b8292b3e21e3959d7</anchor>
-      <arglist>(u32 clk)</arglist>
+      <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
+      <arglist>(uint32_t clk)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>gac4e29905a035f775bae9d4273c3767af</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll2_multiplication_factor</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga592aefe9e6864f9b5f3872006b05dc7e</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga648726dbed9b010d181306103c9eb51c</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll3_multiplication_factor</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga94cea07a3bb5a95bbbaf3de4b7a8a23c</anchor>
-      <arglist>(u32 mul)</arglist>
+      <anchor>ga548fdeeacbf0c2199b0851a8c71ff872</anchor>
+      <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_source</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga2c3543cb0fc5e01678bb6d5bae1a51a1</anchor>
-      <arglist>(u32 pllsrc)</arglist>
+      <anchor>ga2f2bd45ad9c8b32e0fe5affe9bf181bf</anchor>
+      <arglist>(uint32_t pllsrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pllxtpre</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga41ac1b6752615c234079c76a23a99989</anchor>
-      <arglist>(u32 pllxtpre)</arglist>
+      <anchor>gae307406af5f22597be382a3eecc7b54b</anchor>
+      <arglist>(uint32_t pllxtpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_adcpre</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>gab59dc079275228143e1c8922c2b124d2</anchor>
-      <arglist>(u32 adcpre)</arglist>
+      <anchor>ga190cb3bbb95d687334d00e15bfab5b56</anchor>
+      <arglist>(uint32_t adcpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre2</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga411748dd9a8a99b746e802af6b448763</anchor>
-      <arglist>(u32 ppre2)</arglist>
+      <anchor>gac40c9478480f3a44c381c15482a563cd</anchor>
+      <arglist>(uint32_t ppre2)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre1</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga8cb53f3681507b9819229b24bd3417cd</anchor>
-      <arglist>(u32 ppre1)</arglist>
+      <anchor>gaaf1b9174131b00a7014c0328a53a65a1</anchor>
+      <arglist>(uint32_t ppre1)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_hpre</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga587f5be40f38a0bf0418ae4125129dc0</anchor>
-      <arglist>(u32 hpre)</arglist>
+      <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
+      <arglist>(uint32_t hpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_usbpre</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>gaa57d9566802a3e2df024cb679df1e990</anchor>
-      <arglist>(u32 usbpre)</arglist>
+      <anchor>gad434015520b42043657d7478f8308c37</anchor>
+      <arglist>(uint32_t usbpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga404b3270910c8bf40125728b25b5f30a</anchor>
-      <arglist>(u32 prediv)</arglist>
+      <anchor>ga3002a6fe10a813069b1d13c98c0a6da7</anchor>
+      <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv2</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga62f650e3f349ef9b12b56e1964ac31ac</anchor>
-      <arglist>(u32 prediv)</arglist>
+      <anchor>ga3a206a5322c1c6f7737654e13a01c6b8</anchor>
+      <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1_source</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga28b46eb99d3eaf3602229f378f874a66</anchor>
-      <arglist>(u32 rccsrc)</arglist>
+      <anchor>ga2ce7e31318695e354e955004c0050a85</anchor>
+      <arglist>(uint32_t rccsrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_mco</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>gac677415398035d6a65da1650789243ce</anchor>
-      <arglist>(u32 mcosrc)</arglist>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_system_clock_source</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga02ae4c7c3c5566f2d92738177d8f6367</anchor>
+      <anchor>ga3373359648b1677ac49d2fe86bff99b7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -24420,17 +24420,17 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_ppre1_frequency</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga2ef92a5b2a7fffd75a80adb496391c8c</anchor>
+      <anchor>ga71455852cfe7420e0c33a63e0e09c4e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>rcc_ppre2_frequency</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
-      <anchor>ga734b4f30d6b0845a57f5e8d4dc434f85</anchor>
+      <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -24442,8 +24442,8 @@
       <type>void</type>
       <name>rtc_set_prescaler</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>gaa983b34f0a6901d7aa9ff91130a4c582</anchor>
-      <arglist>(u32 sync, u32 async)</arglist>
+      <anchor>ga7c05857df37f0631153fdb9893df5c00</anchor>
+      <arglist>(uint32_t sync, uint32_t async)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -24470,8 +24470,8 @@
       <type>void</type>
       <name>rtc_set_wakeup_time</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga7885e411216e5bca89417c0f8b0591a8</anchor>
-      <arglist>(u16 wkup_time, u8 rtc_cr_wucksel)</arglist>
+      <anchor>gacffca2b1f3a82b3f82923e9ab14f004f</anchor>
+      <arglist>(uint16_t wkup_time, uint8_t rtc_cr_wucksel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -24489,323 +24489,323 @@
       <type>void</type>
       <name>spi_reset</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf6817753de3cd11b9805db6f4cc4ddc7</anchor>
-      <arglist>(u32 spi_peripheral)</arglist>
+      <anchor>gaae815897f2f548556dde9fa8ecb13058</anchor>
+      <arglist>(uint32_t spi_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>spi_init_master</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gacac125eda08c8fa3b3f9e1c35b474ee2</anchor>
-      <arglist>(u32 spi, u32 br, u32 cpol, u32 cpha, u32 dff, u32 lsbfirst)</arglist>
+      <anchor>gaa963b02acbae0939ec4537a8136873ed</anchor>
+      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga31154d569d02249fc81c2963435e61df</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga33fbdd2e4f6b876273a2b3f0e05eb6b4</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf370cdda0bd424244a85cf7eb74647a1</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga3a67a664d96e95e80d3308b7d53736e6</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>spi_clean_disable</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga59ceb29201f41181372b8e414ddacfe3</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaf76785dab1741f75d4fc2f03793b57d9</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_write</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga2db53ca4fd33ed2948b92624074baaf7</anchor>
-      <arglist>(u32 spi, u16 data)</arglist>
+      <anchor>ga6c3dfa86916c2c38d4a1957f4704bb47</anchor>
+      <arglist>(uint32_t spi, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_send</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga7964fd2d68f820499350825870e65cb1</anchor>
-      <arglist>(u32 spi, u16 data)</arglist>
+      <anchor>ga1fcf7661af69bcf8999ae3f6d102fd8b</anchor>
+      <arglist>(uint32_t spi, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>spi_read</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gae64b42540c65efb4a0c80c24ff18c87b</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga1bfe6bd4512dc398cb7f680feec01b20</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>spi_xfer</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga71a49f7a3d4b976d32eef9da45a6010f</anchor>
-      <arglist>(u32 spi, u16 data)</arglist>
+      <anchor>gae453ac946166bc51a42c35738d9d005b</anchor>
+      <arglist>(uint32_t spi, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_bidirectional_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gae4c856513169c1d952c4d7fdcc7daba2</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaf0088037e6a1aa78a9ed4c4e261a55ac</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_unidirectional_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3592c5286b94fab3714215157fae24bc</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga25ed748ce16f85c263594198b702d949</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_bidirectional_receive_only_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gac871df249fb0c847813b5cb045ecea72</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaf27f88063c2cb644a2935490d61202c5</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_bidirectional_transmit_only_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gae215ddb868a7664f8021c0843cd486c5</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga8ad1268a257456a854b960f8aa73b1ce</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_crc</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3104a2ae150ba7d0d2f48c773cd49553</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga3993016e02c92b696c8661840e602a00</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_crc</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1559b488c118a1378e14a0c431cb5b5d</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga168934fcc518d617447514ca06a48b3c</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_next_tx_from_buffer</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga55a7bc2d9ea533f0aec6b3b8498464b0</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga0f70abf18588bb5bbe24da6457cb9ff7</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_next_tx_from_crc</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga2b63afc458e6dfd2018958c6b590a6d3</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaabd95475b2fe0fab2a7c22c5ae50aa14</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_dff_8bit</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1c8af00a955693b1b50b4fb603e9b081</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga715bcb5541f2908d16a661b0a6a07014</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_dff_16bit</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga50c43646a17a91dd626607425116faea</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga6665731fd5d37e5dfb00f29f859e6c9c</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_full_duplex_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gafe8744d530f18e5666b154eb8ab91e44</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga714f48c6586abf8ce6e3e118f6303708</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_receive_only_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf1340cdfae703bd10802cd8357d0a655</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaacdf55f39a2de0f53ac356233cc34cbb</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_software_slave_management</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga139cdd3fede6f9de9802896c908851f8</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga4cf9bda5fa58c220e6d45d6a809737c4</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_software_slave_management</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaddecb6ffa53d76feaee2b9915cbf706d</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gab3cb4176148e6f3602a0b238f32eb83b</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_nss_high</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga8c3873fe2885bc6321c0b9e66ccc283b</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gad86076b9c51c2ce18f844d42053ed8cc</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_nss_low</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga38956e6a9292d8e6e68eacee6224209c</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga47838ebf43d91e96b65338b6b0a50786</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_send_lsb_first</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga75934e3e4f86c5bf8dca6eed835b7755</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga9f834ea1e68b2c23a4b0866f96f38578</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_send_msb_first</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf863d960278fa09b74aab0c900e54020</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gae19e92c8051fe49e4eac918ee51feeac</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_baudrate_prescaler</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1c3f08eb6dab40581c68357ab4cb5050</anchor>
-      <arglist>(u32 spi, u8 baudrate)</arglist>
+      <anchor>ga69a60fb0cd832d3b9a16ce4411328e64</anchor>
+      <arglist>(uint32_t spi, uint8_t baudrate)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_master_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga273965becb9a1283bab7138838cc3da1</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gafca8671510322b29ef82b291dec68dc7</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_slave_mode</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga334b0d794067220c3bd6f344bbbce12b</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gae9700a3a5f8301b5b3a8442d257d75dd</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_clock_polarity_1</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga6d31277c3554e8c5c7fcc33e2af68c09</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga379382439ed44f061ab6fd4232d47319</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_clock_polarity_0</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga157b01dd2c66cbf2a74e1ffb3d3b584b</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga683b0840af6f7bee227ccb31d57dc36a</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_clock_phase_1</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gabf9400c71f72c8f6bbf3432a79c5377d</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gacd6b278668088bce197d6401787c4e62</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_set_clock_phase_0</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga195eb27ccd5f60d9d2cbeb42899f3ca8</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gac01452c132ec4c5ffc5d281d43d975d7</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_tx_buffer_empty_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga7a70736fbed3fd0399c4117e5d8b727f</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga4c552fab799a9009bc541a3fb41061fe</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_tx_buffer_empty_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga36cf7a17d93725170846e44ce82dcd39</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gac803fac4d999f49c7ecbda22aa5b7221</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_rx_buffer_not_empty_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gacaededf922c8da18099b343f315e67aa</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gad05d3885fad620fc84d284fc9b42554e</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_rx_buffer_not_empty_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga0987768f3e0157d61d3cb439e0244eee</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gada77b72d4924b55840e73ed14a325978</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_error_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3245ecd1f8af7a012499a788e4f43f1f</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaedf50e8ee8ec6f033231a2c49b4ac1a1</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_error_interrupt</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gad4343fbfc4811a6bc40cacca40cb427c</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gaa84513c1f4d95c7de20b9416447c2148</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_ss_output</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaa1c55da2ee36d0652ef375201f96c8d6</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gada533027af13ff16aceb7daad049c4e4</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_ss_output</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga0080ef5cde6069297a6134f611664435</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga8cd024f5b5f4806bbeeec58e8e79162b</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_tx_dma</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gac6f7c535f0263b4e52006120c5beda2f</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga74726047b7cad9c11465a3cf4d0fd090</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_tx_dma</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaafea5169476615f637b5bc16cc267126</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gafc90aaa52298179b5190ee677ac5d4cc</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_enable_rx_dma</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1422c5d0076faeb9abf109001745793f</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>gac860af47e3356336e01495554de5e506</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>spi_disable_rx_dma</name>
       <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga81ad7615ae2375ea230caf25c608a8fe</anchor>
-      <arglist>(u32 spi)</arglist>
+      <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
+      <arglist>(uint32_t spi)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -24823,533 +24823,533 @@
       <type>void</type>
       <name>timer_reset</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga635e53b4d7012c66f0f522018f3c365e</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga90cade2e35c32d50534a531903e642be</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_irq</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaf73d9dd65f53fbae82390c13994fb5e0</anchor>
-      <arglist>(u32 timer_peripheral, u32 irq)</arglist>
+      <anchor>gabe7ccf1e2f9d2d8be692b58ad4e5b304</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t irq)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_irq</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gad87e16872e37134cb0c006d74bf64633</anchor>
-      <arglist>(u32 timer_peripheral, u32 irq)</arglist>
+      <anchor>gaf653149dc5374ff126d7ab8b63ea6d37</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t irq)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>timer_interrupt_source</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga44293cf4df17227863493a16439314a0</anchor>
-      <arglist>(u32 timer_peripheral, u32 flag)</arglist>
+      <anchor>ga5ac041bc0363fbb857b2c783e675fc69</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>timer_get_flag</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga008158c5be1d433c73b154eae9678355</anchor>
-      <arglist>(u32 timer_peripheral, u32 flag)</arglist>
+      <anchor>ga3515ea09b71ac6aad4df293e4d15c540</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_clear_flag</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga08949f4ce2e140ebc2dd4c404431e06f</anchor>
-      <arglist>(u32 timer_peripheral, u32 flag)</arglist>
+      <anchor>gaf3686ed077ae1d79bf34050cb23ee373</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gac0440a753422d13658b852c4927ed936</anchor>
-      <arglist>(u32 timer_peripheral, u32 clock_div, u32 alignment, u32 direction)</arglist>
+      <anchor>ga3d24e3347572755cc1d95a3ed6307aa8</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t clock_div, uint32_t alignment, uint32_t direction)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_clock_division</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7d86bb43f67eba7fd1fa5265b5b07744</anchor>
-      <arglist>(u32 timer_peripheral, u32 clock_div)</arglist>
+      <anchor>gaf7ee4b3730e8989df3b7366ded65ad07</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t clock_div)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_preload</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0707c846866f5260b792279eec88a7f5</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga1311e6fc4fcd830db8cacc6f1cab99c3</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_preload</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaf876e0a48aa7db8e3133ac68d0291ec9</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga45cb21df9ad54411ad2cde8eb29f1a9f</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_alignment</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0a38b28af8f01532ad42e2844ffed7d6</anchor>
-      <arglist>(u32 timer_peripheral, u32 alignment)</arglist>
+      <anchor>ga6bda1a80f9b7474a2faea5d8cc8ae9fd</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t alignment)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_direction_up</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga031d862ecf5588fba41c8dfc2f19ffaa</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac60be2f7fedf3ac0b234eb721a74ec17</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_direction_down</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6a84ea5503d1610e0f8d746ba12142ce</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gaa9a7db17cdc0078e5f1a4a7f6f72d3e6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_one_shot_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gafc1a99f8422c484c9abdf3638ddd7018</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga1697ca3e864a9cfd07ce47bef8313525</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_continuous_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga4deb7a1c4f1f8b7899201db36f4abbe0</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga0055340e46362635c32a117c6b2bbe2e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_update_on_any</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0ae6fd9111170e1fc63535967bdb6461</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gaba4fbba9e50b02eac3c909e09d7cdb00</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_update_on_overflow</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gade4c3d344e26649725f28b01bb76fffc</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga279cd24b158ccd2e2209c88d9853d09d</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_update_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga487db0d3abba198228650a3ee872e66f</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga83b865bbaba61578793c252cce77e177</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_update_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga58dfd0eecb107287207cf7c4b089faba</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gacd3de4978e884feb8a7ab8d190d9b08b</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7cb473e295e9ab427331071cad5489b4</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga8d2e8fb94b1988df5239852f2b3301d6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga1811f1b8c7d5dbeede857b084748102e</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga48290e3b69592031f0d29066fafc780e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_output_idle_state</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga9edcef1f51be3e0ebf90a6f65c25f3b1</anchor>
-      <arglist>(u32 timer_peripheral, u32 outputs)</arglist>
+      <anchor>ga74493385947c60267324ad52658aeaae</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t outputs)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_reset_output_idle_state</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga5f53c8ece5b6b2805986e7d050943e19</anchor>
-      <arglist>(u32 timer_peripheral, u32 outputs)</arglist>
+      <anchor>ga1588d783af458b13957c92d0a61ebc48</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t outputs)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_ti1_ch123_xor</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6cf985750d50b19b4b793f435adca686</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gacddad82e5abc73bdbcf87514c935b9cc</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_ti1_ch1</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga67c8e0e5fe1e082b8be9ecf3cd23b97c</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga9e943f5e6af679422c7eb45a53c1f926</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_master_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaa1292389cecf41b1cb68ab6d439b0ce6</anchor>
-      <arglist>(u32 timer_peripheral, u32 mode)</arglist>
+      <anchor>ga17f2e416e48d857ad6ff2dd6b4651b65</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_dma_on_compare_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6514c14c36863e6d9b8a7a8dea4c86b6</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga222af772ac588e4cce08b4d4c30aade6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_dma_on_update_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga2ed60cd87411bc0c11ee1337d69596a9</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga77c7e3f0358e1747ce7802ccf0ab0519</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_compare_control_update_on_trigger</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga23eb87368600a18b40f51b0165b274d0</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga36de90953e6ad0da84ddc353ea451fb8</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_compare_control_update_on_trigger</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga125f353468205ae4fe68e86776562b27</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gaa9c3942a9b647d8e92b07275e9dd2c58</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_preload_complementry_enable_bits</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gac91c91692586120fc179f69042c71558</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga88dabeaade4785e8711b682cbecc68b3</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_preload_complementry_enable_bits</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga429edc46c0915f2f645fb7da774550ea</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga1d84b1bb9bd6496a09fa2914a3665797</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_prescaler</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga9f38a400c0645c5eeb8eb72fb9bb2789</anchor>
-      <arglist>(u32 timer_peripheral, u32 value)</arglist>
+      <anchor>ga45e2ff5caa76f1baac62985affa04908</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t value)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_repetition_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7e34a1d15b96a337f3bec9755a192fc2</anchor>
-      <arglist>(u32 timer_peripheral, u32 value)</arglist>
+      <anchor>gaeeeee34f61f1b5494c96a777502d40bb</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t value)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_period</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga2b10c31d8ae7fc2ec8907508ed732460</anchor>
-      <arglist>(u32 timer_peripheral, u32 period)</arglist>
+      <anchor>gaea0fda57594cc30e644de916dff31b98</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t period)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_oc_clear</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga9adc9883c39d4cdf0c9e62a19e231bad</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga4c1e08343758db3ed4bceaadceb4360c</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_oc_clear</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaa67b098cb7feada26afc97ad7d7cb9b8</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga413d13a8ed5f52729ae847b5d51731bd</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_fast_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gae350b9002441eac8736a450e9ac14b29</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga23ff68b1e45d180ad74eb04d660e8088</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_slow_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga23e68651bdc9bd617e1f3b0d5aae5676</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga097426b09f737df077536d59f0e8b499</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6c1e8366c5da793f1b9df0fec57ea55c</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id, enum tim_oc_mode oc_mode)</arglist>
+      <anchor>ga518f01cdb7d391eb7e884d49defcc0a1</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id, enum tim_oc_mode oc_mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_oc_preload</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga9638fa58c94d8ff3ec72a5f51cb5ef72</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga71f1515c2ab3f2ccc74077337ded51ec</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_oc_preload</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaa4b64c4c7ffb122a64730ef7acb7a1cd</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>gaa89f1b35bc6616d12999b59559f5317c</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_polarity_high</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gad165353f0c1ae3ba4475549fc1a0be7b</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga3c3b4a7253fe8b383695a995bc772719</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_polarity_low</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga4b53b4ef67eae28546d8884135f33418</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>gadb746de22bafa181826f3911f9be5023</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_oc_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga7c00d58815f19a5b18fdbbfbdc101f88</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>gaca2dbcb8b8f3fd059c5a9342a3a9728a</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_oc_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga28c1fed137713fa37109f1287149cf28</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga988310ebc85afe99caaa00d18e23805a</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_idle_state_set</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga30f58f4f442f2991ea35f6798a674a48</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>gaa6d2d7f0f8ac9940c7ed90718b6b0d71</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_idle_state_unset</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaa2d3aa47db5049bb8a58b2661761e306</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id)</arglist>
+      <anchor>ga547d7a817bc3588bbe5b5a80967a42e7</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_oc_value</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga28a50f22d76db42c4fd319146d06c75b</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_oc_id oc_id, u32 value)</arglist>
+      <anchor>gad25fd7a45af7d78d27473421897a28e0</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id, uint32_t value)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_break_main_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gac6562012ceafd3de5f7fff044a60db54</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac85d21c50ab47956f23b1413531509e6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_break_main_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga3e504a3c171eb9789e1ba17b6acfa278</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga38de2ddba2d0da279f17e976f92ba43a</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_break_automatic_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga3218a1d998bdf8449cfa9bacdf2ad139</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac0fa6733dce1b400df606f9d46ed171a</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_break_automatic_output</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga963e0b642ec3f313132b0bf6fd4ac186</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gadc5affbaaa9aced0f28cf3b7b385b67d</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_break_polarity_high</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga64ede951b6598ac96bbd61b6cd213891</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga4ceb747a6c4de3b6f8f687fc208b2e81</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_break_polarity_low</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga297fe65e5e89a06b30fd25264e863a33</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gade854ae04e5ac57770cb0249b6533f10</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_enable_break</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gae2c7bb51c64b1c30b7316697dc40af70</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga3a3a36222ab1f686e4da5a8355056097</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_disable_break</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga3104f4cc73a216b3bf66995c70e49462</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gabb206669c5e556ccbcccb4205ed872a3</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_enabled_off_state_in_run_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6da4ee96037aa39963b988334b05923b</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac450e52a726bc05532369ff445839a6c</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_disabled_off_state_in_run_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaca085edfbaf3a2dc25c7915c7e926a3e</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gac912b678e1b5142001e3f69eaaae74bc</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_enabled_off_state_in_idle_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaeececb772ee3d19640b41df149ee845e</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga7afd7dae739404fa2bb305feb7a4d95e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_disabled_off_state_in_idle_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaaf04c1fffdac349d03ae9149b4e243c7</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>ga3177151403d6d7af037a41739d82fbac</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_break_lock</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga951e179c1d6edf9738127142e4680377</anchor>
-      <arglist>(u32 timer_peripheral, u32 lock)</arglist>
+      <anchor>ga42351ef19afe18243e5b2337ad14f2ca</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t lock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_deadtime</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga71029c3aebac58d5e22385c9e4cf280f</anchor>
-      <arglist>(u32 timer_peripheral, u32 deadtime)</arglist>
+      <anchor>ga635cae0b5d26ee04a7d0f04ee647c5be</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t deadtime)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_generate_event</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga3b2f48b8382c137c0d89ca6ef1dac78e</anchor>
-      <arglist>(u32 timer_peripheral, u32 event)</arglist>
+      <anchor>gae4eef64c8f1c7d9a3c5f187541adb697</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t event)</arglist>
     </member>
     <member kind="function">
-      <type>u32</type>
+      <type>uint32_t</type>
       <name>timer_get_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga8c06c5329b8e136c909965f76885a360</anchor>
-      <arglist>(u32 timer_peripheral)</arglist>
+      <anchor>gae2d6fd0793f48922743ae64d04671f6b</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_set_counter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga714fd0379dbfe072a7f622d504bd0703</anchor>
-      <arglist>(u32 timer_peripheral, u32 count)</arglist>
+      <anchor>ga7057701df512bf79f039da9d6379a895</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t count)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_filter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga553aec0a092ec74ca3050ffbc1a9ab82</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_filter flt)</arglist>
+      <anchor>ga93008db9bfd48c1a8f93e90aacf0bc96</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_filter flt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_prescaler</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0c1243538b7ae8b7ae12598c6519a339</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_psc psc)</arglist>
+      <anchor>ga8dfef123f54719260da6841c6ac91958</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_psc psc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_input</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga0a6724d4c7a40e38dd94dfe70950815b</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic, enum tim_ic_input in)</arglist>
+      <anchor>gadc5738856e9b3d8776950176b468a738</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_input in)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_enable</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaf74f4ed834f30d68ca294349ec64b902</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic)</arglist>
+      <anchor>gade3715490b612154cf66018ab53a497d</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_disable</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga842d2e829baab6e3737ca903f3deec1a</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_id ic)</arglist>
+      <anchor>ga569a781dbed735fc1fdb811b68769969</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_filter</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga6f7dd59db59dd01a2573ff3b69557161</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_filter flt)</arglist>
+      <anchor>gaf51fe268bea5f97f6a6a050daa33d7b4</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_filter flt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_prescaler</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga68d1d708b99cc49fdd590f1e77b68ff1</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_ic_psc psc)</arglist>
+      <anchor>gad568a6cf1019657a3832ebc4713d5e75</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_psc psc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_polarity</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaca29467a4cb5700e0b9a457664cda471</anchor>
-      <arglist>(u32 timer_peripheral, enum tim_et_pol pol)</arglist>
+      <anchor>ga6ef0099abc0d08d9c3663aac09414b4e</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_et_pol pol)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_mode</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga741240e46390f98f507d33a6bc1830ca</anchor>
-      <arglist>(u32 timer_peripheral, u8 mode)</arglist>
+      <anchor>ga3195fd7db596710da384857068922626</anchor>
+      <arglist>(uint32_t timer_peripheral, uint8_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>timer_slave_set_trigger</name>
       <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga69431c3b065b4f35f74fe871d9b8604c</anchor>
-      <arglist>(u32 timer_peripheral, u8 trigger)</arglist>
+      <anchor>ga07c712d9ab62bbcea1de4f865a077a5c</anchor>
+      <arglist>(uint32_t timer_peripheral, uint8_t trigger)</arglist>
     </member>
     <docanchor file="group__timer__file">tim_common</docanchor>
     <docanchor file="group__timer__file">tim_api_ex</docanchor>
@@ -25362,183 +25362,183 @@
       <type>void</type>
       <name>usart_set_baudrate</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gad8d895b98365e66def238b360e1bec75</anchor>
-      <arglist>(u32 usart, u32 baud)</arglist>
+      <anchor>ga848295ffaf99550cf92d77dbcf15d416</anchor>
+      <arglist>(uint32_t usart, uint32_t baud)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_databits</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga1cb759c50e5196fae5e400854dc75b7d</anchor>
-      <arglist>(u32 usart, u32 bits)</arglist>
+      <anchor>ga8333883729d5f460bf02c1f24bd3c37d</anchor>
+      <arglist>(uint32_t usart, uint32_t bits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_stopbits</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga2a9c94c07d16b8245300e70402d44889</anchor>
-      <arglist>(u32 usart, u32 stopbits)</arglist>
+      <anchor>gaaa411b6c22983d153a58e1a5fda9735d</anchor>
+      <arglist>(uint32_t usart, uint32_t stopbits)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_parity</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga624d64068c2317509c8c5c17fd0cd989</anchor>
-      <arglist>(u32 usart, u32 parity)</arglist>
+      <anchor>ga5187a886145e91b6cb6a6fccb0e4246e</anchor>
+      <arglist>(uint32_t usart, uint32_t parity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_mode</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gadccf6057ae3dab0078a9c1463fc5262e</anchor>
-      <arglist>(u32 usart, u32 mode)</arglist>
+      <anchor>ga741d76be9dc09a2b3f544965ab0206cb</anchor>
+      <arglist>(uint32_t usart, uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_set_flow_control</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga3d5e41acdf023af53f6648cb5ac7b71f</anchor>
-      <arglist>(u32 usart, u32 flowcontrol)</arglist>
+      <anchor>gad87beaac6e79ec1f72b29866bb1993c4</anchor>
+      <arglist>(uint32_t usart, uint32_t flowcontrol)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaead72d54c34b52a20bc01b91abd46055</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>gaaada3d0ba3a27758dcbfb9169d828d59</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaf0706787c9be24e8bd86090819d57d50</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga735e4ace80295d87203f64e6d7e6ac76</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_send</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaaaa61a498fcb090540f2dc9d862c26c6</anchor>
-      <arglist>(u32 usart, u16 data)</arglist>
+      <anchor>ga26d0bd4c0eab8e4d32ca13df9526722d</anchor>
+      <arglist>(uint32_t usart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>usart_recv</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaa67496df79d937fbce18a6e36b9a806a</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga0f539661fcdc2e82c4489152393f5d74</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_wait_send_ready</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gab575fd7d6b2dcb6e5419ae75169503ea</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga6d6df6e7a152e4d6e7c433a810403258</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_wait_recv_ready</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaf565cfc012a00290a37c729dc457cf16</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga4b3dd5bff30927f603d5acc433cc2073</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_send_blocking</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gacd488511290de99713014249f69274e4</anchor>
-      <arglist>(u32 usart, u16 data)</arglist>
+      <anchor>gae8458acbe30cf746fd98ff1cc81fcff1</anchor>
+      <arglist>(uint32_t usart, uint16_t data)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>usart_recv_blocking</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gad3d6aa6eca1a666b602c040d69e7177d</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga8e0013f2829bfb8687e4a56973d56b57</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_rx_dma</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga07c8c1d37ab632eb54ae2eb1f8441669</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga223b4141d19ac1f6a7dd2045c504e994</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_rx_dma</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga6735a9262d89a63746eb7eb4c69cc26c</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga5a48860c9886aafa10ddfda37c725f28</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_tx_dma</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga41572427746d76d568819c5cd7c7fbd3</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>gab2f95a34df377c2c9d36049f1f625f23</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_tx_dma</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gac2078990ee718355fb6eca50658a38c4</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga5364eb42831db14fa372ec876faf7b97</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_rx_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gad84079efc1d9893f33e6cc4118c7946f</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga910b36a1d17590e9a12ab87c61275437</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_rx_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gac89e1619b05e032b5c9fead6e3614107</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga709361bc6862187f53a4673508e10178</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_tx_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gae23943c57d87646d9594bfeca58a2a55</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga2b2b2b838e5bef63e2ae0c6b3e98684b</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_tx_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga01269d3f4422b9e58657873a75ae0b68</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>gae201b528891b97d83a92df7b9c18b2ae</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_enable_error_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga872890c964dd33b79935a17e34f46c08</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>ga1179e84fdb16ba51136fdc7c6a03c956</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usart_disable_error_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>gaf76dc23c5cf79a29e81ef314004dff65</anchor>
-      <arglist>(u32 usart)</arglist>
+      <anchor>gaac35e7ef814d1a7a5c28ababd16436c0</anchor>
+      <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>usart_get_flag</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga814239da588ea3390a4055cf375468e7</anchor>
-      <arglist>(u32 usart, u32 flag)</arglist>
+      <anchor>gafb005f4e7635fbb379593ac0198032f3</anchor>
+      <arglist>(uint32_t usart, uint32_t flag)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>usart_get_interrupt_source</name>
       <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga034cc055ba8cf70f367f1555a3e75d3b</anchor>
-      <arglist>(u32 usart, u32 flag)</arglist>
+      <anchor>ga761c6089dcd796e78f4f5ba495f7fc37</anchor>
+      <arglist>(uint32_t usart, uint32_t flag)</arglist>
     </member>
   </compound>
   <compound kind="dir">

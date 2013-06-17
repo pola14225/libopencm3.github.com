@@ -53,22 +53,22 @@
       <type>void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gae31f1b37eb4ad8b41538b2797a9fe2e3</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>ga337dd6d11654653c466fc76b146727bf</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga29ffb563ecb14ca058d05f9f22383b19</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>gab84d6793fa4dc0c81a522c1cd47c1b7b</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga01b37d8aaa32afcb220ba9d20f5a9ae7</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>gabdabe1a001833014d743b229164b21ab</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -79,22 +79,22 @@
       <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga05afc3b495268d8dd26aec3ec0f4301b</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>ga0d59176f466c98b5a902bee27f20caf1</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga29ffb563ecb14ca058d05f9f22383b19</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>gab84d6793fa4dc0c81a522c1cd47c1b7b</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga01b37d8aaa32afcb220ba9d20f5a9ae7</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>gabdabe1a001833014d743b229164b21ab</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -119,14 +119,14 @@
       <type>void</type>
       <name>i2c0_tx_byte</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gaaaa592440bab1f7b3089e9ce92fad15f</anchor>
-      <arglist>(u8 byte)</arglist>
+      <anchor>ga59d6e9ccaa09b279e24a263d21407ae4</anchor>
+      <arglist>(uint8_t byte)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>i2c0_rx_byte</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga2b54833122c3d5733784bdeaea666029</anchor>
+      <anchor>ga33abe40b345d3546dc0c9f72abc80b52</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -159,14 +159,14 @@
       <type>void</type>
       <name>i2c0_tx_byte</name>
       <anchorfile>group__i2c__defines.html</anchorfile>
-      <anchor>gaaaa592440bab1f7b3089e9ce92fad15f</anchor>
-      <arglist>(u8 byte)</arglist>
+      <anchor>ga59d6e9ccaa09b279e24a263d21407ae4</anchor>
+      <arglist>(uint8_t byte)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>i2c0_rx_byte</name>
       <anchorfile>group__i2c__defines.html</anchorfile>
-      <anchor>ga2b54833122c3d5733784bdeaea666029</anchor>
+      <anchor>ga33abe40b345d3546dc0c9f72abc80b52</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -210,8 +210,8 @@
       <type>void</type>
       <name>scu_pinmux</name>
       <anchorfile>group__scu__file.html</anchorfile>
-      <anchor>gaea5bc9764cb29b95e6e2a53caf93b54c</anchor>
-      <arglist>(scu_grp_pin_t group_pin, u32 scu_conf)</arglist>
+      <anchor>ga10fed4eae1d8270ecaee5f3b9b3b3394</anchor>
+      <arglist>(scu_grp_pin_t group_pin, uint32_t scu_conf)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1296,8 +1296,8 @@
       <type>BEGIN_DECLS void</type>
       <name>scu_pinmux</name>
       <anchorfile>group__scu__defines.html</anchorfile>
-      <anchor>gaa3d58744b52822ed95253a8273bfc321</anchor>
-      <arglist>(scu_grp_pin_t group_pin, u32 scu_conf)</arglist>
+      <anchor>gac3fa7534cb7b7179ca75d7bc3ba43e59</anchor>
+      <arglist>(scu_grp_pin_t group_pin, uint32_t scu_conf)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1332,22 +1332,22 @@
       <type>void</type>
       <name>ssp_init</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>ga369c8d3dd4ca7df4cef01e0d59003dbc</anchor>
-      <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, u8 serial_clock_rate, u8 clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
+      <anchor>gabf3b154339113853936a35f87ea2f1f9</anchor>
+      <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>ssp_read</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>gaa8f794ca6faef448cbfd0d74f0bacf33</anchor>
+      <anchor>ga0617d554c518d8fd1bd375bb4f837a58</anchor>
       <arglist>(ssp_num_t ssp_num)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>ssp_write</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>ga367036890409f4a16496ffafa6ad6471</anchor>
-      <arglist>(ssp_num_t ssp_num, u16 data)</arglist>
+      <anchor>ga336309809e6e0212aa355fbf70ed9faa</anchor>
+      <arglist>(ssp_num_t ssp_num, uint16_t data)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1575,22 +1575,22 @@
       <type>void</type>
       <name>ssp_init</name>
       <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>ga369c8d3dd4ca7df4cef01e0d59003dbc</anchor>
-      <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, u8 serial_clock_rate, u8 clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
+      <anchor>gabf3b154339113853936a35f87ea2f1f9</anchor>
+      <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>ssp_read</name>
       <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>gaa8f794ca6faef448cbfd0d74f0bacf33</anchor>
+      <anchor>ga0617d554c518d8fd1bd375bb4f837a58</anchor>
       <arglist>(ssp_num_t ssp_num)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>ssp_write</name>
       <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>ga367036890409f4a16496ffafa6ad6471</anchor>
-      <arglist>(ssp_num_t ssp_num, u16 data)</arglist>
+      <anchor>ga336309809e6e0212aa355fbf70ed9faa</anchor>
+      <arglist>(ssp_num_t ssp_num, uint16_t data)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1722,22 +1722,22 @@
       <type>BEGIN_DECLS void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga05afc3b495268d8dd26aec3ec0f4301b</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>ga0d59176f466c98b5a902bee27f20caf1</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga29ffb563ecb14ca058d05f9f22383b19</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>gab84d6793fa4dc0c81a522c1cd47c1b7b</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga01b37d8aaa32afcb220ba9d20f5a9ae7</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>gabdabe1a001833014d743b229164b21ab</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -1762,14 +1762,14 @@
       <type>void</type>
       <name>i2c0_tx_byte</name>
       <anchorfile>group__i2c__defines.html</anchorfile>
-      <anchor>gaaaa592440bab1f7b3089e9ce92fad15f</anchor>
-      <arglist>(u8 byte)</arglist>
+      <anchor>ga59d6e9ccaa09b279e24a263d21407ae4</anchor>
+      <arglist>(uint8_t byte)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>i2c0_rx_byte</name>
       <anchorfile>group__i2c__defines.html</anchorfile>
-      <anchor>ga2b54833122c3d5733784bdeaea666029</anchor>
+      <anchor>ga33abe40b345d3546dc0c9f72abc80b52</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -2877,8 +2877,8 @@
       <type>BEGIN_DECLS void</type>
       <name>scu_pinmux</name>
       <anchorfile>group__scu__defines.html</anchorfile>
-      <anchor>gaa3d58744b52822ed95253a8273bfc321</anchor>
-      <arglist>(scu_grp_pin_t group_pin, u32 scu_conf)</arglist>
+      <anchor>gac3fa7534cb7b7179ca75d7bc3ba43e59</anchor>
+      <arglist>(scu_grp_pin_t group_pin, uint32_t scu_conf)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -3116,22 +3116,22 @@
       <type>void</type>
       <name>ssp_init</name>
       <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>ga369c8d3dd4ca7df4cef01e0d59003dbc</anchor>
-      <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, u8 serial_clock_rate, u8 clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
+      <anchor>gabf3b154339113853936a35f87ea2f1f9</anchor>
+      <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>ssp_read</name>
       <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>gaa8f794ca6faef448cbfd0d74f0bacf33</anchor>
+      <anchor>ga0617d554c518d8fd1bd375bb4f837a58</anchor>
       <arglist>(ssp_num_t ssp_num)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>ssp_write</name>
       <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>ga367036890409f4a16496ffafa6ad6471</anchor>
-      <arglist>(ssp_num_t ssp_num, u16 data)</arglist>
+      <anchor>ga336309809e6e0212aa355fbf70ed9faa</anchor>
+      <arglist>(ssp_num_t ssp_num, uint16_t data)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -3152,22 +3152,22 @@
       <type>void</type>
       <name>gpio_set</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gae31f1b37eb4ad8b41538b2797a9fe2e3</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>ga337dd6d11654653c466fc76b146727bf</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_clear</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga29ffb563ecb14ca058d05f9f22383b19</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>gab84d6793fa4dc0c81a522c1cd47c1b7b</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_toggle</name>
       <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga01b37d8aaa32afcb220ba9d20f5a9ae7</anchor>
-      <arglist>(u32 gpioport, u32 gpios)</arglist>
+      <anchor>gabdabe1a001833014d743b229164b21ab</anchor>
+      <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -3192,14 +3192,14 @@
       <type>void</type>
       <name>i2c0_tx_byte</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gaaaa592440bab1f7b3089e9ce92fad15f</anchor>
-      <arglist>(u8 byte)</arglist>
+      <anchor>ga59d6e9ccaa09b279e24a263d21407ae4</anchor>
+      <arglist>(uint8_t byte)</arglist>
     </member>
     <member kind="function">
-      <type>u8</type>
+      <type>uint8_t</type>
       <name>i2c0_rx_byte</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga2b54833122c3d5733784bdeaea666029</anchor>
+      <anchor>ga33abe40b345d3546dc0c9f72abc80b52</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -3218,8 +3218,8 @@
       <type>void</type>
       <name>scu_pinmux</name>
       <anchorfile>group__scu__file.html</anchorfile>
-      <anchor>gaea5bc9764cb29b95e6e2a53caf93b54c</anchor>
-      <arglist>(scu_grp_pin_t group_pin, u32 scu_conf)</arglist>
+      <anchor>ga10fed4eae1d8270ecaee5f3b9b3b3394</anchor>
+      <arglist>(scu_grp_pin_t group_pin, uint32_t scu_conf)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -3244,22 +3244,22 @@
       <type>void</type>
       <name>ssp_init</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>ga369c8d3dd4ca7df4cef01e0d59003dbc</anchor>
-      <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, u8 serial_clock_rate, u8 clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
+      <anchor>gabf3b154339113853936a35f87ea2f1f9</anchor>
+      <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
     </member>
     <member kind="function">
-      <type>u16</type>
+      <type>uint16_t</type>
       <name>ssp_read</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>gaa8f794ca6faef448cbfd0d74f0bacf33</anchor>
+      <anchor>ga0617d554c518d8fd1bd375bb4f837a58</anchor>
       <arglist>(ssp_num_t ssp_num)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>ssp_write</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>ga367036890409f4a16496ffafa6ad6471</anchor>
-      <arglist>(ssp_num_t ssp_num, u16 data)</arglist>
+      <anchor>ga336309809e6e0212aa355fbf70ed9faa</anchor>
+      <arglist>(ssp_num_t ssp_num, uint16_t data)</arglist>
     </member>
   </compound>
   <compound kind="dir">

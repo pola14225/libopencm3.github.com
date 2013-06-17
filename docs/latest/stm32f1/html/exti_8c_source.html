@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/exti.h&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="gpio_8h.html">libopencm3/stm32/f1/gpio.h</a>&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="exti_8c.html#a96a34cf8cf9e86b79323dfab823163b1">   23</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#a96a34cf8cf9e86b79323dfab823163b1">exti_set_trigger</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> extis, exti_trigger_type trig)</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="exti_8c.html#af5c2d8b107da8a6d904c83df0512e66b">   23</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#af5c2d8b107da8a6d904c83df0512e66b">exti_set_trigger</a>(uint32_t extis, exti_trigger_type trig)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">switch</span> (trig) {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">case</span> EXTI_TRIGGER_RISING:</div>
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="exti_8c.html#a5407cff9341a4300d97cacb93b451ddd">   41</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#a5407cff9341a4300d97cacb93b451ddd">exti_enable_request</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> extis)</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="exti_8c.html#acb53c6b7ac0a8908568b7a1f7bc50d25">   41</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#acb53c6b7ac0a8908568b7a1f7bc50d25">exti_enable_request</a>(uint32_t extis)</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="comment">/* Enable interrupts. */</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        EXTI_IMR |= extis;</div>
@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        EXTI_EMR |= extis;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="code" href="exti_8c.html#ab5d0eede2b40eb24875dfee50851ccdb">   50</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#ab5d0eede2b40eb24875dfee50851ccdb">exti_disable_request</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> extis)</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="code" href="exti_8c.html#a1752fef240fb05e1135548449943ce0b">   50</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#a1752fef240fb05e1135548449943ce0b">exti_disable_request</a>(uint32_t extis)</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">/* Disable interrupts. */</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        EXTI_IMR &amp;= ~extis;</div>
@@ -180,7 +180,7 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment"> * Reset the interrupt request by writing a 1 to the corresponding</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"> * pending bit register.</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="code" href="exti_8c.html#a0f7bda7226dd15e9d39787656f5cfd3d">   63</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#a0f7bda7226dd15e9d39787656f5cfd3d">exti_reset_request</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> extis)</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="code" href="exti_8c.html#aa86779017820fedee955563adc8b5f4a">   63</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#aa86779017820fedee955563adc8b5f4a">exti_reset_request</a>(uint32_t extis)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        EXTI_PR |= extis;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
@@ -188,7 +188,7 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment"> * Check the flag of a given EXTI interrupt.</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment"> * */</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="code" href="exti_8c.html#a562e04df5f328e1ee0785b8385f14d95">   71</a></span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="exti_8c.html#a562e04df5f328e1ee0785b8385f14d95">exti_get_flag_status</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> exti)</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="code" href="exti_8c.html#a80d89279aab6cc63a8141b7421cd2dd1">   71</a></span>&#160;uint32_t <a class="code" href="exti_8c.html#a80d89279aab6cc63a8141b7421cd2dd1">exti_get_flag_status</a>(uint32_t exti)</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> EXTI_PR &amp; exti;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
@@ -199,9 +199,9 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment"> * TODO: This could be rewritten in fewer lines of code.</span></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="code" href="exti_8c.html#aec98942fea32ed9d1a96437be0188969">   82</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#aec98942fea32ed9d1a96437be0188969">exti_select_source</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> exti, <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gpioport)</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="code" href="exti_8c.html#a81a7fb7a4718cb2cf33b94f92ebd721a">   82</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="exti_8c.html#a81a7fb7a4718cb2cf33b94f92ebd721a">exti_select_source</a>(uint32_t exti, uint32_t gpioport)</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> shift, bits;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        uint8_t shift, bits;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        shift = bits = 0;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
@@ -277,7 +277,7 @@ $(document).ready(function(){initNavTree('exti_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="exti_8c.html">exti.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:16 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -128,38 +128,38 @@ Collaboration diagram for UART FIFO control:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab3cd10b3ae6cad525820b2ad331f9362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#gab3cd10b3ae6cad525820b2ad331f9362">uart_enable_fifo</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
-<tr class="memdesc:gab3cd10b3ae6cad525820b2ad331f9362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable FIFO for the UART.  <a href="#gab3cd10b3ae6cad525820b2ad331f9362"></a><br/></td></tr>
-<tr class="memitem:ga089f1c5dca7359ccf26e29728f548765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga089f1c5dca7359ccf26e29728f548765">uart_disable_fifo</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
-<tr class="memdesc:ga089f1c5dca7359ccf26e29728f548765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable FIFO for the UART.  <a href="#ga089f1c5dca7359ccf26e29728f548765"></a><br/></td></tr>
-<tr class="memitem:gaf2a3f0dac0cecc4d431072f68e9829d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#gaf2a3f0dac0cecc4d431072f68e9829d9">uart_set_fifo_trigger_levels</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart, enum <a class="el" href="group__uart__defines.html#gabb9ce81df1867ef09b554e02c63f9be5">uart_fifo_rx_trigger_level</a> rx_level, enum <a class="el" href="group__uart__defines.html#gaf79e87f1a6f23cc0501f4d2e3667a848">uart_fifo_tx_trigger_level</a> tx_level)</td></tr>
-<tr class="memdesc:gaf2a3f0dac0cecc4d431072f68e9829d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the FIFO trigger levels.  <a href="#gaf2a3f0dac0cecc4d431072f68e9829d9"></a><br/></td></tr>
-<tr class="memitem:ga61159b452775347036209c1ccb516a2b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga61159b452775347036209c1ccb516a2b">uart_is_tx_fifo_full</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
-<tr class="memdesc:ga61159b452775347036209c1ccb516a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the TX fifo is full.  <a href="#ga61159b452775347036209c1ccb516a2b"></a><br/></td></tr>
-<tr class="memitem:ga2749cb5cc83bde92004c55c27558be88"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga2749cb5cc83bde92004c55c27558be88">uart_is_tx_fifo_empty</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
-<tr class="memdesc:ga2749cb5cc83bde92004c55c27558be88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the TX fifo is empty.  <a href="#ga2749cb5cc83bde92004c55c27558be88"></a><br/></td></tr>
-<tr class="memitem:ga2efe8fa623488be63244beb71545c862"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga2efe8fa623488be63244beb71545c862">uart_is_rx_fifo_full</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
-<tr class="memdesc:ga2efe8fa623488be63244beb71545c862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the RX fifo is full.  <a href="#ga2efe8fa623488be63244beb71545c862"></a><br/></td></tr>
-<tr class="memitem:gaa7b271162dd8bdb3a7aed7aca8c558d1"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#gaa7b271162dd8bdb3a7aed7aca8c558d1">uart_is_rx_fifo_empty</a> (<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> uart)</td></tr>
-<tr class="memdesc:gaa7b271162dd8bdb3a7aed7aca8c558d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the RX fifo is empty.  <a href="#gaa7b271162dd8bdb3a7aed7aca8c558d1"></a><br/></td></tr>
+<tr class="memitem:ga01026f3f8ddd0939fd8e291ea3837365"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga01026f3f8ddd0939fd8e291ea3837365">uart_enable_fifo</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:ga01026f3f8ddd0939fd8e291ea3837365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable FIFO for the UART.  <a href="#ga01026f3f8ddd0939fd8e291ea3837365"></a><br/></td></tr>
+<tr class="memitem:gad0ef308eb0c6b5a6009c97b3127d014c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#gad0ef308eb0c6b5a6009c97b3127d014c">uart_disable_fifo</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:gad0ef308eb0c6b5a6009c97b3127d014c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable FIFO for the UART.  <a href="#gad0ef308eb0c6b5a6009c97b3127d014c"></a><br/></td></tr>
+<tr class="memitem:ga37814e8f7102ff91e9e73d17ffb0e55a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga37814e8f7102ff91e9e73d17ffb0e55a">uart_set_fifo_trigger_levels</a> (uint32_t uart, enum <a class="el" href="group__uart__defines.html#gabb9ce81df1867ef09b554e02c63f9be5">uart_fifo_rx_trigger_level</a> rx_level, enum <a class="el" href="group__uart__defines.html#gaf79e87f1a6f23cc0501f4d2e3667a848">uart_fifo_tx_trigger_level</a> tx_level)</td></tr>
+<tr class="memdesc:ga37814e8f7102ff91e9e73d17ffb0e55a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the FIFO trigger levels.  <a href="#ga37814e8f7102ff91e9e73d17ffb0e55a"></a><br/></td></tr>
+<tr class="memitem:ga509d7ccd81a766a5a240558f85e3ca0b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga509d7ccd81a766a5a240558f85e3ca0b">uart_is_tx_fifo_full</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:ga509d7ccd81a766a5a240558f85e3ca0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the TX fifo is full.  <a href="#ga509d7ccd81a766a5a240558f85e3ca0b"></a><br/></td></tr>
+<tr class="memitem:gad1246f6b0b156022d942ded6a7a7e398"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#gad1246f6b0b156022d942ded6a7a7e398">uart_is_tx_fifo_empty</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:gad1246f6b0b156022d942ded6a7a7e398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the TX fifo is empty.  <a href="#gad1246f6b0b156022d942ded6a7a7e398"></a><br/></td></tr>
+<tr class="memitem:ga6a2584c859c685b3ff9693c7e9b1d657"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga6a2584c859c685b3ff9693c7e9b1d657">uart_is_rx_fifo_full</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:ga6a2584c859c685b3ff9693c7e9b1d657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the RX fifo is full.  <a href="#ga6a2584c859c685b3ff9693c7e9b1d657"></a><br/></td></tr>
+<tr class="memitem:ga840603de8127f2b63abdd1f5d113f938"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__uart__fifo.html#ga840603de8127f2b63abdd1f5d113f938">uart_is_rx_fifo_empty</a> (uint32_t uart)</td></tr>
+<tr class="memdesc:ga840603de8127f2b63abdd1f5d113f938"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the RX fifo is empty.  <a href="#ga840603de8127f2b63abdd1f5d113f938"></a><br/></td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <p><b>Enabling and controlling UART FIFO</b> </p>
-<p>The UART on the LM4F can either be used with a single character TX and RX buffer, or with a 8 character TX and RX FIFO. In order to use the FIFO it must be enabled, this is done with <a class="el" href="group__uart__defines.html#gab3cd10b3ae6cad525820b2ad331f9362" title="Enable FIFO for the UART.">uart_enable_fifo()</a> and can be disabled again with <a class="el" href="group__uart__defines.html#ga089f1c5dca7359ccf26e29728f548765" title="Disable FIFO for the UART.">uart_disable_fifo()</a>. On reset the FIFO is disabled, and it must be explicitly be enabled.</p>
+<p>The UART on the LM4F can either be used with a single character TX and RX buffer, or with a 8 character TX and RX FIFO. In order to use the FIFO it must be enabled, this is done with <a class="el" href="group__uart__defines.html#ga01026f3f8ddd0939fd8e291ea3837365" title="Enable FIFO for the UART.">uart_enable_fifo()</a> and can be disabled again with <a class="el" href="group__uart__defines.html#gad0ef308eb0c6b5a6009c97b3127d014c" title="Disable FIFO for the UART.">uart_disable_fifo()</a>. On reset the FIFO is disabled, and it must be explicitly be enabled.</p>
 <p>When enabling the UART FIFOs, RX and TX interrupts are triggered according to the amount of data in the FIFOs. For the RX FIFO the trigger level is defined by how full the FIFO is. The TX FIFO trigger level is defined by how empty the FIFO is instead.</p>
 <p>For example, to enable the FIFOs and trigger interrupts for a single received and single transmitted character: </p>
-<div class="fragment"><div class="line"><a class="code" href="group__uart__defines.html#gab3cd10b3ae6cad525820b2ad331f9362" title="Enable FIFO for the UART.">uart_enable_fifo</a>(UART0);</div>
-<div class="line"><a class="code" href="group__uart__defines.html#gaf2a3f0dac0cecc4d431072f68e9829d9" title="Set the FIFO trigger levels.">uart_set_fifo_trigger_levels</a>(UART0, <a class="code" href="group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a9a9d22fe9ad81f42dc7dd48e3c0522f9">UART_FIFO_RX_TRIG_1_8</a>,</div>
+<div class="fragment"><div class="line"><a class="code" href="group__uart__defines.html#ga01026f3f8ddd0939fd8e291ea3837365" title="Enable FIFO for the UART.">uart_enable_fifo</a>(UART0);</div>
+<div class="line"><a class="code" href="group__uart__defines.html#ga37814e8f7102ff91e9e73d17ffb0e55a" title="Set the FIFO trigger levels.">uart_set_fifo_trigger_levels</a>(UART0, <a class="code" href="group__uart__defines.html#ggabb9ce81df1867ef09b554e02c63f9be5a9a9d22fe9ad81f42dc7dd48e3c0522f9">UART_FIFO_RX_TRIG_1_8</a>,</div>
 <div class="line">                             <a class="code" href="group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848ad73b67cad4b485679cd70f2af3fa73f7">UART_FIFO_TX_TRIG_7_8</a>);</div>
 </div><!-- fragment --> <h2>Function Documentation</h2>
-<a class="anchor" id="ga089f1c5dca7359ccf26e29728f548765"></a>
+<a class="anchor" id="gad0ef308eb0c6b5a6009c97b3127d014c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void uart_disable_fifo </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>uart</em></td><td>)</td>
           <td></td>
         </tr>
@@ -174,18 +174,18 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="uart_8c_source.html#l00602">602</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
+<p>Definition at line <a class="el" href="uart_8c_source.html#l00604">604</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="gab3cd10b3ae6cad525820b2ad331f9362"></a>
+<a class="anchor" id="ga01026f3f8ddd0939fd8e291ea3837365"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void uart_enable_fifo </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>uart</em></td><td>)</td>
           <td></td>
         </tr>
@@ -200,11 +200,11 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="uart_8c_source.html#l00592">592</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
+<p>Definition at line <a class="el" href="uart_8c_source.html#l00594">594</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="gaa7b271162dd8bdb3a7aed7aca8c558d1"></a>
+<a class="anchor" id="ga840603de8127f2b63abdd1f5d113f938"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -214,7 +214,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">static bool uart_is_rx_fifo_empty </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>uart</em></td><td>)</td>
           <td></td>
         </tr>
@@ -234,11 +234,11 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="uart_8h_source.html#l00513">513</a> of file <a class="el" href="uart_8h_source.html">uart.h</a>.</p>
+<p>Definition at line <a class="el" href="uart_8h_source.html#l00517">517</a> of file <a class="el" href="uart_8h_source.html">uart.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ga2efe8fa623488be63244beb71545c862"></a>
+<a class="anchor" id="ga6a2584c859c685b3ff9693c7e9b1d657"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -248,7 +248,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">static bool uart_is_rx_fifo_full </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>uart</em></td><td>)</td>
           <td></td>
         </tr>
@@ -268,11 +268,11 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="uart_8h_source.html#l00503">503</a> of file <a class="el" href="uart_8h_source.html">uart.h</a>.</p>
+<p>Definition at line <a class="el" href="uart_8h_source.html#l00506">506</a> of file <a class="el" href="uart_8h_source.html">uart.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ga2749cb5cc83bde92004c55c27558be88"></a>
+<a class="anchor" id="gad1246f6b0b156022d942ded6a7a7e398"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -282,7 +282,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">static bool uart_is_tx_fifo_empty </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>uart</em></td><td>)</td>
           <td></td>
         </tr>
@@ -302,11 +302,11 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="uart_8h_source.html#l00493">493</a> of file <a class="el" href="uart_8h_source.html">uart.h</a>.</p>
+<p>Definition at line <a class="el" href="uart_8h_source.html#l00495">495</a> of file <a class="el" href="uart_8h_source.html">uart.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ga61159b452775347036209c1ccb516a2b"></a>
+<a class="anchor" id="ga509d7ccd81a766a5a240558f85e3ca0b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -316,7 +316,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">static bool uart_is_tx_fifo_full </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>uart</em></td><td>)</td>
           <td></td>
         </tr>
@@ -336,18 +336,18 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="uart_8h_source.html#l00482">482</a> of file <a class="el" href="uart_8h_source.html">uart.h</a>.</p>
+<p>Definition at line <a class="el" href="uart_8h_source.html#l00483">483</a> of file <a class="el" href="uart_8h_source.html">uart.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="gaf2a3f0dac0cecc4d431072f68e9829d9"></a>
+<a class="anchor" id="ga37814e8f7102ff91e9e73d17ffb0e55a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void uart_set_fifo_trigger_levels </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>uart</em>, </td>
         </tr>
         <tr>
@@ -380,7 +380,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="uart_8c_source.html#l00614">614</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
+<p>Definition at line <a class="el" href="uart_8c_source.html#l00616">616</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
 </div>
 </div>
@@ -389,7 +389,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:32 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

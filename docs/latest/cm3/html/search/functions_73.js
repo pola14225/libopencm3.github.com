@@ -2,17 +2,17 @@ var searchData=
 [
   ['scb_5freset_5fcore',['scb_reset_core',['../scb_8h.html#a8425a250161ee83d6aa8b38c5c3fb4a4',1,'scb.h']]],
   ['scb_5freset_5fsystem',['scb_reset_system',['../scb_8h.html#aad4d08be4e2b209f97d3276b7c7731e6',1,'scb.h']]],
-  ['scb_5fset_5fpriority_5fgrouping',['scb_set_priority_grouping',['../scb_8h.html#a0e97a2ebc013118cb220542999db3d8b',1,'scb.h']]],
+  ['scb_5fset_5fpriority_5fgrouping',['scb_set_priority_grouping',['../scb_8h.html#a1c1ccff67eb7696c04e59ab4f9c0a2ab',1,'scb.h']]],
   ['sv_5fcall_5fhandler',['sv_call_handler',['../group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,'nvic.h']]],
   ['sys_5ftick_5fhandler',['sys_tick_handler',['../group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,'nvic.h']]],
   ['systick_5fcounter_5fdisable',['systick_counter_disable',['../group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4',1,'systick.h']]],
   ['systick_5fcounter_5fenable',['systick_counter_enable',['../group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a',1,'systick.h']]],
-  ['systick_5fget_5fcalib',['systick_get_calib',['../group__CM3__systick__defines.html#gab4bac496ec8a74914b6f4dc87471d586',1,'systick.h']]],
-  ['systick_5fget_5fcountflag',['systick_get_countflag',['../group__CM3__systick__defines.html#ga6046a990cab767ab46dbe113d0929d6c',1,'systick.h']]],
-  ['systick_5fget_5freload',['systick_get_reload',['../group__CM3__systick__defines.html#ga3fb33b45c79720f5455332f103ea9c42',1,'systick.h']]],
-  ['systick_5fget_5fvalue',['systick_get_value',['../group__CM3__systick__defines.html#ga21390939e21bc6c4ef00fe1c798ae060',1,'systick.h']]],
+  ['systick_5fget_5fcalib',['systick_get_calib',['../group__CM3__systick__defines.html#ga4351bcd52c07a23b5b999b062c123084',1,'systick.h']]],
+  ['systick_5fget_5fcountflag',['systick_get_countflag',['../group__CM3__systick__defines.html#ga04dd39e8ef61f9d6be437a43fc16dcdf',1,'systick.h']]],
+  ['systick_5fget_5freload',['systick_get_reload',['../group__CM3__systick__defines.html#gad26b5b9932a41cfe9e3600431b918831',1,'systick.h']]],
+  ['systick_5fget_5fvalue',['systick_get_value',['../group__CM3__systick__defines.html#gae6a4663107e824d7fe2936bdcbead94c',1,'systick.h']]],
   ['systick_5finterrupt_5fdisable',['systick_interrupt_disable',['../group__CM3__systick__defines.html#gaee4e252973ddd7c5ffaa872da3b6a3fe',1,'systick.h']]],
   ['systick_5finterrupt_5fenable',['systick_interrupt_enable',['../group__CM3__systick__defines.html#ga062163783d8d4106c8b945ed97b4decc',1,'systick.h']]],
-  ['systick_5fset_5fclocksource',['systick_set_clocksource',['../group__CM3__systick__defines.html#gaa02dec290465a9d5dd1cf066448e88c2',1,'systick.h']]],
-  ['systick_5fset_5freload',['systick_set_reload',['../group__CM3__systick__defines.html#ga4d72fc83df078118bd33f82e1eddd345',1,'systick.h']]]
+  ['systick_5fset_5fclocksource',['systick_set_clocksource',['../group__CM3__systick__defines.html#ga13726e0964b31c85269beddbdc1d35e7',1,'systick.h']]],
+  ['systick_5fset_5freload',['systick_set_reload',['../group__CM3__systick__defines.html#gac8dbc7c5f007177712824ccf91cc3b33',1,'systick.h']]]
 ];

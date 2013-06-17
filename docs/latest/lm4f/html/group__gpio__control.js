@@ -1,10 +1,10 @@
 var group__gpio__control =
 [
-    [ "gpio_clear", "group__gpio__control.html#gae7e38f79b34a83bdd1b6360b81e76d3f", null ],
-    [ "gpio_port_read", "group__gpio__control.html#ga2348b95cf0a72037d7f34018cc03fd96", null ],
-    [ "gpio_port_write", "group__gpio__control.html#ga27e1eb5389ebf38b9d470e5005851552", null ],
-    [ "gpio_read", "group__gpio__control.html#gadb29085c0de18f59e471160453a0a149", null ],
-    [ "gpio_set", "group__gpio__control.html#gae1ae1ae1fceffa7393e51d2be384bc4f", null ],
-    [ "gpio_toggle", "group__gpio__control.html#gaf43516eb9715f3c7359c069140114c22", null ],
-    [ "gpio_write", "group__gpio__control.html#ga80f98da8ce519c206aa60774fa8bd7fb", null ]
+    [ "gpio_clear", "group__gpio__control.html#gaed9a0283ed78d8746f72a298889207f4", null ],
+    [ "gpio_port_read", "group__gpio__control.html#gae3a2f79057d2a87a5f08b28242ea8ba8", null ],
+    [ "gpio_port_write", "group__gpio__control.html#ga00eeea592868471ce4eecce176b062f7", null ],
+    [ "gpio_read", "group__gpio__control.html#ga4efb268c94f062228de2339d8273af82", null ],
+    [ "gpio_set", "group__gpio__control.html#ga8ce0832cd5110fa7bbe0f6c968a04a09", null ],
+    [ "gpio_toggle", "group__gpio__control.html#gac7fe863cd889722d5e06916617b007b1", null ],
+    [ "gpio_write", "group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865", null ]
 ];

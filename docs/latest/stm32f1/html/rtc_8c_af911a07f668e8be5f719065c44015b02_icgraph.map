@@ -3,8 +3,8 @@
 <area shape="rect" id="node5" href="$rtc_8c.html#ab7f69ee0de1cae2518b2822fd82d5201" title="rtc_enable_alarm" alt="" coords="220,59,340,88"/>
 <area shape="rect" id="node7" href="$rtc_8c.html#a4de126c91f7eedf70262a99e663a6fc5" title="rtc_interrupt_disable" alt="" coords="211,112,349,141"/>
 <area shape="rect" id="node9" href="$rtc_8c.html#aad0059f95046be4d158626cc0ed199fd" title="rtc_interrupt_enable" alt="" coords="212,165,348,195"/>
-<area shape="rect" id="node11" href="$rtc_8c.html#a3b52032f6d43a47b97696e7cd37404e8" title="rtc_set_alarm_time" alt="" coords="213,219,347,248"/>
-<area shape="rect" id="node13" href="$rtc_8c.html#a80456afcb675924bbb2dbcfc19b2b108" title="rtc_set_counter_val" alt="" coords="212,272,348,301"/>
-<area shape="rect" id="node15" href="$rtc_8c.html#a507927c5f04e2055266bccfdb6dfb0b6" title="rtc_set_prescale_val" alt="" coords="209,325,351,355"/>
-<area shape="rect" id="node17" href="$rtc_8c.html#aa9dd82290a6d0a238a9ad0abfa629a53" title="rtc_auto_awake" alt="" coords="400,325,515,355"/>
+<area shape="rect" id="node11" href="$rtc_8c.html#a3f53231bbbeef79acc322f2a6b045d3f" title="rtc_set_alarm_time" alt="" coords="213,219,347,248"/>
+<area shape="rect" id="node13" href="$rtc_8c.html#acd673063942c2bedededd5760e4764ff" title="rtc_set_counter_val" alt="" coords="212,272,348,301"/>
+<area shape="rect" id="node15" href="$rtc_8c.html#a1b2c2b6aa8879eb16f7cf3207587725e" title="rtc_set_prescale_val" alt="" coords="209,325,351,355"/>
+<area shape="rect" id="node17" href="$rtc_8c.html#a619d9fdf532556f29e48b063f1fbfb29" title="rtc_auto_awake" alt="" coords="400,325,515,355"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="rcc_pll_bypass_enable" name="rcc_pll_bypass_enable">
-<area shape="rect" id="node3" href="$group__rcc__high__level.html#ga8a17e04e6b457ec201d76ba1ee418a9d" title="Change the PLL divisor." alt="" coords="208,5,363,35"/>
-<area shape="rect" id="node5" href="$group__rcc__high__level.html#ga893dc6461e9af854fb562c0e97df6a5b" title="Configure the system clock source." alt="" coords="412,32,537,61"/>
+<area shape="rect" id="node3" href="$group__rcc__high__level.html#ga1c5a8dbbc0a6bac380b0041962075269" title="Change the PLL divisor." alt="" coords="208,5,363,35"/>
+<area shape="rect" id="node5" href="$group__rcc__high__level.html#ga9650a2780970b01221f64600797ca681" title="Configure the system clock source." alt="" coords="412,32,537,61"/>
 </map>

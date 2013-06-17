@@ -15,12 +15,12 @@ var systick_8h =
     [ "STK_VAL", "systick_8h.html#ga9944fae2f819211da9884f03db333ad8", null ],
     [ "systick_counter_disable", "systick_8h.html#gac5d5225b9b6c96d9f1c3f2950717dcf4", null ],
     [ "systick_counter_enable", "systick_8h.html#gad1b556d07d6f0e3c0e55dc269e30a98a", null ],
-    [ "systick_get_calib", "systick_8h.html#gab4bac496ec8a74914b6f4dc87471d586", null ],
-    [ "systick_get_countflag", "systick_8h.html#ga6046a990cab767ab46dbe113d0929d6c", null ],
-    [ "systick_get_reload", "systick_8h.html#ga3fb33b45c79720f5455332f103ea9c42", null ],
-    [ "systick_get_value", "systick_8h.html#ga21390939e21bc6c4ef00fe1c798ae060", null ],
+    [ "systick_get_calib", "systick_8h.html#ga4351bcd52c07a23b5b999b062c123084", null ],
+    [ "systick_get_countflag", "systick_8h.html#ga04dd39e8ef61f9d6be437a43fc16dcdf", null ],
+    [ "systick_get_reload", "systick_8h.html#gad26b5b9932a41cfe9e3600431b918831", null ],
+    [ "systick_get_value", "systick_8h.html#gae6a4663107e824d7fe2936bdcbead94c", null ],
     [ "systick_interrupt_disable", "systick_8h.html#gaee4e252973ddd7c5ffaa872da3b6a3fe", null ],
     [ "systick_interrupt_enable", "systick_8h.html#ga062163783d8d4106c8b945ed97b4decc", null ],
-    [ "systick_set_clocksource", "systick_8h.html#gaa02dec290465a9d5dd1cf066448e88c2", null ],
-    [ "systick_set_reload", "systick_8h.html#ga4d72fc83df078118bd33f82e1eddd345", null ]
+    [ "systick_set_clocksource", "systick_8h.html#ga13726e0964b31c85269beddbdc1d35e7", null ],
+    [ "systick_set_reload", "systick_8h.html#gac8dbc7c5f007177712824ccf91cc3b33", null ]
 ];

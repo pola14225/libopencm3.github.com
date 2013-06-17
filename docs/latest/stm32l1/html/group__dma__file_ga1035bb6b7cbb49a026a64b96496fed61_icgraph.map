@@ -1,4 +1,0 @@
-<map id="dma_clear_interrupt_flags" name="dma_clear_interrupt_flags">
-<area shape="rect" id="node3" href="$group__dma__file.html#ga9ed60ff3a7753a7e97db7d6cdc7d4590" title="DMA Stream Enable Interrupt on Direct Mode Error." alt="" coords="189,5,360,51"/>
-<area shape="rect" id="node5" href="$group__dma__file.html#ga8f4431b94cee03c98cf69d6bb9d37273" title="DMA Enable Interrupt on FIFO Error." alt="" coords="200,74,349,121"/>
-</map>

@@ -128,63 +128,64 @@ $(document).ready(function(){initNavTree('hid_8h_source.html','');});
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">@version 1.0.0</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">@author @htmlonly &amp;copy; @endhtmlonly 2010 Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">@date 10 March 2013</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">LGPL License Terms @ref lgpl_license</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * Copyright (C) 2010 Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">/**@{*/</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#ifndef __HID_H</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __HID_H</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#define USB_CLASS_HID   3</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#define USB_DT_HID      0x21</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define USB_DT_REPORT   0x22</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html">   47</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structusb__hid__descriptor.html">usb_hid_descriptor</a> {</div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#a359b98af7a15c7a6f910a11511a7ccba">   48</a></span>&#160;        u8 <a class="code" href="structusb__hid__descriptor.html#a359b98af7a15c7a6f910a11511a7ccba">bLength</a>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#a59531e49403ba4e69d04cf0c4fc3c2aa">   49</a></span>&#160;        u8 <a class="code" href="structusb__hid__descriptor.html#a59531e49403ba4e69d04cf0c4fc3c2aa">bDescriptorType</a>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#abd9ed4360c3bb1c421d54fb1ebedac4c">   50</a></span>&#160;        u16 <a class="code" href="structusb__hid__descriptor.html#abd9ed4360c3bb1c421d54fb1ebedac4c">bcdHID</a>;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#a2d13beddb87f75a7247e55f55123ad94">   51</a></span>&#160;        u8 <a class="code" href="structusb__hid__descriptor.html#a2d13beddb87f75a7247e55f55123ad94">bCountryCode</a>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#ad451cadc95061147782307c57983799c">   52</a></span>&#160;        u8 <a class="code" href="structusb__hid__descriptor.html#ad451cadc95061147782307c57983799c">bNumDescriptors</a>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;} <a class="code" href="group__usb__dfu__defines.html#ga4d78e80f3bfe9cf800b0d82933262813">__attribute__</a>((packed));</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="code" href="hid_8h.html#a904ce9aea3e1db94a9a1ec5a0a22b65d">   54</a></span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="code" href="hid_8h.html#af6d6c7e334878414c973fc10e54cfb4e">   55</a></span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="code" href="hid_8h.html#a105cd691a8ebd8c09a478e8407bc47b7">   56</a></span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="code" href="hid_8h.html#ac33dc2a532ba4b38acc719d3dc37a596">   57</a></span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="code" href="hid_8h.html#a5a72607242be85d930e2b821132b5f32">   58</a></span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">@author @htmlonly &amp;copy; @endhtmlonly 2010</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">@date 10 March 2013</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">LGPL License Terms @ref lgpl_license</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * Copyright (C) 2010 Gareth McMullin &lt;gareth@blacksphere.co.nz&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">/**@{*/</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifndef __HID_H</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __HID_H</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#define USB_CLASS_HID   3</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#define USB_DT_HID      0x21</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define USB_DT_REPORT   0x22</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html">   48</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structusb__hid__descriptor.html">usb_hid_descriptor</a> {</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#adedc57a5e5e9873d1cb7d00d69bfe1c7">   49</a></span>&#160;        uint8_t <a class="code" href="structusb__hid__descriptor.html#adedc57a5e5e9873d1cb7d00d69bfe1c7">bLength</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#a01533992789ba6c7306e0f97c1c01765">   50</a></span>&#160;        uint8_t <a class="code" href="structusb__hid__descriptor.html#a01533992789ba6c7306e0f97c1c01765">bDescriptorType</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#af5ba1299c6b42c862f2f3e478173218d">   51</a></span>&#160;        uint16_t <a class="code" href="structusb__hid__descriptor.html#af5ba1299c6b42c862f2f3e478173218d">bcdHID</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#a143eb3e58466e54c19c1b9ab8a31ac6f">   52</a></span>&#160;        uint8_t <a class="code" href="structusb__hid__descriptor.html#a143eb3e58466e54c19c1b9ab8a31ac6f">bCountryCode</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="structusb__hid__descriptor.html#a0f0d0cf9739138f069273f284490e0d8">   53</a></span>&#160;        uint8_t <a class="code" href="structusb__hid__descriptor.html#a0f0d0cf9739138f069273f284490e0d8">bNumDescriptors</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;} <a class="code" href="group__usb__dfu__defines.html#ga4d78e80f3bfe9cf800b0d82933262813">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="code" href="hid_8h.html#a1deca1f1d6e5815b290e6e1015bce5b8">   55</a></span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="code" href="hid_8h.html#a67d7027b9eb9ed268d28e84fbc675707">   56</a></span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="code" href="hid_8h.html#acf09c753851ce018b81a07325bda9d8e">   57</a></span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="code" href="hid_8h.html#a969a604033b72573d59a740badf6920e">   58</a></span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="code" href="hid_8h.html#a86ff434026085d9c0c751185eb3700c5">   59</a></span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_279c362110dd2b35533c167407ad7c7c.html">usb</a></li><li class="navelem"><a class="el" href="hid_8h.html">hid.h</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:09 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:08 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

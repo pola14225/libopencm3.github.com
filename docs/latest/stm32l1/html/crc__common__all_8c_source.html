@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('crc__common__all_8c_source.html','');}
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">/**@{*/</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">/*-----------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">/** @brief CRC Reset.</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">Reset the CRC unit and forces the data register to all 1s.</span></div>
@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('crc__common__all_8c_source.html','');}
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        CRC_CR |= CRC_CR_RESET;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/*-----------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">/** @brief CRC Calculate.</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">Writes a data word to the register, the write operation stalling until the</span></div>
@@ -170,14 +170,14 @@ $(document).ready(function(){initNavTree('crc__common__all_8c_source.html','');}
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">@returns int32 Computed CRC result</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="code" href="group__crc__file.html#gadd37c58ab37425dcd78e0f23b5fd5db2">   52</a></span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="group__crc__file.html#gadd37c58ab37425dcd78e0f23b5fd5db2" title="CRC Calculate.">crc_calculate</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> data)</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="code" href="group__crc__file.html#gabd1ee47183330de057df47d4aab2fc74">   52</a></span>&#160;uint32_t <a class="code" href="group__crc__file.html#gabd1ee47183330de057df47d4aab2fc74" title="CRC Calculate.">crc_calculate</a>(uint32_t data)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        CRC_DR = data;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">// Data sheet says this blocks until it&#39;s ready....</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">/* Data sheet says this blocks until it&#39;s ready.... */</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">return</span> CRC_DR;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">/*-----------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/** @brief CRC Calculate of a Block of Data.</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">Writes data words consecutively to the register, the write operation stalling</span></div>
@@ -188,23 +188,25 @@ $(document).ready(function(){initNavTree('crc__common__all_8c_source.html','');}
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">@returns int32 Final computed CRC result</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="code" href="group__crc__file.html#ga0508527cd6e9a236c8e1733dff867d5e">   70</a></span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="group__crc__file.html#ga0508527cd6e9a236c8e1733dff867d5e" title="CRC Calculate of a Block of Data.">crc_calculate_block</a>(<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> *datap, <span class="keywordtype">int</span> size)</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="code" href="group__crc__file.html#ga88a426790ad1ae4a43a6019cdb247220">   70</a></span>&#160;uint32_t <a class="code" href="group__crc__file.html#ga88a426790ad1ae4a43a6019cdb247220" title="CRC Calculate of a Block of Data.">crc_calculate_block</a>(uint32_t *datap, <span class="keywordtype">int</span> size)</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordtype">int</span> i;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; size; i++) {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                CRC_DR = datap[i];</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">return</span> CRC_DR;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}<span class="comment"></span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; size; i++) {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                CRC_DR = datap[i];</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> CRC_DR;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}<span class="comment"></span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="crc__common__all_8c.html">crc_common_all.c</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:12 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:11 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

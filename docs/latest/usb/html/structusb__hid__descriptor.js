@@ -1,8 +1,8 @@
 var structusb__hid__descriptor =
 [
-    [ "bcdHID", "structusb__hid__descriptor.html#abd9ed4360c3bb1c421d54fb1ebedac4c", null ],
-    [ "bCountryCode", "structusb__hid__descriptor.html#a2d13beddb87f75a7247e55f55123ad94", null ],
-    [ "bDescriptorType", "structusb__hid__descriptor.html#a59531e49403ba4e69d04cf0c4fc3c2aa", null ],
-    [ "bLength", "structusb__hid__descriptor.html#a359b98af7a15c7a6f910a11511a7ccba", null ],
-    [ "bNumDescriptors", "structusb__hid__descriptor.html#ad451cadc95061147782307c57983799c", null ]
+    [ "bcdHID", "structusb__hid__descriptor.html#af5ba1299c6b42c862f2f3e478173218d", null ],
+    [ "bCountryCode", "structusb__hid__descriptor.html#a143eb3e58466e54c19c1b9ab8a31ac6f", null ],
+    [ "bDescriptorType", "structusb__hid__descriptor.html#a01533992789ba6c7306e0f97c1c01765", null ],
+    [ "bLength", "structusb__hid__descriptor.html#adedc57a5e5e9873d1cb7d00d69bfe1c7", null ],
+    [ "bNumDescriptors", "structusb__hid__descriptor.html#a0f0d0cf9739138f069273f284490e0d8", null ]
 ];

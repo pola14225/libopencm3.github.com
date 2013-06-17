@@ -130,9 +130,9 @@ Collaboration diagram for System Control:</div>
 <tr class="heading"><td colspan="2"><h2><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ga9fbad613b184a3b51402b61135965959"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__systemcontrol__defines.html#ga9fbad613b184a3b51402b61135965959">clken_t</a> { <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a4ed4b9759029811b3e6649cd52b061e1">RCC_WD0</a> =  ((u32)&amp;SYSCTL_RCGCWD - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a4ed4b9759029811b3e6649cd52b061e1">RCC_WD0</a> =  ((uint32_t)&amp;SYSCTL_RCGCWD - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3da71e1dd5031a1ef729ae46b721442a">RCC_WD1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa6ee7be0a28b7b0863ffa3036d6348d0">RCC_TIMER0</a> =  ((u32)&amp;SYSCTL_RCGCTIMER - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa6ee7be0a28b7b0863ffa3036d6348d0">RCC_TIMER0</a> =  ((uint32_t)&amp;SYSCTL_RCGCTIMER - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a41d26b0f1d712fd1b5e4907ec6c003bd">RCC_TIMER1</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a0cbcdf4908b061573cc0c4755c7a63cf">RCC_TIMER2</a>, 
@@ -140,7 +140,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a2ebf4a17f114d0755d56c70270296856">RCC_TIMER4</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a742bb71633532784defb27bc08929131">RCC_TIMER5</a>, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3679ad09af8988bc42fbb91d3f4dc680">RCC_GPIOA</a> =  ((u32)&amp;SYSCTL_RCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3679ad09af8988bc42fbb91d3f4dc680">RCC_GPIOA</a> =  ((uint32_t)&amp;SYSCTL_RCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959abe0e8ee9db293583511579bffd694b6c">RCC_GPIOB</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aca99d40a98c0cccaa8dd4a5eb8422dea">RCC_GPIOC</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ade83c8caa918ccda0766791076460d1e">RCC_GPIOD</a>, 
@@ -158,10 +158,10 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ac669e50f84467592773b50cb4939b1db">RCC_GPION</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aded2683ae4d5dc85648ce717abed5b4f">RCC_GPIOP</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a58f20fdf421eb45995d87dcfbacd7167">RCC_GPIOQ</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3ae8e2842eb2835ad420db68142cb4d3">RCC_DMA</a> =  ((u32)&amp;SYSCTL_RCGCDMA - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3ae8e2842eb2835ad420db68142cb4d3">RCC_DMA</a> =  ((uint32_t)&amp;SYSCTL_RCGCDMA - SYSCTL_BASE) &lt;&lt; 5, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959acadf3729d36aff283a6b995c50d07a9b">RCC_HIB</a> =  ((u32)&amp;SYSCTL_RCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa9acb07259a107f34fb9bc1465318358">RCC_UART0</a> =  ((u32)&amp;SYSCTL_RCGCUART - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959acadf3729d36aff283a6b995c50d07a9b">RCC_HIB</a> =  ((uint32_t)&amp;SYSCTL_RCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa9acb07259a107f34fb9bc1465318358">RCC_UART0</a> =  ((uint32_t)&amp;SYSCTL_RCGCUART - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a5114880810642497fb718a780cb97199">RCC_UART1</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a7e1da0d80c6c33928981ad95122fbb4a">RCC_UART2</a>, 
 <br/>
@@ -171,33 +171,33 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ac1d0755185366f087db203361eee488c">RCC_UART6</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab404d28f5b889694df6aacd5c5ee204b">RCC_UART7</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a26b4e2ab32dc0600d8b4c0a8446b2ce4">RCC_SSI0</a> =  ((u32)&amp;SYSCTL_RCGCSSI - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a26b4e2ab32dc0600d8b4c0a8446b2ce4">RCC_SSI0</a> =  ((uint32_t)&amp;SYSCTL_RCGCSSI - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a0ea40540a8ae621bd6b037313f141b01">RCC_SSI1</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a6c202eaad688d9b50a10dba5849167af">RCC_SSI2</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a0deb692bbeba86e74a775a6421dc0575">RCC_SSI3</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a8811f698225b6f22675835384d7cdbc5">RCC_I2C0</a> =  ((u32)&amp;SYSCTL_RCGCI2C - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a8811f698225b6f22675835384d7cdbc5">RCC_I2C0</a> =  ((uint32_t)&amp;SYSCTL_RCGCI2C - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a7611e5aa9f71a5ecd6f466dc090533f0">RCC_I2C1</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aba410e2e71ca9f59b76176672c9b1e4a">RCC_I2C2</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aead627335ffc92260faac70ef409eff7">RCC_I2C3</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a84f22df0eedbb2ba90bc26bcb7d4da8b">RCC_I2C4</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ac6e02b50494884bcceba6b24a9c26778">RCC_I2C5</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a5363c94212e95049b036c487eff3e1d0">RCC_USB0</a> =  ((u32)&amp;SYSCTL_RCGCUSB - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a5363c94212e95049b036c487eff3e1d0">RCC_USB0</a> =  ((uint32_t)&amp;SYSCTL_RCGCUSB - SYSCTL_BASE) &lt;&lt; 5, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab58916255b8946d66b0cf6a7c7ee18ae">RCC_CAN0</a> =  ((u32)&amp;SYSCTL_RCGCCAN - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab58916255b8946d66b0cf6a7c7ee18ae">RCC_CAN0</a> =  ((uint32_t)&amp;SYSCTL_RCGCCAN - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a61b240aefa01d614e06844f5b5943dc9">RCC_CAN1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ae2455d48a21d53fe277cd3c5adf24d0c">RCC_ADC0</a> =  ((u32)&amp;SYSCTL_RCGCADC - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ae2455d48a21d53fe277cd3c5adf24d0c">RCC_ADC0</a> =  ((uint32_t)&amp;SYSCTL_RCGCADC - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a81b9534841bd60ff16455a28481d7a14">RCC_ADC1</a>, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab043d91156620faf65bd2e7ba3b4892f">RCC_ACMP0</a> =  ((u32)&amp;SYSCTL_RCGCACMP - SYSCTL_BASE) &lt;&lt; 5, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a5f8590f1bd8c06757c2ec264263d681a">RCC_PWM0</a> =  ((u32)&amp;SYSCTL_RCGCPWM - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab043d91156620faf65bd2e7ba3b4892f">RCC_ACMP0</a> =  ((uint32_t)&amp;SYSCTL_RCGCACMP - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a5f8590f1bd8c06757c2ec264263d681a">RCC_PWM0</a> =  ((uint32_t)&amp;SYSCTL_RCGCPWM - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a170fd02a576cd3e58beba221c63b995e">RCC_PWM1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aeacbf3016e47c9eb8042554666b3bcad">RCC_QEI0</a> =  ((u32)&amp;SYSCTL_RCGCQEI - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aeacbf3016e47c9eb8042554666b3bcad">RCC_QEI0</a> =  ((uint32_t)&amp;SYSCTL_RCGCQEI - SYSCTL_BASE) &lt;&lt; 5, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a0d25bd38b9d39e34504c068a85a66c45">RCC_QEI1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a8b25367eed70bf66750893969395d9c4">RCC_EEPROM0</a> =  ((u32)&amp;SYSCTL_RCGCEEPROM - SYSCTL_BASE) &lt;&lt; 5, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a6383fd9f173243f9c552c63443a28f02">RCC_WTIMER0</a> =  ((u32)&amp;SYSCTL_RCGCWTIMER - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a8b25367eed70bf66750893969395d9c4">RCC_EEPROM0</a> =  ((uint32_t)&amp;SYSCTL_RCGCEEPROM - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a6383fd9f173243f9c552c63443a28f02">RCC_WTIMER0</a> =  ((uint32_t)&amp;SYSCTL_RCGCWTIMER - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a359d9e637ee81970457b6f2ad8ecf612">RCC_WTIMER1</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a43c053c8a36d6ced3001bbc1181aa31e">RCC_WTIMER2</a>, 
@@ -205,9 +205,9 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959affb993127d5ad7ff814afd0b5e41bb67">RCC_WTIMER4</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab7be18f91861ada479d141a71cdc4a73">RCC_WTIMER5</a>, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a046cc93f0c75e6a9f3c8d82296dbedc3">SCC_WD0</a> =  ((u32)&amp;SYSCTL_SCGCWD - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a046cc93f0c75e6a9f3c8d82296dbedc3">SCC_WD0</a> =  ((uint32_t)&amp;SYSCTL_SCGCWD - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aedd62d0f4aeabc04c335f753ddd16675">SCC_WD1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aab752e13fea766e909c1efb6d369af83">SCC_TIMER0</a> =  ((u32)&amp;SYSCTL_SCGCTIMER - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aab752e13fea766e909c1efb6d369af83">SCC_TIMER0</a> =  ((uint32_t)&amp;SYSCTL_SCGCTIMER - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a6b6ae62b91785b7844c09efa72dba2d8">SCC_TIMER1</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aee4143c3631243bb89674442f966c8ac">SCC_TIMER2</a>, 
@@ -215,7 +215,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a7caff6329167c3bdab800fb2a0d07122">SCC_TIMER4</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959abd8109243e642ce6d837c9f6f850f395">SCC_TIMER5</a>, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a44f76e63809a5df30f158bb8cbfcb4af">SCC_GPIOA</a> =  ((u32)&amp;SYSCTL_SCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a44f76e63809a5df30f158bb8cbfcb4af">SCC_GPIOA</a> =  ((uint32_t)&amp;SYSCTL_SCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ad2438eef51dd7790d4faac2e461f61bc">SCC_GPIOB</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab212b98035b8c1d7a52c66b8a8753ea7">SCC_GPIOC</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a1646b5369fa9b52ffe45deb801dffe53">SCC_GPIOD</a>, 
@@ -233,10 +233,10 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a11a7252fd2351f7e48825fa6b209280b">SCC_GPION</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aad3a48f5b917e478e276d137c0854433">SCC_GPIOP</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ade40950fd79bd4be332fd1a5a86620d9">SCC_GPIOQ</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa5659c38a81a48fd717ebde84b64aea8">SCC_DMA</a> =  ((u32)&amp;SYSCTL_SCGCDMA - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa5659c38a81a48fd717ebde84b64aea8">SCC_DMA</a> =  ((uint32_t)&amp;SYSCTL_SCGCDMA - SYSCTL_BASE) &lt;&lt; 5, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959afa505d83b1672bacbab31c68d3b892d4">SCC_HIB</a> =  ((u32)&amp;SYSCTL_SCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a96b4af86f966ab2d37b95ddcfd7ccae0">SCC_UART0</a> =  ((u32)&amp;SYSCTL_SCGCUART - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959afa505d83b1672bacbab31c68d3b892d4">SCC_HIB</a> =  ((uint32_t)&amp;SYSCTL_SCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a96b4af86f966ab2d37b95ddcfd7ccae0">SCC_UART0</a> =  ((uint32_t)&amp;SYSCTL_SCGCUART - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959af0d58b6788b09b9b25ef36b180af6005">SCC_UART1</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a507b539a5e8127d359ff57e5c546a3e9">SCC_UART2</a>, 
 <br/>
@@ -246,33 +246,33 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa423f043367f931e13636b18fa6ce8fc">SCC_UART6</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aeecfc516a3a6732cc6f05d38d66b9cfb">SCC_UART7</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a1b7f56125e323df352ae5391bb40e386">SCC_SSI0</a> =  ((u32)&amp;SYSCTL_SCGCSSI - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a1b7f56125e323df352ae5391bb40e386">SCC_SSI0</a> =  ((uint32_t)&amp;SYSCTL_SCGCSSI - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a2316ac607983f5bafef7f42aa821705b">SCC_SSI1</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa61fed56149618b50ddb926328a3e90e">SCC_SSI2</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a4fb5b1a1e53833917ba9862b11d85c44">SCC_SSI3</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa8da3fc9fc64bc9bbbb2c0bd5c207ae0">SCC_I2C0</a> =  ((u32)&amp;SYSCTL_SCGCI2C - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa8da3fc9fc64bc9bbbb2c0bd5c207ae0">SCC_I2C0</a> =  ((uint32_t)&amp;SYSCTL_SCGCI2C - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aac1edecb6b1268334dd61d0be70eb8b5">SCC_I2C1</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a6e133432144b494871b9fc7434a91214">SCC_I2C2</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ad1c9598c70b899240aa22be7b66e4765">SCC_I2C3</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a866e650d47a300b010a0d6cf92986ef0">SCC_I2C4</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a22435962f8a22e2843a4fdcde07e8bb2">SCC_I2C5</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3e2c89fb8b1a25854efa6173e3abbd60">SCC_USB0</a> =  ((u32)&amp;SYSCTL_SCGCUSB - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3e2c89fb8b1a25854efa6173e3abbd60">SCC_USB0</a> =  ((uint32_t)&amp;SYSCTL_SCGCUSB - SYSCTL_BASE) &lt;&lt; 5, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959afcc5638cfddfd30f1c4f0b72e7621784">SCC_CAN0</a> =  ((u32)&amp;SYSCTL_SCGCCAN - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959afcc5638cfddfd30f1c4f0b72e7621784">SCC_CAN0</a> =  ((uint32_t)&amp;SYSCTL_SCGCCAN - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ace6a0c67861a7f9063364e3c23996b7c">SCC_CAN1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a8aeea8da59ca1b091f5ffe1fbe03350b">SCC_ADC0</a> =  ((u32)&amp;SYSCTL_SCGCADC - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a8aeea8da59ca1b091f5ffe1fbe03350b">SCC_ADC0</a> =  ((uint32_t)&amp;SYSCTL_SCGCADC - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a5000d6ca5e3b40a5865485dd8dac5ab8">SCC_ADC1</a>, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a6d58998c9f779236ff93a78c89d20f92">SCC_ACMP0</a> =  ((u32)&amp;SYSCTL_SCGCACMP - SYSCTL_BASE) &lt;&lt; 5, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab5b9111da3ae69f232b705e8bbeccc1a">SCC_PWM0</a> =  ((u32)&amp;SYSCTL_SCGCPWM - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a6d58998c9f779236ff93a78c89d20f92">SCC_ACMP0</a> =  ((uint32_t)&amp;SYSCTL_SCGCACMP - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab5b9111da3ae69f232b705e8bbeccc1a">SCC_PWM0</a> =  ((uint32_t)&amp;SYSCTL_SCGCPWM - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a53d2cc961160d1e6c05fa4e180656c29">SCC_PWM1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a90dc05d2e2deb1bf75bd052269d9daac">SCC_QEI0</a> =  ((u32)&amp;SYSCTL_SCGCQEI - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a90dc05d2e2deb1bf75bd052269d9daac">SCC_QEI0</a> =  ((uint32_t)&amp;SYSCTL_SCGCQEI - SYSCTL_BASE) &lt;&lt; 5, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aab3ed767192a9f1c572958d99e36422f">SCC_QEI1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3358317c6870dd5d3f344534992faf20">SCC_EEPROM0</a> =  ((u32)&amp;SYSCTL_SCGCEEPROM - SYSCTL_BASE) &lt;&lt; 5, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aaa5749f1284d0fd60e24dceed3e19845">SCC_WTIMER0</a> =  ((u32)&amp;SYSCTL_SCGCWTIMER - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3358317c6870dd5d3f344534992faf20">SCC_EEPROM0</a> =  ((uint32_t)&amp;SYSCTL_SCGCEEPROM - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aaa5749f1284d0fd60e24dceed3e19845">SCC_WTIMER0</a> =  ((uint32_t)&amp;SYSCTL_SCGCWTIMER - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a21e28d01f0c4aeb1c57918a47419419e">SCC_WTIMER1</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a1b1772a391965c6c63491a4cc2199f33">SCC_WTIMER2</a>, 
@@ -280,9 +280,9 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ae949847f800769a79798400b6276bc3b">SCC_WTIMER4</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959af497645a2e76034377d94db5bffda572">SCC_WTIMER5</a>, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a66a2b58595f766c88a89456d92a6999b">DCC_WD0</a> =  ((u32)&amp;SYSCTL_DCGCWD - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a66a2b58595f766c88a89456d92a6999b">DCC_WD0</a> =  ((uint32_t)&amp;SYSCTL_DCGCWD - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959af27b9bc9fbc7f398886d53051e1c7e9b">DCC_WD1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959af4e4e5d577b31124e1439065df8d0388">DCC_TIMER0</a> =  ((u32)&amp;SYSCTL_DCGCTIMER - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959af4e4e5d577b31124e1439065df8d0388">DCC_TIMER0</a> =  ((uint32_t)&amp;SYSCTL_DCGCTIMER - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a05457312f35ee02c99445845bd774cf5">DCC_TIMER1</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ad3d86893051956ff70634657615333dd">DCC_TIMER2</a>, 
@@ -290,7 +290,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a451f2738d3868dcf745fe9a32eff995e">DCC_TIMER4</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a6bd98b42f2e9d897f9e2c30557fd3de9">DCC_TIMER5</a>, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab780a6472576a549c8282bd72424f6ff">DCC_GPIOA</a> =  ((u32)&amp;SYSCTL_DCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab780a6472576a549c8282bd72424f6ff">DCC_GPIOA</a> =  ((uint32_t)&amp;SYSCTL_DCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a463b8efb0b1d18397145221619849d10">DCC_GPIOB</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959af93e5bd2886d5750ba8448f6def7f7e2">DCC_GPIOC</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a1e3b60573f8876b42812cd2533f43afe">DCC_GPIOD</a>, 
@@ -308,10 +308,10 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a77191f653c4b3a8200759aebf37113a3">DCC_GPION</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a503607a6c996f27fe0dd7ca5b13a1090">DCC_GPIOP</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aefac3afd723c7499b7ee6bc024edcb1a">DCC_GPIOQ</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959afdafb51e56845ffca6b8715f9f034be9">DCC_DMA</a> =  ((u32)&amp;SYSCTL_DCGCDMA - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959afdafb51e56845ffca6b8715f9f034be9">DCC_DMA</a> =  ((uint32_t)&amp;SYSCTL_DCGCDMA - SYSCTL_BASE) &lt;&lt; 5, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a10d534586668d3d60f4082a7324a7bd8">DCC_HIB</a> =  ((u32)&amp;SYSCTL_DCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a1e3076c6ebdab342bc02a25e1496c2ee">DCC_UART0</a> =  ((u32)&amp;SYSCTL_DCGCUART - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a10d534586668d3d60f4082a7324a7bd8">DCC_HIB</a> =  ((uint32_t)&amp;SYSCTL_DCGCGPIO - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a1e3076c6ebdab342bc02a25e1496c2ee">DCC_UART0</a> =  ((uint32_t)&amp;SYSCTL_DCGCUART - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aaab6521fa757e01bc08531474b332f2b">DCC_UART1</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a41de1c88f35ceb3c07d35f671ad53508">DCC_UART2</a>, 
 <br/>
@@ -321,33 +321,33 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a70e3a920c0cecaf2b5d17b8c9640c979">DCC_UART6</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959acd88c770eafbb36b4dfe11aec93eb29f">DCC_UART7</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a648f5b18454e1f34fe2b5f7a26787c1a">DCC_SSI0</a> =  ((u32)&amp;SYSCTL_DCGCSSI - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a648f5b18454e1f34fe2b5f7a26787c1a">DCC_SSI0</a> =  ((uint32_t)&amp;SYSCTL_DCGCSSI - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959afecbd79096060a7d5719ffd7fee65416">DCC_SSI1</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ac415fc33e675e3a0c7b9c83e283d8324">DCC_SSI2</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a3003b45b36dd2c510d9e7d2450701f39">DCC_SSI3</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aee1726dc7502226128f256d5888c3fe7">DCC_I2C0</a> =  ((u32)&amp;SYSCTL_DCGCI2C - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aee1726dc7502226128f256d5888c3fe7">DCC_I2C0</a> =  ((uint32_t)&amp;SYSCTL_DCGCI2C - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a230e1ad541a3279fbda81dbf6d160a3c">DCC_I2C1</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a790e86296a06d23c43f629410741ec17">DCC_I2C2</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab8c14dd3cc4990cb7c078208458a850d">DCC_I2C3</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959aa5980152513b981d5257c21194e256e5">DCC_I2C4</a>, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a56f9aef0fa4a67fe5e73db5e251818c1">DCC_I2C5</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a8f353ad79c2bae6065a14d0912dde03c">DCC_USB0</a> =  ((u32)&amp;SYSCTL_DCGCUSB - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a8f353ad79c2bae6065a14d0912dde03c">DCC_USB0</a> =  ((uint32_t)&amp;SYSCTL_DCGCUSB - SYSCTL_BASE) &lt;&lt; 5, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959afa65ea4c7879f7b4362f380cab768981">DCC_CAN0</a> =  ((u32)&amp;SYSCTL_DCGCCAN - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959afa65ea4c7879f7b4362f380cab768981">DCC_CAN0</a> =  ((uint32_t)&amp;SYSCTL_DCGCCAN - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ad12005b67225647d17685c1f4d5172d0">DCC_CAN1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ad5ab3be3260e7f2063c5565f63509d28">DCC_ADC0</a> =  ((u32)&amp;SYSCTL_DCGCADC - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ad5ab3be3260e7f2063c5565f63509d28">DCC_ADC0</a> =  ((uint32_t)&amp;SYSCTL_DCGCADC - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a7aff55fefdd807626eed54b113497898">DCC_ADC1</a>, 
 <br/>
-&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ac174433556444d8b81c462697d008a43">DCC_ACMP0</a> =  ((u32)&amp;SYSCTL_DCGCACMP - SYSCTL_BASE) &lt;&lt; 5, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a7579e619e6f15718ce4632ae0c5002ea">DCC_PWM0</a> =  ((u32)&amp;SYSCTL_DCGCPWM - SYSCTL_BASE) &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ac174433556444d8b81c462697d008a43">DCC_ACMP0</a> =  ((uint32_t)&amp;SYSCTL_DCGCACMP - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a7579e619e6f15718ce4632ae0c5002ea">DCC_PWM0</a> =  ((uint32_t)&amp;SYSCTL_DCGCPWM - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a9bfbba89e407bf5acb591a071df5bd43">DCC_PWM1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959abb79eacfc68137024a6dc3f7756e8f0a">DCC_QEI0</a> =  ((u32)&amp;SYSCTL_DCGCQEI - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959abb79eacfc68137024a6dc3f7756e8f0a">DCC_QEI0</a> =  ((uint32_t)&amp;SYSCTL_DCGCQEI - SYSCTL_BASE) &lt;&lt; 5, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ac0b3e282db4a0066e7a770c6f0449d56">DCC_QEI1</a>, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab1db2619cdcfb45c70fd49196b179961">DCC_EEPROM0</a> =  ((u32)&amp;SYSCTL_DCGCEEPROM - SYSCTL_BASE) &lt;&lt; 5, 
-<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a215fbe3cc93bb7378d5c1c3fc30f8463">DCC_WTIMER0</a> =  ((u32)&amp;SYSCTL_DCGCWTIMER - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab1db2619cdcfb45c70fd49196b179961">DCC_EEPROM0</a> =  ((uint32_t)&amp;SYSCTL_DCGCEEPROM - SYSCTL_BASE) &lt;&lt; 5, 
+<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a215fbe3cc93bb7378d5c1c3fc30f8463">DCC_WTIMER0</a> =  ((uint32_t)&amp;SYSCTL_DCGCWTIMER - SYSCTL_BASE) &lt;&lt; 5, 
 <a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a86630e306040d178a3f981156ad3db0c">DCC_WTIMER1</a>, 
 <br/>
 &#160;&#160;<a class="el" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a18eb7b7308cfbfe58ad6905cfabceeaa">DCC_WTIMER2</a>, 
@@ -750,7 +750,7 @@ Functions</h2></td></tr>
 </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="systemcontrol_8h_source.html#l00488">488</a> of file <a class="el" href="systemcontrol_8h_source.html">systemcontrol.h</a>.</p>
+<p>Definition at line <a class="el" href="systemcontrol_8h_source.html#l00489">489</a> of file <a class="el" href="systemcontrol_8h_source.html">systemcontrol.h</a>.</p>
 
 </div>
 </div>
@@ -818,7 +818,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 12 2013 03:21:32 for libopencm3 by
+    <li class="footer">Generated on Mon Jun 17 2013 04:21:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

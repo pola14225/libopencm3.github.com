@@ -1,12 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"systick_8h_source.html":[17,0,10],
-"tpiu_8h.html":[17,0,11],
-"tpiu_8h.html#a020c57a36fab7ac79ff2310e34b8d708":[17,0,11,9],
-"tpiu_8h.html#a06f2d73ced3d6b19c9170bfdaa058b0c":[17,0,11,13],
-"tpiu_8h.html#a07413fb90b689fafae5fb669e7bfadd7":[17,0,11,14],
-"tpiu_8h.html#a28490c0155a385403d315bd14953e3d6":[17,0,11,21],
-"tpiu_8h.html#a30ef8dde42bb8b5ce47fd60b3450b4ce":[17,0,11,1],
 "tpiu_8h.html#a35b5d2f1df1b7b2bf5aa26ca581f536f":[17,0,11,24],
 "tpiu_8h.html#a3831444239089a4bcf01c5c9cc849008":[17,0,11,22],
 "tpiu_8h.html#a3984ad73b9e15f6507ec771d6ea1a9ec":[17,0,11,23],

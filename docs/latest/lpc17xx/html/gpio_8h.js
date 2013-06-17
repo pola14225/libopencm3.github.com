@@ -1,5 +1,5 @@
 var gpio_8h =
 [
-    [ "gpio_clear", "gpio_8h.html#ga29ffb563ecb14ca058d05f9f22383b19", null ],
-    [ "gpio_set", "gpio_8h.html#ga05afc3b495268d8dd26aec3ec0f4301b", null ]
+    [ "gpio_clear", "gpio_8h.html#gab84d6793fa4dc0c81a522c1cd47c1b7b", null ],
+    [ "gpio_set", "gpio_8h.html#ga0d59176f466c98b5a902bee27f20caf1", null ]
 ];

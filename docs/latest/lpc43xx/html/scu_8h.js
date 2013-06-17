@@ -180,5 +180,5 @@ var scu_8h =
       [ "CLK2", "scu_8h.html#gga9ebba78e64868d90ae94cabceec832d2ac1ed38b41dcbbd2b282e1b0e84ae1d9e", null ],
       [ "CLK3", "scu_8h.html#gga9ebba78e64868d90ae94cabceec832d2a40acce7184c85438d6eb3ed8ecde2fc7", null ]
     ] ],
-    [ "scu_pinmux", "scu_8h.html#gaa3d58744b52822ed95253a8273bfc321", null ]
+    [ "scu_pinmux", "scu_8h.html#gac3fa7534cb7b7179ca75d7bc3ba43e59", null ]
 ];
