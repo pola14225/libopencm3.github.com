@@ -84,6 +84,8 @@ var searchData=
   ['debug_5fmonitor',['debug_monitor',['../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
   ['debug_5fmonitor_5fhandler',['debug_monitor_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2',1,]]],
   ['debugging',['Debugging',['../../cm3/html/group__debugging.html',1,'']]],
+  ['decrypt_5fccm',['DECRYPT_CCM',['../../stm32f4/html/group__crypto__api.html#gga4587d1b0de50d281f522f0251fca33f3a9097e77baa1befdead8c2fa55c3507e2',1,]]],
+  ['decrypt_5fgcm',['DECRYPT_GCM',['../../stm32f4/html/group__crypto__api.html#gga4587d1b0de50d281f522f0251fca33f3a2d4043b22697372b9aa9cad6768ed008',1,]]],
   ['dma_2ec',['dma.c',['../../stm32f1/html/dma_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/dma_8c.html',1,'(Global Namespace)']]],
   ['dma_2eh',['dma.h',['../../stm32f1/html/dma_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/dma_8h.html',1,'(Global Namespace)']]],
   ['dma_5fchannel_5freset',['dma_channel_reset',['../../stm32f1/html/group__dma__file.html#gaa0e2c035b7be3a35d966b5d3f4576cd6',1,]]],

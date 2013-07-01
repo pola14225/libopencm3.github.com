@@ -43,11 +43,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"group__dma__file.html#ga6e89625484c29b630c797340e4d71d09",
-"group__usart__file.html#ga6d6df6e7a152e4d6e7c433a810403258",
-"rcc_8h.html#a1844649f10097a03ac2b760ce219e04a",
-"rcc_8h.html#ad59f66b35bdc0953428eb8c345397a7f",
-"usart__common__all_8c.html#ga6d6df6e7a152e4d6e7c433a810403258"
+"group__dac__file.html#gaa0a78f45943398ea085e7332611e95f9",
+"group__timer__file.html#gacddad82e5abc73bdbcf87514c935b9cc",
+"rcc_8h.html#a0569d91f3b18ae130b7a09e0100c4459",
+"rcc_8h.html#ac0fd858d073b14216ae0d716ba4f1dd3",
+"timer__common__all_8c.html#gaea0fda57594cc30e644de916dff31b98"
 ];
 
 var navTreeSubIndices = new Array();

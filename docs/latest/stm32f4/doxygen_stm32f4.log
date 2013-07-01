@@ -2,6 +2,12 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:163: warning: end of file while inside a group
 
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:81: warning: Member crypto_mode_mac found in multiple @defgroup groups! The member will be put in group crypto_api, and not in group crypto_defines
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:50: warning: Member CRYP_CSGCMCCMR found in multiple @defgroup groups! The member will be put in group crypto_defines_registers, and not in group crypto_defines
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:2: warning: end of comment block while expecting command </b>
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:2: warning: end of comment block while expecting command </b>
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:1: warning: end of comment block while expecting command </b>
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/doc-stm32f4.h:23: warning: end of comment block while expecting command </b>
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/adc.c:1029: warning: argument 'adc' of command @param is not found in the argument list of adc_disable_temperature_sensor(void)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/adc.c:1015: warning: argument 'adc' of command @param is not found in the argument list of adc_enable_temperature_sensor(void)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dac_common_all.c:203: warning: explicit link request to 'data_channel' could not be resolved
@@ -317,3 +323,4 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:66: warning: unable to resolve reference to `hash_data_type' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:80: warning: unable to resolve reference to `hash_key_length' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:38: warning: unable to resolve reference to `hash_mode' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:1: warning: end of comment block while expecting command </b>

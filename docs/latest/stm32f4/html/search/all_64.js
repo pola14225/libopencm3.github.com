@@ -27,6 +27,8 @@ var searchData=
   ['debug_5fmonitor',['debug_monitor',['../../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
   ['debug_5fmonitor_5fhandler',['debug_monitor_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2',1,]]],
   ['debugging',['Debugging',['../../../cm3/html/group__debugging.html',1,'']]],
+  ['decrypt_5fccm',['DECRYPT_CCM',['../group__crypto__api.html#gga4587d1b0de50d281f522f0251fca33f3a9097e77baa1befdead8c2fa55c3507e2',1,'crypto.h']]],
+  ['decrypt_5fgcm',['DECRYPT_GCM',['../group__crypto__api.html#gga4587d1b0de50d281f522f0251fca33f3a2d4043b22697372b9aa9cad6768ed008',1,'crypto.h']]],
   ['dma_2ec',['dma.c',['../dma_8c.html',1,'']]],
   ['dma_2eh',['dma.h',['../dma_8h.html',1,'']]],
   ['dma1_5fbase',['DMA1_BASE',['../memorymap_8h.html#ab2d8a917a0e4ea99a22ac6ebf279bc72',1,'memorymap.h']]],

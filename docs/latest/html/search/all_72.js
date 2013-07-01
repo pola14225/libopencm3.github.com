@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['registers_20_28for_20f42xx_20or_20f43xx_20only_29',['Registers (for F42xx or F43xx only)',['../../stm32f4/html/group__crypto__defines__registers.html',1,'']]],
   ['r0',['r0',['../../cm3/html/structscb__exception__stack__frame.html#ae7ebc5fa67cc65d5039f8f978e3a2062',1,'scb_exception_stack_frame']]],
   ['r1',['r1',['../../cm3/html/structscb__exception__stack__frame.html#a9fea68a34dc0a9d385390205092162e9',1,'scb_exception_stack_frame']]],
   ['r12',['r12',['../../cm3/html/structscb__exception__stack__frame.html#a0e6126588086c406b720b3961bda7311',1,'scb_exception_stack_frame']]],

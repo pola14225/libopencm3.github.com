@@ -107,6 +107,7 @@ var searchData=
   ['assert_2eh',['assert.h',['../../cm3/html/assert_8h.html',1,'']]],
   ['atimer_2eh',['atimer.h',['../../lpc43xx/html/atimer_8h.html',1,'']]],
   ['alarm_20timer_20defines',['Alarm Timer Defines',['../../lpc43xx/html/group__atimer__defines.html',1,'']]],
+  ['api_20_28for_20f42xx_20or_20f43xx_20only_29',['API (for F42xx or F43xx only)',['../../stm32f4/html/group__crypto__api.html',1,'']]],
   ['adc',['ADC',['../../stm32f1/html/group__STM32F1xx__adc__file.html',1,'']]],
   ['adc_20defines',['ADC Defines',['../../stm32f4/html/group__STM32F4xx__adc__defines.html',1,'']]],
   ['adc',['ADC',['../../stm32f4/html/group__STM32F4xx__adc__file.html',1,'']]]

@@ -44,6 +44,79 @@
     <filename>crc__common__all_8h</filename>
   </compound>
   <compound kind="file">
+    <name>crypto_common_f24.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>crypto__common__f24_8c</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_ALGOMODE_MASK</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga9fb82c3ceba64ff9add449a6cfe5962a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_wait_busy</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gaecaa8d8b190fa22a873a76a5cf67fb62</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_key</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga93e0e5b68a320eacc059995c3aa2ffed</anchor>
+      <arglist>(enum crypto_keysize keysize, uint64_t key[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_iv</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga5f019038350f381a004c48be478f1268</anchor>
+      <arglist>(uint64_t iv[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_datatype</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gab77074e1b277e186547a67b48cfaf5f3</anchor>
+      <arglist>(enum crypto_datatype datatype)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_algorithm</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga132b9deaf901e3c5a5d9c24929a4ded4</anchor>
+      <arglist>(enum crypto_mode mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_start</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga77ae468abdc9ed68f924dcfbefe723f1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_stop</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gaaa0674c5d6af5bad04ace087dec97f9b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>crypto_process_block</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga937aad66306fa452be50f418a4b4f644</anchor>
+      <arglist>(uint32_t *inp, uint32_t *outp, uint32_t length)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>crypto_common_f24.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>crypto__common__f24_8h</filename>
+  </compound>
+  <compound kind="file">
     <name>dac.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/</path>
     <filename>dac_8c</filename>
@@ -11725,6 +11798,16 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>crypto_defines</name>
+    <title>Crypto_defines</title>
+    <filename>group__crypto__defines.html</filename>
+    <docanchor file="group__crypto__defines">crypto_api_supported</docanchor>
+    <docanchor file="group__crypto__defines">crypto_api_theory</docanchor>
+    <docanchor file="group__crypto__defines">crypto_api_basic</docanchor>
+    <docanchor file="group__crypto__defines">crypto_api_interrupt</docanchor>
+    <docanchor file="group__crypto__defines">crypto_api_dma</docanchor>
+  </compound>
+  <compound kind="group">
     <name>dma_defines</name>
     <title>Dma_defines</title>
     <filename>group__dma__defines.html</filename>
@@ -11733,6 +11816,74 @@
     <name>hash_defines</name>
     <title>Hash_defines</title>
     <filename>group__hash__defines.html</filename>
+  </compound>
+  <compound kind="group">
+    <name>crypto_file</name>
+    <title>Crypto_file</title>
+    <filename>group__crypto__file.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_ALGOMODE_MASK</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga9fb82c3ceba64ff9add449a6cfe5962a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_wait_busy</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gaecaa8d8b190fa22a873a76a5cf67fb62</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_key</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga93e0e5b68a320eacc059995c3aa2ffed</anchor>
+      <arglist>(enum crypto_keysize keysize, uint64_t key[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_iv</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga5f019038350f381a004c48be478f1268</anchor>
+      <arglist>(uint64_t iv[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_datatype</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gab77074e1b277e186547a67b48cfaf5f3</anchor>
+      <arglist>(enum crypto_datatype datatype)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_algorithm</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga132b9deaf901e3c5a5d9c24929a4ded4</anchor>
+      <arglist>(enum crypto_mode mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_start</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga77ae468abdc9ed68f924dcfbefe723f1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_stop</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gaaa0674c5d6af5bad04ace087dec97f9b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>crypto_process_block</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga937aad66306fa452be50f418a4b4f644</anchor>
+      <arglist>(uint32_t *inp, uint32_t *outp, uint32_t length)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>dma_file</name>
@@ -12229,6 +12380,7 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>dir_c02db4a0946ae9b9bf4f96b1a4904c69.html</filename>
     <file>crc_common_all.h</file>
+    <file>crypto_common_f24.h</file>
     <file>dac_common_all.h</file>
     <file>dma_common_f13.h</file>
     <file>dma_common_f24.h</file>
@@ -12252,6 +12404,7 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>dir_2cc908344f7c033af6399289af991fc7.html</filename>
     <file>crc_common_all.c</file>
+    <file>crypto_common_f24.c</file>
     <file>dac_common_all.c</file>
     <file>dma_common_f13.c</file>
     <file>dma_common_f24.c</file>

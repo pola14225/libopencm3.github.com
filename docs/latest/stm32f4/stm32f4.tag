@@ -3625,6 +3625,211 @@
     <filename>crc__common__all_8h</filename>
   </compound>
   <compound kind="file">
+    <name>crypto.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
+    <filename>crypto_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_mac_algorithm</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gafbdd669ac6be495f11b16cebb07044d3</anchor>
+      <arglist>(enum crypto_mode_mac mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_context_swap</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gad1603c9e39006330da985e6b353c5403</anchor>
+      <arglist>(uint32_t *buf)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>crypto.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/</path>
+    <filename>crypto_8h</filename>
+    <includes id="crypto__common__f24_8h" name="crypto_common_f24.h" local="no" imported="no">libopencm3/stm32/common/crypto_common_f24.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CSGCMCCMR</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga95b0b17f8b3f77da43aaf04580f5847d</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CSGCMR</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga434aaa9ed31cd33a64977ec7130cf158</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_SHIFT</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>gae30a78daecdbe18271c5ff3d12329960</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga096710c9056702053e3d05b55ccce14f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_INIT</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga9334a98cc4d295f6cf9d958bb4d85961</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_HEADER</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga73f6bd891ab0a72ae789a6a7f6b351bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_PAYLOAD</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga4726d9e1d161013334f727245f1407b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_FINAL</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga2d425a76bcdb750826fee2998527ea7f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_ALGOMODE3</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga44540320105b5e3b492971f51a6f1c08</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>crypto_mode_mac</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>ga4587d1b0de50d281f522f0251fca33f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_GCM</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gga4587d1b0de50d281f522f0251fca33f3a31349c6a6f6808472fb53a23fbdc5781</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_CCM</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gga4587d1b0de50d281f522f0251fca33f3a99118e56a6da2ebda04105533368ab09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_GCM</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gga4587d1b0de50d281f522f0251fca33f3a2d4043b22697372b9aa9cad6768ed008</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_CCM</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gga4587d1b0de50d281f522f0251fca33f3a9097e77baa1befdead8c2fa55c3507e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>crypto_context_swap</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gaf3fc3da9ffba94b33c5c9fbf48be61ef</anchor>
+      <arglist>(uint32_t *buf)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_mac_algorithm</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gafbdd669ac6be495f11b16cebb07044d3</anchor>
+      <arglist>(enum crypto_mode_mac mode)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>crypto_common_f24.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>crypto__common__f24_8c</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_ALGOMODE_MASK</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga9fb82c3ceba64ff9add449a6cfe5962a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_wait_busy</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gaecaa8d8b190fa22a873a76a5cf67fb62</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_key</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga93e0e5b68a320eacc059995c3aa2ffed</anchor>
+      <arglist>(enum crypto_keysize keysize, uint64_t key[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_iv</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga5f019038350f381a004c48be478f1268</anchor>
+      <arglist>(uint64_t iv[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_datatype</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gab77074e1b277e186547a67b48cfaf5f3</anchor>
+      <arglist>(enum crypto_datatype datatype)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_algorithm</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga132b9deaf901e3c5a5d9c24929a4ded4</anchor>
+      <arglist>(enum crypto_mode mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_start</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga77ae468abdc9ed68f924dcfbefe723f1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_stop</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gaaa0674c5d6af5bad04ace087dec97f9b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>crypto_process_block</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga937aad66306fa452be50f418a4b4f644</anchor>
+      <arglist>(uint32_t *inp, uint32_t *outp, uint32_t length)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>crypto_common_f24.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>crypto__common__f24_8h</filename>
+  </compound>
+  <compound kind="file">
     <name>dac.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>dac_8c</filename>
@@ -5255,6 +5460,20 @@
       <name>DCMI_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a55b794507e021135486de57129a2505c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a019f3ad3b3212e56b45984efd8b8efef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>HASH_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a398d121ca28c3f0f90a140b62184e242</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -10516,6 +10735,135 @@
     <filename>group__crc__defines.html</filename>
   </compound>
   <compound kind="group">
+    <name>crypto_defines</name>
+    <title>CRYPTO Defines</title>
+    <filename>group__crypto__defines.html</filename>
+    <subgroup>crypto_defines_registers</subgroup>
+    <subgroup>crypto_api</subgroup>
+    <docanchor file="group__crypto__defines">crypto_api_supported</docanchor>
+    <docanchor file="group__crypto__defines">crypto_api_theory</docanchor>
+    <docanchor file="group__crypto__defines">crypto_api_basic</docanchor>
+    <docanchor file="group__crypto__defines">crypto_api_interrupt</docanchor>
+    <docanchor file="group__crypto__defines">crypto_api_dma</docanchor>
+  </compound>
+  <compound kind="group">
+    <name>crypto_defines_registers</name>
+    <title>Registers (for F42xx or F43xx only)</title>
+    <filename>group__crypto__defines__registers.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CSGCMCCMR</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga95b0b17f8b3f77da43aaf04580f5847d</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CSGCMR</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga434aaa9ed31cd33a64977ec7130cf158</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_SHIFT</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>gae30a78daecdbe18271c5ff3d12329960</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga096710c9056702053e3d05b55ccce14f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_INIT</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga9334a98cc4d295f6cf9d958bb4d85961</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_HEADER</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga73f6bd891ab0a72ae789a6a7f6b351bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_PAYLOAD</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga4726d9e1d161013334f727245f1407b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_GCM_CMPH_FINAL</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga2d425a76bcdb750826fee2998527ea7f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_ALGOMODE3</name>
+      <anchorfile>group__crypto__defines__registers.html</anchorfile>
+      <anchor>ga44540320105b5e3b492971f51a6f1c08</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>crypto_api</name>
+    <title>API (for F42xx or F43xx only)</title>
+    <filename>group__crypto__api.html</filename>
+    <member kind="enumeration">
+      <name>crypto_mode_mac</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>ga4587d1b0de50d281f522f0251fca33f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_GCM</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gga4587d1b0de50d281f522f0251fca33f3a31349c6a6f6808472fb53a23fbdc5781</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_CCM</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gga4587d1b0de50d281f522f0251fca33f3a99118e56a6da2ebda04105533368ab09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_GCM</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gga4587d1b0de50d281f522f0251fca33f3a2d4043b22697372b9aa9cad6768ed008</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_CCM</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gga4587d1b0de50d281f522f0251fca33f3a9097e77baa1befdead8c2fa55c3507e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>crypto_context_swap</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gaf3fc3da9ffba94b33c5c9fbf48be61ef</anchor>
+      <arglist>(uint32_t *buf)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_mac_algorithm</name>
+      <anchorfile>group__crypto__api.html</anchorfile>
+      <anchor>gafbdd669ac6be495f11b16cebb07044d3</anchor>
+      <arglist>(enum crypto_mode_mac mode)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
     <name>dac_defines</name>
     <title>DAC Defines</title>
     <filename>group__dac__defines.html</filename>
@@ -10531,6 +10879,7 @@
     <filename>group__STM32F4xx.html</filename>
     <subgroup>STM32F4xx_adc_file</subgroup>
     <subgroup>crc_file</subgroup>
+    <subgroup>crypto_file</subgroup>
     <subgroup>dac_file</subgroup>
     <subgroup>dma_file</subgroup>
     <subgroup>gpio_file</subgroup>
@@ -10548,6 +10897,7 @@
     <filename>group__STM32F4xx__defines.html</filename>
     <subgroup>STM32F4xx_adc_defines</subgroup>
     <subgroup>crc_defines</subgroup>
+    <subgroup>crypto_defines</subgroup>
     <subgroup>dac_defines</subgroup>
     <subgroup>dma_defines</subgroup>
     <subgroup>gpio_defines</subgroup>
@@ -11048,6 +11398,88 @@
       <anchorfile>group__crc__file.html</anchorfile>
       <anchor>ga88a426790ad1ae4a43a6019cdb247220</anchor>
       <arglist>(uint32_t *datap, int size)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>crypto_file</name>
+    <title>CRYPTO</title>
+    <filename>group__crypto__file.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRYP_CR_ALGOMODE_MASK</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga9fb82c3ceba64ff9add449a6cfe5962a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_mac_algorithm</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gafbdd669ac6be495f11b16cebb07044d3</anchor>
+      <arglist>(enum crypto_mode_mac mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_context_swap</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gad1603c9e39006330da985e6b353c5403</anchor>
+      <arglist>(uint32_t *buf)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_wait_busy</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gaecaa8d8b190fa22a873a76a5cf67fb62</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_key</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga93e0e5b68a320eacc059995c3aa2ffed</anchor>
+      <arglist>(enum crypto_keysize keysize, uint64_t key[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_iv</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga5f019038350f381a004c48be478f1268</anchor>
+      <arglist>(uint64_t iv[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_datatype</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gab77074e1b277e186547a67b48cfaf5f3</anchor>
+      <arglist>(enum crypto_datatype datatype)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_set_algorithm</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga132b9deaf901e3c5a5d9c24929a4ded4</anchor>
+      <arglist>(enum crypto_mode mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_start</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga77ae468abdc9ed68f924dcfbefe723f1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crypto_stop</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>gaaa0674c5d6af5bad04ace087dec97f9b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>crypto_process_block</name>
+      <anchorfile>group__crypto__file.html</anchorfile>
+      <anchor>ga937aad66306fa452be50f418a4b4f644</anchor>
+      <arglist>(uint32_t *inp, uint32_t *outp, uint32_t length)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -13192,6 +13624,7 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>dir_c02db4a0946ae9b9bf4f96b1a4904c69.html</filename>
     <file>crc_common_all.h</file>
+    <file>crypto_common_f24.h</file>
     <file>dac_common_all.h</file>
     <file>dma_common_f24.h</file>
     <file>flash_common_f24.h</file>
@@ -13216,6 +13649,7 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>dir_2cc908344f7c033af6399289af991fc7.html</filename>
     <file>crc_common_all.c</file>
+    <file>crypto_common_f24.c</file>
     <file>dac_common_all.c</file>
     <file>dma_common_f24.c</file>
     <file>flash_common_f24.c</file>
@@ -13237,6 +13671,7 @@
     <filename>dir_1fc15a2279e09b93b0b15236ec8117f8.html</filename>
     <file>adc.h</file>
     <file>crc.h</file>
+    <file>crypto.h</file>
     <file>dac.h</file>
     <file>dma.h</file>
     <file>doc-stm32f4.h</file>
@@ -13260,6 +13695,7 @@
     <filename>dir_8603a816839418b9ab8fedea07208ea8.html</filename>
     <file>adc.c</file>
     <file>crc.c</file>
+    <file>crypto.c</file>
     <file>dac.c</file>
     <file>dma.c</file>
     <file>gpio.c</file>

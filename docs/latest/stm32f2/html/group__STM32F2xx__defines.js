@@ -1,6 +1,7 @@
 var group__STM32F2xx__defines =
 [
     [ "CRC Defines", "group__crc__defines.html", null ],
+    [ "CRYPTO Defines", "group__crypto__defines.html", null ],
     [ "DAC Defines", "group__dac__defines.html", null ],
     [ "DMA Defines", "group__dma__defines.html", null ],
     [ "GPIO Defines", "group__gpio__defines.html", null ],

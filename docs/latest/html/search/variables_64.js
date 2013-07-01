@@ -60,5 +60,7 @@ var searchData=
   ['dcc_5fwtimer3',['DCC_WTIMER3',['../../lm4f/html/group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a8923e4b18bf6c1df5d744a022f87dbf2',1,]]],
   ['dcc_5fwtimer4',['DCC_WTIMER4',['../../lm4f/html/group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a4049b8d01dbe4fe6ad17d4af74ad4757',1,]]],
   ['dcc_5fwtimer5',['DCC_WTIMER5',['../../lm4f/html/group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a43d42bf96f91a44c4fb69aa9b21e7bad',1,]]],
-  ['debug_5fmonitor',['debug_monitor',['../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]]
+  ['debug_5fmonitor',['debug_monitor',['../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
+  ['decrypt_5fccm',['DECRYPT_CCM',['../../stm32f4/html/group__crypto__api.html#gga4587d1b0de50d281f522f0251fca33f3a9097e77baa1befdead8c2fa55c3507e2',1,]]],
+  ['decrypt_5fgcm',['DECRYPT_GCM',['../../stm32f4/html/group__crypto__api.html#gga4587d1b0de50d281f522f0251fca33f3a2d4043b22697372b9aa9cad6768ed008',1,]]]
 ];
