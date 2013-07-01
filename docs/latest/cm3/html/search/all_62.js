@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['bbio_5fperiph',['BBIO_PERIPH',['../common_8h.html#ababcd1043a94143801dae779d1559c4c',1,'common.h']]],
+  ['bbio_5fsram',['BBIO_SRAM',['../common_8h.html#a91288ffebd7cc75b3ffef37a1908f903',1,'common.h']]],
   ['begin_5fdecls',['BEGIN_DECLS',['../common_8h.html#acd011fce71bdd0f1884aa638d921487a',1,'common.h']]],
   ['bit0',['BIT0',['../common_8h.html#ad4d43f8748b542bce39e18790f845ecc',1,'common.h']]],
   ['bit1',['BIT1',['../common_8h.html#a601923eba46784638244c1ebf2622a2a',1,'common.h']]],

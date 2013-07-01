@@ -96,6 +96,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>BBIO_SRAM</name>
+      <anchorfile>common_8h.html</anchorfile>
+      <anchor>a91288ffebd7cc75b3ffef37a1908f903</anchor>
+      <arglist>(addr, bit)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>BBIO_PERIPH</name>
+      <anchorfile>common_8h.html</anchorfile>
+      <anchor>ababcd1043a94143801dae779d1559c4c</anchor>
+      <arglist>(addr, bit)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>BIT0</name>
       <anchorfile>common_8h.html</anchorfile>
       <anchor>ad4d43f8748b542bce39e18790f845ecc</anchor>

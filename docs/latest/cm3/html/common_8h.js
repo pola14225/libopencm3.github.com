@@ -1,5 +1,7 @@
 var common_8h =
 [
+    [ "BBIO_PERIPH", "common_8h.html#ababcd1043a94143801dae779d1559c4c", null ],
+    [ "BBIO_SRAM", "common_8h.html#a91288ffebd7cc75b3ffef37a1908f903", null ],
     [ "BEGIN_DECLS", "common_8h.html#acd011fce71bdd0f1884aa638d921487a", null ],
     [ "BIT0", "common_8h.html#ad4d43f8748b542bce39e18790f845ecc", null ],
     [ "BIT1", "common_8h.html#a601923eba46784638244c1ebf2622a2a", null ],
