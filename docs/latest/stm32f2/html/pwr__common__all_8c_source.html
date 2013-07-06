@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('pwr__common__all_8c_source.html','');}
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
 <div class="line"><a name="l00173"></a><span class="lineno"><a class="code" href="group__pwr-file.html#gadf5ec836f6a94f6ea6fb99b16e9efe1b">  173</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__pwr-file.html#gadf5ec836f6a94f6ea6fb99b16e9efe1b" title="Get Voltage Detector Output.">pwr_voltage_high</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;{</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">return</span> (PWR_CSR &amp; PWR_CSR_PVDO);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">return</span> PWR_CSR &amp; PWR_CSR_PVDO;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;}</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -307,7 +307,7 @@ $(document).ready(function(){initNavTree('pwr__common__all_8c_source.html','');}
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
 <div class="line"><a name="l00187"></a><span class="lineno"><a class="code" href="group__pwr-file.html#ga88aa01d26288b01a95d0a2dfc407ff7f">  187</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__pwr-file.html#ga88aa01d26288b01a95d0a2dfc407ff7f" title="Get Standby Flag.">pwr_get_standby_flag</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;{</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">return</span> (PWR_CSR &amp; PWR_CSR_SBF);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">return</span> PWR_CSR &amp; PWR_CSR_SBF;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -324,14 +324,13 @@ $(document).ready(function(){initNavTree('pwr__common__all_8c_source.html','');}
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">return</span> PWR_CSR &amp; PWR_CSR_WUF;</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}<span class="comment"></span></div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="pwr__common__all_8c.html">pwr_common_all.c</a></li>
-    <li class="footer">Generated on Sat Jul 6 2013 05:21:21 for libopencm3 by
+    <li class="footer">Generated on Sat Jul 6 2013 06:21:21 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

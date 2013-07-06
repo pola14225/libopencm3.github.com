@@ -148,8 +148,8 @@ Macros</h2></td></tr>
 <tr class="memitem:abb0189383a963a89a7607442c420ba3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#abb0189383a963a89a7607442c420ba3f">MMIO16</a>(addr)&#160;&#160;&#160;(*(volatile uint16_t *)(addr))</td></tr>
 <tr class="memitem:aa424823d5a675828feee4e8be0a64a65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(addr)&#160;&#160;&#160;(*(volatile uint32_t *)(addr))</td></tr>
 <tr class="memitem:ac297642f26c83beb456c4aae0556baab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#ac297642f26c83beb456c4aae0556baab">MMIO64</a>(addr)&#160;&#160;&#160;(*(volatile uint64_t *)(addr))</td></tr>
-<tr class="memitem:a91288ffebd7cc75b3ffef37a1908f903"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a91288ffebd7cc75b3ffef37a1908f903">BBIO_SRAM</a>(addr, bit)&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(((addr) &amp; 0x0FFFFF) * 32 | 0x22000000 + (bit) * 4 )</td></tr>
-<tr class="memitem:ababcd1043a94143801dae779d1559c4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#ababcd1043a94143801dae779d1559c4c">BBIO_PERIPH</a>(addr, bit)&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(((addr) &amp; 0x0FFFFF) * 32 | 0x42000000 + (bit) * 4 )</td></tr>
+<tr class="memitem:a91288ffebd7cc75b3ffef37a1908f903"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a91288ffebd7cc75b3ffef37a1908f903">BBIO_SRAM</a>(addr, bit)&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(((addr) &amp; 0x0FFFFF) * 32 | 0x22000000 + (bit) * 4)</td></tr>
+<tr class="memitem:ababcd1043a94143801dae779d1559c4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#ababcd1043a94143801dae779d1559c4c">BBIO_PERIPH</a>(addr, bit)&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(((addr) &amp; 0x0FFFFF) * 32 | 0x42000000 + (bit) * 4)</td></tr>
 <tr class="memitem:ad4d43f8748b542bce39e18790f845ecc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#ad4d43f8748b542bce39e18790f845ecc">BIT0</a>&#160;&#160;&#160;(1&lt;&lt;0)</td></tr>
 <tr class="memitem:a601923eba46784638244c1ebf2622a2a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a601923eba46784638244c1ebf2622a2a">BIT1</a>&#160;&#160;&#160;(1&lt;&lt;1)</td></tr>
 <tr class="memitem:a9c9560bccccb00174801c728f1ed1399"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a9c9560bccccb00174801c728f1ed1399">BIT2</a>&#160;&#160;&#160;(1&lt;&lt;2)</td></tr>
@@ -203,7 +203,7 @@ Macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(((addr) &amp; 0x0FFFFF) * 32 | 0x42000000 + (bit) * 4 )</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(((addr) &amp; 0x0FFFFF) * 32 | 0x42000000 + (bit) * 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -231,7 +231,7 @@ Macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(((addr) &amp; 0x0FFFFF) * 32 | 0x22000000 + (bit) * 4 )</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(((addr) &amp; 0x0FFFFF) * 32 | 0x22000000 + (bit) * 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -812,7 +812,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="common_8h.html">common.h</a></li>
-    <li class="footer">Generated on Sat Jul 6 2013 05:21:07 for libopencm3 by
+    <li class="footer">Generated on Sat Jul 6 2013 06:21:08 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
