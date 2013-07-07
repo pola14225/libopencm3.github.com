@@ -168,44 +168,17 @@ $(document).ready(function(){initNavTree('timer__common__f24_8c_source.html','')
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                TIM_OR(timer_peripheral) |= option;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/** @brief Set Input Polarity</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">The timer channel must be set to input capture mode.</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">@param[in] timer_peripheral Unsigned int32. Timer register address base</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">@param[in] ic ::tim_ic_id. Input Capture channel designator.</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">@param[in] pol ::tim_ic_pol. Input Capture polarity control.</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="code" href="group__timer__file.html#ga5cc4c3f615f4b661a7ba3be837bfb424">   61</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__timer__file.html#ga5cc4c3f615f4b661a7ba3be837bfb424" title="Set Input Polarity.">timer_ic_set_polarity</a>(uint32_t timer_peripheral, <span class="keyword">enum</span> tim_ic_id ic,</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                           <span class="keyword">enum</span> tim_ic_pol pol)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="comment">/* Clear CCxP and CCxNP to zero. For both edge trigger both fields are</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">         * set. Case 10 is invalid.</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        TIM_CCER(timer_peripheral) &amp;= ~(0x6 &lt;&lt; (ic * 4));</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">switch</span> (pol) {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">case</span> TIM_IC_RISING:  <span class="comment">/* 00 */</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">case</span> TIM_IC_BOTH:    <span class="comment">/* 11 */</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                TIM_CCER(timer_peripheral) |= (0x6 &lt;&lt; (ic * 4));</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">case</span> TIM_IC_FALLING: <span class="comment">/* 01 */</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                TIM_CCER(timer_peripheral) |= (0x2 &lt;&lt; (ic * 4));</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}<span class="comment"></span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="timer__common__f24_8c.html">timer_common_f24.c</a></li>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:21 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:25 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

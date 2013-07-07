@@ -513,5 +513,5 @@ var gpio_8h =
     [ "gpio_primary_remap", "gpio_8h.html#ga9fa7b8ed1d38d8b3d0e22bdfbabb9003", null ],
     [ "gpio_secondary_remap", "gpio_8h.html#ga3e5ba590258c8bb68b11ffb52d02ecb7", null ],
     [ "gpio_set_eventout", "gpio_8h.html#gabab0dfbc150f8658cea822421f5f6ac1", null ],
-    [ "gpio_set_mode", "gpio_8h.html#ga5273739c01f6cbc3c400ae81d4330294", null ]
+    [ "gpio_set_mode", "gpio_8h.html#gae4a927a78f0ed245472ba05de9c7e940", null ]
 ];

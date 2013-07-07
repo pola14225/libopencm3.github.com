@@ -259,7 +259,7 @@ var group__adc__defines =
     [ "adc_eoc_injected", "group__adc__defines.html#gad2a065923adced21827480f124ff4a61", null ],
     [ "adc_off", "group__adc__defines.html#ga929c3401331118aecf2aba217d88a108", null ],
     [ "adc_on", "group__adc__defines.html#ga3ec44a6d5e28b3626c59ef9a85c7c4e5", null ],
-    [ "adc_power_on", "group__adc__defines.html#ga4411d46556442a9121328a768d74a3a5", null ],
+    [ "adc_power_on", "group__adc__defines.html#ga51f01f6dedbcfc4231e0fc1d8943d956", null ],
     [ "adc_read_injected", "group__adc__defines.html#gab96e1ce8d28ce696dc70e231a8da936e", null ],
     [ "adc_read_regular", "group__adc__defines.html#ga52c4b90afb2a3aa032794342b8eaf38e", null ],
     [ "adc_reset_calibration", "group__adc__defines.html#ga640d0e7ddeb7b7be90693edee48b10f1", null ],

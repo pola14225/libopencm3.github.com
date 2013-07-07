@@ -114,7 +114,7 @@ var gpio_8h =
     [ "GPIOH_OSPEEDR", "gpio_8h.html#ga7e7321e18a22ad8258e25033e191db7b", null ],
     [ "GPIOH_OTYPER", "gpio_8h.html#ga8125b3bb1ab6367d04f3b0cb2d2a1e98", null ],
     [ "GPIOH_PUPDR", "gpio_8h.html#ga7a8a7c3e039a6ccc66870506d038f809", null ],
-    [ "gpio_mode_setup", "gpio_8h.html#gaef8f9edf5cd8aa11c98924c6ccc37140", null ],
+    [ "gpio_mode_setup", "gpio_8h.html#ga733d745a0b6840f22b516979ce7a92c9", null ],
     [ "gpio_set_af", "gpio_8h.html#ga2937f803468b3440302fae213c4c3c14", null ],
     [ "gpio_set_output_options", "gpio_8h.html#gab05e7f5b963f49c7442a69e5999f9319", null ]
 ];

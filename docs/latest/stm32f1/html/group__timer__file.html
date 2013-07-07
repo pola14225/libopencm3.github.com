@@ -286,6 +286,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga3195fd7db596710da384857068922626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Slave Mode.  <a href="#ga3195fd7db596710da384857068922626"></a><br/></td></tr>
 <tr class="memitem:ga07c712d9ab62bbcea1de4f865a077a5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga07c712d9ab62bbcea1de4f865a077a5c">timer_slave_set_trigger</a> (uint32_t timer_peripheral, uint8_t trigger)</td></tr>
 <tr class="memdesc:ga07c712d9ab62bbcea1de4f865a077a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Slave Trigger Source.  <a href="#ga07c712d9ab62bbcea1de4f865a077a5c"></a><br/></td></tr>
+<tr class="memitem:ga5cc4c3f615f4b661a7ba3be837bfb424"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga5cc4c3f615f4b661a7ba3be837bfb424">timer_ic_set_polarity</a> (uint32_t timer_peripheral, enum tim_ic_id ic, enum <a class="el" href="timer_8h.html#aa0406d9433193e18143f359076f1f468">tim_ic_pol</a> pol)</td></tr>
+<tr class="memdesc:ga5cc4c3f615f4b661a7ba3be837bfb424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Input Polarity.  <a href="#ga5cc4c3f615f4b661a7ba3be837bfb424"></a><br/></td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <p><b>libopencm3 STM32F1xx Timers</b> </p>
@@ -313,7 +315,7 @@ Basic TIMER handling API.</h1>
 </div><!-- fragment --><p> Example: Timer 1 with PWM output, no clock divide and centre alignment. Set the Output Compare mode to PWM and enable the output of channel 1. Note that for the advanced timers the break functionality must be enabled before the signal will appear at the output, even though break is not being used. This is in addition to the normal output enable. Enable the alternate function clock (APB2 only) and port A clock. Set ports A8 and A9 (timer 1 channel 1 compare outputs) to alternate function push-pull outputs where the PWM output will appear.</p>
 <div class="fragment"><div class="line"><a class="code" href="group__STM32F1xx__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8" title="RCC Enable Peripheral Clocks.">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__STM32F1xx__rcc__defines.html#ga6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, <a class="code" href="group__rcc__apb2enr__en.html#gad7b860fbeb386425bd7d4ef00ce17c27">RCC_APB2ENR_IOPAEN</a> |</div>
 <div class="line">                            <a class="code" href="group__rcc__apb2enr__en.html#gaf67d9fc402ce254dd914525bee7361a6">RCC_APB2ENR_AFIOEN</a>);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#ga5273739c01f6cbc3c400ae81d4330294" title="Set GPIO Pin Mode.">gpio_set_mode</a>(<a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__mode.html#ga6b417f015356fa1b8816fdc9f5b966ce">GPIO_MODE_OUTPUT_50_MHZ</a>,</div>
+<div class="line"><a class="code" href="group__gpio__defines.html#gae4a927a78f0ed245472ba05de9c7e940" title="Set GPIO Pin Mode.">gpio_set_mode</a>(<a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__mode.html#ga6b417f015356fa1b8816fdc9f5b966ce">GPIO_MODE_OUTPUT_50_MHZ</a>,</div>
 <div class="line">              <a class="code" href="group__gpio__cnf.html#gafdb5d21e4c813c645906c8b7e9472daf" title="Alternate Function Output Pushpull.">GPIO_CNF_OUTPUT_ALTFN_PUSHPULL</a>, GPIO8 | GPIO9);</div>
 <div class="line"><a class="code" href="group__STM32F1xx__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8" title="RCC Enable Peripheral Clocks.">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__STM32F1xx__rcc__defines.html#ga6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, <a class="code" href="group__rcc__apb2enr__en.html#ga25852ad4ebc09edc724814de967816bc">RCC_APB2ENR_TIM1EN</a>);</div>
 <div class="line"><a class="code" href="group__timer__file.html#ga90cade2e35c32d50534a531903e642be" title="Reset a Timer.">timer_reset</a>(TIM1);</div>
@@ -1478,6 +1480,53 @@ these parameters are writable only when the channel is off.</dd></dl>
 </dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02054">2054</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga5cc4c3f615f4b661a7ba3be837bfb424"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer_ic_set_polarity </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum tim_ic_id&#160;</td>
+          <td class="paramname"><em>ic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="timer_8h.html#aa0406d9433193e18143f359076f1f468">tim_ic_pol</a>&#160;</td>
+          <td class="paramname"><em>pol</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set Input Polarity. </p>
+<p>The timer channel must be set to input capture mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td>::tim_ic_id. Input Capture channel designator. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pol</td><td><a class="el" href="timer_8h.html#aa0406d9433193e18143f359076f1f468" title="Input Capture input polarity.">tim_ic_pol</a>. Input Capture polarity control. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="timer__common__f234_8c_source.html#l00039">39</a> of file <a class="el" href="timer__common__f234_8c_source.html">timer_common_f234.c</a>.</p>
+
+<p>References <a class="el" href="timer_8h_source.html#l00043">TIM_IC_FALLING</a>, and <a class="el" href="timer_8h_source.html#l00042">TIM_IC_RISING</a>.</p>
 
 </div>
 </div>
@@ -2981,7 +3030,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:16 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:19 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

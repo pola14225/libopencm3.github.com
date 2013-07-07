@@ -25,7 +25,7 @@ var rtc_8h =
       [ "RTC_OW", "rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8fa612a64a5b5192bf328a0866842d87b70", null ]
     ] ],
     [ "rtc_auto_awake", "rtc_8h.html#a619d9fdf532556f29e48b063f1fbfb29", null ],
-    [ "rtc_awake_from_off", "rtc_8h.html#a3c9f215d0ac18bd0aa1eee9164963382", null ],
+    [ "rtc_awake_from_off", "rtc_8h.html#ab1e868e549aa76264b9d0c9b916f538d", null ],
     [ "rtc_awake_from_standby", "rtc_8h.html#a19032c3fbc1546712c5bc534e5ddbf48", null ],
     [ "rtc_check_flag", "rtc_8h.html#a94da35b2f8d7af8985c2e21bc1253349", null ],
     [ "rtc_clear_flag", "rtc_8h.html#a1dd7ccbdf65c6f7b4d714bcb43a57528", null ],

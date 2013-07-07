@@ -59,6 +59,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../emf32gg/html/modules.html"><span>EMF32&#160;Giant&#160;Gecko</span></a></li>
       <li><a href="../../emf32lg/html/modules.html"><span>EMF32&#160;Leopard&#160;Gecko</span></a></li>
       <li><a href="../../emf32tg/html/modules.html"><span>EMF32&#160;Tiny&#160;Gecko</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,7 +105,7 @@ $(document).ready(function(){initNavTree('i2c_8c_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -161,84 +162,72 @@ $(document).ready(function(){initNavTree('i2c_8c_source.html','');});
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="scu_8h.html">libopencm3/lpc43xx/scu.h</a>&gt;</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="cgu_8h.html">libopencm3/lpc43xx/cgu.h</a>&gt;</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga33205ecfc1ea222ec5801a1a69fb2185">   44</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__i2c__defines.html#gaf48dc42ebc887041523c54f0be37d9b4">i2c0_init</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga88cfa2a41e571beeaca3ea44db21c379">   44</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__i2c__defines.html#ga011aeffa4d9f687b9777ce8b3ee3566f">i2c0_init</a>(<span class="keyword">const</span> uint16_t duty_cycle_count)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">/* enable input on SCL and SDA pins */</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        SCU_SFSI2C0 = SCU_I2C0_NOMINAL;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">/* use IRC as clock source for APB1 (including I2C0) */</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        CGU_BASE_APB1_CLK = (CGU_SRC_IRC &lt;&lt; CGU_BASE_CLK_SEL_SHIFT);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        I2C0_SCLH = duty_cycle_count;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        I2C0_SCLL = duty_cycle_count;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">/* FIXME assuming we&#39;re on IRC at 12 MHz */</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="comment">/* 400 kHz I2C */</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        I2C0_SCLH = 15;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        I2C0_SCLL = 15;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">/* 100 kHz I2C */</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="comment">/*</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">        I2C0_SCLH = 60;</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">        I2C0_SCLL = 60;</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">        */</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="comment">/* clear the control bits */</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        I2C0_CONCLR = (I2C_CONCLR_AAC | I2C_CONCLR_SIC</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                        | I2C_CONCLR_STAC | I2C_CONCLR_I2ENC);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">/* enable I2C0 */</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        I2C0_CONSET = I2C_CONSET_I2EN;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">/* transmit start bit */</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga6f5d4e3103e8d7c5fcc929a1c17113c5">   73</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__i2c__defines.html#ga6f5d4e3103e8d7c5fcc929a1c17113c5">i2c0_tx_start</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        I2C0_CONCLR = I2C_CONCLR_SIC;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        I2C0_CONSET = I2C_CONSET_STA;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">/* clear the control bits */</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        I2C0_CONCLR = (I2C_CONCLR_AAC | I2C_CONCLR_SIC</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                        | I2C_CONCLR_STAC | I2C_CONCLR_I2ENC);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="comment">/* enable I2C0 */</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        I2C0_CONSET = I2C_CONSET_I2EN;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/* transmit start bit */</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga6f5d4e3103e8d7c5fcc929a1c17113c5">   61</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__i2c__defines.html#ga6f5d4e3103e8d7c5fcc929a1c17113c5">i2c0_tx_start</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        I2C0_CONCLR = I2C_CONCLR_SIC;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        I2C0_CONSET = I2C_CONSET_STA;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">while</span> (!(I2C0_CONSET &amp; I2C_CONSET_SI));</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        I2C0_CONCLR = I2C_CONCLR_STAC;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">/* transmit data byte */</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga59d6e9ccaa09b279e24a263d21407ae4">   70</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__i2c__defines.html#ga59d6e9ccaa09b279e24a263d21407ae4">i2c0_tx_byte</a>(uint8_t byte)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">if</span> (I2C0_CONSET &amp; I2C_CONSET_STA) {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                I2C0_CONCLR = I2C_CONCLR_STAC;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        I2C0_DAT = byte;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        I2C0_CONCLR = I2C_CONCLR_SIC;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">while</span> (!(I2C0_CONSET &amp; I2C_CONSET_SI));</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        I2C0_CONCLR = I2C_CONCLR_STAC;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">/* transmit data byte */</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga59d6e9ccaa09b279e24a263d21407ae4">   82</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__i2c__defines.html#ga59d6e9ccaa09b279e24a263d21407ae4">i2c0_tx_byte</a>(uint8_t byte)</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">if</span> (I2C0_CONSET &amp; I2C_CONSET_STA) {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                I2C0_CONCLR = I2C_CONCLR_STAC;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        I2C0_DAT = byte;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        I2C0_CONCLR = I2C_CONCLR_SIC;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">while</span> (!(I2C0_CONSET &amp; I2C_CONSET_SI));</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/* receive data byte */</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga33abe40b345d3546dc0c9f72abc80b52">   93</a></span>&#160;uint8_t <a class="code" href="group__i2c__defines.html#ga33abe40b345d3546dc0c9f72abc80b52">i2c0_rx_byte</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">if</span> (I2C0_CONSET &amp; I2C_CONSET_STA) {</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                I2C0_CONCLR = I2C_CONCLR_STAC;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">/* receive data byte */</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga33abe40b345d3546dc0c9f72abc80b52">   81</a></span>&#160;uint8_t <a class="code" href="group__i2c__defines.html#ga33abe40b345d3546dc0c9f72abc80b52">i2c0_rx_byte</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;{</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">if</span> (I2C0_CONSET &amp; I2C_CONSET_STA) {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                I2C0_CONCLR = I2C_CONCLR_STAC;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        I2C0_CONCLR = I2C_CONCLR_SIC;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">while</span> (!(I2C0_CONSET &amp; I2C_CONSET_SI));</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> I2C0_DAT;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">/* transmit stop bit */</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga7b95bb8aa6e5a8f06a4394bc73ed265b">   92</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__i2c__defines.html#ga7b95bb8aa6e5a8f06a4394bc73ed265b">i2c0_stop</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">if</span> (I2C0_CONSET &amp; I2C_CONSET_STA) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                I2C0_CONCLR = I2C_CONCLR_STAC;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        I2C0_CONSET = I2C_CONSET_STO;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        I2C0_CONCLR = I2C_CONCLR_SIC;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">while</span> (!(I2C0_CONSET &amp; I2C_CONSET_SI));</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> I2C0_DAT;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">/**@}*/</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">/* transmit stop bit */</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="code" href="group__i2c__file.html#ga7b95bb8aa6e5a8f06a4394bc73ed265b">  104</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__i2c__defines.html#ga7b95bb8aa6e5a8f06a4394bc73ed265b">i2c0_stop</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;{</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">if</span> (I2C0_CONSET &amp; I2C_CONSET_STA) {</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                I2C0_CONCLR = I2C_CONCLR_STAC;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        }</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        I2C0_CONSET = I2C_CONSET_STO;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        I2C0_CONCLR = I2C_CONCLR_SIC;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_d37d3c975ecef012b6a8fd7f0f6fedfb.html">lpc43xx</a></li><li class="navelem"><a class="el" href="i2c_8c.html">i2c.c</a></li>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:34 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:37 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

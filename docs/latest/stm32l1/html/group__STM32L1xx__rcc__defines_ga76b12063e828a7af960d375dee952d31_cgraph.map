@@ -1,8 +1,8 @@
 <map id="rcc_clock_setup_pll" name="rcc_clock_setup_pll">
-<area shape="rect" id="node3" href="$flash_8h.html#ad571f19d231295129eb0baf856670ce4" title="flash_64bit_enable" alt="" coords="211,5,341,35"/>
+<area shape="rect" id="node3" href="$flash_8h.html#a46ea5d4032d7ea65641376eca38202f8" title="flash_64bit_enable" alt="" coords="211,5,341,35"/>
 <area shape="rect" id="node5" href="$flash_8h.html#a0f76604d23e55a997cef486d8f93c8f7" title="flash_prefetch_enable" alt="" coords="201,59,351,88"/>
 <area shape="rect" id="node7" href="$flash_8h.html#a9347b16d27d64b79f507dc9cad8633b2" title="flash_set_ws" alt="" coords="227,112,325,141"/>
-<area shape="rect" id="node9" href="$pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139" title="pwr_set_vos_scale" alt="" coords="209,165,343,195"/>
+<area shape="rect" id="node9" href="$pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60" title="pwr_set_vos_scale" alt="" coords="209,165,343,195"/>
 <area shape="rect" id="node11" href="$group__STM32L1xx__rcc__defines.html#ga8dbd64d58e019803bf109609203d1afd" title="rcc_osc_on" alt="" coords="232,219,320,248"/>
 <area shape="rect" id="node13" href="$group__STM32L1xx__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8" title="rcc_peripheral_enable\l_clock" alt="" coords="203,271,349,318"/>
 <area shape="rect" id="node15" href="$group__STM32L1xx__rcc__defines.html#gae192b2cd0f37124db5ed76d599a5671b" title="rcc_set_hpre" alt="" coords="228,341,324,371"/>

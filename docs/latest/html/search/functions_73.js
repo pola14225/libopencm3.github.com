@@ -49,9 +49,8 @@ var searchData=
   ['spi_5fxfer',['spi_xfer',['../../stm32f1/html/group__spi__file.html#gae453ac946166bc51a42c35738d9d005b',1,]]],
   ['ssp_5fdisable',['ssp_disable',['../../lpc43xx/html/group__ssp__defines.html#ga52c20b5c622d539ed80d0740abb5a065',1,'ssp_disable(ssp_num_t ssp_num)(Global Namespace)'],['../../lpc43xx/html/group__ssp__file.html#ga741020e6b94479e80107e428d552e5c3',1,'ssp_disable(ssp_num_t ssp_num)(Global Namespace)']]],
   ['ssp_5finit',['ssp_init',['../../lpc43xx/html/group__ssp__defines.html#gabf3b154339113853936a35f87ea2f1f9',1,'ssp_init(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)(Global Namespace)'],['../../lpc43xx/html/group__ssp__file.html#gabf3b154339113853936a35f87ea2f1f9',1,'ssp_init(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)(Global Namespace)']]],
-  ['ssp_5fread',['ssp_read',['../../lpc43xx/html/group__ssp__defines.html#ga0617d554c518d8fd1bd375bb4f837a58',1,'ssp_read(ssp_num_t ssp_num)(Global Namespace)'],['../../lpc43xx/html/group__ssp__file.html#ga0617d554c518d8fd1bd375bb4f837a58',1,'ssp_read(ssp_num_t ssp_num)(Global Namespace)']]],
+  ['ssp_5ftransfer',['ssp_transfer',['../../lpc43xx/html/group__ssp__defines.html#ga97a6e5b0c36d4f4c066bf837799245a9',1,'ssp_transfer(ssp_num_t ssp_num, uint16_t data)(Global Namespace)'],['../../lpc43xx/html/group__ssp__file.html#ga97a6e5b0c36d4f4c066bf837799245a9',1,'ssp_transfer(ssp_num_t ssp_num, uint16_t data)(Global Namespace)']]],
   ['ssp_5fwait_5funtil_5fnot_5fbusy',['ssp_wait_until_not_busy',['../../lpc43xx/html/group__ssp__file.html#gaf3606050c56f9e7ccfbb91f703d38e46',1,]]],
-  ['ssp_5fwrite',['ssp_write',['../../lpc43xx/html/group__ssp__defines.html#ga336309809e6e0212aa355fbf70ed9faa',1,'ssp_write(ssp_num_t ssp_num, uint16_t data)(Global Namespace)'],['../../lpc43xx/html/group__ssp__file.html#ga336309809e6e0212aa355fbf70ed9faa',1,'ssp_write(ssp_num_t ssp_num, uint16_t data)(Global Namespace)']]],
   ['sv_5fcall_5fhandler',['sv_call_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a',1,]]],
   ['sys_5ftick_5fhandler',['sys_tick_handler',['../../cm3/html/group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,]]],
   ['systick_5fcounter_5fdisable',['systick_counter_disable',['../../cm3/html/group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4',1,]]],
@@ -63,5 +62,5 @@ var searchData=
   ['systick_5finterrupt_5fdisable',['systick_interrupt_disable',['../../cm3/html/group__CM3__systick__defines.html#gaee4e252973ddd7c5ffaa872da3b6a3fe',1,]]],
   ['systick_5finterrupt_5fenable',['systick_interrupt_enable',['../../cm3/html/group__CM3__systick__defines.html#ga062163783d8d4106c8b945ed97b4decc',1,]]],
   ['systick_5fset_5fclocksource',['systick_set_clocksource',['../../cm3/html/group__CM3__systick__defines.html#ga13726e0964b31c85269beddbdc1d35e7',1,]]],
-  ['systick_5fset_5freload',['systick_set_reload',['../../cm3/html/group__CM3__systick__defines.html#gac8dbc7c5f007177712824ccf91cc3b33',1,]]]
+  ['systick_5fset_5freload',['systick_set_reload',['../../cm3/html/group__CM3__systick__defines.html#gaaa997323bf7f3378eb78a6277abc913f',1,]]]
 ];

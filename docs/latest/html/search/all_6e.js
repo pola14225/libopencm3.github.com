@@ -1,13 +1,14 @@
 var searchData=
 [
   ['nvic_20defines',['NVIC Defines',['../../cm3/html/group__CM3__nvic__defines.html',1,'']]],
+  ['next_5fdtd_5fpointer',['next_dtd_pointer',['../../lpc43xx/html/structusb__queue__head__t.html#ac166d2ab2de8c580a3244b13efee62ae',1,'usb_queue_head_t::next_dtd_pointer()'],['../../lpc43xx/html/structusb__transfer__descriptor__t.html#a5e821eaad97a31bf764a010676e74600',1,'usb_transfer_descriptor_t::next_dtd_pointer()']]],
   ['nmi',['nmi',['../../cm3/html/structvector__table__t.html#a7da79b1d8184e743b15a5c878250b68a',1,'vector_table_t']]],
   ['nmi_5fhandler',['nmi_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga181d6892388ef1987ba92d0ae80e9359',1,]]],
   ['nvic_2eh',['nvic.h',['../../cm3/html/nvic_8h.html',1,'(Global Namespace)'],['../../lm4f/html/nvic_8h.html',1,'(Global Namespace)']]],
   ['nvic_5fclear_5fpending_5firq',['nvic_clear_pending_irq',['../../cm3/html/group__CM3__nvic__defines.html#ga55916a6ef4b3380692dc46bb0135386e',1,]]],
   ['nested_20vectored_20interrupt_20controller',['Nested Vectored Interrupt Controller',['../../lm4f/html/group__nvic__defines.html',1,'']]],
   ['nvic_5fdisable_5firq',['nvic_disable_irq',['../../cm3/html/group__CM3__nvic__defines.html#gaf95cc3827a6e48d82c6046c639c80dc9',1,]]],
-  ['nvic_5fenable_5firq',['nvic_enable_irq',['../../cm3/html/group__CM3__nvic__defines.html#ga8feba3782b3c6c173969f6ddcee3cfb6',1,]]],
+  ['nvic_5fenable_5firq',['nvic_enable_irq',['../../cm3/html/group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179',1,]]],
   ['nvic_5fgenerate_5fsoftware_5finterrupt',['nvic_generate_software_interrupt',['../../cm3/html/group__CM3__nvic__defines.html#ga236a68110c418bc6b100eb6756ec4ea9',1,]]],
   ['nvic_5fget_5factive_5firq',['nvic_get_active_irq',['../../cm3/html/group__CM3__nvic__defines.html#gaa5ef6143fd0b814310e5475473f80b43',1,]]],
   ['nvic_5fget_5firq_5fenabled',['nvic_get_irq_enabled',['../../cm3/html/group__CM3__nvic__defines.html#gaa2244a9f5f8c94a82bc8cf41d6ef254d',1,]]],

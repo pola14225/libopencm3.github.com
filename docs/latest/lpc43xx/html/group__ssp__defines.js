@@ -44,6 +44,5 @@ var group__ssp__defines =
     ] ],
     [ "ssp_disable", "group__ssp__defines.html#ga52c20b5c622d539ed80d0740abb5a065", null ],
     [ "ssp_init", "group__ssp__defines.html#gabf3b154339113853936a35f87ea2f1f9", null ],
-    [ "ssp_read", "group__ssp__defines.html#ga0617d554c518d8fd1bd375bb4f837a58", null ],
-    [ "ssp_write", "group__ssp__defines.html#ga336309809e6e0212aa355fbf70ed9faa", null ]
+    [ "ssp_transfer", "group__ssp__defines.html#ga97a6e5b0c36d4f4c066bf837799245a9", null ]
 ];

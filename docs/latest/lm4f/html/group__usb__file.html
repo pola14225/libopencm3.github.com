@@ -162,7 +162,7 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code" href="group__usb__defines.html#gga0f2f22f2ab06463da36ae9c6c2a63ea6aa36cce94b72cb32846cb6478806e933b">USB_INT_SUSPEND</a>;</div>
 <div class="line"><a class="code" href="group__usb__defines.html#ga93af0bc1b5144b4c0829cfcd91025a0b" title="Enable Specific USB Interrupts.">usb_enable_interrupts</a>(ints, <a class="code" href="group__usb__defines.html#ggaf0a19719081410c9b09041a7dd65cd11a4325207f3d1ac8680292e80fe4361c51">USB_EP2_INT</a>, <a class="code" href="group__usb__defines.html#ggaf0a19719081410c9b09041a7dd65cd11a93a6bce8bca9bc79fb14552c840ae41d">USB_EP0_INT</a> | <a class="code" href="group__usb__defines.html#ggaf0a19719081410c9b09041a7dd65cd11a90bb9c7bfad2314c174df49c83129a3c">USB_EP1_INT</a>);</div>
 <div class="line"><span class="comment">// Route the interrupts through the NVIC</span></div>
-<div class="line"><a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#ga8feba3782b3c6c173969f6ddcee3cfb6">nvic_enable_irq</a>(NVIC_USB0_IRQ);</div>
+<div class="line"><a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic_enable_irq</a>(NVIC_USB0_IRQ);</div>
 </div><!-- fragment --><p>The USB ISR only has to call usbd_poll().</p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> usb0_isr(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
@@ -281,7 +281,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:32 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:35 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

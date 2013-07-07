@@ -1,6 +1,6 @@
 <map id="rcc_clock_setup_hse_3v3" name="rcc_clock_setup_hse_3v3">
-<area shape="rect" id="node3" href="$flash__common__f24_8c.html#a9347b16d27d64b79f507dc9cad8633b2" title="flash_set_ws" alt="" coords="257,5,356,35"/>
-<area shape="rect" id="node5" href="$pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139" title="pwr_set_vos_scale" alt="" coords="240,59,373,88"/>
+<area shape="rect" id="node3" href="$flash__common__f234_8c.html#a9347b16d27d64b79f507dc9cad8633b2" title="flash_set_ws" alt="" coords="257,5,356,35"/>
+<area shape="rect" id="node5" href="$pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60" title="pwr_set_vos_scale" alt="" coords="240,59,373,88"/>
 <area shape="rect" id="node7" href="$rcc_8h.html#a5f5d6161e92d2708ee1e2d0517c10c28" title="rcc_osc_off" alt="" coords="261,112,352,141"/>
 <area shape="rect" id="node9" href="$rcc_8h.html#a8dbd64d58e019803bf109609203d1afd" title="rcc_osc_on" alt="" coords="263,165,351,195"/>
 <area shape="rect" id="node11" href="$rcc_8h.html#ae192b2cd0f37124db5ed76d599a5671b" title="rcc_set_hpre" alt="" coords="259,219,355,248"/>

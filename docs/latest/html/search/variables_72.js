@@ -67,6 +67,12 @@ var searchData=
   ['rcc_5fwtimer3',['RCC_WTIMER3',['../../lm4f/html/group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a6f8b1e2b9dce0bff8e294821af562aab',1,]]],
   ['rcc_5fwtimer4',['RCC_WTIMER4',['../../lm4f/html/group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959affb993127d5ad7ff814afd0b5e41bb67',1,]]],
   ['rcc_5fwtimer5',['RCC_WTIMER5',['../../lm4f/html/group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959ab7be18f91861ada479d141a71cdc4a73',1,]]],
+  ['reg',['REG',['../../lpc43xx/html/structsgpio__t.html#a150218bd4e87065da36474bacbd1d140',1,'sgpio_t']]],
+  ['reg_5fss',['REG_SS',['../../lpc43xx/html/structsgpio__t.html#aac0bbd8c71be0fbabb39abbf0f4cf173',1,'sgpio_t']]],
+  ['res0',['RES0',['../../lpc43xx/html/structsgpio__t.html#a5c7701aa99295e334058bcfc5909248b',1,'sgpio_t']]],
+  ['res1',['RES1',['../../lpc43xx/html/structsgpio__t.html#a987eb771d7900e8d445c3cc4d7311b95',1,'sgpio_t']]],
+  ['res2',['RES2',['../../lpc43xx/html/structsgpio__t.html#a8d9bead6848eb08748b14899d84c37c7',1,'sgpio_t']]],
+  ['res3',['RES3',['../../lpc43xx/html/structsgpio__t.html#a921ba365a89a1210135d64558a36439f',1,'sgpio_t']]],
   ['reserved_5fx001c',['reserved_x001c',['../../cm3/html/structvector__table__t.html#a6578b9135633f588aee27e73367546e9',1,'vector_table_t']]],
   ['reserved_5fx0034',['reserved_x0034',['../../cm3/html/structvector__table__t.html#aed397ae787125497ae9869cbe2673500',1,'vector_table_t']]],
   ['reset',['reset',['../../cm3/html/structvector__table__t.html#adc4942c678a88cab8494a58f80428077',1,'vector_table_t']]]

@@ -1,4 +1,4 @@
 <map id="rtc_enable_wakeup_timer_interrupt" name="rtc_enable_wakeup_timer_interrupt">
-<area shape="rect" id="node3" href="cm3.tag$group__CM3__nvic__defines.html#ga8feba3782b3c6c173969f6ddcee3cfb6" title="nvic_enable_irq" alt="" coords="227,5,339,35"/>
+<area shape="rect" id="node3" href="cm3.tag$group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179" title="nvic_enable_irq" alt="" coords="227,5,339,35"/>
 <area shape="rect" id="node5" href="cm3.tag$group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66" title="nvic_set_priority" alt="" coords="224,59,341,88"/>
 </map>

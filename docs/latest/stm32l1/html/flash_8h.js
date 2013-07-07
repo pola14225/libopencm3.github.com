@@ -61,7 +61,7 @@ var flash_8h =
     [ "FLASH_WRPR2", "flash_8h.html#aa9be7d66da16578765c0bae8ee1d719d", null ],
     [ "FLASH_WRPR3", "flash_8h.html#a2fb44ca29b996daa1adc960c64524a2e", null ],
     [ "flash_64bit_disable", "flash_8h.html#a9b6dde9700facc4f5486ba01307d21bf", null ],
-    [ "flash_64bit_enable", "flash_8h.html#ad571f19d231295129eb0baf856670ce4", null ],
+    [ "flash_64bit_enable", "flash_8h.html#a46ea5d4032d7ea65641376eca38202f8", null ],
     [ "flash_prefetch_disable", "flash_8h.html#a1b35f387b1aa45b20bccc40456cb33fc", null ],
     [ "flash_prefetch_enable", "flash_8h.html#a0f76604d23e55a997cef486d8f93c8f7", null ],
     [ "flash_set_ws", "flash_8h.html#a9347b16d27d64b79f507dc9cad8633b2", null ]

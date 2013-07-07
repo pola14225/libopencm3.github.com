@@ -2,7 +2,7 @@ var searchData=
 [
   ['i2c_2ec',['i2c.c',['../../stm32f1/html/i2c_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/i2c_8c.html',1,'(Global Namespace)'],['../../lpc43xx/html/i2c_8c.html',1,'(Global Namespace)']]],
   ['i2c_2eh',['i2c.h',['../../stm32f1/html/i2c_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/i2c_8h.html',1,'(Global Namespace)'],['../../lpc43xx/html/i2c_8h.html',1,'(Global Namespace)']]],
-  ['i2c0_5finit',['i2c0_init',['../../lpc43xx/html/group__i2c__defines.html#gaf48dc42ebc887041523c54f0be37d9b4',1,'i2c0_init(void)(Global Namespace)'],['../../lpc43xx/html/group__i2c__file.html#ga33205ecfc1ea222ec5801a1a69fb2185',1,'i2c0_init(void)(Global Namespace)']]],
+  ['i2c0_5finit',['i2c0_init',['../../lpc43xx/html/group__i2c__defines.html#ga011aeffa4d9f687b9777ce8b3ee3566f',1,'i2c0_init(const uint16_t duty_cycle_count)(Global Namespace)'],['../../lpc43xx/html/group__i2c__file.html#ga88cfa2a41e571beeaca3ea44db21c379',1,'i2c0_init(const uint16_t duty_cycle_count)(Global Namespace)']]],
   ['i2c0_5frx_5fbyte',['i2c0_rx_byte',['../../lpc43xx/html/group__i2c__defines.html#ga33abe40b345d3546dc0c9f72abc80b52',1,'i2c0_rx_byte(void)(Global Namespace)'],['../../lpc43xx/html/group__i2c__file.html#ga33abe40b345d3546dc0c9f72abc80b52',1,'i2c0_rx_byte(void)(Global Namespace)']]],
   ['i2c0_5fstop',['i2c0_stop',['../../lpc43xx/html/group__i2c__defines.html#ga7b95bb8aa6e5a8f06a4394bc73ed265b',1,'i2c0_stop(void)(Global Namespace)'],['../../lpc43xx/html/group__i2c__file.html#ga7b95bb8aa6e5a8f06a4394bc73ed265b',1,'i2c0_stop(void)(Global Namespace)']]],
   ['i2c0_5ftx_5fbyte',['i2c0_tx_byte',['../../lpc43xx/html/group__i2c__defines.html#ga59d6e9ccaa09b279e24a263d21407ae4',1,'i2c0_tx_byte(uint8_t byte)(Global Namespace)'],['../../lpc43xx/html/group__i2c__file.html#ga59d6e9ccaa09b279e24a263d21407ae4',1,'i2c0_tx_byte(uint8_t byte)(Global Namespace)']]],
@@ -42,6 +42,8 @@ var searchData=
   ['i2s_2eh',['i2s.h',['../../lpc43xx/html/i2s_8h.html',1,'']]],
   ['i2s_20defines',['I2S Defines',['../../lpc43xx/html/group__i2s__defines.html',1,'']]],
   ['initial_5fsp_5fvalue',['initial_sp_value',['../../cm3/html/structvector__table__t.html#aeb5ce1efa9b9ecd868829beabf24fd91',1,'vector_table_t']]],
+  ['ipc_2ec',['ipc.c',['../../lpc43xx/html/ipc_8c.html',1,'']]],
+  ['ipc_2eh',['ipc.h',['../../lpc43xx/html/ipc_8h.html',1,'']]],
   ['irq',['irq',['../../cm3/html/structvector__table__t.html#a14df56a3e6131a72bcd0298a0187239e',1,'vector_table_t']]],
   ['itm_2eh',['itm.h',['../../cm3/html/itm_8h.html',1,'']]],
   ['iwdg_2ec',['iwdg.c',['../../stm32f1/html/iwdg_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/iwdg_8c.html',1,'(Global Namespace)']]],

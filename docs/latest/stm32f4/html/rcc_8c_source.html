@@ -281,7 +281,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        },</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;};</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
-<div class="line"><a name="l00163"></a><span class="lineno"><a class="code" href="rcc_8c.html#a451b64c9cf47aaa4977f1c4a5c9eb170">  163</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#afb2280aff17e5e44119435da2aec144d">rcc_osc_ready_int_clear</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823">osc_t</a> osc)</div>
+<div class="line"><a name="l00163"></a><span class="lineno"><a class="code" href="rcc_8c.html#a451b64c9cf47aaa4977f1c4a5c9eb170">  163</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rcc_8h.html#a451b64c9cf47aaa4977f1c4a5c9eb170">rcc_osc_ready_int_clear</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823">osc_t</a> osc)</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;{</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">switch</span> (osc) {</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a>:</div>
@@ -616,9 +616,9 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;        <span class="comment">/* Enable/disable high performance mode */</span></div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        <span class="keywordflow">if</span> (!clock-&gt;<a class="code" href="structclock__scale__t.html#a16afff7afb797982dc989bfdeaae0e77">power_save</a>) {</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(<a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a09689abe50d1577a43c296951050af57">SCALE1</a>);</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                <a class="code" href="pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60">pwr_set_vos_scale</a>(<a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a09689abe50d1577a43c296951050af57">SCALE1</a>);</div>
 <div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;                <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(<a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a5132140ed531dfa4a08549302c36731a">SCALE2</a>);</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;                <a class="code" href="pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60">pwr_set_vos_scale</a>(<a class="code" href="pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a5132140ed531dfa4a08549302c36731a">SCALE2</a>);</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;        }</div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;</div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;        <span class="comment">/*</span></div>
@@ -637,7 +637,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;        <a class="code" href="rcc_8h.html#a0f9fac6ac510e119aebe5f62c53f073a">rcc_wait_for_osc_ready</a>(<a class="code" href="rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a>);</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;</div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;        <span class="comment">/* Configure flash settings. */</span></div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        <a class="code" href="flash__common__f24_8c.html#a9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b">flash_config</a>);</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        <a class="code" href="flash__common__f234_8c.html#a9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b">flash_config</a>);</div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;        <span class="comment">/* Select PLL as SYSCLK source. */</span></div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        <a class="code" href="rcc_8h.html#a2c291271812c333d975807cd5ec99a36">rcc_set_sysclk_source</a>(<a class="code" href="rcc_8h.html#a87389cacb2eaf53730da13a2a33cd487">RCC_CFGR_SW_PLL</a>);</div>
@@ -667,7 +667,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="rcc_8c.html">rcc.c</a></li>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:25 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

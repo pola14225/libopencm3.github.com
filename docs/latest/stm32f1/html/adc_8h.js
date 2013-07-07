@@ -348,7 +348,7 @@ var adc_8h =
     [ "adc_eoc_injected", "adc_8h.html#gad2a065923adced21827480f124ff4a61", null ],
     [ "adc_off", "adc_8h.html#ga929c3401331118aecf2aba217d88a108", null ],
     [ "adc_on", "adc_8h.html#ga3ec44a6d5e28b3626c59ef9a85c7c4e5", null ],
-    [ "adc_power_on", "adc_8h.html#ga4411d46556442a9121328a768d74a3a5", null ],
+    [ "adc_power_on", "adc_8h.html#ga51f01f6dedbcfc4231e0fc1d8943d956", null ],
     [ "adc_read_injected", "adc_8h.html#gab96e1ce8d28ce696dc70e231a8da936e", null ],
     [ "adc_read_regular", "adc_8h.html#ga52c4b90afb2a3aa032794342b8eaf38e", null ],
     [ "adc_reset_calibration", "adc_8h.html#ga640d0e7ddeb7b7be90693edee48b10f1", null ],

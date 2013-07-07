@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/rtc.h&gt;</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/pwr.h&gt;</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="rtc_8c.html#ab1e868e549aa76264b9d0c9b916f538d">   41</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a3c9f215d0ac18bd0aa1eee9164963382">rtc_awake_from_off</a>(<a class="code" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a> clock_source)</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="rtc_8c.html#ab1e868e549aa76264b9d0c9b916f538d">   41</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#ab1e868e549aa76264b9d0c9b916f538d">rtc_awake_from_off</a>(<a class="code" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a> clock_source)</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        uint32_t reg32;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
@@ -415,7 +415,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="keywordflow">if</span> (reg32 != 0) {</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                <a class="code" href="rtc_8h.html#a19032c3fbc1546712c5bc534e5ddbf48">rtc_awake_from_standby</a>();</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                <a class="code" href="rtc_8h.html#a3c9f215d0ac18bd0aa1eee9164963382">rtc_awake_from_off</a>(clock_source);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                <a class="code" href="rtc_8h.html#ab1e868e549aa76264b9d0c9b916f538d">rtc_awake_from_off</a>(clock_source);</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                <a class="code" href="rtc_8h.html#a1b2c2b6aa8879eb16f7cf3207587725e">rtc_set_prescale_val</a>(prescale_val);</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        }</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;}</div>
@@ -425,7 +425,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="rtc_8c.html">rtc.c</a></li>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:15 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

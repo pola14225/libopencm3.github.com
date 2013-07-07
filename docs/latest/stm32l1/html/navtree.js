@@ -43,13 +43,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"globals_0x6c.html",
-"group__STM32L1xx__rcc__defines.html#ga40c164dc946f4cba1e3fc87b0c997016",
-"group__dma__file.html#ga5e166bb1ea36c1c7966515ddd0c95195",
-"group__rcc__apb1enr__en.html#ga8033e0312aea02ae7eb2d57da13e8298",
-"iwdg__common__all_8c.html#gac3a052b86bfb2e144bff152e95ec8f2b",
-"rcc_8h.html#ga5f5d6161e92d2708ee1e2d0517c10c28",
-"spi__common__all_8c.html#gacd6b278668088bce197d6401787c4e62"
+"functions_vars.html",
+"group__STM32L1xx__rcc__defines.html#ga2ff68f124bf59d2f265a91b0095abcbe",
+"group__dma__file.html#ga1f69698a62a464cf9854ec02461bec89",
+"group__pwr__vos.html#gab760fe0b783cb51a37e4d0089c4077fa",
+"i2c__common__all_8c.html#gac49e8baa5610af5907ea5ba76f78c69c",
+"rcc_8h.html#ga431e24972b5319db8aa2cac25bba73ed",
+"spi__common__all_8c.html#ga4c552fab799a9009bc541a3fb41061fe"
 ];
 
 var navTreeSubIndices = new Array();

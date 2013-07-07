@@ -149,5 +149,5 @@ var ethernet_8h =
     [ "ETH_PTPTTHR", "ethernet_8h.html#ae67868e9926f1c0546f5d58a34736e99", null ],
     [ "ETH_PTPTTLR", "ethernet_8h.html#a1bbad3e622a49b4a17da1bd122ca86f0", null ],
     [ "eth_smi_read", "ethernet_8h.html#a7ec34f2f7d95e170c72bbdd37ba217b3", null ],
-    [ "eth_smi_write", "ethernet_8h.html#a068191da035f43e8f38c0f5d701ecb90", null ]
+    [ "eth_smi_write", "ethernet_8h.html#a792615b218f5177655db66776b2ef93f", null ]
 ];

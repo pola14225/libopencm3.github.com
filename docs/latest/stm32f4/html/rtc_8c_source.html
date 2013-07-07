@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">    @warning You must unlock the registers before using this function</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="rtc_8c.html#a09f8be3f6c04c89c445f9fc82a3d5ab7">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a79d4765fa1ab12869b4962f6129f66c0" title="Enable the wakeup timer.">rtc_enable_wakeup_timer</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="rtc_8c.html#a09f8be3f6c04c89c445f9fc82a3d5ab7">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a09f8be3f6c04c89c445f9fc82a3d5ab7" title="Enable the wakeup timer.">rtc_enable_wakeup_timer</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        RTC_CR |= RTC_CR_WUTE | (RTC_CR_OSEL_WAKEUP &lt;&lt; RTC_CR_OSEL_SHIFT);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="rtc_8h.html#a4c6724c645e96d2741e262d5468d5827" title="Enable the wakeup timer interrupt.">rtc_enable_wakeup_timer_interrupt</a>();</div>
@@ -194,7 +194,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        exti_set_trigger(EXTI22, EXTI_TRIGGER_RISING);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="comment">/* 2. Configure and enable the RTC_WKUP IRQ channel in the NVIC. */</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#ga8feba3782b3c6c173969f6ddcee3cfb6">nvic_enable_irq</a>(NVIC_RTC_WKUP_IRQ);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic_enable_irq</a>(NVIC_RTC_WKUP_IRQ);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66">nvic_set_priority</a>(NVIC_RTC_WKUP_IRQ, 1);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="comment">/* 3. Configure the RTC to generate the RTC wakeup timer event. */</span></div>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="rtc_8c.html">rtc.c</a></li>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:25 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -27,10 +27,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>BEGIN_DECLS void</type>
+      <type>void</type>
       <name>cm3_assert_failed</name>
       <anchorfile>group__debugging.html</anchorfile>
-      <anchor>ga38cff04f6de06089b014de620ec7576b</anchor>
+      <anchor>ga9c0fa84fe9c0e99ad57a3d079ba41ddc</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -785,10 +785,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>BEGIN_DECLS void</type>
+      <type>void</type>
       <name>nvic_enable_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga8feba3782b3c6c173969f6ddcee3cfb6</anchor>
+      <anchor>gae5fdef5fd0dc9db35df8e84715fe8179</anchor>
       <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
@@ -2351,10 +2351,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>BEGIN_DECLS void</type>
+      <type>void</type>
       <name>systick_set_reload</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gac8dbc7c5f007177712824ccf91cc3b33</anchor>
+      <anchor>gaaa997323bf7f3378eb78a6277abc913f</anchor>
       <arglist>(uint32_t value)</arglist>
     </member>
     <member kind="function">
@@ -2647,10 +2647,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>BEGIN_DECLS void</type>
+      <type>void</type>
       <name>cm3_assert_failed</name>
       <anchorfile>group__debugging.html</anchorfile>
-      <anchor>ga38cff04f6de06089b014de620ec7576b</anchor>
+      <anchor>ga9c0fa84fe9c0e99ad57a3d079ba41ddc</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -2730,10 +2730,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>BEGIN_DECLS void</type>
+      <type>void</type>
       <name>nvic_enable_irq</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga8feba3782b3c6c173969f6ddcee3cfb6</anchor>
+      <anchor>gae5fdef5fd0dc9db35df8e84715fe8179</anchor>
       <arglist>(uint8_t irqn)</arglist>
     </member>
     <member kind="function">
@@ -3014,10 +3014,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>BEGIN_DECLS void</type>
+      <type>void</type>
       <name>systick_set_reload</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gac8dbc7c5f007177712824ccf91cc3b33</anchor>
+      <anchor>gaaa997323bf7f3378eb78a6277abc913f</anchor>
       <arglist>(uint32_t value)</arglist>
     </member>
     <member kind="function">

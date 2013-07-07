@@ -10,6 +10,8 @@ var searchData=
   ['spi_2eh',['spi.h',['../../stm32f1/html/spi_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/spi_8h.html',1,'(Global Namespace)']]],
   ['spi_5fcommon_5fall_2ec',['spi_common_all.c',['../../stm32f1/html/spi__common__all_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/spi__common__all_8c.html',1,'(Global Namespace)']]],
   ['spi_5fcommon_5fall_2eh',['spi_common_all.h',['../../stm32f1/html/spi__common__all_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/spi__common__all_8h.html',1,'(Global Namespace)']]],
+  ['spi_5fcommon_5ff124_2ec',['spi_common_f124.c',['../../stm32f1/html/spi__common__f124_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/spi__common__f124_8c.html',1,'(Global Namespace)']]],
+  ['spi_5fcommon_5ff124_2eh',['spi_common_f124.h',['../../stm32f1/html/spi__common__f124_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/spi__common__f124_8h.html',1,'(Global Namespace)']]],
   ['spi_5fcommon_5ff24_2eh',['spi_common_f24.h',['../../stm32f4/html/spi__common__f24_8h.html',1,'']]],
   ['ssp_2ec',['ssp.c',['../../lpc43xx/html/ssp_8c.html',1,'']]],
   ['ssp_2eh',['ssp.h',['../../lpc43xx/html/ssp_8h.html',1,'']]],

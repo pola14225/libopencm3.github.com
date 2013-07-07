@@ -585,10 +585,85 @@
     <filename>doc-stm32f2_8h</filename>
   </compound>
   <compound kind="file">
+    <name>exti.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f2/</path>
+    <filename>exti_8h</filename>
+    <includes id="exti__common__l1f24_8h" name="exti_common_l1f24.h" local="no" imported="no">libopencm3/stm32/common/exti_common_l1f24.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>exti_common_all.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>exti__common__all_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>exti_common_l1f24.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>exti__common__l1f24_8h</filename>
+  </compound>
+  <compound kind="file">
     <name>flash.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f2/</path>
     <filename>flash_8h</filename>
     <includes id="flash__common__f24_8h" name="flash_common_f24.h" local="no" imported="no">libopencm3/stm32/common/flash_common_f24.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>flash_common_f234.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>flash__common__f234_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_set_ws</name>
+      <anchorfile>flash__common__f234_8c.html</anchorfile>
+      <anchor>a9347b16d27d64b79f507dc9cad8633b2</anchor>
+      <arglist>(uint32_t ws)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock</name>
+      <anchorfile>flash__common__f234_8c.html</anchorfile>
+      <anchor>a4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock</name>
+      <anchorfile>flash__common__f234_8c.html</anchorfile>
+      <anchor>acd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgperr_flag</name>
+      <anchorfile>flash__common__f234_8c.html</anchorfile>
+      <anchor>a05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_eop_flag</name>
+      <anchorfile>flash__common__f234_8c.html</anchorfile>
+      <anchor>a824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_bsy_flag</name>
+      <anchorfile>flash__common__f234_8c.html</anchorfile>
+      <anchor>a37dfda93743e7b6285c3d01a7d519001</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_wait_for_last_operation</name>
+      <anchorfile>flash__common__f234_8c.html</anchorfile>
+      <anchor>a72ce389bb20296771479ace8cdb62dff</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>flash_common_f234.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>flash__common__f234_8h</filename>
   </compound>
   <compound kind="file">
     <name>flash_common_f24.c</name>
@@ -659,37 +734,9 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>flash_set_ws</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a9347b16d27d64b79f507dc9cad8633b2</anchor>
-      <arglist>(uint32_t ws)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_unlock</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a4da79f8ffb9ed9576ca165e74f496dbe</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_lock</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>acd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>flash_clear_pgserr_flag</name>
       <anchorfile>flash__common__f24_8c.html</anchorfile>
       <anchor>a7b549ad0d946f48af3339b29b5e193cd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_clear_pgperr_flag</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -701,23 +748,9 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>flash_clear_eop_flag</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>flash_clear_wrperr_flag</name>
       <anchorfile>flash__common__f24_8c.html</anchorfile>
       <anchor>aea367649d8d5709137bec03a9a9d2c66</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_clear_bsy_flag</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a37dfda93743e7b6285c3d01a7d519001</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -739,13 +772,6 @@
       <name>flash_lock_option_bytes</name>
       <anchorfile>flash__common__f24_8c.html</anchorfile>
       <anchor>a3e656c078b282798add1874cd398f1eb</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_wait_for_last_operation</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a72ce389bb20296771479ace8cdb62dff</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -888,9 +914,9 @@
     <filename>gpio__common__all_8h</filename>
   </compound>
   <compound kind="file">
-    <name>gpio_common_f24.c</name>
+    <name>gpio_common_f234.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>gpio__common__f24_8c</filename>
+    <filename>gpio__common__f234_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>gpio_mode_setup</name>
@@ -912,6 +938,11 @@
       <anchor>ga2937f803468b3440302fae213c4c3c14</anchor>
       <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>gpio_common_f234.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>gpio__common__f234_8h</filename>
   </compound>
   <compound kind="file">
     <name>gpio_common_f24.h</name>
@@ -1071,6 +1102,20 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>i2c_set_clock_frequency</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
+      <arglist>(uint32_t i2c, uint8_t freq)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_send_data</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>gaad83fb76f31941e9d0e1083d8e4ea6f0</anchor>
+      <arglist>(uint32_t i2c, uint8_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>i2c_set_fast_mode</name>
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>ga500a4416fdd04daa0439cf9b887a95e5</anchor>
@@ -1082,13 +1127,6 @@
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>ga83ec05549c5d3d3412b3e5c902ad1d07</anchor>
       <arglist>(uint32_t i2c)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>i2c_set_clock_frequency</name>
-      <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
-      <arglist>(uint32_t i2c, uint8_t freq)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -1110,13 +1148,6 @@
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>gac84a8cc0d49c99f032f7ea87ac0f1302</anchor>
       <arglist>(uint32_t i2c, uint8_t slave, uint8_t readwrite)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>i2c_send_data</name>
-      <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gaad83fb76f31941e9d0e1083d8e4ea6f0</anchor>
-      <arglist>(uint32_t i2c, uint8_t data)</arglist>
     </member>
     <member kind="function">
       <type>uint8_t</type>
@@ -4323,10 +4354,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>BEGIN_DECLS void</type>
+      <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
       <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>afb2280aff17e5e44119435da2aec144d</anchor>
+      <anchor>a451b64c9cf47aaa4977f1c4a5c9eb170</anchor>
       <arglist>(osc_t osc)</arglist>
     </member>
     <member kind="function">
@@ -4646,13 +4677,6 @@
       <arglist>(uint32_t spi_peripheral)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
-      <name>spi_init_master</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaa963b02acbae0939ec4537a8136873ed</anchor>
-      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</arglist>
-    </member>
-    <member kind="function">
       <type>void</type>
       <name>spi_enable</name>
       <anchorfile>group__spi__file.html</anchorfile>
@@ -4755,20 +4779,6 @@
       <name>spi_set_next_tx_from_crc</name>
       <anchorfile>group__spi__file.html</anchorfile>
       <anchor>gaabd95475b2fe0fab2a7c22c5ae50aa14</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_dff_8bit</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga715bcb5541f2908d16a661b0a6a07014</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_dff_16bit</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga6665731fd5d37e5dfb00f29f859e6c9c</anchor>
       <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
@@ -4965,6 +4975,37 @@
     <name>spi_common_all.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>spi__common__all_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>spi_common_f124.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>spi__common__f124_8c</filename>
+    <member kind="function">
+      <type>int</type>
+      <name>spi_init_master</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaa963b02acbae0939ec4537a8136873ed</anchor>
+      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_dff_8bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga715bcb5541f2908d16a661b0a6a07014</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_dff_16bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga6665731fd5d37e5dfb00f29f859e6c9c</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>spi_common_f124.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>spi__common__f124_8h</filename>
   </compound>
   <compound kind="file">
     <name>spi_common_f24.h</name>
@@ -5533,6 +5574,18 @@
     <filename>timer__common__all_8h</filename>
   </compound>
   <compound kind="file">
+    <name>timer_common_f234.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>timer__common__f234_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_set_polarity</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>ga5cc4c3f615f4b661a7ba3be837bfb424</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>timer_common_f24.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>timer__common__f24_8c</filename>
@@ -5542,13 +5595,6 @@
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>gaba637f20873990bcd2349c6845d07d2b</anchor>
       <arglist>(uint32_t timer_peripheral, uint32_t option)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_ic_set_polarity</name>
-      <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga5cc4c3f615f4b661a7ba3be837bfb424</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -5626,34 +5672,6 @@
       <name>usart_disable</name>
       <anchorfile>group__usart__file.html</anchorfile>
       <anchor>ga735e4ace80295d87203f64e6d7e6ac76</anchor>
-      <arglist>(uint32_t usart)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usart_send</name>
-      <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga26d0bd4c0eab8e4d32ca13df9526722d</anchor>
-      <arglist>(uint32_t usart, uint16_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint16_t</type>
-      <name>usart_recv</name>
-      <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga0f539661fcdc2e82c4489152393f5d74</anchor>
-      <arglist>(uint32_t usart)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usart_wait_send_ready</name>
-      <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga6d6df6e7a152e4d6e7c433a810403258</anchor>
-      <arglist>(uint32_t usart)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usart_wait_recv_ready</name>
-      <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga4b3dd5bff30927f603d5acc433cc2073</anchor>
       <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
@@ -5740,6 +5758,44 @@
       <anchor>gaac35e7ef814d1a7a5c28ababd16436c0</anchor>
       <arglist>(uint32_t usart)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>usart_common_all.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>usart__common__all_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>usart_common_f124.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>usart__common__f124_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_send</name>
+      <anchorfile>group__usart__file.html</anchorfile>
+      <anchor>ga26d0bd4c0eab8e4d32ca13df9526722d</anchor>
+      <arglist>(uint32_t usart, uint16_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>usart_recv</name>
+      <anchorfile>group__usart__file.html</anchorfile>
+      <anchor>ga0f539661fcdc2e82c4489152393f5d74</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_wait_send_ready</name>
+      <anchorfile>group__usart__file.html</anchorfile>
+      <anchor>ga6d6df6e7a152e4d6e7c433a810403258</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_wait_recv_ready</name>
+      <anchorfile>group__usart__file.html</anchorfile>
+      <anchor>ga4b3dd5bff30927f603d5acc433cc2073</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
     <member kind="function">
       <type>bool</type>
       <name>usart_get_flag</name>
@@ -5756,9 +5812,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>usart_common_all.h</name>
+    <name>usart_common_f124.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>usart__common__all_8h</filename>
+    <filename>usart__common__f124_8h</filename>
   </compound>
   <compound kind="file">
     <name>usart_common_f24.h</name>
@@ -6458,6 +6514,20 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>i2c_set_clock_frequency</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
+      <arglist>(uint32_t i2c, uint8_t freq)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_send_data</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>gaad83fb76f31941e9d0e1083d8e4ea6f0</anchor>
+      <arglist>(uint32_t i2c, uint8_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>i2c_set_fast_mode</name>
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>ga500a4416fdd04daa0439cf9b887a95e5</anchor>
@@ -6469,13 +6539,6 @@
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>ga83ec05549c5d3d3412b3e5c902ad1d07</anchor>
       <arglist>(uint32_t i2c)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>i2c_set_clock_frequency</name>
-      <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
-      <arglist>(uint32_t i2c, uint8_t freq)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -6497,13 +6560,6 @@
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>gac84a8cc0d49c99f032f7ea87ac0f1302</anchor>
       <arglist>(uint32_t i2c, uint8_t slave, uint8_t readwrite)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>i2c_send_data</name>
-      <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>gaad83fb76f31941e9d0e1083d8e4ea6f0</anchor>
-      <arglist>(uint32_t i2c, uint8_t data)</arglist>
     </member>
     <member kind="function">
       <type>uint8_t</type>
@@ -6710,13 +6766,6 @@
       <arglist>(uint32_t spi_peripheral)</arglist>
     </member>
     <member kind="function">
-      <type>int</type>
-      <name>spi_init_master</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaa963b02acbae0939ec4537a8136873ed</anchor>
-      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</arglist>
-    </member>
-    <member kind="function">
       <type>void</type>
       <name>spi_enable</name>
       <anchorfile>group__spi__file.html</anchorfile>
@@ -6819,20 +6868,6 @@
       <name>spi_set_next_tx_from_crc</name>
       <anchorfile>group__spi__file.html</anchorfile>
       <anchor>gaabd95475b2fe0fab2a7c22c5ae50aa14</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_dff_8bit</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga715bcb5541f2908d16a661b0a6a07014</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_dff_16bit</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga6665731fd5d37e5dfb00f29f859e6c9c</anchor>
       <arglist>(uint32_t spi)</arglist>
     </member>
     <member kind="function">
@@ -7022,6 +7057,27 @@
       <name>spi_disable_rx_dma</name>
       <anchorfile>group__spi__file.html</anchorfile>
       <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>spi_init_master</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaa963b02acbae0939ec4537a8136873ed</anchor>
+      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_dff_8bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga715bcb5541f2908d16a661b0a6a07014</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_dff_16bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga6665731fd5d37e5dfb00f29f859e6c9c</anchor>
       <arglist>(uint32_t spi)</arglist>
     </member>
   </compound>
@@ -7570,17 +7626,17 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>timer_set_option</name>
-      <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>gaba637f20873990bcd2349c6845d07d2b</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t option)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>timer_ic_set_polarity</name>
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>ga5cc4c3f615f4b661a7ba3be837bfb424</anchor>
       <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_option</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>gaba637f20873990bcd2349c6845d07d2b</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t option)</arglist>
     </member>
     <docanchor file="group__timer__file">tim_common</docanchor>
     <docanchor file="group__timer__file">tim_api_ex</docanchor>
@@ -7643,34 +7699,6 @@
       <name>usart_disable</name>
       <anchorfile>group__usart__file.html</anchorfile>
       <anchor>ga735e4ace80295d87203f64e6d7e6ac76</anchor>
-      <arglist>(uint32_t usart)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usart_send</name>
-      <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga26d0bd4c0eab8e4d32ca13df9526722d</anchor>
-      <arglist>(uint32_t usart, uint16_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint16_t</type>
-      <name>usart_recv</name>
-      <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga0f539661fcdc2e82c4489152393f5d74</anchor>
-      <arglist>(uint32_t usart)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usart_wait_send_ready</name>
-      <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga6d6df6e7a152e4d6e7c433a810403258</anchor>
-      <arglist>(uint32_t usart)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usart_wait_recv_ready</name>
-      <anchorfile>group__usart__file.html</anchorfile>
-      <anchor>ga4b3dd5bff30927f603d5acc433cc2073</anchor>
       <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
@@ -7755,6 +7783,34 @@
       <name>usart_disable_error_interrupt</name>
       <anchorfile>group__usart__file.html</anchorfile>
       <anchor>gaac35e7ef814d1a7a5c28ababd16436c0</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_send</name>
+      <anchorfile>group__usart__file.html</anchorfile>
+      <anchor>ga26d0bd4c0eab8e4d32ca13df9526722d</anchor>
+      <arglist>(uint32_t usart, uint16_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>usart_recv</name>
+      <anchorfile>group__usart__file.html</anchorfile>
+      <anchor>ga0f539661fcdc2e82c4489152393f5d74</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_wait_send_ready</name>
+      <anchorfile>group__usart__file.html</anchorfile>
+      <anchor>ga6d6df6e7a152e4d6e7c433a810403258</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_wait_recv_ready</name>
+      <anchorfile>group__usart__file.html</anchorfile>
+      <anchor>ga4b3dd5bff30927f603d5acc433cc2073</anchor>
       <arglist>(uint32_t usart)</arglist>
     </member>
     <member kind="function">
@@ -8100,8 +8156,12 @@
     <file>crypto_common_f24.h</file>
     <file>dac_common_all.h</file>
     <file>dma_common_f24.h</file>
+    <file>exti_common_all.h</file>
+    <file>exti_common_l1f24.h</file>
+    <file>flash_common_f234.h</file>
     <file>flash_common_f24.h</file>
     <file>gpio_common_all.h</file>
+    <file>gpio_common_f234.h</file>
     <file>gpio_common_f24.h</file>
     <file>hash_common_f24.h</file>
     <file>i2c_common_all.h</file>
@@ -8111,10 +8171,12 @@
     <file>rng_common_f24.h</file>
     <file>rtc_common_bcd.h</file>
     <file>spi_common_all.h</file>
+    <file>spi_common_f124.h</file>
     <file>spi_common_f24.h</file>
     <file>timer_common_all.h</file>
     <file>timer_common_f24.h</file>
     <file>usart_common_all.h</file>
+    <file>usart_common_f124.h</file>
     <file>usart_common_f24.h</file>
   </compound>
   <compound kind="dir">
@@ -8125,18 +8187,22 @@
     <file>crypto_common_f24.c</file>
     <file>dac_common_all.c</file>
     <file>dma_common_f24.c</file>
+    <file>flash_common_f234.c</file>
     <file>flash_common_f24.c</file>
     <file>gpio_common_all.c</file>
-    <file>gpio_common_f24.c</file>
+    <file>gpio_common_f234.c</file>
     <file>hash_common_f24.c</file>
     <file>i2c_common_all.c</file>
     <file>iwdg_common_all.c</file>
     <file>pwr_common_all.c</file>
     <file>rtc_common_bcd.c</file>
     <file>spi_common_all.c</file>
+    <file>spi_common_f124.c</file>
     <file>timer_common_all.c</file>
+    <file>timer_common_f234.c</file>
     <file>timer_common_f24.c</file>
     <file>usart_common_all.c</file>
+    <file>usart_common_f124.c</file>
   </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f2/</name>
@@ -8147,6 +8213,7 @@
     <file>dac.h</file>
     <file>dma.h</file>
     <file>doc-stm32f2.h</file>
+    <file>exti.h</file>
     <file>flash.h</file>
     <file>gpio.h</file>
     <file>hash.h</file>

@@ -35,7 +35,7 @@ var searchData=
   ['timer_5fic_5fenable',['timer_ic_enable',['../../stm32f1/html/group__timer__file.html#gade3715490b612154cf66018ab53a497d',1,]]],
   ['timer_5fic_5fset_5ffilter',['timer_ic_set_filter',['../../stm32f1/html/group__timer__file.html#ga93008db9bfd48c1a8f93e90aacf0bc96',1,]]],
   ['timer_5fic_5fset_5finput',['timer_ic_set_input',['../../stm32f1/html/group__timer__file.html#gadc5738856e9b3d8776950176b468a738',1,]]],
-  ['timer_5fic_5fset_5fpolarity',['timer_ic_set_polarity',['../../stm32f4/html/group__timer__file.html#ga5cc4c3f615f4b661a7ba3be837bfb424',1,]]],
+  ['timer_5fic_5fset_5fpolarity',['timer_ic_set_polarity',['../../stm32f1/html/group__timer__file.html#ga5cc4c3f615f4b661a7ba3be837bfb424',1,]]],
   ['timer_5fic_5fset_5fprescaler',['timer_ic_set_prescaler',['../../stm32f1/html/group__timer__file.html#ga8dfef123f54719260da6841c6ac91958',1,]]],
   ['timer_5finterrupt_5fsource',['timer_interrupt_source',['../../stm32f1/html/group__timer__file.html#ga5ac041bc0363fbb857b2c783e675fc69',1,]]],
   ['timer_5fone_5fshot_5fmode',['timer_one_shot_mode',['../../stm32f1/html/group__timer__file.html#ga1697ca3e864a9cfd07ce47bef8313525',1,]]],

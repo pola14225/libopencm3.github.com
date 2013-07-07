@@ -18,12 +18,21 @@ var NAVTREE =
     [ "EMF32 Giant Gecko", "../../emf32gg/html/modules.html", null ],
     [ "EMF32 Leopard Gecko", "../../emf32lg/html/modules.html", null ],
     [ "EMF32 Tiny Gecko", "../../emf32tg/html/modules.html", null ],
+    [ "Data Structures", null, [
+      [ "Data Structures", "annotated.html", "annotated" ],
+      [ "Data Structure Index", "classes.html", null ],
+      [ "Data Fields", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
+    ] ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", "globals_eval" ]
       ] ]
@@ -34,8 +43,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "adc_8h.html",
-"group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2af542b4d5d90d5003c47f4d6b889426de",
-"scu_8h.html#gga9ebba78e64868d90ae94cabceec832d2ae449230f3a5e944f98b8a5b217d5ffc0"
+"group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2aed01b69c5cfa6af470984ec888b8d395",
+"scu_8h.html#gga9ebba78e64868d90ae94cabceec832d2ad8024902c9096a4c82f80f54f4da50ae"
 ];
 
 var navTreeSubIndices = new Array();

@@ -1,5 +1,5 @@
 <map id="rtc_auto_awake" name="rtc_auto_awake">
-<area shape="rect" id="node3" href="$rtc_8h.html#a3c9f215d0ac18bd0aa1eee9164963382" title="rtc_awake_from_off" alt="" coords="184,5,320,35"/>
+<area shape="rect" id="node3" href="$rtc_8h.html#ab1e868e549aa76264b9d0c9b916f538d" title="rtc_awake_from_off" alt="" coords="184,5,320,35"/>
 <area shape="rect" id="node7" href="$rtc_8h.html#a19032c3fbc1546712c5bc534e5ddbf48" title="rtc_awake_from_standby" alt="" coords="168,59,336,88"/>
 <area shape="rect" id="node9" href="$rtc_8h.html#a1b2c2b6aa8879eb16f7cf3207587725e" title="rtc_set_prescale_val" alt="" coords="181,112,323,141"/>
 <area shape="rect" id="node5" href="$group__STM32F1xx__rcc__defines.html#gaa02e63deae78644c393004fb900fe584" title="RCC Reset the backup domain." alt="" coords="385,5,551,35"/>

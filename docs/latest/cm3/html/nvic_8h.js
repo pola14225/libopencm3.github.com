@@ -24,7 +24,7 @@ var nvic_8h =
     [ "nmi_handler", "nvic_8h.html#ga181d6892388ef1987ba92d0ae80e9359", null ],
     [ "nvic_clear_pending_irq", "nvic_8h.html#ga55916a6ef4b3380692dc46bb0135386e", null ],
     [ "nvic_disable_irq", "nvic_8h.html#gaf95cc3827a6e48d82c6046c639c80dc9", null ],
-    [ "nvic_enable_irq", "nvic_8h.html#ga8feba3782b3c6c173969f6ddcee3cfb6", null ],
+    [ "nvic_enable_irq", "nvic_8h.html#gae5fdef5fd0dc9db35df8e84715fe8179", null ],
     [ "nvic_generate_software_interrupt", "nvic_8h.html#ga236a68110c418bc6b100eb6756ec4ea9", null ],
     [ "nvic_get_active_irq", "nvic_8h.html#gaa5ef6143fd0b814310e5475473f80b43", null ],
     [ "nvic_get_irq_enabled", "nvic_8h.html#gaa2244a9f5f8c94a82bc8cf41d6ef254d", null ],

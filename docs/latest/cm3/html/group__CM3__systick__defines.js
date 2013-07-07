@@ -21,5 +21,5 @@ var group__CM3__systick__defines =
     [ "systick_interrupt_disable", "group__CM3__systick__defines.html#gaee4e252973ddd7c5ffaa872da3b6a3fe", null ],
     [ "systick_interrupt_enable", "group__CM3__systick__defines.html#ga062163783d8d4106c8b945ed97b4decc", null ],
     [ "systick_set_clocksource", "group__CM3__systick__defines.html#ga13726e0964b31c85269beddbdc1d35e7", null ],
-    [ "systick_set_reload", "group__CM3__systick__defines.html#gac8dbc7c5f007177712824ccf91cc3b33", null ]
+    [ "systick_set_reload", "group__CM3__systick__defines.html#gaaa997323bf7f3378eb78a6277abc913f", null ]
 ];

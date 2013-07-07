@@ -49,7 +49,7 @@ var flash_8h =
     [ "flash_halfcycle_enable", "flash_8h.html#ad1bac4f23619580572e4d2d1c947c8b8", null ],
     [ "flash_lock", "flash_8h.html#acd9e0d8e9f52bd1c65fda2ce553f7600", null ],
     [ "flash_prefetch_buffer_disable", "flash_8h.html#a2628cc1edfc44b2decb15d989f6c79ec", null ],
-    [ "flash_prefetch_buffer_enable", "flash_8h.html#a3dcb91a73f8857782fb75bdec01819a9", null ],
+    [ "flash_prefetch_buffer_enable", "flash_8h.html#a1f646323f7860901e86ca15027838396", null ],
     [ "flash_program_half_word", "flash_8h.html#af5077b5726c70fa9418db9d73182f89d", null ],
     [ "flash_program_option_bytes", "flash_8h.html#ab759a6e89a54cfb15a60c0e8f4eb66df", null ],
     [ "flash_program_word", "flash_8h.html#a73937aa6df8710e95425b165730626a2", null ],

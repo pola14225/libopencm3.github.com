@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['uart_2ec',['uart.c',['../../lm4f/html/uart_8c.html',1,'']]],
-  ['uart_2eh',['uart.h',['../../lm4f/html/uart_8h.html',1,'']]],
+  ['uart_2ec',['uart.c',['../../lm4f/html/uart_8c.html',1,'(Global Namespace)'],['../../lpc43xx/html/uart_8c.html',1,'(Global Namespace)']]],
+  ['uart_2eh',['uart.h',['../../lm4f/html/uart_8h.html',1,'(Global Namespace)'],['../../lpc43xx/html/uart_8h.html',1,'(Global Namespace)']]],
   ['uart_5fclear_5finterrupt_5fflag',['uart_clear_interrupt_flag',['../../lm4f/html/group__uart__defines.html#gab5fd7ee81bc609e4aca33a4b9079611b',1,'uart_clear_interrupt_flag(uint32_t uart, enum uart_interrupt_flag ints)(Global Namespace)'],['../../lm4f/html/group__uart__irq.html#gab5fd7ee81bc609e4aca33a4b9079611b',1,'uart_clear_interrupt_flag(uint32_t uart, enum uart_interrupt_flag ints)(Global Namespace)']]],
   ['uart_5fclock_5ffrom_5fpiosc',['uart_clock_from_piosc',['../../lm4f/html/group__uart__defines.html#gab9d2f5223bc6f08621e9b6d38f8a4fb9',1,'uart_clock_from_piosc(uint32_t uart)(Global Namespace)'],['../../lm4f/html/group__uart__config.html#gab9d2f5223bc6f08621e9b6d38f8a4fb9',1,'uart_clock_from_piosc(uint32_t uart)(Global Namespace)']]],
   ['uart_5fclock_5ffrom_5fsysclk',['uart_clock_from_sysclk',['../../lm4f/html/group__uart__defines.html#ga917d75f562fe93eea7c684756f9f02c1',1,'uart_clock_from_sysclk(uint32_t uart)(Global Namespace)'],['../../lm4f/html/group__uart__config.html#ga917d75f562fe93eea7c684756f9f02c1',1,'uart_clock_from_sysclk(uint32_t uart)(Global Namespace)']]],
@@ -90,6 +90,8 @@ var searchData=
   ['usart_2eh',['usart.h',['../../stm32f1/html/usart_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/usart_8h.html',1,'(Global Namespace)']]],
   ['usart_5fcommon_5fall_2ec',['usart_common_all.c',['../../stm32f1/html/usart__common__all_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/usart__common__all_8c.html',1,'(Global Namespace)']]],
   ['usart_5fcommon_5fall_2eh',['usart_common_all.h',['../../stm32f1/html/usart__common__all_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/usart__common__all_8h.html',1,'(Global Namespace)']]],
+  ['usart_5fcommon_5ff124_2ec',['usart_common_f124.c',['../../stm32f1/html/usart__common__f124_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/usart__common__f124_8c.html',1,'(Global Namespace)']]],
+  ['usart_5fcommon_5ff124_2eh',['usart_common_f124.h',['../../stm32f1/html/usart__common__f124_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/usart__common__f124_8h.html',1,'(Global Namespace)']]],
   ['usart_5fcommon_5ff24_2eh',['usart_common_f24.h',['../../stm32f4/html/usart__common__f24_8h.html',1,'']]],
   ['usart_20defines',['USART Defines',['../../stm32f1/html/group__usart__defines.html',1,'']]],
   ['usart_5fdisable',['usart_disable',['../../stm32f1/html/group__usart__file.html#ga735e4ace80295d87203f64e6d7e6ac76',1,]]],
@@ -139,5 +141,7 @@ var searchData=
   ['usb_5fint_5fsof',['USB_INT_SOF',['../../lm4f/html/group__usb__defines.html#gga0f2f22f2ab06463da36ae9c6c2a63ea6a0d3be5f3ef316460b344e80ead93a4e1',1,]]],
   ['usb_5fint_5fsuspend',['USB_INT_SUSPEND',['../../lm4f/html/group__usb__defines.html#gga0f2f22f2ab06463da36ae9c6c2a63ea6aa36cce94b72cb32846cb6478806e933b',1,]]],
   ['usb_5finterrupt',['usb_interrupt',['../../lm4f/html/group__usb__defines.html#ga0f2f22f2ab06463da36ae9c6c2a63ea6',1,]]],
-  ['usb_5flm4f_2ec',['usb_lm4f.c',['../../lm4f/html/usb__lm4f_8c.html',1,'']]]
+  ['usb_5flm4f_2ec',['usb_lm4f.c',['../../lm4f/html/usb__lm4f_8c.html',1,'']]],
+  ['usb_5fqueue_5fhead_5ft',['usb_queue_head_t',['../../lpc43xx/html/structusb__queue__head__t.html',1,'']]],
+  ['usb_5ftransfer_5fdescriptor_5ft',['usb_transfer_descriptor_t',['../../lpc43xx/html/structusb__transfer__descriptor__t.html',1,'']]]
 ];

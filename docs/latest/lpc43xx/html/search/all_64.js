@@ -4,5 +4,6 @@ var searchData=
   ['debug_5fmonitor_5fhandler',['debug_monitor_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2',1,]]],
   ['debugging',['Debugging',['../../../cm3/html/group__debugging.html',1,'']]],
   ['doc_2dcm3_2eh',['doc-cm3.h',['../../../cm3/html/doc-cm3_8h.html',1,'']]],
-  ['doc_2dlpc43xx_2eh',['doc-lpc43xx.h',['../doc-lpc43xx_8h.html',1,'']]]
+  ['doc_2dlpc43xx_2eh',['doc-lpc43xx.h',['../doc-lpc43xx_8h.html',1,'']]],
+  ['dummy_5fread',['dummy_read',['../uart_8c.html#ad3b4380fe8ac2e40c6d5367d9768fbd3',1,'uart.c']]]
 ];

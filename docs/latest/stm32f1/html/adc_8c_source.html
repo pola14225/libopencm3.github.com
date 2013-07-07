@@ -242,7 +242,7 @@ $(document).ready(function(){initNavTree('adc_8c_source.html','');});
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment">@param[in] adc Unsigned int32. ADC block register address base @ref adc_reg_base</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno"><a class="code" href="group__STM32F1xx__adc__file.html#ga51f01f6dedbcfc4231e0fc1d8943d956">  125</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__adc__defines.html#ga4411d46556442a9121328a768d74a3a5" title="ADC Power On.">adc_power_on</a>(uint32_t adc)</div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="code" href="group__STM32F1xx__adc__file.html#ga51f01f6dedbcfc4231e0fc1d8943d956">  125</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__adc__defines.html#ga51f01f6dedbcfc4231e0fc1d8943d956" title="ADC Power On.">adc_power_on</a>(uint32_t adc)</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;{</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">if</span> (!(<a class="code" href="group__adc__defines.html#ga7015caf0db482a0772aadbcdb5a29b98">ADC_CR2</a>(adc) &amp; <a class="code" href="group__adc__defines.html#ga89b646f092b052d8488d2016f6290f0e">ADC_CR2_ADON</a>)) {</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <a class="code" href="group__adc__defines.html#ga7015caf0db482a0772aadbcdb5a29b98">ADC_CR2</a>(adc) |= <a class="code" href="group__adc__defines.html#ga89b646f092b052d8488d2016f6290f0e">ADC_CR2_ADON</a>;</div>
@@ -1250,7 +1250,7 @@ $(document).ready(function(){initNavTree('adc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="adc_8c.html">adc.c</a></li>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:15 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

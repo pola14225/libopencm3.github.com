@@ -14,17 +14,22 @@ var files =
     [ "i2c.c", "i2c_8c.html", "i2c_8c" ],
     [ "i2c.h", "i2c_8h.html", "i2c_8h" ],
     [ "i2s.h", "i2s_8h.html", null ],
+    [ "ipc.c", "ipc_8c.html", "ipc_8c" ],
+    [ "ipc.h", "ipc_8h.html", "ipc_8h" ],
     [ "memorymap.h", "memorymap_8h.html", null ],
     [ "rgu.h", "rgu_8h.html", null ],
     [ "ritimer.h", "ritimer_8h.html", null ],
     [ "scu.c", "scu_8c.html", "scu_8c" ],
     [ "scu.h", "scu_8h.html", "scu_8h" ],
     [ "sdio.h", "sdio_8h.html", null ],
-    [ "sgpio.h", "sgpio_8h.html", null ],
+    [ "sgpio.h", "sgpio_8h.html", [
+      [ "sgpio_t", "structsgpio__t.html", "structsgpio__t" ]
+    ] ],
     [ "ssp.c", "ssp_8c.html", "ssp_8c" ],
     [ "ssp.h", "ssp_8h.html", "ssp_8h" ],
     [ "timer.h", "timer_8h.html", null ],
-    [ "usb.h", "usb_8h.html", null ],
-    [ "vector_chipset.c", "vector__chipset_8c.html", "vector__chipset_8c" ],
+    [ "uart.c", "uart_8c.html", "uart_8c" ],
+    [ "uart.h", "uart_8h.html", "uart_8h" ],
+    [ "usb.h", "usb_8h.html", "usb_8h" ],
     [ "wwdt.h", "wwdt_8h.html", null ]
 ];

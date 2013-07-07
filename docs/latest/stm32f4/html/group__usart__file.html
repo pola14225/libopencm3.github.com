@@ -145,14 +145,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaaada3d0ba3a27758dcbfb9169d828d59"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Enable.  <a href="#gaaada3d0ba3a27758dcbfb9169d828d59"></a><br/></td></tr>
 <tr class="memitem:ga735e4ace80295d87203f64e6d7e6ac76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga735e4ace80295d87203f64e6d7e6ac76">usart_disable</a> (uint32_t usart)</td></tr>
 <tr class="memdesc:ga735e4ace80295d87203f64e6d7e6ac76"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Disable.  <a href="#ga735e4ace80295d87203f64e6d7e6ac76"></a><br/></td></tr>
-<tr class="memitem:ga26d0bd4c0eab8e4d32ca13df9526722d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga26d0bd4c0eab8e4d32ca13df9526722d">usart_send</a> (uint32_t usart, uint16_t data)</td></tr>
-<tr class="memdesc:ga26d0bd4c0eab8e4d32ca13df9526722d"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Send a Data Word.  <a href="#ga26d0bd4c0eab8e4d32ca13df9526722d"></a><br/></td></tr>
-<tr class="memitem:ga0f539661fcdc2e82c4489152393f5d74"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga0f539661fcdc2e82c4489152393f5d74">usart_recv</a> (uint32_t usart)</td></tr>
-<tr class="memdesc:ga0f539661fcdc2e82c4489152393f5d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Read a Received Data Word.  <a href="#ga0f539661fcdc2e82c4489152393f5d74"></a><br/></td></tr>
-<tr class="memitem:ga6d6df6e7a152e4d6e7c433a810403258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga6d6df6e7a152e4d6e7c433a810403258">usart_wait_send_ready</a> (uint32_t usart)</td></tr>
-<tr class="memdesc:ga6d6df6e7a152e4d6e7c433a810403258"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Wait for Transmit Data Buffer Empty.  <a href="#ga6d6df6e7a152e4d6e7c433a810403258"></a><br/></td></tr>
-<tr class="memitem:ga4b3dd5bff30927f603d5acc433cc2073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga4b3dd5bff30927f603d5acc433cc2073">usart_wait_recv_ready</a> (uint32_t usart)</td></tr>
-<tr class="memdesc:ga4b3dd5bff30927f603d5acc433cc2073"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Wait for Received Data Available.  <a href="#ga4b3dd5bff30927f603d5acc433cc2073"></a><br/></td></tr>
 <tr class="memitem:gae8458acbe30cf746fd98ff1cc81fcff1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#gae8458acbe30cf746fd98ff1cc81fcff1">usart_send_blocking</a> (uint32_t usart, uint16_t data)</td></tr>
 <tr class="memdesc:gae8458acbe30cf746fd98ff1cc81fcff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Send Data Word with Blocking.  <a href="#gae8458acbe30cf746fd98ff1cc81fcff1"></a><br/></td></tr>
 <tr class="memitem:ga8e0013f2829bfb8687e4a56973d56b57"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga8e0013f2829bfb8687e4a56973d56b57">usart_recv_blocking</a> (uint32_t usart)</td></tr>
@@ -177,6 +169,14 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga1179e84fdb16ba51136fdc7c6a03c956"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Error Interrupt Enable.  <a href="#ga1179e84fdb16ba51136fdc7c6a03c956"></a><br/></td></tr>
 <tr class="memitem:gaac35e7ef814d1a7a5c28ababd16436c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#gaac35e7ef814d1a7a5c28ababd16436c0">usart_disable_error_interrupt</a> (uint32_t usart)</td></tr>
 <tr class="memdesc:gaac35e7ef814d1a7a5c28ababd16436c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Error Interrupt Disable.  <a href="#gaac35e7ef814d1a7a5c28ababd16436c0"></a><br/></td></tr>
+<tr class="memitem:ga26d0bd4c0eab8e4d32ca13df9526722d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga26d0bd4c0eab8e4d32ca13df9526722d">usart_send</a> (uint32_t usart, uint16_t data)</td></tr>
+<tr class="memdesc:ga26d0bd4c0eab8e4d32ca13df9526722d"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Send a Data Word.  <a href="#ga26d0bd4c0eab8e4d32ca13df9526722d"></a><br/></td></tr>
+<tr class="memitem:ga0f539661fcdc2e82c4489152393f5d74"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga0f539661fcdc2e82c4489152393f5d74">usart_recv</a> (uint32_t usart)</td></tr>
+<tr class="memdesc:ga0f539661fcdc2e82c4489152393f5d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Read a Received Data Word.  <a href="#ga0f539661fcdc2e82c4489152393f5d74"></a><br/></td></tr>
+<tr class="memitem:ga6d6df6e7a152e4d6e7c433a810403258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga6d6df6e7a152e4d6e7c433a810403258">usart_wait_send_ready</a> (uint32_t usart)</td></tr>
+<tr class="memdesc:ga6d6df6e7a152e4d6e7c433a810403258"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Wait for Transmit Data Buffer Empty.  <a href="#ga6d6df6e7a152e4d6e7c433a810403258"></a><br/></td></tr>
+<tr class="memitem:ga4b3dd5bff30927f603d5acc433cc2073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga4b3dd5bff30927f603d5acc433cc2073">usart_wait_recv_ready</a> (uint32_t usart)</td></tr>
+<tr class="memdesc:ga4b3dd5bff30927f603d5acc433cc2073"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Wait for Received Data Available.  <a href="#ga4b3dd5bff30927f603d5acc433cc2073"></a><br/></td></tr>
 <tr class="memitem:gafb005f4e7635fbb379593ac0198032f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#gafb005f4e7635fbb379593ac0198032f3">usart_get_flag</a> (uint32_t usart, uint32_t flag)</td></tr>
 <tr class="memdesc:gafb005f4e7635fbb379593ac0198032f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Read a Status Flag.  <a href="#gafb005f4e7635fbb379593ac0198032f3"></a><br/></td></tr>
 <tr class="memitem:ga761c6089dcd796e78f4f5ba495f7fc37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga761c6089dcd796e78f4f5ba495f7fc37">usart_get_interrupt_source</a> (uint32_t usart, uint32_t flag)</td></tr>
@@ -240,7 +240,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00423">423</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00361">361</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -266,7 +266,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00320">320</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00258">258</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -292,7 +292,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00375">375</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00313">313</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -318,7 +318,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00350">350</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00288">288</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -344,7 +344,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00399">399</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00337">337</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -396,7 +396,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00411">411</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00349">349</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -429,7 +429,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00308">308</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00246">246</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -455,7 +455,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00362">362</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00300">300</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -488,7 +488,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00338">338</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00276">276</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -514,7 +514,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00387">387</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00325">325</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
 </div>
 </div>
@@ -552,7 +552,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean: flag set. </dd></dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00437">437</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__f124_8c_source.html#l00107">107</a> of file <a class="el" href="usart__common__f124_8c_source.html">usart_common_f124.c</a>.</p>
 
 </div>
 </div>
@@ -591,7 +591,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean: flag and interrupt enable both set. </dd></dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00459">459</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__f124_8c_source.html#l00129">129</a> of file <a class="el" href="usart__common__f124_8c_source.html">usart_common_f124.c</a>.</p>
 
 </div>
 </div>
@@ -619,9 +619,9 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>unsigned 16 bit data word. </dd></dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00224">224</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__f124_8c_source.html#l00061">61</a> of file <a class="el" href="usart__common__f124_8c_source.html">usart_common_f124.c</a>.</p>
 
-<p>Referenced by <a class="el" href="usart__common__all_8c_source.html#l00288">usart_recv_blocking()</a>.</p>
+<p>Referenced by <a class="el" href="usart__common__all_8c_source.html#l00226">usart_recv_blocking()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -658,9 +658,9 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>unsigned 16 bit data word. </dd></dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00288">288</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00226">226</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
-<p>References <a class="el" href="usart__common__all_8c_source.html#l00224">usart_recv()</a>, and <a class="el" href="usart__common__all_8c_source.html#l00255">usart_wait_recv_ready()</a>.</p>
+<p>References <a class="el" href="usart__common__f124_8c_source.html#l00061">usart_recv()</a>, and <a class="el" href="usart__common__f124_8c_source.html#l00092">usart_wait_recv_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -706,9 +706,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00207">207</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__f124_8c_source.html#l00044">44</a> of file <a class="el" href="usart__common__f124_8c_source.html">usart_common_f124.c</a>.</p>
 
-<p>Referenced by <a class="el" href="usart__common__all_8c_source.html#l00272">usart_send_blocking()</a>.</p>
+<p>Referenced by <a class="el" href="usart__common__all_8c_source.html#l00210">usart_send_blocking()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -755,9 +755,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00272">272</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00210">210</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
 
-<p>References <a class="el" href="usart__common__all_8c_source.html#l00207">usart_send()</a>, and <a class="el" href="usart__common__all_8c_source.html#l00240">usart_wait_send_ready()</a>.</p>
+<p>References <a class="el" href="usart__common__f124_8c_source.html#l00044">usart_send()</a>, and <a class="el" href="usart__common__f124_8c_source.html#l00077">usart_wait_send_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1023,9 +1023,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00255">255</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__f124_8c_source.html#l00092">92</a> of file <a class="el" href="usart__common__f124_8c_source.html">usart_common_f124.c</a>.</p>
 
-<p>Referenced by <a class="el" href="usart__common__all_8c_source.html#l00288">usart_recv_blocking()</a>.</p>
+<p>Referenced by <a class="el" href="usart__common__all_8c_source.html#l00226">usart_recv_blocking()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1061,9 +1061,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="usart__common__all_8c_source.html#l00240">240</a> of file <a class="el" href="usart__common__all_8c_source.html">usart_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="usart__common__f124_8c_source.html#l00077">77</a> of file <a class="el" href="usart__common__f124_8c_source.html">usart_common_f124.c</a>.</p>
 
-<p>Referenced by <a class="el" href="usart__common__all_8c_source.html#l00272">usart_send_blocking()</a>.</p>
+<p>Referenced by <a class="el" href="usart__common__all_8c_source.html#l00210">usart_send_blocking()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1081,7 +1081,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:26 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:29 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

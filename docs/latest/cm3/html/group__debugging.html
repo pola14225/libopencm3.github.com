@@ -124,13 +124,13 @@ Macros</h2></td></tr>
 <tr class="memitem:ga2b90b6f44540e6e706864903ddc35926"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__debugging.html#ga2b90b6f44540e6e706864903ddc35926">CM3_LIKELY</a>(expr)&#160;&#160;&#160;(__builtin_expect(!!(expr), 1))</td></tr>
 <tr class="memitem:gaac76fc08d5852b8bdcf33b5e6448355e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__debugging.html#gaac76fc08d5852b8bdcf33b5e6448355e">cm3_assert</a>(expr)</td></tr>
 <tr class="memdesc:gaac76fc08d5852b8bdcf33b5e6448355e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if assertion is true.  <a href="#gaac76fc08d5852b8bdcf33b5e6448355e"></a><br/></td></tr>
-<tr class="memitem:gac2ec555ba39f6c80aa9f3a9289864076"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__debugging.html#gac2ec555ba39f6c80aa9f3a9289864076">cm3_assert_not_reached</a>()&#160;&#160;&#160;<a class="el" href="group__debugging.html#ga38cff04f6de06089b014de620ec7576b">cm3_assert_failed</a>()</td></tr>
+<tr class="memitem:gac2ec555ba39f6c80aa9f3a9289864076"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__debugging.html#gac2ec555ba39f6c80aa9f3a9289864076">cm3_assert_not_reached</a>()&#160;&#160;&#160;<a class="el" href="group__debugging.html#ga9c0fa84fe9c0e99ad57a3d079ba41ddc">cm3_assert_failed</a>()</td></tr>
 <tr class="memdesc:gac2ec555ba39f6c80aa9f3a9289864076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if unreachable code is reached.  <a href="#gac2ec555ba39f6c80aa9f3a9289864076"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga38cff04f6de06089b014de620ec7576b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__debugging.html#ga38cff04f6de06089b014de620ec7576b">cm3_assert_failed</a> (void)</td></tr>
-<tr class="memdesc:ga38cff04f6de06089b014de620ec7576b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on a failed assertion.  <a href="#ga38cff04f6de06089b014de620ec7576b"></a><br/></td></tr>
+<tr class="memitem:ga9c0fa84fe9c0e99ad57a3d079ba41ddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__debugging.html#ga9c0fa84fe9c0e99ad57a3d079ba41ddc">cm3_assert_failed</a> (void)</td></tr>
+<tr class="memdesc:ga9c0fa84fe9c0e99ad57a3d079ba41ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on a failed assertion.  <a href="#ga9c0fa84fe9c0e99ad57a3d079ba41ddc"></a><br/></td></tr>
 <tr class="memitem:ga93d8d0dfa33f2bc46e3fa201813ef3bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__debugging.html#ga93d8d0dfa33f2bc46e3fa201813ef3bc">cm3_assert_failed_verbose</a> (const char *file, int line, const char *func, const char *assert_expr)</td></tr>
 <tr class="memdesc:ga93d8d0dfa33f2bc46e3fa201813ef3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on a failed assertion with verbose messages enabled.  <a href="#ga93d8d0dfa33f2bc46e3fa201813ef3bc"></a><br/></td></tr>
 </table>
@@ -165,7 +165,7 @@ Functions</h2></td></tr>
 <div class="line">                        } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p>Check if assertion is true. </p>
-<p>If NDEBUG macro is defined, this macro generates no code. Otherwise <a class="el" href="group__debugging.html#ga38cff04f6de06089b014de620ec7576b" title="Called on a failed assertion.">cm3_assert_failed()</a> or <a class="el" href="group__debugging.html#ga93d8d0dfa33f2bc46e3fa201813ef3bc" title="Called on a failed assertion with verbose messages enabled.">cm3_assert_failed_verbose()</a> is called if assertion is false.</p>
+<p>If NDEBUG macro is defined, this macro generates no code. Otherwise <a class="el" href="group__debugging.html#ga9c0fa84fe9c0e99ad57a3d079ba41ddc" title="Called on a failed assertion.">cm3_assert_failed()</a> or <a class="el" href="group__debugging.html#ga93d8d0dfa33f2bc46e3fa201813ef3bc" title="Called on a failed assertion with verbose messages enabled.">cm3_assert_failed_verbose()</a> is called if assertion is false.</p>
 <p>The purpose of this macro is to aid in debugging libopencm3 and applications using it. It can be used for example to check if function arguments are within expected ranges and stop execution in case an unexpected state is reached.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -186,13 +186,13 @@ Functions</h2></td></tr>
           <td class="memname">#define cm3_assert_not_reached</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__debugging.html#ga38cff04f6de06089b014de620ec7576b">cm3_assert_failed</a>()</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__debugging.html#ga9c0fa84fe9c0e99ad57a3d079ba41ddc">cm3_assert_failed</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Check if unreachable code is reached. </p>
-<p>If NDEBUG macro is defined, this macro generates code for an infinite loop. Otherwise <a class="el" href="group__debugging.html#ga38cff04f6de06089b014de620ec7576b" title="Called on a failed assertion.">cm3_assert_failed()</a> or <a class="el" href="group__debugging.html#ga93d8d0dfa33f2bc46e3fa201813ef3bc" title="Called on a failed assertion with verbose messages enabled.">cm3_assert_failed_verbose()</a> is called if the macro is ever reached.</p>
+<p>If NDEBUG macro is defined, this macro generates code for an infinite loop. Otherwise <a class="el" href="group__debugging.html#ga9c0fa84fe9c0e99ad57a3d079ba41ddc" title="Called on a failed assertion.">cm3_assert_failed()</a> or <a class="el" href="group__debugging.html#ga93d8d0dfa33f2bc46e3fa201813ef3bc" title="Called on a failed assertion with verbose messages enabled.">cm3_assert_failed_verbose()</a> is called if the macro is ever reached.</p>
 <p>The purpose of this macro is to aid in debugging libopencm3 and applications using it. It can be used for example to stop execution if an unreachable portion of code is reached. </p>
 
 <p>Definition at line <a class="el" href="assert_8h_source.html#l00101">101</a> of file <a class="el" href="assert_8h_source.html">assert.h</a>.</p>
@@ -218,12 +218,12 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2>Function Documentation</h2>
-<a class="anchor" id="ga38cff04f6de06089b014de620ec7576b"></a>
+<a class="anchor" id="ga9c0fa84fe9c0e99ad57a3d079ba41ddc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void cm3_assert_failed </td>
+          <td class="memname">void cm3_assert_failed </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -294,7 +294,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:08 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:10 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

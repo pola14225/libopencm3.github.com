@@ -105,8 +105,8 @@
       <type>void</type>
       <name>i2c0_init</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga33205ecfc1ea222ec5801a1a69fb2185</anchor>
-      <arglist>(void)</arglist>
+      <anchor>ga88cfa2a41e571beeaca3ea44db21c379</anchor>
+      <arglist>(const uint16_t duty_cycle_count)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -145,8 +145,8 @@
       <type>BEGIN_DECLS void</type>
       <name>i2c0_init</name>
       <anchorfile>group__i2c__defines.html</anchorfile>
-      <anchor>gaf48dc42ebc887041523c54f0be37d9b4</anchor>
-      <arglist>(void)</arglist>
+      <anchor>ga011aeffa4d9f687b9777ce8b3ee3566f</anchor>
+      <arglist>(const uint16_t duty_cycle_count)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -181,6 +181,44 @@
     <name>i2s.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc43xx/</path>
     <filename>i2s_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>ipc.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc43xx/</path>
+    <filename>ipc_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>ipc_halt_m0</name>
+      <anchorfile>ipc_8c.html</anchorfile>
+      <anchor>aad7a398ab9c374813bfaf2eab185202b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ipc_start_m0</name>
+      <anchorfile>ipc_8c.html</anchorfile>
+      <anchor>a71c99c6b26648dda97c6a9c9e27a984d</anchor>
+      <arglist>(uint32_t cm0_baseaddr)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ipc.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc43xx/</path>
+    <filename>ipc_8h</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>ipc_halt_m0</name>
+      <anchorfile>ipc_8h.html</anchorfile>
+      <anchor>aad7a398ab9c374813bfaf2eab185202b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ipc_start_m0</name>
+      <anchorfile>ipc_8h.html</anchorfile>
+      <anchor>a71c99c6b26648dda97c6a9c9e27a984d</anchor>
+      <arglist>(uint32_t cm0_baseaddr)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>license.dox</name>
@@ -1309,18 +1347,12 @@
     <name>sgpio.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc43xx/</path>
     <filename>sgpio_8h</filename>
+    <class kind="struct">sgpio_t</class>
   </compound>
   <compound kind="file">
     <name>ssp.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc43xx/</path>
     <filename>ssp_8c</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>ssp_wait_until_not_busy</name>
-      <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>gaf3606050c56f9e7ccfbb91f703d38e46</anchor>
-      <arglist>(ssp_num_t ssp_num)</arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>ssp_disable</name>
@@ -1336,17 +1368,17 @@
       <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
     </member>
     <member kind="function">
-      <type>uint16_t</type>
-      <name>ssp_read</name>
+      <type>void</type>
+      <name>ssp_wait_until_not_busy</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>ga0617d554c518d8fd1bd375bb4f837a58</anchor>
+      <anchor>gaf3606050c56f9e7ccfbb91f703d38e46</anchor>
       <arglist>(ssp_num_t ssp_num)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>ssp_write</name>
+      <type>uint16_t</type>
+      <name>ssp_transfer</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>ga336309809e6e0212aa355fbf70ed9faa</anchor>
+      <anchor>ga97a6e5b0c36d4f4c066bf837799245a9</anchor>
       <arglist>(ssp_num_t ssp_num, uint16_t data)</arglist>
     </member>
   </compound>
@@ -1580,16 +1612,9 @@
     </member>
     <member kind="function">
       <type>uint16_t</type>
-      <name>ssp_read</name>
+      <name>ssp_transfer</name>
       <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>ga0617d554c518d8fd1bd375bb4f837a58</anchor>
-      <arglist>(ssp_num_t ssp_num)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>ssp_write</name>
-      <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>ga336309809e6e0212aa355fbf70ed9faa</anchor>
+      <anchor>ga97a6e5b0c36d4f4c066bf837799245a9</anchor>
       <arglist>(ssp_num_t ssp_num, uint16_t data)</arglist>
     </member>
   </compound>
@@ -1599,40 +1624,259 @@
     <filename>timer_8h</filename>
   </compound>
   <compound kind="file">
+    <name>uart.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc43xx/</path>
+    <filename>uart_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_init</name>
+      <anchorfile>uart_8c.html</anchorfile>
+      <anchor>adafa12a189cb04d599d1ab81acf6f27c</anchor>
+      <arglist>(uart_num_t uart_num, uart_databit_t data_nb_bits, uart_stopbit_t data_nb_stop, uart_parity_t data_parity, uint16_t uart_divisor, uint8_t uart_divaddval, uint8_t uart_mulval)</arglist>
+    </member>
+    <member kind="function">
+      <type>uart_rx_data_ready_t</type>
+      <name>uart_rx_data_ready</name>
+      <anchorfile>uart_8c.html</anchorfile>
+      <anchor>a04b03e1c1e073c275712d2534ca3c5c8</anchor>
+      <arglist>(uart_num_t uart_num)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>uart_read</name>
+      <anchorfile>uart_8c.html</anchorfile>
+      <anchor>aa275f4c53cdc9232630db690b8fa96a3</anchor>
+      <arglist>(uart_num_t uart_num)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>uart_read_timeout</name>
+      <anchorfile>uart_8c.html</anchorfile>
+      <anchor>aa4bb124b194ac41242fc20f750123d12</anchor>
+      <arglist>(uart_num_t uart_num, uint32_t rx_timeout_nb_cycles, uart_error_t *error)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_write</name>
+      <anchorfile>uart_8c.html</anchorfile>
+      <anchor>ab6439004b0e189ac68604936be285930</anchor>
+      <arglist>(uart_num_t uart_num, uint8_t data)</arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dummy_read</name>
+      <anchorfile>uart_8c.html</anchorfile>
+      <anchor>ad3b4380fe8ac2e40c6d5367d9768fbd3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>uart.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc43xx/</path>
+    <filename>uart_8h</filename>
+    <member kind="enumeration">
+      <name>uart_databit_t</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a0bfec3368116b1ece32bfca23ae13701</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_DATABIT_5</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a0bfec3368116b1ece32bfca23ae13701ab8edf3c4ac9cd19a77a78046c8d7c21d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_DATABIT_6</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a0bfec3368116b1ece32bfca23ae13701a28d637fedc642319e85aa69ee7460143</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_DATABIT_7</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a0bfec3368116b1ece32bfca23ae13701a64eeea6c1646790ebd4acc2557aaf393</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_DATABIT_8</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a0bfec3368116b1ece32bfca23ae13701a5a1857edfe041a41ef5e7f098be8ead2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_stopbit_t</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>ab287f75c39faad65ac844bab64527061</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_STOPBIT_1</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>ab287f75c39faad65ac844bab64527061ab9c26fe02b2f4407d7106ea4da1f74ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_STOPBIT_2</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>ab287f75c39faad65ac844bab64527061acdc53828459d69a364db0fc85c4dd7b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_parity_t</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a6bcc37e31dd40c204b4ac6f6189e8878</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_NONE</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a6bcc37e31dd40c204b4ac6f6189e8878aa80d2d8ea61454045ebe71d155e85b3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_ODD</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a6bcc37e31dd40c204b4ac6f6189e8878ad90cc425f5ba447773a44a75be6593e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_EVEN</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a6bcc37e31dd40c204b4ac6f6189e8878ad908a637b1dd23f93b149dd2d8bdfdb8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_SP_1</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a6bcc37e31dd40c204b4ac6f6189e8878ae9f804cb1d440a3a890fd7617450d2a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_PARITY_SP_0</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a6bcc37e31dd40c204b4ac6f6189e8878a7b7ef44908952b2188985f07f81420f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_num_t</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>ab3bea0b68882640644e740efa622bf4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART0_NUM</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>ab3bea0b68882640644e740efa622bf4aa33ca202463c538a34cd559f14d2a512d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART1_NUM</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>ab3bea0b68882640644e740efa622bf4aa7ce67715e81430ad28c0a6ada04fa28b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART2_NUM</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>ab3bea0b68882640644e740efa622bf4aa91b44edcf73cb204c36022ac76fc508e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART3_NUM</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>ab3bea0b68882640644e740efa622bf4aae9d3425db99b7a10d0748921a69628e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_error_t</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a74b95f81faa4de6d75094e95783b2cc4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_NO_ERROR</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a74b95f81faa4de6d75094e95783b2cc4a7733c99ff5cb93e952fb338732f04463</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_TIMEOUT_ERROR</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a74b95f81faa4de6d75094e95783b2cc4a027d55a124d7120d5a5a3622625a562f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <name>uart_rx_data_ready_t</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a7cfb73968a8fbdfe97c8d0fb12b2f4c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_RX_NO_DATA</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a7cfb73968a8fbdfe97c8d0fb12b2f4c0acca8bd7619d624a543d828afd39dcc72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_RX_DATA_READY</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a7cfb73968a8fbdfe97c8d0fb12b2f4c0a88601bcc1bfa515b9b315a53cadc74ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>UART_RX_DATA_ERROR</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a7cfb73968a8fbdfe97c8d0fb12b2f4c0a29bcbfdf38004208cfbbf6f9e3ec77d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>uart_init</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a6a09a8d8c8ce5d45ceb1b8a7c1594d11</anchor>
+      <arglist>(uart_num_t uart_num, uart_databit_t data_nb_bits, uart_stopbit_t data_nb_stop, uart_parity_t data_parity, uint16_t uart_divisor, uint8_t uart_divaddval, uint8_t uart_mulval)</arglist>
+    </member>
+    <member kind="function">
+      <type>uart_rx_data_ready_t</type>
+      <name>uart_rx_data_ready</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>a04b03e1c1e073c275712d2534ca3c5c8</anchor>
+      <arglist>(uart_num_t uart_num)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>uart_read</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>aa275f4c53cdc9232630db690b8fa96a3</anchor>
+      <arglist>(uart_num_t uart_num)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>uart_read_timeout</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>aa4bb124b194ac41242fc20f750123d12</anchor>
+      <arglist>(uart_num_t uart_num, uint32_t rx_timeout_nb_cycles, uart_error_t *error)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>uart_write</name>
+      <anchorfile>uart_8h.html</anchorfile>
+      <anchor>ab6439004b0e189ac68604936be285930</anchor>
+      <arglist>(uart_num_t uart_num, uint8_t data)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>usb.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc43xx/</path>
     <filename>usb_8h</filename>
-  </compound>
-  <compound kind="file">
-    <name>vector_chipset.c</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc43xx/</path>
-    <filename>vector__chipset_8c</filename>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>pre_main</name>
-      <anchorfile>vector__chipset_8c.html</anchorfile>
-      <anchor>a0d71b6c9f6dfd739865d6f0f81fb147d</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="variable">
-      <type>unsigned</type>
-      <name>_etext_ram</name>
-      <anchorfile>vector__chipset_8c.html</anchorfile>
-      <anchor>ab15cd1dd29ed47e8d7426ea56c4ec2ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>unsigned</type>
-      <name>_text_ram</name>
-      <anchorfile>vector__chipset_8c.html</anchorfile>
-      <anchor>acb652e30e050baf9772188f86061ae13</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>unsigned</type>
-      <name>_etext_rom</name>
-      <anchorfile>vector__chipset_8c.html</anchorfile>
-      <anchor>afe6e9b6c97f5a3d1a3e4efede1390afe</anchor>
+    <class kind="struct">usb_transfer_descriptor_t</class>
+    <class kind="struct">usb_queue_head_t</class>
+    <member kind="typedef">
+      <type>struct usb_transfer_descriptor_t</type>
+      <name>usb_transfer_descriptor_t</name>
+      <anchorfile>usb_8h.html</anchorfile>
+      <anchor>ab6c7dcfa46527bbc61eeeb6ab3699e91</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1748,8 +1992,8 @@
       <type>BEGIN_DECLS void</type>
       <name>i2c0_init</name>
       <anchorfile>group__i2c__defines.html</anchorfile>
-      <anchor>gaf48dc42ebc887041523c54f0be37d9b4</anchor>
-      <arglist>(void)</arglist>
+      <anchor>ga011aeffa4d9f687b9777ce8b3ee3566f</anchor>
+      <arglist>(const uint16_t duty_cycle_count)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -2885,6 +3129,7 @@
     <name>sdio_defines</name>
     <title>SDIO</title>
     <filename>group__sdio__defines.html</filename>
+    <class kind="struct">sgpio_t</class>
   </compound>
   <compound kind="group">
     <name>sgpio_defines</name>
@@ -3121,16 +3366,9 @@
     </member>
     <member kind="function">
       <type>uint16_t</type>
-      <name>ssp_read</name>
+      <name>ssp_transfer</name>
       <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>ga0617d554c518d8fd1bd375bb4f837a58</anchor>
-      <arglist>(ssp_num_t ssp_num)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>ssp_write</name>
-      <anchorfile>group__ssp__defines.html</anchorfile>
-      <anchor>ga336309809e6e0212aa355fbf70ed9faa</anchor>
+      <anchor>ga97a6e5b0c36d4f4c066bf837799245a9</anchor>
       <arglist>(ssp_num_t ssp_num, uint16_t data)</arglist>
     </member>
   </compound>
@@ -3178,8 +3416,8 @@
       <type>void</type>
       <name>i2c0_init</name>
       <anchorfile>group__i2c__file.html</anchorfile>
-      <anchor>ga33205ecfc1ea222ec5801a1a69fb2185</anchor>
-      <arglist>(void)</arglist>
+      <anchor>ga88cfa2a41e571beeaca3ea44db21c379</anchor>
+      <arglist>(const uint16_t duty_cycle_count)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3228,13 +3466,6 @@
     <filename>group__ssp__file.html</filename>
     <member kind="function">
       <type>void</type>
-      <name>ssp_wait_until_not_busy</name>
-      <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>gaf3606050c56f9e7ccfbb91f703d38e46</anchor>
-      <arglist>(ssp_num_t ssp_num)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>ssp_disable</name>
       <anchorfile>group__ssp__file.html</anchorfile>
       <anchor>ga741020e6b94479e80107e428d552e5c3</anchor>
@@ -3248,18 +3479,429 @@
       <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
     </member>
     <member kind="function">
-      <type>uint16_t</type>
-      <name>ssp_read</name>
+      <type>void</type>
+      <name>ssp_wait_until_not_busy</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>ga0617d554c518d8fd1bd375bb4f837a58</anchor>
+      <anchor>gaf3606050c56f9e7ccfbb91f703d38e46</anchor>
       <arglist>(ssp_num_t ssp_num)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>ssp_write</name>
+      <type>uint16_t</type>
+      <name>ssp_transfer</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>ga336309809e6e0212aa355fbf70ed9faa</anchor>
+      <anchor>ga97a6e5b0c36d4f4c066bf837799245a9</anchor>
       <arglist>(ssp_num_t ssp_num, uint16_t data)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>sgpio_t</name>
+    <filename>structsgpio__t.html</filename>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>OUT_MUX_CFG</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>ad072798d598a980b75de7bc3093c8ac2</anchor>
+      <arglist>[16]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SGPIO_MUX_CFG</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a9b9029659429ddb4b30424b4f59e3975</anchor>
+      <arglist>[16]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SLICE_MUX_CFG</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>abb73f99913fed58d9bb8c435f40f115a</anchor>
+      <arglist>[16]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>REG</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a150218bd4e87065da36474bacbd1d140</anchor>
+      <arglist>[16]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>REG_SS</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>aac0bbd8c71be0fbabb39abbf0f4cf173</anchor>
+      <arglist>[16]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>PRESET</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a5fae0f8e69c05b3cd933b02cad50d35c</anchor>
+      <arglist>[16]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>COUNT</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a27702c96658316d5b481f0c12835265a</anchor>
+      <arglist>[16]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>POS</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a0bb825485f4389189777e63cb3f48a5f</anchor>
+      <arglist>[16]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>MASK_A</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a684b3ef3196acc4afb01bf7a8e179134</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>MASK_H</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a82e28f22d9f14451c661e59e21383351</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>MASK_I</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a38f1ab541075fe2a38762cbea467876c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>MASK_P</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>afd5f0b426dedbd5e9308cc6e4c18773d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>GPIO_INREG</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a6910d3c1fd2cb5bc162c1d2a9efc5cee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>GPIO_OUTREG</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>ac76b551c0e988b8ec5ef58abd91b4e4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>GPIO_OENREG</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a63a5b8e5197cb7b697e277e4bf72c705</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CTRL_ENABLE</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a1a57f6c0a8c58dcfd3f22a2cd47e5a72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CTRL_DISABLE</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a23bf43e812a0495728bd46aac73802fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>RES0</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a5c7701aa99295e334058bcfc5909248b</anchor>
+      <arglist>[823]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CLR_EN_0</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a64466847c7723d4fd5a8230f45274a31</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SET_EN_0</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>ae7d01714b5a72da45fe5d9c848520247</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>ENABLE_0</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a312682c14b4e058ac7ad5a78688b1a7f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>STATUS_0</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a1e0f8828557a49f59a34d9f5158c5bfd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CLR_STATUS_0</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a2541a9d00f806264e6f4b1c11acd4ab6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SET_STATUS_0</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>ab39dccc3d67651ea90f6d9f2f42715a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>RES1</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a987eb771d7900e8d445c3cc4d7311b95</anchor>
+      <arglist>[2]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CLR_EN_1</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a257942c80b7c13bbb577ad42a058cc92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SET_EN_1</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a2d8d657e09fe9c39a70112f78536bc54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>ENABLE_1</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a42cfbfb676d997d5f719fbab5cbfa5e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>STATUS_1</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a2fa792eed6242979b5cc2ec805ea7e54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CLR_STATUS_1</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a4bdbddcf87a4a08c5777e58057045177</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SET_STATUS_1</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a2269ac808c244c9ddc593f4265a8b35d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>RES2</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a8d9bead6848eb08748b14899d84c37c7</anchor>
+      <arglist>[2]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CLR_EN_2</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a347b3c31f5c959d10c6945d7b8d8b6eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SET_EN_2</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>af6ff7d1a0de299bf547c72c72acbf113</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>ENABLE_2</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>ad7f0fa1c14f455aa15a68ee78588c072</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>STATUS_2</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>adacc72239a4dce1a33edd6add177129a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CLR_STATUS_2</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a054541ce9facafd3015d26100946bdf3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SET_STATUS_2</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>affeb8e91d6928031d1d85973505de667</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>RES3</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a921ba365a89a1210135d64558a36439f</anchor>
+      <arglist>[2]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CLR_EN_3</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>af9843e7293cc0859bba6f25a273809d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SET_EN_3</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a3b9daffd9a1136b5265e8b7b34b7eb50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>ENABLE_3</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>ad54ca13a742e6839285129fc63608180</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>STATUS_3</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>ae57929365adbdd29f2ff28e2971124ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>CLR_STATUS_3</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a22e5964eac90e038bc2a09d3b83db8c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>SET_STATUS_3</name>
+      <anchorfile>structsgpio__t.html</anchorfile>
+      <anchor>a9b6d27ffd5f4c07719457aaed7f86c2e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_queue_head_t</name>
+    <filename>structusb__queue__head__t.html</filename>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>capabilities</name>
+      <anchorfile>structusb__queue__head__t.html</anchorfile>
+      <anchor>a990e7c8703bfd82458d34928e9501fc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile usb_transfer_descriptor_t *</type>
+      <name>current_dtd_pointer</name>
+      <anchorfile>structusb__queue__head__t.html</anchorfile>
+      <anchor>adbfe04a62618c730a9567f2fe5269655</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile usb_transfer_descriptor_t *</type>
+      <name>next_dtd_pointer</name>
+      <anchorfile>structusb__queue__head__t.html</anchorfile>
+      <anchor>ac166d2ab2de8c580a3244b13efee62ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>total_bytes</name>
+      <anchorfile>structusb__queue__head__t.html</anchorfile>
+      <anchor>aced46154809bc49ba83921b23917e3ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>buffer_pointer_page</name>
+      <anchorfile>structusb__queue__head__t.html</anchorfile>
+      <anchor>a11ed685113af27762fe7fecc5ad7a09e</anchor>
+      <arglist>[5]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>_reserved_0</name>
+      <anchorfile>structusb__queue__head__t.html</anchorfile>
+      <anchor>a87cdd1f085f57dd86bba865bafa4b6d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint8_t</type>
+      <name>setup</name>
+      <anchorfile>structusb__queue__head__t.html</anchorfile>
+      <anchor>ac7f86a4144cf1af2a42b53344da1f72a</anchor>
+      <arglist>[8]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>_reserved_1</name>
+      <anchorfile>structusb__queue__head__t.html</anchorfile>
+      <anchor>ad48b3a6a39cf75b5295c150b6a624c34</anchor>
+      <arglist>[4]</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_transfer_descriptor_t</name>
+    <filename>structusb__transfer__descriptor__t.html</filename>
+    <member kind="variable">
+      <type>volatile usb_transfer_descriptor_t *</type>
+      <name>next_dtd_pointer</name>
+      <anchorfile>structusb__transfer__descriptor__t.html</anchorfile>
+      <anchor>a5e821eaad97a31bf764a010676e74600</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>total_bytes</name>
+      <anchorfile>structusb__transfer__descriptor__t.html</anchorfile>
+      <anchor>a95339059400b0eb9c7b42a180ee0c330</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>buffer_pointer_page</name>
+      <anchorfile>structusb__transfer__descriptor__t.html</anchorfile>
+      <anchor>a88f33bda0ae0a7a402f572e2c3d44269</anchor>
+      <arglist>[5]</arglist>
+    </member>
+    <member kind="variable">
+      <type>volatile uint32_t</type>
+      <name>_reserved</name>
+      <anchorfile>structusb__transfer__descriptor__t.html</anchorfile>
+      <anchor>a53f68eb747b8660ee98a3edab1730469</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="dir">
@@ -3286,9 +3928,10 @@
     <filename>dir_d37d3c975ecef012b6a8fd7f0f6fedfb.html</filename>
     <file>gpio.c</file>
     <file>i2c.c</file>
+    <file>ipc.c</file>
     <file>scu.c</file>
     <file>ssp.c</file>
-    <file>vector_chipset.c</file>
+    <file>uart.c</file>
   </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc43xx/</name>
@@ -3306,6 +3949,7 @@
     <file>gpio.h</file>
     <file>i2c.h</file>
     <file>i2s.h</file>
+    <file>ipc.h</file>
     <file>memorymap.h</file>
     <file>rgu.h</file>
     <file>ritimer.h</file>
@@ -3314,6 +3958,7 @@
     <file>sgpio.h</file>
     <file>ssp.h</file>
     <file>timer.h</file>
+    <file>uart.h</file>
     <file>usb.h</file>
     <file>wwdt.h</file>
   </compound>

@@ -296,7 +296,7 @@ var rcc_8h =
     [ "rcc_osc_bypass_enable", "rcc_8h.html#ga3e144ef62bd737fe6cab45eddec41da3", null ],
     [ "rcc_osc_off", "rcc_8h.html#ga5f5d6161e92d2708ee1e2d0517c10c28", null ],
     [ "rcc_osc_on", "rcc_8h.html#ga8dbd64d58e019803bf109609203d1afd", null ],
-    [ "rcc_osc_ready_int_clear", "rcc_8h.html#gafb2280aff17e5e44119435da2aec144d", null ],
+    [ "rcc_osc_ready_int_clear", "rcc_8h.html#ga451b64c9cf47aaa4977f1c4a5c9eb170", null ],
     [ "rcc_osc_ready_int_disable", "rcc_8h.html#gab6ebab9be1d0f9fe163a4d8dd88f6522", null ],
     [ "rcc_osc_ready_int_enable", "rcc_8h.html#ga147836b03e1dd972e365ce0732818078", null ],
     [ "rcc_osc_ready_int_flag", "rcc_8h.html#gab01089842913b18e3df6e0e3ec89fd71", null ],

@@ -215,7 +215,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        },</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;};</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="code" href="group__STM32L1xx__rcc__defines.html#gafb2280aff17e5e44119435da2aec144d">   97</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__STM32L1xx__rcc__defines.html#gafb2280aff17e5e44119435da2aec144d">rcc_osc_ready_int_clear</a>(<a class="code" href="group__STM32L1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a> osc)</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="code" href="group__STM32L1xx__rcc__defines.html#ga451b64c9cf47aaa4977f1c4a5c9eb170">   97</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__STM32L1xx__rcc__defines.html#ga451b64c9cf47aaa4977f1c4a5c9eb170">rcc_osc_ready_int_clear</a>(<a class="code" href="group__STM32L1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a> osc)</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">switch</span> (osc) {</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="group__STM32L1xx__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a>:</div>
@@ -592,10 +592,10 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;        <a class="code" href="group__STM32L1xx__rcc__defines.html#gac40c9478480f3a44c381c15482a563cd">rcc_set_ppre2</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a">ppre2</a>);</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;</div>
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        <a class="code" href="group__STM32L1xx__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__STM32L1xx__rcc__defines.html#gad4baa1f26b04719fe3d4e2f02d7dde40">RCC_APB1ENR</a>, <a class="code" href="group__rcc__apb1enr__en.html#ga5c19997ccd28464b80a7c3325da0ca60">RCC_APB1ENR_PWREN</a>);</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;        <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#adf712c2b16e70d8a025694db5453b2cd">voltage_scale</a>);</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;        <a class="code" href="pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60">pwr_set_vos_scale</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#adf712c2b16e70d8a025694db5453b2cd">voltage_scale</a>);</div>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;</div>
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;        <span class="comment">/* I guess this should be in the settings? */</span></div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;        <a class="code" href="flash_8h.html#ad571f19d231295129eb0baf856670ce4">flash_64bit_enable</a>();</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;        <a class="code" href="flash_8h.html#a46ea5d4032d7ea65641376eca38202f8">flash_64bit_enable</a>();</div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        <a class="code" href="flash_8h.html#a0f76604d23e55a997cef486d8f93c8f7">flash_prefetch_enable</a>();</div>
 <div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        <span class="comment">/* Configure flash settings. */</span></div>
 <div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        <a class="code" href="flash_8h.html#a9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b">flash_config</a>);</div>
@@ -623,10 +623,10 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        <a class="code" href="group__STM32L1xx__rcc__defines.html#gac40c9478480f3a44c381c15482a563cd">rcc_set_ppre2</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a">ppre2</a>);</div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;</div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;        <a class="code" href="group__STM32L1xx__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__STM32L1xx__rcc__defines.html#gad4baa1f26b04719fe3d4e2f02d7dde40">RCC_APB1ENR</a>, <a class="code" href="group__rcc__apb1enr__en.html#ga5c19997ccd28464b80a7c3325da0ca60">RCC_APB1ENR_PWREN</a>);</div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;        <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#adf712c2b16e70d8a025694db5453b2cd">voltage_scale</a>);</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;        <a class="code" href="pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60">pwr_set_vos_scale</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#adf712c2b16e70d8a025694db5453b2cd">voltage_scale</a>);</div>
 <div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;</div>
 <div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;        <span class="comment">/* I guess this should be in the settings? */</span></div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;        <a class="code" href="flash_8h.html#ad571f19d231295129eb0baf856670ce4">flash_64bit_enable</a>();</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;        <a class="code" href="flash_8h.html#a46ea5d4032d7ea65641376eca38202f8">flash_64bit_enable</a>();</div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;        <a class="code" href="flash_8h.html#a0f76604d23e55a997cef486d8f93c8f7">flash_prefetch_enable</a>();</div>
 <div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <span class="comment">/* Configure flash settings. */</span></div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;        <a class="code" href="flash_8h.html#a9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b">flash_config</a>);</div>
@@ -651,10 +651,10 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;        <a class="code" href="group__STM32L1xx__rcc__defines.html#gac40c9478480f3a44c381c15482a563cd">rcc_set_ppre2</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a">ppre2</a>);</div>
 <div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;</div>
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;        <a class="code" href="group__STM32L1xx__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__STM32L1xx__rcc__defines.html#gad4baa1f26b04719fe3d4e2f02d7dde40">RCC_APB1ENR</a>, <a class="code" href="group__rcc__apb1enr__en.html#ga5c19997ccd28464b80a7c3325da0ca60">RCC_APB1ENR_PWREN</a>);</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;        <a class="code" href="pwr_8h.html#af035a2a2146f78c4e5dc4835422f7139">pwr_set_vos_scale</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#adf712c2b16e70d8a025694db5453b2cd">voltage_scale</a>);</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;        <a class="code" href="pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60">pwr_set_vos_scale</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#adf712c2b16e70d8a025694db5453b2cd">voltage_scale</a>);</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;        <span class="comment">/* I guess this should be in the settings? */</span></div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;        <a class="code" href="flash_8h.html#ad571f19d231295129eb0baf856670ce4">flash_64bit_enable</a>();</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;        <a class="code" href="flash_8h.html#a46ea5d4032d7ea65641376eca38202f8">flash_64bit_enable</a>();</div>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        <a class="code" href="flash_8h.html#a0f76604d23e55a997cef486d8f93c8f7">flash_prefetch_enable</a>();</div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;        <span class="comment">/* Configure flash settings. */</span></div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;        <a class="code" href="flash_8h.html#a9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(clock-&gt;<a class="code" href="structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b">flash_config</a>);</div>
@@ -679,7 +679,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_b85f3b2cdb5f62c5704599c879630b7f.html">l1</a></li><li class="navelem"><a class="el" href="rcc_8c.html">rcc.c</a></li>
-    <li class="footer">Generated on Sat Jul 6 2013 06:21:12 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 01:21:14 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
