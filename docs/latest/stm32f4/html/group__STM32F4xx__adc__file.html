@@ -223,8 +223,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga80a7e5a8b30daf2377e9746a3ba342e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable an External Trigger for Injected Channels.  <a href="#ga80a7e5a8b30daf2377e9746a3ba342e6"></a><br/></td></tr>
 <tr class="memitem:ga8b130efffc0025a70451ea3f26c714b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F4xx__adc__file.html#ga8b130efffc0025a70451ea3f26c714b6">adc_disable_external_trigger_injected</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga8b130efffc0025a70451ea3f26c714b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable an External Trigger for Injected Channels.  <a href="#ga8b130efffc0025a70451ea3f26c714b6"></a><br/></td></tr>
-<tr class="memitem:ga459708aeaf8e709264c4b96fed706ae3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F4xx__adc__file.html#ga459708aeaf8e709264c4b96fed706ae3">adc_set_resolution</a> (uint32_t adc, uint16_t resolution)</td></tr>
-<tr class="memdesc:ga459708aeaf8e709264c4b96fed706ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Resolution.  <a href="#ga459708aeaf8e709264c4b96fed706ae3"></a><br/></td></tr>
+<tr class="memitem:ga6a321611830c50c5aba6d97471dc9eb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F4xx__adc__file.html#ga6a321611830c50c5aba6d97471dc9eb4">adc_set_resolution</a> (uint32_t adc, uint32_t resolution)</td></tr>
+<tr class="memdesc:ga6a321611830c50c5aba6d97471dc9eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Resolution.  <a href="#ga6a321611830c50c5aba6d97471dc9eb4"></a><br/></td></tr>
 <tr class="memitem:ga9f618863d8b3ae15dc18035ce894e746"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F4xx__adc__file.html#ga9f618863d8b3ae15dc18035ce894e746">adc_enable_overrun_interrupt</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga9f618863d8b3ae15dc18035ce894e746"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable the Overrun Interrupt.  <a href="#ga9f618863d8b3ae15dc18035ce894e746"></a><br/></td></tr>
 <tr class="memitem:ga154b9e664c58d05e70fb194f9457a61e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F4xx__adc__file.html#ga154b9e664c58d05e70fb194f9457a61e">adc_disable_overrun_interrupt</a> (uint32_t adc)</td></tr>
@@ -1868,7 +1868,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ga459708aeaf8e709264c4b96fed706ae3"></a>
+<a class="anchor" id="ga6a321611830c50c5aba6d97471dc9eb4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1881,7 +1881,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>resolution</em>&#160;</td>
         </tr>
         <tr>
@@ -1897,7 +1897,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">resolution</td><td>Unsigned int8. Resolution value <a class="el" href="group__adc__cr1__res.html">ADC Resolution.</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">resolution</td><td>Unsigned int32. Resolution value <a class="el" href="group__adc__cr1__res.html">ADC Resolution.</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -2193,7 +2193,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 8 2013 02:21:26 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 03:21:24 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

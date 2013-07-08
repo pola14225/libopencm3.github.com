@@ -338,8 +338,8 @@
       <type>void</type>
       <name>adc_set_resolution</name>
       <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
-      <anchor>ga459708aeaf8e709264c4b96fed706ae3</anchor>
-      <arglist>(uint32_t adc, uint16_t resolution)</arglist>
+      <anchor>ga6a321611830c50c5aba6d97471dc9eb4</anchor>
+      <arglist>(uint32_t adc, uint32_t resolution)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3500,8 +3500,8 @@
       <type>void</type>
       <name>adc_set_resolution</name>
       <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
-      <anchor>ga459708aeaf8e709264c4b96fed706ae3</anchor>
-      <arglist>(uint32_t adc, uint16_t resolution)</arglist>
+      <anchor>ga6a321611830c50c5aba6d97471dc9eb4</anchor>
+      <arglist>(uint32_t adc, uint32_t resolution)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -11348,8 +11348,8 @@
       <type>void</type>
       <name>adc_set_resolution</name>
       <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
-      <anchor>ga459708aeaf8e709264c4b96fed706ae3</anchor>
-      <arglist>(uint32_t adc, uint16_t resolution)</arglist>
+      <anchor>ga6a321611830c50c5aba6d97471dc9eb4</anchor>
+      <arglist>(uint32_t adc, uint32_t resolution)</arglist>
     </member>
     <member kind="function">
       <type>void</type>

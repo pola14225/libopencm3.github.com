@@ -334,6 +334,25 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>cortex.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
+    <filename>cortex_8h</filename>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>cm_enable_interrupts</name>
+      <anchorfile>cortex_8h.html</anchorfile>
+      <anchor>a06a8f1e988ceacd262f4fbd14633b481</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>cm_disable_interrupts</name>
+      <anchorfile>cortex_8h.html</anchorfile>
+      <anchor>a30836716e88c3eccaf6c5fb872493450</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>doc-cm3.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
     <filename>doc-cm3_8h</filename>
@@ -3271,6 +3290,7 @@
     <filename>dir_88dec37158d6513a5d9049c3580b18ba.html</filename>
     <file>assert.h</file>
     <file>common.h</file>
+    <file>cortex.h</file>
     <file>doc-cm3.h</file>
     <file>fpb.h</file>
     <file>itm.h</file>

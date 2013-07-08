@@ -442,7 +442,7 @@ var adc_8h =
     [ "adc_set_left_aligned", "adc_8h.html#ga87e3c678306379082761a3b096ab8ccb", null ],
     [ "adc_set_multi_mode", "adc_8h.html#ga78cb8303ee1036a3c8019c5653390ea1", null ],
     [ "adc_set_regular_sequence", "adc_8h.html#gace14daa8c089f21f710eeeebce100227", null ],
-    [ "adc_set_resolution", "adc_8h.html#ga459708aeaf8e709264c4b96fed706ae3", null ],
+    [ "adc_set_resolution", "adc_8h.html#ga6a321611830c50c5aba6d97471dc9eb4", null ],
     [ "adc_set_right_aligned", "adc_8h.html#ga923b0eb25e1ba298000bdc80cab9702a", null ],
     [ "adc_set_sample_time", "adc_8h.html#ga0350c814893ca4055629da6498d1dfad", null ],
     [ "adc_set_sample_time_on_all_channels", "adc_8h.html#ga028c905528d6187936c2d2ed61967d73", null ],

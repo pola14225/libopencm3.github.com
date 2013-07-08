@@ -50,7 +50,7 @@ var group__STM32F4xx__adc__file =
     [ "adc_set_left_aligned", "group__STM32F4xx__adc__file.html#ga87e3c678306379082761a3b096ab8ccb", null ],
     [ "adc_set_multi_mode", "group__STM32F4xx__adc__file.html#ga78cb8303ee1036a3c8019c5653390ea1", null ],
     [ "adc_set_regular_sequence", "group__STM32F4xx__adc__file.html#gace14daa8c089f21f710eeeebce100227", null ],
-    [ "adc_set_resolution", "group__STM32F4xx__adc__file.html#ga459708aeaf8e709264c4b96fed706ae3", null ],
+    [ "adc_set_resolution", "group__STM32F4xx__adc__file.html#ga6a321611830c50c5aba6d97471dc9eb4", null ],
     [ "adc_set_right_aligned", "group__STM32F4xx__adc__file.html#ga923b0eb25e1ba298000bdc80cab9702a", null ],
     [ "adc_set_sample_time", "group__STM32F4xx__adc__file.html#ga0350c814893ca4055629da6498d1dfad", null ],
     [ "adc_set_sample_time_on_all_channels", "group__STM32F4xx__adc__file.html#ga028c905528d6187936c2d2ed61967d73", null ],

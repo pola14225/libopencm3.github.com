@@ -2,6 +2,7 @@ var files =
 [
     [ "assert.h", "assert_8h.html", "assert_8h" ],
     [ "common.h", "common_8h.html", "common_8h" ],
+    [ "cortex.h", "cortex_8h.html", "cortex_8h" ],
     [ "doc-cm3.h", "doc-cm3_8h.html", null ],
     [ "fpb.h", "fpb_8h.html", "fpb_8h" ],
     [ "itm.h", "itm_8h.html", "itm_8h" ],
