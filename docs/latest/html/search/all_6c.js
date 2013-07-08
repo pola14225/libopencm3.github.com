@@ -5,6 +5,7 @@ var searchData=
   ['license_2edox',['license.dox',['../../cm3/html/license_8dox.html',1,'(Global Namespace)'],['../../stm32f1/html/license_8dox.html',1,'(Global Namespace)'],['../../stm32f4/html/license_8dox.html',1,'(Global Namespace)'],['../../lm3s/html/license_8dox.html',1,'(Global Namespace)'],['../../lm4f/html/license_8dox.html',1,'(Global Namespace)'],['../../lpc13xx/html/license_8dox.html',1,'(Global Namespace)'],['../../lpc17xx/html/license_8dox.html',1,'(Global Namespace)'],['../../lpc43xx/html/license_8dox.html',1,'(Global Namespace)']]],
   ['lm3s',['LM3S',['../../lm3s/html/group__LM3Sxx.html',1,'']]],
   ['lm3s_20defines',['LM3S Defines',['../../lm3s/html/group__LM3Sxx__defines.html',1,'']]],
+  ['lm4f_5fclken',['lm4f_clken',['../../lm4f/html/group__systemcontrol__defines.html#ga216f3c694b4491151311f37062d17d7c',1,]]],
   ['lm4f_5frcc_5fsysclk_5ffreq',['lm4f_rcc_sysclk_freq',['../../lm4f/html/group__rcc__low__level.html#ga53588dcb636da3e059dd7c45d82f6504',1,]]],
   ['lm4f_5fusb_5fdriver',['lm4f_usb_driver',['../../lm4f/html/group__usb__file.html#gaa36c79137f3e29484275d9c75a27f9c2',1,]]],
   ['lm4f',['LM4F',['../../lm4f/html/group__LM4Fxx.html',1,'']]],

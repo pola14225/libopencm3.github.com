@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"usb__private_8h.html#ga1cf959928954ac5fe754b82f75ce4994":[19,0,11,4],
+"usb__private_8h.html#ga3bc8dd33500621a1e900c78a42dcaf27":[19,0,11,8],
 "usb__private_8h.html#gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018":[19,0,11,4,2],
 "usb__private_8h.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff":[19,0,11,4,0],
 "usb__private_8h.html#gga1cf959928954ac5fe754b82f75ce4994ab016c2caf10af8d5cd6adbb926a18c90":[19,0,11,4,1],

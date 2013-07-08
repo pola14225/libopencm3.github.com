@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['stall_5ftransaction',['stall_transaction',['../group__usb__control__file.html#gaf6f522923d66ffdea79fbbd4decc31d4',1,'usb_control.c']]],
   ['stm32f103_5fendpoints_5freset',['stm32f103_endpoints_reset',['../usb__f103_8c.html#a97482ce8f4274239adfd79099109bdc3',1,'usb_f103.c']]],
   ['stm32f103_5fep_5fnak_5fset',['stm32f103_ep_nak_set',['../usb__f103_8c.html#a95ae6b3af911e67ce72b486066c37d55',1,'usb_f103.c']]],
   ['stm32f103_5fep_5fread_5fpacket',['stm32f103_ep_read_packet',['../usb__f103_8c.html#a4890673806855a275ed1c467d4034d7f',1,'usb_f103.c']]],

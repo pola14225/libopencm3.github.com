@@ -23,5 +23,5 @@ var searchData=
   ['xtal_5f8m',['XTAL_8M',['../group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a76156a0243858d32154f20628fe06ea7',1,'rcc.h']]],
   ['xtal_5f8m_5f192',['XTAL_8M_192',['../group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a206a359c0b7effe7044e2036329b522c',1,'rcc.h']]],
   ['xtal_5ft',['xtal_t',['../group__rcc__defines.html#ga8f09204cad649f070887682ed6549ea9',1,'rcc.h']]],
-  ['xtal_5fto_5ffreq',['xtal_to_freq',['../group__rcc__high__level.html#ga7e2e905c72a0c519ccc4a3fcdf3e476f',1,'rcc.c']]]
+  ['xtal_5fto_5ffreq',['xtal_to_freq',['../group__rcc__high__level.html#ga43a00aa2241426ed96573abc3de839e9',1,'rcc.c']]]
 ];

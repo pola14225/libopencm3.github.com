@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"struct__usbd__device.html#ad0879153fd5676dda54f0c122420af2e":[18,0,0,12],
 "struct__usbd__device_1_1usb__control__state.html":[18,0,0,0],
 "struct__usbd__device_1_1usb__control__state.html#a261f6c057a987f0ad538ecc8ad4d49b3":[18,0,0,0,10],
 "struct__usbd__device_1_1usb__control__state.html#a27f5fbdb66c93cd1b600ebaa63140890a2b8f315a1c77155a8eb55bb2920c387f":[18,0,0,0,4],
@@ -181,12 +182,13 @@ var NAVTREEINDEX1 =
 "usb__control_8c.html#a1a921e8785fafeee17c588aa26cff014":[19,0,5,1],
 "usb__control_8c.html#a322b01bbbac6fb3c095d4bb6fc54184d":[19,0,5,0],
 "usb__control_8c.html#ad4bc495b7e757434644e1dece336b261":[19,0,5,2],
-"usb__control_8c.html#ga2149cd30a26a18c9c46e32db4aa5ef3e":[19,0,5,6],
-"usb__control_8c.html#ga46375610ee21a2c8ab4a06fe3bd70291":[19,0,5,5],
-"usb__control_8c.html#ga86f80b7593ee05d364fd791896213e38":[19,0,5,8],
-"usb__control_8c.html#ga883123627c0bed716ec41d4d7f3c0a46":[19,0,5,4],
-"usb__control_8c.html#gab9305438ecc3aaa7359aacdbc4f55c29":[19,0,5,7],
-"usb__control_8c.html#gaf3b08c6a689c9f5a20f636507e70bb52":[19,0,5,3],
+"usb__control_8c.html#ga2149cd30a26a18c9c46e32db4aa5ef3e":[19,0,5,7],
+"usb__control_8c.html#ga46375610ee21a2c8ab4a06fe3bd70291":[19,0,5,6],
+"usb__control_8c.html#ga86f80b7593ee05d364fd791896213e38":[19,0,5,9],
+"usb__control_8c.html#ga883123627c0bed716ec41d4d7f3c0a46":[19,0,5,5],
+"usb__control_8c.html#gab9305438ecc3aaa7359aacdbc4f55c29":[19,0,5,8],
+"usb__control_8c.html#gaf3b08c6a689c9f5a20f636507e70bb52":[19,0,5,4],
+"usb__control_8c.html#gaf6f522923d66ffdea79fbbd4decc31d4":[19,0,5,3],
 "usb__control_8c_source.html":[19,0,5],
 "usb__f103_8c.html":[19,0,6],
 "usb__f103_8c.html#a0228f4fa04e7c7d1ccf05c9c7ed106dc":[19,0,6,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "usb__private_8h.html#abd588664d0803d5bf7d4d263f34f2575":[19,0,11,10],
 "usb__private_8h.html#ad4bc495b7e757434644e1dece336b261":[19,0,11,7],
 "usb__private_8h.html#aec01ef6ed66dcc2b50cc969b8be8f419":[19,0,11,12],
-"usb__private_8h.html#aed9aa74939234f607611928534d3b1b9":[19,0,11,11],
-"usb__private_8h.html#ga1cf959928954ac5fe754b82f75ce4994":[19,0,11,4],
-"usb__private_8h.html#ga3bc8dd33500621a1e900c78a42dcaf27":[19,0,11,8]
+"usb__private_8h.html#aed9aa74939234f607611928534d3b1b9":[19,0,11,11]
 };

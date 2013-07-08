@@ -152,7 +152,7 @@ Functions</h2></td></tr>
 <p>Enabling the UART is a two step process. The GPIO on which the UART resides must be enabled, and the UART pins must be configured as alternate function, digital pins. Pins must also be muxed to the appropriate alternate function. This is done with the GPIO API.</p>
 <p>The second step involves enabling and the UART itself. The UART should be disabled while it is being configured.</p>
 <ol type="1">
-<li>The UART clock must be enabled with <a class="el" href="group__systemcontrol__defines.html#ga4c643a7c0a0ab8e4adbd057429703568">periph_clock_enable()</a>.</li>
+<li>The UART clock must be enabled with <a class="el" href="group__systemcontrol__defines.html#ga395012136af8db0d9fc18dad206b8a87">periph_clock_enable()</a>.</li>
 <li>The UART must be disabled with <a class="el" href="group__uart__defines.html#ga0167757699a14269e55640b5034ffcbf">uart_disable()</a>.</li>
 <li>The UART clock source should be chosen before setting the baudrate.</li>
 <li>Baudrate, data bits, stop bit length, and parity can be configured.</li>
@@ -161,7 +161,7 @@ Functions</h2></td></tr>
 </ol>
 <p>For example, to enable UART1 at 115200 8n1 with hardware flow control: </p>
 <div class="fragment"><div class="line"><span class="comment">// Enable the UART clock</span></div>
-<div class="line"><a class="code" href="group__systemcontrol__defines.html#ga4c643a7c0a0ab8e4adbd057429703568" title="Enable the clock source for the peripheral.">periph_clock_enable</a>(<a class="code" href="group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a5114880810642497fb718a780cb97199">RCC_UART1</a>);</div>
+<div class="line"><a class="code" href="group__systemcontrol__defines.html#ga395012136af8db0d9fc18dad206b8a87" title="Enable the clock source for the peripheral.">periph_clock_enable</a>(<a class="code" href="group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca5114880810642497fb718a780cb97199">RCC_UART1</a>);</div>
 <div class="line"><span class="comment">// We need a brief delay before we can access UART config registers</span></div>
 <div class="line">__asm__(<span class="stringliteral">&quot;nop&quot;</span>); __asm__(<span class="stringliteral">&quot;nop&quot;</span>); __asm__(<span class="stringliteral">&quot;nop&quot;</span>);</div>
 <div class="line"><span class="comment">// Disable the UART while we mess with its settings</span></div>
@@ -492,7 +492,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 8 2013 01:21:35 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 02:21:31 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

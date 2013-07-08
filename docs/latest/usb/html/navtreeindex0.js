@@ -96,12 +96,13 @@ var NAVTREEINDEX0 =
 "group__usb__cdc__defines.html":[4,1,0],
 "group__usb__cdc__defines.html#gab6677e82689abb017cf4e5590b1305fa":[4,1,0,6],
 "group__usb__control__file.html":[4,0,1],
-"group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e":[4,0,1,3],
-"group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291":[4,0,1,2],
-"group__usb__control__file.html#ga86f80b7593ee05d364fd791896213e38":[4,0,1,5],
-"group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46":[4,0,1,1],
-"group__usb__control__file.html#gab9305438ecc3aaa7359aacdbc4f55c29":[4,0,1,4],
-"group__usb__control__file.html#gaf3b08c6a689c9f5a20f636507e70bb52":[4,0,1,0],
+"group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e":[4,0,1,4],
+"group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291":[4,0,1,3],
+"group__usb__control__file.html#ga86f80b7593ee05d364fd791896213e38":[4,0,1,6],
+"group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46":[4,0,1,2],
+"group__usb__control__file.html#gab9305438ecc3aaa7359aacdbc4f55c29":[4,0,1,5],
+"group__usb__control__file.html#gaf3b08c6a689c9f5a20f636507e70bb52":[4,0,1,1],
+"group__usb__control__file.html#gaf6f522923d66ffdea79fbbd4decc31d4":[4,0,1,0],
 "group__usb__dfu__defines.html":[4,1,1],
 "group__usb__dfu__defines.html#ga1eb1afd96bccc953e4c19022df7d2171":[4,1,1,1],
 "group__usb__dfu__defines.html#ga3f025bde53c777c5e0493ef54bbeb143":[4,1,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "struct__usbd__device.html#ac0918a3ad67373dbf43e873c1d1b026e":[18,0,0,22],
 "struct__usbd__device.html#ac28d5ce184bf3812d6e85be62ce27ea4":[18,0,0,4],
 "struct__usbd__device.html#acaf5ea2b1ee04aaa31407f99dc98316c":[18,0,0,20],
-"struct__usbd__device.html#acb76927d8afd9bf487d2f8f645e2ee0d":[18,0,0,6],
-"struct__usbd__device.html#ad0879153fd5676dda54f0c122420af2e":[18,0,0,12]
+"struct__usbd__device.html#acb76927d8afd9bf487d2f8f645e2ee0d":[18,0,0,6]
 };

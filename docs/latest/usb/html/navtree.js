@@ -46,8 +46,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"struct__usbd__device_1_1usb__control__state.html",
-"usb__private_8h.html#gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018"
+"struct__usbd__device.html#ad0879153fd5676dda54f0c122420af2e",
+"usb__private_8h.html#ga1cf959928954ac5fe754b82f75ce4994"
 ];
 
 var navTreeSubIndices = new Array();

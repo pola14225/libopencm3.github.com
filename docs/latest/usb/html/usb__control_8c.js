@@ -3,6 +3,7 @@ var usb__control_8c =
     [ "_usbd_control_in", "usb__control_8c.html#a322b01bbbac6fb3c095d4bb6fc54184d", null ],
     [ "_usbd_control_out", "usb__control_8c.html#a1a921e8785fafeee17c588aa26cff014", null ],
     [ "_usbd_control_setup", "usb__control_8c.html#ad4bc495b7e757434644e1dece336b261", null ],
+    [ "stall_transaction", "usb__control_8c.html#gaf6f522923d66ffdea79fbbd4decc31d4", null ],
     [ "usb_control_recv_chunk", "usb__control_8c.html#gaf3b08c6a689c9f5a20f636507e70bb52", null ],
     [ "usb_control_request_dispatch", "usb__control_8c.html#ga883123627c0bed716ec41d4d7f3c0a46", null ],
     [ "usb_control_send_chunk", "usb__control_8c.html#ga46375610ee21a2c8ab4a06fe3bd70291", null ],

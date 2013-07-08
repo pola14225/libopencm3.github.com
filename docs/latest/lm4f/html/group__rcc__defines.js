@@ -1,19 +1,19 @@
 var group__rcc__defines =
 [
-    [ "osc_src_t", "group__rcc__defines.html#ga931f75a5969f2dda1abaa7ee1b2fb022", [
-      [ "OSCSRC_MOSC", "group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022adb9b675853b16e89501a2eb677c12894", null ],
-      [ "OSCSRC_PIOSC", "group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022a7168eb777903d908b7d91b952b3f1c58", null ],
-      [ "OSCSRC_PIOSC_D4", "group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022a24ecedc2dea27d6b5823bcce0133fa22", null ],
-      [ "OSCSRC_30K_INT", "group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022ae39fab718557fa25a344a38c6d8469f3", null ],
-      [ "OSCSRC_32K_EXT", "group__rcc__defines.html#gga931f75a5969f2dda1abaa7ee1b2fb022ac0bd6d9d0b5e0de9831d717589345c11", null ]
+    [ "osc_src", "group__rcc__defines.html#ga1b534c93284a244cc1a84f41a459173a", [
+      [ "OSCSRC_MOSC", "group__rcc__defines.html#gga1b534c93284a244cc1a84f41a459173aadb9b675853b16e89501a2eb677c12894", null ],
+      [ "OSCSRC_PIOSC", "group__rcc__defines.html#gga1b534c93284a244cc1a84f41a459173aa7168eb777903d908b7d91b952b3f1c58", null ],
+      [ "OSCSRC_PIOSC_D4", "group__rcc__defines.html#gga1b534c93284a244cc1a84f41a459173aa24ecedc2dea27d6b5823bcce0133fa22", null ],
+      [ "OSCSRC_30K_INT", "group__rcc__defines.html#gga1b534c93284a244cc1a84f41a459173aae39fab718557fa25a344a38c6d8469f3", null ],
+      [ "OSCSRC_32K_EXT", "group__rcc__defines.html#gga1b534c93284a244cc1a84f41a459173aac0bd6d9d0b5e0de9831d717589345c11", null ]
     ] ],
-    [ "pwm_clkdiv_t", "group__rcc__defines.html#ga13f5e74c594f9314b816fa4e694e9504", [
-      [ "PWMDIV_2", "group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504a15284be2c0bdfb7cfd1abc33586a0bce", null ],
-      [ "PWMDIV_4", "group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504a192482b9872c838aa8439a7dc24872f3", null ],
-      [ "PWMDIV_8", "group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504a2b247289718884cea03bbf09cc6caf7d", null ],
-      [ "PWMDIV_16", "group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504a5a9382f819f076e61ac36cbcb10f756c", null ],
-      [ "PWMDIV_32", "group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504af4549a3497ee484e5a6a2fc41a4cdb29", null ],
-      [ "PWMDIV_64", "group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504ab881e4379f382748ece5ec8fd5252b3d", null ]
+    [ "pwm_clkdiv", "group__rcc__defines.html#ga9634afd06a58256ecd18d15d3fed8e5c", [
+      [ "PWMDIV_2", "group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5ca15284be2c0bdfb7cfd1abc33586a0bce", null ],
+      [ "PWMDIV_4", "group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5ca192482b9872c838aa8439a7dc24872f3", null ],
+      [ "PWMDIV_8", "group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5ca2b247289718884cea03bbf09cc6caf7d", null ],
+      [ "PWMDIV_16", "group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5ca5a9382f819f076e61ac36cbcb10f756c", null ],
+      [ "PWMDIV_32", "group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5caf4549a3497ee484e5a6a2fc41a4cdb29", null ],
+      [ "PWMDIV_64", "group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5cab881e4379f382748ece5ec8fd5252b3d", null ]
     ] ],
     [ "xtal_t", "group__rcc__defines.html#ga8f09204cad649f070887682ed6549ea9", [
       [ "XTAL_4M", "group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9aea78bea9d38f290229c93b114486dec9", null ],
@@ -39,7 +39,7 @@ var group__rcc__defines =
       [ "XTAL_25M", "group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a8ac164b085138f1c24abb51ee35cf5d5", null ]
     ] ],
     [ "rcc_change_pll_divisor", "group__rcc__defines.html#ga70fca8e561f7e2b2b7062c22d85419b4", null ],
-    [ "rcc_configure_xtal", "group__rcc__defines.html#gafe2c334adb77d1117b4f91404a659ea1", null ],
+    [ "rcc_configure_xtal", "group__rcc__defines.html#gad6494301cc49e87210fe3e6234c6698c", null ],
     [ "rcc_disable_interal_osc", "group__rcc__defines.html#ga25df4f03d0154ac5b09b875dad1226e0", null ],
     [ "rcc_disable_main_osc", "group__rcc__defines.html#ga5f536734177d63215d1494e6dea715d0", null ],
     [ "rcc_enable_interal_osc", "group__rcc__defines.html#ga191546fa4ded6cb6d3c753e0de255464", null ],
@@ -50,10 +50,10 @@ var group__rcc__defines =
     [ "rcc_pll_bypass_enable", "group__rcc__defines.html#ga269054cc63981ae593e6820de2fe76b1", null ],
     [ "rcc_pll_off", "group__rcc__defines.html#ga31217830e7f538e902e8b157e2715428", null ],
     [ "rcc_pll_on", "group__rcc__defines.html#gaf58b85261f65604132b67d3567c2b0c3", null ],
-    [ "rcc_set_osc_source", "group__rcc__defines.html#gabde4ea299b0ce6f81a9f44387881e29b", null ],
+    [ "rcc_set_osc_source", "group__rcc__defines.html#ga6acaa4f857ca454c3f90f579091b3246", null ],
     [ "rcc_set_pll_divisor", "group__rcc__defines.html#ga104041e1468a0fc62d6c584a25859053", null ],
-    [ "rcc_set_pwm_divisor", "group__rcc__defines.html#ga390df69d68a12c67ac2484b741cea22e", null ],
-    [ "rcc_sysclk_config", "group__rcc__defines.html#gac30c6e5d8aa6f46dba80abc44751c888", null ],
+    [ "rcc_set_pwm_divisor", "group__rcc__defines.html#gad9dea6bb566a5d6079037f41cc3d1c62", null ],
+    [ "rcc_sysclk_config", "group__rcc__defines.html#ga94e682bdf26bde662afb76403acdd227", null ],
     [ "rcc_usb_pll_off", "group__rcc__defines.html#ga68c7027c77c2a1a0d6d202e191c1baf5", null ],
     [ "rcc_usb_pll_on", "group__rcc__defines.html#gae31973474f6d00125a57784e84230c86", null ],
     [ "rcc_wait_for_pll_ready", "group__rcc__defines.html#ga0f5f3bea5dbfde10760a9cd775951a51", null ]

@@ -402,6 +402,9 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:254: warning: argument 'div' of command @param is not found in the argument list of rcc_set_pll_divisor(uint8_t div400)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:254: warning: The following parameters of rcc_set_pll_divisor(uint8_t div400) are not documented:
   parameter 'div400'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:418: warning: argument 'osc_src' of command @param is not found in the argument list of rcc_sysclk_config(enum osc_src src, enum xtal_t xtal, uint8_t pll_div400)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:418: warning: The following parameters of rcc_sysclk_config(enum osc_src src, enum xtal_t xtal, uint8_t pll_div400) are not documented:
+  parameter 'src'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:322: warning: The following parameters of uart_send_blocking(uint32_t uart, uint16_t data) are not documented:
   parameter 'data'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:169: warning: argument 'bits' of command @param is not found in the argument list of uart_set_parity(uint32_t uart, enum uart_parity parity)
@@ -415,6 +418,9 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:254: warning: argument 'div' of command @param is not found in the argument list of rcc_set_pll_divisor(uint8_t div400)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:254: warning: The following parameters of rcc_set_pll_divisor(uint8_t div400) are not documented:
   parameter 'div400'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:418: warning: argument 'osc_src' of command @param is not found in the argument list of rcc_sysclk_config(enum osc_src src, enum xtal_t xtal, uint8_t pll_div400)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:418: warning: The following parameters of rcc_sysclk_config(enum osc_src src, enum xtal_t xtal, uint8_t pll_div400) are not documented:
+  parameter 'src'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:169: warning: argument 'bits' of command @param is not found in the argument list of uart_set_parity(uint32_t uart, enum uart_parity parity)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:169: warning: The following parameters of uart_set_parity(uint32_t uart, enum uart_parity parity) are not documented:
   parameter 'parity'

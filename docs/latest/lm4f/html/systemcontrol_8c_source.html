@@ -142,9 +142,9 @@ $(document).ready(function(){initNavTree('systemcontrol_8c_source.html','');});
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">/**</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * \brief Enable the clock source for the peripheral</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * @param[in] periph peripheral and clock type to enable @see clken_t</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * @param[in] periph peripheral and clock type to enable @see lm4f_clken</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="code" href="group__systemcontrol__defines.html#ga4c643a7c0a0ab8e4adbd057429703568">   27</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__systemcontrol__defines.html#ga4c643a7c0a0ab8e4adbd057429703568" title="Enable the clock source for the peripheral.">periph_clock_enable</a>(<a class="code" href="group__systemcontrol__defines.html#ga9fbad613b184a3b51402b61135965959" title="Clock enable definitions.">clken_t</a> periph)</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="code" href="group__systemcontrol__defines.html#ga395012136af8db0d9fc18dad206b8a87">   27</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__systemcontrol__defines.html#ga395012136af8db0d9fc18dad206b8a87" title="Enable the clock source for the peripheral.">periph_clock_enable</a>(<span class="keyword">enum</span> <a class="code" href="group__systemcontrol__defines.html#ga216f3c694b4491151311f37062d17d7c" title="Clock enable definitions.">lm4f_clken</a> periph)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(SYSCTL_BASE + (periph &gt;&gt; 5)) |= 1 &lt;&lt; (periph &amp; 0x1f);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
@@ -152,9 +152,9 @@ $(document).ready(function(){initNavTree('systemcontrol_8c_source.html','');});
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">/**</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * \brief Disable the clock source for the peripheral</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * @param[in] periph peripheral and clock type to enable @see clken_t</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * @param[in] periph peripheral and clock type to enable @see lm4f_clken</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="group__systemcontrol__defines.html#ga60d83cd6244993f04930f6f65415b7fe">   37</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__systemcontrol__defines.html#ga60d83cd6244993f04930f6f65415b7fe" title="Disable the clock source for the peripheral.">periph_clock_disable</a>(<a class="code" href="group__systemcontrol__defines.html#ga9fbad613b184a3b51402b61135965959" title="Clock enable definitions.">clken_t</a> periph)</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="group__systemcontrol__defines.html#gaa8ca86965f943013fd3bc6eb61f889e2">   37</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__systemcontrol__defines.html#gaa8ca86965f943013fd3bc6eb61f889e2" title="Disable the clock source for the peripheral.">periph_clock_disable</a>(<span class="keyword">enum</span> <a class="code" href="group__systemcontrol__defines.html#ga216f3c694b4491151311f37062d17d7c" title="Clock enable definitions.">lm4f_clken</a> periph)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(SYSCTL_BASE + (periph &gt;&gt; 5)) &amp;= ~(1 &lt;&lt; (periph &amp; 0x1f));</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('systemcontrol_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_12fee2a8ab17b1bb753631ffb3fddc2a.html">lm4f</a></li><li class="navelem"><a class="el" href="systemcontrol_8c.html">systemcontrol.c</a></li>
-    <li class="footer">Generated on Mon Jul 8 2013 01:21:34 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 02:21:31 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

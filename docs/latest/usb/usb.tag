@@ -586,6 +586,13 @@
     <name>usb_control.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
     <filename>usb__control_8c</filename>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>stall_transaction</name>
+      <anchorfile>group__usb__control__file.html</anchorfile>
+      <anchor>gaf6f522923d66ffdea79fbbd4decc31d4</anchor>
+      <arglist>(usbd_device *usbd_dev)</arglist>
+    </member>
     <member kind="function">
       <type>int</type>
       <name>usbd_register_control_callback</name>
@@ -2389,6 +2396,13 @@
     <name>usb_control_file</name>
     <title>Generic USB Control Requests</title>
     <filename>group__usb__control__file.html</filename>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>stall_transaction</name>
+      <anchorfile>group__usb__control__file.html</anchorfile>
+      <anchor>gaf6f522923d66ffdea79fbbd4decc31d4</anchor>
+      <arglist>(usbd_device *usbd_dev)</arglist>
+    </member>
     <member kind="function">
       <type>int</type>
       <name>usbd_register_control_callback</name>

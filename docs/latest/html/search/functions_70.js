@@ -1,8 +1,8 @@
 var searchData=
 [
   ['pend_5fsv_5fhandler',['pend_sv_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga214eb2c5d993ec1fe7b0a25dd428d3ae',1,]]],
-  ['periph_5fclock_5fdisable',['periph_clock_disable',['../../lm4f/html/group__systemcontrol__defines.html#ga60d83cd6244993f04930f6f65415b7fe',1,]]],
-  ['periph_5fclock_5fenable',['periph_clock_enable',['../../lm4f/html/group__systemcontrol__defines.html#ga4c643a7c0a0ab8e4adbd057429703568',1,]]],
+  ['periph_5fclock_5fdisable',['periph_clock_disable',['../../lm4f/html/group__systemcontrol__defines.html#gaa8ca86965f943013fd3bc6eb61f889e2',1,]]],
+  ['periph_5fclock_5fenable',['periph_clock_enable',['../../lm4f/html/group__systemcontrol__defines.html#ga395012136af8db0d9fc18dad206b8a87',1,]]],
   ['pwr_5fclear_5fstandby_5fflag',['pwr_clear_standby_flag',['../../stm32f1/html/group__pwr-file.html#gacee516d449f1015a27246fbfedc534de',1,]]],
   ['pwr_5fclear_5fwakeup_5fflag',['pwr_clear_wakeup_flag',['../../stm32f1/html/group__pwr-file.html#ga652ae2d48d4833539f50f0c201e8fff2',1,]]],
   ['pwr_5fdisable_5fbackup_5fdomain_5fwrite_5fprotect',['pwr_disable_backup_domain_write_protect',['../../stm32f1/html/group__pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743',1,]]],

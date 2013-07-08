@@ -34,9 +34,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "doc-lm4f_8h.html",
-"group__systemcontrol__defines.html#gga9fbad613b184a3b51402b61135965959a27200fdd011075f80ec18eac21d811a4",
-"group__uart__fifo.html#gad1246f6b0b156022d942ded6a7a7e398",
-"systemcontrol_8h.html#gga9fbad613b184a3b51402b61135965959aac1edecb6b1268334dd61d0be70eb8b5"
+"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca2ebf4a17f114d0755d56c70270296856",
+"group__uart__file.html",
+"systemcontrol_8h.html#gga216f3c694b4491151311f37062d17d7caad3a48f5b917e478e276d137c0854433"
 ];
 
 var navTreeSubIndices = new Array();

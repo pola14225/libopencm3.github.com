@@ -2,6 +2,7 @@ var searchData=
 [
   ['set_5faddress',['set_address',['../struct__usbd__driver.html#a83d43957334b79f85d86cb86258db22a',1,'_usbd_driver']]],
   ['set_5faddress_5fbefore_5fstatus',['set_address_before_status',['../struct__usbd__driver.html#aefdf9ebe191591530450f59fb63bc125',1,'_usbd_driver']]],
+  ['stall_5ftransaction',['stall_transaction',['../group__usb__control__file.html#gaf6f522923d66ffdea79fbbd4decc31d4',1,'usb_control.c']]],
   ['stalled',['STALLED',['../struct__usbd__device_1_1usb__control__state.html#a27f5fbdb66c93cd1b600ebaa63140890adbdd8c4000539bee13614e666ce87819',1,'_usbd_device::usb_control_state']]],
   ['state',['state',['../struct__usbd__device_1_1usb__control__state.html#a4560c0bfa6988db823f43be71118f60b',1,'_usbd_device::usb_control_state']]],
   ['state_5fapp_5fdetach',['STATE_APP_DETACH',['../group__usb__dfu__defines.html#gga3f025bde53c777c5e0493ef54bbeb143a1cae6396e56ba1edfd3bc7bf4b9b6dd4',1,'dfu.h']]],

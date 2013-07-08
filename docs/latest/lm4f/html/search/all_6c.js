@@ -3,6 +3,7 @@ var searchData=
   ['libopencm3_20core_20cm3',['libopencm3 Core CM3',['../../../cm3/html/index.html',1,'(Global Namespace)'],['../index.html',1,'(Global Namespace)']]],
   ['libopencm3_20license',['libopencm3 License',['../../../cm3/html/lgpl_license.html',1,'']]],
   ['license_2edox',['license.dox',['../license_8dox.html',1,'(Global Namespace)'],['../../../cm3/html/license_8dox.html',1,'(Global Namespace)']]],
+  ['lm4f_5fclken',['lm4f_clken',['../group__systemcontrol__defines.html#ga216f3c694b4491151311f37062d17d7c',1,'systemcontrol.h']]],
   ['lm4f_5frcc_5fsysclk_5ffreq',['lm4f_rcc_sysclk_freq',['../group__rcc__low__level.html#ga53588dcb636da3e059dd7c45d82f6504',1,'rcc.c']]],
   ['lm4f_5fusb_5fdriver',['lm4f_usb_driver',['../group__usb__file.html#gaa36c79137f3e29484275d9c75a27f9c2',1,'usb_lm4f.c']]],
   ['lm4f',['LM4F',['../group__LM4Fxx.html',1,'']]],

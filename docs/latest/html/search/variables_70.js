@@ -188,10 +188,10 @@ var searchData=
   ['ppre1',['ppre1',['../../stm32f4/html/structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3',1,'clock_scale_t']]],
   ['ppre2',['ppre2',['../../stm32f4/html/structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a',1,'clock_scale_t']]],
   ['preset',['PRESET',['../../lpc43xx/html/structsgpio__t.html#a5fae0f8e69c05b3cd933b02cad50d35c',1,'sgpio_t']]],
-  ['pwmdiv_5f16',['PWMDIV_16',['../../lm4f/html/group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504a5a9382f819f076e61ac36cbcb10f756c',1,]]],
-  ['pwmdiv_5f2',['PWMDIV_2',['../../lm4f/html/group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504a15284be2c0bdfb7cfd1abc33586a0bce',1,]]],
-  ['pwmdiv_5f32',['PWMDIV_32',['../../lm4f/html/group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504af4549a3497ee484e5a6a2fc41a4cdb29',1,]]],
-  ['pwmdiv_5f4',['PWMDIV_4',['../../lm4f/html/group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504a192482b9872c838aa8439a7dc24872f3',1,]]],
-  ['pwmdiv_5f64',['PWMDIV_64',['../../lm4f/html/group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504ab881e4379f382748ece5ec8fd5252b3d',1,]]],
-  ['pwmdiv_5f8',['PWMDIV_8',['../../lm4f/html/group__rcc__defines.html#gga13f5e74c594f9314b816fa4e694e9504a2b247289718884cea03bbf09cc6caf7d',1,]]]
+  ['pwmdiv_5f16',['PWMDIV_16',['../../lm4f/html/group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5ca5a9382f819f076e61ac36cbcb10f756c',1,]]],
+  ['pwmdiv_5f2',['PWMDIV_2',['../../lm4f/html/group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5ca15284be2c0bdfb7cfd1abc33586a0bce',1,]]],
+  ['pwmdiv_5f32',['PWMDIV_32',['../../lm4f/html/group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5caf4549a3497ee484e5a6a2fc41a4cdb29',1,]]],
+  ['pwmdiv_5f4',['PWMDIV_4',['../../lm4f/html/group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5ca192482b9872c838aa8439a7dc24872f3',1,]]],
+  ['pwmdiv_5f64',['PWMDIV_64',['../../lm4f/html/group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5cab881e4379f382748ece5ec8fd5252b3d',1,]]],
+  ['pwmdiv_5f8',['PWMDIV_8',['../../lm4f/html/group__rcc__defines.html#gga9634afd06a58256ecd18d15d3fed8e5ca2b247289718884cea03bbf09cc6caf7d',1,]]]
 ];
