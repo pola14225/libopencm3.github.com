@@ -109,6 +109,8 @@ $(document).ready(function(){initNavTree('group__timer__defines.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Timer</div>  </div>
 <div class="ingroups"><a class="el" href="group__LPC43xx__defines.html">LPC43xx Defines</a></div></div><!--header-->
@@ -124,17 +126,234 @@ Collaboration diagram for Timer:</div>
 <area shape="rect" id="node1" href="group__LPC43xx__defines.html" title="Defined Constants and Types for the LPC43xx series." alt="" coords="5,5,131,35"/></map>
 </td></tr></table></center>
 </div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gaf229df2f3fd91426cbd0382fa09fae55"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#gaf229df2f3fd91426cbd0382fa09fae55">timer_reset</a> (uint32_t timer_peripheral)</td></tr>
+<tr class="memitem:ga8d2e8fb94b1988df5239852f2b3301d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga8d2e8fb94b1988df5239852f2b3301d6">timer_enable_counter</a> (uint32_t timer_peripheral)</td></tr>
+<tr class="memitem:ga48290e3b69592031f0d29066fafc780e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga48290e3b69592031f0d29066fafc780e">timer_disable_counter</a> (uint32_t timer_peripheral)</td></tr>
+<tr class="memitem:gae2d6fd0793f48922743ae64d04671f6b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#gae2d6fd0793f48922743ae64d04671f6b">timer_get_counter</a> (uint32_t timer_peripheral)</td></tr>
+<tr class="memitem:ga7057701df512bf79f039da9d6379a895"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga7057701df512bf79f039da9d6379a895">timer_set_counter</a> (uint32_t timer_peripheral, uint32_t count)</td></tr>
+<tr class="memitem:ga70b1a17116d39be25a715387ec9ba44e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga70b1a17116d39be25a715387ec9ba44e">timer_get_prescaler</a> (uint32_t timer_peripheral)</td></tr>
+<tr class="memitem:ga9cdabb33f951f3e112dbd315522ec13f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga9cdabb33f951f3e112dbd315522ec13f">timer_set_prescaler</a> (uint32_t timer_peripheral, uint32_t prescaler)</td></tr>
+<tr class="memitem:ga80397daa5412665cb8edc413ec89851e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga80397daa5412665cb8edc413ec89851e">timer_set_mode</a> (uint32_t timer_peripheral, uint32_t mode)</td></tr>
+<tr class="memitem:ga6a5be7145681beae0ba3748231732ce0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga6a5be7145681beae0ba3748231732ce0">timer_set_count_input</a> (uint32_t timer_peripheral, uint32_t input)</td></tr>
+</table>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
 <p><b>Defined Constants and Types for the LPC43xx timer</b> </p>
 <dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2012 Michael Ossmann <a href="#" onclick="location.href='mai'+'lto:'+'mik'+'e@'+'oss'+'ma'+'nn.'+'co'+'m'; return false;">mike@<span style="display: none;">.nosp@m.</span>ossm<span style="display: none;">.nosp@m.</span>ann.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
 <dl class="section date"><dt>Date</dt><dd>10 March 2013</dd></dl>
 <p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
+<h2>Function Documentation</h2>
+<a class="anchor" id="ga48290e3b69592031f0d29066fafc780e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer_disable_counter </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00036">36</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8d2e8fb94b1988df5239852f2b3301d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer_enable_counter </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00031">31</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gae2d6fd0793f48922743ae64d04671f6b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t timer_get_counter </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00046">46</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga70b1a17116d39be25a715387ec9ba44e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t timer_get_prescaler </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00051">51</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaf229df2f3fd91426cbd0382fa09fae55"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a> void timer_reset </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00025">25</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga6a5be7145681beae0ba3748231732ce0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer_set_count_input </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>input</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00066">66</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga7057701df512bf79f039da9d6379a895"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer_set_counter </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00041">41</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga80397daa5412665cb8edc413ec89851e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer_set_mode </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00061">61</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga9cdabb33f951f3e112dbd315522ec13f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer_set_prescaler </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>prescaler</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer_8c_source.html#l00056">56</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 8 2013 03:21:33 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 04:21:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

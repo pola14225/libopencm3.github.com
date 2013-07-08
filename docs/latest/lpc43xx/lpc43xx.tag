@@ -1367,11 +1367,11 @@
       <anchor>gabf3b154339113853936a35f87ea2f1f9</anchor>
       <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ssp_wait_until_not_busy</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>gaf3606050c56f9e7ccfbb91f703d38e46</anchor>
+      <anchor>ga82ac18ac210f631c6807fceeda4b9679</anchor>
       <arglist>(ssp_num_t ssp_num)</arglist>
     </member>
     <member kind="function">
@@ -1619,9 +1619,140 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>timer.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc43xx/</path>
+    <filename>timer_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_reset</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf229df2f3fd91426cbd0382fa09fae55</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8d2e8fb94b1988df5239852f2b3301d6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga48290e3b69592031f0d29066fafc780e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7057701df512bf79f039da9d6379a895</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t count)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>timer_get_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae2d6fd0793f48922743ae64d04671f6b</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>timer_get_prescaler</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga70b1a17116d39be25a715387ec9ba44e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_prescaler</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9cdabb33f951f3e112dbd315522ec13f</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t prescaler)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga80397daa5412665cb8edc413ec89851e</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_count_input</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6a5be7145681beae0ba3748231732ce0</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t input)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>timer.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc43xx/</path>
     <filename>timer_8h</filename>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>timer_reset</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf229df2f3fd91426cbd0382fa09fae55</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8d2e8fb94b1988df5239852f2b3301d6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga48290e3b69592031f0d29066fafc780e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>timer_get_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae2d6fd0793f48922743ae64d04671f6b</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7057701df512bf79f039da9d6379a895</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t count)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>timer_get_prescaler</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga70b1a17116d39be25a715387ec9ba44e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_prescaler</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9cdabb33f951f3e112dbd315522ec13f</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t prescaler)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga80397daa5412665cb8edc413ec89851e</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_count_input</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6a5be7145681beae0ba3748231732ce0</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t input)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>uart.c</name>
@@ -3376,6 +3507,69 @@
     <name>timer_defines</name>
     <title>Timer</title>
     <filename>group__timer__defines.html</filename>
+    <member kind="function">
+      <type>BEGIN_DECLS void</type>
+      <name>timer_reset</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf229df2f3fd91426cbd0382fa09fae55</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8d2e8fb94b1988df5239852f2b3301d6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga48290e3b69592031f0d29066fafc780e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>timer_get_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae2d6fd0793f48922743ae64d04671f6b</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7057701df512bf79f039da9d6379a895</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t count)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>timer_get_prescaler</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga70b1a17116d39be25a715387ec9ba44e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_prescaler</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9cdabb33f951f3e112dbd315522ec13f</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t prescaler)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga80397daa5412665cb8edc413ec89851e</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_count_input</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6a5be7145681beae0ba3748231732ce0</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t input)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>wwdt_defines</name>
@@ -3478,11 +3672,11 @@
       <anchor>gabf3b154339113853936a35f87ea2f1f9</anchor>
       <arglist>(ssp_num_t ssp_num, ssp_datasize_t data_size, ssp_frame_format_t frame_format, ssp_cpol_cpha_t cpol_cpha_format, uint8_t serial_clock_rate, uint8_t clk_prescale, ssp_mode_t mode, ssp_master_slave_t master_slave, ssp_slave_option_t slave_option)</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ssp_wait_until_not_busy</name>
       <anchorfile>group__ssp__file.html</anchorfile>
-      <anchor>gaf3606050c56f9e7ccfbb91f703d38e46</anchor>
+      <anchor>ga82ac18ac210f631c6807fceeda4b9679</anchor>
       <arglist>(ssp_num_t ssp_num)</arglist>
     </member>
     <member kind="function">
@@ -3931,6 +4125,7 @@
     <file>ipc.c</file>
     <file>scu.c</file>
     <file>ssp.c</file>
+    <file>timer.c</file>
     <file>uart.c</file>
   </compound>
   <compound kind="dir">

@@ -17,6 +17,6 @@ var group__LPC43xx__defines =
     [ "SDIO", "group__sdio__defines.html", "group__sdio__defines" ],
     [ "Serial General Purpose I/O", "group__sgpio__defines.html", null ],
     [ "Synchronous Serial Port", "group__ssp__defines.html", "group__ssp__defines" ],
-    [ "Timer", "group__timer__defines.html", null ],
+    [ "Timer", "group__timer__defines.html", "group__timer__defines" ],
     [ "Windowed Watchdog Timer", "group__wwdt__defines.html", null ]
 ];

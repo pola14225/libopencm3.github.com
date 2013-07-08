@@ -43,8 +43,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "adc_8h.html",
-"group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2aed01b69c5cfa6af470984ec888b8d395",
-"scu_8h.html#gga9ebba78e64868d90ae94cabceec832d2ad8024902c9096a4c82f80f54f4da50ae"
+"group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2aecc7f0ac8642bc54d5263aa885d41908",
+"scu_8h.html#gga9ebba78e64868d90ae94cabceec832d2ac97a8e19d982244786f7ff90d73fb6c7"
 ];
 
 var navTreeSubIndices = new Array();

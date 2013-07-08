@@ -210,7 +210,7 @@ $(document).ready(function(){initNavTree('ssp_8c_source.html','');});
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        SSP_CR1(ssp_port) = (SSP_ENABLE | mode | master_slave | slave_option);</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno"><a class="code" href="group__ssp__file.html#gaf3606050c56f9e7ccfbb91f703d38e46">   92</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__ssp__file.html#gaf3606050c56f9e7ccfbb91f703d38e46">ssp_wait_until_not_busy</a>(<a class="code" href="group__ssp__defines.html#ga56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num)</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="code" href="group__ssp__file.html#ga82ac18ac210f631c6807fceeda4b9679">   92</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="group__ssp__file.html#ga82ac18ac210f631c6807fceeda4b9679">ssp_wait_until_not_busy</a>(<a class="code" href="group__ssp__defines.html#ga56f2d17013b67f1998d132dc6be0b8d5">ssp_num_t</a> ssp_num)</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        uint32_t ssp_port;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
@@ -248,7 +248,7 @@ $(document).ready(function(){initNavTree('ssp_8c_source.html','');});
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">         * state with GPIO. I&#39;m thinking the MAX2837, for</span></div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">         * example...</span></div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="group__ssp__file.html#gaf3606050c56f9e7ccfbb91f703d38e46">ssp_wait_until_not_busy</a>(ssp_num);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="group__ssp__file.html#ga82ac18ac210f631c6807fceeda4b9679">ssp_wait_until_not_busy</a>(ssp_num);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        </div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="comment">/* Wait Until Data Received (Rx FIFO not Empty) */</span></div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">while</span>( (SSP_SR(ssp_port) &amp; SSP_SR_RNE) == 0);</div>
@@ -265,7 +265,7 @@ $(document).ready(function(){initNavTree('ssp_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_d37d3c975ecef012b6a8fd7f0f6fedfb.html">lpc43xx</a></li><li class="navelem"><a class="el" href="ssp_8c.html">ssp.c</a></li>
-    <li class="footer">Generated on Mon Jul 8 2013 03:21:33 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 8 2013 04:21:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

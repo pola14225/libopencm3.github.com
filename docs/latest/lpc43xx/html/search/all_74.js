@@ -1,7 +1,17 @@
 var searchData=
 [
+  ['timer_2ec',['timer.c',['../timer_8c.html',1,'']]],
   ['timer_2eh',['timer.h',['../timer_8h.html',1,'']]],
   ['timer',['Timer',['../group__timer__defines.html',1,'']]],
+  ['timer_5fdisable_5fcounter',['timer_disable_counter',['../group__timer__defines.html#ga48290e3b69592031f0d29066fafc780e',1,'timer_disable_counter(uint32_t timer_peripheral):&#160;timer.c'],['../group__timer__defines.html#ga48290e3b69592031f0d29066fafc780e',1,'timer_disable_counter(uint32_t timer_peripheral):&#160;timer.c']]],
+  ['timer_5fenable_5fcounter',['timer_enable_counter',['../group__timer__defines.html#ga8d2e8fb94b1988df5239852f2b3301d6',1,'timer_enable_counter(uint32_t timer_peripheral):&#160;timer.c'],['../group__timer__defines.html#ga8d2e8fb94b1988df5239852f2b3301d6',1,'timer_enable_counter(uint32_t timer_peripheral):&#160;timer.c']]],
+  ['timer_5fget_5fcounter',['timer_get_counter',['../group__timer__defines.html#gae2d6fd0793f48922743ae64d04671f6b',1,'timer_get_counter(uint32_t timer_peripheral):&#160;timer.c'],['../group__timer__defines.html#gae2d6fd0793f48922743ae64d04671f6b',1,'timer_get_counter(uint32_t timer_peripheral):&#160;timer.c']]],
+  ['timer_5fget_5fprescaler',['timer_get_prescaler',['../group__timer__defines.html#ga70b1a17116d39be25a715387ec9ba44e',1,'timer_get_prescaler(uint32_t timer_peripheral):&#160;timer.c'],['../group__timer__defines.html#ga70b1a17116d39be25a715387ec9ba44e',1,'timer_get_prescaler(uint32_t timer_peripheral):&#160;timer.c']]],
+  ['timer_5freset',['timer_reset',['../group__timer__defines.html#gaf229df2f3fd91426cbd0382fa09fae55',1,'timer_reset(uint32_t timer_peripheral):&#160;timer.c'],['../group__timer__defines.html#gaf229df2f3fd91426cbd0382fa09fae55',1,'timer_reset(uint32_t timer_peripheral):&#160;timer.c']]],
+  ['timer_5fset_5fcount_5finput',['timer_set_count_input',['../group__timer__defines.html#ga6a5be7145681beae0ba3748231732ce0',1,'timer_set_count_input(uint32_t timer_peripheral, uint32_t input):&#160;timer.c'],['../group__timer__defines.html#ga6a5be7145681beae0ba3748231732ce0',1,'timer_set_count_input(uint32_t timer_peripheral, uint32_t input):&#160;timer.c']]],
+  ['timer_5fset_5fcounter',['timer_set_counter',['../group__timer__defines.html#ga7057701df512bf79f039da9d6379a895',1,'timer_set_counter(uint32_t timer_peripheral, uint32_t count):&#160;timer.c'],['../group__timer__defines.html#ga7057701df512bf79f039da9d6379a895',1,'timer_set_counter(uint32_t timer_peripheral, uint32_t count):&#160;timer.c']]],
+  ['timer_5fset_5fmode',['timer_set_mode',['../group__timer__defines.html#ga80397daa5412665cb8edc413ec89851e',1,'timer_set_mode(uint32_t timer_peripheral, uint32_t mode):&#160;timer.c'],['../group__timer__defines.html#ga80397daa5412665cb8edc413ec89851e',1,'timer_set_mode(uint32_t timer_peripheral, uint32_t mode):&#160;timer.c']]],
+  ['timer_5fset_5fprescaler',['timer_set_prescaler',['../group__timer__defines.html#ga9cdabb33f951f3e112dbd315522ec13f',1,'timer_set_prescaler(uint32_t timer_peripheral, uint32_t prescaler):&#160;timer.c'],['../group__timer__defines.html#ga9cdabb33f951f3e112dbd315522ec13f',1,'timer_set_prescaler(uint32_t timer_peripheral, uint32_t prescaler):&#160;timer.c']]],
   ['total_5fbytes',['total_bytes',['../structusb__transfer__descriptor__t.html#a95339059400b0eb9c7b42a180ee0c330',1,'usb_transfer_descriptor_t::total_bytes()'],['../structusb__queue__head__t.html#aced46154809bc49ba83921b23917e3ba',1,'usb_queue_head_t::total_bytes()']]],
   ['tpiu_2eh',['tpiu.h',['../../../cm3/html/tpiu_8h.html',1,'']]]
 ];

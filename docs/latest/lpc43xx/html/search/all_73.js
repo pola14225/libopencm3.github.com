@@ -68,7 +68,7 @@ var searchData=
   ['ssp_5fslave_5fout_5fdisable',['SSP_SLAVE_OUT_DISABLE',['../group__ssp__defines.html#gga897178b84d3d8b35bc271c7928fe9ac8a4b209af4073f43455ec8b146fc7dd67e',1,'ssp.h']]],
   ['ssp_5fslave_5fout_5fenable',['SSP_SLAVE_OUT_ENABLE',['../group__ssp__defines.html#gga897178b84d3d8b35bc271c7928fe9ac8a0d1f8380221f836aa9f3621d89c742db',1,'ssp.h']]],
   ['ssp_5ftransfer',['ssp_transfer',['../group__ssp__defines.html#ga97a6e5b0c36d4f4c066bf837799245a9',1,'ssp_transfer(ssp_num_t ssp_num, uint16_t data):&#160;ssp.c'],['../group__ssp__file.html#ga97a6e5b0c36d4f4c066bf837799245a9',1,'ssp_transfer(ssp_num_t ssp_num, uint16_t data):&#160;ssp.c']]],
-  ['ssp_5fwait_5funtil_5fnot_5fbusy',['ssp_wait_until_not_busy',['../group__ssp__file.html#gaf3606050c56f9e7ccfbb91f703d38e46',1,'ssp.c']]],
+  ['ssp_5fwait_5funtil_5fnot_5fbusy',['ssp_wait_until_not_busy',['../group__ssp__file.html#ga82ac18ac210f631c6807fceeda4b9679',1,'ssp.c']]],
   ['status_5f0',['STATUS_0',['../structsgpio__t.html#a1e0f8828557a49f59a34d9f5158c5bfd',1,'sgpio_t']]],
   ['status_5f1',['STATUS_1',['../structsgpio__t.html#a2fa792eed6242979b5cc2ec805ea7e54',1,'sgpio_t']]],
   ['status_5f2',['STATUS_2',['../structsgpio__t.html#adacc72239a4dce1a33edd6add177129a',1,'sgpio_t']]],
