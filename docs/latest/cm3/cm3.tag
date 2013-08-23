@@ -602,44 +602,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ITM_BASE</name>
-      <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>add76251e412a195ec0a8f47227a8359e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DWT_BASE</name>
-      <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>afdab534f961bf8935eb456cb7700dcd2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FPB_BASE</name>
-      <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a1440e877246ef758651cb36c42fb9bf9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>SCS_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a3c14ed93192c8d9143322bbf77ebf770</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TPIU_BASE</name>
-      <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>ac31eb263a737e50fdd1425663545a14c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ITR_BASE</name>
-      <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a44719235a1303aa1fac3e7b1b5142cc5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -663,20 +628,11 @@
       <anchor>ad55a7ddb8d4b2398b0c1cfec76c0d9fd</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STIR_BASE</name>
-      <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>af4236b76f3fff159a3a6aa114c42f5c1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ID_BASE</name>
-      <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>ae8b723a166af853e24a63d5da6b53431</anchor>
-      <arglist></arglist>
-    </member>
+  </compound>
+  <compound kind="file">
+    <name>mpu.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
+    <filename>mpu_8h</filename>
   </compound>
   <compound kind="file">
     <name>nvic.h</name>
@@ -714,24 +670,10 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>NVIC_IABR</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>gaaf27ae37bd9f107e4773bae6d3405931</anchor>
-      <arglist>(iabr_id)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>NVIC_IPR</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>gac70cd532c336bcab3735403a1e0a8c48</anchor>
       <arglist>(ipr_id)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>NVIC_STIR</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>gaaa80bc30d455351b9231f252632d481b</anchor>
-      <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -749,37 +691,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>NVIC_MEM_MANAGE_IRQ</name>
-      <anchorfile>group__nvic__sysint.html</anchorfile>
-      <anchor>gaa842b6ef46aa6cecce5d382abac75271</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>NVIC_BUS_FAULT_IRQ</name>
-      <anchorfile>group__nvic__sysint.html</anchorfile>
-      <anchor>gacd890922541397f8fd92856d392a865d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>NVIC_USAGE_FAULT_IRQ</name>
-      <anchorfile>group__nvic__sysint.html</anchorfile>
-      <anchor>gaa5477aa1c88059e4a0f84622795b0ea9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>NVIC_SV_CALL_IRQ</name>
       <anchorfile>group__nvic__sysint.html</anchorfile>
       <anchor>gaaefda4fe69bd9acbd73c12ff2d023ad2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DEBUG_MONITOR_IRQ</name>
-      <anchorfile>group__nvic__sysint.html</anchorfile>
-      <anchor>ga6dd933d918f4be1675c61bb581936a40</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -840,13 +754,6 @@
     </member>
     <member kind="function">
       <type>uint8_t</type>
-      <name>nvic_get_active_irq</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>gaa5ef6143fd0b814310e5475473f80b43</anchor>
-      <arglist>(uint8_t irqn)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint8_t</type>
       <name>nvic_get_irq_enabled</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>gaa2244a9f5f8c94a82bc8cf41d6ef254d</anchor>
@@ -858,13 +765,6 @@
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>ga404123c81365250fe09e0545b4c6bf66</anchor>
       <arglist>(uint8_t irqn, uint8_t priority)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>nvic_generate_software_interrupt</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga236a68110c418bc6b100eb6756ec4ea9</anchor>
-      <arglist>(uint16_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void WEAK</type>
@@ -889,37 +789,9 @@
     </member>
     <member kind="function">
       <type>void WEAK</type>
-      <name>mem_manage_handler</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga8a6f0bde31b38dec02a263eec9a7b816</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void WEAK</type>
-      <name>bus_fault_handler</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga84d66788b2cf78279367a038ccc07693</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void WEAK</type>
-      <name>usage_fault_handler</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga251b47f133382eae44fcf71ea3475acd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void WEAK</type>
       <name>sv_call_handler</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>ga38e39ab596274b8e97de76609cefa80a</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void WEAK</type>
-      <name>debug_monitor_handler</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga4e2402066ee0ed85e53a72e2b6ee4be2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -1016,219 +888,86 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHCSR</name>
+      <name>SCB_CPUID_IMPLEMENTER_LSB</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a00f70fc0cb709999835d54fb1a8d4112</anchor>
+      <anchor>a47c12d59106f05ad49c0b14ca2d313c7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_CFSR</name>
+      <name>SCB_CPUID_IMPLEMENTER</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a9de697fb8d981532e8c91feca864ff42</anchor>
+      <anchor>a07d13461f7ac56baf2bc2005f49b08c9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_HFSR</name>
+      <name>SCB_CPUID_VARIANT_LSB</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>af8ffd3e54cbb7642101d979bd91cfa25</anchor>
+      <anchor>ab5f00dc50a8de58ec563d87300957773</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_DFSR</name>
+      <name>SCB_CPUID_VARIANT</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ae3a7746f39eaa9eb3cd867d1dc327c8b</anchor>
+      <anchor>a2918ac8b94d21ece6e60d8e57466b3ac</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_MMFAR</name>
+      <name>SCB_CPUID_CONSTANT_LSB</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a1fc21962567cb3e1c6ac552ed3068091</anchor>
+      <anchor>a69928ea936e108d9a57d5a1604578a76</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_BFAR</name>
+      <name>SCB_CPUID_CONSTANT</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>aee532e1c3e3c27881a564b9a63f036cd</anchor>
+      <anchor>a8590aaf8454c63e4cae33caea07e0b01</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_AFSR</name>
+      <name>SCB_CPUID_CONSTANT_ARMV6</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a16a8b546ae510f0d470908e8ac913d11</anchor>
+      <anchor>a62373802bfe1b94ea8acbc282be5b1dd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_ID_PFR0</name>
+      <name>SCB_CPUID_CONSTANT_ARMV7</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>abb4aec31c81c4cf59816234474d53968</anchor>
+      <anchor>a8c2a2c7833103aad36c175506c24fba5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_ID_PFR1</name>
+      <name>SCB_CPUID_PARTNO_LSB</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a652d3678bfc3624b12fc9ab337f9e92f</anchor>
+      <anchor>a0f8e02abde5c1eddf2a08b45890d4b74</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_ID_DFR0</name>
+      <name>SCB_CPUID_PARTNO</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ae3f746e1941325f6f13bf7f24bec4385</anchor>
+      <anchor>a550badbbe87c076419c0cc1c914b6d3c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_ID_AFR0</name>
+      <name>SCB_CPUID_REVISION_LSB</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>acacd68a9742968aab66b9e5f56bfccc9</anchor>
+      <anchor>ae78b5b55733d4de5e3c0775a0696926f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_ID_MMFR0</name>
+      <name>SCB_CPUID_REVISION</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a6b3332030fbc2e6c6964dbdd036bc471</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_ID_MMFR1</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a47e8fa15a89654c071655c53ba9edccf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_ID_MMFR2</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a1280e7c5ca39d74ed2277ff76dcd86c7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_ID_MMFR3</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>adacaf281d1916e7a14c8834f17df8144</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_ID_ISAR0</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>abd96a022649feaff74655986cbe594e3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_ID_ISAR1</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a2ddd913cbe2d5db7031a2d878c863aa3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_ID_ISAR2</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>afc5bda8d0a598d6dc3e61005ee5bcf71</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_ID_ISAR3</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a62d56983c5aa659e5793906385aa5dc1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_ID_ISAR4</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>aa554ed9c5bdac5f237f9005a9973eaaa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CPACR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>aa1677b86fc9699414925aeca46baac9a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_FPCCR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a2dedfeb9f0d103f0770bfaee423b9b17</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_FPCAR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>af8ddf0d9521ba02283056c087b7dd1c1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_FPDSCR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ad454e6232fc0e7a89ef4567bd42c8245</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_MVFR0</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a55624b15ac26d61540ea481260128205</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_MVFR1</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a65a64f9f08aae0d6995d741ce8211a85</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCP_CPUID_IMPLEMENTER_LSB</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a875f56fbe432961c7e86b644089c12d5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCP_CPUID_VARIANT_LSB</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a3bf3d8f722d181a25b4d88bffe57758a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCP_CPUID_CONSTANT_LSB</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>abaa2a0d75a1d0d374092bfbd4e8947da</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCP_CPUID_PARTNO_LSB</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a2f83cc3d6d72046d14d0d8394c255107</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCP_CPUID_REVISION_LSB</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a32d76811c5bd63de76997ea734608abe</anchor>
+      <anchor>a8d41122756e2a2a01f07f5863312a0b3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1268,6 +1007,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>SCB_ICSR_ISRPREEMPT</name>
+      <anchorfile>scb_8h.html</anchorfile>
+      <anchor>a699279156aae0333110fe24a5e4e3d21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SCB_ICSR_ISRPENDING</name>
       <anchorfile>scb_8h.html</anchorfile>
       <anchor>addc9f4da4f73fd9aaeee3a8c97dac8c2</anchor>
@@ -1278,6 +1024,13 @@
       <name>SCB_ICSR_VECTPENDING_LSB</name>
       <anchorfile>scb_8h.html</anchorfile>
       <anchor>abbb04e3b21a113317ee838c58cab4da7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SCB_ICSR_VECTPENDING</name>
+      <anchorfile>scb_8h.html</anchorfile>
+      <anchor>a91ba96d4d975d2ad3cd43c091b1e65af</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1296,9 +1049,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_VTOR_TBLOFF_LSB</name>
+      <name>SCB_ICSR_VECTACTIVE</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a1cc0ca066d04fe66a4b5f6f1795f99f1</anchor>
+      <anchor>aa03823cedb24b4d4c95812f121a2f493</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1306,6 +1059,13 @@
       <name>SCB_AIRCR_VECTKEYSTAT_LSB</name>
       <anchorfile>scb_8h.html</anchorfile>
       <anchor>a74ce167fa84d1dc80c497279e981f560</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SCB_AIRCR_VECTKEYSTAT</name>
+      <anchorfile>scb_8h.html</anchorfile>
+      <anchor>a107d7169f55d4443a7f4550e421a8adf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1324,55 +1084,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_AIRCR_PRIGROUP_GROUP16_NOSUB</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a65a827fd5c10f051ebd5f63580cd7692</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_AIRCR_PRIGROUP_GROUP8_SUB2</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a7bd9cb7cca87a5021b89d51881c6a6ee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_AIRCR_PRIGROUP_GROUP4_SUB4</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a9c6b8c975b56eb9f9a3c1f9895a65dfc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_AIRCR_PRIGROUP_GROUP2_SUB8</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a902210002a97dd547757a9fd4c9f7eb6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_AIRCR_PRIGROUP_NOGROUP_SUB16</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>afce39c37a9e5c25abea0d3ab2de79a0e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_AIRCR_PRIGROUP_MASK</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a4fda9c879425b15aae24d451ad3ba208</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_AIRCR_PRIGROUP_SHIFT</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a9dc62ab5e1be9158658945f9887a9550</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>SCB_AIRCR_SYSRESETREQ</name>
       <anchorfile>scb_8h.html</anchorfile>
       <anchor>a86c65d10100e2fb5fdcf826b2573b5d8</anchor>
@@ -1383,13 +1094,6 @@
       <name>SCB_AIRCR_VECTCLRACTIVE</name>
       <anchorfile>scb_8h.html</anchorfile>
       <anchor>ae3d9b3c94c860a0b0b038285ca817fd3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_AIRCR_VECTRESET</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>aec31f9ed3b476e1ec623b0d89df51280</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1422,20 +1126,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_CCR_BFHFNMIGN</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a985f7560606f6e257a8b2bc2671ed33d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CCR_DIV_0_TRP</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a9a1ca0625d0b4b5be3c4332258c28ec4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>SCB_CCR_UNALIGN_TRP</name>
       <anchorfile>scb_8h.html</anchorfile>
       <anchor>a6a075d1f9722f6972ed1a98305e24cf9</anchor>
@@ -1443,331 +1133,86 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_CCR_USERSETMPEND</name>
+      <name>SCB_SHPR_PRI_4_MEMMANAGE</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a7f3eb65ed64479d1c4223b69be60a786</anchor>
+      <anchor>a5b42da0b50cd1cecceb3176c999b1428</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_CCR_NONBASETHRDENA</name>
+      <name>SCB_SHPR_PRI_5_BUSFAULT</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a737bd09d6c94b325cfe96733585ee307</anchor>
+      <anchor>a76547c355413147a90603d37b2d32311</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHPR1_PRI_6_LSB</name>
+      <name>SCB_SHPR_PRI_6_USAGEFAULT</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a4e69a475562d679d080c6600a35498ff</anchor>
+      <anchor>a9be368c585755cab159031cc0797fc1b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHPR1_PRI_5_LSB</name>
+      <name>SCB_SHPR_PRI_7_RESERVED</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a242d6f4ce14633b5a8e0299de837fe9d</anchor>
+      <anchor>a8d3ef2c46c0e94cdef699e93f118f355</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHPR1_PRI_4_LSB</name>
+      <name>SCB_SHPR_PRI_8_RESERVED</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ade7ff15b26c19b3243887fed7cbe17f4</anchor>
+      <anchor>a6eccc3e0adca4618b60c4c439ea502e1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHPR2_PRI_11_LSB</name>
+      <name>SCB_SHPR_PRI_9_RESERVED</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a6768bf98a5c8a484bf4cf5ecd7a1e45c</anchor>
+      <anchor>ab5fc82d2ef9c4e3d3d02fc4c1fc355d0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHPR3_PRI_15_LSB</name>
+      <name>SCB_SHPR_PRI_10_RESERVED</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a349a836be339cfba1f1bb532d1d426e5</anchor>
+      <anchor>a2bc0e4c30aa8b3e84cb77d2038ebac14</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHPR3_PRI_14_LSB</name>
+      <name>SCB_SHPR_PRI_11_SVCALL</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a7bb765d591d70bcc7bb54b6b78a987c0</anchor>
+      <anchor>ac7afbca520df24fc9e934e4d79510f5b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHCSR_USGFAULTENA</name>
+      <name>SCB_SHPR_PRI_12_RESERVED</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a5cc5ea368212d871d8fce47fee90527a</anchor>
+      <anchor>ab0cc15005e4b7f9ff250e5aab27cdfb0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHCSR_BUSFAULTENA</name>
+      <name>SCB_SHPR_PRI_13_RESERVED</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a213b425d7d1da3cbaf977d90dc29297d</anchor>
+      <anchor>a3eed56427e54cd9bd0a2896877989eef</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHCSR_MEMFAULTENA</name>
+      <name>SCB_SHPR_PRI_14_PENDSV</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ac2465518e8ed884599f6b882f27ee6f0</anchor>
+      <anchor>aab3968811d19414caa0904053a1da39e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SCB_SHCSR_SVCALLPENDED</name>
+      <name>SCB_SHPR_PRI_15_SYSTICK</name>
       <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a1300357a6f3ff42e08be39ed6dbfea73</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_BUSFAULTPENDED</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a5c2813665d25281e4777600f0cbdc99c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_MEMFAULTPENDED</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>afac0c649448a364c53b212ba515e433d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_USGFAULTPENDED</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a5d4a7079ca06fdca02ebe45cd6432cd0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_SYSTICKACT</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a2f474b85e95da35c9ee1f59d3e3ffbdb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_PENDSVACT</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ae5ce384582328f1a9d38466239e03017</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_MONITORACT</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a9d926840743a22c4ff50db650b2a0d75</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_SVCALLACT</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a395ad78789946e84ddbb0a91a575331d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_USGFAULTACT</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ab6121f12dfa519ab80357d2389830990</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_BUSFAULTACT</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a22a35f7e2e94c192befb04bab6976598</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_SHCSR_MEMFAULTACT</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>af7e9f142e8f310010b8314e41d21bef1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_DIVBYZERO</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ab9ae7e5d5a7432cfd436d2e09a3dab84</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_UNALIGNED</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>af8f4e8e6fa2c0a706df0dd0d167cfe10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_NOCP</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>afc890a270e6baf8bb6c76ca81d70236d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_INVPC</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>aced0c08c35b56d5b9b2c2c2bed7b869b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_INVSTATE</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a93d1d5e9fda7e579adf017c6e1fd391c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_UNDEFINSTR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>afb585bfb9849d490ca5a9c5309e15d92</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_BFARVALID</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ab98e5207b4666912c14d8d025fd945e9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_STKERR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a923371d7146ba7049580ade8ade972b7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_UNSTKERR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ac0d8bc67ad889cf6e7ae4f2f25add5fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_IMPRECISERR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ad2464f89eaba18baa6249586cc5b79b3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_PRECISERR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a5eaebb9d9bc21b989cd725c6e6f15803</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_IBUSERR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a378bbf2518753b08a0c179c2e268dc50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_MMARVALID</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>aa36c9f483ec60455b3b1c26ea982e214</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_MSTKERR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a4b1e442beded4c10598ed3004e8189cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_MUNSTKERR</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a5332dd0529939aff8423098fa15ad0dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_DACCVIOL</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a9f410df03c7f484fabaa4119abd9746d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CFSR_IACCVIOL</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>afc88b5969d2dbb51bf897110d3cc0242</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_HFSR_DEBUG_VT</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a7e0175b83b042650f12a013e5d938e68</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_HFSR_FORCED</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>ac83ebdcd8f8eb57b964e6f7d28836a93</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_HFSR_VECTTBL</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a3027c1edb7f5348120c336517b1c5981</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CPACR_NONE</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>af029d69dee41120fcf700760ceaf33ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CPACR_PRIV</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a0fd5eb37faf0640ef0d3214a5445047f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CPACR_FULL</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a84ee577a698d3f204d6bfb1376982418</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CPACR_CP10</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a5c9b93f33d757549cba83cd6816a8c28</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SCB_CPACR_CP11</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>af3ff3fc901f6b4e608e2084e61125daf</anchor>
+      <anchor>a84b60a3a05c2a04cc2118a866d13279e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1779,24 +1224,10 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>scb_reset_core</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a8425a250161ee83d6aa8b38c5c3fb4a4</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>scb_reset_system</name>
       <anchorfile>scb_8h.html</anchorfile>
       <anchor>aad4d08be4e2b209f97d3276b7c7731e6</anchor>
       <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>scb_set_priority_grouping</name>
-      <anchorfile>scb_8h.html</anchorfile>
-      <anchor>a1c1ccff67eb7696c04e59ab4f9c0a2ab</anchor>
-      <arglist>(uint32_t prigroup)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2215,61 +1646,12 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
     <filename>sync_8h</filename>
     <includes id="common_8h" name="common.h" local="yes" imported="no">common.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>MUTEX_UNLOCKED</name>
-      <anchorfile>sync_8h.html</anchorfile>
-      <anchor>ad963991010089c6e899c1ddfb1b4369a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MUTEX_LOCKED</name>
-      <anchorfile>sync_8h.html</anchorfile>
-      <anchor>a3d27b30a62d1c92d0b419cbca98e65dd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>uint32_t</type>
-      <name>mutex_t</name>
-      <anchorfile>sync_8h.html</anchorfile>
-      <anchor>a8250bc58df6e4e18b2402823f6b95922</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>__ldrex</name>
-      <anchorfile>sync_8h.html</anchorfile>
-      <anchor>a5558bda451735f4b52ba755d379f1933</anchor>
-      <arglist>(volatile uint32_t *addr)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>__strex</name>
-      <anchorfile>sync_8h.html</anchorfile>
-      <anchor>a48735f2cc888fa55f57192e25a5b244f</anchor>
-      <arglist>(uint32_t val, volatile uint32_t *addr)</arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>__dmb</name>
       <anchorfile>sync_8h.html</anchorfile>
       <anchor>ad1ca1eff93298efc081ecc4b22ebed95</anchor>
       <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>mutex_lock</name>
-      <anchorfile>sync_8h.html</anchorfile>
-      <anchor>a3582a040ff9bb0cfd05bdd660f1f0d4f</anchor>
-      <arglist>(mutex_t *m)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>mutex_unlock</name>
-      <anchorfile>sync_8h.html</anchorfile>
-      <anchor>ae11e971acf52cb10a0e471c291cd9505</anchor>
-      <arglist>(mutex_t *m)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2287,6 +1669,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>STK_CSR</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga664a648a1ef9d90dd280176c5ec547c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>STK_LOAD</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga93cbd55f028c079c458d5159983a0684</anchor>
@@ -2294,9 +1683,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>STK_RVR</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga6617c6912a90b37c034e0eeb2e12ec0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>STK_VAL</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga9944fae2f819211da9884f03db333ad8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CVR</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>gafcba0d0cff7c416138b78b1ed1198b6e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2315,9 +1718,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE</name>
+      <name>STK_CSR_COUNTFLAG</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gac9907e5cfaab9cdd79a0dfc991b64b9d</anchor>
+      <anchor>ga0a6a69a143a4257ed517033163524886</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2325,6 +1728,27 @@
       <name>STK_CTRL_CLKSOURCE_LSB</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga9208ea3c44b11078f41e57c2f8116867</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CTRL_CLKSOURCE</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>gac9907e5cfaab9cdd79a0dfc991b64b9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CSR_CLKSOURCE_LSB</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga82177cdbc9fdc0126a2a74cf808d7969</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CSR_CLKSOURCE</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga8f8123030d6e5d7d21a1ef3cbc815b5e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2350,9 +1774,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>STK_CSR_TICKINT</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga829e6dbb8ecf50d36aa8258e2cf1587c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>STK_CTRL_ENABLE</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga5cf11266bec61702a8197ba714513b40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CSR_ENABLE</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga803c330982edfbbeac7b14ab081e849d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_RVR_RELOAD</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga46f593f0f43644aeb67692011d4a5b14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CVR_CURRENT</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga8cba67ffa9205688bd0478bd794c1a04</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2367,6 +1819,13 @@
       <name>STK_CALIB_SKEW</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>gab3b16fa14f4b2e1be896c24df74f92d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CALIB_TENMS</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga7a4687e38762c3838584db6d0ae136be</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -2722,24 +2181,10 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>NVIC_IABR</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>gaaf27ae37bd9f107e4773bae6d3405931</anchor>
-      <arglist>(iabr_id)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>NVIC_IPR</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>gac70cd532c336bcab3735403a1e0a8c48</anchor>
       <arglist>(ipr_id)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>NVIC_STIR</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>gaaa80bc30d455351b9231f252632d481b</anchor>
-      <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -2785,13 +2230,6 @@
     </member>
     <member kind="function">
       <type>uint8_t</type>
-      <name>nvic_get_active_irq</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>gaa5ef6143fd0b814310e5475473f80b43</anchor>
-      <arglist>(uint8_t irqn)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint8_t</type>
       <name>nvic_get_irq_enabled</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>gaa2244a9f5f8c94a82bc8cf41d6ef254d</anchor>
@@ -2803,13 +2241,6 @@
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>ga404123c81365250fe09e0545b4c6bf66</anchor>
       <arglist>(uint8_t irqn, uint8_t priority)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>nvic_generate_software_interrupt</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga236a68110c418bc6b100eb6756ec4ea9</anchor>
-      <arglist>(uint16_t irqn)</arglist>
     </member>
     <member kind="function">
       <type>void WEAK</type>
@@ -2834,37 +2265,9 @@
     </member>
     <member kind="function">
       <type>void WEAK</type>
-      <name>mem_manage_handler</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga8a6f0bde31b38dec02a263eec9a7b816</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void WEAK</type>
-      <name>bus_fault_handler</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga84d66788b2cf78279367a038ccc07693</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void WEAK</type>
-      <name>usage_fault_handler</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga251b47f133382eae44fcf71ea3475acd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void WEAK</type>
       <name>sv_call_handler</name>
       <anchorfile>group__CM3__nvic__defines.html</anchorfile>
       <anchor>ga38e39ab596274b8e97de76609cefa80a</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void WEAK</type>
-      <name>debug_monitor_handler</name>
-      <anchorfile>group__CM3__nvic__defines.html</anchorfile>
-      <anchor>ga4e2402066ee0ed85e53a72e2b6ee4be2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -2884,7 +2287,7 @@
   </compound>
   <compound kind="group">
     <name>nvic_sysint</name>
-    <title>Cortex M3/M4 System Interrupts</title>
+    <title>Cortex M0/M3/M4 System Interrupts</title>
     <filename>group__nvic__sysint.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -2902,37 +2305,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>NVIC_MEM_MANAGE_IRQ</name>
-      <anchorfile>group__nvic__sysint.html</anchorfile>
-      <anchor>gaa842b6ef46aa6cecce5d382abac75271</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>NVIC_BUS_FAULT_IRQ</name>
-      <anchorfile>group__nvic__sysint.html</anchorfile>
-      <anchor>gacd890922541397f8fd92856d392a865d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>NVIC_USAGE_FAULT_IRQ</name>
-      <anchorfile>group__nvic__sysint.html</anchorfile>
-      <anchor>gaa5477aa1c88059e4a0f84622795b0ea9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>NVIC_SV_CALL_IRQ</name>
       <anchorfile>group__nvic__sysint.html</anchorfile>
       <anchor>gaaefda4fe69bd9acbd73c12ff2d023ad2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DEBUG_MONITOR_IRQ</name>
-      <anchorfile>group__nvic__sysint.html</anchorfile>
-      <anchor>ga6dd933d918f4be1675c61bb581936a40</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2964,6 +2339,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>STK_CSR</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga664a648a1ef9d90dd280176c5ec547c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>STK_LOAD</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga93cbd55f028c079c458d5159983a0684</anchor>
@@ -2971,9 +2353,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>STK_RVR</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga6617c6912a90b37c034e0eeb2e12ec0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>STK_VAL</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga9944fae2f819211da9884f03db333ad8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CVR</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>gafcba0d0cff7c416138b78b1ed1198b6e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2992,9 +2388,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE</name>
+      <name>STK_CSR_COUNTFLAG</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gac9907e5cfaab9cdd79a0dfc991b64b9d</anchor>
+      <anchor>ga0a6a69a143a4257ed517033163524886</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -3006,6 +2402,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>STK_CTRL_CLKSOURCE</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>gac9907e5cfaab9cdd79a0dfc991b64b9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CSR_CLKSOURCE_LSB</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga82177cdbc9fdc0126a2a74cf808d7969</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CSR_CLKSOURCE</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga8f8123030d6e5d7d21a1ef3cbc815b5e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>STK_CTRL_TICKINT</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga6236c3e2e19f815302f80e6c837d3fc0</anchor>
@@ -3013,9 +2430,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>STK_CSR_TICKINT</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga829e6dbb8ecf50d36aa8258e2cf1587c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>STK_CTRL_ENABLE</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga5cf11266bec61702a8197ba714513b40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CSR_ENABLE</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga803c330982edfbbeac7b14ab081e849d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_RVR_RELOAD</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga46f593f0f43644aeb67692011d4a5b14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CVR_CURRENT</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga8cba67ffa9205688bd0478bd794c1a04</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -3030,6 +2475,13 @@
       <name>STK_CALIB_SKEW</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>gab3b16fa14f4b2e1be896c24df74f92d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>STK_CALIB_TENMS</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga7a4687e38762c3838584db6d0ae136be</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -3295,6 +2747,7 @@
     <file>fpb.h</file>
     <file>itm.h</file>
     <file>memorymap.h</file>
+    <file>mpu.h</file>
     <file>nvic.h</file>
     <file>scb.h</file>
     <file>scs.h</file>

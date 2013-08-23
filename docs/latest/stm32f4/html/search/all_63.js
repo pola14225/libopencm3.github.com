@@ -51,6 +51,6 @@ var searchData=
   ['crypto_5fstart',['crypto_start',['../group__crypto__file.html#ga77ae468abdc9ed68f924dcfbefe723f1',1,'crypto_common_f24.c']]],
   ['crypto_5fstop',['crypto_stop',['../group__crypto__file.html#gaaa0674c5d6af5bad04ace087dec97f9b',1,'crypto_common_f24.c']]],
   ['crypto_5fwait_5fbusy',['crypto_wait_busy',['../group__crypto__file.html#gaecaa8d8b190fa22a873a76a5cf67fb62',1,'crypto_common_f24.c']]],
-  ['cortex_20m3_2fm4_20system_20interrupts',['Cortex M3/M4 System Interrupts',['../../../cm3/html/group__nvic__sysint.html',1,'']]],
+  ['cortex_20m0_2fm3_2fm4_20system_20interrupts',['Cortex M0/M3/M4 System Interrupts',['../../../cm3/html/group__nvic__sysint.html',1,'']]],
   ['clock_20source_20selection',['Clock source selection',['../../../cm3/html/group__systick__clksource.html',1,'']]]
 ];

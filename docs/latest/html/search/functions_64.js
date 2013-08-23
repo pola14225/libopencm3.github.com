@@ -15,7 +15,6 @@ var searchData=
   ['dac_5fsoftware_5ftrigger',['dac_software_trigger',['../../stm32f1/html/group__dac__file.html#ga091e162072befad91b024f385c9168be',1,]]],
   ['dac_5ftrigger_5fdisable',['dac_trigger_disable',['../../stm32f1/html/group__dac__file.html#ga4a436c23b95428e06f05e28554066ce1',1,]]],
   ['dac_5ftrigger_5fenable',['dac_trigger_enable',['../../stm32f1/html/group__dac__file.html#ga8e052062c3c3856f577f1d3d2f5e8755',1,]]],
-  ['debug_5fmonitor_5fhandler',['debug_monitor_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2',1,]]],
   ['dma_5fchannel_5freset',['dma_channel_reset',['../../stm32f1/html/group__dma__file.html#gaa0e2c035b7be3a35d966b5d3f4576cd6',1,]]],
   ['dma_5fchannel_5fselect',['dma_channel_select',['../../stm32f4/html/group__dma__file.html#ga31ac1af0c35910f6b4b57a12ad83b60e',1,]]],
   ['dma_5fclear_5finterrupt_5fflags',['dma_clear_interrupt_flags',['../../stm32f1/html/group__dma__file.html#gac40a8639d6c302311f96cfe757149d65',1,]]],

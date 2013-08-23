@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -97,7 +98,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals.html#index__"><span>_</span></a></li>
       <li><a href="globals_0x62.html#index_b"><span>b</span></a></li>
       <li><a href="globals_0x63.html#index_c"><span>c</span></a></li>
-      <li><a href="globals_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="globals_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="globals_0x66.html#index_f"><span>f</span></a></li>
       <li><a href="globals_0x68.html#index_h"><span>h</span></a></li>
@@ -109,7 +109,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_0x72.html#index_r"><span>r</span></a></li>
       <li><a href="globals_0x73.html#index_s"><span>s</span></a></li>
       <li><a href="globals_0x74.html#index_t"><span>t</span></a></li>
-      <li><a href="globals_0x75.html#index_u"><span>u</span></a></li>
       <li><a href="globals_0x76.html#index_v"><span>v</span></a></li>
       <li><a href="globals_0x77.html#index_w"><span>w</span></a></li>
     </ul>
@@ -153,9 +152,6 @@ $(document).ready(function(){initNavTree('globals_0x6e.html','');});
 <li>NVIC_BASE
 : <a class="el" href="memorymap_8h.html#aa0288691785a5f868238e0468b39523d">memorymap.h</a>
 </li>
-<li>NVIC_BUS_FAULT_IRQ
-: <a class="el" href="group__nvic__sysint.html#gacd890922541397f8fd92856d392a865d">nvic.h</a>
-</li>
 <li>nvic_clear_pending_irq()
 : <a class="el" href="group__CM3__nvic__defines.html#ga55916a6ef4b3380692dc46bb0135386e">nvic.h</a>
 </li>
@@ -165,12 +161,6 @@ $(document).ready(function(){initNavTree('globals_0x6e.html','');});
 <li>nvic_enable_irq()
 : <a class="el" href="group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic.h</a>
 </li>
-<li>nvic_generate_software_interrupt()
-: <a class="el" href="group__CM3__nvic__defines.html#ga236a68110c418bc6b100eb6756ec4ea9">nvic.h</a>
-</li>
-<li>nvic_get_active_irq()
-: <a class="el" href="group__CM3__nvic__defines.html#gaa5ef6143fd0b814310e5475473f80b43">nvic.h</a>
-</li>
 <li>nvic_get_irq_enabled()
 : <a class="el" href="group__CM3__nvic__defines.html#gaa2244a9f5f8c94a82bc8cf41d6ef254d">nvic.h</a>
 </li>
@@ -179,9 +169,6 @@ $(document).ready(function(){initNavTree('globals_0x6e.html','');});
 </li>
 <li>NVIC_HARD_FAULT_IRQ
 : <a class="el" href="group__nvic__sysint.html#gaedbe55d3baf2439fb49301f0b5f9bc53">nvic.h</a>
-</li>
-<li>NVIC_IABR
-: <a class="el" href="group__CM3__nvic__defines.html#gaaf27ae37bd9f107e4773bae6d3405931">nvic.h</a>
 </li>
 <li>NVIC_ICER
 : <a class="el" href="group__CM3__nvic__defines.html#ga3fa79c5ca67b7a9037cf9ddc28e43c00">nvic.h</a>
@@ -198,9 +185,6 @@ $(document).ready(function(){initNavTree('globals_0x6e.html','');});
 <li>NVIC_ISPR
 : <a class="el" href="group__CM3__nvic__defines.html#ga6be3b05499bafab037e23f25d63d621c">nvic.h</a>
 </li>
-<li>NVIC_MEM_MANAGE_IRQ
-: <a class="el" href="group__nvic__sysint.html#gaa842b6ef46aa6cecce5d382abac75271">nvic.h</a>
-</li>
 <li>NVIC_NMI_IRQ
 : <a class="el" href="group__nvic__sysint.html#gabdeb6fa799341f6cf23d242d2e8e704b">nvic.h</a>
 </li>
@@ -213,17 +197,11 @@ $(document).ready(function(){initNavTree('globals_0x6e.html','');});
 <li>nvic_set_priority()
 : <a class="el" href="group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66">nvic.h</a>
 </li>
-<li>NVIC_STIR
-: <a class="el" href="group__CM3__nvic__defines.html#gaaa80bc30d455351b9231f252632d481b">nvic.h</a>
-</li>
 <li>NVIC_SV_CALL_IRQ
 : <a class="el" href="group__nvic__sysint.html#gaaefda4fe69bd9acbd73c12ff2d023ad2">nvic.h</a>
 </li>
 <li>NVIC_SYSTICK_IRQ
 : <a class="el" href="group__nvic__sysint.html#gafd650ffcb7f54e1f619d2ff3b1331d1f">nvic.h</a>
-</li>
-<li>NVIC_USAGE_FAULT_IRQ
-: <a class="el" href="group__nvic__sysint.html#gaa5477aa1c88059e4a0f84622795b0ea9">nvic.h</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -231,7 +209,7 @@ $(document).ready(function(){initNavTree('globals_0x6e.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

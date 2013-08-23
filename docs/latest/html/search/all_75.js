@@ -85,7 +85,6 @@ var searchData=
   ['uart_5fwait_5frecv_5fready',['uart_wait_recv_ready',['../../lm4f/html/group__uart__defines.html#ga42ff0fbee0d1b80cc77667c14c3213dc',1,'uart_wait_recv_ready(uint32_t uart)(Global Namespace)'],['../../lm4f/html/group__uart__send__recv.html#ga42ff0fbee0d1b80cc77667c14c3213dc',1,'uart_wait_recv_ready(uint32_t uart)(Global Namespace)']]],
   ['uart_5fwait_5fsend_5fready',['uart_wait_send_ready',['../../lm4f/html/group__uart__defines.html#ga9546f62d7bb1695a34748ae418d2ed7f',1,'uart_wait_send_ready(uint32_t uart)(Global Namespace)'],['../../lm4f/html/group__uart__send__recv.html#ga9546f62d7bb1695a34748ae418d2ed7f',1,'uart_wait_send_ready(uint32_t uart)(Global Namespace)']]],
   ['usage_5ffault',['usage_fault',['../../cm3/html/structvector__table__t.html#a9bc2b639e5ac8019bfad3a97cb35e414',1,'vector_table_t']]],
-  ['usage_5ffault_5fhandler',['usage_fault_handler',['../../cm3/html/group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd',1,]]],
   ['usart_2ec',['usart.c',['../../stm32f1/html/usart_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/usart_8c.html',1,'(Global Namespace)']]],
   ['usart_2eh',['usart.h',['../../stm32f1/html/usart_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/usart_8h.html',1,'(Global Namespace)']]],
   ['usart_5fcommon_5fall_2ec',['usart_common_all.c',['../../stm32f1/html/usart__common__all_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/usart__common__all_8c.html',1,'(Global Namespace)']]],

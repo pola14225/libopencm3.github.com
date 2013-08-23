@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -124,13 +125,13 @@ Collaboration diagram for NVIC Defines:</div>
 <div class="dyncontent">
 <center><table><tr><td><img src="group__CM3__nvic__defines.png" border="0" alt="" usemap="#group____CM3____nvic____defines"/>
 <map name="group____CM3____nvic____defines" id="group____CM3____nvic____defines">
-<area shape="rect" id="node1" href="group__nvic__sysint.html" title="IRQ numbers &#45;3 and &#45;6 to &#45;9 are reserved." alt="" coords="304,5,459,51"/><area shape="rect" id="node2" href="group__CM3__defines.html" title="Defined Constants and Types for Cortex M3 core features." alt="" coords="5,13,104,43"/></map>
+<area shape="rect" id="node1" href="group__nvic__sysint.html" title="IRQ numbers &#45;3 and &#45;6 to &#45;9 are reserved." alt="" coords="304,5,480,51"/><area shape="rect" id="node2" href="group__CM3__defines.html" title="Defined Constants and Types for Cortex M3 core features." alt="" coords="5,13,104,43"/></map>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="groups"></a>
 Modules</h2></td></tr>
-<tr class="memitem:group__nvic__sysint"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nvic__sysint.html">Cortex M3/M4 System Interrupts</a></td></tr>
+<tr class="memitem:group__nvic__sysint"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nvic__sysint.html">Cortex M0/M3/M4 System Interrupts</a></td></tr>
 <tr class="memdesc:group__nvic__sysint"><td class="mdescLeft">&#160;</td><td class="mdescRight">IRQ numbers -3 and -6 to -9 are reserved. <br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
@@ -139,9 +140,7 @@ Macros</h2></td></tr>
 <tr class="memitem:ga3fa79c5ca67b7a9037cf9ddc28e43c00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga3fa79c5ca67b7a9037cf9ddc28e43c00">NVIC_ICER</a>(icer_id)</td></tr>
 <tr class="memitem:ga6be3b05499bafab037e23f25d63d621c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga6be3b05499bafab037e23f25d63d621c">NVIC_ISPR</a>(ispr_id)</td></tr>
 <tr class="memitem:gabbdb5811b29c0b99ebd769b35fc6b77d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gabbdb5811b29c0b99ebd769b35fc6b77d">NVIC_ICPR</a>(icpr_id)</td></tr>
-<tr class="memitem:gaaf27ae37bd9f107e4773bae6d3405931"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gaaf27ae37bd9f107e4773bae6d3405931">NVIC_IABR</a>(iabr_id)</td></tr>
 <tr class="memitem:gac70cd532c336bcab3735403a1e0a8c48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gac70cd532c336bcab3735403a1e0a8c48">NVIC_IPR</a>(ipr_id)</td></tr>
-<tr class="memitem:gaaa80bc30d455351b9231f252632d481b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gaaa80bc30d455351b9231f252632d481b">NVIC_STIR</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#af4236b76f3fff159a3a6aa114c42f5c1">STIR_BASE</a>)</td></tr>
 <tr class="memitem:gad1480e9557edcc543498ca259cee6c7d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;&#160;&#160;__attribute__((weak))</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
@@ -151,18 +150,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0af0d73b09caec78a330d202829391bf"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga0af0d73b09caec78a330d202829391bf">nvic_get_pending_irq</a> (uint8_t irqn)</td></tr>
 <tr class="memitem:ga3de46ef1bb9421e41fad4f407d0c8242"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga3de46ef1bb9421e41fad4f407d0c8242">nvic_set_pending_irq</a> (uint8_t irqn)</td></tr>
 <tr class="memitem:ga55916a6ef4b3380692dc46bb0135386e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga55916a6ef4b3380692dc46bb0135386e">nvic_clear_pending_irq</a> (uint8_t irqn)</td></tr>
-<tr class="memitem:gaa5ef6143fd0b814310e5475473f80b43"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gaa5ef6143fd0b814310e5475473f80b43">nvic_get_active_irq</a> (uint8_t irqn)</td></tr>
 <tr class="memitem:gaa2244a9f5f8c94a82bc8cf41d6ef254d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gaa2244a9f5f8c94a82bc8cf41d6ef254d">nvic_get_irq_enabled</a> (uint8_t irqn)</td></tr>
 <tr class="memitem:ga404123c81365250fe09e0545b4c6bf66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66">nvic_set_priority</a> (uint8_t irqn, uint8_t priority)</td></tr>
-<tr class="memitem:ga236a68110c418bc6b100eb6756ec4ea9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga236a68110c418bc6b100eb6756ec4ea9">nvic_generate_software_interrupt</a> (uint16_t irqn)</td></tr>
 <tr class="memitem:gaa13f582a41a6b190667d0ecd9c31072f"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gaa13f582a41a6b190667d0ecd9c31072f">reset_handler</a> (void)</td></tr>
 <tr class="memitem:ga181d6892388ef1987ba92d0ae80e9359"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga181d6892388ef1987ba92d0ae80e9359">nmi_handler</a> (void)</td></tr>
 <tr class="memitem:gae29640317be4df735067ff164aeeee0f"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gae29640317be4df735067ff164aeeee0f">hard_fault_handler</a> (void)</td></tr>
-<tr class="memitem:ga8a6f0bde31b38dec02a263eec9a7b816"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga8a6f0bde31b38dec02a263eec9a7b816">mem_manage_handler</a> (void)</td></tr>
-<tr class="memitem:ga84d66788b2cf78279367a038ccc07693"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga84d66788b2cf78279367a038ccc07693">bus_fault_handler</a> (void)</td></tr>
-<tr class="memitem:ga251b47f133382eae44fcf71ea3475acd"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd">usage_fault_handler</a> (void)</td></tr>
 <tr class="memitem:ga38e39ab596274b8e97de76609cefa80a"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a">sv_call_handler</a> (void)</td></tr>
-<tr class="memitem:ga4e2402066ee0ed85e53a72e2b6ee4be2"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2">debug_monitor_handler</a> (void)</td></tr>
 <tr class="memitem:ga214eb2c5d993ec1fe7b0a25dd428d3ae"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#ga214eb2c5d993ec1fe7b0a25dd428d3ae">pend_sv_handler</a> (void)</td></tr>
 <tr class="memitem:gae71d437809f2932d8f4e2e993732497d"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d">sys_tick_handler</a> (void)</td></tr>
 </table>
@@ -173,26 +166,6 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>18 August 2012</dd></dl>
 <p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
 <h2>Macro Definition Documentation</h2>
-<a class="anchor" id="gaaf27ae37bd9f107e4773bae6d3405931"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define NVIC_IABR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">iabr_id</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="code" href="memorymap_8h.html#aa0288691785a5f868238e0468b39523d">NVIC_BASE</a> + 0x200 + \</div>
-<div class="line">                                                (iabr_id * 4))</div>
-</div><!-- fragment -->
-<p>Definition at line <a class="el" href="nvic_8h_source.html#l00075">75</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ga3fa79c5ca67b7a9037cf9ddc28e43c00"></a>
 <div class="memitem">
 <div class="memproto">
@@ -209,7 +182,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="code" href="memorymap_8h.html#aa0288691785a5f868238e0468b39523d">NVIC_BASE</a> + 0x80 + \</div>
 <div class="line">                                                (icer_id * 4))</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="nvic_8h_source.html#l00054">54</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
+<p>Definition at line <a class="el" href="nvic_8h_source.html#l00056">56</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
 
 </div>
 </div>
@@ -229,7 +202,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="code" href="memorymap_8h.html#aa0288691785a5f868238e0468b39523d">NVIC_BASE</a> + 0x180 + \</div>
 <div class="line">                                                (icpr_id * 4))</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="nvic_8h_source.html#l00068">68</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
+<p>Definition at line <a class="el" href="nvic_8h_source.html#l00072">72</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
 
 </div>
 </div>
@@ -249,7 +222,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(<a class="code" href="memorymap_8h.html#aa0288691785a5f868238e0468b39523d">NVIC_BASE</a> + 0x300 + \</div>
 <div class="line">                                                ipr_id)</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="nvic_8h_source.html#l00082">82</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
+<p>Definition at line <a class="el" href="nvic_8h_source.html#l00090">90</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
 
 </div>
 </div>
@@ -269,7 +242,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="code" href="memorymap_8h.html#aa0288691785a5f868238e0468b39523d">NVIC_BASE</a> + 0x00 + \</div>
 <div class="line">                                                (iser_id * 4))</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="nvic_8h_source.html#l00047">47</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
+<p>Definition at line <a class="el" href="nvic_8h_source.html#l00048">48</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
 
 </div>
 </div>
@@ -289,21 +262,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="code" href="memorymap_8h.html#aa0288691785a5f868238e0468b39523d">NVIC_BASE</a> + 0x100 + \</div>
 <div class="line">                                                (ispr_id * 4))</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="nvic_8h_source.html#l00061">61</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="gaaa80bc30d455351b9231f252632d481b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define NVIC_STIR&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#af4236b76f3fff159a3a6aa114c42f5c1">STIR_BASE</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="nvic_8h_source.html#l00086">86</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
+<p>Definition at line <a class="el" href="nvic_8h_source.html#l00064">64</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
 
 </div>
 </div>
@@ -317,65 +276,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="nvic_8h_source.html#l00113">113</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
+<p>Definition at line <a class="el" href="nvic_8h_source.html#l00133">133</a> of file <a class="el" href="nvic_8h_source.html">nvic.h</a>.</p>
 
 </div>
 </div>
 <h2>Function Documentation</h2>
-<a class="anchor" id="ga84d66788b2cf78279367a038ccc07693"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a> bus_fault_handler </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ga4e2402066ee0ed85e53a72e2b6ee4be2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a> debug_monitor_handler </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="gae29640317be4df735067ff164aeeee0f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a> hard_fault_handler </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ga8a6f0bde31b38dec02a263eec9a7b816"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a> mem_manage_handler </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -440,38 +351,6 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void nvic_enable_irq </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>irqn</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ga236a68110c418bc6b100eb6756ec4ea9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void nvic_generate_software_interrupt </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>irqn</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="gaa5ef6143fd0b814310e5475473f80b43"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t nvic_get_active_irq </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>irqn</em></td><td>)</td>
@@ -620,28 +499,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga251b47f133382eae44fcf71ea3475acd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="group__CM3__nvic__defines.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a> usage_fault_handler </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

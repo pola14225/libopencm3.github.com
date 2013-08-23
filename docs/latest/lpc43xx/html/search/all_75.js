@@ -33,7 +33,6 @@ var searchData=
   ['uart_5ftimeout_5ferror',['UART_TIMEOUT_ERROR',['../uart_8h.html#a74b95f81faa4de6d75094e95783b2cc4a027d55a124d7120d5a5a3622625a562f',1,'uart.h']]],
   ['uart_5fwrite',['uart_write',['../uart_8h.html#ab6439004b0e189ac68604936be285930',1,'uart_write(uart_num_t uart_num, uint8_t data):&#160;uart.c'],['../uart_8c.html#ab6439004b0e189ac68604936be285930',1,'uart_write(uart_num_t uart_num, uint8_t data):&#160;uart.c']]],
   ['usage_5ffault',['usage_fault',['../../../cm3/html/structvector__table__t.html#a9bc2b639e5ac8019bfad3a97cb35e414',1,'vector_table_t']]],
-  ['usage_5ffault_5fhandler',['usage_fault_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd',1,]]],
   ['usb_2eh',['usb.h',['../usb_8h.html',1,'']]],
   ['usb_5fqueue_5fhead_5ft',['usb_queue_head_t',['../structusb__queue__head__t.html',1,'']]],
   ['usb_5ftransfer_5fdescriptor_5ft',['usb_transfer_descriptor_t',['../structusb__transfer__descriptor__t.html',1,'usb_transfer_descriptor_t'],['../usb_8h.html#ab6c7dcfa46527bbc61eeeb6ab3699e91',1,'usb_transfer_descriptor_t():&#160;usb.h']]]

@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -135,16 +136,27 @@ Modules</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ga4cff03f1bbb43e57798d6321e8bb966d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga4cff03f1bbb43e57798d6321e8bb966d">STK_CTRL</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x00)</td></tr>
+<tr class="memitem:ga664a648a1ef9d90dd280176c5ec547c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga664a648a1ef9d90dd280176c5ec547c0">STK_CSR</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x00)</td></tr>
 <tr class="memitem:ga93cbd55f028c079c458d5159983a0684"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga93cbd55f028c079c458d5159983a0684">STK_LOAD</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x04)</td></tr>
+<tr class="memitem:ga6617c6912a90b37c034e0eeb2e12ec0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga6617c6912a90b37c034e0eeb2e12ec0b">STK_RVR</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x04)</td></tr>
 <tr class="memitem:ga9944fae2f819211da9884f03db333ad8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga9944fae2f819211da9884f03db333ad8">STK_VAL</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x08)</td></tr>
+<tr class="memitem:gafcba0d0cff7c416138b78b1ed1198b6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#gafcba0d0cff7c416138b78b1ed1198b6e">STK_CVR</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x08)</td></tr>
 <tr class="memitem:ga2008449261a84462413fc10e8e949ac4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga2008449261a84462413fc10e8e949ac4">STK_CALIB</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x0C)</td></tr>
 <tr class="memitem:gac5f30ad5e55e9dc971d6b9ea6f70d1e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#gac5f30ad5e55e9dc971d6b9ea6f70d1e6">STK_CTRL_COUNTFLAG</a>&#160;&#160;&#160;(1 &lt;&lt; 16)</td></tr>
-<tr class="memitem:gac9907e5cfaab9cdd79a0dfc991b64b9d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#gac9907e5cfaab9cdd79a0dfc991b64b9d">STK_CTRL_CLKSOURCE</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="memitem:ga0a6a69a143a4257ed517033163524886"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga0a6a69a143a4257ed517033163524886">STK_CSR_COUNTFLAG</a>&#160;&#160;&#160;(1 &lt;&lt; 16)</td></tr>
 <tr class="memitem:ga9208ea3c44b11078f41e57c2f8116867"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga9208ea3c44b11078f41e57c2f8116867">STK_CTRL_CLKSOURCE_LSB</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memitem:gac9907e5cfaab9cdd79a0dfc991b64b9d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#gac9907e5cfaab9cdd79a0dfc991b64b9d">STK_CTRL_CLKSOURCE</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="group__CM3__systick__defines.html#ga9208ea3c44b11078f41e57c2f8116867">STK_CTRL_CLKSOURCE_LSB</a>)</td></tr>
+<tr class="memitem:ga82177cdbc9fdc0126a2a74cf808d7969"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga82177cdbc9fdc0126a2a74cf808d7969">STK_CSR_CLKSOURCE_LSB</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memitem:ga8f8123030d6e5d7d21a1ef3cbc815b5e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga8f8123030d6e5d7d21a1ef3cbc815b5e">STK_CSR_CLKSOURCE</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="group__CM3__systick__defines.html#ga82177cdbc9fdc0126a2a74cf808d7969">STK_CSR_CLKSOURCE_LSB</a>)</td></tr>
 <tr class="memitem:ga6236c3e2e19f815302f80e6c837d3fc0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga6236c3e2e19f815302f80e6c837d3fc0">STK_CTRL_TICKINT</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="memitem:ga829e6dbb8ecf50d36aa8258e2cf1587c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga829e6dbb8ecf50d36aa8258e2cf1587c">STK_CSR_TICKINT</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
 <tr class="memitem:ga5cf11266bec61702a8197ba714513b40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga5cf11266bec61702a8197ba714513b40">STK_CTRL_ENABLE</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="memitem:ga803c330982edfbbeac7b14ab081e849d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga803c330982edfbbeac7b14ab081e849d">STK_CSR_ENABLE</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="memitem:ga46f593f0f43644aeb67692011d4a5b14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga46f593f0f43644aeb67692011d4a5b14">STK_RVR_RELOAD</a>&#160;&#160;&#160;0x00FFFFFF</td></tr>
+<tr class="memitem:ga8cba67ffa9205688bd0478bd794c1a04"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga8cba67ffa9205688bd0478bd794c1a04">STK_CVR_CURRENT</a>&#160;&#160;&#160;0x00FFFFFF</td></tr>
 <tr class="memitem:gab4de9cbeea2f3f747a9b02cbb6bf976a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#gab4de9cbeea2f3f747a9b02cbb6bf976a">STK_CALIB_NOREF</a>&#160;&#160;&#160;(1 &lt;&lt; 31)</td></tr>
 <tr class="memitem:gab3b16fa14f4b2e1be896c24df74f92d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#gab3b16fa14f4b2e1be896c24df74f92d3">STK_CALIB_SKEW</a>&#160;&#160;&#160;(1 &lt;&lt; 30)</td></tr>
+<tr class="memitem:ga7a4687e38762c3838584db6d0ae136be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__systick__defines.html#ga7a4687e38762c3838584db6d0ae136be">STK_CALIB_TENMS</a>&#160;&#160;&#160;0x00FFFFFF</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -176,7 +188,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00055">55</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00064">64</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -190,7 +202,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00088">88</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00114">114</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -204,7 +216,105 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00090">90</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00116">116</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga7a4687e38762c3838584db6d0ae136be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_CALIB_TENMS&#160;&#160;&#160;0x00FFFFFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00119">119</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga664a648a1ef9d90dd280176c5ec547c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_CSR&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x00)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00053">53</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8f8123030d6e5d7d21a1ef3cbc815b5e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_CSR_CLKSOURCE&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="group__CM3__systick__defines.html#ga82177cdbc9fdc0126a2a74cf808d7969">STK_CSR_CLKSOURCE_LSB</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00078">78</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga82177cdbc9fdc0126a2a74cf808d7969"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_CSR_CLKSOURCE_LSB&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00077">77</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga0a6a69a143a4257ed517033163524886"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_CSR_COUNTFLAG&#160;&#160;&#160;(1 &lt;&lt; 16)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00070">70</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga803c330982edfbbeac7b14ab081e849d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_CSR_ENABLE&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00098">98</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga829e6dbb8ecf50d36aa8258e2cf1587c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_CSR_TICKINT&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00095">95</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -217,8 +327,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>this file has been not following the register naming scheme, the correct names defined, and the old ones stay there for compatibility with old software (will be deprecated in the future) </dd></dl>
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00046">46</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00052">52</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -227,12 +338,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STK_CTRL_CLKSOURCE&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+          <td class="memname">#define STK_CTRL_CLKSOURCE&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="group__CM3__systick__defines.html#ga9208ea3c44b11078f41e57c2f8116867">STK_CTRL_CLKSOURCE_LSB</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00063">63</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00075">75</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -246,7 +357,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00064">64</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00074">74</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -260,7 +371,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00060">60</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00069">69</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -274,7 +385,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00076">76</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00097">97</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -288,7 +399,35 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00074">74</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00094">94</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gafcba0d0cff7c416138b78b1ed1198b6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_CVR&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x08)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00061">61</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8cba67ffa9205688bd0478bd794c1a04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_CVR_CURRENT&#160;&#160;&#160;0x00FFFFFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00109">109</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -302,7 +441,35 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00049">49</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00056">56</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga6617c6912a90b37c034e0eeb2e12ec0b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_RVR&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a> + 0x04)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00057">57</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga46f593f0f43644aeb67692011d4a5b14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STK_RVR_RELOAD&#160;&#160;&#160;0x00FFFFFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00103">103</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -316,7 +483,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00052">52</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00060">60</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -486,7 +653,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

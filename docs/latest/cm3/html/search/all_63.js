@@ -13,6 +13,6 @@ var searchData=
   ['cm_5fscs_5fsyst_5frvr',['CM_SCS_SYST_RVR',['../scs_8h.html#a4b76425dbd3faeccacf2c1aa272900ba',1,'scs.h']]],
   ['common_2eh',['common.h',['../common_8h.html',1,'']]],
   ['cortex_2eh',['cortex.h',['../cortex_8h.html',1,'']]],
-  ['cortex_20m3_2fm4_20system_20interrupts',['Cortex M3/M4 System Interrupts',['../group__nvic__sysint.html',1,'']]],
+  ['cortex_20m0_2fm3_2fm4_20system_20interrupts',['Cortex M0/M3/M4 System Interrupts',['../group__nvic__sysint.html',1,'']]],
   ['clock_20source_20selection',['Clock source selection',['../group__systick__clksource.html',1,'']]]
 ];

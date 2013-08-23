@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="../../cm3/html/modules.html"><span>CM3&#160;Core</span></a></li>
       <li><a href="../../usb/html/modules.html"><span>Generic&#160;USB</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -151,41 +152,39 @@ $(document).ready(function(){initNavTree('ipc_8c_source.html','');});
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        rst_active_status1 = RESET_ACTIVE_STATUS1;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="comment">/* If the M0 has reset not asserted, halt it... */</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">while</span>( (rst_active_status1 &amp; RESET_CTRL1_M0APP_RST) )</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                RESET_CTRL1 = ((~rst_active_status1) | RESET_CTRL1_M0APP_RST);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                rst_active_status1 = RESET_ACTIVE_STATUS1;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        }</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="code" href="ipc_8c.html#a71c99c6b26648dda97c6a9c9e27a984d">   40</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="ipc_8h.html#a71c99c6b26648dda97c6a9c9e27a984d">ipc_start_m0</a>(uint32_t cm0_baseaddr)</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keyword">volatile</span> uint32_t rst_active_status1;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="comment">/* Set M0 memory mapping to point to start of M0 image */</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        CREG_M0APPMEMMAP = cm0_baseaddr;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">/* Start/run M0 core */</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">/* Release Slave from reset, first read status */</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        rst_active_status1 = RESET_ACTIVE_STATUS1;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">/* If the M0 is being held in reset, release it */</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">/* 1 = no reset, 0 = reset */</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">while</span>( !(rst_active_status1 &amp; RESET_CTRL1_M0APP_RST) )</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                RESET_CTRL1 = ((~rst_active_status1) &amp; (~RESET_CTRL1_M0APP_RST));</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                rst_active_status1 = RESET_ACTIVE_STATUS1;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">while</span> (rst_active_status1 &amp; RESET_CTRL1_M0APP_RST) {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                RESET_CTRL1 = ((~rst_active_status1) | RESET_CTRL1_M0APP_RST);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                rst_active_status1 = RESET_ACTIVE_STATUS1;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="ipc_8c.html#a71c99c6b26648dda97c6a9c9e27a984d">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="ipc_8h.html#a71c99c6b26648dda97c6a9c9e27a984d">ipc_start_m0</a>(uint32_t cm0_baseaddr)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keyword">volatile</span> uint32_t rst_active_status1;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="comment">/* Set M0 memory mapping to point to start of M0 image */</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        CREG_M0APPMEMMAP = cm0_baseaddr;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">/* Start/run M0 core */</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">/* Release Slave from reset, first read status */</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        rst_active_status1 = RESET_ACTIVE_STATUS1;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">/* If the M0 is being held in reset, release it */</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">/* 1 = no reset, 0 = reset */</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">while</span> (!(rst_active_status1 &amp; RESET_CTRL1_M0APP_RST)) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                RESET_CTRL1 = ((~rst_active_status1) &amp; ~RESET_CTRL1_M0APP_RST);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                rst_active_status1 = RESET_ACTIVE_STATUS1;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_d37d3c975ecef012b6a8fd7f0f6fedfb.html">lpc43xx</a></li><li class="navelem"><a class="el" href="ipc_8c.html">ipc.c</a></li>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:43 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:46 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

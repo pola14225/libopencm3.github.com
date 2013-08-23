@@ -5,6 +5,7 @@ var NAVTREE =
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
     [ "Generic USB", "../../usb/html/modules.html", null ],
+    [ "STM32F0", "../../stm32f0/html/modules.html", null ],
     [ "STM32F1", "../../stm32f1/html/modules.html", null ],
     [ "STM32F2", "modules.html", "modules" ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
@@ -43,11 +44,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"group__dac__file.html",
-"group__timer__file.html#gaa9c3942a9b647d8e92b07275e9dd2c58",
-"rcc_8c.html#acfad289e21cd0d348cf2a765ce702aff",
-"rcc_8h.html#ab8b429bc8d52abd1ba3818a82542bb98",
-"timer__common__all_8c.html#gac450e52a726bc05532369ff445839a6c"
+"gpio__common__all_8c.html#ga5ce25ff1552b12093b009978322fcb5c",
+"group__timer__file.html#ga1d84b1bb9bd6496a09fa2914a3665797",
+"pwr__common__all_8c.html#ga1d9e8bb70d3b9c9c2971d1ae2c049b8f",
+"rcc_8h.html#a9464e8188d717902990b467a9396d238",
+"timer__common__all_8c.html#ga1d84b1bb9bd6496a09fa2914a3665797"
 ];
 
 var navTreeSubIndices = new Array();

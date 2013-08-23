@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="../../cm3/html/modules.html"><span>CM3&#160;Core</span></a></li>
       <li><a href="../../usb/html/modules.html"><span>Generic&#160;USB</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="modules.html"><span>STM32F4</span></a></li>
@@ -120,17 +121,17 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 </div><!--header-->
 <div class="contents">
 <a href="rtc_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/** @defgroup rtc_file RTC</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">@ingroup STM32F4xx</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">@brief &lt;b&gt;libopencm3 STM32F4xx RTC&lt;/b&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">@version 1.0.0</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">@date 4 March 2013</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">LGPL License Terms @ref lgpl_license</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * @ingroup STM32F4xx</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * @brief &lt;b&gt;libopencm3 STM32F4xx RTC&lt;/b&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * @version 1.0.0</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * @date 4 March 2013</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * LGPL License Terms @ref lgpl_license</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
@@ -152,7 +153,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/exti.h&gt;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/f4/nvic.h&gt;</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/rtc.h&gt;</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="rtc__common__bcd_8h.html">libopencm3/stm32/common/rtc_common_bcd.h</a>&gt;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="rtc__common__l1f024_8h.html">libopencm3/stm32/common/rtc_common_l1f024.h</a>&gt;</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -190,8 +191,8 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">         * 1. Configure and enable the EXTI Line 22 in interrupt mode and</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">         *    select the rising edge sensitivity.</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        exti_enable_request(EXTI22);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        exti_set_trigger(EXTI22, EXTI_TRIGGER_RISING);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="exti__common__all_8c.html#acb53c6b7ac0a8908568b7a1f7bc50d25">exti_enable_request</a>(EXTI22);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="exti__common__all_8c.html#a8b05a3586764aeb0dd1366dd46616a65">exti_set_trigger</a>(EXTI22, EXTI_TRIGGER_RISING);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="comment">/* 2. Configure and enable the RTC_WKUP IRQ channel in the NVIC. */</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic_enable_irq</a>(NVIC_RTC_WKUP_IRQ);</div>
@@ -209,7 +210,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div class="line"><a name="l00088"></a><span class="lineno"><a class="code" href="rtc_8c.html#a36e2af549b7d24f24e5255bbbeb5de71">   88</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="rtc_8h.html#a36e2af549b7d24f24e5255bbbeb5de71" title="Disable the wakeup timer interrupt.">rtc_disable_wakeup_timer_interrupt</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;{</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="comment">/* 1. Disable EXTI Line 22 */</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        exti_disable_request(EXTI22);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="exti__common__all_8c.html#a1752fef240fb05e1135548449943ce0b">exti_disable_request</a>(EXTI22);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="comment">/* 2. Disable RTC_WKUP IRQ channel in the NVIC. */</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gaf95cc3827a6e48d82c6046c639c80dc9">nvic_disable_irq</a>(NVIC_RTC_WKUP_IRQ);</div>
@@ -223,7 +224,7 @@ $(document).ready(function(){initNavTree('rtc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="rtc_8c.html">rtc.c</a></li>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:33 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:36 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

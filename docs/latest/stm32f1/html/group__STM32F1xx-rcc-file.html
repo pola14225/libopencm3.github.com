@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="../../cm3/html/modules.html"><span>CM3&#160;Core</span></a></li>
       <li><a href="../../usb/html/modules.html"><span>Generic&#160;USB</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -619,7 +620,7 @@ Here is the call graph for this function:</div>
 
 <p>RCC Disable Bypass. </p>
 <p>Re-enable the internal clock (high speed and low speed clocks only). The internal clock must be disabled (see <a class="el" href="group__STM32F1xx-rcc-file.html#ga5f5d6161e92d2708ee1e2d0517c10c28">rcc_osc_off</a>) for this to have effect.</p>
-<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot have bypass removed until the backup domain write protection has been removed (see <a class="el" href="group__pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>) or the backup domain has been reset (see <a class="el" href="group__STM32F1xx-rcc-file.html#gaa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>).</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot have bypass removed until the backup domain write protection has been removed (see <a class="el" href="group__pwr__file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>) or the backup domain has been reset (see <a class="el" href="group__STM32F1xx-rcc-file.html#gaa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">osc</td><td>enum <a class="el" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a>. Oscillator ID. Only HSE and LSE have effect. </td></tr>
@@ -649,7 +650,7 @@ Here is the call graph for this function:</div>
 
 <p>RCC Enable Bypass. </p>
 <p>Enable an external clock to bypass the internal clock (high speed and low speed clocks only). The external clock must be enabled (see <a class="el" href="group__STM32F1xx-rcc-file.html#ga8dbd64d58e019803bf109609203d1afd">rcc_osc_on</a>) and the internal clock must be disabled (see <a class="el" href="group__STM32F1xx-rcc-file.html#ga5f5d6161e92d2708ee1e2d0517c10c28">rcc_osc_off</a>) for this to have effect.</p>
-<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot be bypassed until the backup domain write protection has been removed (see <a class="el" href="group__pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>).</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot be bypassed until the backup domain write protection has been removed (see <a class="el" href="group__pwr__file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">osc</td><td>enum <a class="el" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a>. Oscillator ID. Only HSE and LSE have effect. </td></tr>
@@ -681,7 +682,7 @@ Here is the call graph for this function:</div>
 <p>Disable an oscillator and power off.</p>
 <dl class="section note"><dt>Note</dt><dd>An oscillator cannot be turned off if it is selected as the system clock. </dd>
 <dd>
-The LSE clock is in the backup domain and cannot be disabled until the backup domain write protection has been removed (see <a class="el" href="group__pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>) or the backup domain has been (see reset <a class="el" href="group__STM32F1xx-rcc-file.html#gaa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>).</dd></dl>
+The LSE clock is in the backup domain and cannot be disabled until the backup domain write protection has been removed (see <a class="el" href="group__pwr__file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>) or the backup domain has been (see reset <a class="el" href="group__STM32F1xx-rcc-file.html#gaa02e63deae78644c393004fb900fe584">rcc_backupdomain_reset</a>).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">osc</td><td>enum <a class="el" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a>. Oscillator ID </td></tr>
@@ -711,7 +712,7 @@ The LSE clock is in the backup domain and cannot be disabled until the backup do
 
 <p>RCC Turn on an Oscillator. </p>
 <p>Enable an oscillator and power on. Each oscillator requires an amount of time to settle to a usable state. Refer to datasheets for time delay information. A status flag is available to indicate when the oscillator becomes ready (see <a class="el" href="group__STM32F1xx-rcc-file.html#gab01089842913b18e3df6e0e3ec89fd71">rcc_osc_ready_int_flag</a> and <a class="el" href="group__STM32F1xx-rcc-file.html#ga0f9fac6ac510e119aebe5f62c53f073a">rcc_wait_for_osc_ready</a>).</p>
-<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot be enabled until the backup domain write protection has been removed (see <a class="el" href="group__pwr-file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>).</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The LSE clock is in the backup domain and cannot be enabled until the backup domain write protection has been removed (see <a class="el" href="group__pwr__file.html#ga47f30c2ab88b0a18a2f343cf4f9c0743">pwr_disable_backup_domain_write_protect</a>).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">osc</td><td>enum <a class="el" href="group__STM32F1xx__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823">osc_t</a>. Oscillator ID </td></tr>
@@ -1693,7 +1694,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:23 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:27 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

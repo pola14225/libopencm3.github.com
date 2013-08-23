@@ -176,7 +176,5 @@ var searchData=
   ['pf_5f6',['PF_6',['../group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2ac9d675e9e483bdd19c4f21a475fe94ae',1,'scu.h']]],
   ['pf_5f7',['PF_7',['../group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2a577034251f6982696b70885d473d2bf8',1,'scu.h']]],
   ['pf_5f8',['PF_8',['../group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2a909375d81220516ed394ca32afa50751',1,'scu.h']]],
-  ['pf_5f9',['PF_9',['../group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2a19d4c3cf4db0d72a76faa49c566b658e',1,'scu.h']]],
-  ['pos',['POS',['../structsgpio__t.html#a0bb825485f4389189777e63cb3f48a5f',1,'sgpio_t']]],
-  ['preset',['PRESET',['../structsgpio__t.html#a5fae0f8e69c05b3cd933b02cad50d35c',1,'sgpio_t']]]
+  ['pf_5f9',['PF_9',['../group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2a19d4c3cf4db0d72a76faa49c566b658e',1,'scu.h']]]
 ];

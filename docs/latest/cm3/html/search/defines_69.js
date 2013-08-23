@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['id_5fbase',['ID_BASE',['../memorymap_8h.html#ae8b723a166af853e24a63d5da6b53431',1,'memorymap.h']]],
-  ['itm_5fbase',['ITM_BASE',['../memorymap_8h.html#add76251e412a195ec0a8f47227a8359e',1,'memorymap.h']]],
   ['itm_5fstim',['ITM_STIM',['../itm_8h.html#a4ac203ba565be3dbee5ba9da2fd6a9db',1,'itm.h']]],
   ['itm_5fstim_5ffifoready',['ITM_STIM_FIFOREADY',['../itm_8h.html#a2c7572d391a2bff1f5a92994bb004bcb',1,'itm.h']]],
   ['itm_5ftcr',['ITM_TCR',['../itm_8h.html#a935f0be267215442b7cffb0a191c7223',1,'itm.h']]],
@@ -18,6 +16,5 @@ var searchData=
   ['itm_5ftcr_5ftsprescale_5fnone',['ITM_TCR_TSPRESCALE_NONE',['../itm_8h.html#a2d3e743c011316d737160271f8838bbf',1,'itm.h']]],
   ['itm_5ftcr_5ftxena',['ITM_TCR_TXENA',['../itm_8h.html#aa50e7ce101e78a99931a5cdf49a930bf',1,'itm.h']]],
   ['itm_5fter',['ITM_TER',['../itm_8h.html#a18c94f3236b7d64c83e63cdd586e5e9b',1,'itm.h']]],
-  ['itm_5ftpr',['ITM_TPR',['../itm_8h.html#a4a106555b6d58115c86e09d48e199572',1,'itm.h']]],
-  ['itr_5fbase',['ITR_BASE',['../memorymap_8h.html#a44719235a1303aa1fac3e7b1b5142cc5',1,'memorymap.h']]]
+  ['itm_5ftpr',['ITM_TPR',['../itm_8h.html#a4a106555b6d58115c86e09d48e199572',1,'itm.h']]]
 ];

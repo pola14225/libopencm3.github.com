@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="../../cm3/html/modules.html"><span>CM3&#160;Core</span></a></li>
       <li><a href="../../usb/html/modules.html"><span>Generic&#160;USB</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="modules.html"><span>STM32F4</span></a></li>
@@ -213,6 +214,18 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga586b2d80e0b38cccd6a47adb67dc57df"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA Stream Set the Base Memory Address 1.  <a href="#ga586b2d80e0b38cccd6a47adb67dc57df"></a><br/></td></tr>
 <tr class="memitem:gacb3b053111727848b8fff84eee2261a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__file.html#gacb3b053111727848b8fff84eee2261a7">dma_set_number_of_data</a> (uint32_t dma, uint8_t stream, uint16_t number)</td></tr>
 <tr class="memdesc:gacb3b053111727848b8fff84eee2261a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA Stream Set the Transfer Block Size.  <a href="#gacb3b053111727848b8fff84eee2261a7"></a><br/></td></tr>
+<tr class="memitem:gaa0e2c035b7be3a35d966b5d3f4576cd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__file.html#gaa0e2c035b7be3a35d966b5d3f4576cd6">dma_channel_reset</a> (uint32_t dma, uint8_t channel)</td></tr>
+<tr class="memdesc:gaa0e2c035b7be3a35d966b5d3f4576cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA Channel Reset.  <a href="#gaa0e2c035b7be3a35d966b5d3f4576cd6"></a><br/></td></tr>
+<tr class="memitem:gad831d792923d1f4934ea1502a178fde2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__file.html#gad831d792923d1f4934ea1502a178fde2">dma_enable_mem2mem_mode</a> (uint32_t dma, uint8_t channel)</td></tr>
+<tr class="memdesc:gad831d792923d1f4934ea1502a178fde2"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA Channel Enable Memory to Memory Transfers.  <a href="#gad831d792923d1f4934ea1502a178fde2"></a><br/></td></tr>
+<tr class="memitem:ga5e6948cc934466d0b26c6fffaecdb999"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__file.html#ga5e6948cc934466d0b26c6fffaecdb999">dma_set_read_from_peripheral</a> (uint32_t dma, uint8_t channel)</td></tr>
+<tr class="memdesc:ga5e6948cc934466d0b26c6fffaecdb999"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA Channel Enable Transfers from a Peripheral.  <a href="#ga5e6948cc934466d0b26c6fffaecdb999"></a><br/></td></tr>
+<tr class="memitem:ga1446d08000d09fe53ccc60f51baee51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__file.html#ga1446d08000d09fe53ccc60f51baee51a">dma_set_read_from_memory</a> (uint32_t dma, uint8_t channel)</td></tr>
+<tr class="memdesc:ga1446d08000d09fe53ccc60f51baee51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA Channel Enable Transfers from Memory.  <a href="#ga1446d08000d09fe53ccc60f51baee51a"></a><br/></td></tr>
+<tr class="memitem:ga8ceb0c8c8ce56a288bca8180d426c178"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__file.html#ga8ceb0c8c8ce56a288bca8180d426c178">dma_enable_channel</a> (uint32_t dma, uint8_t channel)</td></tr>
+<tr class="memdesc:ga8ceb0c8c8ce56a288bca8180d426c178"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA Channel Enable.  <a href="#ga8ceb0c8c8ce56a288bca8180d426c178"></a><br/></td></tr>
+<tr class="memitem:ga6a414141caca0417be5def3b1c8e661a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__file.html#ga6a414141caca0417be5def3b1c8e661a">dma_disable_channel</a> (uint32_t dma, uint8_t channel)</td></tr>
+<tr class="memdesc:ga6a414141caca0417be5def3b1c8e661a"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA Channel Disable.  <a href="#ga6a414141caca0417be5def3b1c8e661a"></a><br/></td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <p><b>libopencm3 STM32F4xx DMA</b> </p>
@@ -225,8 +238,51 @@ Functions</h2></td></tr>
 <p>DMA transfers can be configured to occur between peripheral and memory in either direction, and memory to memory. Peripheral to peripheral transfer is not supported. Circular mode transfers are also supported in transfers involving a peripheral. An arbiter is provided to resolve priority DMA requests. Transfers can be made with 8, 16 or 32 bit words.</p>
 <p>Each stream has access to a 4 word deep FIFO and can use double buffering by means of two memory pointers. When using the FIFO it is possible to configure transfers to occur in indivisible bursts.</p>
 <p>It is also possible to select a peripheral instead of the DMA controller to control the flow of data. This limits the functionality but is useful when the number of transfers is unknown.</p>
+<p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
+<dl class="section author"><dt>Author</dt><dd> &copy;  2010 Thomas Otto <a href="#" onclick="location.href='mai'+'lto:'+'tom'+'mi'+'@vi'+'ad'+'min'+'.o'+'rg'; return false;">tommi<span style="display: none;">.nosp@m.</span>@via<span style="display: none;">.nosp@m.</span>dmin.<span style="display: none;">.nosp@m.</span>org</a></dd></dl>
+<p>This library supports the DMA Control System in the STM32 series of ARM Cortex Microcontrollers by ST Microelectronics.</p>
+<p>Up to two DMA controllers are supported. 12 DMA channels are allocated 7 to the first DMA controller and 5 to the second. Each channel is connected to between 3 and 6 hardware peripheral DMA signals in a logical OR arrangement.</p>
+<p>DMA transfers can be configured to occur between peripheral and memory in any combination including memory to memory. Circular mode transfers are also supported in transfers involving a peripheral. An arbiter is provided to resolve priority DMA requests. Transfers can be made with 8, 16 or 32 bit words.</p>
 <p>LGPL License Terms <a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
 <h2>Function Documentation</h2>
+<a class="anchor" id="gaa0e2c035b7be3a35d966b5d3f4576cd6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_channel_reset </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DMA Channel Reset. </p>
+<p>The channel is disabled and configuration registers are cleared.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="dma__common__l1f013_8c_source.html#l00052">52</a> of file <a class="el" href="dma__common__l1f013_8c_source.html">dma_common_l1f013.c</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga31ac1af0c35910f6b4b57a12ad83b60e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -287,7 +343,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
+          <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -304,12 +360,22 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>DMA Stream Clear Interrupt Flag. </p>
+<p>DMA Channel Clear Interrupt Flag.</p>
 <p>The interrupt flag for the stream is cleared. More than one interrupt for the same stream may be cleared by using the bitwise OR of the interrupt flags.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Bitwise OR of interrupt numbers: dma_if_offset </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Bitwise OR of interrupt numbers: dma_if_offset</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>The interrupt flag for the channel is cleared. More than one interrupt for the same channel may be cleared by using the logical OR of the interrupt flags.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: dma_ch </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupts</td><td>unsigned int32. Logical OR of interrupt numbers: dma_if_offset </td></tr>
   </table>
   </dd>
 </dl>
@@ -326,6 +392,44 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node3" href="group__dma__file.html#ga3f5a21bbe3efe0032c02f054d5ceec32" title="DMA Stream Enable Interrupt on Direct Mode Error." alt="" coords="189,5,360,51"/><area shape="rect" id="node5" href="group__dma__file.html#ga856057f523c5a127beffc1f91b132d15" title="DMA Enable Interrupt on FIFO Error." alt="" coords="200,74,349,121"/><area shape="rect" id="node7" href="group__dma__file.html#ga05bfe7ca609aaf686e9258b4a0245d72" title="DMA Stream Enable Interrupt on Transfer Half Complete." alt="" coords="189,143,360,190"/><area shape="rect" id="node9" href="group__dma__file.html#ga1ee7b429eeb959f41c1dbd9d87312dc9" title="DMA Stream Enable Interrupt on Transfer Complete." alt="" coords="204,213,345,259"/><area shape="rect" id="node11" href="group__dma__file.html#ga6be1b284bd502af608b3993abe1a9931" title="DMA Stream Enable Interrupt on Transfer Error." alt="" coords="204,282,345,329"/></map>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="ga6a414141caca0417be5def3b1c8e661a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_disable_channel </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DMA Channel Disable. </p>
+<dl class="section note"><dt>Note</dt><dd>The DMA channel registers retain their values when the channel is disabled.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="dma__common__l1f013_8c_source.html#l00374">374</a> of file <a class="el" href="dma__common__l1f013_8c_source.html">dma_common_l1f013.c</a>.</p>
 
 </div>
 </div>
@@ -454,7 +558,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -465,10 +569,13 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Disable Interrupt on Transfer Half Complete. </p>
+<p>DMA Channel Disable Interrupt on Transfer Half Complete.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -491,7 +598,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -506,7 +613,9 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -529,7 +638,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -544,7 +653,9 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -605,7 +716,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -616,10 +727,13 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Disable Interrupt on Transfer Complete. </p>
+<p>DMA Channel Disable Interrupt on Transfer Complete.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -642,7 +756,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -653,15 +767,55 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Disable Interrupt on Transfer Error. </p>
+<p>DMA Channel Disable Interrupt on Transfer Error.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00516">516</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8ceb0c8c8ce56a288bca8180d426c178"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_enable_channel </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DMA Channel Enable. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="dma__common__l1f013_8c_source.html#l00359">359</a> of file <a class="el" href="dma__common__l1f013_8c_source.html">dma_common_l1f013.c</a>.</p>
 
 </div>
 </div>
@@ -679,7 +833,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -690,13 +844,23 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Enable Memory Circular Mode. </p>
+<p>DMA Channel Enable Memory Circular Mode.</p>
 <p>After the number of bytes/words to be transferred has been completed, the original transfer block size, memory and peripheral base addresses are reloaded and the process repeats.</p>
 <p>Ensure that the stream is disabled otherwise the setting will not be changed.</p>
 <dl class="section note"><dt>Note</dt><dd>This cannot be used with memory to memory mode. It is disabled automatically if the peripheral is selected as the flow controller. It is enabled automatically if double buffered mode is selected.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>After the number of bytes/words to be transferred has been completed, the original transfer block size, memory and peripheral base addresses are reloaded and the process repeats.</p>
+<dl class="section note"><dt>Note</dt><dd>This cannot be used with memory to memory mode, which is explictly disabled here.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -970,7 +1134,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -981,10 +1145,13 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Enable Interrupt on Transfer Half Complete. </p>
+<p>DMA Channel Enable Interrupt on Transfer Half Complete.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1004,6 +1171,44 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="gad831d792923d1f4934ea1502a178fde2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_enable_mem2mem_mode </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DMA Channel Enable Memory to Memory Transfers. </p>
+<p>Memory to memory transfers do not require a trigger to activate each transfer. Transfers begin immediately the channel has been enabled, and proceed without intervention.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="dma__common__l1f013_8c_source.html#l00115">115</a> of file <a class="el" href="dma__common__l1f013_8c_source.html">dma_common_l1f013.c</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="gad344152e8871f8787dbebb073f81c61e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1018,7 +1223,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1029,12 +1234,21 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Enable Memory Increment after Transfer. </p>
+<p>DMA Channel Enable Memory Increment after Transfer.</p>
 <p>Following each transfer the current memory address is incremented by 1, 2 or 4 depending on the data size set in <a class="el" href="group__dma__file.html#ga6e89625484c29b630c797340e4d71d09">dma_set_memory_size</a>. The value held by the base memory address register is unchanged.</p>
 <p>Ensure that the stream is disabled otherwise the setting will not be changed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Following each transfer the current memory address is incremented by 1, 2 or 4 depending on the data size set in <a class="el" href="group__dma__file.html#ga6e89625484c29b630c797340e4d71d09">dma_set_memory_size</a>. The value held by the base memory address register is unchanged.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1057,7 +1271,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1068,12 +1282,21 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Channel Enable Variable Sized Peripheral Increment after Transfer. </p>
+<p>DMA Channel Enable Peripheral Increment after Transfer.</p>
 <p>Following each transfer the current peripheral address is incremented by 1, 2 or 4 depending on the data size set in <a class="el" href="group__dma__file.html#ga5613aadc5520edf0ea058a0a2c41764c">dma_set_peripheral_size</a>. The value held by the base peripheral address register is unchanged.</p>
 <p>Ensure that the stream is disabled otherwise the setting will not be changed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Following each transfer the current peripheral address is incremented by 1, 2 or 4 depending on the data size set in <a class="el" href="group__dma__file.html#ga5613aadc5520edf0ea058a0a2c41764c">dma_set_peripheral_size</a>. The value held by the base peripheral address register is unchanged.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1133,7 +1356,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1144,10 +1367,13 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Enable Interrupt on Transfer Complete. </p>
+<p>DMA Channel Enable Interrupt on Transfer Complete.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1181,7 +1407,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1192,10 +1418,13 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Enable Interrupt on Transfer Error. </p>
+<p>DMA Channel Enable Interrupt on Transfer Error.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1268,7 +1497,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
+          <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1285,11 +1514,22 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Read Interrupt Flag. </p>
+<p>DMA Channel Read Interrupt Flag.</p>
 <p>The interrupt flag for the stream is returned.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: dma_if_offset </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool interrupt flag is set.</dd></dl>
+<p>The interrupt flag for the channel is returned.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: dma_ch </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">interrupt</td><td>unsigned int32. Interrupt number: dma_if_offset </td></tr>
   </table>
   </dd>
@@ -1483,7 +1723,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
+          <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1500,12 +1740,22 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Set the Base Memory Address 0. </p>
+<p>DMA Channel Set the Base Memory Address.</p>
 <p>Set the address pointer to the memory location for DMA transfers. The DMA stream must normally be disabled before setting this address, however it is possible to change this in double buffer mode when the current target is memory area 1 (see <a class="el" href="group__dma__file.html#ga9fcdc7cd42abe3c9b6ca5ff1d10e2665">dma_get_target</a>).</p>
 <p>This is the default base memory address used in direct mode.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Memory Initial Address.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The DMA channel must be disabled before setting this address. This function has no effect if the channel is enabled.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Memory Initial Address. </td></tr>
   </table>
   </dd>
@@ -1620,7 +1870,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
+          <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1637,13 +1887,23 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Set Memory Word Width. </p>
+<p>DMA Channel Set Memory Word Width.</p>
 <p>Set the memory word width 8 bits, 16 bits, or 32 bits. Refer to datasheet for alignment information if the source and destination widths do not match.</p>
 <p>Ensure that the stream is disabled otherwise the setting will not be changed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width dma_st_memwidth. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width dma_st_memwidth.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Set the memory word width 8 bits, 16 bits, or 32 bits. Refer to datasheet for alignment information if the source and destination widths do not match.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mem_size</td><td>unsigned int32. Memory word width dma_ch_memwidth. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1666,7 +1926,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
+          <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1683,11 +1943,21 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Set the Transfer Block Size. </p>
+<p>DMA Channel Set the Transfer Block Size.</p>
 <dl class="section note"><dt>Note</dt><dd>The DMA stream must be disabled before setting this count value. The count is not changed if the stream is enabled.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">number</td><td>unsigned int16. Number of data words to transfer (65535 maximum).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The DMA channel must be disabled before setting this count value. The count is not changed if the channel is enabled.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">number</td><td>unsigned int16. Number of data words to transfer (65535 maximum). </td></tr>
   </table>
   </dd>
@@ -1711,7 +1981,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
+          <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1728,12 +1998,23 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Set the Peripheral Address. </p>
+<p>DMA Channel Set the Peripheral Address.</p>
 <p>Set the address of the peripheral register to or from which data is to be transferred. Refer to the documentation for the specific peripheral.</p>
 <dl class="section note"><dt>Note</dt><dd>The DMA stream must be disabled before setting this address. This function has no effect if the stream is enabled.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Peripheral Address.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Set the address of the peripheral register to or from which data is to be transferred. Refer to the documentation for the specific peripheral.</p>
+<dl class="section note"><dt>Note</dt><dd>The DMA channel must be disabled before setting this address. This function has no effect if the channel is enabled.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>unsigned int32. Peripheral Address. </td></tr>
   </table>
   </dd>
@@ -1842,7 +2123,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
+          <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1859,13 +2140,23 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Set Peripheral Word Width. </p>
+<p>DMA Channel Set Peripheral Word Width.</p>
 <p>Set the peripheral word width 8 bits, 16 bits, or 32 bits. Refer to datasheet for alignment information if the source and destination widths do not match, or if the peripheral does not support byte or half-word writes.</p>
 <p>Ensure that the stream is disabled otherwise the setting will not be changed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width dma_st_perwidth. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width dma_st_perwidth.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Set the peripheral word width 8 bits, 16 bits, or 32 bits. Refer to datasheet for alignment information if the source and destination widths do not match, or if the peripheral does not support byte or half-word writes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">peripheral_size</td><td>unsigned int32. Peripheral word width dma_ch_perwidth. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1888,7 +2179,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
+          <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1905,18 +2196,104 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>DMA Stream Set Priority. </p>
+<p>DMA Channel Set Priority.</p>
 <p>Stream Priority has four levels: low to very high. This has precedence over the hardware priority. In the event of equal software priority the lower numbered stream has priority.</p>
 <p>Ensure that the stream is disabled otherwise the setting will not be changed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>unsigned int8. Stream number: dma_st_number </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level dma_st_pri. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level dma_st_pri.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Channel Priority has four levels: low to very high. This has precedence over the hardware priority.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prio</td><td>unsigned int32. Priority level dma_ch_pri. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="dma__common__f24_8c_source.html#l00177">177</a> of file <a class="el" href="dma__common__f24_8c_source.html">dma_common_f24.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga1446d08000d09fe53ccc60f51baee51a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_set_read_from_memory </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DMA Channel Enable Transfers from Memory. </p>
+<p>The data direction is set to read from memory.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="dma__common__l1f013_8c_source.html#l00275">275</a> of file <a class="el" href="dma__common__l1f013_8c_source.html">dma_common_l1f013.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga5e6948cc934466d0b26c6fffaecdb999"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_set_read_from_peripheral </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DMA Channel Enable Transfers from a Peripheral. </p>
+<p>The data direction is set to read from a peripheral.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dma</td><td>unsigned int32. DMA controller base address: DMA1 or DMA2 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>unsigned int8. Channel number: 1-7 for DMA1 or 1-5 for DMA2 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="dma__common__l1f013_8c_source.html#l00261">261</a> of file <a class="el" href="dma__common__l1f013_8c_source.html">dma_common_l1f013.c</a>.</p>
 
 </div>
 </div>
@@ -2009,7 +2386,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:34 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:36 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

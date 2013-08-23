@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="../../cm3/html/modules.html"><span>CM3&#160;Core</span></a></li>
       <li><a href="../../usb/html/modules.html"><span>Generic&#160;USB</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="modules.html"><span>STM32F4</span></a></li>
@@ -144,7 +145,7 @@ $(document).ready(function(){initNavTree('vector__chipset_8c_source.html','');})
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="vector__chipset_8c.html#a0d71b6c9f6dfd739865d6f0f81fb147d">   23</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="vector__chipset_8c.html#a0d71b6c9f6dfd739865d6f0f81fb147d">pre_main</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="comment">/* Enable access to Floating-Point coprocessor. */</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/scb_8h.html#aa1677b86fc9699414925aeca46baac9a">SCB_CPACR</a> |= <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/scb_8h.html#a84ee577a698d3f204d6bfb1376982418">SCB_CPACR_FULL</a> * (<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/scb_8h.html#a5c9b93f33d757549cba83cd6816a8c28">SCB_CPACR_CP10</a> | <a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/scb_8h.html#af3ff3fc901f6b4e608e2084e61125daf">SCB_CPACR_CP11</a>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        SCB_CPACR |= SCB_CPACR_FULL * (SCB_CPACR_CP10 | SCB_CPACR_CP11);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -152,7 +153,7 @@ $(document).ready(function(){initNavTree('vector__chipset_8c_source.html','');})
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="vector__chipset_8c.html">vector_chipset.c</a></li>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:33 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:36 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

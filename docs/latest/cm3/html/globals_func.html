@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -92,21 +93,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_defs.html"><span>Macros</span></a></li>
     </ul>
   </div>
-  <div id="navrow4" class="tabs3">
-    <ul class="tablist">
-      <li><a href="#index__"><span>_</span></a></li>
-      <li><a href="#index_b"><span>b</span></a></li>
-      <li><a href="#index_c"><span>c</span></a></li>
-      <li><a href="#index_d"><span>d</span></a></li>
-      <li><a href="#index_h"><span>h</span></a></li>
-      <li><a href="#index_m"><span>m</span></a></li>
-      <li><a href="#index_n"><span>n</span></a></li>
-      <li><a href="#index_p"><span>p</span></a></li>
-      <li><a href="#index_r"><span>r</span></a></li>
-      <li><a href="#index_s"><span>s</span></a></li>
-      <li><a href="#index_u"><span>u</span></a></li>
-    </ul>
-  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -137,29 +123,10 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 </div>
 
 <div class="contents">
-&#160;
-
-<h3><a class="anchor" id="index__"></a>- _ -</h3><ul>
+&#160;<ul>
 <li>__dmb()
 : <a class="el" href="sync_8h.html#ad1ca1eff93298efc081ecc4b22ebed95">sync.h</a>
 </li>
-<li>__ldrex()
-: <a class="el" href="sync_8h.html#a5558bda451735f4b52ba755d379f1933">sync.h</a>
-</li>
-<li>__strex()
-: <a class="el" href="sync_8h.html#a48735f2cc888fa55f57192e25a5b244f">sync.h</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
-<li>bus_fault_handler()
-: <a class="el" href="group__CM3__nvic__defines.html#ga84d66788b2cf78279367a038ccc07693">nvic.h</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
 <li>cm3_assert_failed()
 : <a class="el" href="group__debugging.html#ga9c0fa84fe9c0e99ad57a3d079ba41ddc">assert.h</a>
 </li>
@@ -172,37 +139,9 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <li>cm_enable_interrupts()
 : <a class="el" href="cortex_8h.html#a06a8f1e988ceacd262f4fbd14633b481">cortex.h</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
-<li>debug_monitor_handler()
-: <a class="el" href="group__CM3__nvic__defines.html#ga4e2402066ee0ed85e53a72e2b6ee4be2">nvic.h</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
 <li>hard_fault_handler()
 : <a class="el" href="group__CM3__nvic__defines.html#gae29640317be4df735067ff164aeeee0f">nvic.h</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
-<li>mem_manage_handler()
-: <a class="el" href="group__CM3__nvic__defines.html#ga8a6f0bde31b38dec02a263eec9a7b816">nvic.h</a>
-</li>
-<li>mutex_lock()
-: <a class="el" href="sync_8h.html#a3582a040ff9bb0cfd05bdd660f1f0d4f">sync.h</a>
-</li>
-<li>mutex_unlock()
-: <a class="el" href="sync_8h.html#ae11e971acf52cb10a0e471c291cd9505">sync.h</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
 <li>nmi_handler()
 : <a class="el" href="group__CM3__nvic__defines.html#ga181d6892388ef1987ba92d0ae80e9359">nvic.h</a>
 </li>
@@ -214,12 +153,6 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 </li>
 <li>nvic_enable_irq()
 : <a class="el" href="group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic.h</a>
-</li>
-<li>nvic_generate_software_interrupt()
-: <a class="el" href="group__CM3__nvic__defines.html#ga236a68110c418bc6b100eb6756ec4ea9">nvic.h</a>
-</li>
-<li>nvic_get_active_irq()
-: <a class="el" href="group__CM3__nvic__defines.html#gaa5ef6143fd0b814310e5475473f80b43">nvic.h</a>
 </li>
 <li>nvic_get_irq_enabled()
 : <a class="el" href="group__CM3__nvic__defines.html#gaa2244a9f5f8c94a82bc8cf41d6ef254d">nvic.h</a>
@@ -233,32 +166,14 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <li>nvic_set_priority()
 : <a class="el" href="group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66">nvic.h</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
 <li>pend_sv_handler()
 : <a class="el" href="group__CM3__nvic__defines.html#ga214eb2c5d993ec1fe7b0a25dd428d3ae">nvic.h</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>reset_handler()
 : <a class="el" href="group__CM3__nvic__defines.html#gaa13f582a41a6b190667d0ecd9c31072f">nvic.h</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>scb_reset_core()
-: <a class="el" href="scb_8h.html#a8425a250161ee83d6aa8b38c5c3fb4a4">scb.h</a>
-</li>
 <li>scb_reset_system()
 : <a class="el" href="scb_8h.html#aad4d08be4e2b209f97d3276b7c7731e6">scb.h</a>
-</li>
-<li>scb_set_priority_grouping()
-: <a class="el" href="scb_8h.html#a1c1ccff67eb7696c04e59ab4f9c0a2ab">scb.h</a>
 </li>
 <li>sv_call_handler()
 : <a class="el" href="group__CM3__nvic__defines.html#ga38e39ab596274b8e97de76609cefa80a">nvic.h</a>
@@ -297,19 +212,12 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 : <a class="el" href="group__CM3__systick__defines.html#gaaa997323bf7f3378eb78a6277abc913f">systick.h</a>
 </li>
 </ul>
-
-
-<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
-<li>usage_fault_handler()
-: <a class="el" href="group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd">nvic.h</a>
-</li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

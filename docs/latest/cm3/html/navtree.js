@@ -4,6 +4,7 @@ var NAVTREE =
     [ "libopencm3 Core CM3", "index.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "modules.html", "modules" ],
+    [ "STM32F0", "../../stm32f0/html/modules.html", null ],
     [ "STM32F1", "../../stm32f1/html/modules.html", null ],
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
@@ -40,8 +41,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"nvic_8h.html#gae5fdef5fd0dc9db35df8e84715fe8179",
-"tpiu_8h.html"
+"scb_8h.html#a4d08b3c1bd96c4c12dddd25aea063e35"
 ];
 
 var navTreeSubIndices = new Array();

@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -142,65 +143,70 @@ $(document).ready(function(){initNavTree('itm_8h_source.html','');});
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">/* Cortex-M3 Instrumentation Trace Macrocell (ITM) */</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">/* --- ITM registers ------------------------------------------------------- */</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">/* Stimulus Port x (ITM_STIM[x]) */</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="itm_8h.html#a4ac203ba565be3dbee5ba9da2fd6a9db">   28</a></span>&#160;<span class="preprocessor">#define ITM_STIM                        (&amp;MMIO32(ITM_BASE))</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">/* Those defined only on ARMv7 and above */</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#if !defined(__ARM_ARCH_7M__) &amp;&amp; !defined(__ARM_ARCH_7EM__)</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#error &quot;Instrumentation Trace Macrocell not available in CM0&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">/* Trace Enable ports (ITM_TER[x]) */</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="itm_8h.html#a18c94f3236b7d64c83e63cdd586e5e9b">   31</a></span>&#160;<span class="preprocessor">#define ITM_TER                         (&amp;MMIO32(ITM_BASE + 0xE00))</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">/* Trace Privilege (ITM_TPR) */</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="code" href="itm_8h.html#a4a106555b6d58115c86e09d48e199572">   34</a></span>&#160;<span class="preprocessor">#define ITM_TPR                         MMIO32(ITM_BASE + 0xE40)</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">/* Trace Control (ITM_TCR) */</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="itm_8h.html#a935f0be267215442b7cffb0a191c7223">   37</a></span>&#160;<span class="preprocessor">#define ITM_TCR                         MMIO32(ITM_BASE + 0xE80)</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">/* TODO: PID, CID */</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">/* --- ITM_STIM values ----------------------------------------------------- */</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">/* Bits 31:0 - Write to port FIFO for forwarding as software event packet */</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">/* Bits 31:1 - RAZ */</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="code" href="itm_8h.html#a2c7572d391a2bff1f5a92994bb004bcb">   45</a></span>&#160;<span class="preprocessor">#define ITM_STIM_FIFOREADY              (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">/* --- ITM_TER values ------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/* Bits 31:0 - Stimulus port #N is enabled with STIMENA[N] is set */</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/* --- ITM_TPR values ------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment"> * Bits 31:0 - Bit [N] of PRIVMASK controls stimulus ports 8N to 8N+7</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"> *             0: User access allowed to stimulus ports</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"> *             1: Privileged access only to stimulus ports</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">/* --- ITM_TCR values ------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/* Bits 31:24 - Reserved */</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="code" href="itm_8h.html#adc090027e495b730cfafe3198b091895">   61</a></span>&#160;<span class="preprocessor">#define ITM_TCR_BUSY                    (1 &lt;&lt; 23)</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="code" href="itm_8h.html#aa29bcf588bffc6673e1edd1bad317b6e">   62</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TRACE_BUS_ID_MASK       (0x3f &lt;&lt; 16)</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits 15:10 - Reserved */</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="code" href="itm_8h.html#a2d3e743c011316d737160271f8838bbf">   64</a></span>&#160;<span class="preprocessor">#define ITM_TCR_TSPRESCALE_NONE         (0 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="code" href="itm_8h.html#a9087253adc655eb0f09e509e266823c0">   65</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSPRESCALE_DIV4         (1 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="code" href="itm_8h.html#aa6494f215ba1154ec89cc7351f9d228d">   66</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSPRESCALE_DIV16        (2 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="code" href="itm_8h.html#a9851904d56cddb843782654de575989a">   67</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSPRESCALE_DIV64        (3 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="code" href="itm_8h.html#ab7a22b7663d50a1345b7756fca53e0a9">   68</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSPRESCALE_MASK         (3 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits 7:5 - Reserved */</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="code" href="itm_8h.html#af73f10e4b25f84d96d81c984da260561">   70</a></span>&#160;<span class="preprocessor">#define ITM_TCR_SWOENA                  (1 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="code" href="itm_8h.html#aa50e7ce101e78a99931a5cdf49a930bf">   71</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TXENA                   (1 &lt;&lt; 3)</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="code" href="itm_8h.html#a06377f11d24d725f27fc4fe44b064c15">   72</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_SYNCENA                 (1 &lt;&lt; 2)</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="code" href="itm_8h.html#a60c10f360235e2790cfc3fa174e596d7">   73</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSENA                   (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="code" href="itm_8h.html#a3669715b5b18b1144dd0f69eb220e743">   74</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_ITMENA                  (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">/* --- ITM registers ------------------------------------------------------- */</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">/* Stimulus Port x (ITM_STIM[x]) */</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="itm_8h.html#a4ac203ba565be3dbee5ba9da2fd6a9db">   33</a></span>&#160;<span class="preprocessor">#define ITM_STIM                        (&amp;MMIO32(ITM_BASE))</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">/* Trace Enable ports (ITM_TER[x]) */</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="code" href="itm_8h.html#a18c94f3236b7d64c83e63cdd586e5e9b">   36</a></span>&#160;<span class="preprocessor">#define ITM_TER                         (&amp;MMIO32(ITM_BASE + 0xE00))</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">/* Trace Privilege (ITM_TPR) */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="itm_8h.html#a4a106555b6d58115c86e09d48e199572">   39</a></span>&#160;<span class="preprocessor">#define ITM_TPR                         MMIO32(ITM_BASE + 0xE40)</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">/* Trace Control (ITM_TCR) */</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="itm_8h.html#a935f0be267215442b7cffb0a191c7223">   42</a></span>&#160;<span class="preprocessor">#define ITM_TCR                         MMIO32(ITM_BASE + 0xE80)</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">/* TODO: PID, CID */</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/* --- ITM_STIM values ----------------------------------------------------- */</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/* Bits 31:0 - Write to port FIFO for forwarding as software event packet */</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/* Bits 31:1 - RAZ */</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="code" href="itm_8h.html#a2c7572d391a2bff1f5a92994bb004bcb">   50</a></span>&#160;<span class="preprocessor">#define ITM_STIM_FIFOREADY              (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/* --- ITM_TER values ------------------------------------------------------ */</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">/* Bits 31:0 - Stimulus port #N is enabled with STIMENA[N] is set */</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">/* --- ITM_TPR values ------------------------------------------------------ */</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment"> * Bits 31:0 - Bit [N] of PRIVMASK controls stimulus ports 8N to 8N+7</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment"> *             0: User access allowed to stimulus ports</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment"> *             1: Privileged access only to stimulus ports</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">/* --- ITM_TCR values ------------------------------------------------------ */</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/* Bits 31:24 - Reserved */</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="code" href="itm_8h.html#adc090027e495b730cfafe3198b091895">   66</a></span>&#160;<span class="preprocessor">#define ITM_TCR_BUSY                    (1 &lt;&lt; 23)</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="code" href="itm_8h.html#aa29bcf588bffc6673e1edd1bad317b6e">   67</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TRACE_BUS_ID_MASK       (0x3f &lt;&lt; 16)</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits 15:10 - Reserved */</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="code" href="itm_8h.html#a2d3e743c011316d737160271f8838bbf">   69</a></span>&#160;<span class="preprocessor">#define ITM_TCR_TSPRESCALE_NONE         (0 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="code" href="itm_8h.html#a9087253adc655eb0f09e509e266823c0">   70</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSPRESCALE_DIV4         (1 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="code" href="itm_8h.html#aa6494f215ba1154ec89cc7351f9d228d">   71</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSPRESCALE_DIV16        (2 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="code" href="itm_8h.html#a9851904d56cddb843782654de575989a">   72</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSPRESCALE_DIV64        (3 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="code" href="itm_8h.html#ab7a22b7663d50a1345b7756fca53e0a9">   73</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSPRESCALE_MASK         (3 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits 7:5 - Reserved */</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="code" href="itm_8h.html#af73f10e4b25f84d96d81c984da260561">   75</a></span>&#160;<span class="preprocessor">#define ITM_TCR_SWOENA                  (1 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="code" href="itm_8h.html#aa50e7ce101e78a99931a5cdf49a930bf">   76</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TXENA                   (1 &lt;&lt; 3)</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="code" href="itm_8h.html#a06377f11d24d725f27fc4fe44b064c15">   77</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_SYNCENA                 (1 &lt;&lt; 2)</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="code" href="itm_8h.html#a60c10f360235e2790cfc3fa174e596d7">   78</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_TSENA                   (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="code" href="itm_8h.html#a3669715b5b18b1144dd0f69eb220e743">   79</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITM_TCR_ITMENA                  (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="itm_8h.html">itm.h</a></li>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

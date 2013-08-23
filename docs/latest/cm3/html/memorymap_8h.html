@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -133,89 +134,12 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a19364e23013210d7c3939b513b514799"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a>&#160;&#160;&#160;0xE0000000</td></tr>
-<tr class="memitem:add76251e412a195ec0a8f47227a8359e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#add76251e412a195ec0a8f47227a8359e">ITM_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x0000)</td></tr>
-<tr class="memitem:afdab534f961bf8935eb456cb7700dcd2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#afdab534f961bf8935eb456cb7700dcd2">DWT_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x1000)</td></tr>
-<tr class="memitem:a1440e877246ef758651cb36c42fb9bf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a1440e877246ef758651cb36c42fb9bf9">FPB_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x2000)</td></tr>
 <tr class="memitem:a3c14ed93192c8d9143322bbf77ebf770"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0xE000)</td></tr>
-<tr class="memitem:ac31eb263a737e50fdd1425663545a14c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ac31eb263a737e50fdd1425663545a14c">TPIU_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x40000)</td></tr>
-<tr class="memitem:a44719235a1303aa1fac3e7b1b5142cc5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a44719235a1303aa1fac3e7b1b5142cc5">ITR_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0000)</td></tr>
 <tr class="memitem:aa71477b62b12d865c7ef62cb768f7b2f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aa71477b62b12d865c7ef62cb768f7b2f">SYS_TICK_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0010)</td></tr>
 <tr class="memitem:aa0288691785a5f868238e0468b39523d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aa0288691785a5f868238e0468b39523d">NVIC_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0100)</td></tr>
 <tr class="memitem:ad55a7ddb8d4b2398b0c1cfec76c0d9fd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ad55a7ddb8d4b2398b0c1cfec76c0d9fd">SCB_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0D00)</td></tr>
-<tr class="memitem:af4236b76f3fff159a3a6aa114c42f5c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#af4236b76f3fff159a3a6aa114c42f5c1">STIR_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0F00)</td></tr>
-<tr class="memitem:ae8b723a166af853e24a63d5da6b53431"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ae8b723a166af853e24a63d5da6b53431">ID_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0FD0)</td></tr>
 </table>
 <h2>Macro Definition Documentation</h2>
-<a class="anchor" id="afdab534f961bf8935eb456cb7700dcd2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DWT_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x1000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00028">28</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1440e877246ef758651cb36c42fb9bf9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define FPB_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x2000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00029">29</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae8b723a166af853e24a63d5da6b53431"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ID_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0FD0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00057">57</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="add76251e412a195ec0a8f47227a8359e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ITM_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x0000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00027">27</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a44719235a1303aa1fac3e7b1b5142cc5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ITR_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00047">47</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="aa0288691785a5f868238e0468b39523d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +150,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00051">51</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00072">72</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -254,7 +178,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00053">53</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00075">75</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -268,21 +192,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00031">31</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af4236b76f3fff159a3a6aa114c42f5c1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STIR_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0F00)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00055">55</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00042">42</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -296,21 +206,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00049">49</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac31eb263a737e50fdd1425663545a14c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TPIU_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x40000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00033">33</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00069">69</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -320,7 +216,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

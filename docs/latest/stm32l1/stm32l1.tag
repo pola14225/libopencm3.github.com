@@ -258,196 +258,17 @@
     <filename>dac__common__all_8h</filename>
   </compound>
   <compound kind="file">
+    <name>dma.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/</path>
+    <filename>dma_8c</filename>
+    <includes id="dma__common__l1f013_8h" name="dma_common_l1f013.h" local="no" imported="no">libopencm3/stm32/common/dma_common_l1f013.h</includes>
+  </compound>
+  <compound kind="file">
     <name>dma.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/</path>
     <filename>dma_8h</filename>
     <includes id="memorymap_8h" name="memorymap.h" local="no" imported="no">libopencm3/stm32/l1/memorymap.h</includes>
-    <includes id="dma__common__f13_8h" name="dma_common_f13.h" local="no" imported="no">libopencm3/stm32/common/dma_common_f13.h</includes>
-  </compound>
-  <compound kind="file">
-    <name>dma_common_f13.c</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>dma__common__f13_8c</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_channel_reset</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa0e2c035b7be3a35d966b5d3f4576cd6</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_clear_interrupt_flags</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac40a8639d6c302311f96cfe757149d65</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupts)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>dma_get_interrupt_flag</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2bbc4d202b36d8e8a198210b73b55fd5</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupt)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_mem2mem_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad831d792923d1f4934ea1502a178fde2</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_priority</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1f69698a62a464cf9854ec02461bec89</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t prio)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_size</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaf4e5396e694acaf0076172051b0bc73b</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t mem_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_size</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gae7a8decadc1f0b0c57bd1bb8af31ff1e</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t peripheral_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_memory_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4603fbb63b0bc28f40e12b574d8dca06</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_memory_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2c403250cd21d8d58c5e7a6041e8ece5</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga815827721ac00bc6c5861ac72e969da6</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gab68711de9988ae47bab7e02ff6d90577</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_circular_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga9bbce5e1378bc9468a7ab36e1994139b</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_peripheral</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5e6948cc934466d0b26c6fffaecdb999</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_memory</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1446d08000d09fe53ccc60f51baee51a</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa0cf00a33e2e4db3678fb03ea9df9848</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4d83c30e746520f4376db4d507203cdd</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gadbcda7ee605e555d66cbf99e4bc156af</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga7a04611f195e968869795da7bb1a962e</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2342cb0ead24ea5274d2cc0e3c7c1c7b</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga145370b8df947290a81f8d69f03d2ef3</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_channel</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga8ceb0c8c8ce56a288bca8180d426c178</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_channel</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga6a414141caca0417be5def3b1c8e661a</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_address</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaf3e4413e433bfb1f1909eb44abc855e3</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_address</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga24372b0a92d96913ababcbe0ad0a7e98</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_number_of_data</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3d9bf8f1d34626faae129830dad95a78</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint16_t number)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>dma_common_f13.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>dma__common__f13_8h</filename>
+    <includes id="dma__common__l1f013_8h" name="dma_common_l1f013.h" local="no" imported="no">libopencm3/stm32/common/dma_common_l1f013.h</includes>
   </compound>
   <compound kind="file">
     <name>dma_common_f24.c</name>
@@ -464,15 +285,15 @@
       <type>void</type>
       <name>dma_clear_interrupt_flags</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac40a8639d6c302311f96cfe757149d65</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupts)</arglist>
+      <anchor>gaeaa31cc700740df241897276081e0436</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t interrupts)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>dma_get_interrupt_flag</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2bbc4d202b36d8e8a198210b73b55fd5</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupt)</arglist>
+      <anchor>ga920e745c606523b2d4ed1804ca1302f9</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -485,50 +306,50 @@
       <type>void</type>
       <name>dma_set_priority</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1f69698a62a464cf9854ec02461bec89</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t prio)</arglist>
+      <anchor>ga56496ac6963f287b8468bdaade35326d</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t prio)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_size</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaf4e5396e694acaf0076172051b0bc73b</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t mem_size)</arglist>
+      <anchor>ga6e89625484c29b630c797340e4d71d09</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t mem_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_peripheral_size</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gae7a8decadc1f0b0c57bd1bb8af31ff1e</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t peripheral_size)</arglist>
+      <anchor>ga5613aadc5520edf0ea058a0a2c41764c</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t peripheral_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_memory_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4603fbb63b0bc28f40e12b574d8dca06</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>gad344152e8871f8787dbebb073f81c61e</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_memory_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2c403250cd21d8d58c5e7a6041e8ece5</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>gabc76100441f2f26c42f2aaebd62a688b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_peripheral_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga815827721ac00bc6c5861ac72e969da6</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>ga598096631d9f7c7efc1d71059c3571e6</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_peripheral_increment_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gab68711de9988ae47bab7e02ff6d90577</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>gadd7396d77096a96a20e13e4dd5e06e1c</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -541,8 +362,8 @@
       <type>void</type>
       <name>dma_enable_circular_mode</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga9bbce5e1378bc9468a7ab36e1994139b</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>gaa4e94297041e7c82695d7aff83cb0594</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -611,43 +432,43 @@
       <type>void</type>
       <name>dma_enable_transfer_error_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa0cf00a33e2e4db3678fb03ea9df9848</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>ga6be1b284bd502af608b3993abe1a9931</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_error_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4d83c30e746520f4376db4d507203cdd</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>ga2f2afc6e30285651e492381cdab7ca1a</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_half_transfer_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gadbcda7ee605e555d66cbf99e4bc156af</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>ga05bfe7ca609aaf686e9258b4a0245d72</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_half_transfer_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga7a04611f195e968869795da7bb1a962e</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>gab7a18436370c610a8834e354582eab9b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_enable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2342cb0ead24ea5274d2cc0e3c7c1c7b</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>ga1ee7b429eeb959f41c1dbd9d87312dc9</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_disable_transfer_complete_interrupt</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga145370b8df947290a81f8d69f03d2ef3</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+      <anchor>gabbb9d94c0d4ec92ec62a7aebbcc7b360</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -723,15 +544,15 @@
       <type>void</type>
       <name>dma_set_peripheral_address</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaf3e4413e433bfb1f1909eb44abc855e3</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
+      <anchor>ga795dbd3370cf28a72ee3e2b7582df0cd</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>dma_set_memory_address</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga24372b0a92d96913ababcbe0ad0a7e98</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
+      <anchor>gae232f2f5a613459f6921774b5b4c049b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t address)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -744,14 +565,199 @@
       <type>void</type>
       <name>dma_set_number_of_data</name>
       <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3d9bf8f1d34626faae129830dad95a78</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint16_t number)</arglist>
+      <anchor>gacb3b053111727848b8fff84eee2261a7</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint16_t number)</arglist>
     </member>
   </compound>
   <compound kind="file">
     <name>dma_common_f24.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>dma__common__f24_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>dma_common_l1f013.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>dma__common__l1f013_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_channel_reset</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaa0e2c035b7be3a35d966b5d3f4576cd6</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_clear_interrupt_flags</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaeaa31cc700740df241897276081e0436</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t interrupts)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>dma_get_interrupt_flag</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga920e745c606523b2d4ed1804ca1302f9</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t interrupt)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_mem2mem_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gad831d792923d1f4934ea1502a178fde2</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_priority</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga56496ac6963f287b8468bdaade35326d</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t prio)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_size</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga6e89625484c29b630c797340e4d71d09</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t mem_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_size</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga5613aadc5520edf0ea058a0a2c41764c</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t peripheral_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_memory_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gad344152e8871f8787dbebb073f81c61e</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_memory_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gabc76100441f2f26c42f2aaebd62a688b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga598096631d9f7c7efc1d71059c3571e6</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gadd7396d77096a96a20e13e4dd5e06e1c</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_circular_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaa4e94297041e7c82695d7aff83cb0594</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_read_from_peripheral</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga5e6948cc934466d0b26c6fffaecdb999</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_read_from_memory</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga1446d08000d09fe53ccc60f51baee51a</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga6be1b284bd502af608b3993abe1a9931</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga2f2afc6e30285651e492381cdab7ca1a</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga05bfe7ca609aaf686e9258b4a0245d72</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gab7a18436370c610a8834e354582eab9b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga1ee7b429eeb959f41c1dbd9d87312dc9</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gabbb9d94c0d4ec92ec62a7aebbcc7b360</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_channel</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga8ceb0c8c8ce56a288bca8180d426c178</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_channel</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga6a414141caca0417be5def3b1c8e661a</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_address</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga795dbd3370cf28a72ee3e2b7582df0cd</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_address</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gae232f2f5a613459f6921774b5b4c049b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_number_of_data</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gacb3b053111727848b8fff84eee2261a7</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint16_t number)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>dma_common_l1f013.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>dma__common__l1f013_8h</filename>
   </compound>
   <compound kind="file">
     <name>doc-stm32l1.h</name>
@@ -763,6 +769,53 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/</path>
     <filename>exti_8h</filename>
     <includes id="exti__common__l1f24_8h" name="exti_common_l1f24.h" local="no" imported="no">libopencm3/stm32/common/exti_common_l1f24.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>exti_common_all.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>exti__common__all_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_set_trigger</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>a8b05a3586764aeb0dd1366dd46616a65</anchor>
+      <arglist>(uint32_t extis, enum exti_trigger_type trig)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_enable_request</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>acb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_disable_request</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>a1752fef240fb05e1135548449943ce0b</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_reset_request</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>aa86779017820fedee955563adc8b5f4a</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>exti_get_flag_status</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>a80d89279aab6cc63a8141b7421cd2dd1</anchor>
+      <arglist>(uint32_t exti)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_select_source</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>a81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
+      <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>exti_common_all.h</name>
@@ -2402,9 +2455,9 @@
     <filename>gpio__common__all_8h</filename>
   </compound>
   <compound kind="file">
-    <name>gpio_common_f234.c</name>
+    <name>gpio_common_f0234.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>gpio__common__f234_8c</filename>
+    <filename>gpio__common__f0234_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>gpio_mode_setup</name>
@@ -3390,105 +3443,105 @@
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
       <arglist>(uint32_t pvd_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_standby_mode</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_stop_mode</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_voltage_high</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_standby_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
     </member>
@@ -5815,18 +5868,18 @@
     <name>rtc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/</path>
     <filename>rtc_8c</filename>
-    <includes id="rtc__common__bcd_8h" name="rtc_common_bcd.h" local="no" imported="no">libopencm3/stm32/common/rtc_common_bcd.h</includes>
+    <includes id="rtc__common__l1f024_8h" name="rtc_common_l1f024.h" local="no" imported="no">libopencm3/stm32/common/rtc_common_l1f024.h</includes>
   </compound>
   <compound kind="file">
     <name>rtc.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/</path>
     <filename>rtc_8h</filename>
-    <includes id="rtc__common__bcd_8h" name="rtc_common_bcd.h" local="no" imported="no">libopencm3/stm32/common/rtc_common_bcd.h</includes>
+    <includes id="rtc__common__l1f024_8h" name="rtc_common_l1f024.h" local="no" imported="no">libopencm3/stm32/common/rtc_common_l1f024.h</includes>
   </compound>
   <compound kind="file">
-    <name>rtc_common_bcd.c</name>
+    <name>rtc_common_l1f024.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>rtc__common__bcd_8c</filename>
+    <filename>rtc__common__l1f024_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_prescaler</name>
@@ -5871,9 +5924,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>rtc_common_bcd.h</name>
+    <name>rtc_common_l1f024.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>rtc__common__bcd_8h</filename>
+    <filename>rtc__common__l1f024_8h</filename>
   </compound>
   <compound kind="file">
     <name>spi.c</name>
@@ -6233,6 +6286,17 @@
     <name>spi_common_f24.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>spi__common__f24_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>syscfg.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/</path>
+    <filename>syscfg_8h</filename>
+    <includes id="syscfg__common__l1f234_8h" name="syscfg_common_l1f234.h" local="no" imported="no">libopencm3/stm32/common/syscfg_common_l1f234.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>syscfg_common_l1f234.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>syscfg__common__l1f234_8h</filename>
   </compound>
   <compound kind="file">
     <name>timer.c</name>
@@ -7124,6 +7188,7 @@
     <filename>group__STM32L1xx.html</filename>
     <subgroup>crc_file</subgroup>
     <subgroup>dac_file</subgroup>
+    <subgroup>dma_file</subgroup>
     <subgroup>gpio_file</subgroup>
     <subgroup>i2c_file</subgroup>
     <subgroup>iwdg_file</subgroup>
@@ -10354,6 +10419,347 @@
     <docanchor file="group__dac__file">dac_api_dma_ex</docanchor>
   </compound>
   <compound kind="group">
+    <name>dma_file</name>
+    <title>DMA</title>
+    <filename>group__dma__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_stream_reset</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga8af8980d82a07d038bda1738276de334</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_clear_interrupt_flags</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaeaa31cc700740df241897276081e0436</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t interrupts)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>dma_get_interrupt_flag</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga920e745c606523b2d4ed1804ca1302f9</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t interrupt)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_transfer_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga307fb6658ba93745a5f5634d154cebd3</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t direction)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_priority</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga56496ac6963f287b8468bdaade35326d</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t prio)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_size</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga6e89625484c29b630c797340e4d71d09</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t mem_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_size</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga5613aadc5520edf0ea058a0a2c41764c</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t peripheral_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_memory_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gad344152e8871f8787dbebb073f81c61e</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_memory_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gabc76100441f2f26c42f2aaebd62a688b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga598096631d9f7c7efc1d71059c3571e6</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_peripheral_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gadd7396d77096a96a20e13e4dd5e06e1c</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_fixed_peripheral_increment_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga205b7b142b835653f92f684c0bc1345c</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_circular_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaa4e94297041e7c82695d7aff83cb0594</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_channel_select</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga31ac1af0c35910f6b4b57a12ad83b60e</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_burst</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga2a23dc081b24fdaa2d6d2c8dc03efdc2</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t burst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_burst</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga75a1293f424cc6649fe7d98aab6d898f</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t burst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_initial_target</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga84250cb7dcd34c894b2056b790634748</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint8_t memory)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>dma_get_target</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga9fcdc7cd42abe3c9b6ca5ff1d10e2665</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_double_buffer_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga634b8794ff0fba7604ca272f5ceb5bf3</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_double_buffer_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gad841f8243e7a529efb0ffddc959b0c80</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_flow_control</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaf667ccb9a78c8fe76f2cf256fa153b6b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_dma_flow_control</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gad30f62b0042facedf99fe357665ffe7c</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga6be1b284bd502af608b3993abe1a9931</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga2f2afc6e30285651e492381cdab7ca1a</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga05bfe7ca609aaf686e9258b4a0245d72</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_half_transfer_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gab7a18436370c610a8834e354582eab9b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga1ee7b429eeb959f41c1dbd9d87312dc9</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_transfer_complete_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gabbb9d94c0d4ec92ec62a7aebbcc7b360</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_direct_mode_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga3f5a21bbe3efe0032c02f054d5ceec32</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_direct_mode_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga4ea0653919d7d6d9f0aa9238eebf9012</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_fifo_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga856057f523c5a127beffc1f91b132d15</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_fifo_error_interrupt</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gab21293b505e511ffdae4464185a5891f</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>dma_fifo_status</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaca11c1cb785964707b8a9a3b1d29ef29</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_direct_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga6b3056952dddaf5c2a315b5f8af7d5f1</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_fifo_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga5e166bb1ea36c1c7966515ddd0c95195</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_fifo_threshold</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga3c8786d286c6e71713bb171a637e9447</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t threshold)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_stream</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaee1780f0a8520693acd202230c222f88</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_stream</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga5a0622f6a841107162680c7ea63016c4</anchor>
+      <arglist>(uint32_t dma, uint8_t stream)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_peripheral_address</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga795dbd3370cf28a72ee3e2b7582df0cd</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_address</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gae232f2f5a613459f6921774b5b4c049b</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_memory_address_1</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga586b2d80e0b38cccd6a47adb67dc57df</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint32_t address)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_number_of_data</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gacb3b053111727848b8fff84eee2261a7</anchor>
+      <arglist>(uint32_t dma, uint8_t stream, uint16_t number)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_channel_reset</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gaa0e2c035b7be3a35d966b5d3f4576cd6</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_mem2mem_mode</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>gad831d792923d1f4934ea1502a178fde2</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_read_from_peripheral</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga5e6948cc934466d0b26c6fffaecdb999</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_set_read_from_memory</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga1446d08000d09fe53ccc60f51baee51a</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_enable_channel</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga8ceb0c8c8ce56a288bca8180d426c178</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>dma_disable_channel</name>
+      <anchorfile>group__dma__file.html</anchorfile>
+      <anchor>ga6a414141caca0417be5def3b1c8e661a</anchor>
+      <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
     <name>gpio_file</name>
     <title>GPIO</title>
     <filename>group__gpio__file.html</filename>
@@ -10688,111 +11094,6 @@
     <name>pwr-file</name>
     <title>PWR</title>
     <filename>group__pwr-file.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
-      <arglist>(uint32_t pvd_level)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_standby_mode</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_stop_mode</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_voltage_high</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_standby_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
-      <arglist>(void)</arglist>
-    </member>
   </compound>
   <compound kind="group">
     <name>rtc_file</name>
@@ -12004,347 +12305,6 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>dma_file</name>
-    <title>Dma_file</title>
-    <filename>group__dma__file.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_channel_reset</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa0e2c035b7be3a35d966b5d3f4576cd6</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_clear_interrupt_flags</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gac40a8639d6c302311f96cfe757149d65</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupts)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>dma_get_interrupt_flag</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2bbc4d202b36d8e8a198210b73b55fd5</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t interrupt)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_mem2mem_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad831d792923d1f4934ea1502a178fde2</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_priority</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1f69698a62a464cf9854ec02461bec89</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t prio)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_size</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaf4e5396e694acaf0076172051b0bc73b</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t mem_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_size</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gae7a8decadc1f0b0c57bd1bb8af31ff1e</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t peripheral_size)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_memory_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4603fbb63b0bc28f40e12b574d8dca06</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_memory_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2c403250cd21d8d58c5e7a6041e8ece5</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga815827721ac00bc6c5861ac72e969da6</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_peripheral_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gab68711de9988ae47bab7e02ff6d90577</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_circular_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga9bbce5e1378bc9468a7ab36e1994139b</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_peripheral</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5e6948cc934466d0b26c6fffaecdb999</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_read_from_memory</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga1446d08000d09fe53ccc60f51baee51a</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaa0cf00a33e2e4db3678fb03ea9df9848</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4d83c30e746520f4376db4d507203cdd</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gadbcda7ee605e555d66cbf99e4bc156af</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_half_transfer_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga7a04611f195e968869795da7bb1a962e</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2342cb0ead24ea5274d2cc0e3c7c1c7b</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_transfer_complete_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga145370b8df947290a81f8d69f03d2ef3</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_channel</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga8ceb0c8c8ce56a288bca8180d426c178</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_channel</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga6a414141caca0417be5def3b1c8e661a</anchor>
-      <arglist>(uint32_t dma, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_address</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaf3e4413e433bfb1f1909eb44abc855e3</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_address</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga24372b0a92d96913ababcbe0ad0a7e98</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint32_t address)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_number_of_data</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3d9bf8f1d34626faae129830dad95a78</anchor>
-      <arglist>(uint32_t dma, uint8_t channel, uint16_t number)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_stream_reset</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga8af8980d82a07d038bda1738276de334</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_transfer_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga307fb6658ba93745a5f5634d154cebd3</anchor>
-      <arglist>(uint32_t dma, uint8_t stream, uint32_t direction)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_fixed_peripheral_increment_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga205b7b142b835653f92f684c0bc1345c</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_channel_select</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga31ac1af0c35910f6b4b57a12ad83b60e</anchor>
-      <arglist>(uint32_t dma, uint8_t stream, uint32_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_burst</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga2a23dc081b24fdaa2d6d2c8dc03efdc2</anchor>
-      <arglist>(uint32_t dma, uint8_t stream, uint32_t burst)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_burst</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga75a1293f424cc6649fe7d98aab6d898f</anchor>
-      <arglist>(uint32_t dma, uint8_t stream, uint32_t burst)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_initial_target</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga84250cb7dcd34c894b2056b790634748</anchor>
-      <arglist>(uint32_t dma, uint8_t stream, uint8_t memory)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint8_t</type>
-      <name>dma_get_target</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga9fcdc7cd42abe3c9b6ca5ff1d10e2665</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_double_buffer_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga634b8794ff0fba7604ca272f5ceb5bf3</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_double_buffer_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad841f8243e7a529efb0ffddc959b0c80</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_peripheral_flow_control</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaf667ccb9a78c8fe76f2cf256fa153b6b</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_dma_flow_control</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gad30f62b0042facedf99fe357665ffe7c</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_direct_mode_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3f5a21bbe3efe0032c02f054d5ceec32</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_direct_mode_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga4ea0653919d7d6d9f0aa9238eebf9012</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_fifo_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga856057f523c5a127beffc1f91b132d15</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_fifo_error_interrupt</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gab21293b505e511ffdae4464185a5891f</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>dma_fifo_status</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaca11c1cb785964707b8a9a3b1d29ef29</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_direct_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga6b3056952dddaf5c2a315b5f8af7d5f1</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_fifo_mode</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5e166bb1ea36c1c7966515ddd0c95195</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_fifo_threshold</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga3c8786d286c6e71713bb171a637e9447</anchor>
-      <arglist>(uint32_t dma, uint8_t stream, uint32_t threshold)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_enable_stream</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>gaee1780f0a8520693acd202230c222f88</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_disable_stream</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga5a0622f6a841107162680c7ea63016c4</anchor>
-      <arglist>(uint32_t dma, uint8_t stream)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>dma_set_memory_address_1</name>
-      <anchorfile>group__dma__file.html</anchorfile>
-      <anchor>ga586b2d80e0b38cccd6a47adb67dc57df</anchor>
-      <arglist>(uint32_t dma, uint8_t stream, uint32_t address)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
     <name>hash_file</name>
     <title>Hash_file</title>
     <filename>group__hash__file.html</filename>
@@ -12410,6 +12370,116 @@
       <anchorfile>group__hash__file.html</anchorfile>
       <anchor>ga914c3e3bc65355c6f126702dbb76460f</anchor>
       <arglist>(uint32_t *data)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>pwr_file</name>
+    <title>PWR</title>
+    <filename>group__pwr__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_power_voltage_detect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
+      <arglist>(uint32_t pvd_level)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_power_voltage_detect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_standby_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_wakeup_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_standby_mode</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_stop_mode</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_on_in_stop</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_low_power_in_stop</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_wakeup_pin</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_wakeup_pin</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_voltage_high</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_standby_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_wakeup_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
+      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -12500,8 +12570,8 @@
     <file>crc_common_all.h</file>
     <file>crypto_common_f24.h</file>
     <file>dac_common_all.h</file>
-    <file>dma_common_f13.h</file>
     <file>dma_common_f24.h</file>
+    <file>dma_common_l1f013.h</file>
     <file>exti_common_all.h</file>
     <file>exti_common_l1f24.h</file>
     <file>flash_common_f234.h</file>
@@ -12514,10 +12584,11 @@
     <file>iwdg_common_all.h</file>
     <file>pwr_common_all.h</file>
     <file>rng_common_f24.h</file>
-    <file>rtc_common_bcd.h</file>
+    <file>rtc_common_l1f024.h</file>
     <file>spi_common_all.h</file>
     <file>spi_common_f124.h</file>
     <file>spi_common_f24.h</file>
+    <file>syscfg_common_l1f234.h</file>
     <file>timer_common_all.h</file>
     <file>usart_common_all.h</file>
     <file>usart_common_f124.h</file>
@@ -12530,17 +12601,18 @@
     <file>crc_common_all.c</file>
     <file>crypto_common_f24.c</file>
     <file>dac_common_all.c</file>
-    <file>dma_common_f13.c</file>
     <file>dma_common_f24.c</file>
+    <file>dma_common_l1f013.c</file>
+    <file>exti_common_all.c</file>
     <file>flash_common_f234.c</file>
     <file>flash_common_f24.c</file>
     <file>gpio_common_all.c</file>
-    <file>gpio_common_f234.c</file>
+    <file>gpio_common_f0234.c</file>
     <file>hash_common_f24.c</file>
     <file>i2c_common_all.c</file>
     <file>iwdg_common_all.c</file>
     <file>pwr_common_all.c</file>
-    <file>rtc_common_bcd.c</file>
+    <file>rtc_common_l1f024.c</file>
     <file>spi_common_all.c</file>
     <file>spi_common_f124.c</file>
     <file>timer_common_all.c</file>
@@ -12572,6 +12644,7 @@
     <file>rcc.h</file>
     <file>rtc.h</file>
     <file>spi.h</file>
+    <file>syscfg.h</file>
     <file>timer.h</file>
     <file>usart.h</file>
   </compound>
@@ -12581,6 +12654,7 @@
     <filename>dir_b85f3b2cdb5f62c5704599c879630b7f.html</filename>
     <file>crc.c</file>
     <file>dac.c</file>
+    <file>dma.c</file>
     <file>flash.c</file>
     <file>gpio.c</file>
     <file>i2c.c</file>

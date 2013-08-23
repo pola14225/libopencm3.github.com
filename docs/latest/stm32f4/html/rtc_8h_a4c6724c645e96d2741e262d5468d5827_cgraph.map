@@ -1,4 +1,6 @@
 <map id="rtc_enable_wakeup_timer_interrupt" name="rtc_enable_wakeup_timer_interrupt">
-<area shape="rect" id="node3" href="cm3.tag$group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179" title="nvic_enable_irq" alt="" coords="227,5,339,35"/>
-<area shape="rect" id="node5" href="cm3.tag$group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66" title="nvic_set_priority" alt="" coords="224,59,341,88"/>
+<area shape="rect" id="node3" href="$exti__common__all_8c.html#acb53c6b7ac0a8908568b7a1f7bc50d25" title="exti_enable_request" alt="" coords="224,5,363,35"/>
+<area shape="rect" id="node5" href="$exti__common__all_8c.html#a8b05a3586764aeb0dd1366dd46616a65" title="exti_set_trigger" alt="" coords="239,59,348,88"/>
+<area shape="rect" id="node7" href="cm3.tag$group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179" title="nvic_enable_irq" alt="" coords="237,112,349,141"/>
+<area shape="rect" id="node9" href="cm3.tag$group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66" title="nvic_set_priority" alt="" coords="235,165,352,195"/>
 </map>

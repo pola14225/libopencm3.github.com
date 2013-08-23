@@ -17,6 +17,7 @@ var group__gpio__defines =
     [ "Alternate Function EXTI pin number", "group__afio__exti.html", "group__afio__exti" ],
     [ "AFIO_EVCR", "group__gpio__defines.html#ga90bab4153925083cd23931c7d6507df6", null ],
     [ "AFIO_EVCR_EVOE", "group__gpio__defines.html#ga5a24af5abfbcc69a979fe2d4410dad79", null ],
+    [ "AFIO_EXTICR", "group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb", null ],
     [ "AFIO_EXTICR1", "group__gpio__defines.html#gaf80e5cb2bb3b64e75d14534bf786f20c", null ],
     [ "AFIO_EXTICR2", "group__gpio__defines.html#ga9395b182ec3421876b6da0f3ef51fc34", null ],
     [ "AFIO_EXTICR3", "group__gpio__defines.html#ga1411f8f04d1d7ea301bf4dbe7530b9b0", null ],

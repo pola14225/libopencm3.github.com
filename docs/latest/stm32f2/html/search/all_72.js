@@ -351,14 +351,14 @@ var searchData=
   ['rtc_2ec',['rtc.c',['../rtc_8c.html',1,'']]],
   ['rtc_2eh',['rtc.h',['../rtc_8h.html',1,'']]],
   ['rtc_5fbase',['RTC_BASE',['../memorymap_8h.html#a4265e665d56225412e57a61d87417022',1,'memorymap.h']]],
-  ['rtc_5fclear_5fwakeup_5fflag',['rtc_clear_wakeup_flag',['../group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5',1,'rtc_common_bcd.c']]],
-  ['rtc_5fcommon_5fbcd_2ec',['rtc_common_bcd.c',['../rtc__common__bcd_8c.html',1,'']]],
-  ['rtc_5fcommon_5fbcd_2eh',['rtc_common_bcd.h',['../rtc__common__bcd_8h.html',1,'']]],
+  ['rtc_5fclear_5fwakeup_5fflag',['rtc_clear_wakeup_flag',['../group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5',1,'rtc_common_l1f024.c']]],
+  ['rtc_5fcommon_5fl1f024_2ec',['rtc_common_l1f024.c',['../rtc__common__l1f024_8c.html',1,'']]],
+  ['rtc_5fcommon_5fl1f024_2eh',['rtc_common_l1f024.h',['../rtc__common__l1f024_8h.html',1,'']]],
   ['rtc_20defines',['RTC Defines',['../group__rtc__defines.html',1,'']]],
   ['rtc',['RTC',['../group__rtc__file.html',1,'']]],
-  ['rtc_5flock',['rtc_lock',['../group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b',1,'rtc_common_bcd.c']]],
-  ['rtc_5fset_5fprescaler',['rtc_set_prescaler',['../group__rtc__file.html#ga7c05857df37f0631153fdb9893df5c00',1,'rtc_common_bcd.c']]],
-  ['rtc_5fset_5fwakeup_5ftime',['rtc_set_wakeup_time',['../group__rtc__file.html#gacffca2b1f3a82b3f82923e9ab14f004f',1,'rtc_common_bcd.c']]],
-  ['rtc_5funlock',['rtc_unlock',['../group__rtc__file.html#ga25813ce258a0d4d2865ec883fea0175b',1,'rtc_common_bcd.c']]],
-  ['rtc_5fwait_5ffor_5fsynchro',['rtc_wait_for_synchro',['../group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785',1,'rtc_common_bcd.c']]]
+  ['rtc_5flock',['rtc_lock',['../group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b',1,'rtc_common_l1f024.c']]],
+  ['rtc_5fset_5fprescaler',['rtc_set_prescaler',['../group__rtc__file.html#ga7c05857df37f0631153fdb9893df5c00',1,'rtc_common_l1f024.c']]],
+  ['rtc_5fset_5fwakeup_5ftime',['rtc_set_wakeup_time',['../group__rtc__file.html#gacffca2b1f3a82b3f82923e9ab14f004f',1,'rtc_common_l1f024.c']]],
+  ['rtc_5funlock',['rtc_unlock',['../group__rtc__file.html#ga25813ce258a0d4d2865ec883fea0175b',1,'rtc_common_l1f024.c']]],
+  ['rtc_5fwait_5ffor_5fsynchro',['rtc_wait_for_synchro',['../group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785',1,'rtc_common_l1f024.c']]]
 ];

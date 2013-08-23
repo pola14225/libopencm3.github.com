@@ -7,7 +7,7 @@ var group__STM32F1xx =
     [ "GPIO", "group__gpio__file.html", "group__gpio__file" ],
     [ "I2C", "group__i2c__file.html", "group__i2c__file" ],
     [ "IWDG", "group__iwdg__file.html", "group__iwdg__file" ],
-    [ "PWR", "group__pwr-file.html", "group__pwr-file" ],
+    [ "PWR", "group__pwr-file.html", null ],
     [ "RCC", "group__STM32F1xx-rcc-file.html", "group__STM32F1xx-rcc-file" ],
     [ "RTC", "group__rtc__file.html", "group__rtc__file" ],
     [ "SPI", "group__spi__file.html", "group__spi__file" ],

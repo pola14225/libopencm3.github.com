@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -125,10 +126,10 @@ $(document).ready(function(){initNavTree('itm_8h.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a4ac203ba565be3dbee5ba9da2fd6a9db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#a4ac203ba565be3dbee5ba9da2fd6a9db">ITM_STIM</a>&#160;&#160;&#160;(&amp;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#add76251e412a195ec0a8f47227a8359e">ITM_BASE</a>))</td></tr>
-<tr class="memitem:a18c94f3236b7d64c83e63cdd586e5e9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#a18c94f3236b7d64c83e63cdd586e5e9b">ITM_TER</a>&#160;&#160;&#160;(&amp;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#add76251e412a195ec0a8f47227a8359e">ITM_BASE</a> + 0xE00))</td></tr>
-<tr class="memitem:a4a106555b6d58115c86e09d48e199572"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#a4a106555b6d58115c86e09d48e199572">ITM_TPR</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#add76251e412a195ec0a8f47227a8359e">ITM_BASE</a> + 0xE40)</td></tr>
-<tr class="memitem:a935f0be267215442b7cffb0a191c7223"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#a935f0be267215442b7cffb0a191c7223">ITM_TCR</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#add76251e412a195ec0a8f47227a8359e">ITM_BASE</a> + 0xE80)</td></tr>
+<tr class="memitem:a4ac203ba565be3dbee5ba9da2fd6a9db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#a4ac203ba565be3dbee5ba9da2fd6a9db">ITM_STIM</a>&#160;&#160;&#160;(&amp;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(ITM_BASE))</td></tr>
+<tr class="memitem:a18c94f3236b7d64c83e63cdd586e5e9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#a18c94f3236b7d64c83e63cdd586e5e9b">ITM_TER</a>&#160;&#160;&#160;(&amp;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(ITM_BASE + 0xE00))</td></tr>
+<tr class="memitem:a4a106555b6d58115c86e09d48e199572"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#a4a106555b6d58115c86e09d48e199572">ITM_TPR</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(ITM_BASE + 0xE40)</td></tr>
+<tr class="memitem:a935f0be267215442b7cffb0a191c7223"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#a935f0be267215442b7cffb0a191c7223">ITM_TCR</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(ITM_BASE + 0xE80)</td></tr>
 <tr class="memitem:a2c7572d391a2bff1f5a92994bb004bcb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#a2c7572d391a2bff1f5a92994bb004bcb">ITM_STIM_FIFOREADY</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
 <tr class="memitem:adc090027e495b730cfafe3198b091895"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#adc090027e495b730cfafe3198b091895">ITM_TCR_BUSY</a>&#160;&#160;&#160;(1 &lt;&lt; 23)</td></tr>
 <tr class="memitem:aa29bcf588bffc6673e1edd1bad317b6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itm_8h.html#aa29bcf588bffc6673e1edd1bad317b6e">ITM_TCR_TRACE_BUS_ID_MASK</a>&#160;&#160;&#160;(0x3f &lt;&lt; 16)</td></tr>
@@ -149,12 +150,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ITM_STIM&#160;&#160;&#160;(&amp;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#add76251e412a195ec0a8f47227a8359e">ITM_BASE</a>))</td>
+          <td class="memname">#define ITM_STIM&#160;&#160;&#160;(&amp;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(ITM_BASE))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00028">28</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00033">33</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -168,7 +169,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00045">45</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00050">50</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -177,12 +178,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ITM_TCR&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#add76251e412a195ec0a8f47227a8359e">ITM_BASE</a> + 0xE80)</td>
+          <td class="memname">#define ITM_TCR&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(ITM_BASE + 0xE80)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00037">37</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00042">42</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -196,7 +197,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00061">61</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00066">66</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -210,7 +211,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00074">74</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00079">79</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -224,7 +225,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00070">70</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00075">75</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -238,7 +239,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00072">72</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00077">77</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -252,7 +253,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00062">62</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00067">67</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -266,7 +267,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00073">73</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00078">78</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -280,7 +281,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00066">66</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00071">71</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -294,7 +295,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00065">65</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00070">70</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -308,7 +309,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00067">67</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00072">72</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -322,7 +323,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00068">68</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00073">73</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -336,7 +337,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00064">64</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00069">69</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -350,7 +351,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00071">71</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00076">76</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -359,12 +360,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ITM_TER&#160;&#160;&#160;(&amp;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#add76251e412a195ec0a8f47227a8359e">ITM_BASE</a> + 0xE00))</td>
+          <td class="memname">#define ITM_TER&#160;&#160;&#160;(&amp;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(ITM_BASE + 0xE00))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00031">31</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00036">36</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -373,12 +374,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ITM_TPR&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#add76251e412a195ec0a8f47227a8359e">ITM_BASE</a> + 0xE40)</td>
+          <td class="memname">#define ITM_TPR&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(ITM_BASE + 0xE40)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="itm_8h_source.html#l00034">34</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
+<p>Definition at line <a class="el" href="itm_8h_source.html#l00039">39</a> of file <a class="el" href="itm_8h_source.html">itm.h</a>.</p>
 
 </div>
 </div>
@@ -388,7 +389,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="itm_8h.html">itm.h</a></li>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

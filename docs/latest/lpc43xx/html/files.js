@@ -22,9 +22,7 @@ var files =
     [ "scu.c", "scu_8c.html", "scu_8c" ],
     [ "scu.h", "scu_8h.html", "scu_8h" ],
     [ "sdio.h", "sdio_8h.html", null ],
-    [ "sgpio.h", "sgpio_8h.html", [
-      [ "sgpio_t", "structsgpio__t.html", "structsgpio__t" ]
-    ] ],
+    [ "sgpio.h", "sgpio_8h.html", null ],
     [ "ssp.c", "ssp_8c.html", "ssp_8c" ],
     [ "ssp.h", "ssp_8h.html", "ssp_8h" ],
     [ "timer.c", "timer_8c.html", "timer_8c" ],

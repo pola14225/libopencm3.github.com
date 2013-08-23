@@ -2,7 +2,6 @@ var searchData=
 [
   ['tpiu_2eh',['tpiu.h',['../tpiu_8h.html',1,'']]],
   ['tpiu_5facpr',['TPIU_ACPR',['../tpiu_8h.html#a5b928b2763dbc7685675954dfbc77b5e',1,'tpiu.h']]],
-  ['tpiu_5fbase',['TPIU_BASE',['../memorymap_8h.html#ac31eb263a737e50fdd1425663545a14c',1,'memorymap.h']]],
   ['tpiu_5fcspsr',['TPIU_CSPSR',['../tpiu_8h.html#a30ef8dde42bb8b5ce47fd60b3450b4ce',1,'tpiu.h']]],
   ['tpiu_5fcspsr_5fbyte',['TPIU_CSPSR_BYTE',['../tpiu_8h.html#a48b19f62a98db8ff6206b30a6d04bc52',1,'tpiu.h']]],
   ['tpiu_5fcspsr_5fhalfword',['TPIU_CSPSR_HALFWORD',['../tpiu_8h.html#a7037bd8477d7f3c536cddb628cb5aa27',1,'tpiu.h']]],

@@ -7,6 +7,7 @@ var files =
     [ "fpb.h", "fpb_8h.html", "fpb_8h" ],
     [ "itm.h", "itm_8h.html", "itm_8h" ],
     [ "memorymap.h", "memorymap_8h.html", "memorymap_8h" ],
+    [ "mpu.h", "mpu_8h.html", null ],
     [ "nvic.h", "nvic_8h.html", "nvic_8h" ],
     [ "scb.h", "scb_8h.html", "scb_8h" ],
     [ "scs.h", "scs_8h.html", "scs_8h" ],

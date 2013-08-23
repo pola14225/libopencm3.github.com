@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -125,8 +126,8 @@ Collaboration diagram for Clock source selection:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga42f74063acb08704c7aec2daf8bff4b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__systick__clksource.html#ga42f74063acb08704c7aec2daf8bff4b1">STK_CTRL_CLKSOURCE_AHB_DIV8</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memitem:ga4cf91426a66d9f5b1b4733d135dd1c86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__systick__clksource.html#ga4cf91426a66d9f5b1b4733d135dd1c86">STK_CTRL_CLKSOURCE_AHB</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memitem:ga42f74063acb08704c7aec2daf8bff4b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__systick__clksource.html#ga42f74063acb08704c7aec2daf8bff4b1">STK_CTRL_CLKSOURCE_AHB_DIV8</a>&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="group__CM3__systick__defines.html#ga9208ea3c44b11078f41e57c2f8116867">STK_CTRL_CLKSOURCE_LSB</a>)</td></tr>
+<tr class="memitem:ga4cf91426a66d9f5b1b4733d135dd1c86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__systick__clksource.html#ga4cf91426a66d9f5b1b4733d135dd1c86">STK_CTRL_CLKSOURCE_AHB</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="group__CM3__systick__defines.html#ga9208ea3c44b11078f41e57c2f8116867">STK_CTRL_CLKSOURCE_LSB</a>)</td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <h2>Macro Definition Documentation</h2>
@@ -135,12 +136,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STK_CTRL_CLKSOURCE_AHB&#160;&#160;&#160;1</td>
+          <td class="memname">#define STK_CTRL_CLKSOURCE_AHB&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="group__CM3__systick__defines.html#ga9208ea3c44b11078f41e57c2f8116867">STK_CTRL_CLKSOURCE_LSB</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00070">70</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00089">89</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -149,12 +150,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STK_CTRL_CLKSOURCE_AHB_DIV8&#160;&#160;&#160;0</td>
+          <td class="memname">#define STK_CTRL_CLKSOURCE_AHB_DIV8&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="group__CM3__systick__defines.html#ga9208ea3c44b11078f41e57c2f8116867">STK_CTRL_CLKSOURCE_LSB</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="systick_8h_source.html#l00069">69</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
+<p>Definition at line <a class="el" href="systick_8h_source.html#l00088">88</a> of file <a class="el" href="systick_8h_source.html">systick.h</a>.</p>
 
 </div>
 </div>
@@ -163,7 +164,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>libopencm3</span></a></li>
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="modules.html"><span>CM3&#160;Core</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="../../stm32f1/html/modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -370,98 +371,99 @@ $(document).ready(function(){initNavTree('scs_8h_source.html','');});
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment"> * System Control Space (SCS) =&gt;  Data Watchpoint and Trace (DWT).</span></div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="comment"> * See &quot;ARMv7-M Architecture Reference Manual&quot;</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment"> * (https://github.com/libopencm3/libopencm3-archive/blob/master/arm/ARMv7-M_ARM.pdf)</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="comment"> * The DWT is an optional debug unit that provides watchpoints, data tracing,</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="comment"> * and system profiling for the processor.</span></div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment"> * DWT Control register</span></div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment"> * Purpose Provides configuration and status information for the DWT block, and</span></div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="comment"> * used to control features of the block</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment"> * Usage constraints: There are no usage constraints.</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="comment"> * Configurations Always implemented.</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno"><a class="code" href="scs_8h.html#a087036b2f54569f4b4dc6d42b7357765">  264</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CTRL            MMIO32(DWT_BASE + 0x00)</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor"></span><span class="comment">/*</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="comment"> * DWT_CYCCNT register</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="comment"> * Cycle Count Register (Shows or sets the value of the processor cycle</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="comment"> * counter, CYCCNT)</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="comment"> * When enabled, CYCCNT increments on each processor clock cycle. On overflow,</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="comment"> * CYCCNT wraps to zero.</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="comment"> * Purpose Shows or sets the value of the processor cycle counter, CYCCNT.</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="comment"> * Usage constraints: The DWT unit suspends CYCCNT counting when the processor</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="comment"> * is in Debug state.</span></div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="comment"> * Configurations Implemented: only when DWT_CTRL.NOCYCCNT is RAZ, see Control</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="comment"> * register, DWT_CTRL.</span></div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="comment"> * When DWT_CTRL.NOCYCCNT is RAO no cycle counter is implemented and this</span></div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="comment"> * register is UNK/SBZP.</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno"><a class="code" href="scs_8h.html#a7ffe017b37b33a6c0076cce4601d3fd0">  280</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CYCCNT          MMIO32(DWT_BASE + 0x04)</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="comment">/* DWT_CPICNT register</span></div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment"> * Purpose Counts additional cycles required to execute multi-cycle</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment"> * instructions and instruction fetch stalls.</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="comment"> * Usage constraints: The counter initializes to 0 when software enables its</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="comment"> * counter overflow event by</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="comment"> * setting the DWT_CTRL.CPIEVTENA bit to 1.</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment"> * Configurations Implemented: only when DWT_CTRL.NOPRFCNT is RAZ, see Control</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="comment"> * register, DWT_CTRL.</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="comment"> * If DWT_CTRL.NOPRFCNT is RAO, indicating that the implementation does not</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment"> * include the profiling counters, this register is UNK/SBZP.</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00293"></a><span class="lineno"><a class="code" href="scs_8h.html#a054eaa47bb48507d52f6bd673504c70f">  293</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CPICNT          MMIO32(DWT_BASE + 0x08)</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="comment">/* DWT_EXCCNT register */</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno"><a class="code" href="scs_8h.html#a387bb45a990aa3ff42a4e2e36c2960ed">  296</a></span>&#160;<span class="preprocessor">#define SCS_DWT_EXCCNT          MMIO32(DWT_BASE + 0x0C)</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="comment">/* DWT_EXCCNT register */</span></div>
-<div class="line"><a name="l00299"></a><span class="lineno"><a class="code" href="scs_8h.html#ac72a4893e2e3d9d65f5db8e3dffe5410">  299</a></span>&#160;<span class="preprocessor">#define SCS_DWT_SLEEPCNT        MMIO32(DWT_BASE + 0x10)</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="comment">/* DWT_EXCCNT register */</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno"><a class="code" href="scs_8h.html#a90eb7f0698b261420a068bea54f6dc68">  302</a></span>&#160;<span class="preprocessor">#define SCS_DWT_LSUCNT          MMIO32(DWT_BASE + 0x14)</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="comment">/* DWT_EXCCNT register */</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno"><a class="code" href="scs_8h.html#aaa205ae16ca604ddbe3ff463c3d39dfd">  305</a></span>&#160;<span class="preprocessor">#define SCS_DWT_FOLDCNT         MMIO32(DWT_BASE + 0x18)</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="comment">/* DWT_PCSR register */</span></div>
-<div class="line"><a name="l00308"></a><span class="lineno"><a class="code" href="scs_8h.html#ad170e87e8b9683fa51ea1708710214b2">  308</a></span>&#160;<span class="preprocessor">#define SCS_DWT_PCSR            MMIO32(DWT_BASE + 0x18)</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="comment">/* --- SCS_DWT_CTRL values ------------------------------------------------- */</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="comment"> * Enables CYCCNT:</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="comment"> * 0 = Disabled, 1 = Enabled</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="comment"> * This bit is UNK/SBZP if the NOCYCCNT bit is RAO.</span></div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00316"></a><span class="lineno"><a class="code" href="scs_8h.html#a0814b32671ec81ef1b0fe1855200a343">  316</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CTRL_CYCCNTENA  (BIT0)</span></div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment">/* TODO bit definition values for other DWT_XXX register */</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="comment">/* Macro to be called at startup to enable SCS &amp; Cycle Counter */</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno"><a class="code" href="scs_8h.html#ac9af4f7a9038682b67ea613d48d1cdd0">  321</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CYCLE_COUNTER_ENABLED() ((SCS_DEMCR |= SCS_DEMCR_TRCENA)\</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor">                                (SCS_DWT_CTRL |= SCS_DWT_CTRL_CYCCNTENA))</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00324"></a><span class="lineno"><a class="code" href="scs_8h.html#afa9bb946ea251db26e6935ff31ade593">  324</a></span>&#160;<span class="preprocessor">#define SCS_SYSTICK_DISABLED()  (SCS_SYST_CSR = 0)</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="comment">/* Macro to be called at startup to Enable CortexMx SysTick (but IRQ not</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment"> * enabled)</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno"><a class="code" href="scs_8h.html#a44368d8d72909fbb5de89f005463c971">  329</a></span>&#160;<span class="preprocessor">#define SCS_SYSTICK_ENABLED()   (SCS_SYST_CSR = (SCS_SYST_CSR_ENABLE | \</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor">                                 SCS_SYST_CSR_CLKSOURCE))</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="comment">/* Macro to be called at startup to Enable CortexMx SysTick and IRQ */</span></div>
-<div class="line"><a name="l00333"></a><span class="lineno"><a class="code" href="scs_8h.html#a603abd66d408869da6e74d20ac4c3159">  333</a></span>&#160;<span class="preprocessor">#define SCS_SYSTICK_AND_IRQ_ENABLED()  (SCS_SYST_CSR = (SCS_SYST_CSR_ENABLE | \</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="preprocessor">                                        SCS_SYST_CSR_CLKSOURCE | \</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="preprocessor">                                        SCS_SYST_CSR_TICKINT))</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment"> * (https://github.com/libopencm3/libopencm3-archive/blob/master/arm/</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="comment"> * ARMv7-M_ARM.pdf)</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="comment"> * The DWT is an optional debug unit that provides watchpoints, data tracing,</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment"> * and system profiling for the processor.</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment"> * DWT Control register</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="comment"> * Purpose Provides configuration and status information for the DWT block, and</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment"> * used to control features of the block</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="comment"> * Usage constraints: There are no usage constraints.</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="comment"> * Configurations Always implemented.</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno"><a class="code" href="scs_8h.html#a087036b2f54569f4b4dc6d42b7357765">  265</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CTRL            MMIO32(DWT_BASE + 0x00)</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor"></span><span class="comment">/*</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="comment"> * DWT_CYCCNT register</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="comment"> * Cycle Count Register (Shows or sets the value of the processor cycle</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="comment"> * counter, CYCCNT)</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="comment"> * When enabled, CYCCNT increments on each processor clock cycle. On overflow,</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="comment"> * CYCCNT wraps to zero.</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="comment"> * Purpose Shows or sets the value of the processor cycle counter, CYCCNT.</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="comment"> * Usage constraints: The DWT unit suspends CYCCNT counting when the processor</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="comment"> * is in Debug state.</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="comment"> * Configurations Implemented: only when DWT_CTRL.NOCYCCNT is RAZ, see Control</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="comment"> * register, DWT_CTRL.</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="comment"> * When DWT_CTRL.NOCYCCNT is RAO no cycle counter is implemented and this</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="comment"> * register is UNK/SBZP.</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno"><a class="code" href="scs_8h.html#a7ffe017b37b33a6c0076cce4601d3fd0">  281</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CYCCNT          MMIO32(DWT_BASE + 0x04)</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment">/* DWT_CPICNT register</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment"> * Purpose Counts additional cycles required to execute multi-cycle</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="comment"> * instructions and instruction fetch stalls.</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="comment"> * Usage constraints: The counter initializes to 0 when software enables its</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="comment"> * counter overflow event by</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment"> * setting the DWT_CTRL.CPIEVTENA bit to 1.</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="comment"> * Configurations Implemented: only when DWT_CTRL.NOPRFCNT is RAZ, see Control</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="comment"> * register, DWT_CTRL.</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment"> * If DWT_CTRL.NOPRFCNT is RAO, indicating that the implementation does not</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment"> * include the profiling counters, this register is UNK/SBZP.</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno"><a class="code" href="scs_8h.html#a054eaa47bb48507d52f6bd673504c70f">  294</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CPICNT          MMIO32(DWT_BASE + 0x08)</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="comment">/* DWT_EXCCNT register */</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno"><a class="code" href="scs_8h.html#a387bb45a990aa3ff42a4e2e36c2960ed">  297</a></span>&#160;<span class="preprocessor">#define SCS_DWT_EXCCNT          MMIO32(DWT_BASE + 0x0C)</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="comment">/* DWT_EXCCNT register */</span></div>
+<div class="line"><a name="l00300"></a><span class="lineno"><a class="code" href="scs_8h.html#ac72a4893e2e3d9d65f5db8e3dffe5410">  300</a></span>&#160;<span class="preprocessor">#define SCS_DWT_SLEEPCNT        MMIO32(DWT_BASE + 0x10)</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="comment">/* DWT_EXCCNT register */</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno"><a class="code" href="scs_8h.html#a90eb7f0698b261420a068bea54f6dc68">  303</a></span>&#160;<span class="preprocessor">#define SCS_DWT_LSUCNT          MMIO32(DWT_BASE + 0x14)</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="comment">/* DWT_EXCCNT register */</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="code" href="scs_8h.html#aaa205ae16ca604ddbe3ff463c3d39dfd">  306</a></span>&#160;<span class="preprocessor">#define SCS_DWT_FOLDCNT         MMIO32(DWT_BASE + 0x18)</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="comment">/* DWT_PCSR register */</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno"><a class="code" href="scs_8h.html#ad170e87e8b9683fa51ea1708710214b2">  309</a></span>&#160;<span class="preprocessor">#define SCS_DWT_PCSR            MMIO32(DWT_BASE + 0x18)</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="comment">/* --- SCS_DWT_CTRL values ------------------------------------------------- */</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="comment"> * Enables CYCCNT:</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="comment"> * 0 = Disabled, 1 = Enabled</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="comment"> * This bit is UNK/SBZP if the NOCYCCNT bit is RAO.</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno"><a class="code" href="scs_8h.html#a0814b32671ec81ef1b0fe1855200a343">  317</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CTRL_CYCCNTENA  (BIT0)</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment">/* TODO bit definition values for other DWT_XXX register */</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment">/* Macro to be called at startup to enable SCS &amp; Cycle Counter */</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno"><a class="code" href="scs_8h.html#ac9af4f7a9038682b67ea613d48d1cdd0">  322</a></span>&#160;<span class="preprocessor">#define SCS_DWT_CYCLE_COUNTER_ENABLED() ((SCS_DEMCR |= SCS_DEMCR_TRCENA)\</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">                                (SCS_DWT_CTRL |= SCS_DWT_CTRL_CYCCNTENA))</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00325"></a><span class="lineno"><a class="code" href="scs_8h.html#afa9bb946ea251db26e6935ff31ade593">  325</a></span>&#160;<span class="preprocessor">#define SCS_SYSTICK_DISABLED()  (SCS_SYST_CSR = 0)</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment">/* Macro to be called at startup to Enable CortexMx SysTick (but IRQ not</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment"> * enabled)</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno"><a class="code" href="scs_8h.html#a44368d8d72909fbb5de89f005463c971">  330</a></span>&#160;<span class="preprocessor">#define SCS_SYSTICK_ENABLED()   (SCS_SYST_CSR = (SCS_SYST_CSR_ENABLE | \</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="preprocessor">                                 SCS_SYST_CSR_CLKSOURCE))</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="comment">/* Macro to be called at startup to Enable CortexMx SysTick and IRQ */</span></div>
+<div class="line"><a name="l00334"></a><span class="lineno"><a class="code" href="scs_8h.html#a603abd66d408869da6e74d20ac4c3159">  334</a></span>&#160;<span class="preprocessor">#define SCS_SYSTICK_AND_IRQ_ENABLED()  (SCS_SYST_CSR = (SCS_SYST_CSR_ENABLE | \</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="preprocessor">                                        SCS_SYST_CSR_CLKSOURCE | \</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor">                                        SCS_SYST_CSR_TICKINT))</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="scs_8h.html">scs.h</a></li>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:13 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

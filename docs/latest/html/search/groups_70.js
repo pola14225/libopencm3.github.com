@@ -1,5 +1,6 @@
 var searchData=
 [
   ['pwr',['PWR',['../../stm32f1/html/group__pwr-file.html',1,'']]],
-  ['pwr_20defines',['PWR Defines',['../../stm32f1/html/group__pwr__defines.html',1,'']]]
+  ['pwr_20defines',['PWR Defines',['../../stm32f1/html/group__pwr__defines.html',1,'']]],
+  ['pwr',['PWR',['../../stm32f1/html/group__pwr__file.html',1,'']]]
 ];

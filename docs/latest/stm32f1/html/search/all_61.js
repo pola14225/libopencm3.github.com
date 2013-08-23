@@ -426,6 +426,7 @@ var searchData=
   ['afio_5fexti7',['AFIO_EXTI7',['../group__afio__exti.html#gab98248695a348d74ab86759a4bd9e41a',1,'gpio.h']]],
   ['afio_5fexti8',['AFIO_EXTI8',['../group__afio__exti.html#gab90114990729d93ec84a67bd8c81f971',1,'gpio.h']]],
   ['afio_5fexti9',['AFIO_EXTI9',['../group__afio__exti.html#ga189c8b5be8697d9916e41db15f88d73d',1,'gpio.h']]],
+  ['afio_5fexticr',['AFIO_EXTICR',['../group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb',1,'gpio.h']]],
   ['afio_5fexticr1',['AFIO_EXTICR1',['../group__gpio__defines.html#gaf80e5cb2bb3b64e75d14534bf786f20c',1,'gpio.h']]],
   ['afio_5fexticr2',['AFIO_EXTICR2',['../group__gpio__defines.html#ga9395b182ec3421876b6da0f3ef51fc34',1,'gpio.h']]],
   ['afio_5fexticr3',['AFIO_EXTICR3',['../group__gpio__defines.html#ga1411f8f04d1d7ea301bf4dbe7530b9b0',1,'gpio.h']]],

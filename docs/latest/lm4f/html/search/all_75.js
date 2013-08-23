@@ -85,7 +85,6 @@ var searchData=
   ['uart_5fwait_5frecv_5fready',['uart_wait_recv_ready',['../group__uart__defines.html#ga42ff0fbee0d1b80cc77667c14c3213dc',1,'uart_wait_recv_ready(uint32_t uart):&#160;uart.c'],['../group__uart__send__recv.html#ga42ff0fbee0d1b80cc77667c14c3213dc',1,'uart_wait_recv_ready(uint32_t uart):&#160;uart.c']]],
   ['uart_5fwait_5fsend_5fready',['uart_wait_send_ready',['../group__uart__defines.html#ga9546f62d7bb1695a34748ae418d2ed7f',1,'uart_wait_send_ready(uint32_t uart):&#160;uart.c'],['../group__uart__send__recv.html#ga9546f62d7bb1695a34748ae418d2ed7f',1,'uart_wait_send_ready(uint32_t uart):&#160;uart.c']]],
   ['usage_5ffault',['usage_fault',['../../../cm3/html/structvector__table__t.html#a9bc2b639e5ac8019bfad3a97cb35e414',1,'vector_table_t']]],
-  ['usage_5ffault_5fhandler',['usage_fault_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd',1,]]],
   ['usb_2eh',['usb.h',['../usb_8h.html',1,'']]],
   ['usb_20controller',['USB Controller',['../group__usb__defines.html',1,'']]],
   ['usb_5fdisable_5finterrupts',['usb_disable_interrupts',['../group__usb__defines.html#ga86efee4380227664681caba4d4c2a010',1,'usb_disable_interrupts(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints):&#160;usb_lm4f.c'],['../group__usb__file.html#ga86efee4380227664681caba4d4c2a010',1,'usb_disable_interrupts(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints):&#160;usb_lm4f.c']]],

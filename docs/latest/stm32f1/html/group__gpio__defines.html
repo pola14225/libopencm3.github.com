@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../html/index.html"><span>Back&#160;to&#160;Top</span></a></li>
       <li><a href="../../cm3/html/modules.html"><span>CM3&#160;Core</span></a></li>
       <li><a href="../../usb/html/modules.html"><span>Generic&#160;USB</span></a></li>
+      <li><a href="../../stm32f0/html/modules.html"><span>STM32F0</span></a></li>
       <li><a href="modules.html"><span>STM32F1</span></a></li>
       <li><a href="../../stm32f2/html/modules.html"><span>STM32F2</span></a></li>
       <li><a href="../../stm32f4/html/modules.html"><span>STM32F4</span></a></li>
@@ -555,10 +556,11 @@ Macros</h2></td></tr>
 <tr class="memitem:ga639ecc5a7b2226fbf42990e810ba799a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga639ecc5a7b2226fbf42990e810ba799a">GPIOG_LCKR</a>&#160;&#160;&#160;<a class="el" href="group__gpio__defines.html#ga5917bb16212870dc89a81b853252f92c">GPIO_LCKR</a>(<a class="el" href="group__gpio__port__id.html#ga02a2a23a32f9b02166a8c64012842414">GPIOG</a>)</td></tr>
 <tr class="memitem:ga90bab4153925083cd23931c7d6507df6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga90bab4153925083cd23931c7d6507df6">AFIO_EVCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x00)</td></tr>
 <tr class="memitem:gae4983ba45516afa359733c5515ffe233"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gae4983ba45516afa359733c5515ffe233">AFIO_MAPR</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x04)</td></tr>
-<tr class="memitem:gaf80e5cb2bb3b64e75d14534bf786f20c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gaf80e5cb2bb3b64e75d14534bf786f20c">AFIO_EXTICR1</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x08)</td></tr>
-<tr class="memitem:ga9395b182ec3421876b6da0f3ef51fc34"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga9395b182ec3421876b6da0f3ef51fc34">AFIO_EXTICR2</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x0c)</td></tr>
-<tr class="memitem:ga1411f8f04d1d7ea301bf4dbe7530b9b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga1411f8f04d1d7ea301bf4dbe7530b9b0">AFIO_EXTICR3</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x10)</td></tr>
-<tr class="memitem:ga464524a11dd41cc545a21810404572ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga464524a11dd41cc545a21810404572ad">AFIO_EXTICR4</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x14)</td></tr>
+<tr class="memitem:ga9e5edaac760b178177dc2114751883bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb">AFIO_EXTICR</a>(i)&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x08 + (i)*4)</td></tr>
+<tr class="memitem:gaf80e5cb2bb3b64e75d14534bf786f20c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gaf80e5cb2bb3b64e75d14534bf786f20c">AFIO_EXTICR1</a>&#160;&#160;&#160;<a class="el" href="group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb">AFIO_EXTICR</a>(0)</td></tr>
+<tr class="memitem:ga9395b182ec3421876b6da0f3ef51fc34"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga9395b182ec3421876b6da0f3ef51fc34">AFIO_EXTICR2</a>&#160;&#160;&#160;<a class="el" href="group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb">AFIO_EXTICR</a>(1)</td></tr>
+<tr class="memitem:ga1411f8f04d1d7ea301bf4dbe7530b9b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga1411f8f04d1d7ea301bf4dbe7530b9b0">AFIO_EXTICR3</a>&#160;&#160;&#160;<a class="el" href="group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb">AFIO_EXTICR</a>(2)</td></tr>
+<tr class="memitem:ga464524a11dd41cc545a21810404572ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga464524a11dd41cc545a21810404572ad">AFIO_EXTICR4</a>&#160;&#160;&#160;<a class="el" href="group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb">AFIO_EXTICR</a>(3)</td></tr>
 <tr class="memitem:gaf56a5ab920e31a5ee165baa43cde3a27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#gaf56a5ab920e31a5ee165baa43cde3a27">AFIO_MAPR2</a>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x1C)</td></tr>
 <tr class="memitem:ga5a24af5abfbcc69a979fe2d4410dad79"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__defines.html#ga5a24af5abfbcc69a979fe2d4410dad79">AFIO_EVCR_EVOE</a>&#160;&#160;&#160;(1 &lt;&lt; 7)</td></tr>
 </table><table class="memberdecls">
@@ -608,9 +610,29 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gpio_8h_source.html#l00686">686</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00681">681</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
 <p>Referenced by <a class="el" href="gpio_8c_source.html#l00141">gpio_set_eventout()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga9e5edaac760b178177dc2114751883bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AFIO_EXTICR</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x08 + (i)*4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00669">669</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+<p>Referenced by <a class="el" href="exti__common__all_8c_source.html#l00090">exti_select_source()</a>.</p>
 
 </div>
 </div>
@@ -619,12 +641,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AFIO_EXTICR1&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x08)</td>
+          <td class="memname">#define AFIO_EXTICR1&#160;&#160;&#160;<a class="el" href="group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb">AFIO_EXTICR</a>(0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gpio_8h_source.html#l00669">669</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00670">670</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
 </div>
 </div>
@@ -633,12 +655,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AFIO_EXTICR2&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x0c)</td>
+          <td class="memname">#define AFIO_EXTICR2&#160;&#160;&#160;<a class="el" href="group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb">AFIO_EXTICR</a>(1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gpio_8h_source.html#l00672">672</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00671">671</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
 </div>
 </div>
@@ -647,12 +669,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AFIO_EXTICR3&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x10)</td>
+          <td class="memname">#define AFIO_EXTICR3&#160;&#160;&#160;<a class="el" href="group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb">AFIO_EXTICR</a>(2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gpio_8h_source.html#l00675">675</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00672">672</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
 </div>
 </div>
@@ -661,12 +683,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define AFIO_EXTICR4&#160;&#160;&#160;<a class="elRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680">AFIO_BASE</a> + 0x14)</td>
+          <td class="memname">#define AFIO_EXTICR4&#160;&#160;&#160;<a class="el" href="group__gpio__defines.html#ga9e5edaac760b178177dc2114751883bb">AFIO_EXTICR</a>(3)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gpio_8h_source.html#l00678">678</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00673">673</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
 </div>
 </div>
@@ -696,7 +718,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gpio_8h_source.html#l00681">681</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+<p>Definition at line <a class="el" href="gpio_8h_source.html#l00676">676</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
 <p>Referenced by <a class="el" href="gpio_8c_source.html#l00188">gpio_secondary_remap()</a>.</p>
 
@@ -6423,7 +6445,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00169">169</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00666">AFIO_MAPR</a>, and <a class="el" href="gpio_8h_source.html#l00765">AFIO_MAPR_SWJ_MASK</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00666">AFIO_MAPR</a>, and <a class="el" href="gpio_8h_source.html#l00760">AFIO_MAPR_SWJ_MASK</a>.</p>
 
 </div>
 </div>
@@ -6453,7 +6475,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00188">188</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00681">AFIO_MAPR2</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00676">AFIO_MAPR2</a>.</p>
 
 </div>
 </div>
@@ -6493,7 +6515,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00141">141</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00663">AFIO_EVCR</a>, and <a class="el" href="gpio_8h_source.html#l00686">AFIO_EVCR_EVOE</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00663">AFIO_EVCR</a>, and <a class="el" href="gpio_8h_source.html#l00681">AFIO_EVCR_EVOE</a>.</p>
 
 </div>
 </div>
@@ -6556,7 +6578,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 16 2013 07:21:23 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 23 2013 08:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

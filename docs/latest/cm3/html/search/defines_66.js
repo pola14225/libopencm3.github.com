@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['fpb_5fbase',['FPB_BASE',['../memorymap_8h.html#a1440e877246ef758651cb36c42fb9bf9',1,'memorymap.h']]],
   ['fpb_5fcomp',['FPB_COMP',['../fpb_8h.html#a57788ce6d93262ea87fcf266ce04cfe2',1,'fpb.h']]],
   ['fpb_5fcomp_5fenable',['FPB_COMP_ENABLE',['../fpb_8h.html#a1a7409076397c752204cca3774cd9322',1,'fpb.h']]],
   ['fpb_5fcomp_5freplace_5fbreak_5fboth',['FPB_COMP_REPLACE_BREAK_BOTH',['../fpb_8h.html#ae02e83129123e467c43d9d1b866ff59f',1,'fpb.h']]],

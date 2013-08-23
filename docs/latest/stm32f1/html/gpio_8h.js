@@ -39,6 +39,7 @@ var gpio_8h =
     [ "AFIO_EXTI7", "gpio_8h.html#gab98248695a348d74ab86759a4bd9e41a", null ],
     [ "AFIO_EXTI8", "gpio_8h.html#gab90114990729d93ec84a67bd8c81f971", null ],
     [ "AFIO_EXTI9", "gpio_8h.html#ga189c8b5be8697d9916e41db15f88d73d", null ],
+    [ "AFIO_EXTICR", "gpio_8h.html#ga9e5edaac760b178177dc2114751883bb", null ],
     [ "AFIO_EXTICR1", "gpio_8h.html#gaf80e5cb2bb3b64e75d14534bf786f20c", null ],
     [ "AFIO_EXTICR2", "gpio_8h.html#ga9395b182ec3421876b6da0f3ef51fc34", null ],
     [ "AFIO_EXTICR3", "gpio_8h.html#ga1411f8f04d1d7ea301bf4dbe7530b9b0", null ],

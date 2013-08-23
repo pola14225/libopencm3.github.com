@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['usage_5ffault_5fhandler',['usage_fault_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga251b47f133382eae44fcf71ea3475acd',1,]]],
   ['usart_5fdisable',['usart_disable',['../group__usart__file.html#ga735e4ace80295d87203f64e6d7e6ac76',1,'usart_common_all.c']]],
   ['usart_5fdisable_5ferror_5finterrupt',['usart_disable_error_interrupt',['../group__usart__file.html#gaac35e7ef814d1a7a5c28ababd16436c0',1,'usart_common_all.c']]],
   ['usart_5fdisable_5frx_5fdma',['usart_disable_rx_dma',['../group__usart__file.html#ga5a48860c9886aafa10ddfda37c725f28',1,'usart_common_all.c']]],

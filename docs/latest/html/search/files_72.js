@@ -8,6 +8,6 @@ var searchData=
   ['rng_5fcommon_5ff24_2eh',['rng_common_f24.h',['../../stm32f4/html/rng__common__f24_8h.html',1,'']]],
   ['rtc_2ec',['rtc.c',['../../stm32f1/html/rtc_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/rtc_8c.html',1,'(Global Namespace)']]],
   ['rtc_2eh',['rtc.h',['../../stm32f1/html/rtc_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/rtc_8h.html',1,'(Global Namespace)']]],
-  ['rtc_5fcommon_5fbcd_2ec',['rtc_common_bcd.c',['../../stm32f1/html/rtc__common__bcd_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/rtc__common__bcd_8c.html',1,'(Global Namespace)']]],
-  ['rtc_5fcommon_5fbcd_2eh',['rtc_common_bcd.h',['../../stm32f1/html/rtc__common__bcd_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/rtc__common__bcd_8h.html',1,'(Global Namespace)']]]
+  ['rtc_5fcommon_5fl1f024_2ec',['rtc_common_l1f024.c',['../../stm32f1/html/rtc__common__l1f024_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/rtc__common__l1f024_8c.html',1,'(Global Namespace)']]],
+  ['rtc_5fcommon_5fl1f024_2eh',['rtc_common_l1f024.h',['../../stm32f1/html/rtc__common__l1f024_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/rtc__common__l1f024_8h.html',1,'(Global Namespace)']]]
 ];

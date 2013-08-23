@@ -3557,18 +3557,18 @@
     <name>dma.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/</path>
     <filename>dma_8c</filename>
-    <includes id="dma__common__f13_8h" name="dma_common_f13.h" local="no" imported="no">libopencm3/stm32/common/dma_common_f13.h</includes>
+    <includes id="dma__common__l1f013_8h" name="dma_common_l1f013.h" local="no" imported="no">libopencm3/stm32/common/dma_common_l1f013.h</includes>
   </compound>
   <compound kind="file">
     <name>dma.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f1/</path>
     <filename>dma_8h</filename>
-    <includes id="dma__common__f13_8h" name="dma_common_f13.h" local="no" imported="no">libopencm3/stm32/common/dma_common_f13.h</includes>
+    <includes id="dma__common__l1f013_8h" name="dma_common_l1f013.h" local="no" imported="no">libopencm3/stm32/common/dma_common_l1f013.h</includes>
   </compound>
   <compound kind="file">
-    <name>dma_common_f13.c</name>
+    <name>dma_common_l1f013.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>dma__common__f13_8c</filename>
+    <filename>dma__common__l1f013_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>dma_channel_reset</name>
@@ -3746,9 +3746,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>dma_common_f13.h</name>
+    <name>dma_common_l1f013.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>dma__common__f13_8h</filename>
+    <filename>dma__common__l1f013_8h</filename>
   </compound>
   <compound kind="file">
     <name>doc-stm32f1.h</name>
@@ -4835,6 +4835,53 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f1/</path>
     <filename>exti_8h</filename>
     <includes id="exti__common__all_8h" name="exti_common_all.h" local="no" imported="no">libopencm3/stm32/common/exti_common_all.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>exti_common_all.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>exti__common__all_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_set_trigger</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>a8b05a3586764aeb0dd1366dd46616a65</anchor>
+      <arglist>(uint32_t extis, enum exti_trigger_type trig)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_enable_request</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>acb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_disable_request</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>a1752fef240fb05e1135548449943ce0b</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_reset_request</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>aa86779017820fedee955563adc8b5f4a</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>exti_get_flag_status</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>a80d89279aab6cc63a8141b7421cd2dd1</anchor>
+      <arglist>(uint32_t exti)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_select_source</name>
+      <anchorfile>exti__common__all_8c.html</anchorfile>
+      <anchor>a81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
+      <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>exti_common_all.h</name>
@@ -8463,6 +8510,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>AFIO_EXTICR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga9e5edaac760b178177dc2114751883bb</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>AFIO_EXTICR1</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>gaf80e5cb2bb3b64e75d14534bf786f20c</anchor>
@@ -9166,9 +9220,9 @@
     <filename>gpio__common__all_8h</filename>
   </compound>
   <compound kind="file">
-    <name>gpio_common_f234.c</name>
+    <name>gpio_common_f0234.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>gpio__common__f234_8c</filename>
+    <filename>gpio__common__f0234_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>gpio_mode_setup</name>
@@ -9961,105 +10015,105 @@
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
       <arglist>(uint32_t pvd_level)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_standby_mode</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_stop_mode</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_voltage_high</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_standby_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchorfile>group__pwr__file.html</anchorfile>
       <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
     </member>
@@ -13042,9 +13096,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>rtc_common_bcd.c</name>
+    <name>rtc_common_l1f024.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>rtc__common__bcd_8c</filename>
+    <filename>rtc__common__l1f024_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_prescaler</name>
@@ -13089,9 +13143,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>rtc_common_bcd.h</name>
+    <name>rtc_common_l1f024.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>rtc__common__bcd_8h</filename>
+    <filename>rtc__common__l1f024_8h</filename>
   </compound>
   <compound kind="file">
     <name>spi.c</name>
@@ -13446,6 +13500,11 @@
     <name>spi_common_f124.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>spi__common__f124_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>syscfg_common_l1f234.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>syscfg__common__l1f234_8h</filename>
   </compound>
   <compound kind="file">
     <name>timer.c</name>
@@ -19841,6 +19900,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>AFIO_EXTICR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga9e5edaac760b178177dc2114751883bb</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>AFIO_EXTICR1</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>gaf80e5cb2bb3b64e75d14534bf786f20c</anchor>
@@ -24126,111 +24192,6 @@
     <name>pwr-file</name>
     <title>PWR</title>
     <filename>group__pwr-file.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
-      <arglist>(uint32_t pvd_level)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_standby_mode</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_stop_mode</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_voltage_high</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_standby_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__pwr-file.html</anchorfile>
-      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
-      <arglist>(void)</arglist>
-    </member>
   </compound>
   <compound kind="group">
     <name>STM32F1xx-rcc-file</name>
@@ -25659,13 +25620,123 @@
       <arglist>(uint32_t usart, uint32_t flag)</arglist>
     </member>
   </compound>
+  <compound kind="group">
+    <name>pwr_file</name>
+    <title>PWR</title>
+    <filename>group__pwr__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_power_voltage_detect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
+      <arglist>(uint32_t pvd_level)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_power_voltage_detect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_standby_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_wakeup_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_standby_mode</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_stop_mode</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_on_in_stop</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_low_power_in_stop</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_wakeup_pin</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_wakeup_pin</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_voltage_high</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_standby_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_wakeup_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
   <compound kind="dir">
     <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>dir_c02db4a0946ae9b9bf4f96b1a4904c69.html</filename>
     <file>crc_common_all.h</file>
     <file>dac_common_all.h</file>
-    <file>dma_common_f13.h</file>
+    <file>dma_common_l1f013.h</file>
     <file>exti_common_all.h</file>
     <file>exti_common_l1f24.h</file>
     <file>flash_common_f234.h</file>
@@ -25674,9 +25745,10 @@
     <file>i2c_common_all.h</file>
     <file>iwdg_common_all.h</file>
     <file>pwr_common_all.h</file>
-    <file>rtc_common_bcd.h</file>
+    <file>rtc_common_l1f024.h</file>
     <file>spi_common_all.h</file>
     <file>spi_common_f124.h</file>
+    <file>syscfg_common_l1f234.h</file>
     <file>timer_common_all.h</file>
     <file>usart_common_all.h</file>
     <file>usart_common_f124.h</file>
@@ -25687,14 +25759,15 @@
     <filename>dir_2cc908344f7c033af6399289af991fc7.html</filename>
     <file>crc_common_all.c</file>
     <file>dac_common_all.c</file>
-    <file>dma_common_f13.c</file>
+    <file>dma_common_l1f013.c</file>
+    <file>exti_common_all.c</file>
     <file>flash_common_f234.c</file>
     <file>gpio_common_all.c</file>
-    <file>gpio_common_f234.c</file>
+    <file>gpio_common_f0234.c</file>
     <file>i2c_common_all.c</file>
     <file>iwdg_common_all.c</file>
     <file>pwr_common_all.c</file>
-    <file>rtc_common_bcd.c</file>
+    <file>rtc_common_l1f024.c</file>
     <file>spi_common_all.c</file>
     <file>spi_common_f124.c</file>
     <file>timer_common_all.c</file>
