@@ -1,0 +1,17 @@
+<map id="STM32F0xx" name="STM32F0xx">
+<area shape="rect" id="node1" href="$group__pwr-file.html" title="libopencm3 STM32F0xx Power Control" alt="" coords="159,5,212,35"/>
+<area shape="rect" id="node2" href="$group__gpio__file.html" title="libopencm3 STM32F0xx General Purpose I/O" alt="" coords="159,59,212,88"/>
+<area shape="rect" id="node3" href="$group__dac__file.html" title="libopencm3 STM32F0xx DAC" alt="" coords="160,112,211,141"/>
+<area shape="rect" id="node4" href="$group__usart__file.html" title="libopencm3 STM32F0xx USART" alt="" coords="152,165,219,195"/>
+<area shape="rect" id="node5" href="$group__STM32F0xx-rcc-file.html" title="libopencm3 STM32F0xx Reset and Clock Control" alt="" coords="160,219,211,248"/>
+<area shape="rect" id="node6" href="$group__iwdg__file.html" title="libopencm3 STM32F0xx Independent Watchdog Timer" alt="" coords="156,272,215,301"/>
+<area shape="rect" id="node7" href="$group__dma__file.html" title="libopencm3 STM32F0xx DMA" alt="" coords="160,325,211,355"/>
+<area shape="rect" id="node8" href="$group__syscfg__file.html" title="libopencm3 STM32F0xx SYSCFG" alt="" coords="147,379,224,408"/>
+<area shape="rect" id="node9" href="$group__comp__file.html" title="libopencm3 STM32F0xx COMP" alt="" coords="155,432,216,461"/>
+<area shape="rect" id="node10" href="$group__rtc__file.html" title="libopencm3 STM32F0xx RTC" alt="" coords="160,485,211,515"/>
+<area shape="rect" id="node11" href="$group__spi__file.html" title="libopencm3 STM32F0xx Serial Peripheral Interface" alt="" coords="164,539,207,568"/>
+<area shape="rect" id="node13" href="$group__crc__file.html" title="libopencm3 STM32F0xx CRC" alt="" coords="160,592,211,621"/>
+<area shape="rect" id="node14" href="$group__adc__file.html" title="libopencm3 STM32F0xx Analog to Digital Converters" alt="" coords="160,645,211,675"/>
+<area shape="rect" id="node15" href="$group__i2c__file.html" title="libopencm3 STM32F0xx I2C" alt="" coords="164,699,207,728"/>
+<area shape="rect" id="node16" href="$group__timer__file.html" title="libopencm3 STM32F0xx Timers" alt="" coords="155,752,216,781"/>
+</map>

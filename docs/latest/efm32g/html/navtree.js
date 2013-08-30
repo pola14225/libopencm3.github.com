@@ -8,6 +8,7 @@ var NAVTREE =
     [ "STM32F0", "../../stm32f0/html/modules.html", null ],
     [ "STM32F1", "../../stm32f1/html/modules.html", null ],
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
+    [ "STM32F3", "../../stm32f3/html/modules.html", null ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
     [ "STM32L1", "../../stm32l1/html/modules.html", null ],
     [ "LM3S", "../../lm3s/html/modules.html", null ],
@@ -16,9 +17,9 @@ var NAVTREE =
     [ "LPC17", "../../lpc17xx/html/modules.html", null ],
     [ "LPC43", "../../lpc43xx/html/modules.html", null ],
     [ "EFM32 Gecko", "modules.html", "modules" ],
-    [ "EMF32 Giant Gecko", "../../emf32gg/html/modules.html", null ],
-    [ "EMF32 Leopard Gecko", "../../emf32lg/html/modules.html", null ],
-    [ "EMF32 Tiny Gecko", "../../emf32tg/html/modules.html", null ],
+    [ "EFM32 Giant Gecko", "../../efm32gg/html/modules.html", null ],
+    [ "EFM32 Leopard Gecko", "../../efm32lg/html/modules.html", null ],
+    [ "EFM32 Tiny Gecko", "../../efm32tg/html/modules.html", null ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ]
     ] ]

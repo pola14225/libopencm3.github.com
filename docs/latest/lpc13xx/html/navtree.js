@@ -15,10 +15,10 @@ var NAVTREE =
     [ "LPC13", "modules.html", "modules" ],
     [ "LPC17", "../../lpc17xx/html/modules.html", null ],
     [ "LPC43", "../../lpc43xx/html/modules.html", null ],
-    [ "EMF32 Gecko", "../../emf32g/html/modules.html", null ],
-    [ "EMF32 Giant Gecko", "../../emf32gg/html/modules.html", null ],
-    [ "EMF32 Leopard Gecko", "../../emf32lg/html/modules.html", null ],
-    [ "EMF32 Tiny Gecko", "../../emf32tg/html/modules.html", null ],
+    [ "EFM32 Gecko", "../../efm32g/html/modules.html", null ],
+    [ "EFM32 Giant Gecko", "../../efm32gg/html/modules.html", null ],
+    [ "EFM32 Leopard Gecko", "../../efm32lg/html/modules.html", null ],
+    [ "EFM32 Tiny Gecko", "../../efm32tg/html/modules.html", null ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [

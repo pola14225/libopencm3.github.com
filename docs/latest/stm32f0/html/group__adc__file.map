@@ -1,0 +1,9 @@
+<map id="ADC" name="ADC">
+<area shape="rect" id="node1" href="$group__adc__api__wdg.html" title="ADC analog watchdog API definitions." alt="" coords="259,5,440,35"/>
+<area shape="rect" id="node2" href="$group__adc__api__opmode.html" title="ADC Result API." alt="" coords="272,59,427,88"/>
+<area shape="rect" id="node3" href="$group__adc__api__trigger.html" title="ADC Trigger API." alt="" coords="289,112,409,141"/>
+<area shape="rect" id="node4" href="$group__adc__api__config.html" title="ADC Basic configuration API." alt="" coords="253,165,445,195"/>
+<area shape="rect" id="node5" href="$group__STM32F0xx.html" title="Libraries for ST Microelectronics STM32F0xx series." alt="" coords="5,139,99,168"/>
+<area shape="rect" id="node6" href="$group__adc__api__interrupts.html" title="ADC Interrupt configuration API." alt="" coords="247,219,452,248"/>
+<area shape="rect" id="node8" href="$group__adc__api__result.html" title="ADC Result API." alt="" coords="291,272,408,301"/>
+</map>
