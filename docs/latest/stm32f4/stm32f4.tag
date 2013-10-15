@@ -5760,6 +5760,41 @@
       <anchor>a4adaf4fd82ccc3a538f1f27a70cdbbef</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DESIG_FLASH_SIZE_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a995576aa6d86cbe35e60c82530d745c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DESIG_UNIQUE_ID_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a567ddeef232a71aa2a11c556a9d7e17b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DESIG_UNIQUE_ID0</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aaf41f46cf83d59e7f2b040c3ad7ed592</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DESIG_UNIQUE_ID1</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a121c59863db1db56b26e70978089b931</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DESIG_UNIQUE_ID2</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a58267039858b45fc2b5948a79d8a038e</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>pwr.c</name>

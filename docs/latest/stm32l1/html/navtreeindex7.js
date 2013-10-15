@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"spi_8c_source.html":[20,0,56],
+"spi_8h.html":[20,0,57],
+"spi_8h_source.html":[20,0,57],
 "spi__common__all_8c.html":[20,0,58],
 "spi__common__all_8c.html#ga010e94503b79a98060a9920fd8f50806":[20,0,58,5],
 "spi__common__all_8c.html#ga0f70abf18588bb5bbe24da6457cb9ff7":[20,0,58,34],

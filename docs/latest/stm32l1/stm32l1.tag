@@ -3262,6 +3262,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>DESIG_UNIQUE_ID0</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aaf41f46cf83d59e7f2b040c3ad7ed592</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DESIG_UNIQUE_ID1</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a121c59863db1db56b26e70978089b931</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DESIG_UNIQUE_ID2</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a58267039858b45fc2b5948a79d8a038e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SPI1_I2S_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a6dda9efeddb04f07a4d82b1503c0db4e</anchor>

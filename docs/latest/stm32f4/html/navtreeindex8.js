@@ -1,5 +1,10 @@
 var NAVTREEINDEX8 =
 {
+"spi__common__all_8c.html#gac860af47e3356336e01495554de5e506":[20,0,64,14],
+"spi__common__all_8c.html#gacd6b278668088bce197d6401787c4e62":[20,0,64,29],
+"spi__common__all_8c.html#gad05d3885fad620fc84d284fc9b42554e":[20,0,64,13],
+"spi__common__all_8c.html#gad86076b9c51c2ce18f844d42053ed8cc":[20,0,64,36],
+"spi__common__all_8c.html#gada533027af13ff16aceb7daad049c4e4":[20,0,64,16],
 "spi__common__all_8c.html#gada77b72d4924b55840e73ed14a325978":[20,0,64,4],
 "spi__common__all_8c.html#gae19e92c8051fe49e4eac918ee51feeac":[20,0,64,23],
 "spi__common__all_8c.html#gae453ac946166bc51a42c35738d9d005b":[20,0,64,42],

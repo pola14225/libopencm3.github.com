@@ -237,15 +237,20 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment">/* Device Electronic Signature */</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno"><a class="code" href="memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1">  116</a></span>&#160;<span class="preprocessor">#define DESIG_FLASH_SIZE_BASE           (INFO_BASE + 0x7e0)</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno"><a class="code" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">  117</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DESIG_UNIQUE_ID_BASE            (INFO_BASE + 0x7e8)</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span><span class="comment">/* Ignore the &quot;reserved for future use&quot; half of the first word */</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="code" href="memorymap_8h.html#aaf41f46cf83d59e7f2b040c3ad7ed592">  119</a></span>&#160;<span class="preprocessor">#define DESIG_UNIQUE_ID0                MMIO32(DESIG_UNIQUE_ID_BASE)</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="code" href="memorymap_8h.html#a121c59863db1db56b26e70978089b931">  120</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DESIG_UNIQUE_ID1                MMIO32(DESIG_UNIQUE_ID_BASE + 4)</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="code" href="memorymap_8h.html#a58267039858b45fc2b5948a79d8a038e">  121</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DESIG_UNIQUE_ID2                MMIO32(DESIG_UNIQUE_ID_BASE + 8)</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_26e2099944f53a27f6cdf710ec04616c.html">f1</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Sun Oct 6 2013 21:21:26 for libopencm3 by
+    <li class="footer">Generated on Tue Oct 15 2013 13:21:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -50,8 +50,8 @@ var NAVTREEINDEX =
 "group__dac__file.html#ga9fb96b4d44b951974e57c093faed0611",
 "group__pwr__file.html#ga652ae2d48d4833539f50f0c201e8fff2",
 "i2c__common__all_8c.html#ga770a4f23cdb45e344a789e32202c4cab",
-"rcc_8h.html#ga3c892bf770b3b7c2b55bf1b6b9d9c35b",
-"spi__common__all_8c.html"
+"rcc_8h.html#ga3730ae0a55c59ca7581ae1e8e8319663",
+"spi_8c_source.html"
 ];
 
 var navTreeSubIndices = new Array();
