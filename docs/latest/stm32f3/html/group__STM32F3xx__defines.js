@@ -11,7 +11,7 @@ var group__STM32F3xx__defines =
     [ "IWDG Defines", "group__iwdg__defines.html", null ],
     [ "PWR Defines", "group__pwr__defines.html", null ],
     [ "RCC Defines", "group__rcc__defines.html", null ],
-    [ "SPI Defines", "group__spi__defines.html", "group__spi__defines" ],
+    [ "SPI Defines", "group__spi__defines.html", null ],
     [ "Timer Defines", "group__timer__defines.html", null ],
     [ "USART Defines", "group__usart__defines.html", null ]
 ];

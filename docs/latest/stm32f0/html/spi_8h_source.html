@@ -154,104 +154,16 @@ $(document).ready(function(){initNavTree('spi_8h_source.html','');});
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LIBOPENCM3_SPI_H</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/memorymap.h&gt;</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="spi__common__all_8h.html">libopencm3/stm32/common/spi_common_all.h</a>&gt;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="spi__common__f03_8h.html">libopencm3/stm32/common/spi_common_f03.h</a>&gt;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">/* Module definitions                                                        */</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="spi_8h.html#a50cd8b47929f18b05efbd0f41253bf8d">   41</a></span>&#160;<span class="preprocessor">#define SPI1_BASE               SPI1_I2S1_BASE</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">/* Register definitions                                                      */</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/* Register values                                                           */</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/* DFF: Data frame format */</span><span class="comment"></span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/** @defgroup spi_dff SPI data frame format</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment"> * @ingroup spi_defines</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"> * @{*/</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="code" href="group__spi__dff.html#gad769555cf6f2bec4ef81a92fbc57d4c3">   56</a></span>&#160;<span class="preprocessor">#define SPI_CR1_CRCL_8BIT       (0 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="code" href="group__spi__dff.html#gac80232620cca93d658564d903847114f">   57</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR1_CRCL_16BIT      (1 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="code" href="spi_8h.html#a3828b6114d16fada0dea07b902377a5c">   59</a></span>&#160;<span class="preprocessor">#define SPI_CR1_CRCL            (1 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">/* --- SPI_CR2 values ------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">/* LDMA_TX: Last DMA transfer for transmission */</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="code" href="spi_8h.html#a39deb4ca947b12a999046e9a182c5df7">   64</a></span>&#160;<span class="preprocessor">#define SPI_CR2_LDMA_TX                 (1 &lt;&lt; 14)</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">/* LDMA_RX: Last DMA transfer for reception */</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="code" href="spi_8h.html#a4b7c17fc8f097e728aaff746356d8de3">   67</a></span>&#160;<span class="preprocessor">#define SPI_CR2_LDMA_RX                 (1 &lt;&lt; 13)</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">/* FRXTH: FIFO reception threshold */</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="code" href="spi_8h.html#a6e02994914afef4270508bc3219db477">   70</a></span>&#160;<span class="preprocessor">#define SPI_CR2_FRXTH                   (1 &lt;&lt; 12)</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">/* DS [3:0]: Data size */</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">/* 0x0 - 0x2 NOT USED */</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="code" href="spi_8h.html#ac6ac22b3c106ed11cd66cab53ca80ea3">   74</a></span>&#160;<span class="preprocessor">#define SPI_CR2_DS_4BIT                 (0x3 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="code" href="spi_8h.html#a3489b5c590d4d9a35c5d7628e076c381">   75</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_5BIT                 (0x4 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="code" href="spi_8h.html#af0e65ead878fc6931d8d5705dd1fb153">   76</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_6BIT                 (0x5 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno"><a class="code" href="spi_8h.html#a17f4dda477f97cb4f983a039c3cca582">   77</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_7BIT                 (0x6 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="code" href="spi_8h.html#a1477624af2e50f6ec6f64eb3edc82942">   78</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_8BIT                 (0x7 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="code" href="spi_8h.html#a5208c8007f5e73249a912950803b2f40">   79</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_9BIT                 (0x8 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="code" href="spi_8h.html#ac57738e200cff901c2249520d6348902">   80</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_10BIT                (0x9 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="code" href="spi_8h.html#ab1adfb895458566636e09354858a96a5">   81</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_11BIT                (0xA &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="code" href="spi_8h.html#a83792f6295819967ac2d5064ce066b10">   82</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_12BIT                (0xB &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="code" href="spi_8h.html#aa5f8732361558bcba0c6c2166d60da76">   83</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_13BIT                (0xC &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="code" href="spi_8h.html#af195cd233bc8ead5afb115a1d75bc3f4">   84</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_14BIT                (0xD &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno"><a class="code" href="spi_8h.html#ae7ff246f2beef0f54e2edd61567f016d">   85</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_15BIT                (0xE &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno"><a class="code" href="spi_8h.html#abac925cb4499066dd10dbd1eba3ee060">   86</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_16BIT                (0xF &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="code" href="spi_8h.html#a2fe0744a4f6de1a1d94b27ed231fcb50">   87</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_CR2_DS_MASK                 (0xF &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">/* NSSP: NSS pulse management */</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno"><a class="code" href="spi_8h.html#a2e7d9d05424a68e6b02b82280541dbd2">   90</a></span>&#160;<span class="preprocessor">#define SPI_CR2_NSSP                    (1 &lt;&lt; 3)</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/* --- SPI_SR values ------------------------------------------------------- */</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">/* FTLVL[1:0]: FIFO Transmission Level */</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno"><a class="code" href="spi_8h.html#ae25303e2e8db0ba27d42ccb7a713006b">   95</a></span>&#160;<span class="preprocessor">#define SPI_SR_FTLVL_FIFO_EMPTY         (0x0 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno"><a class="code" href="spi_8h.html#a11f429f104120334ca27ca4f75913aeb">   96</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_SR_FTLVL_QUARTER_FIFO       (0x1 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="code" href="spi_8h.html#a857ca08eaa608d403dffea43d41e7a6d">   97</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_SR_FTLVL_HALF_FIFO          (0x2 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno"><a class="code" href="spi_8h.html#ae4ec0feec9d85ca1aec1a7c722f74673">   98</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_SR_FTLVL_FIFO_FULL          (0x3 &lt;&lt; 11)</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">/* FRLVL[1:0]: FIFO Reception Level */</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="code" href="spi_8h.html#a30b4760cc554e7207e0ed0fe7516460b">  101</a></span>&#160;<span class="preprocessor">#define SPI_SR_FRLVL_FIFO_EMPTY         (0x0 &lt;&lt; 9)</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno"><a class="code" href="spi_8h.html#a5154ec573d83e855d8eeec4e969a11e5">  102</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_SR_FRLVL_QUARTER_FIFO       (0x1 &lt;&lt; 9)</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="code" href="spi_8h.html#acbe4df524cfaa4f13e8022bba3b25bba">  103</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_SR_FRLVL_HALF_FIFO          (0x2 &lt;&lt; 9)</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="code" href="spi_8h.html#a7b1c503ecf5888ada9c06b9a06bc12c0">  104</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI_SR_FRLVL_FIFO_FULL          (0x3 &lt;&lt; 9)</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">/* API definitions                                                           */</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">/* API Functions                                                             */</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#a285ede0085fb67dd93f5f03835ffd508">spi_set_data_size</a>(uint32_t spi, uint16_t data_s);</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#ab28610e17dfebd2fb0c51a0d7b462d95">spi_fifo_reception_threshold_8bit</a>(uint32_t spi);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#a9dc4ebbea2dc313a7e0f5e3ba3754caf">spi_fifo_reception_threshold_16bit</a>(uint32_t spi);</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#a3106545d2b06f1a49911a48853a61fbe">spi_i2s_mode_spi_mode</a>(uint32_t spi);</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#a4307af8c6b3812b86dfea621f1f40d37">spi_send8</a>(uint32_t spi, uint8_t data);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;uint8_t <a class="code" href="spi_8h.html#a678fc0899ce572786e0ee3f875b80e91">spi_read8</a>(uint32_t spi);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<a class="codeRef" doxygen="cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_7d765688839e3eda4be687451f518130.html">f0</a></li><li class="navelem"><a class="el" href="spi_8h.html">spi.h</a></li>
-    <li class="footer">Generated on Tue Oct 15 2013 14:21:14 for libopencm3 by
+    <li class="footer">Generated on Thu Nov 7 2013 23:21:23 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

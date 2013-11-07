@@ -9114,9 +9114,19 @@
     <filename>spi__common__all_8h</filename>
   </compound>
   <compound kind="file">
-    <name>spi_common_f124.c</name>
+    <name>spi_common_f03.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>spi__common__f03_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>spi_common_f24.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>spi__common__f24_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>spi_common_l1f124.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>spi__common__f124_8c</filename>
+    <filename>spi__common__l1f124_8c</filename>
     <member kind="function">
       <type>int</type>
       <name>spi_init_master</name>
@@ -9140,14 +9150,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>spi_common_f124.h</name>
+    <name>spi_common_l1f124.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>spi__common__f124_8h</filename>
-  </compound>
-  <compound kind="file">
-    <name>spi_common_f24.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>spi__common__f24_8h</filename>
+    <filename>spi__common__l1f124_8h</filename>
   </compound>
   <compound kind="file">
     <name>syscfg.h</name>
@@ -14024,8 +14029,9 @@
     <file>rng_common_f24.h</file>
     <file>rtc_common_l1f024.h</file>
     <file>spi_common_all.h</file>
-    <file>spi_common_f124.h</file>
+    <file>spi_common_f03.h</file>
     <file>spi_common_f24.h</file>
+    <file>spi_common_l1f124.h</file>
     <file>syscfg_common_l1f234.h</file>
     <file>timer_common_all.h</file>
     <file>timer_common_f24.h</file>
@@ -14053,7 +14059,7 @@
     <file>pwr_common_all.c</file>
     <file>rtc_common_l1f024.c</file>
     <file>spi_common_all.c</file>
-    <file>spi_common_f124.c</file>
+    <file>spi_common_l1f124.c</file>
     <file>timer_common_all.c</file>
     <file>timer_common_f234.c</file>
     <file>timer_common_f24.c</file>

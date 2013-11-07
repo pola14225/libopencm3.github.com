@@ -218,6 +218,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:gac860af47e3356336e01495554de5e506"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI Enable Receive Transfers via DMA.  <a href="#gac860af47e3356336e01495554de5e506"></a><br/></td></tr>
 <tr class="memitem:ga010e94503b79a98060a9920fd8f50806"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spi__file.html#ga010e94503b79a98060a9920fd8f50806">spi_disable_rx_dma</a> (uint32_t spi)</td></tr>
 <tr class="memdesc:ga010e94503b79a98060a9920fd8f50806"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI Disable Receive Transfers via DMA.  <a href="#ga010e94503b79a98060a9920fd8f50806"></a><br/></td></tr>
+<tr class="memitem:gaa963b02acbae0939ec4537a8136873ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spi__file.html#gaa963b02acbae0939ec4537a8136873ed">spi_init_master</a> (uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</td></tr>
+<tr class="memdesc:gaa963b02acbae0939ec4537a8136873ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the SPI as Master.  <a href="#gaa963b02acbae0939ec4537a8136873ed"></a><br/></td></tr>
+<tr class="memitem:ga715bcb5541f2908d16a661b0a6a07014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spi__file.html#ga715bcb5541f2908d16a661b0a6a07014">spi_set_dff_8bit</a> (uint32_t spi)</td></tr>
+<tr class="memdesc:ga715bcb5541f2908d16a661b0a6a07014"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI Set Data Frame Format to 8 bits.  <a href="#ga715bcb5541f2908d16a661b0a6a07014"></a><br/></td></tr>
+<tr class="memitem:ga6665731fd5d37e5dfb00f29f859e6c9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spi__file.html#ga6665731fd5d37e5dfb00f29f859e6c9c">spi_set_dff_16bit</a> (uint32_t spi)</td></tr>
+<tr class="memdesc:ga6665731fd5d37e5dfb00f29f859e6c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI Set Data Frame Format to 16 bits.  <a href="#ga6665731fd5d37e5dfb00f29f859e6c9c"></a><br/></td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <p><b>libopencm3 STM32F3xx Serial Peripheral Interface</b> </p>
@@ -232,7 +238,22 @@ Functions</h2></td></tr>
 <dd>
 The I2S protocol shares the SPI hardware so the two protocols cannot be used at the same time on the same peripheral.</dd></dl>
 <p>Example: 1Mbps, positive clock polarity, leading edge trigger, 8-bit words, LSB first. </p>
-<div class="fragment"><div class="line">spi_init_master(SPI1, 1000000, SPI_CR1_CPOL_CLK_TO_0_WHEN_IDLE,</div>
+<div class="fragment"><div class="line"><a class="code" href="group__spi__file.html#gaa963b02acbae0939ec4537a8136873ed" title="Configure the SPI as Master.">spi_init_master</a>(SPI1, 1000000, SPI_CR1_CPOL_CLK_TO_0_WHEN_IDLE,</div>
+<div class="line">                SPI_CR1_CPHA_CLK_TRANSITION_1, SPI_CR1_DFF_8BIT,</div>
+<div class="line">                SPI_CR1_LSBFIRST);</div>
+<div class="line"><a class="code" href="group__spi__file.html#ga6c3dfa86916c2c38d4a1957f4704bb47" title="SPI Data Write.">spi_write</a>(SPI1, 0x55);          <span class="comment">// 8-bit write</span></div>
+<div class="line"><a class="code" href="group__spi__file.html#ga6c3dfa86916c2c38d4a1957f4704bb47" title="SPI Data Write.">spi_write</a>(SPI1, 0xaa88);        <span class="comment">// 16-bit write</span></div>
+<div class="line">reg8 = <a class="code" href="group__spi__file.html#ga1bfe6bd4512dc398cb7f680feec01b20" title="SPI Data Read.">spi_read</a>(SPI1);          <span class="comment">// 8-bit read</span></div>
+<div class="line">reg16 = <a class="code" href="group__spi__file.html#ga1bfe6bd4512dc398cb7f680feec01b20" title="SPI Data Read.">spi_read</a>(SPI1);         <span class="comment">// 16-bit read</span></div>
+</div><!-- fragment --><dl class="section author"><dt>Author</dt><dd> &copy;  2009 Uwe Hermann <a href="#" onclick="location.href='mai'+'lto:'+'uwe'+'@h'+'erm'+'an'+'n-u'+'we'+'.de'; return false;">uwe@h<span style="display: none;">.nosp@m.</span>erma<span style="display: none;">.nosp@m.</span>nn-uw<span style="display: none;">.nosp@m.</span>e.de</a> </dd>
+<dd>
+ &copy;  2012 Ken Sarkies <a href="#" onclick="location.href='mai'+'lto:'+'ksa'+'rk'+'ies'+'@i'+'nte'+'rn'+'ode'+'.o'+'n.n'+'et'; return false;">ksark<span style="display: none;">.nosp@m.</span>ies@<span style="display: none;">.nosp@m.</span>inter<span style="display: none;">.nosp@m.</span>node<span style="display: none;">.nosp@m.</span>.on.n<span style="display: none;">.nosp@m.</span>et</a></dd></dl>
+<p>Devices can have up to three SPI peripherals. The common 4-wire full-duplex mode of operation is supported, along with 3-wire variants using unidirectional communication modes or half-duplex bidirectional communication. A variety of options allows many of the SPI variants to be supported. Multimaster operation is also supported. A CRC can be generated and checked in hardware.</p>
+<dl class="section note"><dt>Note</dt><dd>Some JTAG pins need to be remapped if SPI is to be used.</dd>
+<dd>
+The I2S protocol shares the SPI hardware so the two protocols cannot be used at the same time on the same peripheral.</dd></dl>
+<p>Example: 1Mbps, positive clock polarity, leading edge trigger, 8-bit words, LSB first. </p>
+<div class="fragment"><div class="line"><a class="code" href="group__spi__file.html#gaa963b02acbae0939ec4537a8136873ed" title="Configure the SPI as Master.">spi_init_master</a>(SPI1, 1000000, SPI_CR1_CPOL_CLK_TO_0_WHEN_IDLE,</div>
 <div class="line">                SPI_CR1_CPHA_CLK_TRANSITION_1, SPI_CR1_DFF_8BIT,</div>
 <div class="line">                SPI_CR1_LSBFIRST);</div>
 <div class="line"><a class="code" href="group__spi__file.html#ga6c3dfa86916c2c38d4a1957f4704bb47" title="SPI Data Write.">spi_write</a>(SPI1, 0x55);          <span class="comment">// 8-bit write</span></div>
@@ -745,6 +766,73 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 </div>
 </div>
+<a class="anchor" id="gaa963b02acbae0939ec4537a8136873ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spi_init_master </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>spi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>br</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>cpol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>cpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>dff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>lsbfirst</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the SPI as Master. </p>
+<p>The SPI peripheral is configured as a master with communication parameters baudrate, data format 8/16 bits, frame format lsb/msb first, clock polarity and phase. The SPI enable, CRC enable and CRC next controls are not affected. These must be controlled separately.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">br</td><td>Unsigned int32. Baudrate spi_baudrate. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cpol</td><td>Unsigned int32. Clock polarity spi_cpol. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cpha</td><td>Unsigned int32. Clock Phase spi_cpha. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dff</td><td>Unsigned int32. Data frame format 8/16 bits spi_dff. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lsbfirst</td><td>Unsigned int32. Frame format lsb/msb first spi_lsbfirst. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int. Error code. </dd></dl>
+
+<p>Definition at line <a class="el" href="spi__common__l1f124_8c_source.html#l00092">92</a> of file <a class="el" href="spi__common__l1f124_8c_source.html">spi_common_l1f124.c</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga1bfe6bd4512dc398cb7f680feec01b20"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1123,6 +1211,58 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ga6665731fd5d37e5dfb00f29f859e6c9c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void spi_set_dff_16bit </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>spi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SPI Set Data Frame Format to 16 bits. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="spi__common__l1f124_8c_source.html#l00132">132</a> of file <a class="el" href="spi__common__l1f124_8c_source.html">spi_common_l1f124.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga715bcb5541f2908d16a661b0a6a07014"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void spi_set_dff_8bit </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>spi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SPI Set Data Frame Format to 8 bits. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier spi_reg_base. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="spi__common__l1f124_8c_source.html#l00121">121</a> of file <a class="el" href="spi__common__l1f124_8c_source.html">spi_common_l1f124.c</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga714f48c6586abf8ce6e3e118f6303708"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1467,7 +1607,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 15 2013 14:21:30 for libopencm3 by
+    <li class="footer">Generated on Thu Nov 7 2013 23:21:39 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

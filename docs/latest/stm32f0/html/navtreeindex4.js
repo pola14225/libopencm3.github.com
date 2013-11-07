@@ -246,8 +246,8 @@ var NAVTREEINDEX4 =
 "group__rtc__file.html#gacffca2b1f3a82b3f82923e9ab14f004f":[4,0,10,3],
 "group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5":[4,0,10,0],
 "group__spi__defines.html":[4,1,14],
-"group__spi__dff.html":[4,1,14,0],
-"group__spi__dff.html#gac80232620cca93d658564d903847114f":[4,1,14,0,0],
-"group__spi__dff.html#gad769555cf6f2bec4ef81a92fbc57d4c3":[4,1,14,0,1],
-"group__spi__file.html":[4,0,11]
+"group__spi__file.html":[4,0,11],
+"group__spi__file.html#ga010e94503b79a98060a9920fd8f50806":[4,0,11,5],
+"group__spi__file.html#ga0f70abf18588bb5bbe24da6457cb9ff7":[4,0,11,37],
+"group__spi__file.html#ga168934fcc518d617447514ca06a48b3c":[4,0,11,2]
 };

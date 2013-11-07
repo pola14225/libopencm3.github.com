@@ -9344,279 +9344,34 @@
     <name>spi.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f3/</path>
     <filename>spi_8h</filename>
-    <includes id="spi__common__all_8h" name="spi_common_all.h" local="no" imported="no">libopencm3/stm32/common/spi_common_all.h</includes>
+    <includes id="spi__common__f03_8h" name="spi_common_f03.h" local="no" imported="no">libopencm3/stm32/common/spi_common_f03.h</includes>
     <member kind="define">
       <type>#define</type>
       <name>SPI_DR8</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gae77ec10f2c95483ec8b4f460401ba101</anchor>
+      <anchorfile>spi_8h.html</anchorfile>
+      <anchor>ae77ec10f2c95483ec8b4f460401ba101</anchor>
       <arglist>(spi_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>SPI1_DR8</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>ga35c65ed66e29b539d9a14e833c491802</anchor>
+      <anchorfile>spi_8h.html</anchorfile>
+      <anchor>a35c65ed66e29b539d9a14e833c491802</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>SPI2_DR8</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>ga3f8cf94759e3be7e95a888bbb3bc3ef2</anchor>
+      <anchorfile>spi_8h.html</anchorfile>
+      <anchor>a3f8cf94759e3be7e95a888bbb3bc3ef2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>SPI3_DR8</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gae72e26e42994989e86d115ced180c4cd</anchor>
+      <anchorfile>spi_8h.html</anchorfile>
+      <anchor>ae72e26e42994989e86d115ced180c4cd</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL_8BIT</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gad769555cf6f2bec4ef81a92fbc57d4c3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL_16BIT</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gac80232620cca93d658564d903847114f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a3828b6114d16fada0dea07b902377a5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_LDMA_TX</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a39deb4ca947b12a999046e9a182c5df7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_LDMA_RX</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a4b7c17fc8f097e728aaff746356d8de3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_FRXTH</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a6e02994914afef4270508bc3219db477</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_4BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>ac6ac22b3c106ed11cd66cab53ca80ea3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_5BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a3489b5c590d4d9a35c5d7628e076c381</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_6BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>af0e65ead878fc6931d8d5705dd1fb153</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_7BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a17f4dda477f97cb4f983a039c3cca582</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_8BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a1477624af2e50f6ec6f64eb3edc82942</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_9BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a5208c8007f5e73249a912950803b2f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_10BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>ac57738e200cff901c2249520d6348902</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_11BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>ab1adfb895458566636e09354858a96a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_12BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a83792f6295819967ac2d5064ce066b10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_13BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>aa5f8732361558bcba0c6c2166d60da76</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_14BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>af195cd233bc8ead5afb115a1d75bc3f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_15BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>ae7ff246f2beef0f54e2edd61567f016d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_16BIT</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>abac925cb4499066dd10dbd1eba3ee060</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_MASK</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a2fe0744a4f6de1a1d94b27ed231fcb50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_NSSP</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a2e7d9d05424a68e6b02b82280541dbd2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_FIFO_EMPTY</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>ae25303e2e8db0ba27d42ccb7a713006b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_QUARTER_FIFO</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a11f429f104120334ca27ca4f75913aeb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_HALF_FIFO</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a857ca08eaa608d403dffea43d41e7a6d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_FIFO_FULL</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>ae4ec0feec9d85ca1aec1a7c722f74673</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_FIFO_EMPTY</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a30b4760cc554e7207e0ed0fe7516460b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_QUARTER_FIFO</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a5154ec573d83e855d8eeec4e969a11e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_HALF_FIFO</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>acbe4df524cfaa4f13e8022bba3b25bba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_FIFO_FULL</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a7b1c503ecf5888ada9c06b9a06bc12c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_data_size</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a285ede0085fb67dd93f5f03835ffd508</anchor>
-      <arglist>(uint32_t spi, uint16_t data_s)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_fifo_reception_threshold_8bit</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>ab28610e17dfebd2fb0c51a0d7b462d95</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_fifo_reception_threshold_16bit</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a9dc4ebbea2dc313a7e0f5e3ba3754caf</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_i2s_mode_spi_mode</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a3106545d2b06f1a49911a48853a61fbe</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_send8</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a4307af8c6b3812b86dfea621f1f40d37</anchor>
-      <arglist>(uint32_t spi, uint8_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint8_t</type>
-      <name>spi_read8</name>
-      <anchorfile>spi_8h.html</anchorfile>
-      <anchor>a678fc0899ce572786e0ee3f875b80e91</anchor>
-      <arglist>(uint32_t spi)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -9929,6 +9684,42 @@
     <name>spi_common_all.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>spi__common__all_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>spi_common_f03.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>spi__common__f03_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>spi_common_l1f124.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>spi__common__l1f124_8c</filename>
+    <member kind="function">
+      <type>int</type>
+      <name>spi_init_master</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaa963b02acbae0939ec4537a8136873ed</anchor>
+      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_dff_8bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga715bcb5541f2908d16a661b0a6a07014</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_dff_16bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga6665731fd5d37e5dfb00f29f859e6c9c</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>spi_common_l1f124.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>spi__common__l1f124_8h</filename>
   </compound>
   <compound kind="file">
     <name>syscfg.h</name>
@@ -13461,54 +13252,6 @@
     <name>spi_defines</name>
     <title>SPI Defines</title>
     <filename>group__spi__defines.html</filename>
-    <subgroup>spi_dff</subgroup>
-  </compound>
-  <compound kind="group">
-    <name>spi_dff</name>
-    <title>SPI data frame format</title>
-    <filename>group__spi__dff.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_DR8</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gae77ec10f2c95483ec8b4f460401ba101</anchor>
-      <arglist>(spi_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI1_DR8</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>ga35c65ed66e29b539d9a14e833c491802</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI2_DR8</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>ga3f8cf94759e3be7e95a888bbb3bc3ef2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI3_DR8</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gae72e26e42994989e86d115ced180c4cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL_8BIT</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gad769555cf6f2bec4ef81a92fbc57d4c3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL_16BIT</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gac80232620cca93d658564d903847114f</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="group">
     <name>timer_defines</name>
@@ -15224,6 +14967,27 @@
       <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
       <arglist>(uint32_t spi)</arglist>
     </member>
+    <member kind="function">
+      <type>int</type>
+      <name>spi_init_master</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaa963b02acbae0939ec4537a8136873ed</anchor>
+      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_dff_8bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga715bcb5541f2908d16a661b0a6a07014</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_dff_16bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga6665731fd5d37e5dfb00f29f859e6c9c</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>timer_file</name>
@@ -16058,6 +15822,8 @@
     <file>pwr_common_all.h</file>
     <file>rtc_common_l1f024.h</file>
     <file>spi_common_all.h</file>
+    <file>spi_common_f03.h</file>
+    <file>spi_common_l1f124.h</file>
     <file>syscfg_common_l1f234.h</file>
     <file>timer_common_all.h</file>
     <file>usart_common_all.h</file>
@@ -16078,6 +15844,7 @@
     <file>pwr_common_all.c</file>
     <file>rtc_common_l1f024.c</file>
     <file>spi_common_all.c</file>
+    <file>spi_common_l1f124.c</file>
     <file>timer_common_all.c</file>
     <file>timer_common_f234.c</file>
     <file>usart_common_all.c</file>

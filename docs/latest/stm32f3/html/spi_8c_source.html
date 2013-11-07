@@ -155,41 +155,41 @@ $(document).ready(function(){initNavTree('spi_8c_source.html','');});
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/spi.h&gt;</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/rcc.h&gt;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="code" href="spi_8c.html#a4307af8c6b3812b86dfea621f1f40d37">   35</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#a4307af8c6b3812b86dfea621f1f40d37">spi_send8</a>(uint32_t spi, uint8_t data)</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="code" href="spi_8c.html#a4307af8c6b3812b86dfea621f1f40d37">   35</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8c.html#a4307af8c6b3812b86dfea621f1f40d37">spi_send8</a>(uint32_t spi, uint8_t data)</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="comment">/* Wait for transfer finished. */</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">while</span> (!(SPI_SR(spi) &amp; SPI_SR_TXE));</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="comment">/* Write data (8 or 16 bits, depending on DFF) into DR. */</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="group__spi__dff.html#gae77ec10f2c95483ec8b4f460401ba101">SPI_DR8</a>(spi) = data;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="spi_8h.html#ae77ec10f2c95483ec8b4f460401ba101">SPI_DR8</a>(spi) = data;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="spi_8c.html#a678fc0899ce572786e0ee3f875b80e91">   44</a></span>&#160;uint8_t <a class="code" href="spi_8h.html#a678fc0899ce572786e0ee3f875b80e91">spi_read8</a>(uint32_t spi)</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="spi_8c.html#a678fc0899ce572786e0ee3f875b80e91">   44</a></span>&#160;uint8_t <a class="code" href="spi_8c.html#a678fc0899ce572786e0ee3f875b80e91">spi_read8</a>(uint32_t spi)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">/* Wait for transfer finished. */</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">while</span> (!(SPI_SR(spi) &amp; SPI_SR_RXNE));</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">/* Read the data (8 or 16 bits, depending on DFF bit) from DR. */</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="group__spi__dff.html#gae77ec10f2c95483ec8b4f460401ba101">SPI_DR8</a>(spi);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="spi_8h.html#ae77ec10f2c95483ec8b4f460401ba101">SPI_DR8</a>(spi);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="spi_8c.html#a285ede0085fb67dd93f5f03835ffd508">   53</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#a285ede0085fb67dd93f5f03835ffd508">spi_set_data_size</a>(uint32_t spi, uint16_t data_s)</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="spi_8c.html#a285ede0085fb67dd93f5f03835ffd508">   53</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8c.html#a285ede0085fb67dd93f5f03835ffd508">spi_set_data_size</a>(uint32_t spi, uint16_t data_s)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        SPI_CR2(spi) = (SPI_CR2(spi) &amp; ~<a class="code" href="spi_8h.html#a2fe0744a4f6de1a1d94b27ed231fcb50">SPI_CR2_DS_MASK</a>) |</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                       (data_s &amp; <a class="code" href="spi_8h.html#a2fe0744a4f6de1a1d94b27ed231fcb50">SPI_CR2_DS_MASK</a>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        SPI_CR2(spi) = (SPI_CR2(spi) &amp; ~SPI_CR2_DS_MASK) |</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                       (data_s &amp; SPI_CR2_DS_MASK);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="code" href="spi_8c.html#ab28610e17dfebd2fb0c51a0d7b462d95">   59</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#ab28610e17dfebd2fb0c51a0d7b462d95">spi_fifo_reception_threshold_8bit</a>(uint32_t spi)</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="code" href="spi_8c.html#ab28610e17dfebd2fb0c51a0d7b462d95">   59</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8c.html#ab28610e17dfebd2fb0c51a0d7b462d95">spi_fifo_reception_threshold_8bit</a>(uint32_t spi)</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        SPI_CR2(spi) |= <a class="code" href="spi_8h.html#a6e02994914afef4270508bc3219db477">SPI_CR2_FRXTH</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        SPI_CR2(spi) |= SPI_CR2_FRXTH;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="code" href="spi_8c.html#a9dc4ebbea2dc313a7e0f5e3ba3754caf">   64</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#a9dc4ebbea2dc313a7e0f5e3ba3754caf">spi_fifo_reception_threshold_16bit</a>(uint32_t spi)</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="code" href="spi_8c.html#a9dc4ebbea2dc313a7e0f5e3ba3754caf">   64</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8c.html#a9dc4ebbea2dc313a7e0f5e3ba3754caf">spi_fifo_reception_threshold_16bit</a>(uint32_t spi)</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        SPI_CR2(spi) &amp;= ~<a class="code" href="spi_8h.html#a6e02994914afef4270508bc3219db477">SPI_CR2_FRXTH</a>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        SPI_CR2(spi) &amp;= ~SPI_CR2_FRXTH;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="code" href="spi_8c.html#a3106545d2b06f1a49911a48853a61fbe">   69</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8h.html#a3106545d2b06f1a49911a48853a61fbe">spi_i2s_mode_spi_mode</a>(uint32_t spi)</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="code" href="spi_8c.html#a3106545d2b06f1a49911a48853a61fbe">   69</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="spi_8c.html#a3106545d2b06f1a49911a48853a61fbe">spi_i2s_mode_spi_mode</a>(uint32_t spi)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        SPI_I2SCFGR(spi) &amp;= ~SPI_I2SCFGR_I2SMOD;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
@@ -199,7 +199,7 @@ $(document).ready(function(){initNavTree('spi_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_6129e60a2d034646ca59a325efd077d8.html">f3</a></li><li class="navelem"><a class="el" href="spi_8c.html">spi.c</a></li>
-    <li class="footer">Generated on Tue Oct 15 2013 14:21:30 for libopencm3 by
+    <li class="footer">Generated on Thu Nov 7 2013 23:21:39 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -14,7 +14,7 @@ var group__STM32F0xx__defines =
     [ "PWR Defines", "group__pwr__defines.html", null ],
     [ "RCC Defines", "group__rcc__defines.html", "group__rcc__defines" ],
     [ "RTC Defines", "group__rtc__defines.html", null ],
-    [ "SPI Defines", "group__spi__defines.html", "group__spi__defines" ],
+    [ "SPI Defines", "group__spi__defines.html", null ],
     [ "SYSCFG Defines", "group__syscfg__defines.html", null ],
     [ "Timers Defines", "group__timer__defines.html", null ],
     [ "TSC Defines", "group__tsc__defines.html", null ],

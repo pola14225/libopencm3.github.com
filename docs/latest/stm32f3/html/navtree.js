@@ -49,11 +49,11 @@ var NAVTREEINDEX =
 "crc__common__all_8h.html",
 "group__adc__file.html#gab2b359caa41226508e5414a9fdf18fcd",
 "group__i2c__defines.html#gacca626648d01faefbf9674f6012c015c",
-"group__timer__file.html#gadc5affbaaa9aced0f28cf3b7b385b67d",
-"i2c_8h.html#gae6502c5697d49a0c53e08ca2f9f594ba",
-"rcc_8h.html#a1df83f437951ec8a29a9c2f2b1fb52e4",
-"rcc_8h.html#afb0279b1f0ff35c2df728d9653cabc0c",
-"usart_8h.html#a2b2a490f110fd07aa44bed1819331a1e"
+"group__timer__file.html#gae4eef64c8f1c7d9a3c5f187541adb697",
+"i2c_8h.html#gaecf625d1b5f627653eb48a5a5c7b91cf",
+"rcc_8h.html#a22a7079ba87dd7acd5ed7fe7b704e85f",
+"rcc_8h.html#afc7f1df686835ef47013b29e8e37a1c1",
+"usart_8h.html#a50819242ec45fd838ebaa80093be05ac"
 ];
 
 var navTreeSubIndices = new Array();
