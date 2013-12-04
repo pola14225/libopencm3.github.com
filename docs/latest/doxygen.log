@@ -1,15 +1,15 @@
 error: Tag file `./stm32/stm32.tag' does not exist or is not a file. Skipping it...
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47200: warning: Duplicate anchor dac_api_dual found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47221: warning: Duplicate anchor dac_api_dual found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47200: warning: Duplicate anchor dac_api_basic_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47221: warning: Duplicate anchor dac_api_basic_ex found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47200: warning: Duplicate anchor dac_api_dma_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47221: warning: Duplicate anchor dac_api_dma_ex found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47200: warning: Duplicate anchor gpio_api_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47221: warning: Duplicate anchor gpio_api_ex found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47200: warning: Duplicate anchor tim_common found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47221: warning: Duplicate anchor tim_common found
 
-/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47200: warning: Duplicate anchor tim_api_ex found
+/home/esdentem/projects/libopencm3/libopencm3-git/doc/stm32f4/stm32f4.tag:47221: warning: Duplicate anchor tim_api_ex found
 
 <unknown>:1: warning: group adc_jsqr_jl: ignoring title "ADC Number of channels in discontinuous mode fro" that does not match old title "ADC Number of channels in discontinuous mode from"
 

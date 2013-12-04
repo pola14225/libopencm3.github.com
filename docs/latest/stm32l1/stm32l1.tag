@@ -11575,6 +11575,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>ST_VREFINT_CAL</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ab5bad40ac86464835f00d01559a3302d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ST_TSENSE_CAL1_30C</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a27770fe4499d5825fe65b1b4278401b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ST_TSENSE_CAL2_110C</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aec8ea3ca0b75d7fd5cc5bf6df1539dd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SPI1_I2S_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a6dda9efeddb04f07a4d82b1503c0db4e</anchor>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"structclock__scale__t.html#abd1b982df203472532b6016961fe657d":[11,1,7,0,1],
+"structclock__scale__t.html#ac8be876648665f481c96a13f39bfd70e":[11,1,7,0,3],
+"structclock__scale__t.html#ad569e0685f37c790a13ce62ba3d10fb9":[11,1,7,0,6],
 "structclock__scale__t.html#adf712c2b16e70d8a025694db5453b2cd":[11,1,7,0,10],
 "structclock__scale__t.html#af3d417bfd67229858e79c124c679fc01":[11,1,7,0,7],
 "syscfg_8h.html":[22,0,64],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "timer__common__all_8h.html#ga3d411d251a5ca841ecacd5b593754cd8":[22,0,69,74],
 "timer__common__all_8h.html#ga3e653890d2219bebb5800dd7d8c3505a":[22,0,69,231],
 "timer__common__all_8h.html#ga3e815edb3178b161ce7fd01cf86b8093":[22,0,69,428],
-"timer__common__all_8h.html#ga3e951cd3f6593e321cf79b662a1deaaa":[22,0,69,324],
-"timer__common__all_8h.html#ga3ee1951f478c34780dc65f1c609c79af":[22,0,69,326],
-"timer__common__all_8h.html#ga3f0a2d64498fd9eb6a7cd382fcc9b805":[22,0,69,15],
-"timer__common__all_8h.html#ga3f35c2a494c54b3e4c7cb702c8ca46df":[22,0,69,387]
+"timer__common__all_8h.html#ga3e951cd3f6593e321cf79b662a1deaaa":[22,0,69,324]
 };

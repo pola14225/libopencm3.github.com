@@ -14360,6 +14360,27 @@
       <anchor>a58267039858b45fc2b5948a79d8a038e</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ST_VREFINT_CAL</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ab5bad40ac86464835f00d01559a3302d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ST_TSENSE_CAL1_30C</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a27770fe4499d5825fe65b1b4278401b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ST_TSENSE_CAL2_110</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a180b2568bd311857514f6f845b36aeb0</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>pwr.c</name>

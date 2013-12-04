@@ -2,6 +2,9 @@ var searchData=
 [
   ['spi1_5fi2s1_5fbase',['SPI1_I2S1_BASE',['../memorymap_8h.html#a4cf20f8b08b1c126010f99c385cdcec2',1,'memorymap.h']]],
   ['spi2_5fbase',['SPI2_BASE',['../memorymap_8h.html#ac3e357b4c25106ed375fb1affab6bb86',1,'memorymap.h']]],
+  ['st_5ftsense_5fcal1_5f30c',['ST_TSENSE_CAL1_30C',['../memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6',1,'memorymap.h']]],
+  ['st_5ftsense_5fcal2_5f110',['ST_TSENSE_CAL2_110',['../memorymap_8h.html#a180b2568bd311857514f6f845b36aeb0',1,'memorymap.h']]],
+  ['st_5fvrefint_5fcal',['ST_VREFINT_CAL',['../memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d',1,'memorymap.h']]],
   ['syscfg_5fcfgr1',['SYSCFG_CFGR1',['../syscfg_8h.html#a4fbc0e616ec890f98cf73696cba93c9b',1,'syscfg.h']]],
   ['syscfg_5fcfgr1_5fadc_5fdma_5frmp',['SYSCFG_CFGR1_ADC_DMA_RMP',['../syscfg_8h.html#ad54abc7be3abb562bbd087897e3bc074',1,'syscfg.h']]],
   ['syscfg_5fcfgr1_5fi2c1_5ffmplus',['SYSCFG_CFGR1_I2C1_FMPLUS',['../syscfg_8h.html#a45263687fcf41de78c47ff9347bf5b62',1,'syscfg.h']]],

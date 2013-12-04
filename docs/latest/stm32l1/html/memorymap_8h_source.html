@@ -237,12 +237,17 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a121c59863db1db56b26e70978089b931">  111</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DESIG_UNIQUE_ID1                MMIO32(DESIG_UNIQUE_ID_BASE + 4)</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a58267039858b45fc2b5948a79d8a038e">  112</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DESIG_UNIQUE_ID2                MMIO32(DESIG_UNIQUE_ID_BASE + 0x14)</span></div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment">/* Make the map names match those for other families to allow commonality */</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a6dda9efeddb04f07a4d82b1503c0db4e">  115</a></span>&#160;<span class="preprocessor">#define SPI1_I2S_BASE       SPI1_BASE</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ab5b263aca05d63fcdd9a1d58b12eef52">  116</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI2_I2S_BASE       SPI2_BASE</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a4f321921fae1aed23d6e63e857b56669">  117</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI3_I2S_BASE       SPI3_BASE</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment">/* ST provided factory calibration values @ 3.0V */</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d">  115</a></span>&#160;<span class="preprocessor">#define ST_VREFINT_CAL                  MMIO16(0x1FF80078)</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6">  116</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ST_TSENSE_CAL1_30C              MMIO16(0x1FF8007A)</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aec8ea3ca0b75d7fd5cc5bf6df1539dd0">  117</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ST_TSENSE_CAL2_110C             MMIO16(0x1FF8007E)</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">/* Make the map names match those for other families to allow commonality */</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a6dda9efeddb04f07a4d82b1503c0db4e">  120</a></span>&#160;<span class="preprocessor">#define SPI1_I2S_BASE       SPI1_BASE</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ab5b263aca05d63fcdd9a1d58b12eef52">  121</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI2_I2S_BASE       SPI2_BASE</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a4f321921fae1aed23d6e63e857b56669">  122</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPI3_I2S_BASE       SPI3_BASE</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="memorymap_8h_html"><div class="ttname"><a href="../../cm3/html/memorymap_8h.html">memorymap.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -250,7 +255,7 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_5042fe5b58720bedf351b6ae0cadd586.html">l1</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Wed Dec 4 2013 23:40:00 for libopencm3 by
+    <li class="footer">Generated on Thu Dec 5 2013 00:21:12 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>
