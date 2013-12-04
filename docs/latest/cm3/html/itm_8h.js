@@ -1,6 +1,10 @@
 var itm_8h =
 [
-    [ "ITM_STIM", "itm_8h.html#a4ac203ba565be3dbee5ba9da2fd6a9db", null ],
+    [ "ITM_LAR", "itm_8h.html#af40951af1991b1b46200b122399187b3", null ],
+    [ "ITM_LSR", "itm_8h.html#af69b121ad9855a63ecdca38a74895b44", null ],
+    [ "ITM_STIM16", "itm_8h.html#ae0edd6a4d2a32e569800c1a41b4f49c4", null ],
+    [ "ITM_STIM32", "itm_8h.html#afd1e8011912b712f1a88fe1a78f24d13", null ],
+    [ "ITM_STIM8", "itm_8h.html#abd4042d94a1484166f88bb42ec86b44f", null ],
     [ "ITM_STIM_FIFOREADY", "itm_8h.html#a2c7572d391a2bff1f5a92994bb004bcb", null ],
     [ "ITM_TCR", "itm_8h.html#a935f0be267215442b7cffb0a191c7223", null ],
     [ "ITM_TCR_BUSY", "itm_8h.html#adc090027e495b730cfafe3198b091895", null ],

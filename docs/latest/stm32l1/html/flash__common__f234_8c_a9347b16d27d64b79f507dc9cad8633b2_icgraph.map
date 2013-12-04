@@ -1,5 +1,5 @@
 <map id="flash_set_ws" name="flash_set_ws">
-<area shape="rect" id="node3" href="$group__STM32L1xx__rcc__defines.html#ga3d30e886f8749e059865bd3fc7a14ccd" title="rcc_clock_setup_hsi" alt="" coords="155,5,296,35"/>
-<area shape="rect" id="node5" href="$group__STM32L1xx__rcc__defines.html#ga71d9ff219cb4e09c3cddbf383e8c47b3" title="rcc_clock_setup_msi" alt="" coords="153,59,297,88"/>
-<area shape="rect" id="node7" href="$group__STM32L1xx__rcc__defines.html#ga76b12063e828a7af960d375dee952d31" title="rcc_clock_setup_pll" alt="" coords="157,112,293,141"/>
+<area shape="rect" id="node3" href="$group__STM32L1xx__rcc__defines.html#ga3d30e886f8749e059865bd3fc7a14ccd" title="rcc_clock_setup_hsi" alt="" coords="155,5,296,38"/>
+<area shape="rect" id="node5" href="$group__STM32L1xx__rcc__defines.html#ga71d9ff219cb4e09c3cddbf383e8c47b3" title="rcc_clock_setup_msi" alt="" coords="153,61,297,94"/>
+<area shape="rect" id="node7" href="$group__STM32L1xx__rcc__defines.html#ga76b12063e828a7af960d375dee952d31" title="rcc_clock_setup_pll" alt="" coords="157,117,293,150"/>
 </map>

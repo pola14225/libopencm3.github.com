@@ -1,11 +1,5 @@
 var cdc_8h =
 [
-    [ "usb_cdc_header_descriptor", "structusb__cdc__header__descriptor.html", "structusb__cdc__header__descriptor" ],
-    [ "usb_cdc_union_descriptor", "structusb__cdc__union__descriptor.html", "structusb__cdc__union__descriptor" ],
-    [ "usb_cdc_call_management_descriptor", "structusb__cdc__call__management__descriptor.html", "structusb__cdc__call__management__descriptor" ],
-    [ "usb_cdc_acm_descriptor", "structusb__cdc__acm__descriptor.html", "structusb__cdc__acm__descriptor" ],
-    [ "usb_cdc_line_coding", "structusb__cdc__line__coding.html", "structusb__cdc__line__coding" ],
-    [ "usb_cdc_notification", "structusb__cdc__notification.html", "structusb__cdc__notification" ],
     [ "__attribute__", "cdc_8h.html#gab6677e82689abb017cf4e5590b1305fa", null ],
     [ "bcdCDC", "cdc_8h.html#a2bffb583550e4d83b4a2a4d735ece97f", null ],
     [ "bCharFormat", "cdc_8h.html#a296b7b4f7eaba228afa94b5f9854b86b", null ],

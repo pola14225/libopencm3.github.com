@@ -1,6 +1,5 @@
 var rcc_8h =
 [
-    [ "clock_scale_t", "structclock__scale__t.html", "structclock__scale__t" ],
     [ "RCC_AHBENR", "rcc_8h.html#gac80336b2b7c3c43e36370c84ab122b1f", null ],
     [ "RCC_AHBENR_CRCEN", "rcc_8h.html#gade3ee302bf659a2bfbf75e1a00630242", null ],
     [ "RCC_AHBENR_DMA1EN", "rcc_8h.html#gac8c3053f1ce37c9f643f0e31471927ea", null ],

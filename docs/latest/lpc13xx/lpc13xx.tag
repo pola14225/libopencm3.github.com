@@ -76,31 +76,31 @@
     </member>
   </compound>
   <compound kind="dir">
-    <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/</name>
+    <name>include</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
     <filename>dir_d44c64559bbebec7f509842c48db8b23.html</filename>
-    <dir>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</dir>
+    <dir>libopencm3</dir>
   </compound>
   <compound kind="dir">
-    <name>/home/esdentem/projects/libopencm3/libopencm3-git/lib/</name>
+    <name>lib</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/</path>
     <filename>dir_97aefd0d527b934f1d99a682da8fe6a9.html</filename>
-    <dir>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc13xx/</dir>
+    <dir>lpc13xx</dir>
   </compound>
   <compound kind="dir">
-    <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</name>
+    <name>libopencm3</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
     <filename>dir_6a7820b97a7704ff85bcff20dea7ce23.html</filename>
-    <dir>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc13xx/</dir>
+    <dir>lpc13xx</dir>
   </compound>
   <compound kind="dir">
-    <name>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc13xx/</name>
+    <name>lpc13xx</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc13xx/</path>
     <filename>dir_9ac93f0ab16d0df68bd1ed8c9eb6e1e0.html</filename>
     <file>gpio.c</file>
   </compound>
   <compound kind="dir">
-    <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc13xx/</name>
+    <name>lpc13xx</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc13xx/</path>
     <filename>dir_78dacd6b61454eade97c89bae3564eb7.html</filename>
     <file>doc-lpc13xx.h</file>

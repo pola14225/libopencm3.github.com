@@ -1,7 +1,7 @@
 <map id="_usbd_standard_request" name="_usbd_standard_request">
-<area shape="rect" id="node3" href="$group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="219,25,357,71"/>
-<area shape="rect" id="node5" href="$group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="405,7,565,36"/>
-<area shape="rect" id="node11" href="$usb__private_8h.html#a1a921e8785fafeee17c588aa26cff014" title="_usbd_control_out" alt="" coords="621,59,749,88"/>
-<area shape="rect" id="node7" href="$usb__private_8h.html#ad4bc495b7e757434644e1dece336b261" title="_usbd_control_setup" alt="" coords="615,5,756,35"/>
-<area shape="rect" id="node9" href="$group__usb__drivers__file.html#ga8bbc488106ca72c2b550c1c9f89d5748" title="Main initialization entry point." alt="" coords="805,32,880,61"/>
+<area shape="rect" id="node3" href="$group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="219,22,357,77"/>
+<area shape="rect" id="node5" href="$group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="405,6,565,39"/>
+<area shape="rect" id="node11" href="$usb__private_8h.html#a1a921e8785fafeee17c588aa26cff014" title="_usbd_control_out" alt="" coords="621,61,749,94"/>
+<area shape="rect" id="node7" href="$usb__private_8h.html#ad4bc495b7e757434644e1dece336b261" title="_usbd_control_setup" alt="" coords="615,5,756,38"/>
+<area shape="rect" id="node9" href="$group__usb__drivers__file.html#ga8bbc488106ca72c2b550c1c9f89d5748" title="Main initialization entry point. " alt="" coords="805,33,880,66"/>
 </map>

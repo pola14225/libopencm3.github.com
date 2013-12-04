@@ -384,6 +384,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>FPB_LSR</name>
+      <anchorfile>fpb_8h.html</anchorfile>
+      <anchor>a2f5f54cd11274358422ad95ce95fd510</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FPB_LAR</name>
+      <anchorfile>fpb_8h.html</anchorfile>
+      <anchor>a8f1e06736e694a4a4e4929c58289595b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>FPB_CTRL_NUM_CODE2_MASK</name>
       <anchorfile>fpb_8h.html</anchorfile>
       <anchor>affc13bdab603d085c0f7bcd58350f406</anchor>
@@ -466,10 +480,24 @@
     <filename>itm_8h</filename>
     <member kind="define">
       <type>#define</type>
-      <name>ITM_STIM</name>
+      <name>ITM_STIM8</name>
       <anchorfile>itm_8h.html</anchorfile>
-      <anchor>a4ac203ba565be3dbee5ba9da2fd6a9db</anchor>
-      <arglist></arglist>
+      <anchor>abd4042d94a1484166f88bb42ec86b44f</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ITM_STIM16</name>
+      <anchorfile>itm_8h.html</anchorfile>
+      <anchor>ae0edd6a4d2a32e569800c1a41b4f49c4</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ITM_STIM32</name>
+      <anchorfile>itm_8h.html</anchorfile>
+      <anchor>afd1e8011912b712f1a88fe1a78f24d13</anchor>
+      <arglist>(n)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -490,6 +518,20 @@
       <name>ITM_TCR</name>
       <anchorfile>itm_8h.html</anchorfile>
       <anchor>a935f0be267215442b7cffb0a191c7223</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ITM_LSR</name>
+      <anchorfile>itm_8h.html</anchorfile>
+      <anchor>af69b121ad9855a63ecdca38a74895b44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ITM_LAR</name>
+      <anchorfile>itm_8h.html</anchorfile>
+      <anchor>af40951af1991b1b46200b122399187b3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1607,9 +1649,44 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>SCS_DWT_LSR</name>
+      <anchorfile>scs_8h.html</anchorfile>
+      <anchor>a20662a57eb5361e053db9dc019eef7c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SCS_DWT_LAR</name>
+      <anchorfile>scs_8h.html</anchorfile>
+      <anchor>aa77e0ad0914bb7429d83b76306065e78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SCS_DWT_CTRL_CYCCNTENA</name>
       <anchorfile>scs_8h.html</anchorfile>
       <anchor>a0814b32671ec81ef1b0fe1855200a343</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SCS_LSR_SLK</name>
+      <anchorfile>scs_8h.html</anchorfile>
+      <anchor>aef62bdc10663a98d3edb9b1aa95937e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SCS_LSR_SLI</name>
+      <anchorfile>scs_8h.html</anchorfile>
+      <anchor>a2c511dfedb698bc7fe5e98733e84e716</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SCS_LAR_KEY</name>
+      <anchorfile>scs_8h.html</anchorfile>
+      <anchor>a53433a110b199ad51ddbc4cc7a0eecd5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1954,44 +2031,16 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TPIU_SSPSR_BYTE</name>
+      <name>TPIU_LSR</name>
       <anchorfile>tpiu_8h.html</anchorfile>
-      <anchor>a5680b37afcd01ed3f091c59b0813c3a8</anchor>
+      <anchor>af953912baf13340fd4a81cfb4ad71d99</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TPIU_SSPSR_HALFWORD</name>
+      <name>TPIU_LAR</name>
       <anchorfile>tpiu_8h.html</anchorfile>
-      <anchor>a65d37121f5bed672d360259d98f0ae95</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TPIU_SSPSR_WORD</name>
-      <anchorfile>tpiu_8h.html</anchorfile>
-      <anchor>a28490c0155a385403d315bd14953e3d6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TPIU_CSPSR_BYTE</name>
-      <anchorfile>tpiu_8h.html</anchorfile>
-      <anchor>a48b19f62a98db8ff6206b30a6d04bc52</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TPIU_CSPSR_HALFWORD</name>
-      <anchorfile>tpiu_8h.html</anchorfile>
-      <anchor>a7037bd8477d7f3c536cddb628cb5aa27</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TPIU_CSPSR_WORD</name>
-      <anchorfile>tpiu_8h.html</anchorfile>
-      <anchor>a9a460b4e2d7c68c833ed400ca6e8b12b</anchor>
+      <anchor>ab976c60354252320159aac96b0b328bd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2737,7 +2786,7 @@
     </member>
   </compound>
   <compound kind="dir">
-    <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</name>
+    <name>cm3</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
     <filename>dir_88dec37158d6513a5d9049c3580b18ba.html</filename>
     <file>assert.h</file>
@@ -2757,16 +2806,16 @@
     <file>vector.h</file>
   </compound>
   <compound kind="dir">
-    <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/</name>
+    <name>include</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
     <filename>dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html</filename>
-    <dir>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</dir>
+    <dir>libopencm3</dir>
   </compound>
   <compound kind="dir">
-    <name>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</name>
+    <name>libopencm3</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
     <filename>dir_e1040081471ffd682e8357aa53c82f70.html</filename>
-    <dir>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</dir>
+    <dir>cm3</dir>
   </compound>
   <compound kind="page">
     <name>index</name>

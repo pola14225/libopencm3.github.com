@@ -1,6 +1,6 @@
 <map id="LM4F" name="LM4F">
-<area shape="rect" id="node1" href="$group__rcc__file.html" title="libopencm3 LM4F Clock control API" alt="" coords="113,5,164,35"/>
-<area shape="rect" id="node2" href="$group__gpio__file.html" title="libopencm3 LM4F General Purpose I/O" alt="" coords="112,59,165,88"/>
-<area shape="rect" id="node4" href="$group__uart__file.html" title="libopencm3 LM4F Universal Asynchronous Receiver Transmitter" alt="" coords="109,112,168,141"/>
-<area shape="rect" id="node5" href="$group__usb__file.html" title="libopencm3 LM4F Universal Serial Bus controller " alt="" coords="113,165,164,195"/>
+<area shape="rect" id="node1" href="$group__rcc__file.html" title="libopencm3 LM4F Clock control API " alt="" coords="113,5,164,38"/>
+<area shape="rect" id="node2" href="$group__gpio__file.html" title="libopencm3 LM4F General Purpose I/O " alt="" coords="112,61,165,94"/>
+<area shape="rect" id="node4" href="$group__uart__file.html" title="libopencm3 LM4F Universal Asynchronous Receiver Transmitter " alt="" coords="109,117,168,150"/>
+<area shape="rect" id="node5" href="$group__usb__file.html" title="libopencm3 LM4F Universal Serial Bus controller &#160;" alt="" coords="113,173,164,206"/>
 </map>

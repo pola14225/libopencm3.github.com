@@ -1,7 +1,7 @@
 <map id="rtc_enable_wakeup_timer" name="rtc_enable_wakeup_timer">
-<area shape="rect" id="node3" href="$rtc_8h.html#a4c6724c645e96d2741e262d5468d5827" title="Enable the wakeup timer interrupt." alt="" coords="224,77,395,123"/>
-<area shape="rect" id="node5" href="$exti__common__all_8c.html#acb53c6b7ac0a8908568b7a1f7bc50d25" title="exti_enable_request" alt="" coords="443,5,581,35"/>
-<area shape="rect" id="node7" href="$exti__common__all_8c.html#a8b05a3586764aeb0dd1366dd46616a65" title="exti_set_trigger" alt="" coords="457,59,567,88"/>
-<area shape="rect" id="node9" href="cm3.tag$group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179" title="nvic_enable_irq" alt="" coords="456,112,568,141"/>
-<area shape="rect" id="node11" href="cm3.tag$group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66" title="nvic_set_priority" alt="" coords="453,165,571,195"/>
+<area shape="rect" id="node3" href="$rtc_8h.html#a4c6724c645e96d2741e262d5468d5827" title="Enable the wakeup timer interrupt. " alt="" coords="224,78,395,133"/>
+<area shape="rect" id="node5" href="$exti__common__all_8h.html#acb53c6b7ac0a8908568b7a1f7bc50d25" title="exti_enable_request" alt="" coords="443,5,581,38"/>
+<area shape="rect" id="node7" href="$exti__common__all_8h.html#a8b05a3586764aeb0dd1366dd46616a65" title="exti_set_trigger" alt="" coords="457,61,567,94"/>
+<area shape="rect" id="node9" href="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag$group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179" title="nvic_enable_irq" alt="" coords="456,117,568,150"/>
+<area shape="rect" id="node11" href="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag$group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66" title="nvic_set_priority" alt="" coords="453,173,571,206"/>
 </map>

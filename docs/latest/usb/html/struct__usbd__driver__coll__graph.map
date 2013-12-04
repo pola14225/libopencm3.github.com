@@ -1,11 +1,11 @@
 <map id="_usbd_driver" name="_usbd_driver">
-<area shape="rect" id="node2" href="$struct__usbd__device.html" title="Internal collection of device information." alt="" coords="1137,92,1239,121"/>
-<area shape="rect" id="node19" href="$struct__usbd__device_1_1user__control__callback.html" title="_usbd_device::user\l_control_callback" alt="" coords="1420,83,1553,130"/>
-<area shape="rect" id="node4" href="$structusb__config__descriptor.html" title="usb_config_descriptor" alt="" coords="844,79,993,108"/>
-<area shape="rect" id="node6" href="$structusb__config__descriptor_1_1usb__interface.html" title="usb_config_descriptor\l::usb_interface" alt="" coords="576,70,725,117"/>
-<area shape="rect" id="node8" href="$structusb__iface__assoc__descriptor.html" title="usb_iface_assoc_descriptor" alt="" coords="269,55,453,84"/>
-<area shape="rect" id="node10" href="$structusb__interface__descriptor.html" title="usb_interface_descriptor" alt="" coords="280,108,443,137"/>
-<area shape="rect" id="node12" href="$structusb__endpoint__descriptor.html" title="usb_endpoint_descriptor" alt="" coords="5,108,168,137"/>
-<area shape="rect" id="node15" href="$struct__usbd__device_1_1usb__control__state.html" title="_usbd_device::usb_control\l_state" alt="" coords="831,131,1007,178"/>
-<area shape="rect" id="node17" href="$structusb__device__descriptor.html" title="usb_device_descriptor" alt="" coords="843,201,995,231"/>
+<area shape="rect" id="node2" href="$struct__usbd__device.html" title="Internal collection of device information. " alt="" coords="1137,102,1239,135"/>
+<area shape="rect" id="node19" href="$struct__usbd__device_1_1user__control__callback.html" title="_usbd_device::user\l_control_callback" alt="" coords="1420,91,1553,146"/>
+<area shape="rect" id="node4" href="$structusb__config__descriptor.html" title="usb_config_descriptor" alt="" coords="844,87,993,121"/>
+<area shape="rect" id="node6" href="$structusb__config__descriptor_1_1usb__interface.html" title="usb_config_descriptor\l::usb_interface" alt="" coords="576,77,725,131"/>
+<area shape="rect" id="node8" href="$structusb__iface__assoc__descriptor.html" title="usb_iface_assoc_descriptor" alt="" coords="269,61,453,94"/>
+<area shape="rect" id="node10" href="$structusb__interface__descriptor.html" title="usb_interface_descriptor" alt="" coords="280,117,443,150"/>
+<area shape="rect" id="node12" href="$structusb__endpoint__descriptor.html" title="usb_endpoint_descriptor" alt="" coords="5,117,168,150"/>
+<area shape="rect" id="node15" href="$struct__usbd__device_1_1usb__control__state.html" title="_usbd_device::usb_control\l_state" alt="" coords="831,143,1007,198"/>
+<area shape="rect" id="node17" href="$structusb__device__descriptor.html" title="usb_device_descriptor" alt="" coords="843,221,995,254"/>
 </map>

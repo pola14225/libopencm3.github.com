@@ -1,4 +1,5 @@
 <map id="PWR Defines" name="PWR Defines">
-<area shape="rect" id="node2" href="$group__pwr__vos.html" title="Voltage Scaling Output\l level selection" alt="" coords="348,5,503,51"/>
-<area shape="rect" id="node3" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series." alt="" coords="5,13,147,43"/>
+<area shape="rect" id="node2" href="$group__pwr__vos.html" title="Voltage Scaling Output\l level selection" alt="" coords="347,5,501,59"/>
+<area shape="rect" id="node4" href="$group__pwr__pls.html" title="PVD level selection" alt="" coords="356,82,492,115"/>
+<area shape="rect" id="node3" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series. " alt="" coords="5,49,147,82"/>
 </map>

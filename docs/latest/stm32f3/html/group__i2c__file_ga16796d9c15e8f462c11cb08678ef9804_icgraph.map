@@ -1,4 +1,4 @@
 <map id="i2c_set_7bit_address" name="i2c_set_7bit_address">
-<area shape="rect" id="node3" href="$group__i2c__file.html#gabd519f2c336ccb28340f331258208bde" title="read_i2c" alt="" coords="203,5,272,35"/>
-<area shape="rect" id="node5" href="$group__i2c__file.html#ga64b868336511980e666d8763953b5c9e" title="write_i2c" alt="" coords="200,59,275,88"/>
+<area shape="rect" id="node3" href="$group__i2c__file.html#gabd519f2c336ccb28340f331258208bde" title="read_i2c" alt="" coords="203,5,272,38"/>
+<area shape="rect" id="node5" href="$group__i2c__file.html#ga64b868336511980e666d8763953b5c9e" title="write_i2c" alt="" coords="200,61,275,94"/>
 </map>

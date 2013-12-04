@@ -32,6 +32,8 @@ var searchData=
   ['rcc_5fusart1',['RCC_USART1',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a6f9bc1664f1972e622f9228606caa3b8',1,'rcc.h']]],
   ['rcc_5fusart2',['RCC_USART2',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48aa4be48dd043f5d74f5e4eb9d2516b87b',1,'rcc.h']]],
   ['rcc_5fwwdg',['RCC_WWDG',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a1965878d5b5e1b68e85a92ad2da94514',1,'rcc.h']]],
+  ['right12',['RIGHT12',['../group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3cad408f5668e25f95a1de8445228d5c815',1,'dac_common_all.h']]],
+  ['right8',['RIGHT8',['../group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca30397d5f6477c6e6281797ef363c43d9',1,'dac_common_all.h']]],
   ['rst_5fadc',['RST_ADC',['../group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a92653b0219f77f8e958a3c01020d6ba5',1,'rcc.h']]],
   ['rst_5fbackupdomain',['RST_BACKUPDOMAIN',['../group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718acb94f0c57f7e4ac8a32dc442d3182cec',1,'rcc.h']]],
   ['rst_5fcec',['RST_CEC',['../group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a311d0176ee435d5b7b0281908743b88a',1,'rcc.h']]],

@@ -1,3 +1,10 @@
 <map id="SPI Defines" name="SPI Defines">
-<area shape="rect" id="node2" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series." alt="" coords="5,5,147,35"/>
+<area shape="rect" id="node1" href="$group__spi__reg__base.html" title="SPI Register base address" alt="" coords="336,5,515,38"/>
+<area shape="rect" id="node2" href="$group__spi__dff.html" title="SPI data frame format" alt="" coords="351,61,500,94"/>
+<area shape="rect" id="node3" href="$group__spi__cpha.html" title="SPI clock phase" alt="" coords="367,117,484,150"/>
+<area shape="rect" id="node5" href="$group__spi__lsbfirst.html" title="SPI lsb/msb first" alt="" coords="365,173,485,206"/>
+<area shape="rect" id="node7" href="$group__spi__cpol.html" title="SPI clock polarity" alt="" coords="363,229,488,262"/>
+<area shape="rect" id="node8" href="$group__spi__baudrate.html" title="SPI peripheral baud\l rates" alt="" coords="357,285,493,339"/>
+<area shape="rect" id="node9" href="$group__spi__br__pre.html" title="SPI peripheral baud\l rate prescale values" alt="" coords="355,362,496,417"/>
+<area shape="rect" id="node6" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series. " alt="" coords="5,173,147,206"/>
 </map>

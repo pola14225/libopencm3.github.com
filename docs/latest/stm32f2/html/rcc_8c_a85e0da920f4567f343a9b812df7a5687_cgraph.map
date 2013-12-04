@@ -1,11 +1,11 @@
 <map id="rcc_clock_setup_hse_3v3" name="rcc_clock_setup_hse_3v3">
-<area shape="rect" id="node3" href="$flash__common__f234_8c.html#a9347b16d27d64b79f507dc9cad8633b2" title="flash_set_ws" alt="" coords="257,5,356,35"/>
-<area shape="rect" id="node5" href="$rcc_8h.html#a8dbd64d58e019803bf109609203d1afd" title="rcc_osc_on" alt="" coords="263,59,351,88"/>
-<area shape="rect" id="node7" href="$rcc_8h.html#ae192b2cd0f37124db5ed76d599a5671b" title="rcc_set_hpre" alt="" coords="259,112,355,141"/>
-<area shape="rect" id="node9" href="$rcc_8h.html#ac9cad56153485b68efc5c3b444beddd4" title="rcc_set_main_pll_hse" alt="" coords="233,165,380,195"/>
-<area shape="rect" id="node11" href="$rcc_8h.html#aaf1b9174131b00a7014c0328a53a65a1" title="rcc_set_ppre1" alt="" coords="255,219,359,248"/>
-<area shape="rect" id="node13" href="$rcc_8h.html#ac40c9478480f3a44c381c15482a563cd" title="rcc_set_ppre2" alt="" coords="255,272,359,301"/>
-<area shape="rect" id="node15" href="$rcc_8h.html#a2c291271812c333d975807cd5ec99a36" title="rcc_set_sysclk_source" alt="" coords="229,325,384,355"/>
-<area shape="rect" id="node17" href="$rcc_8h.html#a0f9fac6ac510e119aebe5f62c53f073a" title="rcc_wait_for_osc_ready" alt="" coords="227,379,387,408"/>
-<area shape="rect" id="node19" href="$rcc_8h.html#a6472eba195686b970de6216ab61ebd7c" title="rcc_wait_for_sysclk\l_status" alt="" coords="237,431,376,478"/>
+<area shape="rect" id="node3" href="$flash__common__f234_8h.html#a9347b16d27d64b79f507dc9cad8633b2" title="flash_set_ws" alt="" coords="257,5,356,38"/>
+<area shape="rect" id="node5" href="$rcc_8h.html#a8dbd64d58e019803bf109609203d1afd" title="rcc_osc_on" alt="" coords="263,61,351,94"/>
+<area shape="rect" id="node7" href="$rcc_8h.html#ae192b2cd0f37124db5ed76d599a5671b" title="rcc_set_hpre" alt="" coords="259,117,355,150"/>
+<area shape="rect" id="node9" href="$rcc_8h.html#ac9cad56153485b68efc5c3b444beddd4" title="rcc_set_main_pll_hse" alt="" coords="233,173,380,206"/>
+<area shape="rect" id="node11" href="$rcc_8h.html#aaf1b9174131b00a7014c0328a53a65a1" title="rcc_set_ppre1" alt="" coords="255,229,359,262"/>
+<area shape="rect" id="node13" href="$rcc_8h.html#ac40c9478480f3a44c381c15482a563cd" title="rcc_set_ppre2" alt="" coords="255,285,359,318"/>
+<area shape="rect" id="node15" href="$rcc_8h.html#a2c291271812c333d975807cd5ec99a36" title="rcc_set_sysclk_source" alt="" coords="229,341,384,374"/>
+<area shape="rect" id="node17" href="$rcc_8h.html#a0f9fac6ac510e119aebe5f62c53f073a" title="rcc_wait_for_osc_ready" alt="" coords="227,397,387,430"/>
+<area shape="rect" id="node19" href="$rcc_8h.html#a6472eba195686b970de6216ab61ebd7c" title="rcc_wait_for_sysclk\l_status" alt="" coords="237,453,376,507"/>
 </map>

@@ -1,18 +1,23 @@
 <map id="GPIO Defines" name="GPIO Defines">
-<area shape="rect" id="node1" href="$group__afio__remap__can1.html" title="Alternate Function\l Remap Controls for CAN 1" alt="" coords="363,5,547,51"/>
-<area shape="rect" id="node2" href="$group__afio__remap__cld.html" title="Line Devices only." alt="" coords="385,75,524,139"/>
-<area shape="rect" id="node3" href="$group__STM32F1xx__defines.html" title="Defined Constants and Types for the STM32F1xx series." alt="" coords="7,453,148,483"/>
-<area shape="rect" id="node4" href="$group__gpio__mode.html" title="GPIO Pin Mode" alt="" coords="397,163,512,192"/>
-<area shape="rect" id="node5" href="$group__gpio__cnf.html" title="If mode specifies input, configuration can be." alt="" coords="376,216,533,245"/>
-<area shape="rect" id="node6" href="$group__gpio__port__id.html" title="GPIO Port IDs" alt="" coords="401,269,508,299"/>
-<area shape="rect" id="node7" href="$group__afio__evcr__pin.html" title="EVENTOUT Pin selection" alt="" coords="368,323,541,352"/>
-<area shape="rect" id="node8" href="$group__afio__exti.html" title="Alternate Function\l EXTI pin number" alt="" coords="391,375,519,422"/>
-<area shape="rect" id="node10" href="$group__afio__remap2.html" title="Alternate Function\l Remap Controls Secondary Set" alt="" coords="349,445,560,491"/>
-<area shape="rect" id="node11" href="$group__afio__evcr__port.html" title="EVENTOUT Port selection" alt="" coords="365,515,544,544"/>
-<area shape="rect" id="node12" href="$group__afio__remap.html" title="Alternate Function\l Remap Controls" alt="" coords="391,567,519,614"/>
-<area shape="rect" id="node13" href="$group__afio__remap__usart3.html" title="Alternate Function\l Remap Controls for\l USART 3" alt="" coords="385,637,524,701"/>
-<area shape="rect" id="node14" href="$group__afio__swj__disable.html" title="Serial Wire JTAG disables" alt="" coords="367,725,543,755"/>
-<area shape="rect" id="node15" href="$group__afio__remap__tim1.html" title="Alternate Function\l Remap Controls for\l Timer 1" alt="" coords="385,779,524,843"/>
-<area shape="rect" id="node16" href="$group__afio__remap__tim2.html" title="Alternate Function\l Remap Controls for\l Timer 2" alt="" coords="385,867,524,931"/>
-<area shape="rect" id="node17" href="$group__afio__remap__tim3.html" title="Alternate Function\l Remap Controls for\l Timer 3" alt="" coords="385,955,524,1019"/>
+<area shape="rect" id="node1" href="$group__gpio__pin__id.html" title="GPIO Pin Identifiers" alt="" coords="385,5,524,38"/>
+<area shape="rect" id="node2" href="$group__gpio__output__type.html" title="Push Pull &#160;Open Drain " alt="" coords="359,61,551,94"/>
+<area shape="rect" id="node3" href="$group__afio__remap__can1.html" title="Alternate Function\l Remap Controls for CAN 1" alt="" coords="363,117,547,171"/>
+<area shape="rect" id="node4" href="$group__afio__remap__cld.html" title="Line Devices only. " alt="" coords="385,194,524,270"/>
+<area shape="rect" id="node5" href="$group__STM32F1xx__defines.html" title="Defined Constants and Types for the STM32F1xx series. " alt="" coords="7,606,148,639"/>
+<area shape="rect" id="node6" href="$group__gpio__mode.html" title="GPIO Pin Mode" alt="" coords="397,293,512,326"/>
+<area shape="rect" id="node7" href="$group__gpio__cnf.html" title="If mode specifies input, configuration can be. " alt="" coords="376,349,533,382"/>
+<area shape="rect" id="node8" href="$group__gpio__speed.html" title="GPIO Output Pin Speed" alt="" coords="373,405,536,438"/>
+<area shape="rect" id="node9" href="$group__gpio__pup.html" title="GPIO Output Pin Pullup" alt="" coords="375,461,535,494"/>
+<area shape="rect" id="node10" href="$group__gpio__port__id.html" title="GPIO Port IDs" alt="" coords="401,517,508,550"/>
+<area shape="rect" id="node11" href="$group__afio__evcr__pin.html" title="EVENTOUT Pin selection" alt="" coords="368,573,541,606"/>
+<area shape="rect" id="node12" href="$group__gpio__af__num.html" title="Alternate Function\l Pin Selection" alt="" coords="391,629,519,683"/>
+<area shape="rect" id="node13" href="$group__afio__exti.html" title="Alternate Function\l EXTI pin number" alt="" coords="391,706,519,761"/>
+<area shape="rect" id="node15" href="$group__afio__remap2.html" title="Alternate Function\l Remap Controls Secondary Set" alt="" coords="349,783,560,838"/>
+<area shape="rect" id="node16" href="$group__afio__evcr__port.html" title="EVENTOUT Port selection" alt="" coords="365,861,544,894"/>
+<area shape="rect" id="node17" href="$group__afio__remap.html" title="Alternate Function\l Remap Controls" alt="" coords="391,917,519,971"/>
+<area shape="rect" id="node18" href="$group__afio__remap__usart3.html" title="Alternate Function\l Remap Controls for\l USART 3" alt="" coords="385,994,524,1070"/>
+<area shape="rect" id="node19" href="$group__afio__swj__disable.html" title="Serial Wire JTAG disables" alt="" coords="368,1093,541,1126"/>
+<area shape="rect" id="node20" href="$group__afio__remap__tim1.html" title="Alternate Function\l Remap Controls for\l Timer 1" alt="" coords="385,1149,524,1225"/>
+<area shape="rect" id="node21" href="$group__afio__remap__tim2.html" title="Alternate Function\l Remap Controls for\l Timer 2" alt="" coords="385,1247,524,1323"/>
+<area shape="rect" id="node22" href="$group__afio__remap__tim3.html" title="Alternate Function\l Remap Controls for\l Timer 3" alt="" coords="385,1346,524,1422"/>
 </map>

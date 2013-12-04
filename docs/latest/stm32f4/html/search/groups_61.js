@@ -16,6 +16,8 @@ var searchData=
   ['adc_20trigger_20identifier_20for_20regular_20group',['ADC Trigger Identifier for Regular group',['../group__adc__trigger__regular.html',1,'']]],
   ['adc_20watchdog_20channel',['ADC watchdog channel',['../group__adc__watchdog__channel.html',1,'']]],
   ['api_20_28for_20f42xx_20or_20f43xx_20only_29',['API (for F42xx or F43xx only)',['../group__crypto__api.html',1,'']]],
+  ['api_20_28generic_29',['API (Generic)',['../group__crypto__api__gen.html',1,'']]],
+  ['alternate_20function_20pin_20selection',['Alternate Function Pin Selection',['../group__gpio__af__num.html',1,'']]],
   ['adc_20defines',['ADC Defines',['../group__STM32F4xx__adc__defines.html',1,'']]],
   ['adc',['ADC',['../group__STM32F4xx__adc__file.html',1,'']]]
 ];

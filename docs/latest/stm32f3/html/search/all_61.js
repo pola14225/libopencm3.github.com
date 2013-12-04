@@ -336,10 +336,13 @@ var searchData=
   ['adc_5fjsqr_5fjl_5f3_5fconversions',['ADC_JSQR_JL_3_CONVERSIONS',['../adc_8h.html#abb1d54acdbe759bf049c3bef374d8192',1,'adc.h']]],
   ['adc_5fjsqr_5fjl_5f4_5fconversions',['ADC_JSQR_JL_4_CONVERSIONS',['../adc_8h.html#a129ce9def1debbeac93e41b4b52e7703',1,'adc.h']]],
   ['adc_5fjsqr_5fjl_5flsb',['ADC_JSQR_JL_LSB',['../adc_8h.html#a5de6fc1832c959e4d6caff4991383752',1,'adc.h']]],
+  ['adc_5fjsqr_5fjl_5fshift',['ADC_JSQR_JL_SHIFT',['../adc_8h.html#ad1220f2cb4f1a6ef9613c4e884b761e0',1,'adc.h']]],
+  ['adc_5fjsqr_5fjl_5fval',['ADC_JSQR_JL_VAL',['../adc_8h.html#a244139b4a14d7a4c9760f5cc6da43b74',1,'adc.h']]],
   ['adc_5fjsqr_5fjsq1_5flsb',['ADC_JSQR_JSQ1_LSB',['../adc_8h.html#a1cc573927f776cbad045bcbaa67cd85c',1,'adc.h']]],
   ['adc_5fjsqr_5fjsq2_5flsb',['ADC_JSQR_JSQ2_LSB',['../adc_8h.html#a0d0868797d7c295c9f780a0b035f12cb',1,'adc.h']]],
   ['adc_5fjsqr_5fjsq3_5flsb',['ADC_JSQR_JSQ3_LSB',['../adc_8h.html#af54e4d83fd3e1adddfd673d09877f224',1,'adc.h']]],
   ['adc_5fjsqr_5fjsq4_5flsb',['ADC_JSQR_JSQ4_LSB',['../adc_8h.html#a381d087af319941eead086e683c2e54f',1,'adc.h']]],
+  ['adc_5fjsqr_5fjsq_5fval',['ADC_JSQR_JSQ_VAL',['../adc_8h.html#a349b7c58d316a87cd5f494638030df4b',1,'adc.h']]],
   ['adc_5foff',['adc_off',['../group__adc__file.html#ga929c3401331118aecf2aba217d88a108',1,'adc_off(uint32_t adc):&#160;adc.c'],['../group__adc__file.html#ga929c3401331118aecf2aba217d88a108',1,'adc_off(uint32_t adc):&#160;adc.c']]],
   ['adc_5fofr1',['ADC_OFR1',['../adc_8h.html#a733578091903c54a9bac14fccedb9eb6',1,'adc.h']]],
   ['adc_5fofr1_5foffset1_5fen',['ADC_OFR1_OFFSET1_EN',['../adc_8h.html#a47e0d0a06ebf3276d9c278ef3e7ccbc7',1,'adc.h']]],
@@ -431,5 +434,6 @@ var searchData=
   ['advanced_5ftimers',['ADVANCED_TIMERS',['../group__timer__file.html#ga711ae4623ab95c5cad3d35fd10cb2859',1,'timer_common_all.c']]],
   ['apb1_5ffrequency',['apb1_frequency',['../structclock__scale__t.html#a0efec8dad9231991558c458c12a9b909',1,'clock_scale_t']]],
   ['apb2_5ffrequency',['apb2_frequency',['../structclock__scale__t.html#abd1b982df203472532b6016961fe657d',1,'clock_scale_t']]],
-  ['assert_2eh',['assert.h',['../../../cm3/html/assert_8h.html',1,'']]]
+  ['assert_2eh',['assert.h',['../../../cm3/html/assert_8h.html',1,'']]],
+  ['alternate_20function_20pin_20selection',['Alternate Function Pin Selection',['../group__gpio__af__num.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 <map id="i2c_enable_autoend" name="i2c_enable_autoend">
-<area shape="rect" id="node3" href="$group__i2c__file.html#gabd519f2c336ccb28340f331258208bde" title="read_i2c" alt="" coords="195,5,264,35"/>
-<area shape="rect" id="node5" href="$group__i2c__file.html#ga64b868336511980e666d8763953b5c9e" title="write_i2c" alt="" coords="192,59,267,88"/>
+<area shape="rect" id="node3" href="$group__i2c__file.html#gabd519f2c336ccb28340f331258208bde" title="read_i2c" alt="" coords="195,5,264,38"/>
+<area shape="rect" id="node5" href="$group__i2c__file.html#ga64b868336511980e666d8763953b5c9e" title="write_i2c" alt="" coords="192,61,267,94"/>
 </map>

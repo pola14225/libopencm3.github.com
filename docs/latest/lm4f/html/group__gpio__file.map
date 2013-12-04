@@ -1,6 +1,6 @@
 <map id="GPIO" name="GPIO">
-<area shape="rect" id="node3" href="$group__gpio__config.html" title="Enabling and configuring GPIO pins" alt="" coords="213,5,368,35"/>
-<area shape="rect" id="node4" href="$group__gpio__irq.html" title="Configuring interrupts from GPIO pins" alt="" coords="216,59,365,88"/>
-<area shape="rect" id="node5" href="$group__gpio__control.html" title="Controlling GPIO pins" alt="" coords="232,112,349,141"/>
-<area shape="rect" id="node2" href="$group__LM4Fxx.html" title="Libraries for TI Stellaris LM4F series." alt="" coords="7,59,60,88"/>
+<area shape="rect" id="node3" href="$group__gpio__config.html" title="Enabling and configuring GPIO pins " alt="" coords="213,5,368,38"/>
+<area shape="rect" id="node4" href="$group__gpio__irq.html" title="Configuring interrupts from GPIO pins " alt="" coords="216,61,365,94"/>
+<area shape="rect" id="node5" href="$group__gpio__control.html" title="Controlling GPIO pins " alt="" coords="232,117,349,150"/>
+<area shape="rect" id="node2" href="$group__LM4Fxx.html" title="Libraries for TI Stellaris LM4F series. " alt="" coords="7,61,60,94"/>
 </map>

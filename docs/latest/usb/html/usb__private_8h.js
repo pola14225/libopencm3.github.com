@@ -1,6 +1,5 @@
 var usb__private_8h =
 [
-    [ "_usbd_device", "struct__usbd__device.html", "struct__usbd__device" ],
     [ "usb_control_state", "struct__usbd__device_1_1usb__control__state.html", "struct__usbd__device_1_1usb__control__state" ],
     [ "user_control_callback", "struct__usbd__device_1_1user__control__callback.html", "struct__usbd__device_1_1user__control__callback" ],
     [ "_usbd_driver", "struct__usbd__driver.html", "struct__usbd__driver" ],

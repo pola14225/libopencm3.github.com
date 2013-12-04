@@ -1,6 +1,5 @@
 var dfu_8h =
 [
-    [ "usb_dfu_descriptor", "structusb__dfu__descriptor.html", "structusb__dfu__descriptor" ],
     [ "dfu_req", "dfu_8h.html#ga1eb1afd96bccc953e4c19022df7d2171", [
       [ "DFU_DETACH", "dfu_8h.html#gga1eb1afd96bccc953e4c19022df7d2171ab8e18a7fd7b5b1899c5b57fa69faac69", null ],
       [ "DFU_DNLOAD", "dfu_8h.html#gga1eb1afd96bccc953e4c19022df7d2171aa3d14f787e4880e7c6b931f05070330f", null ],

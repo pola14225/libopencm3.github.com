@@ -1,5 +1,5 @@
 <map id="pwr_set_vos_scale" name="pwr_set_vos_scale">
-<area shape="rect" id="node3" href="$group__STM32L1xx__rcc__defines.html#ga3d30e886f8749e059865bd3fc7a14ccd" title="rcc_clock_setup_hsi" alt="" coords="192,5,333,35"/>
-<area shape="rect" id="node5" href="$group__STM32L1xx__rcc__defines.html#ga71d9ff219cb4e09c3cddbf383e8c47b3" title="rcc_clock_setup_msi" alt="" coords="191,59,335,88"/>
-<area shape="rect" id="node7" href="$group__STM32L1xx__rcc__defines.html#ga76b12063e828a7af960d375dee952d31" title="rcc_clock_setup_pll" alt="" coords="195,112,331,141"/>
+<area shape="rect" id="node3" href="$group__STM32L1xx__rcc__defines.html#ga3d30e886f8749e059865bd3fc7a14ccd" title="rcc_clock_setup_hsi" alt="" coords="192,5,333,38"/>
+<area shape="rect" id="node5" href="$group__STM32L1xx__rcc__defines.html#ga71d9ff219cb4e09c3cddbf383e8c47b3" title="rcc_clock_setup_msi" alt="" coords="191,61,335,94"/>
+<area shape="rect" id="node7" href="$group__STM32L1xx__rcc__defines.html#ga76b12063e828a7af960d375dee952d31" title="rcc_clock_setup_pll" alt="" coords="195,117,331,150"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="uart_send_blocking" name="uart_send_blocking">
-<area shape="rect" id="node3" href="$group__uart__defines.html#ga225444640f9510f126a597004fe3dcfc" title="UART Send a Data Word." alt="" coords="225,5,303,35"/>
-<area shape="rect" id="node5" href="$group__uart__defines.html#ga9546f62d7bb1695a34748ae418d2ed7f" title="UART Wait for Transmit Data Buffer Not Full." alt="" coords="189,59,339,88"/>
+<area shape="rect" id="node3" href="$group__uart__defines.html#ga225444640f9510f126a597004fe3dcfc" title="UART Send a Data Word. " alt="" coords="225,5,303,38"/>
+<area shape="rect" id="node5" href="$group__uart__defines.html#ga9546f62d7bb1695a34748ae418d2ed7f" title="UART Wait for Transmit Data Buffer Not Full. " alt="" coords="189,61,339,94"/>
 </map>

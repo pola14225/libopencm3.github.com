@@ -339,6 +339,7 @@ var searchData=
   ['adc_5fjsqr_5fjl_5flsb',['ADC_JSQR_JL_LSB',['../adc_8h.html#a5de6fc1832c959e4d6caff4991383752',1,'adc.h']]],
   ['adc_5fjsqr_5fjl_5fmsk',['ADC_JSQR_JL_MSK',['../adc_8h.html#a879de268e46807ada83b9c9c1f04fd67',1,'adc.h']]],
   ['adc_5fjsqr_5fjl_5fshift',['ADC_JSQR_JL_SHIFT',['../adc_8h.html#ad1220f2cb4f1a6ef9613c4e884b761e0',1,'adc.h']]],
+  ['adc_5fjsqr_5fjl_5fval',['ADC_JSQR_JL_VAL',['../adc_8h.html#a244139b4a14d7a4c9760f5cc6da43b74',1,'adc.h']]],
   ['adc_5fjsqr_5fjsq1_5flsb',['ADC_JSQR_JSQ1_LSB',['../adc_8h.html#a1cc573927f776cbad045bcbaa67cd85c',1,'adc.h']]],
   ['adc_5fjsqr_5fjsq1_5fmsk',['ADC_JSQR_JSQ1_MSK',['../adc_8h.html#aa112893c55b5d2bb97781edf3fb77a43',1,'adc.h']]],
   ['adc_5fjsqr_5fjsq2_5flsb',['ADC_JSQR_JSQ2_LSB',['../adc_8h.html#a0d0868797d7c295c9f780a0b035f12cb',1,'adc.h']]],
@@ -347,6 +348,7 @@ var searchData=
   ['adc_5fjsqr_5fjsq3_5fmsk',['ADC_JSQR_JSQ3_MSK',['../adc_8h.html#aa523b506b309a5984206994e3e448ff4',1,'adc.h']]],
   ['adc_5fjsqr_5fjsq4_5flsb',['ADC_JSQR_JSQ4_LSB',['../adc_8h.html#a381d087af319941eead086e683c2e54f',1,'adc.h']]],
   ['adc_5fjsqr_5fjsq4_5fmsk',['ADC_JSQR_JSQ4_MSK',['../adc_8h.html#a74eaabc439c27e5aa25e15a7f559b280',1,'adc.h']]],
+  ['adc_5fjsqr_5fjsq_5fval',['ADC_JSQR_JSQ_VAL',['../adc_8h.html#a349b7c58d316a87cd5f494638030df4b',1,'adc.h']]],
   ['adc_5flt_5flsb',['ADC_LT_LSB',['../adc_8h.html#a294e5223072fb995b645f1ed730a1a4c',1,'adc.h']]],
   ['adc_5flt_5fmsk',['ADC_LT_MSK',['../adc_8h.html#aaddb1cd35d2bed152e80b1096e1b82b4',1,'adc.h']]],
   ['adc_5fltr',['ADC_LTR',['../adc_8h.html#a34fbae24f12816c8fd9ae2fc3e4d22be',1,'adc.h']]],
@@ -477,6 +479,8 @@ var searchData=
   ['apb2_5ffrequency',['apb2_frequency',['../structclock__scale__t.html#abd1b982df203472532b6016961fe657d',1,'clock_scale_t']]],
   ['assert_2eh',['assert.h',['../../../cm3/html/assert_8h.html',1,'']]],
   ['api_20_28for_20f42xx_20or_20f43xx_20only_29',['API (for F42xx or F43xx only)',['../group__crypto__api.html',1,'']]],
+  ['api_20_28generic_29',['API (Generic)',['../group__crypto__api__gen.html',1,'']]],
+  ['alternate_20function_20pin_20selection',['Alternate Function Pin Selection',['../group__gpio__af__num.html',1,'']]],
   ['adc_20defines',['ADC Defines',['../group__STM32F4xx__adc__defines.html',1,'']]],
   ['adc',['ADC',['../group__STM32F4xx__adc__file.html',1,'']]]
 ];

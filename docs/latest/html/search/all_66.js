@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['fifo_20status',['FIFO Status',['../../stm32f4/html/group__dma__fifo__status.html',1,'']]],
+  ['fifo_20threshold_20selection',['FIFO Threshold selection',['../../stm32f4/html/group__dma__fifo__thresh.html',1,'']]],
   ['flash_2ec',['flash.c',['../../stm32f1/html/flash_8c.html',1,'']]],
   ['flash_2eh',['flash.h',['../../stm32f1/html/flash_8h.html',1,'(Global Namespace)'],['../../stm32f4/html/flash_8h.html',1,'(Global Namespace)']]],
   ['flash_5fcommon_5ff234_2ec',['flash_common_f234.c',['../../stm32f1/html/flash__common__f234_8c.html',1,'(Global Namespace)'],['../../stm32f4/html/flash__common__f234_8c.html',1,'(Global Namespace)']]],

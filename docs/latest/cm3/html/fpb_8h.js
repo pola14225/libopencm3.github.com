@@ -13,5 +13,7 @@ var fpb_8h =
     [ "FPB_CTRL_NUM_CODE1_MASK", "fpb_8h.html#a7871d5bc782c4cb2104daf142e316461", null ],
     [ "FPB_CTRL_NUM_CODE2_MASK", "fpb_8h.html#affc13bdab603d085c0f7bcd58350f406", null ],
     [ "FPB_CTRL_NUM_LIT_MASK", "fpb_8h.html#aa621fd596a273155a561d3bda7744f6c", null ],
+    [ "FPB_LAR", "fpb_8h.html#a8f1e06736e694a4a4e4929c58289595b", null ],
+    [ "FPB_LSR", "fpb_8h.html#a2f5f54cd11274358422ad95ce95fd510", null ],
     [ "FPB_REMAP", "fpb_8h.html#a2825f195122e711b4f758a6d40ae30e9", null ]
 ];

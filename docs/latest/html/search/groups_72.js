@@ -1,6 +1,7 @@
 var searchData=
 [
   ['registers_20_28for_20f42xx_20or_20f43xx_20only_29',['Registers (for F42xx or F43xx only)',['../../stm32f4/html/group__crypto__defines__registers.html',1,'']]],
+  ['registers_20_28generic_29',['Registers (Generic)',['../../stm32f4/html/group__crypto__registers__gen.html',1,'']]],
   ['rcc_5fahbenr_20enable_20values',['RCC_AHBENR enable values',['../../stm32f1/html/group__rcc__ahbenr__en.html',1,'']]],
   ['rcc_5fahbrstr_20reset_20values',['RCC_AHBRSTR reset values',['../../stm32f1/html/group__rcc__ahbrstr__rst.html',1,'']]],
   ['rcc_5fapb1enr_20enable_20values',['RCC_APB1ENR enable values',['../../stm32f1/html/group__rcc__apb1enr__en.html',1,'']]],

@@ -1,6 +1,6 @@
 <map id="_usbd_control_in" name="_usbd_control_in">
-<area shape="rect" id="node3" href="$group__usb__control__file.html#gaf6f522923d66ffdea79fbbd4decc31d4" title="stall_transaction" alt="" coords="199,5,316,35"/>
-<area shape="rect" id="node7" href="$group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="175,59,340,88"/>
-<area shape="rect" id="node5" href="$group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="usbd_ep_stall_set" alt="" coords="403,5,528,35"/>
-<area shape="rect" id="node9" href="$group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f" title="usbd_ep_write_packet" alt="" coords="389,59,541,88"/>
+<area shape="rect" id="node3" href="$group__usb__control__file.html#gaf6f522923d66ffdea79fbbd4decc31d4" title="stall_transaction" alt="" coords="199,5,316,38"/>
+<area shape="rect" id="node7" href="$group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="175,61,340,94"/>
+<area shape="rect" id="node5" href="$group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="usbd_ep_stall_set" alt="" coords="403,5,528,38"/>
+<area shape="rect" id="node9" href="$group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f" title="usbd_ep_write_packet" alt="" coords="389,61,541,94"/>
 </map>

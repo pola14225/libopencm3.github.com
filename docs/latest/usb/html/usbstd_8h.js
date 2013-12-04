@@ -1,15 +1,7 @@
 var usbstd_8h =
 [
-    [ "usb_setup_data", "structusb__setup__data.html", "structusb__setup__data" ],
-    [ "usb_device_descriptor", "structusb__device__descriptor.html", "structusb__device__descriptor" ],
-    [ "usb_device_qualifier_descriptor", "structusb__device__qualifier__descriptor.html", "structusb__device__qualifier__descriptor" ],
-    [ "usb_config_descriptor", "structusb__config__descriptor.html", "structusb__config__descriptor" ],
     [ "usb_interface", "structusb__config__descriptor_1_1usb__interface.html", "structusb__config__descriptor_1_1usb__interface" ],
     [ "usb_interface", "structusb__interface.html", "structusb__interface" ],
-    [ "usb_interface_descriptor", "structusb__interface__descriptor.html", "structusb__interface__descriptor" ],
-    [ "usb_endpoint_descriptor", "structusb__endpoint__descriptor.html", "structusb__endpoint__descriptor" ],
-    [ "usb_string_descriptor", "structusb__string__descriptor.html", "structusb__string__descriptor" ],
-    [ "usb_iface_assoc_descriptor", "structusb__iface__assoc__descriptor.html", "structusb__iface__assoc__descriptor" ],
     [ "usb_language_id", "usbstd_8h.html#gaca86007d66ae94421fd4f93c0b96b04a", [
       [ "USB_LANGID_ENGLISH_US", "usbstd_8h.html#ggaca86007d66ae94421fd4f93c0b96b04aa069b825fab4882505aca430300ecc9a8", null ]
     ] ],

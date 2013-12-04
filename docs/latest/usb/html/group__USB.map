@@ -1,5 +1,5 @@
 <map id="Generic USB" name="Generic USB">
-<area shape="rect" id="node1" href="$group__usb__drivers__file.html" title="Generic USB Drivers" alt="" coords="157,5,301,35"/>
-<area shape="rect" id="node2" href="$group__usb__standard__file.html" title="Generic USB Standard Request Interface" alt="" coords="152,58,307,105"/>
-<area shape="rect" id="node3" href="$group__usb__control__file.html" title="Generic USB Control Requests" alt="" coords="157,127,301,174"/>
+<area shape="rect" id="node1" href="$group__usb__drivers__file.html" title="Generic USB Drivers " alt="" coords="157,5,301,38"/>
+<area shape="rect" id="node2" href="$group__usb__standard__file.html" title="Generic USB Standard Request Interface " alt="" coords="152,61,307,115"/>
+<area shape="rect" id="node3" href="$group__usb__control__file.html" title="Generic USB Control Requests " alt="" coords="157,138,301,193"/>
 </map>

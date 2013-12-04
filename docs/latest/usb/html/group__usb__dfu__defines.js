@@ -1,6 +1,13 @@
 var group__usb__dfu__defines =
 [
-    [ "usb_dfu_descriptor", "structusb__dfu__descriptor.html", null ],
+    [ "usb_dfu_descriptor", "structusb__dfu__descriptor.html", [
+      [ "bcdDFUVersion", "structusb__dfu__descriptor.html#ac917f4ae3b4cda852e7e23a1378cc584", null ],
+      [ "bDescriptorType", "structusb__dfu__descriptor.html#a545d551fdf9612abab9679ad9092fe21", null ],
+      [ "bLength", "structusb__dfu__descriptor.html#aaae3ed6f5fc202453e5a295b25c391e0", null ],
+      [ "bmAttributes", "structusb__dfu__descriptor.html#a6eda776c2fa8ad9e92da5a9c0771c017", null ],
+      [ "wDetachTimeout", "structusb__dfu__descriptor.html#a1c30b936c3e7ab6d94cd14464394a818", null ],
+      [ "wTransferSize", "structusb__dfu__descriptor.html#a6f28ae6870039d8ba994a2aed1d6b8b9", null ]
+    ] ],
     [ "dfu_req", "group__usb__dfu__defines.html#ga1eb1afd96bccc953e4c19022df7d2171", [
       [ "DFU_DETACH", "group__usb__dfu__defines.html#gga1eb1afd96bccc953e4c19022df7d2171ab8e18a7fd7b5b1899c5b57fa69faac69", null ],
       [ "DFU_DNLOAD", "group__usb__dfu__defines.html#gga1eb1afd96bccc953e4c19022df7d2171aa3d14f787e4880e7c6b931f05070330f", null ],

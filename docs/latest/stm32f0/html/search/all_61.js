@@ -194,5 +194,6 @@ var searchData=
   ['adc_5ftr_5flt_5fshift',['ADC_TR_LT_SHIFT',['../adc_8h.html#af607827edc90ae4b4d8aab1e8fe54f86',1,'adc.h']]],
   ['adc_5ftr_5flt_5fval',['ADC_TR_LT_VAL',['../adc_8h.html#a1f21850632bf5fd8a235937d2a7435e0',1,'adc.h']]],
   ['advanced_5ftimers',['ADVANCED_TIMERS',['../group__timer__file.html#ga711ae4623ab95c5cad3d35fd10cb2859',1,'timer_common_all.c']]],
-  ['assert_2eh',['assert.h',['../../../cm3/html/assert_8h.html',1,'']]]
+  ['assert_2eh',['assert.h',['../../../cm3/html/assert_8h.html',1,'']]],
+  ['alternate_20function_20pin_20selection',['Alternate Function Pin Selection',['../group__gpio__af__num.html',1,'']]]
 ];

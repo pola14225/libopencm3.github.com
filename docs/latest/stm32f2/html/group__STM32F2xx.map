@@ -1,12 +1,12 @@
 <map id="STM32F2xx" name="STM32F2xx">
-<area shape="rect" id="node1" href="$group__gpio__file.html" title="libopencm3 STM32F2xx General Purpose I/O" alt="" coords="155,5,208,35"/>
-<area shape="rect" id="node3" href="$group__dac__file.html" title="libopencm3 STM32F2xx DAC" alt="" coords="156,59,207,88"/>
-<area shape="rect" id="node4" href="$group__usart__file.html" title="libopencm3 STM32F2xx USART" alt="" coords="148,112,215,141"/>
-<area shape="rect" id="node5" href="$group__iwdg__file.html" title="libopencm3 STM32F2xx Independent Watchdog Timer" alt="" coords="152,165,211,195"/>
-<area shape="rect" id="node6" href="$group__dma__file.html" title="libopencm3 STM32F2xx DMA" alt="" coords="156,219,207,248"/>
-<area shape="rect" id="node7" href="$group__rtc__file.html" title="libopencm3 STM32F2xx RTC" alt="" coords="156,272,207,301"/>
-<area shape="rect" id="node8" href="$group__spi__file.html" title="libopencm3 STM32F2xx SPI" alt="" coords="160,325,203,355"/>
-<area shape="rect" id="node9" href="$group__crc__file.html" title="libopencm3 STM32F2xx CRC" alt="" coords="156,379,207,408"/>
-<area shape="rect" id="node10" href="$group__i2c__file.html" title="libopencm3 STM32F2xx I2C" alt="" coords="160,432,203,461"/>
-<area shape="rect" id="node11" href="$group__timer__file.html" title="libopencm3 STM32F2xx Timers" alt="" coords="151,485,212,515"/>
+<area shape="rect" id="node1" href="$group__gpio__file.html" title="libopencm3 STM32F2xx General Purpose I/O " alt="" coords="155,5,208,38"/>
+<area shape="rect" id="node3" href="$group__dac__file.html" title="libopencm3 STM32F2xx DAC " alt="" coords="156,61,207,94"/>
+<area shape="rect" id="node4" href="$group__usart__file.html" title="libopencm3 STM32F2xx USART " alt="" coords="148,117,215,150"/>
+<area shape="rect" id="node5" href="$group__iwdg__file.html" title="libopencm3 STM32F2xx Independent Watchdog Timer " alt="" coords="152,173,211,206"/>
+<area shape="rect" id="node6" href="$group__dma__file.html" title="libopencm3 STM32F2xx DMA " alt="" coords="156,229,207,262"/>
+<area shape="rect" id="node7" href="$group__rtc__file.html" title="libopencm3 STM32F2xx RTC " alt="" coords="157,285,205,318"/>
+<area shape="rect" id="node8" href="$group__spi__file.html" title="libopencm3 STM32F2xx SPI " alt="" coords="160,341,203,374"/>
+<area shape="rect" id="node9" href="$group__crc__file.html" title="libopencm3 STM32F2xx CRC " alt="" coords="156,397,207,430"/>
+<area shape="rect" id="node10" href="$group__i2c__file.html" title="libopencm3 STM32F2xx I2C " alt="" coords="160,453,203,486"/>
+<area shape="rect" id="node11" href="$group__timer__file.html" title="libopencm3 STM32F2xx Timers " alt="" coords="151,509,212,542"/>
 </map>

@@ -1,11 +1,11 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:187: warning: Member gpio_enable_ahb_aperture found in multiple @defgroup groups! The member will be put in group gpio_config, and not in group gpio_file
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:442: warning: Member gpio_toggle found in multiple @defgroup groups! The member will be put in group gpio_control, and not in group gpio_file
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:529: warning: Member gpio_configure_trigger found in multiple @defgroup groups! The member will be put in group gpio_irq, and not in group gpio_file
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:94: warning: Member uart_enable found in multiple @defgroup groups! The member will be put in group uart_config, and not in group uart_file
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:276: warning: Member uart_send found in multiple @defgroup groups! The member will be put in group uart_send_recv, and not in group uart_file
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:431: warning: Member uart_enable_interrupts found in multiple @defgroup groups! The member will be put in group uart_irq, and not in group uart_file
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:528: warning: Member uart_enable_rx_dma found in multiple @defgroup groups! The member will be put in group uart_dma, and not in group uart_file
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:595: warning: Member uart_enable_fifo found in multiple @defgroup groups! The member will be put in group uart_fifo, and not in group uart_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:186: warning: Member gpio_enable_ahb_aperture found in multiple @defgroup groups! The member will be put in group gpio_config, and not in group gpio_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:441: warning: Member gpio_toggle found in multiple @defgroup groups! The member will be put in group gpio_control, and not in group gpio_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:527: warning: Member gpio_configure_trigger found in multiple @defgroup groups! The member will be put in group gpio_irq, and not in group gpio_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:93: warning: Member uart_enable found in multiple @defgroup groups! The member will be put in group uart_config, and not in group uart_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:275: warning: Member uart_send found in multiple @defgroup groups! The member will be put in group uart_send_recv, and not in group uart_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:430: warning: Member uart_enable_interrupts found in multiple @defgroup groups! The member will be put in group uart_irq, and not in group uart_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:527: warning: Member uart_enable_rx_dma found in multiple @defgroup groups! The member will be put in group uart_dma, and not in group uart_file
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:594: warning: Member uart_enable_fifo found in multiple @defgroup groups! The member will be put in group uart_fifo, and not in group uart_file
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:199: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/systemcontrol.h:201: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
