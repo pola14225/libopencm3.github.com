@@ -174,96 +174,88 @@ $(document).ready(function(){initNavTree('systick_8h_source.html','');});
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/* --- SYSTICK registers --------------------------------------------------- */</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/* Control and status register (STK_CTRL) */</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga4cff03f1bbb43e57798d6321e8bb966d">   52</a></span>&#160;<span class="preprocessor">#define STK_CTRL                        MMIO32(SYS_TICK_BASE + 0x00)</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga664a648a1ef9d90dd280176c5ec547c0">   53</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR                         MMIO32(SYS_TICK_BASE + 0x00)</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">/* reload value register (STK_LOAD) */</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga93cbd55f028c079c458d5159983a0684">   56</a></span>&#160;<span class="preprocessor">#define STK_LOAD                        MMIO32(SYS_TICK_BASE + 0x04)</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga6617c6912a90b37c034e0eeb2e12ec0b">   57</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_RVR                         MMIO32(SYS_TICK_BASE + 0x04)</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">/* current value register (STK_VAL) */</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga9944fae2f819211da9884f03db333ad8">   60</a></span>&#160;<span class="preprocessor">#define STK_VAL                         MMIO32(SYS_TICK_BASE + 0x08)</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#gafcba0d0cff7c416138b78b1ed1198b6e">   61</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CVR                         MMIO32(SYS_TICK_BASE + 0x08)</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga664a648a1ef9d90dd280176c5ec547c0">   52</a></span>&#160;<span class="preprocessor">#define STK_CSR                         MMIO32(SYS_TICK_BASE + 0x00)</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">/* reload value register (STK_LOAD) */</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga6617c6912a90b37c034e0eeb2e12ec0b">   55</a></span>&#160;<span class="preprocessor">#define STK_RVR                         MMIO32(SYS_TICK_BASE + 0x04)</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">/* current value register (STK_VAL) */</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#gafcba0d0cff7c416138b78b1ed1198b6e">   58</a></span>&#160;<span class="preprocessor">#define STK_CVR                         MMIO32(SYS_TICK_BASE + 0x08)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/* calibration value register (STK_CALIB) */</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga2008449261a84462413fc10e8e949ac4">   61</a></span>&#160;<span class="preprocessor">#define STK_CALIB                       MMIO32(SYS_TICK_BASE + 0x0C)</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">/* calibration value register (STK_CALIB) */</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga2008449261a84462413fc10e8e949ac4">   64</a></span>&#160;<span class="preprocessor">#define STK_CALIB                       MMIO32(SYS_TICK_BASE + 0x0C)</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">/* --- STK_CSR values ------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">/* Bits [31:17] Reserved, must be kept cleared. */</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">/* COUNTFLAG: */</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#gac5f30ad5e55e9dc971d6b9ea6f70d1e6">   69</a></span>&#160;<span class="preprocessor">#define STK_CTRL_COUNTFLAG              (1 &lt;&lt; 16)</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga0a6a69a143a4257ed517033163524886">   70</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_COUNTFLAG               (1 &lt;&lt; 16)</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">/* Bits [15:3] Reserved, must be kept cleared. */</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">/* CLKSOURCE: Clock source selection */</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga9208ea3c44b11078f41e57c2f8116867">   74</a></span>&#160;<span class="preprocessor">#define STK_CTRL_CLKSOURCE_LSB          2</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#gac9907e5cfaab9cdd79a0dfc991b64b9d">   75</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CTRL_CLKSOURCE              (1 &lt;&lt; STK_CTRL_CLKSOURCE_LSB)</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga82177cdbc9fdc0126a2a74cf808d7969">   77</a></span>&#160;<span class="preprocessor">#define STK_CSR_CLKSOURCE_LSB           2</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga8f8123030d6e5d7d21a1ef3cbc815b5e">   78</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_CLKSOURCE               (1 &lt;&lt; STK_CSR_CLKSOURCE_LSB)</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">/** @defgroup systick_clksource Clock source selection</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">@ingroup CM3_systick_defines</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">@{*/</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#if defined(__ARM_ARCH_6M__)</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_CLKSOURCE_EXT           (0 &lt;&lt; STK_CSR_CLKSOURCE_LSB)</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_CLKSOURCE_AHB           (1 &lt;&lt; STK_CSR_CLKSOURCE_LSB)</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="group__systick__clksource.html#ga42f74063acb08704c7aec2daf8bff4b1">   88</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CTRL_CLKSOURCE_AHB_DIV8     (0 &lt;&lt; STK_CTRL_CLKSOURCE_LSB)</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="group__systick__clksource.html#ga4cf91426a66d9f5b1b4733d135dd1c86">   89</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CTRL_CLKSOURCE_AHB          (1 &lt;&lt; STK_CTRL_CLKSOURCE_LSB)</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">/* TICKINT: SysTick exception request enable */</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga6236c3e2e19f815302f80e6c837d3fc0">   94</a></span>&#160;<span class="preprocessor">#define STK_CTRL_TICKINT                (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga829e6dbb8ecf50d36aa8258e2cf1587c">   95</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_TICKINT                 (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor"></span><span class="comment">/* ENABLE: Counter enable */</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga5cf11266bec61702a8197ba714513b40">   97</a></span>&#160;<span class="preprocessor">#define STK_CTRL_ENABLE                 (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga803c330982edfbbeac7b14ab081e849d">   98</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_ENABLE                  (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">/* --- STK_RVR values ------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">/* Bits [31:24] Reserved, must be kept cleared. */</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">/* RELOAD[23:0]: RELOAD value */</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga46f593f0f43644aeb67692011d4a5b14">  103</a></span>&#160;<span class="preprocessor">#define STK_RVR_RELOAD                  0x00FFFFFF</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">/* --- STK_CVR values ------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">/* Bits [31:24] Reserved, must be kept cleared. */</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">/* CURRENT[23:0]: Current counter value */</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga8cba67ffa9205688bd0478bd794c1a04">  109</a></span>&#160;<span class="preprocessor">#define STK_CVR_CURRENT                 0x00FFFFFF</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">/* --- STK_CALIB values ---------------------------------------------------- */</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">/* NOREF: NOREF flag */</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#gab4de9cbeea2f3f747a9b02cbb6bf976a">  114</a></span>&#160;<span class="preprocessor">#define STK_CALIB_NOREF                 (1 &lt;&lt; 31)</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor"></span><span class="comment">/* SKEW: SKEW flag */</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#gab3b16fa14f4b2e1be896c24df74f92d3">  116</a></span>&#160;<span class="preprocessor">#define STK_CALIB_SKEW                  (1 &lt;&lt; 30)</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [29:24] Reserved, must be kept cleared. */</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment">/* TENMS[23:0]: Calibration value */</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga7a4687e38762c3838584db6d0ae136be">  119</a></span>&#160;<span class="preprocessor">#define STK_CALIB_TENMS                 0x00FFFFFF</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment">/* --- Function Prototypes ------------------------------------------------- */</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<a class="code" href="common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#gaaa997323bf7f3378eb78a6277abc913f">systick_set_reload</a>(uint32_t value);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;uint32_t <a class="code" href="group__CM3__systick__defines.html#gad26b5b9932a41cfe9e3600431b918831">systick_get_reload</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;uint32_t <a class="code" href="group__CM3__systick__defines.html#gae6a4663107e824d7fe2936bdcbead94c">systick_get_value</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#ga13726e0964b31c85269beddbdc1d35e7">systick_set_clocksource</a>(uint8_t clocksource);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#ga062163783d8d4106c8b945ed97b4decc">systick_interrupt_enable</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#gaee4e252973ddd7c5ffaa872da3b6a3fe">systick_interrupt_disable</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a">systick_counter_enable</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4">systick_counter_disable</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;uint8_t <a class="code" href="group__CM3__systick__defines.html#ga04dd39e8ef61f9d6be437a43fc16dcdf">systick_get_countflag</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;uint32_t <a class="code" href="group__CM3__systick__defines.html#ga4351bcd52c07a23b5b999b062c123084">systick_get_calib</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<a class="code" href="common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">/* --- STK_CSR values ------------------------------------------------------ */</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">/* Bits [31:17] Reserved, must be kept cleared. */</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/* COUNTFLAG: */</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga0a6a69a143a4257ed517033163524886">   66</a></span>&#160;<span class="preprocessor">#define STK_CSR_COUNTFLAG               (1 &lt;&lt; 16)</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">/* Bits [15:3] Reserved, must be kept cleared. */</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">/* CLKSOURCE: Clock source selection */</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga82177cdbc9fdc0126a2a74cf808d7969">   70</a></span>&#160;<span class="preprocessor">#define STK_CSR_CLKSOURCE_LSB           2</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga8f8123030d6e5d7d21a1ef3cbc815b5e">   71</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_CLKSOURCE               (1 &lt;&lt; STK_CSR_CLKSOURCE_LSB)</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">/** @defgroup systick_clksource Clock source selection</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">@ingroup CM3_systick_defines</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">@{*/</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#if defined(__ARM_ARCH_6M__)</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_CLKSOURCE_EXT           (0 &lt;&lt; STK_CSR_CLKSOURCE_LSB)</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_CLKSOURCE_AHB           (1 &lt;&lt; STK_CSR_CLKSOURCE_LSB)</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="group__systick__clksource.html#gadd7bddb11536d5eafa34bacbf5673811">   81</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_CLKSOURCE_AHB_DIV8      (0 &lt;&lt; STK_CSR_CLKSOURCE_LSB)</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="group__systick__clksource.html#gad4e608afdf933e1ac6656cd06681ade5">   82</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STK_CSR_CLKSOURCE_AHB           (1 &lt;&lt; STK_CSR_CLKSOURCE_LSB)</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* TICKINT: SysTick exception request enable */</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga829e6dbb8ecf50d36aa8258e2cf1587c">   87</a></span>&#160;<span class="preprocessor">#define STK_CSR_TICKINT                 (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor"></span><span class="comment">/* ENABLE: Counter enable */</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga803c330982edfbbeac7b14ab081e849d">   89</a></span>&#160;<span class="preprocessor">#define STK_CSR_ENABLE                  (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">/* --- STK_RVR values ------------------------------------------------------ */</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/* Bits [31:24] Reserved, must be kept cleared. */</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">/* RELOAD[23:0]: RELOAD value */</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga46f593f0f43644aeb67692011d4a5b14">   94</a></span>&#160;<span class="preprocessor">#define STK_RVR_RELOAD                  0x00FFFFFF</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">/* --- STK_CVR values ------------------------------------------------------ */</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">/* Bits [31:24] Reserved, must be kept cleared. */</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">/* CURRENT[23:0]: Current counter value */</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga8cba67ffa9205688bd0478bd794c1a04">  100</a></span>&#160;<span class="preprocessor">#define STK_CVR_CURRENT                 0x00FFFFFF</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">/* --- STK_CALIB values ---------------------------------------------------- */</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">/* NOREF: NOREF flag */</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#gab4de9cbeea2f3f747a9b02cbb6bf976a">  105</a></span>&#160;<span class="preprocessor">#define STK_CALIB_NOREF                 (1 &lt;&lt; 31)</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor"></span><span class="comment">/* SKEW: SKEW flag */</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#gab3b16fa14f4b2e1be896c24df74f92d3">  107</a></span>&#160;<span class="preprocessor">#define STK_CALIB_SKEW                  (1 &lt;&lt; 30)</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor"></span><span class="comment">/* Bits [29:24] Reserved, must be kept cleared. */</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">/* TENMS[23:0]: Calibration value */</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="group__CM3__systick__defines.html#ga7a4687e38762c3838584db6d0ae136be">  110</a></span>&#160;<span class="preprocessor">#define STK_CALIB_TENMS                 0x00FFFFFF</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">/* --- Function Prototypes ------------------------------------------------- */</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<a class="code" href="common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#gaaa997323bf7f3378eb78a6277abc913f">systick_set_reload</a>(uint32_t value);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__CM3__systick__defines.html#ga7986a46de67e6396e366316f1c9e2437">systick_set_frequency</a>(uint32_t freq, uint32_t ahb);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;uint32_t <a class="code" href="group__CM3__systick__defines.html#gad26b5b9932a41cfe9e3600431b918831">systick_get_reload</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;uint32_t <a class="code" href="group__CM3__systick__defines.html#gae6a4663107e824d7fe2936bdcbead94c">systick_get_value</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#ga13726e0964b31c85269beddbdc1d35e7">systick_set_clocksource</a>(uint8_t clocksource);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#ga062163783d8d4106c8b945ed97b4decc">systick_interrupt_enable</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#gaee4e252973ddd7c5ffaa872da3b6a3fe">systick_interrupt_disable</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a">systick_counter_enable</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4">systick_counter_disable</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;uint8_t <a class="code" href="group__CM3__systick__defines.html#ga04dd39e8ef61f9d6be437a43fc16dcdf">systick_get_countflag</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;uint32_t <a class="code" href="group__CM3__systick__defines.html#ga4351bcd52c07a23b5b999b062c123084">systick_get_calib</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<a class="code" href="common_8h.html#a67019e6c1b6d267f6f85fbb577f0f286">END_DECLS</a></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
 <div class="ttc" id="group__CM3__systick__defines_html_gae6a4663107e824d7fe2936bdcbead94c"><div class="ttname"><a href="group__CM3__systick__defines.html#gae6a4663107e824d7fe2936bdcbead94c">systick_get_value</a></div><div class="ttdeci">uint32_t systick_get_value(void)</div></div>
 <div class="ttc" id="group__CM3__systick__defines_html_gac5d5225b9b6c96d9f1c3f2950717dcf4"><div class="ttname"><a href="group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4">systick_counter_disable</a></div><div class="ttdeci">void systick_counter_disable(void)</div></div>
 <div class="ttc" id="memorymap_8h_html"><div class="ttname"><a href="memorymap_8h.html">memorymap.h</a></div></div>
@@ -275,6 +267,7 @@ $(document).ready(function(){initNavTree('systick_8h_source.html','');});
 <div class="ttc" id="common_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
 <div class="ttc" id="group__CM3__systick__defines_html_gaaa997323bf7f3378eb78a6277abc913f"><div class="ttname"><a href="group__CM3__systick__defines.html#gaaa997323bf7f3378eb78a6277abc913f">systick_set_reload</a></div><div class="ttdeci">void systick_set_reload(uint32_t value)</div></div>
 <div class="ttc" id="common_8h_html_acd011fce71bdd0f1884aa638d921487a"><div class="ttname"><a href="common_8h.html#acd011fce71bdd0f1884aa638d921487a">BEGIN_DECLS</a></div><div class="ttdeci">#define BEGIN_DECLS</div><div class="ttdef"><b>Definition:</b> <a href="common_8h_source.html#l00032">common.h:32</a></div></div>
+<div class="ttc" id="group__CM3__systick__defines_html_ga7986a46de67e6396e366316f1c9e2437"><div class="ttname"><a href="group__CM3__systick__defines.html#ga7986a46de67e6396e366316f1c9e2437">systick_set_frequency</a></div><div class="ttdeci">bool systick_set_frequency(uint32_t freq, uint32_t ahb)</div></div>
 <div class="ttc" id="group__CM3__systick__defines_html_gad26b5b9932a41cfe9e3600431b918831"><div class="ttname"><a href="group__CM3__systick__defines.html#gad26b5b9932a41cfe9e3600431b918831">systick_get_reload</a></div><div class="ttdeci">uint32_t systick_get_reload(void)</div></div>
 <div class="ttc" id="group__CM3__systick__defines_html_gad1b556d07d6f0e3c0e55dc269e30a98a"><div class="ttname"><a href="group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a">systick_counter_enable</a></div><div class="ttdeci">void systick_counter_enable(void)</div></div>
 <div class="ttc" id="group__CM3__systick__defines_html_ga4351bcd52c07a23b5b999b062c123084"><div class="ttname"><a href="group__CM3__systick__defines.html#ga4351bcd52c07a23b5b999b062c123084">systick_get_calib</a></div><div class="ttdeci">uint32_t systick_get_calib(void)</div></div>
@@ -284,7 +277,7 @@ $(document).ready(function(){initNavTree('systick_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="systick_8h.html">systick.h</a></li>
-    <li class="footer">Generated on Thu Jan 2 2014 21:21:14 for libopencm3 by
+    <li class="footer">Generated on Thu Jan 2 2014 22:21:10 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

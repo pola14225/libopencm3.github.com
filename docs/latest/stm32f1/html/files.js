@@ -47,6 +47,8 @@ var files =
     [ "pwr_common_all.h", "pwr__common__all_8h.html", "pwr__common__all_8h" ],
     [ "rcc.c", "rcc_8c.html", "rcc_8c" ],
     [ "rcc.h", "rcc_8h.html", "rcc_8h" ],
+    [ "rcc_common_all.c", "rcc__common__all_8c.html", "rcc__common__all_8c" ],
+    [ "rcc_common_all.h", "rcc__common__all_8h.html", "rcc__common__all_8h" ],
     [ "rtc.c", "rtc_8c.html", "rtc_8c" ],
     [ "rtc.h", "rtc_8h.html", "rtc_8h" ],
     [ "rtc_common_l1f024.c", "rtc__common__l1f024_8c.html", "rtc__common__l1f024_8c" ],

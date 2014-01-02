@@ -12296,34 +12296,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rcc_peripheral_enable_clock</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_disable_clock</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_reset</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_clear_reset</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>rcc_set_sysclk_source</name>
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
       <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
@@ -12432,6 +12404,7 @@
     <name>rcc.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/</path>
     <filename>rcc_8h</filename>
+    <includes id="rcc__common__all_8h" name="rcc_common_all.h" local="no" imported="no">libopencm3/stm32/common/rcc_common_all.h</includes>
     <class kind="struct">clock_scale_t</class>
     <member kind="define">
       <type>#define</type>
@@ -14155,6 +14128,13 @@
       <anchor>ga803cbf97bda1ebaf9afee2a3c9f0851b</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>_REG_BIT</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga859a9ba8fcc7c60a0f7dfd5865001f08</anchor>
+      <arglist>(base, bit)</arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>clock_config_entry_t</name>
@@ -14260,6 +14240,909 @@
       <anchor>ggaf2418102b7993f2a6f0060e1efdca823ac59b221b111954833c988555d5972f88</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>rcc_periph_clken</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga54c7db24941f636ee238833c481ada48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOA</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abe0e8ee9db293583511579bffd694b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aca99d40a98c0cccaa8dd4a5eb8422dea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ade83c8caa918ccda0766791076460d1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOE</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aecccb0767e9ec411349051aa5f055779</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOH</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a600bd6f61da0eaed2c2f8fdf49fbb9c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac2a10a31a77eac6a9e5ef9b59397abf4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5db55f45d23bd84c2e4b9a36c7cdb57e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_CRC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a667709fea2f55d81d0084c0ab6cd7346</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_FLITF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a2430af9e87ebeb41cf743f23f11dae7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DMA1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad3c1b4bd4d4910ad45903d70ce99c546</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DMA2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af6727266dd80b08123851bd3fc641468</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_AES</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abb715c74b0a3784e422b314d26014812</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_FSMC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a14682a077f8b751228b73025036856b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SYSCFG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab05a237deaa9422ce07e764f7fdafe35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM9</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1080e5712f2404522fd82852ea3c655a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM10</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6023464e8d05064abba394b800100198</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM11</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afdfa75bcb6a2c9c90db9ec4460ebff1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_ADC1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a81b9534841bd60ff16455a28481d7a14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SDIO</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1df9684e164cf1ce919d187c0dde60d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SPI1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USART1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6f9bc1664f1972e622f9228606caa3b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4d961657b29cd6920dec7df1d6a024e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7605ac255d1f7e3fd0c21907b17bba66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aac4c56a3d869baf25b0434beed0e9ff5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM6</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM7</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_LCD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a22760f19527e3e241e6e1b396e37c188</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_WWDG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1965878d5b5e1b68e85a92ad2da94514</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SPI2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a191f2ba3eea4493bbfa449bb9e61f99c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SPI3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad70ccc847d7804abe857efa22e0ab952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USART2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa4be48dd043f5d74f5e4eb9d2516b87b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USART3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aaa823140b93403c8dd3395bc5b510155</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_UART4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acddaf98763a8dc6edf0b69c983becfd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_UART5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0d7a994107ab9af33f9bdbda74ec4685</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_I2C1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_I2C2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a965e89095cbc1ef346c32f30f885d793</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_PWR</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a653354e7670b00648bd46782e60a780b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DAC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48adbda7bdfe6f47cc2b36f5ea78d9b56d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_COMP</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a631c5147dc7053f9d9525e037d9e5878</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOA</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a44f76e63809a5df30f158bb8cbfcb4af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad2438eef51dd7790d4faac2e461f61bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab212b98035b8c1d7a52c66b8a8753ea7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1646b5369fa9b52ffe45deb801dffe53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOE</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa4f1793bd6ab343073e151f470113a98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOH</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3869bb86c68604dc9015445cad5aa173</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac2f5731fc83d86f8f850c984c769ed97</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48adb087b1ddece696b0c76a7fc03e44de7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_CRC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a003dc04b6d63c5197748e8be1cb6bbac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_FLITF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a75e9e0c6f90009195825a5f1440d4dda</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SRAM</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a9c8f34c18f96cfe3084093241b152a16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_DMA1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8f015b95be3982442962991d31d45300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_DMA2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4b94fd1c9d718c69072760fc72ceb790</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_AES</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afccb5beacf6a12dc2a320df8c61d9707</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_FSMC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a637b0289aaf6ceff6b5b8182fdba7761</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SYSCFG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a731211895615288193d2a38cc4628f2d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM9</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5bd6d6787a1015d61b72678a48d9e0fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM10</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afe8ea73b7ebefab0e0c3261713cef4fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM11</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0f33a32a18a251d545b12759aaa73deb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_ADC1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5000d6ca5e3b40a5865485dd8dac5ab8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SDIO</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ae4db14af9507c0c043cbdaedc5ee0946</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SPI1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8a414df68a0855d84002160911dd77c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_USART1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa7e9971e52b96e141dea9897359f35a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a543ff20a83d7d01662982e52eeef8da3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5ac6aaf0ee19343577526860fcec24b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afe14d4998b6c9aa90c026291672027ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad1c6c7d99a00fe1f34f1ed2f5af3f150</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM6</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4fd108426970cee3f77f2ce46ef6eaa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM7</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af5a9d04a649295d00ea046c199aef838</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_LCD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a806513754d838475b2438c1fb8cc1cbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_WWDG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a712347ca1f509fa432626e85f9d2e378</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SPI2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1ab247d0e80dc6d1722de84c086353f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SPI3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0b0b503b8ee607e21a92fc1edcfdd8cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_USART2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a69135288a08516c9d69798266b3dfebc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_USART3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6cb7ae3e16c891c789095c17603dc4fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_UART4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a27200fdd011075f80ec18eac21d811a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_UART5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af2fdcaa5d35ac4f63fc12563ec64665d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_I2C1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aac1edecb6b1268334dd61d0be70eb8b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_I2C2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6e133432144b494871b9fc7434a91214</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_USB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6e443743309c92a548eeff038da8a773</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_PWR</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7158c31ab3a6324ff0e6173e2f359633</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_DAC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a805d3dfb999f8d4523ce9c333f9013ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_COMP</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa8fcc2dcc5ad94c4ee290856f7676df3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>rcc_periph_rst</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga4bd6185a4613aaa3ee5447c3d86ba718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOA</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a82de36d9219d3b7a8f6e24f7b037d4c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8607fa69d38f8dd406daebb7bf9b8b26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a847595db9011d5989097e67215f3f208</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9fed32b2a96d4647ea73ba7926f1121e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOE</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab720e4e6239cb85e2736a4f022e4f64b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOH</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6ba93e7e1205c455bba73cf82e682698</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a61956334f17966ab11993869be4e2ebb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3f01ba2712eceec7b7dca34c9e261a4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_CRC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9d098f089cf059602501a807d6907f61</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_FLITF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a10ed714e911b5d19b7d78f52acd42220</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_DMA1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a25676006774eeb3de775e3de277a4dd2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_DMA2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a19ebc40713ba511404321bf20eaef099</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_AES</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a655cddebf084e82f2cf10328b1584dc5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_FSMC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a1dc6bc101d4b71012002f61140d93bbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SYSCFG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aaff80227bb0aa65e277e8154a183c7c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM9</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6bdfc0080866294c7abbe0a905b1c0f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM10</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7d8a4872c50c02f19764a20d6a649ec0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM11</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8d64dfed0d3f86ac59970a1bca110ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_ADC1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a49afbde70605d4da05d71727d5ce33bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SDIO</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad0369a71f1e7c9467a4d3d15a9db4e40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SPI1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a28ffb322497d5b858fe69ea8551458fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USART1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acd5c7eeeda3799f89bc3da7169384bf1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a11cf678a1931bc3f8ecd22fccf1304</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa94b0829d2505a3d916a3b7bb8e95361</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aac5933e47e7e98b7096193edfe4bf08a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM6</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM7</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_LCD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ae89ac71f14f88b980574fdb7b7e30828</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_WWDG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad38183e2f4809aa13b2c149b9158cdb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SPI2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6a2dd34c8278fd2019d4aab6d7dd91fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SPI3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8c3208aa283eea369bdb2697cbe6dff8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USART2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af2ed5025a1c665196870ac061ffafd24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USART3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a909ada79d50eabe177c087ae3db578da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_UART4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6db8b2fc3c699ae1b93d0e7e04b16265</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_UART5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab1495852f5070c5924815d26636035f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_I2C1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ae083a448a99ae23e788c79d45f2f0fae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_I2C2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aba0770678558545d59794049b4ea57f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa268cf3f3421fb383cbd85b70f1f487c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_PWR</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acaed17a5e312de489708c67c9933c044</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_DAC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a90b3f78831d25a6f6291744bc0eabd45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_COMP</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6be8a7b3d1233e3a0aa0d1a7b12a50fb</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
@@ -14357,34 +15240,6 @@
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
       <anchor>ga9152b74c16322ae76cec62ef93403916</anchor>
       <arglist>(osc_t osc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_enable_clock</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_disable_clock</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_reset</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_clear_reset</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -14511,6 +15366,156 @@
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
       <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>rcc_common_all.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>rcc__common__all_8c</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>_RCC_REG</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a2c87be3073302923a51e2940225ce6f3</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>_RCC_BIT</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a913261b5f48c6ace5e2cfbc0fc9bca78</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_enable_clock</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_disable_clock</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_reset</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_clear_reset</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_enable</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a90aa2b7801b2b42debc0536d38c5b07c</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_disable</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a87325ef1019f246cd84ba8aa73100721</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_pulse</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>ae8846a0bf49a46bcdc10a412bc69ee58</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_hold</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a6f3e2843e5d017717da66599ccc5daef</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_release</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a08aceecc3bebdf33119e8d7daf58b573</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>rcc_common_all.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>rcc__common__all_8h</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_enable_clock</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_disable_clock</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_reset</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_clear_reset</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_enable</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a90aa2b7801b2b42debc0536d38c5b07c</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_disable</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a87325ef1019f246cd84ba8aa73100721</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_pulse</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>ae8846a0bf49a46bcdc10a412bc69ee58</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_hold</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a6f3e2843e5d017717da66599ccc5daef</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_release</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a08aceecc3bebdf33119e8d7daf58b573</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -28745,6 +29750,13 @@
       <anchor>ga803cbf97bda1ebaf9afee2a3c9f0851b</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>_REG_BIT</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga859a9ba8fcc7c60a0f7dfd5865001f08</anchor>
+      <arglist>(base, bit)</arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>clock_config_entry_t</name>
@@ -28850,6 +29862,909 @@
       <anchor>ggaf2418102b7993f2a6f0060e1efdca823ac59b221b111954833c988555d5972f88</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>rcc_periph_clken</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga54c7db24941f636ee238833c481ada48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOA</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abe0e8ee9db293583511579bffd694b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aca99d40a98c0cccaa8dd4a5eb8422dea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ade83c8caa918ccda0766791076460d1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOE</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aecccb0767e9ec411349051aa5f055779</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOH</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a600bd6f61da0eaed2c2f8fdf49fbb9c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac2a10a31a77eac6a9e5ef9b59397abf4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5db55f45d23bd84c2e4b9a36c7cdb57e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_CRC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a667709fea2f55d81d0084c0ab6cd7346</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_FLITF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a2430af9e87ebeb41cf743f23f11dae7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DMA1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad3c1b4bd4d4910ad45903d70ce99c546</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DMA2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af6727266dd80b08123851bd3fc641468</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_AES</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abb715c74b0a3784e422b314d26014812</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_FSMC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a14682a077f8b751228b73025036856b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SYSCFG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab05a237deaa9422ce07e764f7fdafe35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM9</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1080e5712f2404522fd82852ea3c655a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM10</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6023464e8d05064abba394b800100198</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM11</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afdfa75bcb6a2c9c90db9ec4460ebff1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_ADC1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a81b9534841bd60ff16455a28481d7a14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SDIO</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1df9684e164cf1ce919d187c0dde60d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SPI1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USART1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6f9bc1664f1972e622f9228606caa3b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4d961657b29cd6920dec7df1d6a024e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7605ac255d1f7e3fd0c21907b17bba66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aac4c56a3d869baf25b0434beed0e9ff5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM6</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM7</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_LCD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a22760f19527e3e241e6e1b396e37c188</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_WWDG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1965878d5b5e1b68e85a92ad2da94514</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SPI2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a191f2ba3eea4493bbfa449bb9e61f99c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SPI3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad70ccc847d7804abe857efa22e0ab952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USART2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa4be48dd043f5d74f5e4eb9d2516b87b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USART3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aaa823140b93403c8dd3395bc5b510155</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_UART4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acddaf98763a8dc6edf0b69c983becfd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_UART5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0d7a994107ab9af33f9bdbda74ec4685</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_I2C1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_I2C2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a965e89095cbc1ef346c32f30f885d793</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_PWR</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a653354e7670b00648bd46782e60a780b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DAC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48adbda7bdfe6f47cc2b36f5ea78d9b56d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_COMP</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a631c5147dc7053f9d9525e037d9e5878</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOA</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a44f76e63809a5df30f158bb8cbfcb4af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad2438eef51dd7790d4faac2e461f61bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab212b98035b8c1d7a52c66b8a8753ea7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1646b5369fa9b52ffe45deb801dffe53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOE</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa4f1793bd6ab343073e151f470113a98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOH</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3869bb86c68604dc9015445cad5aa173</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac2f5731fc83d86f8f850c984c769ed97</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_GPIOG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48adb087b1ddece696b0c76a7fc03e44de7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_CRC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a003dc04b6d63c5197748e8be1cb6bbac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_FLITF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a75e9e0c6f90009195825a5f1440d4dda</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SRAM</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a9c8f34c18f96cfe3084093241b152a16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_DMA1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8f015b95be3982442962991d31d45300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_DMA2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4b94fd1c9d718c69072760fc72ceb790</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_AES</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afccb5beacf6a12dc2a320df8c61d9707</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_FSMC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a637b0289aaf6ceff6b5b8182fdba7761</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SYSCFG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a731211895615288193d2a38cc4628f2d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM9</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5bd6d6787a1015d61b72678a48d9e0fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM10</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afe8ea73b7ebefab0e0c3261713cef4fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM11</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0f33a32a18a251d545b12759aaa73deb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_ADC1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5000d6ca5e3b40a5865485dd8dac5ab8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SDIO</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ae4db14af9507c0c043cbdaedc5ee0946</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SPI1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8a414df68a0855d84002160911dd77c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_USART1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa7e9971e52b96e141dea9897359f35a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a543ff20a83d7d01662982e52eeef8da3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5ac6aaf0ee19343577526860fcec24b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afe14d4998b6c9aa90c026291672027ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad1c6c7d99a00fe1f34f1ed2f5af3f150</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM6</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4fd108426970cee3f77f2ce46ef6eaa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_TIM7</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af5a9d04a649295d00ea046c199aef838</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_LCD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a806513754d838475b2438c1fb8cc1cbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_WWDG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a712347ca1f509fa432626e85f9d2e378</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SPI2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1ab247d0e80dc6d1722de84c086353f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_SPI3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0b0b503b8ee607e21a92fc1edcfdd8cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_USART2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a69135288a08516c9d69798266b3dfebc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_USART3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6cb7ae3e16c891c789095c17603dc4fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_UART4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a27200fdd011075f80ec18eac21d811a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_UART5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af2fdcaa5d35ac4f63fc12563ec64665d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_I2C1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aac1edecb6b1268334dd61d0be70eb8b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_I2C2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6e133432144b494871b9fc7434a91214</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_USB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6e443743309c92a548eeff038da8a773</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_PWR</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7158c31ab3a6324ff0e6173e2f359633</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_DAC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a805d3dfb999f8d4523ce9c333f9013ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SCC_COMP</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa8fcc2dcc5ad94c4ee290856f7676df3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>rcc_periph_rst</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>ga4bd6185a4613aaa3ee5447c3d86ba718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOA</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a82de36d9219d3b7a8f6e24f7b037d4c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8607fa69d38f8dd406daebb7bf9b8b26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a847595db9011d5989097e67215f3f208</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9fed32b2a96d4647ea73ba7926f1121e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOE</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab720e4e6239cb85e2736a4f022e4f64b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOH</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6ba93e7e1205c455bba73cf82e682698</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a61956334f17966ab11993869be4e2ebb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3f01ba2712eceec7b7dca34c9e261a4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_CRC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9d098f089cf059602501a807d6907f61</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_FLITF</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a10ed714e911b5d19b7d78f52acd42220</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_DMA1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a25676006774eeb3de775e3de277a4dd2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_DMA2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a19ebc40713ba511404321bf20eaef099</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_AES</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a655cddebf084e82f2cf10328b1584dc5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_FSMC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a1dc6bc101d4b71012002f61140d93bbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SYSCFG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aaff80227bb0aa65e277e8154a183c7c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM9</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6bdfc0080866294c7abbe0a905b1c0f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM10</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7d8a4872c50c02f19764a20d6a649ec0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM11</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8d64dfed0d3f86ac59970a1bca110ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_ADC1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a49afbde70605d4da05d71727d5ce33bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SDIO</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad0369a71f1e7c9467a4d3d15a9db4e40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SPI1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a28ffb322497d5b858fe69ea8551458fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USART1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acd5c7eeeda3799f89bc3da7169384bf1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a11cf678a1931bc3f8ecd22fccf1304</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa94b0829d2505a3d916a3b7bb8e95361</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aac5933e47e7e98b7096193edfe4bf08a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM6</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM7</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_LCD</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ae89ac71f14f88b980574fdb7b7e30828</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_WWDG</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad38183e2f4809aa13b2c149b9158cdb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SPI2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6a2dd34c8278fd2019d4aab6d7dd91fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SPI3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8c3208aa283eea369bdb2697cbe6dff8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USART2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af2ed5025a1c665196870ac061ffafd24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USART3</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a909ada79d50eabe177c087ae3db578da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_UART4</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6db8b2fc3c699ae1b93d0e7e04b16265</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_UART5</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab1495852f5070c5924815d26636035f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_I2C1</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ae083a448a99ae23e788c79d45f2f0fae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_I2C2</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aba0770678558545d59794049b4ea57f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USB</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa268cf3f3421fb383cbd85b70f1f487c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_PWR</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acaed17a5e312de489708c67c9933c044</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_DAC</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a90b3f78831d25a6f6291744bc0eabd45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_COMP</name>
+      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6be8a7b3d1233e3a0aa0d1a7b12a50fb</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
@@ -28947,34 +30862,6 @@
       <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
       <anchor>ga9152b74c16322ae76cec62ef93403916</anchor>
       <arglist>(osc_t osc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_enable_clock</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_disable_clock</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_reset</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_clear_reset</name>
-      <anchorfile>group__STM32L1xx__rcc__defines.html</anchorfile>
-      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -45013,6 +46900,7 @@
     <file>i2c_common_f24.h</file>
     <file>iwdg_common_all.h</file>
     <file>pwr_common_all.h</file>
+    <file>rcc_common_all.h</file>
     <file>rng_common_f24.h</file>
     <file>rtc_common_l1f024.h</file>
     <file>spi_common_all.h</file>
@@ -45043,6 +46931,7 @@
     <file>i2c_common_all.c</file>
     <file>iwdg_common_all.c</file>
     <file>pwr_common_all.c</file>
+    <file>rcc_common_all.c</file>
     <file>rtc_common_l1f024.c</file>
     <file>spi_common_all.c</file>
     <file>spi_common_l1f124.c</file>

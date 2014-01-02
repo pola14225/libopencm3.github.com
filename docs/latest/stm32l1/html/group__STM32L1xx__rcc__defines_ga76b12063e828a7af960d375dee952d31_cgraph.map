@@ -4,7 +4,7 @@
 <area shape="rect" id="node7" href="$flash_8h.html#a9347b16d27d64b79f507dc9cad8633b2" title="flash_set_ws" alt="" coords="227,117,325,150"/>
 <area shape="rect" id="node9" href="$pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60" title="pwr_set_vos_scale" alt="" coords="209,173,343,206"/>
 <area shape="rect" id="node11" href="$group__STM32L1xx__rcc__defines.html#ga8dbd64d58e019803bf109609203d1afd" title="rcc_osc_on" alt="" coords="232,229,320,262"/>
-<area shape="rect" id="node13" href="$group__STM32L1xx__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8" title="rcc_peripheral_enable\l_clock" alt="" coords="203,285,349,339"/>
+<area shape="rect" id="node13" href="$rcc__common__all_8h.html#aaf3dd53c1ced02082fce0076976547a8" title="RCC Enable Peripheral Clocks. " alt="" coords="203,285,349,339"/>
 <area shape="rect" id="node15" href="$group__STM32L1xx__rcc__defines.html#gae192b2cd0f37124db5ed76d599a5671b" title="rcc_set_hpre" alt="" coords="228,362,324,395"/>
 <area shape="rect" id="node17" href="$group__STM32L1xx__rcc__defines.html#ga8ba543e9f620317363771628aee205ff" title="rcc_set_pll_configuration" alt="" coords="193,418,359,451"/>
 <area shape="rect" id="node19" href="$group__STM32L1xx__rcc__defines.html#gaaf1b9174131b00a7014c0328a53a65a1" title="rcc_set_ppre1" alt="" coords="224,474,328,507"/>

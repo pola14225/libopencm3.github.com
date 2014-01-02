@@ -1,5 +1,15 @@
 var NAVTREEINDEX12 =
 {
+"group__dma__st__dir.html":[10,1,4,2],
+"group__dma__st__dir.html#ga8353dd3758192eb803d2f54eeeae26af":[10,1,4,2,2],
+"group__dma__st__dir.html#gab0d7efd7a34235f347af3ab6a08ecbee":[10,1,4,2,1],
+"group__dma__st__dir.html#gaf95c88600907804d1166b950d0a2368b":[10,1,4,2,0],
+"group__dma__st__memwidth.html":[10,1,4,4],
+"group__dma__st__memwidth.html#ga4c1cc45480e33a61ffa98baeaf5bbbb8":[10,1,4,4,2],
+"group__dma__st__memwidth.html#ga8383bac9e5c6735b84980a82b357edd4":[10,1,4,4,1],
+"group__dma__st__memwidth.html#ga9e102cc13144ed051caf5acea4c2cde0":[10,1,4,4,0],
+"group__dma__st__number.html":[10,1,4,0],
+"group__dma__st__number.html#ga4c30103cf0929a37aeeab2749028d8f3":[10,1,4,0,0],
 "group__dma__st__number.html#ga5d575ab07d75dabb82d260beb2b307c3":[10,1,4,0,7],
 "group__dma__st__number.html#gaa54f030e80334911d7537e8d5ab280b6":[10,1,4,0,6],
 "group__dma__st__number.html#gaa6eaff940f35a1daf9588e9e35cd8424":[10,1,4,0,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX12 =
 "group__i2c__clock.html#ga6def53b8ac18b1c614295da2fa80ab34":[10,1,7,1,20],
 "group__i2c__clock.html#ga7f6461981cfadcb7501dd03dcd5cde2d":[10,1,7,1,5],
 "group__i2c__clock.html#ga8153837ae49620b2fe02f81b61f373d3":[10,1,7,1,8],
-"group__i2c__clock.html#ga873319a40f59021ecb9d44b592e50995":[10,1,7,1,10],
-"group__i2c__clock.html#ga885ee5d2c6440d184883f6e49b12c7f6":[10,1,7,1,23],
-"group__i2c__clock.html#ga8b285b7ed75c1ae4328046d3b3728606":[10,1,7,1,7],
-"group__i2c__clock.html#ga94b4733af8a14a9643f74e8b14aad364":[10,1,7,1,9],
-"group__i2c__clock.html#ga981ebb1707114838a3591b203a338a89":[10,1,7,1,6],
-"group__i2c__clock.html#ga98bfe575a5550bbe3a5bc4c12a00e403":[10,1,7,1,13],
-"group__i2c__clock.html#ga9933a3132d74494cc70c15cf8f4c094e":[10,1,7,1,38],
-"group__i2c__clock.html#gaa35ee2c4c312e99304ba04e337afbd91":[10,1,7,1,2],
-"group__i2c__clock.html#gaa6dcb16ce22e067505eaf9fc955bdd8c":[10,1,7,1,12],
-"group__i2c__clock.html#gaa82f47c3e046dfe39d5e84f325c680de":[10,1,7,1,16],
-"group__i2c__clock.html#gab162463ca0212dee85d1fbae06413ad8":[10,1,7,1,27]
+"group__i2c__clock.html#ga873319a40f59021ecb9d44b592e50995":[10,1,7,1,10]
 };

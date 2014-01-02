@@ -18,5 +18,6 @@ var searchData=
   ['doc_2dlpc43xx_2eh',['doc-lpc43xx.h',['../../lpc43xx/html/doc-lpc43xx_8h.html',1,'']]],
   ['doc_2dstm32f1_2eh',['doc-stm32f1.h',['../../stm32f1/html/doc-stm32f1_8h.html',1,'']]],
   ['doc_2dstm32f4_2eh',['doc-stm32f4.h',['../../stm32f4/html/doc-stm32f4_8h.html',1,'']]],
-  ['docmain_2edox',['docmain.dox',['../docmain_8dox.html',1,'']]]
+  ['docmain_2edox',['docmain.dox',['../docmain_8dox.html',1,'']]],
+  ['dwt_2eh',['dwt.h',['../../cm3/html/dwt_8h.html',1,'']]]
 ];

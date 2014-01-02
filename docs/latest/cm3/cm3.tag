@@ -428,6 +428,104 @@
     <filename>doc-cm3_8h</filename>
   </compound>
   <compound kind="file">
+    <name>dwt.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
+    <filename>dwt_8h</filename>
+    <includes id="common_8h" name="common.h" local="no" imported="no">libopencm3/cm3/common.h</includes>
+    <includes id="memorymap_8h" name="memorymap.h" local="no" imported="no">libopencm3/cm3/memorymap.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_CTRL</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a90b9ebedff8635727698afd2fa84b90a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_PCSR</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a0c50769b8e0069fe1c5e06d1d356fad3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_COMP</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a38b233f00e629ebb65edd12a43bc42e9</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_MASK</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>ab6fade424c853437a459b2d674303752</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_FUNCTION</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a0c1c91df0044ce1c9fb1b77c2cdca89a</anchor>
+      <arglist>(n)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_CTRL_NUMCOMP_SHIFT</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a3f693d7a5c8e5eccc17cafb9d11b93f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_CTRL_NUMCOMP</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a816e74cbbafc9e19ed6b53bde399d656</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_MASKx_MASK</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>adfa74f07ecb19bcc20f3c91eebb56535</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_FUNCTIONx_MATCHED</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a8270b3dbfb66d930c9bb8d561278d6c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_FUNCTIONx_FUNCTION</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>ab5c4dd81d6986cbf20118e9663383cd8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DWT_FUNCTIONx_FUNCTION_DISABLED</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a482b48c83515ed4fedceac278036c764</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>dwt_enable_cycle_counter</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a493f84a3f4912c8c1dd8c1371fbbc8e4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>dwt_read_cycle_counter</name>
+      <anchorfile>dwt_8h.html</anchorfile>
+      <anchor>a4493afd58c9d262aa22776de5b51b6ee</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>fpb.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
     <filename>fpb_8h</filename>
@@ -1809,13 +1907,6 @@
     <includes id="common_8h" name="common.h" local="no" imported="no">libopencm3/cm3/common.h</includes>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga4cff03f1bbb43e57798d6321e8bb966d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>STK_CSR</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga664a648a1ef9d90dd280176c5ec547c0</anchor>
@@ -1823,23 +1914,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_LOAD</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga93cbd55f028c079c458d5159983a0684</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>STK_RVR</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga6617c6912a90b37c034e0eeb2e12ec0b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STK_VAL</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga9944fae2f819211da9884f03db333ad8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1858,30 +1935,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL_COUNTFLAG</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gac5f30ad5e55e9dc971d6b9ea6f70d1e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>STK_CSR_COUNTFLAG</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga0a6a69a143a4257ed517033163524886</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE_LSB</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga9208ea3c44b11078f41e57c2f8116867</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gac9907e5cfaab9cdd79a0dfc991b64b9d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1900,23 +1956,16 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE_AHB_DIV8</name>
+      <name>STK_CSR_CLKSOURCE_AHB_DIV8</name>
       <anchorfile>group__systick__clksource.html</anchorfile>
-      <anchor>ga42f74063acb08704c7aec2daf8bff4b1</anchor>
+      <anchor>gadd7bddb11536d5eafa34bacbf5673811</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE_AHB</name>
+      <name>STK_CSR_CLKSOURCE_AHB</name>
       <anchorfile>group__systick__clksource.html</anchorfile>
-      <anchor>ga4cf91426a66d9f5b1b4733d135dd1c86</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STK_CTRL_TICKINT</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga6236c3e2e19f815302f80e6c837d3fc0</anchor>
+      <anchor>gad4e608afdf933e1ac6656cd06681ade5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1924,13 +1973,6 @@
       <name>STK_CSR_TICKINT</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga829e6dbb8ecf50d36aa8258e2cf1587c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STK_CTRL_ENABLE</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga5cf11266bec61702a8197ba714513b40</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1981,6 +2023,13 @@
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>gaaa997323bf7f3378eb78a6277abc913f</anchor>
       <arglist>(uint32_t value)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>systick_set_frequency</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga7986a46de67e6396e366316f1c9e2437</anchor>
+      <arglist>(uint32_t freq, uint32_t ahb)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
@@ -2547,13 +2596,6 @@
     <subgroup>systick_clksource</subgroup>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga4cff03f1bbb43e57798d6321e8bb966d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>STK_CSR</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga664a648a1ef9d90dd280176c5ec547c0</anchor>
@@ -2561,23 +2603,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_LOAD</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga93cbd55f028c079c458d5159983a0684</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>STK_RVR</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga6617c6912a90b37c034e0eeb2e12ec0b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STK_VAL</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga9944fae2f819211da9884f03db333ad8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2596,30 +2624,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL_COUNTFLAG</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gac5f30ad5e55e9dc971d6b9ea6f70d1e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>STK_CSR_COUNTFLAG</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga0a6a69a143a4257ed517033163524886</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE_LSB</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga9208ea3c44b11078f41e57c2f8116867</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>gac9907e5cfaab9cdd79a0dfc991b64b9d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2638,23 +2645,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL_TICKINT</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga6236c3e2e19f815302f80e6c837d3fc0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>STK_CSR_TICKINT</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga829e6dbb8ecf50d36aa8258e2cf1587c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>STK_CTRL_ENABLE</name>
-      <anchorfile>group__CM3__systick__defines.html</anchorfile>
-      <anchor>ga5cf11266bec61702a8197ba714513b40</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2705,6 +2698,13 @@
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>gaaa997323bf7f3378eb78a6277abc913f</anchor>
       <arglist>(uint32_t value)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>systick_set_frequency</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga7986a46de67e6396e366316f1c9e2437</anchor>
+      <arglist>(uint32_t freq, uint32_t ahb)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
@@ -2776,16 +2776,16 @@
     <filename>group__systick__clksource.html</filename>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE_AHB_DIV8</name>
+      <name>STK_CSR_CLKSOURCE_AHB_DIV8</name>
       <anchorfile>group__systick__clksource.html</anchorfile>
-      <anchor>ga42f74063acb08704c7aec2daf8bff4b1</anchor>
+      <anchor>gadd7bddb11536d5eafa34bacbf5673811</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>STK_CTRL_CLKSOURCE_AHB</name>
+      <name>STK_CSR_CLKSOURCE_AHB</name>
       <anchorfile>group__systick__clksource.html</anchorfile>
-      <anchor>ga4cf91426a66d9f5b1b4733d135dd1c86</anchor>
+      <anchor>gad4e608afdf933e1ac6656cd06681ade5</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2959,6 +2959,7 @@
     <file>common.h</file>
     <file>cortex.h</file>
     <file>doc-cm3.h</file>
+    <file>dwt.h</file>
     <file>fpb.h</file>
     <file>itm.h</file>
     <file>memorymap.h</file>

@@ -1,5 +1,16 @@
 var NAVTREEINDEX7 =
 {
+"group__dma__defines.html#ga24427bad51984fe2b634e08ef32c9d34":[8,1,3,95],
+"group__dma__defines.html#ga250c05bdbe73f5e80171599e1f86639b":[8,1,3,354],
+"group__dma__defines.html#ga2583a3d085e82b5afe0a17486e357b46":[8,1,3,168],
+"group__dma__defines.html#ga26bf611992205f18f7495e23e06e3255":[8,1,3,170],
+"group__dma__defines.html#ga26bfd55e965445ae253a5c5fa8f1769a":[8,1,3,355],
+"group__dma__defines.html#ga277357f800b508b8d2bdb5ce0bd3ca98":[8,1,3,67],
+"group__dma__defines.html#ga27e7f75b0f76da53409eab1c18818541":[8,1,3,178],
+"group__dma__defines.html#ga28664595df654d9d8052fb6f9cc48495":[8,1,3,348],
+"group__dma__defines.html#ga29c5d5c559dd14646fdc170e74f1f03b":[8,1,3,431],
+"group__dma__defines.html#ga2a23dc081b24fdaa2d6d2c8dc03efdc2":[8,1,3,467],
+"group__dma__defines.html#ga2a2adddff957a6512e6138e9dc22ca6d":[8,1,3,132],
 "group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4":[8,1,3,407],
 "group__dma__defines.html#ga2b48b3df6c471ec3784db0c355aca89f":[8,1,3,185],
 "group__dma__defines.html#ga2b9dfd8607d952ee263d992491e543d1":[8,1,3,234],
@@ -238,16 +249,5 @@ var NAVTREEINDEX7 =
 "group__dma__defines.html#gaa94af3601c6eb8edb1ded8e74198799f":[8,1,3,413],
 "group__dma__defines.html#gaa99b1ff56f7e4def547039b0ae59ee8a":[8,1,3,80],
 "group__dma__defines.html#gaa9d761752657a3d268da5434a04c6c6a":[8,1,3,382],
-"group__dma__defines.html#gaab5cb55fa0de55a1e09eb5d6d2fd7712":[8,1,3,153],
-"group__dma__defines.html#gaaba9cd82cab0cca23de038e946f81c6a":[8,1,3,227],
-"group__dma__defines.html#gaabf69fe92e9a44167535365b0fe4ea9e":[8,1,3,421],
-"group__dma__defines.html#gaac37a1d82a462c1b3eb54ca2e93f7a68":[8,1,3,30],
-"group__dma__defines.html#gaac4b50aaa0a34e4de1da9f5d1425956f":[8,1,3,46],
-"group__dma__defines.html#gaac528daa7dc150e14720af83f073049e":[8,1,3,64],
-"group__dma__defines.html#gaad3b5daa5024d73be1253eb6c83b94b7":[8,1,3,229],
-"group__dma__defines.html#gaad9f01dfeb289156448f5a5a0ad54099":[8,1,3,284],
-"group__dma__defines.html#gaae4c7d1d10beb535aec39de9a8bdc327":[8,1,3,309],
-"group__dma__defines.html#gab09df81a2839f59c46f13f8550c6346d":[8,1,3,145],
-"group__dma__defines.html#gab21293b505e511ffdae4464185a5891f":[8,1,3,450],
-"group__dma__defines.html#gab2abf4cbf8d4453a48a480bd14335d40":[8,1,3,72]
+"group__dma__defines.html#gaab5cb55fa0de55a1e09eb5d6d2fd7712":[8,1,3,153]
 };

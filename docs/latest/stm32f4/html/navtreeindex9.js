@@ -1,5 +1,15 @@
 var NAVTREEINDEX9 =
 {
+"group__crypto__registers__gen.html#ga8d0b1fad863e32d3bd9b95ecc7082e43":[10,1,2,2,2],
+"group__crypto__registers__gen.html#ga9035443f83b6640605cbc78c630064aa":[10,1,2,2,39],
+"group__crypto__registers__gen.html#ga94080d780f5aa18e3db1fd8dc0f17027":[10,1,2,2,35],
+"group__crypto__registers__gen.html#ga9c8b2e0fc771fafb1c9194a8bc4fe9ef":[10,1,2,2,4],
+"group__crypto__registers__gen.html#ga9dc1f170edea1563a096430eb75c0ead":[10,1,2,2,22],
+"group__crypto__registers__gen.html#gaa0660e3027e8beb744e899a8aa84a01e":[10,1,2,2,45],
+"group__crypto__registers__gen.html#gaad5ef5312e7abda965d91a542dbfb33f":[10,1,2,2,6],
+"group__crypto__registers__gen.html#gaaff78552081418931926c17802e4e3bb":[10,1,2,2,11],
+"group__crypto__registers__gen.html#gab5760130c56f24263ac1a51b5db5598e":[10,1,2,2,37],
+"group__crypto__registers__gen.html#gab6f570d94f7831dacab4c953b9f5c94e":[10,1,2,2,10],
 "group__crypto__registers__gen.html#gabbfecc9bb7988213f9d72282c2bbebb0":[10,1,2,2,38],
 "group__crypto__registers__gen.html#gac051d9b51b9e8cd0cf5defbd58d8ebc0":[10,1,2,2,17],
 "group__crypto__registers__gen.html#gac63bb6a7288f4287842acc3b82a5252e":[10,1,2,2,12],
@@ -239,15 +249,5 @@ var NAVTREEINDEX9 =
 "group__dma__defines.html#ga13b6dead1ccd32daafdf9d8676d60de2":[10,1,4,102],
 "group__dma__defines.html#ga13e74aeac02c56cd815204c819973f42":[10,1,4,123],
 "group__dma__defines.html#ga1446d08000d09fe53ccc60f51baee51a":[10,1,4,470],
-"group__dma__defines.html#ga14fe483b7785fe05710877fed9ab07c8":[10,1,4,208],
-"group__dma__defines.html#ga158eb18f6c62f3e9d02402f2f6b33d8b":[10,1,4,143],
-"group__dma__defines.html#ga15b404d9e1601cf3627cbf0163b50221":[10,1,4,236],
-"group__dma__defines.html#ga15bdb91b645f13dac1b9b7b269a56f77":[10,1,4,42],
-"group__dma__defines.html#ga198f3a664e5da472ad3598d8fcb667d8":[10,1,4,136],
-"group__dma__defines.html#ga19e2919f6dc9b31bfdd40fb7d406e4e5":[10,1,4,196],
-"group__dma__defines.html#ga1a1522414af27c7fff2cc27edac1d680":[10,1,4,346],
-"group__dma__defines.html#ga1a5e1a8ed679141575cfd595ff1a5c41":[10,1,4,116],
-"group__dma__defines.html#ga1a7ec01955fb504a5aa4f9f16a9ac52c":[10,1,4,274],
-"group__dma__defines.html#ga1ab7f2af4bb344201a25fdf18b9f1f87":[10,1,4,35],
-"group__dma__defines.html#ga1cf8882b2c868df74fc89f835110900c":[10,1,4,384]
+"group__dma__defines.html#ga14fe483b7785fe05710877fed9ab07c8":[10,1,4,208]
 };

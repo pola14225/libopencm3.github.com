@@ -1,6 +1,7 @@
 <map id="rcc.c" name="rcc.c">
 <area shape="rect" id="node3" href="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag$assert_8h.html" title="libopencm3/cm3/assert.h" alt="" coords="5,99,173,133"/>
 <area shape="rect" id="node7" href="$rcc_8h.html" title="libopencm3/stm32/f1\l/rcc.h" alt="" coords="363,89,504,143"/>
-<area shape="rect" id="node12" href="$flash_8h.html" title="libopencm3/stm32/f1\l/flash.h" alt="" coords="197,89,339,143"/>
-<area shape="rect" id="node5" href="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag$common_8h.html" title="libopencm3/cm3/common.h" alt="" coords="121,193,303,226"/>
+<area shape="rect" id="node14" href="$flash_8h.html" title="libopencm3/stm32/f1\l/flash.h" alt="" coords="197,89,339,143"/>
+<area shape="rect" id="node5" href="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag$common_8h.html" title="libopencm3/cm3/common.h" alt="" coords="60,203,241,237"/>
+<area shape="rect" id="node12" href="$rcc__common__all_8h.html" title="libopencm3/stm32/common\l/rcc_common_all.h" alt="" coords="503,193,684,247"/>
 </map>

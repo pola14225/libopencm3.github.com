@@ -1,5 +1,15 @@
 var NAVTREEINDEX10 =
 {
+"group__dma__defines.html#ga158eb18f6c62f3e9d02402f2f6b33d8b":[10,1,4,143],
+"group__dma__defines.html#ga15b404d9e1601cf3627cbf0163b50221":[10,1,4,236],
+"group__dma__defines.html#ga15bdb91b645f13dac1b9b7b269a56f77":[10,1,4,42],
+"group__dma__defines.html#ga198f3a664e5da472ad3598d8fcb667d8":[10,1,4,136],
+"group__dma__defines.html#ga19e2919f6dc9b31bfdd40fb7d406e4e5":[10,1,4,196],
+"group__dma__defines.html#ga1a1522414af27c7fff2cc27edac1d680":[10,1,4,346],
+"group__dma__defines.html#ga1a5e1a8ed679141575cfd595ff1a5c41":[10,1,4,116],
+"group__dma__defines.html#ga1a7ec01955fb504a5aa4f9f16a9ac52c":[10,1,4,274],
+"group__dma__defines.html#ga1ab7f2af4bb344201a25fdf18b9f1f87":[10,1,4,35],
+"group__dma__defines.html#ga1cf8882b2c868df74fc89f835110900c":[10,1,4,384],
 "group__dma__defines.html#ga1d24cd6be9f2c02ea0c21c95aec1b81f":[10,1,4,131],
 "group__dma__defines.html#ga1e523c5cbf5594ffe8540c317bce6933":[10,1,4,319],
 "group__dma__defines.html#ga1e5ea118900178d4fa2d19656c1b48ff":[10,1,4,239],
@@ -239,15 +249,5 @@ var NAVTREEINDEX10 =
 "group__dma__defines.html#ga9cf93147a7d186ea14fe06b3de860cbb":[10,1,4,444],
 "group__dma__defines.html#ga9de7b044f349e59350b27d9b2e3411a0":[10,1,4,213],
 "group__dma__defines.html#ga9e05ff4fc6bace9cc6c0f0d4ec7b3314":[10,1,4,251],
-"group__dma__defines.html#ga9fcdc7cd42abe3c9b6ca5ff1d10e2665":[10,1,4,462],
-"group__dma__defines.html#ga9fff2e019b3dd018346b1a8171b53937":[10,1,4,92],
-"group__dma__defines.html#gaa0e2c035b7be3a35d966b5d3f4576cd6":[10,1,4,445],
-"group__dma__defines.html#gaa10c891ee2ec333b7f87eea5886d574f":[10,1,4,396],
-"group__dma__defines.html#gaa189138f534283d876f654ec9474987e":[10,1,4,219],
-"group__dma__defines.html#gaa24c76d77301becc22c252a140f74402":[10,1,4,223],
-"group__dma__defines.html#gaa2a49a58659bc8b7d8c7f34daf51e111":[10,1,4,128],
-"group__dma__defines.html#gaa2a9ef0918dfa94c18970a59a638be35":[10,1,4,111],
-"group__dma__defines.html#gaa36811536d60b7082dd41234336625c4":[10,1,4,97],
-"group__dma__defines.html#gaa369c56b6b1657057a4d8a423062ed83":[10,1,4,443],
-"group__dma__defines.html#gaa409d4e648c1c4868c2b8dfd406f4631":[10,1,4,94]
+"group__dma__defines.html#ga9fcdc7cd42abe3c9b6ca5ff1d10e2665":[10,1,4,462]
 };

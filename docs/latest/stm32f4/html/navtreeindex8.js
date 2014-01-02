@@ -1,5 +1,15 @@
 var NAVTREEINDEX8 =
 {
+"group__adc__channel.html#ga34e6ba8d77e1769082ca26d430658e53":[10,1,0,1,13],
+"group__adc__channel.html#ga52e871da9f9331d3d5a4044382578dc8":[10,1,0,1,4],
+"group__adc__channel.html#ga69f3aec885e14d094d5a3fd0ba0b0d74":[10,1,0,1,1],
+"group__adc__channel.html#ga6b97e2da7fdae970ac3a21e9a06f89db":[10,1,0,1,17],
+"group__adc__channel.html#ga7381ba120239e1039e278182088b0212":[10,1,0,1,11],
+"group__adc__channel.html#ga745ab7092749d4c9b70c6c7b71cf96fb":[10,1,0,1,8],
+"group__adc__channel.html#ga77569b9617e08730986a8b4e73dd1c24":[10,1,0,1,6],
+"group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0":[10,1,0,1,0],
+"group__adc__channel.html#ga9805bc76d02d85fe76805c4ecd9f04cc":[10,1,0,1,16],
+"group__adc__channel.html#gad0b3c8dcb5285aae5f680574b7980cdf":[10,1,0,1,9],
 "group__adc__channel.html#gad4a0a0051f40445b0d486d28fbd55d83":[10,1,0,1,5],
 "group__adc__channel.html#gae6e9ad153b3c4bd7ad0d15af82cb84d3":[10,1,0,1,18],
 "group__adc__channel.html#gaf952b863bef9494c45515fb27b4834e6":[10,1,0,1,12],
@@ -239,15 +249,5 @@ var NAVTREEINDEX8 =
 "group__crypto__registers__gen.html#ga77c0180bb40b49d5d515313e72da37af":[10,1,2,2,15],
 "group__crypto__registers__gen.html#ga78eaeea3827a3f93f8a9eb2e9edb6c74":[10,1,2,2,30],
 "group__crypto__registers__gen.html#ga823629d5a10df713041ca2cbca436324":[10,1,2,2,32],
-"group__crypto__registers__gen.html#ga88d5c4f860a950322b174617da6d4c87":[10,1,2,2,46],
-"group__crypto__registers__gen.html#ga8d0b1fad863e32d3bd9b95ecc7082e43":[10,1,2,2,2],
-"group__crypto__registers__gen.html#ga9035443f83b6640605cbc78c630064aa":[10,1,2,2,39],
-"group__crypto__registers__gen.html#ga94080d780f5aa18e3db1fd8dc0f17027":[10,1,2,2,35],
-"group__crypto__registers__gen.html#ga9c8b2e0fc771fafb1c9194a8bc4fe9ef":[10,1,2,2,4],
-"group__crypto__registers__gen.html#ga9dc1f170edea1563a096430eb75c0ead":[10,1,2,2,22],
-"group__crypto__registers__gen.html#gaa0660e3027e8beb744e899a8aa84a01e":[10,1,2,2,45],
-"group__crypto__registers__gen.html#gaad5ef5312e7abda965d91a542dbfb33f":[10,1,2,2,6],
-"group__crypto__registers__gen.html#gaaff78552081418931926c17802e4e3bb":[10,1,2,2,11],
-"group__crypto__registers__gen.html#gab5760130c56f24263ac1a51b5db5598e":[10,1,2,2,37],
-"group__crypto__registers__gen.html#gab6f570d94f7831dacab4c953b9f5c94e":[10,1,2,2,10]
+"group__crypto__registers__gen.html#ga88d5c4f860a950322b174617da6d4c87":[10,1,2,2,46]
 };

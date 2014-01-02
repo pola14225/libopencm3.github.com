@@ -1,5 +1,15 @@
 var NAVTREEINDEX13 =
 {
+"group__i2c__clock.html#ga885ee5d2c6440d184883f6e49b12c7f6":[10,1,7,1,23],
+"group__i2c__clock.html#ga8b285b7ed75c1ae4328046d3b3728606":[10,1,7,1,7],
+"group__i2c__clock.html#ga94b4733af8a14a9643f74e8b14aad364":[10,1,7,1,9],
+"group__i2c__clock.html#ga981ebb1707114838a3591b203a338a89":[10,1,7,1,6],
+"group__i2c__clock.html#ga98bfe575a5550bbe3a5bc4c12a00e403":[10,1,7,1,13],
+"group__i2c__clock.html#ga9933a3132d74494cc70c15cf8f4c094e":[10,1,7,1,38],
+"group__i2c__clock.html#gaa35ee2c4c312e99304ba04e337afbd91":[10,1,7,1,2],
+"group__i2c__clock.html#gaa6dcb16ce22e067505eaf9fc955bdd8c":[10,1,7,1,12],
+"group__i2c__clock.html#gaa82f47c3e046dfe39d5e84f325c680de":[10,1,7,1,16],
+"group__i2c__clock.html#gab162463ca0212dee85d1fbae06413ad8":[10,1,7,1,27],
 "group__i2c__clock.html#gac70fb3f79ae6c24776f5623ea314a6df":[10,1,7,1,18],
 "group__i2c__clock.html#gac754d23150a56ff9a17dc90fbfbf58af":[10,1,7,1,26],
 "group__i2c__clock.html#gac8c0fbd764129b7c46bcf3f98ed5a469":[10,1,7,1,31],
@@ -239,15 +249,5 @@ var NAVTREEINDEX13 =
 "group__pwr__pls.html#ga95f1787c8af928f1fb2e267943d19c7c":[10,1,9,0,6],
 "group__pwr__pls.html#gab3b9c67db5eb99dfa8651cc0d95ee6ba":[10,1,9,0,5],
 "group__pwr__pls.html#gac179ee1e4ceef0c1b1b3bafe2326b047":[10,1,9,0,7],
-"group__pwr__pls.html#gac26a7748bef468020ea4c0b204d89e6c":[10,1,9,0,1],
-"group__pwr__pls.html#gacef8ac40cffdc1fa769865ae497ab979":[10,1,9,0,4],
-"group__pwr__pls.html#gad7d71e9b5c0a51e9ba45feed5f759e0f":[10,1,9,0,3],
-"group__rtc__defines.html":[10,1,10],
-"group__rtc__defines.html#ga0105eb3e873ee3eec6cff5efd3817930":[10,1,10,168],
-"group__rtc__defines.html#ga05189137cfd0e73903d9b70d071656b9":[10,1,10,87],
-"group__rtc__defines.html#ga061be0d3cdea721e5cb695cda0699bc3":[10,1,10,62],
-"group__rtc__defines.html#ga08d8cc2cba587bbfba916263553be5e8":[10,1,10,9],
-"group__rtc__defines.html#ga0a3525a806619247b9759ec71e324fa5":[10,1,10,148],
-"group__rtc__defines.html#ga0c8e9802673270b96c09091ae1859d39":[10,1,10,157],
-"group__rtc__defines.html#ga0dc6c11dd47bd5203d4883f402967a4c":[10,1,10,54]
+"group__pwr__pls.html#gac26a7748bef468020ea4c0b204d89e6c":[10,1,9,0,1]
 };

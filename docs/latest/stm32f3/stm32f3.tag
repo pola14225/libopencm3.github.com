@@ -12167,34 +12167,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rcc_peripheral_enable_clock</name>
-      <anchorfile>rcc_8c.html</anchorfile>
-      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_disable_clock</name>
-      <anchorfile>rcc_8c.html</anchorfile>
-      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_reset</name>
-      <anchorfile>rcc_8c.html</anchorfile>
-      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_clear_reset</name>
-      <anchorfile>rcc_8c.html</anchorfile>
-      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>rcc_set_sysclk_source</name>
       <anchorfile>rcc_8c.html</anchorfile>
       <anchor>a2c291271812c333d975807cd5ec99a36</anchor>
@@ -12317,6 +12289,7 @@
     <name>rcc.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f3/</path>
     <filename>rcc_8h</filename>
+    <includes id="rcc__common__all_8h" name="rcc_common_all.h" local="no" imported="no">libopencm3/stm32/common/rcc_common_all.h</includes>
     <class kind="struct">clock_scale_t</class>
     <member kind="define">
       <type>#define</type>
@@ -14103,6 +14076,13 @@
       <anchor>a7677f029ea85f1892f64c9ffdb59f360</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>_REG_BIT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a859a9ba8fcc7c60a0f7dfd5865001f08</anchor>
+      <arglist>(base, bit)</arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_clock</name>
@@ -14178,6 +14158,741 @@
       <name>LSI</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a5e2335f6f6f0aa05413a0546a550ba71ac59b221b111954833c988555d5972f88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>rcc_periph_clken</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DMA1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48ad3c1b4bd4d4910ad45903d70ce99c546</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DMA2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48af6727266dd80b08123851bd3fc641468</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SRAM</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a7de81948facbcf4690488d21bc3d6cab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_FLTIF</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48abf55c4b04f554234c00185610ee40774</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_CRC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a667709fea2f55d81d0084c0ab6cd7346</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOA</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOB</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48abe0e8ee9db293583511579bffd694b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aca99d40a98c0cccaa8dd4a5eb8422dea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOD</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48ade83c8caa918ccda0766791076460d1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOE</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aecccb0767e9ec411349051aa5f055779</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_GPIOF</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48ac2a10a31a77eac6a9e5ef9b59397abf4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TSC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a8a8fe44850460e9578a9ea186e0d86dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_ADC12</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a83ed06fff8f54632495c3c6f7d887103</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_ADC34</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a3e5105bc8b60ef6d85808f72fb7654d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SYSCFG</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48ab05a237deaa9422ce07e764f7fdafe35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_ADC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aecec311190c999f58ff3e8a3a74cf385</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a246489e2827e54e0c0e6d4d1296c362e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SPI1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM8</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a04b8e39ee8c4a6c9e662349b1b45f0b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USART1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a6f9bc1664f1972e622f9228606caa3b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM15</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48ae3a47230b9ec6676e820e933c28e86f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM16</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aa4fc95bd30dc3fc9b3f1502c1a3c983e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM17</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a3e32bf0959893de29f3408d7668cdfb3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM19</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a0f31926ea9361fafdf55923434781da5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DBGMCU</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a8e9cdb2a2e34167faf55e2d7f23d208c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SDADC1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48abee3dd9e0e9f252946666287c13840f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SDADC2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a5e0819a0ca9bed747320d1f17dfc27ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SDADC3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a90027a4ee9873d68ddd3a834cc90490f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a4d961657b29cd6920dec7df1d6a024e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM4</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a7605ac255d1f7e3fd0c21907b17bba66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM5</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aac4c56a3d869baf25b0434beed0e9ff5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM6</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM7</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM12</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aa6a4aed50fc2fb9a4ecd4a6dc655652d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM13</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a7e33c22a28dde91ac18e1df1b2c3e097</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM14</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a6ba31ae3057d17367fd3db48eea02709</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_TIM18</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a88d769dd207ec28db517d47eff1bcf57</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_WWDG</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a1965878d5b5e1b68e85a92ad2da94514</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SPI2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a191f2ba3eea4493bbfa449bb9e61f99c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SPI3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48ad70ccc847d7804abe857efa22e0ab952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USART2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aa4be48dd043f5d74f5e4eb9d2516b87b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USART3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aaa823140b93403c8dd3395bc5b510155</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_UART4</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48acddaf98763a8dc6edf0b69c983becfd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_UART5</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a0d7a994107ab9af33f9bdbda74ec4685</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_I2C1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_I2C2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_USB</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a965e89095cbc1ef346c32f30f885d793</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_CAN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a103d2ed58a3babf641fbe9a3654ab534</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DAC2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a97699b26c46b12becf4ac732cceb3823</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_PWR</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a653354e7670b00648bd46782e60a780b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DAC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48adbda7bdfe6f47cc2b36f5ea78d9b56d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_DAC1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a723ade3fb17eed8c51da2a479033db1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_CEC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a38ec1bc547ec4365ee3c3ec7054d33e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>rcc_periph_rst</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SYSCFG</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aaff80227bb0aa65e277e8154a183c7c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_ADC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a92653b0219f77f8e958a3c01020d6ba5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a865f6b809c4016955e290f5c569c85bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SPI1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a28ffb322497d5b858fe69ea8551458fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM8</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a6e18446cb73c6b9518ba4045f16e9231</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USART1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718acd5c7eeeda3799f89bc3da7169384bf1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM15</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a6f8e727fd562ebbb67b2547a813bc9d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM16</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a56608e4906289387152b2f5aa4babef5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM17</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a7a19340ece9a89667b6b124f47bc288e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM19</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a2f73a198bd99fdec80070cd9ae52c2a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SDADC1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a449d95a6d487844b19d320bbaf05df68</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SDADC2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a9e637ccbc9d93e54b5ccf6ba173031c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SDADC3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa438eb7fc6bc4c45fbf7a7002516def8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a9a11cf678a1931bc3f8ecd22fccf1304</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM4</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa94b0829d2505a3d916a3b7bb8e95361</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM5</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aac5933e47e7e98b7096193edfe4bf08a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM6</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM7</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM12</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a7c9f088db1db27834777eceb0592f8f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM13</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a955bf101b2ffaa7c39dfad28a8e742f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM14</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a618551caa5dd22af8f9c790284fb9247</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TIM18</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a094ae84e018084e9a61a2c64edb96e68</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_WWDG</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ad38183e2f4809aa13b2c149b9158cdb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SPI2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a6a2dd34c8278fd2019d4aab6d7dd91fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SPI3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a8c3208aa283eea369bdb2697cbe6dff8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USART2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718af2ed5025a1c665196870ac061ffafd24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USART3</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a909ada79d50eabe177c087ae3db578da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_UART4</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a6db8b2fc3c699ae1b93d0e7e04b16265</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_UART5</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ab1495852f5070c5924815d26636035f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_I2C1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ae083a448a99ae23e788c79d45f2f0fae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_I2C2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aba0770678558545d59794049b4ea57f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_USB</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa268cf3f3421fb383cbd85b70f1f487c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_CAN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa2e28f01ba83fc92884b9fafc9de413b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_DAC2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ad6f37ffb322cfcbe016597d515ce0fb2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_PWR</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718acaed17a5e312de489708c67c9933c044</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_DAC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a90b3f78831d25a6f6291744bc0eabd45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_DAC1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ae669dd01ae72273898327cdb1b93a764</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_CEC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a311d0176ee435d5b7b0281908743b88a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOA</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a82de36d9219d3b7a8f6e24f7b037d4c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOB</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a8607fa69d38f8dd406daebb7bf9b8b26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a847595db9011d5989097e67215f3f208</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOD</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a9fed32b2a96d4647ea73ba7926f1121e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOE</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ab720e4e6239cb85e2736a4f022e4f64b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_GPIOF</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a61956334f17966ab11993869be4e2ebb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_TSC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a57a9f072c532d2a51bc40474dac84ad3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_ADC12</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a36f304bb67accc6c480399bd1df8719e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_ADC34</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa5dbca0f0bc1733b2caa1698df1c147b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_BD</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a5d2b972afbce58ab324c73286ea5f55a</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -14284,34 +14999,6 @@
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a2cdf5cbc5d8da83655308bb44ba3fb2c</anchor>
       <arglist>(enum osc osc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_enable_clock</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_disable_clock</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_reset</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_peripheral_clear_reset</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
-      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -14431,6 +15118,156 @@
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a8fc6d67b94c14b66a60f700b14ef702f</anchor>
       <arglist>[CLOCK_END]</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>rcc_common_all.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>rcc__common__all_8c</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>_RCC_REG</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a2c87be3073302923a51e2940225ce6f3</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>_RCC_BIT</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a913261b5f48c6ace5e2cfbc0fc9bca78</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_enable_clock</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_disable_clock</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_reset</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_clear_reset</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_enable</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a90aa2b7801b2b42debc0536d38c5b07c</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_disable</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a87325ef1019f246cd84ba8aa73100721</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_pulse</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>ae8846a0bf49a46bcdc10a412bc69ee58</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_hold</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a6f3e2843e5d017717da66599ccc5daef</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_release</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a08aceecc3bebdf33119e8d7daf58b573</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>rcc_common_all.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>rcc__common__all_8h</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_enable_clock</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_disable_clock</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_reset</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_clear_reset</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_enable</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a90aa2b7801b2b42debc0536d38c5b07c</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_disable</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a87325ef1019f246cd84ba8aa73100721</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_pulse</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>ae8846a0bf49a46bcdc10a412bc69ee58</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_hold</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a6f3e2843e5d017717da66599ccc5daef</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_release</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a08aceecc3bebdf33119e8d7daf58b573</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -40307,6 +41144,7 @@
     <file>i2c_common_all.h</file>
     <file>iwdg_common_all.h</file>
     <file>pwr_common_all.h</file>
+    <file>rcc_common_all.h</file>
     <file>rtc_common_l1f024.h</file>
     <file>spi_common_all.h</file>
     <file>spi_common_f03.h</file>
@@ -40329,6 +41167,7 @@
     <file>i2c_common_all.c</file>
     <file>iwdg_common_all.c</file>
     <file>pwr_common_all.c</file>
+    <file>rcc_common_all.c</file>
     <file>rtc_common_l1f024.c</file>
     <file>spi_common_all.c</file>
     <file>spi_common_l1f124.c</file>

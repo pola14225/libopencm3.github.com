@@ -13461,6 +13461,156 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>rcc_common_all.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>rcc__common__all_8c</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>_RCC_REG</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a2c87be3073302923a51e2940225ce6f3</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>_RCC_BIT</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a913261b5f48c6ace5e2cfbc0fc9bca78</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_enable_clock</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_disable_clock</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_reset</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_clear_reset</name>
+      <anchorfile>rcc__common__all_8c.html</anchorfile>
+      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_enable</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga6b8897014d6489f7ae9d6d977dd9ae84</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_disable</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga5a10381039ba2cda2f4713060e922455</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_pulse</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga8d5a2473dbbb91b1ddf82fc2591b0387</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_hold</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga9220bcc1fc5a6fdb7d78beb7ef72ec77</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_release</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaa3237f8654ff2c473dab491d87cabbb8</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>rcc_common_all.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>rcc__common__all_8h</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_enable_clock</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_disable_clock</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_reset</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_clear_reset</name>
+      <anchorfile>rcc__common__all_8h.html</anchorfile>
+      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_enable</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga6b8897014d6489f7ae9d6d977dd9ae84</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_disable</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga5a10381039ba2cda2f4713060e922455</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_pulse</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga8d5a2473dbbb91b1ddf82fc2591b0387</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_hold</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga9220bcc1fc5a6fdb7d78beb7ef72ec77</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_release</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>gaa3237f8654ff2c473dab491d87cabbb8</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>rtc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/</path>
     <filename>rtc_8c</filename>
@@ -43085,6 +43235,7 @@
     <file>i2c_common_all.h</file>
     <file>iwdg_common_all.h</file>
     <file>pwr_common_all.h</file>
+    <file>rcc_common_all.h</file>
     <file>rtc_common_l1f024.h</file>
     <file>spi_common_all.h</file>
     <file>spi_common_f03.h</file>
@@ -43108,6 +43259,7 @@
     <file>i2c_common_all.c</file>
     <file>iwdg_common_all.c</file>
     <file>pwr_common_all.c</file>
+    <file>rcc_common_all.c</file>
     <file>rtc_common_l1f024.c</file>
     <file>spi_common_all.c</file>
     <file>spi_common_l1f124.c</file>

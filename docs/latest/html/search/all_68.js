@@ -17,7 +17,10 @@ var searchData=
   ['hash_5fset_5flast_5fword_5fvalid_5fbits',['hash_set_last_word_valid_bits',['../../stm32f4/html/group__hash__file.html#ga7171d486bf2db2f1716bac4f43636c70',1,]]],
   ['hash_5fset_5fmode',['hash_set_mode',['../../stm32f4/html/group__hash__file.html#ga34793acd913d6182be48f15b50c04494',1,]]],
   ['hpre',['hpre',['../../stm32f4/html/structclock__scale__t.html#ac8be876648665f481c96a13f39bfd70e',1,'clock_scale_t']]],
-  ['hse',['HSE',['../../stm32f1/html/group__STM32F1xx__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823a744bf841212e605b891f8ced6e20eb43',1,]]],
-  ['hsi',['HSI',['../../stm32f1/html/group__STM32F1xx__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823aae2bb333077d91b3c2aa75978f89e084',1,]]],
+  ['hse',['HSE',['../../stm32f1/html/group__STM32F1xx__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a744bf841212e605b891f8ced6e20eb43',1,]]],
+  ['hse_5f12mhz_5f3v3',['hse_12mhz_3v3',['../../stm32f4/html/group__rcc__file.html#gafaf3b6c383f86ea1730ceedc0eb5a0c4',1,]]],
+  ['hse_5f16mhz_5f3v3',['hse_16mhz_3v3',['../../stm32f4/html/group__rcc__file.html#ga24a53fce58c72ae809ee796bdf93b693',1,]]],
+  ['hse_5f8mhz_5f3v3',['hse_8mhz_3v3',['../../stm32f4/html/group__rcc__file.html#ga6732b60b662d0168e6995cddc5027c29',1,]]],
+  ['hsi',['HSI',['../../stm32f1/html/group__STM32F1xx__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aae2bb333077d91b3c2aa75978f89e084',1,]]],
   ['high_2dlevel_20clock_20control_20api',['High-level clock control API',['../../lm4f/html/group__rcc__high__level.html',1,'']]]
 ];

@@ -43,8 +43,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../efm32g/html/modules.html",
-"memorymap_8h.html#a19364e23013210d7c3939b513b514799",
-"vector_8h_source.html"
+"itm_8h.html#ab7a22b7663d50a1345b7756fca53e0a9",
+"tpiu_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

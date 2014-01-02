@@ -19,7 +19,7 @@ var searchData=
   ['rcc_5fcfgr_20system_20clock_20selection',['RCC_CFGR System Clock Selection',['../../stm32f1/html/group__rcc__cfgr__scs.html',1,'']]],
   ['rcc_5fcfgr_20usb_20prescale_20factors',['RCC_CFGR USB prescale Factors',['../../stm32f1/html/group__rcc__cfgr__usbpre.html',1,'']]],
   ['reset_20and_20clock_20control',['Reset and Clock Control',['../../lm4f/html/group__rcc__defines.html',1,'']]],
-  ['rcc',['RCC',['../../lm4f/html/group__rcc__file.html',1,'']]],
+  ['rcc',['RCC',['../../stm32f4/html/group__rcc__file.html',1,'']]],
   ['reset_20generation_20unit_20defines',['Reset Generation Unit Defines',['../../lpc43xx/html/group__rgu__defines.html',1,'']]],
   ['repetitive_20interrupt_20timer_20defines',['Repetitive Interrupt Timer Defines',['../../lpc43xx/html/group__ritimer__defines.html',1,'']]],
   ['rtc_20defines',['RTC Defines',['../../stm32f1/html/group__rtc__defines.html',1,'']]],

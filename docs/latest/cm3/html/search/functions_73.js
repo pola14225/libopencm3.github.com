@@ -12,5 +12,6 @@ var searchData=
   ['systick_5finterrupt_5fdisable',['systick_interrupt_disable',['../group__CM3__systick__defines.html#gaee4e252973ddd7c5ffaa872da3b6a3fe',1,'systick.h']]],
   ['systick_5finterrupt_5fenable',['systick_interrupt_enable',['../group__CM3__systick__defines.html#ga062163783d8d4106c8b945ed97b4decc',1,'systick.h']]],
   ['systick_5fset_5fclocksource',['systick_set_clocksource',['../group__CM3__systick__defines.html#ga13726e0964b31c85269beddbdc1d35e7',1,'systick.h']]],
+  ['systick_5fset_5ffrequency',['systick_set_frequency',['../group__CM3__systick__defines.html#ga7986a46de67e6396e366316f1c9e2437',1,'systick.h']]],
   ['systick_5fset_5freload',['systick_set_reload',['../group__CM3__systick__defines.html#gaaa997323bf7f3378eb78a6277abc913f',1,'systick.h']]]
 ];

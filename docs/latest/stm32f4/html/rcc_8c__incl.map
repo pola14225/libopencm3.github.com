@@ -1,10 +1,11 @@
 <map id="rcc.c" name="rcc.c">
 <area shape="rect" id="node3" href="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag$assert_8h.html" title="libopencm3/cm3/assert.h" alt="" coords="5,307,173,341"/>
-<area shape="rect" id="node7" href="$rcc_8h.html" title="libopencm3/stm32/f4\l/rcc.h" alt="" coords="140,89,281,143"/>
-<area shape="rect" id="node12" href="$pwr_8h.html" title="libopencm3/stm32/f4\l/pwr.h" alt="" coords="305,89,447,143"/>
-<area shape="rect" id="node18" href="$flash_8h.html" title="libopencm3/stm32/f4\l/flash.h" alt="" coords="471,89,612,143"/>
-<area shape="rect" id="node5" href="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag$common_8h.html" title="libopencm3/cm3/common.h" alt="" coords="248,401,429,434"/>
-<area shape="rect" id="node15" href="$pwr__common__all_8h.html" title="libopencm3/stm32/common\l/pwr_common_all.h" alt="" coords="248,297,429,351"/>
-<area shape="rect" id="node21" href="$flash__common__f24_8h.html" title="libopencm3/stm32/common\l/flash_common_f24.h" alt="" coords="536,193,717,247"/>
-<area shape="rect" id="node24" href="$flash__common__f234_8h.html" title="libopencm3/stm32/common\l/flash_common_f234.h" alt="" coords="453,297,635,351"/>
+<area shape="rect" id="node7" href="$rcc_8h.html" title="libopencm3/stm32/f4\l/rcc.h" alt="" coords="565,89,707,143"/>
+<area shape="rect" id="node14" href="$pwr_8h.html" title="libopencm3/stm32/f4\l/pwr.h" alt="" coords="199,89,340,143"/>
+<area shape="rect" id="node20" href="$flash_8h.html" title="libopencm3/stm32/f4\l/flash.h" alt="" coords="364,89,505,143"/>
+<area shape="rect" id="node5" href="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag$common_8h.html" title="libopencm3/cm3/common.h" alt="" coords="325,401,507,434"/>
+<area shape="rect" id="node12" href="$rcc__common__all_8h.html" title="libopencm3/stm32/common\l/rcc_common_all.h" alt="" coords="709,193,891,247"/>
+<area shape="rect" id="node17" href="$pwr__common__all_8h.html" title="libopencm3/stm32/common\l/pwr_common_all.h" alt="" coords="197,297,379,351"/>
+<area shape="rect" id="node23" href="$flash__common__f24_8h.html" title="libopencm3/stm32/common\l/flash_common_f24.h" alt="" coords="453,193,635,247"/>
+<area shape="rect" id="node26" href="$flash__common__f234_8h.html" title="libopencm3/stm32/common\l/flash_common_f234.h" alt="" coords="453,297,635,351"/>
 </map>

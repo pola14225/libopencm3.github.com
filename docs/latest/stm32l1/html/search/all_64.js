@@ -724,5 +724,6 @@ var searchData=
   ['dma_5fteif',['DMA_TEIF',['../group__dma__if__offset.html#ga641dfc0110f5f9aed33f8f8c78d7653b',1,'DMA_TEIF():&#160;dma_common_f24.h'],['../group__dma__if__offset.html#ga641dfc0110f5f9aed33f8f8c78d7653b',1,'DMA_TEIF():&#160;dma_common_l1f013.h']]],
   ['doc_2dcm3_2eh',['doc-cm3.h',['../../../cm3/html/doc-cm3_8h.html',1,'']]],
   ['doc_2dstm32l1_2eh',['doc-stm32l1.h',['../doc-stm32l1_8h.html',1,'']]],
+  ['dwt_2eh',['dwt.h',['../../../cm3/html/dwt_8h.html',1,'']]],
   ['dma_20defines',['DMA Defines',['../group__STM32L1xx__dma__defines.html',1,'']]]
 ];

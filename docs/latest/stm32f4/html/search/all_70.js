@@ -9,7 +9,7 @@ var searchData=
   ['periph_5fbase_5fahb3',['PERIPH_BASE_AHB3',['../memorymap_8h.html#a289fef602b1cd85fa94051720f37a217',1,'memorymap.h']]],
   ['periph_5fbase_5fapb1',['PERIPH_BASE_APB1',['../memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d',1,'memorymap.h']]],
   ['periph_5fbase_5fapb2',['PERIPH_BASE_APB2',['../memorymap_8h.html#a9ce09c7342dea5a3dcb66c082e146b09',1,'memorymap.h']]],
-  ['pll',['PLL',['../rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2',1,'rcc.h']]],
+  ['pll',['PLL',['../rcc_8h.html#a68c2b48bd51903ccf423c86458194354a5c7fe827c28117f11dd14f9197d7d5a2',1,'rcc.h']]],
   ['pllm',['pllm',['../structclock__scale__t.html#af529b713744995d39878f6954ad6e576',1,'clock_scale_t']]],
   ['plln',['plln',['../structclock__scale__t.html#ad9e813c3a0093ba7a95a954aa2ae2308',1,'clock_scale_t']]],
   ['pllp',['pllp',['../structclock__scale__t.html#ad9cdc535a720177e5d63c41808fa7e7a',1,'clock_scale_t']]],
