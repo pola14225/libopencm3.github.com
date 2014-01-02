@@ -64,6 +64,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../efm32tg/html/modules.html"><span>EFM32&#160;Tiny&#160;Gecko</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -96,6 +97,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_defs.html"><span>Macros</span></a></li>
     </ul>
   </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="#index__"><span>_</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+      <li><a href="#index_h"><span>h</span></a></li>
+      <li><a href="#index_n"><span>n</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -126,25 +138,60 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 </div>
 
 <div class="contents">
-&#160;<ul>
+&#160;
+
+<h3><a class="anchor" id="index__"></a>- _ -</h3><ul>
+<li>__cm_atomic_set()
+: <a class="el" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">cortex.h</a>
+</li>
 <li>__dmb()
 : <a class="el" href="sync_8h.html#ad1ca1eff93298efc081ecc4b22ebed95">sync.h</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
 <li>cm3_assert_failed()
 : <a class="el" href="group__debugging.html#ga9c0fa84fe9c0e99ad57a3d079ba41ddc">assert.h</a>
 </li>
 <li>cm3_assert_failed_verbose()
 : <a class="el" href="group__debugging.html#ga93d8d0dfa33f2bc46e3fa201813ef3bc">assert.h</a>
 </li>
+<li>cm_disable_faults()
+: <a class="el" href="group__CM3__cortex__defines.html#ga0c65e90023b9244419cdb60b209c78f3">cortex.h</a>
+</li>
 <li>cm_disable_interrupts()
-: <a class="el" href="cortex_8h.html#a30836716e88c3eccaf6c5fb872493450">cortex.h</a>
+: <a class="el" href="group__CM3__cortex__defines.html#ga30836716e88c3eccaf6c5fb872493450">cortex.h</a>
+</li>
+<li>cm_enable_faults()
+: <a class="el" href="group__CM3__cortex__defines.html#ga257d0ea270a0854aecb4856ab70f9c14">cortex.h</a>
 </li>
 <li>cm_enable_interrupts()
-: <a class="el" href="cortex_8h.html#a06a8f1e988ceacd262f4fbd14633b481">cortex.h</a>
+: <a class="el" href="group__CM3__cortex__defines.html#ga06a8f1e988ceacd262f4fbd14633b481">cortex.h</a>
 </li>
+<li>cm_is_masked_faults()
+: <a class="el" href="group__CM3__cortex__defines.html#gab3105858d73c77436822df3e9f4a0de6">cortex.h</a>
+</li>
+<li>cm_is_masked_interrupts()
+: <a class="el" href="group__CM3__cortex__defines.html#gacf65bc8e51a84d537167765189984f91">cortex.h</a>
+</li>
+<li>cm_mask_faults()
+: <a class="el" href="group__CM3__cortex__defines.html#ga2716cd387030655888a4b35b766e0800">cortex.h</a>
+</li>
+<li>cm_mask_interrupts()
+: <a class="el" href="group__CM3__cortex__defines.html#ga2cd22ed39720f21f182064caaa9ee05a">cortex.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
 <li>hard_fault_handler()
 : <a class="el" href="group__CM3__nvic__defines.html#gae29640317be4df735067ff164aeeee0f">nvic.h</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
 <li>nmi_handler()
 : <a class="el" href="group__CM3__nvic__defines.html#ga181d6892388ef1987ba92d0ae80e9359">nvic.h</a>
 </li>
@@ -169,12 +216,24 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <li>nvic_set_priority()
 : <a class="el" href="group__CM3__nvic__defines.html#ga404123c81365250fe09e0545b4c6bf66">nvic.h</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
 <li>pend_sv_handler()
 : <a class="el" href="group__CM3__nvic__defines.html#ga214eb2c5d993ec1fe7b0a25dd428d3ae">nvic.h</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>reset_handler()
 : <a class="el" href="group__CM3__nvic__defines.html#gaa13f582a41a6b190667d0ecd9c31072f">nvic.h</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>scb_reset_system()
 : <a class="el" href="scb_8h.html#aad4d08be4e2b209f97d3276b7c7731e6">scb.h</a>
 </li>
@@ -220,7 +279,7 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 2 2014 16:21:12 for libopencm3 by
+    <li class="footer">Generated on Thu Jan 2 2014 21:21:14 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

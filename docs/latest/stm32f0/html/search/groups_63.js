@@ -1,6 +1,8 @@
 var searchData=
 [
   ['cec_20defines',['CEC Defines',['../group__CEC__defines.html',1,'']]],
+  ['cortex_20core_20atomic_20support_20defines',['Cortex Core Atomic support Defines',['../../../cm3/html/group__CM3__cortex__atomic__defines.html',1,'']]],
+  ['cortex_20core_20defines',['Cortex Core Defines',['../../../cm3/html/group__CM3__cortex__defines.html',1,'']]],
   ['cm3_20defines',['CM3 Defines',['../../../cm3/html/group__CM3__defines.html',1,'']]],
   ['comp_20defines',['COMP Defines',['../group__comp__defines.html',1,'']]],
   ['comp',['COMP',['../group__comp__file.html',1,'']]],

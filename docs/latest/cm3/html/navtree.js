@@ -35,14 +35,16 @@ var NAVTREE =
         [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
-    ] ]
+    ] ],
+    [ "Examples", "examples.html", "examples" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
 "../../efm32g/html/modules.html",
-"nvic_8h.html#gae29640317be4df735067ff164aeeee0f"
+"memorymap_8h.html#a19364e23013210d7c3939b513b514799",
+"vector_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

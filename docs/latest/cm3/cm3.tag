@@ -337,19 +337,89 @@
     <name>cortex.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
     <filename>cortex_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>__CM_SAVER</name>
+      <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
+      <anchor>ga03ee33aa307c41ceb35288a40539ecbc</anchor>
+      <arglist>(state)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CM_ATOMIC_BLOCK</name>
+      <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
+      <anchor>ga6904952be4c789ef4957c8c9bce83fc6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CM_ATOMIC_CONTEXT</name>
+      <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
+      <anchor>gabd996a426e72e63e0d4d100d3dd6ff87</anchor>
+      <arglist>()</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>cm_enable_interrupts</name>
-      <anchorfile>cortex_8h.html</anchorfile>
-      <anchor>a06a8f1e988ceacd262f4fbd14633b481</anchor>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga06a8f1e988ceacd262f4fbd14633b481</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
       <name>cm_disable_interrupts</name>
-      <anchorfile>cortex_8h.html</anchorfile>
-      <anchor>a30836716e88c3eccaf6c5fb872493450</anchor>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga30836716e88c3eccaf6c5fb872493450</anchor>
       <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>cm_enable_faults</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga257d0ea270a0854aecb4856ab70f9c14</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>cm_disable_faults</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga0c65e90023b9244419cdb60b209c78f3</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>cm_is_masked_interrupts</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>gacf65bc8e51a84d537167765189984f91</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>cm_is_masked_faults</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>gab3105858d73c77436822df3e9f4a0de6</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>cm_mask_interrupts</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga2cd22ed39720f21f182064caaa9ee05a</anchor>
+      <arglist>(bool mask)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>cm_mask_faults</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga2716cd387030655888a4b35b766e0800</anchor>
+      <arglist>(bool mask)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>__cm_atomic_set</name>
+      <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
+      <anchor>ga3250af4be4a3a81baae03814d898c507</anchor>
+      <arglist>(bool *val)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2189,9 +2259,105 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>CM3_cortex_defines</name>
+    <title>Cortex Core Defines</title>
+    <filename>group__CM3__cortex__defines.html</filename>
+    <subgroup>CM3_cortex_atomic_defines</subgroup>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>cm_enable_interrupts</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga06a8f1e988ceacd262f4fbd14633b481</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>cm_disable_interrupts</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga30836716e88c3eccaf6c5fb872493450</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>cm_enable_faults</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga257d0ea270a0854aecb4856ab70f9c14</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>cm_disable_faults</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga0c65e90023b9244419cdb60b209c78f3</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>cm_is_masked_interrupts</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>gacf65bc8e51a84d537167765189984f91</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>cm_is_masked_faults</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>gab3105858d73c77436822df3e9f4a0de6</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>cm_mask_interrupts</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga2cd22ed39720f21f182064caaa9ee05a</anchor>
+      <arglist>(bool mask)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>cm_mask_faults</name>
+      <anchorfile>group__CM3__cortex__defines.html</anchorfile>
+      <anchor>ga2716cd387030655888a4b35b766e0800</anchor>
+      <arglist>(bool mask)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>CM3_cortex_atomic_defines</name>
+    <title>Cortex Core Atomic support Defines</title>
+    <filename>group__CM3__cortex__atomic__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>__CM_SAVER</name>
+      <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
+      <anchor>ga03ee33aa307c41ceb35288a40539ecbc</anchor>
+      <arglist>(state)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CM_ATOMIC_BLOCK</name>
+      <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
+      <anchor>ga6904952be4c789ef4957c8c9bce83fc6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CM_ATOMIC_CONTEXT</name>
+      <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
+      <anchor>gabd996a426e72e63e0d4d100d3dd6ff87</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>__cm_atomic_set</name>
+      <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
+      <anchor>ga3250af4be4a3a81baae03814d898c507</anchor>
+      <arglist>(bool *val)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
     <name>CM3_defines</name>
     <title>CM3 Defines</title>
     <filename>group__CM3__defines.html</filename>
+    <subgroup>CM3_cortex_defines</subgroup>
     <subgroup>CM3_nvic_defines</subgroup>
     <subgroup>CM3_systick_defines</subgroup>
   </compound>

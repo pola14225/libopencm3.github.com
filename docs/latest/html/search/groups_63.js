@@ -2,6 +2,8 @@ var searchData=
 [
   ['clock_20control_20unit_20defines',['Clock Control Unit Defines',['../../lpc43xx/html/group__ccu__defines.html',1,'']]],
   ['clock_20generation_20unit_20defines',['Clock Generation Unit Defines',['../../lpc43xx/html/group__cgu__defines.html',1,'']]],
+  ['cortex_20core_20atomic_20support_20defines',['Cortex Core Atomic support Defines',['../../cm3/html/group__CM3__cortex__atomic__defines.html',1,'']]],
+  ['cortex_20core_20defines',['Cortex Core Defines',['../../cm3/html/group__CM3__cortex__defines.html',1,'']]],
   ['cm3_20defines',['CM3 Defines',['../../cm3/html/group__CM3__defines.html',1,'']]],
   ['crc_20defines',['CRC Defines',['../../stm32f1/html/group__crc__defines.html',1,'']]],
   ['crc',['CRC',['../../stm32f1/html/group__crc__file.html',1,'']]],

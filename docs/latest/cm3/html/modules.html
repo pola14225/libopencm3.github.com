@@ -64,6 +64,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../efm32tg/html/modules.html"><span>EFM32&#160;Tiny&#160;Gecko</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
+      <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -120,10 +121,12 @@ $(document).ready(function(){initNavTree('modules.html','');});
 <div class="levels">[detail level <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span><span onclick="javascript:toggleLevel(3);">3</span>]</div><table class="directory">
 <tr id="row_0_" class="even"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="group__debugging.html" target="_self">Debugging</a></td><td class="desc">Macros and functions to aid in debugging </td></tr>
 <tr id="row_1_"><td class="entry"><img id="arr_1_" src="ftv2mlastnode.png" alt="\" width="16" height="22" onclick="toggleFolder('1_')"/><a class="el" href="group__CM3__defines.html" target="_self">CM3 Defines</a></td><td class="desc">Defined Constants and Types for Cortex M3 core features </td></tr>
-<tr id="row_1_0_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_1_0_" src="ftv2mnode.png" alt="o" width="16" height="22" onclick="toggleFolder('1_0_')"/><a class="el" href="group__CM3__nvic__defines.html" target="_self">NVIC Defines</a></td><td class="desc"><b>libopencm3 Cortex Nested Vectored Interrupt Controller</b> </td></tr>
-<tr id="row_1_0_0_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="group__nvic__sysint.html" target="_self">Cortex M0/M3/M4 System Interrupts</a></td><td class="desc">IRQ numbers -3 and -6 to -9 are reserved </td></tr>
-<tr id="row_1_1_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_1_1_" src="ftv2mlastnode.png" alt="\" width="16" height="22" onclick="toggleFolder('1_1_')"/><a class="el" href="group__CM3__systick__defines.html" target="_self">SysTick Defines</a></td><td class="desc"><b>libopencm3 Defined Constants and Types for the Cortex SysTick </b> </td></tr>
-<tr id="row_1_1_0_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="group__systick__clksource.html" target="_self">Clock source selection</a></td><td class="desc"></td></tr>
+<tr id="row_1_0_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_1_0_" src="ftv2mnode.png" alt="o" width="16" height="22" onclick="toggleFolder('1_0_')"/><a class="el" href="group__CM3__cortex__defines.html" target="_self">Cortex Core Defines</a></td><td class="desc"><b>libopencm3 Defined Constants and Types for the Cortex Core </b> </td></tr>
+<tr id="row_1_0_0_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="group__CM3__cortex__atomic__defines.html" target="_self">Cortex Core Atomic support Defines</a></td><td class="desc">Atomic operation support </td></tr>
+<tr id="row_1_1_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_1_1_" src="ftv2mnode.png" alt="o" width="16" height="22" onclick="toggleFolder('1_1_')"/><a class="el" href="group__CM3__nvic__defines.html" target="_self">NVIC Defines</a></td><td class="desc"><b>libopencm3 Cortex Nested Vectored Interrupt Controller</b> </td></tr>
+<tr id="row_1_1_0_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="group__nvic__sysint.html" target="_self">Cortex M0/M3/M4 System Interrupts</a></td><td class="desc">IRQ numbers -3 and -6 to -9 are reserved </td></tr>
+<tr id="row_1_2_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_1_2_" src="ftv2mlastnode.png" alt="\" width="16" height="22" onclick="toggleFolder('1_2_')"/><a class="el" href="group__CM3__systick__defines.html" target="_self">SysTick Defines</a></td><td class="desc"><b>libopencm3 Defined Constants and Types for the Cortex SysTick </b> </td></tr>
+<tr id="row_1_2_0_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="group__systick__clksource.html" target="_self">Clock source selection</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->
@@ -131,7 +134,7 @@ $(document).ready(function(){initNavTree('modules.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 2 2014 16:21:12 for libopencm3 by
+    <li class="footer">Generated on Thu Jan 2 2014 21:21:14 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>
