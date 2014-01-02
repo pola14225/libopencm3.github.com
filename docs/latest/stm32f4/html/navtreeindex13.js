@@ -1,12 +1,18 @@
 var NAVTREEINDEX13 =
 {
+"group__i2c__clock.html#gac70fb3f79ae6c24776f5623ea314a6df":[10,1,7,1,18],
+"group__i2c__clock.html#gac754d23150a56ff9a17dc90fbfbf58af":[10,1,7,1,26],
+"group__i2c__clock.html#gac8c0fbd764129b7c46bcf3f98ed5a469":[10,1,7,1,31],
+"group__i2c__clock.html#gac93742dc6b11252a03c00d4a7d8f6c90":[10,1,7,1,30],
+"group__i2c__clock.html#gacba95d563e2054412a16c38ab3584aaf":[10,1,7,1,4],
 "group__i2c__clock.html#gade1464a188dba5c09d50e0ba8cce7df4":[10,1,7,1,3],
-"group__i2c__clock.html#gae08c1f7f7da2f32858a3adeca738ed9b":[10,1,7,1,29],
-"group__i2c__clock.html#gae839895426720282c4f737ef83717413":[10,1,7,1,30],
+"group__i2c__clock.html#gae08c1f7f7da2f32858a3adeca738ed9b":[10,1,7,1,35],
+"group__i2c__clock.html#gae611e483335474d48c166c1277b1ba9a":[10,1,7,1,34],
+"group__i2c__clock.html#gae839895426720282c4f737ef83717413":[10,1,7,1,36],
 "group__i2c__clock.html#gaeb18bc8aee62ce8eac7959ef196d1836":[10,1,7,1,14],
 "group__i2c__clock.html#gaeba1c8b156cf45c9c77c7cb1de74e52e":[10,1,7,1,0],
 "group__i2c__clock.html#gaf5111a5a72cf7ec21890de795e52e8f0":[10,1,7,1,15],
-"group__i2c__clock.html#gaf8499b5642b94779d31ae8564e3a5f24":[10,1,7,1,33],
+"group__i2c__clock.html#gaf8499b5642b94779d31ae8564e3a5f24":[10,1,7,1,39],
 "group__i2c__defines.html":[10,1,7],
 "group__i2c__defines.html#ga001198ff898802888edf58f56d5371c9":[10,1,7,35],
 "group__i2c__defines.html#ga0c0648dd9ea73bcf81fe5fcae6dfa5b5":[10,1,7,23],
@@ -243,11 +249,5 @@ var NAVTREEINDEX13 =
 "group__rtc__defines.html#ga08d8cc2cba587bbfba916263553be5e8":[10,1,10,9],
 "group__rtc__defines.html#ga0a3525a806619247b9759ec71e324fa5":[10,1,10,148],
 "group__rtc__defines.html#ga0c8e9802673270b96c09091ae1859d39":[10,1,10,157],
-"group__rtc__defines.html#ga0dc6c11dd47bd5203d4883f402967a4c":[10,1,10,54],
-"group__rtc__defines.html#ga0dff3df721423c3e13d21fee04a6b2cb":[10,1,10,61],
-"group__rtc__defines.html#ga0e753321211e19bc48736fe0d30a7f40":[10,1,10,96],
-"group__rtc__defines.html#ga0e7a474de1a01816bc9d9b6fa7272289":[10,1,10,36],
-"group__rtc__defines.html#ga0e981c8352a0a6dd79698ef8e9a68c5b":[10,1,10,73],
-"group__rtc__defines.html#ga0f217be620b266abca83fe0f6dd5117b":[10,1,10,154],
-"group__rtc__defines.html#ga0f6bfca00672a49a65701e4042b0cd41":[10,1,10,126]
+"group__rtc__defines.html#ga0dc6c11dd47bd5203d4883f402967a4c":[10,1,10,54]
 };

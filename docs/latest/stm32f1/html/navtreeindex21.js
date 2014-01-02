@@ -1,5 +1,11 @@
 var NAVTREEINDEX21 =
 {
+"group__timer__file.html#ga45cb21df9ad54411ad2cde8eb29f1a9f":[7,0,11,14],
+"group__timer__file.html#ga45e2ff5caa76f1baac62985affa04908":[7,0,11,67],
+"group__timer__file.html#ga48290e3b69592031f0d29066fafc780e":[7,0,11,9],
+"group__timer__file.html#ga4c1e08343758db3ed4bceaadceb4360c":[7,0,11,23],
+"group__timer__file.html#ga4ceb747a6c4de3b6f8f687fc208b2e81":[7,0,11,44],
+"group__timer__file.html#ga518f01cdb7d391eb7e884d49defcc0a1":[7,0,11,60],
 "group__timer__file.html#ga547d7a817bc3588bbe5b5a80967a42e7":[7,0,11,59],
 "group__timer__file.html#ga569a781dbed735fc1fdb811b68769969":[7,0,11,32],
 "group__timer__file.html#ga5ac041bc0363fbb857b2c783e675fc69":[7,0,11,38],
@@ -243,11 +249,5 @@ var NAVTREEINDEX21 =
 "i2c__common__all_8c.html#ga5a96238eca687f4af66247ea570d96dc":[21,0,34,5],
 "i2c__common__all_8c.html#ga5c21ca1eb1791661f78247cdccf82734":[21,0,34,16],
 "i2c__common__all_8c.html#ga5e8fee505dc3d5c99e2385e2074ff3df":[21,0,34,19],
-"i2c__common__all_8c.html#ga600d06defb26076b7b702160a0c5603d":[21,0,34,11],
-"i2c__common__all_8c.html#ga6c98abcc0cf310ed84795260384d9992":[21,0,34,13],
-"i2c__common__all_8c.html#ga6cc091f487de5bb53913400af74d80d7":[21,0,34,21],
-"i2c__common__all_8c.html#ga770a4f23cdb45e344a789e32202c4cab":[21,0,34,24],
-"i2c__common__all_8c.html#ga83ec05549c5d3d3412b3e5c902ad1d07":[21,0,34,25],
-"i2c__common__all_8c.html#ga8b5fb1ea0be082f192030aa475a0e142":[21,0,34,26],
-"i2c__common__all_8c.html#ga90b4cd40407eefb70f18e5aa43630d44":[21,0,34,17]
+"i2c__common__all_8c.html#ga600d06defb26076b7b702160a0c5603d":[21,0,34,11]
 };

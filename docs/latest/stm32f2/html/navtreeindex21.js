@@ -1,5 +1,17 @@
 var NAVTREEINDEX21 =
 {
+"spi__common__l1f124_8c_source.html":[22,0,64],
+"spi__common__l1f124_8h.html":[22,0,65],
+"spi__common__l1f124_8h.html#ga3ffabea0de695a19198d906bf6a1d9fd":[22,0,65,0],
+"spi__common__l1f124_8h.html#ga7cb377132c9f09bb43ca27057655a760":[22,0,65,2],
+"spi__common__l1f124_8h.html#gaff3138f6c7be4a8a55699ffb40cdb4a8":[22,0,65,1],
+"spi__common__l1f124_8h_source.html":[22,0,65],
+"structclock__scale__t.html":[21,0,0],
+"structclock__scale__t.html#a0efec8dad9231991558c458c12a9b909":[21,0,0,0],
+"structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a":[21,0,0,9],
+"structclock__scale__t.html#a36708c358ff0cc8a88301f6b3ba1698f":[21,0,0,7],
+"structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b":[21,0,0,2],
+"structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3":[21,0,0,8],
 "structclock__scale__t.html#abd1b982df203472532b6016961fe657d":[21,0,0,1],
 "structclock__scale__t.html#ac8be876648665f481c96a13f39bfd70e":[21,0,0,3],
 "structclock__scale__t.html#ad9cdc535a720177e5d63c41808fa7e7a":[21,0,0,6],
@@ -237,17 +249,5 @@ var NAVTREEINDEX21 =
 "timer__common__all_8h.html#ga3d24e3347572755cc1d95a3ed6307aa8":[22,0,71,516],
 "timer__common__all_8h.html#ga3d411d251a5ca841ecacd5b593754cd8":[22,0,71,74],
 "timer__common__all_8h.html#ga3e653890d2219bebb5800dd7d8c3505a":[22,0,71,231],
-"timer__common__all_8h.html#ga3e815edb3178b161ce7fd01cf86b8093":[22,0,71,428],
-"timer__common__all_8h.html#ga3e951cd3f6593e321cf79b662a1deaaa":[22,0,71,324],
-"timer__common__all_8h.html#ga3ee1951f478c34780dc65f1c609c79af":[22,0,71,326],
-"timer__common__all_8h.html#ga3f0a2d64498fd9eb6a7cd382fcc9b805":[22,0,71,15],
-"timer__common__all_8h.html#ga3f35c2a494c54b3e4c7cb702c8ca46df":[22,0,71,387],
-"timer__common__all_8h.html#ga3f494b9881e7b97bb2d79f7ad4e79937":[22,0,71,153],
-"timer__common__all_8h.html#ga3faf23dc47e1b0877352d7f5a00f72e1":[22,0,71,166],
-"timer__common__all_8h.html#ga4029686d3307111d3f9f4400e29e4521":[22,0,71,163],
-"timer__common__all_8h.html#ga403fc501d4d8de6cabee6b07acb81a36":[22,0,71,155],
-"timer__common__all_8h.html#ga413d13a8ed5f52729ae847b5d51731bd":[22,0,71,472],
-"timer__common__all_8h.html#ga417ce5633b4617222b9bd17607d055de":[22,0,71,347],
-"timer__common__all_8h.html#ga4209d414df704ce96c54abb2ea2df66a":[22,0,71,301],
-"timer__common__all_8h.html#ga42351ef19afe18243e5b2337ad14f2ca":[22,0,71,503]
+"timer__common__all_8h.html#ga3e815edb3178b161ce7fd01cf86b8093":[22,0,71,428]
 };

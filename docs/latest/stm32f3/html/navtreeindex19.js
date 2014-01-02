@@ -1,5 +1,17 @@
 var NAVTREEINDEX19 =
 {
+"spi__common__all_8c.html#ga1fcf7661af69bcf8999ae3f6d102fd8b":[22,0,47,21],
+"spi__common__all_8c.html#ga25ed748ce16f85c263594198b702d949":[22,0,47,40],
+"spi__common__all_8c.html#ga33fbdd2e4f6b876273a2b3f0e05eb6b4":[22,0,47,10],
+"spi__common__all_8c.html#ga379382439ed44f061ab6fd4232d47319":[22,0,47,31],
+"spi__common__all_8c.html#ga3993016e02c92b696c8661840e602a00":[22,0,47,11],
+"spi__common__all_8c.html#ga3a67a664d96e95e80d3308b7d53736e6":[22,0,47,1],
+"spi__common__all_8c.html#ga47838ebf43d91e96b65338b6b0a50786":[22,0,47,37],
+"spi__common__all_8c.html#ga4c552fab799a9009bc541a3fb41061fe":[22,0,47,17],
+"spi__common__all_8c.html#ga4cf9bda5fa58c220e6d45d6a809737c4":[22,0,47,6],
+"spi__common__all_8c.html#ga683b0840af6f7bee227ccb31d57dc36a":[22,0,47,30],
+"spi__common__all_8c.html#ga69a60fb0cd832d3b9a16ce4411328e64":[22,0,47,24],
+"spi__common__all_8c.html#ga6c3dfa86916c2c38d4a1957f4704bb47":[22,0,47,41],
 "spi__common__all_8c.html#ga714f48c6586abf8ce6e3e118f6303708":[22,0,47,32],
 "spi__common__all_8c.html#ga74726047b7cad9c11465a3cf4d0fd090":[22,0,47,18],
 "spi__common__all_8c.html#ga8ad1268a257456a854b960f8aa73b1ce":[22,0,47,27],
@@ -237,17 +249,5 @@ var NAVTREEINDEX19 =
 "structclock__scale__t.html#a16afff7afb797982dc989bfdeaae0e77":[21,0,0,6],
 "structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a":[21,0,0,8],
 "structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b":[21,0,0,2],
-"structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3":[21,0,0,7],
-"structclock__scale__t.html#abd1b982df203472532b6016961fe657d":[21,0,0,1],
-"structclock__scale__t.html#ac8be876648665f481c96a13f39bfd70e":[21,0,0,3],
-"structclock__scale__t.html#acdfc52dc893d0fc184cec2a28c5e4a50":[21,0,0,5],
-"structclock__scale__t.html#adda26e177f7b3705a8a08c96274964db":[21,0,0,4],
-"syscfg_8h.html":[22,0,52],
-"syscfg_8h_source.html":[22,0,52],
-"syscfg__common__l1f234_8h.html":[22,0,53],
-"syscfg__common__l1f234_8h.html#a463d835825838c01773347be05fa9ef8":[22,0,53,7],
-"syscfg__common__l1f234_8h.html#a55e119f87c84a7b1b9ba01c2ec3a6b4f":[22,0,53,2],
-"syscfg__common__l1f234_8h.html#a76822f104934b3c0682ec2e12e903f30":[22,0,53,0],
-"syscfg__common__l1f234_8h.html#a80c96b4d593d8ef618392d6db611979a":[22,0,53,3],
-"syscfg__common__l1f234_8h.html#aa5daf054b73b2895e304e8a36463a616":[22,0,53,4]
+"structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3":[21,0,0,7]
 };

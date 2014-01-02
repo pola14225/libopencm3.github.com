@@ -1,5 +1,17 @@
 var NAVTREEINDEX25 =
 {
+"rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8fa0ed02b19bed77879d8e2df169b0f2cff":[21,0,48,19,1],
+"rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8fa56166639f7a143ccdb88ecd9f9176a4e":[21,0,48,19,0],
+"rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8fa612a64a5b5192bf328a0866842d87b70":[21,0,48,19,2],
+"rtc_8h.html#a8725f1dec73b230670ab0ac61d50adce":[21,0,48,18],
+"rtc_8h.html#a8dd52d261f99a969d9841a4426152b85":[21,0,48,7],
+"rtc_8h.html#a94da35b2f8d7af8985c2e21bc1253349":[21,0,48,23],
+"rtc_8h.html#a990a6b449f70249a1a4baf19f64617d9":[21,0,48,5],
+"rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9":[21,0,48,28],
+"rtc_8h.html#aad0059f95046be4d158626cc0ed199fd":[21,0,48,33],
+"rtc_8h.html#ab1e868e549aa76264b9d0c9b916f538d":[21,0,48,21],
+"rtc_8h.html#ab7f69ee0de1cae2518b2822fd82d5201":[21,0,48,26],
+"rtc_8h.html#ac18d0fabc363be97a41cf05cb220739a":[21,0,48,31],
 "rtc_8h.html#ac673699fd007d9c2990f41b8e4703667":[21,0,48,1],
 "rtc_8h.html#aca9bce7cb58e637876d1154710305563":[21,0,48,9],
 "rtc_8h.html#acd673063942c2bedededd5760e4764ff":[21,0,48,35],
@@ -237,17 +249,5 @@ var NAVTREEINDEX25 =
 "spi__common__all_8c.html#gac01452c132ec4c5ffc5d281d43d975d7":[21,0,53,28],
 "spi__common__all_8c.html#gac803fac4d999f49c7ecbda22aa5b7221":[21,0,53,8],
 "spi__common__all_8c.html#gac860af47e3356336e01495554de5e506":[21,0,53,14],
-"spi__common__all_8c.html#gacd6b278668088bce197d6401787c4e62":[21,0,53,29],
-"spi__common__all_8c.html#gad05d3885fad620fc84d284fc9b42554e":[21,0,53,13],
-"spi__common__all_8c.html#gad86076b9c51c2ce18f844d42053ed8cc":[21,0,53,36],
-"spi__common__all_8c.html#gada533027af13ff16aceb7daad049c4e4":[21,0,53,16],
-"spi__common__all_8c.html#gada77b72d4924b55840e73ed14a325978":[21,0,53,4],
-"spi__common__all_8c.html#gae19e92c8051fe49e4eac918ee51feeac":[21,0,53,23],
-"spi__common__all_8c.html#gae453ac946166bc51a42c35738d9d005b":[21,0,53,42],
-"spi__common__all_8c.html#gae9700a3a5f8301b5b3a8442d257d75dd":[21,0,53,39],
-"spi__common__all_8c.html#gaedf50e8ee8ec6f033231a2c49b4ac1a1":[21,0,53,12],
-"spi__common__all_8c.html#gaf0088037e6a1aa78a9ed4c4e261a55ac":[21,0,53,25],
-"spi__common__all_8c.html#gaf27f88063c2cb644a2935490d61202c5":[21,0,53,26],
-"spi__common__all_8c.html#gaf76785dab1741f75d4fc2f03793b57d9":[21,0,53,0],
-"spi__common__all_8c.html#gafc90aaa52298179b5190ee677ac5d4cc":[21,0,53,9]
+"spi__common__all_8c.html#gacd6b278668088bce197d6401787c4e62":[21,0,53,29]
 };

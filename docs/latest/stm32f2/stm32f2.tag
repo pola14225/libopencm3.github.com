@@ -9450,6 +9450,48 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>I2C_CR2_FREQ_37MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>ga536f456be51d697a4acefe8cde2ac8e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_38MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>ga294f0eada1fdc54297a448fdf70b4e34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_39MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>gac93742dc6b11252a03c00d4a7d8f6c90</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_40MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>ga6cf522ec0d010251d3cd5d982ad2b544</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_41MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>ga5aa28befdf508bb2ce8861f0b95fb71b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_42MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>gae611e483335474d48c166c1277b1ba9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>I2C_OAR1_ADDMODE</name>
       <anchorfile>group__i2c__defines.html</anchorfile>
       <anchor>ga7d8df80cd27313c896e887aae81fa639</anchor>
@@ -37795,6 +37837,48 @@
       <name>I2C_CR2_FREQ_36MHZ</name>
       <anchorfile>group__i2c__clock.html</anchorfile>
       <anchor>gab162463ca0212dee85d1fbae06413ad8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_37MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>ga536f456be51d697a4acefe8cde2ac8e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_38MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>ga294f0eada1fdc54297a448fdf70b4e34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_39MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>gac93742dc6b11252a03c00d4a7d8f6c90</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_40MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>ga6cf522ec0d010251d3cd5d982ad2b544</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_41MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>ga5aa28befdf508bb2ce8861f0b95fb71b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C_CR2_FREQ_42MHZ</name>
+      <anchorfile>group__i2c__clock.html</anchorfile>
+      <anchor>gae611e483335474d48c166c1277b1ba9a</anchor>
       <arglist></arglist>
     </member>
   </compound>

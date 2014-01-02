@@ -1,5 +1,11 @@
 var NAVTREEINDEX15 =
 {
+"group__spi__defines.html#ga39deb4ca947b12a999046e9a182c5df7":[10,1,11,71],
+"group__spi__defines.html#ga3a67a664d96e95e80d3308b7d53736e6":[10,1,11,124],
+"group__spi__defines.html#ga3cc21765f27e44275d19453b643fc805":[10,1,11,24],
+"group__spi__defines.html#ga3d6d4136a5ae12f9bd5940324282355a":[10,1,11,102],
+"group__spi__defines.html#ga3eee671793983a3bd669c9173b2ce210":[10,1,11,76],
+"group__spi__defines.html#ga3ffabea0de695a19198d906bf6a1d9fd":[10,1,11,44],
 "group__spi__defines.html#ga40e14de547aa06864abcd4b0422d8b48":[10,1,11,118],
 "group__spi__defines.html#ga414c75158a81089c083dcdb827222524":[10,1,11,26],
 "group__spi__defines.html#ga42d844381f1f96dd5d969cccdab12144":[10,1,11,23],
@@ -243,11 +249,5 @@ var NAVTREEINDEX15 =
 "group__tim__sms.html":[10,1,12,7],
 "group__tim__sms.html#ga10db90fcfc5db2e95d24fd0fe4c38f8a":[10,1,12,7,1],
 "group__tim__sms.html#ga3e815edb3178b161ce7fd01cf86b8093":[10,1,12,7,4],
-"group__tim__sms.html#ga47c0d33b64cac684cf5149918aa7158a":[10,1,12,7,2],
-"group__tim__sms.html#ga517e451b0ce8c735391a1638453da2c3":[10,1,12,7,7],
-"group__tim__sms.html#ga769b674450b04eb3d56f09ccbf65fef6":[10,1,12,7,5],
-"group__tim__sms.html#ga8bd33af5ec1303addf55d48f78314892":[10,1,12,7,6],
-"group__tim__sms.html#gaba29d0798b2816e660e3cf262150c64e":[10,1,12,7,8],
-"group__tim__sms.html#gad292ce74da931b51c8b7094f2ebc9b67":[10,1,12,7,3],
-"group__tim__sms.html#gafcdf041cc0b25aecc491e6254c6c61ce":[10,1,12,7,0]
+"group__tim__sms.html#ga47c0d33b64cac684cf5149918aa7158a":[10,1,12,7,2]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX19 =
 {
+"rcc_8h.html#ae8acbff235a15b58d1be0f065cdb5472":[22,0,51,116],
+"rcc_8h.html#ae909f90338c129e116b7d49bebfb31c5":[22,0,51,73],
+"rcc_8h.html#ae9ac2772ba7880c2a2941d8a7150c477":[22,0,51,336],
+"rcc_8h.html#aec56718af94d435a901b66dbdc20e579":[22,0,51,222],
+"rcc_8h.html#aec8fff978fdbc3903c85e1bb5b4fa698":[22,0,51,183],
+"rcc_8h.html#aecd88b56485ee4ee3e406b1d6c062081":[22,0,51,93],
+"rcc_8h.html#aedcd8f566ad34243368aa46ddf7a590e":[22,0,51,300],
+"rcc_8h.html#aee10e5e11a2043e4ff865c3d7b804233":[22,0,51,2],
+"rcc_8h.html#aee4ef935d1b94ff94741e5d24ba9aa97":[22,0,51,233],
+"rcc_8h.html#aef2c2e5574b2454c04aea9aae06d3c92":[22,0,51,292],
+"rcc_8h.html#af0b29fd1ef2b8139e6788146704a4a5d":[22,0,51,55],
+"rcc_8h.html#af2418102b7993f2a6f0060e1efdca823":[22,0,51,304],
 "rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2":[22,0,51,304,0],
 "rcc_8h.html#af2418102b7993f2a6f0060e1efdca823a744bf841212e605b891f8ced6e20eb43":[22,0,51,304,1],
 "rcc_8h.html#af2418102b7993f2a6f0060e1efdca823aa07a47bdd221bde7ab7f08d41c03de40":[22,0,51,304,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX19 =
 "rtc__common__l1f024_8h_source.html":[22,0,57],
 "spi_8c.html":[22,0,58],
 "spi_8c_source.html":[22,0,58],
-"spi_8h.html":[22,0,59],
-"spi_8h_source.html":[22,0,59],
-"spi__common__all_8c.html":[22,0,60],
-"spi__common__all_8c.html#ga010e94503b79a98060a9920fd8f50806":[22,0,60,5],
-"spi__common__all_8c.html#ga0f70abf18588bb5bbe24da6457cb9ff7":[22,0,60,34],
-"spi__common__all_8c.html#ga168934fcc518d617447514ca06a48b3c":[22,0,60,2],
-"spi__common__all_8c.html#ga1bfe6bd4512dc398cb7f680feec01b20":[22,0,60,19],
-"spi__common__all_8c.html#ga1fcf7661af69bcf8999ae3f6d102fd8b":[22,0,60,21],
-"spi__common__all_8c.html#ga25ed748ce16f85c263594198b702d949":[22,0,60,40],
-"spi__common__all_8c.html#ga33fbdd2e4f6b876273a2b3f0e05eb6b4":[22,0,60,10],
-"spi__common__all_8c.html#ga379382439ed44f061ab6fd4232d47319":[22,0,60,31],
-"spi__common__all_8c.html#ga3993016e02c92b696c8661840e602a00":[22,0,60,11],
-"spi__common__all_8c.html#ga3a67a664d96e95e80d3308b7d53736e6":[22,0,60,1]
+"spi_8h.html":[22,0,59]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX22 =
 {
+"spi__common__all_8c.html":[22,0,58],
+"spi__common__all_8c.html#ga010e94503b79a98060a9920fd8f50806":[22,0,58,5],
+"spi__common__all_8c.html#ga0f70abf18588bb5bbe24da6457cb9ff7":[22,0,58,34],
+"spi__common__all_8c.html#ga168934fcc518d617447514ca06a48b3c":[22,0,58,2],
+"spi__common__all_8c.html#ga1bfe6bd4512dc398cb7f680feec01b20":[22,0,58,19],
+"spi__common__all_8c.html#ga1fcf7661af69bcf8999ae3f6d102fd8b":[22,0,58,21],
+"spi__common__all_8c.html#ga25ed748ce16f85c263594198b702d949":[22,0,58,40],
+"spi__common__all_8c.html#ga33fbdd2e4f6b876273a2b3f0e05eb6b4":[22,0,58,10],
+"spi__common__all_8c.html#ga379382439ed44f061ab6fd4232d47319":[22,0,58,31],
+"spi__common__all_8c.html#ga3993016e02c92b696c8661840e602a00":[22,0,58,11],
+"spi__common__all_8c.html#ga3a67a664d96e95e80d3308b7d53736e6":[22,0,58,1],
+"spi__common__all_8c.html#ga47838ebf43d91e96b65338b6b0a50786":[22,0,58,37],
 "spi__common__all_8c.html#ga4c552fab799a9009bc541a3fb41061fe":[22,0,58,17],
 "spi__common__all_8c.html#ga4cf9bda5fa58c220e6d45d6a809737c4":[22,0,58,6],
 "spi__common__all_8c.html#ga683b0840af6f7bee227ccb31d57dc36a":[22,0,58,30],
@@ -237,17 +249,5 @@ var NAVTREEINDEX22 =
 "spi__common__l1f124_8c.html#ga6665731fd5d37e5dfb00f29f859e6c9c":[22,0,62,1],
 "spi__common__l1f124_8c.html#ga715bcb5541f2908d16a661b0a6a07014":[22,0,62,2],
 "spi__common__l1f124_8c.html#gaa963b02acbae0939ec4537a8136873ed":[22,0,62,0],
-"spi__common__l1f124_8c_source.html":[22,0,62],
-"spi__common__l1f124_8h.html":[22,0,63],
-"spi__common__l1f124_8h.html#ga3ffabea0de695a19198d906bf6a1d9fd":[22,0,63,0],
-"spi__common__l1f124_8h.html#ga7cb377132c9f09bb43ca27057655a760":[22,0,63,2],
-"spi__common__l1f124_8h.html#gaff3138f6c7be4a8a55699ffb40cdb4a8":[22,0,63,1],
-"spi__common__l1f124_8h_source.html":[22,0,63],
-"structclock__scale__t.html":[11,1,7,0],
-"structclock__scale__t.html#a0502b4e2fe6fb84bb1ff419131f4c401":[11,1,7,0,5],
-"structclock__scale__t.html#a0efec8dad9231991558c458c12a9b909":[11,1,7,0,0],
-"structclock__scale__t.html#a154a6cea0f42bd7bd466b280312cee3c":[11,1,7,0,4],
-"structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a":[11,1,7,0,9],
-"structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b":[11,1,7,0,2],
-"structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3":[11,1,7,0,8]
+"spi__common__l1f124_8c_source.html":[22,0,62]
 };
