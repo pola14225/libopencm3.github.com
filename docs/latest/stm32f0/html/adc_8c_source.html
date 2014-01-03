@@ -913,7 +913,7 @@ $(document).ready(function(){initNavTree('adc_8c_source.html','');});
 <div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;</div>
 <div class="line"><a name="l00789"></a><span class="lineno"><a class="line" href="group__adc__api__wdg.html#gaa9eb8de391115811c37aa3d4438bf399">  789</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__adc__api__wdg.html#gaa9eb8de391115811c37aa3d4438bf399">adc_enable_analog_watchdog_on_selected_channel</a>(uint32_t adc, uint8_t chan)</div>
 <div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;{</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        <a class="code" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">ADC_CFGR1</a>(adc) = (<a class="code" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">ADC_CFGR1</a>(adc) &amp; ~<a class="code" href="adc_8h.html#af2eb115721c8054f7a2ba23c21bc68e1">ADC_CFGR1_AWDCH</a>) | \</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        <a class="code" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">ADC_CFGR1</a>(adc) = (<a class="code" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">ADC_CFGR1</a>(adc) &amp; ~<a class="code" href="adc_8h.html#af2eb115721c8054f7a2ba23c21bc68e1">ADC_CFGR1_AWDCH</a>) |</div>
 <div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;                          <a class="code" href="adc_8h.html#acb5bc0d40f3ef97b783903d46858b9f9">ADC_CFGR1_AWDCH_VAL</a>(chan);</div>
 <div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;</div>
 <div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;        <a class="code" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">ADC_CFGR1</a>(adc) |= <a class="code" href="adc_8h.html#afee9f0fa04e0201a43856080e37c4508">ADC_CFGR1_AWDEN</a> | <a class="code" href="adc_8h.html#abfab18aa9b57f8ed8979f62d5d3900d2">ADC_CFGR1_AWDSGL</a>;</div>
@@ -1058,7 +1058,7 @@ $(document).ready(function(){initNavTree('adc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_ace2446e1478f8c15fd23194905c6ee6.html">f0</a></li><li class="navelem"><a class="el" href="adc_8c.html">adc.c</a></li>
-    <li class="footer">Generated on Thu Jan 2 2014 22:21:22 for libopencm3 by
+    <li class="footer">Generated on Fri Jan 3 2014 01:21:21 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

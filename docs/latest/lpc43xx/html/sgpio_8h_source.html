@@ -608,7 +608,7 @@ $(document).ready(function(){initNavTree('sgpio_8h_source.html','');});
 <div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;<span class="preprocessor">#define SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE_SHIFT      (3)</span></div>
 <div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE_MASK \</span></div>
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;<span class="preprocessor">                        (0x3 &lt;&lt; SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE_SHIFT)</span></div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE(x) </span></div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE(x)</span></div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;<span class="preprocessor"></span>                        ((x) &lt;&lt; SGPIO_MUX_CFGx_CLK_SOURCE_SLICE_MODE_SHIFT)</div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;</div>
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;<span class="comment">/* QUALIFIER_MODE: Select qualifier mode */</span></div>
@@ -809,7 +809,7 @@ $(document).ready(function(){initNavTree('sgpio_8h_source.html','');});
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;} sgpio_t;</div>
 <div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;</div>
 <div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;<span class="comment">/* Global access to SGPIO structure */</span></div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;<span class="preprocessor">#define SGPIO   ((sgpio_t*)SGPIO_PORT_BASE)</span></div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;<span class="preprocessor">#define SGPIO   ((sgpio_t *)SGPIO_PORT_BASE)</span></div>
 <div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
 <div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;<span class="comment">/**@}*/</span></div>
 <div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;</div>
@@ -822,7 +822,7 @@ $(document).ready(function(){initNavTree('sgpio_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="sgpio_8h.html">sgpio.h</a></li>
-    <li class="footer">Generated on Thu Jan 2 2014 22:22:09 for libopencm3 by
+    <li class="footer">Generated on Fri Jan 3 2014 01:22:07 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

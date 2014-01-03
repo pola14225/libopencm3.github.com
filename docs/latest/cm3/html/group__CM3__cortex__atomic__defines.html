@@ -136,7 +136,7 @@ Collaboration diagram for Cortex Core Atomic support Defines:</div>
 Macros</h2></td></tr>
 <tr class="memitem:ga03ee33aa307c41ceb35288a40539ecbc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(state)</td></tr>
 <tr class="separator:ga03ee33aa307c41ceb35288a40539ecbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6904952be4c789ef4957c8c9bce83fc6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#ga6904952be4c789ef4957c8c9bce83fc6">CM_ATOMIC_BLOCK</a>()&#160;&#160;&#160;for (bool ___CM_SAVER(true), __my = true; __my; __my = false)</td></tr>
+<tr class="memitem:ga6904952be4c789ef4957c8c9bce83fc6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#ga6904952be4c789ef4957c8c9bce83fc6">CM_ATOMIC_BLOCK</a>()</td></tr>
 <tr class="separator:ga6904952be4c789ef4957c8c9bce83fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabd996a426e72e63e0d4d100d3dd6ff87"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#gabd996a426e72e63e0d4d100d3dd6ff87">CM_ATOMIC_CONTEXT</a>()&#160;&#160;&#160;bool <a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(true)</td></tr>
 <tr class="separator:gabd996a426e72e63e0d4d100d3dd6ff87"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,9 +162,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">__val = state,          \</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                            \</div>
+<div class="line">        __val = state,                                          \</div>
 <div class="line">        __save __attribute__((__cleanup__(<a class="code" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">__cm_atomic_set</a>))) =  <a class="code" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">\</a></div>
-<div class="line"><a class="code" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">	__cm_atomic_set</a>(&amp;__val)</div>
+<div class="line"><a class="code" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">	__cm_atomic_set</a>(&amp;__val);                               \</div>
+<div class="line">} <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="group__CM3__cortex__atomic__defines_html_ga3250af4be4a3a81baae03814d898c507"><div class="ttname"><a href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">__cm_atomic_set</a></div><div class="ttdeci">static bool __cm_atomic_set(bool *val)</div><div class="ttdef"><b>Definition:</b> <a href="cortex_8h_source.html#l00159">cortex.h:159</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="cortex_8h_source.html#l00164">164</a> of file <a class="el" href="cortex_8h_source.html">cortex.h</a>.</p>
@@ -179,13 +181,16 @@ Functions</h2></td></tr>
           <td class="memname">#define CM_ATOMIC_BLOCK</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;for (bool ___CM_SAVER(true), __my = true; __my; __my = false)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="1-example.html#a0">1</a>, and <a class="el" href="2-example.html#a0">2</a>.</dd>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                    \</div>
+<div class="line">        for (<span class="keywordtype">bool</span> ___CM_SAVER(<span class="keyword">true</span>), __my = <span class="keyword">true</span>; __my; __my = <span class="keyword">false</span>);  \</div>
+<div class="line">} <span class="keywordflow">while</span> (0)</div>
+</div><!-- fragment --><dl><dt><b>Examples: </b></dt><dd><a class="el" href="1-example.html#a0">1</a>, and <a class="el" href="2-example.html#a0">2</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="cortex_8h_source.html#l00216">216</a> of file <a class="el" href="cortex_8h_source.html">cortex.h</a>.</p>
+<p>Definition at line <a class="el" href="cortex_8h_source.html#l00219">219</a> of file <a class="el" href="cortex_8h_source.html">cortex.h</a>.</p>
 
 </div>
 </div>
@@ -202,7 +207,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="cortex_8h_source.html#l00270">270</a> of file <a class="el" href="cortex_8h_source.html">cortex.h</a>.</p>
+<p>Definition at line <a class="el" href="cortex_8h_source.html#l00275">275</a> of file <a class="el" href="cortex_8h_source.html">cortex.h</a>.</p>
 
 </div>
 </div>
@@ -249,7 +254,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 2 2014 22:21:10 for libopencm3 by
+    <li class="footer">Generated on Fri Jan 3 2014 01:21:09 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>
