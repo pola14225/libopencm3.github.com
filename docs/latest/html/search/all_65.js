@@ -2,6 +2,10 @@ var searchData=
 [
   ['eventout_20pin_20selection',['EVENTOUT Pin selection',['../../stm32f1/html/group__afio__evcr__pin.html',1,'']]],
   ['eventout_20port_20selection',['EVENTOUT Port selection',['../../stm32f1/html/group__afio__evcr__port.html',1,'']]],
+  ['enable_5f0',['ENABLE_0',['../../lpc43xx/html/structsgpio__t.html#a312682c14b4e058ac7ad5a78688b1a7f',1,'sgpio_t']]],
+  ['enable_5f1',['ENABLE_1',['../../lpc43xx/html/structsgpio__t.html#a42cfbfb676d997d5f719fbab5cbfa5e8',1,'sgpio_t']]],
+  ['enable_5f2',['ENABLE_2',['../../lpc43xx/html/structsgpio__t.html#ad7f0fa1c14f455aa15a68ee78588c072',1,'sgpio_t']]],
+  ['enable_5f3',['ENABLE_3',['../../lpc43xx/html/structsgpio__t.html#ad54ca13a742e6839285129fc63608180',1,'sgpio_t']]],
   ['encrypt_5faes_5fcbc',['ENCRYPT_AES_CBC',['../../stm32f4/html/group__crypto__api__gen.html#ggaa39aaf2a26f2f640d9a5f45f2b8bd328aeab9b11da0eeb71abf46c9a7bcff9966',1,]]],
   ['encrypt_5faes_5fctr',['ENCRYPT_AES_CTR',['../../stm32f4/html/group__crypto__api__gen.html#ggaa39aaf2a26f2f640d9a5f45f2b8bd328aa7dd6443776e43eb359bf118924b2f5a',1,]]],
   ['encrypt_5faes_5fecb',['ENCRYPT_AES_ECB',['../../stm32f4/html/group__crypto__api__gen.html#ggaa39aaf2a26f2f640d9a5f45f2b8bd328ab3f21b21bf31a441e42b4595576b12ac',1,]]],

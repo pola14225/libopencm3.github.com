@@ -14,7 +14,7 @@ var group__LPC43xx__defines =
     [ "Reset Generation Unit Defines", "group__rgu__defines.html", null ],
     [ "Repetitive Interrupt Timer Defines", "group__ritimer__defines.html", null ],
     [ "System Control Unit Defines", "group__scu__defines.html", "group__scu__defines" ],
-    [ "SDIO", "group__sdio__defines.html", null ],
+    [ "SDIO", "group__sdio__defines.html", "group__sdio__defines" ],
     [ "Serial General Purpose I/O", "group__sgpio__defines.html", null ],
     [ "Synchronous Serial Port", "group__ssp__defines.html", "group__ssp__defines" ],
     [ "Timer", "group__timer__defines.html", "group__timer__defines" ],

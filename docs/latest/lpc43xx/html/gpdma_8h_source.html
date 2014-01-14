@@ -632,16 +632,16 @@ $(document).ready(function(){initNavTree('gpdma_8h_source.html','');});
 <div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;<span class="preprocessor">#define GPDMA_CxCONFIG_SRCPERIPHERAL_SHIFT (1)</span></div>
 <div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPDMA_CxCONFIG_SRCPERIPHERAL_MASK \</span></div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;<span class="preprocessor">                        (0x1f &lt;&lt; GPDMA_CxCONFIG_SRCPERIPHERAL_SHIFT)</span></div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPDMA_CxCONFIG_SRCPERIPHERAL(x)</span></div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;<span class="preprocessor"></span>                        ((x) &lt;&lt; GPDMA_CxCONFIG_SRCPERIPHERAL_SHIFT)</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPDMA_CxCONFIG_SRCPERIPHERAL(x) \</span></div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;<span class="preprocessor">                        ((x) &lt;&lt; GPDMA_CxCONFIG_SRCPERIPHERAL_SHIFT)</span></div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;<span class="comment">/* DESTPERIPHERAL: Destination peripheral */</span></div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;<span class="preprocessor">#define GPDMA_CxCONFIG_DESTPERIPHERAL_SHIFT (6)</span></div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPDMA_CxCONFIG_DESTPERIPHERAL_MASK</span></div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;<span class="preprocessor"></span>                        (0x1f &lt;&lt; GPDMA_CxCONFIG_DESTPERIPHERAL_SHIFT)</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;#define GPDMA_CxCONFIG_DESTPERIPHERAL(x) \</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                        ((x) &lt;&lt; GPDMA_CxCONFIG_DESTPERIPHERAL_SHIFT)</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPDMA_CxCONFIG_DESTPERIPHERAL_MASK \</span></div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;<span class="preprocessor">                        (0x1f &lt;&lt; GPDMA_CxCONFIG_DESTPERIPHERAL_SHIFT)</span></div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPDMA_CxCONFIG_DESTPERIPHERAL(x) \</span></div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;<span class="preprocessor">                        ((x) &lt;&lt; GPDMA_CxCONFIG_DESTPERIPHERAL_SHIFT)</span></div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;<span class="comment">/* FLOWCNTRL: Flow control and transfer type */</span></div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;<span class="preprocessor">#define GPDMA_CxCONFIG_FLOWCNTRL_SHIFT  (11)</span></div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GPDMA_CxCONFIG_FLOWCNTRL_MASK   (0x7 &lt;&lt; GPDMA_CxCONFIG_FLOWCNTRL_SHIFT)</span></div>
@@ -683,7 +683,7 @@ $(document).ready(function(){initNavTree('gpdma_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="gpdma_8h.html">gpdma.h</a></li>
-    <li class="footer">Generated on Sun Jan 12 2014 01:22:13 for libopencm3 by
+    <li class="footer">Generated on Tue Jan 14 2014 10:22:10 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>
