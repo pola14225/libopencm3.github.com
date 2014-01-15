@@ -1,15 +1,11 @@
 var searchData=
 [
-  ['pc',['pc',['../../../cm3/html/structscb__exception__stack__frame.html#a44ebd35215d8e75f0154f26cc14165bc',1,'scb_exception_stack_frame']]],
-  ['pend_5fsv',['pend_sv',['../../../cm3/html/structvector__table__t.html#afe26c2d806f2caef1935e36c053d7023',1,'vector_table_t']]],
-  ['pend_5fsv_5fhandler',['pend_sv_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga214eb2c5d993ec1fe7b0a25dd428d3ae',1,]]],
   ['periph_5fbase',['PERIPH_BASE',['../memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0',1,'memorymap.h']]],
   ['periph_5fbase_5fahb1',['PERIPH_BASE_AHB1',['../memorymap_8h.html#a6a7a706e5a4df2eed7899e972a183084',1,'memorymap.h']]],
   ['periph_5fbase_5fahb2',['PERIPH_BASE_AHB2',['../memorymap_8h.html#ad9208ba47ecaa9ac1eb39e7db2b9b5f8',1,'memorymap.h']]],
   ['periph_5fbase_5fapb',['PERIPH_BASE_APB',['../memorymap_8h.html#a3035b1ba7a3c430614c38208c1154fee',1,'memorymap.h']]],
   ['pll',['PLL',['../group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a5c7fe827c28117f11dd14f9197d7d5a2',1,'rcc.h']]],
   ['power_5fcontrol_5fbase',['POWER_CONTROL_BASE',['../memorymap_8h.html#abe53be146f06a961f5fcf569f99a916e',1,'memorymap.h']]],
-  ['pwr',['PWR',['../group__pwr-file.html',1,'']]],
   ['pwr_2ec',['pwr.c',['../pwr_8c.html',1,'']]],
   ['pwr_2eh',['pwr.h',['../pwr_8h.html',1,'']]],
   ['pwr_5fclear_5fstandby_5fflag',['pwr_clear_standby_flag',['../group__pwr__defines.html#gacee516d449f1015a27246fbfedc534de',1,'pwr_clear_standby_flag(void):&#160;pwr_common_all.c'],['../group__pwr__file.html#gacee516d449f1015a27246fbfedc534de',1,'pwr_clear_standby_flag(void):&#160;pwr_common_all.c']]],

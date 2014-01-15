@@ -60,9 +60,5 @@ var searchData=
   ['dcc_5fwtimer3',['DCC_WTIMER3',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca8923e4b18bf6c1df5d744a022f87dbf2',1,'systemcontrol.h']]],
   ['dcc_5fwtimer4',['DCC_WTIMER4',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca4049b8d01dbe4fe6ad17d4af74ad4757',1,'systemcontrol.h']]],
   ['dcc_5fwtimer5',['DCC_WTIMER5',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca43d42bf96f91a44c4fb69aa9b21e7bad',1,'systemcontrol.h']]],
-  ['debug_5fmonitor',['debug_monitor',['../../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
-  ['debugging',['Debugging',['../../../cm3/html/group__debugging.html',1,'']]],
-  ['doc_2dcm3_2eh',['doc-cm3.h',['../../../cm3/html/doc-cm3_8h.html',1,'']]],
-  ['doc_2dlm4f_2eh',['doc-lm4f.h',['../doc-lm4f_8h.html',1,'']]],
-  ['dwt_2eh',['dwt.h',['../../../cm3/html/dwt_8h.html',1,'']]]
+  ['doc_2dlm4f_2eh',['doc-lm4f.h',['../doc-lm4f_8h.html',1,'']]]
 ];

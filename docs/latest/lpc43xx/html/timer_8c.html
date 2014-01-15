@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('timer_8c.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -125,13 +125,21 @@ $(document).ready(function(){initNavTree('timer_8c.html','');});
 <div class="title">timer.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;<a class="el" href="timer_8h_source.html">libopencm3/lpc43xx/timer.h</a>&gt;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for timer.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="timer_8c__incl.png" border="0" usemap="#timer_8c" alt=""/></div>
+<map name="timer_8c" id="timer_8c">
+<area shape="rect" id="node3" href="timer_8h.html" title="libopencm3/lpc43xx\l/timer.h" alt="" coords="28,89,164,143"/><area shape="rect" id="node7" href="memorymap_8h.html" title="libopencm3/lpc43xx\l/memorymap.h" alt="" coords="81,193,217,247"/></map>
+</div>
+</div>
 <p><a href="timer_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaf229df2f3fd91426cbd0382fa09fae55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#gaf229df2f3fd91426cbd0382fa09fae55">timer_reset</a> (uint32_t timer_peripheral)</td></tr>
-<tr class="separator:gaf229df2f3fd91426cbd0382fa09fae55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga90cade2e35c32d50534a531903e642be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga90cade2e35c32d50534a531903e642be">timer_reset</a> (uint32_t timer_peripheral)</td></tr>
+<tr class="separator:ga90cade2e35c32d50534a531903e642be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8d2e8fb94b1988df5239852f2b3301d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga8d2e8fb94b1988df5239852f2b3301d6">timer_enable_counter</a> (uint32_t timer_peripheral)</td></tr>
 <tr class="separator:ga8d2e8fb94b1988df5239852f2b3301d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga48290e3b69592031f0d29066fafc780e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__defines.html#ga48290e3b69592031f0d29066fafc780e">timer_disable_counter</a> (uint32_t timer_peripheral)</td></tr>
@@ -155,7 +163,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_d37d3c975ecef012b6a8fd7f0f6fedfb.html">lpc43xx</a></li><li class="navelem"><a class="el" href="timer_8c.html">timer.c</a></li>
-    <li class="footer">Generated on Wed Jan 15 2014 22:23:03 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:19 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

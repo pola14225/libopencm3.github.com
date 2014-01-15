@@ -16,6 +16,7 @@ var systick_8h =
     [ "STK_CVR_CURRENT", "systick_8h.html#ga8cba67ffa9205688bd0478bd794c1a04", null ],
     [ "STK_RVR", "systick_8h.html#ga6617c6912a90b37c034e0eeb2e12ec0b", null ],
     [ "STK_RVR_RELOAD", "systick_8h.html#ga46f593f0f43644aeb67692011d4a5b14", null ],
+    [ "systick_clear", "systick_8h.html#ga2604630453d0b6b35601375d0ee7e4a0", null ],
     [ "systick_counter_disable", "systick_8h.html#gac5d5225b9b6c96d9f1c3f2950717dcf4", null ],
     [ "systick_counter_enable", "systick_8h.html#gad1b556d07d6f0e3c0e55dc269e30a98a", null ],
     [ "systick_get_calib", "systick_8h.html#ga4351bcd52c07a23b5b999b062c123084", null ],

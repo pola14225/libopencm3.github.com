@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__dac__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -191,7 +191,7 @@ Functions</h2></td></tr>
 <p><b>libopencm3 STM32F1xx DAC</b> </p>
 <dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
 <dl class="section date"><dt>Date</dt><dd>18 August 2012</dd></dl>
-<p>LGPL License Terms <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
+<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2012 Ken Sarkies <a href="#" onclick="location.href='mai'+'lto:'+'ksa'+'rk'+'ies'+'@i'+'nte'+'rn'+'ode'+'.o'+'n.n'+'et'; return false;">ksark<span style="display: none;">.nosp@m.</span>ies@<span style="display: none;">.nosp@m.</span>inter<span style="display: none;">.nosp@m.</span>node<span style="display: none;">.nosp@m.</span>.on.n<span style="display: none;">.nosp@m.</span>et</a></dd></dl>
 <p>This library supports the Digital to Analog Conversion System in the STM32F series of ARM Cortex Microcontrollers by ST Microelectronics.</p>
 <p>The DAC is present only in a limited set of devices, notably some of the connection line, high density and XL devices.</p>
@@ -209,7 +209,7 @@ Basic DAC handling API.</h1>
 <p>Set the DAC's GPIO port to any alternate function output mode. Enable the DAC clock. Enable the DAC, set a trigger source and load the buffer with the first value. After the DAC is triggered, load the buffer with the next value. This example uses software triggering and added noise. The trigger and further buffer load calls are made when data is to be sent out.</p>
 <div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#gae4a927a78f0ed245472ba05de9c7e940">gpio_set_mode</a>(<a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__mode.html#ga6b417f015356fa1b8816fdc9f5b966ce">GPIO_MODE_OUTPUT_50_MHZ</a>,</div>
 <div class="line">              <a class="code" href="group__gpio__cnf.html#gafdb5d21e4c813c645906c8b7e9472daf">GPIO_CNF_OUTPUT_ALTFN_PUSHPULL</a>, <a class="code" href="group__gpio__pin__id.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">GPIO4</a>);</div>
-<div class="line"><a class="code" href="rcc__common__all_8h.html#aaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__STM32F1xx__rcc__defines.html#gad4baa1f26b04719fe3d4e2f02d7dde40">RCC_APB1ENR</a>, <a class="code" href="group__rcc__apb1enr__en.html#ga087968e2786321fb8645c46b22eea132">RCC_APB1ENR_DACEN</a>);</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__rcc__defines.html#gad4baa1f26b04719fe3d4e2f02d7dde40">RCC_APB1ENR</a>, <a class="code" href="group__rcc__apb1enr__en.html#ga087968e2786321fb8645c46b22eea132">RCC_APB1ENR_DACEN</a>);</div>
 <div class="line"><a class="code" href="group__dac__defines.html#ga22d83a8b387dffeed4a134ee25d0fa8b">dac_disable</a>(<a class="code" href="group__dac__defines.html#ggaddb2a9646f5222113db5545109cc700badf896c664dde68aea03c05d2097af075">CHANNEL_1</a>);</div>
 <div class="line"><a class="code" href="group__dac__defines.html#ga89fb44b8fd880a1c0415e77f2762c6af">dac_set_waveform_characteristics</a>(<a class="code" href="group__dac__mamp1.html#ga46f969ccec00fe0900d16cf83b8a73c8">DAC_CR_MAMP1_8</a>);</div>
 <div class="line"><a class="code" href="group__dac__defines.html#gaa0a78f45943398ea085e7332611e95f9">dac_set_waveform_generation</a>(<a class="code" href="group__dac__wave1__en.html#ga0bdbd7bb6004048e7eaa6c0d1ec21608">DAC_CR_WAVE1_NOISE</a>);</div>
@@ -232,7 +232,7 @@ Simultaneous Dual DAC with DMA.</h1>
 <div class="line"><a class="code" href="group__dac__defines.html#ga6ab076c50ee6f788648a9a6ebe161ab2">dac_set_trigger_source</a>(<a class="code" href="group__dac__trig1__sel.html#ga14a6c336a7ed78ad0a1022803c5e1a2d">DAC_CR_TSEL1_T2</a> | <a class="code" href="group__dac__trig2__sel.html#gac8fdc6e89eacf68a265e941fbe016437">DAC_CR_TSEL2_T2</a>);</div>
 <div class="line"><a class="code" href="group__dac__defines.html#gaabd4d4599b46e7b05168cdd368aa0435">dac_dma_enable</a>(<a class="code" href="group__dac__defines.html#ggaddb2a9646f5222113db5545109cc700badf896c664dde68aea03c05d2097af075">CHANNEL_1</a>);</div>
 <div class="line"><a class="code" href="group__dac__defines.html#ga3e387aca27bf8f1e229c4e4fe7509ac0">dac_enable</a>(<a class="code" href="group__dac__defines.html#ggaddb2a9646f5222113db5545109cc700bae1e491d5c05c78a45f205d2fdaec320b">CHANNEL_D</a>);</div>
-</div><!-- fragment --><p>LGPL License Terms <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
+</div><!-- fragment --><p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="gaadc521eaef05336daa84e25cfaa8b793"></a>
 <div class="memitem">
@@ -758,7 +758,7 @@ The DAC trigger must be enabled for this to work.</dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:19 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:37 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

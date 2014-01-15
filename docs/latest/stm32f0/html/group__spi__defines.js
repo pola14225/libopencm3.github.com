@@ -44,7 +44,6 @@ var group__spi__defines =
     [ "SPI_CR1_CRCEN", "group__spi__defines.html#gac9339b7c6466f09ad26c26b3bb81c51b", null ],
     [ "SPI_CR1_CRCL", "group__spi__defines.html#ga3828b6114d16fada0dea07b902377a5c", null ],
     [ "SPI_CR1_CRCNEXT", "group__spi__defines.html#ga57072f13c2e54c12186ae8c5fdecb250", null ],
-    [ "SPI_CR1_DFF", "group__spi__defines.html#ga3ffabea0de695a19198d906bf6a1d9fd", null ],
     [ "SPI_CR1_MSTR", "group__spi__defines.html#ga5b3b6ae107fc37bf18e14506298d7a55", null ],
     [ "SPI_CR1_RXONLY", "group__spi__defines.html#ga9ffecf774b84a8cdc11ab1f931791883", null ],
     [ "SPI_CR1_SPE", "group__spi__defines.html#gac5a646d978d3b98eb7c6a5d95d75c3f9", null ],

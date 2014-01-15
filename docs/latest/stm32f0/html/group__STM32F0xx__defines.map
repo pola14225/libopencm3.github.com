@@ -1,5 +1,5 @@
 <map id="STM32F0xx Defines" name="STM32F0xx Defines">
-<area shape="rect" id="node1" href="$group__rcc__defines.html" title="libopencm3 STM32F0xx Reset and Clock Control " alt="" coords="209,5,311,38"/>
+<area shape="rect" id="node1" href="$group__rcc__defines.html" title="Defined Constants and Types for the STM32F0xx Reset and Clock Control " alt="" coords="209,5,311,38"/>
 <area shape="rect" id="node2" href="$group__pwr__defines.html" title="Defined Constants and Types for the STM32F0xx PWR Control " alt="" coords="209,61,311,94"/>
 <area shape="rect" id="node3" href="$group__syscfg__defines.html" title="Defined Constants and Types for the STM32F0xx System Config " alt="" coords="199,117,321,150"/>
 <area shape="rect" id="node4" href="$group__crc__defines.html" title="libopencm3 Defined Constants and Types for the STM32F1xx CRC Generator &#160;" alt="" coords="209,173,311,206"/>

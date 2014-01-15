@@ -126,13 +126,13 @@ $(document).ready(function(){initNavTree('memorymap_8h.html','');});
 <div class="title">memorymap.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/memorymap_8h.html">libopencm3/cm3/memorymap.h</a>&gt;</code><br/>
+<div class="textblock"><code>#include &lt;libopencm3/cm3/memorymap.h&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for memorymap.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="memorymap_8h__incl.png" border="0" usemap="#memorymap_8h" alt=""/></div>
 <map name="memorymap_8h" id="memorymap_8h">
-<area shape="rect" id="node3" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/memorymap_8h.html" title="libopencm3/cm3/memorymap.h" alt="" coords="5,89,208,122"/></map>
+</map>
 </div>
 </div>
 <p><a href="memorymap_8h_source.html">Go to the source code of this file.</a></p>
@@ -251,23 +251,23 @@ Macros</h2></td></tr>
 <tr class="separator:a695c9a2f892363a1c942405c8d351b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6544abc57f9759f610eee09a02442ae6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a6544abc57f9759f610eee09a02442ae6">ADC2_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a289fef602b1cd85fa94051720f37a217">PERIPH_BASE_AHB3</a> + 0x0000)</td></tr>
 <tr class="separator:a6544abc57f9759f610eee09a02442ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4adaf4fd82ccc3a538f1f27a70cdbbef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a4adaf4fd82ccc3a538f1f27a70cdbbef">DBGMCU_BASE</a>&#160;&#160;&#160;(<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x00042000)</td></tr>
+<tr class="memitem:a4adaf4fd82ccc3a538f1f27a70cdbbef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a4adaf4fd82ccc3a538f1f27a70cdbbef">DBGMCU_BASE</a>&#160;&#160;&#160;(PPBI_BASE + 0x00042000)</td></tr>
 <tr class="separator:a4adaf4fd82ccc3a538f1f27a70cdbbef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a995576aa6d86cbe35e60c82530d745c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1">DESIG_FLASH_SIZE_BASE</a>&#160;&#160;&#160;(0x1FFFF7CC)</td></tr>
 <tr class="separator:a995576aa6d86cbe35e60c82530d745c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a567ddeef232a71aa2a11c556a9d7e17b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a>&#160;&#160;&#160;(0x1FFFF7AC)</td></tr>
 <tr class="separator:a567ddeef232a71aa2a11c556a9d7e17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf41f46cf83d59e7f2b040c3ad7ed592"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aaf41f46cf83d59e7f2b040c3ad7ed592">DESIG_UNIQUE_ID0</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a>)</td></tr>
+<tr class="memitem:aaf41f46cf83d59e7f2b040c3ad7ed592"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aaf41f46cf83d59e7f2b040c3ad7ed592">DESIG_UNIQUE_ID0</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a>)</td></tr>
 <tr class="separator:aaf41f46cf83d59e7f2b040c3ad7ed592"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a121c59863db1db56b26e70978089b931"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a121c59863db1db56b26e70978089b931">DESIG_UNIQUE_ID1</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a> + 4)</td></tr>
+<tr class="memitem:a121c59863db1db56b26e70978089b931"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a121c59863db1db56b26e70978089b931">DESIG_UNIQUE_ID1</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a> + 4)</td></tr>
 <tr class="separator:a121c59863db1db56b26e70978089b931"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58267039858b45fc2b5948a79d8a038e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a58267039858b45fc2b5948a79d8a038e">DESIG_UNIQUE_ID2</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a> + 8)</td></tr>
+<tr class="memitem:a58267039858b45fc2b5948a79d8a038e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a58267039858b45fc2b5948a79d8a038e">DESIG_UNIQUE_ID2</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a> + 8)</td></tr>
 <tr class="separator:a58267039858b45fc2b5948a79d8a038e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5bad40ac86464835f00d01559a3302d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d">ST_VREFINT_CAL</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#abb0189383a963a89a7607442c420ba3f">MMIO16</a>(0x1FFFF7BA)</td></tr>
+<tr class="memitem:ab5bad40ac86464835f00d01559a3302d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d">ST_VREFINT_CAL</a>&#160;&#160;&#160;MMIO16(0x1FFFF7BA)</td></tr>
 <tr class="separator:ab5bad40ac86464835f00d01559a3302d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27770fe4499d5825fe65b1b4278401b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6">ST_TSENSE_CAL1_30C</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#abb0189383a963a89a7607442c420ba3f">MMIO16</a>(0x1FFFF7B8)</td></tr>
+<tr class="memitem:a27770fe4499d5825fe65b1b4278401b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6">ST_TSENSE_CAL1_30C</a>&#160;&#160;&#160;MMIO16(0x1FFFF7B8)</td></tr>
 <tr class="separator:a27770fe4499d5825fe65b1b4278401b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a180b2568bd311857514f6f845b36aeb0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a180b2568bd311857514f6f845b36aeb0">ST_TSENSE_CAL2_110</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#abb0189383a963a89a7607442c420ba3f">MMIO16</a>(0x1FFFF7C2)</td></tr>
+<tr class="memitem:a180b2568bd311857514f6f845b36aeb0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a180b2568bd311857514f6f845b36aeb0">ST_TSENSE_CAL2_110</a>&#160;&#160;&#160;MMIO16(0x1FFFF7C2)</td></tr>
 <tr class="separator:a180b2568bd311857514f6f845b36aeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -388,7 +388,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DBGMCU_BASE&#160;&#160;&#160;(<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/memorymap_8h.html#a19364e23013210d7c3939b513b514799">PPBI_BASE</a> + 0x00042000)</td>
+          <td class="memname">#define DBGMCU_BASE&#160;&#160;&#160;(PPBI_BASE + 0x00042000)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -416,7 +416,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DESIG_UNIQUE_ID0&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a>)</td>
+          <td class="memname">#define DESIG_UNIQUE_ID0&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -430,7 +430,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DESIG_UNIQUE_ID1&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a> + 4)</td>
+          <td class="memname">#define DESIG_UNIQUE_ID1&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a> + 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -444,7 +444,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DESIG_UNIQUE_ID2&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a> + 8)</td>
+          <td class="memname">#define DESIG_UNIQUE_ID2&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a> + 8)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -864,7 +864,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ST_TSENSE_CAL1_30C&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#abb0189383a963a89a7607442c420ba3f">MMIO16</a>(0x1FFFF7B8)</td>
+          <td class="memname">#define ST_TSENSE_CAL1_30C&#160;&#160;&#160;MMIO16(0x1FFFF7B8)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -878,7 +878,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ST_TSENSE_CAL2_110&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#abb0189383a963a89a7607442c420ba3f">MMIO16</a>(0x1FFFF7C2)</td>
+          <td class="memname">#define ST_TSENSE_CAL2_110&#160;&#160;&#160;MMIO16(0x1FFFF7C2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -892,7 +892,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ST_VREFINT_CAL&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#abb0189383a963a89a7607442c420ba3f">MMIO16</a>(0x1FFFF7BA)</td>
+          <td class="memname">#define ST_VREFINT_CAL&#160;&#160;&#160;MMIO16(0x1FFFF7BA)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1187,7 +1187,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_3eb84232311319d701132e3ed87729ed.html">f3</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:38 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:56 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

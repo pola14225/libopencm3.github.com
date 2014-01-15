@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('ethernet_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -127,13 +127,13 @@ $(document).ready(function(){initNavTree('ethernet_8h.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;libopencm3/stm32/memorymap.h&gt;</code><br/>
-<code>#include &lt;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</code><br/>
+<code>#include &lt;libopencm3/cm3/common.h&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ethernet.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="ethernet_8h__incl.png" border="0" usemap="#ethernet_8h" alt=""/></div>
 <map name="ethernet_8h" id="ethernet_8h">
-<area shape="rect" id="node5" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html" title="libopencm3/cm3/common.h" alt="" coords="243,89,424,122"/></map>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -147,113 +147,113 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a008e07758293a1e58c64388b09023006"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a008e07758293a1e58c64388b09023006">ETH_MACCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x00)</td></tr>
+<tr class="memitem:a008e07758293a1e58c64388b09023006"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a008e07758293a1e58c64388b09023006">ETH_MACCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x00)</td></tr>
 <tr class="separator:a008e07758293a1e58c64388b09023006"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0526e8c9eae2f7a95188de9e1fdc288"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ae0526e8c9eae2f7a95188de9e1fdc288">ETH_MACFFR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x04)</td></tr>
+<tr class="memitem:ae0526e8c9eae2f7a95188de9e1fdc288"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ae0526e8c9eae2f7a95188de9e1fdc288">ETH_MACFFR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x04)</td></tr>
 <tr class="separator:ae0526e8c9eae2f7a95188de9e1fdc288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae190ebe1061cc133f3461db84e82866d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ae190ebe1061cc133f3461db84e82866d">ETH_MACHTHR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x08)</td></tr>
+<tr class="memitem:ae190ebe1061cc133f3461db84e82866d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ae190ebe1061cc133f3461db84e82866d">ETH_MACHTHR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x08)</td></tr>
 <tr class="separator:ae190ebe1061cc133f3461db84e82866d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc8fbd6c44a0dc44329c9e20acf19e1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#afc8fbd6c44a0dc44329c9e20acf19e1a">ETH_MACHTLR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x0C)</td></tr>
+<tr class="memitem:afc8fbd6c44a0dc44329c9e20acf19e1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#afc8fbd6c44a0dc44329c9e20acf19e1a">ETH_MACHTLR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x0C)</td></tr>
 <tr class="separator:afc8fbd6c44a0dc44329c9e20acf19e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d900cc70bd2df7905aedd7c2c2f65eb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x10)</td></tr>
+<tr class="memitem:a4d900cc70bd2df7905aedd7c2c2f65eb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a4d900cc70bd2df7905aedd7c2c2f65eb">ETH_MACMIIAR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x10)</td></tr>
 <tr class="separator:a4d900cc70bd2df7905aedd7c2c2f65eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7485dfc36920079da073f0f3b5301e84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a7485dfc36920079da073f0f3b5301e84">ETH_MACMIIDR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x14)</td></tr>
+<tr class="memitem:a7485dfc36920079da073f0f3b5301e84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a7485dfc36920079da073f0f3b5301e84">ETH_MACMIIDR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x14)</td></tr>
 <tr class="separator:a7485dfc36920079da073f0f3b5301e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24f852e1353b54054469cd7f2700bfba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a24f852e1353b54054469cd7f2700bfba">ETH_MACFCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x18)</td></tr>
+<tr class="memitem:a24f852e1353b54054469cd7f2700bfba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a24f852e1353b54054469cd7f2700bfba">ETH_MACFCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x18)</td></tr>
 <tr class="separator:a24f852e1353b54054469cd7f2700bfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81b8e40822b68a5e29cf36441c7d71f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a81b8e40822b68a5e29cf36441c7d71f4">ETH_MACVLANTR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1C)</td></tr>
+<tr class="memitem:a81b8e40822b68a5e29cf36441c7d71f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a81b8e40822b68a5e29cf36441c7d71f4">ETH_MACVLANTR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1C)</td></tr>
 <tr class="separator:a81b8e40822b68a5e29cf36441c7d71f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc9466b66eaa416f94fe25040405203e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#acc9466b66eaa416f94fe25040405203e">ETH_MACRWUFFR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x28)</td></tr>
+<tr class="memitem:acc9466b66eaa416f94fe25040405203e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#acc9466b66eaa416f94fe25040405203e">ETH_MACRWUFFR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x28)</td></tr>
 <tr class="separator:acc9466b66eaa416f94fe25040405203e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c9fc984e5a47ca9b71593b7c6c24b5c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8c9fc984e5a47ca9b71593b7c6c24b5c">ETH_MACPMTCSR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x2C)</td></tr>
+<tr class="memitem:a8c9fc984e5a47ca9b71593b7c6c24b5c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8c9fc984e5a47ca9b71593b7c6c24b5c">ETH_MACPMTCSR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x2C)</td></tr>
 <tr class="separator:a8c9fc984e5a47ca9b71593b7c6c24b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18afb76c74c98727066e608331dbaeac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a18afb76c74c98727066e608331dbaeac">ETH_MACSR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x38)</td></tr>
+<tr class="memitem:a18afb76c74c98727066e608331dbaeac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a18afb76c74c98727066e608331dbaeac">ETH_MACSR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x38)</td></tr>
 <tr class="separator:a18afb76c74c98727066e608331dbaeac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84a0a7513c79aca97c443d700739a5d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a84a0a7513c79aca97c443d700739a5d2">ETH_MACIMR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x3C)</td></tr>
+<tr class="memitem:a84a0a7513c79aca97c443d700739a5d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a84a0a7513c79aca97c443d700739a5d2">ETH_MACIMR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x3C)</td></tr>
 <tr class="separator:a84a0a7513c79aca97c443d700739a5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b11c625991c0aee83265c2bde42cd81"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8b11c625991c0aee83265c2bde42cd81">ETH_MACA0HR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x40)</td></tr>
+<tr class="memitem:a8b11c625991c0aee83265c2bde42cd81"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8b11c625991c0aee83265c2bde42cd81">ETH_MACA0HR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x40)</td></tr>
 <tr class="separator:a8b11c625991c0aee83265c2bde42cd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20df971a50a39a94114c0a9ba168e403"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a20df971a50a39a94114c0a9ba168e403">ETH_MACA0LR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x44)</td></tr>
+<tr class="memitem:a20df971a50a39a94114c0a9ba168e403"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a20df971a50a39a94114c0a9ba168e403">ETH_MACA0LR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x44)</td></tr>
 <tr class="separator:a20df971a50a39a94114c0a9ba168e403"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c9ae689b4c1abfda787d8bbacf56b45"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8c9ae689b4c1abfda787d8bbacf56b45">ETH_MACA1HR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x48)</td></tr>
+<tr class="memitem:a8c9ae689b4c1abfda787d8bbacf56b45"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8c9ae689b4c1abfda787d8bbacf56b45">ETH_MACA1HR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x48)</td></tr>
 <tr class="separator:a8c9ae689b4c1abfda787d8bbacf56b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad543fcad271d68554a939c6f2f6e7796"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ad543fcad271d68554a939c6f2f6e7796">ETH_MACA1LR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x4C)</td></tr>
+<tr class="memitem:ad543fcad271d68554a939c6f2f6e7796"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ad543fcad271d68554a939c6f2f6e7796">ETH_MACA1LR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x4C)</td></tr>
 <tr class="separator:ad543fcad271d68554a939c6f2f6e7796"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7159519b60e468608eaa488816793dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aa7159519b60e468608eaa488816793dc">ETH_MACA2HR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x50)</td></tr>
+<tr class="memitem:aa7159519b60e468608eaa488816793dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aa7159519b60e468608eaa488816793dc">ETH_MACA2HR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x50)</td></tr>
 <tr class="separator:aa7159519b60e468608eaa488816793dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c4396b062c4f5dc77a67274ac8335d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a9c4396b062c4f5dc77a67274ac8335d7">ETH_MACA2LR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x54)</td></tr>
+<tr class="memitem:a9c4396b062c4f5dc77a67274ac8335d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a9c4396b062c4f5dc77a67274ac8335d7">ETH_MACA2LR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x54)</td></tr>
 <tr class="separator:a9c4396b062c4f5dc77a67274ac8335d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b049701d22bfe15916dc322a5861b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a1b049701d22bfe15916dc322a5861b74">ETH_MACA3HR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x58)</td></tr>
+<tr class="memitem:a1b049701d22bfe15916dc322a5861b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a1b049701d22bfe15916dc322a5861b74">ETH_MACA3HR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x58)</td></tr>
 <tr class="separator:a1b049701d22bfe15916dc322a5861b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25eed497882e61b84e84ca8df4d823db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a25eed497882e61b84e84ca8df4d823db">ETH_MACA3LR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x5C)</td></tr>
+<tr class="memitem:a25eed497882e61b84e84ca8df4d823db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a25eed497882e61b84e84ca8df4d823db">ETH_MACA3LR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x5C)</td></tr>
 <tr class="separator:a25eed497882e61b84e84ca8df4d823db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a340605767fdf406c393f046be44a1e09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a340605767fdf406c393f046be44a1e09">ETH_MMCCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x100)</td></tr>
+<tr class="memitem:a340605767fdf406c393f046be44a1e09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a340605767fdf406c393f046be44a1e09">ETH_MMCCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x100)</td></tr>
 <tr class="separator:a340605767fdf406c393f046be44a1e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa49af339607e5c30c69d55f4941fd775"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aa49af339607e5c30c69d55f4941fd775">ETH_MMCRIR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x104)</td></tr>
+<tr class="memitem:aa49af339607e5c30c69d55f4941fd775"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aa49af339607e5c30c69d55f4941fd775">ETH_MMCRIR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x104)</td></tr>
 <tr class="separator:aa49af339607e5c30c69d55f4941fd775"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab53a2a3649b1b96533c3bb8f2dfca221"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ab53a2a3649b1b96533c3bb8f2dfca221">ETH_MMCTIR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x108)</td></tr>
+<tr class="memitem:ab53a2a3649b1b96533c3bb8f2dfca221"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ab53a2a3649b1b96533c3bb8f2dfca221">ETH_MMCTIR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x108)</td></tr>
 <tr class="separator:ab53a2a3649b1b96533c3bb8f2dfca221"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e63a205698925c20f69be3d711ae59"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a42e63a205698925c20f69be3d711ae59">ETH_MMCRIMR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x10C)</td></tr>
+<tr class="memitem:a42e63a205698925c20f69be3d711ae59"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a42e63a205698925c20f69be3d711ae59">ETH_MMCRIMR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x10C)</td></tr>
 <tr class="separator:a42e63a205698925c20f69be3d711ae59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0e2ddcc50c96772130c9717aa1ec496"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ad0e2ddcc50c96772130c9717aa1ec496">ETH_MMCTIMR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x110)</td></tr>
+<tr class="memitem:ad0e2ddcc50c96772130c9717aa1ec496"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ad0e2ddcc50c96772130c9717aa1ec496">ETH_MMCTIMR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x110)</td></tr>
 <tr class="separator:ad0e2ddcc50c96772130c9717aa1ec496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a355a8ef08cc4a431601016a076ae9562"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a355a8ef08cc4a431601016a076ae9562">ETH_MMCTGFSCCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x14C)</td></tr>
+<tr class="memitem:a355a8ef08cc4a431601016a076ae9562"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a355a8ef08cc4a431601016a076ae9562">ETH_MMCTGFSCCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x14C)</td></tr>
 <tr class="separator:a355a8ef08cc4a431601016a076ae9562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2324378454cb5afc2709afc6849067d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ad2324378454cb5afc2709afc6849067d">ETH_MMCTGFMSCCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x150)</td></tr>
+<tr class="memitem:ad2324378454cb5afc2709afc6849067d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ad2324378454cb5afc2709afc6849067d">ETH_MMCTGFMSCCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x150)</td></tr>
 <tr class="separator:ad2324378454cb5afc2709afc6849067d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1de87b7bf29865be1068300dd2946caf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a1de87b7bf29865be1068300dd2946caf">ETH_MMCTGFCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x168)</td></tr>
+<tr class="memitem:a1de87b7bf29865be1068300dd2946caf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a1de87b7bf29865be1068300dd2946caf">ETH_MMCTGFCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x168)</td></tr>
 <tr class="separator:a1de87b7bf29865be1068300dd2946caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb9b04ab9c5957905a2db7314d6907b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#acb9b04ab9c5957905a2db7314d6907b8">ETH_MMCRFCECR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x194)</td></tr>
+<tr class="memitem:acb9b04ab9c5957905a2db7314d6907b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#acb9b04ab9c5957905a2db7314d6907b8">ETH_MMCRFCECR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x194)</td></tr>
 <tr class="separator:acb9b04ab9c5957905a2db7314d6907b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99f6ddc380fffdfe66e6659f7c4ba325"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a99f6ddc380fffdfe66e6659f7c4ba325">ETH_MMCRFAECR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x198)</td></tr>
+<tr class="memitem:a99f6ddc380fffdfe66e6659f7c4ba325"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a99f6ddc380fffdfe66e6659f7c4ba325">ETH_MMCRFAECR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x198)</td></tr>
 <tr class="separator:a99f6ddc380fffdfe66e6659f7c4ba325"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add605f380a482a06a59498eea4cad15f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#add605f380a482a06a59498eea4cad15f">ETH_MMCRGUFCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1C4)</td></tr>
+<tr class="memitem:add605f380a482a06a59498eea4cad15f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#add605f380a482a06a59498eea4cad15f">ETH_MMCRGUFCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1C4)</td></tr>
 <tr class="separator:add605f380a482a06a59498eea4cad15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eb7b62e8c9457b2b12ef0a8b113e0e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a0eb7b62e8c9457b2b12ef0a8b113e0e8">ETH_PTPTSCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x700)</td></tr>
+<tr class="memitem:a0eb7b62e8c9457b2b12ef0a8b113e0e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a0eb7b62e8c9457b2b12ef0a8b113e0e8">ETH_PTPTSCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x700)</td></tr>
 <tr class="separator:a0eb7b62e8c9457b2b12ef0a8b113e0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25a65e067a532bde53c20f0e987f8687"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a25a65e067a532bde53c20f0e987f8687">ETH_PTPSSIR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x704)</td></tr>
+<tr class="memitem:a25a65e067a532bde53c20f0e987f8687"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a25a65e067a532bde53c20f0e987f8687">ETH_PTPSSIR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x704)</td></tr>
 <tr class="separator:a25a65e067a532bde53c20f0e987f8687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0ed4f71663c05da49598d842226c310"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ae0ed4f71663c05da49598d842226c310">ETH_PTPTSHR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x708)</td></tr>
+<tr class="memitem:ae0ed4f71663c05da49598d842226c310"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ae0ed4f71663c05da49598d842226c310">ETH_PTPTSHR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x708)</td></tr>
 <tr class="separator:ae0ed4f71663c05da49598d842226c310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8673e03287f87d08e002dfa84948e787"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8673e03287f87d08e002dfa84948e787">ETH_PTPTSLR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x70C)</td></tr>
+<tr class="memitem:a8673e03287f87d08e002dfa84948e787"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8673e03287f87d08e002dfa84948e787">ETH_PTPTSLR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x70C)</td></tr>
 <tr class="separator:a8673e03287f87d08e002dfa84948e787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00acdca007299c6501aed74042ff7029"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a00acdca007299c6501aed74042ff7029">ETH_PTPTSHUR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x710)</td></tr>
+<tr class="memitem:a00acdca007299c6501aed74042ff7029"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a00acdca007299c6501aed74042ff7029">ETH_PTPTSHUR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x710)</td></tr>
 <tr class="separator:a00acdca007299c6501aed74042ff7029"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67e138740dfce8004fa6129089094bb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a67e138740dfce8004fa6129089094bb8">ETH_PTPTSLUR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x714)</td></tr>
+<tr class="memitem:a67e138740dfce8004fa6129089094bb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a67e138740dfce8004fa6129089094bb8">ETH_PTPTSLUR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x714)</td></tr>
 <tr class="separator:a67e138740dfce8004fa6129089094bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68db517872e09cb56424146326a1962a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a68db517872e09cb56424146326a1962a">ETH_PTPTSAR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x718)</td></tr>
+<tr class="memitem:a68db517872e09cb56424146326a1962a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a68db517872e09cb56424146326a1962a">ETH_PTPTSAR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x718)</td></tr>
 <tr class="separator:a68db517872e09cb56424146326a1962a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae67868e9926f1c0546f5d58a34736e99"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ae67868e9926f1c0546f5d58a34736e99">ETH_PTPTTHR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x71C)</td></tr>
+<tr class="memitem:ae67868e9926f1c0546f5d58a34736e99"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ae67868e9926f1c0546f5d58a34736e99">ETH_PTPTTHR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x71C)</td></tr>
 <tr class="separator:ae67868e9926f1c0546f5d58a34736e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bbad3e622a49b4a17da1bd122ca86f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a1bbad3e622a49b4a17da1bd122ca86f0">ETH_PTPTTLR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x720)</td></tr>
+<tr class="memitem:a1bbad3e622a49b4a17da1bd122ca86f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a1bbad3e622a49b4a17da1bd122ca86f0">ETH_PTPTTLR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x720)</td></tr>
 <tr class="separator:a1bbad3e622a49b4a17da1bd122ca86f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47705301b586095530ac40c816431d16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a47705301b586095530ac40c816431d16">ETH_DMABMR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1000)</td></tr>
+<tr class="memitem:a47705301b586095530ac40c816431d16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a47705301b586095530ac40c816431d16">ETH_DMABMR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1000)</td></tr>
 <tr class="separator:a47705301b586095530ac40c816431d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62e8a76348e0dd6771d0fac61eb0c6e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a62e8a76348e0dd6771d0fac61eb0c6e0">ETH_DMATPDR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1004)</td></tr>
+<tr class="memitem:a62e8a76348e0dd6771d0fac61eb0c6e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a62e8a76348e0dd6771d0fac61eb0c6e0">ETH_DMATPDR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1004)</td></tr>
 <tr class="separator:a62e8a76348e0dd6771d0fac61eb0c6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75794e848f34741e5ff47bf9194513f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a75794e848f34741e5ff47bf9194513f1">ETH_DMARPDR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1008)</td></tr>
+<tr class="memitem:a75794e848f34741e5ff47bf9194513f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a75794e848f34741e5ff47bf9194513f1">ETH_DMARPDR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1008)</td></tr>
 <tr class="separator:a75794e848f34741e5ff47bf9194513f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c19d0ffaf03534b2036358a65e5152f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a0c19d0ffaf03534b2036358a65e5152f">ETH_DMARDLAR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x100C)</td></tr>
+<tr class="memitem:a0c19d0ffaf03534b2036358a65e5152f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a0c19d0ffaf03534b2036358a65e5152f">ETH_DMARDLAR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x100C)</td></tr>
 <tr class="separator:a0c19d0ffaf03534b2036358a65e5152f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac4f14bf694a907da7702c2baa290131"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aac4f14bf694a907da7702c2baa290131">ETH_DMATDLAR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1010)</td></tr>
+<tr class="memitem:aac4f14bf694a907da7702c2baa290131"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aac4f14bf694a907da7702c2baa290131">ETH_DMATDLAR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1010)</td></tr>
 <tr class="separator:aac4f14bf694a907da7702c2baa290131"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac4f14bf694a907da7702c2baa290131"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aac4f14bf694a907da7702c2baa290131">ETH_DMATDLAR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1010)</td></tr>
+<tr class="memitem:aac4f14bf694a907da7702c2baa290131"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aac4f14bf694a907da7702c2baa290131">ETH_DMATDLAR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1010)</td></tr>
 <tr class="separator:aac4f14bf694a907da7702c2baa290131"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b3faa77c57ff9709804d5c121b59013"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8b3faa77c57ff9709804d5c121b59013">ETH_DMASR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1014)</td></tr>
+<tr class="memitem:a8b3faa77c57ff9709804d5c121b59013"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a8b3faa77c57ff9709804d5c121b59013">ETH_DMASR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1014)</td></tr>
 <tr class="separator:a8b3faa77c57ff9709804d5c121b59013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaac900aa846bde39b1fcb3d8c2f9f4e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aaac900aa846bde39b1fcb3d8c2f9f4e7">ETH_DMAOMR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1018)</td></tr>
+<tr class="memitem:aaac900aa846bde39b1fcb3d8c2f9f4e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#aaac900aa846bde39b1fcb3d8c2f9f4e7">ETH_DMAOMR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1018)</td></tr>
 <tr class="separator:aaac900aa846bde39b1fcb3d8c2f9f4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87be18a4165a13494cf896b2a1eff17"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ac87be18a4165a13494cf896b2a1eff17">ETH_DMAIER</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x101C)</td></tr>
+<tr class="memitem:ac87be18a4165a13494cf896b2a1eff17"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ac87be18a4165a13494cf896b2a1eff17">ETH_DMAIER</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x101C)</td></tr>
 <tr class="separator:ac87be18a4165a13494cf896b2a1eff17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f2261f72f5a30f37dcd93dc166d124c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a1f2261f72f5a30f37dcd93dc166d124c">ETH_DMAMFBOCR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1020)</td></tr>
+<tr class="memitem:a1f2261f72f5a30f37dcd93dc166d124c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a1f2261f72f5a30f37dcd93dc166d124c">ETH_DMAMFBOCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1020)</td></tr>
 <tr class="separator:a1f2261f72f5a30f37dcd93dc166d124c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09204509b95cf1b497e710ba5b2d6b82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a09204509b95cf1b497e710ba5b2d6b82">ETH_DMACHTDR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1048)</td></tr>
+<tr class="memitem:a09204509b95cf1b497e710ba5b2d6b82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a09204509b95cf1b497e710ba5b2d6b82">ETH_DMACHTDR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1048)</td></tr>
 <tr class="separator:a09204509b95cf1b497e710ba5b2d6b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40f9585c9f18a4061438e55f7caa6234"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a40f9585c9f18a4061438e55f7caa6234">ETH_DMACHRDR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x104C)</td></tr>
+<tr class="memitem:a40f9585c9f18a4061438e55f7caa6234"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a40f9585c9f18a4061438e55f7caa6234">ETH_DMACHRDR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x104C)</td></tr>
 <tr class="separator:a40f9585c9f18a4061438e55f7caa6234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab684ba2b71b7f6b440a1fb761ef94f05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ab684ba2b71b7f6b440a1fb761ef94f05">ETH_DMACHTBAR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1050)</td></tr>
+<tr class="memitem:ab684ba2b71b7f6b440a1fb761ef94f05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#ab684ba2b71b7f6b440a1fb761ef94f05">ETH_DMACHTBAR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1050)</td></tr>
 <tr class="separator:ab684ba2b71b7f6b440a1fb761ef94f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a655fbb8a5b4a33f9ae349442915ae886"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a655fbb8a5b4a33f9ae349442915ae886">ETH_DMACHRBAR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1054)</td></tr>
+<tr class="memitem:a655fbb8a5b4a33f9ae349442915ae886"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a655fbb8a5b4a33f9ae349442915ae886">ETH_DMACHRBAR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1054)</td></tr>
 <tr class="separator:a655fbb8a5b4a33f9ae349442915ae886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77984e7a5202bdc300bccc9cc90fad3e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ethernet_8h.html#a77984e7a5202bdc300bccc9cc90fad3e">ETH_MACCR_RE</a>&#160;&#160;&#160;0x00000004</td></tr>
 <tr class="separator:a77984e7a5202bdc300bccc9cc90fad3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -457,7 +457,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMABMR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1000)</td>
+          <td class="memname">#define ETH_DMABMR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1000)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -667,7 +667,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMACHRBAR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1054)</td>
+          <td class="memname">#define ETH_DMACHRBAR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1054)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -681,7 +681,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMACHRDR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x104C)</td>
+          <td class="memname">#define ETH_DMACHRDR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x104C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -695,7 +695,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMACHTBAR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1050)</td>
+          <td class="memname">#define ETH_DMACHTBAR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1050)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -709,7 +709,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMACHTDR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1048)</td>
+          <td class="memname">#define ETH_DMACHTDR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1048)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -723,7 +723,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMAIER&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x101C)</td>
+          <td class="memname">#define ETH_DMAIER&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x101C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -947,7 +947,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMAMFBOCR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1020)</td>
+          <td class="memname">#define ETH_DMAMFBOCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1020)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -961,7 +961,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMAOMR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1018)</td>
+          <td class="memname">#define ETH_DMAOMR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1018)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1199,7 +1199,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMARDLAR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x100C)</td>
+          <td class="memname">#define ETH_DMARDLAR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x100C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1213,7 +1213,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMARPDR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1008)</td>
+          <td class="memname">#define ETH_DMARPDR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1008)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1227,7 +1227,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMASR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1014)</td>
+          <td class="memname">#define ETH_DMASR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1014)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1241,7 +1241,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMATDLAR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1010)</td>
+          <td class="memname">#define ETH_DMATDLAR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1010)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1255,7 +1255,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMATDLAR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1010)</td>
+          <td class="memname">#define ETH_DMATDLAR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1010)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1269,7 +1269,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_DMATPDR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1004)</td>
+          <td class="memname">#define ETH_DMATPDR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1004)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1283,7 +1283,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACA0HR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x40)</td>
+          <td class="memname">#define ETH_MACA0HR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x40)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1297,7 +1297,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACA0LR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x44)</td>
+          <td class="memname">#define ETH_MACA0LR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x44)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1311,7 +1311,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACA1HR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x48)</td>
+          <td class="memname">#define ETH_MACA1HR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x48)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1325,7 +1325,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACA1LR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x4C)</td>
+          <td class="memname">#define ETH_MACA1LR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x4C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1339,7 +1339,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACA2HR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x50)</td>
+          <td class="memname">#define ETH_MACA2HR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x50)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1353,7 +1353,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACA2LR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x54)</td>
+          <td class="memname">#define ETH_MACA2LR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x54)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1367,7 +1367,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACA3HR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x58)</td>
+          <td class="memname">#define ETH_MACA3HR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x58)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1381,7 +1381,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACA3LR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x5C)</td>
+          <td class="memname">#define ETH_MACA3LR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x5C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1395,7 +1395,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACCR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x00)</td>
+          <td class="memname">#define ETH_MACCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x00)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1619,7 +1619,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACFCR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x18)</td>
+          <td class="memname">#define ETH_MACFCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x18)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1745,7 +1745,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACFFR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x04)</td>
+          <td class="memname">#define ETH_MACFFR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x04)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1913,7 +1913,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACHTHR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x08)</td>
+          <td class="memname">#define ETH_MACHTHR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x08)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1927,7 +1927,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACHTLR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x0C)</td>
+          <td class="memname">#define ETH_MACHTLR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x0C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1941,7 +1941,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACIMR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x3C)</td>
+          <td class="memname">#define ETH_MACIMR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x3C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1983,7 +1983,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACMIIAR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x10)</td>
+          <td class="memname">#define ETH_MACMIIAR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x10)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2119,7 +2119,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACMIIDR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x14)</td>
+          <td class="memname">#define ETH_MACMIIDR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x14)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2135,7 +2135,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACPMTCSR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x2C)</td>
+          <td class="memname">#define ETH_MACPMTCSR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x2C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2149,7 +2149,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACRWUFFR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x28)</td>
+          <td class="memname">#define ETH_MACRWUFFR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x28)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2163,7 +2163,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACSR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x38)</td>
+          <td class="memname">#define ETH_MACSR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x38)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2247,7 +2247,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MACVLANTR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1C)</td>
+          <td class="memname">#define ETH_MACVLANTR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2261,7 +2261,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCCR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x100)</td>
+          <td class="memname">#define ETH_MMCCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x100)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2275,7 +2275,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCRFAECR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x198)</td>
+          <td class="memname">#define ETH_MMCRFAECR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x198)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2289,7 +2289,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCRFCECR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x194)</td>
+          <td class="memname">#define ETH_MMCRFCECR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x194)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2303,7 +2303,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCRGUFCR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1C4)</td>
+          <td class="memname">#define ETH_MMCRGUFCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x1C4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2317,7 +2317,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCRIMR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x10C)</td>
+          <td class="memname">#define ETH_MMCRIMR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x10C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2331,7 +2331,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCRIR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x104)</td>
+          <td class="memname">#define ETH_MMCRIR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x104)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2345,7 +2345,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCTGFCR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x168)</td>
+          <td class="memname">#define ETH_MMCTGFCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x168)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2359,7 +2359,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCTGFMSCCR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x150)</td>
+          <td class="memname">#define ETH_MMCTGFMSCCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x150)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2373,7 +2373,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCTGFSCCR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x14C)</td>
+          <td class="memname">#define ETH_MMCTGFSCCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x14C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2387,7 +2387,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCTIMR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x110)</td>
+          <td class="memname">#define ETH_MMCTIMR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x110)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2401,7 +2401,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_MMCTIR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x108)</td>
+          <td class="memname">#define ETH_MMCTIR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x108)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2415,7 +2415,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_PTPSSIR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x704)</td>
+          <td class="memname">#define ETH_PTPSSIR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x704)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2429,7 +2429,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_PTPTSAR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x718)</td>
+          <td class="memname">#define ETH_PTPTSAR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x718)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2443,7 +2443,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_PTPTSCR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x700)</td>
+          <td class="memname">#define ETH_PTPTSCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x700)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2457,7 +2457,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_PTPTSHR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x708)</td>
+          <td class="memname">#define ETH_PTPTSHR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x708)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2471,7 +2471,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_PTPTSHUR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x710)</td>
+          <td class="memname">#define ETH_PTPTSHUR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x710)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2485,7 +2485,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_PTPTSLR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x70C)</td>
+          <td class="memname">#define ETH_PTPTSLR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x70C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2499,7 +2499,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_PTPTSLUR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x714)</td>
+          <td class="memname">#define ETH_PTPTSLUR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x714)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2513,7 +2513,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_PTPTTHR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x71C)</td>
+          <td class="memname">#define ETH_PTPTTHR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x71C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2527,7 +2527,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ETH_PTPTTLR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x720)</td>
+          <td class="memname">#define ETH_PTPTTLR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a> + 0x720)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2609,7 +2609,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_26e2099944f53a27f6cdf710ec04616c.html">f1</a></li><li class="navelem"><a class="el" href="ethernet_8h.html">ethernet.h</a></li>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:18 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:36 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

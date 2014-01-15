@@ -2,8 +2,7 @@ var NAVTREE =
 [
   [ "libopencm3", "index.html", [
     [ "libopencm3 LPC13xx", "index.html", null ],
-    [ "libopencm3 License", "../../cm3/html/lgpl_license.html", null ],
-    [ "libopencm3 Core CM3", "../../cm3/html/index.html", null ],
+    [ "libopencm3 License", "lgpl_license.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
     [ "Generic USB", "../../usb/html/modules.html", null ],
@@ -25,7 +24,8 @@ var NAVTREE =
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
+        [ "Functions", "globals_func.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]

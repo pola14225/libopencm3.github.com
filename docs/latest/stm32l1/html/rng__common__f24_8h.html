@@ -127,24 +127,24 @@ $(document).ready(function(){initNavTree('rng__common__f24_8h.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;libopencm3/stm32/memorymap.h&gt;</code><br/>
-<code>#include &lt;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</code><br/>
+<code>#include &lt;libopencm3/cm3/common.h&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for rng_common_f24.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="rng__common__f24_8h__incl.png" border="0" usemap="#rng__common__f24_8h" alt=""/></div>
 <map name="rng__common__f24_8h" id="rng__common__f24_8h">
-<area shape="rect" id="node5" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html" title="libopencm3/cm3/common.h" alt="" coords="243,89,424,122"/></map>
+</map>
 </div>
 </div>
 <p><a href="rng__common__f24_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9f983dd60cadb7f93a7cbc3242bed807"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a9f983dd60cadb7f93a7cbc3242bed807">RNG_CR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x00)</td></tr>
+<tr class="memitem:a9f983dd60cadb7f93a7cbc3242bed807"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a9f983dd60cadb7f93a7cbc3242bed807">RNG_CR</a>&#160;&#160;&#160;MMIO32(RNG_BASE + 0x00)</td></tr>
 <tr class="separator:a9f983dd60cadb7f93a7cbc3242bed807"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c576b22e5f9deb46a5200be5eb9d456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a0c576b22e5f9deb46a5200be5eb9d456">RNG_SR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x04)</td></tr>
+<tr class="memitem:a0c576b22e5f9deb46a5200be5eb9d456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a0c576b22e5f9deb46a5200be5eb9d456">RNG_SR</a>&#160;&#160;&#160;MMIO32(RNG_BASE + 0x04)</td></tr>
 <tr class="separator:a0c576b22e5f9deb46a5200be5eb9d456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae881013c41cbacedda4e1403d9edbfeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#ae881013c41cbacedda4e1403d9edbfeb">RNG_DR</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x08)</td></tr>
+<tr class="memitem:ae881013c41cbacedda4e1403d9edbfeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#ae881013c41cbacedda4e1403d9edbfeb">RNG_DR</a>&#160;&#160;&#160;MMIO32(RNG_BASE + 0x08)</td></tr>
 <tr class="separator:ae881013c41cbacedda4e1403d9edbfeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ee81827bb1d78e84e78a74449c8d56a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rng__common__f24_8h.html#a6ee81827bb1d78e84e78a74449c8d56a">RNG_CR_RNGEN</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
 <tr class="separator:a6ee81827bb1d78e84e78a74449c8d56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,7 +167,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define RNG_CR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x00)</td>
+          <td class="memname">#define RNG_CR&#160;&#160;&#160;MMIO32(RNG_BASE + 0x00)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -209,7 +209,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define RNG_DR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x08)</td>
+          <td class="memname">#define RNG_DR&#160;&#160;&#160;MMIO32(RNG_BASE + 0x08)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -223,7 +223,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define RNG_SR&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(RNG_BASE + 0x04)</td>
+          <td class="memname">#define RNG_SR&#160;&#160;&#160;MMIO32(RNG_BASE + 0x04)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -308,7 +308,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="rng__common__f24_8h.html">rng_common_f24.h</a></li>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:01 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:21 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

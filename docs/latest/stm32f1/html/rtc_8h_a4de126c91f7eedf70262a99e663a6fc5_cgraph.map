@@ -1,4 +1,0 @@
-<map id="rtc_interrupt_disable" name="rtc_interrupt_disable">
-<area shape="rect" id="node3" href="$rtc_8h.html#af911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="192,5,347,38"/>
-<area shape="rect" id="node5" href="$rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="196,61,343,94"/>
-</map>

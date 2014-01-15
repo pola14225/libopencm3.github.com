@@ -331,7 +331,7 @@ Functions</h2></td></tr>
 Basic ADC Handling API.</h1>
 <p>Example 1: Simple single channel conversion polled. Enable the peripheral clock and ADC, reset ADC and set the prescaler divider. Set multiple mode to independent.</p>
 <div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a>(<a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__mode.html#ga7a04f9ab65ad572ad20791a35009220c">GPIO_MODE_ANALOG</a>, <a class="code" href="group__gpio__pup.html#gad53ebddfcc3973120b1c0271423f131e">GPIO_PUPD_NONE</a>, <a class="code" href="group__gpio__pin__id.html#gabe59d3a7ce7a18e9440bd54cae1f3fc8">GPIO1</a>);</div>
-<div class="line"><a class="code" href="rcc__common__all_8h.html#aaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="rcc_8h.html#a6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, <a class="code" href="rcc_8h.html#a57b9f50cb96a2e4ceba37728b4a32a42">RCC_APB2ENR_ADC1EN</a>);</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="rcc_8h.html#a6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, <a class="code" href="rcc_8h.html#a57b9f50cb96a2e4ceba37728b4a32a42">RCC_APB2ENR_ADC1EN</a>);</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga84de145d34b425fda2854ce2d0797c71">adc_set_clk_prescale</a>(RCC_CFGR_ADCPRE_BY2);</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga7ec33198b40d7c344d9ed3fb5ee07eb3">adc_disable_scan_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
@@ -343,7 +343,7 @@ Basic ADC Handling API.</h1>
 <div class="line"><a class="code" href="group__STM32F4xx__adc__file.html#ga0b3b2251b860a0370967c2ee326ad338">adc_start_conversion_regular</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
 <div class="line"><span class="keywordflow">while</span> (! <a class="code" href="group__STM32F4xx__adc__file.html#gaf297c53a2e00673df5b85eeb87683ba2">adc_eoc</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>));</div>
 <div class="line">reg16 = <a class="code" href="group__STM32F4xx__adc__file.html#ga52c4b90afb2a3aa032794342b8eaf38e">adc_read_regular</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
-</div><!-- fragment --><p>LGPL License Terms <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
+</div><!-- fragment --><p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gaaecf7b26e7d55235fa4e99c93fc4da9d"></a>
 <div class="memitem">
@@ -2257,7 +2257,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:48 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:04 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

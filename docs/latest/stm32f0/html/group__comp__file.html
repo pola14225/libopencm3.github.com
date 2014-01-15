@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__comp__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -113,6 +113,8 @@ $(document).ready(function(){initNavTree('group__comp__file.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">COMP<div class="ingroups"><a class="el" href="group__STM32F0xx.html">STM32F0xx</a></div></div>  </div>
 </div><!--header-->
@@ -128,16 +130,194 @@ Collaboration diagram for COMP:</div>
 <area shape="rect" id="node2" href="group__STM32F0xx.html" title="Libraries for ST Microelectronics STM32F0xx series. " alt="" coords="5,5,99,38"/></map>
 </td></tr></table></center>
 </div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga47f3072b426ee534405536ff60516a4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__comp__file.html#ga47f3072b426ee534405536ff60516a4a">comp_enable</a> (uint8_t id)</td></tr>
+<tr class="separator:ga47f3072b426ee534405536ff60516a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9fdd3a34671ac20b5791843c541a9855"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__comp__file.html#ga9fdd3a34671ac20b5791843c541a9855">comp_disable</a> (uint8_t id)</td></tr>
+<tr class="separator:ga9fdd3a34671ac20b5791843c541a9855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d2d5a560ab29137bad052f67bc7eece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__comp__file.html#ga7d2d5a560ab29137bad052f67bc7eece">comp_select_input</a> (uint8_t id, uint32_t input)</td></tr>
+<tr class="separator:ga7d2d5a560ab29137bad052f67bc7eece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4a80bd27dde055f6396f7dc1a76db58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__comp__file.html#gad4a80bd27dde055f6396f7dc1a76db58">comp_select_output</a> (uint8_t id, uint32_t output)</td></tr>
+<tr class="separator:gad4a80bd27dde055f6396f7dc1a76db58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7c2399513eca488efb1ac2b412f1e791"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__comp__file.html#ga7c2399513eca488efb1ac2b412f1e791">comp_select_hyst</a> (uint8_t id, uint32_t hyst)</td></tr>
+<tr class="separator:ga7c2399513eca488efb1ac2b412f1e791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga297c3907fcf1754cea1fbe4fe84d2795"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__comp__file.html#ga297c3907fcf1754cea1fbe4fe84d2795">comp_select_speed</a> (uint8_t id, uint32_t speed)</td></tr>
+<tr class="separator:ga297c3907fcf1754cea1fbe4fe84d2795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>libopencm3 STM32F0xx COMP</b> </p>
 <dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
 <dl class="section date"><dt>Date</dt><dd>10 July 2013</dd></dl>
-<p>LGPL License Terms <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
+<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga9fdd3a34671ac20b5791843c541a9855"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_disable </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="comparator_8c_source.html#l00039">39</a> of file <a class="el" href="comparator_8c_source.html">comparator.c</a>.</p>
+
+<p>References <a class="el" href="comparator_8h_source.html#l00051">COMP_CSR</a>, and <a class="el" href="comparator_8h_source.html#l00105">COMP_CSR_EN</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga47f3072b426ee534405536ff60516a4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_enable </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="comparator_8c_source.html#l00034">34</a> of file <a class="el" href="comparator_8c_source.html">comparator.c</a>.</p>
+
+<p>References <a class="el" href="comparator_8h_source.html#l00051">COMP_CSR</a>, and <a class="el" href="comparator_8h_source.html#l00105">COMP_CSR_EN</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga7c2399513eca488efb1ac2b412f1e791"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_select_hyst </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>hyst</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="comparator_8c_source.html#l00054">54</a> of file <a class="el" href="comparator_8c_source.html">comparator.c</a>.</p>
+
+<p>References <a class="el" href="comparator_8h_source.html#l00051">COMP_CSR</a>, and <a class="el" href="comparator_8h_source.html#l00065">COMP_CSR_HYST</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga7d2d5a560ab29137bad052f67bc7eece"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_select_input </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>input</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="comparator_8c_source.html#l00044">44</a> of file <a class="el" href="comparator_8c_source.html">comparator.c</a>.</p>
+
+<p>References <a class="el" href="comparator_8h_source.html#l00051">COMP_CSR</a>, and <a class="el" href="comparator_8h_source.html#l00087">COMP_CSR_INSEL</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gad4a80bd27dde055f6396f7dc1a76db58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_select_output </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="comparator_8c_source.html#l00049">49</a> of file <a class="el" href="comparator_8c_source.html">comparator.c</a>.</p>
+
+<p>References <a class="el" href="comparator_8h_source.html#l00051">COMP_CSR</a>, and <a class="el" href="comparator_8h_source.html#l00074">COMP_CSR_OUTSEL</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga297c3907fcf1754cea1fbe4fe84d2795"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_select_speed </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>speed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="comparator_8c_source.html#l00059">59</a> of file <a class="el" href="comparator_8c_source.html">comparator.c</a>.</p>
+
+<p>References <a class="el" href="comparator_8h_source.html#l00051">COMP_CSR</a>, and <a class="el" href="comparator_8h_source.html#l00098">COMP_CSR_SPEED</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:11 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

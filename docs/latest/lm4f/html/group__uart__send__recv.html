@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__uart__send__recv.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -181,6 +181,8 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>data from the Rx FIFO. </dd></dl>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00287">287</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
+
+<p>References <a class="el" href="uart_8h_source.html#l00064">UART_DR</a>, and <a class="el" href="uart_8h_source.html#l00176">UART_DR_DATA_MASK</a>.</p>
 
 <p>Referenced by <a class="el" href="uart_8c_source.html#l00344">uart_recv_blocking()</a>.</p>
 
@@ -269,6 +271,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00275">275</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
+<p>References <a class="el" href="uart_8h_source.html#l00064">UART_DR</a>.</p>
+
 <p>Referenced by <a class="el" href="uart_8c_source.html#l00330">uart_send_blocking()</a>.</p>
 
 <p><div class="dynheader">
@@ -355,6 +359,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00316">316</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
+<p>References <a class="el" href="uart_8h_source.html#l00071">UART_FR</a>, and <a class="el" href="uart_8h_source.html#l00200">UART_FR_RXFE</a>.</p>
+
 <p>Referenced by <a class="el" href="uart_8c_source.html#l00344">uart_recv_blocking()</a>.</p>
 
 <p><div class="dynheader">
@@ -394,6 +400,8 @@ Even if the FIFO is not empty, this function will return as long as there is roo
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00303">303</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
+<p>References <a class="el" href="uart_8h_source.html#l00071">UART_FR</a>, and <a class="el" href="uart_8h_source.html#l00198">UART_FR_TXFF</a>.</p>
+
 <p>Referenced by <a class="el" href="uart_8c_source.html#l00330">uart_send_blocking()</a>.</p>
 
 <p><div class="dynheader">
@@ -412,7 +420,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:58 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

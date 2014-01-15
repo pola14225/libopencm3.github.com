@@ -189,9 +189,9 @@ var usart_8h =
     [ "usart_enable_rx_interrupt", "usart_8h.html#ga910b36a1d17590e9a12ab87c61275437", null ],
     [ "usart_enable_tx_dma", "usart_8h.html#gab2f95a34df377c2c9d36049f1f625f23", null ],
     [ "usart_enable_tx_interrupt", "usart_8h.html#ga2b2b2b838e5bef63e2ae0c6b3e98684b", null ],
-    [ "usart_get_flag", "usart_8h.html#gafb005f4e7635fbb379593ac0198032f3", null ],
-    [ "usart_get_interrupt_source", "usart_8h.html#ga761c6089dcd796e78f4f5ba495f7fc37", null ],
-    [ "usart_recv", "usart_8h.html#ga0f539661fcdc2e82c4489152393f5d74", null ],
+    [ "usart_get_flag", "usart_8h.html#afb005f4e7635fbb379593ac0198032f3", null ],
+    [ "usart_get_interrupt_source", "usart_8h.html#a761c6089dcd796e78f4f5ba495f7fc37", null ],
+    [ "usart_recv", "usart_8h.html#a28330e1568029bd30aefe59554f3d6ea", null ],
     [ "usart_recv_blocking", "usart_8h.html#ga8e0013f2829bfb8687e4a56973d56b57", null ],
     [ "usart_send", "usart_8h.html#a736a880afb2be864871b2836657831e9", null ],
     [ "usart_send_blocking", "usart_8h.html#a39e24880b0b9408aa3e0dc0a184de06b", null ],
@@ -201,6 +201,6 @@ var usart_8h =
     [ "usart_set_mode", "usart_8h.html#ga741d76be9dc09a2b3f544965ab0206cb", null ],
     [ "usart_set_parity", "usart_8h.html#ga5187a886145e91b6cb6a6fccb0e4246e", null ],
     [ "usart_set_stopbits", "usart_8h.html#gaaa411b6c22983d153a58e1a5fda9735d", null ],
-    [ "usart_wait_recv_ready", "usart_8h.html#ga4b3dd5bff30927f603d5acc433cc2073", null ],
-    [ "usart_wait_send_ready", "usart_8h.html#ga6d6df6e7a152e4d6e7c433a810403258", null ]
+    [ "usart_wait_recv_ready", "usart_8h.html#a4b3dd5bff30927f603d5acc433cc2073", null ],
+    [ "usart_wait_send_ready", "usart_8h.html#a6d6df6e7a152e4d6e7c433a810403258", null ]
 ];

@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__gpio__control.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -166,15 +166,15 @@ Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>The <a class="el" href="group__gpio__defines.html#gac7fe863cd889722d5e06916617b007b1">gpio_toggle()</a> operation is the only GPIO port operation which is not atomic. It involves a read-modify-write cycle.</dd></dl>
 <p>Suppose PA0, PA1, PA2, and PA3 are to be modified without affecting the other pins on port A. This is common when controlling, for example, a 4-bit bus: </p>
 <div class="fragment"><div class="line">*       <span class="comment">// Pins 4,5,6, and 7 are unaffected, regardless of the bits in val</span></div>
-<div class="line">*       <a class="code" href="group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865">gpio_write</a>(GPIOA, GPIO0 | GPIO1 | GPIO2 | GPIO3, val);</div>
+<div class="line">*       <a class="code" href="group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865">gpio_write</a>(<a class="code" href="group__gpio__reg__base.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__pin__id.html#ga20f88dbc839eb32b5fec903474befdd7">GPIO0</a> | <a class="code" href="group__gpio__pin__id.html#gabe59d3a7ce7a18e9440bd54cae1f3fc8">GPIO1</a> | <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gaf3cc04d651b622d5323d74dc2f0999a0">GPIO3</a>, val);</div>
 <div class="line">*       <span class="comment">// Wait a bit then send the other 4 bits</span></div>
 <div class="line">*       wait_a_bit();</div>
-<div class="line">*       <a class="code" href="group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865">gpio_write</a>(GPIOA, GPIO0 | GPIO1 | GPIO2 | GPIO3, val &gt;&gt; 4);</div>
+<div class="line">*       <a class="code" href="group__gpio__control.html#ga86b48f47f23889ffed56ab86c0605865">gpio_write</a>(<a class="code" href="group__gpio__reg__base.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__pin__id.html#ga20f88dbc839eb32b5fec903474befdd7">GPIO0</a> | <a class="code" href="group__gpio__pin__id.html#gabe59d3a7ce7a18e9440bd54cae1f3fc8">GPIO1</a> | <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gaf3cc04d651b622d5323d74dc2f0999a0">GPIO3</a>, val &gt;&gt; 4);</div>
 <div class="line">* </div>
 </div><!-- fragment --><p>Suppose a LED is connected to PD4, and we want to flash the LED for a brief period of time: </p>
-<div class="fragment"><div class="line">*       <a class="code" href="group__gpio__control.html#ga8ce0832cd5110fa7bbe0f6c968a04a09">gpio_set</a>(GPIOD, GPIO4);</div>
+<div class="fragment"><div class="line">*       <a class="code" href="group__gpio__control.html#ga8ce0832cd5110fa7bbe0f6c968a04a09">gpio_set</a>(<a class="code" href="group__gpio__reg__base.html#ga7580b1a929ea9df59725ba9c18eba6ac">GPIOD</a>, <a class="code" href="group__gpio__pin__id.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">GPIO4</a>);</div>
 <div class="line">*       wait_a_bit();</div>
-<div class="line">*       <a class="code" href="group__gpio__control.html#ga8ce0832cd5110fa7bbe0f6c968a04a09">gpio_set</a>(GPIOD, GPIO4);</div>
+<div class="line">*       <a class="code" href="group__gpio__control.html#ga8ce0832cd5110fa7bbe0f6c968a04a09">gpio_set</a>(<a class="code" href="group__gpio__reg__base.html#ga7580b1a929ea9df59725ba9c18eba6ac">GPIOD</a>, <a class="code" href="group__gpio__pin__id.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">GPIO4</a>);</div>
 <div class="line">* </div>
 </div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gaed9a0283ed78d8746f72a298889207f4"></a>
@@ -269,7 +269,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio_8h_source.html#l00314">314</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00249">gpio_read()</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00085">GPIO_ALL</a>, and <a class="el" href="gpio_8h_source.html#l00249">gpio_read()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -328,7 +328,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio_8h_source.html#l00333">333</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00269">gpio_write()</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00085">GPIO_ALL</a>, and <a class="el" href="gpio_8h_source.html#l00269">gpio_write()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -386,6 +386,8 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>The level of the GPIO port. The pins not specified in gpios are masked to zero. </dd></dl>
 
 <p>Definition at line <a class="el" href="gpio_8h_source.html#l00249">249</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00093">GPIO_DATA</a>.</p>
 
 <p>Referenced by <a class="el" href="gpio_8h_source.html#l00314">gpio_port_read()</a>.</p>
 
@@ -493,6 +495,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00441">441</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
+<p>References <a class="el" href="gpio_8h_source.html#l00085">GPIO_ALL</a>, and <a class="el" href="gpio_8h_source.html#l00093">GPIO_DATA</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga86b48f47f23889ffed56ab86c0605865"></a>
@@ -547,6 +551,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio_8h_source.html#l00269">269</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
+<p>References <a class="el" href="gpio_8h_source.html#l00093">GPIO_DATA</a>.</p>
+
 <p>Referenced by <a class="el" href="gpio_8h_source.html#l00298">gpio_clear()</a>, <a class="el" href="gpio_8h_source.html#l00333">gpio_port_write()</a>, and <a class="el" href="gpio_8h_source.html#l00284">gpio_set()</a>.</p>
 
 <p><div class="dynheader">
@@ -565,7 +571,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:58 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

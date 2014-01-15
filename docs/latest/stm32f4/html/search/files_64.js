@@ -8,9 +8,5 @@ var searchData=
   ['dma_2eh',['dma.h',['../dma_8h.html',1,'']]],
   ['dma_5fcommon_5ff24_2ec',['dma_common_f24.c',['../dma__common__f24_8c.html',1,'']]],
   ['dma_5fcommon_5ff24_2eh',['dma_common_f24.h',['../dma__common__f24_8h.html',1,'']]],
-  ['dma_5fcommon_5fl1f013_2ec',['dma_common_l1f013.c',['../dma__common__l1f013_8c.html',1,'']]],
-  ['dma_5fcommon_5fl1f013_2eh',['dma_common_l1f013.h',['../dma__common__l1f013_8h.html',1,'']]],
-  ['doc_2dcm3_2eh',['doc-cm3.h',['../../../cm3/html/doc-cm3_8h.html',1,'']]],
-  ['doc_2dstm32f4_2eh',['doc-stm32f4.h',['../doc-stm32f4_8h.html',1,'']]],
-  ['dwt_2eh',['dwt.h',['../../../cm3/html/dwt_8h.html',1,'']]]
+  ['doc_2dstm32f4_2eh',['doc-stm32f4.h',['../doc-stm32f4_8h.html',1,'']]]
 ];

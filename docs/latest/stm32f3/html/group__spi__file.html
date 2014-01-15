@@ -263,21 +263,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga010e94503b79a98060a9920fd8f50806"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spi__file.html#ga010e94503b79a98060a9920fd8f50806">spi_disable_rx_dma</a> (uint32_t spi)</td></tr>
 <tr class="memdesc:ga010e94503b79a98060a9920fd8f50806"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI Disable Receive Transfers via DMA.  <a href="#ga010e94503b79a98060a9920fd8f50806">More...</a><br/></td></tr>
 <tr class="separator:ga010e94503b79a98060a9920fd8f50806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa963b02acbae0939ec4537a8136873ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spi__file.html#gaa963b02acbae0939ec4537a8136873ed">spi_init_master</a> (uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)</td></tr>
-<tr class="memdesc:gaa963b02acbae0939ec4537a8136873ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the SPI as Master.  <a href="#gaa963b02acbae0939ec4537a8136873ed">More...</a><br/></td></tr>
-<tr class="separator:gaa963b02acbae0939ec4537a8136873ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga715bcb5541f2908d16a661b0a6a07014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spi__file.html#ga715bcb5541f2908d16a661b0a6a07014">spi_set_dff_8bit</a> (uint32_t spi)</td></tr>
-<tr class="memdesc:ga715bcb5541f2908d16a661b0a6a07014"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI Set Data Frame Format to 8 bits.  <a href="#ga715bcb5541f2908d16a661b0a6a07014">More...</a><br/></td></tr>
-<tr class="separator:ga715bcb5541f2908d16a661b0a6a07014"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6665731fd5d37e5dfb00f29f859e6c9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spi__file.html#ga6665731fd5d37e5dfb00f29f859e6c9c">spi_set_dff_16bit</a> (uint32_t spi)</td></tr>
-<tr class="memdesc:ga6665731fd5d37e5dfb00f29f859e6c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI Set Data Frame Format to 16 bits.  <a href="#ga6665731fd5d37e5dfb00f29f859e6c9c">More...</a><br/></td></tr>
-<tr class="separator:ga6665731fd5d37e5dfb00f29f859e6c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>libopencm3 STM32F3xx Serial Peripheral Interface</b> </p>
 <dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
 <dl class="section date"><dt>Date</dt><dd>11 July 2013</dd></dl>
-<p>LGPL License Terms <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
+<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2009 Uwe Hermann <a href="#" onclick="location.href='mai'+'lto:'+'uwe'+'@h'+'erm'+'an'+'n-u'+'we'+'.de'; return false;">uwe@h<span style="display: none;">.nosp@m.</span>erma<span style="display: none;">.nosp@m.</span>nn-uw<span style="display: none;">.nosp@m.</span>e.de</a> </dd>
 <dd>
  &copy;  2012 Ken Sarkies <a href="#" onclick="location.href='mai'+'lto:'+'ksa'+'rk'+'ies'+'@i'+'nte'+'rn'+'ode'+'.o'+'n.n'+'et'; return false;">ksark<span style="display: none;">.nosp@m.</span>ies@<span style="display: none;">.nosp@m.</span>inter<span style="display: none;">.nosp@m.</span>node<span style="display: none;">.nosp@m.</span>.on.n<span style="display: none;">.nosp@m.</span>et</a></dd></dl>
@@ -287,22 +278,7 @@ Functions</h2></td></tr>
 The I2S protocol shares the SPI hardware so the two protocols cannot be used at the same time on the same peripheral.</dd></dl>
 <p>Example: 1Mbps, positive clock polarity, leading edge trigger, 8-bit words, LSB first. </p>
 <div class="fragment"><div class="line"><a class="code" href="group__spi__defines.html#gaa963b02acbae0939ec4537a8136873ed">spi_init_master</a>(<a class="code" href="group__spi__reg__base.html#gad483be344a28ac800be8f03654a9612f">SPI1</a>, 1000000, <a class="code" href="group__spi__cpol.html#gabe9465e3d9df0c112c6deb7dd06f6e4d">SPI_CR1_CPOL_CLK_TO_0_WHEN_IDLE</a>,</div>
-<div class="line">                <a class="code" href="group__spi__cpha.html#ga2c04c3a2df2f98e5a0de589437c794e7">SPI_CR1_CPHA_CLK_TRANSITION_1</a>, <a class="code" href="group__spi__dff.html#ga7cb377132c9f09bb43ca27057655a760">SPI_CR1_DFF_8BIT</a>,</div>
-<div class="line">                <a class="code" href="group__spi__lsbfirst.html#gab929e9d5ddbb66f229c501ab18d0e6e8">SPI_CR1_LSBFIRST</a>);</div>
-<div class="line"><a class="code" href="group__spi__defines.html#ga6c3dfa86916c2c38d4a1957f4704bb47">spi_write</a>(<a class="code" href="group__spi__reg__base.html#gad483be344a28ac800be8f03654a9612f">SPI1</a>, 0x55);          <span class="comment">// 8-bit write</span></div>
-<div class="line"><a class="code" href="group__spi__defines.html#ga6c3dfa86916c2c38d4a1957f4704bb47">spi_write</a>(<a class="code" href="group__spi__reg__base.html#gad483be344a28ac800be8f03654a9612f">SPI1</a>, 0xaa88);        <span class="comment">// 16-bit write</span></div>
-<div class="line">reg8 = <a class="code" href="group__spi__defines.html#ga1bfe6bd4512dc398cb7f680feec01b20">spi_read</a>(<a class="code" href="group__spi__reg__base.html#gad483be344a28ac800be8f03654a9612f">SPI1</a>);          <span class="comment">// 8-bit read</span></div>
-<div class="line">reg16 = <a class="code" href="group__spi__defines.html#ga1bfe6bd4512dc398cb7f680feec01b20">spi_read</a>(<a class="code" href="group__spi__reg__base.html#gad483be344a28ac800be8f03654a9612f">SPI1</a>);         <span class="comment">// 16-bit read</span></div>
-</div><!-- fragment --><dl class="section author"><dt>Author</dt><dd> &copy;  2009 Uwe Hermann <a href="#" onclick="location.href='mai'+'lto:'+'uwe'+'@h'+'erm'+'an'+'n-u'+'we'+'.de'; return false;">uwe@h<span style="display: none;">.nosp@m.</span>erma<span style="display: none;">.nosp@m.</span>nn-uw<span style="display: none;">.nosp@m.</span>e.de</a> </dd>
-<dd>
- &copy;  2012 Ken Sarkies <a href="#" onclick="location.href='mai'+'lto:'+'ksa'+'rk'+'ies'+'@i'+'nte'+'rn'+'ode'+'.o'+'n.n'+'et'; return false;">ksark<span style="display: none;">.nosp@m.</span>ies@<span style="display: none;">.nosp@m.</span>inter<span style="display: none;">.nosp@m.</span>node<span style="display: none;">.nosp@m.</span>.on.n<span style="display: none;">.nosp@m.</span>et</a></dd></dl>
-<p>Devices can have up to three SPI peripherals. The common 4-wire full-duplex mode of operation is supported, along with 3-wire variants using unidirectional communication modes or half-duplex bidirectional communication. A variety of options allows many of the SPI variants to be supported. Multimaster operation is also supported. A CRC can be generated and checked in hardware.</p>
-<dl class="section note"><dt>Note</dt><dd>Some JTAG pins need to be remapped if SPI is to be used.</dd>
-<dd>
-The I2S protocol shares the SPI hardware so the two protocols cannot be used at the same time on the same peripheral.</dd></dl>
-<p>Example: 1Mbps, positive clock polarity, leading edge trigger, 8-bit words, LSB first. </p>
-<div class="fragment"><div class="line"><a class="code" href="group__spi__defines.html#gaa963b02acbae0939ec4537a8136873ed">spi_init_master</a>(<a class="code" href="group__spi__reg__base.html#gad483be344a28ac800be8f03654a9612f">SPI1</a>, 1000000, <a class="code" href="group__spi__cpol.html#gabe9465e3d9df0c112c6deb7dd06f6e4d">SPI_CR1_CPOL_CLK_TO_0_WHEN_IDLE</a>,</div>
-<div class="line">                <a class="code" href="group__spi__cpha.html#ga2c04c3a2df2f98e5a0de589437c794e7">SPI_CR1_CPHA_CLK_TRANSITION_1</a>, <a class="code" href="group__spi__dff.html#ga7cb377132c9f09bb43ca27057655a760">SPI_CR1_DFF_8BIT</a>,</div>
+<div class="line">                <a class="code" href="group__spi__cpha.html#ga2c04c3a2df2f98e5a0de589437c794e7">SPI_CR1_CPHA_CLK_TRANSITION_1</a>, SPI_CR1_DFF_8BIT,</div>
 <div class="line">                <a class="code" href="group__spi__lsbfirst.html#gab929e9d5ddbb66f229c501ab18d0e6e8">SPI_CR1_LSBFIRST</a>);</div>
 <div class="line"><a class="code" href="group__spi__defines.html#ga6c3dfa86916c2c38d4a1957f4704bb47">spi_write</a>(<a class="code" href="group__spi__reg__base.html#gad483be344a28ac800be8f03654a9612f">SPI1</a>, 0x55);          <span class="comment">// 8-bit write</span></div>
 <div class="line"><a class="code" href="group__spi__defines.html#ga6c3dfa86916c2c38d4a1957f4704bb47">spi_write</a>(<a class="code" href="group__spi__reg__base.html#gad483be344a28ac800be8f03654a9612f">SPI1</a>, 0xaa88);        <span class="comment">// 16-bit write</span></div>
@@ -335,7 +311,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00152">152</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, <a class="el" href="spi__common__all_8h_source.html#l00152">SPI_CR1_SPE</a>, <a class="el" href="spi__common__all_8h_source.html#l00076">SPI_DR</a>, <a class="el" href="spi__common__all_8h_source.html#l00070">SPI_SR</a>, <a class="el" href="spi__common__all_8h_source.html#l00239">SPI_SR_BSY</a>, <a class="el" href="spi__common__all_8h_source.html#l00264">SPI_SR_RXNE</a>, and <a class="el" href="spi__common__all_8h_source.html#l00261">SPI_SR_TXE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, <a class="el" href="spi__common__all_8h_source.html#l00151">SPI_CR1_SPE</a>, <a class="el" href="spi__common__all_8h_source.html#l00075">SPI_DR</a>, <a class="el" href="spi__common__all_8h_source.html#l00069">SPI_SR</a>, <a class="el" href="spi__common__all_8h_source.html#l00238">SPI_SR_BSY</a>, <a class="el" href="spi__common__all_8h_source.html#l00263">SPI_SR_RXNE</a>, and <a class="el" href="spi__common__all_8h_source.html#l00260">SPI_SR_TXE</a>.</p>
 
 </div>
 </div>
@@ -364,7 +340,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00132">132</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00152">SPI_CR1_SPE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00151">SPI_CR1_SPE</a>.</p>
 
 </div>
 </div>
@@ -392,7 +368,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00324">324</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00127">SPI_CR1_CRCEN</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00126">SPI_CR1_CRCEN</a>.</p>
 
 </div>
 </div>
@@ -420,7 +396,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00612">612</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00220">SPI_CR2_ERRIE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00219">SPI_CR2_ERRIE</a>.</p>
 
 </div>
 </div>
@@ -448,7 +424,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00590">590</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00217">SPI_CR2_RXNEIE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00216">SPI_CR2_RXNEIE</a>.</p>
 
 </div>
 </div>
@@ -476,7 +452,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00693">693</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00232">SPI_CR2_RXDMAEN</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00231">SPI_CR2_RXDMAEN</a>.</p>
 
 </div>
 </div>
@@ -505,7 +481,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00390">390</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00136">SPI_CR1_SSM</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00135">SPI_CR1_SSM</a>.</p>
 
 </div>
 </div>
@@ -534,7 +510,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00641">641</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00226">SPI_CR2_SSOE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00225">SPI_CR2_SSOE</a>.</p>
 
 </div>
 </div>
@@ -562,7 +538,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00568">568</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00214">SPI_CR2_TXEIE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00213">SPI_CR2_TXEIE</a>.</p>
 
 </div>
 </div>
@@ -590,7 +566,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00667">667</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00229">SPI_CR2_TXDMAEN</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00228">SPI_CR2_TXDMAEN</a>.</p>
 
 </div>
 </div>
@@ -619,7 +595,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00118">118</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00152">SPI_CR1_SPE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00151">SPI_CR1_SPE</a>.</p>
 
 </div>
 </div>
@@ -648,7 +624,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00313">313</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00127">SPI_CR1_CRCEN</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00126">SPI_CR1_CRCEN</a>.</p>
 
 </div>
 </div>
@@ -676,7 +652,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00601">601</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00220">SPI_CR2_ERRIE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00219">SPI_CR2_ERRIE</a>.</p>
 
 </div>
 </div>
@@ -704,7 +680,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00579">579</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00217">SPI_CR2_RXNEIE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00216">SPI_CR2_RXNEIE</a>.</p>
 
 </div>
 </div>
@@ -733,7 +709,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00682">682</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00232">SPI_CR2_RXDMAEN</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00231">SPI_CR2_RXDMAEN</a>.</p>
 
 </div>
 </div>
@@ -762,7 +738,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00404">404</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00136">SPI_CR1_SSM</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00135">SPI_CR1_SSM</a>.</p>
 
 </div>
 </div>
@@ -791,7 +767,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00626">626</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00226">SPI_CR2_SSOE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00225">SPI_CR2_SSOE</a>.</p>
 
 </div>
 </div>
@@ -819,7 +795,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00557">557</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00214">SPI_CR2_TXEIE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00213">SPI_CR2_TXEIE</a>.</p>
 
 </div>
 </div>
@@ -848,76 +824,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00656">656</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00064">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00229">SPI_CR2_TXDMAEN</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="gaa963b02acbae0939ec4537a8136873ed"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int spi_init_master </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>spi</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>br</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>cpol</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>cpha</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>dff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>lsbfirst</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Configure the SPI as Master. </p>
-<p>The SPI peripheral is configured as a master with communication parameters baudrate, data format 8/16 bits, frame format lsb/msb first, clock polarity and phase. The SPI enable, CRC enable and CRC next controls are not affected. These must be controlled separately.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">br</td><td>Unsigned int32. Baudrate <a class="el" href="group__spi__baudrate.html">SPI peripheral baud rates</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cpol</td><td>Unsigned int32. Clock polarity <a class="el" href="group__spi__cpol.html">SPI clock polarity</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cpha</td><td>Unsigned int32. Clock Phase <a class="el" href="group__spi__cpha.html">SPI clock phase</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dff</td><td>Unsigned int32. Data frame format 8/16 bits <a class="el" href="group__spi__dff.html">SPI data frame format</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">lsbfirst</td><td>Unsigned int32. Frame format lsb/msb first <a class="el" href="group__spi__lsbfirst.html">SPI lsb/msb first</a>. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int. Error code. </dd></dl>
-
-<p>Definition at line <a class="el" href="spi__common__l1f124_8c_source.html#l00092">92</a> of file <a class="el" href="spi__common__l1f124_8c_source.html">spi_common_l1f124.c</a>.</p>
-
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, <a class="el" href="spi__common__all_8h_source.html#l00127">SPI_CR1_CRCEN</a>, <a class="el" href="spi__common__all_8h_source.html#l00130">SPI_CR1_CRCNEXT</a>, <a class="el" href="spi__common__all_8h_source.html#l00185">SPI_CR1_MSTR</a>, and <a class="el" href="spi__common__all_8h_source.html#l00152">SPI_CR1_SPE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00063">SPI_CR2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00228">SPI_CR2_TXDMAEN</a>.</p>
 
 </div>
 </div>
@@ -947,7 +854,7 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00213">213</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00076">SPI_DR</a>, <a class="el" href="spi__common__all_8h_source.html#l00070">SPI_SR</a>, and <a class="el" href="spi__common__all_8h_source.html#l00264">SPI_SR_RXNE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00075">SPI_DR</a>, <a class="el" href="spi__common__all_8h_source.html#l00069">SPI_SR</a>, and <a class="el" href="spi__common__all_8h_source.html#l00263">SPI_SR_RXNE</a>.</p>
 
 </div>
 </div>
@@ -976,14 +883,14 @@ The I2S protocol shares the SPI hardware so the two protocols cannot be used at 
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00082">82</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8h_source.html#l00050">RCC_APB1RSTR</a>, <a class="el" href="rcc_8h_source.html#l00211">RCC_APB1RSTR_SPI2RST</a>, <a class="el" href="rcc_8h_source.html#l00210">RCC_APB1RSTR_SPI3RST</a>, <a class="el" href="rcc_8h_source.html#l00049">RCC_APB2RSTR</a>, <a class="el" href="rcc_8h_source.html#l00194">RCC_APB2RSTR_SPI1RST</a>, <a class="el" href="rcc__common__all_8c_source.html#l00102">rcc_peripheral_clear_reset()</a>, <a class="el" href="rcc__common__all_8c_source.html#l00081">rcc_peripheral_reset()</a>, <a class="el" href="spi__common__all_8h_source.html#l00049">SPI1</a>, <a class="el" href="spi__common__all_8h_source.html#l00050">SPI2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00051">SPI3</a>.</p>
+<p>References <a class="el" href="rcc_8h_source.html#l00063">RCC_APB1RSTR</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_APB1RSTR_SPI2RST</a>, <a class="el" href="rcc_8h_source.html#l00223">RCC_APB1RSTR_SPI3RST</a>, <a class="el" href="rcc_8h_source.html#l00062">RCC_APB2RSTR</a>, <a class="el" href="rcc_8h_source.html#l00207">RCC_APB2RSTR_SPI1RST</a>, <a class="el" href="rcc__common__all_8c_source.html#l00103">rcc_peripheral_clear_reset()</a>, <a class="el" href="rcc__common__all_8c_source.html#l00082">rcc_peripheral_reset()</a>, <a class="el" href="spi__common__all_8h_source.html#l00048">SPI1</a>, <a class="el" href="spi__common__all_8h_source.html#l00049">SPI2</a>, and <a class="el" href="spi__common__all_8h_source.html#l00050">SPI3</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__spi__file_gaae815897f2f548556dde9fa8ecb13058_cgraph.png" border="0" usemap="#group__spi__file_gaae815897f2f548556dde9fa8ecb13058_cgraph" alt=""/></div>
 <map name="group__spi__file_gaae815897f2f548556dde9fa8ecb13058_cgraph" id="group__spi__file_gaae815897f2f548556dde9fa8ecb13058_cgraph">
-<area shape="rect" id="node3" href="rcc__common__all_8h.html#abb1b312c6db8db25447460742dcdb566" title="RCC Remove Reset on Peripherals. " alt="" coords="128,5,267,59"/><area shape="rect" id="node5" href="rcc__common__all_8h.html#a3779f1460275e6788f706c61d7f77205" title="RCC Reset Peripherals. " alt="" coords="128,82,267,115"/></map>
+<area shape="rect" id="node3" href="group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566" title="RCC Remove Reset on Peripherals. " alt="" coords="128,5,267,59"/><area shape="rect" id="node5" href="group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205" title="RCC Reset Peripherals. " alt="" coords="128,82,267,115"/></map>
 </div>
 </p>
 
@@ -1025,7 +932,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00195">195</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00076">SPI_DR</a>, <a class="el" href="spi__common__all_8h_source.html#l00070">SPI_SR</a>, and <a class="el" href="spi__common__all_8h_source.html#l00261">SPI_SR_TXE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00075">SPI_DR</a>, <a class="el" href="spi__common__all_8h_source.html#l00069">SPI_SR</a>, and <a class="el" href="spi__common__all_8h_source.html#l00260">SPI_SR_TXE</a>.</p>
 
 </div>
 </div>
@@ -1053,7 +960,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00446">446</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00148">SPI_CR1_LSBFIRST</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00147">SPI_CR1_LSBFIRST</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +988,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00457">457</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00148">SPI_CR1_LSBFIRST</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00147">SPI_CR1_LSBFIRST</a>.</p>
 
 </div>
 </div>
@@ -1120,7 +1027,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00472">472</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>.</p>
 
 </div>
 </div>
@@ -1149,7 +1056,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00253">253</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00121">SPI_CR1_BIDIMODE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00120">SPI_CR1_BIDIMODE</a>.</p>
 
 </div>
 </div>
@@ -1178,7 +1085,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00283">283</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, <a class="el" href="spi__common__all_8h_source.html#l00121">SPI_CR1_BIDIMODE</a>, and <a class="el" href="spi__common__all_8h_source.html#l00124">SPI_CR1_BIDIOE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, <a class="el" href="spi__common__all_8h_source.html#l00120">SPI_CR1_BIDIMODE</a>, and <a class="el" href="spi__common__all_8h_source.html#l00123">SPI_CR1_BIDIOE</a>.</p>
 
 </div>
 </div>
@@ -1207,7 +1114,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00299">299</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, <a class="el" href="spi__common__all_8h_source.html#l00121">SPI_CR1_BIDIMODE</a>, and <a class="el" href="spi__common__all_8h_source.html#l00124">SPI_CR1_BIDIOE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, <a class="el" href="spi__common__all_8h_source.html#l00120">SPI_CR1_BIDIMODE</a>, and <a class="el" href="spi__common__all_8h_source.html#l00123">SPI_CR1_BIDIOE</a>.</p>
 
 </div>
 </div>
@@ -1235,7 +1142,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00546">546</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00207">SPI_CR1_CPHA</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00206">SPI_CR1_CPHA</a>.</p>
 
 </div>
 </div>
@@ -1263,7 +1170,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00535">535</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00207">SPI_CR1_CPHA</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00206">SPI_CR1_CPHA</a>.</p>
 
 </div>
 </div>
@@ -1291,7 +1198,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00524">524</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00196">SPI_CR1_CPOL</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00195">SPI_CR1_CPOL</a>.</p>
 
 </div>
 </div>
@@ -1319,63 +1226,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00513">513</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00196">SPI_CR1_CPOL</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga6665731fd5d37e5dfb00f29f859e6c9c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void spi_set_dff_16bit </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>spi</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>SPI Set Data Frame Format to 16 bits. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="spi__common__l1f124_8c_source.html#l00132">132</a> of file <a class="el" href="spi__common__l1f124_8c_source.html">spi_common_l1f124.c</a>.</p>
-
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__l1f124_8h_source.html#l00056">SPI_CR1_DFF</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga715bcb5541f2908d16a661b0a6a07014"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void spi_set_dff_8bit </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>spi</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>SPI Set Data Frame Format to 8 bits. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">spi</td><td>Unsigned int32. SPI peripheral identifier <a class="el" href="group__spi__reg__base.html">SPI Register base address</a>. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="spi__common__l1f124_8c_source.html#l00121">121</a> of file <a class="el" href="spi__common__l1f124_8c_source.html">spi_common_l1f124.c</a>.</p>
-
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__l1f124_8h_source.html#l00056">SPI_CR1_DFF</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00195">SPI_CR1_CPOL</a>.</p>
 
 </div>
 </div>
@@ -1403,7 +1254,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00365">365</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00133">SPI_CR1_RXONLY</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00132">SPI_CR1_RXONLY</a>.</p>
 
 </div>
 </div>
@@ -1431,7 +1282,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00491">491</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00185">SPI_CR1_MSTR</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00184">SPI_CR1_MSTR</a>.</p>
 
 </div>
 </div>
@@ -1460,7 +1311,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00339">339</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00130">SPI_CR1_CRCNEXT</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00129">SPI_CR1_CRCNEXT</a>.</p>
 
 </div>
 </div>
@@ -1489,7 +1340,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00354">354</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00130">SPI_CR1_CRCNEXT</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00129">SPI_CR1_CRCNEXT</a>.</p>
 
 </div>
 </div>
@@ -1518,7 +1369,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00421">421</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00139">SPI_CR1_SSI</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00138">SPI_CR1_SSI</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1398,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00435">435</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00139">SPI_CR1_SSI</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00138">SPI_CR1_SSI</a>.</p>
 
 </div>
 </div>
@@ -1575,7 +1426,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00377">377</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00133">SPI_CR1_RXONLY</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00132">SPI_CR1_RXONLY</a>.</p>
 
 </div>
 </div>
@@ -1603,7 +1454,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00502">502</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00185">SPI_CR1_MSTR</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00184">SPI_CR1_MSTR</a>.</p>
 
 </div>
 </div>
@@ -1632,7 +1483,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00268">268</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00058">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00121">SPI_CR1_BIDIMODE</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00057">SPI_CR1</a>, and <a class="el" href="spi__common__all_8h_source.html#l00120">SPI_CR1_BIDIMODE</a>.</p>
 
 </div>
 </div>
@@ -1672,7 +1523,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00179">179</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00076">SPI_DR</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00075">SPI_DR</a>.</p>
 
 <p>Referenced by <a class="el" href="spi__common__all_8c_source.html#l00233">spi_xfer()</a>.</p>
 
@@ -1724,7 +1575,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="spi__common__all_8c_source.html#l00233">233</a> of file <a class="el" href="spi__common__all_8c_source.html">spi_common_all.c</a>.</p>
 
-<p>References <a class="el" href="spi__common__all_8h_source.html#l00076">SPI_DR</a>, <a class="el" href="spi__common__all_8h_source.html#l00070">SPI_SR</a>, <a class="el" href="spi__common__all_8h_source.html#l00264">SPI_SR_RXNE</a>, and <a class="el" href="spi__common__all_8c_source.html#l00179">spi_write()</a>.</p>
+<p>References <a class="el" href="spi__common__all_8h_source.html#l00075">SPI_DR</a>, <a class="el" href="spi__common__all_8h_source.html#l00069">SPI_SR</a>, <a class="el" href="spi__common__all_8h_source.html#l00263">SPI_SR_RXNE</a>, and <a class="el" href="spi__common__all_8c_source.html#l00179">spi_write()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1742,7 +1593,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:39 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:56 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

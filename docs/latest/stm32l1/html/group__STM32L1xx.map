@@ -1,10 +1,10 @@
 <map id="STM32L1xx" name="STM32L1xx">
-<area shape="rect" id="node1" href="$group__pwr-file.html" title="libopencm3 STM32L1xx Power Control " alt="" coords="155,5,208,38"/>
-<area shape="rect" id="node2" href="$group__gpio__file.html" title="libopencm3 STM32L1xx General Purpose I/O " alt="" coords="155,61,208,94"/>
-<area shape="rect" id="node3" href="$group__dac__file.html" title="libopencm3 STM32L1xx DAC " alt="" coords="156,117,207,150"/>
-<area shape="rect" id="node4" href="$group__usart__file.html" title="libopencm3 STM32L1xx USART " alt="" coords="148,173,215,206"/>
-<area shape="rect" id="node5" href="$group__iwdg__file.html" title="libopencm3 STM32L1xx Independent Watchdog Timer " alt="" coords="152,229,211,262"/>
-<area shape="rect" id="node6" href="$group__dma__file.html" title="libopencm3 STM32L1xx DMA " alt="" coords="156,285,207,318"/>
+<area shape="rect" id="node1" href="$group__gpio__file.html" title="libopencm3 STM32L1xx General Purpose I/O " alt="" coords="155,5,208,38"/>
+<area shape="rect" id="node2" href="$group__dac__file.html" title="libopencm3 STM32L1xx DAC " alt="" coords="156,61,207,94"/>
+<area shape="rect" id="node3" href="$group__usart__file.html" title="libopencm3 STM32L1xx USART " alt="" coords="148,117,215,150"/>
+<area shape="rect" id="node4" href="$group__iwdg__file.html" title="libopencm3 STM32L1xx Independent Watchdog Timer " alt="" coords="152,173,211,206"/>
+<area shape="rect" id="node5" href="$group__dma__file.html" title="libopencm3 STM32L1xx DMA " alt="" coords="156,229,207,262"/>
+<area shape="rect" id="node6" href="$group__pwr__file.html" title="libopencm3 STM32L1xx Power Control " alt="" coords="155,285,208,318"/>
 <area shape="rect" id="node7" href="$group__rtc__file.html" title="libopencm3 STM32L1xx RTC " alt="" coords="157,341,205,374"/>
 <area shape="rect" id="node8" href="$group__spi__file.html" title="libopencm3 STM32L1xx SPI " alt="" coords="160,397,203,430"/>
 <area shape="rect" id="node9" href="$group__crc__file.html" title="libopencm3 STM32L1xx CRC " alt="" coords="156,453,207,486"/>

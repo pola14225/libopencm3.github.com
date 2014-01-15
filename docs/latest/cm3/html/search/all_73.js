@@ -148,6 +148,7 @@ var searchData=
   ['sys_5ftick_5fhandler',['sys_tick_handler',['../group__CM3__nvic__defines.html#gae71d437809f2932d8f4e2e993732497d',1,'nvic.h']]],
   ['systick',['systick',['../structvector__table__t.html#acf9d4ecb17d3ebecbcbd24966c18102f',1,'vector_table_t']]],
   ['systick_2eh',['systick.h',['../systick_8h.html',1,'']]],
+  ['systick_5fclear',['systick_clear',['../group__CM3__systick__defines.html#ga2604630453d0b6b35601375d0ee7e4a0',1,'systick.h']]],
   ['systick_5fcounter_5fdisable',['systick_counter_disable',['../group__CM3__systick__defines.html#gac5d5225b9b6c96d9f1c3f2950717dcf4',1,'systick.h']]],
   ['systick_5fcounter_5fenable',['systick_counter_enable',['../group__CM3__systick__defines.html#gad1b556d07d6f0e3c0e55dc269e30a98a',1,'systick.h']]],
   ['systick_5fget_5fcalib',['systick_get_calib',['../group__CM3__systick__defines.html#ga4351bcd52c07a23b5b999b062c123084',1,'systick.h']]],

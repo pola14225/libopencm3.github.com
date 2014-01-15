@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['memory_5fmanage_5ffault',['memory_manage_fault',['../../../cm3/html/structvector__table__t.html#a0f471d2e9ba10298c9a292dbf59aafde',1,'vector_table_t']]],
-  ['memorymap_2eh',['memorymap.h',['../memorymap_8h.html',1,'(Global Namespace)'],['../../../cm3/html/memorymap_8h.html',1,'(Global Namespace)']]],
-  ['mpu_2eh',['mpu.h',['../../../cm3/html/mpu_8h.html',1,'']]]
+  ['max_5ffifo_5fram',['MAX_FIFO_RAM',['../group__usb__file.html#gad5f9b20acf4cf9b527ae4463b4940971',1,'usb_lm4f.c']]],
+  ['memorymap_2eh',['memorymap.h',['../memorymap_8h.html',1,'']]]
 ];

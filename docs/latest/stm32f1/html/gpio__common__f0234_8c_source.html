@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('gpio__common__f0234_8c_source.html',''
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('gpio__common__f0234_8c_source.html',''
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">             If multiple pins are to be set, use bitwise OR &#39;|&#39; to separate</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">             them.</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="group__gpio__file.html#ga733d745a0b6840f22b516979ce7a92c9">   89</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a>(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down,</div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="group__gpio__file.html#ga733d745a0b6840f22b516979ce7a92c9">   89</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a>(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down,</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                     uint16_t gpios)</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;{</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        uint16_t i;</div>
@@ -221,23 +221,23 @@ $(document).ready(function(){initNavTree('gpio__common__f0234_8c_source.html',''
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">         * We want to set the config only for the pins mentioned in gpios,</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">         * but keeping the others, so read out the actual config first.</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        moder = <a class="code" href="group__gpio__defines.html#ga195c3bc236697df00c95ce4d48fa0c99">GPIO_MODER</a>(gpioport);</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        pupd = <a class="code" href="group__gpio__defines.html#ga3f21afe95af40c42718810c7fe36edd4">GPIO_PUPDR</a>(gpioport);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        moder = GPIO_MODER(gpioport);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        pupd = GPIO_PUPDR(gpioport);</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; 16; i++) {</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                <span class="keywordflow">if</span> (!((1 &lt;&lt; i) &amp; gpios)) {</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                        <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                }</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                moder &amp;= ~<a class="code" href="group__gpio__defines.html#ga2feba6285ccd987896fe1bba82990add">GPIO_MODE_MASK</a>(i);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                moder |= <a class="code" href="group__gpio__defines.html#gabcdf6bf699d1ed7ecdb990cc20ea97dc">GPIO_MODE</a>(i, mode);</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                pupd &amp;= ~<a class="code" href="group__gpio__defines.html#gaf9a01750c2af4c3780787449f3377d79">GPIO_PUPD_MASK</a>(i);</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                pupd |= <a class="code" href="group__gpio__defines.html#ga266965efec2c9d607943c8b0c94e07b9">GPIO_PUPD</a>(i, pull_up_down);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                moder &amp;= ~GPIO_MODE_MASK(i);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                moder |= GPIO_MODE(i, mode);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                pupd &amp;= ~GPIO_PUPD_MASK(i);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                pupd |= GPIO_PUPD(i, pull_up_down);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        }</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="comment">/* Set mode and pull up/down control registers. */</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="group__gpio__defines.html#ga195c3bc236697df00c95ce4d48fa0c99">GPIO_MODER</a>(gpioport) = moder;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="group__gpio__defines.html#ga3f21afe95af40c42718810c7fe36edd4">GPIO_PUPDR</a>(gpioport) = pupd;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        GPIO_MODER(gpioport) = moder;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        GPIO_PUPDR(gpioport) = pupd;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -254,29 +254,29 @@ $(document).ready(function(){initNavTree('gpio__common__f0234_8c_source.html',''
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment">             If multiple pins are to be set, use bitwise OR &#39;|&#39; to separate</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment">             them.</span></div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="group__gpio__file.html#gab05e7f5b963f49c7442a69e5999f9319">  132</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gab05e7f5b963f49c7442a69e5999f9319">gpio_set_output_options</a>(uint32_t gpioport, uint8_t otype, uint8_t speed,</div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="group__gpio__file.html#gab05e7f5b963f49c7442a69e5999f9319">  132</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#gab05e7f5b963f49c7442a69e5999f9319">gpio_set_output_options</a>(uint32_t gpioport, uint8_t otype, uint8_t speed,</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                             uint16_t gpios)</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        uint16_t i;</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        uint32_t ospeedr;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">if</span> (otype == 0x1) {</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                <a class="code" href="group__gpio__defines.html#ga6593216a84b6e7ff49b40a03c7cd8415">GPIO_OTYPER</a>(gpioport) |= gpios;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                GPIO_OTYPER(gpioport) |= gpios;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                <a class="code" href="group__gpio__defines.html#ga6593216a84b6e7ff49b40a03c7cd8415">GPIO_OTYPER</a>(gpioport) &amp;= ~gpios;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                GPIO_OTYPER(gpioport) &amp;= ~gpios;</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        }</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        ospeedr = <a class="code" href="group__gpio__defines.html#gaf758e94d5da9ad767e177a6e8282cc2d">GPIO_OSPEEDR</a>(gpioport);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        ospeedr = GPIO_OSPEEDR(gpioport);</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; 16; i++) {</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                <span class="keywordflow">if</span> (!((1 &lt;&lt; i) &amp; gpios)) {</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                        <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                }</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                ospeedr &amp;= ~<a class="code" href="group__gpio__defines.html#gae9fabfe2cf725c75240d7c7c14c6e995">GPIO_OSPEED_MASK</a>(i);</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                ospeedr |= <a class="code" href="group__gpio__defines.html#gace95963eed66db5185437b6f8c52360e">GPIO_OSPEED</a>(i, speed);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                ospeedr &amp;= ~GPIO_OSPEED_MASK(i);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                ospeedr |= GPIO_OSPEED(i, speed);</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        }</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <a class="code" href="group__gpio__defines.html#gaf758e94d5da9ad767e177a6e8282cc2d">GPIO_OSPEEDR</a>(gpioport) = ospeedr;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        GPIO_OSPEEDR(gpioport) = ospeedr;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;}</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -300,59 +300,45 @@ $(document).ready(function(){initNavTree('gpio__common__f0234_8c_source.html',''
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment">             If multiple pins are to be set, use bitwise OR &#39;|&#39; to separate</span></div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment">             them.</span></div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="group__gpio__file.html#ga2937f803468b3440302fae213c4c3c14">  178</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga2937f803468b3440302fae213c4c3c14">gpio_set_af</a>(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</div>
+<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="group__gpio__file.html#ga2937f803468b3440302fae213c4c3c14">  178</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga2937f803468b3440302fae213c4c3c14">gpio_set_af</a>(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;{</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        uint16_t i;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        uint32_t afrl, afrh;</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        afrl = <a class="code" href="group__gpio__defines.html#ga220778dae242f3d90e425c2c7a32fe9b">GPIO_AFRL</a>(gpioport);</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        afrh = <a class="code" href="group__gpio__defines.html#ga0165c7e5dacfd64c4223ede13f3f49e8">GPIO_AFRH</a>(gpioport);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        afrl = GPIO_AFRL(gpioport);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        afrh = GPIO_AFRH(gpioport);</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; 8; i++) {</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                <span class="keywordflow">if</span> (!((1 &lt;&lt; i) &amp; gpios)) {</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                        <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                }</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                afrl &amp;= ~<a class="code" href="group__gpio__defines.html#ga29a8e26664ee706e77f21d2ede4fd31a">GPIO_AFR_MASK</a>(i);</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                afrl |= <a class="code" href="group__gpio__defines.html#gaec03a89a1fbf7609e860c0ae43a216d6">GPIO_AFR</a>(i, alt_func_num);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                afrl &amp;= ~GPIO_AFR_MASK(i);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                afrl |= GPIO_AFR(i, alt_func_num);</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        }</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordflow">for</span> (i = 8; i &lt; 16; i++) {</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                <span class="keywordflow">if</span> (!((1 &lt;&lt; i) &amp; gpios)) {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                        <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                }</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                afrh &amp;= ~<a class="code" href="group__gpio__defines.html#ga29a8e26664ee706e77f21d2ede4fd31a">GPIO_AFR_MASK</a>(i - 8);</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                afrh |= <a class="code" href="group__gpio__defines.html#gaec03a89a1fbf7609e860c0ae43a216d6">GPIO_AFR</a>(i - 8, alt_func_num);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                afrh &amp;= ~GPIO_AFR_MASK(i - 8);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                afrh |= GPIO_AFR(i - 8, alt_func_num);</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        }</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <a class="code" href="group__gpio__defines.html#ga220778dae242f3d90e425c2c7a32fe9b">GPIO_AFRL</a>(gpioport) = afrl;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <a class="code" href="group__gpio__defines.html#ga0165c7e5dacfd64c4223ede13f3f49e8">GPIO_AFRH</a>(gpioport) = afrh;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        GPIO_AFRL(gpioport) = afrl;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        GPIO_AFRH(gpioport) = afrh;</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}<span class="comment"></span></div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="comment">/**@}*/</span></div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
-<div class="ttc" id="group__gpio__defines_html_ga220778dae242f3d90e425c2c7a32fe9b"><div class="ttname"><a href="group__gpio__defines.html#ga220778dae242f3d90e425c2c7a32fe9b">GPIO_AFRL</a></div><div class="ttdeci">#define GPIO_AFRL(port)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00132">gpio_common_f234.h:132</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_ga2937f803468b3440302fae213c4c3c14"><div class="ttname"><a href="group__gpio__defines.html#ga2937f803468b3440302fae213c4c3c14">gpio_set_af</a></div><div class="ttdeci">void gpio_set_af(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</div><div class="ttdoc">Set GPIO Alternate Function Selection. </div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f0234_8c_source.html#l00178">gpio_common_f0234.c:178</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_ga29a8e26664ee706e77f21d2ede4fd31a"><div class="ttname"><a href="group__gpio__defines.html#ga29a8e26664ee706e77f21d2ede4fd31a">GPIO_AFR_MASK</a></div><div class="ttdeci">#define GPIO_AFR_MASK(n)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00222">gpio_common_f234.h:222</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_gae9fabfe2cf725c75240d7c7c14c6e995"><div class="ttname"><a href="group__gpio__defines.html#gae9fabfe2cf725c75240d7c7c14c6e995">GPIO_OSPEED_MASK</a></div><div class="ttdeci">#define GPIO_OSPEED_MASK(n)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00176">gpio_common_f234.h:176</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_gaf9a01750c2af4c3780787449f3377d79"><div class="ttname"><a href="group__gpio__defines.html#gaf9a01750c2af4c3780787449f3377d79">GPIO_PUPD_MASK</a></div><div class="ttdeci">#define GPIO_PUPD_MASK(n)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00189">gpio_common_f234.h:189</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_gab05e7f5b963f49c7442a69e5999f9319"><div class="ttname"><a href="group__gpio__defines.html#gab05e7f5b963f49c7442a69e5999f9319">gpio_set_output_options</a></div><div class="ttdeci">void gpio_set_output_options(uint32_t gpioport, uint8_t otype, uint8_t speed, uint16_t gpios)</div><div class="ttdoc">Set GPIO Output Options. </div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f0234_8c_source.html#l00132">gpio_common_f0234.c:132</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_gaec03a89a1fbf7609e860c0ae43a216d6"><div class="ttname"><a href="group__gpio__defines.html#gaec03a89a1fbf7609e860c0ae43a216d6">GPIO_AFR</a></div><div class="ttdeci">#define GPIO_AFR(n, af)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00221">gpio_common_f234.h:221</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_gaf758e94d5da9ad767e177a6e8282cc2d"><div class="ttname"><a href="group__gpio__defines.html#gaf758e94d5da9ad767e177a6e8282cc2d">GPIO_OSPEEDR</a></div><div class="ttdeci">#define GPIO_OSPEEDR(port)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00078">gpio_common_f234.h:78</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_ga0165c7e5dacfd64c4223ede13f3f49e8"><div class="ttname"><a href="group__gpio__defines.html#ga0165c7e5dacfd64c4223ede13f3f49e8">GPIO_AFRH</a></div><div class="ttdeci">#define GPIO_AFRH(port)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00141">gpio_common_f234.h:141</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_ga195c3bc236697df00c95ce4d48fa0c99"><div class="ttname"><a href="group__gpio__defines.html#ga195c3bc236697df00c95ce4d48fa0c99">GPIO_MODER</a></div><div class="ttdeci">#define GPIO_MODER(port)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00060">gpio_common_f234.h:60</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_ga2feba6285ccd987896fe1bba82990add"><div class="ttname"><a href="group__gpio__defines.html#ga2feba6285ccd987896fe1bba82990add">GPIO_MODE_MASK</a></div><div class="ttdeci">#define GPIO_MODE_MASK(n)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00152">gpio_common_f234.h:152</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_ga3f21afe95af40c42718810c7fe36edd4"><div class="ttname"><a href="group__gpio__defines.html#ga3f21afe95af40c42718810c7fe36edd4">GPIO_PUPDR</a></div><div class="ttdeci">#define GPIO_PUPDR(port)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00087">gpio_common_f234.h:87</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_ga733d745a0b6840f22b516979ce7a92c9"><div class="ttname"><a href="group__gpio__defines.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a></div><div class="ttdeci">void gpio_mode_setup(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down, uint16_t gpios)</div><div class="ttdoc">Set GPIO Pin Mode. </div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f0234_8c_source.html#l00089">gpio_common_f0234.c:89</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_ga266965efec2c9d607943c8b0c94e07b9"><div class="ttname"><a href="group__gpio__defines.html#ga266965efec2c9d607943c8b0c94e07b9">GPIO_PUPD</a></div><div class="ttdeci">#define GPIO_PUPD(n, pupd)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00188">gpio_common_f234.h:188</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_gace95963eed66db5185437b6f8c52360e"><div class="ttname"><a href="group__gpio__defines.html#gace95963eed66db5185437b6f8c52360e">GPIO_OSPEED</a></div><div class="ttdeci">#define GPIO_OSPEED(n, speed)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00175">gpio_common_f234.h:175</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_ga6593216a84b6e7ff49b40a03c7cd8415"><div class="ttname"><a href="group__gpio__defines.html#ga6593216a84b6e7ff49b40a03c7cd8415">GPIO_OTYPER</a></div><div class="ttdeci">#define GPIO_OTYPER(port)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00069">gpio_common_f234.h:69</a></div></div>
-<div class="ttc" id="group__gpio__defines_html_gabcdf6bf699d1ed7ecdb990cc20ea97dc"><div class="ttname"><a href="group__gpio__defines.html#gabcdf6bf699d1ed7ecdb990cc20ea97dc">GPIO_MODE</a></div><div class="ttdeci">#define GPIO_MODE(n, mode)</div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f234_8h_source.html#l00151">gpio_common_f234.h:151</a></div></div>
+<div class="ttc" id="group__gpio__file_html_ga733d745a0b6840f22b516979ce7a92c9"><div class="ttname"><a href="group__gpio__file.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a></div><div class="ttdeci">void gpio_mode_setup(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down, uint16_t gpios)</div><div class="ttdoc">Set GPIO Pin Mode. </div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f0234_8c_source.html#l00089">gpio_common_f0234.c:89</a></div></div>
+<div class="ttc" id="group__gpio__file_html_ga2937f803468b3440302fae213c4c3c14"><div class="ttname"><a href="group__gpio__file.html#ga2937f803468b3440302fae213c4c3c14">gpio_set_af</a></div><div class="ttdeci">void gpio_set_af(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</div><div class="ttdoc">Set GPIO Alternate Function Selection. </div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f0234_8c_source.html#l00178">gpio_common_f0234.c:178</a></div></div>
+<div class="ttc" id="group__gpio__file_html_gab05e7f5b963f49c7442a69e5999f9319"><div class="ttname"><a href="group__gpio__file.html#gab05e7f5b963f49c7442a69e5999f9319">gpio_set_output_options</a></div><div class="ttdeci">void gpio_set_output_options(uint32_t gpioport, uint8_t otype, uint8_t speed, uint16_t gpios)</div><div class="ttdoc">Set GPIO Output Options. </div><div class="ttdef"><b>Definition:</b> <a href="gpio__common__f0234_8c_source.html#l00132">gpio_common_f0234.c:132</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="gpio__common__f0234_8c.html">gpio_common_f0234.c</a></li>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:18 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:36 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

@@ -487,7 +487,5 @@ var searchData=
   ['alternate_20function_20remap_20controls_20for_20timer_202',['Alternate Function Remap Controls for Timer 2',['../group__afio__remap__tim2.html',1,'']]],
   ['alternate_20function_20remap_20controls_20for_20timer_203',['Alternate Function Remap Controls for Timer 3',['../group__afio__remap__tim3.html',1,'']]],
   ['alternate_20function_20remap_20controls_20for_20usart_203',['Alternate Function Remap Controls for USART 3',['../group__afio__remap__usart3.html',1,'']]],
-  ['assert_2eh',['assert.h',['../../../cm3/html/assert_8h.html',1,'']]],
-  ['alternate_20function_20pin_20selection',['Alternate Function Pin Selection',['../group__gpio__af__num.html',1,'']]],
   ['adc',['ADC',['../group__STM32F1xx__adc__file.html',1,'']]]
 ];

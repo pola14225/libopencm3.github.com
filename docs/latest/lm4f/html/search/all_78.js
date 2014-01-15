@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['xpsr',['xpsr',['../../../cm3/html/structscb__exception__stack__frame.html#a2e6e69032909f740145d93bac2fec49b',1,'scb_exception_stack_frame']]],
   ['xtal_5f10m',['XTAL_10M',['../group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9ac5ae1bca5c59cb91d93b693d123e7507',1,'rcc.h']]],
   ['xtal_5f12m',['XTAL_12M',['../group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a9ffa2eea00a874b497e48f28c9760920',1,'rcc.h']]],
   ['xtal_5f12m_5f288',['XTAL_12M_288',['../group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9abb413dfd67aec6c42a74a4344371dedc',1,'rcc.h']]],

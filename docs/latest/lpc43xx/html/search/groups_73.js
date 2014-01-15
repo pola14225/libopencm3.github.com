@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['systick_20defines',['SysTick Defines',['../../../cm3/html/group__CM3__systick__defines.html',1,'']]],
   ['system_20control_20unit_20defines',['System Control Unit Defines',['../group__scu__defines.html',1,'']]],
   ['system_20control_20unit',['System Control Unit',['../group__scu__file.html',1,'']]],
   ['sdio',['SDIO',['../group__sdio__defines.html',1,'']]],

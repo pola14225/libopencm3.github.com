@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('rtc_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('rtc_8h.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;libopencm3/stm32/memorymap.h&gt;</code><br/>
-<code>#include &lt;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</code><br/>
+<code>#include &lt;libopencm3/cm3/common.h&gt;</code><br/>
 <code>#include &lt;libopencm3/stm32/pwr.h&gt;</code><br/>
 <code>#include &lt;<a class="el" href="rcc_8h_source.html">libopencm3/stm32/f1/rcc.h</a>&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
@@ -136,919 +136,104 @@ Include dependency graph for rtc.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="rtc_8h__incl.png" border="0" usemap="#rtc_8h" alt=""/></div>
 <map name="rtc_8h" id="rtc_8h">
-<area shape="rect" id="node5" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html" title="libopencm3/cm3/common.h" alt="" coords="448,203,629,237"/><area shape="rect" id="node9" href="rcc_8h.html" title="libopencm3/stm32/f1\l/rcc.h" alt="" coords="263,89,404,143"/><area shape="rect" id="node13" href="rcc__common__all_8h.html" title="libopencm3/stm32/common\l/rcc_common_all.h" alt="" coords="243,193,424,247"/></map>
+<area shape="rect" id="node9" href="rcc_8h.html" title="libopencm3/stm32/f1\l/rcc.h" alt="" coords="263,89,404,143"/><area shape="rect" id="node13" href="rcc__common__all_8h.html" title="libopencm3/stm32/common\l/rcc_common_all.h" alt="" coords="243,193,424,247"/></map>
 </div>
 </div>
 <p><a href="rtc_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a008b590fea16c935859095b25a345d01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a008b590fea16c935859095b25a345d01">RTC_CRH</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x00)</td></tr>
-<tr class="separator:a008b590fea16c935859095b25a345d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aa62269ca0c46d1a4ad61012dbc85f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a6aa62269ca0c46d1a4ad61012dbc85f8">RTC_CRL</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x04)</td></tr>
-<tr class="separator:a6aa62269ca0c46d1a4ad61012dbc85f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e6c6cf0e85154b9c4cac63f97c9c4a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a2e6c6cf0e85154b9c4cac63f97c9c4a1">RTC_PRLH</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x08)</td></tr>
-<tr class="separator:a2e6c6cf0e85154b9c4cac63f97c9c4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8725f1dec73b230670ab0ac61d50adce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a8725f1dec73b230670ab0ac61d50adce">RTC_PRLL</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x0c)</td></tr>
-<tr class="separator:a8725f1dec73b230670ab0ac61d50adce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f6a2e4c8f99d82df195f6e1d1102c63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a1f6a2e4c8f99d82df195f6e1d1102c63">RTC_DIVH</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x10)</td></tr>
-<tr class="separator:a1f6a2e4c8f99d82df195f6e1d1102c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9ee3aacf2681dc3a8d29d3343855002"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#ae9ee3aacf2681dc3a8d29d3343855002">RTC_DIVL</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x14)</td></tr>
-<tr class="separator:ae9ee3aacf2681dc3a8d29d3343855002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addbf6619200b52bd4c2849895bf48724"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#addbf6619200b52bd4c2849895bf48724">RTC_CNTH</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x18)</td></tr>
-<tr class="separator:addbf6619200b52bd4c2849895bf48724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a348bb8d5947955f173bb4d7b48521820"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a348bb8d5947955f173bb4d7b48521820">RTC_CNTL</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x1c)</td></tr>
-<tr class="separator:a348bb8d5947955f173bb4d7b48521820"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07020ea4dd14fbc22c4410ed32ad1179"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a07020ea4dd14fbc22c4410ed32ad1179">RTC_ALRH</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x20)</td></tr>
-<tr class="separator:a07020ea4dd14fbc22c4410ed32ad1179"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac673699fd007d9c2990f41b8e4703667"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#ac673699fd007d9c2990f41b8e4703667">RTC_ALRL</a>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x24)</td></tr>
-<tr class="separator:ac673699fd007d9c2990f41b8e4703667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04e23d339e15dbf883dbedb054cd1706"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a04e23d339e15dbf883dbedb054cd1706">RTC_CRH_OWIE</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
-<tr class="separator:a04e23d339e15dbf883dbedb054cd1706"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a990a6b449f70249a1a4baf19f64617d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a990a6b449f70249a1a4baf19f64617d9">RTC_CRH_ALRIE</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
-<tr class="separator:a990a6b449f70249a1a4baf19f64617d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dd52d261f99a969d9841a4426152b85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a8dd52d261f99a969d9841a4426152b85">RTC_CRH_SECIE</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
-<tr class="separator:a8dd52d261f99a969d9841a4426152b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bc57b1110a53b82e4445c4770203fe8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a6bc57b1110a53b82e4445c4770203fe8">RTC_CRL_RTOFF</a>&#160;&#160;&#160;(1 &lt;&lt; 5)</td></tr>
-<tr class="separator:a6bc57b1110a53b82e4445c4770203fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3829687c89579c020665c19b8937a820"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a3829687c89579c020665c19b8937a820">RTC_CRL_CNF</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
-<tr class="separator:a3829687c89579c020665c19b8937a820"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6fefe3020ad4d61b54a516e8a65f30d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#ae6fefe3020ad4d61b54a516e8a65f30d">RTC_CRL_RSF</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
-<tr class="separator:ae6fefe3020ad4d61b54a516e8a65f30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad801db5fbfc407b1959647765076b299"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#ad801db5fbfc407b1959647765076b299">RTC_CRL_OWF</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
-<tr class="separator:ad801db5fbfc407b1959647765076b299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca9bce7cb58e637876d1154710305563"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#aca9bce7cb58e637876d1154710305563">RTC_CRL_ALRF</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
-<tr class="separator:aca9bce7cb58e637876d1154710305563"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c039206fc5c1506aba666387c5d34c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a2c039206fc5c1506aba666387c5d34c8">RTC_CRL_SECF</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
-<tr class="separator:a2c039206fc5c1506aba666387c5d34c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga008b590fea16c935859095b25a345d01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga008b590fea16c935859095b25a345d01">RTC_CRH</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x00)</td></tr>
+<tr class="separator:ga008b590fea16c935859095b25a345d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6aa62269ca0c46d1a4ad61012dbc85f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga6aa62269ca0c46d1a4ad61012dbc85f8">RTC_CRL</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x04)</td></tr>
+<tr class="separator:ga6aa62269ca0c46d1a4ad61012dbc85f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e6c6cf0e85154b9c4cac63f97c9c4a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga2e6c6cf0e85154b9c4cac63f97c9c4a1">RTC_PRLH</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x08)</td></tr>
+<tr class="separator:ga2e6c6cf0e85154b9c4cac63f97c9c4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8725f1dec73b230670ab0ac61d50adce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga8725f1dec73b230670ab0ac61d50adce">RTC_PRLL</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x0c)</td></tr>
+<tr class="separator:ga8725f1dec73b230670ab0ac61d50adce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f6a2e4c8f99d82df195f6e1d1102c63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga1f6a2e4c8f99d82df195f6e1d1102c63">RTC_DIVH</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x10)</td></tr>
+<tr class="separator:ga1f6a2e4c8f99d82df195f6e1d1102c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9ee3aacf2681dc3a8d29d3343855002"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gae9ee3aacf2681dc3a8d29d3343855002">RTC_DIVL</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x14)</td></tr>
+<tr class="separator:gae9ee3aacf2681dc3a8d29d3343855002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaddbf6619200b52bd4c2849895bf48724"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gaddbf6619200b52bd4c2849895bf48724">RTC_CNTH</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x18)</td></tr>
+<tr class="separator:gaddbf6619200b52bd4c2849895bf48724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga348bb8d5947955f173bb4d7b48521820"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga348bb8d5947955f173bb4d7b48521820">RTC_CNTL</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x1c)</td></tr>
+<tr class="separator:ga348bb8d5947955f173bb4d7b48521820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga07020ea4dd14fbc22c4410ed32ad1179"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga07020ea4dd14fbc22c4410ed32ad1179">RTC_ALRH</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x20)</td></tr>
+<tr class="separator:ga07020ea4dd14fbc22c4410ed32ad1179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac673699fd007d9c2990f41b8e4703667"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gac673699fd007d9c2990f41b8e4703667">RTC_ALRL</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x24)</td></tr>
+<tr class="separator:gac673699fd007d9c2990f41b8e4703667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04e23d339e15dbf883dbedb054cd1706"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga04e23d339e15dbf883dbedb054cd1706">RTC_CRH_OWIE</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:ga04e23d339e15dbf883dbedb054cd1706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga990a6b449f70249a1a4baf19f64617d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga990a6b449f70249a1a4baf19f64617d9">RTC_CRH_ALRIE</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:ga990a6b449f70249a1a4baf19f64617d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8dd52d261f99a969d9841a4426152b85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga8dd52d261f99a969d9841a4426152b85">RTC_CRH_SECIE</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:ga8dd52d261f99a969d9841a4426152b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6bc57b1110a53b82e4445c4770203fe8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga6bc57b1110a53b82e4445c4770203fe8">RTC_CRL_RTOFF</a>&#160;&#160;&#160;(1 &lt;&lt; 5)</td></tr>
+<tr class="separator:ga6bc57b1110a53b82e4445c4770203fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3829687c89579c020665c19b8937a820"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga3829687c89579c020665c19b8937a820">RTC_CRL_CNF</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
+<tr class="separator:ga3829687c89579c020665c19b8937a820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6fefe3020ad4d61b54a516e8a65f30d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gae6fefe3020ad4d61b54a516e8a65f30d">RTC_CRL_RSF</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
+<tr class="separator:gae6fefe3020ad4d61b54a516e8a65f30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad801db5fbfc407b1959647765076b299"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gad801db5fbfc407b1959647765076b299">RTC_CRL_OWF</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:gad801db5fbfc407b1959647765076b299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaca9bce7cb58e637876d1154710305563"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gaca9bce7cb58e637876d1154710305563">RTC_CRL_ALRF</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:gaca9bce7cb58e637876d1154710305563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2c039206fc5c1506aba666387c5d34c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga2c039206fc5c1506aba666387c5d34c8">RTC_CRL_SECF</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:ga2c039206fc5c1506aba666387c5d34c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a7d949943d76043e8bd3d2186b7a3ed8f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> { <a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8fa56166639f7a143ccdb88ecd9f9176a4e">RTC_SEC</a>, 
-<a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8fa0ed02b19bed77879d8e2df169b0f2cff">RTC_ALR</a>, 
-<a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8fa612a64a5b5192bf328a0866842d87b70">RTC_OW</a>
+<tr class="memitem:ga7d949943d76043e8bd3d2186b7a3ed8f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> { <a class="el" href="group__rtc__defines.html#gga7d949943d76043e8bd3d2186b7a3ed8fa56166639f7a143ccdb88ecd9f9176a4e">RTC_SEC</a>, 
+<a class="el" href="group__rtc__defines.html#gga7d949943d76043e8bd3d2186b7a3ed8fa0ed02b19bed77879d8e2df169b0f2cff">RTC_ALR</a>, 
+<a class="el" href="group__rtc__defines.html#gga7d949943d76043e8bd3d2186b7a3ed8fa612a64a5b5192bf328a0866842d87b70">RTC_OW</a>
  }</td></tr>
-<tr class="separator:a7d949943d76043e8bd3d2186b7a3ed8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ga7d949943d76043e8bd3d2186b7a3ed8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa4fec0b94caffb25d0acde8813a7ef5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#aa4fec0b94caffb25d0acde8813a7ef5b">rtc_awake_from_off</a> (enum <a class="el" href="group__STM32F1xx__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a> clock_source)</td></tr>
-<tr class="separator:aa4fec0b94caffb25d0acde8813a7ef5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af911a07f668e8be5f719065c44015b02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#af911a07f668e8be5f719065c44015b02">rtc_enter_config_mode</a> (void)</td></tr>
-<tr class="separator:af911a07f668e8be5f719065c44015b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9adb9cf0f6b7d17a7c8ee0e6addf5be9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9">rtc_exit_config_mode</a> (void)</td></tr>
-<tr class="separator:a9adb9cf0f6b7d17a7c8ee0e6addf5be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f53231bbbeef79acc322f2a6b045d3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a3f53231bbbeef79acc322f2a6b045d3f">rtc_set_alarm_time</a> (uint32_t alarm_time)</td></tr>
-<tr class="separator:a3f53231bbbeef79acc322f2a6b045d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7f69ee0de1cae2518b2822fd82d5201"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#ab7f69ee0de1cae2518b2822fd82d5201">rtc_enable_alarm</a> (void)</td></tr>
-<tr class="separator:ab7f69ee0de1cae2518b2822fd82d5201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a718b866eab2ba73221d37f7d15ba9737"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a718b866eab2ba73221d37f7d15ba9737">rtc_disable_alarm</a> (void)</td></tr>
-<tr class="separator:a718b866eab2ba73221d37f7d15ba9737"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b2c2b6aa8879eb16f7cf3207587725e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a1b2c2b6aa8879eb16f7cf3207587725e">rtc_set_prescale_val</a> (uint32_t prescale_val)</td></tr>
-<tr class="separator:a1b2c2b6aa8879eb16f7cf3207587725e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16c4bf05c4660f7782efacb0b6f13069"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a16c4bf05c4660f7782efacb0b6f13069">rtc_get_counter_val</a> (void)</td></tr>
-<tr class="separator:a16c4bf05c4660f7782efacb0b6f13069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac18d0fabc363be97a41cf05cb220739a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#ac18d0fabc363be97a41cf05cb220739a">rtc_get_prescale_div_val</a> (void)</td></tr>
-<tr class="separator:ac18d0fabc363be97a41cf05cb220739a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cbe2e2000e3f9d3420c9e130d4019e8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a7cbe2e2000e3f9d3420c9e130d4019e8">rtc_get_alarm_val</a> (void)</td></tr>
-<tr class="separator:a7cbe2e2000e3f9d3420c9e130d4019e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd673063942c2bedededd5760e4764ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#acd673063942c2bedededd5760e4764ff">rtc_set_counter_val</a> (uint32_t counter_val)</td></tr>
-<tr class="separator:acd673063942c2bedededd5760e4764ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad0059f95046be4d158626cc0ed199fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#aad0059f95046be4d158626cc0ed199fd">rtc_interrupt_enable</a> (<a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> flag_val)</td></tr>
-<tr class="separator:aad0059f95046be4d158626cc0ed199fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4de126c91f7eedf70262a99e663a6fc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a4de126c91f7eedf70262a99e663a6fc5">rtc_interrupt_disable</a> (<a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> flag_val)</td></tr>
-<tr class="separator:a4de126c91f7eedf70262a99e663a6fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dd7ccbdf65c6f7b4d714bcb43a57528"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a1dd7ccbdf65c6f7b4d714bcb43a57528">rtc_clear_flag</a> (<a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> flag_val)</td></tr>
-<tr class="separator:a1dd7ccbdf65c6f7b4d714bcb43a57528"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94da35b2f8d7af8985c2e21bc1253349"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a94da35b2f8d7af8985c2e21bc1253349">rtc_check_flag</a> (<a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> flag_val)</td></tr>
-<tr class="separator:a94da35b2f8d7af8985c2e21bc1253349"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19032c3fbc1546712c5bc534e5ddbf48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a19032c3fbc1546712c5bc534e5ddbf48">rtc_awake_from_standby</a> (void)</td></tr>
-<tr class="separator:a19032c3fbc1546712c5bc534e5ddbf48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7693c69c9ff726487720b12576a20968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rtc_8h.html#a7693c69c9ff726487720b12576a20968">rtc_auto_awake</a> (enum <a class="el" href="group__STM32F1xx__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a> clock_source, uint32_t prescale_val)</td></tr>
-<tr class="separator:a7693c69c9ff726487720b12576a20968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4fec0b94caffb25d0acde8813a7ef5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gaa4fec0b94caffb25d0acde8813a7ef5b">rtc_awake_from_off</a> (enum <a class="el" href="group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a> clock_source)</td></tr>
+<tr class="separator:gaa4fec0b94caffb25d0acde8813a7ef5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf911a07f668e8be5f719065c44015b02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gaf911a07f668e8be5f719065c44015b02">rtc_enter_config_mode</a> (void)</td></tr>
+<tr class="separator:gaf911a07f668e8be5f719065c44015b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9adb9cf0f6b7d17a7c8ee0e6addf5be9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga9adb9cf0f6b7d17a7c8ee0e6addf5be9">rtc_exit_config_mode</a> (void)</td></tr>
+<tr class="separator:ga9adb9cf0f6b7d17a7c8ee0e6addf5be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3f53231bbbeef79acc322f2a6b045d3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga3f53231bbbeef79acc322f2a6b045d3f">rtc_set_alarm_time</a> (uint32_t alarm_time)</td></tr>
+<tr class="separator:ga3f53231bbbeef79acc322f2a6b045d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7f69ee0de1cae2518b2822fd82d5201"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gab7f69ee0de1cae2518b2822fd82d5201">rtc_enable_alarm</a> (void)</td></tr>
+<tr class="separator:gab7f69ee0de1cae2518b2822fd82d5201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga718b866eab2ba73221d37f7d15ba9737"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga718b866eab2ba73221d37f7d15ba9737">rtc_disable_alarm</a> (void)</td></tr>
+<tr class="separator:ga718b866eab2ba73221d37f7d15ba9737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1b2c2b6aa8879eb16f7cf3207587725e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga1b2c2b6aa8879eb16f7cf3207587725e">rtc_set_prescale_val</a> (uint32_t prescale_val)</td></tr>
+<tr class="separator:ga1b2c2b6aa8879eb16f7cf3207587725e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16c4bf05c4660f7782efacb0b6f13069"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga16c4bf05c4660f7782efacb0b6f13069">rtc_get_counter_val</a> (void)</td></tr>
+<tr class="separator:ga16c4bf05c4660f7782efacb0b6f13069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac18d0fabc363be97a41cf05cb220739a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gac18d0fabc363be97a41cf05cb220739a">rtc_get_prescale_div_val</a> (void)</td></tr>
+<tr class="separator:gac18d0fabc363be97a41cf05cb220739a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7cbe2e2000e3f9d3420c9e130d4019e8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga7cbe2e2000e3f9d3420c9e130d4019e8">rtc_get_alarm_val</a> (void)</td></tr>
+<tr class="separator:ga7cbe2e2000e3f9d3420c9e130d4019e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd673063942c2bedededd5760e4764ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gacd673063942c2bedededd5760e4764ff">rtc_set_counter_val</a> (uint32_t counter_val)</td></tr>
+<tr class="separator:gacd673063942c2bedededd5760e4764ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad0059f95046be4d158626cc0ed199fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#gaad0059f95046be4d158626cc0ed199fd">rtc_interrupt_enable</a> (<a class="el" href="group__rtc__defines.html#ga7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> flag_val)</td></tr>
+<tr class="separator:gaad0059f95046be4d158626cc0ed199fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4de126c91f7eedf70262a99e663a6fc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga4de126c91f7eedf70262a99e663a6fc5">rtc_interrupt_disable</a> (<a class="el" href="group__rtc__defines.html#ga7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> flag_val)</td></tr>
+<tr class="separator:ga4de126c91f7eedf70262a99e663a6fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1dd7ccbdf65c6f7b4d714bcb43a57528"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga1dd7ccbdf65c6f7b4d714bcb43a57528">rtc_clear_flag</a> (<a class="el" href="group__rtc__defines.html#ga7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> flag_val)</td></tr>
+<tr class="separator:ga1dd7ccbdf65c6f7b4d714bcb43a57528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94da35b2f8d7af8985c2e21bc1253349"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga94da35b2f8d7af8985c2e21bc1253349">rtc_check_flag</a> (<a class="el" href="group__rtc__defines.html#ga7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a> flag_val)</td></tr>
+<tr class="separator:ga94da35b2f8d7af8985c2e21bc1253349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga19032c3fbc1546712c5bc534e5ddbf48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga19032c3fbc1546712c5bc534e5ddbf48">rtc_awake_from_standby</a> (void)</td></tr>
+<tr class="separator:ga19032c3fbc1546712c5bc534e5ddbf48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7693c69c9ff726487720b12576a20968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtc__defines.html#ga7693c69c9ff726487720b12576a20968">rtc_auto_awake</a> (enum <a class="el" href="group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a> clock_source, uint32_t prescale_val)</td></tr>
+<tr class="separator:ga7693c69c9ff726487720b12576a20968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a07020ea4dd14fbc22c4410ed32ad1179"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_ALRH&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x20)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00068">68</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00169">rtc_get_alarm_val()</a>, and <a class="el" href="rtc_8c_source.html#l00129">rtc_set_alarm_time()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac673699fd007d9c2990f41b8e4703667"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_ALRL&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x24)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00069">69</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00169">rtc_get_alarm_val()</a>, and <a class="el" href="rtc_8c_source.html#l00129">rtc_set_alarm_time()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="addbf6619200b52bd4c2849895bf48724"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CNTH&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x18)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00064">64</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00159">rtc_get_counter_val()</a>, and <a class="el" href="rtc_8c_source.html#l00174">rtc_set_counter_val()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a348bb8d5947955f173bb4d7b48521820"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CNTL&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x1c)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00065">65</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00159">rtc_get_counter_val()</a>, and <a class="el" href="rtc_8c_source.html#l00174">rtc_set_counter_val()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a008b590fea16c935859095b25a345d01"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRH&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x00)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00050">50</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00144">rtc_disable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00137">rtc_enable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00202">rtc_interrupt_disable()</a>, and <a class="el" href="rtc_8c_source.html#l00182">rtc_interrupt_enable()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a990a6b449f70249a1a4baf19f64617d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRH_ALRIE&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00079">79</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00144">rtc_disable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00137">rtc_enable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00202">rtc_interrupt_disable()</a>, and <a class="el" href="rtc_8c_source.html#l00182">rtc_interrupt_enable()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a04e23d339e15dbf883dbedb054cd1706"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRH_OWIE&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00076">76</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00202">rtc_interrupt_disable()</a>, and <a class="el" href="rtc_8c_source.html#l00182">rtc_interrupt_enable()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8dd52d261f99a969d9841a4426152b85"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRH_SECIE&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00082">82</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00202">rtc_interrupt_disable()</a>, and <a class="el" href="rtc_8c_source.html#l00182">rtc_interrupt_enable()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6aa62269ca0c46d1a4ad61012dbc85f8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRL&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x04)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00053">53</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00041">rtc_awake_from_off()</a>, <a class="el" href="rtc_8c_source.html#l00263">rtc_awake_from_standby()</a>, <a class="el" href="rtc_8c_source.html#l00240">rtc_check_flag()</a>, <a class="el" href="rtc_8c_source.html#l00222">rtc_clear_flag()</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aca9bce7cb58e637876d1154710305563"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRL_ALRF&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00101">101</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00240">rtc_check_flag()</a>, and <a class="el" href="rtc_8c_source.html#l00222">rtc_clear_flag()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3829687c89579c020665c19b8937a820"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRL_CNF&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00092">92</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad801db5fbfc407b1959647765076b299"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRL_OWF&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00098">98</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00240">rtc_check_flag()</a>, and <a class="el" href="rtc_8c_source.html#l00222">rtc_clear_flag()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae6fefe3020ad4d61b54a516e8a65f30d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRL_RSF&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00095">95</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00041">rtc_awake_from_off()</a>, and <a class="el" href="rtc_8c_source.html#l00263">rtc_awake_from_standby()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6bc57b1110a53b82e4445c4770203fe8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRL_RTOFF&#160;&#160;&#160;(1 &lt;&lt; 5)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00089">89</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00041">rtc_awake_from_off()</a>, <a class="el" href="rtc_8c_source.html#l00263">rtc_awake_from_standby()</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2c039206fc5c1506aba666387c5d34c8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_CRL_SECF&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00104">104</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00240">rtc_check_flag()</a>, and <a class="el" href="rtc_8c_source.html#l00222">rtc_clear_flag()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1f6a2e4c8f99d82df195f6e1d1102c63"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_DIVH&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x10)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00060">60</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00164">rtc_get_prescale_div_val()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae9ee3aacf2681dc3a8d29d3343855002"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_DIVL&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x14)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00061">61</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00164">rtc_get_prescale_div_val()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2e6c6cf0e85154b9c4cac63f97c9c4a1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_PRLH&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x08)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00056">56</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00151">rtc_set_prescale_val()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8725f1dec73b230670ab0ac61d50adce"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RTC_PRLL&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">RTC_BASE</a> + 0x0c)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00057">57</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00151">rtc_set_prescale_val()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="a7d949943d76043e8bd3d2186b7a3ed8f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a7d949943d76043e8bd3d2186b7a3ed8fa56166639f7a143ccdb88ecd9f9176a4e"></a>RTC_SEC</em>&nbsp;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a7d949943d76043e8bd3d2186b7a3ed8fa0ed02b19bed77879d8e2df169b0f2cff"></a>RTC_ALR</em>&nbsp;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a7d949943d76043e8bd3d2186b7a3ed8fa612a64a5b5192bf328a0866842d87b70"></a>RTC_OW</em>&nbsp;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-<p>Definition at line <a class="el" href="rtc_8h_source.html#l00144">144</a> of file <a class="el" href="rtc_8h_source.html">rtc.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a7693c69c9ff726487720b12576a20968"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_auto_awake </td>
-          <td>(</td>
-          <td class="paramtype">enum <a class="el" href="group__STM32F1xx__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a>&#160;</td>
-          <td class="paramname"><em>clock_source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>prescale_val</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00282">282</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="pwr__common__all_8h_source.html#l00043">PWR_CR</a>, <a class="el" href="pwr__common__all_8h_source.html#l00053">PWR_CR_DBP</a>, <a class="el" href="rcc_8h_source.html#l00057">RCC_APB1ENR</a>, <a class="el" href="rcc_8h_source.html#l00362">RCC_APB1ENR_BKPEN</a>, <a class="el" href="rcc_8h_source.html#l00361">RCC_APB1ENR_PWREN</a>, <a class="el" href="rcc_8h_source.html#l00058">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00388">RCC_BDCR_RTCEN</a>, <a class="el" href="rtc_8c_source.html#l00041">rtc_awake_from_off()</a>, <a class="el" href="rtc_8c_source.html#l00263">rtc_awake_from_standby()</a>, and <a class="el" href="rtc_8c_source.html#l00151">rtc_set_prescale_val()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_a7693c69c9ff726487720b12576a20968_cgraph.png" border="0" usemap="#rtc_8h_a7693c69c9ff726487720b12576a20968_cgraph" alt=""/></div>
-<map name="rtc_8h_a7693c69c9ff726487720b12576a20968_cgraph" id="rtc_8h_a7693c69c9ff726487720b12576a20968_cgraph">
-<area shape="rect" id="node3" href="rtc_8h.html#aa4fec0b94caffb25d0acde8813a7ef5b" title="rtc_awake_from_off" alt="" coords="184,5,320,38"/><area shape="rect" id="node7" href="rtc_8h.html#a19032c3fbc1546712c5bc534e5ddbf48" title="rtc_awake_from_standby" alt="" coords="168,61,336,94"/><area shape="rect" id="node9" href="rtc_8h.html#a1b2c2b6aa8879eb16f7cf3207587725e" title="rtc_set_prescale_val" alt="" coords="181,117,323,150"/><area shape="rect" id="node5" href="group__STM32F1xx__rcc__defines.html#gaa02e63deae78644c393004fb900fe584" title="RCC Reset the backup domain. " alt="" coords="385,5,551,38"/><area shape="rect" id="node11" href="rtc_8h.html#af911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="391,89,545,122"/><area shape="rect" id="node13" href="rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="395,145,541,178"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aa4fec0b94caffb25d0acde8813a7ef5b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_awake_from_off </td>
-          <td>(</td>
-          <td class="paramtype">enum <a class="el" href="group__STM32F1xx__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a>&#160;</td>
-          <td class="paramname"><em>clock_source</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00041">41</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rcc_8h_source.html#l00499">HSE</a>, <a class="el" href="rcc_8h_source.html#l00499">HSI</a>, <a class="el" href="rcc_8h_source.html#l00499">LSE</a>, <a class="el" href="rcc_8h_source.html#l00499">LSI</a>, <a class="el" href="rcc_8h_source.html#l00499">PLL</a>, <a class="el" href="rcc_8h_source.html#l00499">PLL2</a>, <a class="el" href="rcc_8h_source.html#l00499">PLL3</a>, <a class="el" href="pwr__common__all_8h_source.html#l00043">PWR_CR</a>, <a class="el" href="pwr__common__all_8h_source.html#l00053">PWR_CR_DBP</a>, <a class="el" href="rcc_8h_source.html#l00057">RCC_APB1ENR</a>, <a class="el" href="rcc_8h_source.html#l00362">RCC_APB1ENR_BKPEN</a>, <a class="el" href="rcc_8h_source.html#l00361">RCC_APB1ENR_PWREN</a>, <a class="el" href="rcc_8c_source.html#l01128">rcc_backupdomain_reset()</a>, <a class="el" href="rcc_8h_source.html#l00058">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00392">RCC_BDCR_LSEON</a>, <a class="el" href="rcc_8h_source.html#l00391">RCC_BDCR_LSERDY</a>, <a class="el" href="rcc_8h_source.html#l00388">RCC_BDCR_RTCEN</a>, <a class="el" href="rcc_8h_source.html#l00050">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00074">RCC_CR_HSEON</a>, <a class="el" href="rcc_8h_source.html#l00073">RCC_CR_HSERDY</a>, <a class="el" href="rcc_8h_source.html#l00059">RCC_CSR</a>, <a class="el" href="rcc_8h_source.html#l00404">RCC_CSR_LSION</a>, <a class="el" href="rcc_8h_source.html#l00403">RCC_CSR_LSIRDY</a>, <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00095">RTC_CRL_RSF</a>, and <a class="el" href="rtc_8h_source.html#l00089">RTC_CRL_RTOFF</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00282">rtc_auto_awake()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_aa4fec0b94caffb25d0acde8813a7ef5b_cgraph.png" border="0" usemap="#rtc_8h_aa4fec0b94caffb25d0acde8813a7ef5b_cgraph" alt=""/></div>
-<map name="rtc_8h_aa4fec0b94caffb25d0acde8813a7ef5b_cgraph" id="rtc_8h_aa4fec0b94caffb25d0acde8813a7ef5b_cgraph">
-<area shape="rect" id="node3" href="group__STM32F1xx__rcc__defines.html#gaa02e63deae78644c393004fb900fe584" title="RCC Reset the backup domain. " alt="" coords="191,5,356,38"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_aa4fec0b94caffb25d0acde8813a7ef5b_icgraph.png" border="0" usemap="#rtc_8h_aa4fec0b94caffb25d0acde8813a7ef5b_icgraph" alt=""/></div>
-<map name="rtc_8h_aa4fec0b94caffb25d0acde8813a7ef5b_icgraph" id="rtc_8h_aa4fec0b94caffb25d0acde8813a7ef5b_icgraph">
-<area shape="rect" id="node3" href="rtc_8c.html#a7693c69c9ff726487720b12576a20968" title="rtc_auto_awake" alt="" coords="189,5,304,38"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a19032c3fbc1546712c5bc534e5ddbf48"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_awake_from_standby </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00263">263</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="pwr__common__all_8h_source.html#l00043">PWR_CR</a>, <a class="el" href="pwr__common__all_8h_source.html#l00053">PWR_CR_DBP</a>, <a class="el" href="rcc_8h_source.html#l00057">RCC_APB1ENR</a>, <a class="el" href="rcc_8h_source.html#l00362">RCC_APB1ENR_BKPEN</a>, <a class="el" href="rcc_8h_source.html#l00361">RCC_APB1ENR_PWREN</a>, <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00095">RTC_CRL_RSF</a>, and <a class="el" href="rtc_8h_source.html#l00089">RTC_CRL_RTOFF</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00282">rtc_auto_awake()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_a19032c3fbc1546712c5bc534e5ddbf48_icgraph.png" border="0" usemap="#rtc_8h_a19032c3fbc1546712c5bc534e5ddbf48_icgraph" alt=""/></div>
-<map name="rtc_8h_a19032c3fbc1546712c5bc534e5ddbf48_icgraph" id="rtc_8h_a19032c3fbc1546712c5bc534e5ddbf48_icgraph">
-<area shape="rect" id="node3" href="rtc_8c.html#a7693c69c9ff726487720b12576a20968" title="rtc_auto_awake" alt="" coords="221,5,336,38"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a94da35b2f8d7af8985c2e21bc1253349"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t rtc_check_flag </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a>&#160;</td>
-          <td class="paramname"><em>flag_val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00240">240</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00101">RTC_CRL_ALRF</a>, <a class="el" href="rtc_8h_source.html#l00098">RTC_CRL_OWF</a>, <a class="el" href="rtc_8h_source.html#l00104">RTC_CRL_SECF</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1dd7ccbdf65c6f7b4d714bcb43a57528"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_clear_flag </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a>&#160;</td>
-          <td class="paramname"><em>flag_val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00222">222</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00101">RTC_CRL_ALRF</a>, <a class="el" href="rtc_8h_source.html#l00098">RTC_CRL_OWF</a>, <a class="el" href="rtc_8h_source.html#l00104">RTC_CRL_SECF</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a718b866eab2ba73221d37f7d15ba9737"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_disable_alarm </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00144">144</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00050">RTC_CRH</a>, <a class="el" href="rtc_8h_source.html#l00079">RTC_CRH_ALRIE</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_a718b866eab2ba73221d37f7d15ba9737_cgraph.png" border="0" usemap="#rtc_8h_a718b866eab2ba73221d37f7d15ba9737_cgraph" alt=""/></div>
-<map name="rtc_8h_a718b866eab2ba73221d37f7d15ba9737_cgraph" id="rtc_8h_a718b866eab2ba73221d37f7d15ba9737_cgraph">
-<area shape="rect" id="node3" href="rtc_8h.html#af911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="179,5,333,38"/><area shape="rect" id="node5" href="rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="183,61,329,94"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ab7f69ee0de1cae2518b2822fd82d5201"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_enable_alarm </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00137">137</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00050">RTC_CRH</a>, <a class="el" href="rtc_8h_source.html#l00079">RTC_CRH_ALRIE</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_ab7f69ee0de1cae2518b2822fd82d5201_cgraph.png" border="0" usemap="#rtc_8h_ab7f69ee0de1cae2518b2822fd82d5201_cgraph" alt=""/></div>
-<map name="rtc_8h_ab7f69ee0de1cae2518b2822fd82d5201_cgraph" id="rtc_8h_ab7f69ee0de1cae2518b2822fd82d5201_cgraph">
-<area shape="rect" id="node3" href="rtc_8h.html#af911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="176,5,331,38"/><area shape="rect" id="node5" href="rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="180,61,327,94"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="af911a07f668e8be5f719065c44015b02"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_enter_config_mode </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00107">107</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00092">RTC_CRL_CNF</a>, and <a class="el" href="rtc_8h_source.html#l00089">RTC_CRL_RTOFF</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00144">rtc_disable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00137">rtc_enable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00202">rtc_interrupt_disable()</a>, <a class="el" href="rtc_8c_source.html#l00182">rtc_interrupt_enable()</a>, <a class="el" href="rtc_8c_source.html#l00129">rtc_set_alarm_time()</a>, <a class="el" href="rtc_8c_source.html#l00174">rtc_set_counter_val()</a>, and <a class="el" href="rtc_8c_source.html#l00151">rtc_set_prescale_val()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_af911a07f668e8be5f719065c44015b02_icgraph.png" border="0" usemap="#rtc_8h_af911a07f668e8be5f719065c44015b02_icgraph" alt=""/></div>
-<map name="rtc_8h_af911a07f668e8be5f719065c44015b02_icgraph" id="rtc_8h_af911a07f668e8be5f719065c44015b02_icgraph">
-<area shape="rect" id="node3" href="rtc_8c.html#a718b866eab2ba73221d37f7d15ba9737" title="rtc_disable_alarm" alt="" coords="219,5,341,38"/><area shape="rect" id="node5" href="rtc_8c.html#ab7f69ee0de1cae2518b2822fd82d5201" title="rtc_enable_alarm" alt="" coords="220,61,340,94"/><area shape="rect" id="node7" href="rtc_8c.html#a4de126c91f7eedf70262a99e663a6fc5" title="rtc_interrupt_disable" alt="" coords="211,117,349,150"/><area shape="rect" id="node9" href="rtc_8c.html#aad0059f95046be4d158626cc0ed199fd" title="rtc_interrupt_enable" alt="" coords="212,173,348,206"/><area shape="rect" id="node11" href="rtc_8c.html#a3f53231bbbeef79acc322f2a6b045d3f" title="rtc_set_alarm_time" alt="" coords="213,229,347,262"/><area shape="rect" id="node13" href="rtc_8c.html#acd673063942c2bedededd5760e4764ff" title="rtc_set_counter_val" alt="" coords="212,285,348,318"/><area shape="rect" id="node15" href="rtc_8c.html#a1b2c2b6aa8879eb16f7cf3207587725e" title="rtc_set_prescale_val" alt="" coords="209,341,351,374"/><area shape="rect" id="node17" href="rtc_8c.html#a7693c69c9ff726487720b12576a20968" title="rtc_auto_awake" alt="" coords="400,341,515,374"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a9adb9cf0f6b7d17a7c8ee0e6addf5be9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_exit_config_mode </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00118">118</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00053">RTC_CRL</a>, <a class="el" href="rtc_8h_source.html#l00092">RTC_CRL_CNF</a>, and <a class="el" href="rtc_8h_source.html#l00089">RTC_CRL_RTOFF</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00144">rtc_disable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00137">rtc_enable_alarm()</a>, <a class="el" href="rtc_8c_source.html#l00202">rtc_interrupt_disable()</a>, <a class="el" href="rtc_8c_source.html#l00182">rtc_interrupt_enable()</a>, <a class="el" href="rtc_8c_source.html#l00129">rtc_set_alarm_time()</a>, <a class="el" href="rtc_8c_source.html#l00174">rtc_set_counter_val()</a>, and <a class="el" href="rtc_8c_source.html#l00151">rtc_set_prescale_val()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_a9adb9cf0f6b7d17a7c8ee0e6addf5be9_icgraph.png" border="0" usemap="#rtc_8h_a9adb9cf0f6b7d17a7c8ee0e6addf5be9_icgraph" alt=""/></div>
-<map name="rtc_8h_a9adb9cf0f6b7d17a7c8ee0e6addf5be9_icgraph" id="rtc_8h_a9adb9cf0f6b7d17a7c8ee0e6addf5be9_icgraph">
-<area shape="rect" id="node3" href="rtc_8c.html#a718b866eab2ba73221d37f7d15ba9737" title="rtc_disable_alarm" alt="" coords="211,5,333,38"/><area shape="rect" id="node5" href="rtc_8c.html#ab7f69ee0de1cae2518b2822fd82d5201" title="rtc_enable_alarm" alt="" coords="212,61,332,94"/><area shape="rect" id="node7" href="rtc_8c.html#a4de126c91f7eedf70262a99e663a6fc5" title="rtc_interrupt_disable" alt="" coords="203,117,341,150"/><area shape="rect" id="node9" href="rtc_8c.html#aad0059f95046be4d158626cc0ed199fd" title="rtc_interrupt_enable" alt="" coords="204,173,340,206"/><area shape="rect" id="node11" href="rtc_8c.html#a3f53231bbbeef79acc322f2a6b045d3f" title="rtc_set_alarm_time" alt="" coords="205,229,339,262"/><area shape="rect" id="node13" href="rtc_8c.html#acd673063942c2bedededd5760e4764ff" title="rtc_set_counter_val" alt="" coords="204,285,340,318"/><area shape="rect" id="node15" href="rtc_8c.html#a1b2c2b6aa8879eb16f7cf3207587725e" title="rtc_set_prescale_val" alt="" coords="201,341,343,374"/><area shape="rect" id="node17" href="rtc_8c.html#a7693c69c9ff726487720b12576a20968" title="rtc_auto_awake" alt="" coords="392,341,507,374"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a7cbe2e2000e3f9d3420c9e130d4019e8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t rtc_get_alarm_val </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00169">169</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00068">RTC_ALRH</a>, and <a class="el" href="rtc_8h_source.html#l00069">RTC_ALRL</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a16c4bf05c4660f7782efacb0b6f13069"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t rtc_get_counter_val </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00159">159</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00064">RTC_CNTH</a>, and <a class="el" href="rtc_8h_source.html#l00065">RTC_CNTL</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac18d0fabc363be97a41cf05cb220739a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t rtc_get_prescale_div_val </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00164">164</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00060">RTC_DIVH</a>, and <a class="el" href="rtc_8h_source.html#l00061">RTC_DIVL</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4de126c91f7eedf70262a99e663a6fc5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_interrupt_disable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a>&#160;</td>
-          <td class="paramname"><em>flag_val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00202">202</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00050">RTC_CRH</a>, <a class="el" href="rtc_8h_source.html#l00079">RTC_CRH_ALRIE</a>, <a class="el" href="rtc_8h_source.html#l00076">RTC_CRH_OWIE</a>, <a class="el" href="rtc_8h_source.html#l00082">RTC_CRH_SECIE</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_a4de126c91f7eedf70262a99e663a6fc5_cgraph.png" border="0" usemap="#rtc_8h_a4de126c91f7eedf70262a99e663a6fc5_cgraph" alt=""/></div>
-<map name="rtc_8h_a4de126c91f7eedf70262a99e663a6fc5_cgraph" id="rtc_8h_a4de126c91f7eedf70262a99e663a6fc5_cgraph">
-<area shape="rect" id="node3" href="rtc_8h.html#af911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="192,5,347,38"/><area shape="rect" id="node5" href="rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="196,61,343,94"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aad0059f95046be4d158626cc0ed199fd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_interrupt_enable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="rtc_8h.html#a7d949943d76043e8bd3d2186b7a3ed8f">rtcflag_t</a>&#160;</td>
-          <td class="paramname"><em>flag_val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00182">182</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00145">RTC_ALR</a>, <a class="el" href="rtc_8h_source.html#l00050">RTC_CRH</a>, <a class="el" href="rtc_8h_source.html#l00079">RTC_CRH_ALRIE</a>, <a class="el" href="rtc_8h_source.html#l00076">RTC_CRH_OWIE</a>, <a class="el" href="rtc_8h_source.html#l00082">RTC_CRH_SECIE</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>, <a class="el" href="rtc_8h_source.html#l00145">RTC_OW</a>, and <a class="el" href="rtc_8h_source.html#l00145">RTC_SEC</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_aad0059f95046be4d158626cc0ed199fd_cgraph.png" border="0" usemap="#rtc_8h_aad0059f95046be4d158626cc0ed199fd_cgraph" alt=""/></div>
-<map name="rtc_8h_aad0059f95046be4d158626cc0ed199fd_cgraph" id="rtc_8h_aad0059f95046be4d158626cc0ed199fd_cgraph">
-<area shape="rect" id="node3" href="rtc_8h.html#af911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="189,5,344,38"/><area shape="rect" id="node5" href="rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="193,61,340,94"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a3f53231bbbeef79acc322f2a6b045d3f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_set_alarm_time </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>alarm_time</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00129">129</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00068">RTC_ALRH</a>, <a class="el" href="rtc_8h_source.html#l00069">RTC_ALRL</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_a3f53231bbbeef79acc322f2a6b045d3f_cgraph.png" border="0" usemap="#rtc_8h_a3f53231bbbeef79acc322f2a6b045d3f_cgraph" alt=""/></div>
-<map name="rtc_8h_a3f53231bbbeef79acc322f2a6b045d3f_cgraph" id="rtc_8h_a3f53231bbbeef79acc322f2a6b045d3f_cgraph">
-<area shape="rect" id="node3" href="rtc_8h.html#af911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="187,5,341,38"/><area shape="rect" id="node5" href="rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="191,61,337,94"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="acd673063942c2bedededd5760e4764ff"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_set_counter_val </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>counter_val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00174">174</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8h_source.html#l00064">RTC_CNTH</a>, <a class="el" href="rtc_8h_source.html#l00065">RTC_CNTL</a>, <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, and <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_acd673063942c2bedededd5760e4764ff_cgraph.png" border="0" usemap="#rtc_8h_acd673063942c2bedededd5760e4764ff_cgraph" alt=""/></div>
-<map name="rtc_8h_acd673063942c2bedededd5760e4764ff_cgraph" id="rtc_8h_acd673063942c2bedededd5760e4764ff_cgraph">
-<area shape="rect" id="node3" href="rtc_8h.html#af911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="189,5,344,38"/><area shape="rect" id="node5" href="rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="193,61,340,94"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a1b2c2b6aa8879eb16f7cf3207587725e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void rtc_set_prescale_val </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>prescale_val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00151">151</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
-
-<p>References <a class="el" href="rtc_8c_source.html#l00107">rtc_enter_config_mode()</a>, <a class="el" href="rtc_8c_source.html#l00118">rtc_exit_config_mode()</a>, <a class="el" href="rtc_8h_source.html#l00056">RTC_PRLH</a>, and <a class="el" href="rtc_8h_source.html#l00057">RTC_PRLL</a>.</p>
-
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00282">rtc_auto_awake()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_a1b2c2b6aa8879eb16f7cf3207587725e_cgraph.png" border="0" usemap="#rtc_8h_a1b2c2b6aa8879eb16f7cf3207587725e_cgraph" alt=""/></div>
-<map name="rtc_8h_a1b2c2b6aa8879eb16f7cf3207587725e_cgraph" id="rtc_8h_a1b2c2b6aa8879eb16f7cf3207587725e_cgraph">
-<area shape="rect" id="node3" href="rtc_8h.html#af911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="197,5,352,38"/><area shape="rect" id="node5" href="rtc_8h.html#a9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="201,61,348,94"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="rtc_8h_a1b2c2b6aa8879eb16f7cf3207587725e_icgraph.png" border="0" usemap="#rtc_8h_a1b2c2b6aa8879eb16f7cf3207587725e_icgraph" alt=""/></div>
-<map name="rtc_8h_a1b2c2b6aa8879eb16f7cf3207587725e_icgraph" id="rtc_8h_a1b2c2b6aa8879eb16f7cf3207587725e_icgraph">
-<area shape="rect" id="node3" href="rtc_8c.html#a7693c69c9ff726487720b12576a20968" title="rtc_auto_awake" alt="" coords="197,5,312,38"/></map>
-</div>
-</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_26e2099944f53a27f6cdf710ec04616c.html">f1</a></li><li class="navelem"><a class="el" href="rtc_8h.html">rtc.h</a></li>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:19 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:37 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

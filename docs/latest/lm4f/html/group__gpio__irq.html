@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__gpio__irq.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -152,16 +152,16 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>Configuring interrupts from GPIO pins</b> </p>
 <p>GPIO pins can trigger interrupts on either edges or levels. The type of trigger can be configured with gpio_configure_int_trigger(). To have an event on the given pin generate an interrupt, its interrupt source must be unmasked. This can be achieved with <a class="el" href="group__gpio__defines.html#ga6647e613abe8223c2e78f773dfa279ce">gpio_enable_interrupts()</a>. Interrupts which are no longer needed can be disabled through <a class="el" href="group__gpio__defines.html#gaa85cd2d1a8cbcfa7406e11afb15c1b6b">gpio_disable_interrupts()</a>.</p>
-<p>In order for the interrupt to generate an IRQ and a call to the interrupt service routine, the interrupt for the GPIO port must be routed through the NVIC with <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic_enable_irq()</a>. For this last step, the nvic.h header is needed: </p>
+<p>In order for the interrupt to generate an IRQ and a call to the interrupt service routine, the interrupt for the GPIO port must be routed through the NVIC with nvic_enable_irq(). For this last step, the <a class="el" href="nvic_8h.html">nvic.h</a> header is needed: </p>
 <div class="fragment"><div class="line">*       #include &lt;libopencm3/lm4f/nvic.h&gt;</div>
 <div class="line">* </div>
 </div><!-- fragment --><p>Enabling an interrupt is as simple as configuring the desired trigger, unmasking the desired interrupt, and routing the desired GPIO port's interrupt through the NVIC. </p>
 <div class="fragment"><div class="line">*       <span class="comment">// Trigger interrupt on each rising edge</span></div>
-<div class="line">*       <a class="code" href="group__gpio__defines.html#ga6a3a20a7f47ef2eb7c6efa9360f51fc9">gpio_configure_trigger</a>(GPIOF, <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91">GPIO_TRIG_EDGE_RISE</a>, GPIO0 | GPIO4);</div>
+<div class="line">*       <a class="code" href="group__gpio__defines.html#ga6a3a20a7f47ef2eb7c6efa9360f51fc9">gpio_configure_trigger</a>(<a class="code" href="group__gpio__reg__base.html#ga43c3022dede7c9db7a58d3c3409dbc8d">GPIOF</a>, <a class="code" href="group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbeae7e4da82de08018b2a2283404ad0bb91">GPIO_TRIG_EDGE_RISE</a>, <a class="code" href="group__gpio__pin__id.html#ga20f88dbc839eb32b5fec903474befdd7">GPIO0</a> | <a class="code" href="group__gpio__pin__id.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">GPIO4</a>);</div>
 <div class="line">*       <span class="comment">// Unmask the interrupt on those pins</span></div>
-<div class="line">*       <a class="code" href="group__gpio__defines.html#ga6647e613abe8223c2e78f773dfa279ce">gpio_enable_interrupts</a>(GPIOF, GPIO0 | GPIO4);</div>
+<div class="line">*       <a class="code" href="group__gpio__defines.html#ga6647e613abe8223c2e78f773dfa279ce">gpio_enable_interrupts</a>(<a class="code" href="group__gpio__reg__base.html#ga43c3022dede7c9db7a58d3c3409dbc8d">GPIOF</a>, <a class="code" href="group__gpio__pin__id.html#ga20f88dbc839eb32b5fec903474befdd7">GPIO0</a> | <a class="code" href="group__gpio__pin__id.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">GPIO4</a>);</div>
 <div class="line">*       <span class="comment">// Enable the interrupt in the NVIC as well</span></div>
-<div class="line">*       <a class="codeRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic_enable_irq</a>(NVIC_GPIOF_IRQ);</div>
+<div class="line">*       nvic_enable_irq(NVIC_GPIOF_IRQ);</div>
 <div class="line">* </div>
 </div><!-- fragment --><p>After interrupts are properly enabled and routed through the NVIC, when an event occurs, the appropriate IRQ flag is set by hardware, and execution jumps to the GPIO ISR. The ISR should query the IRQ flags to determine which event caused the interrupt. For this, use <a class="el" href="group__gpio__irq.html#ga6526582457c0936b5a978b2548336610">gpio_is_interrupt_source()</a>, with the desired GPIO flag. After one or more interrupt sources are serviced, the IRQ flags must be cleared by the ISR. This can be done with <a class="el" href="group__gpio__irq.html#ga0eff5e23114c6346aff26c0b275d7464">gpio_clear_interrupt_flag()</a>.</p>
 <p>A typical GPIO ISR may look like the following: </p>
@@ -170,17 +170,17 @@ Functions</h2></td></tr>
 <div class="line">*       uint8_t serviced_irqs = 0;</div>
 <div class="line">*</div>
 <div class="line">*       <span class="comment">// Process individual IRQs</span></div>
-<div class="line">*       <span class="keywordflow">if</span> (<a class="code" href="group__gpio__irq.html#ga6526582457c0936b5a978b2548336610">gpio_is_interrupt_source</a>(GPIOF, GPIO0)) {</div>
+<div class="line">*       <span class="keywordflow">if</span> (<a class="code" href="group__gpio__irq.html#ga6526582457c0936b5a978b2548336610">gpio_is_interrupt_source</a>(<a class="code" href="group__gpio__reg__base.html#ga43c3022dede7c9db7a58d3c3409dbc8d">GPIOF</a>, <a class="code" href="group__gpio__pin__id.html#ga20f88dbc839eb32b5fec903474befdd7">GPIO0</a>)) {</div>
 <div class="line">*               process_gpio0_event();</div>
-<div class="line">*               serviced_irq |= GPIO0;</div>
+<div class="line">*               serviced_irq |= <a class="code" href="group__gpio__pin__id.html#ga20f88dbc839eb32b5fec903474befdd7">GPIO0</a>;</div>
 <div class="line">*       }</div>
-<div class="line">*       <span class="keywordflow">if</span> (<a class="code" href="group__gpio__irq.html#ga6526582457c0936b5a978b2548336610">gpio_is_interrupt_source</a>(GPIOF, GPIO4)) {</div>
+<div class="line">*       <span class="keywordflow">if</span> (<a class="code" href="group__gpio__irq.html#ga6526582457c0936b5a978b2548336610">gpio_is_interrupt_source</a>(<a class="code" href="group__gpio__reg__base.html#ga43c3022dede7c9db7a58d3c3409dbc8d">GPIOF</a>, <a class="code" href="group__gpio__pin__id.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">GPIO4</a>)) {</div>
 <div class="line">*               process_gpio4_event();</div>
-<div class="line">*               serviced_irq |= GPIO4;</div>
+<div class="line">*               serviced_irq |= <a class="code" href="group__gpio__pin__id.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">GPIO4</a>;</div>
 <div class="line">*       }</div>
 <div class="line">*</div>
 <div class="line">*       <span class="comment">// Clear the interupt flag for the processed IRQs</span></div>
-<div class="line">*       <a class="code" href="group__gpio__irq.html#ga0eff5e23114c6346aff26c0b275d7464">gpio_clear_interrupt_flag</a>(GPIOF, serviced_irqs);</div>
+<div class="line">*       <a class="code" href="group__gpio__irq.html#ga0eff5e23114c6346aff26c0b275d7464">gpio_clear_interrupt_flag</a>(<a class="code" href="group__gpio__reg__base.html#ga43c3022dede7c9db7a58d3c3409dbc8d">GPIOF</a>, serviced_irqs);</div>
 <div class="line">* }</div>
 <div class="line">* </div>
 </div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
@@ -227,6 +227,8 @@ Functions</h2></td></tr>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio_8h_source.html#l00369">369</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00117">GPIO_ICR</a>.</p>
 
 </div>
 </div>
@@ -285,7 +287,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00527">527</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
-<p>References <a class="el" href="gpio_8h_source.html#l00212">GPIO_TRIG_EDGE_BOTH</a>, <a class="el" href="gpio_8h_source.html#l00210">GPIO_TRIG_EDGE_FALL</a>, <a class="el" href="gpio_8h_source.html#l00211">GPIO_TRIG_EDGE_RISE</a>, <a class="el" href="gpio_8h_source.html#l00209">GPIO_TRIG_LVL_HIGH</a>, and <a class="el" href="gpio_8h_source.html#l00208">GPIO_TRIG_LVL_LOW</a>.</p>
+<p>References <a class="el" href="gpio_8h_source.html#l00102">GPIO_IBE</a>, <a class="el" href="gpio_8h_source.html#l00105">GPIO_IEV</a>, <a class="el" href="gpio_8h_source.html#l00099">GPIO_IS</a>, <a class="el" href="gpio_8h_source.html#l00212">GPIO_TRIG_EDGE_BOTH</a>, <a class="el" href="gpio_8h_source.html#l00210">GPIO_TRIG_EDGE_FALL</a>, <a class="el" href="gpio_8h_source.html#l00211">GPIO_TRIG_EDGE_RISE</a>, <a class="el" href="gpio_8h_source.html#l00209">GPIO_TRIG_LVL_HIGH</a>, and <a class="el" href="gpio_8h_source.html#l00208">GPIO_TRIG_LVL_LOW</a>.</p>
 
 </div>
 </div>
@@ -326,6 +328,8 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00590">590</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
 
+<p>References <a class="el" href="gpio_8h_source.html#l00108">GPIO_IM</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga6647e613abe8223c2e78f773dfa279ce"></a>
@@ -364,6 +368,8 @@ Functions</h2></td></tr>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio_8c_source.html#l00572">572</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+<p>References <a class="el" href="gpio_8h_source.html#l00108">GPIO_IM</a>.</p>
 
 </div>
 </div>
@@ -410,6 +416,8 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="gpio_8h_source.html#l00353">353</a> of file <a class="el" href="gpio_8h_source.html">gpio.h</a>.</p>
 
+<p>References <a class="el" href="gpio_8h_source.html#l00114">GPIO_MIS</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -417,7 +425,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:58 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

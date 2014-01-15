@@ -1,0 +1,6 @@
+<map id="i2c.c" name="i2c.c">
+<area shape="rect" id="node3" href="$i2c_8h.html" title="libopencm3/lpc43xx\l/i2c.h" alt="" coords="5,89,141,143"/>
+<area shape="rect" id="node10" href="$scu_8h.html" title="libopencm3/lpc43xx\l/scu.h" alt="" coords="165,89,301,143"/>
+<area shape="rect" id="node14" href="$cgu_8h.html" title="libopencm3/lpc43xx\l/cgu.h" alt="" coords="325,89,461,143"/>
+<area shape="rect" id="node7" href="$memorymap_8h.html" title="libopencm3/lpc43xx\l/memorymap.h" alt="" coords="145,193,281,247"/>
+</map>

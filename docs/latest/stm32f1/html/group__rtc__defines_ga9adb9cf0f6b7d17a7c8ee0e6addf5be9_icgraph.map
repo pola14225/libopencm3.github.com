@@ -1,0 +1,10 @@
+<map id="rtc_exit_config_mode" name="rtc_exit_config_mode">
+<area shape="rect" id="node3" href="$group__rtc__file.html#ga718b866eab2ba73221d37f7d15ba9737" title="rtc_disable_alarm" alt="" coords="211,5,333,38"/>
+<area shape="rect" id="node5" href="$group__rtc__file.html#gab7f69ee0de1cae2518b2822fd82d5201" title="rtc_enable_alarm" alt="" coords="212,61,332,94"/>
+<area shape="rect" id="node7" href="$group__rtc__file.html#ga4de126c91f7eedf70262a99e663a6fc5" title="rtc_interrupt_disable" alt="" coords="203,117,341,150"/>
+<area shape="rect" id="node9" href="$group__rtc__file.html#gaad0059f95046be4d158626cc0ed199fd" title="rtc_interrupt_enable" alt="" coords="204,173,340,206"/>
+<area shape="rect" id="node11" href="$group__rtc__file.html#ga3f53231bbbeef79acc322f2a6b045d3f" title="rtc_set_alarm_time" alt="" coords="205,229,339,262"/>
+<area shape="rect" id="node13" href="$group__rtc__file.html#gacd673063942c2bedededd5760e4764ff" title="rtc_set_counter_val" alt="" coords="204,285,340,318"/>
+<area shape="rect" id="node15" href="$group__rtc__file.html#ga1b2c2b6aa8879eb16f7cf3207587725e" title="rtc_set_prescale_val" alt="" coords="201,341,343,374"/>
+<area shape="rect" id="node17" href="$group__rtc__file.html#ga7693c69c9ff726487720b12576a20968" title="rtc_auto_awake" alt="" coords="392,341,507,374"/>
+</map>

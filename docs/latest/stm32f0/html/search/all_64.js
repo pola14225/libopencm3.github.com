@@ -156,8 +156,6 @@ var searchData=
   ['data_5falign',['data_align',['../group__dac__defines.html#ga3f15c2d8c2dcfbc06b58b09e4c2d7b3c',1,'dac_common_all.h']]],
   ['data_5fchannel',['data_channel',['../group__dac__defines.html#gaddb2a9646f5222113db5545109cc700b',1,'dac_common_all.h']]],
   ['dbgmcu_5fbase',['DBGMCU_BASE',['../memorymap_8h.html#a4adaf4fd82ccc3a538f1f27a70cdbbef',1,'memorymap.h']]],
-  ['debug_5fmonitor',['debug_monitor',['../../../cm3/html/structvector__table__t.html#a7bd35c699bccae1299b1f7dbdc049106',1,'vector_table_t']]],
-  ['debugging',['Debugging',['../../../cm3/html/group__debugging.html',1,'']]],
   ['desig_5fflash_5fsize_5fbase',['DESIG_FLASH_SIZE_BASE',['../memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1',1,'memorymap.h']]],
   ['desig_5funique_5fid0',['DESIG_UNIQUE_ID0',['../memorymap_8h.html#aaf41f46cf83d59e7f2b040c3ad7ed592',1,'memorymap.h']]],
   ['desig_5funique_5fid1',['DESIG_UNIQUE_ID1',['../memorymap_8h.html#a121c59863db1db56b26e70978089b931',1,'memorymap.h']]],
@@ -388,7 +386,5 @@ var searchData=
   ['dma_5fset_5fread_5ffrom_5fperipheral',['dma_set_read_from_peripheral',['../group__dma__defines.html#ga5e6948cc934466d0b26c6fffaecdb999',1,'dma_set_read_from_peripheral(uint32_t dma, uint8_t channel):&#160;dma_common_l1f013.c'],['../group__dma__file.html#ga5e6948cc934466d0b26c6fffaecdb999',1,'dma_set_read_from_peripheral(uint32_t dma, uint8_t channel):&#160;dma_common_l1f013.c']]],
   ['dma_5ftcif',['DMA_TCIF',['../group__dma__if__offset.html#ga6357e8c0fd2f815af82211abacb7bd3f',1,'dma_common_l1f013.h']]],
   ['dma_5fteif',['DMA_TEIF',['../group__dma__if__offset.html#ga641dfc0110f5f9aed33f8f8c78d7653b',1,'dma_common_l1f013.h']]],
-  ['doc_2dcm3_2eh',['doc-cm3.h',['../../../cm3/html/doc-cm3_8h.html',1,'']]],
-  ['doc_2dstm32f0_2eh',['doc-stm32f0.h',['../doc-stm32f0_8h.html',1,'']]],
-  ['dwt_2eh',['dwt.h',['../../../cm3/html/dwt_8h.html',1,'']]]
+  ['doc_2dstm32f0_2eh',['doc-stm32f0.h',['../doc-stm32f0_8h.html',1,'']]]
 ];

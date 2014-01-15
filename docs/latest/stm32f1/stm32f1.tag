@@ -7321,43 +7321,43 @@
     <member kind="function">
       <type>void</type>
       <name>exti_set_trigger</name>
-      <anchorfile>exti__common__all_8c.html</anchorfile>
-      <anchor>a8b05a3586764aeb0dd1366dd46616a65</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga8b05a3586764aeb0dd1366dd46616a65</anchor>
       <arglist>(uint32_t extis, enum exti_trigger_type trig)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_enable_request</name>
-      <anchorfile>exti__common__all_8c.html</anchorfile>
-      <anchor>acb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
       <arglist>(uint32_t extis)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_disable_request</name>
-      <anchorfile>exti__common__all_8c.html</anchorfile>
-      <anchor>a1752fef240fb05e1135548449943ce0b</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga1752fef240fb05e1135548449943ce0b</anchor>
       <arglist>(uint32_t extis)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_reset_request</name>
-      <anchorfile>exti__common__all_8c.html</anchorfile>
-      <anchor>aa86779017820fedee955563adc8b5f4a</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaa86779017820fedee955563adc8b5f4a</anchor>
       <arglist>(uint32_t extis)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>exti_get_flag_status</name>
-      <anchorfile>exti__common__all_8c.html</anchorfile>
-      <anchor>a80d89279aab6cc63a8141b7421cd2dd1</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga80d89279aab6cc63a8141b7421cd2dd1</anchor>
       <arglist>(uint32_t exti)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_select_source</name>
-      <anchorfile>exti__common__all_8c.html</anchorfile>
-      <anchor>a81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
       <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
     </member>
   </compound>
@@ -7368,281 +7368,254 @@
     <member kind="define">
       <type>#define</type>
       <name>EXTI_IMR</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a69ab94ebc8de242b77e596dd2bbcef49</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga69ab94ebc8de242b77e596dd2bbcef49</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI_EMR</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a4e9575b4d9ffe40c460aff68c928e497</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga4e9575b4d9ffe40c460aff68c928e497</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI_RTSR</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>aa38744d6066068db3e1d165af594133d</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaa38744d6066068db3e1d165af594133d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI_FTSR</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>ada970d90e15dafefbab3bb5b3a3530a1</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gada970d90e15dafefbab3bb5b3a3530a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI_SWIER</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>af2f1ba804ff20d23e6c2e78eccf7232b</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf2f1ba804ff20d23e6c2e78eccf7232b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI_PR</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>ab6c08bdd29b216dff011819b71328272</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gab6c08bdd29b216dff011819b71328272</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI0</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a77d55cf55a67ff5d43794d24f7cb9922</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga77d55cf55a67ff5d43794d24f7cb9922</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI1</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>abcd18cd089259e5c95d338adc4949821</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gabcd18cd089259e5c95d338adc4949821</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI2</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>ac1864c46eb6702208ff59e4ececd3776</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gac1864c46eb6702208ff59e4ececd3776</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI3</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a205d284100ff421b0b4b13fd5950d912</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga205d284100ff421b0b4b13fd5950d912</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI4</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a57183bff31f5cbbfbb5d24856c2ded44</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga57183bff31f5cbbfbb5d24856c2ded44</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI5</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a45517e7df564fbe372635ad985bb45cd</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga45517e7df564fbe372635ad985bb45cd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI6</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a2632bbf3e8339f3c752ef81ad39e669f</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga2632bbf3e8339f3c752ef81ad39e669f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI7</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a5038306ffbb0de285cdba9430594b581</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga5038306ffbb0de285cdba9430594b581</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI8</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>ae0d1ad40c69f700f52e10ade98a81094</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gae0d1ad40c69f700f52e10ade98a81094</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI9</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>af8f6b46d0fb67f0722f18a57bb09324d</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf8f6b46d0fb67f0722f18a57bb09324d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI10</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a817593ea889dea68dcf74434ad2ec311</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga817593ea889dea68dcf74434ad2ec311</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI11</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>ae951b07cf003fb3f2652843087057ed6</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gae951b07cf003fb3f2652843087057ed6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI12</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>aee672b592634fafdf6192753bd1eec07</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaee672b592634fafdf6192753bd1eec07</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI13</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a015e5403458c6ba88f552edf6a8e89d1</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga015e5403458c6ba88f552edf6a8e89d1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI14</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a557168bcf9644708d3ad1ee01c7fe54a</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga557168bcf9644708d3ad1ee01c7fe54a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI15</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>af9c95aa8bce16e9f9903a354fb0327fb</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf9c95aa8bce16e9f9903a354fb0327fb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI16</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a08c3a430730f8ed59b2a8f13259f2ad7</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga08c3a430730f8ed59b2a8f13259f2ad7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI17</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a70fa93598715b662d570d5e9f02add04</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga70fa93598715b662d570d5e9f02add04</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI18</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a46d5e165580f7e0d8a32500b68682d19</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga46d5e165580f7e0d8a32500b68682d19</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>EXTI19</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>abd3c95edc24047d4d80a4451978d1d77</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gabd3c95edc24047d4d80a4451978d1d77</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
       <type></type>
       <name>exti_trigger_type</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a217058c9ab9a27e3f4f197ca7889623a</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga217058c9ab9a27e3f4f197ca7889623a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>EXTI_TRIGGER_RISING</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a217058c9ab9a27e3f4f197ca7889623aa7db3c45e92eb0cccfca0fcb33485e1bc</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa7db3c45e92eb0cccfca0fcb33485e1bc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>EXTI_TRIGGER_FALLING</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a217058c9ab9a27e3f4f197ca7889623aa93d62734fb59270daa09a14c5c040f5c</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa93d62734fb59270daa09a14c5c040f5c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>EXTI_TRIGGER_BOTH</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a217058c9ab9a27e3f4f197ca7889623aab7646e3e5a3134431c4c58306f0d3f72</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aab7646e3e5a3134431c4c58306f0d3f72</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_set_trigger</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a8b05a3586764aeb0dd1366dd46616a65</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga8b05a3586764aeb0dd1366dd46616a65</anchor>
       <arglist>(uint32_t extis, enum exti_trigger_type trig)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_enable_request</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>acb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
       <arglist>(uint32_t extis)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_disable_request</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a1752fef240fb05e1135548449943ce0b</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga1752fef240fb05e1135548449943ce0b</anchor>
       <arglist>(uint32_t extis)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_reset_request</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>aa86779017820fedee955563adc8b5f4a</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaa86779017820fedee955563adc8b5f4a</anchor>
       <arglist>(uint32_t extis)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>exti_select_source</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
       <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>exti_get_flag_status</name>
-      <anchorfile>exti__common__all_8h.html</anchorfile>
-      <anchor>a80d89279aab6cc63a8141b7421cd2dd1</anchor>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga80d89279aab6cc63a8141b7421cd2dd1</anchor>
       <arglist>(uint32_t exti)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>exti_common_l1f24.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>exti__common__l1f24_8h</filename>
-    <includes id="exti__common__all_8h" name="exti_common_all.h" local="no" imported="no">libopencm3/stm32/common/exti_common_all.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI20</name>
-      <anchorfile>exti__common__l1f24_8h.html</anchorfile>
-      <anchor>a7442c6138768b6f9063aa06339f4f018</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI21</name>
-      <anchorfile>exti__common__l1f24_8h.html</anchorfile>
-      <anchor>a5424e78536b2ad7c9286dd4a25aa2fbb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI22</name>
-      <anchorfile>exti__common__l1f24_8h.html</anchorfile>
-      <anchor>a106b779d4271f872067630bfd4b2ae64</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -8199,135 +8172,6 @@
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>gab759a6e89a54cfb15a60c0e8f4eb66df</anchor>
       <arglist>(uint32_t address, uint16_t data)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>flash_common_f234.c</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>flash__common__f234_8c</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_clear_pgperr_flag</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>ga05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>flash_common_f234.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>flash__common__f234_8h</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga17131472a9863dc9ef3fd97ec5b4dafc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_KEYR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga2973b6c10e5a02be98c7917ab8d57f6e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_OPTKEYR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gad6329e3fdd2b67f6f6492ccd5078712f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_SR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga2899915141a0fbc7a0c6bfa34e04b2fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga900ab18dd1277874aca0524b9a482fe0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_0WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga936324709ea40109331b76849da2c8b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_1WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaec66af244e6afb5bbf9816d7c76e1621</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_2WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gad9b09ca8db6df455d0b8f810f8521257</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_3WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga3437dcee177845a407919d3b2d9bd063</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_4WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gad3594f2a9e12213efe75cd7df646e1ad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_5WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga67e55ca49f028a701d0c81420a6e2918</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_6WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga3019ff197b4fd698e9625c9abb67f4be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_7WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaa164c6e6fdfcae274a84dc87ca87b95e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_KEYR_KEY1</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaf75755c3dd5d4157820e95378ae7bb47</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_KEYR_KEY2</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gacb42e782d41d363a3bc986d45962f2ac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_clear_pgperr_flag</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
-      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -12242,831 +12086,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>gpio_common_f234.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>gpio__common__f234_8h</filename>
-    <includes id="gpio__common__all_8h" name="gpio_common_all.h" local="no" imported="no">libopencm3/stm32/common/gpio_common_all.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>gac485358099728ddae050db37924dd6b7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>ga68b66ac73be4c836db878a42e1fea3cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>ga2dca03332d620196ba943bc2346eaa08</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>ga7580b1a929ea9df59725ba9c18eba6ac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>gae04bdb5e8acc47cab1d0532e6b0d0763</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>ga43c3022dede7c9db7a58d3c3409dbc8d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga195c3bc236697df00c95ce4d48fa0c99</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga1234035224d2d22cd6be76a5ee04cf02</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaffac2caec05d40f61f7e4b3aef5ff2a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga358ff7fc1e547fed6740a6075bc45084</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga0299d708e570b48d178fdf61e6f8e580</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabff95422edbcfee3124cb5ed8375ad7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae677d09e91324da86cf4348d7a7bf032</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga6593216a84b6e7ff49b40a03c7cd8415</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab25fd19daee4d052acdfc1654397a7a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaef9c290201f1348720bf7716e32b0ce4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga38d3fcef1b5894aecbf6b5dada26f6e8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga0f806fb737414df49fd531680704e6fa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gafd9a9926157ad07dd8ef075292a293b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae83f26bac321676ed8dfcfc1331e25a3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf758e94d5da9ad767e177a6e8282cc2d</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga97dfd3e873e70dc25ffb556afc6e4785</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga909ebebbc8de2e518c95c538c38b6149</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gad3fe45a8267fad498bf589285cfc9474</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa4a028b779467dd6d391a4d9ea573967</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga89d67b621ca43b4b3f37d2e534ea865e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga7ce009e7a807741d92cb81ca3f0befea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga3f21afe95af40c42718810c7fe36edd4</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga60bf8df26535bc0db4575c84798c81a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaad6e9cd5fa8d64c77af952d14e456b3c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabfbeaa765be118f55fdb52b72a319b08</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gafa5b16fcac95c1fc0170c320db14fcfc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga58798473c89319609839e164b5960971</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga6dfbea535dac35864fd1a087ed45aed9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga88f7dcdd8e8cd53b79d0a9ed12f093a6</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga3aa34ada5c781e9016373b125ba3cb9b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8d4fd0ff69da08c3697646d1213b75d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaeafc11f32ee218ab815c1923c76579a8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga446a27be5b79e7435f30b91e8621d858</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae14aef9955044122b21c7e6b1d4bc431</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaed7630938e62a3472ad7058a712ab5f8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga58655e9db856a8f3208e388814db2de1</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga01d6d1f0b029ae3da79df62eb4f7a69a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga08db1d3769d2fe400cffb74e32b67a9f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga54cf46cdf41330942c4279c05bab3af1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga392890f38814540d2765aafddf347f02</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga32f74d710d56aa85ef0cc849865e9f8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabf345308772c3302ee16721bd818f2f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab21923f1cd8a9fc3721b26c67cd2a889</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8f16199899812596623780a3bcc46849</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga655fb7f4dc9f0c07c004e559c9697796</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga88dcc56c201f13d73e5073857af6aeb5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga2e40db970b04f13b374e5fb81c9adf0b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaff510c97b42d4f4fe7dc02b960823750</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga037118b355c863a07f4fb84fadc79e4d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga5917bb16212870dc89a81b853252f92c</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga25f77abfd13bacb790f5f4c55c26c23b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gadaf97a0f44fe98a9560992c6bcd9a251</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab4cbc24f396d90772bb98a68b1f07ae4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8d2bb163aba2864ca5376c785a9b52ff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga35b53807fdef76084d0af95975b53abc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga24e6c4f336806b3cd0b0a107b185d9dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga220778dae242f3d90e425c2c7a32fe9b</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga76606f8249e2d759341614b68d15e59a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga0cc032e9f6ef15987dc73d22c28ef8a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab3de5d2fee186828a759107986698b86</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga3ae6d2c5fbdd0df93431d9c1219d799c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga863f2453da88e20391776c1374b59ad1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf8c71580243ce9fbce9e4d5542d9a747</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga0165c7e5dacfd64c4223ede13f3f49e8</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf2832a0e3c91b018047fc435eb19be3e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga21a95808a795917e81ed46466865ace0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gad0737f58535843511d33c0d749f73f1f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga743fc2750d31b06c6c20dfbaf09100fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gadc545a5690c7a85a225e8801feaa38dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8fff3b87946e745bd0f7f38a0dbabbfc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabcdf6bf699d1ed7ecdb990cc20ea97dc</anchor>
-      <arglist>(n, mode)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_MASK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga2feba6285ccd987896fe1bba82990add</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_INPUT</name>
-      <anchorfile>group__gpio__mode.html</anchorfile>
-      <anchor>gaf40bec3146810028a84b628d37d3b391</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_OUTPUT</name>
-      <anchorfile>group__gpio__mode.html</anchorfile>
-      <anchor>gaca6eb0cd4dbe7402497829badacfa6df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_AF</name>
-      <anchorfile>group__gpio__mode.html</anchorfile>
-      <anchor>ga96a5633f64cdb6a83cd77ce44adc3b82</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_ANALOG</name>
-      <anchorfile>group__gpio__mode.html</anchorfile>
-      <anchor>ga7a04f9ab65ad572ad20791a35009220c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OTYPE_PP</name>
-      <anchorfile>group__gpio__output__type.html</anchorfile>
-      <anchor>gaf1281bd13a0f400c75ae55f8ca705e34</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OTYPE_OD</name>
-      <anchorfile>group__gpio__output__type.html</anchorfile>
-      <anchor>ga791ebbd755e6497dc96a855ad63f82f8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gace95963eed66db5185437b6f8c52360e</anchor>
-      <arglist>(n, speed)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_MASK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae9fabfe2cf725c75240d7c7c14c6e995</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_2MHZ</name>
-      <anchorfile>group__gpio__speed.html</anchorfile>
-      <anchor>gac187d6cf154374918a3c06adffc394cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_25MHZ</name>
-      <anchorfile>group__gpio__speed.html</anchorfile>
-      <anchor>ga30c567422df45ed461831900415c71fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_50MHZ</name>
-      <anchorfile>group__gpio__speed.html</anchorfile>
-      <anchor>gab660cad7f0a56972879dfaeb9cb2dd7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_100MHZ</name>
-      <anchorfile>group__gpio__speed.html</anchorfile>
-      <anchor>gaecfcc34d423c790eba57eebbdf14f322</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga266965efec2c9d607943c8b0c94e07b9</anchor>
-      <arglist>(n, pupd)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD_MASK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf9a01750c2af4c3780787449f3377d79</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD_NONE</name>
-      <anchorfile>group__gpio__pup.html</anchorfile>
-      <anchor>gad53ebddfcc3973120b1c0271423f131e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD_PULLUP</name>
-      <anchorfile>group__gpio__pup.html</anchorfile>
-      <anchor>ga264ec1394a2217031267aa4f1967ed2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD_PULLDOWN</name>
-      <anchorfile>group__gpio__pup.html</anchorfile>
-      <anchor>ga00bee089916bc2dcc46a6513f50a6d6b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_LCKK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabb9a59447b681234fadf66bd3f0fdd57</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AFR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaec03a89a1fbf7609e860c0ae43a216d6</anchor>
-      <arglist>(n, af)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AFR_MASK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga29a8e26664ee706e77f21d2ede4fd31a</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF0</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gab9c7d5d4b56cea62509068bee1395bd2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF1</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gaf9203749b609546ef5b3358ac744afc0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF2</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gae90a79c045fcbee1559745891e1ead8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF3</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga7afac677768ba50f3f2667c996c53772</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF4</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga5e574af903fe01c85ec2ece496c280a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF5</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga604ed146ad823719c981f855fb363047</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF6</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gaf5ff57d2d962cbd0c2457c2f91eb27be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF7</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga800b04473ead3f8c959315bbbbc93eb6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF8</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gac832d890950c1e5e99e8090829303ac5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF9</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga5976a97cba5848fba316456534fbd555</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF10</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gabd7cde73c21830dd54cb87884091e19f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF11</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga9466b2af86dae45d49b8e76f40565b85</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF12</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga134f840f4efbdb994ea47eecde306153</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF13</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga0779d3cff751db7fe6aa11a4bf47d48f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF14</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gaf7773d46c38028bf31f73c4adb37556b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF15</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga6d376657d66d0a5939629b1722b27279</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_mode_setup</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga733d745a0b6840f22b516979ce7a92c9</anchor>
-      <arglist>(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set_output_options</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab05e7f5b963f49c7442a69e5999f9319</anchor>
-      <arglist>(uint32_t gpioport, uint8_t otype, uint8_t speed, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set_af</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga2937f803468b3440302fae213c4c3c14</anchor>
-      <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>i2c.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/</path>
     <filename>i2c_8c</filename>
@@ -15697,168 +14716,168 @@
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3465fac46f8d87fc7e243765777af052</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga8f7780f390ef4cbb05efa06554ba0998</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga10536e1ad45c689f571d5de3d7b3de55</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_APB2RSTR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaec8fff978fdbc3903c85e1bb5b4fa698</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_APB1RSTR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga758db6d69dc2816cd403e5361ab124f2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_AHBENR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac80336b2b7c3c43e36370c84ab122b1f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_APB2ENR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6d4cd87f49d551c356fed82cbbddc5a4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_APB1ENR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad4baa1f26b04719fe3d4e2f02d7dde40</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabd13837c4c33c5df3bdff96f8886d438</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6e483b8da7b5a5da25e9a745bb19f6ec</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_AHBRSTR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad97b07e757b67cb8711ca5d20ea8ad3e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga64199667e9ebcac6859f3f9c275fc7d9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLL3RDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3ea07157abac14618b2ac3f2e9bfa9b9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLL3ON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7e7f10468741ab47dc34808af0e49b2b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLL2RDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga24fa002379ec3fd9063457f412250327</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLL2ON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga250f64c1041b823f2bd5dbbb4c54a2d5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLLRDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gafa12d7ac6a7f0f91d066aeb2c6071888</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLLON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad0e73d5b0a4883e074d40029b49ee47e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_CSSON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacc05308869ad055e1e6f2c32d738aecd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSEBYP</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa3288090671af5a959aae4d7f7696d55</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSERDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga86a34e00182c83409d89ff566cb02cc4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSEON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadb8228c9020595b4cf9995137b8c9a7d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSIRDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9dbac3f2bc04f04ebafe1e66ae3fcf0d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSION</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaf4fcacf94a97f7d49a70e089b39cf474</anchor>
       <arglist></arglist>
     </member>
@@ -15942,14 +14961,14 @@
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_USBPRE_PLL_VCO_CLK_DIV3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9ed985d9488fd0a558ee5be632a86744</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_USBPRE_PLL_VCO_CLK_DIV2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga66a295e433f36c83f511a7ac3e74453a</anchor>
       <arglist></arglist>
     </member>
@@ -16264,21 +15283,21 @@
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_SWS_SYSCLKSEL_HSICLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1b39857ee3bea562521b9dedee8de7a0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_SWS_SYSCLKSEL_HSECLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3c892bf770b3b7c2b55bf1b6b9d9c35b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_SWS_SYSCLKSEL_PLLCLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadcc8b3374113007079d1aafaaf896825</anchor>
       <arglist></arglist>
     </member>
@@ -16306,161 +15325,161 @@
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_CSSC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga46edb2b9568f002feba7b4312ed92c1f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL3RDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa2657f572e9f24f599f8fd9ec9453718</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL2RDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadc7fabc8e19c3085b93190142655ff28</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLLRDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga245af864b194f0c2b2389ea1ee49a396</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSERDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9464e8188d717902990b467a9396d238</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSIRDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad1b58377908e5c31a684747d0a80ecb2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSERDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga144b5147f3a8d0bfda04618e301986aa</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSIRDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga982989563f1a95c89bf7f4a25d99f704</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL3RDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9459caf4aa04950627a7f9aace92d6c1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL2RDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga76d5216c09e764ecd88869ae06377351</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLLRDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1b70927cab2ba9cf82d1620cf88b0f95</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSERDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga5492f9b58600cf66616eb931b48b3c11</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSIRDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac714351a6f9dab4741354fb017638580</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSERDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6a0ad2672c9ba1b26012cbc6d423dff8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSIRDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga872ba937149a7372138df06f8188ab56</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_CSSF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad66b719e4061294de35af58cc27aba7f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL3RDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga90cb7241f48c9caa1c569644b59e2e17</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL2RDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad77508f4113577c9cbdce5fc50cfcb9d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLLRDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga0f007895a17e668f22f7b8b24ca90aec</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSERDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga11ea196450aac9ac35e283a66afc3da6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSIRDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad38877547c4cbbb94659d5726f377163</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSERDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabfc100e7ae673dfcec7be79af0d91dfe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSIRDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacb94ccfe6a212f020e732d1dd787a6fb</anchor>
       <arglist></arglist>
     </member>
@@ -17062,98 +16081,98 @@
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_BDRST</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2b85b3ab656dfa2809b15e6e530c17a2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_RTCEN</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga79ea6f2df75f09b17df9582037ed6a53</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_LSEBYP</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga542dffd7f8dc4da5401b54d822a22af0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_LSERDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaafca81172ed857ce6b94582fcaada87c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_LSEON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga00145f8814cb9a5b180d76499d97aead</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_LPWRRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga675455250b91f125d52f5d347c2c0fbf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_WWDGRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacabd7bbde7e78c9c8f5fd46e34771826</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_IWDGRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga22a7079ba87dd7acd5ed7fe7b704e85f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_SFTRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga16e89534934436ee8958440882b71e6f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_PORRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga837e2d7e2395ac45ebe2aea95ecde9bf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_PINRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4e26d2902d11e638cd0b702332f53ab1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_RMVF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gafc26c5996b14005a70afbeaa29aae716</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_LSIRDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gab569110e757aee573ebf9ad80812e8bb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_LSION</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga803cbf97bda1ebaf9afee2a3c9f0851b</anchor>
       <arglist></arglist>
     </member>
@@ -17174,1519 +16193,1519 @@
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_I2S3SRC_SYSCLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga688695acc883e66c30c3c38f6131c796</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_I2S3SRC_PLL3_VCO_CLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga415eaff0e448cde7adfb7c1014711862</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_I2S2SRC_SYSCLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9e24c3d1ff8857bd2dd21302eb228c47</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_I2S2SRC_PLL3_VCO_CLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga84741a7e4d0d974e1fbb80718dee378d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV1SRC_HSE_CLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1dfd5260c132d0d85e06be0cda8b6996</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV1SRC_PLL2_CLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga017674a2614bb741ddf187bbf6ebbb5f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga80323743f310bf9836ef1374a0e47425</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga02260a8205d4b876dcef7fb57569b6e6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga29c2e4e6138d343351d8d234178b407b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga78f06a7233454e784fd122fe24a0f6d7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3ac4a0d55d9114dff5b5c194334849d6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa29ea494093701ee7f9e266ea02f82b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga151d395e54ca4ef56d63e68aa1af4d5b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7f1369a578c72e31c63b447ad3375d53</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad3e9845f7508f743092922937c586eaf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad17c84d82ccfb1231af5a8e58510ad7b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacc13de3bb440446de2697a12f2ae602a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL20</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga59542e4de3b134396f847aa7255d11fe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1195141f8cc44ef3f2b61c1e6208feff</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga61d62046329e0e6f39de67874d0f2b80</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga96e5ea3a79529110cf002929fb61593d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaffb5109f7eba9988568e5047a6c16720</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga15ff4e94a07086cf706b6d160ebcd130</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae489a738b93f2b17edce892834cf5c71</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa053ec389f053d2b980a037b0450e997</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9188dab3a5e82734ea75888c4be08223</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL20</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae88afcd043f6ae31d055b0e862a10adc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_NODIV</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga8a587751e0aa065d5cc0597ddafcbe2f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga8beaa356ccf238b4f9d8ef61dbeae7b1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga554c3890138f4fabc86af31ec7508f26</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga03989668fed9fe564f60fb13cfcae681</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga51d5a6f6ad3d9865ed8b6ab562c254d0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV6</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad76c4165380e49e9d9784e7bf5fab1b6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV7</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa63b565a6b48cee1ea49a0be9f2f9185</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga25aec8f8ebb84c4716db308dc179339b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga97a9c6bb08a63295636119df733d0f9f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2b94190a5066c1679c7d82c652536445</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac9932904c30e68bb7b52cea28cbeae69</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga5402db0b8522c06ce3e1ff6813a508f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae35fc61c8c5b86c6b1d484a132bb3e45</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7d58f429410f5aaa9475a3a4b63492bc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV15</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga579a0cc7dcca708fef65e3217c55666e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga95d845a26c3d1e98a883e6e1007c401e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_NODIV</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga25973f81620adc104dc81c726fd6e7cb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1713c33cac3cbbb7db662565b5522f66</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4fe9c72ed41134d0949fa8dff900ab9a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaeced6d5efa836ce65a07118e5b4ddece</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabf21dbdc54c80f40bcf9f9c7ed3563e9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV6</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4fe5ecac82418c2b93632986669d6ba2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV7</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadc4a6cac4e28b2031391f57954894399</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga44fab2ce7085f913ab04a5b8bdd2b201</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga091cc112601a0cc5500f1f1a2e8936a7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac11c72c60ca011844875b4be8f1085f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga64511610b9e7d177503c09a075ba566d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaf0f9dbdba62c75e8162072d64037aa50</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac3ba9062bdaa5dacac8c28a949db7017</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad6aee9f108e92eaded7f71910a13e3a9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV15</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabc0dc66cb6f2e90143262de87c6ecd63</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga60a0120fe28c17e84b20bf25b269a838</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>_REG_BIT</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga859a9ba8fcc7c60a0f7dfd5865001f08</anchor>
       <arglist>(base, bit)</arglist>
     </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_osc</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga68c2b48bd51903ccf423c86458194354</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>PLL</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354a5c7fe827c28117f11dd14f9197d7d5a2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>PLL2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354a98d505f310a7a1e3a1cb888397e8b456</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>PLL3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354a2be1996c2c7e2cdf1e614e4f9a18f10c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>HSE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354a744bf841212e605b891f8ced6e20eb43</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>HSI</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354aae2bb333077d91b3c2aa75978f89e084</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>LSE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354aa07a47bdd221bde7ab7f08d41c03de40</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>LSI</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354ac59b221b111954833c988555d5972f88</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_periph_clken</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga54c7db24941f636ee238833c481ada48</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_DMA1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ad3c1b4bd4d4910ad45903d70ce99c546</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_DMA2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48af6727266dd80b08123851bd3fc641468</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SRAM</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a7de81948facbcf4690488d21bc3d6cab</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_FLTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a8c99d9dde06648a740f4b14f3f62ce1e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CRC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a667709fea2f55d81d0084c0ab6cd7346</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_FSMC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a14682a077f8b751228b73025036856b0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SDIO</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a1df9684e164cf1ce919d187c0dde60d3</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_OTGFS</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48af11d38142f46991ffecaa2ca735778b0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ETHMAC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ab92887f75603288e1a12139abdd36d39</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ETHMACTX</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a9e811d3598fe9084d0ffd18cda24daae</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ETHMACRX</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a68cdb36631234ebcd7e04bf58e2edd3b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_AFIO</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a68345b3ee59e805471c4580e1cc011fa</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOA</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOB</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48abe0e8ee9db293583511579bffd694b6c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aca99d40a98c0cccaa8dd4a5eb8422dea</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOD</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ade83c8caa918ccda0766791076460d1e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aecccb0767e9ec411349051aa5f055779</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ac2a10a31a77eac6a9e5ef9b59397abf4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOG</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a5db55f45d23bd84c2e4b9a36c7cdb57e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ADC1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a81b9534841bd60ff16455a28481d7a14</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ADC2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a777ad0506337d6e993f2806a9c6e6e67</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a246489e2827e54e0c0e6d4d1296c362e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SPI1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a04b8e39ee8c4a6c9e662349b1b45f0b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_USART1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a6f9bc1664f1972e622f9228606caa3b8</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ADC3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aa6241e9482735ceb39aac86fcf16181a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM15</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ae3a47230b9ec6676e820e933c28e86f5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aa4fc95bd30dc3fc9b3f1502c1a3c983e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM17</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a3e32bf0959893de29f3408d7668cdfb3</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a1080e5712f2404522fd82852ea3c655a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a6023464e8d05064abba394b800100198</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48afdfa75bcb6a2c9c90db9ec4460ebff1e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a4d961657b29cd6920dec7df1d6a024e6</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a7605ac255d1f7e3fd0c21907b17bba66</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aac4c56a3d869baf25b0434beed0e9ff5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM6</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM7</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aa6a4aed50fc2fb9a4ecd4a6dc655652d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a7e33c22a28dde91ac18e1df1b2c3e097</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a6ba31ae3057d17367fd3db48eea02709</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_WWDG</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a1965878d5b5e1b68e85a92ad2da94514</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SPI2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a191f2ba3eea4493bbfa449bb9e61f99c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SPI3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ad70ccc847d7804abe857efa22e0ab952</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_USART2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aa4be48dd043f5d74f5e4eb9d2516b87b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_USART3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aaa823140b93403c8dd3395bc5b510155</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_UART4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48acddaf98763a8dc6edf0b69c983becfd7</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_UART5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a0d7a994107ab9af33f9bdbda74ec4685</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_I2C1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_I2C2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_USB</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a965e89095cbc1ef346c32f30f885d793</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CAN</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a103d2ed58a3babf641fbe9a3654ab534</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CAN1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a61b240aefa01d614e06844f5b5943dc9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CAN2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a29d2eb8498d986928d42dd05ca0eefbc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_BKP</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48af5ce5f48d1a40ea29eaacc30c623e048</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_PWR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a653354e7670b00648bd46782e60a780b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_DAC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48adbda7bdfe6f47cc2b36f5ea78d9b56d4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CEC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a38ec1bc547ec4365ee3c3ec7054d33e7</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_periph_rst</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4bd6185a4613aaa3ee5447c3d86ba718</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_OTGFS</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8091fb612cbbee46d5c161e23c6c93a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_ETHMAC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a83c81184087f13efd80f2a498d4ae275</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_AFIO</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a925aae13d2f35f9073264f2e0710b7f9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOA</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a82de36d9219d3b7a8f6e24f7b037d4c5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOB</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8607fa69d38f8dd406daebb7bf9b8b26</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a847595db9011d5989097e67215f3f208</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOD</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9fed32b2a96d4647ea73ba7926f1121e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab720e4e6239cb85e2736a4f022e4f64b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a61956334f17966ab11993869be4e2ebb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOG</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3f01ba2712eceec7b7dca34c9e261a4d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_ADC1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a49afbde70605d4da05d71727d5ce33bf</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_ADC2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a287b0f48e26a03c4171f26c2b7f9c21a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a865f6b809c4016955e290f5c569c85bf</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_SPI1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a28ffb322497d5b858fe69ea8551458fc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6e18446cb73c6b9518ba4045f16e9231</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_USART1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acd5c7eeeda3799f89bc3da7169384bf1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_ADC3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a42c6c021ecd4a466e8265505ce527efd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM15</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6f8e727fd562ebbb67b2547a813bc9d2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a56608e4906289387152b2f5aa4babef5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM17</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7a19340ece9a89667b6b124f47bc288e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6bdfc0080866294c7abbe0a905b1c0f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7d8a4872c50c02f19764a20d6a649ec0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8d64dfed0d3f86ac59970a1bca110ba</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a11cf678a1931bc3f8ecd22fccf1304</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa94b0829d2505a3d916a3b7bb8e95361</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aac5933e47e7e98b7096193edfe4bf08a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM6</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM7</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7c9f088db1db27834777eceb0592f8f4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a955bf101b2ffaa7c39dfad28a8e742f1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a618551caa5dd22af8f9c790284fb9247</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_WWDG</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad38183e2f4809aa13b2c149b9158cdb1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_SPI2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6a2dd34c8278fd2019d4aab6d7dd91fe</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_SPI3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8c3208aa283eea369bdb2697cbe6dff8</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_USART2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af2ed5025a1c665196870ac061ffafd24</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_USART3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a909ada79d50eabe177c087ae3db578da</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_UART4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6db8b2fc3c699ae1b93d0e7e04b16265</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_UART5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab1495852f5070c5924815d26636035f2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_I2C1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ae083a448a99ae23e788c79d45f2f0fae</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_I2C2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aba0770678558545d59794049b4ea57f8</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_USB</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa268cf3f3421fb383cbd85b70f1f487c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_CAN</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa2e28f01ba83fc92884b9fafc9de413b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_CAN1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ac69e521b2ffa74210da31d7ea0f11b75</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_CAN2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a35b98b94389d1e5928c882b9320eab</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_BKP</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a94354fbf0c2f97795b770c6389dedcf9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_PWR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acaed17a5e312de489708c67c9933c044</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_DAC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a90b3f78831d25a6f6291744bc0eabd45</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_CEC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a311d0176ee435d5b7b0281908743b88a</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1c96c4bce0fe924171980aa993d2a0af</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_enable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6507734e493649ea262e10a511581d67</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_disable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7f7d1d31caae583cd72443e35885902b</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>rcc_osc_ready_int_flag</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga01c3b6e7aee2cee13506e3f555539008</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_css_int_clear</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gab1b45443e00d0774628de632257ba9f4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>rcc_css_int_flag</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga0d3d34d807e0934127960914833a1b4d</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_osc_ready</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_on</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga81b16ade2e5d6e024f36e3d568a9fd97</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_off</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga89d079556639549018fbd8d66cf5fc20</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_css_enable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaddb943f9f25dc2df52890c90d468f373</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_css_disable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2297cce07d5113023bf8eff03fc62c66</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_mco</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
       <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_bypass_enable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3bccfeb2f4364e18997cbd88e2476270</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_bypass_disable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga5fbe4bc4ca1447fff06e4490f655367e</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_sysclk_source</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
       <arglist>(uint32_t clk)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
       <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll2_multiplication_factor</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga648726dbed9b010d181306103c9eb51c</anchor>
       <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll3_multiplication_factor</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga548fdeeacbf0c2199b0851a8c71ff872</anchor>
       <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_source</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2f2bd45ad9c8b32e0fe5affe9bf181bf</anchor>
       <arglist>(uint32_t pllsrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pllxtpre</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae307406af5f22597be382a3eecc7b54b</anchor>
       <arglist>(uint32_t pllxtpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_adcpre</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga190cb3bbb95d687334d00e15bfab5b56</anchor>
       <arglist>(uint32_t adcpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac40c9478480f3a44c381c15482a563cd</anchor>
       <arglist>(uint32_t ppre2)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaaf1b9174131b00a7014c0328a53a65a1</anchor>
       <arglist>(uint32_t ppre1)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_hpre</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
       <arglist>(uint32_t hpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_usbpre</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad434015520b42043657d7478f8308c37</anchor>
       <arglist>(uint32_t usbpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3002a6fe10a813069b1d13c98c0a6da7</anchor>
       <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3a206a5322c1c6f7737654e13a01c6b8</anchor>
       <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1_source</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2ce7e31318695e354e955004c0050a85</anchor>
       <arglist>(uint32_t rccsrc)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rcc_system_clock_source</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3373359648b1677ac49d2fe86bff99b7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hsi_out_64mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae75d09f5953c113b10c266937e0d36a7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hsi_out_48mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadd6354a9a1404b23b5baa00b51b03cc2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hsi_out_24mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga63c14a3f3ed2799c6ad21564f97d0e99</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_8mhz_out_24mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2a1d0a3e6272c2268ed5b560fb37262c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_8mhz_out_72mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7de5e411afdd8f22d01d91613acfc844</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_12mhz_out_72mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae6012c8bf33f8cfa406a37ef88e9a47b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_16mhz_out_72mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaec148e144431957a5a0dff4d3ce581b1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_25mhz_out_72mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae61f5759a5cbcd628e873e951ade7f1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_backupdomain_reset</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa02e63deae78644c393004fb900fe584</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>rcc_ppre1_frequency</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga71455852cfe7420e0c33a63e0e09c4e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>rcc_ppre2_frequency</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
       <arglist></arglist>
     </member>
@@ -18712,64 +17731,64 @@
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_enable_clock</name>
-      <anchorfile>rcc__common__all_8c.html</anchorfile>
-      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
       <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_disable_clock</name>
-      <anchorfile>rcc__common__all_8c.html</anchorfile>
-      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
       <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_reset</name>
-      <anchorfile>rcc__common__all_8c.html</anchorfile>
-      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
       <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_clear_reset</name>
-      <anchorfile>rcc__common__all_8c.html</anchorfile>
-      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
       <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_clock_enable</name>
-      <anchorfile>rcc__common__all_8c.html</anchorfile>
-      <anchor>a90aa2b7801b2b42debc0536d38c5b07c</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga90aa2b7801b2b42debc0536d38c5b07c</anchor>
       <arglist>(enum rcc_periph_clken clken)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_clock_disable</name>
-      <anchorfile>rcc__common__all_8c.html</anchorfile>
-      <anchor>a87325ef1019f246cd84ba8aa73100721</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga87325ef1019f246cd84ba8aa73100721</anchor>
       <arglist>(enum rcc_periph_clken clken)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_reset_pulse</name>
-      <anchorfile>rcc__common__all_8c.html</anchorfile>
-      <anchor>ae8846a0bf49a46bcdc10a412bc69ee58</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae8846a0bf49a46bcdc10a412bc69ee58</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_reset_hold</name>
-      <anchorfile>rcc__common__all_8c.html</anchorfile>
-      <anchor>a6f3e2843e5d017717da66599ccc5daef</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga6f3e2843e5d017717da66599ccc5daef</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_reset_release</name>
-      <anchorfile>rcc__common__all_8c.html</anchorfile>
-      <anchor>a08aceecc3bebdf33119e8d7daf58b573</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga08aceecc3bebdf33119e8d7daf58b573</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
   </compound>
@@ -18780,64 +17799,64 @@
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_enable_clock</name>
-      <anchorfile>rcc__common__all_8h.html</anchorfile>
-      <anchor>aaf3dd53c1ced02082fce0076976547a8</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
       <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_disable_clock</name>
-      <anchorfile>rcc__common__all_8h.html</anchorfile>
-      <anchor>af9fddc20e14204db6d4a4a54132d191b</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
       <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_reset</name>
-      <anchorfile>rcc__common__all_8h.html</anchorfile>
-      <anchor>a3779f1460275e6788f706c61d7f77205</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
       <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_clear_reset</name>
-      <anchorfile>rcc__common__all_8h.html</anchorfile>
-      <anchor>abb1b312c6db8db25447460742dcdb566</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
       <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_clock_enable</name>
-      <anchorfile>rcc__common__all_8h.html</anchorfile>
-      <anchor>a90aa2b7801b2b42debc0536d38c5b07c</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga90aa2b7801b2b42debc0536d38c5b07c</anchor>
       <arglist>(enum rcc_periph_clken clken)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_clock_disable</name>
-      <anchorfile>rcc__common__all_8h.html</anchorfile>
-      <anchor>a87325ef1019f246cd84ba8aa73100721</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga87325ef1019f246cd84ba8aa73100721</anchor>
       <arglist>(enum rcc_periph_clken clken)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_reset_pulse</name>
-      <anchorfile>rcc__common__all_8h.html</anchorfile>
-      <anchor>ae8846a0bf49a46bcdc10a412bc69ee58</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae8846a0bf49a46bcdc10a412bc69ee58</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_reset_hold</name>
-      <anchorfile>rcc__common__all_8h.html</anchorfile>
-      <anchor>a6f3e2843e5d017717da66599ccc5daef</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga6f3e2843e5d017717da66599ccc5daef</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_periph_reset_release</name>
-      <anchorfile>rcc__common__all_8h.html</anchorfile>
-      <anchor>a08aceecc3bebdf33119e8d7daf58b573</anchor>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga08aceecc3bebdf33119e8d7daf58b573</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
   </compound>
@@ -18848,120 +17867,120 @@
     <member kind="function">
       <type>void</type>
       <name>rtc_awake_from_off</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>aa4fec0b94caffb25d0acde8813a7ef5b</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gaa4fec0b94caffb25d0acde8813a7ef5b</anchor>
       <arglist>(enum rcc_osc clock_source)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_enter_config_mode</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>af911a07f668e8be5f719065c44015b02</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gaf911a07f668e8be5f719065c44015b02</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_exit_config_mode</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a9adb9cf0f6b7d17a7c8ee0e6addf5be9</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga9adb9cf0f6b7d17a7c8ee0e6addf5be9</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_alarm_time</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a3f53231bbbeef79acc322f2a6b045d3f</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga3f53231bbbeef79acc322f2a6b045d3f</anchor>
       <arglist>(uint32_t alarm_time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_enable_alarm</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>ab7f69ee0de1cae2518b2822fd82d5201</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gab7f69ee0de1cae2518b2822fd82d5201</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_disable_alarm</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a718b866eab2ba73221d37f7d15ba9737</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga718b866eab2ba73221d37f7d15ba9737</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_prescale_val</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a1b2c2b6aa8879eb16f7cf3207587725e</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga1b2c2b6aa8879eb16f7cf3207587725e</anchor>
       <arglist>(uint32_t prescale_val)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rtc_get_counter_val</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a16c4bf05c4660f7782efacb0b6f13069</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga16c4bf05c4660f7782efacb0b6f13069</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rtc_get_prescale_div_val</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>ac18d0fabc363be97a41cf05cb220739a</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gac18d0fabc363be97a41cf05cb220739a</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rtc_get_alarm_val</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a7cbe2e2000e3f9d3420c9e130d4019e8</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga7cbe2e2000e3f9d3420c9e130d4019e8</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_counter_val</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>acd673063942c2bedededd5760e4764ff</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gacd673063942c2bedededd5760e4764ff</anchor>
       <arglist>(uint32_t counter_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_interrupt_enable</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>aad0059f95046be4d158626cc0ed199fd</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gaad0059f95046be4d158626cc0ed199fd</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_interrupt_disable</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a4de126c91f7eedf70262a99e663a6fc5</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga4de126c91f7eedf70262a99e663a6fc5</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_clear_flag</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a1dd7ccbdf65c6f7b4d714bcb43a57528</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga1dd7ccbdf65c6f7b4d714bcb43a57528</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rtc_check_flag</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a94da35b2f8d7af8985c2e21bc1253349</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga94da35b2f8d7af8985c2e21bc1253349</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_awake_from_standby</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a19032c3fbc1546712c5bc534e5ddbf48</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga19032c3fbc1546712c5bc534e5ddbf48</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_auto_awake</name>
-      <anchorfile>rtc_8c.html</anchorfile>
-      <anchor>a7693c69c9ff726487720b12576a20968</anchor>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga7693c69c9ff726487720b12576a20968</anchor>
       <arglist>(enum rcc_osc clock_source, uint32_t prescale_val)</arglist>
     </member>
   </compound>
@@ -18973,1622 +17992,282 @@
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRH</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a008b590fea16c935859095b25a345d01</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga008b590fea16c935859095b25a345d01</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRL</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a6aa62269ca0c46d1a4ad61012dbc85f8</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga6aa62269ca0c46d1a4ad61012dbc85f8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_PRLH</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a2e6c6cf0e85154b9c4cac63f97c9c4a1</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga2e6c6cf0e85154b9c4cac63f97c9c4a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_PRLL</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a8725f1dec73b230670ab0ac61d50adce</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga8725f1dec73b230670ab0ac61d50adce</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_DIVH</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a1f6a2e4c8f99d82df195f6e1d1102c63</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1f6a2e4c8f99d82df195f6e1d1102c63</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_DIVL</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>ae9ee3aacf2681dc3a8d29d3343855002</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gae9ee3aacf2681dc3a8d29d3343855002</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CNTH</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>addbf6619200b52bd4c2849895bf48724</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaddbf6619200b52bd4c2849895bf48724</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CNTL</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a348bb8d5947955f173bb4d7b48521820</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga348bb8d5947955f173bb4d7b48521820</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_ALRH</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a07020ea4dd14fbc22c4410ed32ad1179</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga07020ea4dd14fbc22c4410ed32ad1179</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_ALRL</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>ac673699fd007d9c2990f41b8e4703667</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gac673699fd007d9c2990f41b8e4703667</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRH_OWIE</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a04e23d339e15dbf883dbedb054cd1706</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga04e23d339e15dbf883dbedb054cd1706</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRH_ALRIE</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a990a6b449f70249a1a4baf19f64617d9</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga990a6b449f70249a1a4baf19f64617d9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRH_SECIE</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a8dd52d261f99a969d9841a4426152b85</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga8dd52d261f99a969d9841a4426152b85</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRL_RTOFF</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a6bc57b1110a53b82e4445c4770203fe8</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga6bc57b1110a53b82e4445c4770203fe8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRL_CNF</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a3829687c89579c020665c19b8937a820</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3829687c89579c020665c19b8937a820</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRL_RSF</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>ae6fefe3020ad4d61b54a516e8a65f30d</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gae6fefe3020ad4d61b54a516e8a65f30d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRL_OWF</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>ad801db5fbfc407b1959647765076b299</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gad801db5fbfc407b1959647765076b299</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRL_ALRF</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>aca9bce7cb58e637876d1154710305563</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaca9bce7cb58e637876d1154710305563</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RTC_CRL_SECF</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a2c039206fc5c1506aba666387c5d34c8</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga2c039206fc5c1506aba666387c5d34c8</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
       <type></type>
       <name>rtcflag_t</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a7d949943d76043e8bd3d2186b7a3ed8f</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7d949943d76043e8bd3d2186b7a3ed8f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RTC_SEC</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a7d949943d76043e8bd3d2186b7a3ed8fa56166639f7a143ccdb88ecd9f9176a4e</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gga7d949943d76043e8bd3d2186b7a3ed8fa56166639f7a143ccdb88ecd9f9176a4e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RTC_ALR</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a7d949943d76043e8bd3d2186b7a3ed8fa0ed02b19bed77879d8e2df169b0f2cff</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gga7d949943d76043e8bd3d2186b7a3ed8fa0ed02b19bed77879d8e2df169b0f2cff</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RTC_OW</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a7d949943d76043e8bd3d2186b7a3ed8fa612a64a5b5192bf328a0866842d87b70</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gga7d949943d76043e8bd3d2186b7a3ed8fa612a64a5b5192bf328a0866842d87b70</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_awake_from_off</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>aa4fec0b94caffb25d0acde8813a7ef5b</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaa4fec0b94caffb25d0acde8813a7ef5b</anchor>
       <arglist>(enum rcc_osc clock_source)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_enter_config_mode</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>af911a07f668e8be5f719065c44015b02</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaf911a07f668e8be5f719065c44015b02</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_exit_config_mode</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a9adb9cf0f6b7d17a7c8ee0e6addf5be9</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga9adb9cf0f6b7d17a7c8ee0e6addf5be9</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_alarm_time</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a3f53231bbbeef79acc322f2a6b045d3f</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga3f53231bbbeef79acc322f2a6b045d3f</anchor>
       <arglist>(uint32_t alarm_time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_enable_alarm</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>ab7f69ee0de1cae2518b2822fd82d5201</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab7f69ee0de1cae2518b2822fd82d5201</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_disable_alarm</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a718b866eab2ba73221d37f7d15ba9737</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga718b866eab2ba73221d37f7d15ba9737</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_prescale_val</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a1b2c2b6aa8879eb16f7cf3207587725e</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1b2c2b6aa8879eb16f7cf3207587725e</anchor>
       <arglist>(uint32_t prescale_val)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rtc_get_counter_val</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a16c4bf05c4660f7782efacb0b6f13069</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga16c4bf05c4660f7782efacb0b6f13069</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rtc_get_prescale_div_val</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>ac18d0fabc363be97a41cf05cb220739a</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gac18d0fabc363be97a41cf05cb220739a</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rtc_get_alarm_val</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a7cbe2e2000e3f9d3420c9e130d4019e8</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7cbe2e2000e3f9d3420c9e130d4019e8</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_set_counter_val</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>acd673063942c2bedededd5760e4764ff</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gacd673063942c2bedededd5760e4764ff</anchor>
       <arglist>(uint32_t counter_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_interrupt_enable</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>aad0059f95046be4d158626cc0ed199fd</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaad0059f95046be4d158626cc0ed199fd</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_interrupt_disable</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a4de126c91f7eedf70262a99e663a6fc5</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4de126c91f7eedf70262a99e663a6fc5</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_clear_flag</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a1dd7ccbdf65c6f7b4d714bcb43a57528</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1dd7ccbdf65c6f7b4d714bcb43a57528</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rtc_check_flag</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a94da35b2f8d7af8985c2e21bc1253349</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga94da35b2f8d7af8985c2e21bc1253349</anchor>
       <arglist>(rtcflag_t flag_val)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_awake_from_standby</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a19032c3fbc1546712c5bc534e5ddbf48</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga19032c3fbc1546712c5bc534e5ddbf48</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rtc_auto_awake</name>
-      <anchorfile>rtc_8h.html</anchorfile>
-      <anchor>a7693c69c9ff726487720b12576a20968</anchor>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7693c69c9ff726487720b12576a20968</anchor>
       <arglist>(enum rcc_osc clock_source, uint32_t prescale_val)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rtc_common_l1f024.c</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>rtc__common__l1f024_8c</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_set_prescaler</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga7c05857df37f0631153fdb9893df5c00</anchor>
-      <arglist>(uint32_t sync, uint32_t async)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_wait_for_synchro</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga28b448062099ceb6ab758b85d1ddb785</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_unlock</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_lock</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_set_wakeup_time</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>gacffca2b1f3a82b3f82923e9ab14f004f</anchor>
-      <arglist>(uint16_t wkup_time, uint8_t rtc_cr_wucksel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_clear_wakeup_flag</name>
-      <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
-      <arglist>(void)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rtc_common_l1f024.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>rtc__common__l1f024_8h</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab7f3968366871c360f334e13b2e5f03c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga86eb15145a17a67b7e2d3bebde53aa96</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab12a646e66898472d5b47da87e6a39f9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae2cc36a11795e461447f19b75ab3424e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga6f602eed6e850324e6864df92284f6c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_WUTR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2b0bc0df97c0174474d9b40d4c77a50f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CALIBR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae8569e0a01af40c33a5a5a032c48d862</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMAR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4e42f3d5ad92ab8a5598ad9d8f30d2ac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMBR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa9133a5540853ecbe332c037b24fe98f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_WPR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab6487e9420e94ef109d0431f42c3c740</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_SSR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga31831515499751f2b047e98bc7bf433f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_SHIFTR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad1f31c8249774ba3fe317d45ee7193ee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3b5fd9c320bed9cf67fd2ab262a2d787</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab1e2138d67ef50e75f212682ef83437e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSSSR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3f4232d0efe2370a09beee71638e4707</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CALR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafaf647bb57bb905fe6a9a3377ca34424</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga26de03df250ff35784528913577c72df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMASSR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaaabf37f9d0b410bf5d664037a8e7484d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMBSSR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4919be7b0a730288b5c2eb1eae16a68d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_BKP_BASE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1d7765dbc5fc80310d28f75cb3d71089</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_BKPXR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab701eac43b9bf61cd11922c15a4d8ee1</anchor>
-      <arglist>(reg)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_PM</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3152952ac385ee1ce8dd868978d3fce9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaaf89dd3016dea1f25a2e77cd346328df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabf81ff38ba8396520bc7096a1a041922</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga39f8942aae9b7fd6ce37808a7b4fde1a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1392cf11019d8f3acb1777f98c43591a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabc6a8bf6656a7fbb509651166391cf96</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa7528d1b55e829ef5b72309eff20b4b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga14e3a8c1af0e47c098c4c2ece80bcebf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2d893e026ea3fb6073777cffd93fefcc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_ST_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0a3525a806619247b9759ec71e324fa5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_ST_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5a1ff2da57ee453328826f0659249e7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_SU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7f6ba78c26df688fa310e5f9f81e35fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_SU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga56e202ccdf3f467c472e2204b9fe181e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3d86a57c71d0518d805e8ff175a096c1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5cdad136c4966fa6aedcacf4f755fd56</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaefe82e362240f92f499e7bf30d22eec6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabe00e8b7c47c66bdef5c74c0ed8c83cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_WDU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaad8b50c104f06e4e68ade114eb10d0f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_WDU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0e981c8352a0a6dd79698ef8e9a68c5b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga26f0d3ce1c6c6785bd8fbae556f68b31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1ad7d5e6b06e97429e69ce78a01ce556</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga45ec20978a87b7a4371acd0a32f19816</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4620f9fdbe0ba1759894c52afab80f9a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga61e2102ae089ff41b5243a3fec0a0528</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga81d9ee62a268f903d61a89661a1e2023</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga86e344ae00a9837fe6677d4641572199</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga6b9b03b39858e2c57f139211d6026ea5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_COE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3cdfa862acfa6068b7ba847f77269d60</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9606e83364ad2d2d942646848ac23fe1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga46bc8dfc9d0f3257e6616cb9993ab182</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_DISABLED</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga31766791b9c355deb7d26179001e5f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_ALARMA</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4901df27bb4bf5f1080673130c0339e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_ALARMB</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga237875d2e082c238db42a065f2a828b5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_WAKEUP</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafecc4ef831d8e4c2f56ad97d79c7a63d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_POL</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga53f21b5adadbcc5eb255683d5decc9cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_COSEL</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga197c587884b9c1dcb2970e9ec2589b41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_BKP</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0e7a474de1a01816bc9d9b6fa7272289</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_SUB1H</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga220cf6237eac208acc8ae4c55e0b5e6f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ADD1H</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaae1a8439d08e28289398dcf3c2b4b47b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf376dffb9f2777ef275f23410e35600d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUTIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5e0a1419830a16667cea4f6454913226</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRBIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac6269c9dd5cee650024ede0b0c42e87d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRAIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9138f75267bd93f8de6738225217d583</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga94fa98ca8cac9078b9bb82c89593d3c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUTE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga061be0d3cdea721e5cb695cda0699bc3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRBE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga17d0850002ed42742ff75a82dc4e8586</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRAE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga8a8cdeac61f06e4737800b64a901d584</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_DCE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4ce7cb8b575142e125863d61ea4765ba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_FMT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab2706e31a1bc8d95b682fe47611e0dd3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_BYPSHAD</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga34d50a3eff3364e6da4fefed9962a054</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_REFCKON</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga646ef1071cacc2d30bbef5597c817021</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSEDGE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad076bde34be7d24f088fd2c003b7a7f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7fb2100cd23f48dabf098fd8de6be384</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0dc6c11dd47bd5203d4883f402967a4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV16</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf4a299e7d304a895cb9ea67cd5b6b64d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV8</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaef42ae617803d9c38cc35333afe01847</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV4</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac5b62e2a99c81b7af88f8af60ece2bde</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV2</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafc4613add60380f65ed4bede0e1a93bd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_SPRE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae72bcf840df1c5b8e9dbf18da2ee0d4b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_SPRE_216</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0dff3df721423c3e13d21fee04a6b2cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_RECALPF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga05189137cfd0e73903d9b70d071656b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TAMP3F</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9cbbb7637689d5396c719a6ddb04fe2b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TAMP2F</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabdb176578e53b2d8e24a94c8d0212845</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TAMP1F</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae738b22f6a8123026921a1d14f9547c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TSOVF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga766c238f964072decba204c7fce850ff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TSF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga68c0a60dbfc5f1570a48afe450395484</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_WUTF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4eb5960300a402210e5378d78ce22766</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRBF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7976972a5fc6705fede85536520367d6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRAF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga96605e50a347507b7f274e9cd894a02c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_INIT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae0eb2f998cd3e7325974347cb2a3d25a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_INITF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab16dcc6973c611e087030cdb15203972</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_RSF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9bd683e789841f7d3f138709ffdbfbf8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_INITS</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7b229bace5ba0c0b48bfeb5efc445292</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_SHPF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1c4536a874336778ac11109f14573eb9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_WUTWF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0e753321211e19bc48736fe0d30a7f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRBWF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5a0c34bff6dc9fce29e2be35d32d9d05</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRAWF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4d420b5c3f8623cf1116d42fa164be7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_A_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad81b16856acc1696768d7876668e039b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_A_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad249bea121f8bd3cf09f43100c5fd615</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_S_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaca3f81a738023a2a4ba9048f049915b8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_S_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga615d9978f77688fb9cdfba80bde412dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK4</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga28f42cc8417872db64a9f45fa6f0ae45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_WDSEL</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga53fcffd324af255c0777ac0115b42fcd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga20e1c5f64b8c61eb4cbf8a38dfeb6859</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafe661ce0d245ad5ce56c045ea17c1a08</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf44b17197307f73ba26cd58161545626</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac016da37090476d1754283715b002fd0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK3</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga38f4b3a3a84cbe064fda91d9faed9a2a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_PM</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5057382e80dec481b021465cc1641530</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga08d8cc2cba587bbfba916263553be5e8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa93d094df573008657ae4cd8f8c03e35</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad2f9087d0fcb317c72b131f2cc618796</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga52d7037128f944e9956cdfd110b327d3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK2</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab96f43d09988f45f5ab5e20d4ba6c0cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf93bb190463ff2a2a01fc3fa8ffdc7be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga84c702f00fd21d27e092e808315c0eef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga150862b037f53faa237996e3e6270c78</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab5c3d67fe0d2c1652ba4ff6c4b51ca07</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK1</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7a3c9a66638271f2fcc2b513a0cd4bc4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_ST_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga881bb575db4cf46a8c8fbcdaec03bc2c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_ST_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga589dfd57ed5a42fb9a5cca578514e145</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_SU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gadd24cc883627dc5c59ee509123ad4497</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_SU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9e7f0bce36a75b94f06a4f31edb9590a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_PM</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga84b3d044be3e63573a5f0d4d14d8e3b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf2710a228feee195cd28244eff721a12</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab89740507af8b89b41ff22e415d2077c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga92ef88ea648ff7f974a3ee4b4e54c7ae</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2ebd4ae3007f91a5acd3276077cb8e66</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0105eb3e873ee3eec6cff5efd3817930</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga13a2d2befada70da08113bd26a8fc7c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga25fe6d2f417858ff48426cf571474210</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2a4f140238291909bc8260c4054bf7cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_ST_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga70752f4c448f60d95908069faa09e0b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_ST_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga52b278366497c1cc671717a74d49aecf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_SU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5acef5aae9e46b4ef9017ef026642c2e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_SU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga98f8e93c67e6584ec71e480552f44973</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_WDU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad66eb8c3b73524f427b98c2faf138040</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_WDU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaeba08fc6087374a924251d294e8fdb12</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_MT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7bce43482443f2038a8eebc681067dd7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_MU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3874b6ce09046208ac560e9059d49e3e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_MU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0c8e9802673270b96c09091ae1859d39</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gacb48f83e52e02c83495fae264cb45ab9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae7b4878edbec889efa71b0d970cffc8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafc4f58c39250680d515b37a222f2b4e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0f217be620b266abca83fe0f6dd5117b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_ALARMOUTTYPE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga8d9515fd74e3bcf03f4e62d8c7e1b070</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPUDIS</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9ef294e75771913e4a47386f42a23f72</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5123d2489c7b789f9a2ee4d6074ba205</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf00984169cfa42e0adde4cec189fd38c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_1RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gade7fe1c131b529094e8061440445903b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_2RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae8372a162823e3fd5d9ee998508769de</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_4RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac977dbcaf500f2aae3e4819c69dc6512</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_8RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga948dee7649305745135671d365318a45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga6296e75b05069e95b1b4d9c841299fda</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga67fb705bb4bd518a608d20c317d60dc8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE1</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gade154d1bd10c16ebd2d266744300b758</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE2</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1289178f46d97eeb9406b981bef69797</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE4</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3309fd45a2b6342db54855d8d5759287</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE8</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac84c7cf6641564593a6bfcdfca7970cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3d25cf652f7160f24bb389125900161f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9d16e615c06c45e7812e43d6889c122e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV32K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga56fd05a22d9ff116424f174a7b95a13b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV16K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9323edddf861336e125a4b0f13c92406</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV8K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0f6bfca00672a49a65701e4042b0cd41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV4K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafe66826ace722bf46d1e72aeb2c03c7c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV2K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2f15cc74b1248d85a3f82fadd91cb260</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV1K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga8b0eed7b432f7b6a97df0248206aad8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV512</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga871c5063293abbce6ea66a2c5586c538</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV256</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafdc4c3822c1c87fb00cf46060abc6cfc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPTS</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac929fab94fdca2d1b3b3cf7c93fe6e49</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP3TRG</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga890a7b3d51af77fd381528eb6639aaf2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP3E</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4e8b2b80932b84a1bc7d399fba1a311e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP2TRG</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad2c4d227971b56e3160c71b7479c769d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP2E</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7e98a0062ef81bcbc790a8d77720a61c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa0fb33b24d2ebc19e7fe52f0661a3085</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP1TRG</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga76f85925873bcd3f795417053bfc5f33</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP1E</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa68c195cf709d18cd426560302b97852</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_set_prescaler</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7c05857df37f0631153fdb9893df5c00</anchor>
-      <arglist>(uint32_t sync, uint32_t async)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_wait_for_synchro</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga28b448062099ceb6ab758b85d1ddb785</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_lock</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_unlock</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_set_wakeup_time</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gacffca2b1f3a82b3f82923e9ab14f004f</anchor>
-      <arglist>(uint16_t wkup_time, uint8_t rtc_cr_wucksel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rtc_clear_wakeup_flag</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
-      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -22000,257 +19679,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>spi_common_f03.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>spi__common__f03_8h</filename>
-    <includes id="spi__common__all_8h" name="spi_common_all.h" local="no" imported="no">libopencm3/stm32/common/spi_common_all.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL_8BIT</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gad769555cf6f2bec4ef81a92fbc57d4c3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL_16BIT</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gac80232620cca93d658564d903847114f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga3828b6114d16fada0dea07b902377a5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_LDMA_TX</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga39deb4ca947b12a999046e9a182c5df7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_LDMA_RX</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga4b7c17fc8f097e728aaff746356d8de3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_FRXTH</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga6e02994914afef4270508bc3219db477</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_4BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gac6ac22b3c106ed11cd66cab53ca80ea3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_5BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga3489b5c590d4d9a35c5d7628e076c381</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_6BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gaf0e65ead878fc6931d8d5705dd1fb153</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_7BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga17f4dda477f97cb4f983a039c3cca582</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_8BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga1477624af2e50f6ec6f64eb3edc82942</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_9BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga5208c8007f5e73249a912950803b2f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_10BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gac57738e200cff901c2249520d6348902</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_11BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gab1adfb895458566636e09354858a96a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_12BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga83792f6295819967ac2d5064ce066b10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_13BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gaa5f8732361558bcba0c6c2166d60da76</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_14BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gaf195cd233bc8ead5afb115a1d75bc3f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_15BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gae7ff246f2beef0f54e2edd61567f016d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_16BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gabac925cb4499066dd10dbd1eba3ee060</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_MASK</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga2fe0744a4f6de1a1d94b27ed231fcb50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_NSSP</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga2e7d9d05424a68e6b02b82280541dbd2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_FIFO_EMPTY</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gae25303e2e8db0ba27d42ccb7a713006b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_QUARTER_FIFO</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga11f429f104120334ca27ca4f75913aeb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_HALF_FIFO</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga857ca08eaa608d403dffea43d41e7a6d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_FIFO_FULL</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gae4ec0feec9d85ca1aec1a7c722f74673</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_FIFO_EMPTY</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga30b4760cc554e7207e0ed0fe7516460b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_QUARTER_FIFO</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga5154ec573d83e855d8eeec4e969a11e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_HALF_FIFO</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gacbe4df524cfaa4f13e8022bba3b25bba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_FIFO_FULL</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga7b1c503ecf5888ada9c06b9a06bc12c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_data_size</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga285ede0085fb67dd93f5f03835ffd508</anchor>
-      <arglist>(uint32_t spi, uint16_t data_s)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_fifo_reception_threshold_8bit</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gab28610e17dfebd2fb0c51a0d7b462d95</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_fifo_reception_threshold_16bit</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga9dc4ebbea2dc313a7e0f5e3ba3754caf</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_i2s_mode_spi_mode</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga3106545d2b06f1a49911a48853a61fbe</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_send8</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga4307af8c6b3812b86dfea621f1f40d37</anchor>
-      <arglist>(uint32_t spi, uint8_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint8_t</type>
-      <name>spi_read8</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga678fc0899ce572786e0ee3f875b80e91</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>spi_common_l1f124.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>spi__common__l1f124_8c</filename>
@@ -22304,67 +19732,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>syscfg_common_l1f234.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>syscfg__common__l1f234_8h</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_MEMRM</name>
-      <anchorfile>syscfg__common__l1f234_8h.html</anchorfile>
-      <anchor>ae2c143dc8c0abf30726dd46a816bb7c7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_PMC</name>
-      <anchorfile>syscfg__common__l1f234_8h.html</anchorfile>
-      <anchor>a463d835825838c01773347be05fa9ef8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR</name>
-      <anchorfile>syscfg__common__l1f234_8h.html</anchorfile>
-      <anchor>ae817e40e86c38da470d9a40a5584277d</anchor>
-      <arglist>(i)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR1</name>
-      <anchorfile>syscfg__common__l1f234_8h.html</anchorfile>
-      <anchor>a55e119f87c84a7b1b9ba01c2ec3a6b4f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR2</name>
-      <anchorfile>syscfg__common__l1f234_8h.html</anchorfile>
-      <anchor>a80c96b4d593d8ef618392d6db611979a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR3</name>
-      <anchorfile>syscfg__common__l1f234_8h.html</anchorfile>
-      <anchor>aa5daf054b73b2895e304e8a36463a616</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR4</name>
-      <anchorfile>syscfg__common__l1f234_8h.html</anchorfile>
-      <anchor>afa4bb2e0a5c22355be556b7734fe0c59</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_CMPCR</name>
-      <anchorfile>syscfg__common__l1f234_8h.html</anchorfile>
-      <anchor>a76822f104934b3c0682ec2e12e903f30</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>timer.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/</path>
     <filename>timer_8c</filename>
@@ -22406,8 +19773,8 @@
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_polarity</name>
-      <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga5cc4c3f615f4b661a7ba3be837bfb424</anchor>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a089c6818e63b24943df49544e938cafd</anchor>
       <arglist>(uint32_t timer, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
     </member>
   </compound>
@@ -27056,18 +24423,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>timer_common_f234.c</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>timer__common__f234_8c</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_ic_set_polarity</name>
-      <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga5cc4c3f615f4b661a7ba3be837bfb424</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>usart.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/</path>
     <filename>usart_8c</filename>
@@ -28289,6 +25644,11 @@
       <anchor>ga7edf79c47c844136f50501f6c80a8606</anchor>
       <arglist></arglist>
     </member>
+  </compound>
+  <compound kind="page">
+    <name>lgpl_license</name>
+    <title>libopencm3 License</title>
+    <filename>lgpl_license</filename>
   </compound>
   <compound kind="group">
     <name>adc_defines</name>
@@ -32991,7 +30351,7 @@
     <subgroup>gpio_file</subgroup>
     <subgroup>i2c_file</subgroup>
     <subgroup>iwdg_file</subgroup>
-    <subgroup>pwr-file</subgroup>
+    <subgroup>pwr_file</subgroup>
     <subgroup>STM32F1xx-rcc-file</subgroup>
     <subgroup>rtc_file</subgroup>
     <subgroup>spi_file</subgroup>
@@ -33006,16 +30366,274 @@
     <subgroup>crc_defines</subgroup>
     <subgroup>dac_defines</subgroup>
     <subgroup>dma_defines</subgroup>
+    <subgroup>exti_defines</subgroup>
     <subgroup>flash_defines</subgroup>
     <subgroup>gpio_defines</subgroup>
     <subgroup>i2c_defines</subgroup>
     <subgroup>iwdg_defines</subgroup>
     <subgroup>pwr_defines</subgroup>
-    <subgroup>STM32F1xx_rcc_defines</subgroup>
+    <subgroup>rcc_defines</subgroup>
     <subgroup>rtc_defines</subgroup>
     <subgroup>spi_defines</subgroup>
     <subgroup>timer_defines</subgroup>
     <subgroup>usart_defines</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>exti_defines</name>
+    <title>EXTI Defines</title>
+    <filename>group__exti__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_IMR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga69ab94ebc8de242b77e596dd2bbcef49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_EMR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga4e9575b4d9ffe40c460aff68c928e497</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_RTSR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaa38744d6066068db3e1d165af594133d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_FTSR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gada970d90e15dafefbab3bb5b3a3530a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_SWIER</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf2f1ba804ff20d23e6c2e78eccf7232b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_PR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gab6c08bdd29b216dff011819b71328272</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI0</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga77d55cf55a67ff5d43794d24f7cb9922</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI1</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gabcd18cd089259e5c95d338adc4949821</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI2</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gac1864c46eb6702208ff59e4ececd3776</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI3</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga205d284100ff421b0b4b13fd5950d912</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI4</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga57183bff31f5cbbfbb5d24856c2ded44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI5</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga45517e7df564fbe372635ad985bb45cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI6</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga2632bbf3e8339f3c752ef81ad39e669f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI7</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga5038306ffbb0de285cdba9430594b581</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI8</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gae0d1ad40c69f700f52e10ade98a81094</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI9</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf8f6b46d0fb67f0722f18a57bb09324d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI10</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga817593ea889dea68dcf74434ad2ec311</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI11</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gae951b07cf003fb3f2652843087057ed6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI12</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaee672b592634fafdf6192753bd1eec07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI13</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga015e5403458c6ba88f552edf6a8e89d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI14</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga557168bcf9644708d3ad1ee01c7fe54a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI15</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf9c95aa8bce16e9f9903a354fb0327fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI16</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga08c3a430730f8ed59b2a8f13259f2ad7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI17</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga70fa93598715b662d570d5e9f02add04</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI18</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga46d5e165580f7e0d8a32500b68682d19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI19</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gabd3c95edc24047d4d80a4451978d1d77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>exti_trigger_type</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga217058c9ab9a27e3f4f197ca7889623a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>EXTI_TRIGGER_RISING</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa7db3c45e92eb0cccfca0fcb33485e1bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>EXTI_TRIGGER_FALLING</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa93d62734fb59270daa09a14c5c040f5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>EXTI_TRIGGER_BOTH</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aab7646e3e5a3134431c4c58306f0d3f72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_set_trigger</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga8b05a3586764aeb0dd1366dd46616a65</anchor>
+      <arglist>(uint32_t extis, enum exti_trigger_type trig)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_enable_request</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_disable_request</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga1752fef240fb05e1135548449943ce0b</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_reset_request</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaa86779017820fedee955563adc8b5f4a</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_select_source</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
+      <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>exti_get_flag_status</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga80d89279aab6cc63a8141b7421cd2dd1</anchor>
+      <arglist>(uint32_t exti)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>flash_defines</name>
@@ -33273,111 +30891,6 @@
       <anchor>gacb42e782d41d363a3bc986d45962f2ac</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga17131472a9863dc9ef3fd97ec5b4dafc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_KEYR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga2973b6c10e5a02be98c7917ab8d57f6e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_OPTKEYR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gad6329e3fdd2b67f6f6492ccd5078712f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_SR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga2899915141a0fbc7a0c6bfa34e04b2fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga900ab18dd1277874aca0524b9a482fe0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_0WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga936324709ea40109331b76849da2c8b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_1WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaec66af244e6afb5bbf9816d7c76e1621</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_2WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gad9b09ca8db6df455d0b8f810f8521257</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_3WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga3437dcee177845a407919d3b2d9bd063</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_4WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gad3594f2a9e12213efe75cd7df646e1ad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_5WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga67e55ca49f028a701d0c81420a6e2918</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_6WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga3019ff197b4fd698e9625c9abb67f4be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_ACR_LATENCY_7WS</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaa164c6e6fdfcae274a84dc87ca87b95e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_KEYR_KEY1</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaf75755c3dd5d4157820e95378ae7bb47</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_KEYR_KEY2</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gacb42e782d41d363a3bc986d45962f2ac</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>flash_prefetch_buffer_enable</name>
@@ -33525,13 +31038,6 @@
       <anchor>gab759a6e89a54cfb15a60c0e8f4eb66df</anchor>
       <arglist>(uint32_t address, uint16_t data)</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_clear_pgperr_flag</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
-      <arglist>(void)</arglist>
-    </member>
   </compound>
   <compound kind="group">
     <name>gpio_defines</name>
@@ -33553,10 +31059,6 @@
     <subgroup>afio_remap2</subgroup>
     <subgroup>afio_exti</subgroup>
     <subgroup>gpio_pin_id</subgroup>
-    <subgroup>gpio_output_type</subgroup>
-    <subgroup>gpio_speed</subgroup>
-    <subgroup>gpio_pup</subgroup>
-    <subgroup>gpio_af_num</subgroup>
     <member kind="define">
       <type>#define</type>
       <name>GPIO_CAN1_RX</name>
@@ -36448,559 +33950,6 @@
       <anchor>gabb9a59447b681234fadf66bd3f0fdd57</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga195c3bc236697df00c95ce4d48fa0c99</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga1234035224d2d22cd6be76a5ee04cf02</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaffac2caec05d40f61f7e4b3aef5ff2a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga358ff7fc1e547fed6740a6075bc45084</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga0299d708e570b48d178fdf61e6f8e580</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabff95422edbcfee3124cb5ed8375ad7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_MODER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae677d09e91324da86cf4348d7a7bf032</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga6593216a84b6e7ff49b40a03c7cd8415</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab25fd19daee4d052acdfc1654397a7a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaef9c290201f1348720bf7716e32b0ce4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga38d3fcef1b5894aecbf6b5dada26f6e8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga0f806fb737414df49fd531680704e6fa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gafd9a9926157ad07dd8ef075292a293b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_OTYPER</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae83f26bac321676ed8dfcfc1331e25a3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf758e94d5da9ad767e177a6e8282cc2d</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga97dfd3e873e70dc25ffb556afc6e4785</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga909ebebbc8de2e518c95c538c38b6149</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gad3fe45a8267fad498bf589285cfc9474</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaa4a028b779467dd6d391a4d9ea573967</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga89d67b621ca43b4b3f37d2e534ea865e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_OSPEEDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga7ce009e7a807741d92cb81ca3f0befea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga3f21afe95af40c42718810c7fe36edd4</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga60bf8df26535bc0db4575c84798c81a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaad6e9cd5fa8d64c77af952d14e456b3c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabfbeaa765be118f55fdb52b72a319b08</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gafa5b16fcac95c1fc0170c320db14fcfc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga58798473c89319609839e164b5960971</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_PUPDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga6dfbea535dac35864fd1a087ed45aed9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga88f7dcdd8e8cd53b79d0a9ed12f093a6</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga3aa34ada5c781e9016373b125ba3cb9b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8d4fd0ff69da08c3697646d1213b75d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaeafc11f32ee218ab815c1923c76579a8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga446a27be5b79e7435f30b91e8621d858</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae14aef9955044122b21c7e6b1d4bc431</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_IDR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaed7630938e62a3472ad7058a712ab5f8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga58655e9db856a8f3208e388814db2de1</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga01d6d1f0b029ae3da79df62eb4f7a69a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga08db1d3769d2fe400cffb74e32b67a9f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga54cf46cdf41330942c4279c05bab3af1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga392890f38814540d2765aafddf347f02</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga32f74d710d56aa85ef0cc849865e9f8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_ODR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabf345308772c3302ee16721bd818f2f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab21923f1cd8a9fc3721b26c67cd2a889</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8f16199899812596623780a3bcc46849</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga655fb7f4dc9f0c07c004e559c9697796</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga88dcc56c201f13d73e5073857af6aeb5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga2e40db970b04f13b374e5fb81c9adf0b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaff510c97b42d4f4fe7dc02b960823750</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_BSRR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga037118b355c863a07f4fb84fadc79e4d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga5917bb16212870dc89a81b853252f92c</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga25f77abfd13bacb790f5f4c55c26c23b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gadaf97a0f44fe98a9560992c6bcd9a251</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab4cbc24f396d90772bb98a68b1f07ae4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8d2bb163aba2864ca5376c785a9b52ff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga35b53807fdef76084d0af95975b53abc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_LCKR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga24e6c4f336806b3cd0b0a107b185d9dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga220778dae242f3d90e425c2c7a32fe9b</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga76606f8249e2d759341614b68d15e59a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga0cc032e9f6ef15987dc73d22c28ef8a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab3de5d2fee186828a759107986698b86</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga3ae6d2c5fbdd0df93431d9c1219d799c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga863f2453da88e20391776c1374b59ad1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_AFRL</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf8c71580243ce9fbce9e4d5542d9a747</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga0165c7e5dacfd64c4223ede13f3f49e8</anchor>
-      <arglist>(port)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf2832a0e3c91b018047fc435eb19be3e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga21a95808a795917e81ed46466865ace0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gad0737f58535843511d33c0d749f73f1f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga743fc2750d31b06c6c20dfbaf09100fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gadc545a5690c7a85a225e8801feaa38dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF_AFRH</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8fff3b87946e745bd0f7f38a0dbabbfc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabcdf6bf699d1ed7ecdb990cc20ea97dc</anchor>
-      <arglist>(n, mode)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_MASK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga2feba6285ccd987896fe1bba82990add</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gace95963eed66db5185437b6f8c52360e</anchor>
-      <arglist>(n, speed)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_MASK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gae9fabfe2cf725c75240d7c7c14c6e995</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga266965efec2c9d607943c8b0c94e07b9</anchor>
-      <arglist>(n, pupd)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD_MASK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaf9a01750c2af4c3780787449f3377d79</anchor>
-      <arglist>(n)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_LCKK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gabb9a59447b681234fadf66bd3f0fdd57</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AFR</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaec03a89a1fbf7609e860c0ae43a216d6</anchor>
-      <arglist>(n, af)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AFR_MASK</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga29a8e26664ee706e77f21d2ede4fd31a</anchor>
-      <arglist>(n)</arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set_mode</name>
@@ -37078,27 +34027,6 @@
       <anchor>ga749adc86df621552b5a0908ecf5b2ebe</anchor>
       <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_mode_setup</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga733d745a0b6840f22b516979ce7a92c9</anchor>
-      <arglist>(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set_output_options</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab05e7f5b963f49c7442a69e5999f9319</anchor>
-      <arglist>(uint32_t gpioport, uint8_t otype, uint8_t speed, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set_af</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga2937f803468b3440302fae213c4c3c14</anchor>
-      <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</arglist>
-    </member>
   </compound>
   <compound kind="group">
     <name>gpio_port_id</name>
@@ -37151,48 +34079,6 @@
       <name>GPIOG</name>
       <anchorfile>group__gpio__port__id.html</anchorfile>
       <anchor>ga02a2a23a32f9b02166a8c64012842414</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOA</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>gac485358099728ddae050db37924dd6b7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOB</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>ga68b66ac73be4c836db878a42e1fea3cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOC</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>ga2dca03332d620196ba943bc2346eaa08</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOD</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>ga7580b1a929ea9df59725ba9c18eba6ac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOE</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>gae04bdb5e8acc47cab1d0532e6b0d0763</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIOF</name>
-      <anchorfile>group__gpio__port__id.html</anchorfile>
-      <anchor>ga43c3022dede7c9db7a58d3c3409dbc8d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -37280,34 +34166,6 @@
       <name>GPIO_MODE_OUTPUT_50_MHZ</name>
       <anchorfile>group__gpio__mode.html</anchorfile>
       <anchor>ga6b417f015356fa1b8816fdc9f5b966ce</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_INPUT</name>
-      <anchorfile>group__gpio__mode.html</anchorfile>
-      <anchor>gaf40bec3146810028a84b628d37d3b391</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_OUTPUT</name>
-      <anchorfile>group__gpio__mode.html</anchorfile>
-      <anchor>gaca6eb0cd4dbe7402497829badacfa6df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_AF</name>
-      <anchorfile>group__gpio__mode.html</anchorfile>
-      <anchor>ga96a5633f64cdb6a83cd77ce44adc3b82</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_MODE_ANALOG</name>
-      <anchorfile>group__gpio__mode.html</anchorfile>
-      <anchor>ga7a04f9ab65ad572ad20791a35009220c</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -38941,9 +35799,9 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>STM32F1xx_rcc_defines</name>
+    <name>rcc_defines</name>
     <title>RCC Defines</title>
-    <filename>group__STM32F1xx__rcc__defines.html</filename>
+    <filename>group__rcc__defines.html</filename>
     <subgroup>rcc_cfgr_co</subgroup>
     <subgroup>rcc_cfgr_usbpre</subgroup>
     <subgroup>rcc_cfgr_pmf</subgroup>
@@ -38963,1981 +35821,2044 @@
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3465fac46f8d87fc7e243765777af052</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga8f7780f390ef4cbb05efa06554ba0998</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga10536e1ad45c689f571d5de3d7b3de55</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_APB2RSTR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaec8fff978fdbc3903c85e1bb5b4fa698</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_APB1RSTR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga758db6d69dc2816cd403e5361ab124f2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_AHBENR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac80336b2b7c3c43e36370c84ab122b1f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_APB2ENR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6d4cd87f49d551c356fed82cbbddc5a4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_APB1ENR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad4baa1f26b04719fe3d4e2f02d7dde40</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabd13837c4c33c5df3bdff96f8886d438</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6e483b8da7b5a5da25e9a745bb19f6ec</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_AHBRSTR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad97b07e757b67cb8711ca5d20ea8ad3e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga64199667e9ebcac6859f3f9c275fc7d9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLL3RDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3ea07157abac14618b2ac3f2e9bfa9b9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLL3ON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7e7f10468741ab47dc34808af0e49b2b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLL2RDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga24fa002379ec3fd9063457f412250327</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLL2ON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga250f64c1041b823f2bd5dbbb4c54a2d5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLLRDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gafa12d7ac6a7f0f91d066aeb2c6071888</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_PLLON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad0e73d5b0a4883e074d40029b49ee47e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_CSSON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacc05308869ad055e1e6f2c32d738aecd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSEBYP</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa3288090671af5a959aae4d7f7696d55</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSERDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga86a34e00182c83409d89ff566cb02cc4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSEON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadb8228c9020595b4cf9995137b8c9a7d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSIRDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9dbac3f2bc04f04ebafe1e66ae3fcf0d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR_HSION</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaf4fcacf94a97f7d49a70e089b39cf474</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_USBPRE_PLL_VCO_CLK_DIV3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9ed985d9488fd0a558ee5be632a86744</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_USBPRE_PLL_VCO_CLK_DIV2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga66a295e433f36c83f511a7ac3e74453a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_SWS_SYSCLKSEL_HSICLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1b39857ee3bea562521b9dedee8de7a0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_SWS_SYSCLKSEL_HSECLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3c892bf770b3b7c2b55bf1b6b9d9c35b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR_SWS_SYSCLKSEL_PLLCLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadcc8b3374113007079d1aafaaf896825</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_CSSC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga46edb2b9568f002feba7b4312ed92c1f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL3RDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa2657f572e9f24f599f8fd9ec9453718</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL2RDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadc7fabc8e19c3085b93190142655ff28</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLLRDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga245af864b194f0c2b2389ea1ee49a396</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSERDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9464e8188d717902990b467a9396d238</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSIRDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad1b58377908e5c31a684747d0a80ecb2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSERDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga144b5147f3a8d0bfda04618e301986aa</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSIRDYC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga982989563f1a95c89bf7f4a25d99f704</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL3RDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9459caf4aa04950627a7f9aace92d6c1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL2RDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga76d5216c09e764ecd88869ae06377351</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLLRDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1b70927cab2ba9cf82d1620cf88b0f95</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSERDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga5492f9b58600cf66616eb931b48b3c11</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSIRDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac714351a6f9dab4741354fb017638580</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSERDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6a0ad2672c9ba1b26012cbc6d423dff8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSIRDYIE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga872ba937149a7372138df06f8188ab56</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_CSSF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad66b719e4061294de35af58cc27aba7f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL3RDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga90cb7241f48c9caa1c569644b59e2e17</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLL2RDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad77508f4113577c9cbdce5fc50cfcb9d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_PLLRDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga0f007895a17e668f22f7b8b24ca90aec</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSERDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga11ea196450aac9ac35e283a66afc3da6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_HSIRDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad38877547c4cbbb94659d5726f377163</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSERDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabfc100e7ae673dfcec7be79af0d91dfe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CIR_LSIRDYF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacb94ccfe6a212f020e732d1dd787a6fb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_BDRST</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2b85b3ab656dfa2809b15e6e530c17a2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_RTCEN</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga79ea6f2df75f09b17df9582037ed6a53</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_LSEBYP</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga542dffd7f8dc4da5401b54d822a22af0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_LSERDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaafca81172ed857ce6b94582fcaada87c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_BDCR_LSEON</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga00145f8814cb9a5b180d76499d97aead</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_LPWRRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga675455250b91f125d52f5d347c2c0fbf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_WWDGRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacabd7bbde7e78c9c8f5fd46e34771826</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_IWDGRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga22a7079ba87dd7acd5ed7fe7b704e85f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_SFTRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga16e89534934436ee8958440882b71e6f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_PORRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga837e2d7e2395ac45ebe2aea95ecde9bf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_PINRSTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4e26d2902d11e638cd0b702332f53ab1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_RMVF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gafc26c5996b14005a70afbeaa29aae716</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_LSIRDY</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gab569110e757aee573ebf9ad80812e8bb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CSR_LSION</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga803cbf97bda1ebaf9afee2a3c9f0851b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_I2S3SRC_SYSCLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga688695acc883e66c30c3c38f6131c796</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_I2S3SRC_PLL3_VCO_CLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga415eaff0e448cde7adfb7c1014711862</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_I2S2SRC_SYSCLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9e24c3d1ff8857bd2dd21302eb228c47</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_I2S2SRC_PLL3_VCO_CLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga84741a7e4d0d974e1fbb80718dee378d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV1SRC_HSE_CLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1dfd5260c132d0d85e06be0cda8b6996</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV1SRC_PLL2_CLK</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga017674a2614bb741ddf187bbf6ebbb5f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga80323743f310bf9836ef1374a0e47425</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga02260a8205d4b876dcef7fb57569b6e6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga29c2e4e6138d343351d8d234178b407b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga78f06a7233454e784fd122fe24a0f6d7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3ac4a0d55d9114dff5b5c194334849d6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa29ea494093701ee7f9e266ea02f82b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga151d395e54ca4ef56d63e68aa1af4d5b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7f1369a578c72e31c63b447ad3375d53</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad3e9845f7508f743092922937c586eaf</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad17c84d82ccfb1231af5a8e58510ad7b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacc13de3bb440446de2697a12f2ae602a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL3MUL_PLL3_CLK_MUL20</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga59542e4de3b134396f847aa7255d11fe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1195141f8cc44ef3f2b61c1e6208feff</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga61d62046329e0e6f39de67874d0f2b80</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga96e5ea3a79529110cf002929fb61593d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaffb5109f7eba9988568e5047a6c16720</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga15ff4e94a07086cf706b6d160ebcd130</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae489a738b93f2b17edce892834cf5c71</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa053ec389f053d2b980a037b0450e997</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga9188dab3a5e82734ea75888c4be08223</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL20</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae88afcd043f6ae31d055b0e862a10adc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_NODIV</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga8a587751e0aa065d5cc0597ddafcbe2f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga8beaa356ccf238b4f9d8ef61dbeae7b1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga554c3890138f4fabc86af31ec7508f26</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga03989668fed9fe564f60fb13cfcae681</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga51d5a6f6ad3d9865ed8b6ab562c254d0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV6</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad76c4165380e49e9d9784e7bf5fab1b6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV7</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa63b565a6b48cee1ea49a0be9f2f9185</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga25aec8f8ebb84c4716db308dc179339b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga97a9c6bb08a63295636119df733d0f9f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2b94190a5066c1679c7d82c652536445</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac9932904c30e68bb7b52cea28cbeae69</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga5402db0b8522c06ce3e1ff6813a508f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae35fc61c8c5b86c6b1d484a132bb3e45</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7d58f429410f5aaa9475a3a4b63492bc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV15</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga579a0cc7dcca708fef65e3217c55666e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga95d845a26c3d1e98a883e6e1007c401e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_NODIV</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga25973f81620adc104dc81c726fd6e7cb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1713c33cac3cbbb7db662565b5522f66</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4fe9c72ed41134d0949fa8dff900ab9a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaeced6d5efa836ce65a07118e5b4ddece</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabf21dbdc54c80f40bcf9f9c7ed3563e9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV6</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4fe5ecac82418c2b93632986669d6ba2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV7</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadc4a6cac4e28b2031391f57954894399</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga44fab2ce7085f913ab04a5b8bdd2b201</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga091cc112601a0cc5500f1f1a2e8936a7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac11c72c60ca011844875b4be8f1085f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga64511610b9e7d177503c09a075ba566d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaf0f9dbdba62c75e8162072d64037aa50</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac3ba9062bdaa5dacac8c28a949db7017</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad6aee9f108e92eaded7f71910a13e3a9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV15</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabc0dc66cb6f2e90143262de87c6ecd63</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV2_DIV16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga60a0120fe28c17e84b20bf25b269a838</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>_REG_BIT</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga859a9ba8fcc7c60a0f7dfd5865001f08</anchor>
       <arglist>(base, bit)</arglist>
     </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_osc</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga68c2b48bd51903ccf423c86458194354</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>PLL</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354a5c7fe827c28117f11dd14f9197d7d5a2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>PLL2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354a98d505f310a7a1e3a1cb888397e8b456</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>PLL3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354a2be1996c2c7e2cdf1e614e4f9a18f10c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>HSE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354a744bf841212e605b891f8ced6e20eb43</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>HSI</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354aae2bb333077d91b3c2aa75978f89e084</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>LSE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354aa07a47bdd221bde7ab7f08d41c03de40</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>LSI</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga68c2b48bd51903ccf423c86458194354ac59b221b111954833c988555d5972f88</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_periph_clken</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga54c7db24941f636ee238833c481ada48</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_DMA1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ad3c1b4bd4d4910ad45903d70ce99c546</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_DMA2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48af6727266dd80b08123851bd3fc641468</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SRAM</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a7de81948facbcf4690488d21bc3d6cab</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_FLTF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a8c99d9dde06648a740f4b14f3f62ce1e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CRC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a667709fea2f55d81d0084c0ab6cd7346</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_FSMC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a14682a077f8b751228b73025036856b0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SDIO</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a1df9684e164cf1ce919d187c0dde60d3</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_OTGFS</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48af11d38142f46991ffecaa2ca735778b0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ETHMAC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ab92887f75603288e1a12139abdd36d39</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ETHMACTX</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a9e811d3598fe9084d0ffd18cda24daae</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ETHMACRX</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a68cdb36631234ebcd7e04bf58e2edd3b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_AFIO</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a68345b3ee59e805471c4580e1cc011fa</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOA</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOB</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48abe0e8ee9db293583511579bffd694b6c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aca99d40a98c0cccaa8dd4a5eb8422dea</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOD</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ade83c8caa918ccda0766791076460d1e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aecccb0767e9ec411349051aa5f055779</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ac2a10a31a77eac6a9e5ef9b59397abf4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_GPIOG</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a5db55f45d23bd84c2e4b9a36c7cdb57e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ADC1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a81b9534841bd60ff16455a28481d7a14</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ADC2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a777ad0506337d6e993f2806a9c6e6e67</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a246489e2827e54e0c0e6d4d1296c362e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SPI1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a04b8e39ee8c4a6c9e662349b1b45f0b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_USART1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a6f9bc1664f1972e622f9228606caa3b8</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_ADC3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aa6241e9482735ceb39aac86fcf16181a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM15</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ae3a47230b9ec6676e820e933c28e86f5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aa4fc95bd30dc3fc9b3f1502c1a3c983e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM17</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a3e32bf0959893de29f3408d7668cdfb3</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a1080e5712f2404522fd82852ea3c655a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a6023464e8d05064abba394b800100198</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48afdfa75bcb6a2c9c90db9ec4460ebff1e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a4d961657b29cd6920dec7df1d6a024e6</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a7605ac255d1f7e3fd0c21907b17bba66</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aac4c56a3d869baf25b0434beed0e9ff5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM6</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM7</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aa6a4aed50fc2fb9a4ecd4a6dc655652d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a7e33c22a28dde91ac18e1df1b2c3e097</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_TIM14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a6ba31ae3057d17367fd3db48eea02709</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_WWDG</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a1965878d5b5e1b68e85a92ad2da94514</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SPI2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a191f2ba3eea4493bbfa449bb9e61f99c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_SPI3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48ad70ccc847d7804abe857efa22e0ab952</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_USART2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aa4be48dd043f5d74f5e4eb9d2516b87b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_USART3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aaa823140b93403c8dd3395bc5b510155</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_UART4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48acddaf98763a8dc6edf0b69c983becfd7</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_UART5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a0d7a994107ab9af33f9bdbda74ec4685</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_I2C1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_I2C2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_USB</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a965e89095cbc1ef346c32f30f885d793</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CAN</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a103d2ed58a3babf641fbe9a3654ab534</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CAN1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a61b240aefa01d614e06844f5b5943dc9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CAN2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a29d2eb8498d986928d42dd05ca0eefbc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_BKP</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48af5ce5f48d1a40ea29eaacc30c623e048</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_PWR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a653354e7670b00648bd46782e60a780b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_DAC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48adbda7bdfe6f47cc2b36f5ea78d9b56d4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RCC_CEC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a38ec1bc547ec4365ee3c3ec7054d33e7</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_periph_rst</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4bd6185a4613aaa3ee5447c3d86ba718</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_OTGFS</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8091fb612cbbee46d5c161e23c6c93a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_ETHMAC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a83c81184087f13efd80f2a498d4ae275</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_AFIO</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a925aae13d2f35f9073264f2e0710b7f9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOA</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a82de36d9219d3b7a8f6e24f7b037d4c5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOB</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8607fa69d38f8dd406daebb7bf9b8b26</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a847595db9011d5989097e67215f3f208</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOD</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9fed32b2a96d4647ea73ba7926f1121e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOE</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab720e4e6239cb85e2736a4f022e4f64b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOF</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a61956334f17966ab11993869be4e2ebb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_GPIOG</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3f01ba2712eceec7b7dca34c9e261a4d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_ADC1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a49afbde70605d4da05d71727d5ce33bf</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_ADC2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a287b0f48e26a03c4171f26c2b7f9c21a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a865f6b809c4016955e290f5c569c85bf</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_SPI1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a28ffb322497d5b858fe69ea8551458fc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM8</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6e18446cb73c6b9518ba4045f16e9231</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_USART1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acd5c7eeeda3799f89bc3da7169384bf1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_ADC3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a42c6c021ecd4a466e8265505ce527efd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM15</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6f8e727fd562ebbb67b2547a813bc9d2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM16</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a56608e4906289387152b2f5aa4babef5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM17</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7a19340ece9a89667b6b124f47bc288e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM9</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6bdfc0080866294c7abbe0a905b1c0f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM10</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7d8a4872c50c02f19764a20d6a649ec0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM11</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8d64dfed0d3f86ac59970a1bca110ba</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a11cf678a1931bc3f8ecd22fccf1304</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa94b0829d2505a3d916a3b7bb8e95361</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aac5933e47e7e98b7096193edfe4bf08a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM6</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM7</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM12</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7c9f088db1db27834777eceb0592f8f4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM13</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a955bf101b2ffaa7c39dfad28a8e742f1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_TIM14</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a618551caa5dd22af8f9c790284fb9247</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_WWDG</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad38183e2f4809aa13b2c149b9158cdb1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_SPI2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6a2dd34c8278fd2019d4aab6d7dd91fe</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_SPI3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8c3208aa283eea369bdb2697cbe6dff8</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_USART2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af2ed5025a1c665196870ac061ffafd24</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_USART3</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a909ada79d50eabe177c087ae3db578da</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_UART4</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6db8b2fc3c699ae1b93d0e7e04b16265</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_UART5</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab1495852f5070c5924815d26636035f2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_I2C1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ae083a448a99ae23e788c79d45f2f0fae</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_I2C2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aba0770678558545d59794049b4ea57f8</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_USB</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa268cf3f3421fb383cbd85b70f1f487c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_CAN</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa2e28f01ba83fc92884b9fafc9de413b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_CAN1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ac69e521b2ffa74210da31d7ea0f11b75</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_CAN2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a35b98b94389d1e5928c882b9320eab</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_BKP</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a94354fbf0c2f97795b770c6389dedcf9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_PWR</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acaed17a5e312de489708c67c9933c044</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_DAC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a90b3f78831d25a6f6291744bc0eabd45</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>RST_CEC</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a311d0176ee435d5b7b0281908743b88a</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1c96c4bce0fe924171980aa993d2a0af</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_enable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6507734e493649ea262e10a511581d67</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_disable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7f7d1d31caae583cd72443e35885902b</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>rcc_osc_ready_int_flag</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga01c3b6e7aee2cee13506e3f555539008</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_css_int_clear</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gab1b45443e00d0774628de632257ba9f4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>rcc_css_int_flag</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga0d3d34d807e0934127960914833a1b4d</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_osc_ready</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_on</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga81b16ade2e5d6e024f36e3d568a9fd97</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_off</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga89d079556639549018fbd8d66cf5fc20</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_css_enable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaddb943f9f25dc2df52890c90d468f373</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_css_disable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2297cce07d5113023bf8eff03fc62c66</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_mco</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
       <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_bypass_enable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3bccfeb2f4364e18997cbd88e2476270</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_bypass_disable</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga5fbe4bc4ca1447fff06e4490f655367e</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_sysclk_source</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
       <arglist>(uint32_t clk)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
       <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll2_multiplication_factor</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga648726dbed9b010d181306103c9eb51c</anchor>
       <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll3_multiplication_factor</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga548fdeeacbf0c2199b0851a8c71ff872</anchor>
       <arglist>(uint32_t mul)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pll_source</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2f2bd45ad9c8b32e0fe5affe9bf181bf</anchor>
       <arglist>(uint32_t pllsrc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_pllxtpre</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae307406af5f22597be382a3eecc7b54b</anchor>
       <arglist>(uint32_t pllxtpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_adcpre</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga190cb3bbb95d687334d00e15bfab5b56</anchor>
       <arglist>(uint32_t adcpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gac40c9478480f3a44c381c15482a563cd</anchor>
       <arglist>(uint32_t ppre2)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_ppre1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaaf1b9174131b00a7014c0328a53a65a1</anchor>
       <arglist>(uint32_t ppre1)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_hpre</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
       <arglist>(uint32_t hpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_usbpre</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad434015520b42043657d7478f8308c37</anchor>
       <arglist>(uint32_t usbpre)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3002a6fe10a813069b1d13c98c0a6da7</anchor>
       <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv2</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3a206a5322c1c6f7737654e13a01c6b8</anchor>
       <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_prediv1_source</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2ce7e31318695e354e955004c0050a85</anchor>
       <arglist>(uint32_t rccsrc)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
       <name>rcc_system_clock_source</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga3373359648b1677ac49d2fe86bff99b7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hsi_out_64mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae75d09f5953c113b10c266937e0d36a7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hsi_out_48mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadd6354a9a1404b23b5baa00b51b03cc2</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hsi_out_24mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga63c14a3f3ed2799c6ad21564f97d0e99</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_8mhz_out_24mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2a1d0a3e6272c2268ed5b560fb37262c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_8mhz_out_72mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga7de5e411afdd8f22d01d91613acfc844</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_12mhz_out_72mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae6012c8bf33f8cfa406a37ef88e9a47b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_16mhz_out_72mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaec148e144431957a5a0dff4d3ce581b1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_in_hse_25mhz_out_72mhz</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae61f5759a5cbcd628e873e951ade7f1b</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_backupdomain_reset</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa02e63deae78644c393004fb900fe584</anchor>
       <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_enable_clock</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_disable_clock</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf9fddc20e14204db6d4a4a54132d191b</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t en)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_reset</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga3779f1460275e6788f706c61d7f77205</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_peripheral_clear_reset</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gabb1b312c6db8db25447460742dcdb566</anchor>
+      <arglist>(volatile uint32_t *reg, uint32_t clear_reset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_enable</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga90aa2b7801b2b42debc0536d38c5b07c</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_clock_disable</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga87325ef1019f246cd84ba8aa73100721</anchor>
+      <arglist>(enum rcc_periph_clken clken)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_pulse</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae8846a0bf49a46bcdc10a412bc69ee58</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_hold</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga6f3e2843e5d017717da66599ccc5daef</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_periph_reset_release</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga08aceecc3bebdf33119e8d7daf58b573</anchor>
+      <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>rcc_ppre1_frequency</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga71455852cfe7420e0c33a63e0e09c4e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>rcc_ppre2_frequency</name>
-      <anchorfile>group__STM32F1xx__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
       <arglist></arglist>
     </member>
@@ -42043,1291 +38964,283 @@
     <filename>group__rtc__defines.html</filename>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_TR</name>
+      <name>RTC_CRH</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab7f3968366871c360f334e13b2e5f03c</anchor>
+      <anchor>ga008b590fea16c935859095b25a345d01</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_DR</name>
+      <name>RTC_CRL</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga86eb15145a17a67b7e2d3bebde53aa96</anchor>
+      <anchor>ga6aa62269ca0c46d1a4ad61012dbc85f8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_CR</name>
+      <name>RTC_PRLH</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab12a646e66898472d5b47da87e6a39f9</anchor>
+      <anchor>ga2e6c6cf0e85154b9c4cac63f97c9c4a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_ISR</name>
+      <name>RTC_PRLL</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae2cc36a11795e461447f19b75ab3424e</anchor>
+      <anchor>ga8725f1dec73b230670ab0ac61d50adce</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_PRER</name>
+      <name>RTC_DIVH</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga6f602eed6e850324e6864df92284f6c5</anchor>
+      <anchor>ga1f6a2e4c8f99d82df195f6e1d1102c63</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_WUTR</name>
+      <name>RTC_DIVL</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2b0bc0df97c0174474d9b40d4c77a50f</anchor>
+      <anchor>gae9ee3aacf2681dc3a8d29d3343855002</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_CALIBR</name>
+      <name>RTC_CNTH</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae8569e0a01af40c33a5a5a032c48d862</anchor>
+      <anchor>gaddbf6619200b52bd4c2849895bf48724</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_ALRMAR</name>
+      <name>RTC_CNTL</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4e42f3d5ad92ab8a5598ad9d8f30d2ac</anchor>
+      <anchor>ga348bb8d5947955f173bb4d7b48521820</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_ALRMBR</name>
+      <name>RTC_ALRH</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa9133a5540853ecbe332c037b24fe98f</anchor>
+      <anchor>ga07020ea4dd14fbc22c4410ed32ad1179</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_WPR</name>
+      <name>RTC_ALRL</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab6487e9420e94ef109d0431f42c3c740</anchor>
+      <anchor>gac673699fd007d9c2990f41b8e4703667</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_SSR</name>
+      <name>RTC_CRH_OWIE</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga31831515499751f2b047e98bc7bf433f</anchor>
+      <anchor>ga04e23d339e15dbf883dbedb054cd1706</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_SHIFTR</name>
+      <name>RTC_CRH_ALRIE</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad1f31c8249774ba3fe317d45ee7193ee</anchor>
+      <anchor>ga990a6b449f70249a1a4baf19f64617d9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_TSTR</name>
+      <name>RTC_CRH_SECIE</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3b5fd9c320bed9cf67fd2ab262a2d787</anchor>
+      <anchor>ga8dd52d261f99a969d9841a4426152b85</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_TSDR</name>
+      <name>RTC_CRL_RTOFF</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab1e2138d67ef50e75f212682ef83437e</anchor>
+      <anchor>ga6bc57b1110a53b82e4445c4770203fe8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_TSSSR</name>
+      <name>RTC_CRL_CNF</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3f4232d0efe2370a09beee71638e4707</anchor>
+      <anchor>ga3829687c89579c020665c19b8937a820</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_CALR</name>
+      <name>RTC_CRL_RSF</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafaf647bb57bb905fe6a9a3377ca34424</anchor>
+      <anchor>gae6fefe3020ad4d61b54a516e8a65f30d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_TAFCR</name>
+      <name>RTC_CRL_OWF</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga26de03df250ff35784528913577c72df</anchor>
+      <anchor>gad801db5fbfc407b1959647765076b299</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_ALRMASSR</name>
+      <name>RTC_CRL_ALRF</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaaabf37f9d0b410bf5d664037a8e7484d</anchor>
+      <anchor>gaca9bce7cb58e637876d1154710305563</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RTC_ALRMBSSR</name>
+      <name>RTC_CRL_SECF</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4919be7b0a730288b5c2eb1eae16a68d</anchor>
+      <anchor>ga2c039206fc5c1506aba666387c5d34c8</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_BKP_BASE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1d7765dbc5fc80310d28f75cb3d71089</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_BKPXR</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab701eac43b9bf61cd11922c15a4d8ee1</anchor>
-      <arglist>(reg)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_PM</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3152952ac385ee1ce8dd868978d3fce9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaaf89dd3016dea1f25a2e77cd346328df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabf81ff38ba8396520bc7096a1a041922</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga39f8942aae9b7fd6ce37808a7b4fde1a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_HU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1392cf11019d8f3acb1777f98c43591a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabc6a8bf6656a7fbb509651166391cf96</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa7528d1b55e829ef5b72309eff20b4b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga14e3a8c1af0e47c098c4c2ece80bcebf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_MNU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2d893e026ea3fb6073777cffd93fefcc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_ST_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0a3525a806619247b9759ec71e324fa5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_ST_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5a1ff2da57ee453328826f0659249e7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_SU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7f6ba78c26df688fa310e5f9f81e35fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TR_SU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga56e202ccdf3f467c472e2204b9fe181e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3d86a57c71d0518d805e8ff175a096c1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5cdad136c4966fa6aedcacf4f755fd56</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaefe82e362240f92f499e7bf30d22eec6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_YU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabe00e8b7c47c66bdef5c74c0ed8c83cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_WDU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaad8b50c104f06e4e68ade114eb10d0f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_WDU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0e981c8352a0a6dd79698ef8e9a68c5b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga26f0d3ce1c6c6785bd8fbae556f68b31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1ad7d5e6b06e97429e69ce78a01ce556</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga45ec20978a87b7a4371acd0a32f19816</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_MU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4620f9fdbe0ba1759894c52afab80f9a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga61e2102ae089ff41b5243a3fec0a0528</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga81d9ee62a268f903d61a89661a1e2023</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga86e344ae00a9837fe6677d4641572199</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_DR_DU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga6b9b03b39858e2c57f139211d6026ea5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_COE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3cdfa862acfa6068b7ba847f77269d60</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9606e83364ad2d2d942646848ac23fe1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga46bc8dfc9d0f3257e6616cb9993ab182</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_DISABLED</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga31766791b9c355deb7d26179001e5f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_ALARMA</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4901df27bb4bf5f1080673130c0339e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_ALARMB</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga237875d2e082c238db42a065f2a828b5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_OSEL_WAKEUP</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafecc4ef831d8e4c2f56ad97d79c7a63d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_POL</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga53f21b5adadbcc5eb255683d5decc9cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_COSEL</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga197c587884b9c1dcb2970e9ec2589b41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_BKP</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0e7a474de1a01816bc9d9b6fa7272289</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_SUB1H</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga220cf6237eac208acc8ae4c55e0b5e6f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ADD1H</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaae1a8439d08e28289398dcf3c2b4b47b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf376dffb9f2777ef275f23410e35600d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUTIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5e0a1419830a16667cea4f6454913226</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRBIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac6269c9dd5cee650024ede0b0c42e87d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRAIE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9138f75267bd93f8de6738225217d583</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga94fa98ca8cac9078b9bb82c89593d3c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUTE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga061be0d3cdea721e5cb695cda0699bc3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRBE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga17d0850002ed42742ff75a82dc4e8586</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_ALRAE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga8a8cdeac61f06e4737800b64a901d584</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_DCE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4ce7cb8b575142e125863d61ea4765ba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_FMT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab2706e31a1bc8d95b682fe47611e0dd3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_BYPSHAD</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga34d50a3eff3364e6da4fefed9962a054</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_REFCKON</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga646ef1071cacc2d30bbef5597c817021</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_TSEDGE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad076bde34be7d24f088fd2c003b7a7f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7fb2100cd23f48dabf098fd8de6be384</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0dc6c11dd47bd5203d4883f402967a4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV16</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf4a299e7d304a895cb9ea67cd5b6b64d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV8</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaef42ae617803d9c38cc35333afe01847</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV4</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac5b62e2a99c81b7af88f8af60ece2bde</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_RTC_DIV2</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafc4613add60380f65ed4bede0e1a93bd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_SPRE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae72bcf840df1c5b8e9dbf18da2ee0d4b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_CR_WUCLKSEL_SPRE_216</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0dff3df721423c3e13d21fee04a6b2cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_RECALPF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga05189137cfd0e73903d9b70d071656b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TAMP3F</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9cbbb7637689d5396c719a6ddb04fe2b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TAMP2F</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gabdb176578e53b2d8e24a94c8d0212845</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TAMP1F</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae738b22f6a8123026921a1d14f9547c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TSOVF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga766c238f964072decba204c7fce850ff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_TSF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga68c0a60dbfc5f1570a48afe450395484</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_WUTF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4eb5960300a402210e5378d78ce22766</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRBF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7976972a5fc6705fede85536520367d6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRAF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga96605e50a347507b7f274e9cd894a02c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_INIT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae0eb2f998cd3e7325974347cb2a3d25a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_INITF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab16dcc6973c611e087030cdb15203972</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_RSF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9bd683e789841f7d3f138709ffdbfbf8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_INITS</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7b229bace5ba0c0b48bfeb5efc445292</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_SHPF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1c4536a874336778ac11109f14573eb9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_WUTWF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0e753321211e19bc48736fe0d30a7f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRBWF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5a0c34bff6dc9fce29e2be35d32d9d05</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ISR_ALRAWF</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4d420b5c3f8623cf1116d42fa164be7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_A_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad81b16856acc1696768d7876668e039b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_A_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad249bea121f8bd3cf09f43100c5fd615</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_S_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaca3f81a738023a2a4ba9048f049915b8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_PRER_PREDIV_S_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga615d9978f77688fb9cdfba80bde412dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK4</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga28f42cc8417872db64a9f45fa6f0ae45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_WDSEL</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga53fcffd324af255c0777ac0115b42fcd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga20e1c5f64b8c61eb4cbf8a38dfeb6859</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafe661ce0d245ad5ce56c045ea17c1a08</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf44b17197307f73ba26cd58161545626</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_DU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac016da37090476d1754283715b002fd0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK3</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga38f4b3a3a84cbe064fda91d9faed9a2a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_PM</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5057382e80dec481b021465cc1641530</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga08d8cc2cba587bbfba916263553be5e8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa93d094df573008657ae4cd8f8c03e35</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad2f9087d0fcb317c72b131f2cc618796</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_HU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga52d7037128f944e9956cdfd110b327d3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK2</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab96f43d09988f45f5ab5e20d4ba6c0cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf93bb190463ff2a2a01fc3fa8ffdc7be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga84c702f00fd21d27e092e808315c0eef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga150862b037f53faa237996e3e6270c78</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MNU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab5c3d67fe0d2c1652ba4ff6c4b51ca07</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_MSK1</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7a3c9a66638271f2fcc2b513a0cd4bc4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_ST_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga881bb575db4cf46a8c8fbcdaec03bc2c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_ST_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga589dfd57ed5a42fb9a5cca578514e145</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_SU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gadd24cc883627dc5c59ee509123ad4497</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_ALRMXR_SU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9e7f0bce36a75b94f06a4f31edb9590a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_PM</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga84b3d044be3e63573a5f0d4d14d8e3b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf2710a228feee195cd28244eff721a12</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gab89740507af8b89b41ff22e415d2077c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga92ef88ea648ff7f974a3ee4b4e54c7ae</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_HU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2ebd4ae3007f91a5acd3276077cb8e66</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0105eb3e873ee3eec6cff5efd3817930</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga13a2d2befada70da08113bd26a8fc7c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga25fe6d2f417858ff48426cf571474210</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_MNU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2a4f140238291909bc8260c4054bf7cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_ST_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga70752f4c448f60d95908069faa09e0b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_ST_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga52b278366497c1cc671717a74d49aecf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_SU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5acef5aae9e46b4ef9017ef026642c2e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSTR_SU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga98f8e93c67e6584ec71e480552f44973</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_WDU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad66eb8c3b73524f427b98c2faf138040</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_WDU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaeba08fc6087374a924251d294e8fdb12</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_MT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7bce43482443f2038a8eebc681067dd7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_MU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3874b6ce09046208ac560e9059d49e3e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_MU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0c8e9802673270b96c09091ae1859d39</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gacb48f83e52e02c83495fae264cb45ab9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae7b4878edbec889efa71b0d970cffc8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DU_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafc4f58c39250680d515b37a222f2b4e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TSDR_DU_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0f217be620b266abca83fe0f6dd5117b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_ALARMOUTTYPE</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga8d9515fd74e3bcf03f4e62d8c7e1b070</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPUDIS</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9ef294e75771913e4a47386f42a23f72</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga5123d2489c7b789f9a2ee4d6074ba205</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf00984169cfa42e0adde4cec189fd38c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_1RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gade7fe1c131b529094e8061440445903b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_2RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gae8372a162823e3fd5d9ee998508769de</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_4RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac977dbcaf500f2aae3e4819c69dc6512</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPPRCH_8RTC</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga948dee7649305745135671d365318a45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga6296e75b05069e95b1b4d9c841299fda</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga67fb705bb4bd518a608d20c317d60dc8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE1</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gade154d1bd10c16ebd2d266744300b758</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE2</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga1289178f46d97eeb9406b981bef69797</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE4</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3309fd45a2b6342db54855d8d5759287</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFLT_EDGE8</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac84c7cf6641564593a6bfcdfca7970cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_SHIFT</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3d25cf652f7160f24bb389125900161f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_MASK</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9d16e615c06c45e7812e43d6889c122e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV32K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga56fd05a22d9ff116424f174a7b95a13b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV16K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga9323edddf861336e125a4b0f13c92406</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV8K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga0f6bfca00672a49a65701e4042b0cd41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV4K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafe66826ace722bf46d1e72aeb2c03c7c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV2K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga2f15cc74b1248d85a3f82fadd91cb260</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV1K</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga8b0eed7b432f7b6a97df0248206aad8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV512</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga871c5063293abbce6ea66a2c5586c538</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPFREQ_RTCDIV256</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gafdc4c3822c1c87fb00cf46060abc6cfc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPTS</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gac929fab94fdca2d1b3b3cf7c93fe6e49</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP3TRG</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga890a7b3d51af77fd381528eb6639aaf2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP3E</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga4e8b2b80932b84a1bc7d399fba1a311e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP2TRG</name>
-      <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gad2c4d227971b56e3160c71b7479c769d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP2E</name>
+    <member kind="enumeration">
+      <type></type>
+      <name>rtcflag_t</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7e98a0062ef81bcbc790a8d77720a61c</anchor>
+      <anchor>ga7d949943d76043e8bd3d2186b7a3ed8f</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMPIE</name>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RTC_SEC</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa0fb33b24d2ebc19e7fe52f0661a3085</anchor>
+      <anchor>gga7d949943d76043e8bd3d2186b7a3ed8fa56166639f7a143ccdb88ecd9f9176a4e</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP1TRG</name>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RTC_ALR</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga76f85925873bcd3f795417053bfc5f33</anchor>
+      <anchor>gga7d949943d76043e8bd3d2186b7a3ed8fa0ed02b19bed77879d8e2df169b0f2cff</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RTC_TAFCR_TAMP1E</name>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RTC_OW</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaa68c195cf709d18cd426560302b97852</anchor>
+      <anchor>gga7d949943d76043e8bd3d2186b7a3ed8fa612a64a5b5192bf328a0866842d87b70</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_set_prescaler</name>
+      <name>rtc_awake_from_off</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga7c05857df37f0631153fdb9893df5c00</anchor>
-      <arglist>(uint32_t sync, uint32_t async)</arglist>
+      <anchor>gaa4fec0b94caffb25d0acde8813a7ef5b</anchor>
+      <arglist>(enum rcc_osc clock_source)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_wait_for_synchro</name>
+      <name>rtc_enter_config_mode</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga28b448062099ceb6ab758b85d1ddb785</anchor>
+      <anchor>gaf911a07f668e8be5f719065c44015b02</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_lock</name>
+      <name>rtc_exit_config_mode</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
+      <anchor>ga9adb9cf0f6b7d17a7c8ee0e6addf5be9</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_unlock</name>
+      <name>rtc_set_alarm_time</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
+      <anchor>ga3f53231bbbeef79acc322f2a6b045d3f</anchor>
+      <arglist>(uint32_t alarm_time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_enable_alarm</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gab7f69ee0de1cae2518b2822fd82d5201</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_set_wakeup_time</name>
+      <name>rtc_disable_alarm</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gacffca2b1f3a82b3f82923e9ab14f004f</anchor>
-      <arglist>(uint16_t wkup_time, uint8_t rtc_cr_wucksel)</arglist>
+      <anchor>ga718b866eab2ba73221d37f7d15ba9737</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_clear_wakeup_flag</name>
+      <name>rtc_set_prescale_val</name>
       <anchorfile>group__rtc__defines.html</anchorfile>
-      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
+      <anchor>ga1b2c2b6aa8879eb16f7cf3207587725e</anchor>
+      <arglist>(uint32_t prescale_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rtc_get_counter_val</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga16c4bf05c4660f7782efacb0b6f13069</anchor>
       <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rtc_get_prescale_div_val</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gac18d0fabc363be97a41cf05cb220739a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rtc_get_alarm_val</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7cbe2e2000e3f9d3420c9e130d4019e8</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_set_counter_val</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gacd673063942c2bedededd5760e4764ff</anchor>
+      <arglist>(uint32_t counter_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_interrupt_enable</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>gaad0059f95046be4d158626cc0ed199fd</anchor>
+      <arglist>(rtcflag_t flag_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_interrupt_disable</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga4de126c91f7eedf70262a99e663a6fc5</anchor>
+      <arglist>(rtcflag_t flag_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_clear_flag</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga1dd7ccbdf65c6f7b4d714bcb43a57528</anchor>
+      <arglist>(rtcflag_t flag_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rtc_check_flag</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga94da35b2f8d7af8985c2e21bc1253349</anchor>
+      <arglist>(rtcflag_t flag_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_awake_from_standby</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga19032c3fbc1546712c5bc534e5ddbf48</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_auto_awake</name>
+      <anchorfile>group__rtc__defines.html</anchorfile>
+      <anchor>ga7693c69c9ff726487720b12576a20968</anchor>
+      <arglist>(enum rcc_osc clock_source, uint32_t prescale_val)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -43931,195 +39844,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SPI_CR1_CRCL</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga3828b6114d16fada0dea07b902377a5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_LDMA_TX</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga39deb4ca947b12a999046e9a182c5df7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_LDMA_RX</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga4b7c17fc8f097e728aaff746356d8de3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_FRXTH</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga6e02994914afef4270508bc3219db477</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_4BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gac6ac22b3c106ed11cd66cab53ca80ea3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_5BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga3489b5c590d4d9a35c5d7628e076c381</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_6BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gaf0e65ead878fc6931d8d5705dd1fb153</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_7BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga17f4dda477f97cb4f983a039c3cca582</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_8BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga1477624af2e50f6ec6f64eb3edc82942</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_9BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga5208c8007f5e73249a912950803b2f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_10BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gac57738e200cff901c2249520d6348902</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_11BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gab1adfb895458566636e09354858a96a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_12BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga83792f6295819967ac2d5064ce066b10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_13BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gaa5f8732361558bcba0c6c2166d60da76</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_14BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gaf195cd233bc8ead5afb115a1d75bc3f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_15BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gae7ff246f2beef0f54e2edd61567f016d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_16BIT</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gabac925cb4499066dd10dbd1eba3ee060</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_DS_MASK</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga2fe0744a4f6de1a1d94b27ed231fcb50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR2_NSSP</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga2e7d9d05424a68e6b02b82280541dbd2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_FIFO_EMPTY</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gae25303e2e8db0ba27d42ccb7a713006b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_QUARTER_FIFO</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga11f429f104120334ca27ca4f75913aeb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_HALF_FIFO</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga857ca08eaa608d403dffea43d41e7a6d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FTLVL_FIFO_FULL</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gae4ec0feec9d85ca1aec1a7c722f74673</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_FIFO_EMPTY</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga30b4760cc554e7207e0ed0fe7516460b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_QUARTER_FIFO</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga5154ec573d83e855d8eeec4e969a11e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_HALF_FIFO</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gacbe4df524cfaa4f13e8022bba3b25bba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_SR_FRLVL_FIFO_FULL</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga7b1c503ecf5888ada9c06b9a06bc12c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>SPI_CR1_DFF</name>
       <anchorfile>group__spi__defines.html</anchorfile>
       <anchor>ga3ffabea0de695a19198d906bf6a1d9fd</anchor>
@@ -44445,48 +40169,6 @@
       <name>spi_disable_rx_dma</name>
       <anchorfile>group__spi__defines.html</anchorfile>
       <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_data_size</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga285ede0085fb67dd93f5f03835ffd508</anchor>
-      <arglist>(uint32_t spi, uint16_t data_s)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_fifo_reception_threshold_8bit</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>gab28610e17dfebd2fb0c51a0d7b462d95</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_fifo_reception_threshold_16bit</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga9dc4ebbea2dc313a7e0f5e3ba3754caf</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_i2s_mode_spi_mode</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga3106545d2b06f1a49911a48853a61fbe</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_send8</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga4307af8c6b3812b86dfea621f1f40d37</anchor>
-      <arglist>(uint32_t spi, uint8_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint8_t</type>
-      <name>spi_read8</name>
-      <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga678fc0899ce572786e0ee3f875b80e91</anchor>
       <arglist>(uint32_t spi)</arglist>
     </member>
   </compound>
@@ -49437,201 +45119,6 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>gpio_output_type</name>
-    <title>GPIO Output Pin Driver Type</title>
-    <filename>group__gpio__output__type.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OTYPE_PP</name>
-      <anchorfile>group__gpio__output__type.html</anchorfile>
-      <anchor>gaf1281bd13a0f400c75ae55f8ca705e34</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OTYPE_OD</name>
-      <anchorfile>group__gpio__output__type.html</anchorfile>
-      <anchor>ga791ebbd755e6497dc96a855ad63f82f8</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>gpio_speed</name>
-    <title>GPIO Output Pin Speed</title>
-    <filename>group__gpio__speed.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_2MHZ</name>
-      <anchorfile>group__gpio__speed.html</anchorfile>
-      <anchor>gac187d6cf154374918a3c06adffc394cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_25MHZ</name>
-      <anchorfile>group__gpio__speed.html</anchorfile>
-      <anchor>ga30c567422df45ed461831900415c71fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_50MHZ</name>
-      <anchorfile>group__gpio__speed.html</anchorfile>
-      <anchor>gab660cad7f0a56972879dfaeb9cb2dd7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_OSPEED_100MHZ</name>
-      <anchorfile>group__gpio__speed.html</anchorfile>
-      <anchor>gaecfcc34d423c790eba57eebbdf14f322</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>gpio_pup</name>
-    <title>GPIO Output Pin Pullup</title>
-    <filename>group__gpio__pup.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD_NONE</name>
-      <anchorfile>group__gpio__pup.html</anchorfile>
-      <anchor>gad53ebddfcc3973120b1c0271423f131e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD_PULLUP</name>
-      <anchorfile>group__gpio__pup.html</anchorfile>
-      <anchor>ga264ec1394a2217031267aa4f1967ed2d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_PUPD_PULLDOWN</name>
-      <anchorfile>group__gpio__pup.html</anchorfile>
-      <anchor>ga00bee089916bc2dcc46a6513f50a6d6b</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>gpio_af_num</name>
-    <title>Alternate Function Pin Selection</title>
-    <filename>group__gpio__af__num.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF0</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gab9c7d5d4b56cea62509068bee1395bd2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF1</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gaf9203749b609546ef5b3358ac744afc0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF2</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gae90a79c045fcbee1559745891e1ead8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF3</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga7afac677768ba50f3f2667c996c53772</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF4</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga5e574af903fe01c85ec2ece496c280a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF5</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga604ed146ad823719c981f855fb363047</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF6</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gaf5ff57d2d962cbd0c2457c2f91eb27be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF7</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga800b04473ead3f8c959315bbbbc93eb6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF8</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gac832d890950c1e5e99e8090829303ac5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF9</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga5976a97cba5848fba316456534fbd555</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF10</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gabd7cde73c21830dd54cb87884091e19f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF11</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga9466b2af86dae45d49b8e76f40565b85</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF12</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga134f840f4efbdb994ea47eecde306153</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF13</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga0779d3cff751db7fe6aa11a4bf47d48f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF14</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>gaf7773d46c38028bf31f73c4adb37556b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>GPIO_AF15</name>
-      <anchorfile>group__gpio__af__num.html</anchorfile>
-      <anchor>ga6d376657d66d0a5939629b1722b27279</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
     <name>i2c_reg_base</name>
     <title>I2C register base address</title>
     <filename>group__i2c__reg__base.html</filename>
@@ -50337,20 +45824,6 @@
     <name>spi_dff</name>
     <title>SPI data frame format</title>
     <filename>group__spi__dff.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL_8BIT</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gad769555cf6f2bec4ef81a92fbc57d4c3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SPI_CR1_CRCL_16BIT</name>
-      <anchorfile>group__spi__dff.html</anchorfile>
-      <anchor>gac80232620cca93d658564d903847114f</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="define">
       <type>#define</type>
       <name>SPI_CR1_DFF_8BIT</name>
@@ -52157,13 +47630,6 @@
       <anchor>gab759a6e89a54cfb15a60c0e8f4eb66df</anchor>
       <arglist>(uint32_t address, uint16_t data)</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_clear_pgperr_flag</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>ga05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
-      <arglist>(void)</arglist>
-    </member>
   </compound>
   <compound kind="group">
     <name>gpio_file</name>
@@ -52525,9 +47991,114 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>pwr-file</name>
+    <name>pwr_file</name>
     <title>PWR</title>
-    <filename>group__pwr-file.html</filename>
+    <filename>group__pwr__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_power_voltage_detect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
+      <arglist>(uint32_t pvd_level)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_power_voltage_detect</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_standby_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_wakeup_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_standby_mode</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_stop_mode</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_on_in_stop</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_low_power_in_stop</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_wakeup_pin</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_wakeup_pin</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_voltage_high</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_standby_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_wakeup_flag</name>
+      <anchorfile>group__pwr__file.html</anchorfile>
+      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
+      <arglist>(void)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>STM32F1xx-rcc-file</name>
@@ -52820,45 +48391,122 @@
     <filename>group__rtc__file.html</filename>
     <member kind="function">
       <type>void</type>
-      <name>rtc_set_prescaler</name>
+      <name>rtc_awake_from_off</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga7c05857df37f0631153fdb9893df5c00</anchor>
-      <arglist>(uint32_t sync, uint32_t async)</arglist>
+      <anchor>gaa4fec0b94caffb25d0acde8813a7ef5b</anchor>
+      <arglist>(enum rcc_osc clock_source)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_wait_for_synchro</name>
+      <name>rtc_enter_config_mode</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga28b448062099ceb6ab758b85d1ddb785</anchor>
+      <anchor>gaf911a07f668e8be5f719065c44015b02</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_unlock</name>
+      <name>rtc_exit_config_mode</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga25813ce258a0d4d2865ec883fea0175b</anchor>
+      <anchor>ga9adb9cf0f6b7d17a7c8ee0e6addf5be9</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_lock</name>
+      <name>rtc_set_alarm_time</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>ga3e70e56710b30885a46bae6e88a36f9b</anchor>
+      <anchor>ga3f53231bbbeef79acc322f2a6b045d3f</anchor>
+      <arglist>(uint32_t alarm_time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_enable_alarm</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gab7f69ee0de1cae2518b2822fd82d5201</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_set_wakeup_time</name>
+      <name>rtc_disable_alarm</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>gacffca2b1f3a82b3f82923e9ab14f004f</anchor>
-      <arglist>(uint16_t wkup_time, uint8_t rtc_cr_wucksel)</arglist>
+      <anchor>ga718b866eab2ba73221d37f7d15ba9737</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>rtc_clear_wakeup_flag</name>
+      <name>rtc_set_prescale_val</name>
       <anchorfile>group__rtc__file.html</anchorfile>
-      <anchor>gaf12d879a95330d644ab2ec4490004de5</anchor>
+      <anchor>ga1b2c2b6aa8879eb16f7cf3207587725e</anchor>
+      <arglist>(uint32_t prescale_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rtc_get_counter_val</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga16c4bf05c4660f7782efacb0b6f13069</anchor>
       <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rtc_get_prescale_div_val</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gac18d0fabc363be97a41cf05cb220739a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rtc_get_alarm_val</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga7cbe2e2000e3f9d3420c9e130d4019e8</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_set_counter_val</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gacd673063942c2bedededd5760e4764ff</anchor>
+      <arglist>(uint32_t counter_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_interrupt_enable</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>gaad0059f95046be4d158626cc0ed199fd</anchor>
+      <arglist>(rtcflag_t flag_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_interrupt_disable</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga4de126c91f7eedf70262a99e663a6fc5</anchor>
+      <arglist>(rtcflag_t flag_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_clear_flag</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga1dd7ccbdf65c6f7b4d714bcb43a57528</anchor>
+      <arglist>(rtcflag_t flag_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rtc_check_flag</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga94da35b2f8d7af8985c2e21bc1253349</anchor>
+      <arglist>(rtcflag_t flag_val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_awake_from_standby</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga19032c3fbc1546712c5bc534e5ddbf48</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rtc_auto_awake</name>
+      <anchorfile>group__rtc__file.html</anchorfile>
+      <anchor>ga7693c69c9ff726487720b12576a20968</anchor>
+      <arglist>(enum rcc_osc clock_source, uint32_t prescale_val)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -53731,13 +49379,6 @@
       <anchor>ga07c712d9ab62bbcea1de4f865a077a5c</anchor>
       <arglist>(uint32_t timer_peripheral, uint8_t trigger)</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_ic_set_polarity</name>
-      <anchorfile>group__timer__file.html</anchorfile>
-      <anchor>ga5cc4c3f615f4b661a7ba3be837bfb424</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
-    </member>
     <docanchor file="group__timer__file" title="Notes for All Timers">tim_common</docanchor>
     <docanchor file="group__timer__file" title="Basic TIMER handling API.">tim_api_ex</docanchor>
   </compound>
@@ -53928,116 +49569,6 @@
       <arglist>(uint32_t usart, uint32_t flag)</arglist>
     </member>
   </compound>
-  <compound kind="group">
-    <name>pwr_file</name>
-    <title>PWR</title>
-    <filename>group__pwr__file.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
-      <arglist>(uint32_t pvd_level)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_standby_mode</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_stop_mode</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_voltage_high</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_standby_flag</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__pwr__file.html</anchorfile>
-      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
-      <arglist>(void)</arglist>
-    </member>
-  </compound>
   <compound kind="dir">
     <name>common</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
@@ -54046,19 +49577,13 @@
     <file>dac_common_all.h</file>
     <file>dma_common_l1f013.h</file>
     <file>exti_common_all.h</file>
-    <file>exti_common_l1f24.h</file>
-    <file>flash_common_f234.h</file>
     <file>gpio_common_all.h</file>
-    <file>gpio_common_f234.h</file>
     <file>i2c_common_all.h</file>
     <file>iwdg_common_all.h</file>
     <file>pwr_common_all.h</file>
     <file>rcc_common_all.h</file>
-    <file>rtc_common_l1f024.h</file>
     <file>spi_common_all.h</file>
-    <file>spi_common_f03.h</file>
     <file>spi_common_l1f124.h</file>
-    <file>syscfg_common_l1f234.h</file>
     <file>timer_common_all.h</file>
     <file>usart_common_all.h</file>
     <file>usart_common_f124.h</file>
@@ -54071,18 +49596,15 @@
     <file>dac_common_all.c</file>
     <file>dma_common_l1f013.c</file>
     <file>exti_common_all.c</file>
-    <file>flash_common_f234.c</file>
     <file>gpio_common_all.c</file>
     <file>gpio_common_f0234.c</file>
     <file>i2c_common_all.c</file>
     <file>iwdg_common_all.c</file>
     <file>pwr_common_all.c</file>
     <file>rcc_common_all.c</file>
-    <file>rtc_common_l1f024.c</file>
     <file>spi_common_all.c</file>
     <file>spi_common_l1f124.c</file>
     <file>timer_common_all.c</file>
-    <file>timer_common_f234.c</file>
     <file>usart_common_all.c</file>
     <file>usart_common_f124.c</file>
   </compound>

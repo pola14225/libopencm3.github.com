@@ -3,7 +3,6 @@ var group__flash__file =
     [ "flash_clear_bsy_flag", "group__flash__file.html#ga37dfda93743e7b6285c3d01a7d519001", null ],
     [ "flash_clear_eop_flag", "group__flash__file.html#ga824b51d54d30e1ab5e3c47f4bc8b3031", null ],
     [ "flash_clear_pgerr_flag", "group__flash__file.html#ga8b028c13f819606dfb542931cc87c22e", null ],
-    [ "flash_clear_pgperr_flag", "group__flash__file.html#ga05f77e8fb4167ec5a0a2fa55b88245fd", null ],
     [ "flash_clear_status_flags", "group__flash__file.html#ga8bf42e68b53ee74583675289608dae65", null ],
     [ "flash_clear_wrprterr_flag", "group__flash__file.html#ga9c1b3869d9a031db08c634e7f8a396bb", null ],
     [ "flash_erase_all_pages", "group__flash__file.html#gaf1804e22fb8a901f3a5f85535aa1ff7b", null ],

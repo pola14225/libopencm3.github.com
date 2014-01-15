@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pend_5fsv_5fhandler',['pend_sv_handler',['../../../cm3/html/group__CM3__nvic__defines.html#ga214eb2c5d993ec1fe7b0a25dd428d3ae',1,]]],
   ['pre_5fmain',['pre_main',['../vector__chipset_8c.html#a0d71b6c9f6dfd739865d6f0f81fb147d',1,'vector_chipset.c']]],
   ['pwr_5fclear_5fstandby_5fflag',['pwr_clear_standby_flag',['../group__pwr__defines.html#gacee516d449f1015a27246fbfedc534de',1,'pwr_clear_standby_flag(void):&#160;pwr_common_all.c'],['../group__pwr__file.html#gacee516d449f1015a27246fbfedc534de',1,'pwr_clear_standby_flag(void):&#160;pwr_common_all.c']]],
   ['pwr_5fclear_5fwakeup_5fflag',['pwr_clear_wakeup_flag',['../group__pwr__defines.html#ga652ae2d48d4833539f50f0c201e8fff2',1,'pwr_clear_wakeup_flag(void):&#160;pwr_common_all.c'],['../group__pwr__file.html#ga652ae2d48d4833539f50f0c201e8fff2',1,'pwr_clear_wakeup_flag(void):&#160;pwr_common_all.c']]],

@@ -39,7 +39,7 @@ var group__rcc__defines =
       [ "XTAL_25M", "group__rcc__defines.html#gga8f09204cad649f070887682ed6549ea9a8ac164b085138f1c24abb51ee35cf5d5", null ]
     ] ],
     [ "rcc_change_pll_divisor", "group__rcc__defines.html#ga70fca8e561f7e2b2b7062c22d85419b4", null ],
-    [ "rcc_configure_xtal", "group__rcc__defines.html#gad6494301cc49e87210fe3e6234c6698c", null ],
+    [ "rcc_configure_xtal", "group__rcc__defines.html#ga2cd8f194ad903834c78212a0eeb05aa4", null ],
     [ "rcc_disable_interal_osc", "group__rcc__defines.html#ga25df4f03d0154ac5b09b875dad1226e0", null ],
     [ "rcc_disable_main_osc", "group__rcc__defines.html#ga5f536734177d63215d1494e6dea715d0", null ],
     [ "rcc_enable_interal_osc", "group__rcc__defines.html#ga191546fa4ded6cb6d3c753e0de255464", null ],

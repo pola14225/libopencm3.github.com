@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__uart__irq.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -161,18 +161,18 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>Configuring interrupts from the UART</b> </p>
 <p>To have an event generate an interrupt, its interrupt source must be unmasked. This can be achieved with <a class="el" href="group__uart__defines.html#ga20cf32aae3969a9b1e857cd1ca145a27">uart_enable_interrupts()</a>. Interrupts which are no longer needed can be disabled through <a class="el" href="group__uart__defines.html#ga2fdf35d91a90e2452368b0358d942f93">uart_disable_interrupts()</a>.</p>
-<p>In order for the interrupt to generate an IRQ and a call to the interrupt service routine, the interrupt for the target UART must be routed through the NVIC with <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic_enable_irq()</a>. For this last step, the nvic.h header is needed: </p>
+<p>In order for the interrupt to generate an IRQ and a call to the interrupt service routine, the interrupt for the target UART must be routed through the NVIC with nvic_enable_irq(). For this last step, the <a class="el" href="nvic_8h.html">nvic.h</a> header is needed: </p>
 <div class="fragment"><div class="line">*       #include &lt;libopencm3/lm4f/nvic.h&gt;</div>
 <div class="line">* </div>
 </div><!-- fragment --><p>Enabling an interrupt is as simple as unmasking the desired interrupt, and routing the desired UART's interrupt through the NVIC. </p>
 <div class="fragment"><div class="line">*       <span class="comment">// Unmask receive interrupt</span></div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#gac40fe4cd2b2d331d83100e305c2f6f78">uart_enable_rx_interrupt</a>(UART0);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#gac40fe4cd2b2d331d83100e305c2f6f78">uart_enable_rx_interrupt</a>(<a class="code" href="group__uart__reg__base.html#ga0508661f121639ffdee7de2353a0def2">UART0</a>);</div>
 <div class="line">*       <span class="comment">// Make sure the interrupt is routed through the NVIC</span></div>
-<div class="line">*       <a class="codeRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic_enable_irq</a>(NVIC_UART0_IRQ);</div>
+<div class="line">*       nvic_enable_irq(NVIC_UART0_IRQ);</div>
 <div class="line">* </div>
 </div><!-- fragment --><p>If a more than one interrupt is to be enabled at one time, the interrupts can be enabled by a single call to <a class="el" href="group__uart__defines.html#ga20cf32aae3969a9b1e857cd1ca145a27">uart_enable_interrupts()</a>. For example: </p>
 <div class="fragment"><div class="line">*       <span class="comment">// Unmask receive, CTS, and RI, interrupts</span></div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#ga20cf32aae3969a9b1e857cd1ca145a27">uart_enable_interrupts</a>(UART0, <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7ea32eca039b291092af8df630b6ea6613d">UART_INT_RX</a> | <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7ea19236a41b0921ff78c01940fb02a9654">UART_INT_RI</a> | <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7eac8355e07c854f7e22921e01bbc17d5df">UART_INT_CTS</a>);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#ga20cf32aae3969a9b1e857cd1ca145a27">uart_enable_interrupts</a>(<a class="code" href="group__uart__reg__base.html#ga0508661f121639ffdee7de2353a0def2">UART0</a>, <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7ea32eca039b291092af8df630b6ea6613d">UART_INT_RX</a> | <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7ea19236a41b0921ff78c01940fb02a9654">UART_INT_RI</a> | <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7eac8355e07c854f7e22921e01bbc17d5df">UART_INT_CTS</a>);</div>
 <div class="line">* </div>
 </div><!-- fragment --><p>After interrupts are properly enabled and routed through the NVIC, when an event occurs, the appropriate IRQ flag is set by hardware, and execution jumps to the UART ISR. The ISR should query the IRQ flags to determine which event caused the interrupt. For this, use <a class="el" href="group__uart__irq.html#ga6271114e5fe89f29dd5243c7c0c1934d">uart_is_interrupt_source()</a>, with the desired UART_INT flag. After one or more interrupt sources are serviced, the IRQ flags must be cleared by the ISR. This can be done with <a class="el" href="group__uart__defines.html#gab5fd7ee81bc609e4aca33a4b9079611b">uart_clear_interrupt_flag()</a>.</p>
 <p>A typical UART ISR may look like the following: </p>
@@ -181,17 +181,17 @@ Functions</h2></td></tr>
 <div class="line">*       uint32_t serviced_irqs = 0;</div>
 <div class="line">*</div>
 <div class="line">*       <span class="comment">// Process individual IRQs</span></div>
-<div class="line">*       <span class="keywordflow">if</span> (<a class="code" href="group__uart__irq.html#ga6271114e5fe89f29dd5243c7c0c1934d">uart_is_interrupt_source</a>(UART0, <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7ea32eca039b291092af8df630b6ea6613d">UART_INT_RX</a>)) {</div>
+<div class="line">*       <span class="keywordflow">if</span> (<a class="code" href="group__uart__irq.html#ga6271114e5fe89f29dd5243c7c0c1934d">uart_is_interrupt_source</a>(<a class="code" href="group__uart__reg__base.html#ga0508661f121639ffdee7de2353a0def2">UART0</a>, <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7ea32eca039b291092af8df630b6ea6613d">UART_INT_RX</a>)) {</div>
 <div class="line">*               process_rx_event();</div>
 <div class="line">*               serviced_irq |= <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7ea32eca039b291092af8df630b6ea6613d">UART_INT_RX</a>;</div>
 <div class="line">*       }</div>
-<div class="line">*       <span class="keywordflow">if</span> (<a class="code" href="group__uart__irq.html#ga6271114e5fe89f29dd5243c7c0c1934d">uart_is_interrupt_source</a>(UART0, <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7eac8355e07c854f7e22921e01bbc17d5df">UART_INT_CTS</a>)) {</div>
+<div class="line">*       <span class="keywordflow">if</span> (<a class="code" href="group__uart__irq.html#ga6271114e5fe89f29dd5243c7c0c1934d">uart_is_interrupt_source</a>(<a class="code" href="group__uart__reg__base.html#ga0508661f121639ffdee7de2353a0def2">UART0</a>, <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7eac8355e07c854f7e22921e01bbc17d5df">UART_INT_CTS</a>)) {</div>
 <div class="line">*               process_cts_event();</div>
 <div class="line">*               serviced_irq |= <a class="code" href="group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7eac8355e07c854f7e22921e01bbc17d5df">UART_INT_CTS</a>;</div>
 <div class="line">*       }</div>
 <div class="line">*</div>
 <div class="line">*       <span class="comment">// Clear the interupt flag for the processed IRQs</span></div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#gab5fd7ee81bc609e4aca33a4b9079611b">uart_clear_interrupt_flag</a>(UART0, serviced_irqs);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#gab5fd7ee81bc609e4aca33a4b9079611b">uart_clear_interrupt_flag</a>(<a class="code" href="group__uart__reg__base.html#ga0508661f121639ffdee7de2353a0def2">UART0</a>, serviced_irqs);</div>
 <div class="line">* }</div>
 <div class="line">* </div>
 </div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
@@ -231,6 +231,8 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00508">508</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
+<p>References <a class="el" href="uart_8h_source.html#l00101">UART_ICR</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga2fdf35d91a90e2452368b0358d942f93"></a>
@@ -268,6 +270,8 @@ Functions</h2></td></tr>
 </dl>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00446">446</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
+
+<p>References <a class="el" href="uart_8h_source.html#l00092">UART_IM</a>.</p>
 
 <p>Referenced by <a class="el" href="uart_8c_source.html#l00469">uart_disable_rx_interrupt()</a>, and <a class="el" href="uart_8c_source.html#l00492">uart_disable_tx_interrupt()</a>.</p>
 
@@ -392,6 +396,8 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00430">430</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
+
+<p>References <a class="el" href="uart_8h_source.html#l00092">UART_IM</a>.</p>
 
 <p>Referenced by <a class="el" href="uart_8c_source.html#l00459">uart_enable_rx_interrupt()</a>, and <a class="el" href="uart_8c_source.html#l00482">uart_enable_tx_interrupt()</a>.</p>
 
@@ -525,6 +531,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="uart_8h_source.html#l00540">540</a> of file <a class="el" href="uart_8h_source.html">uart.h</a>.</p>
 
+<p>References <a class="el" href="uart_8h_source.html#l00098">UART_MIS</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -532,7 +540,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:58 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

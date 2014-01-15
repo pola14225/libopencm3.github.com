@@ -1,6 +1,0 @@
-<map id="RCC Defines" name="RCC Defines">
-<area shape="rect" id="node1" href="$group__rcc__apb2enr__en.html" title="RCC_APB2ENR enable\l values" alt="" coords="363,5,525,59"/>
-<area shape="rect" id="node2" href="$group__rcc__apb1enr__en.html" title="RCC_APB1ENR enable\l values" alt="" coords="363,82,525,137"/>
-<area shape="rect" id="node3" href="$group__rcc__ahbenr__en.html" title="RCC_AHBENR enable values" alt="" coords="344,159,544,193"/>
-<area shape="rect" id="node4" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series. " alt="" coords="5,93,147,126"/>
-</map>

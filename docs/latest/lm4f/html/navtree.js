@@ -2,8 +2,7 @@ var NAVTREE =
 [
   [ "libopencm3", "index.html", [
     [ "libopencm3 LM4F", "index.html", null ],
-    [ "libopencm3 License", "../../cm3/html/lgpl_license.html", null ],
-    [ "libopencm3 Core CM3", "../../cm3/html/index.html", null ],
+    [ "libopencm3 License", "lgpl_license.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
     [ "Generic USB", "../../usb/html/modules.html", null ],
@@ -29,7 +28,8 @@ var NAVTREE =
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", "globals_eval" ]
+        [ "Enumerator", "globals_eval.html", "globals_eval" ],
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -38,9 +38,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca10d534586668d3d60f4082a7324a7bd8",
-"group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848ad73b67cad4b485679cd70f2af3fa73f7",
-"systemcontrol_8h.html#gga216f3c694b4491151311f37062d17d7ca90dc05d2e2deb1bf75bd052269d9daac"
+"group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1",
+"group__systemcontrol__defines.html#ga7be4e4e29831cd4fbf146d72ee84fa39",
+"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab7be18f91861ada479d141a71cdc4a73",
+"group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a6cf07bc1412bbf702f39ad478add22fc",
+"rcc_8c.html#gae31973474f6d00125a57784e84230c86",
+"systemcontrol_8h.html#gabc26d305bf549408317368f84465d181",
+"uart_8c.html",
+"usb_8h.html#ga227db2fe354d138410c90000895bdb97"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

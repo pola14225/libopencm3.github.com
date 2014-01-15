@@ -14,7 +14,5 @@ var searchData=
   ['status_5f0',['STATUS_0',['../structsgpio__t.html#a1e0f8828557a49f59a34d9f5158c5bfd',1,'sgpio_t']]],
   ['status_5f1',['STATUS_1',['../structsgpio__t.html#a2fa792eed6242979b5cc2ec805ea7e54',1,'sgpio_t']]],
   ['status_5f2',['STATUS_2',['../structsgpio__t.html#adacc72239a4dce1a33edd6add177129a',1,'sgpio_t']]],
-  ['status_5f3',['STATUS_3',['../structsgpio__t.html#ae57929365adbdd29f2ff28e2971124ee',1,'sgpio_t']]],
-  ['sv_5fcall',['sv_call',['../../../cm3/html/structvector__table__t.html#ace5b229bd0e04cbc018c8457168640a4',1,'vector_table_t']]],
-  ['systick',['systick',['../../../cm3/html/structvector__table__t.html#acf9d4ecb17d3ebecbcbd24966c18102f',1,'vector_table_t']]]
+  ['status_5f3',['STATUS_3',['../structsgpio__t.html#ae57929365adbdd29f2ff28e2971124ee',1,'sgpio_t']]]
 ];

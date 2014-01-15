@@ -2088,6 +2088,13 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
+      <type>void</type>
+      <name>systick_clear</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga2604630453d0b6b35601375d0ee7e4a0</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
       <type>uint32_t</type>
       <name>systick_get_calib</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
@@ -2760,6 +2767,13 @@
       <name>systick_get_countflag</name>
       <anchorfile>group__CM3__systick__defines.html</anchorfile>
       <anchor>ga04dd39e8ef61f9d6be437a43fc16dcdf</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>systick_clear</name>
+      <anchorfile>group__CM3__systick__defines.html</anchorfile>
+      <anchor>ga2604630453d0b6b35601375d0ee7e4a0</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">

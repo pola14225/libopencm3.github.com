@@ -2,8 +2,7 @@ var NAVTREE =
 [
   [ "libopencm3", "index.html", [
     [ "libopencm3 LPC43xx", "index.html", null ],
-    [ "libopencm3 License", "../../cm3/html/lgpl_license.html", null ],
-    [ "libopencm3 Core CM3", "../../cm3/html/index.html", null ],
+    [ "libopencm3 License", "lgpl_license.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
     [ "Generic USB", "../../usb/html/modules.html", null ],
@@ -37,7 +36,8 @@ var NAVTREE =
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", "globals_eval" ]
+        [ "Enumerator", "globals_eval.html", "globals_eval" ],
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -46,8 +46,36 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2ad840a999f690c7d6b22bd5871f4da909",
-"scu_8h.html#gga9ebba78e64868d90ae94cabceec832d2ab0bcc4b16519b87bbfd92a1a720eaa5d"
+"cgu_8h.html#ga26c649b0c285510622dc80f3f72e00f0",
+"cgu_8h.html#gaccb90b0b7d13529f109c0cdd68105bc9",
+"gima_8h.html#ga41c5ec75fdf24baf93bc2b415d8647cd",
+"gpdma_8h.html#gaa8911f1c800d562235f43286dd3af99c",
+"gpio_8h.html#ga37b29c815988e7357eb19f1bd5e0cfd5",
+"gpio_8h.html#gaa8694dfdee32354280472b90d045af46",
+"group__adc__defines.html#ga817a712e3f4bcd34baffac54117c1df2",
+"group__cgu__defines.html#ga42e907b80b878596be7a9f5fe1de4e98",
+"group__cgu__defines.html#gae1508e159736c57257d5d115697a4a46",
+"group__gpdma__defines.html#ga101ea7989c8fc0b9e719de15ba9c6af1",
+"group__gpio__defines.html#ga03ddd73e4cbd410a85d68221dae90ac5",
+"group__gpio__defines.html#ga63a6a59ebd30cc26cb6980da3e62002a",
+"group__gpio__defines.html#gace395c346e6bfcb22c63fd6e63c16f5c",
+"group__rgu__defines.html#ga0075416602033065739d5739fa2174e9",
+"group__rgu__defines.html#ga8a96ff4d53c6a670a6c3daabccf9d2b7",
+"group__scu__defines.html#ga115f40e0d768ca7639cdc07a4d620018",
+"group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2a03b64a5c9ea8e09183c92d07a27f0477",
+"group__sdio__defines.html#ga35472adf609b8df9adf029656f92ae3e",
+"group__sdio__defines.html#gaf53a87815a6f235e16af2433dc3ff5cf",
+"group__timer__defines.html#gafcb786473a17bf68cf386c35a8cdb2f5",
+"rgu_8h.html#ga1ee9d61be100e2c85e236ced9a39732d",
+"rgu_8h.html#gaa1d0ea6e81643a70a18a49809a96bcf5",
+"scu_8h.html#ga42dbee90edd2f61e90f501fa3f667761",
+"scu_8h.html#gga9ebba78e64868d90ae94cabceec832d2a368dae123089f201fa0c4cf5f57b60d0",
+"sgpio_8h.html#ga4765275a4d273cb5de0ea2d22a603d84",
+"ssp_8h.html#gaae7063b926d1328cbf79de1f404dbf42",
+"timer_8h.html#gac35985e1e94a575c68ca0c2c1dd9bb94",
+"usb_8h.html#a13ce910d7dda567901516b689bacff64",
+"usb_8h.html#a805ec0e2f2f18e843cf9027a2d71fc92",
+"usb_8h.html#ae770a24e6c6e857091b25606d79d5042"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

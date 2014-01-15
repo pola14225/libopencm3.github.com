@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__gpio__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,7 +114,8 @@ $(document).ready(function(){initNavTree('group__gpio__file.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a>  </div>
+<a href="#groups">Modules</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">GPIO<div class="ingroups"><a class="el" href="group__LM4Fxx.html">LM4F</a></div></div>  </div>
 </div><!--header-->
@@ -142,6 +143,11 @@ Modules</h2></td></tr>
 <tr class="memitem:group__gpio__irq"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__irq.html">GPIO Interrupt control</a></td></tr>
 <tr class="memdesc:group__gpio__irq"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Configuring interrupts from GPIO pins</b> <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga7b4058c05682f371e3c210e272a2d003"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__file.html#ga7b4058c05682f371e3c210e272a2d003">GPIO_LOCK_UNLOCK_CODE</a>&#160;&#160;&#160;0x4C4F434B</td></tr>
+<tr class="separator:ga7b4058c05682f371e3c210e272a2d003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>libopencm3 LM4F General Purpose I/O</b> </p>
@@ -150,23 +156,40 @@ Modules</h2></td></tr>
 <dd>
  &copy;  2013 Alexandru Gagniuc <a href="#" onclick="location.href='mai'+'lto:'+'mr.'+'nu'+'ke.'+'me'+'@gm'+'ai'+'l.c'+'om'; return false;">mr.nu<span style="display: none;">.nosp@m.</span>ke.m<span style="display: none;">.nosp@m.</span>e@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
 <dl class="section date"><dt>Date</dt><dd>16 March 2013</dd></dl>
-<p>LGPL License Terms <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
+<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
 <p>The LM4F GPIO API provides functionality for accessing the GPIO pins of the LM4F.</p>
 <dl class="section attention"><dt>Attention</dt><dd><div class="fragment"><div class="line"> An important aspect to consider is that libopencm3 uses the</div>
 <div class="line">* AHB aperture <span class="keywordflow">for</span> accessing the GPIO registers on the LM4F. The AHB must be</div>
-<div class="line">* explicitly enabled with a call to <a class="code" href="group__gpio__defines.html#ga2c31c812d3e1456162b2d5a7004f8c0b">gpio_enable_ahb_aperture</a>() before accessing</div>
+<div class="line">* explicitly enabled with a call to <a class="code" href="group__gpio__defines.html#ga973a4b2fdbe9c67f34d323e8426e45e3">gpio_enable_ahb_aperture</a>() before accessing</div>
 <div class="line">* any GPIO functionality.</div>
 <div class="line">* </div>
 </div><!-- fragment --></dd></dl>
 <p>Please see the individual GPIO modules for more details. To use the GPIO, the <a class="el" href="gpio_8h.html">gpio.h</a> header needs to be included: </p>
 <div class="fragment"><div class="line">*       #include &lt;libopencm3/lm4f/gpio.h&gt;</div>
 <div class="line">* </div>
-</div><!-- fragment --> </div><!-- contents -->
+</div><!-- fragment --> <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="ga7b4058c05682f371e3c210e272a2d003"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPIO_LOCK_UNLOCK_CODE&#160;&#160;&#160;0x4C4F434B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gpio_8c_source.html#l00061">61</a> of file <a class="el" href="gpio_8c_source.html">gpio.c</a>.</p>
+
+<p>Referenced by <a class="el" href="gpio_8c_source.html#l00365">gpio_unlock_commit()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:58 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

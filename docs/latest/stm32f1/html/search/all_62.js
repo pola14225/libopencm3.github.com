@@ -58,7 +58,6 @@ var searchData=
   ['bkp_5frtccr_5fasos',['BKP_RTCCR_ASOS',['../bkp_8h.html#a8d017e8f3c09696cd74e170a95966be4',1,'bkp.h']]],
   ['bkp_5frtccr_5fcal_5flsb',['BKP_RTCCR_CAL_LSB',['../bkp_8h.html#a62e68f7269eeb08e0d52b53544825a3f',1,'bkp.h']]],
   ['bkp_5frtccr_5fcco',['BKP_RTCCR_CCO',['../bkp_8h.html#a639d569ffd9211519b910c1e6304f7b3',1,'bkp.h']]],
-  ['bus_5ffault',['bus_fault',['../../../cm3/html/structvector__table__t.html#a4c2b5debe7567df33665bca4ab8a4b2c',1,'vector_table_t']]],
   ['bx_5fcan1_5fbase',['BX_CAN1_BASE',['../memorymap_8h.html#a8d87e40f2ea2248a5241f5f9cb014de9',1,'memorymap.h']]],
   ['bx_5fcan2_5fbase',['BX_CAN2_BASE',['../memorymap_8h.html#a074f889b6e4f0e0856f2d26644b33b32',1,'memorymap.h']]]
 ];

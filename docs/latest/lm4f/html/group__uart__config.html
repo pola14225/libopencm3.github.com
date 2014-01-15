@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__uart__config.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -166,7 +166,7 @@ Functions</h2></td></tr>
 <p>Enabling the UART is a two step process. The GPIO on which the UART resides must be enabled, and the UART pins must be configured as alternate function, digital pins. Pins must also be muxed to the appropriate alternate function. This is done with the GPIO API.</p>
 <p>The second step involves enabling and the UART itself. The UART should be disabled while it is being configured.</p>
 <ol type="1">
-<li>The UART clock must be enabled with <a class="el" href="group__systemcontrol__defines.html#ga395012136af8db0d9fc18dad206b8a87">periph_clock_enable()</a>.</li>
+<li>The UART clock must be enabled with <a class="el" href="group__systemcontrol__defines.html#ga82ac341aee840ff3b2fc15d79de016c9">periph_clock_enable()</a>.</li>
 <li>The UART must be disabled with <a class="el" href="group__uart__defines.html#ga0167757699a14269e55640b5034ffcbf">uart_disable()</a>.</li>
 <li>The UART clock source should be chosen before setting the baudrate.</li>
 <li>Baudrate, data bits, stop bit length, and parity can be configured.</li>
@@ -175,22 +175,22 @@ Functions</h2></td></tr>
 </ol>
 <p>For example, to enable UART1 at 115200 8n1 with hardware flow control: </p>
 <div class="fragment"><div class="line">*       <span class="comment">// Enable the UART clock</span></div>
-<div class="line">*       <a class="code" href="group__systemcontrol__defines.html#ga395012136af8db0d9fc18dad206b8a87">periph_clock_enable</a>(<a class="code" href="group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca5114880810642497fb718a780cb97199">RCC_UART1</a>);</div>
+<div class="line">*       <a class="code" href="group__systemcontrol__defines.html#ga82ac341aee840ff3b2fc15d79de016c9">periph_clock_enable</a>(<a class="code" href="group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca5114880810642497fb718a780cb97199">RCC_UART1</a>);</div>
 <div class="line">*       <span class="comment">// We need a brief delay before we can access UART config registers</span></div>
 <div class="line">*       __asm__(<span class="stringliteral">&quot;nop&quot;</span>); __asm__(<span class="stringliteral">&quot;nop&quot;</span>); __asm__(<span class="stringliteral">&quot;nop&quot;</span>);</div>
 <div class="line">*       <span class="comment">// Disable the UART while we mess with its settings</span></div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#ga0167757699a14269e55640b5034ffcbf">uart_disable</a>(UART1);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#ga0167757699a14269e55640b5034ffcbf">uart_disable</a>(<a class="code" href="group__uart__reg__base.html#ga8d69bf04d07af4fbbab5a8bd291f65ff">UART1</a>);</div>
 <div class="line">*       <span class="comment">// Configure the UART clock source as precision internal oscillator</span></div>
 <div class="line">*       <a class="code" href="group__uart__defines.html#gab9d2f5223bc6f08621e9b6d38f8a4fb9">uart_clock_from_piosc</a>();</div>
 <div class="line">*       <span class="comment">// Set communication parameters</span></div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#ga5e530a66e67a91f2cb782b9abce0d896">uart_set_baudrate</a>(UART1, 115200);</div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#gadafb5a1c4596fb687bdc99dff191d88f">uart_set_databits</a>(UART1, 8);</div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#ga7b0acac78989b94dab26d92d1b640e05">uart_set_parity</a>(UART1, <a class="code" href="group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaaa80d2d8ea61454045ebe71d155e85b3d">UART_PARITY_NONE</a>);</div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#gaf3ddb4b6b173fb6cd30139ac67ca62cb">uart_set_stopbits</a>(UART1, 1);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#ga05a4513fed24167dd33ebc5805b9ca77">uart_set_baudrate</a>(<a class="code" href="group__uart__reg__base.html#ga8d69bf04d07af4fbbab5a8bd291f65ff">UART1</a>, 115200);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#gadafb5a1c4596fb687bdc99dff191d88f">uart_set_databits</a>(<a class="code" href="group__uart__reg__base.html#ga8d69bf04d07af4fbbab5a8bd291f65ff">UART1</a>, 8);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#ga7b0acac78989b94dab26d92d1b640e05">uart_set_parity</a>(<a class="code" href="group__uart__reg__base.html#ga8d69bf04d07af4fbbab5a8bd291f65ff">UART1</a>, <a class="code" href="group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaaa80d2d8ea61454045ebe71d155e85b3d">UART_PARITY_NONE</a>);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#gaf3ddb4b6b173fb6cd30139ac67ca62cb">uart_set_stopbits</a>(<a class="code" href="group__uart__reg__base.html#ga8d69bf04d07af4fbbab5a8bd291f65ff">UART1</a>, 1);</div>
 <div class="line">*       <span class="comment">// Enable RTC and CTS lines</span></div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#gabc37af12e01b5827d40f5ed7d149076f">uart_set_flow_control</a>(UART1, UART_FLOWCTL_HARD_RTS_CTS);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#gabc37af12e01b5827d40f5ed7d149076f">uart_set_flow_control</a>(<a class="code" href="group__uart__reg__base.html#ga8d69bf04d07af4fbbab5a8bd291f65ff">UART1</a>, UART_FLOWCTL_HARD_RTS_CTS);</div>
 <div class="line">*       <span class="comment">// Now that we&#39;re done messing with the settings, enable the UART</span></div>
-<div class="line">*       <a class="code" href="group__uart__defines.html#gacd6ffe5e9e3f555d07a3af7ee7fdf74a">uart_enable</a>(UART1);</div>
+<div class="line">*       <a class="code" href="group__uart__defines.html#gacd6ffe5e9e3f555d07a3af7ee7fdf74a">uart_enable</a>(<a class="code" href="group__uart__reg__base.html#ga8d69bf04d07af4fbbab5a8bd291f65ff">UART1</a>);</div>
 <div class="line">* </div>
 </div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gab9d2f5223bc6f08621e9b6d38f8a4fb9"></a>
@@ -216,6 +216,8 @@ Functions</h2></td></tr>
 </dl>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00238">238</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
+
+<p>References <a class="el" href="uart_8h_source.html#l00125">UART_CC</a>, and <a class="el" href="uart_8h_source.html#l00359">UART_CC_CS_PIOSC</a>.</p>
 
 </div>
 </div>
@@ -243,6 +245,8 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00248">248</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
+<p>References <a class="el" href="uart_8h_source.html#l00125">UART_CC</a>, and <a class="el" href="uart_8h_source.html#l00358">UART_CC_CS_SYSCLK</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ga0167757699a14269e55640b5034ffcbf"></a>
@@ -268,6 +272,8 @@ Functions</h2></td></tr>
 </dl>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00103">103</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
+
+<p>References <a class="el" href="uart_8h_source.html#l00086">UART_CTL</a>, and <a class="el" href="uart_8h_source.html#l00258">UART_CTL_UARTEN</a>.</p>
 
 </div>
 </div>
@@ -295,6 +301,8 @@ Functions</h2></td></tr>
 </dl>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00093">93</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
+
+<p>References <a class="el" href="uart_8h_source.html#l00086">UART_CTL</a>, <a class="el" href="uart_8h_source.html#l00240">UART_CTL_RXE</a>, <a class="el" href="uart_8h_source.html#l00242">UART_CTL_TXE</a>, and <a class="el" href="uart_8h_source.html#l00258">UART_CTL_UARTEN</a>.</p>
 
 </div>
 </div>
@@ -333,7 +341,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00114">114</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8c_source.html#l00383">rcc_get_system_clock_frequency()</a>.</p>
+<p>References <a class="el" href="rcc_8c_source.html#l00383">rcc_get_system_clock_frequency()</a>, <a class="el" href="uart_8h_source.html#l00125">UART_CC</a>, <a class="el" href="uart_8h_source.html#l00359">UART_CC_CS_PIOSC</a>, <a class="el" href="uart_8h_source.html#l00080">UART_FBRD</a>, and <a class="el" href="uart_8h_source.html#l00077">UART_IBRD</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -381,6 +389,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00139">139</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
+<p>References <a class="el" href="uart_8h_source.html#l00083">UART_LCRH</a>, and <a class="el" href="uart_8h_source.html#l00212">UART_LCRH_WLEN_MASK</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gabc37af12e01b5827d40f5ed7d149076f"></a>
@@ -422,7 +432,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00216">216</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
-<p>References <a class="el" href="uart_8h_source.html#l00375">UART_FLOWCTL_CTS</a>, <a class="el" href="uart_8h_source.html#l00374">UART_FLOWCTL_RTS</a>, and <a class="el" href="uart_8h_source.html#l00376">UART_FLOWCTL_RTS_CTS</a>.</p>
+<p>References <a class="el" href="uart_8h_source.html#l00086">UART_CTL</a>, <a class="el" href="uart_8h_source.html#l00232">UART_CTL_CTSEN</a>, <a class="el" href="uart_8h_source.html#l00234">UART_CTL_RTSEN</a>, <a class="el" href="uart_8h_source.html#l00375">UART_FLOWCTL_CTS</a>, <a class="el" href="uart_8h_source.html#l00374">UART_FLOWCTL_RTS</a>, and <a class="el" href="uart_8h_source.html#l00376">UART_FLOWCTL_RTS_CTS</a>.</p>
 
 </div>
 </div>
@@ -461,7 +471,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00175">175</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
-<p>References <a class="el" href="uart_8h_source.html#l00367">UART_PARITY_EVEN</a>, <a class="el" href="uart_8h_source.html#l00365">UART_PARITY_NONE</a>, <a class="el" href="uart_8h_source.html#l00366">UART_PARITY_ODD</a>, <a class="el" href="uart_8h_source.html#l00368">UART_PARITY_STICK_0</a>, and <a class="el" href="uart_8h_source.html#l00369">UART_PARITY_STICK_1</a>.</p>
+<p>References <a class="el" href="uart_8h_source.html#l00083">UART_LCRH</a>, <a class="el" href="uart_8h_source.html#l00222">UART_LCRH_EPS</a>, <a class="el" href="uart_8h_source.html#l00224">UART_LCRH_PEN</a>, <a class="el" href="uart_8h_source.html#l00210">UART_LCRH_SPS</a>, <a class="el" href="uart_8h_source.html#l00367">UART_PARITY_EVEN</a>, <a class="el" href="uart_8h_source.html#l00365">UART_PARITY_NONE</a>, <a class="el" href="uart_8h_source.html#l00366">UART_PARITY_ODD</a>, <a class="el" href="uart_8h_source.html#l00368">UART_PARITY_STICK_0</a>, and <a class="el" href="uart_8h_source.html#l00369">UART_PARITY_STICK_1</a>.</p>
 
 </div>
 </div>
@@ -500,6 +510,8 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="uart_8c_source.html#l00160">160</a> of file <a class="el" href="uart_8c_source.html">uart.c</a>.</p>
 
+<p>References <a class="el" href="uart_8h_source.html#l00083">UART_LCRH</a>, and <a class="el" href="uart_8h_source.html#l00220">UART_LCRH_STP2</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -507,7 +519,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:58 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

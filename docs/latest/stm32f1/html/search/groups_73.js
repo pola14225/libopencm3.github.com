@@ -1,7 +1,6 @@
 var searchData=
 [
   ['serial_20wire_20jtag_20disables',['Serial Wire JTAG disables',['../group__afio__swj__disable.html',1,'']]],
-  ['systick_20defines',['SysTick Defines',['../../../cm3/html/group__CM3__systick__defines.html',1,'']]],
   ['spi_20peripheral_20baud_20rates',['SPI peripheral baud rates',['../group__spi__baudrate.html',1,'']]],
   ['spi_20peripheral_20baud_20rate_20prescale_20values',['SPI peripheral baud rate prescale values',['../group__spi__br__pre.html',1,'']]],
   ['spi_20clock_20phase',['SPI clock phase',['../group__spi__cpha.html',1,'']]],

@@ -168,7 +168,7 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>14 January 2014</dd></dl>
 <p>This library supports the FLASH memory controller in the STM32F3 series of ARM Cortex Microcontrollers by ST Microelectronics.</p>
 <p>For the STM32F3xx, accessing FLASH memory is described in section 3 of the STM32F3xx Reference Manual.</p>
-<p>LGPL License Terms <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a> </p>
+<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga37dfda93743e7b6285c3d01a7d519001"></a>
 <div class="memitem">
@@ -186,11 +186,11 @@ Functions</h2></td></tr>
 
 <p>Clear the Busy Status Flag. </p>
 
-<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00103">103</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
+<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00104">104</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f234_8h_source.html#l00050">FLASH_SR</a>, and <a class="el" href="flash_8h_source.html#l00052">FLASH_SR_BSY</a>.</p>
 
-<p>Referenced by <a class="el" href="flash_8c_source.html#l00055">flash_clear_status_flags()</a>.</p>
+<p>Referenced by <a class="el" href="flash_8c_source.html#l00056">flash_clear_status_flags()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -219,11 +219,11 @@ Here is the caller graph for this function:</div>
 
 <p>Clear the End of Operation Status Flag. </p>
 
-<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00093">93</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
+<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00094">94</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f234_8h_source.html#l00050">FLASH_SR</a>, and <a class="el" href="flash_8h_source.html#l00056">FLASH_SR_EOP</a>.</p>
 
-<p>Referenced by <a class="el" href="flash_8c_source.html#l00055">flash_clear_status_flags()</a>.</p>
+<p>Referenced by <a class="el" href="flash_8c_source.html#l00056">flash_clear_status_flags()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -252,11 +252,11 @@ Here is the caller graph for this function:</div>
 
 <p>Clear the Programming Error Status Flag. </p>
 
-<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00083">83</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
+<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00084">84</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f234_8h_source.html#l00050">FLASH_SR</a>, and <a class="el" href="flash_8h_source.html#l00054">FLASH_SR_PGPERR</a>.</p>
 
-<p>Referenced by <a class="el" href="flash_8c_source.html#l00055">flash_clear_status_flags()</a>.</p>
+<p>Referenced by <a class="el" href="flash_8c_source.html#l00056">flash_clear_status_flags()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -286,9 +286,9 @@ Here is the caller graph for this function:</div>
 <p>Clear All Status Flags. </p>
 <p>Clears program error, end of operation, busy flags. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00055">55</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00056">56</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f234_8c_source.html#l00103">flash_clear_bsy_flag()</a>, <a class="el" href="flash__common__f234_8c_source.html#l00093">flash_clear_eop_flag()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00083">flash_clear_pgperr_flag()</a>.</p>
+<p>References <a class="el" href="flash__common__f234_8c_source.html#l00104">flash_clear_bsy_flag()</a>, <a class="el" href="flash__common__f234_8c_source.html#l00094">flash_clear_eop_flag()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00084">flash_clear_pgperr_flag()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -318,7 +318,7 @@ Here is the call graph for this function:</div>
 <p>Lock the Flash Program and Erase Controller. </p>
 <p>Used to prevent spurious writes to FLASH. </p>
 
-<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00073">73</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
+<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00074">74</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f234_8h_source.html#l00051">FLASH_CR</a>, and <a class="el" href="flash_8h_source.html#l00064">FLASH_CR_LOCK</a>.</p>
 
@@ -347,18 +347,18 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00040">40</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
+<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00041">41</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f234_8h_source.html#l00047">FLASH_ACR</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00384">rcc_clock_setup_hsi()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00385">rcc_clock_setup_hsi()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__flash__file_ga9347b16d27d64b79f507dc9cad8633b2_icgraph.png" border="0" usemap="#group__flash__file_ga9347b16d27d64b79f507dc9cad8633b2_icgraph" alt=""/></div>
 <map name="group__flash__file_ga9347b16d27d64b79f507dc9cad8633b2_icgraph" id="group__flash__file_ga9347b16d27d64b79f507dc9cad8633b2_icgraph">
-<area shape="rect" id="node3" href="rcc_8c.html#a3d30e886f8749e059865bd3fc7a14ccd" title="rcc_clock_setup_hsi" alt="" coords="152,5,293,38"/></map>
+<area shape="rect" id="node3" href="group__rcc__file.html#ga3d30e886f8749e059865bd3fc7a14ccd" title="rcc_clock_setup_hsi" alt="" coords="152,5,293,38"/></map>
 </div>
 </p>
 
@@ -381,7 +381,7 @@ Here is the caller graph for this function:</div>
 <p>Unlock the Flash Program and Erase Controller. </p>
 <p>This enables write access to the Flash memory. It is locked by default on reset. </p>
 
-<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00057">57</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
+<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00058">58</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f234_8h_source.html#l00051">FLASH_CR</a>, <a class="el" href="flash_8h_source.html#l00064">FLASH_CR_LOCK</a>, <a class="el" href="flash__common__f234_8h_source.html#l00048">FLASH_KEYR</a>, <a class="el" href="flash__common__f234_8h_source.html#l00070">FLASH_KEYR_KEY1</a>, and <a class="el" href="flash__common__f234_8h_source.html#l00071">FLASH_KEYR_KEY2</a>.</p>
 
@@ -404,7 +404,7 @@ Here is the caller graph for this function:</div>
 <p>Wait until Last Operation has Ended. </p>
 <p>This loops indefinitely until an operation (write or erase) has completed by testing the busy flag. </p>
 
-<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00116">116</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
+<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00117">117</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f234_8h_source.html#l00050">FLASH_SR</a>, and <a class="el" href="flash_8h_source.html#l00052">FLASH_SR_BSY</a>.</p>
 
@@ -415,7 +415,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:39 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:56 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

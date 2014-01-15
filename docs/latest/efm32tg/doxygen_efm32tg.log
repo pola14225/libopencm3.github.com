@@ -1,4 +1,0 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/efm32/efm32tg/memorymap.h:58: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/efm32/efm32tg/memorymap.h:74: warning: found documented #define but ignoring it because ENABLE_PREPROCESSING is NO.
-

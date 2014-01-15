@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['r0',['r0',['../../../cm3/html/structscb__exception__stack__frame.html#ae7ebc5fa67cc65d5039f8f978e3a2062',1,'scb_exception_stack_frame']]],
-  ['r1',['r1',['../../../cm3/html/structscb__exception__stack__frame.html#a9fea68a34dc0a9d385390205092162e9',1,'scb_exception_stack_frame']]],
-  ['r12',['r12',['../../../cm3/html/structscb__exception__stack__frame.html#a0e6126588086c406b720b3961bda7311',1,'scb_exception_stack_frame']]],
-  ['r2',['r2',['../../../cm3/html/structscb__exception__stack__frame.html#ac38c8c267ebaa36b9e8114e0c8da6b33',1,'scb_exception_stack_frame']]],
-  ['r3',['r3',['../../../cm3/html/structscb__exception__stack__frame.html#a974713f74276b9c27efaf8dd8e066784',1,'scb_exception_stack_frame']]],
   ['rcc_2ec',['rcc.c',['../rcc_8c.html',1,'']]],
   ['rcc_2eh',['rcc.h',['../rcc_8h.html',1,'']]],
   ['rcc_5facmp0',['RCC_ACMP0',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab043d91156620faf65bd2e7ba3b4892f',1,'systemcontrol.h']]],
@@ -13,7 +8,7 @@ var searchData=
   ['rcc_5fcan0',['RCC_CAN0',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab58916255b8946d66b0cf6a7c7ee18ae',1,'systemcontrol.h']]],
   ['rcc_5fcan1',['RCC_CAN1',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca61b240aefa01d614e06844f5b5943dc9',1,'systemcontrol.h']]],
   ['rcc_5fchange_5fpll_5fdivisor',['rcc_change_pll_divisor',['../group__rcc__defines.html#ga70fca8e561f7e2b2b7062c22d85419b4',1,'rcc_change_pll_divisor(uint8_t plldiv400):&#160;rcc.c'],['../group__rcc__high__level.html#ga1c5a8dbbc0a6bac380b0041962075269',1,'rcc_change_pll_divisor(uint8_t pll_div400):&#160;rcc.c']]],
-  ['rcc_5fconfigure_5fxtal',['rcc_configure_xtal',['../group__rcc__defines.html#gad6494301cc49e87210fe3e6234c6698c',1,'rcc_configure_xtal(enum xtal_t xtal):&#160;rcc.c'],['../group__rcc__low__level.html#ga2cd8f194ad903834c78212a0eeb05aa4',1,'rcc_configure_xtal(enum xtal_t xtal):&#160;rcc.c']]],
+  ['rcc_5fconfigure_5fxtal',['rcc_configure_xtal',['../group__rcc__defines.html#ga2cd8f194ad903834c78212a0eeb05aa4',1,'rcc_configure_xtal(enum xtal_t xtal):&#160;rcc.c'],['../group__rcc__low__level.html#ga2cd8f194ad903834c78212a0eeb05aa4',1,'rcc_configure_xtal(enum xtal_t xtal):&#160;rcc.c']]],
   ['reset_20and_20clock_20control',['Reset and Clock Control',['../group__rcc__defines.html',1,'']]],
   ['rcc_5fdisable_5finteral_5fosc',['rcc_disable_interal_osc',['../group__rcc__defines.html#ga25df4f03d0154ac5b09b875dad1226e0',1,'rcc_disable_interal_osc(void):&#160;rcc.c'],['../group__rcc__low__level.html#ga25df4f03d0154ac5b09b875dad1226e0',1,'rcc_disable_interal_osc(void):&#160;rcc.c']]],
   ['rcc_5fdisable_5fmain_5fosc',['rcc_disable_main_osc',['../group__rcc__defines.html#ga5f536734177d63215d1494e6dea715d0',1,'rcc_disable_main_osc(void):&#160;rcc.c'],['../group__rcc__low__level.html#ga5f536734177d63215d1494e6dea715d0',1,'rcc_disable_main_osc(void):&#160;rcc.c']]],
@@ -87,9 +82,5 @@ var searchData=
   ['rcc_5fwtimer2',['RCC_WTIMER2',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca43c053c8a36d6ced3001bbc1181aa31e',1,'systemcontrol.h']]],
   ['rcc_5fwtimer3',['RCC_WTIMER3',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7ca6f8b1e2b9dce0bff8e294821af562aab',1,'systemcontrol.h']]],
   ['rcc_5fwtimer4',['RCC_WTIMER4',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7caffb993127d5ad7ff814afd0b5e41bb67',1,'systemcontrol.h']]],
-  ['rcc_5fwtimer5',['RCC_WTIMER5',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab7be18f91861ada479d141a71cdc4a73',1,'systemcontrol.h']]],
-  ['reserved_5fx001c',['reserved_x001c',['../../../cm3/html/structvector__table__t.html#a6578b9135633f588aee27e73367546e9',1,'vector_table_t']]],
-  ['reserved_5fx0034',['reserved_x0034',['../../../cm3/html/structvector__table__t.html#aed397ae787125497ae9869cbe2673500',1,'vector_table_t']]],
-  ['reset',['reset',['../../../cm3/html/structvector__table__t.html#adc4942c678a88cab8494a58f80428077',1,'vector_table_t']]],
-  ['reset_5fhandler',['reset_handler',['../../../cm3/html/group__CM3__nvic__defines.html#gaa13f582a41a6b190667d0ecd9c31072f',1,]]]
+  ['rcc_5fwtimer5',['RCC_WTIMER5',['../group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab7be18f91861ada479d141a71cdc4a73',1,'systemcontrol.h']]]
 ];

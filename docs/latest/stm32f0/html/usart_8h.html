@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('usart_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -127,13 +127,13 @@ $(document).ready(function(){initNavTree('usart_8h.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;libopencm3/stm32/memorymap.h&gt;</code><br/>
-<code>#include &lt;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html">libopencm3/cm3/common.h</a>&gt;</code><br/>
+<code>#include &lt;libopencm3/cm3/common.h&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for usart.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="usart_8h__incl.png" border="0" usemap="#usart_8h" alt=""/></div>
 <map name="usart_8h" id="usart_8h">
-<area shape="rect" id="node5" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html" title="libopencm3/cm3/common.h" alt="" coords="243,89,424,122"/></map>
+</map>
 </div>
 </div>
 <p><a href="usart_8h_source.html">Go to the source code of this file.</a></p>
@@ -144,67 +144,67 @@ Macros</h2></td></tr>
 <tr class="separator:a92871691058ff7ccffd7635930cb08da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af114a9eab03ca08a6fb720e511595930"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#af114a9eab03ca08a6fb720e511595930">USART2</a>&#160;&#160;&#160;<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a></td></tr>
 <tr class="separator:af114a9eab03ca08a6fb720e511595930"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b9b0782cd5ada75a6ef5c7fe27af74b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x00)</td></tr>
+<tr class="memitem:a5b9b0782cd5ada75a6ef5c7fe27af74b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(usart_base)&#160;&#160;&#160;MMIO32(usart_base + 0x00)</td></tr>
 <tr class="separator:a5b9b0782cd5ada75a6ef5c7fe27af74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0889f12c0e570ac578c26f7ca7f300e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aa0889f12c0e570ac578c26f7ca7f300e">USART1_CR1</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
+<tr class="memitem:aa0889f12c0e570ac578c26f7ca7f300e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aa0889f12c0e570ac578c26f7ca7f300e">USART1_CR1</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:aa0889f12c0e570ac578c26f7ca7f300e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a685289c8590aa5257387ed4ba6460097"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a685289c8590aa5257387ed4ba6460097">USART2_CR1</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
+<tr class="memitem:a685289c8590aa5257387ed4ba6460097"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a685289c8590aa5257387ed4ba6460097">USART2_CR1</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:a685289c8590aa5257387ed4ba6460097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83a6b73648eac5f34358a99513ac8a70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x04)</td></tr>
+<tr class="memitem:a83a6b73648eac5f34358a99513ac8a70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(usart_base)&#160;&#160;&#160;MMIO32(usart_base + 0x04)</td></tr>
 <tr class="separator:a83a6b73648eac5f34358a99513ac8a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a621c8b25b011fdcf56e4a782d8732dd6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a621c8b25b011fdcf56e4a782d8732dd6">USART1_CR2</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
+<tr class="memitem:a621c8b25b011fdcf56e4a782d8732dd6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a621c8b25b011fdcf56e4a782d8732dd6">USART1_CR2</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:a621c8b25b011fdcf56e4a782d8732dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d6781c315665d9b368652940a13231d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7d6781c315665d9b368652940a13231d">USART2_CR2</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
+<tr class="memitem:a7d6781c315665d9b368652940a13231d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7d6781c315665d9b368652940a13231d">USART2_CR2</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:a7d6781c315665d9b368652940a13231d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a300bacc7d0e2fa7623102b5587187c2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x08)</td></tr>
+<tr class="memitem:a300bacc7d0e2fa7623102b5587187c2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(usart_base)&#160;&#160;&#160;MMIO32(usart_base + 0x08)</td></tr>
 <tr class="separator:a300bacc7d0e2fa7623102b5587187c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dc65fcef52616580bbad9b1b71ff808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a1dc65fcef52616580bbad9b1b71ff808">USART1_CR3</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
+<tr class="memitem:a1dc65fcef52616580bbad9b1b71ff808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a1dc65fcef52616580bbad9b1b71ff808">USART1_CR3</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:a1dc65fcef52616580bbad9b1b71ff808"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abef4bda64f9f994e6b7a58c765dbebfa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#abef4bda64f9f994e6b7a58c765dbebfa">USART2_CR3</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
+<tr class="memitem:abef4bda64f9f994e6b7a58c765dbebfa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#abef4bda64f9f994e6b7a58c765dbebfa">USART2_CR3</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:abef4bda64f9f994e6b7a58c765dbebfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a731b110dac1a617cbdc0d251ec91401b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x0c)</td></tr>
+<tr class="memitem:a731b110dac1a617cbdc0d251ec91401b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(usart_base)&#160;&#160;&#160;MMIO32(usart_base + 0x0c)</td></tr>
 <tr class="separator:a731b110dac1a617cbdc0d251ec91401b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacb1e95db24ea6e6abdd0ca2737f4242"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aacb1e95db24ea6e6abdd0ca2737f4242">USART1_BRR</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
+<tr class="memitem:aacb1e95db24ea6e6abdd0ca2737f4242"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aacb1e95db24ea6e6abdd0ca2737f4242">USART1_BRR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:aacb1e95db24ea6e6abdd0ca2737f4242"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5530ccff0818ee6c53e71f013f28b46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#ae5530ccff0818ee6c53e71f013f28b46">USART2_BRR</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
+<tr class="memitem:ae5530ccff0818ee6c53e71f013f28b46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#ae5530ccff0818ee6c53e71f013f28b46">USART2_BRR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:ae5530ccff0818ee6c53e71f013f28b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd51d7c3c301c9498a9f7de4d870013a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#abd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x10)</td></tr>
+<tr class="memitem:abd51d7c3c301c9498a9f7de4d870013a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#abd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(usart_base)&#160;&#160;&#160;MMIO32(usart_base + 0x10)</td></tr>
 <tr class="separator:abd51d7c3c301c9498a9f7de4d870013a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dccc3dd4a4551ce2708f780f8d00f22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7dccc3dd4a4551ce2708f780f8d00f22">USART1_GTPR</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#gabd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
+<tr class="memitem:a7dccc3dd4a4551ce2708f780f8d00f22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7dccc3dd4a4551ce2708f780f8d00f22">USART1_GTPR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#abd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:a7dccc3dd4a4551ce2708f780f8d00f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4e1d92a5a9e282e24c934c5ca142f48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#ab4e1d92a5a9e282e24c934c5ca142f48">USART2_GTPR</a>&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#gabd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
+<tr class="memitem:ab4e1d92a5a9e282e24c934c5ca142f48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#ab4e1d92a5a9e282e24c934c5ca142f48">USART2_GTPR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#abd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:ab4e1d92a5a9e282e24c934c5ca142f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63dba75e7db0b6b5783fe678403e9e5e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a63dba75e7db0b6b5783fe678403e9e5e">USART_RTOR</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x14)</td></tr>
+<tr class="memitem:a63dba75e7db0b6b5783fe678403e9e5e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a63dba75e7db0b6b5783fe678403e9e5e">USART_RTOR</a>(usart_base)&#160;&#160;&#160;MMIO32(usart_base + 0x14)</td></tr>
 <tr class="separator:a63dba75e7db0b6b5783fe678403e9e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81e450fcfeb44ed73e16d47acd84779d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a81e450fcfeb44ed73e16d47acd84779d">USART1_RTOR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a63dba75e7db0b6b5783fe678403e9e5e">USART_RTOR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:a81e450fcfeb44ed73e16d47acd84779d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6840cb26974a2cf4ab211165ff431d64"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a6840cb26974a2cf4ab211165ff431d64">USART2_RTOR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a63dba75e7db0b6b5783fe678403e9e5e">USART_RTOR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:a6840cb26974a2cf4ab211165ff431d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c40fd131ba66f7696f22f927fbe31a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a9c40fd131ba66f7696f22f927fbe31a4">USART_RQR</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x18)</td></tr>
+<tr class="memitem:a9c40fd131ba66f7696f22f927fbe31a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a9c40fd131ba66f7696f22f927fbe31a4">USART_RQR</a>(usart_base)&#160;&#160;&#160;MMIO32(usart_base + 0x18)</td></tr>
 <tr class="separator:a9c40fd131ba66f7696f22f927fbe31a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64216ae34a514211b8a5e960d78c68ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a64216ae34a514211b8a5e960d78c68ee">USART1_RQR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a9c40fd131ba66f7696f22f927fbe31a4">USART_RQR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:a64216ae34a514211b8a5e960d78c68ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b2a490f110fd07aa44bed1819331a1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a2b2a490f110fd07aa44bed1819331a1e">USART2_RQR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a9c40fd131ba66f7696f22f927fbe31a4">USART_RQR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:a2b2a490f110fd07aa44bed1819331a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e472dcd41d9ce7a18268c8bd47339d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7e472dcd41d9ce7a18268c8bd47339d2">USART_ISR</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x1c)</td></tr>
+<tr class="memitem:a7e472dcd41d9ce7a18268c8bd47339d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7e472dcd41d9ce7a18268c8bd47339d2">USART_ISR</a>(usart_base)&#160;&#160;&#160;MMIO32(usart_base + 0x1c)</td></tr>
 <tr class="separator:a7e472dcd41d9ce7a18268c8bd47339d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1da164b27281ae2e297676a6e4f524c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#ad1da164b27281ae2e297676a6e4f524c">USART1_ISR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a7e472dcd41d9ce7a18268c8bd47339d2">USART_ISR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:ad1da164b27281ae2e297676a6e4f524c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98951b379f5d65a28fdd4699040e13b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a98951b379f5d65a28fdd4699040e13b1">USART2_ISR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a7e472dcd41d9ce7a18268c8bd47339d2">USART_ISR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:a98951b379f5d65a28fdd4699040e13b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb4514addbfa1b4acc7bbc76d9660385"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aeb4514addbfa1b4acc7bbc76d9660385">USART_ICR</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x20)</td></tr>
+<tr class="memitem:aeb4514addbfa1b4acc7bbc76d9660385"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aeb4514addbfa1b4acc7bbc76d9660385">USART_ICR</a>(usart_base)&#160;&#160;&#160;MMIO32(usart_base + 0x20)</td></tr>
 <tr class="separator:aeb4514addbfa1b4acc7bbc76d9660385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac44ff7ae82beccebf74b774d77541a46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#ac44ff7ae82beccebf74b774d77541a46">USART1_ICR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#aeb4514addbfa1b4acc7bbc76d9660385">USART_ICR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:ac44ff7ae82beccebf74b774d77541a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeb65afd46afaa06c2813f46085928a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#afeb65afd46afaa06c2813f46085928a5">USART2_ICR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#aeb4514addbfa1b4acc7bbc76d9660385">USART_ICR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:afeb65afd46afaa06c2813f46085928a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d123a63c4993a721cbf86e38090c866"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7d123a63c4993a721cbf86e38090c866">USART_RDR</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(usart_base + 0x24)</td></tr>
+<tr class="memitem:a7d123a63c4993a721cbf86e38090c866"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7d123a63c4993a721cbf86e38090c866">USART_RDR</a>(usart_base)&#160;&#160;&#160;MMIO8(usart_base + 0x24)</td></tr>
 <tr class="separator:a7d123a63c4993a721cbf86e38090c866"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9f60dec2db1d294153fbeb61a5bf43b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#ac9f60dec2db1d294153fbeb61a5bf43b">USART1_RDR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a7d123a63c4993a721cbf86e38090c866">USART_RDR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:ac9f60dec2db1d294153fbeb61a5bf43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa724d133c154c90971a891340439fd36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aa724d133c154c90971a891340439fd36">USART2_RDR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a7d123a63c4993a721cbf86e38090c866">USART_RDR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td></tr>
 <tr class="separator:aa724d133c154c90971a891340439fd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5def5b8ad0056ebbc9c1788004d20651"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a5def5b8ad0056ebbc9c1788004d20651">USART_TDR</a>(usart_base)&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(usart_base + 0x28)</td></tr>
+<tr class="memitem:a5def5b8ad0056ebbc9c1788004d20651"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a5def5b8ad0056ebbc9c1788004d20651">USART_TDR</a>(usart_base)&#160;&#160;&#160;MMIO8(usart_base + 0x28)</td></tr>
 <tr class="separator:a5def5b8ad0056ebbc9c1788004d20651"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f5f2ef10b81c5354d293af82df8cece"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a0f5f2ef10b81c5354d293af82df8cece">USART1_TDR</a>&#160;&#160;&#160;<a class="el" href="usart_8h.html#a5def5b8ad0056ebbc9c1788004d20651">USART_TDR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td></tr>
 <tr class="separator:a0f5f2ef10b81c5354d293af82df8cece"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -466,33 +466,33 @@ Macros</h2></td></tr>
 <tr class="separator:a8400b4500c41800e5f18fc7291a64c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a404185136eb68f679e82e0187d66e411"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a404185136eb68f679e82e0187d66e411">USART_ICR_PECF</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
 <tr class="separator:a404185136eb68f679e82e0187d66e411"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa38591e9a528433e2344d06aa71141ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aa38591e9a528433e2344d06aa71141ba">USART_PARITY</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a> | <a class="el" href="group__usart__defines.html#ga2e159d36ab2c93a2c1942df60e9eebbe">USART_CR1_PS</a>)</td></tr>
+<tr class="memitem:aa38591e9a528433e2344d06aa71141ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aa38591e9a528433e2344d06aa71141ba">USART_PARITY</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a> | <a class="el" href="usart_8h.html#a2e159d36ab2c93a2c1942df60e9eebbe">USART_CR1_PS</a>)</td></tr>
 <tr class="separator:aa38591e9a528433e2344d06aa71141ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85bfcbeb5ba1c34bbcda3f3e3b994846"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a85bfcbeb5ba1c34bbcda3f3e3b994846">USART_PARITY_NONE</a>&#160;&#160;&#160;(0)</td></tr>
 <tr class="separator:a85bfcbeb5ba1c34bbcda3f3e3b994846"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7630824c78a39366b7e5b4c55996200"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#ae7630824c78a39366b7e5b4c55996200">USART_PARITY_EVEN</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a>)</td></tr>
+<tr class="memitem:ae7630824c78a39366b7e5b4c55996200"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#ae7630824c78a39366b7e5b4c55996200">USART_PARITY_EVEN</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a>)</td></tr>
 <tr class="separator:ae7630824c78a39366b7e5b4c55996200"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a184f3e22cb30ea94b797b02e94e774a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a184f3e22cb30ea94b797b02e94e774a1">USART_PARITY_ODD</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a> | <a class="el" href="group__usart__defines.html#ga2e159d36ab2c93a2c1942df60e9eebbe">USART_CR1_PS</a>)</td></tr>
+<tr class="memitem:a184f3e22cb30ea94b797b02e94e774a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a184f3e22cb30ea94b797b02e94e774a1">USART_PARITY_ODD</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a> | <a class="el" href="usart_8h.html#a2e159d36ab2c93a2c1942df60e9eebbe">USART_CR1_PS</a>)</td></tr>
 <tr class="separator:a184f3e22cb30ea94b797b02e94e774a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00dae754643e545f8bff5db7eea4d5b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a00dae754643e545f8bff5db7eea4d5b6">USART_MODE</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a> | <a class="el" href="group__usart__defines.html#gada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td></tr>
+<tr class="memitem:a00dae754643e545f8bff5db7eea4d5b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a00dae754643e545f8bff5db7eea4d5b6">USART_MODE</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#ade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a> | <a class="el" href="usart_8h.html#ada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td></tr>
 <tr class="separator:a00dae754643e545f8bff5db7eea4d5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74d59bd46205fbfa5252fa7327e83376"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a74d59bd46205fbfa5252fa7327e83376">USART_MODE_NONE</a>&#160;&#160;&#160;(0)</td></tr>
 <tr class="separator:a74d59bd46205fbfa5252fa7327e83376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3efdc5989048ad122a5c9c1e325bb89c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a3efdc5989048ad122a5c9c1e325bb89c">USART_MODE_RX</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td></tr>
+<tr class="memitem:a3efdc5989048ad122a5c9c1e325bb89c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a3efdc5989048ad122a5c9c1e325bb89c">USART_MODE_RX</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#ada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td></tr>
 <tr class="separator:a3efdc5989048ad122a5c9c1e325bb89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a2fcdc3486d2675cc147811b996eb16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7a2fcdc3486d2675cc147811b996eb16">USART_MODE_TX</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a>)</td></tr>
+<tr class="memitem:a7a2fcdc3486d2675cc147811b996eb16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a7a2fcdc3486d2675cc147811b996eb16">USART_MODE_TX</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#ade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a>)</td></tr>
 <tr class="separator:a7a2fcdc3486d2675cc147811b996eb16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82418ff60ab8dac647eb7a6ba6db1284"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a82418ff60ab8dac647eb7a6ba6db1284">USART_MODE_TX_RX</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a> | <a class="el" href="group__usart__defines.html#gada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td></tr>
+<tr class="memitem:a82418ff60ab8dac647eb7a6ba6db1284"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a82418ff60ab8dac647eb7a6ba6db1284">USART_MODE_TX_RX</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#ade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a> | <a class="el" href="usart_8h.html#ada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td></tr>
 <tr class="separator:a82418ff60ab8dac647eb7a6ba6db1284"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40a122eff888c8ea3729eb96e3f2a897"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a40a122eff888c8ea3729eb96e3f2a897">USART_FLOWCONTROL</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a> | <a class="el" href="group__usart__defines.html#gaa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td></tr>
+<tr class="memitem:a40a122eff888c8ea3729eb96e3f2a897"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a40a122eff888c8ea3729eb96e3f2a897">USART_FLOWCONTROL</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a> | <a class="el" href="usart_8h.html#aa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td></tr>
 <tr class="separator:a40a122eff888c8ea3729eb96e3f2a897"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cac4a19536945198bea907390c11385"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a6cac4a19536945198bea907390c11385">USART_FLOWCONTROL_NONE</a>&#160;&#160;&#160;(0)</td></tr>
 <tr class="separator:a6cac4a19536945198bea907390c11385"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09520cf361b1f12a5cae89aacd642c1c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a09520cf361b1f12a5cae89aacd642c1c">USART_FLOWCONTROL_RTS</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a>)</td></tr>
+<tr class="memitem:a09520cf361b1f12a5cae89aacd642c1c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a09520cf361b1f12a5cae89aacd642c1c">USART_FLOWCONTROL_RTS</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a>)</td></tr>
 <tr class="separator:a09520cf361b1f12a5cae89aacd642c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af384b52b1639c4128338e4b906e33f71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#af384b52b1639c4128338e4b906e33f71">USART_FLOWCONTROL_CTS</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gaa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td></tr>
+<tr class="memitem:af384b52b1639c4128338e4b906e33f71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#af384b52b1639c4128338e4b906e33f71">USART_FLOWCONTROL_CTS</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#aa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td></tr>
 <tr class="separator:af384b52b1639c4128338e4b906e33f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee8352b2b6ea1ec4ad25475eca17647b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aee8352b2b6ea1ec4ad25475eca17647b">USART_FLOWCONTROL_RTS_CTS</a>&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a> | <a class="el" href="group__usart__defines.html#gaa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td></tr>
+<tr class="memitem:aee8352b2b6ea1ec4ad25475eca17647b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#aee8352b2b6ea1ec4ad25475eca17647b">USART_FLOWCONTROL_RTS_CTS</a>&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a> | <a class="el" href="usart_8h.html#aa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td></tr>
 <tr class="separator:aee8352b2b6ea1ec4ad25475eca17647b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -524,15 +524,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a736a880afb2be864871b2836657831e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a736a880afb2be864871b2836657831e9">usart_send</a> (uint32_t usart, uint8_t data)</td></tr>
 <tr class="memdesc:a736a880afb2be864871b2836657831e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Send a Data Word.  <a href="#a736a880afb2be864871b2836657831e9">More...</a><br/></td></tr>
 <tr class="separator:a736a880afb2be864871b2836657831e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0f539661fcdc2e82c4489152393f5d74"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga0f539661fcdc2e82c4489152393f5d74">usart_recv</a> (uint32_t usart)</td></tr>
-<tr class="memdesc:ga0f539661fcdc2e82c4489152393f5d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Read a Received Data Word.  <a href="group__usart__file.html#ga0f539661fcdc2e82c4489152393f5d74">More...</a><br/></td></tr>
-<tr class="separator:ga0f539661fcdc2e82c4489152393f5d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6d6df6e7a152e4d6e7c433a810403258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga6d6df6e7a152e4d6e7c433a810403258">usart_wait_send_ready</a> (uint32_t usart)</td></tr>
-<tr class="memdesc:ga6d6df6e7a152e4d6e7c433a810403258"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Wait for Transmit Data Buffer Empty.  <a href="group__usart__file.html#ga6d6df6e7a152e4d6e7c433a810403258">More...</a><br/></td></tr>
-<tr class="separator:ga6d6df6e7a152e4d6e7c433a810403258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4b3dd5bff30927f603d5acc433cc2073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga4b3dd5bff30927f603d5acc433cc2073">usart_wait_recv_ready</a> (uint32_t usart)</td></tr>
-<tr class="memdesc:ga4b3dd5bff30927f603d5acc433cc2073"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Wait for Received Data Available.  <a href="group__usart__file.html#ga4b3dd5bff30927f603d5acc433cc2073">More...</a><br/></td></tr>
-<tr class="separator:ga4b3dd5bff30927f603d5acc433cc2073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28330e1568029bd30aefe59554f3d6ea"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a28330e1568029bd30aefe59554f3d6ea">usart_recv</a> (uint32_t usart)</td></tr>
+<tr class="memdesc:a28330e1568029bd30aefe59554f3d6ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Read a Received Data Word.  <a href="#a28330e1568029bd30aefe59554f3d6ea">More...</a><br/></td></tr>
+<tr class="separator:a28330e1568029bd30aefe59554f3d6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6df6e7a152e4d6e7c433a810403258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a6d6df6e7a152e4d6e7c433a810403258">usart_wait_send_ready</a> (uint32_t usart)</td></tr>
+<tr class="memdesc:a6d6df6e7a152e4d6e7c433a810403258"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Wait for Transmit Data Buffer Empty.  <a href="#a6d6df6e7a152e4d6e7c433a810403258">More...</a><br/></td></tr>
+<tr class="separator:a6d6df6e7a152e4d6e7c433a810403258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3dd5bff30927f603d5acc433cc2073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a4b3dd5bff30927f603d5acc433cc2073">usart_wait_recv_ready</a> (uint32_t usart)</td></tr>
+<tr class="memdesc:a4b3dd5bff30927f603d5acc433cc2073"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Wait for Received Data Available.  <a href="#a4b3dd5bff30927f603d5acc433cc2073">More...</a><br/></td></tr>
+<tr class="separator:a4b3dd5bff30927f603d5acc433cc2073"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39e24880b0b9408aa3e0dc0a184de06b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a39e24880b0b9408aa3e0dc0a184de06b">usart_send_blocking</a> (uint32_t usart, uint8_t data)</td></tr>
 <tr class="memdesc:a39e24880b0b9408aa3e0dc0a184de06b"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Send Data Word with Blocking.  <a href="#a39e24880b0b9408aa3e0dc0a184de06b">More...</a><br/></td></tr>
 <tr class="separator:a39e24880b0b9408aa3e0dc0a184de06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -569,12 +569,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gaac35e7ef814d1a7a5c28ababd16436c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#gaac35e7ef814d1a7a5c28ababd16436c0">usart_disable_error_interrupt</a> (uint32_t usart)</td></tr>
 <tr class="memdesc:gaac35e7ef814d1a7a5c28ababd16436c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Error Interrupt Disable.  <a href="group__usart__file.html#gaac35e7ef814d1a7a5c28ababd16436c0">More...</a><br/></td></tr>
 <tr class="separator:gaac35e7ef814d1a7a5c28ababd16436c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb005f4e7635fbb379593ac0198032f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#gafb005f4e7635fbb379593ac0198032f3">usart_get_flag</a> (uint32_t usart, uint32_t flag)</td></tr>
-<tr class="memdesc:gafb005f4e7635fbb379593ac0198032f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Read a Status Flag.  <a href="group__usart__file.html#gafb005f4e7635fbb379593ac0198032f3">More...</a><br/></td></tr>
-<tr class="separator:gafb005f4e7635fbb379593ac0198032f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga761c6089dcd796e78f4f5ba495f7fc37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usart__file.html#ga761c6089dcd796e78f4f5ba495f7fc37">usart_get_interrupt_source</a> (uint32_t usart, uint32_t flag)</td></tr>
-<tr class="memdesc:ga761c6089dcd796e78f4f5ba495f7fc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Return Interrupt Source.  <a href="group__usart__file.html#ga761c6089dcd796e78f4f5ba495f7fc37">More...</a><br/></td></tr>
-<tr class="separator:ga761c6089dcd796e78f4f5ba495f7fc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb005f4e7635fbb379593ac0198032f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#afb005f4e7635fbb379593ac0198032f3">usart_get_flag</a> (uint32_t usart, uint32_t flag)</td></tr>
+<tr class="memdesc:afb005f4e7635fbb379593ac0198032f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Read a Status Flag.  <a href="#afb005f4e7635fbb379593ac0198032f3">More...</a><br/></td></tr>
+<tr class="separator:afb005f4e7635fbb379593ac0198032f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a761c6089dcd796e78f4f5ba495f7fc37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usart_8h.html#a761c6089dcd796e78f4f5ba495f7fc37">usart_get_interrupt_source</a> (uint32_t usart, uint32_t flag)</td></tr>
+<tr class="memdesc:a761c6089dcd796e78f4f5ba495f7fc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Return Interrupt Source.  <a href="#a761c6089dcd796e78f4f5ba495f7fc37">More...</a><br/></td></tr>
+<tr class="separator:a761c6089dcd796e78f4f5ba495f7fc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a92871691058ff7ccffd7635930cb08da"></a>
@@ -598,7 +598,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART1_BRR&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
+          <td class="memname">#define USART1_BRR&#160;&#160;&#160;<a class="el" href="usart_8h.html#a731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -612,7 +612,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART1_CR1&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
+          <td class="memname">#define USART1_CR1&#160;&#160;&#160;<a class="el" href="usart_8h.html#a5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -626,7 +626,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART1_CR2&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
+          <td class="memname">#define USART1_CR2&#160;&#160;&#160;<a class="el" href="usart_8h.html#a83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -640,7 +640,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART1_CR3&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
+          <td class="memname">#define USART1_CR3&#160;&#160;&#160;<a class="el" href="usart_8h.html#a300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -654,7 +654,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART1_GTPR&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#gabd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
+          <td class="memname">#define USART1_GTPR&#160;&#160;&#160;<a class="el" href="usart_8h.html#abd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(<a class="el" href="memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d">USART1_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -766,7 +766,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART2_BRR&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
+          <td class="memname">#define USART2_BRR&#160;&#160;&#160;<a class="el" href="usart_8h.html#a731b110dac1a617cbdc0d251ec91401b">USART_BRR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -780,7 +780,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART2_CR1&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
+          <td class="memname">#define USART2_CR1&#160;&#160;&#160;<a class="el" href="usart_8h.html#a5b9b0782cd5ada75a6ef5c7fe27af74b">USART_CR1</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -794,7 +794,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART2_CR2&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
+          <td class="memname">#define USART2_CR2&#160;&#160;&#160;<a class="el" href="usart_8h.html#a83a6b73648eac5f34358a99513ac8a70">USART_CR2</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -808,7 +808,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART2_CR3&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#ga300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
+          <td class="memname">#define USART2_CR3&#160;&#160;&#160;<a class="el" href="usart_8h.html#a300bacc7d0e2fa7623102b5587187c2c">USART_CR3</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -822,7 +822,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART2_GTPR&#160;&#160;&#160;<a class="el" href="group__usart__defines.html#gabd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
+          <td class="memname">#define USART2_GTPR&#160;&#160;&#160;<a class="el" href="usart_8h.html#abd51d7c3c301c9498a9f7de4d870013a">USART_GTPR</a>(<a class="el" href="memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090">USART2_BASE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -924,7 +924,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x0c)</td>
+          <td>&#160;&#160;&#160;MMIO32(usart_base + 0x0c)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -944,7 +944,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x00)</td>
+          <td>&#160;&#160;&#160;MMIO32(usart_base + 0x00)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1316,7 +1316,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x04)</td>
+          <td>&#160;&#160;&#160;MMIO32(usart_base + 0x04)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1720,7 +1720,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x08)</td>
+          <td>&#160;&#160;&#160;MMIO32(usart_base + 0x08)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2112,7 +2112,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_FLOWCONTROL&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a> | <a class="el" href="group__usart__defines.html#gaa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td>
+          <td class="memname">#define USART_FLOWCONTROL&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a> | <a class="el" href="usart_8h.html#aa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2128,7 +2128,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_FLOWCONTROL_CTS&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gaa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td>
+          <td class="memname">#define USART_FLOWCONTROL_CTS&#160;&#160;&#160;(<a class="el" href="usart_8h.html#aa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2156,7 +2156,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_FLOWCONTROL_RTS&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a>)</td>
+          <td class="memname">#define USART_FLOWCONTROL_RTS&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2170,7 +2170,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_FLOWCONTROL_RTS_CTS&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a> | <a class="el" href="group__usart__defines.html#gaa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td>
+          <td class="memname">#define USART_FLOWCONTROL_RTS_CTS&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a7c5d6fcd84a4728cda578a0339b4cac2">USART_CR3_RTSE</a> | <a class="el" href="usart_8h.html#aa125f026b1ca2d76eab48b191baed265">USART_CR3_CTSE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2188,7 +2188,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x10)</td>
+          <td>&#160;&#160;&#160;MMIO32(usart_base + 0x10)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2298,7 +2298,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x20)</td>
+          <td>&#160;&#160;&#160;MMIO32(usart_base + 0x20)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2484,7 +2484,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x1c)</td>
+          <td>&#160;&#160;&#160;MMIO32(usart_base + 0x1c)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2816,7 +2816,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_MODE&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a> | <a class="el" href="group__usart__defines.html#gada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td>
+          <td class="memname">#define USART_MODE&#160;&#160;&#160;(<a class="el" href="usart_8h.html#ade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a> | <a class="el" href="usart_8h.html#ada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2846,7 +2846,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_MODE_RX&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td>
+          <td class="memname">#define USART_MODE_RX&#160;&#160;&#160;(<a class="el" href="usart_8h.html#ada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2860,7 +2860,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_MODE_TX&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a>)</td>
+          <td class="memname">#define USART_MODE_TX&#160;&#160;&#160;(<a class="el" href="usart_8h.html#ade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2874,7 +2874,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_MODE_TX_RX&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#gade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a> | <a class="el" href="group__usart__defines.html#gada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td>
+          <td class="memname">#define USART_MODE_TX_RX&#160;&#160;&#160;(<a class="el" href="usart_8h.html#ade7f090b04fd78b755b43357ecaa9622">USART_CR1_TE</a> | <a class="el" href="usart_8h.html#ada0d5d407a22264de847bc1b40a17aeb">USART_CR1_RE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2888,7 +2888,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_PARITY&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a> | <a class="el" href="group__usart__defines.html#ga2e159d36ab2c93a2c1942df60e9eebbe">USART_CR1_PS</a>)</td>
+          <td class="memname">#define USART_PARITY&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a> | <a class="el" href="usart_8h.html#a2e159d36ab2c93a2c1942df60e9eebbe">USART_CR1_PS</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2904,7 +2904,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_PARITY_EVEN&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a>)</td>
+          <td class="memname">#define USART_PARITY_EVEN&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2932,7 +2932,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USART_PARITY_ODD&#160;&#160;&#160;(<a class="el" href="group__usart__defines.html#ga60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a> | <a class="el" href="group__usart__defines.html#ga2e159d36ab2c93a2c1942df60e9eebbe">USART_CR1_PS</a>)</td>
+          <td class="memname">#define USART_PARITY_ODD&#160;&#160;&#160;(<a class="el" href="usart_8h.html#a60f8fcf084f9a8514efafb617c70b074">USART_CR1_PCE</a> | <a class="el" href="usart_8h.html#a2e159d36ab2c93a2c1942df60e9eebbe">USART_CR1_PS</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2950,7 +2950,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(usart_base + 0x24)</td>
+          <td>&#160;&#160;&#160;MMIO8(usart_base + 0x24)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2970,7 +2970,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x18)</td>
+          <td>&#160;&#160;&#160;MMIO32(usart_base + 0x18)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3058,7 +3058,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(usart_base + 0x14)</td>
+          <td>&#160;&#160;&#160;MMIO32(usart_base + 0x14)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3168,7 +3168,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">usart_base</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(usart_base + 0x28)</td>
+          <td>&#160;&#160;&#160;MMIO8(usart_base + 0x28)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3180,6 +3180,122 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="afb005f4e7635fbb379593ac0198032f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool usart_get_flag </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>usart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>flag</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USART Read a Status Flag. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag usart_sr_flags. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>boolean: flag set. </dd></dl>
+
+<p>Definition at line <a class="el" href="usart_8c_source.html#l00396">396</a> of file <a class="el" href="usart_8c_source.html">usart.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a761c6089dcd796e78f4f5ba495f7fc37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool usart_get_interrupt_source </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>usart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>flag</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USART Return Interrupt Source. </p>
+<p>Returns true if the specified interrupt flag (IDLE, RXNE, TC, TXE or OE) was set and the interrupt was enabled. If the specified flag is not an interrupt flag, the function returns false.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag</td><td>Unsigned int32. Status register flag usart_sr_flags. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>boolean: flag and interrupt enable both set. </dd></dl>
+
+<p>Definition at line <a class="el" href="usart_8c_source.html#l00414">414</a> of file <a class="el" href="usart_8c_source.html">usart.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a28330e1568029bd30aefe59554f3d6ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t usart_recv </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>usart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USART Read a Received Data Word. </p>
+<p>If parity is enabled the MSB (bit 7 or 8 depending on the word length) is the parity bit.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned 16 bit data word. </dd></dl>
+
+<p>Definition at line <a class="el" href="usart_8c_source.html#l00187">187</a> of file <a class="el" href="usart_8c_source.html">usart.c</a>.</p>
+
+<p>Referenced by <a class="el" href="usart_8c_source.html#l00251">usart_recv_blocking()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="usart_8h_a28330e1568029bd30aefe59554f3d6ea_icgraph.png" border="0" usemap="#usart_8h_a28330e1568029bd30aefe59554f3d6ea_icgraph" alt=""/></div>
+<map name="usart_8h_a28330e1568029bd30aefe59554f3d6ea_icgraph" id="usart_8h_a28330e1568029bd30aefe59554f3d6ea_icgraph">
+<area shape="rect" id="node3" href="group__usart__defines.html#ga8e0013f2829bfb8687e4a56973d56b57" title="USART Read a Received Data Word with Blocking. " alt="" coords="136,5,275,38"/></map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a736a880afb2be864871b2836657831e9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3273,7 +3389,83 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="usart_8h_a39e24880b0b9408aa3e0dc0a184de06b_cgraph.png" border="0" usemap="#usart_8h_a39e24880b0b9408aa3e0dc0a184de06b_cgraph" alt=""/></div>
 <map name="usart_8h_a39e24880b0b9408aa3e0dc0a184de06b_cgraph" id="usart_8h_a39e24880b0b9408aa3e0dc0a184de06b_cgraph">
-<area shape="rect" id="node3" href="usart_8h.html#a736a880afb2be864871b2836657831e9" title="USART Send a Data Word. " alt="" coords="231,5,316,38"/><area shape="rect" id="node5" href="group__usart__file.html#ga6d6df6e7a152e4d6e7c433a810403258" title="USART Wait for Transmit Data Buffer Empty. " alt="" coords="196,61,351,94"/></map>
+<area shape="rect" id="node3" href="usart_8h.html#a736a880afb2be864871b2836657831e9" title="USART Send a Data Word. " alt="" coords="231,5,316,38"/><area shape="rect" id="node5" href="usart_8h.html#a6d6df6e7a152e4d6e7c433a810403258" title="USART Wait for Transmit Data Buffer Empty. " alt="" coords="196,61,351,94"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4b3dd5bff30927f603d5acc433cc2073"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void usart_wait_recv_ready </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>usart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USART Wait for Received Data Available. </p>
+<p>Blocks until the receive data buffer holds a valid received data word.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="usart_8c_source.html#l00218">218</a> of file <a class="el" href="usart_8c_source.html">usart.c</a>.</p>
+
+<p>Referenced by <a class="el" href="usart_8c_source.html#l00251">usart_recv_blocking()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="usart_8h_a4b3dd5bff30927f603d5acc433cc2073_icgraph.png" border="0" usemap="#usart_8h_a4b3dd5bff30927f603d5acc433cc2073_icgraph" alt=""/></div>
+<map name="usart_8h_a4b3dd5bff30927f603d5acc433cc2073_icgraph" id="usart_8h_a4b3dd5bff30927f603d5acc433cc2073_icgraph">
+<area shape="rect" id="node3" href="group__usart__defines.html#ga8e0013f2829bfb8687e4a56973d56b57" title="USART Read a Received Data Word with Blocking. " alt="" coords="208,5,347,38"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6d6df6e7a152e4d6e7c433a810403258"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void usart_wait_send_ready </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>usart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USART Wait for Transmit Data Buffer Empty. </p>
+<p>Blocks until the transmit data buffer becomes empty and is ready to accept the next data word.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>unsigned 32 bit. USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="usart_8c_source.html#l00203">203</a> of file <a class="el" href="usart_8c_source.html">usart.c</a>.</p>
+
+<p>Referenced by <a class="el" href="usart_8c_source.html#l00235">usart_send_blocking()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="usart_8h_a6d6df6e7a152e4d6e7c433a810403258_icgraph.png" border="0" usemap="#usart_8h_a6d6df6e7a152e4d6e7c433a810403258_icgraph" alt=""/></div>
+<map name="usart_8h_a6d6df6e7a152e4d6e7c433a810403258_icgraph" id="usart_8h_a6d6df6e7a152e4d6e7c433a810403258_icgraph">
+<area shape="rect" id="node3" href="usart_8c.html#a39e24880b0b9408aa3e0dc0a184de06b" title="USART Send Data Word with Blocking. " alt="" coords="211,5,352,38"/></map>
 </div>
 </p>
 
@@ -3285,7 +3477,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_7d765688839e3eda4be687451f518130.html">f0</a></li><li class="navelem"><a class="el" href="usart_8h.html">usart.h</a></li>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:10 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

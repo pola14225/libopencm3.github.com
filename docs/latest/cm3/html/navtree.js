@@ -4,6 +4,7 @@ var NAVTREE =
     [ "libopencm3 Core CM3", "index.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "modules.html", "modules" ],
+    [ "Generic USB", "../../usb/html/modules.html", null ],
     [ "STM32F0", "../../stm32f0/html/modules.html", null ],
     [ "STM32F1", "../../stm32f1/html/modules.html", null ],
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
@@ -43,8 +44,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../efm32g/html/modules.html",
-"itm_8h.html#ab7a22b7663d50a1345b7756fca53e0a9",
-"tpiu_8h_source.html"
+"itm_8h.html#aa50e7ce101e78a99931a5cdf49a930bf",
+"tpiu_8h.html#ad9b75f6e89de1971b490ad69ffff4c0c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

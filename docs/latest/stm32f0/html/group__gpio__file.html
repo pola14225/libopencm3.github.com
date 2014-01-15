@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__gpio__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -168,7 +168,7 @@ Functions</h2></td></tr>
 <p><b>libopencm3 STM32F0xx General Purpose I/O</b> </p>
 <dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
 <dl class="section date"><dt>Date</dt><dd>18 August 2012</dd></dl>
-<p>LGPL License Terms <a class="elRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/lgpl_license.html">libopencm3 License</a></p>
+<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2009 Uwe Hermann <a href="#" onclick="location.href='mai'+'lto:'+'uwe'+'@h'+'erm'+'an'+'n-u'+'we'+'.de'; return false;">uwe@h<span style="display: none;">.nosp@m.</span>erma<span style="display: none;">.nosp@m.</span>nn-uw<span style="display: none;">.nosp@m.</span>e.de</a></dd>
 <dd>
  &copy;  2009 Uwe Hermann <a href="#" onclick="location.href='mai'+'lto:'+'uwe'+'@h'+'erm'+'an'+'n-u'+'we'+'.de'; return false;">uwe@h<span style="display: none;">.nosp@m.</span>erma<span style="display: none;">.nosp@m.</span>nn-uw<span style="display: none;">.nosp@m.</span>e.de</a> </dd>
@@ -181,18 +181,18 @@ Functions</h2></td></tr>
 <h1><a class="anchor" id="gpio_api_ex"></a>
 Basic GPIO Handling API.</h1>
 <p>Example 1: Push-pull digital output actions with pullup on ports C2 and C9</p>
-<div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a>(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>, <a class="code" href="group__gpio__mode.html#gaca6eb0cd4dbe7402497829badacfa6df">GPIO_MODE_OUTPUT</a>,</div>
-<div class="line">                <a class="code" href="group__gpio__pup.html#ga264ec1394a2217031267aa4f1967ed2d">GPIO_PUPD_PULLUP</a>,  <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352">GPIO9</a>);</div>
-<div class="line">gpio_output_options(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>, <a class="code" href="group__gpio__output__type.html#gaf1281bd13a0f400c75ae55f8ca705e34">GPIO_OTYPE_PP</a>,</div>
-<div class="line">                    <a class="code" href="group__gpio__speed.html#ga30c567422df45ed461831900415c71fc">GPIO_OSPEED_25MHZ</a>,  <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352">GPIO9</a>);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#ga7fb65a68e4fc7175660f396395f6b44e">gpio_set</a>(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>, <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352">GPIO9</a>);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#ga8970f778a63c9d78ffd8d4d36628c7e1">gpio_clear</a>(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>, <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a>);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#ga5ce25ff1552b12093b009978322fcb5c">gpio_toggle</a>(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>, <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352">GPIO9</a>);</div>
-<div class="line"><a class="code" href="group__gpio__defines.html#gaeb877f5252652d6a574a08b085ef14f5">gpio_port_write</a>(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>, 0x204);</div>
+<div class="fragment"><div class="line"><a class="code" href="group__gpio__file.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a>(GPIOC, GPIO_MODE_OUTPUT,</div>
+<div class="line">                GPIO_PUPD_PULLUP,  <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352">GPIO9</a>);</div>
+<div class="line">gpio_output_options(GPIOC, GPIO_OTYPE_PP,</div>
+<div class="line">                    GPIO_OSPEED_25MHZ,  <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352">GPIO9</a>);</div>
+<div class="line"><a class="code" href="group__gpio__defines.html#ga7fb65a68e4fc7175660f396395f6b44e">gpio_set</a>(GPIOC, <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352">GPIO9</a>);</div>
+<div class="line"><a class="code" href="group__gpio__defines.html#ga8970f778a63c9d78ffd8d4d36628c7e1">gpio_clear</a>(GPIOC, <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a>);</div>
+<div class="line"><a class="code" href="group__gpio__defines.html#ga5ce25ff1552b12093b009978322fcb5c">gpio_toggle</a>(GPIOC, <a class="code" href="group__gpio__pin__id.html#ga88a95401ea8409c83cbda42f31450cd0">GPIO2</a> | <a class="code" href="group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352">GPIO9</a>);</div>
+<div class="line"><a class="code" href="group__gpio__defines.html#gaeb877f5252652d6a574a08b085ef14f5">gpio_port_write</a>(GPIOC, 0x204);</div>
 </div><!-- fragment --><p>Example 2: Digital input on port C12 with pullup</p>
-<div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a>(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>, <a class="code" href="group__gpio__mode.html#gaf40bec3146810028a84b628d37d3b391">GPIO_MODE_INPUT</a>,</div>
-<div class="line">                <a class="code" href="group__gpio__pup.html#ga264ec1394a2217031267aa4f1967ed2d">GPIO_PUPD_PULLUP</a>, <a class="code" href="group__gpio__pin__id.html#ga1dfa6e5489489f2797d3d80c718716ce">GPIO12</a>);</div>
-<div class="line">reg16 = <a class="code" href="group__gpio__defines.html#gac7a671c0d057a8db484357b344d66b23">gpio_port_read</a>(<a class="code" href="group__gpio__port__id.html#ga2dca03332d620196ba943bc2346eaa08">GPIOC</a>);</div>
+<div class="fragment"><div class="line"><a class="code" href="group__gpio__file.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a>(GPIOC, GPIO_MODE_INPUT,</div>
+<div class="line">                GPIO_PUPD_PULLUP, <a class="code" href="group__gpio__pin__id.html#ga1dfa6e5489489f2797d3d80c718716ce">GPIO12</a>);</div>
+<div class="line">reg16 = <a class="code" href="group__gpio__defines.html#gac7a671c0d057a8db484357b344d66b23">gpio_port_read</a>(GPIOC);</div>
 </div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga8970f778a63c9d78ffd8d4d36628c7e1"></a>
 <div class="memitem">
@@ -222,15 +222,13 @@ Basic GPIO Handling API.</h1>
 <p>Clear one or more pins of the given GPIO port to 0 in an atomic operation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00057">57</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio__common__f234_8h_source.html#l00114">GPIO_BSRR</a>.</p>
 
 </div>
 </div>
@@ -261,7 +259,7 @@ Basic GPIO Handling API.</h1>
 <p>Read a Group of Pins. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be read, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
@@ -323,17 +321,15 @@ Here is the call graph for this function:</div>
 <p>Sets the Pin Direction and Analog/Digital Mode, and Output Pin Pullup, for a set of GPIO pins on a given GPIO port.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Unsigned int8. Pin mode <a class="el" href="group__gpio__mode.html">GPIO Pin Direction and Analog/Digital Mode</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pull_up_down</td><td>Unsigned int8. Pin pullup/pulldown configuration <a class="el" href="group__gpio__pup.html">GPIO Output Pin Pullup</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Unsigned int8. Pin mode gpio_mode </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pull_up_down</td><td>Unsigned int8. Pin pullup/pulldown configuration gpio_pup </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__f0234_8c_source.html#l00089">89</a> of file <a class="el" href="gpio__common__f0234_8c_source.html">gpio_common_f0234.c</a>.</p>
-
-<p>References <a class="el" href="gpio__common__f234_8h_source.html#l00151">GPIO_MODE</a>, <a class="el" href="gpio__common__f234_8h_source.html#l00152">GPIO_MODE_MASK</a>, <a class="el" href="gpio__common__f234_8h_source.html#l00060">GPIO_MODER</a>, <a class="el" href="gpio__common__f234_8h_source.html#l00188">GPIO_PUPD</a>, <a class="el" href="gpio__common__f234_8h_source.html#l00189">GPIO_PUPD_MASK</a>, and <a class="el" href="gpio__common__f234_8h_source.html#l00087">GPIO_PUPDR</a>.</p>
 
 </div>
 </div>
@@ -365,7 +361,7 @@ Here is the call graph for this function:</div>
 <p>The configuration of one or more pins of the given GPIO port is locked. There is no mechanism to unlock these via software. Unlocking occurs at the next reset.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be locked, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
@@ -373,7 +369,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00131">131</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
 
-<p>References <a class="el" href="gpio__common__all_8h_source.html#l00048">GPIO_LCKK</a>, and <a class="el" href="gpio__common__f234_8h_source.html#l00123">GPIO_LCKR</a>.</p>
+<p>References <a class="el" href="gpio__common__all_8h_source.html#l00047">GPIO_LCKK</a>.</p>
 
 </div>
 </div>
@@ -395,15 +391,13 @@ Here is the call graph for this function:</div>
 <p>Read the current value of the given GPIO port. Only the lower 16 bits contain valid pin data.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Unsigned int16. The value held in the specified GPIO port. </dd></dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00101">101</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio__common__f234_8h_source.html#l00096">GPIO_IDR</a>.</p>
 
 <p>Referenced by <a class="el" href="gpio__common__all_8c_source.html#l00072">gpio_get()</a>.</p>
 
@@ -446,15 +440,13 @@ Here is the caller graph for this function:</div>
 <p>Write a value to the given GPIO port.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Unsigned int16. The value to be written to the GPIO port. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00114">114</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio__common__f234_8h_source.html#l00105">GPIO_ODR</a>.</p>
 
 </div>
 </div>
@@ -486,15 +478,13 @@ Here is the caller graph for this function:</div>
 <p>Set one or more pins of the given GPIO port to 1 in an atomic operation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00042">42</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio__common__f234_8h_source.html#l00114">GPIO_BSRR</a>.</p>
 
 </div>
 </div>
@@ -533,16 +523,14 @@ Here is the caller graph for this function:</div>
 <p>Note that a number of pins may be set but only with a single AF number. In practice this would rarely be useful as each pin is likely to require a different number.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">alt_func_num</td><td>Unsigned int8. Pin alternate function number <a class="el" href="group__gpio__af__num.html">Alternate Function Pin Selection</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alt_func_num</td><td>Unsigned int8. Pin alternate function number gpio_af_num </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__f0234_8c_source.html#l00178">178</a> of file <a class="el" href="gpio__common__f0234_8c_source.html">gpio_common_f0234.c</a>.</p>
-
-<p>References <a class="el" href="gpio__common__f234_8h_source.html#l00221">GPIO_AFR</a>, <a class="el" href="gpio__common__f234_8h_source.html#l00222">GPIO_AFR_MASK</a>, <a class="el" href="gpio__common__f234_8h_source.html#l00141">GPIO_AFRH</a>, and <a class="el" href="gpio__common__f234_8h_source.html#l00132">GPIO_AFRL</a>.</p>
 
 </div>
 </div>
@@ -586,8 +574,8 @@ Here is the caller graph for this function:</div>
 <p>When the pin is set to output mode, this sets the configuration (analog/digital and open drain/push pull) and speed, for a set of GPIO pins on a given GPIO port.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">otype</td><td>Unsigned int8. Pin output type <a class="el" href="group__gpio__output__type.html">GPIO Output Pin Driver Type</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">otype</td><td>Unsigned int8. Pin output type gpio_output_type </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">speed</td><td>Unsigned int8. Pin speed <a class="el" href="group__gpio__speed.html">GPIO Output Pin Speed</a> </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
   </table>
@@ -595,8 +583,6 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__f0234_8c_source.html#l00132">132</a> of file <a class="el" href="gpio__common__f0234_8c_source.html">gpio_common_f0234.c</a>.</p>
-
-<p>References <a class="el" href="gpio__common__f234_8h_source.html#l00175">GPIO_OSPEED</a>, <a class="el" href="gpio__common__f234_8h_source.html#l00176">GPIO_OSPEED_MASK</a>, <a class="el" href="gpio__common__f234_8h_source.html#l00078">GPIO_OSPEEDR</a>, and <a class="el" href="gpio__common__f234_8h_source.html#l00069">GPIO_OTYPER</a>.</p>
 
 </div>
 </div>
@@ -628,15 +614,13 @@ Here is the caller graph for this function:</div>
 <p>Toggle one or more pins of the given GPIO port. This is not an atomic operation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="gpio__common__all_8c_source.html#l00087">87</a> of file <a class="el" href="gpio__common__all_8c_source.html">gpio_common_all.c</a>.</p>
-
-<p>References <a class="el" href="gpio__common__f234_8h_source.html#l00105">GPIO_ODR</a>.</p>
 
 </div>
 </div>
@@ -645,7 +629,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:11 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:21:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

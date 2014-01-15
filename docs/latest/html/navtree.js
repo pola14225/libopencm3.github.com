@@ -2,15 +2,6 @@ var NAVTREE =
 [
   [ "libopencm3", "index.html", [
     [ "libopencm3 Developer Documentation", "index.html", null ],
-    [ "libopencm3 License", "../cm3/html/lgpl_license.html", null ],
-    [ "libopencm3 Core CM3", "../cm3/html/index.html", null ],
-    [ "libopencm3 STM32F1", "../stm32f1/html/index.html", null ],
-    [ "libopencm3 STM32F4", "../stm32f4/html/index.html", null ],
-    [ "libopencm3 LM3S", "../lm3s/html/index.html", null ],
-    [ "libopencm3 LM4F", "../lm4f/html/index.html", null ],
-    [ "libopencm3 LPC13xx", "../lpc13xx/html/index.html", null ],
-    [ "libopencm3 LPC17xx", "../lpc17xx/html/index.html", null ],
-    [ "libopencm3 LPC43xx", "../lpc43xx/html/index.html", null ],
     [ "Top Level", "../html/index.html", null ],
     [ "CM3 Core", "../cm3/html/modules.html", null ],
     [ "Generic USB", "../usb/html/modules.html", null ],

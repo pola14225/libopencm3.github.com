@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['systick_20defines',['SysTick Defines',['../../../cm3/html/group__CM3__systick__defines.html',1,'']]],
   ['spi_20peripheral_20baud_20rates',['SPI peripheral baud rates',['../group__spi__baudrate.html',1,'']]],
   ['spi_20peripheral_20baud_20rate_20prescale_20values',['SPI peripheral baud rate prescale values',['../group__spi__br__pre.html',1,'']]],
   ['spi_20clock_20phase',['SPI clock phase',['../group__spi__cpha.html',1,'']]],
@@ -12,5 +11,6 @@ var searchData=
   ['spi_20register_20base_20address',['SPI Register base address',['../group__spi__reg__base.html',1,'']]],
   ['stm32f2xx',['STM32F2xx',['../group__STM32F2xx.html',1,'']]],
   ['stm32f2xx_20defines',['STM32F2xx Defines',['../group__STM32F2xx__defines.html',1,'']]],
+  ['syscfg_20defines',['SYSCFG Defines',['../group__syscfg__defines.html',1,'']]],
   ['sms_20slave_20mode_20selection',['SMS Slave mode selection',['../group__tim__sms.html',1,'']]]
 ];

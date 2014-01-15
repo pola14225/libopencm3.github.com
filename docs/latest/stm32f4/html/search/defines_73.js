@@ -7,13 +7,5 @@ var searchData=
   ['st_5ftsense_5fcal1_5f30c',['ST_TSENSE_CAL1_30C',['../memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6',1,'memorymap.h']]],
   ['st_5ftsense_5fcal2_5f110',['ST_TSENSE_CAL2_110',['../memorymap_8h.html#a180b2568bd311857514f6f845b36aeb0',1,'memorymap.h']]],
   ['st_5fvrefint_5fcal',['ST_VREFINT_CAL',['../memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d',1,'memorymap.h']]],
-  ['syscfg_5fbase',['SYSCFG_BASE',['../memorymap_8h.html#a62246020bf3b34b6a4d8d0e84ec79d3d',1,'memorymap.h']]],
-  ['syscfg_5fcmpcr',['SYSCFG_CMPCR',['../syscfg__common__l1f234_8h.html#a76822f104934b3c0682ec2e12e903f30',1,'syscfg_common_l1f234.h']]],
-  ['syscfg_5fexticr',['SYSCFG_EXTICR',['../syscfg__common__l1f234_8h.html#ae817e40e86c38da470d9a40a5584277d',1,'syscfg_common_l1f234.h']]],
-  ['syscfg_5fexticr1',['SYSCFG_EXTICR1',['../syscfg__common__l1f234_8h.html#a55e119f87c84a7b1b9ba01c2ec3a6b4f',1,'syscfg_common_l1f234.h']]],
-  ['syscfg_5fexticr2',['SYSCFG_EXTICR2',['../syscfg__common__l1f234_8h.html#a80c96b4d593d8ef618392d6db611979a',1,'syscfg_common_l1f234.h']]],
-  ['syscfg_5fexticr3',['SYSCFG_EXTICR3',['../syscfg__common__l1f234_8h.html#aa5daf054b73b2895e304e8a36463a616',1,'syscfg_common_l1f234.h']]],
-  ['syscfg_5fexticr4',['SYSCFG_EXTICR4',['../syscfg__common__l1f234_8h.html#afa4bb2e0a5c22355be556b7734fe0c59',1,'syscfg_common_l1f234.h']]],
-  ['syscfg_5fmemrm',['SYSCFG_MEMRM',['../syscfg__common__l1f234_8h.html#ae2c143dc8c0abf30726dd46a816bb7c7',1,'syscfg_common_l1f234.h']]],
-  ['syscfg_5fpmc',['SYSCFG_PMC',['../syscfg__common__l1f234_8h.html#a463d835825838c01773347be05fa9ef8',1,'syscfg_common_l1f234.h']]]
+  ['syscfg_5fbase',['SYSCFG_BASE',['../memorymap_8h.html#a62246020bf3b34b6a4d8d0e84ec79d3d',1,'memorymap.h']]]
 ];

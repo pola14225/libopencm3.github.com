@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('usb__lm4f_8c.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -120,15 +120,34 @@ $(document).ready(function(){initNavTree('usb__lm4f_8c.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">usb_lm4f.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;libopencm3/cm3/common.h&gt;</code><br/>
+<code>#include &lt;<a class="el" href="usb_8h_source.html">libopencm3/lm4f/usb.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="rcc_8h_source.html">libopencm3/lm4f/rcc.h</a>&gt;</code><br/>
+<code>#include &lt;libopencm3/usb/usbd.h&gt;</code><br/>
+<code>#include &quot;../../lib/usb/usb_private.h&quot;</code><br/>
+<code>#include &lt;stdbool.h&gt;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for usb_lm4f.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="usb__lm4f_8c__incl.png" border="0" usemap="#usb__lm4f_8c" alt=""/></div>
+<map name="usb__lm4f_8c" id="usb__lm4f_8c">
+<area shape="rect" id="node5" href="usb_8h.html" title="libopencm3/lm4f/usb.h" alt="" coords="24,171,176,205"/><area shape="rect" id="node11" href="rcc_8h.html" title="libopencm3/lm4f/rcc.h" alt="" coords="137,89,287,122"/><area shape="rect" id="node7" href="memorymap_8h.html" title="libopencm3/lm4f/memorymap.h" alt="" coords="75,254,277,287"/><area shape="rect" id="node13" href="systemcontrol_8h.html" title="libopencm3/lm4f/systemcontrol.h" alt="" coords="200,171,413,205"/></map>
+</div>
+</div>
 <p><a href="usb__lm4f_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gad5f9b20acf4cf9b527ae4463b4940971"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__file.html#gad5f9b20acf4cf9b527ae4463b4940971">MAX_FIFO_RAM</a>&#160;&#160;&#160;(4 * 1024)</td></tr>
+<tr class="separator:gad5f9b20acf4cf9b527ae4463b4940971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gad6acfc8a14795d10ae71053b0cfbf717"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__file.html#gad6acfc8a14795d10ae71053b0cfbf717">usb_enable_interrupts</a> (enum <a class="el" href="group__usb__defines.html#ga0f2f22f2ab06463da36ae9c6c2a63ea6">usb_interrupt</a> ints, enum <a class="el" href="group__usb__defines.html#gaf0a19719081410c9b09041a7dd65cd11">usb_ep_interrupt</a> rx_ints, enum <a class="el" href="group__usb__defines.html#gaf0a19719081410c9b09041a7dd65cd11">usb_ep_interrupt</a> tx_ints)</td></tr>
@@ -149,7 +168,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_12fee2a8ab17b1bb753631ffb3fddc2a.html">lm4f</a></li><li class="navelem"><a class="el" href="usb__lm4f_8c.html">usb_lm4f.c</a></li>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:58 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

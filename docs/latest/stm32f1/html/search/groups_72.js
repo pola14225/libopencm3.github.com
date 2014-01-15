@@ -16,8 +16,8 @@ var searchData=
   ['rcc_5fcfgr_20pll_20multiplication_20factor',['RCC_CFGR PLL Multiplication Factor',['../group__rcc__cfgr__pmf.html',1,'']]],
   ['rcc_5fcfgr_20system_20clock_20selection',['RCC_CFGR System Clock Selection',['../group__rcc__cfgr__scs.html',1,'']]],
   ['rcc_5fcfgr_20usb_20prescale_20factors',['RCC_CFGR USB prescale Factors',['../group__rcc__cfgr__usbpre.html',1,'']]],
+  ['rcc_20defines',['RCC Defines',['../group__rcc__defines.html',1,'']]],
   ['rtc_20defines',['RTC Defines',['../group__rtc__defines.html',1,'']]],
   ['rtc',['RTC',['../group__rtc__file.html',1,'']]],
-  ['rcc',['RCC',['../group__STM32F1xx-rcc-file.html',1,'']]],
-  ['rcc_20defines',['RCC Defines',['../group__STM32F1xx__rcc__defines.html',1,'']]]
+  ['rcc',['RCC',['../group__STM32F1xx-rcc-file.html',1,'']]]
 ];

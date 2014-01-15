@@ -2,8 +2,7 @@ var NAVTREE =
 [
   [ "libopencm3", "index.html", [
     [ "libopencm3 EFM32 Giant Gecko", "index.html", null ],
-    [ "libopencm3 License", "../../cm3/html/lgpl_license.html", null ],
-    [ "libopencm3 Core CM3", "../../cm3/html/index.html", null ],
+    [ "libopencm3 License", "lgpl_license.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
     [ "Generic USB", "../../usb/html/modules.html", null ],

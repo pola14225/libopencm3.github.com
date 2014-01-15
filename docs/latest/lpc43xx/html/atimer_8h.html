@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('atimer_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -119,19 +119,50 @@ $(document).ready(function(){initNavTree('atimer_8h.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">atimer.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;libopencm3/cm3/common.h&gt;</code><br/>
+<code>#include &lt;<a class="el" href="memorymap_8h_source.html">libopencm3/lpc43xx/memorymap.h</a>&gt;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for atimer.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="atimer_8h__incl.png" border="0" usemap="#atimer_8h" alt=""/></div>
+<map name="atimer_8h" id="atimer_8h">
+<area shape="rect" id="node5" href="memorymap_8h.html" title="libopencm3/lpc43xx\l/memorymap.h" alt="" coords="81,89,217,143"/></map>
+</div>
+</div>
 <p><a href="atimer_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gaf6ead7b3b0e3c4f738c3b90046994c3d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__atimer__defines.html#gaf6ead7b3b0e3c4f738c3b90046994c3d">ATIMER_DOWNCOUNTER</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">ATIMER_BASE</a> + 0x000)</td></tr>
+<tr class="separator:gaf6ead7b3b0e3c4f738c3b90046994c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade0f7fc1b864b001b27e855f25b4c175"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__atimer__defines.html#gade0f7fc1b864b001b27e855f25b4c175">ATIMER_PRESET</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">ATIMER_BASE</a> + 0x004)</td></tr>
+<tr class="separator:gade0f7fc1b864b001b27e855f25b4c175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f4c5c92ec20a48349e5b2064d742c19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__atimer__defines.html#ga5f4c5c92ec20a48349e5b2064d742c19">ATIMER_CLR_EN</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">ATIMER_BASE</a> + 0xFD8)</td></tr>
+<tr class="separator:ga5f4c5c92ec20a48349e5b2064d742c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae50eacf38097092a0bfae017aadfd8b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__atimer__defines.html#gae50eacf38097092a0bfae017aadfd8b6">ATIMER_SET_EN</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">ATIMER_BASE</a> + 0xFDC)</td></tr>
+<tr class="separator:gae50eacf38097092a0bfae017aadfd8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a818dcfb4099252c2e2ec7ab3a26471"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__atimer__defines.html#ga1a818dcfb4099252c2e2ec7ab3a26471">ATIMER_STATUS</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">ATIMER_BASE</a> + 0xFE0)</td></tr>
+<tr class="separator:ga1a818dcfb4099252c2e2ec7ab3a26471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga623da3f3687fb6403e3243d7348c8921"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__atimer__defines.html#ga623da3f3687fb6403e3243d7348c8921">ATIMER_ENABLE</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">ATIMER_BASE</a> + 0xFE4)</td></tr>
+<tr class="separator:ga623da3f3687fb6403e3243d7348c8921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0da5a4a06447c0f8f225132028071415"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__atimer__defines.html#ga0da5a4a06447c0f8f225132028071415">ATIMER_CLR_STAT</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">ATIMER_BASE</a> + 0xFE8)</td></tr>
+<tr class="separator:ga0da5a4a06447c0f8f225132028071415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04de4a846745262860fb0709203d17b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__atimer__defines.html#ga04de4a846745262860fb0709203d17b6">ATIMER_SET_STAT</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">ATIMER_BASE</a> + 0xFEC)</td></tr>
+<tr class="separator:ga04de4a846745262860fb0709203d17b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="atimer_8h.html">atimer.h</a></li>
-    <li class="footer">Generated on Wed Jan 15 2014 22:23:03 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:19 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

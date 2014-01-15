@@ -26,7 +26,6 @@ var searchData=
   ['uart5_5frqr',['UART5_RQR',['../usart_8h.html#a2d4032bf75a09f162abc4f495bc05493',1,'usart.h']]],
   ['uart5_5frtor',['UART5_RTOR',['../usart_8h.html#af29504c281295436ee7099d2eef68e2d',1,'usart.h']]],
   ['uart5_5ftdr',['UART5_TDR',['../usart_8h.html#a06b40f8658e9e5f90e29dc5c76495bbf',1,'usart.h']]],
-  ['usage_5ffault',['usage_fault',['../../../cm3/html/structvector__table__t.html#a9bc2b639e5ac8019bfad3a97cb35e414',1,'vector_table_t']]],
   ['usart_2ec',['usart.c',['../usart_8c.html',1,'']]],
   ['usart_2eh',['usart.h',['../usart_8h.html',1,'']]],
   ['usart1',['USART1',['../group__usart__reg__base.html#ga92871691058ff7ccffd7635930cb08da',1,'usart_common_all.h']]],

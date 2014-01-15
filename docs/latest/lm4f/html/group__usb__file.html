@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__usb__file.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,6 +114,7 @@ $(document).ready(function(){initNavTree('group__usb__file.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -132,6 +133,11 @@ Collaboration diagram for USB:</div>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gad5f9b20acf4cf9b527ae4463b4940971"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__file.html#gad5f9b20acf4cf9b527ae4463b4940971">MAX_FIFO_RAM</a>&#160;&#160;&#160;(4 * 1024)</td></tr>
+<tr class="separator:gad5f9b20acf4cf9b527ae4463b4940971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gad6acfc8a14795d10ae71053b0cfbf717"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__file.html#gad6acfc8a14795d10ae71053b0cfbf717">usb_enable_interrupts</a> (enum <a class="el" href="group__usb__defines.html#ga0f2f22f2ab06463da36ae9c6c2a63ea6">usb_interrupt</a> ints, enum <a class="el" href="group__usb__defines.html#gaf0a19719081410c9b09041a7dd65cd11">usb_ep_interrupt</a> rx_ints, enum <a class="el" href="group__usb__defines.html#gaf0a19719081410c9b09041a7dd65cd11">usb_ep_interrupt</a> tx_ints)</td></tr>
@@ -171,9 +177,9 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line">*       <span class="comment">// Enable USB interrupts for EP0, EP1IN, and EP2OUT</span></div>
 <div class="line">*       ints = <a class="code" href="group__usb__defines.html#gga0f2f22f2ab06463da36ae9c6c2a63ea6aa45692bc816bdd9bf6819db51f98ad3a">USB_INT_RESET</a> | <a class="code" href="group__usb__defines.html#gga0f2f22f2ab06463da36ae9c6c2a63ea6ab7203dd6b18353416e992310394ed995">USB_INT_DISCON</a> | <a class="code" href="group__usb__defines.html#gga0f2f22f2ab06463da36ae9c6c2a63ea6a3d7fca27fa1e3edbc72a0b278398ca42">USB_INT_RESUME</a> |</div>
 <div class="line">*                <a class="code" href="group__usb__defines.html#gga0f2f22f2ab06463da36ae9c6c2a63ea6aa36cce94b72cb32846cb6478806e933b">USB_INT_SUSPEND</a>;</div>
-<div class="line">*       <a class="code" href="group__usb__defines.html#ga93af0bc1b5144b4c0829cfcd91025a0b">usb_enable_interrupts</a>(ints, <a class="code" href="group__usb__defines.html#ggaf0a19719081410c9b09041a7dd65cd11a4325207f3d1ac8680292e80fe4361c51">USB_EP2_INT</a>, <a class="code" href="group__usb__defines.html#ggaf0a19719081410c9b09041a7dd65cd11a93a6bce8bca9bc79fb14552c840ae41d">USB_EP0_INT</a> | <a class="code" href="group__usb__defines.html#ggaf0a19719081410c9b09041a7dd65cd11a90bb9c7bfad2314c174df49c83129a3c">USB_EP1_INT</a>);</div>
+<div class="line">*       <a class="code" href="group__usb__defines.html#gad6acfc8a14795d10ae71053b0cfbf717">usb_enable_interrupts</a>(ints, <a class="code" href="group__usb__defines.html#ggaf0a19719081410c9b09041a7dd65cd11a4325207f3d1ac8680292e80fe4361c51">USB_EP2_INT</a>, <a class="code" href="group__usb__defines.html#ggaf0a19719081410c9b09041a7dd65cd11a93a6bce8bca9bc79fb14552c840ae41d">USB_EP0_INT</a> | <a class="code" href="group__usb__defines.html#ggaf0a19719081410c9b09041a7dd65cd11a90bb9c7bfad2314c174df49c83129a3c">USB_EP1_INT</a>);</div>
 <div class="line">*       <span class="comment">// Route the interrupts through the NVIC</span></div>
-<div class="line">*       <a class="codeRef" doxygen="/home/esdentem/projects/libopencm3/libopencm3-git/doc/cm3/cm3.tag:../../cm3/html/" href="../../cm3/html/group__CM3__nvic__defines.html#gae5fdef5fd0dc9db35df8e84715fe8179">nvic_enable_irq</a>(NVIC_USB0_IRQ);</div>
+<div class="line">*       nvic_enable_irq(NVIC_USB0_IRQ);</div>
 <div class="line">* </div>
 </div><!-- fragment --><p>The USB ISR only has to call usbd_poll().</p>
 <div class="fragment"><div class="line">*       <span class="keywordtype">void</span> usb0_isr(<span class="keywordtype">void</span>)</div>
@@ -181,7 +187,22 @@ Variables</h2></td></tr>
 <div class="line">*               usbd_poll(usb_dev);</div>
 <div class="line">*       }</div>
 <div class="line">* </div>
-</div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
+</div><!-- fragment --> <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="gad5f9b20acf4cf9b527ae4463b4940971"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_FIFO_RAM&#160;&#160;&#160;(4 * 1024)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="usb__lm4f_8c_source.html#l00111">111</a> of file <a class="el" href="usb__lm4f_8c_source.html">usb_lm4f.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga86efee4380227664681caba4d4c2a010"></a>
 <div class="memitem">
 <div class="memproto">
@@ -225,6 +246,8 @@ Variables</h2></td></tr>
 </dl>
 
 <p>Definition at line <a class="el" href="usb__lm4f_8c_source.html#l00158">158</a> of file <a class="el" href="usb__lm4f_8c_source.html">usb_lm4f.c</a>.</p>
+
+<p>References <a class="el" href="usb_8h_source.html#l00070">USB_IE</a>, <a class="el" href="usb_8h_source.html#l00064">USB_RXIE</a>, and <a class="el" href="usb_8h_source.html#l00061">USB_TXIE</a>.</p>
 
 </div>
 </div>
@@ -272,6 +295,8 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__lm4f_8c_source.html#l00132">132</a> of file <a class="el" href="usb__lm4f_8c_source.html">usb_lm4f.c</a>.</p>
 
+<p>References <a class="el" href="usb_8h_source.html#l00070">USB_IE</a>, <a class="el" href="usb_8h_source.html#l00064">USB_RXIE</a>, and <a class="el" href="usb_8h_source.html#l00061">USB_TXIE</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -294,7 +319,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 22:22:58 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 23:22:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

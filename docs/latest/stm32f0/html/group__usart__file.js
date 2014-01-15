@@ -12,18 +12,12 @@ var group__usart__file =
     [ "usart_enable_rx_interrupt", "group__usart__file.html#ga910b36a1d17590e9a12ab87c61275437", null ],
     [ "usart_enable_tx_dma", "group__usart__file.html#gab2f95a34df377c2c9d36049f1f625f23", null ],
     [ "usart_enable_tx_interrupt", "group__usart__file.html#ga2b2b2b838e5bef63e2ae0c6b3e98684b", null ],
-    [ "usart_get_flag", "group__usart__file.html#gafb005f4e7635fbb379593ac0198032f3", null ],
-    [ "usart_get_interrupt_source", "group__usart__file.html#ga761c6089dcd796e78f4f5ba495f7fc37", null ],
-    [ "usart_recv", "group__usart__file.html#ga0f539661fcdc2e82c4489152393f5d74", null ],
     [ "usart_recv_blocking", "group__usart__file.html#ga8e0013f2829bfb8687e4a56973d56b57", null ],
-    [ "usart_send", "group__usart__file.html#ga26d0bd4c0eab8e4d32ca13df9526722d", null ],
     [ "usart_send_blocking", "group__usart__file.html#gae8458acbe30cf746fd98ff1cc81fcff1", null ],
     [ "usart_set_baudrate", "group__usart__file.html#ga848295ffaf99550cf92d77dbcf15d416", null ],
     [ "usart_set_databits", "group__usart__file.html#ga8333883729d5f460bf02c1f24bd3c37d", null ],
     [ "usart_set_flow_control", "group__usart__file.html#gad87beaac6e79ec1f72b29866bb1993c4", null ],
     [ "usart_set_mode", "group__usart__file.html#ga741d76be9dc09a2b3f544965ab0206cb", null ],
     [ "usart_set_parity", "group__usart__file.html#ga5187a886145e91b6cb6a6fccb0e4246e", null ],
-    [ "usart_set_stopbits", "group__usart__file.html#gaaa411b6c22983d153a58e1a5fda9735d", null ],
-    [ "usart_wait_recv_ready", "group__usart__file.html#ga4b3dd5bff30927f603d5acc433cc2073", null ],
-    [ "usart_wait_send_ready", "group__usart__file.html#ga6d6df6e7a152e4d6e7c433a810403258", null ]
+    [ "usart_set_stopbits", "group__usart__file.html#gaaa411b6c22983d153a58e1a5fda9735d", null ]
 ];
