@@ -1,7 +1,7 @@
 <map id="rcc_clock_setup_pll" name="rcc_clock_setup_pll">
-<area shape="rect" id="node3" href="$flash_8h.html#a46ea5d4032d7ea65641376eca38202f8" title="flash_64bit_enable" alt="" coords="211,5,341,38"/>
-<area shape="rect" id="node5" href="$flash_8h.html#a0f76604d23e55a997cef486d8f93c8f7" title="flash_prefetch_enable" alt="" coords="201,61,351,94"/>
-<area shape="rect" id="node7" href="$flash_8h.html#a9347b16d27d64b79f507dc9cad8633b2" title="flash_set_ws" alt="" coords="227,117,325,150"/>
+<area shape="rect" id="node3" href="$group__flash__defines.html#ga46ea5d4032d7ea65641376eca38202f8" title="Enable 64 Bit Programming Mode. " alt="" coords="211,5,341,38"/>
+<area shape="rect" id="node5" href="$group__flash__defines.html#ga0f76604d23e55a997cef486d8f93c8f7" title="Enable the FLASH Prefetch Buffer. " alt="" coords="201,61,351,94"/>
+<area shape="rect" id="node7" href="$group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2" title="Set the Number of Wait States. " alt="" coords="227,117,325,150"/>
 <area shape="rect" id="node9" href="$pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60" title="pwr_set_vos_scale" alt="" coords="209,173,343,206"/>
 <area shape="rect" id="node11" href="$group__STM32L1xx__rcc__defines.html#ga8dbd64d58e019803bf109609203d1afd" title="rcc_osc_on" alt="" coords="232,229,320,262"/>
 <area shape="rect" id="node13" href="$rcc__common__all_8h.html#aaf3dd53c1ced02082fce0076976547a8" title="RCC Enable Peripheral Clocks. " alt="" coords="203,285,349,339"/>

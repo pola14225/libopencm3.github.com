@@ -1,5 +1,5 @@
 <map id="rcc_clock_setup_hsi" name="rcc_clock_setup_hsi">
-<area shape="rect" id="node3" href="$flash__common__f234_8h.html#a9347b16d27d64b79f507dc9cad8633b2" title="flash_set_ws" alt="" coords="225,5,324,38"/>
+<area shape="rect" id="node3" href="$group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2" title="Set the Number of Wait States. " alt="" coords="225,5,324,38"/>
 <area shape="rect" id="node5" href="$rcc_8h.html#a5bd1ec418f4eb6f5b99b44d0dfa9f9a0" title="rcc_osc_off" alt="" coords="231,61,319,94"/>
 <area shape="rect" id="node7" href="$rcc_8h.html#a4a8f87dfe6e713c262b522824e3f8e84" title="rcc_osc_on" alt="" coords="231,117,319,150"/>
 <area shape="rect" id="node9" href="$rcc_8h.html#ae192b2cd0f37124db5ed76d599a5671b" title="rcc_set_hpre" alt="" coords="227,173,323,206"/>

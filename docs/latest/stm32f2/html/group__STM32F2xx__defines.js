@@ -4,6 +4,7 @@ var group__STM32F2xx__defines =
     [ "CRYPTO Defines", "group__crypto__defines.html", "group__crypto__defines" ],
     [ "DAC Defines", "group__dac__defines.html", "group__dac__defines" ],
     [ "DMA Defines", "group__dma__defines.html", "group__dma__defines" ],
+    [ "FLASH Defines", "group__flash__defines.html", "group__flash__defines" ],
     [ "GPIO Defines", "group__gpio__defines.html", "group__gpio__defines" ],
     [ "HASH Defines", "group__hash__defines.html", null ],
     [ "I2C Defines", "group__i2c__defines.html", "group__i2c__defines" ],

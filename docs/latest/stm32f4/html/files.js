@@ -25,6 +25,7 @@ var files =
     [ "exti_common_all.c", "exti__common__all_8c.html", "exti__common__all_8c" ],
     [ "exti_common_all.h", "exti__common__all_8h.html", "exti__common__all_8h" ],
     [ "exti_common_l1f24.h", "exti__common__l1f24_8h.html", "exti__common__l1f24_8h" ],
+    [ "flash.c", "flash_8c.html", null ],
     [ "flash.h", "flash_8h.html", null ],
     [ "flash_common_f234.c", "flash__common__f234_8c.html", "flash__common__f234_8c" ],
     [ "flash_common_f234.h", "flash__common__f234_8h.html", "flash__common__f234_8h" ],

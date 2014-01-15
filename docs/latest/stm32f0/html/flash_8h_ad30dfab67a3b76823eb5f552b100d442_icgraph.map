@@ -1,6 +1,0 @@
-<map id="flash_wait_busy" name="flash_wait_busy">
-<area shape="rect" id="node3" href="$flash_8c.html#af1804e22fb8a901f3a5f85535aa1ff7b" title="flash_erase_all_pages" alt="" coords="172,5,321,38"/>
-<area shape="rect" id="node5" href="$flash_8c.html#a0aee649731aaa8c1316c12f5bea7c31b" title="flash_erase_page" alt="" coords="185,61,308,94"/>
-<area shape="rect" id="node7" href="$flash_8c.html#ade8630a0a6386c20b09fa10e2c79cafc" title="flash_program_u16" alt="" coords="181,117,312,150"/>
-<area shape="rect" id="node9" href="$flash_8c.html#a38656040c73d1f73ba19c014ff7fb13d" title="flash_program_u32" alt="" coords="181,173,312,206"/>
-</map>

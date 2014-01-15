@@ -13,5 +13,6 @@
 <area shape="rect" id="node13" href="$group__crc__file.html" title="libopencm3 STM32F0xx CRC " alt="" coords="159,621,209,654"/>
 <area shape="rect" id="node14" href="$group__adc__file.html" title="libopencm3 STM32F0xx Analog to Digital Converters " alt="" coords="159,677,209,710"/>
 <area shape="rect" id="node15" href="$group__i2c__file.html" title="libopencm3 STM32F0xx I2C " alt="" coords="163,733,205,766"/>
-<area shape="rect" id="node16" href="$group__timer__file.html" title="libopencm3 STM32F0xx Timers " alt="" coords="153,789,215,822"/>
+<area shape="rect" id="node16" href="$group__flash__file.html" title="libopencm3 STM32F05x FLASH " alt="" coords="152,789,216,822"/>
+<area shape="rect" id="node17" href="$group__timer__file.html" title="libopencm3 STM32F0xx Timers " alt="" coords="153,845,215,878"/>
 </map>

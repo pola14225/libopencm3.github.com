@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"group__adc__channel.html#ga17aabad9af01899b7e0dd0359735b7be":[10,1,0,1,2],
+"group__adc__channel.html#ga1829a7877602d71c2e05903749951ec7":[10,1,0,1,3],
 "group__adc__channel.html#ga34e6ba8d77e1769082ca26d430658e53":[10,1,0,1,13],
 "group__adc__channel.html#ga52e871da9f9331d3d5a4044382578dc8":[10,1,0,1,4],
 "group__adc__channel.html#ga69f3aec885e14d094d5a3fd0ba0b0d74":[10,1,0,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "group__crypto__registers__gen.html#ga6a958dc3179d0b1af43041573182bf02":[10,1,2,2,29],
 "group__crypto__registers__gen.html#ga74666b00f58b456a15c19e8614ae1854":[10,1,2,2,14],
 "group__crypto__registers__gen.html#ga77c0180bb40b49d5d515313e72da37af":[10,1,2,2,15],
-"group__crypto__registers__gen.html#ga78eaeea3827a3f93f8a9eb2e9edb6c74":[10,1,2,2,30],
-"group__crypto__registers__gen.html#ga823629d5a10df713041ca2cbca436324":[10,1,2,2,32],
-"group__crypto__registers__gen.html#ga88d5c4f860a950322b174617da6d4c87":[10,1,2,2,46]
+"group__crypto__registers__gen.html#ga78eaeea3827a3f93f8a9eb2e9edb6c74":[10,1,2,2,30]
 };

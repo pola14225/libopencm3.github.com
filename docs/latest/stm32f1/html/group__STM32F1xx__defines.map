@@ -12,4 +12,5 @@
 <area shape="rect" id="node12" href="$group__usart__defines.html" title="Defined Constants and Types for the STM32F1xx USART " alt="" coords="197,565,315,598"/>
 <area shape="rect" id="node13" href="$group__rtc__defines.html" title="Defined Constants and Types for the STM32F1xx Real Time Clock " alt="" coords="207,621,305,654"/>
 <area shape="rect" id="node14" href="$group__dma__defines.html" title="Defined Constants and Types for the STM32F1xx DMA Controller. " alt="" coords="205,677,307,710"/>
+<area shape="rect" id="node15" href="$group__flash__defines.html" title="Defined Constants and Types for the STM32F1xx FLASH Memory. " alt="" coords="199,733,313,766"/>
 </map>

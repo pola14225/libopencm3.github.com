@@ -124,74 +124,145 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div class="title">flash.c</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="flash_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Copyright (C) 2010 Thomas Otto &lt;tommi@viadmin.org&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * Copyright (C) 2010 Mark Butler &lt;mbutler@physics.otago.ac.nz&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2012 Karl Palsson &lt;karlp@tweak.net.au&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
+<a href="flash_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/** @defgroup flash_file FLASH</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * @ingroup STM32L1xx</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * @brief &lt;b&gt;libopencm3 STM32L1xx FLASH&lt;/b&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * @version 1.0.0</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * @author @htmlonly &amp;copy; @endhtmlonly 2010</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * Thomas Otto &lt;tommi@viadmin.org&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * @author @htmlonly &amp;copy; @endhtmlonly 2010</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * Mark Butler &lt;mbutler@physics.otago.ac.nz&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * @author @htmlonly &amp;copy; @endhtmlonly 2012</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * Karl Palsson &lt;karlp@tweak.net.au&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * @date 14 January 2014</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="flash_8h.html">libopencm3/stm32/l1/flash.h</a>&gt;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="flash_8c.html#a46ea5d4032d7ea65641376eca38202f8">   24</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a46ea5d4032d7ea65641376eca38202f8">flash_64bit_enable</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> |= <a class="code" href="flash_8h.html#ac469106633ce3df56306668ff4da0451">FLASH_ACR_ACC64</a>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="flash_8c.html#a9b6dde9700facc4f5486ba01307d21bf">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a9b6dde9700facc4f5486ba01307d21bf">flash_64bit_disable</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> &amp;= ~<a class="code" href="flash_8h.html#ac469106633ce3df56306668ff4da0451">FLASH_ACR_ACC64</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="flash_8c.html#a0f76604d23e55a997cef486d8f93c8f7">   34</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a0f76604d23e55a997cef486d8f93c8f7">flash_prefetch_enable</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> |= <a class="code" href="flash_8h.html#a082e7e91fffee86db39676396d01a8e0">FLASH_ACR_PRFTEN</a>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="flash_8c.html#a1b35f387b1aa45b20bccc40456cb33fc">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a1b35f387b1aa45b20bccc40456cb33fc">flash_prefetch_disable</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> &amp;= ~<a class="code" href="flash_8h.html#a082e7e91fffee86db39676396d01a8e0">FLASH_ACR_PRFTEN</a>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="flash_8c.html#a9347b16d27d64b79f507dc9cad8633b2">   44</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="flash_8h.html#a9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(uint32_t ws)</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        uint32_t reg32;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        reg32 = <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        reg32 &amp;= ~(1 &lt;&lt; 0);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        reg32 |= ws;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> = reg32;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
-<div class="ttc" id="flash_8h_html_a17131472a9863dc9ef3fd97ec5b4dafc"><div class="ttname"><a href="flash_8h.html#a17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a></div><div class="ttdeci">#define FLASH_ACR</div><div class="ttdef"><b>Definition:</b> <a href="flash_8h_source.html#l00035">flash.h:35</a></div></div>
-<div class="ttc" id="flash_8h_html_a1b35f387b1aa45b20bccc40456cb33fc"><div class="ttname"><a href="flash_8h.html#a1b35f387b1aa45b20bccc40456cb33fc">flash_prefetch_disable</a></div><div class="ttdeci">void flash_prefetch_disable(void)</div><div class="ttdef"><b>Definition:</b> <a href="flash_8c_source.html#l00039">flash.c:39</a></div></div>
-<div class="ttc" id="flash_8h_html_a9347b16d27d64b79f507dc9cad8633b2"><div class="ttname"><a href="flash_8h.html#a9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a></div><div class="ttdeci">void flash_set_ws(uint32_t ws)</div><div class="ttdef"><b>Definition:</b> <a href="flash_8c_source.html#l00044">flash.c:44</a></div></div>
-<div class="ttc" id="flash_8h_html_a9b6dde9700facc4f5486ba01307d21bf"><div class="ttname"><a href="flash_8h.html#a9b6dde9700facc4f5486ba01307d21bf">flash_64bit_disable</a></div><div class="ttdeci">void flash_64bit_disable(void)</div><div class="ttdef"><b>Definition:</b> <a href="flash_8c_source.html#l00029">flash.c:29</a></div></div>
-<div class="ttc" id="flash_8h_html_a46ea5d4032d7ea65641376eca38202f8"><div class="ttname"><a href="flash_8h.html#a46ea5d4032d7ea65641376eca38202f8">flash_64bit_enable</a></div><div class="ttdeci">void flash_64bit_enable(void)</div><div class="ttdef"><b>Definition:</b> <a href="flash_8c_source.html#l00024">flash.c:24</a></div></div>
-<div class="ttc" id="flash_8h_html_a082e7e91fffee86db39676396d01a8e0"><div class="ttname"><a href="flash_8h.html#a082e7e91fffee86db39676396d01a8e0">FLASH_ACR_PRFTEN</a></div><div class="ttdeci">#define FLASH_ACR_PRFTEN</div><div class="ttdef"><b>Definition:</b> <a href="flash_8h_source.html#l00052">flash.h:52</a></div></div>
-<div class="ttc" id="flash_8h_html_ac469106633ce3df56306668ff4da0451"><div class="ttname"><a href="flash_8h.html#ac469106633ce3df56306668ff4da0451">FLASH_ACR_ACC64</a></div><div class="ttdeci">#define FLASH_ACR_ACC64</div><div class="ttdef"><b>Definition:</b> <a href="flash_8h_source.html#l00051">flash.h:51</a></div></div>
-<div class="ttc" id="flash_8h_html_a0f76604d23e55a997cef486d8f93c8f7"><div class="ttname"><a href="flash_8h.html#a0f76604d23e55a997cef486d8f93c8f7">flash_prefetch_enable</a></div><div class="ttdeci">void flash_prefetch_enable(void)</div><div class="ttdef"><b>Definition:</b> <a href="flash_8c_source.html#l00034">flash.c:34</a></div></div>
-<div class="ttc" id="flash_8h_html"><div class="ttname"><a href="flash_8h.html">flash.h</a></div></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * For the STM32L1xx, accessing FLASH memory is described briefly in</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * section 2.3.3 of the STM32L1xx Reference Manual.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * For detailed programming information see:</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> * PM0062 programming manual: STM32L1xxxx Flash and EEPROM programming</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * March 2012, Doc ID 16024 Rev 5</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * LGPL License Terms @ref lgpl_license</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * This file is part of the libopencm3 project.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> * Copyright (C) 2010 Thomas Otto &lt;tommi@viadmin.org&gt;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * Copyright (C) 2010 Mark Butler &lt;mbutler@physics.otago.ac.nz&gt;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * Copyright (C) 2012 Karl Palsson &lt;karlp@tweak.net.au&gt;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * This library is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * it under the terms of the GNU Lesser General Public License as published by</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"> * This library is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment"> * GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"> * You should have received a copy of the GNU Lesser General Public License</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment"> * along with this library.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/**@{*/</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/flash.h&gt;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">/** @brief Enable 64 Bit Programming Mode</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="group__flash__file.html#ga46ea5d4032d7ea65641376eca38202f8">   57</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__flash__defines.html#ga46ea5d4032d7ea65641376eca38202f8">flash_64bit_enable</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="group__flash__defines.html#ga17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> |= <a class="code" href="group__flash__defines.html#gac469106633ce3df56306668ff4da0451">FLASH_ACR_ACC64</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">/** @brief Enable 32 Bit Programming Mode</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">This mode is a low power mode. It must be used at low frequencies and does not</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">allow prefetch or wait states to be used.</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="group__flash__file.html#ga9b6dde9700facc4f5486ba01307d21bf">   69</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__flash__defines.html#ga9b6dde9700facc4f5486ba01307d21bf">flash_64bit_disable</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="group__flash__defines.html#ga17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> &amp;= ~<a class="code" href="group__flash__defines.html#gac469106633ce3df56306668ff4da0451">FLASH_ACR_ACC64</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">/** @brief Enable the FLASH Prefetch Buffer</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">This buffer is used for instruction fetches and is enabled by default after</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">reset.</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">Note carefully the restrictions under which the prefetch buffer may be</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">enabled or disabled. Prefetch is only available when 64-bit</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">access is enabled.</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="group__flash__file.html#ga0f76604d23e55a997cef486d8f93c8f7">   85</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__flash__defines.html#ga0f76604d23e55a997cef486d8f93c8f7">flash_prefetch_enable</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;{</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="group__flash__defines.html#ga17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> |= <a class="code" href="group__flash__defines.html#ga082e7e91fffee86db39676396d01a8e0">FLASH_ACR_PRFTEN</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">/** @brief Disable the FLASH Prefetch Buffer</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">Note carefully the restrictions under which the prefetch buffer may be</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">set to disabled. See the reference and programming manuals for details.</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="group__flash__file.html#ga1b35f387b1aa45b20bccc40456cb33fc">   97</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__flash__defines.html#ga1b35f387b1aa45b20bccc40456cb33fc">flash_prefetch_disable</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="group__flash__defines.html#ga17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> &amp;= ~<a class="code" href="group__flash__defines.html#ga082e7e91fffee86db39676396d01a8e0">FLASH_ACR_PRFTEN</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">/** @brief Set the Number of Wait States</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">Used to match the system clock to the FLASH memory access time. See the</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">programming manual for more information on clock speed and voltage ranges. The</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">latency must be changed to the appropriate value &lt;b&gt;before&lt;/b&gt; any increase in</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">clock speed, or &lt;b&gt;after&lt;/b&gt; any decrease in clock speed. A latency setting of</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">zero only applies if 64-bit mode is not used.</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">@param[in] uint32_t ws: values 0 or 1 only.</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="group__flash__file.html#ga9347b16d27d64b79f507dc9cad8633b2">  114</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(uint32_t ws)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        uint32_t reg32;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        reg32 = <a class="code" href="group__flash__defines.html#ga17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        reg32 &amp;= ~(1 &lt;&lt; 0);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        reg32 |= ws;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="group__flash__defines.html#ga17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a> = reg32;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}<span class="comment"></span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="ttc" id="group__flash__defines_html_gac469106633ce3df56306668ff4da0451"><div class="ttname"><a href="group__flash__defines.html#gac469106633ce3df56306668ff4da0451">FLASH_ACR_ACC64</a></div><div class="ttdeci">#define FLASH_ACR_ACC64</div><div class="ttdef"><b>Definition:</b> <a href="flash_8h_source.html#l00068">flash.h:68</a></div></div>
+<div class="ttc" id="group__flash__defines_html_ga17131472a9863dc9ef3fd97ec5b4dafc"><div class="ttname"><a href="group__flash__defines.html#ga17131472a9863dc9ef3fd97ec5b4dafc">FLASH_ACR</a></div><div class="ttdeci">#define FLASH_ACR</div><div class="ttdef"><b>Definition:</b> <a href="flash_8h_source.html#l00052">flash.h:52</a></div></div>
+<div class="ttc" id="group__flash__defines_html_ga46ea5d4032d7ea65641376eca38202f8"><div class="ttname"><a href="group__flash__defines.html#ga46ea5d4032d7ea65641376eca38202f8">flash_64bit_enable</a></div><div class="ttdeci">void flash_64bit_enable(void)</div><div class="ttdoc">Enable 64 Bit Programming Mode. </div><div class="ttdef"><b>Definition:</b> <a href="flash_8c_source.html#l00057">flash.c:57</a></div></div>
+<div class="ttc" id="group__flash__defines_html_ga0f76604d23e55a997cef486d8f93c8f7"><div class="ttname"><a href="group__flash__defines.html#ga0f76604d23e55a997cef486d8f93c8f7">flash_prefetch_enable</a></div><div class="ttdeci">void flash_prefetch_enable(void)</div><div class="ttdoc">Enable the FLASH Prefetch Buffer. </div><div class="ttdef"><b>Definition:</b> <a href="flash__common__f24_8c_source.html#l00097">flash_common_f24.c:97</a></div></div>
+<div class="ttc" id="group__flash__defines_html_ga082e7e91fffee86db39676396d01a8e0"><div class="ttname"><a href="group__flash__defines.html#ga082e7e91fffee86db39676396d01a8e0">FLASH_ACR_PRFTEN</a></div><div class="ttdeci">#define FLASH_ACR_PRFTEN</div><div class="ttdef"><b>Definition:</b> <a href="flash_8h_source.html#l00069">flash.h:69</a></div></div>
+<div class="ttc" id="group__flash__defines_html_ga9b6dde9700facc4f5486ba01307d21bf"><div class="ttname"><a href="group__flash__defines.html#ga9b6dde9700facc4f5486ba01307d21bf">flash_64bit_disable</a></div><div class="ttdeci">void flash_64bit_disable(void)</div><div class="ttdoc">Enable 32 Bit Programming Mode. </div><div class="ttdef"><b>Definition:</b> <a href="flash_8c_source.html#l00069">flash.c:69</a></div></div>
+<div class="ttc" id="group__flash__defines_html_ga9347b16d27d64b79f507dc9cad8633b2"><div class="ttname"><a href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a></div><div class="ttdeci">void flash_set_ws(uint32_t ws)</div><div class="ttdoc">Set the Number of Wait States. </div><div class="ttdef"><b>Definition:</b> <a href="flash__common__f234_8c_source.html#l00040">flash_common_f234.c:40</a></div></div>
+<div class="ttc" id="group__flash__defines_html_ga1b35f387b1aa45b20bccc40456cb33fc"><div class="ttname"><a href="group__flash__defines.html#ga1b35f387b1aa45b20bccc40456cb33fc">flash_prefetch_disable</a></div><div class="ttdeci">void flash_prefetch_disable(void)</div><div class="ttdoc">Disable the FLASH Prefetch Buffer. </div><div class="ttdef"><b>Definition:</b> <a href="flash__common__f24_8c_source.html#l00109">flash_common_f24.c:109</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_b85f3b2cdb5f62c5704599c879630b7f.html">l1</a></li><li class="navelem"><a class="el" href="flash_8c.html">flash.c</a></li>
-    <li class="footer">Generated on Tue Jan 14 2014 10:21:14 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 15 2014 22:22:00 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

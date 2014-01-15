@@ -29,6 +29,24 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:186: warning: Found unknown command `\parADC'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:146: warning: The following parameters of adc_set_operation_mode(uint32_t adc, enum adc_opmode opmode) are not documented:
   parameter 'opmode'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:152: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_page(uint32_t page_address)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:152: warning: The following parameters of flash_erase_page(uint32_t page_address) are not documented:
+  parameter 'page_address'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:128: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_u16(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:128: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_u16(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:128: warning: The following parameters of flash_program_u16(uint32_t address, uint16_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:100: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_u32(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:100: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_u32(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:100: warning: The following parameters of flash_program_u32(uint32_t address, uint32_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: The following parameters of flash_set_ws(uint32_t ws) are not documented:
+  parameter 'ws'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f0/gpio.h:1: warning: Found unknown command `\list'
@@ -83,6 +101,23 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:493: warning: The following parameters of adc_set_clk_source(uint32_t adc, uint32_t source) are not documented:
   parameter 'source'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:784: warning: unable to resolve reference to `adc_api_channel' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:152: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_page(uint32_t page_address)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:152: warning: The following parameters of flash_erase_page(uint32_t page_address) are not documented:
+  parameter 'page_address'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:128: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_u16(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:128: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_u16(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:128: warning: The following parameters of flash_program_u16(uint32_t address, uint16_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:100: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_u32(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:100: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_u32(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:100: warning: The following parameters of flash_program_u32(uint32_t address, uint32_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: The following parameters of flash_set_ws(uint32_t ws) are not documented:
+  parameter 'ws'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:348: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:319: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:266: warning: explicit link request to 'osc_t' could not be resolved

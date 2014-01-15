@@ -4,6 +4,7 @@ var group__STM32F1xx =
     [ "CRC", "group__crc__file.html", "group__crc__file" ],
     [ "DAC", "group__dac__file.html", "group__dac__file" ],
     [ "DMA", "group__dma__file.html", "group__dma__file" ],
+    [ "FLASH", "group__flash__file.html", "group__flash__file" ],
     [ "GPIO", "group__gpio__file.html", "group__gpio__file" ],
     [ "I2C", "group__i2c__file.html", "group__i2c__file" ],
     [ "IWDG", "group__iwdg__file.html", "group__iwdg__file" ],

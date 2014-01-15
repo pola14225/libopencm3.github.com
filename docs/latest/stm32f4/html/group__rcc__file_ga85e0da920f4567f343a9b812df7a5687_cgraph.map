@@ -1,5 +1,5 @@
 <map id="rcc_clock_setup_hse_3v3" name="rcc_clock_setup_hse_3v3">
-<area shape="rect" id="node3" href="$flash__common__f234_8h.html#a9347b16d27d64b79f507dc9cad8633b2" title="flash_set_ws" alt="" coords="257,5,356,38"/>
+<area shape="rect" id="node3" href="$group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2" title="Set the Number of Wait States. " alt="" coords="257,5,356,38"/>
 <area shape="rect" id="node5" href="$pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60" title="pwr_set_vos_scale" alt="" coords="240,61,373,94"/>
 <area shape="rect" id="node7" href="$group__rcc__file.html#ga89d079556639549018fbd8d66cf5fc20" title="rcc_osc_off" alt="" coords="263,117,351,150"/>
 <area shape="rect" id="node9" href="$group__rcc__file.html#ga81b16ade2e5d6e024f36e3d568a9fd97" title="rcc_osc_on" alt="" coords="263,173,351,206"/>

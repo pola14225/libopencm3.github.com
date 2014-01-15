@@ -6362,40 +6362,39 @@
     <name>flash.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/</path>
     <filename>flash_8c</filename>
-    <includes id="flash_8h" name="flash.h" local="no" imported="no">libopencm3/stm32/l1/flash.h</includes>
     <member kind="function">
       <type>void</type>
       <name>flash_64bit_enable</name>
-      <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a46ea5d4032d7ea65641376eca38202f8</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga46ea5d4032d7ea65641376eca38202f8</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_64bit_disable</name>
-      <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a9b6dde9700facc4f5486ba01307d21bf</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga9b6dde9700facc4f5486ba01307d21bf</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_prefetch_enable</name>
-      <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a0f76604d23e55a997cef486d8f93c8f7</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga0f76604d23e55a997cef486d8f93c8f7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_prefetch_disable</name>
-      <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a1b35f387b1aa45b20bccc40456cb33fc</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga1b35f387b1aa45b20bccc40456cb33fc</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_set_ws</name>
-      <anchorfile>flash_8c.html</anchorfile>
-      <anchor>a9347b16d27d64b79f507dc9cad8633b2</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga9347b16d27d64b79f507dc9cad8633b2</anchor>
       <arglist>(uint32_t ws)</arglist>
     </member>
   </compound>
@@ -6406,456 +6405,456 @@
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a17131472a9863dc9ef3fd97ec5b4dafc</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga17131472a9863dc9ef3fd97ec5b4dafc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a335a0d382354433b56363c3c4ed2cbdb</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga335a0d382354433b56363c3c4ed2cbdb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PDKEYR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a91fce02f91c25bf47c5c8361789de59f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga91fce02f91c25bf47c5c8361789de59f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PEKEYR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a3aece8f057473993619f0e0200e379c8</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3aece8f057473993619f0e0200e379c8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PRGKEYR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a87f41a05033187ec9b835b8834363e5d</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga87f41a05033187ec9b835b8834363e5d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTKEYR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ad6329e3fdd2b67f6f6492ccd5078712f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad6329e3fdd2b67f6f6492ccd5078712f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a2899915141a0fbc7a0c6bfa34e04b2fe</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2899915141a0fbc7a0c6bfa34e04b2fe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a69b9f041a2b3c573904bb99f4568e7a9</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga69b9f041a2b3c573904bb99f4568e7a9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_WRPR1</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a8ae479b233fe32b5f30401f08bb3c347</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga8ae479b233fe32b5f30401f08bb3c347</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_WRPR2</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>aa9be7d66da16578765c0bae8ee1d719d</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa9be7d66da16578765c0bae8ee1d719d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_WRPR3</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a2fb44ca29b996daa1adc960c64524a2e</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2fb44ca29b996daa1adc960c64524a2e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_RUNPD</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a431f36551df45d97afd43bf620060920</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga431f36551df45d97afd43bf620060920</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_SLEEPPD</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>aa09db5d7dd5280b9708f84740a34d1d1</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa09db5d7dd5280b9708f84740a34d1d1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_ACC64</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ac469106633ce3df56306668ff4da0451</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac469106633ce3df56306668ff4da0451</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_PRFTEN</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a082e7e91fffee86db39676396d01a8e0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga082e7e91fffee86db39676396d01a8e0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_0WS</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a936324709ea40109331b76849da2c8b2</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga936324709ea40109331b76849da2c8b2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_1WS</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>aec66af244e6afb5bbf9816d7c76e1621</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaec66af244e6afb5bbf9816d7c76e1621</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_OBL_LAUNCH</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>abf8c586fac8b614a4d175ff5a8b9c99b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gabf8c586fac8b614a4d175ff5a8b9c99b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_ERRIE</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a3b0d22c92f0036684b38aa94bdcf62a1</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3b0d22c92f0036684b38aa94bdcf62a1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_EOPIE</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a3c2cb29eb967e20a8a7fc479f79f79b2</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3c2cb29eb967e20a8a7fc479f79f79b2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_PARALLBANK</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a5102bfaac2fb827781436acee8638257</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5102bfaac2fb827781436acee8638257</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_FPRG</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ab9370b44d7ee96fe73762748a969c383</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab9370b44d7ee96fe73762748a969c383</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_ERASE</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a128efc0f20664bb224c7615c38df0b1e</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga128efc0f20664bb224c7615c38df0b1e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_FTDW</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a96fabb6c304216a854d59ffda3b09051</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga96fabb6c304216a854d59ffda3b09051</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_FTDW</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a96fabb6c304216a854d59ffda3b09051</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga96fabb6c304216a854d59ffda3b09051</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_DATA</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a4f5a8350de3e2f0406e7a579eb3c2130</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4f5a8350de3e2f0406e7a579eb3c2130</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_PROG</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a7851ae5665e63fb1bdf453a6b537037b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7851ae5665e63fb1bdf453a6b537037b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_OPTLOCK</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a3783636399a047352ef5a6d2512fef0b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3783636399a047352ef5a6d2512fef0b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_PRGLOCK</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ae01a7e37d1e2933eb0afbd6cf7e60c0a</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae01a7e37d1e2933eb0afbd6cf7e60c0a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PECR_PELOCK</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a57b9734b1bb6d826db68d77faa16e128</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga57b9734b1bb6d826db68d77faa16e128</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PDKEYR_PDKEY1</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a23d7d4951ac7fa12fdeb88232ac29e0f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga23d7d4951ac7fa12fdeb88232ac29e0f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PDKEYR_PDKEY2</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a0de6f3adc8ccbc92d783374a53e8f79b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0de6f3adc8ccbc92d783374a53e8f79b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PEKEYR_PEKEY1</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a458d459c3d9390199f9845fadb1171e8</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga458d459c3d9390199f9845fadb1171e8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PEKEYR_PEKEY2</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>acbcf4030fbbfff886a5df0774d270acc</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacbcf4030fbbfff886a5df0774d270acc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PRGKEYR_PRGKEY1</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a8ee30b3779f1cc99d7ebcb1b4bd60b38</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga8ee30b3779f1cc99d7ebcb1b4bd60b38</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_PRGKEYR_PRGKEY2</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a0cb3dda332561afc7b415eec1b0bb60a</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0cb3dda332561afc7b415eec1b0bb60a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTKEYR_OPTKEY1</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a5d47f8aae1c9ff6f2ae648ced53b766d</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5d47f8aae1c9ff6f2ae648ced53b766d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTKEYR_OPTKEY2</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a31e86b3c4f0671ce686af6b63a17a5f0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga31e86b3c4f0671ce686af6b63a17a5f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_OPTVERRUSR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a1ea5a1af21c2ba9b6758fa86b17df0a7</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga1ea5a1af21c2ba9b6758fa86b17df0a7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_OPTVERR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a9c4f055b363ae642d291d73a68eb787d</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9c4f055b363ae642d291d73a68eb787d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_SIZEERR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a0a9c224c1c6d7e9a45aabdaf57b3d001</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0a9c224c1c6d7e9a45aabdaf57b3d001</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_PGAERR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ac98c2458e114e7f419f3222673878ce0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac98c2458e114e7f419f3222673878ce0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_WRPERR</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>abf6f52f59b01530928d747cf32bd4d01</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gabf6f52f59b01530928d747cf32bd4d01</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_READY</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a3a9a57932b1be3b873c7629d3c2fef4f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3a9a57932b1be3b873c7629d3c2fef4f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_ENDHV</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ade09361da52e9b32f204c29b9127ccef</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gade09361da52e9b32f204c29b9127ccef</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_EOP</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ae1301c6b487cfefa247c54a576a0c12b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae1301c6b487cfefa247c54a576a0c12b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_BSY</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a4b86181a96fd2f1cc3828e9d8d83d368</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4b86181a96fd2f1cc3828e9d8d83d368</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_BFB2</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>af8df650a29c19a5792097cd14872f31b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaf8df650a29c19a5792097cd14872f31b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_NRST_STDBY</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ab884f32b3e208f2590006fc51ddd3cec</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab884f32b3e208f2590006fc51ddd3cec</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_NRST_STOP</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a26e9bd94a627d57f4d920ef91ecc54f8</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga26e9bd94a627d57f4d920ef91ecc54f8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_IWDG_SW</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>aecbb0d905783c45eedfcc51230f9226b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaecbb0d905783c45eedfcc51230f9226b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_BOR_OFF</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ac7015039dbc91128bd4e5a95580f2345</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac7015039dbc91128bd4e5a95580f2345</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_BOR_LEVEL_1</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>afc13b798334d4482106eccd17c3d9a8d</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gafc13b798334d4482106eccd17c3d9a8d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_BOR_LEVEL_2</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a9e2fc725ac03887c86931c035e547916</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9e2fc725ac03887c86931c035e547916</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_BOR_LEVEL_3</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>acb0cf6af79cda568355bdde222198bfc</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacb0cf6af79cda568355bdde222198bfc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_BOR_LEVEL_4</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>ac73826b566335c49483199c12c171b08</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac73826b566335c49483199c12c171b08</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_BOR_LEVEL_5</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a19a411ac5a8c517d2056e015939251c8</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga19a411ac5a8c517d2056e015939251c8</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_RDPRT_LEVEL_0</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a6743327532b9a90b4407358cf79686e6</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga6743327532b9a90b4407358cf79686e6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_RDPRT_LEVEL_1</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a047d30567c51fa42b2791538572599e0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga047d30567c51fa42b2791538572599e0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OBR_RDPRT_LEVEL_2</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a4e9fb828fae763874908660c49dc805c</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4e9fb828fae763874908660c49dc805c</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_64bit_enable</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a46ea5d4032d7ea65641376eca38202f8</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga46ea5d4032d7ea65641376eca38202f8</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_64bit_disable</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a9b6dde9700facc4f5486ba01307d21bf</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9b6dde9700facc4f5486ba01307d21bf</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_prefetch_enable</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a0f76604d23e55a997cef486d8f93c8f7</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0f76604d23e55a997cef486d8f93c8f7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_prefetch_disable</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a1b35f387b1aa45b20bccc40456cb33fc</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga1b35f387b1aa45b20bccc40456cb33fc</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_set_ws</name>
-      <anchorfile>flash_8h.html</anchorfile>
-      <anchor>a9347b16d27d64b79f507dc9cad8633b2</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9347b16d27d64b79f507dc9cad8633b2</anchor>
       <arglist>(uint32_t ws)</arglist>
     </member>
   </compound>
@@ -6865,51 +6864,44 @@
     <filename>flash__common__f234_8c</filename>
     <member kind="function">
       <type>void</type>
-      <name>flash_set_ws</name>
-      <anchorfile>flash__common__f234_8c.html</anchorfile>
-      <anchor>a9347b16d27d64b79f507dc9cad8633b2</anchor>
-      <arglist>(uint32_t ws)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>flash_unlock</name>
-      <anchorfile>flash__common__f234_8c.html</anchorfile>
-      <anchor>a4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga4da79f8ffb9ed9576ca165e74f496dbe</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_lock</name>
-      <anchorfile>flash__common__f234_8c.html</anchorfile>
-      <anchor>acd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_pgperr_flag</name>
-      <anchorfile>flash__common__f234_8c.html</anchorfile>
-      <anchor>a05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_eop_flag</name>
-      <anchorfile>flash__common__f234_8c.html</anchorfile>
-      <anchor>a824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_bsy_flag</name>
-      <anchorfile>flash__common__f234_8c.html</anchorfile>
-      <anchor>a37dfda93743e7b6285c3d01a7d519001</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga37dfda93743e7b6285c3d01a7d519001</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_wait_for_last_operation</name>
-      <anchorfile>flash__common__f234_8c.html</anchorfile>
-      <anchor>a72ce389bb20296771479ace8cdb62dff</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga72ce389bb20296771479ace8cdb62dff</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -6920,162 +6912,155 @@
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a17131472a9863dc9ef3fd97ec5b4dafc</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga17131472a9863dc9ef3fd97ec5b4dafc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_KEYR</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a2973b6c10e5a02be98c7917ab8d57f6e</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2973b6c10e5a02be98c7917ab8d57f6e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTKEYR</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>ad6329e3fdd2b67f6f6492ccd5078712f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad6329e3fdd2b67f6f6492ccd5078712f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a2899915141a0fbc7a0c6bfa34e04b2fe</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2899915141a0fbc7a0c6bfa34e04b2fe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a900ab18dd1277874aca0524b9a482fe0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga900ab18dd1277874aca0524b9a482fe0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_0WS</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a936324709ea40109331b76849da2c8b2</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga936324709ea40109331b76849da2c8b2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_1WS</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>aec66af244e6afb5bbf9816d7c76e1621</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaec66af244e6afb5bbf9816d7c76e1621</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_2WS</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>ad9b09ca8db6df455d0b8f810f8521257</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad9b09ca8db6df455d0b8f810f8521257</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_3WS</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a3437dcee177845a407919d3b2d9bd063</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3437dcee177845a407919d3b2d9bd063</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_4WS</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>ad3594f2a9e12213efe75cd7df646e1ad</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad3594f2a9e12213efe75cd7df646e1ad</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_5WS</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a67e55ca49f028a701d0c81420a6e2918</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga67e55ca49f028a701d0c81420a6e2918</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_6WS</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a3019ff197b4fd698e9625c9abb67f4be</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3019ff197b4fd698e9625c9abb67f4be</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_LATENCY_7WS</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>aa164c6e6fdfcae274a84dc87ca87b95e</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa164c6e6fdfcae274a84dc87ca87b95e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_KEYR_KEY1</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>af75755c3dd5d4157820e95378ae7bb47</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaf75755c3dd5d4157820e95378ae7bb47</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_KEYR_KEY2</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>acb42e782d41d363a3bc986d45962f2ac</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacb42e782d41d363a3bc986d45962f2ac</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>flash_set_ws</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a9347b16d27d64b79f507dc9cad8633b2</anchor>
-      <arglist>(uint32_t ws)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>flash_unlock</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4da79f8ffb9ed9576ca165e74f496dbe</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_lock</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>acd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_pgperr_flag</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_eop_flag</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_bsy_flag</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a37dfda93743e7b6285c3d01a7d519001</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga37dfda93743e7b6285c3d01a7d519001</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_status_flags</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a8bf42e68b53ee74583675289608dae65</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga8bf42e68b53ee74583675289608dae65</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_wait_for_last_operation</name>
-      <anchorfile>flash__common__f234_8h.html</anchorfile>
-      <anchor>a72ce389bb20296771479ace8cdb62dff</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga72ce389bb20296771479ace8cdb62dff</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -7086,162 +7071,148 @@
     <member kind="function" static="yes">
       <type>static void</type>
       <name>flash_set_program_size</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>abe30bb2a8f268a494d3600c0dfc5406d</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gabe30bb2a8f268a494d3600c0dfc5406d</anchor>
       <arglist>(uint32_t psize)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_dcache_enable</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>ae971613fad94342cea5285e1967a5d37</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gae971613fad94342cea5285e1967a5d37</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_dcache_disable</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>aa2eec070b11319798ae9c2854d459003</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gaa2eec070b11319798ae9c2854d459003</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_icache_enable</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a9d59965c0a87a40026078799f362533f</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga9d59965c0a87a40026078799f362533f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_icache_disable</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a2a73f933c575f521b4cdc6559619ba9c</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_prefetch_enable</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a0f76604d23e55a997cef486d8f93c8f7</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_prefetch_disable</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a1b35f387b1aa45b20bccc40456cb33fc</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga2a73f933c575f521b4cdc6559619ba9c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_dcache_reset</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a25665e20fde09cbadf5f93914e09b81f</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga25665e20fde09cbadf5f93914e09b81f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_icache_reset</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a815a61f826353dcace5efeb0ede3388a</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga815a61f826353dcace5efeb0ede3388a</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_pgserr_flag</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a7b549ad0d946f48af3339b29b5e193cd</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga7b549ad0d946f48af3339b29b5e193cd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_pgaerr_flag</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a77fd96d480e100aef32edb3ec8303bf1</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga77fd96d480e100aef32edb3ec8303bf1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_wrperr_flag</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>aea367649d8d5709137bec03a9a9d2c66</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gaea367649d8d5709137bec03a9a9d2c66</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_status_flags</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a8bf42e68b53ee74583675289608dae65</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga8bf42e68b53ee74583675289608dae65</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_unlock_option_bytes</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_lock_option_bytes</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a3e656c078b282798add1874cd398f1eb</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_double_word</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>ab8f20c93b7162f8a3b672caee01c7e09</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gab8f20c93b7162f8a3b672caee01c7e09</anchor>
       <arglist>(uint32_t address, uint64_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_word</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a73937aa6df8710e95425b165730626a2</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga73937aa6df8710e95425b165730626a2</anchor>
       <arglist>(uint32_t address, uint32_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_half_word</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>af5077b5726c70fa9418db9d73182f89d</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gaf5077b5726c70fa9418db9d73182f89d</anchor>
       <arglist>(uint32_t address, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_byte</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>aecb2ef6a6334477e36fceed302b1ab6d</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gaecb2ef6a6334477e36fceed302b1ab6d</anchor>
       <arglist>(uint32_t address, uint8_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a9149ea4d291a737b89ca7475471806a0</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga9149ea4d291a737b89ca7475471806a0</anchor>
       <arglist>(uint32_t address, uint8_t *data, uint32_t len)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_erase_sector</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>ad49638626fa6ff605563012ef599bb11</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gad49638626fa6ff605563012ef599bb11</anchor>
       <arglist>(uint8_t sector, uint32_t program_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_erase_all_sectors</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a6374518c449cb5f79631be81a818d75b</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga6374518c449cb5f79631be81a818d75b</anchor>
       <arglist>(uint32_t program_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_option_bytes</name>
-      <anchorfile>flash__common__f24_8c.html</anchorfile>
-      <anchor>a06a93b6102d8799e0ed6fe5a6415ffc2</anchor>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga06a93b6102d8799e0ed6fe5a6415ffc2</anchor>
       <arglist>(uint32_t data)</arglist>
     </member>
   </compound>
@@ -7253,477 +7224,463 @@
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>adc6174996523c946b3e06cacae79cc3c</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gadc6174996523c946b3e06cacae79cc3c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_DCRST</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ac53d7c85551a9829014d6027d67ce6c7</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac53d7c85551a9829014d6027d67ce6c7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_ICRST</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a923ff88475799eea9285f77f5383ced5</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga923ff88475799eea9285f77f5383ced5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_DCE</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ae71dc0ac13ad255d45f58ba828d824c3</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae71dc0ac13ad255d45f58ba828d824c3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_ICE</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a62527a6bd02c0ecd1ed1a717783e3144</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga62527a6bd02c0ecd1ed1a717783e3144</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR_PRFTEN</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a082e7e91fffee86db39676396d01a8e0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga082e7e91fffee86db39676396d01a8e0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_BSY</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a4b86181a96fd2f1cc3828e9d8d83d368</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4b86181a96fd2f1cc3828e9d8d83d368</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_PGSERR</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a5d76ad3629a288bee0136b8b34f274f4</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5d76ad3629a288bee0136b8b34f274f4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_PGPERR</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a7fd2704724528be959f82089f67e3869</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7fd2704724528be959f82089f67e3869</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_PGAERR</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ac98c2458e114e7f419f3222673878ce0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac98c2458e114e7f419f3222673878ce0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_WRPERR</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>abf6f52f59b01530928d747cf32bd4d01</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gabf6f52f59b01530928d747cf32bd4d01</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_OPERR</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a572ae889294e816eb130362cdb6193b2</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga572ae889294e816eb130362cdb6193b2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_SR_EOP</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ae1301c6b487cfefa247c54a576a0c12b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae1301c6b487cfefa247c54a576a0c12b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_LOCK</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ab25f1fa4127fa015361b61a6f3180784</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab25f1fa4127fa015361b61a6f3180784</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_ERRIE</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a930897cecdaa9dbef8c640b84acbd8c2</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga930897cecdaa9dbef8c640b84acbd8c2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_EOPIE</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ab9e69856f654ec430a42791a34799db0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab9e69856f654ec430a42791a34799db0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_STRT</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>afe4dd28134f93f52b1d4ec5b36a99864</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gafe4dd28134f93f52b1d4ec5b36a99864</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_MER</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a4a287aa5a625125301306a02fb69c53a</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4a287aa5a625125301306a02fb69c53a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SER</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ae0e561d67b381c4bd8714cd6a9c15f56</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae0e561d67b381c4bd8714cd6a9c15f56</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_PG</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a47754b39bd7a7c79c251d6376f97f661</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga47754b39bd7a7c79c251d6376f97f661</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_0</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>adedf234cb7d56071dd3ab3b83b672867</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gadedf234cb7d56071dd3ab3b83b672867</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_1</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a15dc525a9efdaee6c0a061d0538f795d</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga15dc525a9efdaee6c0a061d0538f795d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_2</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>addb08760505438fd0024425080a0e927</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaddb08760505438fd0024425080a0e927</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_3</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a699f7fcfd12322c64b24eb9defa640ae</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga699f7fcfd12322c64b24eb9defa640ae</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_4</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a7595954633d00d0dd0de89f1fc6cec15</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7595954633d00d0dd0de89f1fc6cec15</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_5</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a0630bac830b41cec535103baaec23ade</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0630bac830b41cec535103baaec23ade</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_6</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a90c6a94631d6e7d4ab593f72a77263f3</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga90c6a94631d6e7d4ab593f72a77263f3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_7</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>aa772f268c3730f61bfb3f1ae367e5361</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa772f268c3730f61bfb3f1ae367e5361</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_8</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a835f27b04317152b7a36d4d051f1ff8b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga835f27b04317152b7a36d4d051f1ff8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_9</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a024ada45db2136b98253a1af26f3398f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga024ada45db2136b98253a1af26f3398f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_10</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ada7673d66a73dab6730d0f028f130f6a</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gada7673d66a73dab6730d0f028f130f6a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_SECTOR_11</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>aecf27a8596e1fcf563521b6dc0590b9a</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaecf27a8596e1fcf563521b6dc0590b9a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_PROGRAM_X8</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>aaf0a4ebd47ab049a59889ff49df78f2b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaaf0a4ebd47ab049a59889ff49df78f2b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_PROGRAM_X16</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a7faf8680e2686755aa1700631efe0992</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7faf8680e2686755aa1700631efe0992</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_PROGRAM_X32</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a8db70fc58d9b2a1ab4af87e99695c171</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga8db70fc58d9b2a1ab4af87e99695c171</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_PROGRAM_X64</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a4a075b9c1833e24b4118bed93488259a</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4a075b9c1833e24b4118bed93488259a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR_NRST_STDBY</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>acae2ad9848bd5c811bd988899967639d</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacae2ad9848bd5c811bd988899967639d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR_NRST_STOP</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>aab1e629da12b65a9680113706c4fe73f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaab1e629da12b65a9680113706c4fe73f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR_WDG_SW</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>af38cbe85e3a2c30dbe6ccb3b3e636504</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaf38cbe85e3a2c30dbe6ccb3b3e636504</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR_OPTSTRT</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a0858d561d4790c86b64a60204a09a3b5</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0858d561d4790c86b64a60204a09a3b5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR_OPTLOCK</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a4c1da080e341fca41ce7f7d661cc4904</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4c1da080e341fca41ce7f7d661cc4904</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR_BOR_LEVEL_3</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>adb28ac9db056214a018edd4876442d6f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gadb28ac9db056214a018edd4876442d6f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR_BOR_LEVEL_2</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a0f8359a3668b000537f9e7345366afc0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0f8359a3668b000537f9e7345366afc0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR_BOR_LEVEL_1</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a666c091085887d5b78224c2d424fed49</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga666c091085887d5b78224c2d424fed49</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTCR_BOR_OFF</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a4a1325bddcedb37a6e53f0afb9892dc2</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4a1325bddcedb37a6e53f0afb9892dc2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTKEYR_KEY1</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a37187229a1f7a071cfcb3ad0cf96da04</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga37187229a1f7a071cfcb3ad0cf96da04</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_OPTKEYR_KEY2</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a3da5a5a5a0b14a789b1d5c2fb26989fd</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3da5a5a5a0b14a789b1d5c2fb26989fd</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_unlock_option_bytes</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_lock_option_bytes</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a3e656c078b282798add1874cd398f1eb</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_pgserr_flag</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a7b549ad0d946f48af3339b29b5e193cd</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7b549ad0d946f48af3339b29b5e193cd</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_wrperr_flag</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>aea367649d8d5709137bec03a9a9d2c66</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaea367649d8d5709137bec03a9a9d2c66</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_clear_pgaerr_flag</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a77fd96d480e100aef32edb3ec8303bf1</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga77fd96d480e100aef32edb3ec8303bf1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_dcache_enable</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ae971613fad94342cea5285e1967a5d37</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae971613fad94342cea5285e1967a5d37</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_dcache_disable</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>aa2eec070b11319798ae9c2854d459003</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa2eec070b11319798ae9c2854d459003</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_icache_enable</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a9d59965c0a87a40026078799f362533f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9d59965c0a87a40026078799f362533f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_icache_disable</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a2a73f933c575f521b4cdc6559619ba9c</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_prefetch_enable</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a0f76604d23e55a997cef486d8f93c8f7</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_prefetch_disable</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a1b35f387b1aa45b20bccc40456cb33fc</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2a73f933c575f521b4cdc6559619ba9c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_dcache_reset</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a25665e20fde09cbadf5f93914e09b81f</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga25665e20fde09cbadf5f93914e09b81f</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_icache_reset</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a815a61f826353dcace5efeb0ede3388a</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga815a61f826353dcace5efeb0ede3388a</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_erase_all_sectors</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a6374518c449cb5f79631be81a818d75b</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga6374518c449cb5f79631be81a818d75b</anchor>
       <arglist>(uint32_t program_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_erase_sector</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ad49638626fa6ff605563012ef599bb11</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad49638626fa6ff605563012ef599bb11</anchor>
       <arglist>(uint8_t sector, uint32_t program_size)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_double_word</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>ab8f20c93b7162f8a3b672caee01c7e09</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab8f20c93b7162f8a3b672caee01c7e09</anchor>
       <arglist>(uint32_t address, uint64_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_word</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a73937aa6df8710e95425b165730626a2</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga73937aa6df8710e95425b165730626a2</anchor>
       <arglist>(uint32_t address, uint32_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_half_word</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>af5077b5726c70fa9418db9d73182f89d</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaf5077b5726c70fa9418db9d73182f89d</anchor>
       <arglist>(uint32_t address, uint16_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_byte</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>aecb2ef6a6334477e36fceed302b1ab6d</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaecb2ef6a6334477e36fceed302b1ab6d</anchor>
       <arglist>(uint32_t address, uint8_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a9149ea4d291a737b89ca7475471806a0</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9149ea4d291a737b89ca7475471806a0</anchor>
       <arglist>(uint32_t address, uint8_t *data, uint32_t len)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>flash_program_option_bytes</name>
-      <anchorfile>flash__common__f24_8h.html</anchorfile>
-      <anchor>a06a93b6102d8799e0ed6fe5a6415ffc2</anchor>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga06a93b6102d8799e0ed6fe5a6415ffc2</anchor>
       <arglist>(uint32_t data)</arglist>
     </member>
   </compound>
@@ -25467,6 +25424,7 @@
     <subgroup>crc_file</subgroup>
     <subgroup>dac_file</subgroup>
     <subgroup>dma_file</subgroup>
+    <subgroup>flash_file</subgroup>
     <subgroup>gpio_file</subgroup>
     <subgroup>i2c_file</subgroup>
     <subgroup>iwdg_file</subgroup>
@@ -25483,6 +25441,7 @@
     <subgroup>crc_defines</subgroup>
     <subgroup>dac_defines</subgroup>
     <subgroup>STM32L1xx_dma_defines</subgroup>
+    <subgroup>flash_defines</subgroup>
     <subgroup>gpio_defines</subgroup>
     <subgroup>i2c_defines</subgroup>
     <subgroup>iwdg_defines</subgroup>
@@ -25492,6 +25451,1082 @@
     <subgroup>spi_defines</subgroup>
     <subgroup>timer_defines</subgroup>
     <subgroup>usart_defines</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>flash_defines</name>
+    <title>FLASH Defines</title>
+    <filename>group__flash__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga17131472a9863dc9ef3fd97ec5b4dafc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga335a0d382354433b56363c3c4ed2cbdb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PDKEYR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga91fce02f91c25bf47c5c8361789de59f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PEKEYR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3aece8f057473993619f0e0200e379c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PRGKEYR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga87f41a05033187ec9b835b8834363e5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTKEYR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad6329e3fdd2b67f6f6492ccd5078712f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2899915141a0fbc7a0c6bfa34e04b2fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga69b9f041a2b3c573904bb99f4568e7a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_WRPR1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga8ae479b233fe32b5f30401f08bb3c347</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_WRPR2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa9be7d66da16578765c0bae8ee1d719d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_WRPR3</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2fb44ca29b996daa1adc960c64524a2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_RUNPD</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga431f36551df45d97afd43bf620060920</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_SLEEPPD</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa09db5d7dd5280b9708f84740a34d1d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_ACC64</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac469106633ce3df56306668ff4da0451</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_PRFTEN</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga082e7e91fffee86db39676396d01a8e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_0WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga936324709ea40109331b76849da2c8b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_1WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaec66af244e6afb5bbf9816d7c76e1621</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_OBL_LAUNCH</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gabf8c586fac8b614a4d175ff5a8b9c99b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_ERRIE</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3b0d22c92f0036684b38aa94bdcf62a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_EOPIE</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3c2cb29eb967e20a8a7fc479f79f79b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_PARALLBANK</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5102bfaac2fb827781436acee8638257</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_FPRG</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab9370b44d7ee96fe73762748a969c383</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_ERASE</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga128efc0f20664bb224c7615c38df0b1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_FTDW</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga96fabb6c304216a854d59ffda3b09051</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_FTDW</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga96fabb6c304216a854d59ffda3b09051</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_DATA</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4f5a8350de3e2f0406e7a579eb3c2130</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_PROG</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7851ae5665e63fb1bdf453a6b537037b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_OPTLOCK</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3783636399a047352ef5a6d2512fef0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_PRGLOCK</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae01a7e37d1e2933eb0afbd6cf7e60c0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PECR_PELOCK</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga57b9734b1bb6d826db68d77faa16e128</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PDKEYR_PDKEY1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga23d7d4951ac7fa12fdeb88232ac29e0f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PDKEYR_PDKEY2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0de6f3adc8ccbc92d783374a53e8f79b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PEKEYR_PEKEY1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga458d459c3d9390199f9845fadb1171e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PEKEYR_PEKEY2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacbcf4030fbbfff886a5df0774d270acc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PRGKEYR_PRGKEY1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga8ee30b3779f1cc99d7ebcb1b4bd60b38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_PRGKEYR_PRGKEY2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0cb3dda332561afc7b415eec1b0bb60a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTKEYR_OPTKEY1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5d47f8aae1c9ff6f2ae648ced53b766d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTKEYR_OPTKEY2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga31e86b3c4f0671ce686af6b63a17a5f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_OPTVERRUSR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga1ea5a1af21c2ba9b6758fa86b17df0a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_OPTVERR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9c4f055b363ae642d291d73a68eb787d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_SIZEERR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0a9c224c1c6d7e9a45aabdaf57b3d001</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_PGAERR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac98c2458e114e7f419f3222673878ce0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_WRPERR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gabf6f52f59b01530928d747cf32bd4d01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_READY</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3a9a57932b1be3b873c7629d3c2fef4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_ENDHV</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gade09361da52e9b32f204c29b9127ccef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_EOP</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae1301c6b487cfefa247c54a576a0c12b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_BSY</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4b86181a96fd2f1cc3828e9d8d83d368</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_BFB2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaf8df650a29c19a5792097cd14872f31b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_NRST_STDBY</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab884f32b3e208f2590006fc51ddd3cec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_NRST_STOP</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga26e9bd94a627d57f4d920ef91ecc54f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_IWDG_SW</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaecbb0d905783c45eedfcc51230f9226b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_BOR_OFF</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac7015039dbc91128bd4e5a95580f2345</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_BOR_LEVEL_1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gafc13b798334d4482106eccd17c3d9a8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_BOR_LEVEL_2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9e2fc725ac03887c86931c035e547916</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_BOR_LEVEL_3</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacb0cf6af79cda568355bdde222198bfc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_BOR_LEVEL_4</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac73826b566335c49483199c12c171b08</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_BOR_LEVEL_5</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga19a411ac5a8c517d2056e015939251c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_RDPRT_LEVEL_0</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga6743327532b9a90b4407358cf79686e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_RDPRT_LEVEL_1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga047d30567c51fa42b2791538572599e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_RDPRT_LEVEL_2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4e9fb828fae763874908660c49dc805c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga17131472a9863dc9ef3fd97ec5b4dafc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_KEYR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2973b6c10e5a02be98c7917ab8d57f6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTKEYR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad6329e3fdd2b67f6f6492ccd5078712f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2899915141a0fbc7a0c6bfa34e04b2fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga900ab18dd1277874aca0524b9a482fe0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_0WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga936324709ea40109331b76849da2c8b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_1WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaec66af244e6afb5bbf9816d7c76e1621</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_2WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad9b09ca8db6df455d0b8f810f8521257</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_3WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3437dcee177845a407919d3b2d9bd063</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_4WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad3594f2a9e12213efe75cd7df646e1ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_5WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga67e55ca49f028a701d0c81420a6e2918</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_6WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3019ff197b4fd698e9625c9abb67f4be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_LATENCY_7WS</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa164c6e6fdfcae274a84dc87ca87b95e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_KEYR_KEY1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaf75755c3dd5d4157820e95378ae7bb47</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_KEYR_KEY2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacb42e782d41d363a3bc986d45962f2ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gadc6174996523c946b3e06cacae79cc3c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_DCRST</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac53d7c85551a9829014d6027d67ce6c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_ICRST</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga923ff88475799eea9285f77f5383ced5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_DCE</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae71dc0ac13ad255d45f58ba828d824c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_ICE</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga62527a6bd02c0ecd1ed1a717783e3144</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_ACR_PRFTEN</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga082e7e91fffee86db39676396d01a8e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_BSY</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4b86181a96fd2f1cc3828e9d8d83d368</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_PGSERR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5d76ad3629a288bee0136b8b34f274f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_PGPERR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7fd2704724528be959f82089f67e3869</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_PGAERR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gac98c2458e114e7f419f3222673878ce0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_WRPERR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gabf6f52f59b01530928d747cf32bd4d01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_OPERR</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga572ae889294e816eb130362cdb6193b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_SR_EOP</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae1301c6b487cfefa247c54a576a0c12b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_LOCK</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab25f1fa4127fa015361b61a6f3180784</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_ERRIE</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga930897cecdaa9dbef8c640b84acbd8c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_EOPIE</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab9e69856f654ec430a42791a34799db0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_STRT</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gafe4dd28134f93f52b1d4ec5b36a99864</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_MER</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4a287aa5a625125301306a02fb69c53a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SER</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae0e561d67b381c4bd8714cd6a9c15f56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PG</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga47754b39bd7a7c79c251d6376f97f661</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_0</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gadedf234cb7d56071dd3ab3b83b672867</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga15dc525a9efdaee6c0a061d0538f795d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaddb08760505438fd0024425080a0e927</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_3</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga699f7fcfd12322c64b24eb9defa640ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_4</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7595954633d00d0dd0de89f1fc6cec15</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_5</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0630bac830b41cec535103baaec23ade</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_6</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga90c6a94631d6e7d4ab593f72a77263f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_7</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa772f268c3730f61bfb3f1ae367e5361</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_8</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga835f27b04317152b7a36d4d051f1ff8b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_9</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga024ada45db2136b98253a1af26f3398f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_10</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gada7673d66a73dab6730d0f028f130f6a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_SECTOR_11</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaecf27a8596e1fcf563521b6dc0590b9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_X8</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaaf0a4ebd47ab049a59889ff49df78f2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_X16</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7faf8680e2686755aa1700631efe0992</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_X32</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga8db70fc58d9b2a1ab4af87e99695c171</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_X64</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4a075b9c1833e24b4118bed93488259a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR_NRST_STDBY</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacae2ad9848bd5c811bd988899967639d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR_NRST_STOP</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaab1e629da12b65a9680113706c4fe73f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR_WDG_SW</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaf38cbe85e3a2c30dbe6ccb3b3e636504</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR_OPTSTRT</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0858d561d4790c86b64a60204a09a3b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR_OPTLOCK</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4c1da080e341fca41ce7f7d661cc4904</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR_BOR_LEVEL_3</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gadb28ac9db056214a018edd4876442d6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR_BOR_LEVEL_2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0f8359a3668b000537f9e7345366afc0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR_BOR_LEVEL_1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga666c091085887d5b78224c2d424fed49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR_BOR_OFF</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4a1325bddcedb37a6e53f0afb9892dc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTKEYR_KEY1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga37187229a1f7a071cfcb3ad0cf96da04</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTKEYR_KEY2</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3da5a5a5a0b14a789b1d5c2fb26989fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_64bit_enable</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga46ea5d4032d7ea65641376eca38202f8</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_64bit_disable</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9b6dde9700facc4f5486ba01307d21bf</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_enable</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0f76604d23e55a997cef486d8f93c8f7</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_disable</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga1b35f387b1aa45b20bccc40456cb33fc</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_set_ws</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9347b16d27d64b79f507dc9cad8633b2</anchor>
+      <arglist>(uint32_t ws)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgperr_flag</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_eop_flag</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_bsy_flag</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga37dfda93743e7b6285c3d01a7d519001</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_status_flags</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga8bf42e68b53ee74583675289608dae65</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_wait_for_last_operation</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga72ce389bb20296771479ace8cdb62dff</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_option_bytes</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_option_bytes</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgserr_flag</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga7b549ad0d946f48af3339b29b5e193cd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_wrperr_flag</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaea367649d8d5709137bec03a9a9d2c66</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgaerr_flag</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga77fd96d480e100aef32edb3ec8303bf1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_enable</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae971613fad94342cea5285e1967a5d37</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_disable</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaa2eec070b11319798ae9c2854d459003</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_enable</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9d59965c0a87a40026078799f362533f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_disable</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2a73f933c575f521b4cdc6559619ba9c</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_reset</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga25665e20fde09cbadf5f93914e09b81f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_reset</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga815a61f826353dcace5efeb0ede3388a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_erase_all_sectors</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga6374518c449cb5f79631be81a818d75b</anchor>
+      <arglist>(uint32_t program_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_erase_sector</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gad49638626fa6ff605563012ef599bb11</anchor>
+      <arglist>(uint8_t sector, uint32_t program_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_double_word</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gab8f20c93b7162f8a3b672caee01c7e09</anchor>
+      <arglist>(uint32_t address, uint64_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_word</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga73937aa6df8710e95425b165730626a2</anchor>
+      <arglist>(uint32_t address, uint32_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_half_word</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaf5077b5726c70fa9418db9d73182f89d</anchor>
+      <arglist>(uint32_t address, uint16_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_byte</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gaecb2ef6a6334477e36fceed302b1ab6d</anchor>
+      <arglist>(uint32_t address, uint8_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9149ea4d291a737b89ca7475471806a0</anchor>
+      <arglist>(uint32_t address, uint8_t *data, uint32_t len)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_option_bytes</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga06a93b6102d8799e0ed6fe5a6415ffc2</anchor>
+      <arglist>(uint32_t data)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>gpio_defines</name>
@@ -41844,6 +42879,235 @@
       <anchorfile>group__dma__file.html</anchorfile>
       <anchor>ga6a414141caca0417be5def3b1c8e661a</anchor>
       <arglist>(uint32_t dma, uint8_t channel)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>flash_file</name>
+    <title>FLASH</title>
+    <filename>group__flash__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_64bit_enable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga46ea5d4032d7ea65641376eca38202f8</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_64bit_disable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga9b6dde9700facc4f5486ba01307d21bf</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_enable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga0f76604d23e55a997cef486d8f93c8f7</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_disable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga1b35f387b1aa45b20bccc40456cb33fc</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_set_ws</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga9347b16d27d64b79f507dc9cad8633b2</anchor>
+      <arglist>(uint32_t ws)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgperr_flag</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_eop_flag</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga824b51d54d30e1ab5e3c47f4bc8b3031</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_bsy_flag</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga37dfda93743e7b6285c3d01a7d519001</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_wait_for_last_operation</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga72ce389bb20296771479ace8cdb62dff</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>flash_set_program_size</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gabe30bb2a8f268a494d3600c0dfc5406d</anchor>
+      <arglist>(uint32_t psize)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_enable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gae971613fad94342cea5285e1967a5d37</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_disable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gaa2eec070b11319798ae9c2854d459003</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_enable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga9d59965c0a87a40026078799f362533f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_disable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga2a73f933c575f521b4cdc6559619ba9c</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_dcache_reset</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga25665e20fde09cbadf5f93914e09b81f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_icache_reset</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga815a61f826353dcace5efeb0ede3388a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgserr_flag</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga7b549ad0d946f48af3339b29b5e193cd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_pgaerr_flag</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga77fd96d480e100aef32edb3ec8303bf1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_wrperr_flag</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gaea367649d8d5709137bec03a9a9d2c66</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_clear_status_flags</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga8bf42e68b53ee74583675289608dae65</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_option_bytes</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_option_bytes</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_double_word</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gab8f20c93b7162f8a3b672caee01c7e09</anchor>
+      <arglist>(uint32_t address, uint64_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_word</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga73937aa6df8710e95425b165730626a2</anchor>
+      <arglist>(uint32_t address, uint32_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_half_word</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gaf5077b5726c70fa9418db9d73182f89d</anchor>
+      <arglist>(uint32_t address, uint16_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_byte</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gaecb2ef6a6334477e36fceed302b1ab6d</anchor>
+      <arglist>(uint32_t address, uint8_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga9149ea4d291a737b89ca7475471806a0</anchor>
+      <arglist>(uint32_t address, uint8_t *data, uint32_t len)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_erase_sector</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gad49638626fa6ff605563012ef599bb11</anchor>
+      <arglist>(uint8_t sector, uint32_t program_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_erase_all_sectors</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga6374518c449cb5f79631be81a818d75b</anchor>
+      <arglist>(uint32_t program_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_program_option_bytes</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga06a93b6102d8799e0ed6fe5a6415ffc2</anchor>
+      <arglist>(uint32_t data)</arglist>
     </member>
   </compound>
   <compound kind="group">
