@@ -39,5 +39,18 @@ var group__usb__cdc__defines =
       [ "wLength", "structusb__cdc__notification.html#a9fa99e9c9fd2abd8c3bc5fbcb04b290b", null ],
       [ "wValue", "structusb__cdc__notification.html#aefff96f443fd9d7ca49a897a9303d647", null ]
     ] ],
-    [ "__attribute__", "group__usb__cdc__defines.html#gab6677e82689abb017cf4e5590b1305fa", null ]
+    [ "usb_cdc_line_coding_bCharFormat", "group__usb__cdc__defines.html#ga7edb29528e9dcced43aaca511dbd9bc2", [
+      [ "USB_CDC_1_STOP_BITS", "group__usb__cdc__defines.html#gga7edb29528e9dcced43aaca511dbd9bc2a20790d5ae5573b13e38a5848ed4f8437", null ],
+      [ "USB_CDC_1_5_STOP_BITS", "group__usb__cdc__defines.html#gga7edb29528e9dcced43aaca511dbd9bc2a528bc870457b07f3e1df4f54b89aef77", null ],
+      [ "USB_CDC_2_STOP_BITS", "group__usb__cdc__defines.html#gga7edb29528e9dcced43aaca511dbd9bc2a88105b55058eb7b4e1a22f0e442801b9", null ]
+    ] ],
+    [ "usb_cdc_line_coding_bParityType", "group__usb__cdc__defines.html#ga0cabe0e00dd7200ff5e90f0119fbf66f", [
+      [ "USB_CDC_NO_PARITY", "group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa84dcd5abce5bd2c699749b70511bf95a", null ],
+      [ "USB_CDC_ODD_PARITY", "group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa2c2ea42ec25ac66d613f57416fa4b35d", null ],
+      [ "USB_CDC_EVEN_PARITY", "group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa1a69931078ca04ed352f2a850f42ba63", null ],
+      [ "USB_CDC_MARK_PARITY", "group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa3ce606e8526fd03fef527027bb28b160", null ],
+      [ "USB_CDC_SPACE_PARITY", "group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa4ff36fa9da45d9cbcbc10638e23a32dc", null ]
+    ] ],
+    [ "__attribute__", "group__usb__cdc__defines.html#gab6677e82689abb017cf4e5590b1305fa", null ],
+    [ "__attribute__", "group__usb__cdc__defines.html#ga4d78e80f3bfe9cf800b0d82933262813", null ]
 ];

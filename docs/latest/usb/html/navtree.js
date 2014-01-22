@@ -48,8 +48,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"struct__usbd__device.html#a31aa3066c781bc3d588f1e4b0f1998fc",
-"usb__fx07__common_8h.html#a4f8070cf295dc3c253c384724b9971d6"
+"group__usb__type__defines.html#gaca86007d66ae94421fd4f93c0b96b04a",
+"usb__f107_8c.html#ga5adac4ccb88c72946fa692670d0bfc16"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

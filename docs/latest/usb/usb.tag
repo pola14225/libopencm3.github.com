@@ -10,6 +10,76 @@
     <class kind="struct">usb_cdc_acm_descriptor</class>
     <class kind="struct">usb_cdc_line_coding</class>
     <class kind="struct">usb_cdc_notification</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>usb_cdc_line_coding_bCharFormat</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>ga7edb29528e9dcced43aaca511dbd9bc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_1_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a20790d5ae5573b13e38a5848ed4f8437</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_1_5_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a528bc870457b07f3e1df4f54b89aef77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_2_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a88105b55058eb7b4e1a22f0e442801b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>usb_cdc_line_coding_bParityType</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>ga0cabe0e00dd7200ff5e90f0119fbf66f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_NO_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa84dcd5abce5bd2c699749b70511bf95a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_ODD_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa2c2ea42ec25ac66d613f57416fa4b35d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_EVEN_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa1a69931078ca04ed352f2a850f42ba63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_MARK_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa3ce606e8526fd03fef527027bb28b160</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_SPACE_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa4ff36fa9da45d9cbcbc10638e23a32dc</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>struct usb_cdc_header_descriptor</type>
       <name>__attribute__</name>
@@ -99,6 +169,13 @@
       <name>bDataBits</name>
       <anchorfile>cdc_8h.html</anchorfile>
       <anchor>aeb01baccbd5328de664ba39a4c295941</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>enum usb_cdc_line_coding_bCharFormat</type>
+      <name>__attribute__</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>ga4d78e80f3bfe9cf800b0d82933262813</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -412,7 +489,7 @@
       <type>enum dfu_req</type>
       <name>__attribute__</name>
       <anchorfile>group__usb__dfu__defines.html</anchorfile>
-      <anchor>ga4d78e80f3bfe9cf800b0d82933262813</anchor>
+      <anchor>gafab3ce003dc4e9015c96f17748178a0f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -1825,12 +1902,89 @@
     <class kind="struct">usb_cdc_acm_descriptor</class>
     <class kind="struct">usb_cdc_line_coding</class>
     <class kind="struct">usb_cdc_notification</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>usb_cdc_line_coding_bCharFormat</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>ga7edb29528e9dcced43aaca511dbd9bc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_1_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a20790d5ae5573b13e38a5848ed4f8437</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_1_5_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a528bc870457b07f3e1df4f54b89aef77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_2_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a88105b55058eb7b4e1a22f0e442801b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>usb_cdc_line_coding_bParityType</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>ga0cabe0e00dd7200ff5e90f0119fbf66f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_NO_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa84dcd5abce5bd2c699749b70511bf95a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_ODD_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa2c2ea42ec25ac66d613f57416fa4b35d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_EVEN_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa1a69931078ca04ed352f2a850f42ba63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_MARK_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa3ce606e8526fd03fef527027bb28b160</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>USB_CDC_SPACE_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa4ff36fa9da45d9cbcbc10638e23a32dc</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>struct usb_cdc_header_descriptor</type>
       <name>__attribute__</name>
       <anchorfile>group__usb__cdc__defines.html</anchorfile>
       <anchor>gab6677e82689abb017cf4e5590b1305fa</anchor>
       <arglist>((packed))</arglist>
+    </member>
+    <member kind="variable">
+      <type>enum usb_cdc_line_coding_bCharFormat</type>
+      <name>__attribute__</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>ga4d78e80f3bfe9cf800b0d82933262813</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -2108,7 +2262,7 @@
       <type>enum dfu_req</type>
       <name>__attribute__</name>
       <anchorfile>group__usb__dfu__defines.html</anchorfile>
-      <anchor>ga4d78e80f3bfe9cf800b0d82933262813</anchor>
+      <anchor>gafab3ce003dc4e9015c96f17748178a0f</anchor>
       <arglist></arglist>
     </member>
   </compound>

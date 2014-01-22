@@ -116,7 +116,9 @@ $(document).ready(function(){initNavTree('group__usb__cdc__defines.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">USB CDC Type Definitions<div class="ingroups"><a class="el" href="group__USB__defines.html">Generic USB Defines</a></div></div>  </div>
 </div><!--header-->
@@ -148,10 +150,34 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structusb__cdc__notification.html">usb_cdc_notification</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga7edb29528e9dcced43aaca511dbd9bc2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__cdc__defines.html#ga7edb29528e9dcced43aaca511dbd9bc2">usb_cdc_line_coding_bCharFormat</a> { <a class="el" href="group__usb__cdc__defines.html#gga7edb29528e9dcced43aaca511dbd9bc2a20790d5ae5573b13e38a5848ed4f8437">USB_CDC_1_STOP_BITS</a> = 0, 
+<a class="el" href="group__usb__cdc__defines.html#gga7edb29528e9dcced43aaca511dbd9bc2a528bc870457b07f3e1df4f54b89aef77">USB_CDC_1_5_STOP_BITS</a> = 1, 
+<a class="el" href="group__usb__cdc__defines.html#gga7edb29528e9dcced43aaca511dbd9bc2a88105b55058eb7b4e1a22f0e442801b9">USB_CDC_2_STOP_BITS</a> = 2
+ }</td></tr>
+<tr class="separator:ga7edb29528e9dcced43aaca511dbd9bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0cabe0e00dd7200ff5e90f0119fbf66f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__cdc__defines.html#ga0cabe0e00dd7200ff5e90f0119fbf66f">usb_cdc_line_coding_bParityType</a> { <br/>
+&#160;&#160;<a class="el" href="group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa84dcd5abce5bd2c699749b70511bf95a">USB_CDC_NO_PARITY</a> = 0, 
+<a class="el" href="group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa2c2ea42ec25ac66d613f57416fa4b35d">USB_CDC_ODD_PARITY</a> = 1, 
+<a class="el" href="group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa1a69931078ca04ed352f2a850f42ba63">USB_CDC_EVEN_PARITY</a> = 2, 
+<a class="el" href="group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa3ce606e8526fd03fef527027bb28b160">USB_CDC_MARK_PARITY</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa4ff36fa9da45d9cbcbc10638e23a32dc">USB_CDC_SPACE_PARITY</a> = 4
+<br/>
+ }</td></tr>
+<tr class="separator:ga0cabe0e00dd7200ff5e90f0119fbf66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gab6677e82689abb017cf4e5590b1305fa"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structusb__cdc__header__descriptor.html">usb_cdc_header_descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__cdc__defines.html#gab6677e82689abb017cf4e5590b1305fa">__attribute__</a> ((packed))</td></tr>
 <tr class="separator:gab6677e82689abb017cf4e5590b1305fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga4d78e80f3bfe9cf800b0d82933262813"><td class="memItemLeft" align="right" valign="top">enum <br class="typebreak"/>
+<a class="el" href="group__usb__cdc__defines.html#ga7edb29528e9dcced43aaca511dbd9bc2">usb_cdc_line_coding_bCharFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__cdc__defines.html#ga4d78e80f3bfe9cf800b0d82933262813">__attribute__</a></td></tr>
+<tr class="separator:ga4d78e80f3bfe9cf800b0d82933262813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>Defined Constants and Types for the USB CDC Type Definitions</b> </p>
@@ -159,6 +185,55 @@ Functions</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2010 Gareth McMullin <a href="#" onclick="location.href='mai'+'lto:'+'gar'+'et'+'h@b'+'la'+'cks'+'ph'+'ere'+'.c'+'o.n'+'z'; return false;">garet<span style="display: none;">.nosp@m.</span>h@bl<span style="display: none;">.nosp@m.</span>acksp<span style="display: none;">.nosp@m.</span>here<span style="display: none;">.nosp@m.</span>.co.n<span style="display: none;">.nosp@m.</span>z</a></dd></dl>
 <dl class="section date"><dt>Date</dt><dd>10 March 2013</dd></dl>
 <p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ga7edb29528e9dcced43aaca511dbd9bc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__usb__cdc__defines.html#ga7edb29528e9dcced43aaca511dbd9bc2">usb_cdc_line_coding_bCharFormat</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga7edb29528e9dcced43aaca511dbd9bc2a20790d5ae5573b13e38a5848ed4f8437"></a>USB_CDC_1_STOP_BITS</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7edb29528e9dcced43aaca511dbd9bc2a528bc870457b07f3e1df4f54b89aef77"></a>USB_CDC_1_5_STOP_BITS</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7edb29528e9dcced43aaca511dbd9bc2a88105b55058eb7b4e1a22f0e442801b9"></a>USB_CDC_2_STOP_BITS</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="cdc_8h_source.html#l00131">131</a> of file <a class="el" href="cdc_8h_source.html">cdc.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga0cabe0e00dd7200ff5e90f0119fbf66f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__usb__cdc__defines.html#ga0cabe0e00dd7200ff5e90f0119fbf66f">usb_cdc_line_coding_bParityType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga0cabe0e00dd7200ff5e90f0119fbf66fa84dcd5abce5bd2c699749b70511bf95a"></a>USB_CDC_NO_PARITY</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga0cabe0e00dd7200ff5e90f0119fbf66fa2c2ea42ec25ac66d613f57416fa4b35d"></a>USB_CDC_ODD_PARITY</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga0cabe0e00dd7200ff5e90f0119fbf66fa1a69931078ca04ed352f2a850f42ba63"></a>USB_CDC_EVEN_PARITY</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga0cabe0e00dd7200ff5e90f0119fbf66fa3ce606e8526fd03fef527027bb28b160"></a>USB_CDC_MARK_PARITY</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga0cabe0e00dd7200ff5e90f0119fbf66fa4ff36fa9da45d9cbcbc10638e23a32dc"></a>USB_CDC_SPACE_PARITY</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="cdc_8h_source.html#l00137">137</a> of file <a class="el" href="cdc_8h_source.html">cdc.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gab6677e82689abb017cf4e5590b1305fa"></a>
 <div class="memitem">
@@ -176,12 +251,25 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ga4d78e80f3bfe9cf800b0d82933262813"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structusb__iface__assoc__descriptor.html">usb_iface_assoc_descriptor</a> __attribute__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 15 2014 23:21:16 for libopencm3 by
+    <li class="footer">Generated on Wed Jan 22 2014 22:21:16 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

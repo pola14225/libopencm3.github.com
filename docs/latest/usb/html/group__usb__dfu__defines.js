@@ -49,5 +49,5 @@ var group__usb__dfu__defines =
       [ "DFU_STATUS_ERR_STALLEDPKT", "group__usb__dfu__defines.html#ggabcf2757cf1c6281a06a8a6f25ff2aa31a8d963dfec7ec03c538c5a38944f63fe3", null ]
     ] ],
     [ "__attribute__", "group__usb__dfu__defines.html#ga53297a7dd343d62a8a8efde4909b3248", null ],
-    [ "__attribute__", "group__usb__dfu__defines.html#ga4d78e80f3bfe9cf800b0d82933262813", null ]
+    [ "__attribute__", "group__usb__dfu__defines.html#gafab3ce003dc4e9015c96f17748178a0f", null ]
 ];

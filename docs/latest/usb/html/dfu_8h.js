@@ -41,7 +41,7 @@ var dfu_8h =
       [ "DFU_STATUS_ERR_STALLEDPKT", "dfu_8h.html#ggabcf2757cf1c6281a06a8a6f25ff2aa31a8d963dfec7ec03c538c5a38944f63fe3", null ]
     ] ],
     [ "__attribute__", "dfu_8h.html#ga53297a7dd343d62a8a8efde4909b3248", null ],
-    [ "__attribute__", "dfu_8h.html#ga4d78e80f3bfe9cf800b0d82933262813", null ],
+    [ "__attribute__", "dfu_8h.html#gafab3ce003dc4e9015c96f17748178a0f", null ],
     [ "bcdDFUVersion", "dfu_8h.html#a7e5857b7c9ed4541e1c7283c2d3f44af", null ],
     [ "bDescriptorType", "dfu_8h.html#a67d7027b9eb9ed268d28e84fbc675707", null ],
     [ "bLength", "dfu_8h.html#a1deca1f1d6e5815b290e6e1015bce5b8", null ],
