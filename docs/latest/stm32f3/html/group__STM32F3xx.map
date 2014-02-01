@@ -7,10 +7,9 @@
 <area shape="rect" id="node7" href="$group__dma__file.html" title="libopencm3 STM32F3xx Direct Memory Access " alt="" coords="156,285,207,318"/>
 <area shape="rect" id="node8" href="$group__pwr__file.html" title="libopencm3 STM32F3xx Power Control " alt="" coords="155,341,208,374"/>
 <area shape="rect" id="node9" href="$group__rtc__file.html" title="libopencm3 STM32F3xx Real Time Clock " alt="" coords="157,397,205,430"/>
-<area shape="rect" id="node10" href="$group__spi__file.html" title="libopencm3 STM32F3xx Serial Peripheral Interface " alt="" coords="160,453,203,486"/>
-<area shape="rect" id="node11" href="$group__crc__file.html" title="libopencm3 STM32F3xx CRC " alt="" coords="156,509,207,542"/>
-<area shape="rect" id="node12" href="$group__adc__file.html" title="libopencm3 STM32F3xx Analog to Digital Converters " alt="" coords="156,565,207,598"/>
-<area shape="rect" id="node13" href="$group__i2c__file.html" title="libopencm3 STM32F3xx I2C " alt="" coords="160,621,203,654"/>
-<area shape="rect" id="node14" href="$group__flash__file.html" title="libopencm3 STM32F3xx FLASH " alt="" coords="149,677,213,710"/>
-<area shape="rect" id="node15" href="$group__timer__file.html" title="libopencm3 STM32F3xx Timers " alt="" coords="149,733,213,766"/>
+<area shape="rect" id="node10" href="$group__crc__file.html" title="libopencm3 STM32F3xx CRC " alt="" coords="156,453,207,486"/>
+<area shape="rect" id="node11" href="$group__adc__file.html" title="libopencm3 STM32F3xx Analog to Digital Converters " alt="" coords="156,509,207,542"/>
+<area shape="rect" id="node12" href="$group__i2c__file.html" title="libopencm3 STM32F3xx I2C " alt="" coords="160,565,203,598"/>
+<area shape="rect" id="node13" href="$group__flash__file.html" title="libopencm3 STM32F3xx FLASH " alt="" coords="149,621,213,654"/>
+<area shape="rect" id="node14" href="$group__timer__file.html" title="libopencm3 STM32F3xx Timers " alt="" coords="149,677,213,710"/>
 </map>

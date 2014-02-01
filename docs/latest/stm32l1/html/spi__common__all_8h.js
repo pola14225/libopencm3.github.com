@@ -128,7 +128,7 @@ var spi__common__all_8h =
     [ "spi_enable_ss_output", "spi__common__all_8h.html#gada533027af13ff16aceb7daad049c4e4", null ],
     [ "spi_enable_tx_buffer_empty_interrupt", "spi__common__all_8h.html#ga4c552fab799a9009bc541a3fb41061fe", null ],
     [ "spi_enable_tx_dma", "spi__common__all_8h.html#ga74726047b7cad9c11465a3cf4d0fd090", null ],
-    [ "spi_init_master", "spi__common__all_8h.html#gaa963b02acbae0939ec4537a8136873ed", null ],
+    [ "spi_init_master", "spi__common__all_8h.html#ga40d1a1d70fd211d322d3957a792368ee", null ],
     [ "spi_read", "spi__common__all_8h.html#ga1bfe6bd4512dc398cb7f680feec01b20", null ],
     [ "spi_reset", "spi__common__all_8h.html#gaae815897f2f548556dde9fa8ecb13058", null ],
     [ "spi_send", "spi__common__all_8h.html#ga1fcf7661af69bcf8999ae3f6d102fd8b", null ],

@@ -1,5 +1,8 @@
 var spi__common__f03_8h =
 [
+    [ "SPI1_DR8", "spi__common__f03_8h.html#ga35c65ed66e29b539d9a14e833c491802", null ],
+    [ "SPI2_DR8", "spi__common__f03_8h.html#ga3f8cf94759e3be7e95a888bbb3bc3ef2", null ],
+    [ "SPI3_DR8", "spi__common__f03_8h.html#gae72e26e42994989e86d115ced180c4cd", null ],
     [ "SPI_CR1_CRCL", "spi__common__f03_8h.html#ga3828b6114d16fada0dea07b902377a5c", null ],
     [ "SPI_CR1_CRCL_16BIT", "spi__common__f03_8h.html#gac80232620cca93d658564d903847114f", null ],
     [ "SPI_CR1_CRCL_8BIT", "spi__common__f03_8h.html#gad769555cf6f2bec4ef81a92fbc57d4c3", null ],
@@ -21,6 +24,7 @@ var spi__common__f03_8h =
     [ "SPI_CR2_LDMA_RX", "spi__common__f03_8h.html#ga4b7c17fc8f097e728aaff746356d8de3", null ],
     [ "SPI_CR2_LDMA_TX", "spi__common__f03_8h.html#ga39deb4ca947b12a999046e9a182c5df7", null ],
     [ "SPI_CR2_NSSP", "spi__common__f03_8h.html#ga2e7d9d05424a68e6b02b82280541dbd2", null ],
+    [ "SPI_DR8", "spi__common__f03_8h.html#gae77ec10f2c95483ec8b4f460401ba101", null ],
     [ "SPI_SR_FRLVL_FIFO_EMPTY", "spi__common__f03_8h.html#ga30b4760cc554e7207e0ed0fe7516460b", null ],
     [ "SPI_SR_FRLVL_FIFO_FULL", "spi__common__f03_8h.html#ga7b1c503ecf5888ada9c06b9a06bc12c0", null ],
     [ "SPI_SR_FRLVL_HALF_FIFO", "spi__common__f03_8h.html#gacbe4df524cfaa4f13e8022bba3b25bba", null ],
@@ -34,5 +38,7 @@ var spi__common__f03_8h =
     [ "spi_i2s_mode_spi_mode", "spi__common__f03_8h.html#ga3106545d2b06f1a49911a48853a61fbe", null ],
     [ "spi_read8", "spi__common__f03_8h.html#ga678fc0899ce572786e0ee3f875b80e91", null ],
     [ "spi_send8", "spi__common__f03_8h.html#ga4307af8c6b3812b86dfea621f1f40d37", null ],
+    [ "spi_set_crcl_16bit", "spi__common__f03_8h.html#ga3735b851c421eb116e1e946cc0c7b9c3", null ],
+    [ "spi_set_crcl_8bit", "spi__common__f03_8h.html#ga5d8532c0b265671ccc8e88eb8276a9f7", null ],
     [ "spi_set_data_size", "spi__common__f03_8h.html#ga285ede0085fb67dd93f5f03835ffd508", null ]
 ];

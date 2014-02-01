@@ -12,7 +12,6 @@ var group__STM32F0xx =
     [ "PWR", "group__pwr__file.html", "group__pwr__file" ],
     [ "RCC", "group__STM32F0xx-rcc-file.html", "group__STM32F0xx-rcc-file" ],
     [ "RTC", "group__rtc__file.html", "group__rtc__file" ],
-    [ "SPI", "group__spi__file.html", "group__spi__file" ],
     [ "SYSCFG", "group__syscfg__file.html", null ],
     [ "Timers", "group__timer__file.html", "group__timer__file" ],
     [ "USART", "group__usart__file.html", "group__usart__file" ]
