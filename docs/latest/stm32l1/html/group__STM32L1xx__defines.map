@@ -12,6 +12,7 @@
 <area shape="rect" id="node11" href="$group__timer__defines.html" title="libopencm3 Defined Constants and Types for the STM32L1xx Timers " alt="" coords="205,565,309,598"/>
 <area shape="rect" id="node13" href="$group__usart__defines.html" title="Defined Constants and Types for the STM32L1xx USART " alt="" coords="199,621,316,654"/>
 <area shape="rect" id="node14" href="$group__rtc__defines.html" title="Defined Constants and Types for the STM32L1xx RTC " alt="" coords="208,677,307,710"/>
-<area shape="rect" id="node15" href="$group__dma__defines.html" title="Defined Constants and Types for the STM32L1xx DMA Controller. " alt="" coords="207,733,308,766"/>
-<area shape="rect" id="node16" href="$group__flash__defines.html" title="Defined Constants and Types for the STM32L1xx FLASH Memory. " alt="" coords="200,789,315,822"/>
+<area shape="rect" id="node15" href="$group__STM32L1xx__adc__defines.html" title="Defined Constants and Types for the STM32L1xx Analog to Digital Converters " alt="" coords="208,733,307,766"/>
+<area shape="rect" id="node16" href="$group__dma__defines.html" title="Defined Constants and Types for the STM32L1xx DMA Controller. " alt="" coords="207,789,308,822"/>
+<area shape="rect" id="node17" href="$group__flash__defines.html" title="Defined Constants and Types for the STM32L1xx FLASH Memory. " alt="" coords="200,845,315,878"/>
 </map>

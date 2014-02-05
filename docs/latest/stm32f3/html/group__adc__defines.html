@@ -115,20 +115,21 @@ $(document).ready(function(){initNavTree('group__adc__defines.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a>  </div>
+<a href="#groups">Modules</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">ADC Defines<div class="ingroups"><a class="el" href="group__STM32F3xx__defines.html">STM32F3xx Defines</a></div></div>  </div>
+<div class="title">ADC Defines</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><b>Defined Constants and Types for the STM32F3xx Analog to Digital converter</b>  
+<p><b>Defined Constants and Types for the STM32F37x Analog to Digital converter</b>  
 <a href="#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for ADC Defines:</div>
 <div class="dyncontent">
 <center><table><tr><td><img src="group__adc__defines.png" border="0" alt="" usemap="#group____adc____defines"/>
 <map name="group____adc____defines" id="group____adc____defines">
-<area shape="rect" id="node1" href="group__STM32F3xx__defines.html" title="Defined Constants and Types for the STM32F3xx series. " alt="" coords="7,15,148,49"/><area shape="rect" id="node2" href="group__adc__sample__r1.html" title="ADC Sample Time Selection\l for ADC1" alt="" coords="348,5,537,59"/></map>
+<area shape="rect" id="node1" href="group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="172,5,332,38"/><area shape="rect" id="node2" href="group__adc__sample__r1.html" title="ADC Sample Time Selection\l for ADC1" alt="" coords="157,61,347,115"/><area shape="rect" id="node4" href="group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="155,138,349,171"/></map>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
@@ -136,18 +137,277 @@ Collaboration diagram for ADC Defines:</div>
 Modules</h2></td></tr>
 <tr class="memitem:group__adc__sample__r1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__sample__r1.html">ADC Sample Time Selection for ADC1</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__adc__reg__base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__adc__channel"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html">ADC Channel Numbers</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gaa80fdd25bb1f30fb64ba99a47628fcb1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#gaa80fdd25bb1f30fb64ba99a47628fcb1">ADC_SR</a>(block)&#160;&#160;&#160;MMIO32(block + 0x00)</td></tr>
+<tr class="separator:gaa80fdd25bb1f30fb64ba99a47628fcb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88ba3b646afe631e6d5eeb8ec579d25a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga88ba3b646afe631e6d5eeb8ec579d25a">ADC_CR1</a>(block)&#160;&#160;&#160;MMIO32(block + 0x04)</td></tr>
+<tr class="separator:ga88ba3b646afe631e6d5eeb8ec579d25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7015caf0db482a0772aadbcdb5a29b98"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga7015caf0db482a0772aadbcdb5a29b98">ADC_CR2</a>(block)&#160;&#160;&#160;MMIO32(block + 0x08)</td></tr>
+<tr class="separator:ga7015caf0db482a0772aadbcdb5a29b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e60a406a0a614680824c2e060a27761"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga5e60a406a0a614680824c2e060a27761">ADC_SMPR1</a>(block)&#160;&#160;&#160;MMIO32(block + 0x0c)</td></tr>
+<tr class="separator:ga5e60a406a0a614680824c2e060a27761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc1e8be3bafa939274574732734e2534"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#gadc1e8be3bafa939274574732734e2534">ADC_SMPR2</a>(block)&#160;&#160;&#160;MMIO32(block + 0x10)</td></tr>
+<tr class="separator:gadc1e8be3bafa939274574732734e2534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabcff75a3a7cb3bd72832317aac2daa44"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#gabcff75a3a7cb3bd72832317aac2daa44">ADC1_SR</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gaa80fdd25bb1f30fb64ba99a47628fcb1">ADC_SR</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td></tr>
+<tr class="separator:gabcff75a3a7cb3bd72832317aac2daa44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f6aa6e282b5100ef29e7894f40ae352"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga2f6aa6e282b5100ef29e7894f40ae352">ADC1_CR1</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga88ba3b646afe631e6d5eeb8ec579d25a">ADC_CR1</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td></tr>
+<tr class="separator:ga2f6aa6e282b5100ef29e7894f40ae352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga819a037dbe86c4b403ec7de246f3fdba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga819a037dbe86c4b403ec7de246f3fdba">ADC1_CR2</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga7015caf0db482a0772aadbcdb5a29b98">ADC_CR2</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td></tr>
+<tr class="separator:ga819a037dbe86c4b403ec7de246f3fdba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8088f1d2624782aeb0252f8d1f38e749"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga8088f1d2624782aeb0252f8d1f38e749">ADC1_SMPR1</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga5e60a406a0a614680824c2e060a27761">ADC_SMPR1</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td></tr>
+<tr class="separator:ga8088f1d2624782aeb0252f8d1f38e749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga388899f782f348c4f4913fa88e1a9041"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga388899f782f348c4f4913fa88e1a9041">ADC1_SMPR2</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gadc1e8be3bafa939274574732734e2534">ADC_SMPR2</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td></tr>
+<tr class="separator:ga388899f782f348c4f4913fa88e1a9041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd8f277084841e1dafdf424875028bbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#gabd8f277084841e1dafdf424875028bbf">ADC1_JOFR1</a>&#160;&#160;&#160;ADC_JOFR1(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td></tr>
+<tr class="separator:gabd8f277084841e1dafdf424875028bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga98bf61bf8a9287d1669ff0fd7c2419c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga98bf61bf8a9287d1669ff0fd7c2419c0">ADC1_JOFR2</a>&#160;&#160;&#160;ADC_JOFR2(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td></tr>
+<tr class="separator:ga98bf61bf8a9287d1669ff0fd7c2419c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8cf986f2c50e6afa247a9bab63ae9cc6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga8cf986f2c50e6afa247a9bab63ae9cc6">ADC1_JOFR3</a>&#160;&#160;&#160;ADC_JOFR3(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td></tr>
+<tr class="separator:ga8cf986f2c50e6afa247a9bab63ae9cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga27e7e930905112fba97dbb699e9f073f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga27e7e930905112fba97dbb699e9f073f">ADC1_JOFR4</a>&#160;&#160;&#160;ADC_JOFR4(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td></tr>
+<tr class="separator:ga27e7e930905112fba97dbb699e9f073f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p><b>Defined Constants and Types for the STM32F3xx Analog to Digital converter</b> </p>
+<p><b>Defined Constants and Types for the STM32F37x Analog to Digital converter</b> </p>
 <dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
 <dl class="section date"><dt>Date</dt><dd>11 July 2013</dd></dl>
-<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
+<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
+<dl class="section author"><dt>Author</dt><dd> &copy;  2014 Karl Palsson <a href="#" onclick="location.href='mai'+'lto:'+'kar'+'lp'+'@tw'+'ea'+'k.n'+'et'+'.au'; return false;">karlp<span style="display: none;">.nosp@m.</span>@twe<span style="display: none;">.nosp@m.</span>ak.ne<span style="display: none;">.nosp@m.</span>t.au</a> </dd></dl>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="ga2f6aa6e282b5100ef29e7894f40ae352"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_CR1&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga88ba3b646afe631e6d5eeb8ec579d25a">ADC_CR1</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00069">69</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga819a037dbe86c4b403ec7de246f3fdba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_CR2&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga7015caf0db482a0772aadbcdb5a29b98">ADC_CR2</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00070">70</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gabd8f277084841e1dafdf424875028bbf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_JOFR1&#160;&#160;&#160;ADC_JOFR1(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00074">74</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga98bf61bf8a9287d1669ff0fd7c2419c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_JOFR2&#160;&#160;&#160;ADC_JOFR2(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00075">75</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8cf986f2c50e6afa247a9bab63ae9cc6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_JOFR3&#160;&#160;&#160;ADC_JOFR3(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00076">76</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga27e7e930905112fba97dbb699e9f073f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_JOFR4&#160;&#160;&#160;ADC_JOFR4(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00077">77</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8088f1d2624782aeb0252f8d1f38e749"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_SMPR1&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga5e60a406a0a614680824c2e060a27761">ADC_SMPR1</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00071">71</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga388899f782f348c4f4913fa88e1a9041"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_SMPR2&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gadc1e8be3bafa939274574732734e2534">ADC_SMPR2</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00072">72</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gabcff75a3a7cb3bd72832317aac2daa44"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_SR&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gaa80fdd25bb1f30fb64ba99a47628fcb1">ADC_SR</a>(<a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00068">68</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga88ba3b646afe631e6d5eeb8ec579d25a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC_CR1</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">block</td><td>)</td>
+          <td>&#160;&#160;&#160;MMIO32(block + 0x04)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00057">57</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+<p>Referenced by <a class="el" href="adc__common__v1_8c_source.html#l00163">adc_disable_analog_watchdog_injected()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00137">adc_disable_analog_watchdog_regular()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00253">adc_disable_automatic_injected_group_conversion()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00374">adc_disable_awd_interrupt()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00225">adc_disable_discontinuous_mode_injected()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00199">adc_disable_discontinuous_mode_regular()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00397">adc_disable_eoc_interrupt()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00352">adc_disable_eoc_interrupt_injected()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00330">adc_disable_scan_mode()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00152">adc_enable_analog_watchdog_injected()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00274">adc_enable_analog_watchdog_on_all_channels()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00296">adc_enable_analog_watchdog_on_selected_channel()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00125">adc_enable_analog_watchdog_regular()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00241">adc_enable_automatic_injected_group_conversion()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00363">adc_enable_awd_interrupt()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00214">adc_enable_discontinuous_mode_injected()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00184">adc_enable_discontinuous_mode_regular()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00386">adc_enable_eoc_interrupt()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00341">adc_enable_eoc_interrupt_injected()</a>, and <a class="el" href="adc__common__v1_8c_source.html#l00319">adc_enable_scan_mode()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga7015caf0db482a0772aadbcdb5a29b98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC_CR2</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">block</td><td>)</td>
+          <td>&#160;&#160;&#160;MMIO32(block + 0x08)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00060">60</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+<p>Referenced by <a class="el" href="adc__common__v1_8c_source.html#l00748">adc_disable_dma()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00737">adc_enable_dma()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00109">adc_off()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00509">adc_set_continuous_conversion_mode()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00410">adc_set_left_aligned()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00422">adc_set_right_aligned()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00525">adc_set_single_conversion_mode()</a>, <a class="el" href="adc__common__v1_8c_source.html#l00721">adc_start_conversion_injected()</a>, and <a class="el" href="adc__common__v1_8c_source.html#l00697">adc_start_conversion_regular()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga5e60a406a0a614680824c2e060a27761"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC_SMPR1</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">block</td><td>)</td>
+          <td>&#160;&#160;&#160;MMIO32(block + 0x0c)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00063">63</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gadc1e8be3bafa939274574732734e2534"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC_SMPR2</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">block</td><td>)</td>
+          <td>&#160;&#160;&#160;MMIO32(block + 0x10)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00066">66</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaa80fdd25bb1f30fb64ba99a47628fcb1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC_SR</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">block</td><td>)</td>
+          <td>&#160;&#160;&#160;MMIO32(block + 0x00)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc__common__v1_8h_source.html#l00054">54</a> of file <a class="el" href="adc__common__v1_8h_source.html">adc_common_v1.h</a>.</p>
+
+<p>Referenced by <a class="el" href="adc__common__v1_8c_source.html#l00437">adc_eoc()</a>, and <a class="el" href="adc__common__v1_8c_source.html#l00451">adc_eoc_injected()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Feb 1 2014 22:21:46 for libopencm3 by
+    <li class="footer">Generated on Wed Feb 5 2014 12:21:54 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

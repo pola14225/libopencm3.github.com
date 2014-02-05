@@ -2,6 +2,8 @@ var files =
 [
     [ "adc.c", "adc_8c.html", "adc_8c" ],
     [ "adc.h", "adc_8h.html", "adc_8h" ],
+    [ "adc_common_v1.c", "adc__common__v1_8c.html", "adc__common__v1_8c" ],
+    [ "adc_common_v1.h", "adc__common__v1_8h.html", "adc__common__v1_8h" ],
     [ "crc.c", "crc_8c.html", null ],
     [ "crc.h", "crc_8h.html", null ],
     [ "crc_common_all.c", "crc__common__all_8c.html", "crc__common__all_8c" ],

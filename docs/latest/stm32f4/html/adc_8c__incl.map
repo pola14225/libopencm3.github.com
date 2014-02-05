@@ -1,3 +1,4 @@
 <map id="adc.c" name="adc.c">
-<area shape="rect" id="node3" href="$adc_8h.html" title="libopencm3/stm32/f4\l/adc.h" alt="" coords="152,89,293,143"/>
+<area shape="rect" id="node3" href="$adc_8h.html" title="libopencm3/stm32/f4\l/adc.h" alt="" coords="63,89,204,143"/>
+<area shape="rect" id="node9" href="$adc__common__v1_8h.html" title="libopencm3/stm32/common\l/adc_common_v1.h" alt="" coords="264,193,446,247"/>
 </map>

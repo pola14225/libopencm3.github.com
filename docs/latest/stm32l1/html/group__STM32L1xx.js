@@ -1,5 +1,6 @@
 var group__STM32L1xx =
 [
+    [ "ADC", "group__STM32L1xx__adc__file.html", "group__STM32L1xx__adc__file" ],
     [ "CRC", "group__crc__file.html", "group__crc__file" ],
     [ "DAC", "group__dac__file.html", "group__dac__file" ],
     [ "DMA", "group__dma__file.html", "group__dma__file" ],

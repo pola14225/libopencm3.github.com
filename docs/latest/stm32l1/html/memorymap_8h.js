@@ -1,5 +1,6 @@
 var memorymap_8h =
 [
+    [ "ADC1_BASE", "memorymap_8h.html#a695c9a2f892363a1c942405c8d351b91", null ],
     [ "ADC_BASE", "memorymap_8h.html#ad06cb9e5985bd216a376f26f22303cd6", null ],
     [ "AES_BASE", "memorymap_8h.html#ad099ae8679538f6c00294639d67528bf", null ],
     [ "COMP_BASE", "memorymap_8h.html#aa9f5d2999c6918e385d7a526c4f6b1d3", null ],

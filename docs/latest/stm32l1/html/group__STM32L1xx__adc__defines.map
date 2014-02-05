@@ -1,0 +1,8 @@
+<map id="ADC Defines" name="ADC Defines">
+<area shape="rect" id="node1" href="$group__adc__trigger__regular.html" title="ADC Trigger Identifier\l for Regular group" alt="" coords="367,5,513,59"/>
+<area shape="rect" id="node2" href="$group__adc__trigger__polarity__injected.html" title="ADC Injected Trigger\l Polarity" alt="" coords="368,82,512,137"/>
+<area shape="rect" id="node3" href="$group__adc__cr1__res.html" title="ADC Resolution." alt="" coords="380,159,500,193"/>
+<area shape="rect" id="node4" href="$group__adc__trigger__polarity__regular.html" title="ADC Trigger Polarity" alt="" coords="369,215,511,249"/>
+<area shape="rect" id="node5" href="$group__adc__sample__rg.html" title="ADC Sample Time Selection\l for All Channels" alt="" coords="345,271,535,326"/>
+<area shape="rect" id="node6" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series. " alt="" coords="5,159,147,193"/>
+</map>

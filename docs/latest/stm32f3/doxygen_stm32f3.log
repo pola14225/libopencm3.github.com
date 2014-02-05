@@ -1,3 +1,7 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:397: warning: More #endif's than #if's found.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:399: warning: end of file while inside a group
+
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/flash.c:64: warning: end of file while inside a group
 
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:123: warning: end of file while inside a group
@@ -44,81 +48,29 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_f03.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/usart.c:101: warning: unable to resolve reference to `usart_sr_flags' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/usart.c:121: warning: unable to resolve reference to `usart_sr_flags' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:344: warning: unable to resolve reference to `adc_reg_baseADC' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:347: warning: unable to resolve reference to `adc_reg_baseADC' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:546: warning: unable to resolve reference to `adc_sample_rg' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:575: warning: unable to resolve reference to `adc_sample_rg' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1104: warning: unable to resolve reference to `adc_reg_baseADC' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1110: warning: unable to resolve reference to `adc_reg_baseADC' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1116: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1021: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:385: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:154: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:127: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:248: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:219: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:191: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:497: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:411: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:359: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:939: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:903: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:987: warning: unable to resolve reference to `adc_reg_base' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1133: warning: argument 'adc' of command @param is not found in the argument list of adc_disable_temperature_sensor(void)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1137: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:371: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:142: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:270: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:292: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:294: warning: unable to resolve reference to `adc_watchdog_channel' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:111: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:235: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:207: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:174: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:175: warning: unable to resolve reference to `adc_cr1_discnum' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:485: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:399: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:352: warning: unable to resolve reference to `adc_reg_baseADC' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:355: warning: unable to resolve reference to `adc_reg_baseADC' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:358: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:918: warning: unable to resolve reference to `adc_reg_base' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:344: warning: unable to resolve reference to `adc_reg_baseADC' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:347: warning: unable to resolve reference to `adc_reg_baseADC' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:920: warning: unable to resolve reference to `adc_trigger_injected' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:922: warning: unable to resolve reference to `adc_trigger_polarity_injected' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:882: warning: unable to resolve reference to `adc_reg_base' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:884: warning: unable to resolve reference to `adc_trigger_regular' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:886: warning: unable to resolve reference to `adc_trigger_polarity_regular' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:975: warning: unable to resolve reference to `adc_reg_base' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1117: warning: argument 'adc' of command @param is not found in the argument list of adc_enable_temperature_sensor(void)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1122: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:719: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1038: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1053: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:735: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:1003: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:95: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:833: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:797: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:752: warning: unable to resolve reference to `adc_reg_base' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:848: warning: unable to resolve reference to `adc_ccr_adcpre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:513: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:798: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:687: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:461: warning: unable to resolve reference to `adc_reg_base' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:866: warning: unable to resolve reference to `adc_multi_mode' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:641: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:954: warning: unable to resolve reference to `adc_reg_base' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:955: warning: unable to resolve reference to `adc_cr1_res' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:473: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:542: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:544: warning: unable to resolve reference to `adc_channel' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:546: warning: unable to resolve reference to `adc_sample_rg' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:573: warning: unable to resolve reference to `adc_reg_base' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:575: warning: unable to resolve reference to `adc_sample_rg' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:528: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:598: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:617: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:445: warning: unable to resolve reference to `adc_reg_base' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:426: warning: unable to resolve reference to `adc_reg_base' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:31: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:31: warning: The following parameters of flash_set_ws(uint32_t ws) are not documented:
   parameter 'ws'
