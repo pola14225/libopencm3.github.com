@@ -31,6 +31,8 @@ var files =
     [ "flash_common_f234.h", "flash__common__f234_8h.html", "flash__common__f234_8h" ],
     [ "flash_common_f24.c", "flash__common__f24_8c.html", "flash__common__f24_8c" ],
     [ "flash_common_f24.h", "flash__common__f24_8h.html", "flash__common__f24_8h" ],
+    [ "fmc.c", "fmc_8c.html", "fmc_8c" ],
+    [ "fmc.h", "fmc_8h.html", "fmc_8h" ],
     [ "gpio.c", "gpio_8c.html", null ],
     [ "gpio.h", "gpio_8h.html", null ],
     [ "gpio_common_all.c", "gpio__common__all_8c.html", "gpio__common__all_8c" ],

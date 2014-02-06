@@ -25,6 +25,8 @@ var files =
     [ "exti_common_all.h", "exti__common__all_8h.html", "exti__common__all_8h" ],
     [ "flash.c", "flash_8c.html", "flash_8c" ],
     [ "flash.h", "flash_8h.html", "flash_8h" ],
+    [ "flash_common_f01.c", "flash__common__f01_8c.html", "flash__common__f01_8c" ],
+    [ "flash_common_f01.h", "flash__common__f01_8h.html", "flash__common__f01_8h" ],
     [ "gpio.c", "gpio_8c.html", "gpio_8c" ],
     [ "gpio.h", "gpio_8h.html", "gpio_8h" ],
     [ "gpio_common_all.c", "gpio__common__all_8c.html", "gpio__common__all_8c" ],

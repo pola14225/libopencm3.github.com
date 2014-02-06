@@ -1,3 +1,4 @@
 <map id="flash_erase_all_pages" name="flash_erase_all_pages">
-<area shape="rect" id="node3" href="$group__flash__defines.html#gad30dfab67a3b76823eb5f552b100d442" title="Wait for Busy Flag. " alt="" coords="207,5,321,38"/>
+<area shape="rect" id="node3" href="$group__flash__defines.html#ga72ce389bb20296771479ace8cdb62dff" title="Wait until Last Operation has Ended. " alt="" coords="205,5,336,59"/>
+<area shape="rect" id="node5" href="$group__flash__defines.html#ga5afd52a33a55a6423d536eca1f04933b" title="Read All Status Flags. " alt="" coords="385,15,537,49"/>
 </map>

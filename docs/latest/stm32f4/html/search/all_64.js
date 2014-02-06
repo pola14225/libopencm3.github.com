@@ -155,6 +155,7 @@ var searchData=
   ['desig_5funique_5fid1',['DESIG_UNIQUE_ID1',['../memorymap_8h.html#a121c59863db1db56b26e70978089b931',1,'memorymap.h']]],
   ['desig_5funique_5fid2',['DESIG_UNIQUE_ID2',['../memorymap_8h.html#a58267039858b45fc2b5948a79d8a038e',1,'memorymap.h']]],
   ['desig_5funique_5fid_5fbase',['DESIG_UNIQUE_ID_BASE',['../memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b',1,'memorymap.h']]],
+  ['directly',['directly',['../fmc_8h.html#ae46f68f548054dec9512d4997b947f2d',1,'fmc.h']]],
   ['dma_2ec',['dma.c',['../dma_8c.html',1,'']]],
   ['dma_2eh',['dma.h',['../dma_8h.html',1,'']]],
   ['dma1',['DMA1',['../group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9',1,'dma_common_f24.h']]],

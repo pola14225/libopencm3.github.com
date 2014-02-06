@@ -61,19 +61,19 @@ var NAVTREEINDEX =
 "group__rcc__defines.html#gafd7d1c3c7dbe20aea87a694ae15840f6",
 "group__rtc__defines.html#ga28b448062099ceb6ab758b85d1ddb785",
 "group__spi__defines.html#ga714f48c6586abf8ce6e3e118f6303708",
-"group__tim__x__cr2__ois.html#gad644f2f4b26e46587abedc8d3164e56e",
-"group__timer__defines.html#ga8b20496394d16153885d3e3c2f5bddf6",
-"group__timer__file.html#ga1588d783af458b13957c92d0a61ebc48",
-"group__usart__sr__flags.html#ga9eb6fd3f820bd12e0b5a981de1894804",
-"index.html",
-"rcc_8h.html#ga1ca3cbf69c7cce53e974316dbf38d3dc",
-"rcc_8h.html#gadb8228c9020595b4cf9995137b8c9a7d",
-"rcc__common__all_8h.html#ga6f3e2843e5d017717da66599ccc5daef",
-"spi__common__all_8c.html#gab3cb4176148e6f3602a0b238f32eb83b",
-"timer__common__all_8c.html#ga635cae0b5d26ee04a7d0f04ee647c5be",
-"timer__common__all_8h.html#ga5ac041bc0363fbb857b2c783e675fc69",
-"timer__common__all_8h.html#gad4a0382912674d590c5d66856d056045",
-"usart__common__f124_8h.html#ga096c5d685ddbd9ea03cfcba89d3fb4c3"
+"group__tim__x__cr2__ois.html#ga60d6eb3d215f0a162c9742b30863af2d",
+"group__timer__defines.html#ga8a2a8722575e6301c3e059b9ec8f50c2",
+"group__timer__file.html#ga07c712d9ab62bbcea1de4f865a077a5c",
+"group__usart__sr__flags.html#ga76229b05ac37a5a688e6ba45851a29f1",
+"i2c__common__f24_8h.html#ga1489b37ed2bca9d9c659119590583bda",
+"rcc_8h.html#ga195c39f08384ca1fa13b53a31d65d0a5",
+"rcc_8h.html#gad9facd21e8ad24736c7e401f2b5f2fd4",
+"rcc__common__all_8h.html",
+"spi__common__all_8c.html#gaabd95475b2fe0fab2a7c22c5ae50aa14",
+"timer__common__all_8c.html#ga4c1e08343758db3ed4bceaadceb4360c",
+"timer__common__all_8h.html#ga58d1f3dfb9fca69a0f632b6759a5262d",
+"timer__common__all_8h.html#gad292ce74da931b51c8b7094f2ebc9b67",
+"usart__common__f124_8c.html#gafb005f4e7635fbb379593ac0198032f3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

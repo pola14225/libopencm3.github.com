@@ -151,11 +151,11 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/* --- LPC43XX specific peripheral definitions ----------------------------- */</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">/* Memory map for all busses */</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">   29</a></span>&#160;<span class="preprocessor">#define PERIPH_BASE_AHB                 0x40000000</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aec51d8b3ae8b4ba45b0254165c7db3cd">   30</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERIPH_BASE_APB0                0x40080000</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">   31</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERIPH_BASE_APB1                0x400A0000</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a9ce09c7342dea5a3dcb66c082e146b09">   32</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERIPH_BASE_APB2                0x400C0000</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a9d5bc2b68d483a73295984dc011e3941">   33</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERIPH_BASE_APB3                0x400E0000</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">   29</a></span>&#160;<span class="preprocessor">#define PERIPH_BASE_AHB                 (0x40000000U)</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aec51d8b3ae8b4ba45b0254165c7db3cd">   30</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERIPH_BASE_APB0                (0x40080000U)</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">   31</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERIPH_BASE_APB1                (0x400A0000U)</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a9ce09c7342dea5a3dcb66c082e146b09">   32</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERIPH_BASE_APB2                (0x400C0000U)</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a9d5bc2b68d483a73295984dc011e3941">   33</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERIPH_BASE_APB3                (0x400E0000U)</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">/* Register boundary addresses */</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
@@ -175,20 +175,20 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">/* 0x4001 2000 - 0x4003 FFFF Reserved */</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/* RTC domain peripherals */</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">   53</a></span>&#160;<span class="preprocessor">#define ATIMER_BASE                     0x40040000</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aa266f60300d96a1544535e758a298e87">   54</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define BACKUP_REG_BASE                 0x40041000</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a4e92bd47dc68cc81e62c344586a4cdfa">   55</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PMC_BASE                        0x40042000</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a317e4960614bb48e8c7385469b7d98dd">   56</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CREG_BASE                       0x40043000</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">   57</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVENTROUTER_BASE                0x40044000</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aabb8c7806bf828f76b2f6219bac0926e">   58</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OTP_BASE                        0x40045000</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">   59</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define RTC_BASE                        0x40046000</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a6ef57ef6e68beb1e3987ffd43d7b73ad">   53</a></span>&#160;<span class="preprocessor">#define ATIMER_BASE                     (0x40040000U)</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aa266f60300d96a1544535e758a298e87">   54</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define BACKUP_REG_BASE                 (0x40041000U)</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a4e92bd47dc68cc81e62c344586a4cdfa">   55</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PMC_BASE                        (0x40042000U)</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a317e4960614bb48e8c7385469b7d98dd">   56</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CREG_BASE                       (0x40043000U)</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="memorymap_8h.html#adfd2f0e1488f77d98bf6b1b070152258">   57</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVENTROUTER_BASE                (0x40044000U)</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aabb8c7806bf828f76b2f6219bac0926e">   58</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OTP_BASE                        (0x40045000U)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">   59</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define RTC_BASE                        (0x40046000U)</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span><span class="comment">/* 0x4004 7000 - 0x4004 FFFF Reserved */</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">/* clocking/reset control peripherals */</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aa7b7196609779614935209f1dd7f74ce">   63</a></span>&#160;<span class="preprocessor">#define CGU_BASE                        0x40050000</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a568933857149fa3685b6593bd1759456">   64</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CCU1_BASE                       0x40051000</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a8a41daffd5f40d8dc18b716e122dd41b">   65</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CCU2_BASE                       0x40052000</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a85504162c904767a66de7b0a38c0e581">   66</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define RGU_BASE                        0x40053000</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aa7b7196609779614935209f1dd7f74ce">   63</a></span>&#160;<span class="preprocessor">#define CGU_BASE                        (0x40050000U)</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a568933857149fa3685b6593bd1759456">   64</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CCU1_BASE                       (0x40051000U)</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a8a41daffd5f40d8dc18b716e122dd41b">   65</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CCU2_BASE                       (0x40052000U)</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a85504162c904767a66de7b0a38c0e581">   66</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define RGU_BASE                        (0x40053000U)</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span><span class="comment">/* 0x4005 4000 - 0x4005 FFFF Reserved */</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">/* 0x4006 0000 - 0x4007 FFFF Reserved */</span></div>
@@ -241,16 +241,16 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">/* 0x400F 0000 - 0x400F 0FFF Reserved */</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
-<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ad099ae8679538f6c00294639d67528bf">  119</a></span>&#160;<span class="preprocessor">#define AES_BASE                        0x400F1000</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ad099ae8679538f6c00294639d67528bf">  119</a></span>&#160;<span class="preprocessor">#define AES_BASE                        (0x400F1000U)</span></div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment">/* 0x400F 2000 - 0x400F 3FFF Reserved */</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
-<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aedfafb620784fa0e443162a7b0b72ffb">  123</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_BASE                  0x400F4000</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aedfafb620784fa0e443162a7b0b72ffb">  123</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_BASE                  (0x400F4000U)</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="comment">/* 0x400F 8000 - 0x400F FFFF Reserved */</span></div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
-<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a5f93a33d4bec3302d02b41f1a2404d6b">  127</a></span>&#160;<span class="preprocessor">#define SPI_PORT_BASE                   0x40100000</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a8bb469f094a370e011e2cd051dffed70">  128</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SGPIO_PORT_BASE                 0x40101000</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a5f93a33d4bec3302d02b41f1a2404d6b">  127</a></span>&#160;<span class="preprocessor">#define SPI_PORT_BASE                   (0x40100000U)</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a8bb469f094a370e011e2cd051dffed70">  128</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SGPIO_PORT_BASE                 (0x40101000U)</span></div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment">/* 0x4010 2000 - 0x41FF FFFF Reserved */</span></div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
@@ -267,7 +267,7 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Wed Feb 5 2014 12:22:18 for libopencm3 by
+    <li class="footer">Generated on Thu Feb 6 2014 01:22:10 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

@@ -4,6 +4,7 @@
 <area shape="rect" id="node7" href="$group__flash__file.html#gaecb2ef6a6334477e36fceed302b1ab6d" title="Program an 8 bit Byte to FLASH. " alt="" coords="237,117,373,150"/>
 <area shape="rect" id="node11" href="$group__flash__file.html#gab8f20c93b7162f8a3b672caee01c7e09" title="Program a 64 bit Word to FLASH. " alt="" coords="213,173,397,206"/>
 <area shape="rect" id="node13" href="$group__flash__file.html#gaf5077b5726c70fa9418db9d73182f89d" title="Program a Half Word to FLASH. " alt="" coords="223,229,388,262"/>
-<area shape="rect" id="node15" href="$group__flash__file.html#ga73937aa6df8710e95425b165730626a2" title="Program a 32 bit Word to FLASH. " alt="" coords="236,285,375,318"/>
-<area shape="rect" id="node9" href="$group__flash__file.html#ga9149ea4d291a737b89ca7475471806a0" title="Program a Data Block to FLASH. " alt="" coords="445,117,549,150"/>
+<area shape="rect" id="node17" href="$group__flash__defines.html#ga73937aa6df8710e95425b165730626a2" title="Program a 32 bit Word to FLASH. " alt="" coords="236,285,375,318"/>
+<area shape="rect" id="node9" href="$group__flash__file.html#ga9149ea4d291a737b89ca7475471806a0" title="Program a Data Block to FLASH. " alt="" coords="463,117,567,150"/>
+<area shape="rect" id="node15" href="$group__flash__file.html#ga73937aa6df8710e95425b165730626a2" title="Program a 32 bit Word to FLASH. " alt="" coords="445,229,584,262"/>
 </map>

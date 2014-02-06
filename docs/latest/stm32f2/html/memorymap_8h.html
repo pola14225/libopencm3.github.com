@@ -139,7 +139,7 @@ Include dependency graph for memorymap.h:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9171f49478fa86d932f89e78e73b88b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0">PERIPH_BASE</a>&#160;&#160;&#160;0x40000000</td></tr>
+<tr class="memitem:a9171f49478fa86d932f89e78e73b88b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0">PERIPH_BASE</a>&#160;&#160;&#160;(0x40000000U)</td></tr>
 <tr class="separator:a9171f49478fa86d932f89e78e73b88b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8507e2608dfc4a5fcd7f3fad11c8b79d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0">PERIPH_BASE</a> + 0x00000)</td></tr>
 <tr class="separator:a8507e2608dfc4a5fcd7f3fad11c8b79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,9 +147,9 @@ Macros</h2></td></tr>
 <tr class="separator:a9ce09c7342dea5a3dcb66c082e146b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a7a706e5a4df2eed7899e972a183084"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a6a7a706e5a4df2eed7899e972a183084">PERIPH_BASE_AHB1</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0">PERIPH_BASE</a> + 0x20000)</td></tr>
 <tr class="separator:a6a7a706e5a4df2eed7899e972a183084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9208ba47ecaa9ac1eb39e7db2b9b5f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ad9208ba47ecaa9ac1eb39e7db2b9b5f8">PERIPH_BASE_AHB2</a>&#160;&#160;&#160;0x50000000</td></tr>
+<tr class="memitem:ad9208ba47ecaa9ac1eb39e7db2b9b5f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ad9208ba47ecaa9ac1eb39e7db2b9b5f8">PERIPH_BASE_AHB2</a>&#160;&#160;&#160;(0x50000000U)</td></tr>
 <tr class="separator:ad9208ba47ecaa9ac1eb39e7db2b9b5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a289fef602b1cd85fa94051720f37a217"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a289fef602b1cd85fa94051720f37a217">PERIPH_BASE_AHB3</a>&#160;&#160;&#160;0x60000000</td></tr>
+<tr class="memitem:a289fef602b1cd85fa94051720f37a217"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a289fef602b1cd85fa94051720f37a217">PERIPH_BASE_AHB3</a>&#160;&#160;&#160;(0x60000000U)</td></tr>
 <tr class="separator:a289fef602b1cd85fa94051720f37a217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00d0fe6ad532ab32f0f81cafca8d3aa5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a00d0fe6ad532ab32f0f81cafca8d3aa5">TIM2_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x0000)</td></tr>
 <tr class="separator:a00d0fe6ad532ab32f0f81cafca8d3aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,9 +277,9 @@ Macros</h2></td></tr>
 <tr class="separator:a679200df61ecb0695d72c030fdeb50a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4adaf4fd82ccc3a538f1f27a70cdbbef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a4adaf4fd82ccc3a538f1f27a70cdbbef">DBGMCU_BASE</a>&#160;&#160;&#160;(PPBI_BASE + 0x00042000)</td></tr>
 <tr class="separator:a4adaf4fd82ccc3a538f1f27a70cdbbef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a995576aa6d86cbe35e60c82530d745c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1">DESIG_FLASH_SIZE_BASE</a>&#160;&#160;&#160;(0x1FFF7A22)</td></tr>
+<tr class="memitem:a995576aa6d86cbe35e60c82530d745c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1">DESIG_FLASH_SIZE_BASE</a>&#160;&#160;&#160;(0x1FFF7A22U)</td></tr>
 <tr class="separator:a995576aa6d86cbe35e60c82530d745c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a567ddeef232a71aa2a11c556a9d7e17b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a>&#160;&#160;&#160;(0x1FFF7A10)</td></tr>
+<tr class="memitem:a567ddeef232a71aa2a11c556a9d7e17b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a>&#160;&#160;&#160;(0x1FFF7A10U)</td></tr>
 <tr class="separator:a567ddeef232a71aa2a11c556a9d7e17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf41f46cf83d59e7f2b040c3ad7ed592"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aaf41f46cf83d59e7f2b040c3ad7ed592">DESIG_UNIQUE_ID0</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">DESIG_UNIQUE_ID_BASE</a>)</td></tr>
 <tr class="separator:aaf41f46cf83d59e7f2b040c3ad7ed592"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -448,7 +448,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DESIG_FLASH_SIZE_BASE&#160;&#160;&#160;(0x1FFF7A22)</td>
+          <td class="memname">#define DESIG_FLASH_SIZE_BASE&#160;&#160;&#160;(0x1FFF7A22U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -504,7 +504,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DESIG_UNIQUE_ID_BASE&#160;&#160;&#160;(0x1FFF7A10)</td>
+          <td class="memname">#define DESIG_UNIQUE_ID_BASE&#160;&#160;&#160;(0x1FFF7A10U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -798,7 +798,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PERIPH_BASE&#160;&#160;&#160;0x40000000</td>
+          <td class="memname">#define PERIPH_BASE&#160;&#160;&#160;(0x40000000U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -826,7 +826,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PERIPH_BASE_AHB2&#160;&#160;&#160;0x50000000</td>
+          <td class="memname">#define PERIPH_BASE_AHB2&#160;&#160;&#160;(0x50000000U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -840,7 +840,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PERIPH_BASE_AHB3&#160;&#160;&#160;0x60000000</td>
+          <td class="memname">#define PERIPH_BASE_AHB3&#160;&#160;&#160;(0x60000000U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1331,7 +1331,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_b2ce1f7ead2d66d914db4e5ac397eede.html">f2</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Wed Feb 5 2014 12:21:44 for libopencm3 by
+    <li class="footer">Generated on Thu Feb 6 2014 01:21:38 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

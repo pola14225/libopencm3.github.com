@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['sdram_5fcommand',['sdram_command',['../fmc_8h.html#abb4e029a61d010276e4ba89117c1d40b',1,'sdram_command(enum fmc_sdram_bank bank, enum fmc_sdram_command cmd, int autorefresh, int modereg):&#160;fmc.c'],['../fmc_8c.html#abb4e029a61d010276e4ba89117c1d40b',1,'sdram_command(enum fmc_sdram_bank bank, enum fmc_sdram_command cmd, int autorefresh, int modereg):&#160;fmc.c']]],
+  ['sdram_5ftiming',['sdram_timing',['../fmc_8h.html#a62b47f701175fba00a77c4aa28ddfc09',1,'sdram_timing(struct sdram_timing *t):&#160;fmc.c'],['../fmc_8c.html#a62b47f701175fba00a77c4aa28ddfc09',1,'sdram_timing(struct sdram_timing *t):&#160;fmc.c']]],
   ['spi_5fclean_5fdisable',['spi_clean_disable',['../group__spi__defines.html#gaf76785dab1741f75d4fc2f03793b57d9',1,'spi_clean_disable(uint32_t spi):&#160;spi_common_all.c'],['../group__spi__file.html#gaf76785dab1741f75d4fc2f03793b57d9',1,'spi_clean_disable(uint32_t spi):&#160;spi_common_all.c']]],
   ['spi_5fdisable',['spi_disable',['../group__spi__defines.html#ga3a67a664d96e95e80d3308b7d53736e6',1,'spi_disable(uint32_t spi):&#160;spi_common_all.c'],['../group__spi__file.html#ga3a67a664d96e95e80d3308b7d53736e6',1,'spi_disable(uint32_t spi):&#160;spi_common_all.c']]],
   ['spi_5fdisable_5fcrc',['spi_disable_crc',['../group__spi__defines.html#ga168934fcc518d617447514ca06a48b3c',1,'spi_disable_crc(uint32_t spi):&#160;spi_common_all.c'],['../group__spi__file.html#ga168934fcc518d617447514ca06a48b3c',1,'spi_disable_crc(uint32_t spi):&#160;spi_common_all.c']]],

@@ -9269,6 +9269,815 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>fmc.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
+    <filename>fmc_8c</filename>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>sdram_timing</name>
+      <anchorfile>fmc_8c.html</anchorfile>
+      <anchor>a62b47f701175fba00a77c4aa28ddfc09</anchor>
+      <arglist>(struct sdram_timing *t)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>sdram_command</name>
+      <anchorfile>fmc_8c.html</anchorfile>
+      <anchor>abb4e029a61d010276e4ba89117c1d40b</anchor>
+      <arglist>(enum fmc_sdram_bank bank, enum fmc_sdram_command cmd, int autorefresh, int modereg)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>fmc.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/</path>
+    <filename>fmc_8h</filename>
+    <class kind="struct">sdram_timing</class>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_BANK5_BASE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a44ac5d5fa326c0ad55cb2966a93c9b28</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_BANK6_BASE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a6bd4e5079e0c7d69c2045f7261917d39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_BANK7_BASE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a601213cd4d9c1446e1bdb1d6b4011629</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_BANK8_BASE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ac1e1b2056841e33fab3dc9589d350fc5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>aad63dae8087e637724cd655c6f1777ce</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR1</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a02908414a11593403511cc03c664dc71</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR2</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>adbf6b9e888f83e3b58e50a7095db99bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ab9730a50bc632c670a37dc19069dabdb</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR1</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a74425dded1eb8134d7882da72b98b0ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR2</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>aaca32ef51c87754a941a617c23fc0166</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ac076e9dbf9c84509b2e26e6286d143b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDRTR</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8b5b22ce9422ae205081becda6a21eb6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDSR</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8df12597f2575b2625b181357bebab18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_RPIPE_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a4d5bfe23593aa9853fd905c7aead468f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_RPIPE_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>aeb92f14302284981af853a662c8f302f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_RPIPE_NONE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a7bc052bab6bc6e55fa8aca0ab5ad03f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_RPIPE_1CLK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a5e731e9a8bf11862edc30a05b3fe5919</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_RPIPE_2CLK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a02640800b7050682155105dd96bb32a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_RBURST</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a07dca2532ffb1b360f5cb778e2e3811a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_SDCLK_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a0d0abd9dd9358d73a88902379dc45d16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_SDCLK_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>aa87b4d56992f7c2b55e416b6733dc97f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_SDCLK_DISABLE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>af3c837ec1e6256b2422541adc0552c18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_SDCLK_2HCLK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>afdfcea4694b9e9e13b57ff0868f4e873</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_SDCLK_3HCLK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a09cac773beb7c2ea3aceedd08697e423</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_WP_ENABLE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a4d5c99b3530a50e1e721f71757dffb9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_CAS_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a9a4b4d8c722b717da6d6d97f7ec8de4e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_CAS_1CYC</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ad71993ad316d3d02f5028e0471b8dd2d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_CAS_2CYC</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a609f559fdf5bf2c26525a074c464e37f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_CAS_3CYC</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a01ec6164534f0f35e062a0ab38c1c047</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NB2</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a434a4b28c2d1c25b15e87e06b7aafe6d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NB4</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a3b179787bef39c24d184cffd411e2882</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_MWID_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>af8bfa39c008b2121e41f6a87f8c54030</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_MWID_8b</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a1b3f25ca328bd50dbcf29ce519dbb993</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_MWID_16b</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>af7cbad26d6461738227e1c2ece3d7a2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_MWID_32b</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a194a9e93b039c4dd3e56f9ffb703f24c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NR_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a22f65b91654e13dcfff2c9b7d66df11f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NR_11</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a0657dc04b8893a36eb039336642611f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NR_12</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a214f82a69a534fd958ee54744a7239d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NR_13</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8542339b7bb4e84b01047f8ec3c8c5d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NC_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>acbe7f67559e9c272c8284e7d2c06df0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NC_8</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>aa64f6d6da017964f9b0d75a363f41c18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NC_9</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a1457b47f2e94f10ce8f79e397c070533</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NC_10</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a40bddba2051abe780591f1bf2a8a95ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_NC_11</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a086c9a533e3913f959c69503cc3f6b06</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TRCD_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>aee91b857ba7bc0a38a7eb01a53cd9875</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TRCD_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a334a93afb6a406066cf5af9394a1aaa3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TRP_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a3814b7fee8d77f851622a6cddf14057a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TRP_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a5955229727a15ba0098285df8229c010</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TWR_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ad8f35964024c40e4783e04ccc25359db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TWR_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a457f1c2e599067c76596ae3078bfc26b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TRC_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a10f33ed0088c79a9d0ddab73fc1e1417</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TRC_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>adfaa6093a87bf43ae08aa2b7ff2e9d63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TRAS_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a01614ba310238e12cedb3a371445d2cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TRAS_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>abbf8cd9385c2919542a0b924c9032100</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TXSR_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a7c7f77cbf823e3cfe8cc410f00f0ae06</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TXSR_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a1ea38a0cf1c426d3124117546500950a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TMRD_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a2418b4cdcd22ce1cf139b4286bc6a7ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_TMRD_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a42d0483a9e64c6b5bd53fa5f69c6eb30</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDTR_DNC_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a7d66716f85763fd651aa356de9316758</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCR_DNC_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a4c5ba53776486658573c2dd267e7cc02</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MRD_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a63bdce1515df6c96abc0149ff71d35a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MRD_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a3236a2f2ffb2b6cd98fd9360a3d2bacd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_NRFS_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ac849f0e16b6592a974b872ea2daf01c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_NRFS_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>aa8cb33f2a0b223f916be4b54a94dcd4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_CTB1</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a4e5ca0bd4982c8354c021b53ef8e65e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_CTB2</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a87be0a3520cec2885d2fc16589b97ba0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MODE_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ab0782a11a6d37bb0fb0bf8b7654a8ced</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MODE_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ae0f1ba5cb850c88a5f2d296a4feeb583</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MODE_NORMAL</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>afa9b8f0b6e4a820fab01fc76813c2f13</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MODE_CLOCK_CONFIG_ENA</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8ff9e534758048b1a89c001c6b675bac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MODE_PALL</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ac3cb320e7085daf97878b7a4442c5e16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MODE_AUTO_REFRESH</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a724abf30fd6f22e4d234995364ed84ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MODE_LOAD_MODE_REGISTER</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>adf4c8b2ef62f7335e3b54daca35d5b96</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MODE_SELF_REFRESH</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ac5474b9f5c2c992842177e0ff2b63acf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDCMR_MODE_POWER_DOWN</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a533036f7a76bfd1521c531a167663a8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDRTR_REIE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>acd0a57affeb0e260988e4c2b4f732e19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDRTR_COUNT_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a9c21db263aa17582e13be970a6ec901b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDRTR_COUNT_MASK</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ac705d021fb5734bbc1af7f374e3e2e82</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDRTR_CRE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a81edf1f7343fe344297dd376cd46fc22</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDSR_BUSY</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a4a1fac2c6ca51889b974cae07f51839b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDSR_MODE_NORMAL</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ae53d6fc3026d8d9f0440e83fd0ac9687</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDSR_MODE_SELF_REFRESH</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a3588e013e509fd60a3d349691de6ea2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDSR_MODE_POWER_DOWN</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ad5cf0746d2d4494e629cbc310f3834e4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDSR_MODE2_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a39d4d13ce370c5fb8929ddd82e044cd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDSR_MODE1_SHIFT</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ae5773d51269b36312a9e56e56ab34565</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_SDSR_RE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a6122b8dc3cac5ac09342b843b36ae36d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_BURST_LENGTH_1</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a96b8cd4420624b271acaae0109fc4778</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_BURST_LENGTH_2</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a6adeddcc8c666e01abf9a1da882606fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_BURST_LENGTH_4</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a0fe7e3b9d71c3f4015b8986d442ca117</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_BURST_LENGTH_8</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a79932f2ae1c529d14161beb9ca60e075</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_BURST_TYPE_SEQUENTIAL</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a97eeb2e7b02d9ac3cd52d5c66af2b5ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_BURST_TYPE_INTERLEAVED</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8f3e3d2526bb568db10395cbca0b8e4e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_CAS_LATENCY_2</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a15ffbec1c3389bdef460f51b31693c70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_CAS_LATENCY_3</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>af8194439b52007c8cdecd64bac4f2dc8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_OPERATING_MODE_STANDARD</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ae50f54eb8d15e9eaae010bbdbd5c6e1b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_WRITEBURST_MODE_PROGRAMMED</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>aa30a0f1427d709f67f116c028f009d94</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SDRAM_MODE_WRITEBURST_MODE_SINGLE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a17af0c997d402a6debf6a31bf19c1d41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>fmc_sdram_bank</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a7697862636ad38e8bac2e4e9591fd5dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_BANK1</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a7697862636ad38e8bac2e4e9591fd5dda0927772c4f0be8d4de98df18fe6e4bd6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_BANK2</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a7697862636ad38e8bac2e4e9591fd5dda5c1f83a85fe64a1f6a300a9c1a25cfc5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_BOTH_BANKS</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a7697862636ad38e8bac2e4e9591fd5ddaf53ec0986324a6697d4825c8be0478ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>fmc_sdram_command</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8b33fbb7358ddc1d91de19de9255f239</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_CLK_CONF</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8b33fbb7358ddc1d91de19de9255f239a3debe7a9f86e2ababdbb3eadf01b8dba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_NORMAL</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8b33fbb7358ddc1d91de19de9255f239a3781d93a22a1f68806154b6de323ca53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_PALL</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8b33fbb7358ddc1d91de19de9255f239a2c0887973aa33b8fa7872354c126b753</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_AUTO_REFRESH</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8b33fbb7358ddc1d91de19de9255f239a423d080069db8404a71a0535cad7e2d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_LOAD_MODE</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8b33fbb7358ddc1d91de19de9255f239ae8ca4c8c6bdd2dfbc81710e3b484ed60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_SELF_REFRESH</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8b33fbb7358ddc1d91de19de9255f239abf24b0bc7c8123e94b427997ac326a28</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SDRAM_POWER_DOWN</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a8b33fbb7358ddc1d91de19de9255f239a7a5bba46e7a6c2191171ad47de92c47d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>sdram_timing</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>a62b47f701175fba00a77c4aa28ddfc09</anchor>
+      <arglist>(struct sdram_timing *t)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>sdram_command</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>abb4e029a61d010276e4ba89117c1d40b</anchor>
+      <arglist>(enum fmc_sdram_bank bank, enum fmc_sdram_command cmd, int autorefresh, int modereg)</arglist>
+    </member>
+    <member kind="variable">
+      <type>error This file should not be included</type>
+      <name>directly</name>
+      <anchorfile>fmc_8h.html</anchorfile>
+      <anchor>ae46f68f548054dec9512d4997b947f2d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>gpio.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>gpio_8c</filename>
@@ -12624,6 +13433,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>I2S3_EXT_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>afac07f6cefe66208ad6a411c74a38774</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SPI2_I2S_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>ab5b263aca05d63fcdd9a1d58b12eef52</anchor>
@@ -12634,6 +13450,13 @@
       <name>SPI3_I2S_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a4f321921fae1aed23d6e63e857b56669</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2S2_EXT_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a908a324d5a388d9e7800cfa3902af2ab</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -12715,6 +13538,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>UART7_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a3150e4b10ec876c0b20f22de12a8fa40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ac9c6cd59a248941d9d2462ab21a2346e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM1_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>af8aa324ca5011b8173ab16585ed7324a</anchor>
@@ -12785,6 +13622,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>SPI4_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ac5cfaedf263cee1e79554665f921c708</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SYSCFG_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a62246020bf3b34b6a4d8d0e84ec79d3d</anchor>
@@ -12816,6 +13660,34 @@
       <name>TIM11_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a3a4a06bb84c703084f0509e105ffaf1d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI5_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ac1c58d33414e167d478ecd0e31331dfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI6_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>af69c602bd348dc0aa1b4e829e40ebb70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SAI1_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a24c1053b754946b512f9c31123e09d21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LCD_TFT_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a410a667209c809187db1d96cd1f0addb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -14984,6 +15856,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_AHB3ENR_FMCEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>aa1fdd9380ad0ec9a3625ccd2383371da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1ENR_UART8EN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a6c2f21176461a0d7c96fc6d80bee4b02</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1ENR_UART7EN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a0b7a022fda0cc030a4450f16243711eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB1ENR_DACEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a087968e2786321fb8645c46b22eea132</anchor>
@@ -15145,6 +16038,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB2ENR_SPI6EN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>aa3a69871fe2c246de87d6330085f8fb2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2ENR_SPI5EN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>aa03ceeb67bbc312dedb16ca516e0d1ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB2ENR_TIM11EN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>ab1d2aeebc8ccf4e2ee18f4d924a35188</anchor>
@@ -15169,6 +16076,13 @@
       <name>RCC_APB2ENR_SYSCFGEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a7a9d56a8aa1fa0f519ecbdf0d19dd4da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2ENR_SPI4EN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ac9b531ccde79f9f1c5b7b63169016e16</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -19490,6 +20404,27 @@
       <name>SPI3</name>
       <anchorfile>group__spi__reg__base.html</anchorfile>
       <anchor>gab2339cbf25502bf562b19208b1b257fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI4</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga2a2e6edef68cfe1946f39a5033da2301</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI5</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga5e676c061e19ced149b7c6de6b8985e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI6</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga0f05da7f4b924ab39c1f8afcea225074</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -26767,9 +27702,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>UART7</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a20bc10f5b73e8b51724b2f23c5b2e785</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a2fe70804956e53dcbdc82dbacbbbfabc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USART6_SR</name>
       <anchorfile>usart__common__f24_8h.html</anchorfile>
       <anchor>a475701e7a1d2ca39768a19b0d3a00695</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART7_SR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a7da70cf0849a40f941eb0e4c4682d036</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_SR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a7c9da23c110fd48e0f31b0cfe3a0e5f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -26781,9 +27744,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>UART7_DR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a3825b9eeadacd905a6b5af8dc9a0f282</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_DR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a5688c0678e08f354cb72a4307d59d985</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USART6_BRR</name>
       <anchorfile>usart__common__f24_8h.html</anchorfile>
       <anchor>a0a4f781c389ce231e70343e359cb807e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART7_BRR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a3334da038cc93d286b0ea896c8b2c984</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_BRR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>ae48e00a8dfa32c83deb2d7f6a3175dfe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -26795,9 +27786,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>UART7_CR1</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>afc8272cb1b4d78b45d16b865cbb9ea73</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_CR1</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>afd794ad64d1c6f9d00fdfb6320c47e8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USART6_CR2</name>
       <anchorfile>usart__common__f24_8h.html</anchorfile>
       <anchor>a1075203fcf57a3d7a44bf02d91c2d9c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART7_CR2</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a30842863ab70d2175aaf9e557f96a074</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_CR2</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>aef82f63293fb2edbc5add2073104470c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -26809,9 +27828,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>UART7_CR3</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a4ac2db6ebf78dda8e93a6c742b0ef8ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_CR3</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a4008d8047097d7790806ad6fc35b42a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USART6_GTPR</name>
       <anchorfile>usart__common__f24_8h.html</anchorfile>
       <anchor>a3a07d3c38375d5ccb7d17628f1b4da26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART7_GTPR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>aa2806b9093b6b34da52cb17888587bdd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_GTPR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>ad58c449ef98c85b5c95c50a6f8898d1c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -43598,6 +44645,27 @@
       <anchor>gab2339cbf25502bf562b19208b1b257fc</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI4</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga2a2e6edef68cfe1946f39a5033da2301</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI5</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga5e676c061e19ced149b7c6de6b8985e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI6</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga0f05da7f4b924ab39c1f8afcea225074</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>spi_lsbfirst</name>
@@ -47999,6 +49067,59 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>sdram_timing</name>
+    <filename>structsdram__timing.html</filename>
+    <member kind="variable">
+      <type>int</type>
+      <name>trcd</name>
+      <anchorfile>structsdram__timing.html</anchorfile>
+      <anchor>a043a9038c7fd4efe7396342ef2f90306</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>trp</name>
+      <anchorfile>structsdram__timing.html</anchorfile>
+      <anchor>a66c55ce3fc509e59fc5cfbbbd68da662</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>twr</name>
+      <anchorfile>structsdram__timing.html</anchorfile>
+      <anchor>ab0dcc72c48b8feda1688e814e57f6428</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>trc</name>
+      <anchorfile>structsdram__timing.html</anchorfile>
+      <anchor>ac4e352e1b1e1d6260b860080b97db667</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>tras</name>
+      <anchorfile>structsdram__timing.html</anchorfile>
+      <anchor>a37f41b6007e8e3b09b9fc3142bc4dad3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>txsr</name>
+      <anchorfile>structsdram__timing.html</anchorfile>
+      <anchor>abe8a1f1eba9a1b6fccff1c17a55d760c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>tmrd</name>
+      <anchorfile>structsdram__timing.html</anchorfile>
+      <anchor>a4663054b8681dd65c5e994eaf035795c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="dir">
     <name>common</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
@@ -48073,6 +49194,7 @@
     <file>doc-stm32f4.h</file>
     <file>exti.h</file>
     <file>flash.h</file>
+    <file>fmc.h</file>
     <file>gpio.h</file>
     <file>hash.h</file>
     <file>i2c.h</file>
@@ -48097,6 +49219,7 @@
     <file>dac.c</file>
     <file>dma.c</file>
     <file>flash.c</file>
+    <file>fmc.c</file>
     <file>gpio.c</file>
     <file>hash.c</file>
     <file>i2c.c</file>

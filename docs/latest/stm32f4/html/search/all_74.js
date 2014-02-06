@@ -639,5 +639,12 @@ var searchData=
   ['timer_5fslave_5fset_5fprescaler',['timer_slave_set_prescaler',['../group__timer__defines.html#ga5348e14d023df2552879eb294c794f3c',1,'timer_slave_set_prescaler(uint32_t timer, enum tim_ic_psc psc):&#160;timer_common_all.c'],['../group__timer__file.html#gad568a6cf1019657a3832ebc4713d5e75',1,'timer_slave_set_prescaler(uint32_t timer_peripheral, enum tim_ic_psc psc):&#160;timer_common_all.c']]],
   ['timer_5fslave_5fset_5ftrigger',['timer_slave_set_trigger',['../group__timer__defines.html#ga4dd4ddde0168f7213126e1b9bca63077',1,'timer_slave_set_trigger(uint32_t timer, uint8_t trigger):&#160;timer_common_all.c'],['../group__timer__file.html#ga07c712d9ab62bbcea1de4f865a077a5c',1,'timer_slave_set_trigger(uint32_t timer_peripheral, uint8_t trigger):&#160;timer_common_all.c']]],
   ['timer_5fupdate_5fon_5fany',['timer_update_on_any',['../group__timer__defines.html#gaba4fbba9e50b02eac3c909e09d7cdb00',1,'timer_update_on_any(uint32_t timer_peripheral):&#160;timer_common_all.c'],['../group__timer__file.html#gaba4fbba9e50b02eac3c909e09d7cdb00',1,'timer_update_on_any(uint32_t timer_peripheral):&#160;timer_common_all.c']]],
-  ['timer_5fupdate_5fon_5foverflow',['timer_update_on_overflow',['../group__timer__defines.html#ga279cd24b158ccd2e2209c88d9853d09d',1,'timer_update_on_overflow(uint32_t timer_peripheral):&#160;timer_common_all.c'],['../group__timer__file.html#ga279cd24b158ccd2e2209c88d9853d09d',1,'timer_update_on_overflow(uint32_t timer_peripheral):&#160;timer_common_all.c']]]
+  ['timer_5fupdate_5fon_5foverflow',['timer_update_on_overflow',['../group__timer__defines.html#ga279cd24b158ccd2e2209c88d9853d09d',1,'timer_update_on_overflow(uint32_t timer_peripheral):&#160;timer_common_all.c'],['../group__timer__file.html#ga279cd24b158ccd2e2209c88d9853d09d',1,'timer_update_on_overflow(uint32_t timer_peripheral):&#160;timer_common_all.c']]],
+  ['tmrd',['tmrd',['../structsdram__timing.html#a4663054b8681dd65c5e994eaf035795c',1,'sdram_timing']]],
+  ['tras',['tras',['../structsdram__timing.html#a37f41b6007e8e3b09b9fc3142bc4dad3',1,'sdram_timing']]],
+  ['trc',['trc',['../structsdram__timing.html#ac4e352e1b1e1d6260b860080b97db667',1,'sdram_timing']]],
+  ['trcd',['trcd',['../structsdram__timing.html#a043a9038c7fd4efe7396342ef2f90306',1,'sdram_timing']]],
+  ['trp',['trp',['../structsdram__timing.html#a66c55ce3fc509e59fc5cfbbbd68da662',1,'sdram_timing']]],
+  ['twr',['twr',['../structsdram__timing.html#ab0dcc72c48b8feda1688e814e57f6428',1,'sdram_timing']]],
+  ['txsr',['txsr',['../structsdram__timing.html#abe8a1f1eba9a1b6fccff1c17a55d760c',1,'sdram_timing']]]
 ];

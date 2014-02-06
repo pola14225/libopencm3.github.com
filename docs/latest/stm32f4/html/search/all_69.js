@@ -162,6 +162,8 @@ var searchData=
   ['i2c_5fsr2_5ftra',['I2C_SR2_TRA',['../group__i2c__defines.html#ga288b20416b42a79e591aa80d9a690fca',1,'i2c_common_all.h']]],
   ['i2c_5ftrise',['I2C_TRISE',['../group__i2c__defines.html#ga3d4dc2ec88d11cef0f94ac81f90a072c',1,'i2c_common_all.h']]],
   ['i2c_5fwrite',['I2C_WRITE',['../group__i2c__rw.html#ga9536bf85bced4f4e549a82fb18eb6140',1,'i2c_common_all.h']]],
+  ['i2s2_5fext_5fbase',['I2S2_EXT_BASE',['../memorymap_8h.html#a908a324d5a388d9e7800cfa3902af2ab',1,'memorymap.h']]],
+  ['i2s3_5fext_5fbase',['I2S3_EXT_BASE',['../memorymap_8h.html#afac07f6cefe66208ad6a411c74a38774',1,'memorymap.h']]],
   ['iwdg_2ec',['iwdg.c',['../iwdg_8c.html',1,'']]],
   ['iwdg_2eh',['iwdg.h',['../iwdg_8h.html',1,'']]],
   ['iwdg_5fbase',['IWDG_BASE',['../memorymap_8h.html#a8543ee4997296af5536b007cd4748f55',1,'memorymap.h']]],

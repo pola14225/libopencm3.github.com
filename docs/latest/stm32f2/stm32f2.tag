@@ -17114,6 +17114,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>SPI4</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga2a2e6edef68cfe1946f39a5033da2301</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI5</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga5e676c061e19ced149b7c6de6b8985e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI6</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga0f05da7f4b924ab39c1f8afcea225074</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SPI_CR1</name>
       <anchorfile>group__spi__defines.html</anchorfile>
       <anchor>ga5b22576464ecf00e80edd72c2ecb798f</anchor>
@@ -24387,9 +24408,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>UART7</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a20bc10f5b73e8b51724b2f23c5b2e785</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a2fe70804956e53dcbdc82dbacbbbfabc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USART6_SR</name>
       <anchorfile>usart__common__f24_8h.html</anchorfile>
       <anchor>a475701e7a1d2ca39768a19b0d3a00695</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART7_SR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a7da70cf0849a40f941eb0e4c4682d036</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_SR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a7c9da23c110fd48e0f31b0cfe3a0e5f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -24401,9 +24450,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>UART7_DR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a3825b9eeadacd905a6b5af8dc9a0f282</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_DR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a5688c0678e08f354cb72a4307d59d985</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USART6_BRR</name>
       <anchorfile>usart__common__f24_8h.html</anchorfile>
       <anchor>a0a4f781c389ce231e70343e359cb807e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART7_BRR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a3334da038cc93d286b0ea896c8b2c984</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_BRR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>ae48e00a8dfa32c83deb2d7f6a3175dfe</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -24415,9 +24492,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>UART7_CR1</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>afc8272cb1b4d78b45d16b865cbb9ea73</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_CR1</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>afd794ad64d1c6f9d00fdfb6320c47e8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USART6_CR2</name>
       <anchorfile>usart__common__f24_8h.html</anchorfile>
       <anchor>a1075203fcf57a3d7a44bf02d91c2d9c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART7_CR2</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a30842863ab70d2175aaf9e557f96a074</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_CR2</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>aef82f63293fb2edbc5add2073104470c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -24429,9 +24534,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>UART7_CR3</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a4ac2db6ebf78dda8e93a6c742b0ef8ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_CR3</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>a4008d8047097d7790806ad6fc35b42a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USART6_GTPR</name>
       <anchorfile>usart__common__f24_8h.html</anchorfile>
       <anchor>a3a07d3c38375d5ccb7d17628f1b4da26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART7_GTPR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>aa2806b9093b6b34da52cb17888587bdd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART8_GTPR</name>
+      <anchorfile>usart__common__f24_8h.html</anchorfile>
+      <anchor>ad58c449ef98c85b5c95c50a6f8898d1c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -44045,6 +44178,27 @@
       <name>SPI3</name>
       <anchorfile>group__spi__reg__base.html</anchorfile>
       <anchor>gab2339cbf25502bf562b19208b1b257fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI4</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga2a2e6edef68cfe1946f39a5033da2301</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI5</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga5e676c061e19ced149b7c6de6b8985e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI6</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga0f05da7f4b924ab39c1f8afcea225074</anchor>
       <arglist></arglist>
     </member>
   </compound>

@@ -1,4 +1,5 @@
 <map id="flash_program_option_bytes" name="flash_program_option_bytes">
 <area shape="rect" id="node3" href="$group__flash__defines.html#ga5458fca5ecb9ec90b21bebbb64c861c4" title="Unlock the Option Byte Access. " alt="" coords="201,5,337,59"/>
 <area shape="rect" id="node5" href="$group__flash__defines.html#ga72ce389bb20296771479ace8cdb62dff" title="Wait until Last Operation has Ended. " alt="" coords="204,82,335,137"/>
+<area shape="rect" id="node7" href="$group__flash__defines.html#ga5afd52a33a55a6423d536eca1f04933b" title="Read All Status Flags. " alt="" coords="388,93,540,126"/>
 </map>

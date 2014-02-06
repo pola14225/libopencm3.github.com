@@ -138,11 +138,11 @@ Include dependency graph for memorymap.h:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a23a9099a5f8fc9c6e253c0eecb2be8db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a23a9099a5f8fc9c6e253c0eecb2be8db">FLASH_BASE</a>&#160;&#160;&#160;((uint32_t)0x08000000)</td></tr>
+<tr class="memitem:a23a9099a5f8fc9c6e253c0eecb2be8db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a23a9099a5f8fc9c6e253c0eecb2be8db">FLASH_BASE</a>&#160;&#160;&#160;(0x08000000U)</td></tr>
 <tr class="separator:a23a9099a5f8fc9c6e253c0eecb2be8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9171f49478fa86d932f89e78e73b88b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0">PERIPH_BASE</a>&#160;&#160;&#160;((uint32_t)0x40000000)</td></tr>
+<tr class="memitem:a9171f49478fa86d932f89e78e73b88b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0">PERIPH_BASE</a>&#160;&#160;&#160;(0x40000000U)</td></tr>
 <tr class="separator:a9171f49478fa86d932f89e78e73b88b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a006269cecc227cac15beae74acf1a13c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a006269cecc227cac15beae74acf1a13c">INFO_BASE</a>&#160;&#160;&#160;((uint32_t)0x1ffff000)</td></tr>
+<tr class="memitem:a006269cecc227cac15beae74acf1a13c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a006269cecc227cac15beae74acf1a13c">INFO_BASE</a>&#160;&#160;&#160;(0x1ffff000U)</td></tr>
 <tr class="separator:a006269cecc227cac15beae74acf1a13c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8507e2608dfc4a5fcd7f3fad11c8b79d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0">PERIPH_BASE</a> + 0x00000)</td></tr>
 <tr class="separator:a8507e2608dfc4a5fcd7f3fad11c8b79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -545,12 +545,14 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FLASH_BASE&#160;&#160;&#160;((uint32_t)0x08000000)</td>
+          <td class="memname">#define FLASH_BASE&#160;&#160;&#160;(0x08000000U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="memorymap_8h_source.html#l00028">28</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+<p>Referenced by <a class="el" href="flash_8c_source.html#l00259">flash_erase_page()</a>, and <a class="el" href="flash_8c_source.html#l00229">flash_program_half_word()</a>.</p>
 
 </div>
 </div>
@@ -713,7 +715,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define INFO_BASE&#160;&#160;&#160;((uint32_t)0x1ffff000)</td>
+          <td class="memname">#define INFO_BASE&#160;&#160;&#160;(0x1ffff000U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -741,7 +743,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PERIPH_BASE&#160;&#160;&#160;((uint32_t)0x40000000)</td>
+          <td class="memname">#define PERIPH_BASE&#160;&#160;&#160;(0x40000000U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1218,7 +1220,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_26e2099944f53a27f6cdf710ec04616c.html">f1</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Wed Feb 5 2014 12:21:35 for libopencm3 by
+    <li class="footer">Generated on Thu Feb 6 2014 01:21:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

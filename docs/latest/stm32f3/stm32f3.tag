@@ -16784,6 +16784,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>SPI4</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga2a2e6edef68cfe1946f39a5033da2301</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI5</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga5e676c061e19ced149b7c6de6b8985e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI6</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga0f05da7f4b924ab39c1f8afcea225074</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SPI_CR1</name>
       <anchorfile>group__spi__defines.html</anchorfile>
       <anchor>ga5b22576464ecf00e80edd72c2ecb798f</anchor>
@@ -37912,6 +37933,27 @@
       <name>SPI3</name>
       <anchorfile>group__spi__reg__base.html</anchorfile>
       <anchor>gab2339cbf25502bf562b19208b1b257fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI4</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga2a2e6edef68cfe1946f39a5033da2301</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI5</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga5e676c061e19ced149b7c6de6b8985e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SPI6</name>
+      <anchorfile>group__spi__reg__base.html</anchorfile>
+      <anchor>ga0f05da7f4b924ab39c1f8afcea225074</anchor>
       <arglist></arglist>
     </member>
   </compound>
