@@ -8,5 +8,6 @@ var searchData=
   ['tim2_5fbase',['TIM2_BASE',['../memorymap_8h.html#a00d0fe6ad532ab32f0f81cafca8d3aa5',1,'memorymap.h']]],
   ['tim3_5fbase',['TIM3_BASE',['../memorymap_8h.html#af0c34a518f87e1e505cd2332e989564a',1,'memorymap.h']]],
   ['tim6_5fbase',['TIM6_BASE',['../memorymap_8h.html#a8268ec947929f192559f28c6bf7d1eac',1,'memorymap.h']]],
+  ['tim7_5fbase',['TIM7_BASE',['../memorymap_8h.html#a0ebf54364c6a2be6eb19ded6b18b6387',1,'memorymap.h']]],
   ['tsc_5fbase',['TSC_BASE',['../memorymap_8h.html#a2bba7a31caeacaacd433abb71781e0af',1,'memorymap.h']]]
 ];

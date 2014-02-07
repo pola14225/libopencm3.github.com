@@ -39,14 +39,14 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:109: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:35: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:80: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:348: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:319: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:266: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:231: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:370: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:340: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:284: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:246: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:50: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:110: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:80: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:140: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:116: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:83: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:149: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:128: warning: argument 'periph' of command @param is not found in the argument list of rcc_periph_clock_disable(enum rcc_periph_clken clken)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:132: warning: explicit link request to 'periph_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:128: warning: The following parameters of rcc_periph_clock_disable(enum rcc_periph_clken clken) are not documented:
@@ -79,18 +79,18 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:78: warning: unable to resolve reference to `rcc_ahbrstr_rst' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:79: warning: unable to resolve reference to `rcc_apb1rstr_rst' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:80: warning: unable to resolve reference to `rcc_apb2rstr_rst' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:426: warning: unable to resolve reference to `rcc_cfgr_ahbpre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:401: warning: unable to resolve reference to `rcc_cfgr_pmf' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:413: warning: argument 'ppre1' of command @param is not found in the argument list of rcc_set_ppre(uint32_t ppre)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:415: warning: unable to resolve reference to `rcc_cfgr_apb1pre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:413: warning: The following parameters of rcc_set_ppre(uint32_t ppre) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:452: warning: unable to resolve reference to `rcc_cfgr_ahbpre' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:427: warning: unable to resolve reference to `rcc_cfgr_pmf' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:439: warning: argument 'ppre1' of command @param is not found in the argument list of rcc_set_ppre(uint32_t ppre)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:441: warning: unable to resolve reference to `rcc_cfgr_apb1pre' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:439: warning: The following parameters of rcc_set_ppre(uint32_t ppre) are not documented:
   parameter 'ppre'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:372: warning: argument 'osc' of command @param is not found in the argument list of rcc_set_sysclk_source(enum rcc_osc clk)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:372: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:372: warning: The following parameters of rcc_set_sysclk_source(enum rcc_osc clk) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:395: warning: argument 'osc' of command @param is not found in the argument list of rcc_set_sysclk_source(enum rcc_osc clk)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:395: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:395: warning: The following parameters of rcc_set_sysclk_source(enum rcc_osc clk) are not documented:
   parameter 'clk'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:449: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:195: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:475: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:207: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_f03.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/usart.c:392: warning: unable to resolve reference to `usart_sr_flags' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/usart.c:410: warning: unable to resolve reference to `usart_sr_flags' for \ref command
@@ -135,24 +135,24 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:123: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:124: warning: unable to resolve reference to `gpio_output_type' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:80: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:348: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:319: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:266: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:231: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:370: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:340: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:284: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:246: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:50: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:110: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:80: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:140: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:426: warning: unable to resolve reference to `rcc_cfgr_ahbpre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:401: warning: unable to resolve reference to `rcc_cfgr_pmf' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:413: warning: argument 'ppre1' of command @param is not found in the argument list of rcc_set_ppre(uint32_t ppre)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:415: warning: unable to resolve reference to `rcc_cfgr_apb1pre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:413: warning: The following parameters of rcc_set_ppre(uint32_t ppre) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:116: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:83: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:149: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:452: warning: unable to resolve reference to `rcc_cfgr_ahbpre' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:427: warning: unable to resolve reference to `rcc_cfgr_pmf' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:439: warning: argument 'ppre1' of command @param is not found in the argument list of rcc_set_ppre(uint32_t ppre)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:441: warning: unable to resolve reference to `rcc_cfgr_apb1pre' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:439: warning: The following parameters of rcc_set_ppre(uint32_t ppre) are not documented:
   parameter 'ppre'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:372: warning: argument 'osc' of command @param is not found in the argument list of rcc_set_sysclk_source(enum rcc_osc clk)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:372: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:372: warning: The following parameters of rcc_set_sysclk_source(enum rcc_osc clk) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:395: warning: argument 'osc' of command @param is not found in the argument list of rcc_set_sysclk_source(enum rcc_osc clk)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:395: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:395: warning: The following parameters of rcc_set_sysclk_source(enum rcc_osc clk) are not documented:
   parameter 'clk'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:449: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:195: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:475: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:207: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_f03.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command

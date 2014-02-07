@@ -1,8 +1,10 @@
 var memorymap_8h =
 [
     [ "ADC_BASE", "memorymap_8h.html#ad06cb9e5985bd216a376f26f22303cd6", null ],
+    [ "BX_CAN1_BASE", "memorymap_8h.html#a8d87e40f2ea2248a5241f5f9cb014de9", null ],
     [ "CEC_BASE", "memorymap_8h.html#aacb77bc44b3f8c87ab98f241e760e440", null ],
     [ "CRC_BASE", "memorymap_8h.html#a656a447589e785594cbf2f45c835ad7e", null ],
+    [ "CRS_BASE", "memorymap_8h.html#a53cd25310ec0663a7395042bd860fedc", null ],
     [ "DAC_BASE", "memorymap_8h.html#ad18d0b914c7f68cecbee1a2d23a67d38", null ],
     [ "DBGMCU_BASE", "memorymap_8h.html#a4adaf4fd82ccc3a538f1f27a70cdbbef", null ],
     [ "DESIG_FLASH_SIZE_BASE", "memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1", null ],
@@ -18,6 +20,7 @@ var memorymap_8h =
     [ "GPIO_PORT_B_BASE", "memorymap_8h.html#a76f2426fde990408388cc7e23d63444e", null ],
     [ "GPIO_PORT_C_BASE", "memorymap_8h.html#ac3754540649792975085507caf98b70f", null ],
     [ "GPIO_PORT_D_BASE", "memorymap_8h.html#afc8d20f5f6ce85201a9682a37036445d", null ],
+    [ "GPIO_PORT_E_BASE", "memorymap_8h.html#a512bc9a47ce4bccdcbcaa9a80620d559", null ],
     [ "GPIO_PORT_F_BASE", "memorymap_8h.html#aeb59b5ce54ec229dc4697a0d3b387401", null ],
     [ "I2C1_BASE", "memorymap_8h.html#acd72dbffb1738ca87c838545c4eb85a3", null ],
     [ "I2C2_BASE", "memorymap_8h.html#a04bda70f25c795fb79f163b633ad4a5d", null ],
@@ -44,8 +47,12 @@ var memorymap_8h =
     [ "TIM2_BASE", "memorymap_8h.html#a00d0fe6ad532ab32f0f81cafca8d3aa5", null ],
     [ "TIM3_BASE", "memorymap_8h.html#af0c34a518f87e1e505cd2332e989564a", null ],
     [ "TIM6_BASE", "memorymap_8h.html#a8268ec947929f192559f28c6bf7d1eac", null ],
+    [ "TIM7_BASE", "memorymap_8h.html#a0ebf54364c6a2be6eb19ded6b18b6387", null ],
     [ "TSC_BASE", "memorymap_8h.html#a2bba7a31caeacaacd433abb71781e0af", null ],
     [ "USART1_BASE", "memorymap_8h.html#a86162ab3f740db9026c1320d46938b4d", null ],
     [ "USART2_BASE", "memorymap_8h.html#ade83162a04bca0b15b39018a8e8ec090", null ],
+    [ "USART3_BASE", "memorymap_8h.html#abe0d6539ac0026d598274ee7f45b0251", null ],
+    [ "USART4_BASE", "memorymap_8h.html#afa384bb1e7d610a806f7c1f1dbc72ac5", null ],
+    [ "USB_DEV_FS_BASE", "memorymap_8h.html#abc2885c95e0fe23dcd7ebf09f495acea", null ],
     [ "WWDG_BASE", "memorymap_8h.html#a9a5bf4728ab93dea5b569f5b972cbe62", null ]
 ];

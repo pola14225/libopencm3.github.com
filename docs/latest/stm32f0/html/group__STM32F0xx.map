@@ -3,15 +3,16 @@
 <area shape="rect" id="node2" href="$group__dac__file.html" title="libopencm3 STM32F0xx DAC " alt="" coords="159,61,209,94"/>
 <area shape="rect" id="node3" href="$group__usart__file.html" title="libopencm3 STM32F0xx USART " alt="" coords="151,117,217,150"/>
 <area shape="rect" id="node4" href="$group__STM32F0xx-rcc-file.html" title="libopencm3 STM32F0xx Reset and Clock Control " alt="" coords="159,173,209,206"/>
-<area shape="rect" id="node5" href="$group__iwdg__file.html" title="libopencm3 STM32F0xx Independent Watchdog Timer " alt="" coords="155,229,213,262"/>
-<area shape="rect" id="node6" href="$group__dma__file.html" title="libopencm3 STM32F0xx DMA " alt="" coords="159,285,209,318"/>
-<area shape="rect" id="node7" href="$group__syscfg__file.html" title="libopencm3 STM32F0xx SYSCFG " alt="" coords="147,341,221,374"/>
-<area shape="rect" id="node8" href="$group__comp__file.html" title="libopencm3 STM32F0xx COMP " alt="" coords="153,397,215,430"/>
-<area shape="rect" id="node9" href="$group__pwr__file.html" title="libopencm3 STM32F0xx Power Control " alt="" coords="157,453,211,486"/>
-<area shape="rect" id="node10" href="$group__rtc__file.html" title="libopencm3 STM32F0xx RTC " alt="" coords="160,509,208,542"/>
-<area shape="rect" id="node12" href="$group__crc__file.html" title="libopencm3 STM32F0xx CRC " alt="" coords="159,565,209,598"/>
-<area shape="rect" id="node13" href="$group__adc__file.html" title="libopencm3 STM32F0xx Analog to Digital Converters " alt="" coords="159,621,209,654"/>
-<area shape="rect" id="node14" href="$group__i2c__file.html" title="libopencm3 STM32F0xx I2C " alt="" coords="163,677,205,710"/>
-<area shape="rect" id="node15" href="$group__flash__file.html" title="libopencm3 STM32F05x FLASH " alt="" coords="152,733,216,766"/>
-<area shape="rect" id="node16" href="$group__timer__file.html" title="libopencm3 STM32F0xx Timers " alt="" coords="153,789,215,822"/>
+<area shape="rect" id="node5" href="$group__crs__file.html" title="libopencm3 STM32F0xx Clock Recovery Subsystem " alt="" coords="159,229,209,262"/>
+<area shape="rect" id="node6" href="$group__iwdg__file.html" title="libopencm3 STM32F0xx Independent Watchdog Timer " alt="" coords="155,285,213,318"/>
+<area shape="rect" id="node7" href="$group__dma__file.html" title="libopencm3 STM32F0xx DMA " alt="" coords="159,341,209,374"/>
+<area shape="rect" id="node8" href="$group__syscfg__file.html" title="libopencm3 STM32F0xx SYSCFG " alt="" coords="147,397,221,430"/>
+<area shape="rect" id="node9" href="$group__comp__file.html" title="libopencm3 STM32F0xx COMP " alt="" coords="153,453,215,486"/>
+<area shape="rect" id="node10" href="$group__pwr__file.html" title="libopencm3 STM32F0xx Power Control " alt="" coords="157,509,211,542"/>
+<area shape="rect" id="node11" href="$group__rtc__file.html" title="libopencm3 STM32F0xx RTC " alt="" coords="160,565,208,598"/>
+<area shape="rect" id="node13" href="$group__crc__file.html" title="libopencm3 STM32F0xx CRC " alt="" coords="159,621,209,654"/>
+<area shape="rect" id="node14" href="$group__adc__file.html" title="libopencm3 STM32F0xx Analog to Digital Converters " alt="" coords="159,677,209,710"/>
+<area shape="rect" id="node15" href="$group__i2c__file.html" title="libopencm3 STM32F0xx I2C " alt="" coords="163,733,205,766"/>
+<area shape="rect" id="node16" href="$group__flash__file.html" title="libopencm3 STM32F05x FLASH " alt="" coords="152,789,216,822"/>
+<area shape="rect" id="node17" href="$group__timer__file.html" title="libopencm3 STM32F0xx Timers " alt="" coords="153,845,215,878"/>
 </map>
