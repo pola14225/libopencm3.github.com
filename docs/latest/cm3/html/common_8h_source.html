@@ -180,10 +180,10 @@ $(document).ready(function(){initNavTree('common_8h_source.html','');});
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">/* Generic bit-band I/O accessor functions */</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="common_8h.html#a91288ffebd7cc75b3ffef37a1908f903">   56</a></span>&#160;<span class="preprocessor">#define BBIO_SRAM(addr, bit) \</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">        MMIO8(((addr) &amp; 0x0FFFFF) * 32 + 0x22000000 + (bit) * 4)</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">        MMIO32((((uint32_t)addr) &amp; 0x0FFFFF) * 32 + 0x22000000 + (bit) * 4)</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="common_8h.html#ababcd1043a94143801dae779d1559c4c">   59</a></span>&#160;<span class="preprocessor">#define BBIO_PERIPH(addr, bit) \</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">        MMIO8(((addr) &amp; 0x0FFFFF) * 32 + 0x42000000 + (bit) * 4)</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">        MMIO32((((uint32_t)addr) &amp; 0x0FFFFF) * 32 + 0x42000000 + (bit) * 4)</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">/* Generic bit definition */</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="common_8h.html#ad4d43f8748b542bce39e18790f845ecc">   63</a></span>&#160;<span class="preprocessor">#define BIT0  (1&lt;&lt;0)</span></div>
@@ -226,7 +226,7 @@ $(document).ready(function(){initNavTree('common_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="common_8h.html">common.h</a></li>
-    <li class="footer">Generated on Wed Feb 12 2014 17:21:14 for libopencm3 by
+    <li class="footer">Generated on Thu Feb 13 2014 21:21:08 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>
