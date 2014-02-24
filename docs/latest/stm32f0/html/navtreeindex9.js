@@ -1,5 +1,10 @@
 var NAVTREEINDEX9 =
 {
+"group__dma__file.html#ga5e6948cc934466d0b26c6fffaecdb999":[5,0,5,24],
+"group__dma__file.html#ga6a414141caca0417be5def3b1c8e661a":[5,0,5,2],
+"group__dma__file.html#ga7a04611f195e968869795da7bb1a962e":[5,0,5,3],
+"group__dma__file.html#ga815827721ac00bc6c5861ac72e969da6":[5,0,5,13],
+"group__dma__file.html#ga8ceb0c8c8ce56a288bca8180d426c178":[5,0,5,8],
 "group__dma__file.html#ga9bbce5e1378bc9468a7ab36e1994139b":[5,0,5,9],
 "group__dma__file.html#gaa0cf00a33e2e4db3678fb03ea9df9848":[5,0,5,15],
 "group__dma__file.html#gaa0e2c035b7be3a35d966b5d3f4576cd6":[5,0,5,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX9 =
 "group__i2c__clock.html#gaeb18bc8aee62ce8eac7959ef196d1836":[5,1,10,1,14],
 "group__i2c__clock.html#gaeba1c8b156cf45c9c77c7cb1de74e52e":[5,1,10,1,0],
 "group__i2c__clock.html#gaf5111a5a72cf7ec21890de795e52e8f0":[5,1,10,1,15],
-"group__i2c__clock.html#gaf8499b5642b94779d31ae8564e3a5f24":[5,1,10,1,39],
-"group__i2c__defines.html":[5,1,10],
-"group__i2c__defines.html#ga001198ff898802888edf58f56d5371c9":[5,1,10,34],
-"group__i2c__defines.html#ga0c0648dd9ea73bcf81fe5fcae6dfa5b5":[5,1,10,22],
-"group__i2c__defines.html#ga0fc2e57eeb3efee6810e6ca3c5df4cf8":[5,1,10,80],
-"group__i2c__defines.html#ga16c892319b9438eab63cf4ea3a15f4ae":[5,1,10,83]
+"group__i2c__clock.html#gaf8499b5642b94779d31ae8564e3a5f24":[5,1,10,1,39]
 };

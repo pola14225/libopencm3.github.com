@@ -1,5 +1,10 @@
 var NAVTREEINDEX16 =
 {
+"group__tim__sms.html#ga769b674450b04eb3d56f09ccbf65fef6":[9,1,16,7,5],
+"group__tim__sms.html#ga8bd33af5ec1303addf55d48f78314892":[9,1,16,7,6],
+"group__tim__sms.html#gaba29d0798b2816e660e3cf262150c64e":[9,1,16,7,8],
+"group__tim__sms.html#gad292ce74da931b51c8b7094f2ebc9b67":[9,1,16,7,3],
+"group__tim__sms.html#gafcdf041cc0b25aecc491e6254c6c61ce":[9,1,16,7,0],
 "group__tim__sr__values.html":[9,1,16,9],
 "group__tim__sr__values.html#ga25a48bf099467169aa50464fbf462bd8":[9,1,16,9,3],
 "group__tim__sr__values.html#ga3b7798da5863d559ea9a642af6658050":[9,1,16,9,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX16 =
 "group__timer__defines.html#ga7178f106837f46d46c0c3d9869693b5e":[9,1,16,187],
 "group__timer__defines.html#ga71f1515c2ab3f2ccc74077337ded51ec":[9,1,16,406],
 "group__timer__defines.html#ga720bb9ac13e8666c5a829d11b83c2487":[9,1,16,357],
-"group__timer__defines.html#ga726dada34e571a8e0ee4fbdfc0e069bf":[9,1,16,354],
-"group__timer__defines.html#ga7320edc3c288f3c4298ec09a0ccaff8c":[9,1,16,299],
-"group__timer__defines.html#ga732a5c7c2c0f7588688a729879b9aa67":[9,1,16,304],
-"group__timer__defines.html#ga73924c8035f8767ff038bf7f61ce5fe4":[9,1,16,176],
-"group__timer__defines.html#ga73de273e96ade498afdadaff04a16e70":[9,1,16,306],
-"group__timer__defines.html#ga74250b040dd9fd9c09dcc54cdd6d86d8":[9,1,16,145]
+"group__timer__defines.html#ga726dada34e571a8e0ee4fbdfc0e069bf":[9,1,16,354]
 };

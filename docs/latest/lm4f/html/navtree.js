@@ -21,6 +21,11 @@ var NAVTREE =
     [ "EFM32 Giant Gecko", "../../efm32gg/html/modules.html", null ],
     [ "EFM32 Leopard Gecko", "../../efm32lg/html/modules.html", null ],
     [ "EFM32 Tiny Gecko", "../../efm32tg/html/modules.html", null ],
+    [ "SAM3A", "../../sam3a/html/modules.html", null ],
+    [ "SAM3N", "../../sam3n/html/modules.html", null ],
+    [ "SAM3S", "../../sam3s/html/modules.html", null ],
+    [ "SAM3U", "../../sam3u/html/modules.html", null ],
+    [ "SAM3X", "../../sam3x/html/modules.html", null ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
@@ -38,14 +43,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__gpio__defines.html#ggaf59a0ba6300bcfc24d4dbf13000a2fbea001639d96fae849f0c4672b265237da1",
-"group__systemcontrol__defines.html#ga7be4e4e29831cd4fbf146d72ee84fa39",
-"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab7be18f91861ada479d141a71cdc4a73",
-"group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a6cf07bc1412bbf702f39ad478add22fc",
-"rcc_8c.html#gae31973474f6d00125a57784e84230c86",
-"systemcontrol_8h.html#gabc26d305bf549408317368f84465d181",
-"uart_8c.html",
-"usb_8h.html#ga227db2fe354d138410c90000895bdb97"
+"group__gpio__defines.html#gga620d533a2ccc5296d2f6c8b95bf89fe1a5a5b8916bf45f2a4ff3818fa75f85d27",
+"group__systemcontrol__defines.html#ga75bb789203b3904316be5bbe9b135ffa",
+"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab4aa5c7ee2f1d2001da02150b22d62c2",
+"group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaad90cc425f5ba447773a44a75be6593e2",
+"rcc_8c.html#ga6acaa4f857ca454c3f90f579091b3246",
+"systemcontrol_8h.html#gab858a6231af82b2258787ef5cfe53732",
+"systemcontrol_8h.html#gga216f3c694b4491151311f37062d17d7cafcc5638cfddfd30f1c4f0b72e7621784",
+"usb_8h.html#ga1b7d36d2650b70ee144894419244e4c8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

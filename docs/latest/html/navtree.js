@@ -19,7 +19,12 @@ var NAVTREE =
     [ "EFM32 Gecko", "../efm32g/html/modules.html", null ],
     [ "EFM32 Giant Gecko", "../efm32gg/html/modules.html", null ],
     [ "EFM32 Leopard Gecko", "../efm32lg/html/modules.html", null ],
-    [ "EFM32 Tiny Gecko", "../efm32tg/html/modules.html", null ]
+    [ "EFM32 Tiny Gecko", "../efm32tg/html/modules.html", null ],
+    [ "SAM3A", "../sam3a/html/modules.html", null ],
+    [ "SAM3N", "../sam3n/html/modules.html", null ],
+    [ "SAM3S", "../sam3s/html/modules.html", null ],
+    [ "SAM3U", "../sam3u/html/modules.html", null ],
+    [ "SAM3X", "../sam3x/html/modules.html", null ]
   ] ]
 ];
 

@@ -21,6 +21,11 @@ var NAVTREE =
     [ "EFM32 Giant Gecko", "../../efm32gg/html/modules.html", null ],
     [ "EFM32 Leopard Gecko", "../../efm32lg/html/modules.html", null ],
     [ "EFM32 Tiny Gecko", "../../efm32tg/html/modules.html", null ],
+    [ "SAM3A", "../../sam3a/html/modules.html", null ],
+    [ "SAM3N", "../../sam3n/html/modules.html", null ],
+    [ "SAM3S", "../../sam3s/html/modules.html", null ],
+    [ "SAM3U", "../../sam3u/html/modules.html", null ],
+    [ "SAM3X", "../../sam3x/html/modules.html", null ],
     [ "Data Structures", null, [
       [ "Data Structures", "annotated.html", "annotated" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -48,8 +53,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__usb__type__defines.html#gaca86007d66ae94421fd4f93c0b96b04a",
-"usb__f107_8c.html#ga5adac4ccb88c72946fa692670d0bfc16"
+"group__usb__standard__file.html#gad9327961f96b6203ac232d69d53afcf6",
+"usb__f103_8c.html#gaf75394477d6005c2032c0d2aebb7a9a6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

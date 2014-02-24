@@ -1,0 +1,4 @@
+<map id="pmc_clock_setup_in_rc_4mhz_out_84mhz" name="pmc_clock_setup_in_rc_4mhz_out_84mhz">
+<area shape="rect" id="node3" href="$pmc_8c.html#af4f2dabe877cdf9f9d85513b9359c92d" title="pmc_mck_set_source" alt="" coords="207,5,356,38"/>
+<area shape="rect" id="node5" href="$pmc_8c.html#a912dd4094c072a0cee89329d3feb6898" title="pmc_plla_config" alt="" coords="224,61,339,94"/>
+</map>

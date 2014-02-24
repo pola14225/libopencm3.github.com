@@ -64,6 +64,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../efm32gg/html/modules.html"><span>EFM32&#160;Giant&#160;Gecko</span></a></li>
       <li><a href="../../efm32lg/html/modules.html"><span>EFM32&#160;Leopard&#160;Gecko</span></a></li>
       <li><a href="../../efm32tg/html/modules.html"><span>EFM32&#160;Tiny&#160;Gecko</span></a></li>
+      <li><a href="../../sam3a/html/modules.html"><span>SAM3A</span></a></li>
+      <li><a href="../../sam3n/html/modules.html"><span>SAM3N</span></a></li>
+      <li><a href="../../sam3s/html/modules.html"><span>SAM3S</span></a></li>
+      <li><a href="../../sam3u/html/modules.html"><span>SAM3U</span></a></li>
+      <li><a href="../../sam3x/html/modules.html"><span>SAM3X</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -1773,7 +1778,7 @@ these parameters are writable only when the channel is off.</dd></dl>
 
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00116">116</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8h_source.html#l00055">RCC_APB1RSTR</a>, <a class="el" href="rcc_8h_source.html#l00310">RCC_APB1RSTR_TIM2RST</a>, <a class="el" href="rcc_8h_source.html#l00309">RCC_APB1RSTR_TIM3RST</a>, <a class="el" href="rcc_8h_source.html#l00308">RCC_APB1RSTR_TIM4RST</a>, <a class="el" href="rcc_8h_source.html#l00307">RCC_APB1RSTR_TIM5RST</a>, <a class="el" href="rcc_8h_source.html#l00306">RCC_APB1RSTR_TIM6RST</a>, <a class="el" href="rcc_8h_source.html#l00305">RCC_APB1RSTR_TIM7RST</a>, <a class="el" href="rcc_8h_source.html#l00054">RCC_APB2RSTR</a>, <a class="el" href="rcc_8h_source.html#l00269">RCC_APB2RSTR_TIM1RST</a>, <a class="el" href="rcc_8h_source.html#l00267">RCC_APB2RSTR_TIM8RST</a>, <a class="el" href="rcc__common__all_8c_source.html#l00103">rcc_peripheral_clear_reset()</a>, <a class="el" href="rcc__common__all_8c_source.html#l00082">rcc_peripheral_reset()</a>, <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00049">TIM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00050">TIM3</a>, <a class="el" href="timer__common__all_8h_source.html#l00051">TIM4</a>, <a class="el" href="timer__common__all_8h_source.html#l00052">TIM5</a>, <a class="el" href="timer__common__all_8h_source.html#l00053">TIM6</a>, <a class="el" href="timer__common__all_8h_source.html#l00054">TIM7</a>, and <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>.</p>
+<p>References <a class="el" href="rcc_8h_source.html#l00055">RCC_APB1RSTR</a>, <a class="el" href="rcc_8h_source.html#l00340">RCC_APB1RSTR_TIM2RST</a>, <a class="el" href="rcc_8h_source.html#l00339">RCC_APB1RSTR_TIM3RST</a>, <a class="el" href="rcc_8h_source.html#l00338">RCC_APB1RSTR_TIM4RST</a>, <a class="el" href="rcc_8h_source.html#l00337">RCC_APB1RSTR_TIM5RST</a>, <a class="el" href="rcc_8h_source.html#l00336">RCC_APB1RSTR_TIM6RST</a>, <a class="el" href="rcc_8h_source.html#l00335">RCC_APB1RSTR_TIM7RST</a>, <a class="el" href="rcc_8h_source.html#l00054">RCC_APB2RSTR</a>, <a class="el" href="rcc_8h_source.html#l00299">RCC_APB2RSTR_TIM1RST</a>, <a class="el" href="rcc_8h_source.html#l00297">RCC_APB2RSTR_TIM8RST</a>, <a class="el" href="rcc__common__all_8c_source.html#l00103">rcc_peripheral_clear_reset()</a>, <a class="el" href="rcc__common__all_8c_source.html#l00082">rcc_peripheral_reset()</a>, <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00049">TIM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00050">TIM3</a>, <a class="el" href="timer__common__all_8h_source.html#l00051">TIM4</a>, <a class="el" href="timer__common__all_8h_source.html#l00052">TIM5</a>, <a class="el" href="timer__common__all_8h_source.html#l00053">TIM6</a>, <a class="el" href="timer__common__all_8h_source.html#l00054">TIM7</a>, and <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -3211,7 +3216,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 18 2014 02:21:37 for libopencm3 by
+    <li class="footer">Generated on Mon Feb 24 2014 20:21:37 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

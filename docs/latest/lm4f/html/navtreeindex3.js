@@ -1,5 +1,10 @@
 var NAVTREEINDEX3 =
 {
+"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab4aa5c7ee2f1d2001da02150b22d62c2":[12,1,3,251,149],
+"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab52675509b66c5eb36a859554102f26c":[12,1,3,251,139],
+"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab58916255b8946d66b0cf6a7c7ee18ae":[12,1,3,251,44],
+"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab5b9111da3ae69f232b705e8bbeccc1a":[12,1,3,251,109],
+"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab780a6472576a549c8282bd72424f6ff":[12,1,3,251,128],
 "group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab7be18f91861ada479d141a71cdc4a73":[12,1,3,251,59],
 "group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab8b4af332d6573bfa11f678c012a6a30":[12,1,3,251,28],
 "group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab8c14dd3cc4990cb7c078208458a850d":[12,1,3,251,160],
@@ -244,10 +249,5 @@ var NAVTREEINDEX3 =
 "group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7eafcfec516eb93a5484263c358cfe27fe9":[12,1,4,121,6],
 "group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaa38e4b2e7c5b38024a01f2195748b77f3":[12,1,4,122,3],
 "group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaaa80d2d8ea61454045ebe71d155e85b3d":[12,1,4,122,0],
-"group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaad908a637b1dd23f93b149dd2d8bdfdb8":[12,1,4,122,2],
-"group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaad90cc425f5ba447773a44a75be6593e2":[12,1,4,122,1],
-"group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaaf20f92778e29fd61d30d276c03353085":[12,1,4,122,4],
-"group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a0ba87eebf5636a89499d1c75f4524fc5":[12,1,4,119,1],
-"group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a38c34c00f7ccd0a9424cf3d48338a4c2":[12,1,4,119,4],
-"group__uart__defines.html#ggaf79e87f1a6f23cc0501f4d2e3667a848a3b6765a42c9e8794949062283819221a":[12,1,4,119,3]
+"group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaad908a637b1dd23f93b149dd2d8bdfdb8":[12,1,4,122,2]
 };

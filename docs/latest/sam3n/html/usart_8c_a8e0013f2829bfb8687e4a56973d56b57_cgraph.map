@@ -1,0 +1,4 @@
+<map id="usart_recv_blocking" name="usart_recv_blocking">
+<area shape="rect" id="node3" href="$usart_8c.html#a0f539661fcdc2e82c4489152393f5d74" title="usart_recv" alt="" coords="228,5,311,38"/>
+<area shape="rect" id="node5" href="$usart_8c.html#a4b3dd5bff30927f603d5acc433cc2073" title="usart_wait_recv_ready" alt="" coords="193,61,345,94"/>
+</map>
