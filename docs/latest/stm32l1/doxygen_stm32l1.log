@@ -32,6 +32,7 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1896: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_l1f013.h:147: warning: group dma_if_offset: ignoring title "DMA Interrupt Flag Offsets within channel flag" that does not match old title "DMA Interrupt Flag Offsets within stream flag group."
 
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/lcd.h:49: warning: Member LCD_CR found in multiple @defgroup groups! The member will be put in group lcd_reg_base, and not in group lcd_defines
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
   parameter 'sector'

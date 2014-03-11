@@ -9,6 +9,7 @@ var group__STM32L1xx__defines =
     [ "GPIO Defines", "group__gpio__defines.html", "group__gpio__defines" ],
     [ "I2C Defines", "group__i2c__defines.html", "group__i2c__defines" ],
     [ "IWDG Defines", "group__iwdg__defines.html", "group__iwdg__defines" ],
+    [ "LCD Defines", "group__lcd__defines.html", "group__lcd__defines" ],
     [ "PWR Defines", "group__pwr__defines.html", "group__pwr__defines" ],
     [ "RCC Defines", "group__rcc__defines.html", "group__rcc__defines" ],
     [ "RTC Defines", "group__rtc__defines.html", "group__rtc__defines" ],
