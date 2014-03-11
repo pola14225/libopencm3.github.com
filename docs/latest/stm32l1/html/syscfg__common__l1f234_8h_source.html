@@ -165,40 +165,38 @@ $(document).ready(function(){initNavTree('syscfg__common__l1f234_8h_source.html'
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define LIBOPENCM3_SYSCFG_COMMON_L1F234_H</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">/**@{*/</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &lt;libopencm3/stm32/memorymap.h&gt;</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">/* --- SYSCFG registers ---------------------------------------------------- */</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">/* --- SYSCFG registers ---------------------------------------------------- */</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#gae2c143dc8c0abf30726dd46a816bb7c7">   42</a></span>&#160;<span class="preprocessor">#define SYSCFG_MEMRM                    MMIO32(SYSCFG_BASE + 0x00)</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#gae2c143dc8c0abf30726dd46a816bb7c7">   40</a></span>&#160;<span class="preprocessor">#define SYSCFG_MEMRM                    MMIO32(SYSCFG_BASE + 0x00)</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#ga463d835825838c01773347be05fa9ef8">   42</a></span>&#160;<span class="preprocessor">#define SYSCFG_PMC                      MMIO32(SYSCFG_BASE + 0x04)</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#ga463d835825838c01773347be05fa9ef8">   44</a></span>&#160;<span class="preprocessor">#define SYSCFG_PMC                      MMIO32(SYSCFG_BASE + 0x04)</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/* External interrupt configuration registers [0..3] (SYSCFG_EXTICR[1..4]) */</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#gae817e40e86c38da470d9a40a5584277d">   47</a></span>&#160;<span class="preprocessor">#define SYSCFG_EXTICR(i)                MMIO32(SYSCFG_BASE + 0x08 + (i)*4)</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#ga55e119f87c84a7b1b9ba01c2ec3a6b4f">   48</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SYSCFG_EXTICR1                  SYSCFG_EXTICR(0)</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#ga80c96b4d593d8ef618392d6db611979a">   49</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SYSCFG_EXTICR2                  SYSCFG_EXTICR(1)</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#gaa5daf054b73b2895e304e8a36463a616">   50</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SYSCFG_EXTICR3                  SYSCFG_EXTICR(2)</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#gafa4bb2e0a5c22355be556b7734fe0c59">   51</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SYSCFG_EXTICR4                  SYSCFG_EXTICR(3)</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">/* External interrupt configuration registers [0..3] (SYSCFG_EXTICR[1..4]) */</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#gae817e40e86c38da470d9a40a5584277d">   45</a></span>&#160;<span class="preprocessor">#define SYSCFG_EXTICR(i)                MMIO32(SYSCFG_BASE + 0x08 + (i)*4)</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#ga55e119f87c84a7b1b9ba01c2ec3a6b4f">   46</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SYSCFG_EXTICR1                  SYSCFG_EXTICR(0)</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#ga80c96b4d593d8ef618392d6db611979a">   47</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SYSCFG_EXTICR2                  SYSCFG_EXTICR(1)</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#gaa5daf054b73b2895e304e8a36463a616">   48</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SYSCFG_EXTICR3                  SYSCFG_EXTICR(2)</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#gafa4bb2e0a5c22355be556b7734fe0c59">   49</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SYSCFG_EXTICR4                  SYSCFG_EXTICR(3)</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#ga76822f104934b3c0682ec2e12e903f30">   51</a></span>&#160;<span class="preprocessor">#define SYSCFG_CMPCR                    MMIO32(SYSCFG_BASE + 0x20)</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="group__syscfg__defines.html#ga76822f104934b3c0682ec2e12e903f30">   53</a></span>&#160;<span class="preprocessor">#define SYSCFG_CMPCR                    MMIO32(SYSCFG_BASE + 0x20)</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">/** @cond */</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#warning &quot;syscfg_common_l1f234.h should not be included explicitly,&quot;</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#warning &quot;only via syscfg.h&quot;</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span><span class="comment">/** @endcond */</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span><span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">/** @cond */</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#warning &quot;syscfg_common_l1f234.h should not be included explicitly,&quot;</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#warning &quot;only via syscfg.h&quot;</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span><span class="comment">/** @endcond */</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="syscfg__common__l1f234_8h.html">syscfg_common_l1f234.h</a></li>
-    <li class="footer">Generated on Sat Mar 1 2014 23:22:25 for libopencm3 by
+    <li class="footer">Generated on Tue Mar 11 2014 18:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

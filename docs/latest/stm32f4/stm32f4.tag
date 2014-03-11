@@ -4,151 +4,150 @@
     <name>adc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>adc_8c</filename>
-    <includes id="adc_8h" name="adc.h" local="no" imported="no">libopencm3/stm32/f4/adc.h</includes>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
       <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time_on_all_channels</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
       <arglist>(uint32_t adc, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_power_on</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_clk_prescale</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga84de145d34b425fda2854ce2d0797c71</anchor>
       <arglist>(uint32_t prescale)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_multi_mode</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga78cb8303ee1036a3c8019c5653390ea1</anchor>
       <arglist>(uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_regular</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga76c6bccdcf0c0c25bacd9aef5aa41802</anchor>
       <arglist>(uint32_t adc, uint32_t trigger, uint32_t polarity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_regular</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaf91d45a5dcbc9d884a9f878ff6323bbe</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_injected</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga80a7e5a8b30daf2377e9746a3ba342e6</anchor>
       <arglist>(uint32_t adc, uint32_t trigger, uint32_t polarity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_injected</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_resolution</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga6a321611830c50c5aba6d97471dc9eb4</anchor>
       <arglist>(uint32_t adc, uint32_t resolution)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_overrun_interrupt</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga9f618863d8b3ae15dc18035ce894e746</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_overrun_interrupt</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga154b9e664c58d05e70fb194f9457a61e</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_get_overrun_flag</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gad8748ca84ef6a2301ea78d0a88bdb177</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_clear_overrun_flag</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_eoc_after_each</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga7d5d9107ff8181171c5cf5c76b971fff</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_eoc_after_group</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gac297992b6d3f1162330dcc84e3245318</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dma_continue</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga3b823b874b5355a8ce0c99dd2767fa58</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dma_terminate</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga29387ac7c1069343849a29d77cdcd4c8</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_awd</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaaecf7b26e7d55235fa4e99c93fc4da9d</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga9e06102aeaf2f57f34c2b12124bd8be6</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaf48a61c4eabe5a06980f2379fe21e250</anchor>
       <arglist>()</arglist>
     </member>
@@ -1855,112 +1854,112 @@
     <member kind="function">
       <type>void</type>
       <name>adc_set_clk_prescale</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga84de145d34b425fda2854ce2d0797c71</anchor>
       <arglist>(uint32_t prescaler)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_multi_mode</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga78cb8303ee1036a3c8019c5653390ea1</anchor>
       <arglist>(uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_regular</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga76c6bccdcf0c0c25bacd9aef5aa41802</anchor>
       <arglist>(uint32_t adc, uint32_t trigger, uint32_t polarity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_injected</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga80a7e5a8b30daf2377e9746a3ba342e6</anchor>
       <arglist>(uint32_t adc, uint32_t trigger, uint32_t polarity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_resolution</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga6a321611830c50c5aba6d97471dc9eb4</anchor>
       <arglist>(uint32_t adc, uint32_t resolution)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_overrun_interrupt</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga9f618863d8b3ae15dc18035ce894e746</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_overrun_interrupt</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga154b9e664c58d05e70fb194f9457a61e</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_get_overrun_flag</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gad8748ca84ef6a2301ea78d0a88bdb177</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_clear_overrun_flag</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_awd</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaaecf7b26e7d55235fa4e99c93fc4da9d</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_eoc_after_each</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga7d5d9107ff8181171c5cf5c76b971fff</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_eoc_after_group</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gac297992b6d3f1162330dcc84e3245318</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dma_continue</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga3b823b874b5355a8ce0c99dd2767fa58</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dma_terminate</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga29387ac7c1069343849a29d77cdcd4c8</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga9e06102aeaf2f57f34c2b12124bd8be6</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaf48a61c4eabe5a06980f2379fe21e250</anchor>
       <arglist>(void)</arglist>
     </member>
@@ -3309,7 +3308,6 @@
     <name>crc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>crc_8c</filename>
-    <includes id="crc__common__all_8h" name="crc_common_all.h" local="no" imported="no">libopencm3/stm32/common/crc_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>crc.h</name>
@@ -4171,7 +4169,6 @@
     <name>dac.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>dac_8c</filename>
-    <includes id="dac__common__all_8h" name="dac_common_all.h" local="no" imported="no">libopencm3/stm32/common/dac_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>dac.h</name>
@@ -5236,7 +5233,6 @@
     <name>dma.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>dma_8c</filename>
-    <includes id="dma__common__f24_8h" name="dma_common_f24.h" local="no" imported="no">libopencm3/stm32/common/dma_common_f24.h</includes>
   </compound>
   <compound kind="file">
     <name>dma.h</name>
@@ -11184,7 +11180,6 @@
     <name>gpio_common_f24.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>gpio__common__f24_8h</filename>
-    <includes id="gpio__common__all_8h" name="gpio_common_all.h" local="no" imported="no">libopencm3/stm32/common/gpio_common_all.h</includes>
     <includes id="gpio__common__f234_8h" name="gpio_common_f234.h" local="no" imported="no">libopencm3/stm32/common/gpio_common_f234.h</includes>
     <member kind="define">
       <type>#define</type>
@@ -11422,7 +11417,6 @@
     <name>hash.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>hash_8c</filename>
-    <includes id="hash__common__f24_8h" name="hash_common_f24.h" local="no" imported="no">libopencm3/stm32/common/hash_common_f24.h</includes>
   </compound>
   <compound kind="file">
     <name>hash.h</name>
@@ -11815,7 +11809,6 @@
     <name>i2c.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>i2c_8c</filename>
-    <includes id="spi__common__all_8h" name="spi_common_all.h" local="no" imported="no">libopencm3/stm32/common/spi_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>i2c.h</name>
@@ -13068,7 +13061,6 @@
     <name>iwdg.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>iwdg_8c</filename>
-    <includes id="iwdg__common__all_8h" name="iwdg_common_all.h" local="no" imported="no">libopencm3/stm32/common/iwdg_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>iwdg.h</name>
@@ -14374,9 +14366,6 @@
     <name>rcc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>rcc_8c</filename>
-    <includes id="rcc_8h" name="rcc.h" local="no" imported="no">libopencm3/stm32/f4/rcc.h</includes>
-    <includes id="pwr_8h" name="pwr.h" local="no" imported="no">libopencm3/stm32/f4/pwr.h</includes>
-    <includes id="flash_8h" name="flash.h" local="no" imported="no">libopencm3/stm32/f4/flash.h</includes>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
@@ -18659,7 +18648,6 @@
     <name>rtc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>rtc_8c</filename>
-    <includes id="rtc__common__l1f024_8h" name="rtc_common_l1f024.h" local="no" imported="no">libopencm3/stm32/common/rtc_common_l1f024.h</includes>
     <member kind="function">
       <type>void</type>
       <name>rtc_enable_wakeup_timer</name>
@@ -20067,7 +20055,6 @@
     <name>spi.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>spi_8c</filename>
-    <includes id="spi__common__f24_8h" name="spi_common_f24.h" local="no" imported="no">libopencm3/stm32/common/spi_common_f24.h</includes>
   </compound>
   <compound kind="file">
     <name>spi.h</name>
@@ -21650,7 +21637,6 @@
     <name>timer.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>timer_8c</filename>
-    <includes id="timer__common__f24_8h" name="timer_common_f24.h" local="no" imported="no">libopencm3/stm32/common/timer_common_f24.h</includes>
   </compound>
   <compound kind="file">
     <name>timer.h</name>
@@ -21668,6 +21654,13 @@
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>ga711ae4623ab95c5cad3d35fd10cb2859</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIMER_IS_ADVANCED</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>ga93610472688804fb0690d3934a356ba1</anchor>
+      <arglist>(periph)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -22229,13 +22222,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM4</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga91a09bad8bdc7a1cb3d85cf49c94c8ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>TIM5</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga5125ff6a23a2ed66e2e19bd196128c14</anchor>
@@ -22253,13 +22239,6 @@
       <name>TIM7</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga49267c49946fd61db6af8b49bcf16394</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga9a3660400b17735e91331f256095810e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -26469,7 +26448,6 @@
     <name>usart.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>usart_8c</filename>
-    <includes id="usart__common__all_8h" name="usart_common_all.h" local="no" imported="no">libopencm3/stm32/common/usart_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>usart.h</name>
@@ -27894,9 +27872,9 @@
     <filename>lgpl_license</filename>
   </compound>
   <compound kind="group">
-    <name>STM32F4xx_adc_defines</name>
+    <name>adc_defines</name>
     <title>ADC Defines</title>
-    <filename>group__STM32F4xx__adc__defines.html</filename>
+    <filename>group__adc__defines.html</filename>
     <subgroup>adc_cr1_res</subgroup>
     <subgroup>adc_trigger_polarity_regular</subgroup>
     <subgroup>adc_trigger_regular</subgroup>
@@ -27907,6 +27885,106 @@
     <subgroup>adc_dma_mode</subgroup>
     <subgroup>adc_delay</subgroup>
     <subgroup>adc_multi_mode</subgroup>
+    <subgroup>adc_reg_base</subgroup>
+    <subgroup>adc_channel</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa80fdd25bb1f30fb64ba99a47628fcb1</anchor>
+      <arglist>(block)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga88ba3b646afe631e6d5eeb8ec579d25a</anchor>
+      <arglist>(block)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga7015caf0db482a0772aadbcdb5a29b98</anchor>
+      <arglist>(block)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SMPR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga5e60a406a0a614680824c2e060a27761</anchor>
+      <arglist>(block)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SMPR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gadc1e8be3bafa939274574732734e2534</anchor>
+      <arglist>(block)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_SR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gabcff75a3a7cb3bd72832317aac2daa44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_CR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2f6aa6e282b5100ef29e7894f40ae352</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_CR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga819a037dbe86c4b403ec7de246f3fdba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_SMPR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8088f1d2624782aeb0252f8d1f38e749</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_SMPR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga388899f782f348c4f4913fa88e1a9041</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JOFR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gabd8f277084841e1dafdf424875028bbf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JOFR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga98bf61bf8a9287d1669ff0fd7c2419c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JOFR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8cf986f2c50e6afa247a9bab63ae9cc6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JOFR4</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga27e7e930905112fba97dbb699e9f073f</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>adc_cr1_res</name>
@@ -31525,7 +31603,7 @@
     <name>STM32F4xx</name>
     <title>STM32F4xx</title>
     <filename>group__STM32F4xx.html</filename>
-    <subgroup>STM32F4xx_adc_file</subgroup>
+    <subgroup>adc_file</subgroup>
     <subgroup>crc_file</subgroup>
     <subgroup>crypto_file</subgroup>
     <subgroup>dac_file</subgroup>
@@ -31546,7 +31624,7 @@
     <name>STM32F4xx_defines</name>
     <title>STM32F4xx Defines</title>
     <filename>group__STM32F4xx__defines.html</filename>
-    <subgroup>STM32F4xx_adc_defines</subgroup>
+    <subgroup>adc_defines</subgroup>
     <subgroup>crc_defines</subgroup>
     <subgroup>crypto_defines</subgroup>
     <subgroup>dac_defines</subgroup>
@@ -44892,13 +44970,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM4</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga91a09bad8bdc7a1cb3d85cf49c94c8ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>TIM5</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga5125ff6a23a2ed66e2e19bd196128c14</anchor>
@@ -44916,13 +44987,6 @@
       <name>TIM7</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga49267c49946fd61db6af8b49bcf16394</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga9a3660400b17735e91331f256095810e</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -45869,157 +45933,424 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>STM32F4xx_adc_file</name>
+    <name>adc_file</name>
     <title>ADC</title>
-    <filename>group__STM32F4xx__adc__file.html</filename>
+    <filename>group__adc__file.html</filename>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
       <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_sample_time_on_all_channels</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
       <arglist>(uint32_t adc, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_power_on</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_clk_prescale</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga84de145d34b425fda2854ce2d0797c71</anchor>
       <arglist>(uint32_t prescale)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_multi_mode</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga78cb8303ee1036a3c8019c5653390ea1</anchor>
       <arglist>(uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_regular</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga76c6bccdcf0c0c25bacd9aef5aa41802</anchor>
       <arglist>(uint32_t adc, uint32_t trigger, uint32_t polarity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_regular</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaf91d45a5dcbc9d884a9f878ff6323bbe</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_external_trigger_injected</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga80a7e5a8b30daf2377e9746a3ba342e6</anchor>
       <arglist>(uint32_t adc, uint32_t trigger, uint32_t polarity)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_external_trigger_injected</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_resolution</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga6a321611830c50c5aba6d97471dc9eb4</anchor>
       <arglist>(uint32_t adc, uint32_t resolution)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_overrun_interrupt</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga9f618863d8b3ae15dc18035ce894e746</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_overrun_interrupt</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga154b9e664c58d05e70fb194f9457a61e</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_get_overrun_flag</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gad8748ca84ef6a2301ea78d0a88bdb177</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_clear_overrun_flag</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_eoc_after_each</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga7d5d9107ff8181171c5cf5c76b971fff</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_eoc_after_group</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gac297992b6d3f1162330dcc84e3245318</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dma_continue</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga3b823b874b5355a8ce0c99dd2767fa58</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_dma_terminate</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga29387ac7c1069343849a29d77cdcd4c8</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>adc_awd</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaaecf7b26e7d55235fa4e99c93fc4da9d</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga9e06102aeaf2f57f34c2b12124bd8be6</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
-      <anchorfile>group__STM32F4xx__adc__file.html</anchorfile>
+      <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaf48a61c4eabe5a06980f2379fe21e250</anchor>
       <arglist>()</arglist>
     </member>
-    <docanchor file="group__STM32F4xx__adc__file" title="Basic ADC Handling API.">adc_f4_api_ex</docanchor>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_off</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_analog_watchdog_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaffa5256174cec880eaea7d82a1caf968</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gab4cc03bbad2f235b9fb8ed1b89e24d25</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_analog_watchdog_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac97660f8ac7f23bd22c5a867d86dc80c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_discontinuous_mode_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga57b3c58283977a60ab7e94b33d502ef8</anchor>
+      <arglist>(uint32_t adc, uint8_t length)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_discontinuous_mode_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga3c7c004f76958f5b9d4c2f66dad7f8df</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_discontinuous_mode_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga214a9ead42c311498474678796e8e768</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_discontinuous_mode_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gafe352fb7c779e3b540056f0dd926e8b3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_automatic_injected_group_conversion</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga9965805fdbb3e7dd26a1afed91cc4fd2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_automatic_injected_group_conversion</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga118817f8db889310eb249519d9b8ae39</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_on_all_channels</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga756eb74470362394a05dacf33f3e647d</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_on_selected_channel</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac59be11190b92659467a130485ed3083</anchor>
+      <arglist>(uint32_t adc, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_scan_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_scan_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eoc_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gab2b359caa41226508e5414a9fdf18fcd</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga59b482216ccaeeeaf22d7c5cfed7f3e2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_awd_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_awd_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eoc_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_left_aligned</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_right_aligned</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad2a065923adced21827480f124ff4a61</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gab96e1ce8d28ce696dc70e231a8da936e</anchor>
+      <arglist>(uint32_t adc, uint8_t reg)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_continuous_conversion_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_single_conversion_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_watchdog_high_threshold</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_watchdog_low_threshold</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_regular_sequence</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_injected_sequence</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_injected_offset</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac3af5b84c1af074f2c9de07b0ed73470</anchor>
+      <arglist>(uint32_t adc, uint8_t reg, uint32_t offset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_dma</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_dma</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <docanchor file="group__adc__file" title="Basic ADC Handling API.">adc_f4_api_ex</docanchor>
+    <docanchor file="group__adc__file" title="Basic ADC Handling API.">adc_api_ex</docanchor>
   </compound>
   <compound kind="group">
     <name>crc_file</name>
@@ -47873,6 +48204,13 @@
       <anchor>ga711ae4623ab95c5cad3d35fd10cb2859</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIMER_IS_ADVANCED</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>ga93610472688804fb0690d3934a356ba1</anchor>
+      <arglist>(periph)</arglist>
+    </member>
     <member kind="function">
       <type>void</type>
       <name>timer_reset</name>
@@ -48608,383 +48946,6 @@
       <anchor>ga761c6089dcd796e78f4f5ba495f7fc37</anchor>
       <arglist>(uint32_t usart, uint32_t flag)</arglist>
     </member>
-  </compound>
-  <compound kind="group">
-    <name>adc_defines</name>
-    <title>Adc_defines</title>
-    <filename>group__adc__defines.html</filename>
-    <subgroup>adc_reg_base</subgroup>
-    <subgroup>adc_channel</subgroup>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SR</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gaa80fdd25bb1f30fb64ba99a47628fcb1</anchor>
-      <arglist>(block)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga88ba3b646afe631e6d5eeb8ec579d25a</anchor>
-      <arglist>(block)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR2</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga7015caf0db482a0772aadbcdb5a29b98</anchor>
-      <arglist>(block)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga5e60a406a0a614680824c2e060a27761</anchor>
-      <arglist>(block)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gadc1e8be3bafa939274574732734e2534</anchor>
-      <arglist>(block)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC1_SR</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gabcff75a3a7cb3bd72832317aac2daa44</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC1_CR1</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga2f6aa6e282b5100ef29e7894f40ae352</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC1_CR2</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga819a037dbe86c4b403ec7de246f3fdba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC1_SMPR1</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga8088f1d2624782aeb0252f8d1f38e749</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC1_SMPR2</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga388899f782f348c4f4913fa88e1a9041</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC1_JOFR1</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>gabd8f277084841e1dafdf424875028bbf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC1_JOFR2</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga98bf61bf8a9287d1669ff0fd7c2419c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC1_JOFR3</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga8cf986f2c50e6afa247a9bab63ae9cc6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC1_JOFR4</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga27e7e930905112fba97dbb699e9f073f</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>adc_file</name>
-    <title>Adc_file</title>
-    <filename>group__adc__file.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_off</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_analog_watchdog_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_analog_watchdog_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaffa5256174cec880eaea7d82a1caf968</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_analog_watchdog_injected</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gab4cc03bbad2f235b9fb8ed1b89e24d25</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_analog_watchdog_injected</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac97660f8ac7f23bd22c5a867d86dc80c</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_discontinuous_mode_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga57b3c58283977a60ab7e94b33d502ef8</anchor>
-      <arglist>(uint32_t adc, uint8_t length)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_discontinuous_mode_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga3c7c004f76958f5b9d4c2f66dad7f8df</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_discontinuous_mode_injected</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga214a9ead42c311498474678796e8e768</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_discontinuous_mode_injected</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gafe352fb7c779e3b540056f0dd926e8b3</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_automatic_injected_group_conversion</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga9965805fdbb3e7dd26a1afed91cc4fd2</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_automatic_injected_group_conversion</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga118817f8db889310eb249519d9b8ae39</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_analog_watchdog_on_all_channels</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga756eb74470362394a05dacf33f3e647d</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_analog_watchdog_on_selected_channel</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac59be11190b92659467a130485ed3083</anchor>
-      <arglist>(uint32_t adc, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_scan_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_scan_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_eoc_interrupt_injected</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gab2b359caa41226508e5414a9fdf18fcd</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_eoc_interrupt_injected</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga59b482216ccaeeeaf22d7c5cfed7f3e2</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_awd_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_awd_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_eoc_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_eoc_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_left_aligned</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_right_aligned</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>adc_eoc</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>adc_eoc_injected</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gad2a065923adced21827480f124ff4a61</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>adc_read_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>adc_read_injected</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gab96e1ce8d28ce696dc70e231a8da936e</anchor>
-      <arglist>(uint32_t adc, uint8_t reg)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_continuous_conversion_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_single_conversion_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_watchdog_high_threshold</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
-      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_watchdog_low_threshold</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
-      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_regular_sequence</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
-      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_injected_sequence</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
-      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_injected_offset</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac3af5b84c1af074f2c9de07b0ed73470</anchor>
-      <arglist>(uint32_t adc, uint8_t reg, uint32_t offset)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_start_conversion_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_start_conversion_injected</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_dma</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_dma</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <docanchor file="group__adc__file" title="Basic ADC Handling API.">adc_api_ex</docanchor>
   </compound>
   <compound kind="struct">
     <name>clock_scale_t</name>

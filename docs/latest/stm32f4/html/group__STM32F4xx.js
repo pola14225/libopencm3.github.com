@@ -1,6 +1,6 @@
 var group__STM32F4xx =
 [
-    [ "ADC", "group__STM32F4xx__adc__file.html", "group__STM32F4xx__adc__file" ],
+    [ "ADC", "group__adc__file.html", "group__adc__file" ],
     [ "CRC", "group__crc__file.html", "group__crc__file" ],
     [ "CRYPTO", "group__crypto__file.html", "group__crypto__file" ],
     [ "DAC", "group__dac__file.html", "group__dac__file" ],

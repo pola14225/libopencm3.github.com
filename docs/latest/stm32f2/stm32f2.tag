@@ -1344,7 +1344,6 @@
     <name>crc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>crc_8c</filename>
-    <includes id="crc__common__all_8h" name="crc_common_all.h" local="no" imported="no">libopencm3/stm32/common/crc_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>crc.h</name>
@@ -2080,7 +2079,6 @@
     <name>dac.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>dac_8c</filename>
-    <includes id="dac__common__all_8h" name="dac_common_all.h" local="no" imported="no">libopencm3/stm32/common/dac_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>dac.h</name>
@@ -3145,7 +3143,6 @@
     <name>dma.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>dma_8c</filename>
-    <includes id="dma__common__f24_8h" name="dma_common_f24.h" local="no" imported="no">libopencm3/stm32/common/dma_common_f24.h</includes>
   </compound>
   <compound kind="file">
     <name>dma.h</name>
@@ -8284,7 +8281,6 @@
     <name>gpio_common_f24.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>gpio__common__f24_8h</filename>
-    <includes id="gpio__common__all_8h" name="gpio_common_all.h" local="no" imported="no">libopencm3/stm32/common/gpio_common_all.h</includes>
     <includes id="gpio__common__f234_8h" name="gpio_common_f234.h" local="no" imported="no">libopencm3/stm32/common/gpio_common_f234.h</includes>
     <member kind="define">
       <type>#define</type>
@@ -8522,7 +8518,6 @@
     <name>hash.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>hash_8c</filename>
-    <includes id="hash__common__f24_8h" name="hash_common_f24.h" local="no" imported="no">libopencm3/stm32/common/hash_common_f24.h</includes>
   </compound>
   <compound kind="file">
     <name>hash.h</name>
@@ -10168,7 +10163,6 @@
     <name>iwdg.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>iwdg_8c</filename>
-    <includes id="iwdg__common__all_8h" name="iwdg_common_all.h" local="no" imported="no">libopencm3/stm32/common/iwdg_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>iwdg.h</name>
@@ -10933,6 +10927,7 @@
     <name>pwr.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f2/</path>
     <filename>pwr_8h</filename>
+    <includes id="pwr__common__all_8h" name="pwr_common_all.h" local="no" imported="no">libopencm3/stm32/common/pwr_common_all.h</includes>
     <member kind="define">
       <type>#define</type>
       <name>PWR_CR_FPDS</name>
@@ -11326,8 +11321,6 @@
     <name>rcc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>rcc_8c</filename>
-    <includes id="rcc_8h" name="rcc.h" local="no" imported="no">libopencm3/stm32/f2/rcc.h</includes>
-    <includes id="flash_8h" name="flash.h" local="no" imported="no">libopencm3/stm32/f2/flash.h</includes>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
@@ -15421,7 +15414,6 @@
     <name>rtc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>rtc_8c</filename>
-    <includes id="rtc__common__l1f024_8h" name="rtc_common_l1f024.h" local="no" imported="no">libopencm3/stm32/common/rtc_common_l1f024.h</includes>
   </compound>
   <compound kind="file">
     <name>rtc.h</name>
@@ -16773,7 +16765,6 @@
     <name>spi.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>spi_8c</filename>
-    <includes id="spi__common__f24_8h" name="spi_common_f24.h" local="no" imported="no">libopencm3/stm32/common/spi_common_f24.h</includes>
   </compound>
   <compound kind="file">
     <name>spi.h</name>
@@ -18356,7 +18347,6 @@
     <name>timer.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>timer_8c</filename>
-    <includes id="timer__common__f24_8h" name="timer_common_f24.h" local="no" imported="no">libopencm3/stm32/common/timer_common_f24.h</includes>
   </compound>
   <compound kind="file">
     <name>timer.h</name>
@@ -18374,6 +18364,13 @@
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>ga711ae4623ab95c5cad3d35fd10cb2859</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIMER_IS_ADVANCED</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>ga93610472688804fb0690d3934a356ba1</anchor>
+      <arglist>(periph)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -18935,13 +18932,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM4</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga91a09bad8bdc7a1cb3d85cf49c94c8ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>TIM5</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga5125ff6a23a2ed66e2e19bd196128c14</anchor>
@@ -18959,13 +18949,6 @@
       <name>TIM7</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga49267c49946fd61db6af8b49bcf16394</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga9a3660400b17735e91331f256095810e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -23175,7 +23158,6 @@
     <name>usart.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f2/</path>
     <filename>usart_8c</filename>
-    <includes id="usart__common__all_8h" name="usart_common_all.h" local="no" imported="no">libopencm3/stm32/common/usart_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>usart.h</name>
@@ -44427,13 +44409,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM4</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga91a09bad8bdc7a1cb3d85cf49c94c8ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>TIM5</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga5125ff6a23a2ed66e2e19bd196128c14</anchor>
@@ -44451,13 +44426,6 @@
       <name>TIM7</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga49267c49946fd61db6af8b49bcf16394</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga9a3660400b17735e91331f256095810e</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -47233,6 +47201,13 @@
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>ga711ae4623ab95c5cad3d35fd10cb2859</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIMER_IS_ADVANCED</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>ga93610472688804fb0690d3934a356ba1</anchor>
+      <arglist>(periph)</arglist>
     </member>
     <member kind="function">
       <type>void</type>

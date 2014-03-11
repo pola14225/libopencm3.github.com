@@ -1,6 +1,6 @@
 var group__STM32L1xx__defines =
 [
-    [ "ADC Defines", "group__STM32L1xx__adc__defines.html", "group__STM32L1xx__adc__defines" ],
+    [ "ADC Defines", "group__adc__defines.html", "group__adc__defines" ],
     [ "CRC Defines", "group__crc__defines.html", "group__crc__defines" ],
     [ "DAC Defines", "group__dac__defines.html", "group__dac__defines" ],
     [ "DMA Defines", "group__dma__defines.html", "group__dma__defines" ],

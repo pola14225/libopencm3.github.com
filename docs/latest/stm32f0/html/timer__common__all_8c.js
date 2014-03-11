@@ -1,6 +1,7 @@
 var timer__common__all_8c =
 [
     [ "ADVANCED_TIMERS", "timer__common__all_8c.html#ga711ae4623ab95c5cad3d35fd10cb2859", null ],
+    [ "TIMER_IS_ADVANCED", "timer__common__all_8c.html#ga93610472688804fb0690d3934a356ba1", null ],
     [ "timer_clear_flag", "timer__common__all_8c.html#gaf3686ed077ae1d79bf34050cb23ee373", null ],
     [ "timer_continuous_mode", "timer__common__all_8c.html#ga0055340e46362635c32a117c6b2bbe2e", null ],
     [ "timer_direction_down", "timer__common__all_8c.html#gaa9a7db17cdc0078e5f1a4a7f6f72d3e6", null ],

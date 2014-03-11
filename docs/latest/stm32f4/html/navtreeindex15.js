@@ -1,7 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"group__spi__defines.html#ga23f683a1252ccaf625cae1a978989b2c":[9,1,14,58],
-"group__spi__defines.html#ga247b640af48de1c78e8f84dd253761ad":[9,1,14,61],
 "group__spi__defines.html#ga25669c3686c0c577d2d371ac09200ff0":[9,1,14,82],
 "group__spi__defines.html#ga25ed748ce16f85c263594198b702d949":[9,1,14,139],
 "group__spi__defines.html#ga2616a10f5118cdc68fbdf0582481e124":[9,1,14,40],
@@ -239,15 +237,17 @@ var NAVTREEINDEX15 =
 "group__tim__reg__base.html":[9,1,16,0],
 "group__tim__reg__base.html#ga2e87451fea8dc9380056d3cfc5ed81fb":[9,1,16,0,0],
 "group__tim__reg__base.html#ga3cfac9f2e43673f790f8668d48b4b92b":[9,1,16,0,1],
-"group__tim__reg__base.html#ga49267c49946fd61db6af8b49bcf16394":[9,1,16,0,6],
-"group__tim__reg__base.html#ga5125ff6a23a2ed66e2e19bd196128c14":[9,1,16,0,4],
+"group__tim__reg__base.html#ga49267c49946fd61db6af8b49bcf16394":[9,1,16,0,5],
+"group__tim__reg__base.html#ga5125ff6a23a2ed66e2e19bd196128c14":[9,1,16,0,3],
 "group__tim__reg__base.html#ga61ee4c391385607d7af432b63905fcc9":[9,1,16,0,2],
-"group__tim__reg__base.html#ga91a09bad8bdc7a1cb3d85cf49c94c8ec":[9,1,16,0,3],
-"group__tim__reg__base.html#ga9a3660400b17735e91331f256095810e":[9,1,16,0,7],
-"group__tim__reg__base.html#gac7b4ed55f9201b498b38c962cca97314":[9,1,16,0,5],
+"group__tim__reg__base.html#gac7b4ed55f9201b498b38c962cca97314":[9,1,16,0,4],
 "group__tim__sms.html":[9,1,16,7],
 "group__tim__sms.html#ga10db90fcfc5db2e95d24fd0fe4c38f8a":[9,1,16,7,1],
 "group__tim__sms.html#ga3e815edb3178b161ce7fd01cf86b8093":[9,1,16,7,4],
 "group__tim__sms.html#ga47c0d33b64cac684cf5149918aa7158a":[9,1,16,7,2],
-"group__tim__sms.html#ga517e451b0ce8c735391a1638453da2c3":[9,1,16,7,7]
+"group__tim__sms.html#ga517e451b0ce8c735391a1638453da2c3":[9,1,16,7,7],
+"group__tim__sms.html#ga769b674450b04eb3d56f09ccbf65fef6":[9,1,16,7,5],
+"group__tim__sms.html#ga8bd33af5ec1303addf55d48f78314892":[9,1,16,7,6],
+"group__tim__sms.html#gaba29d0798b2816e660e3cf262150c64e":[9,1,16,7,8],
+"group__tim__sms.html#gad292ce74da931b51c8b7094f2ebc9b67":[9,1,16,7,3]
 };

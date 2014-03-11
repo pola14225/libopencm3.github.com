@@ -1,4 +1,4 @@
 <map id="gpio.h" name="gpio.h">
-<area shape="rect" id="node5" href="$gpio__common__f234_8h.html" title="libopencm3/stm32/common\l/gpio_common_f234.h" alt="" coords="243,89,424,143"/>
-<area shape="rect" id="node7" href="$gpio__common__all_8h.html" title="libopencm3/stm32/common\l/gpio_common_all.h" alt="" coords="243,193,424,247"/>
+<area shape="rect" id="node3" href="$gpio__common__f234_8h.html" title="libopencm3/stm32/common\l/gpio_common_f234.h" alt="" coords="5,89,187,143"/>
+<area shape="rect" id="node5" href="$gpio__common__all_8h.html" title="libopencm3/stm32/common\l/gpio_common_all.h" alt="" coords="5,193,187,247"/>
 </map>

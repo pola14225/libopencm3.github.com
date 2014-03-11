@@ -49,6 +49,7 @@ var files =
     [ "rcc_common_all.h", "rcc__common__all_8h.html", "rcc__common__all_8h" ],
     [ "rtc.c", "rtc_8c.html", null ],
     [ "rtc.h", "rtc_8h.html", null ],
+    [ "spi.c", "spi_8c.html", null ],
     [ "spi.h", "spi_8h.html", null ],
     [ "spi_common_all.c", "spi__common__all_8c.html", "spi__common__all_8c" ],
     [ "spi_common_all.h", "spi__common__all_8h.html", "spi__common__all_8h" ],

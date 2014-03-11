@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['spi_2ec',['spi.c',['../spi_8c.html',1,'']]],
   ['spi_2eh',['spi.h',['../spi_8h.html',1,'']]],
   ['spi1',['SPI1',['../group__spi__reg__base.html#gad483be344a28ac800be8f03654a9612f',1,'spi_common_all.h']]],
   ['spi1_5fbase',['SPI1_BASE',['../memorymap_8h.html#a50cd8b47929f18b05efbd0f41253bf8d',1,'memorymap.h']]],
@@ -138,7 +139,7 @@ var searchData=
   ['spi_5fenable_5ftx_5fdma',['spi_enable_tx_dma',['../group__spi__defines.html#ga74726047b7cad9c11465a3cf4d0fd090',1,'spi_enable_tx_dma(uint32_t spi):&#160;spi_common_all.c'],['../group__spi__file.html#ga74726047b7cad9c11465a3cf4d0fd090',1,'spi_enable_tx_dma(uint32_t spi):&#160;spi_common_all.c']]],
   ['spi_5ffifo_5freception_5fthreshold_5f16bit',['spi_fifo_reception_threshold_16bit',['../group__spi__defines.html#ga9dc4ebbea2dc313a7e0f5e3ba3754caf',1,'spi_fifo_reception_threshold_16bit(uint32_t spi):&#160;spi_common_f03.c'],['../group__spi__file.html#ga9dc4ebbea2dc313a7e0f5e3ba3754caf',1,'spi_fifo_reception_threshold_16bit(uint32_t spi):&#160;spi_common_f03.c']]],
   ['spi_5ffifo_5freception_5fthreshold_5f8bit',['spi_fifo_reception_threshold_8bit',['../group__spi__defines.html#gab28610e17dfebd2fb0c51a0d7b462d95',1,'spi_fifo_reception_threshold_8bit(uint32_t spi):&#160;spi_common_f03.c'],['../group__spi__file.html#gab28610e17dfebd2fb0c51a0d7b462d95',1,'spi_fifo_reception_threshold_8bit(uint32_t spi):&#160;spi_common_f03.c']]],
-  ['spi_5ffile',['Spi_file',['../group__spi__file.html',1,'']]],
+  ['spi',['SPI',['../group__spi__file.html',1,'']]],
   ['spi_5fi2s_5fmode_5fspi_5fmode',['spi_i2s_mode_spi_mode',['../group__spi__defines.html#ga3106545d2b06f1a49911a48853a61fbe',1,'spi_i2s_mode_spi_mode(uint32_t spi):&#160;spi_common_f03.c'],['../group__spi__file.html#ga3106545d2b06f1a49911a48853a61fbe',1,'spi_i2s_mode_spi_mode(uint32_t spi):&#160;spi_common_f03.c']]],
   ['spi_5fi2scfgr',['SPI_I2SCFGR',['../group__spi__defines.html#ga247b640af48de1c78e8f84dd253761ad',1,'spi_common_all.h']]],
   ['spi_5fi2scfgr_5fchlen',['SPI_I2SCFGR_CHLEN',['../group__spi__defines.html#ga9c362b3d703698a7891f032f6b29056f',1,'spi_common_all.h']]],

@@ -1,7 +1,35 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:397: warning: More #endif's than #if's found.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:395: warning: More #endif's than #if's found.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:399: warning: end of file while inside a group
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:397: warning: end of file while inside a group
 
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:234: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:534: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:561: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:661: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:686: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:710: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:733: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:772: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1208: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1270: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1332: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1394: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1439: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1492: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1582: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1605: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1629: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1653: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1675: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1697: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1719: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1741: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1767: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1792: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1816: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1839: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1864: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1896: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
   parameter 'sector'

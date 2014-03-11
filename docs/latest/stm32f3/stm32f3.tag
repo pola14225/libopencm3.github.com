@@ -4,7 +4,6 @@
     <name>adc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
     <filename>adc_8c</filename>
-    <includes id="adc_8h" name="adc.h" local="no" imported="no">libopencm3/stm32/f3/adc.h</includes>
     <member kind="function">
       <type>void</type>
       <name>adc_off</name>
@@ -4638,7 +4637,6 @@
     <name>dac.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
     <filename>dac_8c</filename>
-    <includes id="dac__common__all_8h" name="dac_common_all.h" local="no" imported="no">libopencm3/stm32/common/dac_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>dac.h</name>
@@ -5703,7 +5701,6 @@
     <name>dma.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
     <filename>dma_8c</filename>
-    <includes id="dma__common__l1f013_8h" name="dma_common_l1f013.h" local="no" imported="no">libopencm3/stm32/common/dma_common_l1f013.h</includes>
   </compound>
   <compound kind="file">
     <name>dma.h</name>
@@ -8140,7 +8137,6 @@
     <name>gpio.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
     <filename>gpio_8c</filename>
-    <includes id="gpio_8h" name="gpio.h" local="no" imported="no">libopencm3/stm32/f3/gpio.h</includes>
     <member kind="function">
       <type>void</type>
       <name>gpio_mode_setup</name>
@@ -12001,7 +11997,6 @@
     <name>iwdg.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
     <filename>iwdg_8c</filename>
-    <includes id="iwdg__common__all_8h" name="iwdg_common_all.h" local="no" imported="no">libopencm3/stm32/common/iwdg_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>iwdg.h</name>
@@ -12717,6 +12712,7 @@
     <name>pwr.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f3/</path>
     <filename>pwr_8h</filename>
+    <includes id="pwr__common__all_8h" name="pwr_common_all.h" local="no" imported="no">libopencm3/stm32/common/pwr_common_all.h</includes>
     <member kind="define">
       <type>#define</type>
       <name>PWR_CR_DBP</name>
@@ -13173,9 +13169,6 @@
     <name>rcc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
     <filename>rcc_8c</filename>
-    <includes id="rcc_8h" name="rcc.h" local="no" imported="no">libopencm3/stm32/f3/rcc.h</includes>
-    <includes id="flash_8h" name="flash.h" local="no" imported="no">libopencm3/stm32/f3/flash.h</includes>
-    <includes id="i2c_8h" name="i2c.h" local="no" imported="no">libopencm3/stm32/f3/i2c.h</includes>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
@@ -16446,6 +16439,11 @@
     <filename>rtc_8h</filename>
   </compound>
   <compound kind="file">
+    <name>spi.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
+    <filename>spi_8c</filename>
+  </compound>
+  <compound kind="file">
     <name>spi.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f3/</path>
     <filename>spi_8h</filename>
@@ -18317,6 +18315,13 @@
       <anchor>ga711ae4623ab95c5cad3d35fd10cb2859</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIMER_IS_ADVANCED</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>ga93610472688804fb0690d3934a356ba1</anchor>
+      <arglist>(periph)</arglist>
+    </member>
     <member kind="function">
       <type>void</type>
       <name>timer_reset</name>
@@ -18877,13 +18882,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM4</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga91a09bad8bdc7a1cb3d85cf49c94c8ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>TIM5</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga5125ff6a23a2ed66e2e19bd196128c14</anchor>
@@ -18901,13 +18899,6 @@
       <name>TIM7</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga49267c49946fd61db6af8b49bcf16394</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga9a3660400b17735e91331f256095810e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -22966,7 +22957,6 @@
     <name>usart.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
     <filename>usart_8c</filename>
-    <includes id="usart__common__all_8h" name="usart_common_all.h" local="no" imported="no">libopencm3/stm32/common/usart_common_all.h</includes>
     <member kind="function">
       <type>void</type>
       <name>usart_send</name>
@@ -26961,6 +26951,7 @@
     <subgroup>pwr_file</subgroup>
     <subgroup>rcc_file</subgroup>
     <subgroup>rtc_file</subgroup>
+    <subgroup>spi_file</subgroup>
     <subgroup>timer_file</subgroup>
     <subgroup>usart_file</subgroup>
   </compound>
@@ -26968,6 +26959,7 @@
     <name>STM32F3xx_defines</name>
     <title>STM32F3xx Defines</title>
     <filename>group__STM32F3xx__defines.html</filename>
+    <subgroup>adc_defines</subgroup>
     <subgroup>crc_defines</subgroup>
     <subgroup>dac_defines</subgroup>
     <subgroup>dma_defines</subgroup>
@@ -38182,13 +38174,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM4</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga91a09bad8bdc7a1cb3d85cf49c94c8ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>TIM5</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga5125ff6a23a2ed66e2e19bd196128c14</anchor>
@@ -38206,13 +38191,6 @@
       <name>TIM7</name>
       <anchorfile>group__tim__reg__base.html</anchorfile>
       <anchor>ga49267c49946fd61db6af8b49bcf16394</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8</name>
-      <anchorfile>group__tim__reg__base.html</anchorfile>
-      <anchor>ga9a3660400b17735e91331f256095810e</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -40745,6 +40723,375 @@
     <filename>group__rtc__file.html</filename>
   </compound>
   <compound kind="group">
+    <name>spi_file</name>
+    <title>SPI</title>
+    <filename>group__spi__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_reset</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaae815897f2f548556dde9fa8ecb13058</anchor>
+      <arglist>(uint32_t spi_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_enable</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga33fbdd2e4f6b876273a2b3f0e05eb6b4</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_disable</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga3a67a664d96e95e80d3308b7d53736e6</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>spi_clean_disable</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaf76785dab1741f75d4fc2f03793b57d9</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_write</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga6c3dfa86916c2c38d4a1957f4704bb47</anchor>
+      <arglist>(uint32_t spi, uint16_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_send</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga1fcf7661af69bcf8999ae3f6d102fd8b</anchor>
+      <arglist>(uint32_t spi, uint16_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>spi_read</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga1bfe6bd4512dc398cb7f680feec01b20</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>spi_xfer</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gae453ac946166bc51a42c35738d9d005b</anchor>
+      <arglist>(uint32_t spi, uint16_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_bidirectional_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaf0088037e6a1aa78a9ed4c4e261a55ac</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_unidirectional_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga25ed748ce16f85c263594198b702d949</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_bidirectional_receive_only_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaf27f88063c2cb644a2935490d61202c5</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_bidirectional_transmit_only_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga8ad1268a257456a854b960f8aa73b1ce</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_enable_crc</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga3993016e02c92b696c8661840e602a00</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_disable_crc</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga168934fcc518d617447514ca06a48b3c</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_next_tx_from_buffer</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga0f70abf18588bb5bbe24da6457cb9ff7</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_next_tx_from_crc</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaabd95475b2fe0fab2a7c22c5ae50aa14</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_full_duplex_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga714f48c6586abf8ce6e3e118f6303708</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_receive_only_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaacdf55f39a2de0f53ac356233cc34cbb</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_disable_software_slave_management</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga4cf9bda5fa58c220e6d45d6a809737c4</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_enable_software_slave_management</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gab3cb4176148e6f3602a0b238f32eb83b</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_nss_high</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gad86076b9c51c2ce18f844d42053ed8cc</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_nss_low</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga47838ebf43d91e96b65338b6b0a50786</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_send_lsb_first</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga9f834ea1e68b2c23a4b0866f96f38578</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_send_msb_first</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gae19e92c8051fe49e4eac918ee51feeac</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_baudrate_prescaler</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga69a60fb0cd832d3b9a16ce4411328e64</anchor>
+      <arglist>(uint32_t spi, uint8_t baudrate)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_master_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gafca8671510322b29ef82b291dec68dc7</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_slave_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gae9700a3a5f8301b5b3a8442d257d75dd</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_clock_polarity_1</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga379382439ed44f061ab6fd4232d47319</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_clock_polarity_0</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga683b0840af6f7bee227ccb31d57dc36a</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_clock_phase_1</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gacd6b278668088bce197d6401787c4e62</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_clock_phase_0</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gac01452c132ec4c5ffc5d281d43d975d7</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_enable_tx_buffer_empty_interrupt</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga4c552fab799a9009bc541a3fb41061fe</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_disable_tx_buffer_empty_interrupt</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gac803fac4d999f49c7ecbda22aa5b7221</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_enable_rx_buffer_not_empty_interrupt</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gad05d3885fad620fc84d284fc9b42554e</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_disable_rx_buffer_not_empty_interrupt</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gada77b72d4924b55840e73ed14a325978</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_enable_error_interrupt</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaedf50e8ee8ec6f033231a2c49b4ac1a1</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_disable_error_interrupt</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gaa84513c1f4d95c7de20b9416447c2148</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_enable_ss_output</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gada533027af13ff16aceb7daad049c4e4</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_disable_ss_output</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga8cd024f5b5f4806bbeeec58e8e79162b</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_enable_tx_dma</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga74726047b7cad9c11465a3cf4d0fd090</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_disable_tx_dma</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gafc90aaa52298179b5190ee677ac5d4cc</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_enable_rx_dma</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gac860af47e3356336e01495554de5e506</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_disable_rx_dma</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>spi_init_master</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga40d1a1d70fd211d322d3957a792368ee</anchor>
+      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t crcl, uint32_t lsbfirst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_send8</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga4307af8c6b3812b86dfea621f1f40d37</anchor>
+      <arglist>(uint32_t spi, uint8_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>spi_read8</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga678fc0899ce572786e0ee3f875b80e91</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_crcl_8bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga5d8532c0b265671ccc8e88eb8276a9f7</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_crcl_16bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga3735b851c421eb116e1e946cc0c7b9c3</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_data_size</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga285ede0085fb67dd93f5f03835ffd508</anchor>
+      <arglist>(uint32_t spi, uint16_t data_s)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_fifo_reception_threshold_8bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gab28610e17dfebd2fb0c51a0d7b462d95</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_fifo_reception_threshold_16bit</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga9dc4ebbea2dc313a7e0f5e3ba3754caf</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_i2s_mode_spi_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>ga3106545d2b06f1a49911a48853a61fbe</anchor>
+      <arglist>(uint32_t spi)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
     <name>timer_file</name>
     <title>TIMER</title>
     <filename>group__timer__file.html</filename>
@@ -40754,6 +41101,13 @@
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>ga711ae4623ab95c5cad3d35fd10cb2859</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIMER_IS_ADVANCED</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>ga93610472688804fb0690d3934a356ba1</anchor>
+      <arglist>(periph)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -41442,375 +41796,6 @@
       <arglist>(uint32_t usart)</arglist>
     </member>
   </compound>
-  <compound kind="group">
-    <name>spi_file</name>
-    <title>Spi_file</title>
-    <filename>group__spi__file.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_reset</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaae815897f2f548556dde9fa8ecb13058</anchor>
-      <arglist>(uint32_t spi_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_enable</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga33fbdd2e4f6b876273a2b3f0e05eb6b4</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_disable</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3a67a664d96e95e80d3308b7d53736e6</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint16_t</type>
-      <name>spi_clean_disable</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf76785dab1741f75d4fc2f03793b57d9</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_write</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga6c3dfa86916c2c38d4a1957f4704bb47</anchor>
-      <arglist>(uint32_t spi, uint16_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_send</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1fcf7661af69bcf8999ae3f6d102fd8b</anchor>
-      <arglist>(uint32_t spi, uint16_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint16_t</type>
-      <name>spi_read</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga1bfe6bd4512dc398cb7f680feec01b20</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint16_t</type>
-      <name>spi_xfer</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gae453ac946166bc51a42c35738d9d005b</anchor>
-      <arglist>(uint32_t spi, uint16_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_bidirectional_mode</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf0088037e6a1aa78a9ed4c4e261a55ac</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_unidirectional_mode</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga25ed748ce16f85c263594198b702d949</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_bidirectional_receive_only_mode</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaf27f88063c2cb644a2935490d61202c5</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_bidirectional_transmit_only_mode</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga8ad1268a257456a854b960f8aa73b1ce</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_enable_crc</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3993016e02c92b696c8661840e602a00</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_disable_crc</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga168934fcc518d617447514ca06a48b3c</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_next_tx_from_buffer</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga0f70abf18588bb5bbe24da6457cb9ff7</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_next_tx_from_crc</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaabd95475b2fe0fab2a7c22c5ae50aa14</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_full_duplex_mode</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga714f48c6586abf8ce6e3e118f6303708</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_receive_only_mode</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaacdf55f39a2de0f53ac356233cc34cbb</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_disable_software_slave_management</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga4cf9bda5fa58c220e6d45d6a809737c4</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_enable_software_slave_management</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gab3cb4176148e6f3602a0b238f32eb83b</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_nss_high</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gad86076b9c51c2ce18f844d42053ed8cc</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_nss_low</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga47838ebf43d91e96b65338b6b0a50786</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_send_lsb_first</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga9f834ea1e68b2c23a4b0866f96f38578</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_send_msb_first</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gae19e92c8051fe49e4eac918ee51feeac</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_baudrate_prescaler</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga69a60fb0cd832d3b9a16ce4411328e64</anchor>
-      <arglist>(uint32_t spi, uint8_t baudrate)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_master_mode</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gafca8671510322b29ef82b291dec68dc7</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_slave_mode</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gae9700a3a5f8301b5b3a8442d257d75dd</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_clock_polarity_1</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga379382439ed44f061ab6fd4232d47319</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_clock_polarity_0</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga683b0840af6f7bee227ccb31d57dc36a</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_clock_phase_1</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gacd6b278668088bce197d6401787c4e62</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_clock_phase_0</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gac01452c132ec4c5ffc5d281d43d975d7</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_enable_tx_buffer_empty_interrupt</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga4c552fab799a9009bc541a3fb41061fe</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_disable_tx_buffer_empty_interrupt</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gac803fac4d999f49c7ecbda22aa5b7221</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_enable_rx_buffer_not_empty_interrupt</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gad05d3885fad620fc84d284fc9b42554e</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_disable_rx_buffer_not_empty_interrupt</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gada77b72d4924b55840e73ed14a325978</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_enable_error_interrupt</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaedf50e8ee8ec6f033231a2c49b4ac1a1</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_disable_error_interrupt</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gaa84513c1f4d95c7de20b9416447c2148</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_enable_ss_output</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gada533027af13ff16aceb7daad049c4e4</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_disable_ss_output</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga8cd024f5b5f4806bbeeec58e8e79162b</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_enable_tx_dma</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga74726047b7cad9c11465a3cf4d0fd090</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_disable_tx_dma</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gafc90aaa52298179b5190ee677ac5d4cc</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_enable_rx_dma</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gac860af47e3356336e01495554de5e506</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_disable_rx_dma</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>spi_init_master</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga40d1a1d70fd211d322d3957a792368ee</anchor>
-      <arglist>(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t crcl, uint32_t lsbfirst)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_send8</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga4307af8c6b3812b86dfea621f1f40d37</anchor>
-      <arglist>(uint32_t spi, uint8_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint8_t</type>
-      <name>spi_read8</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga678fc0899ce572786e0ee3f875b80e91</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_crcl_8bit</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga5d8532c0b265671ccc8e88eb8276a9f7</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_crcl_16bit</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3735b851c421eb116e1e946cc0c7b9c3</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_set_data_size</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga285ede0085fb67dd93f5f03835ffd508</anchor>
-      <arglist>(uint32_t spi, uint16_t data_s)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_fifo_reception_threshold_8bit</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>gab28610e17dfebd2fb0c51a0d7b462d95</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_fifo_reception_threshold_16bit</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga9dc4ebbea2dc313a7e0f5e3ba3754caf</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>spi_i2s_mode_spi_mode</name>
-      <anchorfile>group__spi__file.html</anchorfile>
-      <anchor>ga3106545d2b06f1a49911a48853a61fbe</anchor>
-      <arglist>(uint32_t spi)</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>clock_scale_t</name>
     <filename>structclock__scale__t.html</filename>
@@ -41960,6 +41945,7 @@
     <file>pwr.c</file>
     <file>rcc.c</file>
     <file>rtc.c</file>
+    <file>spi.c</file>
     <file>timer.c</file>
     <file>usart.c</file>
     <file>vector_chipset.c</file>

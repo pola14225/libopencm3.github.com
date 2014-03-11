@@ -1,4 +1,3 @@
 <map id="dma.h" name="dma.h">
-<area shape="rect" id="node3" href="$memorymap_8h.html" title="libopencm3/stm32/l1\l/memorymap.h" alt="" coords="44,89,185,143"/>
-<area shape="rect" id="node7" href="$dma__common__l1f013_8h.html" title="libopencm3/stm32/common\l/dma_common_l1f013.h" alt="" coords="224,89,405,143"/>
+<area shape="rect" id="node3" href="$dma__common__l1f013_8h.html" title="libopencm3/stm32/common\l/dma_common_l1f013.h" alt="" coords="5,89,187,143"/>
 </map>

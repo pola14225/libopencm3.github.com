@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"group__usart__sr__flags.html":[7,1,16,5],
 "group__usart__sr__flags.html#ga336fa8c9965ce18c10972ac80ded611f":[7,1,16,5,2],
 "group__usart__sr__flags.html#ga4560fc7a60df4bdf402fc7219ae7b558":[7,1,16,5,5],
 "group__usart__sr__flags.html#ga5b868b59576f42421226d35628c6b628":[7,1,16,5,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "i2c__common__all_8h.html#gaf5111a5a72cf7ec21890de795e52e8f0":[26,0,43,57],
 "i2c__common__all_8h.html#gaf8499b5642b94779d31ae8564e3a5f24":[26,0,43,81],
 "i2c__common__all_8h.html#gaf933b105259a4bc46a957576adb8d96d":[26,0,43,26],
-"i2c__common__all_8h.html#gafa60ac20c1921ef1002083bb3e1f5d16":[26,0,43,10]
+"i2c__common__all_8h.html#gafa60ac20c1921ef1002083bb3e1f5d16":[26,0,43,10],
+"i2c__common__all_8h.html#gafb279f85d78cfe5abd3eeb0b40a65ab1":[26,0,43,101]
 };

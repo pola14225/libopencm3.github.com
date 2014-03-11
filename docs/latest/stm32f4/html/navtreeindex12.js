@@ -1,7 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"group__gpio__defines.html#ga3f21afe95af40c42718810c7fe36edd4":[9,1,7,26],
-"group__gpio__defines.html#ga446a27be5b79e7435f30b91e8621d858":[9,1,7,60],
 "group__gpio__defines.html#ga446bd2be4354e28998a3a2f57ee09d7b":[9,1,7,103],
 "group__gpio__defines.html#ga517a8f03fb0e0c1a05e1f1408bd556ad":[9,1,7,97],
 "group__gpio__defines.html#ga52391b6e11802e47eee5ed8af2fdcdfb":[9,1,7,96],
@@ -249,5 +247,7 @@ var NAVTREEINDEX12 =
 "group__i2c__defines.html":[9,1,9],
 "group__i2c__defines.html#ga001198ff898802888edf58f56d5371c9":[9,1,9,35],
 "group__i2c__defines.html#ga0c0648dd9ea73bcf81fe5fcae6dfa5b5":[9,1,9,23],
-"group__i2c__defines.html#ga0fc2e57eeb3efee6810e6ca3c5df4cf8":[9,1,9,81]
+"group__i2c__defines.html#ga0fc2e57eeb3efee6810e6ca3c5df4cf8":[9,1,9,81],
+"group__i2c__defines.html#ga1489b37ed2bca9d9c659119590583bda":[9,1,9,22],
+"group__i2c__defines.html#ga16c892319b9438eab63cf4ea3a15f4ae":[9,1,9,84]
 };

@@ -1,4 +1,3 @@
 <map id="timer_reset" name="timer_reset">
-<area shape="rect" id="node3" href="$group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566" title="RCC Remove Reset on Peripherals. " alt="" coords="141,5,280,59"/>
-<area shape="rect" id="node5" href="$group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205" title="RCC Reset Peripherals. " alt="" coords="141,82,280,115"/>
+<area shape="rect" id="node3" href="$group__rcc__defines.html#ga8d5a2473dbbb91b1ddf82fc2591b0387" title="Reset Peripheral, pulsed. " alt="" coords="143,5,297,38"/>
 </map>

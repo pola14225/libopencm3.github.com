@@ -1,6 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"group__spi__defines.html#ga1fcf7661af69bcf8999ae3f6d102fd8b":[6,1,12,114],
 "group__spi__defines.html#ga237764a25b899e2dae26488be4da4ce5":[6,1,12,12],
 "group__spi__defines.html#ga23f683a1252ccaf625cae1a978989b2c":[6,1,12,55],
 "group__spi__defines.html#ga247b640af48de1c78e8f84dd253761ad":[6,1,12,58],
@@ -219,12 +218,10 @@ var NAVTREEINDEX17 =
 "group__tim__reg__base.html":[6,1,13,0],
 "group__tim__reg__base.html#ga2e87451fea8dc9380056d3cfc5ed81fb":[6,1,13,0,0],
 "group__tim__reg__base.html#ga3cfac9f2e43673f790f8668d48b4b92b":[6,1,13,0,1],
-"group__tim__reg__base.html#ga49267c49946fd61db6af8b49bcf16394":[6,1,13,0,6],
-"group__tim__reg__base.html#ga5125ff6a23a2ed66e2e19bd196128c14":[6,1,13,0,4],
+"group__tim__reg__base.html#ga49267c49946fd61db6af8b49bcf16394":[6,1,13,0,5],
+"group__tim__reg__base.html#ga5125ff6a23a2ed66e2e19bd196128c14":[6,1,13,0,3],
 "group__tim__reg__base.html#ga61ee4c391385607d7af432b63905fcc9":[6,1,13,0,2],
-"group__tim__reg__base.html#ga91a09bad8bdc7a1cb3d85cf49c94c8ec":[6,1,13,0,3],
-"group__tim__reg__base.html#ga9a3660400b17735e91331f256095810e":[6,1,13,0,7],
-"group__tim__reg__base.html#gac7b4ed55f9201b498b38c962cca97314":[6,1,13,0,5],
+"group__tim__reg__base.html#gac7b4ed55f9201b498b38c962cca97314":[6,1,13,0,4],
 "group__tim__sms.html":[6,1,13,7],
 "group__tim__sms.html#ga10db90fcfc5db2e95d24fd0fe4c38f8a":[6,1,13,7,1],
 "group__tim__sms.html#ga3e815edb3178b161ce7fd01cf86b8093":[6,1,13,7,4],
@@ -249,5 +246,8 @@ var NAVTREEINDEX17 =
 "group__tim__sr__values.html#gad3cf234a1059c0a04799e88382cdc0f2":[6,1,13,9,5],
 "group__tim__sr__values.html#gaf7a2d4c831eb641ba082156e41d03358":[6,1,13,9,6],
 "group__tim__ts.html":[6,1,13,6],
-"group__tim__ts.html#ga0cb331a37ce43ebfae2274ee97f1a65a":[6,1,13,6,6]
+"group__tim__ts.html#ga0cb331a37ce43ebfae2274ee97f1a65a":[6,1,13,6,6],
+"group__tim__ts.html#ga445955937d10bcfb9ca45308339769e6":[6,1,13,6,2],
+"group__tim__ts.html#ga460ad161d5809afaa0d20352c7087287":[6,1,13,6,8],
+"group__tim__ts.html#ga54d52528a9f669af59e81df3fab41a30":[6,1,13,6,4]
 };

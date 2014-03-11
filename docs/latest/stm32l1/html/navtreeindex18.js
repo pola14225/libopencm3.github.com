@@ -1,7 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"group__spi__file.html#ga4cf9bda5fa58c220e6d45d6a809737c4":[10,0,10,6],
-"group__spi__file.html#ga5d8532c0b265671ccc8e88eb8276a9f7":[10,0,10,39],
 "group__spi__file.html#ga6665731fd5d37e5dfb00f29f859e6c9c":[10,0,10,41],
 "group__spi__file.html#ga678fc0899ce572786e0ee3f875b80e91":[10,0,10,24],
 "group__spi__file.html#ga683b0840af6f7bee227ccb31d57dc36a":[10,0,10,36],
@@ -106,12 +104,10 @@ var NAVTREEINDEX18 =
 "group__tim__reg__base.html":[10,1,14,2],
 "group__tim__reg__base.html#ga2e87451fea8dc9380056d3cfc5ed81fb":[10,1,14,2,0],
 "group__tim__reg__base.html#ga3cfac9f2e43673f790f8668d48b4b92b":[10,1,14,2,1],
-"group__tim__reg__base.html#ga49267c49946fd61db6af8b49bcf16394":[10,1,14,2,6],
-"group__tim__reg__base.html#ga5125ff6a23a2ed66e2e19bd196128c14":[10,1,14,2,4],
+"group__tim__reg__base.html#ga49267c49946fd61db6af8b49bcf16394":[10,1,14,2,5],
+"group__tim__reg__base.html#ga5125ff6a23a2ed66e2e19bd196128c14":[10,1,14,2,3],
 "group__tim__reg__base.html#ga61ee4c391385607d7af432b63905fcc9":[10,1,14,2,2],
-"group__tim__reg__base.html#ga91a09bad8bdc7a1cb3d85cf49c94c8ec":[10,1,14,2,3],
-"group__tim__reg__base.html#ga9a3660400b17735e91331f256095810e":[10,1,14,2,7],
-"group__tim__reg__base.html#gac7b4ed55f9201b498b38c962cca97314":[10,1,14,2,5],
+"group__tim__reg__base.html#gac7b4ed55f9201b498b38c962cca97314":[10,1,14,2,4],
 "group__tim__sms.html":[10,1,14,9],
 "group__tim__sms.html#ga10db90fcfc5db2e95d24fd0fe4c38f8a":[10,1,14,9,1],
 "group__tim__sms.html#ga3e815edb3178b161ce7fd01cf86b8093":[10,1,14,9,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX18 =
 "group__timer__defines.html#ga2c12c7773de8b2e1d88562ae5794e67b":[10,1,14,222],
 "group__timer__defines.html#ga2d012d6938557c07e95622919cb119ce":[10,1,14,365],
 "group__timer__defines.html#ga3136c6e776c6066509d298b6a9b34912":[10,1,14,161],
-"group__timer__defines.html#ga3177151403d6d7af037a41739d82fbac":[10,1,14,429]
+"group__timer__defines.html#ga3177151403d6d7af037a41739d82fbac":[10,1,14,429],
+"group__timer__defines.html#ga31b71469ea84db429e3b945246937617":[10,1,14,275],
+"group__timer__defines.html#ga3231b651e821b33d1adeeb21e2a7ae62":[10,1,14,379],
+"group__timer__defines.html#ga3247abbbf0d00260be051d176d88020e":[10,1,14,146],
+"group__timer__defines.html#ga331a1d5f39d5f47b5409054e693fc651":[10,1,14,349]
 };

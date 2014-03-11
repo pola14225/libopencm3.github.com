@@ -132,15 +132,14 @@ $(document).ready(function(){initNavTree('rtc_8c.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;libopencm3/stm32/exti.h&gt;</code><br/>
-<code>#include &lt;libopencm3/stm32/f4/nvic.h&gt;</code><br/>
+<code>#include &lt;libopencm3/cm3/nvic.h&gt;</code><br/>
 <code>#include &lt;libopencm3/stm32/rtc.h&gt;</code><br/>
-<code>#include &lt;<a class="el" href="rtc__common__l1f024_8h_source.html">libopencm3/stm32/common/rtc_common_l1f024.h</a>&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for rtc.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="rtc_8c__incl.png" border="0" usemap="#rtc_8c" alt=""/></div>
 <map name="rtc_8c" id="rtc_8c">
-<area shape="rect" id="node9" href="rtc__common__l1f024_8h.html" title="libopencm3/stm32/common\l/rtc_common_l1f024.h" alt="" coords="539,89,720,143"/></map>
+</map>
 </div>
 </div>
 <p><a href="rtc_8c_source.html">Go to the source code of this file.</a></p>
@@ -178,9 +177,9 @@ Functions</h2></td></tr>
 <p>Disable the wakeup timer. </p>
 <dl class="section warning"><dt>Warning</dt><dd>You must unlock the registers before using this function </dd></dl>
 
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00053">53</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc_8c_source.html#l00052">52</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc__common__l1f024_8h_source.html#l00055">RTC_CR</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00177">RTC_CR_WUTE</a>, and <a class="el" href="rtc_8c_source.html#l00088">rtc_disable_wakeup_timer_interrupt()</a>.</p>
+<p>References <a class="el" href="rtc__common__l1f024_8h_source.html#l00052">RTC_CR</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00174">RTC_CR_WUTE</a>, and <a class="el" href="rtc_8c_source.html#l00087">rtc_disable_wakeup_timer_interrupt()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -210,11 +209,11 @@ Here is the call graph for this function:</div>
 <p>Disable the wakeup timer interrupt. </p>
 <dl class="section warning"><dt>Warning</dt><dd>You must unlock the registers before using this function </dd></dl>
 
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00088">88</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc_8c_source.html#l00087">87</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="exti__common__l1f24_8h_source.html#l00039">EXTI22</a>, <a class="el" href="exti__common__all_8c_source.html#l00060">exti_disable_request()</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00055">RTC_CR</a>, and <a class="el" href="rtc__common__l1f024_8h_source.html#l00170">RTC_CR_WUTIE</a>.</p>
+<p>References <a class="el" href="exti__common__l1f24_8h_source.html#l00037">EXTI22</a>, <a class="el" href="exti__common__all_8c_source.html#l00059">exti_disable_request()</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00052">RTC_CR</a>, and <a class="el" href="rtc__common__l1f024_8h_source.html#l00167">RTC_CR_WUTIE</a>.</p>
 
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00053">rtc_disable_wakeup_timer()</a>.</p>
+<p>Referenced by <a class="el" href="rtc_8c_source.html#l00052">rtc_disable_wakeup_timer()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -253,9 +252,9 @@ Here is the caller graph for this function:</div>
 <p>Enable the wakeup timer. </p>
 <dl class="section warning"><dt>Warning</dt><dd>You must unlock the registers before using this function </dd></dl>
 
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00042">42</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc_8c_source.html#l00041">41</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="rtc__common__l1f024_8h_source.html#l00055">RTC_CR</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00153">RTC_CR_OSEL_SHIFT</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00158">RTC_CR_OSEL_WAKEUP</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00177">RTC_CR_WUTE</a>, and <a class="el" href="rtc_8c_source.html#l00064">rtc_enable_wakeup_timer_interrupt()</a>.</p>
+<p>References <a class="el" href="rtc__common__l1f024_8h_source.html#l00052">RTC_CR</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00150">RTC_CR_OSEL_SHIFT</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00155">RTC_CR_OSEL_WAKEUP</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00174">RTC_CR_WUTE</a>, and <a class="el" href="rtc_8c_source.html#l00063">rtc_enable_wakeup_timer_interrupt()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -285,11 +284,11 @@ Here is the call graph for this function:</div>
 <p>Enable the wakeup timer interrupt. </p>
 <dl class="section warning"><dt>Warning</dt><dd>You must unlock the registers before using this function </dd></dl>
 
-<p>Definition at line <a class="el" href="rtc_8c_source.html#l00064">64</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
+<p>Definition at line <a class="el" href="rtc_8c_source.html#l00063">63</a> of file <a class="el" href="rtc_8c_source.html">rtc.c</a>.</p>
 
-<p>References <a class="el" href="exti__common__l1f24_8h_source.html#l00039">EXTI22</a>, <a class="el" href="exti__common__all_8c_source.html#l00051">exti_enable_request()</a>, <a class="el" href="exti__common__all_8c_source.html#l00033">exti_set_trigger()</a>, <a class="el" href="exti__common__all_8h_source.html#l00068">EXTI_TRIGGER_RISING</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00055">RTC_CR</a>, and <a class="el" href="rtc__common__l1f024_8h_source.html#l00170">RTC_CR_WUTIE</a>.</p>
+<p>References <a class="el" href="exti__common__l1f24_8h_source.html#l00037">EXTI22</a>, <a class="el" href="exti__common__all_8c_source.html#l00050">exti_enable_request()</a>, <a class="el" href="exti__common__all_8c_source.html#l00032">exti_set_trigger()</a>, <a class="el" href="exti__common__all_8h_source.html#l00065">EXTI_TRIGGER_RISING</a>, <a class="el" href="rtc__common__l1f024_8h_source.html#l00052">RTC_CR</a>, and <a class="el" href="rtc__common__l1f024_8h_source.html#l00167">RTC_CR_WUTIE</a>.</p>
 
-<p>Referenced by <a class="el" href="rtc_8c_source.html#l00042">rtc_enable_wakeup_timer()</a>.</p>
+<p>Referenced by <a class="el" href="rtc_8c_source.html#l00041">rtc_enable_wakeup_timer()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -317,7 +316,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="rtc_8c.html">rtc.c</a></li>
-    <li class="footer">Generated on Sat Mar 1 2014 23:23:10 for libopencm3 by
+    <li class="footer">Generated on Tue Mar 11 2014 18:22:09 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

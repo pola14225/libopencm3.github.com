@@ -1,8 +1,36 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:397: warning: More #endif's than #if's found.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:395: warning: More #endif's than #if's found.
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:399: warning: end of file while inside a group
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:397: warning: end of file while inside a group
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_l1f013.h:149: warning: group dma_if_offset: ignoring title "DMA Interrupt Flag Offsets within channel flag" that does not match old title "DMA Interrupt Flag Offsets within stream flag group."
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:234: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:534: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:561: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:661: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:686: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:710: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:733: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:772: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1208: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1270: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1332: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1394: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1439: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1492: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1582: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1605: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1629: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1653: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1675: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1697: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1719: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1741: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1767: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1792: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1816: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1839: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1864: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1896: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_l1f013.h:147: warning: group dma_if_offset: ignoring title "DMA Interrupt Flag Offsets within channel flag" that does not match old title "DMA Interrupt Flag Offsets within stream flag group."
 
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
@@ -45,14 +73,14 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: The following parameters of flash_set_ws(uint32_t ws) are not documented:
   parameter 'ws'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:166: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:1: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:2: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:166: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:166: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:128: warning: argument 'periph' of command @param is not found in the argument list of rcc_periph_clock_disable(enum rcc_periph_clken clken)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:132: warning: explicit link request to 'periph_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:128: warning: The following parameters of rcc_periph_clock_disable(enum rcc_periph_clken clken) are not documented:
@@ -148,7 +176,7 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:75: warning: argument 'crcl' of command @param is not found in the argument list of spi_init_master(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f234.c:34: warning: explicit link request to 'tim_ic_pol' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/timer.c:39: warning: The following parameters of timer_set_option(uint32_t timer_peripheral, uint32_t option) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/timer.c:38: warning: The following parameters of timer_set_option(uint32_t timer_peripheral, uint32_t option) are not documented:
   parameter 'option'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:166: warning: Found unknown command `\list'

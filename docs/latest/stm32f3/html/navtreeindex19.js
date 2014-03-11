@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"rcc_8h.html#a598a48ef08e375af461277039cc5d213":[26,0,44,95],
 "rcc_8h.html#a5a31e78ad6b0754f64bab8bf1cb231b4":[26,0,44,171],
 "rcc_8h.html#a5b9d9bcc5aba6f1f86e9cd574fd9deae":[26,0,44,190],
 "rcc_8h.html#a5bd060cbefaef05487963bbd6c48d7c6":[26,0,44,80],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "rtc_8c.html":[26,0,47],
 "rtc_8c_source.html":[26,0,47],
 "rtc_8h.html":[26,0,48],
-"rtc_8h_source.html":[26,0,48]
+"rtc_8h_source.html":[26,0,48],
+"spi_8c.html":[26,0,49]
 };

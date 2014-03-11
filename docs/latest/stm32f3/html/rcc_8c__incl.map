@@ -1,7 +1,2 @@
 <map id="rcc.c" name="rcc.c">
-<area shape="rect" id="node5" href="$rcc_8h.html" title="libopencm3/stm32/f3\l/rcc.h" alt="" coords="197,89,339,143"/>
-<area shape="rect" id="node13" href="$flash_8h.html" title="libopencm3/stm32/f3\l/flash.h" alt="" coords="528,89,669,143"/>
-<area shape="rect" id="node19" href="$i2c_8h.html" title="libopencm3/stm32/f3\l/i2c.h" alt="" coords="363,89,504,143"/>
-<area shape="rect" id="node11" href="$rcc__common__all_8h.html" title="libopencm3/stm32/common\l/rcc_common_all.h" alt="" coords="49,193,231,247"/>
-<area shape="rect" id="node16" href="$flash__common__f234_8h.html" title="libopencm3/stm32/common\l/flash_common_f234.h" alt="" coords="593,193,775,247"/>
 </map>

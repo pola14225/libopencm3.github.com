@@ -55,6 +55,7 @@ var files =
     [ "rtc.h", "rtc_8h.html", null ],
     [ "rtc_common_l1f024.c", "rtc__common__l1f024_8c.html", "rtc__common__l1f024_8c" ],
     [ "rtc_common_l1f024.h", "rtc__common__l1f024_8h.html", "rtc__common__l1f024_8h" ],
+    [ "spi.c", "spi_8c.html", null ],
     [ "spi.h", "spi_8h.html", null ],
     [ "spi_common_all.c", "spi__common__all_8c.html", "spi__common__all_8c" ],
     [ "spi_common_all.h", "spi__common__all_8h.html", "spi__common__all_8h" ],

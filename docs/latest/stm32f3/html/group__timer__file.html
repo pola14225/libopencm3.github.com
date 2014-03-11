@@ -142,6 +142,8 @@ Collaboration diagram for TIMER:</div>
 Macros</h2></td></tr>
 <tr class="memitem:ga711ae4623ab95c5cad3d35fd10cb2859"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga711ae4623ab95c5cad3d35fd10cb2859">ADVANCED_TIMERS</a>&#160;&#160;&#160;(defined(<a class="el" href="memorymap_8h.html#af8aa324ca5011b8173ab16585ed7324a">TIM1_BASE</a>) || defined(<a class="el" href="memorymap_8h.html#a5b72f698b7a048a6f9fcfe2efe5bc1db">TIM8_BASE</a>))</td></tr>
 <tr class="separator:ga711ae4623ab95c5cad3d35fd10cb2859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga93610472688804fb0690d3934a356ba1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga93610472688804fb0690d3934a356ba1">TIMER_IS_ADVANCED</a>(periph)&#160;&#160;&#160;(periph == <a class="el" href="group__tim__reg__base.html#ga2e87451fea8dc9380056d3cfc5ed81fb">TIM1</a>)</td></tr>
+<tr class="separator:ga93610472688804fb0690d3934a356ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -431,6 +433,26 @@ Basic TIMER handling API.</h1>
 
 </div>
 </div>
+<a class="anchor" id="ga93610472688804fb0690d3934a356ba1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIMER_IS_ADVANCED</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">periph</td><td>)</td>
+          <td>&#160;&#160;&#160;(periph == <a class="el" href="group__tim__reg__base.html#ga2e87451fea8dc9380056d3cfc5ed81fb">TIM1</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00109">109</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+
+<p>Referenced by <a class="el" href="timer__common__all_8c_source.html#l01739">timer_disable_break()</a>, <a class="el" href="timer__common__all_8c_source.html#l01651">timer_disable_break_automatic_output()</a>, <a class="el" href="timer__common__all_8c_source.html#l01603">timer_disable_break_main_output()</a>, <a class="el" href="timer__common__all_8c_source.html#l00684">timer_disable_compare_control_update_on_trigger()</a>, <a class="el" href="timer__common__all_8c_source.html#l01371">timer_disable_oc_output()</a>, <a class="el" href="timer__common__all_8c_source.html#l00731">timer_disable_preload_complementry_enable_bits()</a>, <a class="el" href="timer__common__all_8c_source.html#l01717">timer_enable_break()</a>, <a class="el" href="timer__common__all_8c_source.html#l01627">timer_enable_break_automatic_output()</a>, <a class="el" href="timer__common__all_8c_source.html#l01580">timer_enable_break_main_output()</a>, <a class="el" href="timer__common__all_8c_source.html#l00659">timer_enable_compare_control_update_on_trigger()</a>, <a class="el" href="timer__common__all_8c_source.html#l01309">timer_enable_oc_output()</a>, <a class="el" href="timer__common__all_8c_source.html#l00708">timer_enable_preload_complementry_enable_bits()</a>, <a class="el" href="timer__common__all_8c_source.html#l00225">timer_interrupt_source()</a>, <a class="el" href="timer__common__all_8c_source.html#l00559">timer_reset_output_idle_state()</a>, <a class="el" href="timer__common__all_8c_source.html#l01862">timer_set_break_lock()</a>, <a class="el" href="timer__common__all_8c_source.html#l01673">timer_set_break_polarity_high()</a>, <a class="el" href="timer__common__all_8c_source.html#l01695">timer_set_break_polarity_low()</a>, <a class="el" href="timer__common__all_8c_source.html#l01894">timer_set_deadtime()</a>, <a class="el" href="timer__common__all_8c_source.html#l01837">timer_set_disabled_off_state_in_idle_mode()</a>, <a class="el" href="timer__common__all_8c_source.html#l01790">timer_set_disabled_off_state_in_run_mode()</a>, <a class="el" href="timer__common__all_8c_source.html#l01814">timer_set_enabled_off_state_in_idle_mode()</a>, <a class="el" href="timer__common__all_8c_source.html#l01765">timer_set_enabled_off_state_in_run_mode()</a>, <a class="el" href="timer__common__all_8c_source.html#l01436">timer_set_oc_idle_state_set()</a>, <a class="el" href="timer__common__all_8c_source.html#l01489">timer_set_oc_idle_state_unset()</a>, <a class="el" href="timer__common__all_8c_source.html#l01185">timer_set_oc_polarity_high()</a>, <a class="el" href="timer__common__all_8c_source.html#l01247">timer_set_oc_polarity_low()</a>, <a class="el" href="timer__common__all_8c_source.html#l00532">timer_set_output_idle_state()</a>, and <a class="el" href="timer__common__all_8c_source.html#l00770">timer_set_repetition_counter()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gaf3686ed077ae1d79bf34050cb23ee373"></a>
 <div class="memitem">
@@ -465,9 +487,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00279">279</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00268">268</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00103">TIM_SR</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00104">TIM_SR</a>.</p>
 
 </div>
 </div>
@@ -493,9 +515,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00440">440</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00429">429</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00289">TIM_CR1_OPM</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00290">TIM_CR1_OPM</a>.</p>
 
 </div>
 </div>
@@ -522,9 +544,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00416">416</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00405">405</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00285">TIM_CR1_DIR_DOWN</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00286">TIM_CR1_DIR_DOWN</a>.</p>
 
 </div>
 </div>
@@ -551,9 +573,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00402">402</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00391">391</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00285">TIM_CR1_DIR_DOWN</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00286">TIM_CR1_DIR_DOWN</a>.</p>
 
 </div>
 </div>
@@ -581,9 +603,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01750">1750</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01739">1739</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00903">TIM_BDTR_BKE</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00904">TIM_BDTR_BKE</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -611,9 +633,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01662">1662</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01651">1651</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00897">TIM_BDTR_AOE</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00898">TIM_BDTR_AOE</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -641,9 +663,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01614">1614</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01603">1603</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00894">TIM_BDTR_MOE</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00895">TIM_BDTR_MOE</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -671,9 +693,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00695">695</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00684">684</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00354">TIM_CR2_CCUS</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00355">TIM_CR2_CCUS</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -699,9 +721,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00522">522</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00511">511</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00298">TIM_CR1_CEN</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00299">TIM_CR1_CEN</a>.</p>
 
 </div>
 </div>
@@ -738,9 +760,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00215">215</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00204">204</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00092">TIM_DIER</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00093">TIM_DIER</a>.</p>
 
 </div>
 </div>
@@ -777,9 +799,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00856">856</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00845">845</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00617">TIM_CCMR1_OC1CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00588">TIM_CCMR1_OC2CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00733">TIM_CCMR2_OC3CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00704">TIM_CCMR2_OC4CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00618">TIM_CCMR1_OC1CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00589">TIM_CCMR1_OC2CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00734">TIM_CCMR2_OC3CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00705">TIM_CCMR2_OC4CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -817,9 +839,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01382">1382</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01371">1371</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00143">TIM_CCER</a>, <a class="el" href="timer__common__all_8h_source.html#l00857">TIM_CCER_CC1E</a>, <a class="el" href="timer__common__all_8h_source.html#l00851">TIM_CCER_CC1NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00845">TIM_CCER_CC2E</a>, <a class="el" href="timer__common__all_8h_source.html#l00839">TIM_CCER_CC2NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00833">TIM_CCER_CC3E</a>, <a class="el" href="timer__common__all_8h_source.html#l00827">TIM_CCER_CC3NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00821">TIM_CCER_CC4E</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00144">TIM_CCER</a>, <a class="el" href="timer__common__all_8h_source.html#l00858">TIM_CCER_CC1E</a>, <a class="el" href="timer__common__all_8h_source.html#l00852">TIM_CCER_CC1NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00846">TIM_CCER_CC2E</a>, <a class="el" href="timer__common__all_8h_source.html#l00840">TIM_CCER_CC2NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00834">TIM_CCER_CC3E</a>, <a class="el" href="timer__common__all_8h_source.html#l00828">TIM_CCER_CC3NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00822">TIM_CCER_CC4E</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -856,9 +878,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01161">1161</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01150">1150</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00631">TIM_CCMR1_OC1PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00602">TIM_CCMR1_OC2PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00747">TIM_CCMR2_OC3PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00718">TIM_CCMR2_OC4PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00632">TIM_CCMR1_OC1PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00603">TIM_CCMR1_OC2PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00748">TIM_CCMR2_OC3PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00719">TIM_CCMR2_OC4PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -885,9 +907,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00371">371</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00360">360</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00263">TIM_CR1_ARPE</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00264">TIM_CR1_ARPE</a>.</p>
 
 </div>
 </div>
@@ -915,9 +937,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00742">742</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00731">731</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00357">TIM_CR2_CCPC</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00358">TIM_CR2_CCPC</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -944,9 +966,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00496">496</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00485">485</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00295">TIM_CR1_UDIS</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00296">TIM_CR1_UDIS</a>.</p>
 
 </div>
 </div>
@@ -974,9 +996,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01728">1728</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01717">1717</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00903">TIM_BDTR_BKE</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00904">TIM_BDTR_BKE</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -1004,9 +1026,9 @@ Basic TIMER handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01638">1638</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01627">1627</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00897">TIM_BDTR_AOE</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00898">TIM_BDTR_AOE</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -1036,9 +1058,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01591">1591</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01580">1580</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00894">TIM_BDTR_MOE</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00895">TIM_BDTR_MOE</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -1066,9 +1088,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00670">670</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00659">659</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00354">TIM_CR2_CCUS</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00355">TIM_CR2_CCUS</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -1095,9 +1117,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00510">510</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00499">499</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00298">TIM_CR1_CEN</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00299">TIM_CR1_CEN</a>.</p>
 
 </div>
 </div>
@@ -1134,9 +1156,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00201">201</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00190">190</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00092">TIM_DIER</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00093">TIM_DIER</a>.</p>
 
 </div>
 </div>
@@ -1174,9 +1196,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00822">822</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00811">811</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00617">TIM_CCMR1_OC1CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00588">TIM_CCMR1_OC2CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00733">TIM_CCMR2_OC3CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00704">TIM_CCMR2_OC4CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00618">TIM_CCMR1_OC1CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00589">TIM_CCMR1_OC2CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00734">TIM_CCMR2_OC3CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00705">TIM_CCMR2_OC4CE</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -1214,9 +1236,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01320">1320</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01309">1309</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00143">TIM_CCER</a>, <a class="el" href="timer__common__all_8h_source.html#l00857">TIM_CCER_CC1E</a>, <a class="el" href="timer__common__all_8h_source.html#l00851">TIM_CCER_CC1NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00845">TIM_CCER_CC2E</a>, <a class="el" href="timer__common__all_8h_source.html#l00839">TIM_CCER_CC2NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00833">TIM_CCER_CC3E</a>, <a class="el" href="timer__common__all_8h_source.html#l00827">TIM_CCER_CC3NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00821">TIM_CCER_CC4E</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00144">TIM_CCER</a>, <a class="el" href="timer__common__all_8h_source.html#l00858">TIM_CCER_CC1E</a>, <a class="el" href="timer__common__all_8h_source.html#l00852">TIM_CCER_CC1NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00846">TIM_CCER_CC2E</a>, <a class="el" href="timer__common__all_8h_source.html#l00840">TIM_CCER_CC2NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00834">TIM_CCER_CC3E</a>, <a class="el" href="timer__common__all_8h_source.html#l00828">TIM_CCER_CC3NE</a>, <a class="el" href="timer__common__all_8h_source.html#l00822">TIM_CCER_CC4E</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -1253,9 +1275,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01129">1129</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01118">1118</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00631">TIM_CCMR1_OC1PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00602">TIM_CCMR1_OC2PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00747">TIM_CCMR2_OC3PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00718">TIM_CCMR2_OC4PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00632">TIM_CCMR1_OC1PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00603">TIM_CCMR1_OC2PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00748">TIM_CCMR2_OC3PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00719">TIM_CCMR2_OC4PE</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -1282,9 +1304,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00355">355</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00344">344</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00263">TIM_CR1_ARPE</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00264">TIM_CR1_ARPE</a>.</p>
 
 </div>
 </div>
@@ -1312,9 +1334,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00719">719</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00708">708</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00357">TIM_CR2_CCPC</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00358">TIM_CR2_CCPC</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -1340,9 +1362,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00482">482</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00471">471</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00295">TIM_CR1_UDIS</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00296">TIM_CR1_UDIS</a>.</p>
 
 </div>
 </div>
@@ -1380,9 +1402,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01930">1930</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01919">1919</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00114">TIM_EGR</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00115">TIM_EGR</a>.</p>
 
 </div>
 </div>
@@ -1410,9 +1432,9 @@ It is necessary to call this function to enable the output on an advanced timer 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Unsigned int32. Counter value. </dd></dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01944">1944</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01933">1933</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00152">TIM_CNT</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00153">TIM_CNT</a>.</p>
 
 </div>
 </div>
@@ -1450,9 +1472,9 @@ It is necessary to call this function to enable the output on an advanced timer 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean: flag set. </dd></dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00262">262</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00251">251</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00103">TIM_SR</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00104">TIM_SR</a>.</p>
 
 </div>
 </div>
@@ -1489,9 +1511,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02104">2104</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02093">2093</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00143">TIM_CCER</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00144">TIM_CCER</a>.</p>
 
 </div>
 </div>
@@ -1528,9 +1550,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02092">2092</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02081">2081</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00143">TIM_CCER</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00144">TIM_CCER</a>.</p>
 
 </div>
 </div>
@@ -1580,9 +1602,9 @@ It is necessary to call this function to enable the output on an advanced timer 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01977">1977</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01966">1966</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00690">TIM_CCMR1_IC1F_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00664">TIM_CCMR1_IC2F_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00806">TIM_CCMR2_IC3F_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00780">TIM_CCMR2_IC4F_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00966">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00967">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00968">TIM_IC3</a>, and <a class="el" href="timer__common__all_8h_source.html#l00969">TIM_IC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00691">TIM_CCMR1_IC1F_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00665">TIM_CCMR1_IC2F_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00807">TIM_CCMR2_IC3F_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00781">TIM_CCMR2_IC4F_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00967">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00968">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00969">TIM_IC3</a>, and <a class="el" href="timer__common__all_8h_source.html#l00970">TIM_IC4</a>.</p>
 
 </div>
 </div>
@@ -1636,9 +1658,9 @@ these parameters are writable only when the channel is off.</dd></dl>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02054">2054</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02043">2043</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00643">TIM_CCMR1_CC1S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00614">TIM_CCMR1_CC2S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00759">TIM_CCMR2_CC3S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00730">TIM_CCMR2_CC4S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00966">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00967">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00968">TIM_IC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00969">TIM_IC4</a>, <a class="el" href="timer__common__all_8h_source.html#l01014">TIM_IC_IN_TI1</a>, and <a class="el" href="timer__common__all_8h_source.html#l01015">TIM_IC_IN_TI2</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00644">TIM_CCMR1_CC1S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00615">TIM_CCMR1_CC2S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00760">TIM_CCMR2_CC3S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00731">TIM_CCMR2_CC4S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00967">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00968">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00969">TIM_IC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00970">TIM_IC4</a>, <a class="el" href="timer__common__all_8h_source.html#l01015">TIM_IC_IN_TI1</a>, and <a class="el" href="timer__common__all_8h_source.html#l01016">TIM_IC_IN_TI2</a>.</p>
 
 </div>
 </div>
@@ -1685,7 +1707,7 @@ these parameters are writable only when the channel is off.</dd></dl>
 
 <p>Definition at line <a class="el" href="timer__common__f234_8c_source.html#l00039">39</a> of file <a class="el" href="timer__common__f234_8c_source.html">timer_common_f234.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00143">TIM_CCER</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00144">TIM_CCER</a>.</p>
 
 </div>
 </div>
@@ -1730,9 +1752,9 @@ these parameters are writable only when the channel is off.</dd></dl>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02010">2010</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01999">1999</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00697">TIM_CCMR1_IC1PSC_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00671">TIM_CCMR1_IC2PSC_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00813">TIM_CCMR2_IC3PSC_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00787">TIM_CCMR2_IC4PSC_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00966">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00967">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00968">TIM_IC3</a>, and <a class="el" href="timer__common__all_8h_source.html#l00969">TIM_IC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00698">TIM_CCMR1_IC1PSC_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00672">TIM_CCMR1_IC2PSC_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00814">TIM_CCMR2_IC3PSC_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00788">TIM_CCMR2_IC4PSC_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00967">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00968">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00969">TIM_IC3</a>, and <a class="el" href="timer__common__all_8h_source.html#l00970">TIM_IC4</a>.</p>
 
 </div>
 </div>
@@ -1771,9 +1793,9 @@ these parameters are writable only when the channel is off.</dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean: flag set. </dd></dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00236">236</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00225">225</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00092">TIM_DIER</a>, <a class="el" href="timer__common__all_8h_source.html#l00103">TIM_SR</a>, <a class="el" href="timer__common__all_8h_source.html#l00526">TIM_SR_BIF</a>, and <a class="el" href="timer__common__all_8h_source.html#l00532">TIM_SR_COMIF</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00093">TIM_DIER</a>, <a class="el" href="timer__common__all_8h_source.html#l00104">TIM_SR</a>, <a class="el" href="timer__common__all_8h_source.html#l00527">TIM_SR_BIF</a>, <a class="el" href="timer__common__all_8h_source.html#l00533">TIM_SR_COMIF</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -1799,9 +1821,9 @@ these parameters are writable only when the channel is off.</dd></dl>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00428">428</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00417">417</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00289">TIM_CR1_OPM</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00290">TIM_CR1_OPM</a>.</p>
 
 </div>
 </div>
@@ -1828,16 +1850,16 @@ these parameters are writable only when the channel is off.</dd></dl>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00116">116</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00122">122</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8h_source.html#l00063">RCC_APB1RSTR</a>, <a class="el" href="rcc_8h_source.html#l00230">RCC_APB1RSTR_TIM2RST</a>, <a class="el" href="rcc_8h_source.html#l00229">RCC_APB1RSTR_TIM3RST</a>, <a class="el" href="rcc_8h_source.html#l00228">RCC_APB1RSTR_TIM4RST</a>, <a class="el" href="rcc_8h_source.html#l00227">RCC_APB1RSTR_TIM6RST</a>, <a class="el" href="rcc_8h_source.html#l00226">RCC_APB1RSTR_TIM7RST</a>, <a class="el" href="rcc_8h_source.html#l00062">RCC_APB2RSTR</a>, <a class="el" href="rcc_8h_source.html#l00208">RCC_APB2RSTR_TIM1RST</a>, <a class="el" href="rcc_8h_source.html#l00206">RCC_APB2RSTR_TIM8RST</a>, <a class="el" href="rcc__common__all_8c_source.html#l00103">rcc_peripheral_clear_reset()</a>, <a class="el" href="rcc__common__all_8c_source.html#l00082">rcc_peripheral_reset()</a>, <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00049">TIM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00050">TIM3</a>, <a class="el" href="timer__common__all_8h_source.html#l00051">TIM4</a>, <a class="el" href="timer__common__all_8h_source.html#l00052">TIM5</a>, <a class="el" href="timer__common__all_8h_source.html#l00053">TIM6</a>, <a class="el" href="timer__common__all_8h_source.html#l00054">TIM7</a>, and <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>.</p>
+<p>References <a class="el" href="rcc__common__all_8c_source.html#l00150">rcc_periph_reset_pulse()</a>, <a class="el" href="rcc_8h_source.html#l00509">RST_TIM1</a>, <a class="el" href="rcc_8h_source.html#l00522">RST_TIM2</a>, <a class="el" href="rcc_8h_source.html#l00523">RST_TIM3</a>, <a class="el" href="rcc_8h_source.html#l00524">RST_TIM4</a>, <a class="el" href="rcc_8h_source.html#l00525">RST_TIM5</a>, <a class="el" href="rcc_8h_source.html#l00526">RST_TIM6</a>, <a class="el" href="rcc_8h_source.html#l00527">RST_TIM7</a>, <a class="el" href="rcc_8h_source.html#l00511">RST_TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00045">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00046">TIM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00047">TIM3</a>, <a class="el" href="timer__common__all_8h_source.html#l00051">TIM5</a>, <a class="el" href="timer__common__all_8h_source.html#l00052">TIM6</a>, and <a class="el" href="timer__common__all_8h_source.html#l00053">TIM7</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__timer__file_ga90cade2e35c32d50534a531903e642be_cgraph.png" border="0" usemap="#group__timer__file_ga90cade2e35c32d50534a531903e642be_cgraph" alt=""/></div>
 <map name="group__timer__file_ga90cade2e35c32d50534a531903e642be_cgraph" id="group__timer__file_ga90cade2e35c32d50534a531903e642be_cgraph">
-<area shape="rect" id="node3" href="group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566" title="RCC Remove Reset on Peripherals. " alt="" coords="141,5,280,59"/><area shape="rect" id="node5" href="group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205" title="RCC Reset Peripherals. " alt="" coords="141,82,280,115"/></map>
+<area shape="rect" id="node3" href="group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58" title="Reset Peripheral, pulsed. " alt="" coords="143,5,297,38"/></map>
 </div>
 </p>
 
@@ -1879,9 +1901,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00570">570</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00559">559</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00327">TIM_CR2_OIS_MASK</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00328">TIM_CR2_OIS_MASK</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -1919,9 +1941,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00386">386</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00375">375</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00275">TIM_CR1_CMS_MASK</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00276">TIM_CR1_CMS_MASK</a>.</p>
 
 </div>
 </div>
@@ -1960,9 +1982,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01873">1873</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01862">1862</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, and <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -1990,9 +2012,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01684">1684</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01673">1673</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00900">TIM_BDTR_BKP</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00901">TIM_BDTR_BKP</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2020,9 +2042,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01706">1706</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01695">1695</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00900">TIM_BDTR_BKP</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00901">TIM_BDTR_BKP</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2060,9 +2082,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00338">338</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00327">327</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00259">TIM_CR1_CKD_CK_INT_MASK</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00260">TIM_CR1_CKD_CK_INT_MASK</a>.</p>
 
 </div>
 </div>
@@ -2100,9 +2122,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01958">1958</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01947">1947</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00152">TIM_CNT</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00153">TIM_CNT</a>.</p>
 
 </div>
 </div>
@@ -2147,9 +2169,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01905">1905</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01894">1894</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, and <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2177,9 +2199,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01848">1848</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01837">1837</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00909">TIM_BDTR_OSSI</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00910">TIM_BDTR_OSSI</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2207,9 +2229,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01801">1801</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01790">1790</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00906">TIM_BDTR_OSSR</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00907">TIM_BDTR_OSSR</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2236,9 +2258,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00637">637</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00626">626</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00351">TIM_CR2_CCDS</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00352">TIM_CR2_CCDS</a>.</p>
 
 </div>
 </div>
@@ -2265,9 +2287,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00651">651</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00640">640</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00351">TIM_CR2_CCDS</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00352">TIM_CR2_CCDS</a>.</p>
 
 </div>
 </div>
@@ -2295,9 +2317,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01825">1825</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01814">1814</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00909">TIM_BDTR_OSSI</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00910">TIM_BDTR_OSSI</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2325,9 +2347,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01776">1776</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01765">1765</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00226">TIM_BDTR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00906">TIM_BDTR_OSSR</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00227">TIM_BDTR</a>, <a class="el" href="timer__common__all_8h_source.html#l00907">TIM_BDTR_OSSR</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2365,9 +2387,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00622">622</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00611">611</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00347">TIM_CR2_MMS_MASK</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00348">TIM_CR2_MMS_MASK</a>.</p>
 
 </div>
 </div>
@@ -2426,9 +2448,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00312">312</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00301">301</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00259">TIM_CR1_CKD_CK_INT_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00275">TIM_CR1_CMS_MASK</a>, and <a class="el" href="timer__common__all_8h_source.html#l00285">TIM_CR1_DIR_DOWN</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00260">TIM_CR1_CKD_CK_INT_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00276">TIM_CR1_CMS_MASK</a>, and <a class="el" href="timer__common__all_8h_source.html#l00286">TIM_CR1_DIR_DOWN</a>.</p>
 
 </div>
 </div>
@@ -2466,9 +2488,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00895">895</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00884">884</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00634">TIM_CCMR1_OC1FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00605">TIM_CCMR1_OC2FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00750">TIM_CCMR2_OC3FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00721">TIM_CCMR2_OC4FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00635">TIM_CCMR1_OC1FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00606">TIM_CCMR1_OC2FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00751">TIM_CCMR2_OC3FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00722">TIM_CCMR2_OC4FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2507,9 +2529,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01447">1447</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01436">1436</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00326">TIM_CR2_OIS1</a>, <a class="el" href="timer__common__all_8h_source.html#l00323">TIM_CR2_OIS1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00320">TIM_CR2_OIS2</a>, <a class="el" href="timer__common__all_8h_source.html#l00317">TIM_CR2_OIS2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00314">TIM_CR2_OIS3</a>, <a class="el" href="timer__common__all_8h_source.html#l00311">TIM_CR2_OIS3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00308">TIM_CR2_OIS4</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00327">TIM_CR2_OIS1</a>, <a class="el" href="timer__common__all_8h_source.html#l00324">TIM_CR2_OIS1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00321">TIM_CR2_OIS2</a>, <a class="el" href="timer__common__all_8h_source.html#l00318">TIM_CR2_OIS2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00315">TIM_CR2_OIS3</a>, <a class="el" href="timer__common__all_8h_source.html#l00312">TIM_CR2_OIS3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00309">TIM_CR2_OIS4</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2548,9 +2570,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01500">1500</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01489">1489</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00326">TIM_CR2_OIS1</a>, <a class="el" href="timer__common__all_8h_source.html#l00323">TIM_CR2_OIS1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00320">TIM_CR2_OIS2</a>, <a class="el" href="timer__common__all_8h_source.html#l00317">TIM_CR2_OIS2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00314">TIM_CR2_OIS3</a>, <a class="el" href="timer__common__all_8h_source.html#l00311">TIM_CR2_OIS3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00308">TIM_CR2_OIS4</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00327">TIM_CR2_OIS1</a>, <a class="el" href="timer__common__all_8h_source.html#l00324">TIM_CR2_OIS1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00321">TIM_CR2_OIS2</a>, <a class="el" href="timer__common__all_8h_source.html#l00318">TIM_CR2_OIS2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00315">TIM_CR2_OIS3</a>, <a class="el" href="timer__common__all_8h_source.html#l00312">TIM_CR2_OIS3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00309">TIM_CR2_OIS4</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2605,9 +2627,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00980">980</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00969">969</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00643">TIM_CCMR1_CC1S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00639">TIM_CCMR1_CC1S_OUT</a>, <a class="el" href="timer__common__all_8h_source.html#l00614">TIM_CCMR1_CC2S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00610">TIM_CCMR1_CC2S_OUT</a>, <a class="el" href="timer__common__all_8h_source.html#l00621">TIM_CCMR1_OC1M_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00625">TIM_CCMR1_OC1M_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00624">TIM_CCMR1_OC1M_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00620">TIM_CCMR1_OC1M_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00622">TIM_CCMR1_OC1M_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00628">TIM_CCMR1_OC1M_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00626">TIM_CCMR1_OC1M_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00627">TIM_CCMR1_OC1M_PWM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00623">TIM_CCMR1_OC1M_TOGGLE</a>, <a class="el" href="timer__common__all_8h_source.html#l00592">TIM_CCMR1_OC2M_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00596">TIM_CCMR1_OC2M_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00595">TIM_CCMR1_OC2M_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00591">TIM_CCMR1_OC2M_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00593">TIM_CCMR1_OC2M_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00599">TIM_CCMR1_OC2M_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00597">TIM_CCMR1_OC2M_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00598">TIM_CCMR1_OC2M_PWM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00594">TIM_CCMR1_OC2M_TOGGLE</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00759">TIM_CCMR2_CC3S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00755">TIM_CCMR2_CC3S_OUT</a>, <a class="el" href="timer__common__all_8h_source.html#l00730">TIM_CCMR2_CC4S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00726">TIM_CCMR2_CC4S_OUT</a>, <a class="el" href="timer__common__all_8h_source.html#l00737">TIM_CCMR2_OC3M_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00741">TIM_CCMR2_OC3M_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00740">TIM_CCMR2_OC3M_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00736">TIM_CCMR2_OC3M_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00738">TIM_CCMR2_OC3M_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00744">TIM_CCMR2_OC3M_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00742">TIM_CCMR2_OC3M_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00743">TIM_CCMR2_OC3M_PWM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00739">TIM_CCMR2_OC3M_TOGGLE</a>, <a class="el" href="timer__common__all_8h_source.html#l00708">TIM_CCMR2_OC4M_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00712">TIM_CCMR2_OC4M_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00711">TIM_CCMR2_OC4M_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00707">TIM_CCMR2_OC4M_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00709">TIM_CCMR2_OC4M_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00715">TIM_CCMR2_OC4M_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00713">TIM_CCMR2_OC4M_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00714">TIM_CCMR2_OC4M_PWM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00710">TIM_CCMR2_OC4M_TOGGLE</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>, <a class="el" href="timer__common__all_8h_source.html#l00955">TIM_OCM_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00959">TIM_OCM_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00958">TIM_OCM_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00954">TIM_OCM_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00956">TIM_OCM_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00960">TIM_OCM_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00961">TIM_OCM_PWM2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00957">TIM_OCM_TOGGLE</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00644">TIM_CCMR1_CC1S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00640">TIM_CCMR1_CC1S_OUT</a>, <a class="el" href="timer__common__all_8h_source.html#l00615">TIM_CCMR1_CC2S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00611">TIM_CCMR1_CC2S_OUT</a>, <a class="el" href="timer__common__all_8h_source.html#l00622">TIM_CCMR1_OC1M_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00626">TIM_CCMR1_OC1M_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00625">TIM_CCMR1_OC1M_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00621">TIM_CCMR1_OC1M_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00623">TIM_CCMR1_OC1M_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00629">TIM_CCMR1_OC1M_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00627">TIM_CCMR1_OC1M_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00628">TIM_CCMR1_OC1M_PWM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00624">TIM_CCMR1_OC1M_TOGGLE</a>, <a class="el" href="timer__common__all_8h_source.html#l00593">TIM_CCMR1_OC2M_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00597">TIM_CCMR1_OC2M_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00596">TIM_CCMR1_OC2M_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00592">TIM_CCMR1_OC2M_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00594">TIM_CCMR1_OC2M_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00600">TIM_CCMR1_OC2M_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00598">TIM_CCMR1_OC2M_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00599">TIM_CCMR1_OC2M_PWM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00595">TIM_CCMR1_OC2M_TOGGLE</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00760">TIM_CCMR2_CC3S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00756">TIM_CCMR2_CC3S_OUT</a>, <a class="el" href="timer__common__all_8h_source.html#l00731">TIM_CCMR2_CC4S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00727">TIM_CCMR2_CC4S_OUT</a>, <a class="el" href="timer__common__all_8h_source.html#l00738">TIM_CCMR2_OC3M_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00742">TIM_CCMR2_OC3M_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00741">TIM_CCMR2_OC3M_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00737">TIM_CCMR2_OC3M_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00739">TIM_CCMR2_OC3M_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00745">TIM_CCMR2_OC3M_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00743">TIM_CCMR2_OC3M_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00744">TIM_CCMR2_OC3M_PWM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00740">TIM_CCMR2_OC3M_TOGGLE</a>, <a class="el" href="timer__common__all_8h_source.html#l00709">TIM_CCMR2_OC4M_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00713">TIM_CCMR2_OC4M_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00712">TIM_CCMR2_OC4M_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00708">TIM_CCMR2_OC4M_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00710">TIM_CCMR2_OC4M_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00716">TIM_CCMR2_OC4M_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00714">TIM_CCMR2_OC4M_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00715">TIM_CCMR2_OC4M_PWM2</a>, <a class="el" href="timer__common__all_8h_source.html#l00711">TIM_CCMR2_OC4M_TOGGLE</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>, <a class="el" href="timer__common__all_8h_source.html#l00956">TIM_OCM_ACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00960">TIM_OCM_FORCE_HIGH</a>, <a class="el" href="timer__common__all_8h_source.html#l00959">TIM_OCM_FORCE_LOW</a>, <a class="el" href="timer__common__all_8h_source.html#l00955">TIM_OCM_FROZEN</a>, <a class="el" href="timer__common__all_8h_source.html#l00957">TIM_OCM_INACTIVE</a>, <a class="el" href="timer__common__all_8h_source.html#l00961">TIM_OCM_PWM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00962">TIM_OCM_PWM2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00958">TIM_OCM_TOGGLE</a>.</p>
 
 </div>
 </div>
@@ -2645,9 +2667,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01196">1196</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01185">1185</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00143">TIM_CCER</a>, <a class="el" href="timer__common__all_8h_source.html#l00848">TIM_CCER_CC1NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00854">TIM_CCER_CC1P</a>, <a class="el" href="timer__common__all_8h_source.html#l00836">TIM_CCER_CC2NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00842">TIM_CCER_CC2P</a>, <a class="el" href="timer__common__all_8h_source.html#l00824">TIM_CCER_CC3NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00830">TIM_CCER_CC3P</a>, <a class="el" href="timer__common__all_8h_source.html#l00818">TIM_CCER_CC4P</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00144">TIM_CCER</a>, <a class="el" href="timer__common__all_8h_source.html#l00849">TIM_CCER_CC1NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00855">TIM_CCER_CC1P</a>, <a class="el" href="timer__common__all_8h_source.html#l00837">TIM_CCER_CC2NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00843">TIM_CCER_CC2P</a>, <a class="el" href="timer__common__all_8h_source.html#l00825">TIM_CCER_CC3NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00831">TIM_CCER_CC3P</a>, <a class="el" href="timer__common__all_8h_source.html#l00819">TIM_CCER_CC4P</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2685,9 +2707,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01258">1258</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01247">1247</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00143">TIM_CCER</a>, <a class="el" href="timer__common__all_8h_source.html#l00848">TIM_CCER_CC1NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00854">TIM_CCER_CC1P</a>, <a class="el" href="timer__common__all_8h_source.html#l00836">TIM_CCER_CC2NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00842">TIM_CCER_CC2P</a>, <a class="el" href="timer__common__all_8h_source.html#l00824">TIM_CCER_CC3NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00830">TIM_CCER_CC3P</a>, <a class="el" href="timer__common__all_8h_source.html#l00818">TIM_CCER_CC4P</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00144">TIM_CCER</a>, <a class="el" href="timer__common__all_8h_source.html#l00849">TIM_CCER_CC1NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00855">TIM_CCER_CC1P</a>, <a class="el" href="timer__common__all_8h_source.html#l00837">TIM_CCER_CC2NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00843">TIM_CCER_CC2P</a>, <a class="el" href="timer__common__all_8h_source.html#l00825">TIM_CCER_CC3NP</a>, <a class="el" href="timer__common__all_8h_source.html#l00831">TIM_CCER_CC3P</a>, <a class="el" href="timer__common__all_8h_source.html#l00819">TIM_CCER_CC4P</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2725,9 +2747,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00930">930</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00919">919</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00125">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00634">TIM_CCMR1_OC1FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00605">TIM_CCMR1_OC2FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00134">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00750">TIM_CCMR2_OC3FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00721">TIM_CCMR2_OC4FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00126">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00635">TIM_CCMR1_OC1FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00606">TIM_CCMR1_OC2FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00135">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00751">TIM_CCMR2_OC3FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00722">TIM_CCMR2_OC4FE</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2772,9 +2794,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01551">1551</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l01540">1540</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00190">TIM_CCR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00199">TIM_CCR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00208">TIM_CCR3</a>, <a class="el" href="timer__common__all_8h_source.html#l00217">TIM_CCR4</a>, <a class="el" href="timer__common__all_8h_source.html#l00943">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC4</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00191">TIM_CCR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00200">TIM_CCR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00209">TIM_CCR3</a>, <a class="el" href="timer__common__all_8h_source.html#l00218">TIM_CCR4</a>, <a class="el" href="timer__common__all_8h_source.html#l00944">TIM_OC1</a>, <a class="el" href="timer__common__all_8h_source.html#l00945">TIM_OC1N</a>, <a class="el" href="timer__common__all_8h_source.html#l00946">TIM_OC2</a>, <a class="el" href="timer__common__all_8h_source.html#l00947">TIM_OC2N</a>, <a class="el" href="timer__common__all_8h_source.html#l00948">TIM_OC3</a>, <a class="el" href="timer__common__all_8h_source.html#l00949">TIM_OC3N</a>, and <a class="el" href="timer__common__all_8h_source.html#l00950">TIM_OC4</a>.</p>
 
 </div>
 </div>
@@ -2814,9 +2836,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00543">543</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00532">532</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00327">TIM_CR2_OIS_MASK</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00328">TIM_CR2_OIS_MASK</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2854,9 +2876,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00803">803</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00792">792</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00174">TIM_ARR</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00175">TIM_ARR</a>.</p>
 
 </div>
 </div>
@@ -2894,9 +2916,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00763">763</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00752">752</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00163">TIM_PSC</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00164">TIM_PSC</a>.</p>
 
 </div>
 </div>
@@ -2935,9 +2957,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00781">781</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00770">770</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00048">TIM1</a>, <a class="el" href="timer__common__all_8h_source.html#l00055">TIM8</a>, and <a class="el" href="timer__common__all_8h_source.html#l00185">TIM_RCR</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00186">TIM_RCR</a>, and <a class="el" href="timer__common__all_8c_source.html#l00109">TIMER_IS_ADVANCED</a>.</p>
 
 </div>
 </div>
@@ -2964,9 +2986,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00606">606</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00595">595</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00331">TIM_CR2_TI1S</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00332">TIM_CR2_TI1S</a>.</p>
 
 </div>
 </div>
@@ -2993,9 +3015,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00592">592</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00581">581</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00072">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00331">TIM_CR2_TI1S</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00073">TIM_CR2</a>, and <a class="el" href="timer__common__all_8h_source.html#l00332">TIM_CR2_TI1S</a>.</p>
 
 </div>
 </div>
@@ -3038,9 +3060,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02122">2122</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02111">2111</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00083">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00391">TIM_SMCR_ETF_MASK</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00084">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00392">TIM_SMCR_ETF_MASK</a>.</p>
 
 </div>
 </div>
@@ -3077,9 +3099,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02166">2166</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02155">2155</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00083">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00450">TIM_SMCR_SMS_MASK</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00084">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00451">TIM_SMCR_SMS_MASK</a>.</p>
 
 </div>
 </div>
@@ -3116,9 +3138,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02150">2150</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02139">2139</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00083">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00362">TIM_SMCR_ETP</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00084">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00363">TIM_SMCR_ETP</a>.</p>
 
 </div>
 </div>
@@ -3156,9 +3178,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02137">2137</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02126">2126</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00083">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00372">TIM_SMCR_ETPS_MASK</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00084">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00373">TIM_SMCR_ETPS_MASK</a>.</p>
 
 </div>
 </div>
@@ -3195,9 +3217,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02179">2179</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02168">2168</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00083">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00417">TIM_SMCR_TS_MASK</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00084">TIM_SMCR</a>, and <a class="el" href="timer__common__all_8h_source.html#l00418">TIM_SMCR_TS_MASK</a>.</p>
 
 </div>
 </div>
@@ -3229,9 +3251,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00457">457</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00446">446</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00292">TIM_CR1_URS</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00293">TIM_CR1_URS</a>.</p>
 
 </div>
 </div>
@@ -3257,9 +3279,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00470">470</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l00459">459</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
-<p>References <a class="el" href="timer__common__all_8h_source.html#l00061">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00292">TIM_CR1_URS</a>.</p>
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00062">TIM_CR1</a>, and <a class="el" href="timer__common__all_8h_source.html#l00293">TIM_CR1_URS</a>.</p>
 
 </div>
 </div>
@@ -3268,7 +3290,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Mar 1 2014 23:23:02 for libopencm3 by
+    <li class="footer">Generated on Tue Mar 11 2014 18:22:02 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>
