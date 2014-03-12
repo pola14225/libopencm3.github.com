@@ -1,5 +1,16 @@
 var NAVTREEINDEX6 =
 {
+"gpio_8h.html#ga6bb43f539f0ddc253f2cc6edd27376df":[25,0,28,396],
+"gpio_8h.html#ga6d406d6aa0a4807346610106f1a696f1":[25,0,28,344],
+"gpio_8h.html#ga6d9a56306a6d6999e329b0218b0b0c7a":[25,0,28,11],
+"gpio_8h.html#ga70163b49e0a403672e70f2351611c5ca":[25,0,28,310],
+"gpio_8h.html#ga7068333c34be0d564c4673801cd1a320":[25,0,28,224],
+"gpio_8h.html#ga7156841a13ad7aa8ddea869d1c1e845b":[25,0,28,7],
+"gpio_8h.html#ga71a4321ad2b4564519996b0addf65819":[25,0,28,355],
+"gpio_8h.html#ga72f607a074c223c4c4e3a33a20c3fa6d":[25,0,28,184],
+"gpio_8h.html#ga735a580edcbef7b4da9fd8fec6a046fb":[25,0,28,284],
+"gpio_8h.html#ga737446534b4c20f9b6805e89e6a7e92b":[25,0,28,196],
+"gpio_8h.html#ga739e273f5b56a6f229342dfa182f1e52":[25,0,28,293],
 "gpio_8h.html#ga74192f7a133a66433b82abc876894598":[25,0,28,312],
 "gpio_8h.html#ga7423203aecd61f00e9cd7cd6616b2cee":[25,0,28,483],
 "gpio_8h.html#ga74d4616c4cb6dabb936cdcde7b9ea938":[25,0,28,195],
@@ -238,16 +249,5 @@ var NAVTREEINDEX6 =
 "gpio_8h.html#gaeb83fd8cfd02253d71d4fe33d08d495a":[25,0,28,255],
 "gpio_8h.html#gaebf38262c4b1fed51bb51ab039aa5545":[25,0,28,435],
 "gpio_8h.html#gaec37e01ca16fd7f3e7ecade8e3579202":[25,0,28,498],
-"gpio_8h.html#gaecaffac9c765afb1cd84e04c217401a7":[25,0,28,323],
-"gpio_8h.html#gaecc0d612de874f1efa682ee15f285680":[25,0,28,211],
-"gpio_8h.html#gaececd10abafc7c089e25b664523bd6f3":[25,0,28,297],
-"gpio_8h.html#gaed70ce348e250604402706e2104d1671":[25,0,28,23],
-"gpio_8h.html#gaed7630938e62a3472ad7058a712ab5f8":[25,0,28,500],
-"gpio_8h.html#gaede0612a4efdce1e60bc23f6ec00d29a":[25,0,28,61],
-"gpio_8h.html#gaee84b54c82d3504e609d4ff50d9a0940":[25,0,28,76],
-"gpio_8h.html#gaeeb682e0c282f90c9d96559d900e12e8":[25,0,28,208],
-"gpio_8h.html#gaeebb3d0ccab7e048e42f402b5d240c69":[25,0,28,301],
-"gpio_8h.html#gaeee50c862a01ad07531497be6da0834b":[25,0,28,386],
-"gpio_8h.html#gaeeec57aa5c1affb0b215e71684c0d166":[25,0,28,141],
-"gpio_8h.html#gaeef3a62aca1f21c092390a4684dc3310":[25,0,28,304]
+"gpio_8h.html#gaecaffac9c765afb1cd84e04c217401a7":[25,0,28,323]
 };

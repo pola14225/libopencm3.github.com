@@ -1953,6 +1953,83 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>ADC1_HTR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9c1916f61455513af72977119faebb52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_LTR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac9bda35bd5cf43dc3793bf21f5613729</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_SQR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga04b6f31a8ec80c8bdb29c147d570b7ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_SQR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad0231e0c9235e2432d58e2ab91b44707</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_SQR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga14e17724ce810625e8bc8e3eb3c8b389</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JSQR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga7ae457e7eebea2a92f45d2f5427aba26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JDR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga71b99498b7f0454bc9f930512d490099</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JDR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa3c7518d66e4f67500ccf91157e4b790</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JDR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9cdf39f718d3062ed466a1bdb13e14f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JDR4</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga477e0ea8e64c6d795af5db339958803d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_DR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga851f62156cf9d539d12693259f93500b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>ADC_CHANNEL0</name>
       <anchorfile>group__adc__channel.html</anchorfile>
       <anchor>ga9624905d53d0560f4b4a6e5983e11ae0</anchor>
@@ -25778,6 +25855,83 @@
       <name>ADC1_JOFR4</name>
       <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga27e7e930905112fba97dbb699e9f073f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_HTR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9c1916f61455513af72977119faebb52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_LTR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac9bda35bd5cf43dc3793bf21f5613729</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_SQR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga04b6f31a8ec80c8bdb29c147d570b7ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_SQR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad0231e0c9235e2432d58e2ab91b44707</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_SQR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga14e17724ce810625e8bc8e3eb3c8b389</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JSQR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga7ae457e7eebea2a92f45d2f5427aba26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JDR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga71b99498b7f0454bc9f930512d490099</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JDR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa3c7518d66e4f67500ccf91157e4b790</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JDR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9cdf39f718d3062ed466a1bdb13e14f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_JDR4</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga477e0ea8e64c6d795af5db339958803d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC1_DR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga851f62156cf9d539d12693259f93500b</anchor>
       <arglist></arglist>
     </member>
   </compound>

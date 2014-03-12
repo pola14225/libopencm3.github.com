@@ -1,5 +1,16 @@
 var NAVTREEINDEX7 =
 {
+"gpio_8h.html#gaecc0d612de874f1efa682ee15f285680":[25,0,28,211],
+"gpio_8h.html#gaececd10abafc7c089e25b664523bd6f3":[25,0,28,297],
+"gpio_8h.html#gaed70ce348e250604402706e2104d1671":[25,0,28,23],
+"gpio_8h.html#gaed7630938e62a3472ad7058a712ab5f8":[25,0,28,500],
+"gpio_8h.html#gaede0612a4efdce1e60bc23f6ec00d29a":[25,0,28,61],
+"gpio_8h.html#gaee84b54c82d3504e609d4ff50d9a0940":[25,0,28,76],
+"gpio_8h.html#gaeeb682e0c282f90c9d96559d900e12e8":[25,0,28,208],
+"gpio_8h.html#gaeebb3d0ccab7e048e42f402b5d240c69":[25,0,28,301],
+"gpio_8h.html#gaeee50c862a01ad07531497be6da0834b":[25,0,28,386],
+"gpio_8h.html#gaeeec57aa5c1affb0b215e71684c0d166":[25,0,28,141],
+"gpio_8h.html#gaeef3a62aca1f21c092390a4684dc3310":[25,0,28,304],
 "gpio_8h.html#gaef1fe6149be1f9c57a78a6e688eb208a":[25,0,28,161],
 "gpio_8h.html#gaef6424763c3af133a4af80d4e0ab1811":[25,0,28,179],
 "gpio_8h.html#gaef9f66a8f6f23a9f373cc1e5ba62306f":[25,0,28,239],
@@ -238,16 +249,5 @@ var NAVTREEINDEX7 =
 "group__adc__cr1__discnum.html#ga64e638509e6d35cb34ffe0f258d067e0":[6,1,0,7,0,2],
 "group__adc__cr1__discnum.html#ga88f335745d732cb9b515337fbcc6cdf5":[6,1,0,7,0,1],
 "group__adc__cr1__discnum.html#ga93b53299928adbc1b3f8fdabc49fc986":[6,1,0,7,0,7],
-"group__adc__cr1__discnum.html#gac804be8f6c44cf66c8882dfe2063e5c8":[6,1,0,7,0,0],
-"group__adc__cr1__dualmod.html":[6,1,0,0],
-"group__adc__cr1__dualmod.html#ga0612e25706d813f4ae16cd855839b195":[6,1,0,0,6],
-"group__adc__cr1__dualmod.html#ga0aee25267498f28cb809a1bfdc7755be":[6,1,0,0,5],
-"group__adc__cr1__dualmod.html#ga2ddbacbc7e085aaad8348d9e75021191":[6,1,0,0,2],
-"group__adc__cr1__dualmod.html#ga96e7345f99bc7763a61d6e24c8eec935":[6,1,0,0,0],
-"group__adc__cr1__dualmod.html#gaa33791dba94192481e7dc01bdf7f8363":[6,1,0,0,4],
-"group__adc__cr1__dualmod.html#gab9dcad1700c645e723d3c732169cc2f4":[6,1,0,0,7],
-"group__adc__cr1__dualmod.html#gabcf0b43074392338a8457551d5dce157":[6,1,0,0,3],
-"group__adc__cr1__dualmod.html#gabf42d6d11039b0a6af0dd16e50f18fb5":[6,1,0,0,1],
-"group__adc__cr1__dualmod.html#gaca85aeed9b184b92ef497db83131e680":[6,1,0,0,9],
-"group__adc__cr1__dualmod.html#gaf27efa53b32559d83ca13c461712f3e5":[6,1,0,0,8]
+"group__adc__cr1__discnum.html#gac804be8f6c44cf66c8882dfe2063e5c8":[6,1,0,7,0,0]
 };
