@@ -13780,6 +13780,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>CEC_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aacb77bc44b3f8c87ab98f241e760e440</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>AFIO_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a5f7e3eacfcf4c313c25012795148a680</anchor>
@@ -13888,6 +13895,27 @@
       <name>ADC3_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>aca766f86c8e0b00a8e2b0224dcbb4c82</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a7ab42ce1846930569d742d339b554078</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a16c97093a531d763b0794c3e6d09e1bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>affbedbe30e8c4cffdea326d6c1800574</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
