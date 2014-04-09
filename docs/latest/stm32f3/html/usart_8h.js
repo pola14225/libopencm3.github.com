@@ -177,6 +177,16 @@ var usart_8h =
     [ "USART_RTOR", "usart_8h.html#a63dba75e7db0b6b5783fe678403e9e5e", null ],
     [ "USART_RTOR_BLEN1_MASK", "usart_8h.html#a50e2bdfec365d92668220392610b89b3", null ],
     [ "USART_RTOR_BLEN2_MASK", "usart_8h.html#ac636706777030ce65b612dbcfe6925a4", null ],
+    [ "USART_SR_CTS", "usart_8h.html#ga9250ae2793db0541e6c4bb8837424541", null ],
+    [ "USART_SR_FE", "usart_8h.html#ga9eb6fd3f820bd12e0b5a981de1894804", null ],
+    [ "USART_SR_IDLE", "usart_8h.html#ga336fa8c9965ce18c10972ac80ded611f", null ],
+    [ "USART_SR_LBD", "usart_8h.html#ga5b868b59576f42421226d35628c6b628", null ],
+    [ "USART_SR_NE", "usart_8h.html#ga8938468c5666a8305ade6d80d467c572", null ],
+    [ "USART_SR_ORE", "usart_8h.html#ga4560fc7a60df4bdf402fc7219ae7b558", null ],
+    [ "USART_SR_PE", "usart_8h.html#gac88be3484245af8c1b271ae5c1b97a14", null ],
+    [ "USART_SR_RXNE", "usart_8h.html#gaa0c99e2bb265b3d58a91aca7a93f7836", null ],
+    [ "USART_SR_TC", "usart_8h.html#ga76229b05ac37a5a688e6ba45851a29f1", null ],
+    [ "USART_SR_TXE", "usart_8h.html#ga65e9cddf0890113d405342f1d8b5b980", null ],
     [ "USART_TDR", "usart_8h.html#a5def5b8ad0056ebbc9c1788004d20651", null ],
     [ "USART_TDR_MASK", "usart_8h.html#adca7a367aba9c832af3c57f9b334ee57", null ]
 ];

@@ -24239,6 +24239,76 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>USART_SR_CTS</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga9250ae2793db0541e6c4bb8837424541</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_LBD</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga5b868b59576f42421226d35628c6b628</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_TXE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga65e9cddf0890113d405342f1d8b5b980</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_TC</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga76229b05ac37a5a688e6ba45851a29f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_RXNE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>gaa0c99e2bb265b3d58a91aca7a93f7836</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_IDLE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga336fa8c9965ce18c10972ac80ded611f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_ORE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga4560fc7a60df4bdf402fc7219ae7b558</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_NE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga8938468c5666a8305ade6d80d467c572</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_FE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga9eb6fd3f820bd12e0b5a981de1894804</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_PE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>gac88be3484245af8c1b271ae5c1b97a14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USART_ICR_WUCF</name>
       <anchorfile>usart_8h.html</anchorfile>
       <anchor>a0526db5696016ae784e46b80027044fa</anchor>
@@ -35645,6 +35715,81 @@
       <anchorfile>group__usart__defines.html</anchorfile>
       <anchor>ga761c6089dcd796e78f4f5ba495f7fc37</anchor>
       <arglist>(uint32_t usart, uint32_t flag)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>usart_sr_flags</name>
+    <title>USART Status register Flags</title>
+    <filename>group__usart__sr__flags.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_CTS</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga9250ae2793db0541e6c4bb8837424541</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_LBD</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga5b868b59576f42421226d35628c6b628</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_TXE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga65e9cddf0890113d405342f1d8b5b980</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_TC</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga76229b05ac37a5a688e6ba45851a29f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_RXNE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>gaa0c99e2bb265b3d58a91aca7a93f7836</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_IDLE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga336fa8c9965ce18c10972ac80ded611f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_ORE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga4560fc7a60df4bdf402fc7219ae7b558</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_NE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga8938468c5666a8305ade6d80d467c572</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_FE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>ga9eb6fd3f820bd12e0b5a981de1894804</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_SR_PE</name>
+      <anchorfile>group__usart__sr__flags.html</anchorfile>
+      <anchor>gac88be3484245af8c1b271ae5c1b97a14</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="group">

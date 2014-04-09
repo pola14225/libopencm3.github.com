@@ -1,5 +1,16 @@
 var NAVTREEINDEX21 =
 {
+"spi__common__f03_8c.html#gab28610e17dfebd2fb0c51a0d7b462d95":[26,0,53,1],
+"spi__common__f03_8c_source.html":[26,0,53],
+"spi__common__f03_8h.html":[26,0,54],
+"spi__common__f03_8h.html#ga11f429f104120334ca27ca4f75913aeb":[26,0,54,32],
+"spi__common__f03_8h.html#ga1477624af2e50f6ec6f64eb3edc82942":[26,0,54,17],
+"spi__common__f03_8h.html#ga17f4dda477f97cb4f983a039c3cca582":[26,0,54,16],
+"spi__common__f03_8h.html#ga285ede0085fb67dd93f5f03835ffd508":[26,0,54,40],
+"spi__common__f03_8h.html#ga2e7d9d05424a68e6b02b82280541dbd2":[26,0,54,23],
+"spi__common__f03_8h.html#ga2fe0744a4f6de1a1d94b27ed231fcb50":[26,0,54,19],
+"spi__common__f03_8h.html#ga30b4760cc554e7207e0ed0fe7516460b":[26,0,54,25],
+"spi__common__f03_8h.html#ga3106545d2b06f1a49911a48853a61fbe":[26,0,54,35],
 "spi__common__f03_8h.html#ga3489b5c590d4d9a35c5d7628e076c381":[26,0,54,14],
 "spi__common__f03_8h.html#ga35c65ed66e29b539d9a14e833c491802":[26,0,54,0],
 "spi__common__f03_8h.html#ga3735b851c421eb116e1e946cc0c7b9c3":[26,0,54,38],
@@ -238,16 +249,5 @@ var NAVTREEINDEX21 =
 "timer__common__all_8h.html#ga2a5f335c3d7a4f82d1e91dc1511e3322":[26,0,60,415],
 "timer__common__all_8h.html#ga2c12c7773de8b2e1d88562ae5794e67b":[26,0,60,219],
 "timer__common__all_8h.html#ga2d012d6938557c07e95622919cb119ce":[26,0,60,413],
-"timer__common__all_8h.html#ga2e87451fea8dc9380056d3cfc5ed81fb":[26,0,60,0],
-"timer__common__all_8h.html#ga2eabface433d6adaa2dee3df49852585":[26,0,60,392],
-"timer__common__all_8h.html#ga3136c6e776c6066509d298b6a9b34912":[26,0,60,158],
-"timer__common__all_8h.html#ga3177151403d6d7af037a41739d82fbac":[26,0,60,507],
-"timer__common__all_8h.html#ga31b26bf058f88d771c33aff85ec89358":[26,0,60,358],
-"timer__common__all_8h.html#ga31b71469ea84db429e3b945246937617":[26,0,60,272],
-"timer__common__all_8h.html#ga3231b651e821b33d1adeeb21e2a7ae62":[26,0,60,457],
-"timer__common__all_8h.html#ga3247abbbf0d00260be051d176d88020e":[26,0,60,138],
-"timer__common__all_8h.html#ga3312a8728c184b187e7243b4c241d0ca":[26,0,60,351],
-"timer__common__all_8h.html#ga331a1d5f39d5f47b5409054e693fc651":[26,0,60,397],
-"timer__common__all_8h.html#ga33bba96f735b44aa9ff86eec615dfea8":[26,0,60,76],
-"timer__common__all_8h.html#ga347be7d8a60d1438994bb42633b0e424":[26,0,60,357]
+"timer__common__all_8h.html#ga2e87451fea8dc9380056d3cfc5ed81fb":[26,0,60,0]
 };
