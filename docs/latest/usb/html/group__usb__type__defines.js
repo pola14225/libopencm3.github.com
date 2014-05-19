@@ -36,8 +36,8 @@ var group__usb__type__defines =
     ] ],
     [ "usb_config_descriptor", "structusb__config__descriptor.html", [
       [ "usb_interface", "structusb__config__descriptor_1_1usb__interface.html", [
-        [ "altsetting", "structusb__config__descriptor_1_1usb__interface.html#a74a3c0daf9d2853a35d53c224c7d158f", null ],
-        [ "iface_assoc", "structusb__config__descriptor_1_1usb__interface.html#a2fee7d4ff3e5a3353dc7df2d8a01a48c", null ],
+        [ "altsetting", "structusb__config__descriptor_1_1usb__interface.html#a44285d1e29ac0dad6d8fd41afe1b2d8a", null ],
+        [ "iface_assoc", "structusb__config__descriptor_1_1usb__interface.html#ae868a8420fe236b5ee4c5dbd554a5b36", null ],
         [ "num_altsetting", "structusb__config__descriptor_1_1usb__interface.html#a13a3a3923829d695fa85236b83205b1a", null ]
       ] ],
       [ "bConfigurationValue", "structusb__config__descriptor.html#af50d14a1e97dab1a4483f03b969ca431", null ],
@@ -47,7 +47,7 @@ var group__usb__type__defines =
       [ "bMaxPower", "structusb__config__descriptor.html#a228c71b864eef8c5b997ad49b996ae9b", null ],
       [ "bNumInterfaces", "structusb__config__descriptor.html#a712744e37c3759b311131278ec2cf074", null ],
       [ "iConfiguration", "structusb__config__descriptor.html#ace6c0975162873b87744269bd188d297", null ],
-      [ "interface", "structusb__config__descriptor.html#a87b0ec29118a53e0372001a7cb998f1e", null ],
+      [ "interface", "structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a", null ],
       [ "wTotalLength", "structusb__config__descriptor.html#a09fb7940f26366f7f0aedb496a18b97c", null ]
     ] ],
     [ "usb_interface_descriptor", "structusb__interface__descriptor.html", [
@@ -59,7 +59,7 @@ var group__usb__type__defines =
       [ "bInterfaceSubClass", "structusb__interface__descriptor.html#ac807fb07b6b89886836ad5c1253dae82", null ],
       [ "bLength", "structusb__interface__descriptor.html#a7959ad865fb5527dba879ded533f5976", null ],
       [ "bNumEndpoints", "structusb__interface__descriptor.html#a1fa779eda460fd7f670f7e1adeceed94", null ],
-      [ "endpoint", "structusb__interface__descriptor.html#aaa864bbf6b2e69fe6487d11e6f359945", null ],
+      [ "endpoint", "structusb__interface__descriptor.html#a241f94bbfcabf012866de8a34a46c10d", null ],
       [ "extra", "structusb__interface__descriptor.html#ae3aefe51473859b0a822cf8bc622a81a", null ],
       [ "extralen", "structusb__interface__descriptor.html#ac0a7dff17ffc27fbab51c6c3da13bc8b", null ],
       [ "iInterface", "structusb__interface__descriptor.html#a63008abbea76cc397836554747386055", null ]

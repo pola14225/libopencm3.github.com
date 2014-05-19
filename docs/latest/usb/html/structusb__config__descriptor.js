@@ -8,6 +8,6 @@ var structusb__config__descriptor =
     [ "bMaxPower", "structusb__config__descriptor.html#a228c71b864eef8c5b997ad49b996ae9b", null ],
     [ "bNumInterfaces", "structusb__config__descriptor.html#a712744e37c3759b311131278ec2cf074", null ],
     [ "iConfiguration", "structusb__config__descriptor.html#ace6c0975162873b87744269bd188d297", null ],
-    [ "interface", "structusb__config__descriptor.html#a87b0ec29118a53e0372001a7cb998f1e", null ],
+    [ "interface", "structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a", null ],
     [ "wTotalLength", "structusb__config__descriptor.html#a09fb7940f26366f7f0aedb496a18b97c", null ]
 ];

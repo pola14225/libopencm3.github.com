@@ -47,7 +47,7 @@ var NAVTREEINDEX =
 "cec_8h.html#gaf0d615cb8a6b15d3d3390a25923b8595",
 "dac__common__all_8h.html#ga58839a404aedfdcfb2bc6d23137101b3",
 "dma__common__l1f013_8h.html#ga943245d2a8300854d53fd07bb957a6fc",
-"globals_0x63.html",
+"globals_c.html",
 "group__adc__api__config.html#ga459708aeaf8e709264c4b96fed706ae3",
 "group__adc__file.html#ga59b482216ccaeeeaf22d7c5cfed7f3e2",
 "group__dac__mamp1.html#ga98e8414e55d4705dffb3b72150a212bd",
@@ -182,7 +182,7 @@ function createIndent(o,domNode,node,level)
     span.style.display = 'inline-block';
     span.style.width   = 16*(level+1)+'px';
     span.style.height  = '22px';
-    span.innerHTML = '&nbsp;';
+    span.innerHTML = '&#160;';
     domNode.appendChild(span);
   } 
 }

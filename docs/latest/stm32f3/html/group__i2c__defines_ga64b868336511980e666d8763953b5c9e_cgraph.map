@@ -1,12 +1,12 @@
 <map id="write_i2c" name="write_i2c">
-<area shape="rect" id="node3" href="$group__i2c__defines.html#gaf406728d61cee5c354624c5d33d837da" title="i2c_busy" alt="" coords="177,5,252,38"/>
-<area shape="rect" id="node5" href="$group__i2c__defines.html#gaa30db58b7bec562d300b3a185bff5cee" title="i2c_enable_autoend" alt="" coords="147,61,283,94"/>
-<area shape="rect" id="node7" href="$group__i2c__defines.html#ga0d52aba9de7f1620efd6ab1859bf3ad5" title="i2c_is_start" alt="" coords="171,117,259,150"/>
-<area shape="rect" id="node9" href="$group__i2c__defines.html#gaf6b7805ee8321b705e45168d245ef82c" title="i2c_nack" alt="" coords="177,173,252,206"/>
-<area shape="rect" id="node11" href="$group__i2c__defines.html#gaad83fb76f31941e9d0e1083d8e4ea6f0" title="I2C Send Data. " alt="" coords="161,229,268,262"/>
-<area shape="rect" id="node13" href="$group__i2c__defines.html#ga5c21ca1eb1791661f78247cdccf82734" title="I2C Send Start Condition. " alt="" coords="161,285,268,318"/>
-<area shape="rect" id="node15" href="$group__i2c__defines.html#ga16796d9c15e8f462c11cb08678ef9804" title="i2c_set_7bit_address" alt="" coords="143,341,287,374"/>
-<area shape="rect" id="node17" href="$group__i2c__defines.html#ga68a6760bfcd203f922669c4f64009fb6" title="i2c_set_bytes_to_transfer" alt="" coords="129,397,300,430"/>
-<area shape="rect" id="node19" href="$group__i2c__defines.html#ga7188b92beaaca3762937609b51041379" title="i2c_set_write_transfer_dir" alt="" coords="129,453,300,486"/>
-<area shape="rect" id="node21" href="$group__i2c__defines.html#gaebcf28daee8d073f657fa4ba0c536efc" title="i2c_transmit_int_status" alt="" coords="136,509,293,542"/>
+<area shape="rect" id="node3" href="$group__i2c__file.html#gaf406728d61cee5c354624c5d33d837da" title="i2c_busy" alt="" coords="177,5,252,38"/>
+<area shape="rect" id="node5" href="$group__i2c__file.html#gaa30db58b7bec562d300b3a185bff5cee" title="i2c_enable_autoend" alt="" coords="147,61,283,94"/>
+<area shape="rect" id="node7" href="$group__i2c__file.html#ga0d52aba9de7f1620efd6ab1859bf3ad5" title="i2c_is_start" alt="" coords="171,117,259,150"/>
+<area shape="rect" id="node9" href="$group__i2c__file.html#gaf6b7805ee8321b705e45168d245ef82c" title="i2c_nack" alt="" coords="177,173,252,206"/>
+<area shape="rect" id="node11" href="$group__i2c__file.html#gaad83fb76f31941e9d0e1083d8e4ea6f0" title="I2C Send Data. " alt="" coords="161,229,268,262"/>
+<area shape="rect" id="node13" href="$group__i2c__file.html#ga5c21ca1eb1791661f78247cdccf82734" title="I2C Send Start Condition. " alt="" coords="161,285,268,318"/>
+<area shape="rect" id="node15" href="$group__i2c__file.html#ga16796d9c15e8f462c11cb08678ef9804" title="i2c_set_7bit_address" alt="" coords="143,341,287,374"/>
+<area shape="rect" id="node17" href="$group__i2c__file.html#ga68a6760bfcd203f922669c4f64009fb6" title="i2c_set_bytes_to_transfer" alt="" coords="129,397,300,430"/>
+<area shape="rect" id="node19" href="$group__i2c__file.html#ga7188b92beaaca3762937609b51041379" title="i2c_set_write_transfer_dir" alt="" coords="129,453,300,486"/>
+<area shape="rect" id="node21" href="$group__i2c__file.html#gaebcf28daee8d073f657fa4ba0c536efc" title="i2c_transmit_int_status" alt="" coords="136,509,293,542"/>
 </map>

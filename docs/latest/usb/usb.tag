@@ -881,7 +881,7 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct _usbd_driver</type>
+      <type>const struct _usbd_driver</type>
       <name>stm32f103_usb_driver</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>gaf75394477d6005c2032c0d2aebb7a9a6</anchor>
@@ -907,7 +907,7 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct _usbd_driver</type>
+      <type>const struct _usbd_driver</type>
       <name>stm32f107_usb_driver</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>ga5adac4ccb88c72946fa692670d0bfc16</anchor>
@@ -933,7 +933,7 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct _usbd_driver</type>
+      <type>const struct _usbd_driver</type>
       <name>stm32f207_usb_driver</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>ga2170186d661d2005c6b18c06d7f49f12</anchor>
@@ -1733,10 +1733,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct usb_interface *</type>
+      <type>const struct usb_interface *</type>
       <name>interface</name>
       <anchorfile>usbstd_8h.html</anchorfile>
-      <anchor>aeecaa52d810ae4ad91d5420961311f0c</anchor>
+      <anchor>ab658b15528f33b23d2f67ef53ad95648</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -1789,10 +1789,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct usb_endpoint_descriptor *</type>
+      <type>const struct usb_endpoint_descriptor *</type>
       <name>endpoint</name>
       <anchorfile>usbstd_8h.html</anchorfile>
-      <anchor>aeecefeed00b0676f231f59d831c94280</anchor>
+      <anchor>ad9632438abef761b213b1c19f02983ab</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -2840,17 +2840,17 @@
     <class kind="struct">_usbd_device::usb_control_state</class>
     <class kind="struct">_usbd_device::user_control_callback</class>
     <member kind="variable">
-      <type>struct usb_device_descriptor *</type>
+      <type>const struct usb_device_descriptor *</type>
       <name>desc</name>
       <anchorfile>struct__usbd__device.html</anchorfile>
-      <anchor>ab105dbb2455d6b6a68a5bca98b68a228</anchor>
+      <anchor>abf8c97de9264969c27b342cc569a8ed9</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct usb_config_descriptor *</type>
+      <type>const struct usb_config_descriptor *</type>
       <name>config</name>
       <anchorfile>struct__usbd__device.html</anchorfile>
-      <anchor>a2f4398945c4fc7c51eac4d27fd861642</anchor>
+      <anchor>ae60b7e4cb2c404b6e86fdf6bbafdb5d5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -2959,10 +2959,10 @@
       <arglist>)(usbd_device *usbd_dev, uint16_t wValue)</arglist>
     </member>
     <member kind="variable">
-      <type>struct _usbd_driver *</type>
+      <type>const struct _usbd_driver *</type>
       <name>driver</name>
       <anchorfile>struct__usbd__device.html</anchorfile>
-      <anchor>a31aa3066c781bc3d588f1e4b0f1998fc</anchor>
+      <anchor>ad780343e8e2776ce99b9dd302b77c2e2</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -3497,10 +3497,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct usb_config_descriptor::usb_interface *</type>
+      <type>const struct usb_config_descriptor::usb_interface *</type>
       <name>interface</name>
       <anchorfile>structusb__config__descriptor.html</anchorfile>
-      <anchor>a87b0ec29118a53e0372001a7cb998f1e</anchor>
+      <anchor>a93d0c4e3b6c5a9d6d84e6b769dbe1d2a</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3515,17 +3515,17 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct usb_iface_assoc_descriptor *</type>
+      <type>const struct usb_iface_assoc_descriptor *</type>
       <name>iface_assoc</name>
       <anchorfile>structusb__config__descriptor_1_1usb__interface.html</anchorfile>
-      <anchor>a2fee7d4ff3e5a3353dc7df2d8a01a48c</anchor>
+      <anchor>ae868a8420fe236b5ee4c5dbd554a5b36</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct usb_interface_descriptor *</type>
+      <type>const struct usb_interface_descriptor *</type>
       <name>altsetting</name>
       <anchorfile>structusb__config__descriptor_1_1usb__interface.html</anchorfile>
-      <anchor>a74a3c0daf9d2853a35d53c224c7d158f</anchor>
+      <anchor>a44285d1e29ac0dad6d8fd41afe1b2d8a</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3900,17 +3900,17 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct usb_iface_assoc_descriptor *</type>
+      <type>const struct usb_iface_assoc_descriptor *</type>
       <name>iface_assoc</name>
       <anchorfile>structusb__interface.html</anchorfile>
-      <anchor>ab602f44402ea8f0683fc42405c70d207</anchor>
+      <anchor>a52cfc78c2536053de0c4f1615a057f79</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct usb_interface_descriptor *</type>
+      <type>const struct usb_interface_descriptor *</type>
       <name>altsetting</name>
       <anchorfile>structusb__interface.html</anchorfile>
-      <anchor>addcde0f74dd4139778f10742e4ae1867</anchor>
+      <anchor>a5fb4da13363349c7fa027c673ede9812</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3981,10 +3981,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>struct usb_endpoint_descriptor *</type>
+      <type>const struct usb_endpoint_descriptor *</type>
       <name>endpoint</name>
       <anchorfile>structusb__interface__descriptor.html</anchorfile>
-      <anchor>aaa864bbf6b2e69fe6487d11e6f359945</anchor>
+      <anchor>a241f94bbfcabf012866de8a34a46c10d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">

@@ -6,9 +6,9 @@
 <area shape="rect" id="node55" href="$group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f" title="usbd_ep_write_packet" alt="" coords="187,267,339,300"/>
 <area shape="rect" id="node5" href="$group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="usbd_ep_stall_set" alt="" coords="1089,39,1215,72"/>
 <area shape="rect" id="node14" href="$usb__private_8h.html#a3347ca42a15acf3ae31d02126ba7d695" title="_usbd_standard_request" alt="" coords="393,255,556,288"/>
-<area shape="rect" id="node16" href="$usb__private_8h.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="607,334,769,388"/>
-<area shape="rect" id="node34" href="$usb__private_8h.html#aec01ef6ed66dcc2b50cc969b8be8f419" title="_usbd_standard_request\l_interface" alt="" coords="607,579,769,634"/>
-<area shape="rect" id="node42" href="$usb__private_8h.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="607,144,769,199"/>
+<area shape="rect" id="node16" href="$usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="607,334,769,388"/>
+<area shape="rect" id="node34" href="$usb__standard_8c.html#aec01ef6ed66dcc2b50cc969b8be8f419" title="_usbd_standard_request\l_interface" alt="" coords="607,579,769,634"/>
+<area shape="rect" id="node42" href="$usb__standard_8c.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="607,144,769,199"/>
 <area shape="rect" id="node18" href="$group__usb__standard__file.html#ga2e39a66a58cc636b01e3d90cb70c7625" title="usb_standard_set_address" alt="" coords="833,506,1012,539"/>
 <area shape="rect" id="node20" href="$group__usb__standard__file.html#ga11f2ca9802883c0ff1dc312799e7250d" title="usb_standard_set_configuration" alt="" coords="820,260,1025,294"/>
 <area shape="rect" id="node22" href="$group__usb__standard__file.html#ga430326cdf658101dd4b02d52ebb0cf3c" title="usb_standard_get_configuration" alt="" coords="820,316,1025,350"/>

@@ -1,9 +1,9 @@
 <map id="rcc_clock_setup_in_hsi_out_48mhz" name="rcc_clock_setup_in_hsi_out_48mhz">
 <area shape="rect" id="node3" href="$group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2" title="Set the Number of Wait States. " alt="" coords="224,5,323,38"/>
-<area shape="rect" id="node5" href="$group__rcc__defines.html#ga81b16ade2e5d6e024f36e3d568a9fd97" title="RCC Turn on an Oscillator. " alt="" coords="229,61,317,94"/>
-<area shape="rect" id="node7" href="$group__rcc__defines.html#gae192b2cd0f37124db5ed76d599a5671b" title="RCC Set the AHB Prescale Factor. " alt="" coords="225,117,321,150"/>
-<area shape="rect" id="node9" href="$group__rcc__defines.html#ga93f0715a42904d8c70bc7d1c862cf89f" title="RCC Set the PLL Multiplication Factor. " alt="" coords="189,173,357,227"/>
-<area shape="rect" id="node11" href="$group__rcc__defines.html#ga05a5e2fab5bb6e8de484b83588a29bee" title="RCC Set the APB Prescale Factor. " alt="" coords="225,250,321,283"/>
-<area shape="rect" id="node13" href="$group__rcc__defines.html#ga0ce4f6c68587faf17a38d98fdcdab338" title="RCC Set the Source for the System Clock. " alt="" coords="196,306,351,339"/>
-<area shape="rect" id="node15" href="$group__rcc__defines.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="193,362,353,395"/>
+<area shape="rect" id="node5" href="$group__STM32F0xx-rcc-file.html#ga81b16ade2e5d6e024f36e3d568a9fd97" title="RCC Turn on an Oscillator. " alt="" coords="229,61,317,94"/>
+<area shape="rect" id="node7" href="$group__STM32F0xx-rcc-file.html#gae192b2cd0f37124db5ed76d599a5671b" title="RCC Set the AHB Prescale Factor. " alt="" coords="225,117,321,150"/>
+<area shape="rect" id="node9" href="$group__STM32F0xx-rcc-file.html#ga93f0715a42904d8c70bc7d1c862cf89f" title="RCC Set the PLL Multiplication Factor. " alt="" coords="189,173,357,227"/>
+<area shape="rect" id="node11" href="$group__STM32F0xx-rcc-file.html#ga05a5e2fab5bb6e8de484b83588a29bee" title="RCC Set the APB Prescale Factor. " alt="" coords="225,250,321,283"/>
+<area shape="rect" id="node13" href="$group__STM32F0xx-rcc-file.html#ga0ce4f6c68587faf17a38d98fdcdab338" title="RCC Set the Source for the System Clock. " alt="" coords="196,306,351,339"/>
+<area shape="rect" id="node15" href="$group__STM32F0xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="193,362,353,395"/>
 </map>

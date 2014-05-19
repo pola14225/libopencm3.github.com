@@ -7259,10 +7259,10 @@
       <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
     </member>
     <member kind="variable">
-      <type>struct _usbd_driver</type>
+      <type>const struct _usbd_driver</type>
       <name>lm4f_usb_driver</name>
       <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>gaa36c79137f3e29484275d9c75a27f9c2</anchor>
+      <anchor>gaedb3ad0d80317ac7e69d6e616077df06</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -14257,10 +14257,10 @@
       <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
     </member>
     <member kind="variable">
-      <type>struct _usbd_driver</type>
+      <type>const struct _usbd_driver</type>
       <name>lm4f_usb_driver</name>
       <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>gaa36c79137f3e29484275d9c75a27f9c2</anchor>
+      <anchor>gaedb3ad0d80317ac7e69d6e616077df06</anchor>
       <arglist></arglist>
     </member>
   </compound>

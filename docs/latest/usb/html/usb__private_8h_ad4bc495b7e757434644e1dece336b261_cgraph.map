@@ -8,9 +8,9 @@
 <area shape="rect" id="node51" href="$group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="409,151,575,184"/>
 <area shape="rect" id="node53" href="$group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f" title="usbd_ep_write_packet" alt="" coords="631,124,783,158"/>
 <area shape="rect" id="node11" href="$usb__private_8h.html#a3347ca42a15acf3ae31d02126ba7d695" title="_usbd_standard_request" alt="" coords="625,336,788,370"/>
-<area shape="rect" id="node13" href="$usb__private_8h.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="839,354,1001,408"/>
-<area shape="rect" id="node31" href="$usb__private_8h.html#aec01ef6ed66dcc2b50cc969b8be8f419" title="_usbd_standard_request\l_interface" alt="" coords="839,584,1001,639"/>
-<area shape="rect" id="node39" href="$usb__private_8h.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="839,150,1001,204"/>
+<area shape="rect" id="node13" href="$usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="839,354,1001,408"/>
+<area shape="rect" id="node31" href="$usb__standard_8c.html#aec01ef6ed66dcc2b50cc969b8be8f419" title="_usbd_standard_request\l_interface" alt="" coords="839,584,1001,639"/>
+<area shape="rect" id="node39" href="$usb__standard_8c.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="839,150,1001,204"/>
 <area shape="rect" id="node15" href="$group__usb__standard__file.html#ga2e39a66a58cc636b01e3d90cb70c7625" title="usb_standard_set_address" alt="" coords="1065,511,1244,544"/>
 <area shape="rect" id="node17" href="$group__usb__standard__file.html#ga11f2ca9802883c0ff1dc312799e7250d" title="usb_standard_set_configuration" alt="" coords="1052,266,1257,299"/>
 <area shape="rect" id="node19" href="$group__usb__standard__file.html#ga430326cdf658101dd4b02d52ebb0cf3c" title="usb_standard_get_configuration" alt="" coords="1052,322,1257,355"/>

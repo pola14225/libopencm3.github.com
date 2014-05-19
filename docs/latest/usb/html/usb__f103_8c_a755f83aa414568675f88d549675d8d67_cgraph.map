@@ -1,4 +1,4 @@
 <map id="stm32f103_poll" name="stm32f103_poll">
 <area shape="rect" id="node3" href="$group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27" title="_usbd_reset" alt="" coords="165,5,259,38"/>
-<area shape="rect" id="node5" href="$group__usb__driver__defines.html#ga888110ac1598406bb834b494c8db7f6c" title="usbd_ep_setup" alt="" coords="308,5,417,38"/>
+<area shape="rect" id="node5" href="$group__usb__drivers__file.html#ga888110ac1598406bb834b494c8db7f6c" title="usbd_ep_setup" alt="" coords="308,5,417,38"/>
 </map>

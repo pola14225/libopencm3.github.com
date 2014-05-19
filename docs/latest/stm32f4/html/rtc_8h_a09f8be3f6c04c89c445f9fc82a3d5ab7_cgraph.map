@@ -1,5 +1,5 @@
 <map id="rtc_enable_wakeup_timer" name="rtc_enable_wakeup_timer">
-<area shape="rect" id="node3" href="$rtc_8h.html#a4c6724c645e96d2741e262d5468d5827" title="Enable the wakeup timer interrupt. " alt="" coords="224,22,395,77"/>
+<area shape="rect" id="node3" href="$rtc_8c.html#a4c6724c645e96d2741e262d5468d5827" title="Enable the wakeup timer interrupt. " alt="" coords="224,22,395,77"/>
 <area shape="rect" id="node5" href="$group__exti__defines.html#gacb53c6b7ac0a8908568b7a1f7bc50d25" title="exti_enable_request" alt="" coords="443,5,581,38"/>
 <area shape="rect" id="node7" href="$group__exti__defines.html#ga8b05a3586764aeb0dd1366dd46616a65" title="exti_set_trigger" alt="" coords="457,61,567,94"/>
 </map>

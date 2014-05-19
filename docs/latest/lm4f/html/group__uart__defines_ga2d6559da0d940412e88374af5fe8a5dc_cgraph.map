@@ -1,3 +1,3 @@
 <map id="uart_disable_tx_interrupt" name="uart_disable_tx_interrupt">
-<area shape="rect" id="node3" href="$group__uart__defines.html#ga2fdf35d91a90e2452368b0358d942f93" title="Enable Specific UART Interrupts. " alt="" coords="220,5,372,38"/>
+<area shape="rect" id="node3" href="$group__uart__irq.html#ga2fdf35d91a90e2452368b0358d942f93" title="Enable Specific UART Interrupts. " alt="" coords="220,5,372,38"/>
 </map>

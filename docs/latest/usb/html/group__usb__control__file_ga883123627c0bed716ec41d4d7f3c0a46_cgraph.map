@@ -1,8 +1,8 @@
 <map id="usb_control_request_dispatch" name="usb_control_request_dispatch">
 <area shape="rect" id="node3" href="$usb__private_8h.html#a3347ca42a15acf3ae31d02126ba7d695" title="_usbd_standard_request" alt="" coords="193,394,356,427"/>
-<area shape="rect" id="node5" href="$usb__private_8h.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="407,155,569,210"/>
-<area shape="rect" id="node23" href="$usb__private_8h.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="407,383,569,438"/>
-<area shape="rect" id="node36" href="$usb__private_8h.html#aec01ef6ed66dcc2b50cc969b8be8f419" title="_usbd_standard_request\l_interface" alt="" coords="407,561,569,615"/>
+<area shape="rect" id="node5" href="$usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="407,155,569,210"/>
+<area shape="rect" id="node23" href="$usb__standard_8c.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="407,383,569,438"/>
+<area shape="rect" id="node36" href="$usb__standard_8c.html#aec01ef6ed66dcc2b50cc969b8be8f419" title="_usbd_standard_request\l_interface" alt="" coords="407,561,569,615"/>
 <area shape="rect" id="node7" href="$group__usb__standard__file.html#ga2c512d44bd72a83d9b438859ab3ee352" title="usb_standard_device\l_get_status" alt="" coords="651,5,795,59"/>
 <area shape="rect" id="node9" href="$group__usb__standard__file.html#ga430326cdf658101dd4b02d52ebb0cf3c" title="usb_standard_get_configuration" alt="" coords="620,82,825,115"/>
 <area shape="rect" id="node11" href="$group__usb__standard__file.html#gad9327961f96b6203ac232d69d53afcf6" title="usb_standard_get_descriptor" alt="" coords="628,138,817,171"/>

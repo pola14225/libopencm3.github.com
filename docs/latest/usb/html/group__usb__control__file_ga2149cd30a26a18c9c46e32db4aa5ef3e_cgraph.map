@@ -5,9 +5,9 @@
 <area shape="rect" id="node51" href="$group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f" title="usbd_ep_write_packet" alt="" coords="436,361,588,394"/>
 <area shape="rect" id="node5" href="$group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="usbd_ep_stall_set" alt="" coords="1127,44,1252,77"/>
 <area shape="rect" id="node9" href="$usb__private_8h.html#a3347ca42a15acf3ae31d02126ba7d695" title="_usbd_standard_request" alt="" coords="431,289,593,322"/>
-<area shape="rect" id="node11" href="$usb__private_8h.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="644,360,807,414"/>
-<area shape="rect" id="node29" href="$usb__private_8h.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="644,149,807,204"/>
-<area shape="rect" id="node41" href="$usb__private_8h.html#aec01ef6ed66dcc2b50cc969b8be8f419" title="_usbd_standard_request\l_interface" alt="" coords="644,589,807,644"/>
+<area shape="rect" id="node11" href="$usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="644,360,807,414"/>
+<area shape="rect" id="node29" href="$usb__standard_8c.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="644,149,807,204"/>
+<area shape="rect" id="node41" href="$usb__standard_8c.html#aec01ef6ed66dcc2b50cc969b8be8f419" title="_usbd_standard_request\l_interface" alt="" coords="644,589,807,644"/>
 <area shape="rect" id="node13" href="$group__usb__standard__file.html#ga2c512d44bd72a83d9b438859ab3ee352" title="usb_standard_device\l_get_status" alt="" coords="888,265,1032,320"/>
 <area shape="rect" id="node15" href="$group__usb__standard__file.html#ga430326cdf658101dd4b02d52ebb0cf3c" title="usb_standard_get_configuration" alt="" coords="857,342,1063,376"/>
 <area shape="rect" id="node17" href="$group__usb__standard__file.html#gad9327961f96b6203ac232d69d53afcf6" title="usb_standard_get_descriptor" alt="" coords="865,398,1055,432"/>

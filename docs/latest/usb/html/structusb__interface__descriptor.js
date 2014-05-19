@@ -8,7 +8,7 @@ var structusb__interface__descriptor =
     [ "bInterfaceSubClass", "structusb__interface__descriptor.html#ac807fb07b6b89886836ad5c1253dae82", null ],
     [ "bLength", "structusb__interface__descriptor.html#a7959ad865fb5527dba879ded533f5976", null ],
     [ "bNumEndpoints", "structusb__interface__descriptor.html#a1fa779eda460fd7f670f7e1adeceed94", null ],
-    [ "endpoint", "structusb__interface__descriptor.html#aaa864bbf6b2e69fe6487d11e6f359945", null ],
+    [ "endpoint", "structusb__interface__descriptor.html#a241f94bbfcabf012866de8a34a46c10d", null ],
     [ "extra", "structusb__interface__descriptor.html#ae3aefe51473859b0a822cf8bc622a81a", null ],
     [ "extralen", "structusb__interface__descriptor.html#ac0a7dff17ffc27fbab51c6c3da13bc8b", null ],
     [ "iInterface", "structusb__interface__descriptor.html#a63008abbea76cc397836554747386055", null ]

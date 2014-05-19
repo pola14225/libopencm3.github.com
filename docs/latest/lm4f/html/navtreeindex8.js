@@ -129,8 +129,8 @@ var NAVTREEINDEX8 =
 "usb_8h_source.html":[25,0,11],
 "usb__lm4f_8c.html":[25,0,12],
 "usb__lm4f_8c.html#ga86efee4380227664681caba4d4c2a010":[25,0,12,1],
-"usb__lm4f_8c.html#gaa36c79137f3e29484275d9c75a27f9c2":[25,0,12,3],
 "usb__lm4f_8c.html#gad5f9b20acf4cf9b527ae4463b4940971":[25,0,12,0],
 "usb__lm4f_8c.html#gad6acfc8a14795d10ae71053b0cfbf717":[25,0,12,2],
+"usb__lm4f_8c.html#gaedb3ad0d80317ac7e69d6e616077df06":[25,0,12,3],
 "usb__lm4f_8c_source.html":[25,0,12]
 };

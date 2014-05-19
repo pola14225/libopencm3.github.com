@@ -1,13 +1,13 @@
 <map id="rcc_sysclk_config" name="rcc_sysclk_config">
-<area shape="rect" id="node3" href="$group__rcc__defines.html#ga70fca8e561f7e2b2b7062c22d85419b4" title="Change the PLL divisor. " alt="" coords="181,61,336,94"/>
-<area shape="rect" id="node7" href="$group__rcc__defines.html#ga269054cc63981ae593e6820de2fe76b1" title="Enable the PLL bypass and use the oscillator clock. " alt="" coords="385,5,540,38"/>
-<area shape="rect" id="node13" href="$group__rcc__defines.html#ga2cd8f194ad903834c78212a0eeb05aa4" title="Configure the crystal type connected to the device. " alt="" coords="195,117,323,150"/>
-<area shape="rect" id="node15" href="$group__rcc__defines.html#gafc653bc7b616053515e1fd4aeb54f972" title="Enable the main oscillator. " alt="" coords="185,173,332,206"/>
-<area shape="rect" id="node17" href="$group__rcc__defines.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control. " alt="" coords="200,229,317,262"/>
-<area shape="rect" id="node20" href="$group__rcc__defines.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL. " alt="" coords="219,285,299,318"/>
-<area shape="rect" id="node22" href="$group__rcc__defines.html#ga6acaa4f857ca454c3f90f579091b3246" title="Set the oscillator source to be used by the system clock. " alt="" coords="189,341,328,374"/>
+<area shape="rect" id="node3" href="$group__rcc__high__level.html#ga1c5a8dbbc0a6bac380b0041962075269" title="Change the PLL divisor. " alt="" coords="181,61,336,94"/>
+<area shape="rect" id="node5" href="$group__rcc__low__level.html#ga269054cc63981ae593e6820de2fe76b1" title="Enable the PLL bypass and use the oscillator clock. " alt="" coords="385,5,540,38"/>
+<area shape="rect" id="node13" href="$group__rcc__low__level.html#ga2cd8f194ad903834c78212a0eeb05aa4" title="Configure the crystal type connected to the device. " alt="" coords="195,117,323,150"/>
+<area shape="rect" id="node15" href="$group__rcc__low__level.html#gafc653bc7b616053515e1fd4aeb54f972" title="Enable the main oscillator. " alt="" coords="185,173,332,206"/>
+<area shape="rect" id="node17" href="$group__rcc__low__level.html#gae166a674c8b6592adea0ff77c1e009e9" title="Enable the use of SYSCTL_RCC2 register for clock control. " alt="" coords="200,229,317,262"/>
+<area shape="rect" id="node20" href="$group__rcc__low__level.html#gaf58b85261f65604132b67d3567c2b0c3" title="Power up the main PLL. " alt="" coords="219,285,299,318"/>
+<area shape="rect" id="node22" href="$group__rcc__low__level.html#ga6acaa4f857ca454c3f90f579091b3246" title="Set the oscillator source to be used by the system clock. " alt="" coords="189,341,328,374"/>
 <area shape="rect" id="node24" href="$group__rcc__high__level.html#ga43a00aa2241426ed96573abc3de839e9" title="xtal_to_freq" alt="" coords="213,397,304,430"/>
-<area shape="rect" id="node5" href="$group__rcc__defines.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock. " alt="" coords="384,61,541,94"/>
-<area shape="rect" id="node9" href="$group__rcc__defines.html#ga104041e1468a0fc62d6c584a25859053" title="Set the PLL clock divisor (from 400MHz) " alt="" coords="397,117,528,150"/>
-<area shape="rect" id="node11" href="$group__rcc__defines.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock. " alt="" coords="387,173,539,206"/>
+<area shape="rect" id="node7" href="$group__rcc__low__level.html#ga104041e1468a0fc62d6c584a25859053" title="Set the PLL clock divisor (from 400MHz) " alt="" coords="397,61,528,94"/>
+<area shape="rect" id="node9" href="$group__rcc__low__level.html#ga0f5f3bea5dbfde10760a9cd775951a51" title="Wait for main PLL to lock. " alt="" coords="387,117,539,150"/>
+<area shape="rect" id="node11" href="$group__rcc__low__level.html#gabbbe68ef690e48ae19d4ff04e69cc9c3" title="Disable the PLL bypass and use the PLL clock. " alt="" coords="384,173,541,206"/>
 </map>
