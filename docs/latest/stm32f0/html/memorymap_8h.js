@@ -12,6 +12,7 @@ var memorymap_8h =
     [ "DESIG_UNIQUE_ID1", "memorymap_8h.html#a121c59863db1db56b26e70978089b931", null ],
     [ "DESIG_UNIQUE_ID2", "memorymap_8h.html#a58267039858b45fc2b5948a79d8a038e", null ],
     [ "DESIG_UNIQUE_ID_BASE", "memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b", null ],
+    [ "DMA1_BASE", "memorymap_8h.html#ab2d8a917a0e4ea99a22ac6ebf279bc72", null ],
     [ "DMA_BASE", "memorymap_8h.html#ab04dd812f37907dc8bd6ed82e346b563", null ],
     [ "EXTI_BASE", "memorymap_8h.html#a87371508b3bcdcd98cd1ec629be29061", null ],
     [ "FLASH_BASE", "memorymap_8h.html#a23a9099a5f8fc9c6e253c0eecb2be8db", null ],

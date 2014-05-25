@@ -11406,6 +11406,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>DMA1_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ab2d8a917a0e4ea99a22ac6ebf279bc72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a0e681b03f364532055d88f63fec0d99d</anchor>
