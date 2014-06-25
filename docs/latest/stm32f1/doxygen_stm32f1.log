@@ -2,6 +2,8 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:411: warning: end of file while inside a group
 
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:48: warning: multiple use of section label 'adc_api_ex', (first occurrence: /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/adc.c, line 50)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:28: warning: multiple use of section label 'gpio_api_ex', (first occurrence: /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/gpio.c, line 36)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:234: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:534: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:561: warning: preprocessing issue while doing constant expression evaluation: syntax error

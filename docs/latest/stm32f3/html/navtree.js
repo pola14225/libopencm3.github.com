@@ -51,35 +51,33 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"adc_8h.html#a7540fb278ab1842e4389ea07769cbdf6",
-"adc_8h.html#gafe352fb7c779e3b540056f0dd926e8b3",
-"dac__common__all_8c.html#ga6ab076c50ee6f788648a9a6ebe161ab2",
-"dma__common__l1f013_8h.html#ga4e5c41c9e13788bf86fbe6354c5e2287",
-"flash__common__f234_8h.html#ga936324709ea40109331b76849da2c8b2",
-"group__adc__channel.html#ga069b1bda1850860eae190ecfb28fd9f4",
-"group__dac__defines.html#ga050488b41bd267650301bde2e585192f",
-"group__dma__defines.html#ga5e6948cc934466d0b26c6fffaecdb999",
-"group__gpio__af__num.html#ga5976a97cba5848fba316456534fbd555",
-"group__i2c__defines.html#ga3285997cfc732207c48128ca4a896e4f",
-"group__i2c__file.html#ga64b868336511980e666d8763953b5c9e",
-"group__spi__defines.html#ga3eee671793983a3bd669c9173b2ce210",
-"group__tim__sms.html#ga517e451b0ce8c735391a1638453da2c3",
-"group__timer__defines.html#ga726dada34e571a8e0ee4fbdfc0e069bf",
-"group__timer__defines.html#gga3231b651e821b33d1adeeb21e2a7ae62ad275ad3ac456468fa1bb0501dea13b80",
-"i2c_8c.html#gae111cda8281c286c2a77547f596d1b14",
-"i2c__common__all_8h.html#ga3b1ebaf8173090ec469b055b98e585d2",
-"pwr_8h_source.html",
-"rcc_8h.html#a54c7db24941f636ee238833c481ada48a90027a4ee9873d68ddd3a834cc90490f",
-"rcc_8h.html#gae192b2cd0f37124db5ed76d599a5671b",
-"spi__common__f03_8c.html#gab28610e17dfebd2fb0c51a0d7b462d95",
-"timer__common__all_8h.html#ga2eabface433d6adaa2dee3df49852585",
-"timer__common__all_8h.html#gaa4e85dba3117993dd6281efa8d0eef6c",
-"usart_8h.html#a03d8df6e223709cd924381234a73738b",
-"usart__common__all_8h.html#gae201b528891b97d83a92df7b9c18b2ae"
+"adc_8h.html#a992a13cf7e5abfb2bcc9815ac7503523",
+"globals_w.html",
+"group__adc__defines.html#ga04b6f31a8ec80c8bdb29c147d570b7ab",
+"group__adc__file.html#gaf91d45a5dcbc9d884a9f878ff6323bbe",
+"group__dac__defines.html#gaf54e2f45530e9d2edaf7d88c3e13b907",
+"group__dma__defines.html#ga26bfd55e965445ae253a5c5fa8f1769a",
+"group__dma__defines.html#gac30477625eac00725c6d15a98d653a9b",
+"group__flash__defines.html#ga3019ff197b4fd698e9625c9abb67f4be",
+"group__gpio__defines.html#gabb9a59447b681234fadf66bd3f0fdd57",
+"group__i2c__defines.html#ga03b23746f766bda05694cfb37cf4f3cb",
+"group__i2c__defines.html#ga75e971012a02f9dad47a1629c6f5d956",
+"group__i2c__defines.html#gae9d45cba078c17c937f9fbf3eaa3e762",
+"group__iwdg__prediv.html",
+"group__spi__baudrate.html#ga03433fcd51f24e2f598be47e592461c7",
+"group__spi__defines.html#gaa1e2c60713d6f45ccb7c0c1f6917635c",
+"group__spi__reg__base.html#ga2a2e6edef68cfe1946f39a5033da2301",
+"group__timer__defines.html#ga08c41500cccb47ffb29935c7ade19f0e",
+"group__timer__defines.html#ga4ceb747a6c4de3b6f8f687fc208b2e81",
+"group__timer__defines.html#ga91e4930d89cab78394f889d6d033cb14",
+"group__timer__defines.html#gade656832d3ec303a2a7a422638dd560e",
+"group__timer__file.html#ga45cb21df9ad54411ad2cde8eb29f1a9f",
+"group__usart__file.html#gab2f95a34df377c2c9d36049f1f625f23",
+"rcc_8h.html#a4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa",
+"rcc_8h.html#ae5a2d49d45df299ff751fb904570d070",
+"usart_8h.html#afbb4336ac93d94d4e78f9fb7b3a0dc68"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var SYNCONMSG = 'click to disable panel synchronisation';
 var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
@@ -104,6 +102,21 @@ function stripPath2(uri)
   return m ? uri.substring(i-6) : s;
 }
 
+function hashValue()
+{
+  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
+}
+
+function hashUrl()
+{
+  return '#'+hashValue();
+}
+
+function pathName()
+{
+  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
+}
+
 function localStorageSupported()
 {
   try {
@@ -126,7 +139,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  } 
+  }
 }
 
 function cachedLink()
@@ -198,11 +211,13 @@ var animationInProgress = false;
 function gotoAnchor(anchor,aname,updateLocation)
 {
   var pos, docContent = $('#doc-content');
-  if (anchor.parent().attr('class')=='memItemLeft' ||
-      anchor.parent().attr('class')=='fieldtype' ||
-      anchor.parent().is(':header')) 
+  var ancParent = $(anchor.parent());
+  if (ancParent.hasClass('memItemLeft') ||
+      ancParent.hasClass('fieldname') ||
+      ancParent.hasClass('fieldtype') ||
+      ancParent.is(':header'))
   {
-    pos = anchor.parent().position().top;
+    pos = ancParent.position().top;
   } else if (anchor.position()) {
     pos = anchor.position().top;
   }
@@ -260,7 +275,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath($(location).attr('pathname'));
+      var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
@@ -354,14 +369,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = $(location).attr('hash');
+  var aname = hashUrl();
   var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+
-               window.location.hash.substring(1)+'"]');
+    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
-    glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldname'){
+    glowEffect(anchor.parent().parent(),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -376,7 +390,7 @@ function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
+    var link=stripPath(pathName())+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -487,14 +501,13 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1];
+    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
     else hash='';
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
-    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -528,7 +541,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+    storeLink(stripPath2(pathName())+hashUrl());
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -568,7 +581,7 @@ function initNavTree(toroot,relpath)
   }
 
   $(window).load(function(){
-    navTo(o,toroot,window.location.hash,relpath);
+    navTo(o,toroot,hashUrl(),relpath);
     showRoot();
   });
 
@@ -576,21 +589,20 @@ function initNavTree(toroot,relpath)
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath($(location).attr('pathname'))+':'+
-                               $(location).attr('hash').substring(1);
-         a=$('.item a[class$="'+clslink+'"]');
+         var clslink=stripPath(pathName())+':'+hashValue();
+         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2($(location).attr('pathname'));
-       navTo(o,link,$(location).attr('hash'),relpath);
+       var link=stripPath2(pathName());
+       navTo(o,link,hashUrl(),relpath);
      } else if (!animationInProgress) {
        $('#doc-content').scrollTop(0);
        $('.item').removeClass('selected');
        $('.item').removeAttr('id');
-       navTo(o,toroot,window.location.hash,relpath);
+       navTo(o,toroot,hashUrl(),relpath);
      }
   })
 }

@@ -51,41 +51,39 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"adc__common__v1_8h.html#ga7ae457e7eebea2a92f45d2f5427aba26",
-"dac__common__all_8h.html#gaf9457388ad58eb107281307d448ad4b7",
-"dma__common__f24_8h.html#ga8383bac9e5c6735b84980a82b357edd4",
-"dma__common__l1f013_8h.html#ga4076bf1ed67fb39d4a0175e5943d5f2d",
-"flash_8h.html#ga4e9fb828fae763874908660c49dc805c",
-"globals_defs_a.html",
-"gpio__common__f234_8h.html#ga5976a97cba5848fba316456534fbd555",
-"group__adc__file.html#ga756eb74470362394a05dacf33f3e647d",
-"group__dac__wave1__en.html#ga0bdbd7bb6004048e7eaa6c0d1ec21608",
-"group__dma__defines.html#ga6fa0eb413131b25edb469fa679460ce4",
-"group__dma__fifo__status.html#gad0deb3bbbbeaca4fbf62f87f43117ffa",
-"group__flash__defines.html#ga91fce02f91c25bf47c5c8361789de59f",
-"group__gpio__defines.html#ga89d67b621ca43b4b3f37d2e534ea865e",
-"group__i2c__defines.html#ga9a1c593d122706af68c83355ccdf59bc",
-"group__lcd__reg__base.html#ga49cf259d6e905fa9f3d581b874a3b9ad",
-"group__rcc__defines.html#ga97c9487ca04b0a1a992d0f2e00df739c",
-"group__rtc__defines.html#ga061be0d3cdea721e5cb695cda0699bc3",
-"group__spi__defines.html#ga35c65ed66e29b539d9a14e833c491802",
-"group__tim__lock.html#gaa970fc2b60f18de4ccd59c64442d6a05",
-"group__timer__defines.html#ga6447971b09c9afaea3be9cdbd354c3bb",
-"group__timer__defines.html#gaf3a529b2a77b0f3203ad53b243b787c5",
-"group__usart__defines.html#gaac35e7ef814d1a7a5c28ababd16436c0",
-"i2c__common__all_8h.html#gaf45142a5b574acf77396134539c90159",
-"memorymap_8h.html#aa9f5d2999c6918e385d7a526c4f6b1d3",
-"rcc_8h.html#ga63aa2b3fb8156ad6b6d2b08d4fe8f12e",
-"rcc_8h.html#gga54c7db24941f636ee238833c481ada48a5bd6d6787a1015d61b72678a48d9e0fc",
-"rtc__common__l1f024_8h.html#gab701eac43b9bf61cd11922c15a4d8ee1",
-"spi__common__all_8h.html#gaf18705567de7ab52a62e5ef3ba27418b",
-"timer__common__all_8h.html#ga15d4bd837f06b4905e2f0b94c1dba4e6",
-"timer__common__all_8h.html#ga88dabeaade4785e8711b682cbecc68b3",
-"timer__common__all_8h.html#gga8a2a8722575e6301c3e059b9ec8f50c2aa66eb4fb91e4d5593c7f61795c09fa03"
+"group__adc__channel.html#ga214a9ead42c311498474678796e8e768",
+"group__adc__defines.html#gabcff75a3a7cb3bd72832317aac2daa44",
+"group__dac__defines.html#ga0c54b4eaa50b7c99ec051551c0018e06",
+"group__dac__trig1__sel.html#ga29b35f29ff2af036e23f31400e69674f",
+"group__dma__defines.html#ga29c5d5c559dd14646fdc170e74f1f03b",
+"group__dma__defines.html#ga6712c2e806a539c859eadadbe803d2ed",
+"group__dma__defines.html#gaab5cb55fa0de55a1e09eb5d6d2fd7712",
+"group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230",
+"group__dma__st__number.html#ga5d575ab07d75dabb82d260beb2b307c3",
+"group__flash__defines.html#ga4b86181a96fd2f1cc3828e9d8d83d368",
+"group__flash__defines.html#gaf75755c3dd5d4157820e95378ae7bb47",
+"group__gpio__defines.html#ga35b53807fdef76084d0af95975b53abc",
+"group__gpio__defines.html#gafd9a9926157ad07dd8ef075292a293b9",
+"group__i2c__defines.html#ga24ab62763434be2583beb20bd2b98c5f",
+"group__i2c__rw.html#ga9536bf85bced4f4e549a82fb18eb6140",
+"group__lcd__defines.html#gab1ed20135bd4e4d3a284d68a76c1c4a3",
+"group__rcc__apb1enr__en.html#ga5c19997ccd28464b80a7c3325da0ca60",
+"group__rcc__defines.html#ga5f5d6161e92d2708ee1e2d0517c10c28",
+"group__rcc__defines.html#gad38877547c4cbbb94659d5726f377163",
+"group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a600bd6f61da0eaed2c2f8fdf49fbb9c9",
+"group__rtc__defines.html#ga4e8b2b80932b84a1bc7d399fba1a311e",
+"group__rtc__file.html#ga25813ce258a0d4d2865ec883fea0175b",
+"group__spi__defines.html#ga8ad1268a257456a854b960f8aa73b1ce",
+"group__spi__file.html#gad86076b9c51c2ce18f844d42053ed8cc",
+"group__tim__x__cr2__ois.html#ga31b26bf058f88d771c33aff85ec89358",
+"group__timer__defines.html#ga403fc501d4d8de6cabee6b07acb81a36",
+"group__timer__defines.html#ga89bf2811fcf526110a92ae68d58a7b3d",
+"group__timer__defines.html#gad3d3ef84edd2180d79321bac6394bb4d",
+"group__timer__file.html#ga07c712d9ab62bbcea1de4f865a077a5c",
+"group__usart__defines.html#ga4a62e93ae7864e89622bdd92508b615e",
+"group__usart__sr__flags.html#ga9250ae2793db0541e6c4bb8837424541"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var SYNCONMSG = 'click to disable panel synchronisation';
 var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
@@ -110,6 +108,21 @@ function stripPath2(uri)
   return m ? uri.substring(i-6) : s;
 }
 
+function hashValue()
+{
+  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
+}
+
+function hashUrl()
+{
+  return '#'+hashValue();
+}
+
+function pathName()
+{
+  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
+}
+
 function localStorageSupported()
 {
   try {
@@ -132,7 +145,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  } 
+  }
 }
 
 function cachedLink()
@@ -204,11 +217,13 @@ var animationInProgress = false;
 function gotoAnchor(anchor,aname,updateLocation)
 {
   var pos, docContent = $('#doc-content');
-  if (anchor.parent().attr('class')=='memItemLeft' ||
-      anchor.parent().attr('class')=='fieldtype' ||
-      anchor.parent().is(':header')) 
+  var ancParent = $(anchor.parent());
+  if (ancParent.hasClass('memItemLeft') ||
+      ancParent.hasClass('fieldname') ||
+      ancParent.hasClass('fieldtype') ||
+      ancParent.is(':header'))
   {
-    pos = anchor.parent().position().top;
+    pos = ancParent.position().top;
   } else if (anchor.position()) {
     pos = anchor.position().top;
   }
@@ -266,7 +281,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath($(location).attr('pathname'));
+      var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
@@ -360,14 +375,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = $(location).attr('hash');
+  var aname = hashUrl();
   var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+
-               window.location.hash.substring(1)+'"]');
+    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
-    glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldname'){
+    glowEffect(anchor.parent().parent(),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -382,7 +396,7 @@ function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
+    var link=stripPath(pathName())+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -493,14 +507,13 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1];
+    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
     else hash='';
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
-    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -534,7 +547,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+    storeLink(stripPath2(pathName())+hashUrl());
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -574,7 +587,7 @@ function initNavTree(toroot,relpath)
   }
 
   $(window).load(function(){
-    navTo(o,toroot,window.location.hash,relpath);
+    navTo(o,toroot,hashUrl(),relpath);
     showRoot();
   });
 
@@ -582,21 +595,20 @@ function initNavTree(toroot,relpath)
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath($(location).attr('pathname'))+':'+
-                               $(location).attr('hash').substring(1);
-         a=$('.item a[class$="'+clslink+'"]');
+         var clslink=stripPath(pathName())+':'+hashValue();
+         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2($(location).attr('pathname'));
-       navTo(o,link,$(location).attr('hash'),relpath);
+       var link=stripPath2(pathName());
+       navTo(o,link,hashUrl(),relpath);
      } else if (!animationInProgress) {
        $('#doc-content').scrollTop(0);
        $('.item').removeClass('selected');
        $('.item').removeAttr('id');
-       navTo(o,toroot,window.location.hash,relpath);
+       navTo(o,toroot,hashUrl(),relpath);
      }
   })
 }

@@ -51,40 +51,38 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"cgu_8h.html#ga2561b646058ba7cbeef666575ee954dc",
-"cgu_8h.html#gaca47db8b294ba6042fa2b27dfa13d956",
-"functions_vars.html",
-"gpdma_8h.html#gaa28e839c680d4bf22ef59601234db622",
-"gpio_8h.html#ga3693f5ab29caf0864d1c1af7522325c9",
-"gpio_8h.html#gaa7061a781ffaf3918731f42288bc7a78",
-"group__adc__defines.html#ga65c1c4023922a9eebefb5976b4239ba5",
-"group__cgu__defines.html#ga3ea002f8a211ff087d274ade8f64c704",
-"group__cgu__defines.html#gaddc4a5a5f3263bacc045ff5e24ed02de",
-"group__gpdma__defines.html#ga0c0ffd1fb84c9ae8ce245c174ba1694e",
-"group__gpio__defines.html#ga01c169f773dba241884cb98ae720daab",
-"group__gpio__defines.html#ga60eed26cdc3fdb36d7e984e88dd16bce",
-"group__gpio__defines.html#gacc7cbee5ecf10715f5984b1dd84af23f",
-"group__i2s__defines.html#gaec20be5b77e248a2a1645220ad0a2915",
-"group__rgu__defines.html#ga890c4a9963020a642059a31d6529c1cc",
-"group__scu__defines.html#ga0c6b98212ad98d5394506cad0fb8e5ee",
-"group__scu__defines.html#gafa19fe2d8c34f4e20432876944ed377d",
-"group__sdio__defines.html#ga3171cd312505cf7e60e2171d8203be3d",
-"group__sdio__defines.html#gaf0b7946bfd3ad37372762a526a74c543",
-"group__timer__defines.html#gaf337163cb10d5d14c5319d8c1be2e96d",
-"rgu_8h.html#ga1b908dfb3aa177e2b9529080066c2b4d",
-"rgu_8h.html#ga9e1362c1020aaef5915b6df3ce842430",
-"scu_8h.html#ga3d343966a42378b5d454a85645d536e2",
-"scu_8h.html#gga9ebba78e64868d90ae94cabceec832d2a2b42f6ebe228e231b10f05e2b9516000",
-"sgpio_8h.html#ga411fba3913b6392cf3a7edfbd7586579",
-"ssp_8h.html#ga94952eab40cc67bbfa42dbf0b9349d0e",
-"timer_8h.html#gaba88e3e625d41ccbc10e7d0d430da146",
-"usb_8h.html#a128a2af03e13f183a432f024f82cd46d",
-"usb_8h.html#a7e7e1134637f92642e0b54e35e482192",
-"usb_8h.html#ae543a5a7ebab540bd198ccaaf844a81c"
+"group__ccu__defines.html#ga41f1e38b6b2fef4c2c2753dacc0bc659",
+"group__cgu__defines.html#ga176bf9f86041df09e26bd195e269300c",
+"group__cgu__defines.html#ga64779e09a848d127e4c5471ee1b73267",
+"group__cgu__defines.html#gabba19a41152d656d36c3fd7d329e53b5",
+"group__creg__defines.html#ga191636b933ad6214a6e1056df9e13912",
+"group__creg__defines.html#gafd355024f67cfc6d85ac42908585fb7e",
+"group__gpdma__defines.html#ga4a57ef0290bcd2d8da64c703e5e8c351",
+"group__gpdma__defines.html#gace3783dc92791d9e0e3949220b1a2371",
+"group__gpio__defines.html#ga179a6097fd792c24b4105e5dd81ae687",
+"group__gpio__defines.html#ga46362ca2557f99c1d258cdaf35cbaf15",
+"group__gpio__defines.html#ga7f70c6207121f2a2bacb007d1dc0b2ca",
+"group__gpio__defines.html#gab8d168d7f248d08b3fcf6190132fac57",
+"group__gpio__defines.html#gae731032a70e0e80b812f407b4ba1b737",
+"group__i2c__defines.html#gadbe54b511daa1b12e95e4682cb87c425",
+"group__rgu__defines.html#ga2a51a968a0740f22eace2dbf3732b464",
+"group__rgu__defines.html#ga67d922e564d322ad12721fb328b113a7",
+"group__rgu__defines.html#gaab994d5fbea4f78afbf9662f07abb170",
+"group__rgu__defines.html#gaecff76aaf4a73368fec7410ff044229e",
+"group__scu__defines.html#ga511cca9d86b20141e876b3638be52013",
+"group__scu__defines.html#gac02fd6d443876cd7a3c5a8d225511843",
+"group__scu__defines.html#gga9ebba78e64868d90ae94cabceec832d2a5501c381b48783a8f77a78093edc1549",
+"group__sdio__defines.html#ga0d53f83eaf1bd05c45a8a4505bbd0d71",
+"group__sdio__defines.html#ga6e73968b8854da9609f3e572a8d0f45a",
+"group__sdio__defines.html#gac832195dfd097072c40bde008648b068",
+"group__ssp__defines.html#gga35229549353548cb3eb59eef04583800aa5af348caf8dd1fddbcd7dc84db18059",
+"group__timer__defines.html#ga95ba190fefe2be6e7a31172abd394389",
+"structsgpio__t.html#a42cfbfb676d997d5f719fbab5cbfa5e8",
+"usb_8h.html#a0f7ce4d508fd739019acdc9ca6e44ee2",
+"usb_8h.html#a78c13d2614a66df206a9bb825d63652c",
+"usb_8h.html#ae30e157afc1c37fb93ebd35a146b6969"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var SYNCONMSG = 'click to disable panel synchronisation';
 var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
@@ -109,6 +107,21 @@ function stripPath2(uri)
   return m ? uri.substring(i-6) : s;
 }
 
+function hashValue()
+{
+  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
+}
+
+function hashUrl()
+{
+  return '#'+hashValue();
+}
+
+function pathName()
+{
+  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
+}
+
 function localStorageSupported()
 {
   try {
@@ -131,7 +144,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  } 
+  }
 }
 
 function cachedLink()
@@ -203,11 +216,13 @@ var animationInProgress = false;
 function gotoAnchor(anchor,aname,updateLocation)
 {
   var pos, docContent = $('#doc-content');
-  if (anchor.parent().attr('class')=='memItemLeft' ||
-      anchor.parent().attr('class')=='fieldtype' ||
-      anchor.parent().is(':header')) 
+  var ancParent = $(anchor.parent());
+  if (ancParent.hasClass('memItemLeft') ||
+      ancParent.hasClass('fieldname') ||
+      ancParent.hasClass('fieldtype') ||
+      ancParent.is(':header'))
   {
-    pos = anchor.parent().position().top;
+    pos = ancParent.position().top;
   } else if (anchor.position()) {
     pos = anchor.position().top;
   }
@@ -265,7 +280,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath($(location).attr('pathname'));
+      var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
@@ -359,14 +374,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = $(location).attr('hash');
+  var aname = hashUrl();
   var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+
-               window.location.hash.substring(1)+'"]');
+    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
-    glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldname'){
+    glowEffect(anchor.parent().parent(),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -381,7 +395,7 @@ function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
+    var link=stripPath(pathName())+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -492,14 +506,13 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1];
+    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
     else hash='';
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
-    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -533,7 +546,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+    storeLink(stripPath2(pathName())+hashUrl());
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -573,7 +586,7 @@ function initNavTree(toroot,relpath)
   }
 
   $(window).load(function(){
-    navTo(o,toroot,window.location.hash,relpath);
+    navTo(o,toroot,hashUrl(),relpath);
     showRoot();
   });
 
@@ -581,21 +594,20 @@ function initNavTree(toroot,relpath)
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath($(location).attr('pathname'))+':'+
-                               $(location).attr('hash').substring(1);
-         a=$('.item a[class$="'+clslink+'"]');
+         var clslink=stripPath(pathName())+':'+hashValue();
+         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2($(location).attr('pathname'));
-       navTo(o,link,$(location).attr('hash'),relpath);
+       var link=stripPath2(pathName());
+       navTo(o,link,hashUrl(),relpath);
      } else if (!animationInProgress) {
        $('#doc-content').scrollTop(0);
        $('.item').removeClass('selected');
        $('.item').removeAttr('id');
-       navTo(o,toroot,window.location.hash,relpath);
+       navTo(o,toroot,hashUrl(),relpath);
      }
   })
 }

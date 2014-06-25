@@ -2,11 +2,11 @@ var usbstd_8h =
 [
     [ "usb_interface", "structusb__config__descriptor_1_1usb__interface.html", "structusb__config__descriptor_1_1usb__interface" ],
     [ "usb_interface", "structusb__interface.html", "structusb__interface" ],
-    [ "usb_language_id", "usbstd_8h.html#gaca86007d66ae94421fd4f93c0b96b04a", [
-      [ "USB_LANGID_ENGLISH_US", "usbstd_8h.html#ggaca86007d66ae94421fd4f93c0b96b04aa069b825fab4882505aca430300ecc9a8", null ]
+    [ "usb_language_id", "group__usb__type__defines.html#gaca86007d66ae94421fd4f93c0b96b04a", [
+      [ "USB_LANGID_ENGLISH_US", "group__usb__type__defines.html#ggaca86007d66ae94421fd4f93c0b96b04aa069b825fab4882505aca430300ecc9a8", null ]
     ] ],
-    [ "__attribute__", "usbstd_8h.html#gaf45ea7b5ea10239fbbd9377f7faae445", null ],
-    [ "__attribute__", "usbstd_8h.html#ga993287986228cc24f80bfdf807896554", null ],
+    [ "__attribute__", "group__usb__type__defines.html#gaf45ea7b5ea10239fbbd9377f7faae445", null ],
+    [ "__attribute__", "group__usb__type__defines.html#ga993287986228cc24f80bfdf807896554", null ],
     [ "bAlternateSetting", "usbstd_8h.html#a4cdd7aab185365e51a1e722f43073b8c", null ],
     [ "bcdDevice", "usbstd_8h.html#a4ac87bf0a9ee1a9e0eec6d50a8b0e3f9", null ],
     [ "bcdUSB", "usbstd_8h.html#a8f2450b83d08617906b5b63640f559af", null ],

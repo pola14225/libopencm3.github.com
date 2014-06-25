@@ -1,6 +1,6 @@
 var hid_8h =
 [
-    [ "__attribute__", "hid_8h.html#gab06170e95e244e47f1d5c11ced1a483f", null ],
+    [ "__attribute__", "group__usb__hid__defines.html#gab06170e95e244e47f1d5c11ced1a483f", null ],
     [ "bcdHID", "hid_8h.html#acf09c753851ce018b81a07325bda9d8e", null ],
     [ "bCountryCode", "hid_8h.html#a969a604033b72573d59a740badf6920e", null ],
     [ "bDescriptorType", "hid_8h.html#a67d7027b9eb9ed268d28e84fbc675707", null ],

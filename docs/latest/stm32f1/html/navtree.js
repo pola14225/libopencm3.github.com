@@ -43,39 +43,37 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"adc__common__v1_8c.html#gaffa5256174cec880eaea7d82a1caf968",
-"dac__common__all_8c.html#ga22d83a8b387dffeed4a134ee25d0fa8b",
-"dma__common__l1f013_8h.html#ga4b0dfc8b514e15ff2cb50010bb6701ef",
-"ethernet_8h.html#a99f6ddc380fffdfe66e6659f7c4ba325",
-"globals_func.html",
-"gpio_8h.html#ga6bb43f539f0ddc253f2cc6edd27376df",
-"gpio_8h.html#gaecc0d612de874f1efa682ee15f285680",
-"group__adc__cr1__dualmod.html",
-"group__adc__trigger__regular__12.html#ga9a25b6c874d9c8702d646eeaaa6f986e",
-"group__dac__mamp1.html#gac998ca9c7c45963d720a8c69e4e3bf11",
-"group__dma__defines.html#gaec132f1bff88ed77c84215aa7442c01d",
-"group__gpio__defines.html#ga19dda7b0972e832809bdca91e8768418",
-"group__gpio__defines.html#gabee2f6501ae8dc5f186de4fc64b1ae3e",
-"group__i2c__defines.html#ga62aa2496d4b3955214a16a7bd998fd88",
-"group__rcc__apb1rstr__rst.html#gadcd25346a7d7b0009090adfbca899b93",
-"group__rcc__defines.html#gac11c72c60ca011844875b4be8f1085f0",
-"group__spi__cpha.html#ga935722c1b796736febfba89e79260132",
-"group__tim__sms.html#ga8bd33af5ec1303addf55d48f78314892",
-"group__timer__defines.html#ga732a5c7c2c0f7588688a729879b9aa67",
-"group__timer__defines.html#gga8a2a8722575e6301c3e059b9ec8f50c2a083a020245cd85736ae395dd2ccc4561",
-"group__usart__defines.html#gaf390c83858b5d97469c8b328231f1e54",
-"iwdg__common__all_8h.html#ga34546c166927c93af2977d7e8997e3e3",
-"rcc_8h.html#ga22a7079ba87dd7acd5ed7fe7b704e85f",
-"rcc_8h.html#gae46d6eb30e0bf1cf914cd49a75352915",
-"spi__common__all_8c.html#ga1fcf7661af69bcf8999ae3f6d102fd8b",
-"timer__common__all_8c.html#ga635cae0b5d26ee04a7d0f04ee647c5be",
-"timer__common__all_8h.html#ga5a752d4295f100708df9b8be5a7f439d",
-"timer__common__all_8h.html#gad4d7ea0113e5e8500306248c9f9250a9",
-"usart__common__f124_8h.html#ga5b9b0782cd5ada75a6ef5c7fe27af74b"
+"ethernet_8h.html#add605f380a482a06a59498eea4cad15f",
+"group__adc__channel.html#ga51f01f6dedbcfc4231e0fc1d8943d956",
+"group__adc__defines.html#ga44b54d4e69adcfb2a75088aa49ae8112",
+"group__adc__file.html#ga1385e9ff5bd39f15330d2c8d88ef54e6",
+"group__afio__evcr__pin.html#gaf15763ecf97d73cbb6f6bd5b942b5e5e",
+"group__dac__defines.html#ga8b170e5d7a405afaf7535e8bff674349",
+"group__dma__ch__pri.html",
+"group__dma__defines.html#ga989699cace2fa87efa867b825c1deb29",
+"group__exti__defines.html#gaa86779017820fedee955563adc8b5f4a",
+"group__flash__options.html#ga31ed0f6bcf17572daf55a9021dd0aa2a",
+"group__gpio__defines.html#ga446a27be5b79e7435f30b91e8621d858",
+"group__gpio__defines.html#ga919c18cf94f954feb2a6ba09b80f62e8",
+"group__gpio__defines.html#gae14aef9955044122b21c7e6b1d4bc431",
+"group__i2c__clock.html#ga8b285b7ed75c1ae4328046d3b3728606",
+"group__i2c__file.html",
+"group__rcc__ahbenr__en.html#ga7835a40cb1b699408007dcfd9c306d43",
+"group__rcc__cfgr__pmf.html#ga1beafd1f9964bf9c98a8cdb411a8edaa",
+"group__rcc__defines.html#ga837e2d7e2395ac45ebe2aea95ecde9bf",
+"group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a83c81184087f13efd80f2a498d4ae275",
+"group__rtc__defines.html#gac673699fd007d9c2990f41b8e4703667",
+"group__spi__defines.html#ga97602d8ded14bbd2c1deadaf308755a3",
+"group__tim__irq__enable.html#ga1ba7f7ca97eeaf6cc23cd6765c6bf678",
+"group__timer__defines.html#ga14ec6bd56f829e0fa585198a4a3b9115",
+"group__timer__defines.html#ga5d197cb0b2f14f77c2daa2c62e2e2081",
+"group__timer__defines.html#gaa4f2a9f0cf7b60e3c623af451f141f3c",
+"group__timer__defines.html#gaeb9c5d1dc6e7802d19f750ecddac0980",
+"group__timer__file.html#ga93610472688804fb0690d3934a356ba1",
+"group__usart__defines.html#gaa0889f12c0e570ac578c26f7ca7f300e",
+"memorymap_8h.html#af675fae82dff3dc26f7a080985ef8883"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var SYNCONMSG = 'click to disable panel synchronisation';
 var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
@@ -100,6 +98,21 @@ function stripPath2(uri)
   return m ? uri.substring(i-6) : s;
 }
 
+function hashValue()
+{
+  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
+}
+
+function hashUrl()
+{
+  return '#'+hashValue();
+}
+
+function pathName()
+{
+  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
+}
+
 function localStorageSupported()
 {
   try {
@@ -122,7 +135,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  } 
+  }
 }
 
 function cachedLink()
@@ -194,11 +207,13 @@ var animationInProgress = false;
 function gotoAnchor(anchor,aname,updateLocation)
 {
   var pos, docContent = $('#doc-content');
-  if (anchor.parent().attr('class')=='memItemLeft' ||
-      anchor.parent().attr('class')=='fieldtype' ||
-      anchor.parent().is(':header')) 
+  var ancParent = $(anchor.parent());
+  if (ancParent.hasClass('memItemLeft') ||
+      ancParent.hasClass('fieldname') ||
+      ancParent.hasClass('fieldtype') ||
+      ancParent.is(':header'))
   {
-    pos = anchor.parent().position().top;
+    pos = ancParent.position().top;
   } else if (anchor.position()) {
     pos = anchor.position().top;
   }
@@ -256,7 +271,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath($(location).attr('pathname'));
+      var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
@@ -350,14 +365,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = $(location).attr('hash');
+  var aname = hashUrl();
   var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+
-               window.location.hash.substring(1)+'"]');
+    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
-    glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldname'){
+    glowEffect(anchor.parent().parent(),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -372,7 +386,7 @@ function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
+    var link=stripPath(pathName())+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -483,14 +497,13 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1];
+    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
     else hash='';
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
-    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -524,7 +537,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+    storeLink(stripPath2(pathName())+hashUrl());
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -564,7 +577,7 @@ function initNavTree(toroot,relpath)
   }
 
   $(window).load(function(){
-    navTo(o,toroot,window.location.hash,relpath);
+    navTo(o,toroot,hashUrl(),relpath);
     showRoot();
   });
 
@@ -572,21 +585,20 @@ function initNavTree(toroot,relpath)
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath($(location).attr('pathname'))+':'+
-                               $(location).attr('hash').substring(1);
-         a=$('.item a[class$="'+clslink+'"]');
+         var clslink=stripPath(pathName())+':'+hashValue();
+         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2($(location).attr('pathname'));
-       navTo(o,link,$(location).attr('hash'),relpath);
+       var link=stripPath2(pathName());
+       navTo(o,link,hashUrl(),relpath);
      } else if (!animationInProgress) {
        $('#doc-content').scrollTop(0);
        $('.item').removeClass('selected');
        $('.item').removeAttr('id');
-       navTo(o,toroot,window.location.hash,relpath);
+       navTo(o,toroot,hashUrl(),relpath);
      }
   })
 }

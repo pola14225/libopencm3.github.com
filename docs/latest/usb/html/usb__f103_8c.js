@@ -14,6 +14,6 @@ var usb__f103_8c =
     [ "usb_copy_to_pm", "usb__f103_8c.html#ab1ab2d5108d7a424fc7d707fe2eaa117", null ],
     [ "usb_set_ep_rx_bufsize", "usb__f103_8c.html#a5f29b274550ac5fd30f1d2eb90548fa8", null ],
     [ "force_nak", "usb__f103_8c.html#a2e43380a97ab967fc166330fe9cae37b", null ],
-    [ "stm32f103_usb_driver", "usb__f103_8c.html#gaf75394477d6005c2032c0d2aebb7a9a6", null ],
+    [ "stm32f103_usb_driver", "group__usb__driver__defines.html#gaf75394477d6005c2032c0d2aebb7a9a6", null ],
     [ "usbd_dev", "usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c", null ]
 ];
