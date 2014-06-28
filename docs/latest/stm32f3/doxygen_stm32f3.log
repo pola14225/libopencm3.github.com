@@ -40,26 +40,6 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f3/gpio.h:1: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f3/gpio.h:2: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:128: warning: argument 'periph' of command @param is not found in the argument list of rcc_periph_clock_disable(enum rcc_periph_clken clken)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:132: warning: explicit link request to 'periph_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:128: warning: The following parameters of rcc_periph_clock_disable(enum rcc_periph_clken clken) are not documented:
-  parameter 'clken'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:114: warning: argument 'periph' of command @param is not found in the argument list of rcc_periph_clock_enable(enum rcc_periph_clken clken)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:118: warning: explicit link request to 'periph_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:114: warning: The following parameters of rcc_periph_clock_enable(enum rcc_periph_clken clken) are not documented:
-  parameter 'clken'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:157: warning: argument 'periph' of command @param is not found in the argument list of rcc_periph_reset_hold(enum rcc_periph_rst rst)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:161: warning: explicit link request to 'periph_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:157: warning: The following parameters of rcc_periph_reset_hold(enum rcc_periph_rst rst) are not documented:
-  parameter 'rst'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:141: warning: argument 'periph' of command @param is not found in the argument list of rcc_periph_reset_pulse(enum rcc_periph_rst rst)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:145: warning: explicit link request to 'periph_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:141: warning: The following parameters of rcc_periph_reset_pulse(enum rcc_periph_rst rst) are not documented:
-  parameter 'rst'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:172: warning: argument 'periph' of command @param is not found in the argument list of rcc_periph_reset_release(enum rcc_periph_rst rst)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:176: warning: explicit link request to 'periph_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:172: warning: The following parameters of rcc_periph_reset_release(enum rcc_periph_rst rst) are not documented:
-  parameter 'rst'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:99: warning: unable to resolve reference to `rcc_ahbrstr_rst' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:100: warning: unable to resolve reference to `rcc_apb1rstr_rst' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:101: warning: unable to resolve reference to `rcc_apb2rstr_rst' for \ref command

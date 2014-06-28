@@ -243,9 +243,9 @@ $(document).ready(function(){initNavTree('rcc__common__all_8c_source.html','');}
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment"> * Enable the clock on particular peripheral.</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment"> * @param[in] periph periph_t Peripheral Name</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment"> * @param[in] clken rcc_periph_clken Peripheral RCC</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment"> * For available constants, see #periph_t (RCC_UART1 for example)</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment"> * For available constants, see #rcc_periph_clken (RCC_UART1 for example)</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
 <div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="group__rcc__defines.html#ga6b8897014d6489f7ae9d6d977dd9ae84">  121</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga6b8897014d6489f7ae9d6d977dd9ae84">rcc_periph_clock_enable</a>(<span class="keyword">enum</span> <a class="code" href="group__rcc__defines.html#ga54c7db24941f636ee238833c481ada48">rcc_periph_clken</a> clken)</div>
@@ -257,9 +257,9 @@ $(document).ready(function(){initNavTree('rcc__common__all_8c_source.html','');}
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">/** @brief Disable Peripheral Clock in running mode.</span></div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment"> * Disable the clock on particular peripheral.</span></div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment"> * @param[in] periph periph_t Peripheral Name</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment"> * @param[in] clken rcc_periph_clken Peripheral RCC</span></div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment"> * For available constants, see #periph_t (RCC_UART1 for example)</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment"> * For available constants, see #rcc_periph_clken (RCC_UART1 for example)</span></div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
 <div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="group__rcc__defines.html#ga5a10381039ba2cda2f4713060e922455">  135</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga5a10381039ba2cda2f4713060e922455">rcc_periph_clock_disable</a>(<span class="keyword">enum</span> <a class="code" href="group__rcc__defines.html#ga54c7db24941f636ee238833c481ada48">rcc_periph_clken</a> clken)</div>
@@ -272,9 +272,9 @@ $(document).ready(function(){initNavTree('rcc__common__all_8c_source.html','');}
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="comment"> * Reset particular peripheral, and restore to working state.</span></div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment"> * @param[in] periph periph_t Peripheral name</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment"> * @param[in] rst rcc_periph_rst Peripheral reset</span></div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="comment"> * For available constants, see #periph_t (RCC_UART1 for example)</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="comment"> * For available constants, see #rcc_periph_rst (RST_UART1 for example)</span></div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
 <div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="group__rcc__defines.html#ga8d5a2473dbbb91b1ddf82fc2591b0387">  150</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga8d5a2473dbbb91b1ddf82fc2591b0387">rcc_periph_reset_pulse</a>(<span class="keyword">enum</span> <a class="code" href="group__rcc__defines.html#ga4bd6185a4613aaa3ee5447c3d86ba718">rcc_periph_rst</a> rst)</div>
@@ -288,9 +288,9 @@ $(document).ready(function(){initNavTree('rcc__common__all_8c_source.html','');}
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="comment"> * Reset particular peripheral, and hold in reset state.</span></div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="comment"> * @param[in] periph periph_t Peripheral name</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="comment"> * @param[in] rst rcc_periph_rst Peripheral reset</span></div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="comment"> * For available constants, see #periph_t  (RCC_UART1 for example)</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="comment"> * For available constants, see #rcc_periph_rst (RST_UART1 for example)</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
 <div class="line"><a name="l00166"></a><span class="lineno"><a class="line" href="group__rcc__defines.html#ga9220bcc1fc5a6fdb7d78beb7ef72ec77">  166</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#ga9220bcc1fc5a6fdb7d78beb7ef72ec77">rcc_periph_reset_hold</a>(<span class="keyword">enum</span> <a class="code" href="group__rcc__defines.html#ga4bd6185a4613aaa3ee5447c3d86ba718">rcc_periph_rst</a> rst)</div>
@@ -303,9 +303,9 @@ $(document).ready(function(){initNavTree('rcc__common__all_8c_source.html','');}
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment"> * Restore peripheral from reset state to working state.</span></div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment"> * @param[in] periph periph_t Peripheral name</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment"> * @param[in] rst rcc_periph_rst Peripheral reset</span></div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment"> * For available constants, see #periph_t (RCC_UART1 for example)</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment"> * For available constants, see #rcc_periph_rst (RST_UART1 for example)</span></div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
 <div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="group__rcc__defines.html#gaa3237f8654ff2c473dab491d87cabbb8">  181</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__defines.html#gaa3237f8654ff2c473dab491d87cabbb8">rcc_periph_reset_release</a>(<span class="keyword">enum</span> <a class="code" href="group__rcc__defines.html#ga4bd6185a4613aaa3ee5447c3d86ba718">rcc_periph_rst</a> rst)</div>
@@ -335,7 +335,7 @@ $(document).ready(function(){initNavTree('rcc__common__all_8c_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="rcc__common__all_8c.html">rcc_common_all.c</a></li>
-    <li class="footer">Generated on Thu Jun 26 2014 00:21:30 for libopencm3 by
+    <li class="footer">Generated on Sat Jun 28 2014 03:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>
