@@ -53,7 +53,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134",
+"group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f",
 "structusb__config__descriptor_1_1usb__interface.html#a13a3a3923829d695fa85236b83205b1a",
 "usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575"
 ];

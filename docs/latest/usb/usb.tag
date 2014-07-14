@@ -1929,10 +1929,10 @@
       <arglist>(usbd_device *usbd_dev, uint8_t type, uint8_t type_mask, usbd_control_callback callback)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>int</type>
       <name>usbd_register_set_config_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga28898ad3bf7358d58944646882009a93</anchor>
+      <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
       <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
     </member>
     <member kind="function">
@@ -2926,10 +2926,10 @@
       <arglist>(usbd_device *usbd_dev, uint8_t type, uint8_t type_mask, usbd_control_callback callback)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
+      <type>int</type>
       <name>usbd_register_set_config_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga28898ad3bf7358d58944646882009a93</anchor>
+      <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
       <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
     </member>
     <member kind="function">

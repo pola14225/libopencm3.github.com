@@ -1,9 +1,9 @@
 var NAVTREEINDEX1 =
 {
-"group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134":[4,1,4,13],
-"group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134":[26,0,15,13],
 "group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f":[4,1,4,11],
 "group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f":[26,0,15,11],
+"group__usb__driver__defines.html#gab61ace3fbfd23ca3bc3afcee6c231d05":[4,1,4,17],
+"group__usb__driver__defines.html#gab61ace3fbfd23ca3bc3afcee6c231d05":[26,0,15,17],
 "group__usb__driver__defines.html#gab8605d26c51d69b2b35caac8a095c094":[4,1,4,0],
 "group__usb__driver__defines.html#gab8605d26c51d69b2b35caac8a095c094":[26,0,15,0],
 "group__usb__driver__defines.html#gabd42dc86361dbf9c639fd883ada1f572":[4,1,4,7],

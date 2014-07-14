@@ -172,8 +172,8 @@ Functions</h2></td></tr>
 <tr class="separator:gad8e688f14cac90c4933954e3ebbfc3b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga86f80b7593ee05d364fd791896213e38"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#ga86f80b7593ee05d364fd791896213e38">usbd_register_control_callback</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, uint8_t type, uint8_t type_mask, <a class="el" href="group__usb__driver__defines.html#gab8605d26c51d69b2b35caac8a095c094">usbd_control_callback</a> callback)</td></tr>
 <tr class="separator:ga86f80b7593ee05d364fd791896213e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28898ad3bf7358d58944646882009a93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#ga28898ad3bf7358d58944646882009a93">usbd_register_set_config_callback</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, void(*callback)(<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, uint16_t <a class="el" href="usbstd_8h.html#a7383d0165ad8eab48aa239c005199121">wValue</a>))</td></tr>
-<tr class="separator:ga28898ad3bf7358d58944646882009a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab61ace3fbfd23ca3bc3afcee6c231d05"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#gab61ace3fbfd23ca3bc3afcee6c231d05">usbd_register_set_config_callback</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, void(*callback)(<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, uint16_t <a class="el" href="usbstd_8h.html#a7383d0165ad8eab48aa239c005199121">wValue</a>))</td></tr>
+<tr class="separator:gab61ace3fbfd23ca3bc3afcee6c231d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga94eba5aff7befd8009cea2f2abb43134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134">usbd_poll</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>)</td></tr>
 <tr class="separator:ga94eba5aff7befd8009cea2f2abb43134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaef20aadd330e4bb9e97635eeb751d8f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#gaef20aadd330e4bb9e97635eeb751d8f9">usbd_disconnect</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, bool disconnected)</td></tr>
@@ -841,12 +841,12 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ga28898ad3bf7358d58944646882009a93"></a>
+<a class="anchor" id="gab61ace3fbfd23ca3bc3afcee6c231d05"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void usbd_register_set_config_callback </td>
+          <td class="memname">int usbd_register_set_config_callback </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *&#160;</td>
           <td class="paramname"><em>usbd_dev</em>, </td>
@@ -874,8 +874,8 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__usb__driver__defines_ga28898ad3bf7358d58944646882009a93_icgraph.png" border="0" usemap="#group__usb__driver__defines_ga28898ad3bf7358d58944646882009a93_icgraph" alt=""/></div>
-<map name="group__usb__driver__defines_ga28898ad3bf7358d58944646882009a93_icgraph" id="group__usb__driver__defines_ga28898ad3bf7358d58944646882009a93_icgraph">
+<div class="center"><img src="group__usb__driver__defines_gab61ace3fbfd23ca3bc3afcee6c231d05_icgraph.png" border="0" usemap="#group__usb__driver__defines_gab61ace3fbfd23ca3bc3afcee6c231d05_icgraph" alt=""/></div>
+<map name="group__usb__driver__defines_gab61ace3fbfd23ca3bc3afcee6c231d05_icgraph" id="group__usb__driver__defines_gab61ace3fbfd23ca3bc3afcee6c231d05_icgraph">
 <area shape="rect" id="node3" href="group__usb__msc.html#ga5e6959c3ac6ff4efab4fd3b59353f497" title="Initializes the USB Mass Storage subsystem. " alt="" coords="221,15,320,49"/></map>
 </div>
 </p>
@@ -1002,7 +1002,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 14 2014 14:21:17 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 14 2014 15:21:11 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

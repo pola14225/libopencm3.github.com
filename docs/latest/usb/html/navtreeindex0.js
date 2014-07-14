@@ -227,8 +227,6 @@ var NAVTREEINDEX0 =
 "group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12":[26,0,15,23],
 "group__usb__driver__defines.html#ga2530c9cbb5ab3be81daa4e988c2ce579":[4,1,4,20],
 "group__usb__driver__defines.html#ga2530c9cbb5ab3be81daa4e988c2ce579":[26,0,15,20],
-"group__usb__driver__defines.html#ga28898ad3bf7358d58944646882009a93":[4,1,4,17],
-"group__usb__driver__defines.html#ga28898ad3bf7358d58944646882009a93":[26,0,15,17],
 "group__usb__driver__defines.html#ga2cdd6f2cd24e7e222b2add6e08283a7e":[4,1,4,15],
 "group__usb__driver__defines.html#ga2cdd6f2cd24e7e222b2add6e08283a7e":[26,0,15,15],
 "group__usb__driver__defines.html#ga2f2a7dac5031fd8d1b5eb076d3f24b42":[4,1,4,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "group__usb__driver__defines.html#ga888110ac1598406bb834b494c8db7f6c":[4,1,4,8],
 "group__usb__driver__defines.html#ga888110ac1598406bb834b494c8db7f6c":[26,0,15,8],
 "group__usb__driver__defines.html#ga8bbc488106ca72c2b550c1c9f89d5748":[4,1,4,12],
-"group__usb__driver__defines.html#ga8bbc488106ca72c2b550c1c9f89d5748":[26,0,15,12]
+"group__usb__driver__defines.html#ga8bbc488106ca72c2b550c1c9f89d5748":[26,0,15,12],
+"group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134":[4,1,4,13],
+"group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134":[26,0,15,13]
 };

@@ -1,7 +1,7 @@
 <map id="usb_msc_init" name="usb_msc_init">
 <area shape="rect" id="node3" href="$usb__msc_8c.html#a226667566a4c9460bc577aa9c72a14b6" title="Setup the endpoints to be bulk &amp; register the callbacks. " alt="" coords="179,450,293,483"/>
 <area shape="rect" id="node13" href="$usb__msc_8c.html#acea2b1d4fda2777c7729104dfb3109ba" title="set_sbc_status_good" alt="" coords="949,418,1096,451"/>
-<area shape="rect" id="node59" href="$group__usb__driver__defines.html#ga28898ad3bf7358d58944646882009a93" title="usbd_register_set_config\l_callback" alt="" coords="153,661,319,715"/>
+<area shape="rect" id="node59" href="$group__usb__driver__defines.html#gab61ace3fbfd23ca3bc3afcee6c231d05" title="usbd_register_set_config\l_callback" alt="" coords="153,661,319,715"/>
 <area shape="rect" id="node5" href="$usb__msc_8c.html#a7597112b5390c72fe40dd626ba1c5df6" title="Handle various control requests related to the msc storage interface. " alt="" coords="371,483,512,517"/>
 <area shape="rect" id="node7" href="$usb__msc_8c.html#a41a8c24958254f6628787f0a97befc1c" title="Handle the USB &#39;OUT&#39; requests. " alt="" coords="383,539,500,573"/>
 <area shape="rect" id="node50" href="$usb__msc_8c.html#a88700274691bf361f44a0e3b5703ec9f" title="Handle the USB &#39;IN&#39; requests. " alt="" coords="383,294,500,327"/>
