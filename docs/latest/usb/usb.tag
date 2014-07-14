@@ -175,7 +175,7 @@
       <type>enum usb_cdc_line_coding_bCharFormat</type>
       <name>__attribute__</name>
       <anchorfile>group__usb__cdc__defines.html</anchorfile>
-      <anchor>ga4d78e80f3bfe9cf800b0d82933262813</anchor>
+      <anchor>ga8cb92f50fd0c1ad2ab1195289f72bff6</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -592,6 +592,25 @@
     <name>license.dox</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
     <filename>license_8dox</filename>
+  </compound>
+  <compound kind="file">
+    <name>msc.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/</path>
+    <filename>msc_8h</filename>
+    <member kind="typedef">
+      <type>struct _usbd_mass_storage</type>
+      <name>usbd_mass_storage</name>
+      <anchorfile>group__usb__msc__defines.html</anchorfile>
+      <anchor>ga38f5f9afaaae0a35c540c5d2d59dfd57</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>usbd_mass_storage *</type>
+      <name>usb_msc_init</name>
+      <anchorfile>group__usb__msc__defines.html</anchorfile>
+      <anchor>ga5e6959c3ac6ff4efab4fd3b59353f497</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t ep_in, uint8_t ep_in_size, uint8_t ep_out, uint8_t ep_out_size, const char *vendor_id, const char *product_id, const char *product_revision_level, const uint32_t block_count, int(*read_block)(uint32_t lba, uint8_t *copy_to), int(*write_block)(uint32_t lba, const uint8_t *copy_from))</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>usb.c</name>
@@ -1091,6 +1110,499 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>usb_msc.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
+    <filename>usb__msc_8c</filename>
+    <class kind="struct">usb_msc_cbw</class>
+    <class kind="struct">usb_msc_csw</class>
+    <class kind="struct">sbc_sense_info</class>
+    <class kind="struct">usb_msc_trans</class>
+    <class kind="struct">_usbd_mass_storage</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>sbc_sense_key</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_NO_SENSE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20caaa74b9a274f2fbbf372235e2d9364f9e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_RECOVERED_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20caa312059808dae88e8ade4cd46a475ef8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_NOT_READY</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cae8940c3371f429869cb5bbc8febee89e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_MEDIUM_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cad200d8d5ef1c6d93749294ce66e495b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_HARDWARE_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20ca3d5a1b0b01fa2769c349eef7a6150083</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_ILLEGAL_REQUEST</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cab6292ba727cf98e82a5530f40bca23a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_UNIT_ATTENTION</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20caa2d1609b26c17accb683ff05e2af2c9c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_DATA_PROTECT</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cadad2cee9d79bdc561e213cd89cfc5c4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_BLANK_CHECK</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20ca55a9626569077335b38b3df37801f412</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_VENDOR_SPECIFIC</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20caba4d8fab974ef4229b2ed5574474cffb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_COPY_ABORTED</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cafd62f8485d702d4475aa6752372ca3ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_ABORTED_COMMAND</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20ca30d0d91530fd75fb9e913328dfb3bca9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_VOLUME_OVERFLOW</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cab074a7fc1941f268a56266fa803f6363</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_SENSE_KEY_MISCOMPARE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20ca6a8b413783e99c610987a893f8710d36</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>sbc_asc</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_NO_ADDITIONAL_SENSE_INFORMATION</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958ad6892f4955361f9b8ea37ab7dec24adf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_PERIPHERAL_DEVICE_WRITE_FAULT</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a41bdc2d78f61526d1a435390466f5bea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_LOGICAL_UNIT_NOT_READY</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958afc7b9ee0d5c63434a065893f12bf2509</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_UNRECOVERED_READ_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958af94805113caba66e7f69d0d0efcdd90a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_INVALID_COMMAND_OPERATION_CODE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a4ac550ebdaa7d2d2b2e874845dde9bf2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_LBA_OUT_OF_RANGE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a94670e961a4b34f918694211799fa085</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_INVALID_FIELD_IN_CDB</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958ae671358697a0f3fc7ae869afe3765281</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_WRITE_PROTECTED</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958af6d3b29c303410899fa552f3d5ab6413</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_NOT_READY_TO_READY_CHANGE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a3aa858eb504fe4cac3aa93921749b270</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_FORMAT_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a0eba7d6a516888c49d2c0379dd4f655e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASC_MEDIUM_NOT_PRESENT</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a6122693543dfa6a6793fdc835050fbb2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>sbc_ascq</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ab27651977836aae95470be25085abb23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASCQ_NA</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ab27651977836aae95470be25085abb23affc75b07e3e5040bea2fe3ca1c418716</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASCQ_FORMAT_COMMAND_FAILED</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ab27651977836aae95470be25085abb23aa7e184eb37b0909faa4a2fd302ad928a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASCQ_INITIALIZING_COMMAND_REQUIRED</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ab27651977836aae95470be25085abb23a577b28cd3a92592b4abd7bb4ffd057bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>SBC_ASCQ_OPERATION_IN_PROGRESS</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ab27651977836aae95470be25085abb23ac56f5655000705ee5d5578d1c82c3025</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>trans_event</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>adabc5b9359b701c26304af43ea9e6954</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>EVENT_CBW_VALID</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>adabc5b9359b701c26304af43ea9e6954a439faeac7135a05e3efa6870939895fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>EVENT_NEED_STATUS</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>adabc5b9359b701c26304af43ea9e6954a2cbd45952a590a6297e91cfa52aebd9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>struct usb_msc_cbw</type>
+      <name>__attribute__</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af1136d3ad4b67e5f06904fde6c067377</anchor>
+      <arglist>((packed))</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>set_sbc_status</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a285558a874e454328ae7cba96306b253</anchor>
+      <arglist>(usbd_mass_storage *ms, enum sbc_sense_key key, enum sbc_asc asc, enum sbc_ascq ascq)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>set_sbc_status_good</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>acea2b1d4fda2777c7729104dfb3109ba</anchor>
+      <arglist>(usbd_mass_storage *ms)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint8_t *</type>
+      <name>get_cbw_buf</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ac5b311ee22d1d86e3bf5d93cd23d78d7</anchor>
+      <arglist>(struct usb_msc_trans *trans)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_read_6</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a700c7b32d7db1ab7d9a55fb750cfed1a</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_write_6</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af0e6535bbde2e9a00c6e4c3c77d34540</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_write_10</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a67ab7f906e09e9fc149b8fa647a91d2f</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_read_10</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>aa9340553bfc7682037cce665df163506</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_read_capacity</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a40e07cb7889a673d30d93cae4187a5ec</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_format_unit</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a0ba002041133ce594072c4669a888423</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_request_sense</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a4db898a25d3e9e5a3187c6489a8fcd9d</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_mode_sense_6</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a3a155b5971bdfabd70a4d964fd175da1</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_inquiry</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a85cd7451c1bfc24383b60bd8b53073a1</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>scsi_command</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ad834e80e08a1fc52cb6c2a7e4c60e7c4</anchor>
+      <arglist>(usbd_mass_storage *ms, struct usb_msc_trans *trans, enum trans_event event)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>msc_data_rx_cb</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a41a8c24958254f6628787f0a97befc1c</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t ep)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>msc_data_tx_cb</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a88700274691bf361f44a0e3b5703ec9f</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t ep)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>msc_control_request</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a7597112b5390c72fe40dd626ba1c5df6</anchor>
+      <arglist>(usbd_device *usbd_dev, struct usb_setup_data *req, uint8_t **buf, uint16_t *len, void(**complete)(usbd_device *usbd_dev, struct usb_setup_data *req))</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>msc_set_config</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a226667566a4c9460bc577aa9c72a14b6</anchor>
+      <arglist>(usbd_device *usbd_dev, uint16_t wValue)</arglist>
+    </member>
+    <member kind="function">
+      <type>usbd_mass_storage *</type>
+      <name>usb_msc_init</name>
+      <anchorfile>group__usb__msc.html</anchorfile>
+      <anchor>ga5e6959c3ac6ff4efab4fd3b59353f497</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t ep_in, uint8_t ep_in_size, uint8_t ep_out, uint8_t ep_out_size, const char *vendor_id, const char *product_id, const char *product_revision_level, const uint32_t block_count, int(*read_block)(uint32_t lba, uint8_t *copy_to), int(*write_block)(uint32_t lba, const uint8_t *copy_from))</arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCBWSignature</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a25dd7ce6b77786d6f489dddb6e792922</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCBWTag</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a6490a217070a49d7b312b9ae89a7a13d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCBWDataTransferLength</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ac2c0350283b9f39e01d9fcd06739d44b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bmCBWFlags</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>adbcff2be14450de51d5d055a666050e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bCBWLUN</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a1273a617fe2d3434199257559181652e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bCBWCBLength</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>afffd40cc51e64f280f734daa46463a2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>CBWCB</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ac7174140836bafcce11192c288d618e7</anchor>
+      <arglist>[16]</arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCSWSignature</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a00618cfef87f1f50506029b4b9ba5b26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCSWTag</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a6d632dc494a1ecab945e85f7cf2ebebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCSWDataResidue</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a0828bc16e03cb92f0fc0eed899ed2afd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bCSWStatus</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a1375947e53883d17bd586b6037626268</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>struct sbc_sense_info</type>
+      <name>__attribute__</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a2584cca2f0bded88fb09df200f798fcd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static usbd_mass_storage</type>
+      <name>_mass_storage</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af560a8ea5920227995c6f1741499fe6a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const uint8_t</type>
+      <name>_spc3_inquiry_response</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a6b4bbdb252e4a7df3df345af3c352dae</anchor>
+      <arglist>[36]</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const uint8_t</type>
+      <name>_spc3_request_sense</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a90b557bc0850bec9c2397368c6fd9424</anchor>
+      <arglist>[18]</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>usb_private.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
     <filename>usb__private_8h</filename>
@@ -1188,10 +1700,10 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
     <filename>usb__standard_8c</filename>
     <member kind="function">
-      <type>void</type>
+      <type>int</type>
       <name>usbd_register_set_config_callback</name>
       <anchorfile>group__usb__standard__file.html</anchorfile>
-      <anchor>ga28898ad3bf7358d58944646882009a93</anchor>
+      <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
       <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
     </member>
     <member kind="function" static="yes">
@@ -1983,7 +2495,7 @@
       <type>enum usb_cdc_line_coding_bCharFormat</type>
       <name>__attribute__</name>
       <anchorfile>group__usb__cdc__defines.html</anchorfile>
-      <anchor>ga4d78e80f3bfe9cf800b0d82933262813</anchor>
+      <anchor>ga8cb92f50fd0c1ad2ab1195289f72bff6</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2281,6 +2793,7 @@
     <subgroup>usb_cdc_defines</subgroup>
     <subgroup>usb_dfu_defines</subgroup>
     <subgroup>usb_hid_defines</subgroup>
+    <subgroup>usb_msc_defines</subgroup>
     <subgroup>usb_driver_defines</subgroup>
     <subgroup>usb_type_defines</subgroup>
     <subgroup>usb_private_defines</subgroup>
@@ -2296,6 +2809,25 @@
       <anchorfile>group__usb__hid__defines.html</anchorfile>
       <anchor>gab06170e95e244e47f1d5c11ced1a483f</anchor>
       <arglist>((packed))</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>usb_msc_defines</name>
+    <title>USB MSC Type Definitions</title>
+    <filename>group__usb__msc__defines.html</filename>
+    <member kind="typedef">
+      <type>struct _usbd_mass_storage</type>
+      <name>usbd_mass_storage</name>
+      <anchorfile>group__usb__msc__defines.html</anchorfile>
+      <anchor>ga38f5f9afaaae0a35c540c5d2d59dfd57</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>usbd_mass_storage *</type>
+      <name>usb_msc_init</name>
+      <anchorfile>group__usb__msc__defines.html</anchorfile>
+      <anchor>ga5e6959c3ac6ff4efab4fd3b59353f497</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t ep_in, uint8_t ep_in_size, uint8_t ep_out, uint8_t ep_out_size, const char *vendor_id, const char *product_id, const char *product_revision_level, const uint32_t block_count, int(*read_block)(uint32_t lba, uint8_t *copy_to), int(*write_block)(uint32_t lba, const uint8_t *copy_from))</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -2729,10 +3261,10 @@
     <title>Generic USB Standard Request Interface</title>
     <filename>group__usb__standard__file.html</filename>
     <member kind="function">
-      <type>void</type>
+      <type>int</type>
       <name>usbd_register_set_config_callback</name>
       <anchorfile>group__usb__standard__file.html</anchorfile>
-      <anchor>ga28898ad3bf7358d58944646882009a93</anchor>
+      <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
       <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
     </member>
     <member kind="function" static="yes">
@@ -2832,6 +3364,18 @@
       <anchorfile>group__usb__standard__file.html</anchorfile>
       <anchor>ga9714d02e4367d72d66f7d71abe10a70f</anchor>
       <arglist>(usbd_device *usbd_dev, struct usb_setup_data *req, uint8_t **buf, uint16_t *len)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>usb_msc</name>
+    <title>Usb_msc</title>
+    <filename>group__usb__msc.html</filename>
+    <member kind="function">
+      <type>usbd_mass_storage *</type>
+      <name>usb_msc_init</name>
+      <anchorfile>group__usb__msc.html</anchorfile>
+      <anchor>ga5e6959c3ac6ff4efab4fd3b59353f497</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t ep_in, uint8_t ep_in_size, uint8_t ep_out, uint8_t ep_out_size, const char *vendor_id, const char *product_id, const char *product_revision_level, const uint32_t block_count, int(*read_block)(uint32_t lba, uint8_t *copy_to), int(*write_block)(uint32_t lba, const uint8_t *copy_from))</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -2955,8 +3499,8 @@
       <type>void(*</type>
       <name>user_callback_set_config</name>
       <anchorfile>struct__usbd__device.html</anchorfile>
-      <anchor>abd98efa8c8af8feb94b78ae2bbb72caa</anchor>
-      <arglist>)(usbd_device *usbd_dev, uint16_t wValue)</arglist>
+      <anchor>a87d8f0db30486e8a4d2369d95a826e3f</anchor>
+      <arglist>[MAX_USER_SET_CONFIG_CALLBACK])(usbd_device *usbd_dev, uint16_t wValue)</arglist>
     </member>
     <member kind="variable">
       <type>const struct _usbd_driver *</type>
@@ -3008,56 +3552,56 @@
       <type>@</type>
       <name>IDLE</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a27f5fbdb66c93cd1b600ebaa63140890aa9114b048bdf93917cd2e2499e0232e1</anchor>
+      <anchor>a62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>STALLED</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a27f5fbdb66c93cd1b600ebaa63140890adbdd8c4000539bee13614e666ce87819</anchor>
+      <anchor>a62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>DATA_IN</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a27f5fbdb66c93cd1b600ebaa63140890a6d10e42fd61e631bfc28dc000945a68b</anchor>
+      <anchor>a62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>LAST_DATA_IN</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a27f5fbdb66c93cd1b600ebaa63140890ad46e499dfabd69eeb4951d6f37350f78</anchor>
+      <anchor>a62bcb381cd430830ed90561033b84f56ad46e499dfabd69eeb4951d6f37350f78</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>STATUS_IN</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a27f5fbdb66c93cd1b600ebaa63140890a2b8f315a1c77155a8eb55bb2920c387f</anchor>
+      <anchor>a62bcb381cd430830ed90561033b84f56a2b8f315a1c77155a8eb55bb2920c387f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>DATA_OUT</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a27f5fbdb66c93cd1b600ebaa63140890aab55ae38c1bd603e61945595ee71dd27</anchor>
+      <anchor>a62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>LAST_DATA_OUT</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a27f5fbdb66c93cd1b600ebaa63140890ac4102e7aece07c0cd5679b2b3ff2f953</anchor>
+      <anchor>a62bcb381cd430830ed90561033b84f56ac4102e7aece07c0cd5679b2b3ff2f953</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>STATUS_OUT</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a27f5fbdb66c93cd1b600ebaa63140890a60e953b1e72ce2e6aa3fe204dabfdae3</anchor>
+      <anchor>a62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -3068,10 +3612,10 @@
       <arglist>((aligned(4)))</arglist>
     </member>
     <member kind="variable">
-      <type>enum _usbd_device::usb_control_state::@0</type>
+      <type>enum _usbd_device::usb_control_state::@2</type>
       <name>state</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a4560c0bfa6988db823f43be71118f60b</anchor>
+      <anchor>ad23533845acfed1371d89d2703610d9e</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -3220,6 +3764,140 @@
       <name>rx_fifo_size</name>
       <anchorfile>struct__usbd__driver.html</anchorfile>
       <anchor>a5fa81d06fb7e305b7218d5aa83322870</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>_usbd_mass_storage</name>
+    <filename>struct__usbd__mass__storage.html</filename>
+    <member kind="variable">
+      <type>usbd_device *</type>
+      <name>usbd_dev</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a9fec9c49a4e06c7ede13d4b3418eea19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>ep_in</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a3fa979e1953045744f4122c0f015e07e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>ep_in_size</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a0bf69fdf2e153ea290fbef99e938ad40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>ep_out</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a44699a30223c3a3303463b9ab88dbf23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>ep_out_size</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a44faed30916340b27dc001b109b1fc41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const char *</type>
+      <name>vendor_id</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a6b3a5f238f939395de152667aac28895</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const char *</type>
+      <name>product_id</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>abb7b48b3662cf537a233db009b74e338</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const char *</type>
+      <name>product_revision_level</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>aaf80a7a068a13697e71898911ffb0ccd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>block_count</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a9ef6ea0554a88e4eaad6ba43d65390a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int(*</type>
+      <name>read_block</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>afa1a496d3bba68eb84735e13a8717ba5</anchor>
+      <arglist>)(uint32_t lba, uint8_t *copy_to)</arglist>
+    </member>
+    <member kind="variable">
+      <type>int(*</type>
+      <name>write_block</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a76a59962f5bd5b26f904b2cd2a763190</anchor>
+      <arglist>)(uint32_t lba, const uint8_t *copy_from)</arglist>
+    </member>
+    <member kind="variable">
+      <type>void(*</type>
+      <name>lock</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a52d5214e9a68910bf14722f9efc6b02e</anchor>
+      <arglist>)(void)</arglist>
+    </member>
+    <member kind="variable">
+      <type>void(*</type>
+      <name>unlock</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a64460c81158a9c6ff1710627140f7372</anchor>
+      <arglist>)(void)</arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_msc_trans</type>
+      <name>trans</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a3de82f6be70b2a7e5b53ebf62768bda7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>struct sbc_sense_info</type>
+      <name>sense</name>
+      <anchorfile>struct__usbd__mass__storage.html</anchorfile>
+      <anchor>a4b8f3d6aae1625ecc4a5ab39633d1cec</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>sbc_sense_info</name>
+    <filename>structsbc__sense__info.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>key</name>
+      <anchorfile>structsbc__sense__info.html</anchorfile>
+      <anchor>a58afa6868e1f44924da858936bab08e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>asc</name>
+      <anchorfile>structsbc__sense__info.html</anchorfile>
+      <anchor>a29db5c56445002e0e348eb696594b12d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>ascq</name>
+      <anchorfile>structsbc__sense__info.html</anchorfile>
+      <anchor>a243d7a69b9797252c6deacca33b9392c</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4003,6 +4681,179 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>usb_msc_cbw</name>
+    <filename>structusb__msc__cbw.html</filename>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCBWSignature</name>
+      <anchorfile>structusb__msc__cbw.html</anchorfile>
+      <anchor>a06c9f47162709307ab5f5b68c96a3119</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCBWTag</name>
+      <anchorfile>structusb__msc__cbw.html</anchorfile>
+      <anchor>a3b3a4d72d95d8ed9fdfb66d06250e546</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCBWDataTransferLength</name>
+      <anchorfile>structusb__msc__cbw.html</anchorfile>
+      <anchor>af2ae2bce99068e5b4ea7081f023bab2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bmCBWFlags</name>
+      <anchorfile>structusb__msc__cbw.html</anchorfile>
+      <anchor>a8331a5d04e78012779cdf5a568af90b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bCBWLUN</name>
+      <anchorfile>structusb__msc__cbw.html</anchorfile>
+      <anchor>a10cb317c0fe88d24265168592ed63c6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bCBWCBLength</name>
+      <anchorfile>structusb__msc__cbw.html</anchorfile>
+      <anchor>aa27e149aae7423c6dc3e430cb5a57795</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>CBWCB</name>
+      <anchorfile>structusb__msc__cbw.html</anchorfile>
+      <anchor>a9b19b64641e14f1f74bc51b0af55974f</anchor>
+      <arglist>[16]</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_msc_csw</name>
+    <filename>structusb__msc__csw.html</filename>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCSWSignature</name>
+      <anchorfile>structusb__msc__csw.html</anchorfile>
+      <anchor>aebc2d944ccc8284dbd9e836d30089aad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCSWTag</name>
+      <anchorfile>structusb__msc__csw.html</anchorfile>
+      <anchor>a4c8ecc71a403a7050f071b964028cd73</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>dCSWDataResidue</name>
+      <anchorfile>structusb__msc__csw.html</anchorfile>
+      <anchor>af6a50ce0fb8b6daa4dc40167daffa83e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bCSWStatus</name>
+      <anchorfile>structusb__msc__csw.html</anchorfile>
+      <anchor>aa1c2d8d8b2b16b50e9d57e60fd19ca2f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_msc_trans</name>
+    <filename>structusb__msc__trans.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>cbw_cnt</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a2a19069abdeca0556cbe90c8af463fde</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>union usb_msc_trans::@0</type>
+      <name>cbw</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a1d117026e81d2374395c64d7bc76bd7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>bytes_to_read</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a3ab127622f76bed43aecf520efb67e24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>bytes_to_write</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a46e339b0ba4696a2f252b3b7e14379dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>byte_count</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a7e1db671852cfcf6f515136a8f76fcbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>lba_start</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a5fc80ac1c9a0eb75995e534c1d308df7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>block_count</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a7d3252979406f9de573fba4907c8a1b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>current_block</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a20a39235ec981a6fa29e9fc739d9b4a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>msd_buf</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a4725dac7dd085810edbf6962090b108c</anchor>
+      <arglist>[512]</arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>csw_valid</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>adbb4ba8f0aa484d37e01e98a504448d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>csw_sent</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>a98d0d138ab010bba07b00744ec2b248a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>union usb_msc_trans::@1</type>
+      <name>csw</name>
+      <anchorfile>structusb__msc__trans.html</anchorfile>
+      <anchor>aab66425ce97f007e56265b3c9f6835bc</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>usb_setup_data</name>
     <filename>structusb__setup__data.html</filename>
     <member kind="variable">
@@ -4095,6 +4946,7 @@
     <file>usb_f207.c</file>
     <file>usb_fx07_common.c</file>
     <file>usb_fx07_common.h</file>
+    <file>usb_msc.c</file>
     <file>usb_private.h</file>
     <file>usb_standard.c</file>
   </compound>
@@ -4106,6 +4958,7 @@
     <file>dfu.h</file>
     <file>doc-usb.h</file>
     <file>hid.h</file>
+    <file>msc.h</file>
     <file>usbd.h</file>
     <file>usbstd.h</file>
   </compound>

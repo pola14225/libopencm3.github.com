@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['data_5fin',['DATA_IN',['../struct__usbd__device_1_1usb__control__state.html#a27f5fbdb66c93cd1b600ebaa63140890a6d10e42fd61e631bfc28dc000945a68b',1,'_usbd_device::usb_control_state']]],
-  ['data_5fout',['DATA_OUT',['../struct__usbd__device_1_1usb__control__state.html#a27f5fbdb66c93cd1b600ebaa63140890aab55ae38c1bd603e61945595ee71dd27',1,'_usbd_device::usb_control_state']]],
+  ['data_5fin',['DATA_IN',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b',1,'_usbd_device::usb_control_state']]],
+  ['data_5fout',['DATA_OUT',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27',1,'_usbd_device::usb_control_state']]],
+  ['dcbwdatatransferlength',['dCBWDataTransferLength',['../structusb__msc__cbw.html#af2ae2bce99068e5b4ea7081f023bab2a',1,'usb_msc_cbw::dCBWDataTransferLength()'],['../usb__msc_8c.html#ac2c0350283b9f39e01d9fcd06739d44b',1,'dCBWDataTransferLength():&#160;usb_msc.c']]],
+  ['dcbwsignature',['dCBWSignature',['../structusb__msc__cbw.html#a06c9f47162709307ab5f5b68c96a3119',1,'usb_msc_cbw::dCBWSignature()'],['../usb__msc_8c.html#a25dd7ce6b77786d6f489dddb6e792922',1,'dCBWSignature():&#160;usb_msc.c']]],
+  ['dcbwtag',['dCBWTag',['../structusb__msc__cbw.html#a3b3a4d72d95d8ed9fdfb66d06250e546',1,'usb_msc_cbw::dCBWTag()'],['../usb__msc_8c.html#a6490a217070a49d7b312b9ae89a7a13d',1,'dCBWTag():&#160;usb_msc.c']]],
+  ['dcswdataresidue',['dCSWDataResidue',['../structusb__msc__csw.html#af6a50ce0fb8b6daa4dc40167daffa83e',1,'usb_msc_csw::dCSWDataResidue()'],['../usb__msc_8c.html#a0828bc16e03cb92f0fc0eed899ed2afd',1,'dCSWDataResidue():&#160;usb_msc.c']]],
+  ['dcswsignature',['dCSWSignature',['../structusb__msc__csw.html#aebc2d944ccc8284dbd9e836d30089aad',1,'usb_msc_csw::dCSWSignature()'],['../usb__msc_8c.html#a00618cfef87f1f50506029b4b9ba5b26',1,'dCSWSignature():&#160;usb_msc.c']]],
+  ['dcswtag',['dCSWTag',['../structusb__msc__csw.html#a4c8ecc71a403a7050f071b964028cd73',1,'usb_msc_csw::dCSWTag()'],['../usb__msc_8c.html#a6d632dc494a1ecab945e85f7cf2ebebe',1,'dCSWTag():&#160;usb_msc.c']]],
   ['desc',['desc',['../struct__usbd__device.html#abf8c97de9264969c27b342cc569a8ed9',1,'_usbd_device']]],
   ['dfu_2eh',['dfu.h',['../dfu_8h.html',1,'']]],
   ['dfu_5fabort',['DFU_ABORT',['../group__usb__dfu__defines.html#gga1eb1afd96bccc953e4c19022df7d2171ac4cdec2bd3bc05311e89fc989ca0c61d',1,'dfu.h']]],

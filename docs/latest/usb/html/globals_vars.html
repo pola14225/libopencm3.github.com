@@ -109,6 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="#index__"><span>_</span></a></li>
       <li><a href="#index_b"><span>b</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
       <li><a href="#index_d"><span>d</span></a></li>
       <li><a href="#index_e"><span>e</span></a></li>
       <li><a href="#index_f"><span>f</span></a></li>
@@ -152,10 +153,20 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 
 <h3><a class="anchor" id="index__"></a>- _ -</h3><ul>
 <li>__attribute__
-: <a class="el" href="group__usb__cdc__defines.html#ga4d78e80f3bfe9cf800b0d82933262813">cdc.h</a>
-, <a class="el" href="group__usb__type__defines.html#ga993287986228cc24f80bfdf807896554">usbstd.h</a>
-, <a class="el" href="group__usb__driver__defines.html#ga2530c9cbb5ab3be81daa4e988c2ce579">usbd.h</a>
+: <a class="el" href="group__usb__cdc__defines.html#ga8cb92f50fd0c1ad2ab1195289f72bff6">cdc.h</a>
 , <a class="el" href="group__usb__dfu__defines.html#gafab3ce003dc4e9015c96f17748178a0f">dfu.h</a>
+, <a class="el" href="group__usb__type__defines.html#ga993287986228cc24f80bfdf807896554">usbstd.h</a>
+, <a class="el" href="usb__msc_8c.html#a2584cca2f0bded88fb09df200f798fcd">usb_msc.c</a>
+, <a class="el" href="group__usb__driver__defines.html#ga2530c9cbb5ab3be81daa4e988c2ce579">usbd.h</a>
+</li>
+<li>_mass_storage
+: <a class="el" href="usb__msc_8c.html#af560a8ea5920227995c6f1741499fe6a">usb_msc.c</a>
+</li>
+<li>_spc3_inquiry_response
+: <a class="el" href="usb__msc_8c.html#a6b4bbdb252e4a7df3df345af3c352dae">usb_msc.c</a>
+</li>
+<li>_spc3_request_sense
+: <a class="el" href="usb__msc_8c.html#a90b557bc0850bec9c2397368c6fd9424">usb_msc.c</a>
 </li>
 </ul>
 
@@ -163,6 +174,12 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
 <li>bAlternateSetting
 : <a class="el" href="usbstd_8h.html#a4cdd7aab185365e51a1e722f43073b8c">usbstd.h</a>
+</li>
+<li>bCBWCBLength
+: <a class="el" href="usb__msc_8c.html#afffd40cc51e64f280f734daa46463a2f">usb_msc.c</a>
+</li>
+<li>bCBWLUN
+: <a class="el" href="usb__msc_8c.html#a1273a617fe2d3434199257559181652e">usb_msc.c</a>
 </li>
 <li>bcdCDC
 : <a class="el" href="cdc_8h.html#a2bffb583550e4d83b4a2a4d735ece97f">cdc.h</a>
@@ -191,6 +208,9 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 <li>bCountryCode
 : <a class="el" href="hid_8h.html#a969a604033b72573d59a740badf6920e">hid.h</a>
 </li>
+<li>bCSWStatus
+: <a class="el" href="usb__msc_8c.html#a1375947e53883d17bd586b6037626268">usb_msc.c</a>
+</li>
 <li>bDataBits
 : <a class="el" href="cdc_8h.html#aeb01baccbd5328de664ba39a4c295941">cdc.h</a>
 </li>
@@ -201,10 +221,10 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 : <a class="el" href="cdc_8h.html#ac9a7544f66e5343048a779cc2f81f79e">cdc.h</a>
 </li>
 <li>bDescriptorType
-: <a class="el" href="hid_8h.html#a67d7027b9eb9ed268d28e84fbc675707">hid.h</a>
-, <a class="el" href="usbstd_8h.html#a67d7027b9eb9ed268d28e84fbc675707">usbstd.h</a>
-, <a class="el" href="cdc_8h.html#a67d7027b9eb9ed268d28e84fbc675707">cdc.h</a>
+: <a class="el" href="cdc_8h.html#a67d7027b9eb9ed268d28e84fbc675707">cdc.h</a>
 , <a class="el" href="dfu_8h.html#a67d7027b9eb9ed268d28e84fbc675707">dfu.h</a>
+, <a class="el" href="hid_8h.html#a67d7027b9eb9ed268d28e84fbc675707">hid.h</a>
+, <a class="el" href="usbstd_8h.html#a67d7027b9eb9ed268d28e84fbc675707">usbstd.h</a>
 </li>
 <li>bDeviceClass
 : <a class="el" href="usbstd_8h.html#ab8e1b1fca77a607c39bba2278623d4f4">usbstd.h</a>
@@ -269,9 +289,12 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 <li>bmCapabilities
 : <a class="el" href="cdc_8h.html#a881b7a2d441c1074050bb06c058b680c">cdc.h</a>
 </li>
+<li>bmCBWFlags
+: <a class="el" href="usb__msc_8c.html#adbcff2be14450de51d5d055a666050e9">usb_msc.c</a>
+</li>
 <li>bmRequestType
-: <a class="el" href="usbstd_8h.html#abea120ea756eb0abdb8aafb8713f61f4">usbstd.h</a>
-, <a class="el" href="cdc_8h.html#abea120ea756eb0abdb8aafb8713f61f4">cdc.h</a>
+: <a class="el" href="cdc_8h.html#abea120ea756eb0abdb8aafb8713f61f4">cdc.h</a>
+, <a class="el" href="usbstd_8h.html#abea120ea756eb0abdb8aafb8713f61f4">usbstd.h</a>
 </li>
 <li>bNotification
 : <a class="el" href="cdc_8h.html#aad103f9662f9e0805f460ca3ce27c5bb">cdc.h</a>
@@ -303,7 +326,32 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 </ul>
 
 
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>CBWCB
+: <a class="el" href="usb__msc_8c.html#ac7174140836bafcce11192c288d618e7">usb_msc.c</a>
+</li>
+</ul>
+
+
 <h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>dCBWDataTransferLength
+: <a class="el" href="usb__msc_8c.html#ac2c0350283b9f39e01d9fcd06739d44b">usb_msc.c</a>
+</li>
+<li>dCBWSignature
+: <a class="el" href="usb__msc_8c.html#a25dd7ce6b77786d6f489dddb6e792922">usb_msc.c</a>
+</li>
+<li>dCBWTag
+: <a class="el" href="usb__msc_8c.html#a6490a217070a49d7b312b9ae89a7a13d">usb_msc.c</a>
+</li>
+<li>dCSWDataResidue
+: <a class="el" href="usb__msc_8c.html#a0828bc16e03cb92f0fc0eed899ed2afd">usb_msc.c</a>
+</li>
+<li>dCSWSignature
+: <a class="el" href="usb__msc_8c.html#a00618cfef87f1f50506029b4b9ba5b26">usb_msc.c</a>
+</li>
+<li>dCSWTag
+: <a class="el" href="usb__msc_8c.html#a6d632dc494a1ecab945e85f7cf2ebebe">usb_msc.c</a>
+</li>
 <li>dwDTERate
 : <a class="el" href="cdc_8h.html#a1c7eaa2f09ca8253de1711d01e05e02c">cdc.h</a>
 </li>
@@ -367,12 +415,12 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 , <a class="el" href="group__usb__driver__defines.html#gaf75394477d6005c2032c0d2aebb7a9a6">usb_f103.c</a>
 </li>
 <li>stm32f107_usb_driver
-: <a class="el" href="group__usb__driver__defines.html#ga5adac4ccb88c72946fa692670d0bfc16">usb_f107.c</a>
-, <a class="el" href="group__usb__driver__defines.html#ga5adac4ccb88c72946fa692670d0bfc16">usbd.h</a>
+: <a class="el" href="group__usb__driver__defines.html#ga5adac4ccb88c72946fa692670d0bfc16">usbd.h</a>
+, <a class="el" href="group__usb__driver__defines.html#ga5adac4ccb88c72946fa692670d0bfc16">usb_f107.c</a>
 </li>
 <li>stm32f207_usb_driver
-: <a class="el" href="group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12">usb_f207.c</a>
-, <a class="el" href="group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12">usbd.h</a>
+: <a class="el" href="group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12">usbd.h</a>
+, <a class="el" href="group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12">usb_f207.c</a>
 </li>
 </ul>
 
@@ -380,8 +428,8 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 <h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
 <li>usbd_dev
 : <a class="el" href="usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usb_f103.c</a>
-, <a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usb_f207.c</a>
 , <a class="el" href="usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usb_f107.c</a>
+, <a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usb_f207.c</a>
 </li>
 </ul>
 
@@ -394,8 +442,8 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 : <a class="el" href="dfu_8h.html#aba725b47e591dfa9a30a01e80fa1aa49">dfu.h</a>
 </li>
 <li>wIndex
-: <a class="el" href="usbstd_8h.html#adc578ce35d89d52deba61ee6f312f177">usbstd.h</a>
-, <a class="el" href="cdc_8h.html#adc578ce35d89d52deba61ee6f312f177">cdc.h</a>
+: <a class="el" href="cdc_8h.html#adc578ce35d89d52deba61ee6f312f177">cdc.h</a>
+, <a class="el" href="usbstd_8h.html#adc578ce35d89d52deba61ee6f312f177">usbstd.h</a>
 </li>
 <li>wLength
 : <a class="el" href="cdc_8h.html#a496c03443b177fd2e6c93616064d2934">cdc.h</a>
@@ -411,8 +459,8 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 : <a class="el" href="dfu_8h.html#abf7c6492df9b515329616580afb383d2">dfu.h</a>
 </li>
 <li>wValue
-: <a class="el" href="usbstd_8h.html#a7383d0165ad8eab48aa239c005199121">usbstd.h</a>
-, <a class="el" href="cdc_8h.html#a7383d0165ad8eab48aa239c005199121">cdc.h</a>
+: <a class="el" href="cdc_8h.html#a7383d0165ad8eab48aa239c005199121">cdc.h</a>
+, <a class="el" href="usbstd_8h.html#a7383d0165ad8eab48aa239c005199121">usbstd.h</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -420,7 +468,7 @@ $(document).ready(function(){initNavTree('globals_vars.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jun 28 2014 03:21:13 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 14 2014 14:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

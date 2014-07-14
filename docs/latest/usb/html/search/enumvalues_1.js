@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['idle',['IDLE',['../struct__usbd__device_1_1usb__control__state.html#a27f5fbdb66c93cd1b600ebaa63140890aa9114b048bdf93917cd2e2499e0232e1',1,'_usbd_device::usb_control_state']]]
+  ['event_5fcbw_5fvalid',['EVENT_CBW_VALID',['../usb__msc_8c.html#adabc5b9359b701c26304af43ea9e6954a439faeac7135a05e3efa6870939895fb',1,'usb_msc.c']]],
+  ['event_5fneed_5fstatus',['EVENT_NEED_STATUS',['../usb__msc_8c.html#adabc5b9359b701c26304af43ea9e6954a2cbd45952a590a6297e91cfa52aebd9f',1,'usb_msc.c']]]
 ];

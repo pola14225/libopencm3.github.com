@@ -52,5 +52,5 @@ var group__usb__cdc__defines =
       [ "USB_CDC_SPACE_PARITY", "group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa4ff36fa9da45d9cbcbc10638e23a32dc", null ]
     ] ],
     [ "__attribute__", "group__usb__cdc__defines.html#gab6677e82689abb017cf4e5590b1305fa", null ],
-    [ "__attribute__", "group__usb__cdc__defines.html#ga4d78e80f3bfe9cf800b0d82933262813", null ]
+    [ "__attribute__", "group__usb__cdc__defines.html#ga8cb92f50fd0c1ad2ab1195289f72bff6", null ]
 ];

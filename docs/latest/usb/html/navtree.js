@@ -30,7 +30,7 @@ var NAVTREE =
       [ "Data Structures", "annotated.html", "annotated" ],
       [ "Data Structure Index", "classes.html", null ],
       [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Enumerator", "functions_eval.html", null ]
@@ -53,8 +53,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__usb__driver__defines.html#ggae09dc4bce47d0848ddacbd8b08ef76a7ae6fb6de05148b303504d1f2855534495",
-"structusb__iface__assoc__descriptor.html#a6ab5223196a15f3f2c7f81fad1dce02f"
+"group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134",
+"structusb__config__descriptor_1_1usb__interface.html#a13a3a3923829d695fa85236b83205b1a",
+"usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

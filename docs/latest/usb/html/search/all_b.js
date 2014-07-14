@@ -1,5 +1,10 @@
 var searchData=
 [
-  ['num_5faltsetting',['num_altsetting',['../structusb__config__descriptor_1_1usb__interface.html#a13a3a3923829d695fa85236b83205b1a',1,'usb_config_descriptor::usb_interface::num_altsetting()'],['../structusb__interface.html#aa4f464af60066d059eb5c75b91870a6c',1,'usb_interface::num_altsetting()']]],
-  ['num_5fstrings',['num_strings',['../struct__usbd__device.html#a3fe1f0382e2bc3e687152bc47b7e4342',1,'_usbd_device']]]
+  ['libopencm3_20generic_20usb',['libopencm3 Generic USB',['../index.html',1,'']]],
+  ['last_5fdata_5fin',['LAST_DATA_IN',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56ad46e499dfabd69eeb4951d6f37350f78',1,'_usbd_device::usb_control_state']]],
+  ['last_5fdata_5fout',['LAST_DATA_OUT',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56ac4102e7aece07c0cd5679b2b3ff2f953',1,'_usbd_device::usb_control_state']]],
+  ['lba_5fstart',['lba_start',['../structusb__msc__trans.html#a5fc80ac1c9a0eb75995e534c1d308df7',1,'usb_msc_trans']]],
+  ['libopencm3_20license',['libopencm3 License',['../lgpl_license.html',1,'']]],
+  ['license_2edox',['license.dox',['../license_8dox.html',1,'']]],
+  ['lock',['lock',['../struct__usbd__mass__storage.html#a52d5214e9a68910bf14722f9efc6b02e',1,'_usbd_mass_storage']]]
 ];

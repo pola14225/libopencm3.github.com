@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['type',['type',['../struct__usbd__device_1_1user__control__callback.html#abc76a06a989cd6da83b48edbc5e864b2',1,'_usbd_device::user_control_callback']]],
-  ['type_5fmask',['type_mask',['../struct__usbd__device_1_1user__control__callback.html#ade3ae61e072295839d83cd17c6aa804a',1,'_usbd_device::user_control_callback']]]
+  ['read_5fblock',['read_block',['../struct__usbd__mass__storage.html#afa1a496d3bba68eb84735e13a8717ba5',1,'_usbd_mass_storage']]],
+  ['rx_5ffifo_5fsize',['rx_fifo_size',['../struct__usbd__driver.html#a5fa81d06fb7e305b7218d5aa83322870',1,'_usbd_driver']]],
+  ['rxbcnt',['rxbcnt',['../struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443',1,'_usbd_device']]]
 ];

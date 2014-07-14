@@ -13,7 +13,7 @@ var cdc_8h =
       [ "USB_CDC_SPACE_PARITY", "group__usb__cdc__defines.html#gga0cabe0e00dd7200ff5e90f0119fbf66fa4ff36fa9da45d9cbcbc10638e23a32dc", null ]
     ] ],
     [ "__attribute__", "group__usb__cdc__defines.html#gab6677e82689abb017cf4e5590b1305fa", null ],
-    [ "__attribute__", "group__usb__cdc__defines.html#ga4d78e80f3bfe9cf800b0d82933262813", null ],
+    [ "__attribute__", "group__usb__cdc__defines.html#ga8cb92f50fd0c1ad2ab1195289f72bff6", null ],
     [ "bcdCDC", "cdc_8h.html#a2bffb583550e4d83b4a2a4d735ece97f", null ],
     [ "bCharFormat", "cdc_8h.html#a296b7b4f7eaba228afa94b5f9854b86b", null ],
     [ "bControlInterface", "cdc_8h.html#af8b3596257cbd25892a39fbb63b9862b", null ],

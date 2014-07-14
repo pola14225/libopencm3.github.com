@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['data_5fin',['DATA_IN',['../struct__usbd__device_1_1usb__control__state.html#a27f5fbdb66c93cd1b600ebaa63140890a6d10e42fd61e631bfc28dc000945a68b',1,'_usbd_device::usb_control_state']]],
-  ['data_5fout',['DATA_OUT',['../struct__usbd__device_1_1usb__control__state.html#a27f5fbdb66c93cd1b600ebaa63140890aab55ae38c1bd603e61945595ee71dd27',1,'_usbd_device::usb_control_state']]],
+  ['data_5fin',['DATA_IN',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b',1,'_usbd_device::usb_control_state']]],
+  ['data_5fout',['DATA_OUT',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27',1,'_usbd_device::usb_control_state']]],
   ['dfu_5fabort',['DFU_ABORT',['../group__usb__dfu__defines.html#gga1eb1afd96bccc953e4c19022df7d2171ac4cdec2bd3bc05311e89fc989ca0c61d',1,'dfu.h']]],
   ['dfu_5fclrstatus',['DFU_CLRSTATUS',['../group__usb__dfu__defines.html#gga1eb1afd96bccc953e4c19022df7d2171a8adc62cb245219266a0a567053633a1e',1,'dfu.h']]],
   ['dfu_5fdetach',['DFU_DETACH',['../group__usb__dfu__defines.html#gga1eb1afd96bccc953e4c19022df7d2171ab8e18a7fd7b5b1899c5b57fa69faac69',1,'dfu.h']]],

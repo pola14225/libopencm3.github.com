@@ -1,7 +1,11 @@
 var searchData=
 [
   ['endpoint',['endpoint',['../structusb__interface__descriptor.html#a241f94bbfcabf012866de8a34a46c10d',1,'usb_interface_descriptor::endpoint()'],['../usbstd_8h.html#ad9632438abef761b213b1c19f02983ab',1,'endpoint():&#160;usbstd.h']]],
+  ['ep_5fin',['ep_in',['../struct__usbd__mass__storage.html#a3fa979e1953045744f4122c0f015e07e',1,'_usbd_mass_storage']]],
+  ['ep_5fin_5fsize',['ep_in_size',['../struct__usbd__mass__storage.html#a0bf69fdf2e153ea290fbef99e938ad40',1,'_usbd_mass_storage']]],
   ['ep_5fnak_5fset',['ep_nak_set',['../struct__usbd__driver.html#a85fb9f01f31d0bce972912bd8b2711d3',1,'_usbd_driver']]],
+  ['ep_5fout',['ep_out',['../struct__usbd__mass__storage.html#a44699a30223c3a3303463b9ab88dbf23',1,'_usbd_mass_storage']]],
+  ['ep_5fout_5fsize',['ep_out_size',['../struct__usbd__mass__storage.html#a44faed30916340b27dc001b109b1fc41',1,'_usbd_mass_storage']]],
   ['ep_5fread_5fpacket',['ep_read_packet',['../struct__usbd__driver.html#a4f4757bc5241d86d985553fb1086f310',1,'_usbd_driver']]],
   ['ep_5freset',['ep_reset',['../struct__usbd__driver.html#a104fec90259187c1ccc36775542e7f05',1,'_usbd_driver']]],
   ['ep_5fsetup',['ep_setup',['../struct__usbd__driver.html#a426cf7004950aba552645f341f9ce18a',1,'_usbd_driver']]],

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['usb_5fcdc_5fline_5fcoding_5fbcharformat',['usb_cdc_line_coding_bCharFormat',['../group__usb__cdc__defines.html#ga7edb29528e9dcced43aaca511dbd9bc2',1,'cdc.h']]],
-  ['usb_5fcdc_5fline_5fcoding_5fbparitytype',['usb_cdc_line_coding_bParityType',['../group__usb__cdc__defines.html#ga0cabe0e00dd7200ff5e90f0119fbf66f',1,'cdc.h']]],
-  ['usb_5flanguage_5fid',['usb_language_id',['../group__usb__type__defines.html#gaca86007d66ae94421fd4f93c0b96b04a',1,'usbstd.h']]],
-  ['usbd_5frequest_5freturn_5fcodes',['usbd_request_return_codes',['../group__usb__driver__defines.html#gae09dc4bce47d0848ddacbd8b08ef76a7',1,'usbd.h']]]
+  ['sbc_5fasc',['sbc_asc',['../usb__msc_8c.html#a77f0039858eb3e65043ab38cee89b958',1,'usb_msc.c']]],
+  ['sbc_5fascq',['sbc_ascq',['../usb__msc_8c.html#ab27651977836aae95470be25085abb23',1,'usb_msc.c']]],
+  ['sbc_5fsense_5fkey',['sbc_sense_key',['../usb__msc_8c.html#af26abd40ddc343bd44bf4c12c93cb20c',1,'usb_msc.c']]]
 ];

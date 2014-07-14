@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['pm_5ftop',['pm_top',['../struct__usbd__device.html#a46873de4e0e3671bb54bd6f7f7f75acd',1,'_usbd_device']]],
-  ['poll',['poll',['../struct__usbd__driver.html#a89634686f1bc08d0f550d89378700f73',1,'_usbd_driver']]]
+  ['lba_5fstart',['lba_start',['../structusb__msc__trans.html#a5fc80ac1c9a0eb75995e534c1d308df7',1,'usb_msc_trans']]],
+  ['lock',['lock',['../struct__usbd__mass__storage.html#a52d5214e9a68910bf14722f9efc6b02e',1,'_usbd_mass_storage']]]
 ];

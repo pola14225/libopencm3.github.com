@@ -7,14 +7,14 @@
 
 var indexSectionsWithContent =
 {
-  0: "_abcdefghilnprstuw",
-  1: "_u",
-  2: "cdhlu",
-  3: "_bsu",
-  4: "_abcdefinprstuw",
+  0: "_abcdefghiklmnprstuvw",
+  1: "_su",
+  2: "cdhlmu",
+  3: "_bgmsu",
+  4: "_abcdefiklmnprstuvw",
   5: "u",
-  6: "_du",
-  7: "dilsu",
+  6: "_dstu",
+  7: "deilsu",
   8: "gu",
   9: "l"
 };

@@ -185,7 +185,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__control_8c_source.html#l00047">47</a> of file <a class="el" href="usb__control_8c_source.html">usb_control.c</a>.</p>
 
-<p>References <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="struct__usbd__device_1_1usb__control__state.html#a4560c0bfa6988db823f43be71118f60b">_usbd_device::usb_control_state::state</a>, and <a class="el" href="usb_8c_source.html#l00159">usbd_ep_stall_set()</a>.</p>
+<p>References <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e">_usbd_device::usb_control_state::state</a>, and <a class="el" href="usb_8c_source.html#l00159">usbd_ep_stall_set()</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__control_8c_source.html#l00259">_usbd_control_in()</a>, <a class="el" href="usb__control_8c_source.html#l00213">_usbd_control_out()</a>, <a class="el" href="usb__control_8c_source.html#l00192">_usbd_control_setup()</a>, <a class="el" href="usb__control_8c_source.html#l00098">usb_control_recv_chunk()</a>, <a class="el" href="usb__control_8c_source.html#l00149">usb_control_setup_read()</a>, and <a class="el" href="usb__control_8c_source.html#l00170">usb_control_setup_write()</a>.</p>
 
@@ -233,7 +233,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__control_8c_source.html#l00098">98</a> of file <a class="el" href="usb__control_8c_source.html">usb_control.c</a>.</p>
 
-<p>References <a class="el" href="usbstd_8h_source.html#l00126">usb_device_descriptor::bMaxPacketSize0</a>, <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00073">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usb__private_8h_source.html#l00047">_usbd_device::desc</a>, <a class="el" href="usb__control_8c_source.html#l00047">stall_transaction()</a>, and <a class="el" href="usb_8c_source.html#l00153">usbd_ep_read_packet()</a>.</p>
+<p>References <a class="el" href="usbstd_8h_source.html#l00126">usb_device_descriptor::bMaxPacketSize0</a>, <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00075">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usb__private_8h_source.html#l00048">_usbd_device::desc</a>, <a class="el" href="usb__control_8c_source.html#l00047">stall_transaction()</a>, and <a class="el" href="usb_8c_source.html#l00153">usbd_ep_read_packet()</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__control_8c_source.html#l00213">_usbd_control_out()</a>.</p>
 
@@ -291,7 +291,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__control_8c_source.html#l00118">118</a> of file <a class="el" href="usb__control_8c_source.html">usb_control.c</a>.</p>
 
-<p>References <a class="el" href="usb__standard_8c_source.html#l00497">_usbd_standard_request()</a>, <a class="el" href="usbstd_8h_source.html#l00057">usb_setup_data::bmRequestType</a>, <a class="el" href="usb__private_8h_source.html#l00080">_usbd_device::user_control_callback::cb</a>, <a class="el" href="usb__private_8h_source.html#l00075">_usbd_device::usb_control_state::complete</a>, <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00073">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usbd_8h_source.html#l00048">USBD_REQ_HANDLED</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, and <a class="el" href="struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4">_usbd_device::user_control_callback</a>.</p>
+<p>References <a class="el" href="usb__standard_8c_source.html#l00512">_usbd_standard_request()</a>, <a class="el" href="usbstd_8h_source.html#l00057">usb_setup_data::bmRequestType</a>, <a class="el" href="usb__private_8h_source.html#l00081">_usbd_device::user_control_callback::cb</a>, <a class="el" href="usb__private_8h_source.html#l00076">_usbd_device::usb_control_state::complete</a>, <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00075">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usbd_8h_source.html#l00048">USBD_REQ_HANDLED</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, and <a class="el" href="struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4">_usbd_device::user_control_callback</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__control_8c_source.html#l00213">_usbd_control_out()</a>, and <a class="el" href="usb__control_8c_source.html#l00149">usb_control_setup_read()</a>.</p>
 
@@ -339,7 +339,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__control_8c_source.html#l00074">74</a> of file <a class="el" href="usb__control_8c_source.html">usb_control.c</a>.</p>
 
-<p>References <a class="el" href="usbstd_8h_source.html#l00126">usb_device_descriptor::bMaxPacketSize0</a>, <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00073">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usb__private_8h_source.html#l00047">_usbd_device::desc</a>, <a class="el" href="struct__usbd__device_1_1usb__control__state.html#a4560c0bfa6988db823f43be71118f60b">_usbd_device::usb_control_state::state</a>, and <a class="el" href="usb_8c_source.html#l00147">usbd_ep_write_packet()</a>.</p>
+<p>References <a class="el" href="usbstd_8h_source.html#l00126">usb_device_descriptor::bMaxPacketSize0</a>, <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00075">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usb__private_8h_source.html#l00048">_usbd_device::desc</a>, <a class="el" href="struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e">_usbd_device::usb_control_state::state</a>, and <a class="el" href="usb_8c_source.html#l00147">usbd_ep_write_packet()</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__control_8c_source.html#l00259">_usbd_control_in()</a>, and <a class="el" href="usb__control_8c_source.html#l00149">usb_control_setup_read()</a>.</p>
 
@@ -397,7 +397,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__control_8c_source.html#l00149">149</a> of file <a class="el" href="usb__control_8c_source.html">usb_control.c</a>.</p>
 
-<p>References <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00052">_usbd_device::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00073">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usb__control_8c_source.html#l00047">stall_transaction()</a>, <a class="el" href="struct__usbd__device_1_1usb__control__state.html#a4560c0bfa6988db823f43be71118f60b">_usbd_device::usb_control_state::state</a>, <a class="el" href="usb__control_8c_source.html#l00118">usb_control_request_dispatch()</a>, <a class="el" href="usb__control_8c_source.html#l00074">usb_control_send_chunk()</a>, <a class="el" href="usb_8c_source.html#l00147">usbd_ep_write_packet()</a>, and <a class="el" href="usbstd_8h_source.html#l00061">usb_setup_data::wLength</a>.</p>
+<p>References <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00053">_usbd_device::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00075">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usb__control_8c_source.html#l00047">stall_transaction()</a>, <a class="el" href="struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e">_usbd_device::usb_control_state::state</a>, <a class="el" href="usb__control_8c_source.html#l00118">usb_control_request_dispatch()</a>, <a class="el" href="usb__control_8c_source.html#l00074">usb_control_send_chunk()</a>, <a class="el" href="usb_8c_source.html#l00147">usbd_ep_write_packet()</a>, and <a class="el" href="usbstd_8h_source.html#l00061">usb_setup_data::wLength</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__control_8c_source.html#l00192">_usbd_control_setup()</a>.</p>
 
@@ -455,7 +455,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__control_8c_source.html#l00170">170</a> of file <a class="el" href="usb__control_8c_source.html">usb_control.c</a>.</p>
 
-<p>References <a class="el" href="usbstd_8h_source.html#l00126">usb_device_descriptor::bMaxPacketSize0</a>, <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00052">_usbd_device::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00073">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00053">_usbd_device::ctrl_buf_len</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usb__private_8h_source.html#l00047">_usbd_device::desc</a>, <a class="el" href="usb__control_8c_source.html#l00047">stall_transaction()</a>, <a class="el" href="struct__usbd__device_1_1usb__control__state.html#a4560c0bfa6988db823f43be71118f60b">_usbd_device::usb_control_state::state</a>, and <a class="el" href="usbstd_8h_source.html#l00061">usb_setup_data::wLength</a>.</p>
+<p>References <a class="el" href="usbstd_8h_source.html#l00126">usb_device_descriptor::bMaxPacketSize0</a>, <a class="el" href="struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816">_usbd_device::control_state</a>, <a class="el" href="usb__private_8h_source.html#l00053">_usbd_device::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00074">_usbd_device::usb_control_state::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00054">_usbd_device::ctrl_buf_len</a>, <a class="el" href="usb__private_8h_source.html#l00075">_usbd_device::usb_control_state::ctrl_len</a>, <a class="el" href="usb__private_8h_source.html#l00048">_usbd_device::desc</a>, <a class="el" href="usb__control_8c_source.html#l00047">stall_transaction()</a>, <a class="el" href="struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e">_usbd_device::usb_control_state::state</a>, and <a class="el" href="usbstd_8h_source.html#l00061">usb_setup_data::wLength</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__control_8c_source.html#l00192">_usbd_control_setup()</a>.</p>
 
@@ -517,7 +517,18 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__control_8c_source.html#l00054">54</a> of file <a class="el" href="usb__control_8c_source.html">usb_control.c</a>.</p>
 
-<p>References <a class="el" href="usb__private_8h_source.html#l00080">_usbd_device::user_control_callback::cb</a>, <a class="el" href="usb__private_8h_source.html#l00081">_usbd_device::user_control_callback::type</a>, <a class="el" href="usb__private_8h_source.html#l00082">_usbd_device::user_control_callback::type_mask</a>, and <a class="el" href="struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4">_usbd_device::user_control_callback</a>.</p>
+<p>References <a class="el" href="usb__private_8h_source.html#l00081">_usbd_device::user_control_callback::cb</a>, <a class="el" href="usb__private_8h_source.html#l00082">_usbd_device::user_control_callback::type</a>, <a class="el" href="usb__private_8h_source.html#l00083">_usbd_device::user_control_callback::type_mask</a>, and <a class="el" href="struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4">_usbd_device::user_control_callback</a>.</p>
+
+<p>Referenced by <a class="el" href="usb__msc_8c_source.html#l00731">msc_set_config()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__usb__control__file_ga86f80b7593ee05d364fd791896213e38_icgraph.png" border="0" usemap="#group__usb__control__file_ga86f80b7593ee05d364fd791896213e38_icgraph" alt=""/></div>
+<map name="group__usb__control__file_ga86f80b7593ee05d364fd791896213e38_icgraph" id="group__usb__control__file_ga86f80b7593ee05d364fd791896213e38_icgraph">
+<area shape="rect" id="node3" href="usb__msc_8c.html#a226667566a4c9460bc577aa9c72a14b6" title="Setup the endpoints to be bulk &amp; register the callbacks. " alt="" coords="200,15,315,49"/><area shape="rect" id="node5" href="group__usb__msc.html#ga5e6959c3ac6ff4efab4fd3b59353f497" title="Initializes the USB Mass Storage subsystem. " alt="" coords="363,15,461,49"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -526,7 +537,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jun 28 2014 03:21:12 for libopencm3 by
+    <li class="footer">Generated on Mon Jul 14 2014 14:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>
