@@ -7909,6 +7909,76 @@
       <anchor>ga9347b16d27d64b79f507dc9cad8633b2</anchor>
       <arglist>(uint32_t ws)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_pecr</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga2d5f23208c4a0f2f3799cf8dd5302129</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_pecr</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga126302d8ca4812cbcb0c8b9bd8a9375a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_progmem</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga1f98dbca620b1ba312c1277190650c70</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_progmem</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga627ef6a095bea6eff359e738076a717c</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_option_bytes</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_option_bytes</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>eeprom_program_word</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gae0e2e7f89376c21e620ee119a77a5b51</anchor>
+      <arglist>(uint32_t address, uint32_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>eeprom_program_words</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga1f32c65ae1724939044d17a0ca4324cd</anchor>
+      <arglist>(uint32_t address, uint32_t *data, int length_in_words)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>flash.h</name>
@@ -8369,6 +8439,76 @@
       <anchor>ga9347b16d27d64b79f507dc9cad8633b2</anchor>
       <arglist>(uint32_t ws)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_pecr</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2d5f23208c4a0f2f3799cf8dd5302129</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_pecr</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga126302d8ca4812cbcb0c8b9bd8a9375a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_progmem</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga1f98dbca620b1ba312c1277190650c70</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_progmem</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga627ef6a095bea6eff359e738076a717c</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_option_bytes</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_option_bytes</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>eeprom_program_word</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae0e2e7f89376c21e620ee119a77a5b51</anchor>
+      <arglist>(uint32_t address, uint32_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>eeprom_program_words</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga1f32c65ae1724939044d17a0ca4324cd</anchor>
+      <arglist>(uint32_t address, uint32_t *data, int length_in_words)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>flash_common_f01.c</name>
@@ -8386,20 +8526,6 @@
       <name>flash_prefetch_buffer_disable</name>
       <anchorfile>group__flash__file.html</anchorfile>
       <anchor>ga2628cc1edfc44b2decb15d989f6c79ec</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_unlock</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>ga4da79f8ffb9ed9576ca165e74f496dbe</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_lock</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -8443,13 +8569,6 @@
       <anchorfile>group__flash__file.html</anchorfile>
       <anchor>ga73937aa6df8710e95425b165730626a2</anchor>
       <arglist>(uint32_t address, uint32_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_unlock_option_bytes</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
-      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -8731,20 +8850,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>flash_unlock</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga4da79f8ffb9ed9576ca165e74f496dbe</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_lock</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>flash_clear_pgerr_flag</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>ga8b028c13f819606dfb542931cc87c22e</anchor>
@@ -8818,13 +8923,6 @@
       <name>flash_erase_all_pages</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>gaf1804e22fb8a901f3a5f85535aa1ff7b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_unlock_option_bytes</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -9050,13 +9148,6 @@
       <name>flash_clear_status_flags</name>
       <anchorfile>group__flash__file.html</anchorfile>
       <anchor>ga8bf42e68b53ee74583675289608dae65</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_lock_option_bytes</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -9442,13 +9533,6 @@
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>ga3da5a5a5a0b14a789b1d5c2fb26989fd</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_lock_option_bytes</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
-      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -33640,6 +33724,76 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>flash_unlock_pecr</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2d5f23208c4a0f2f3799cf8dd5302129</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_pecr</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga126302d8ca4812cbcb0c8b9bd8a9375a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_progmem</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga1f98dbca620b1ba312c1277190650c70</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_progmem</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga627ef6a095bea6eff359e738076a717c</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_option_bytes</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_option_bytes</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga4da79f8ffb9ed9576ca165e74f496dbe</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>eeprom_program_word</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gae0e2e7f89376c21e620ee119a77a5b51</anchor>
+      <arglist>(uint32_t address, uint32_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>eeprom_program_words</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga1f32c65ae1724939044d17a0ca4324cd</anchor>
+      <arglist>(uint32_t address, uint32_t *data, int length_in_words)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>flash_prefetch_buffer_enable</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>ga1f646323f7860901e86ca15027838396</anchor>
@@ -33720,13 +33874,6 @@
       <name>flash_clear_pgperr_flag</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>ga05f77e8fb4167ec5a0a2fa55b88245fd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_lock_option_bytes</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -52143,16 +52290,44 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>flash_prefetch_buffer_enable</name>
+      <name>flash_unlock_pecr</name>
       <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>ga1f646323f7860901e86ca15027838396</anchor>
+      <anchor>ga2d5f23208c4a0f2f3799cf8dd5302129</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>flash_prefetch_buffer_disable</name>
+      <name>flash_lock_pecr</name>
       <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>ga2628cc1edfc44b2decb15d989f6c79ec</anchor>
+      <anchor>ga126302d8ca4812cbcb0c8b9bd8a9375a</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_progmem</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga1f98dbca620b1ba312c1277190650c70</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_progmem</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga627ef6a095bea6eff359e738076a717c</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_unlock_option_bytes</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_lock_option_bytes</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -52167,6 +52342,34 @@
       <name>flash_lock</name>
       <anchorfile>group__flash__file.html</anchorfile>
       <anchor>gacd9e0d8e9f52bd1c65fda2ce553f7600</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>eeprom_program_word</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>gae0e2e7f89376c21e620ee119a77a5b51</anchor>
+      <arglist>(uint32_t address, uint32_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>eeprom_program_words</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga1f32c65ae1724939044d17a0ca4324cd</anchor>
+      <arglist>(uint32_t address, uint32_t *data, int length_in_words)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_buffer_enable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga1f646323f7860901e86ca15027838396</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>flash_prefetch_buffer_disable</name>
+      <anchorfile>group__flash__file.html</anchorfile>
+      <anchor>ga2628cc1edfc44b2decb15d989f6c79ec</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -52210,13 +52413,6 @@
       <anchorfile>group__flash__file.html</anchorfile>
       <anchor>ga73937aa6df8710e95425b165730626a2</anchor>
       <arglist>(uint32_t address, uint32_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_unlock_option_bytes</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>ga5458fca5ecb9ec90b21bebbb64c861c4</anchor>
-      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -52314,13 +52510,6 @@
       <name>flash_clear_status_flags</name>
       <anchorfile>group__flash__file.html</anchorfile>
       <anchor>ga8bf42e68b53ee74583675289608dae65</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>flash_lock_option_bytes</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>ga3e656c078b282798add1874cd398f1eb</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">

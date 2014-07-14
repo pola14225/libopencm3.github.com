@@ -33,6 +33,9 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_l1f013.h:147: warning: group dma_if_offset: ignoring title "DMA Interrupt Flag Offsets within channel flag" that does not match old title "DMA Interrupt Flag Offsets within stream flag group."
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/lcd.h:49: warning: Member LCD_CR found in multiple @defgroup groups! The member will be put in group lcd_reg_base, and not in group lcd_defines
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/flash.c:184: warning: argument 'length' of command @param is not found in the argument list of eeprom_program_words(uint32_t address, uint32_t *data, int length_in_words)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/flash.c:184: warning: The following parameters of eeprom_program_words(uint32_t address, uint32_t *data, int length_in_words) are not documented:
+  parameter 'length_in_words'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
   parameter 'sector'
@@ -108,6 +111,9 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:380: warning: argument 'stream' of command @param is not found in the argument list of dma_set_peripheral_address(uint32_t dma, uint8_t channel, uint32_t address)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:157: warning: argument 'stream' of command @param is not found in the argument list of dma_set_peripheral_size(uint32_t dma, uint8_t channel, uint32_t peripheral_size)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:122: warning: argument 'stream' of command @param is not found in the argument list of dma_set_priority(uint32_t dma, uint8_t channel, uint32_t prio)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/flash.c:184: warning: argument 'length' of command @param is not found in the argument list of eeprom_program_words(uint32_t address, uint32_t *data, int length_in_words)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/flash.c:184: warning: The following parameters of eeprom_program_words(uint32_t address, uint32_t *data, int length_in_words) are not documented:
+  parameter 'length_in_words'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
   parameter 'sector'

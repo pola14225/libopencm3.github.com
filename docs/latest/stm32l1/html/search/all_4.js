@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['eeprom_5fprogram_5fword',['eeprom_program_word',['../group__flash__defines.html#gae0e2e7f89376c21e620ee119a77a5b51',1,'eeprom_program_word(uint32_t address, uint32_t data):&#160;flash.c'],['../group__flash__file.html#gae0e2e7f89376c21e620ee119a77a5b51',1,'eeprom_program_word(uint32_t address, uint32_t data):&#160;flash.c']]],
+  ['eeprom_5fprogram_5fwords',['eeprom_program_words',['../group__flash__defines.html#ga1f32c65ae1724939044d17a0ca4324cd',1,'eeprom_program_words(uint32_t address, uint32_t *data, int length_in_words):&#160;flash.c'],['../group__flash__file.html#ga1f32c65ae1724939044d17a0ca4324cd',1,'eeprom_program_words(uint32_t address, uint32_t *data, int length_in_words):&#160;flash.c']]],
   ['exti_2eh',['exti.h',['../exti_8h.html',1,'']]],
   ['exti0',['EXTI0',['../group__exti__defines.html#ga77d55cf55a67ff5d43794d24f7cb9922',1,'exti_common_all.h']]],
   ['exti1',['EXTI1',['../group__exti__defines.html#gabcd18cd089259e5c95d338adc4949821',1,'exti_common_all.h']]],
