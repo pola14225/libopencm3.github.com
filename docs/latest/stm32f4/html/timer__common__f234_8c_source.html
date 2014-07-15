@@ -173,12 +173,12 @@ $(document).ready(function(){initNavTree('timer__common__f234_8c_source.html',''
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="comment">/* Clear CCxP and CCxNP to zero. For both edge trigger both fields are</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">         * set. Case 10 is invalid.</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="group__timer__defines.html#gab19604aad5675e73253134ace4a3f588">TIM_CCER</a>(timer_peripheral) &amp;= ~(0x6 &lt;&lt; (ic * 4));</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="group__timer__defines.html#gab19604aad5675e73253134ace4a3f588">TIM_CCER</a>(timer_peripheral) &amp;= ~(0xa &lt;&lt; (ic * 4));</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">switch</span> (pol) {</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="timer__common__f24_8h.html#aa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f">TIM_IC_RISING</a>:  <span class="comment">/* 00 */</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="timer__common__f24_8h.html#aa0406d9433193e18143f359076f1f468ad8b9427de52eb6d1475803b85f026cd2">TIM_IC_BOTH</a>:    <span class="comment">/* 11 */</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <a class="code" href="group__timer__defines.html#gab19604aad5675e73253134ace4a3f588">TIM_CCER</a>(timer_peripheral) |= (0x6 &lt;&lt; (ic * 4));</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <a class="code" href="group__timer__defines.html#gab19604aad5675e73253134ace4a3f588">TIM_CCER</a>(timer_peripheral) |= (0xa &lt;&lt; (ic * 4));</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="timer__common__f24_8h.html#aa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6">TIM_IC_FALLING</a>: <span class="comment">/* 01 */</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                <a class="code" href="group__timer__defines.html#gab19604aad5675e73253134ace4a3f588">TIM_CCER</a>(timer_peripheral) |= (0x2 &lt;&lt; (ic * 4));</div>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('timer__common__f234_8c_source.html',''
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="timer__common__f234_8c.html">timer_common_f234.c</a></li>
-    <li class="footer">Generated on Mon Jul 14 2014 20:21:59 for libopencm3 by
+    <li class="footer">Generated on Tue Jul 15 2014 16:22:05 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>
