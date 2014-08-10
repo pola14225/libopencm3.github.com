@@ -1,7 +1,7 @@
 var searchData=
 [
   ['gpio_20defines',['GPIO Defines',['../group__gpio__defines.html',1,'']]],
-  ['gpio',['GPIO',['../group__gpio__file.html',1,'']]],
+  ['gpio_5ffile',['Gpio_file',['../group__gpio__file.html',1,'']]],
   ['gpio_20pin_20direction_20and_20analog_2fdigital_20mode',['GPIO Pin Direction and Analog/Digital Mode',['../group__gpio__mode.html',1,'']]],
   ['gpio_20output_20pin_20driver_20type',['GPIO Output Pin Driver Type',['../group__gpio__output__type.html',1,'']]],
   ['gpio_20pin_20identifiers',['GPIO Pin Identifiers',['../group__gpio__pin__id.html',1,'']]],

@@ -8211,81 +8211,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>gpio.c</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
-    <filename>gpio_8c</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_mode_setup</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga733d745a0b6840f22b516979ce7a92c9</anchor>
-      <arglist>(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set_output_options</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gab05e7f5b963f49c7442a69e5999f9319</anchor>
-      <arglist>(uint32_t gpioport, uint8_t otype, uint8_t speed, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set_af</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga2937f803468b3440302fae213c4c3c14</anchor>
-      <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga7fb65a68e4fc7175660f396395f6b44e</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_clear</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga8970f778a63c9d78ffd8d4d36628c7e1</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint16_t</type>
-      <name>gpio_get</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga5fee90e8e5af7de567890ffae5ed50c8</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_toggle</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga5ce25ff1552b12093b009978322fcb5c</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint16_t</type>
-      <name>gpio_port_read</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gac7a671c0d057a8db484357b344d66b23</anchor>
-      <arglist>(uint32_t gpioport)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_port_write</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>gaeb877f5252652d6a574a08b085ef14f5</anchor>
-      <arglist>(uint32_t gpioport, uint16_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_port_config_lock</name>
-      <anchorfile>group__gpio__defines.html</anchorfile>
-      <anchor>ga749adc86df621552b5a0908ecf5b2ebe</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>gpio.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f3/</path>
     <filename>gpio_8h</filename>
@@ -27169,7 +27094,6 @@
     <subgroup>dac_file</subgroup>
     <subgroup>dma_file</subgroup>
     <subgroup>flash_file</subgroup>
-    <subgroup>gpio_file</subgroup>
     <subgroup>i2c_file</subgroup>
     <subgroup>iwdg_file</subgroup>
     <subgroup>pwr_file</subgroup>
@@ -40123,82 +40047,6 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>gpio_file</name>
-    <title>GPIO</title>
-    <filename>group__gpio__file.html</filename>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga7fb65a68e4fc7175660f396395f6b44e</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_clear</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga8970f778a63c9d78ffd8d4d36628c7e1</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint16_t</type>
-      <name>gpio_get</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga5fee90e8e5af7de567890ffae5ed50c8</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_toggle</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga5ce25ff1552b12093b009978322fcb5c</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint16_t</type>
-      <name>gpio_port_read</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gac7a671c0d057a8db484357b344d66b23</anchor>
-      <arglist>(uint32_t gpioport)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_port_write</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gaeb877f5252652d6a574a08b085ef14f5</anchor>
-      <arglist>(uint32_t gpioport, uint16_t data)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_port_config_lock</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga749adc86df621552b5a0908ecf5b2ebe</anchor>
-      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_mode_setup</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga733d745a0b6840f22b516979ce7a92c9</anchor>
-      <arglist>(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set_output_options</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>gab05e7f5b963f49c7442a69e5999f9319</anchor>
-      <arglist>(uint32_t gpioport, uint8_t otype, uint8_t speed, uint16_t gpios)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>gpio_set_af</name>
-      <anchorfile>group__gpio__file.html</anchorfile>
-      <anchor>ga2937f803468b3440302fae213c4c3c14</anchor>
-      <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</arglist>
-    </member>
-    <docanchor file="group__gpio__file" title="Basic GPIO Handling API.">gpio_api_ex</docanchor>
-  </compound>
-  <compound kind="group">
     <name>i2c_file</name>
     <title>I2C</title>
     <filename>group__i2c__file.html</filename>
@@ -42095,6 +41943,82 @@
       <arglist>(uint32_t usart)</arglist>
     </member>
   </compound>
+  <compound kind="group">
+    <name>gpio_file</name>
+    <title>Gpio_file</title>
+    <filename>group__gpio__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga7fb65a68e4fc7175660f396395f6b44e</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_clear</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga8970f778a63c9d78ffd8d4d36628c7e1</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>gpio_get</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga5fee90e8e5af7de567890ffae5ed50c8</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_toggle</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga5ce25ff1552b12093b009978322fcb5c</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>gpio_port_read</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>gac7a671c0d057a8db484357b344d66b23</anchor>
+      <arglist>(uint32_t gpioport)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_port_write</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>gaeb877f5252652d6a574a08b085ef14f5</anchor>
+      <arglist>(uint32_t gpioport, uint16_t data)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_port_config_lock</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga749adc86df621552b5a0908ecf5b2ebe</anchor>
+      <arglist>(uint32_t gpioport, uint16_t gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_mode_setup</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga733d745a0b6840f22b516979ce7a92c9</anchor>
+      <arglist>(uint32_t gpioport, uint8_t mode, uint8_t pull_up_down, uint16_t gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_output_options</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>gab05e7f5b963f49c7442a69e5999f9319</anchor>
+      <arglist>(uint32_t gpioport, uint8_t otype, uint8_t speed, uint16_t gpios)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>gpio_set_af</name>
+      <anchorfile>group__gpio__file.html</anchorfile>
+      <anchor>ga2937f803468b3440302fae213c4c3c14</anchor>
+      <arglist>(uint32_t gpioport, uint8_t alt_func_num, uint16_t gpios)</arglist>
+    </member>
+    <docanchor file="group__gpio__file" title="Basic GPIO Handling API.">gpio_api_ex</docanchor>
+  </compound>
   <compound kind="struct">
     <name>clock_scale_t</name>
     <filename>structclock__scale__t.html</filename>
@@ -42238,7 +42162,6 @@
     <file>dac.c</file>
     <file>dma.c</file>
     <file>flash.c</file>
-    <file>gpio.c</file>
     <file>i2c.c</file>
     <file>iwdg.c</file>
     <file>pwr.c</file>
