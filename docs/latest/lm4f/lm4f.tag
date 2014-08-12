@@ -1030,6 +1030,34 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>SSI0_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ad4d3af97208d1f383e6fc55b2cf22274</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI1_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a1d1c681e3321c27f2de198ed8ca2ce95</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI2_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ab9400dc20cd522bd8505f7c2304b68b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI3_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aacf71783340df06b2a70d58d7f380530</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USB_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>aa6c4cbed4ddbb3ecd77de93fab2a2e04</anchor>
@@ -1583,6 +1611,201 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga94e682bdf26bde662afb76403acdd227</anchor>
       <arglist>(enum osc_src src, enum xtal_t xtal, uint8_t pll_div400)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ssi.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm4f/</path>
+    <filename>ssi_8h</filename>
+    <includes id="memorymap_8h" name="memorymap.h" local="no" imported="no">libopencm3/lm4f/memorymap.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI0</name>
+      <anchorfile>group__ssi__base.html</anchorfile>
+      <anchor>gac8ab5d11c2608b24b105c74da01088f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI1</name>
+      <anchorfile>group__ssi__base.html</anchorfile>
+      <anchor>ga26e99cb407c039d9b5fa260e3a0c463a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI2</name>
+      <anchorfile>group__ssi__base.html</anchorfile>
+      <anchor>gaf7a5b340fc1e5948b228e5d13a2f0181</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI3</name>
+      <anchorfile>group__ssi__base.html</anchorfile>
+      <anchor>ga7fff594b0952c3f9ae26e62893661cae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_CR0</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga42848fe0c117f1ff719f3801d5aa2680</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_CR1</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga10464498ce11115ad90d7db3a9b343e1</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_DR</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gaca41a444d99801dc07b1609434322289</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_SR</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga6dbaabaf26a3cf9f799e2aedda64a976</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_CPSR</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga6d711191bee46cd63ac6e008bbe89415</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_IM</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga36b5b43d0230a804949f729ff596c9f0</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_RIS</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gacd096e24500cffbcaa3a7a80d5d38b29</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_MIS</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gadeeb5ebb23eb805e39b7861f4c355d8d</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_ICR</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga70464021aa00aa847de064a816b4d9be</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_DMACTL</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga8c163597675e79c701f72032dfc2193e</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_CC</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga96f69900e8c3887c7dc82d831b5e8205</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID4</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga96471d945829658d9e03fb90ab43c937</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID5</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga5d39ef31f481f2df24abe6dc5e865c3c</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID6</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga51b58160ceb9ffc45d614313939d3e6d</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID7</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga063c1d8b96e1f8f71d6892d2a362a947</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID0</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga239887a62ecac0478facf58f7b2915f4</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID1</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga559c77aff03678ea9b88be82ba02d24c</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID2</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga6ad225fcc9ce118ca061cfd88cbfcade</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID3</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga3be5ed28af28047f9df642d3020a1d03</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PCELL_ID0</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga92d02e0dbe52ba455b6f374d29a4d866</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PCELL_ID1</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gac636b0d8ffdb95f3d285a8e82c976201</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PCELL_ID2</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga22c47d6c4a1316204db952454b270634</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PCELL_ID3</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gac92b2290be2869027821a1fc31c5a43e</anchor>
+      <arglist>(port)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -7287,6 +7510,7 @@
     <subgroup>gpio_defines</subgroup>
     <subgroup>nvic_defines</subgroup>
     <subgroup>rcc_defines</subgroup>
+    <subgroup>ssi_defines</subgroup>
     <subgroup>systemcontrol_defines</subgroup>
     <subgroup>uart_defines</subgroup>
     <subgroup>usb_defines</subgroup>
@@ -8331,6 +8555,206 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga94e682bdf26bde662afb76403acdd227</anchor>
       <arglist>(enum osc_src src, enum xtal_t xtal, uint8_t pll_div400)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>ssi_defines</name>
+    <title>Synchronous Serial Interface</title>
+    <filename>group__ssi__defines.html</filename>
+    <subgroup>ssi_base</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_CR0</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga42848fe0c117f1ff719f3801d5aa2680</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_CR1</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga10464498ce11115ad90d7db3a9b343e1</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_DR</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gaca41a444d99801dc07b1609434322289</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_SR</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga6dbaabaf26a3cf9f799e2aedda64a976</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_CPSR</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga6d711191bee46cd63ac6e008bbe89415</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_IM</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga36b5b43d0230a804949f729ff596c9f0</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_RIS</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gacd096e24500cffbcaa3a7a80d5d38b29</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_MIS</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gadeeb5ebb23eb805e39b7861f4c355d8d</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_ICR</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga70464021aa00aa847de064a816b4d9be</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_DMACTL</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga8c163597675e79c701f72032dfc2193e</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_CC</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga96f69900e8c3887c7dc82d831b5e8205</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID4</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga96471d945829658d9e03fb90ab43c937</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID5</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga5d39ef31f481f2df24abe6dc5e865c3c</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID6</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga51b58160ceb9ffc45d614313939d3e6d</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID7</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga063c1d8b96e1f8f71d6892d2a362a947</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID0</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga239887a62ecac0478facf58f7b2915f4</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID1</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga559c77aff03678ea9b88be82ba02d24c</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID2</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga6ad225fcc9ce118ca061cfd88cbfcade</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PERIPH_ID3</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga3be5ed28af28047f9df642d3020a1d03</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PCELL_ID0</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga92d02e0dbe52ba455b6f374d29a4d866</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PCELL_ID1</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gac636b0d8ffdb95f3d285a8e82c976201</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PCELL_ID2</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>ga22c47d6c4a1316204db952454b270634</anchor>
+      <arglist>(port)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI_PCELL_ID3</name>
+      <anchorfile>group__ssi__defines.html</anchorfile>
+      <anchor>gac92b2290be2869027821a1fc31c5a43e</anchor>
+      <arglist>(port)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>ssi_base</name>
+    <title>SSI register base addresses</title>
+    <filename>group__ssi__base.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI0</name>
+      <anchorfile>group__ssi__base.html</anchorfile>
+      <anchor>gac8ab5d11c2608b24b105c74da01088f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI1</name>
+      <anchorfile>group__ssi__base.html</anchorfile>
+      <anchor>ga26e99cb407c039d9b5fa260e3a0c463a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI2</name>
+      <anchorfile>group__ssi__base.html</anchorfile>
+      <anchor>gaf7a5b340fc1e5948b228e5d13a2f0181</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SSI3</name>
+      <anchorfile>group__ssi__base.html</anchorfile>
+      <anchor>ga7fff594b0952c3f9ae26e62893661cae</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -14301,6 +14725,7 @@
     <file>memorymap.h</file>
     <file>nvic.h</file>
     <file>rcc.h</file>
+    <file>ssi.h</file>
     <file>systemcontrol.h</file>
     <file>uart.h</file>
     <file>usb.h</file>

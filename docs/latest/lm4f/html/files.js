@@ -7,6 +7,7 @@ var files =
     [ "nvic.h", "nvic_8h.html", null ],
     [ "rcc.c", "rcc_8c.html", "rcc_8c" ],
     [ "rcc.h", "rcc_8h.html", "rcc_8h" ],
+    [ "ssi.h", "ssi_8h.html", "ssi_8h" ],
     [ "systemcontrol.c", "systemcontrol_8c.html", "systemcontrol_8c" ],
     [ "systemcontrol.h", "systemcontrol_8h.html", "systemcontrol_8h" ],
     [ "uart.c", "uart_8c.html", "uart_8c" ],

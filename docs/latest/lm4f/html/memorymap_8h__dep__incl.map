@@ -1,12 +1,13 @@
 <map id="memorymap.h" name="memorymap.h">
 <area shape="rect" id="node3" href="$gpio_8h.html" title="gpio.h" alt="" coords="83,89,139,122"/>
-<area shape="rect" id="node7" href="$systemcontrol_8h.html" title="systemcontrol.h" alt="" coords="163,89,277,122"/>
-<area shape="rect" id="node21" href="$uart_8h.html" title="uart.h" alt="" coords="5,171,59,205"/>
-<area shape="rect" id="node24" href="$usb_8h.html" title="usb.h" alt="" coords="357,89,411,122"/>
+<area shape="rect" id="node7" href="$ssi_8h.html" title="ssi.h" alt="" coords="379,89,429,122"/>
+<area shape="rect" id="node9" href="$systemcontrol_8h.html" title="systemcontrol.h" alt="" coords="163,89,277,122"/>
+<area shape="rect" id="node23" href="$uart_8h.html" title="uart.h" alt="" coords="5,171,59,205"/>
+<area shape="rect" id="node26" href="$usb_8h.html" title="usb.h" alt="" coords="301,89,355,122"/>
 <area shape="rect" id="node5" href="$gpio_8c.html" title="gpio.c" alt="" coords="83,171,139,205"/>
-<area shape="rect" id="node9" href="$rcc_8h.html" title="rcc.h" alt="" coords="352,171,403,205"/>
-<area shape="rect" id="node13" href="$uart_8c.html" title="uart.c" alt="" coords="149,254,203,287"/>
-<area shape="rect" id="node18" href="$systemcontrol_8c.html" title="systemcontrol.c" alt="" coords="213,171,328,205"/>
-<area shape="rect" id="node11" href="$rcc_8c.html" title="rcc.c" alt="" coords="323,254,373,287"/>
-<area shape="rect" id="node15" href="$usb__lm4f_8c.html" title="usb_lm4f.c" alt="" coords="397,254,483,287"/>
+<area shape="rect" id="node11" href="$rcc_8h.html" title="rcc.h" alt="" coords="352,171,403,205"/>
+<area shape="rect" id="node15" href="$uart_8c.html" title="uart.c" alt="" coords="149,254,203,287"/>
+<area shape="rect" id="node20" href="$systemcontrol_8c.html" title="systemcontrol.c" alt="" coords="213,171,328,205"/>
+<area shape="rect" id="node13" href="$rcc_8c.html" title="rcc.c" alt="" coords="323,254,373,287"/>
+<area shape="rect" id="node17" href="$usb__lm4f_8c.html" title="usb_lm4f.c" alt="" coords="397,254,483,287"/>
 </map>

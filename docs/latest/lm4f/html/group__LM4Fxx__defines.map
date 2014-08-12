@@ -2,7 +2,8 @@
 <area shape="rect" id="node1" href="$group__nvic__defines.html" title="Defined Constants and Types for the LM4F Nested Vectored Interrupt Controller " alt="" coords="157,5,328,59"/>
 <area shape="rect" id="node2" href="$group__rcc__defines.html" title="Defined Constants and Types for the LM4F Reset and Clock Control " alt="" coords="160,82,325,115"/>
 <area shape="rect" id="node3" href="$group__uart__defines.html" title="Defined Constants and Types for the LM4F UART Control " alt="" coords="191,138,295,171"/>
-<area shape="rect" id="node4" href="$group__systemcontrol__defines.html" title="Defined Constants and Types for the LM4F System Control " alt="" coords="187,194,299,227"/>
-<area shape="rect" id="node5" href="$group__gpio__defines.html" title="Defined Constants and Types for the LM4F General Purpose I/O " alt="" coords="172,250,313,305"/>
-<area shape="rect" id="node7" href="$group__usb__defines.html" title="Defined Constants and Types for the LM4F USB Controller " alt="" coords="188,327,297,361"/>
+<area shape="rect" id="node4" href="$group__ssi__defines.html" title="Defined Constants and Types for the LM4F Synchronous Serial Interface (SSI) " alt="" coords="176,194,309,249"/>
+<area shape="rect" id="node5" href="$group__systemcontrol__defines.html" title="Defined Constants and Types for the LM4F System Control " alt="" coords="187,271,299,305"/>
+<area shape="rect" id="node6" href="$group__gpio__defines.html" title="Defined Constants and Types for the LM4F General Purpose I/O " alt="" coords="172,327,313,382"/>
+<area shape="rect" id="node8" href="$group__usb__defines.html" title="Defined Constants and Types for the LM4F USB Controller " alt="" coords="188,405,297,438"/>
 </map>
