@@ -1,5 +1,5 @@
 <map id="i2c_reset" name="i2c_reset">
-<area shape="rect" id="node3" href="$group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58" title="Reset Peripheral, pulsed. " alt="" coords="129,5,284,38"/>
-<area shape="rect" id="node5" href="$group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566" title="RCC Remove Reset on Peripherals. " alt="" coords="137,61,276,115"/>
-<area shape="rect" id="node7" href="$group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205" title="RCC Reset Peripherals. " alt="" coords="137,138,276,171"/>
+<area shape="rect" id="node2" href="$group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58" title="Reset Peripheral, pulsed. " alt="" coords="128,5,284,32"/>
+<area shape="rect" id="node3" href="$group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566" title="RCC Remove Reset on Peripherals. " alt="" coords="137,57,275,98"/>
+<area shape="rect" id="node4" href="$group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205" title="RCC Reset Peripherals. " alt="" coords="137,123,275,149"/>
 </map>

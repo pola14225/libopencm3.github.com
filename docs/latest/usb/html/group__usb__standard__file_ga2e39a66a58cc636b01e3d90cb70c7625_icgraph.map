@@ -1,9 +1,9 @@
 <map id="usb_standard_set_address" name="usb_standard_set_address">
-<area shape="rect" id="node3" href="$usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="233,22,396,77"/>
-<area shape="rect" id="node5" href="$usb__standard_8c.html#a3347ca42a15acf3ae31d02126ba7d695" title="_usbd_standard_request" alt="" coords="447,33,609,66"/>
-<area shape="rect" id="node7" href="$group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="659,22,797,77"/>
-<area shape="rect" id="node9" href="$usb__private_8h.html#a1a921e8785fafeee17c588aa26cff014" title="_usbd_control_out" alt="" coords="1061,5,1189,38"/>
-<area shape="rect" id="node13" href="$group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="845,59,1005,93"/>
-<area shape="rect" id="node11" href="$group__usb__drivers__file.html#ga8bbc488106ca72c2b550c1c9f89d5748" title="Main initialization entry point. " alt="" coords="1245,33,1320,66"/>
-<area shape="rect" id="node15" href="$usb__private_8h.html#ad4bc495b7e757434644e1dece336b261" title="_usbd_control_setup" alt="" coords="1055,61,1196,94"/>
+<area shape="rect" id="node2" href="$usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="232,23,396,65"/>
+<area shape="rect" id="node3" href="$usb__standard_8c.html#a3347ca42a15acf3ae31d02126ba7d695" title="_usbd_standard_request" alt="" coords="444,31,608,57"/>
+<area shape="rect" id="node4" href="$group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="656,23,795,65"/>
+<area shape="rect" id="node5" href="$usb__private_8h.html#a1a921e8785fafeee17c588aa26cff014" title="_usbd_control_out" alt="" coords="1058,5,1186,32"/>
+<area shape="rect" id="node7" href="$group__usb__control__file.html#ga2149cd30a26a18c9c46e32db4aa5ef3e" title="usb_control_setup_read" alt="" coords="843,56,1003,83"/>
+<area shape="rect" id="node6" href="$group__usb__drivers__file.html#ga8bbc488106ca72c2b550c1c9f89d5748" title="Main initialization entry point. " alt="" coords="1241,31,1316,57"/>
+<area shape="rect" id="node8" href="$usb__private_8h.html#ad4bc495b7e757434644e1dece336b261" title="_usbd_control_setup" alt="" coords="1051,56,1193,83"/>
 </map>

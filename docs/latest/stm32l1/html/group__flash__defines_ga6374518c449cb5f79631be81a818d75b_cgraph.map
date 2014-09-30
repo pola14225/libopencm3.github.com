@@ -1,5 +1,5 @@
 <map id="flash_erase_all_sectors" name="flash_erase_all_sectors">
-<area shape="rect" id="node3" href="$group__flash__file.html#gabe30bb2a8f268a494d3600c0dfc5406d" title="Set the Program Parallelism Size. " alt="" coords="213,5,373,38"/>
-<area shape="rect" id="node5" href="$group__flash__defines.html#ga72ce389bb20296771479ace8cdb62dff" title="Wait until Last Operation has Ended. " alt="" coords="228,61,359,115"/>
-<area shape="rect" id="node7" href="$group__flash__defines.html#ga5afd52a33a55a6423d536eca1f04933b" title="flash_get_status_flags" alt="" coords="423,71,575,105"/>
+<area shape="rect" id="node2" href="$group__flash__file.html#gabe30bb2a8f268a494d3600c0dfc5406d" title="Set the Program Parallelism Size. " alt="" coords="212,5,372,32"/>
+<area shape="rect" id="node3" href="$group__flash__defines.html#ga72ce389bb20296771479ace8cdb62dff" title="Wait until Last Operation has Ended. " alt="" coords="227,57,357,98"/>
+<area shape="rect" id="node4" href="$group__flash__defines.html#ga5afd52a33a55a6423d536eca1f04933b" title="flash_get_status_flags" alt="" coords="420,64,573,91"/>
 </map>

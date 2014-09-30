@@ -1,5 +1,5 @@
 <map id="pmc_clock_setup_in_xtal_12mhz_out_84mhz" name="pmc_clock_setup_in_xtal_12mhz_out_84mhz">
-<area shape="rect" id="node3" href="$pmc_8c.html#af4f2dabe877cdf9f9d85513b9359c92d" title="pmc_mck_set_source" alt="" coords="223,5,372,38"/>
-<area shape="rect" id="node5" href="$pmc_8c.html#a912dd4094c072a0cee89329d3feb6898" title="pmc_plla_config" alt="" coords="240,61,355,94"/>
-<area shape="rect" id="node7" href="$pmc_8c.html#a138e34dfdfc205207c33e5352caa1435" title="pmc_xtal_enable" alt="" coords="237,117,357,150"/>
+<area shape="rect" id="node2" href="$pmc_8c.html#af4f2dabe877cdf9f9d85513b9359c92d" title="pmc_mck_set_source" alt="" coords="220,5,371,32"/>
+<area shape="rect" id="node3" href="$pmc_8c.html#a912dd4094c072a0cee89329d3feb6898" title="pmc_plla_config" alt="" coords="237,56,353,83"/>
+<area shape="rect" id="node4" href="$pmc_8c.html#a138e34dfdfc205207c33e5352caa1435" title="pmc_xtal_enable" alt="" coords="235,107,355,133"/>
 </map>

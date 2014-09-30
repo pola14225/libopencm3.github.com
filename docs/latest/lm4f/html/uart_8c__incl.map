@@ -1,6 +1,6 @@
 <map id="uart.c" name="uart.c">
-<area shape="rect" id="node3" href="$uart_8h.html" title="libopencm3/lm4f/uart.h" alt="" coords="5,171,160,205"/>
-<area shape="rect" id="node10" href="$systemcontrol_8h.html" title="libopencm3/lm4f/systemcontrol.h" alt="" coords="184,171,397,205"/>
-<area shape="rect" id="node14" href="$rcc_8h.html" title="libopencm3/lm4f/rcc.h" alt="" coords="216,89,365,122"/>
-<area shape="rect" id="node5" href="$memorymap_8h.html" title="libopencm3/lm4f/memorymap.h" alt="" coords="85,254,288,287"/>
+<area shape="rect" id="node2" href="$uart_8h.html" title="libopencm3/lm4f/uart.h" alt="" coords="5,155,160,181"/>
+<area shape="rect" id="node5" href="$systemcontrol_8h.html" title="libopencm3/lm4f/systemcontrol.h" alt="" coords="185,155,399,181"/>
+<area shape="rect" id="node6" href="$rcc_8h.html" title="libopencm3/lm4f/rcc.h" alt="" coords="217,80,367,107"/>
+<area shape="rect" id="node3" href="$memorymap_8h.html" title="libopencm3/lm4f/memorymap.h" alt="" coords="86,229,290,256"/>
 </map>

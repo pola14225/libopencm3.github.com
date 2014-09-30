@@ -1,5 +1,5 @@
 <map id="CM3 Defines" name="CM3 Defines">
-<area shape="rect" id="node2" href="$group__CM3__systick__defines.html" title="libopencm3 Defined Constants and Types for the Cortex SysTick &#160;" alt="" coords="165,5,283,38"/>
-<area shape="rect" id="node3" href="$group__CM3__cortex__defines.html" title="libopencm3 Defined Constants and Types for the Cortex Core &#160;" alt="" coords="153,61,295,94"/>
-<area shape="rect" id="node4" href="$group__CM3__nvic__defines.html" title="libopencm3 Cortex Nested Vectored Interrupt Controller " alt="" coords="172,117,276,150"/>
+<area shape="rect" id="node2" href="$group__CM3__systick__defines.html" title="libopencm3 Defined Constants and Types for the Cortex SysTick &#160;" alt="" coords="164,5,283,32"/>
+<area shape="rect" id="node3" href="$group__CM3__cortex__defines.html" title="libopencm3 Defined Constants and Types for the Cortex Core &#160;" alt="" coords="152,56,295,83"/>
+<area shape="rect" id="node4" href="$group__CM3__nvic__defines.html" title="libopencm3 Cortex Nested Vectored Interrupt Controller " alt="" coords="171,107,275,133"/>
 </map>

@@ -7537,7 +7537,7 @@
     <name>exti.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/</path>
     <filename>exti_8h</filename>
-    <includes id="exti__common__l1f24_8h" name="exti_common_l1f24.h" local="no" imported="no">libopencm3/stm32/common/exti_common_l1f24.h</includes>
+    <includes id="exti__common__all_8h" name="exti_common_all.h" local="no" imported="no">libopencm3/stm32/common/exti_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>exti_common_all.c</name>
@@ -7772,6 +7772,132 @@
       <anchor>gabd3c95edc24047d4d80a4451978d1d77</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI20</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga7442c6138768b6f9063aa06339f4f018</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI21</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga5424e78536b2ad7c9286dd4a25aa2fbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI22</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga106b779d4271f872067630bfd4b2ae64</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI23</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga8ff4dbe8329a5402095e9a5450e84072</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI24</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gac92e5f3f95ec9ec77e48b0fad9cbfcda</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI25</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga2273c2876c1cc39cbc7c30a85bc4d7d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI26</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga014f6dcebe49208bdd41334229596a3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI27</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga0f50bc289c9e0f21bc939365872e9fce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI28</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf812fb0470be67c3f169882cb87efdc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI29</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga6e136fa99050d7a35059478c04623591</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI30</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga6151c1b4295ac63c36a64c60e226fc6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI31</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga0b2dbaaacad0af85f6a085da73898bfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI32</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacf1940515c6bc08400e2b0288088a4ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI33</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga6a7b8b44715182de7901f8707fdb9f50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI34</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga0145d11f36a706ee83f8f3efc076c4fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI35</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga5b462d6e2c86100f7d8ed285b2156c78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI36</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gabb89112c70417656df2587bc4e09db7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI37</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacc51dec6598c83bda320c1be854168fa</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>exti_trigger_type</name>
@@ -7841,33 +7967,6 @@
       <anchorfile>group__exti__defines.html</anchorfile>
       <anchor>ga80d89279aab6cc63a8141b7421cd2dd1</anchor>
       <arglist>(uint32_t exti)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>exti_common_l1f24.h</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>exti__common__l1f24_8h</filename>
-    <includes id="exti__common__all_8h" name="exti_common_all.h" local="no" imported="no">libopencm3/stm32/common/exti_common_all.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI20</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga7442c6138768b6f9063aa06339f4f018</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI21</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga5424e78536b2ad7c9286dd4a25aa2fbb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI22</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga106b779d4271f872067630bfd4b2ae64</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -32526,6 +32625,111 @@
       <anchor>ga106b779d4271f872067630bfd4b2ae64</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI23</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga8ff4dbe8329a5402095e9a5450e84072</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI24</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gac92e5f3f95ec9ec77e48b0fad9cbfcda</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI25</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga2273c2876c1cc39cbc7c30a85bc4d7d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI26</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga014f6dcebe49208bdd41334229596a3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI27</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga0f50bc289c9e0f21bc939365872e9fce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI28</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf812fb0470be67c3f169882cb87efdc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI29</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga6e136fa99050d7a35059478c04623591</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI30</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga6151c1b4295ac63c36a64c60e226fc6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI31</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga0b2dbaaacad0af85f6a085da73898bfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI32</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacf1940515c6bc08400e2b0288088a4ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI33</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga6a7b8b44715182de7901f8707fdb9f50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI34</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga0145d11f36a706ee83f8f3efc076c4fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI35</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga5b462d6e2c86100f7d8ed285b2156c78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI36</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gabb89112c70417656df2587bc4e09db7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI37</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacc51dec6598c83bda320c1be854168fa</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>exti_trigger_type</name>
@@ -54278,7 +54482,6 @@
     <file>dma_common_f24.h</file>
     <file>dma_common_l1f013.h</file>
     <file>exti_common_all.h</file>
-    <file>exti_common_l1f24.h</file>
     <file>flash_common_f01.h</file>
     <file>flash_common_f234.h</file>
     <file>flash_common_f24.h</file>

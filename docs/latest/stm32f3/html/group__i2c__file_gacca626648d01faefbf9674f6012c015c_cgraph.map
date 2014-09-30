@@ -1,7 +1,7 @@
 <map id="i2c_100khz_i2cclk8mhz" name="i2c_100khz_i2cclk8mhz">
-<area shape="rect" id="node3" href="$group__i2c__file.html#ga9533ae19176b42465a0770f278e7e44f" title="i2c_set_data_hold_time" alt="" coords="221,5,379,38"/>
-<area shape="rect" id="node5" href="$group__i2c__file.html#ga541c765b0370db02aa722fd5fa62436f" title="i2c_set_data_setup_time" alt="" coords="217,61,383,94"/>
-<area shape="rect" id="node7" href="$group__i2c__file.html#ga4fae312b2601ece973c3119a932040cd" title="i2c_set_prescaler" alt="" coords="239,117,361,150"/>
-<area shape="rect" id="node9" href="$group__i2c__file.html#ga888962629650f4d07e7c4e7a69c978e2" title="i2c_set_scl_high_period" alt="" coords="220,173,380,206"/>
-<area shape="rect" id="node11" href="$group__i2c__file.html#gac43847001b385bf85b67f82e29321872" title="i2c_set_scl_low_period" alt="" coords="221,229,379,262"/>
+<area shape="rect" id="node2" href="$group__i2c__file.html#ga9533ae19176b42465a0770f278e7e44f" title="i2c_set_data_hold_time" alt="" coords="219,5,377,32"/>
+<area shape="rect" id="node3" href="$group__i2c__file.html#ga541c765b0370db02aa722fd5fa62436f" title="i2c_set_data_setup_time" alt="" coords="215,56,381,83"/>
+<area shape="rect" id="node4" href="$group__i2c__file.html#ga4fae312b2601ece973c3119a932040cd" title="i2c_set_prescaler" alt="" coords="236,107,360,133"/>
+<area shape="rect" id="node5" href="$group__i2c__file.html#ga888962629650f4d07e7c4e7a69c978e2" title="i2c_set_scl_high_period" alt="" coords="217,157,379,184"/>
+<area shape="rect" id="node6" href="$group__i2c__file.html#gac43847001b385bf85b67f82e29321872" title="i2c_set_scl_low_period" alt="" coords="219,208,377,235"/>
 </map>

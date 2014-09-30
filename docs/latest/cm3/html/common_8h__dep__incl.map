@@ -1,9 +1,9 @@
 <map id="common.h" name="common.h">
-<area shape="rect" id="node3" href="$assert_8h.html" title="assert.h" alt="" coords="5,89,75,122"/>
-<area shape="rect" id="node5" href="$dwt_8h.html" title="dwt.h" alt="" coords="99,89,152,122"/>
-<area shape="rect" id="node7" href="$nvic_8h.html" title="nvic.h" alt="" coords="176,89,232,122"/>
-<area shape="rect" id="node9" href="$vector_8h.html" title="Definitions for handling vector tables. " alt="" coords="203,171,269,205"/>
-<area shape="rect" id="node11" href="$scb_8h.html" title="scb.h" alt="" coords="307,89,360,122"/>
-<area shape="rect" id="node13" href="$sync_8h.html" title="sync.h" alt="" coords="384,89,445,122"/>
-<area shape="rect" id="node15" href="$systick_8h.html" title="systick.h" alt="" coords="469,89,544,122"/>
+<area shape="rect" id="node2" href="$assert_8h.html" title="assert.h" alt="" coords="5,80,75,107"/>
+<area shape="rect" id="node3" href="$dwt_8h.html" title="dwt.h" alt="" coords="99,80,154,107"/>
+<area shape="rect" id="node4" href="$nvic_8h.html" title="nvic.h" alt="" coords="178,80,235,107"/>
+<area shape="rect" id="node5" href="$vector_8h.html" title="Definitions for handling vector tables. " alt="" coords="205,155,275,181"/>
+<area shape="rect" id="node6" href="$scb_8h.html" title="scb.h" alt="" coords="311,80,366,107"/>
+<area shape="rect" id="node7" href="$sync_8h.html" title="sync.h" alt="" coords="391,80,452,107"/>
+<area shape="rect" id="node8" href="$systick_8h.html" title="systick.h" alt="" coords="476,80,551,107"/>
 </map>

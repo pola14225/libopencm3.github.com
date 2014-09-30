@@ -1,4 +1,4 @@
 <map id="rtc_disable_wakeup_timer" name="rtc_disable_wakeup_timer">
-<area shape="rect" id="node3" href="$rtc_8c.html#a36e2af549b7d24f24e5255bbbeb5de71" title="Disable the wakeup timer interrupt. " alt="" coords="193,5,329,59"/>
-<area shape="rect" id="node5" href="$group__exti__defines.html#ga1752fef240fb05e1135548449943ce0b" title="exti_disable_request" alt="" coords="379,15,520,49"/>
+<area shape="rect" id="node2" href="$rtc_8c.html#a36e2af549b7d24f24e5255bbbeb5de71" title="Disable the wakeup timer interrupt. " alt="" coords="191,5,328,47"/>
+<area shape="rect" id="node3" href="$group__exti__defines.html#ga1752fef240fb05e1135548449943ce0b" title="exti_disable_request" alt="" coords="376,13,517,39"/>
 </map>

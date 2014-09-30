@@ -1,4 +1,4 @@
 <map id="i2c_is_start" name="i2c_is_start">
-<area shape="rect" id="node3" href="$group__i2c__file.html#gabd519f2c336ccb28340f331258208bde" title="read_i2c" alt="" coords="147,5,216,38"/>
-<area shape="rect" id="node5" href="$group__i2c__file.html#ga64b868336511980e666d8763953b5c9e" title="write_i2c" alt="" coords="144,61,219,94"/>
+<area shape="rect" id="node2" href="$group__i2c__file.html#gabd519f2c336ccb28340f331258208bde" title="read_i2c" alt="" coords="145,5,215,32"/>
+<area shape="rect" id="node3" href="$group__i2c__file.html#ga64b868336511980e666d8763953b5c9e" title="write_i2c" alt="" coords="143,56,217,83"/>
 </map>

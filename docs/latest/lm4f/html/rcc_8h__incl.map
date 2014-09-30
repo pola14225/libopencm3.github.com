@@ -1,4 +1,4 @@
 <map id="rcc.h" name="rcc.h">
-<area shape="rect" id="node3" href="$systemcontrol_8h.html" title="libopencm3/lm4f/systemcontrol.h" alt="" coords="5,89,219,122"/>
-<area shape="rect" id="node7" href="$memorymap_8h.html" title="libopencm3/lm4f/memorymap.h" alt="" coords="80,171,283,205"/>
+<area shape="rect" id="node2" href="$systemcontrol_8h.html" title="libopencm3/lm4f/systemcontrol.h" alt="" coords="5,80,220,107"/>
+<area shape="rect" id="node4" href="$memorymap_8h.html" title="libopencm3/lm4f/memorymap.h" alt="" coords="81,155,285,181"/>
 </map>

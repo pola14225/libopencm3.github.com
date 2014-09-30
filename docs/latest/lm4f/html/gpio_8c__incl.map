@@ -1,5 +1,5 @@
 <map id="gpio.c" name="gpio.c">
-<area shape="rect" id="node3" href="$gpio_8h.html" title="libopencm3/lm4f/gpio.h" alt="" coords="5,89,160,122"/>
-<area shape="rect" id="node10" href="$systemcontrol_8h.html" title="libopencm3/lm4f/systemcontrol.h" alt="" coords="184,89,397,122"/>
-<area shape="rect" id="node7" href="$memorymap_8h.html" title="libopencm3/lm4f/memorymap.h" alt="" coords="85,171,288,205"/>
+<area shape="rect" id="node2" href="$gpio_8h.html" title="libopencm3/lm4f/gpio.h" alt="" coords="5,80,161,107"/>
+<area shape="rect" id="node5" href="$systemcontrol_8h.html" title="libopencm3/lm4f/systemcontrol.h" alt="" coords="185,80,400,107"/>
+<area shape="rect" id="node4" href="$memorymap_8h.html" title="libopencm3/lm4f/memorymap.h" alt="" coords="87,155,291,181"/>
 </map>

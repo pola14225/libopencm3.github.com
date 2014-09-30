@@ -1,7 +1,7 @@
 <map id="usbd_ep_setup" name="usbd_ep_setup">
-<area shape="rect" id="node3" href="$group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27" title="_usbd_reset" alt="" coords="176,61,269,94"/>
-<area shape="rect" id="node9" href="$usb__msc_8c.html#a226667566a4c9460bc577aa9c72a14b6" title="Setup the endpoints to be bulk &amp; register the callbacks. " alt="" coords="165,117,280,150"/>
-<area shape="rect" id="node5" href="$usb__f103_8c.html#a755f83aa414568675f88d549675d8d67" title="stm32f103_poll" alt="" coords="329,5,439,38"/>
-<area shape="rect" id="node7" href="$usb__fx07__common_8h.html#a6ac887edf6cf4f3bc7233df12ba9eefd" title="stm32fx07_poll" alt="" coords="329,61,439,94"/>
-<area shape="rect" id="node11" href="$group__usb__msc.html#ga5e6959c3ac6ff4efab4fd3b59353f497" title="Initializes the USB Mass Storage subsystem. " alt="" coords="335,117,433,150"/>
+<area shape="rect" id="node2" href="$group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27" title="_usbd_reset" alt="" coords="175,56,268,83"/>
+<area shape="rect" id="node5" href="$usb__msc_8c.html#a226667566a4c9460bc577aa9c72a14b6" title="Setup the endpoints to be bulk &amp; register the callbacks. " alt="" coords="164,107,279,133"/>
+<area shape="rect" id="node3" href="$usb__f103_8c.html#a755f83aa414568675f88d549675d8d67" title="stm32f103_poll" alt="" coords="327,5,437,32"/>
+<area shape="rect" id="node4" href="$usb__fx07__common_8h.html#a6ac887edf6cf4f3bc7233df12ba9eefd" title="stm32fx07_poll" alt="" coords="327,56,437,83"/>
+<area shape="rect" id="node6" href="$group__usb__msc.html#ga5e6959c3ac6ff4efab4fd3b59353f497" title="Initializes the USB Mass Storage subsystem. " alt="" coords="333,107,431,133"/>
 </map>

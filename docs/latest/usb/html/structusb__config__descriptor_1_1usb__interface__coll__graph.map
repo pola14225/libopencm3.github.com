@@ -1,5 +1,5 @@
 <map id="usb_config_descriptor::usb_interface" name="usb_config_descriptor::usb_interface">
-<area shape="rect" id="node2" href="$structusb__iface__assoc__descriptor.html" title="usb_iface_assoc_descriptor" alt="" coords="5,110,189,143"/>
-<area shape="rect" id="node4" href="$structusb__interface__descriptor.html" title="usb_interface_descriptor" alt="" coords="213,110,376,143"/>
-<area shape="rect" id="node6" href="$structusb__endpoint__descriptor.html" title="usb_endpoint_descriptor" alt="" coords="213,6,376,39"/>
+<area shape="rect" id="node2" href="$structusb__iface__assoc__descriptor.html" title="usb_iface_assoc_descriptor" alt="" coords="5,95,189,121"/>
+<area shape="rect" id="node3" href="$structusb__interface__descriptor.html" title="usb_interface_descriptor" alt="" coords="214,95,378,121"/>
+<area shape="rect" id="node4" href="$structusb__endpoint__descriptor.html" title="usb_endpoint_descriptor" alt="" coords="215,5,377,32"/>
 </map>

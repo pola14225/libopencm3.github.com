@@ -1,4 +1,4 @@
 <map id="rtc_set_prescale_val" name="rtc_set_prescale_val">
-<area shape="rect" id="node3" href="$group__rtc__file.html#gaf911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="197,5,352,38"/>
-<area shape="rect" id="node5" href="$group__rtc__file.html#ga9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="201,61,348,94"/>
+<area shape="rect" id="node2" href="$group__rtc__file.html#gaf911a07f668e8be5f719065c44015b02" title="rtc_enter_config_mode" alt="" coords="196,5,351,32"/>
+<area shape="rect" id="node3" href="$group__rtc__file.html#ga9adb9cf0f6b7d17a7c8ee0e6addf5be9" title="rtc_exit_config_mode" alt="" coords="200,56,347,83"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="Adc_defines" name="Adc_defines">
-<area shape="rect" id="node1" href="$group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="167,5,327,38"/>
-<area shape="rect" id="node3" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="149,61,344,94"/>
+<area shape="rect" id="node1" href="$group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="165,5,325,32"/>
+<area shape="rect" id="node3" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="148,56,343,83"/>
 </map>

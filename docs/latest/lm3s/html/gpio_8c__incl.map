@@ -1,4 +1,4 @@
 <map id="gpio.c" name="gpio.c">
-<area shape="rect" id="node3" href="$gpio_8h.html" title="libopencm3/lm3s/gpio.h" alt="" coords="17,89,175,122"/>
-<area shape="rect" id="node7" href="$memorymap_8h.html" title="libopencm3/lm3s/memorymap.h" alt="" coords="64,171,269,205"/>
+<area shape="rect" id="node2" href="$gpio_8h.html" title="libopencm3/lm3s/gpio.h" alt="" coords="17,80,176,107"/>
+<area shape="rect" id="node4" href="$memorymap_8h.html" title="libopencm3/lm3s/memorymap.h" alt="" coords="64,155,271,181"/>
 </map>

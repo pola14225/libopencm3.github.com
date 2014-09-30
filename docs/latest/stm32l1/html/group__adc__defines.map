@@ -1,10 +1,10 @@
 <map id="ADC Defines" name="ADC Defines">
-<area shape="rect" id="node1" href="$group__adc__trigger__regular.html" title="ADC Trigger Identifier\l for Regular group" alt="" coords="368,5,515,59"/>
-<area shape="rect" id="node2" href="$group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="361,82,521,115"/>
-<area shape="rect" id="node3" href="$group__adc__trigger__polarity__injected.html" title="ADC Injected Trigger\l Polarity" alt="" coords="369,138,513,193"/>
-<area shape="rect" id="node4" href="$group__adc__cr1__res.html" title="ADC Resolution." alt="" coords="381,215,501,249"/>
-<area shape="rect" id="node5" href="$group__adc__trigger__polarity__regular.html" title="ADC Trigger Polarity" alt="" coords="371,271,512,305"/>
-<area shape="rect" id="node6" href="$group__adc__sample__rg.html" title="ADC Sample Time Selection\l for All Channels" alt="" coords="347,327,536,382"/>
-<area shape="rect" id="node7" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series. " alt="" coords="5,215,147,249"/>
-<area shape="rect" id="node9" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="344,405,539,438"/>
+<area shape="rect" id="node1" href="$group__adc__trigger__regular.html" title="ADC Trigger Identifier\l for Regular group" alt="" coords="365,5,515,47"/>
+<area shape="rect" id="node2" href="$group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="360,71,520,98"/>
+<area shape="rect" id="node3" href="$group__adc__trigger__polarity__injected.html" title="ADC Injected Trigger\l Polarity" alt="" coords="367,123,513,164"/>
+<area shape="rect" id="node4" href="$group__adc__cr1__res.html" title="ADC Resolution." alt="" coords="379,189,501,215"/>
+<area shape="rect" id="node5" href="$group__adc__trigger__polarity__regular.html" title="ADC Trigger Polarity" alt="" coords="369,239,511,266"/>
+<area shape="rect" id="node6" href="$group__adc__sample__rg.html" title="ADC Sample Time Selection\l for All Channels" alt="" coords="345,291,535,332"/>
+<area shape="rect" id="node7" href="$group__STM32L1xx__defines.html" title="Defined Constants and Types for the STM32L1xx series. " alt="" coords="5,189,147,215"/>
+<area shape="rect" id="node9" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="343,357,537,383"/>
 </map>

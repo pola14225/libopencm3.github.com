@@ -1,4 +1,4 @@
 <map id="i2c_nack" name="i2c_nack">
-<area shape="rect" id="node3" href="$group__i2c__file.html#gabd519f2c336ccb28340f331258208bde" title="read_i2c" alt="" coords="131,5,200,38"/>
-<area shape="rect" id="node5" href="$group__i2c__file.html#ga64b868336511980e666d8763953b5c9e" title="write_i2c" alt="" coords="128,61,203,94"/>
+<area shape="rect" id="node2" href="$group__i2c__file.html#gabd519f2c336ccb28340f331258208bde" title="read_i2c" alt="" coords="130,5,201,32"/>
+<area shape="rect" id="node3" href="$group__i2c__file.html#ga64b868336511980e666d8763953b5c9e" title="write_i2c" alt="" coords="128,56,203,83"/>
 </map>

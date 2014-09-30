@@ -1,5 +1,5 @@
 <map id="rcc_set_sysclk_source" name="rcc_set_sysclk_source">
-<area shape="rect" id="node3" href="$group__rcc__defines.html#ga3d30e886f8749e059865bd3fc7a14ccd" title="rcc_clock_setup_hsi" alt="" coords="213,5,355,38"/>
-<area shape="rect" id="node5" href="$group__rcc__defines.html#ga71d9ff219cb4e09c3cddbf383e8c47b3" title="rcc_clock_setup_msi" alt="" coords="212,61,356,94"/>
-<area shape="rect" id="node7" href="$group__rcc__defines.html#ga76b12063e828a7af960d375dee952d31" title="rcc_clock_setup_pll" alt="" coords="216,117,352,150"/>
+<area shape="rect" id="node2" href="$group__rcc__defines.html#ga3d30e886f8749e059865bd3fc7a14ccd" title="rcc_clock_setup_hsi" alt="" coords="211,5,353,32"/>
+<area shape="rect" id="node3" href="$group__rcc__defines.html#ga71d9ff219cb4e09c3cddbf383e8c47b3" title="rcc_clock_setup_msi" alt="" coords="209,56,355,83"/>
+<area shape="rect" id="node4" href="$group__rcc__defines.html#ga76b12063e828a7af960d375dee952d31" title="rcc_clock_setup_pll" alt="" coords="213,107,351,133"/>
 </map>

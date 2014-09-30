@@ -1,4 +1,4 @@
 <map id="rcc_backupdomain_reset" name="rcc_backupdomain_reset">
-<area shape="rect" id="node3" href="$group__rtc__file.html#gaa4fec0b94caffb25d0acde8813a7ef5b" title="rtc_awake_from_off" alt="" coords="221,5,357,38"/>
-<area shape="rect" id="node5" href="$group__rtc__file.html#ga7693c69c9ff726487720b12576a20968" title="rtc_auto_awake" alt="" coords="405,5,520,38"/>
+<area shape="rect" id="node2" href="$group__rtc__file.html#gaa4fec0b94caffb25d0acde8813a7ef5b" title="rtc_awake_from_off" alt="" coords="220,5,357,32"/>
+<area shape="rect" id="node3" href="$group__rtc__file.html#ga7693c69c9ff726487720b12576a20968" title="rtc_auto_awake" alt="" coords="405,5,520,32"/>
 </map>
