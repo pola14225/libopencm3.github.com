@@ -2,11 +2,8 @@ var searchData=
 [
   ['sdio_5fbase',['SDIO_BASE',['../memorymap_8h.html#a95dd0abbc6767893b4b02935fa846f52',1,'memorymap.h']]],
   ['spi1_5fbase',['SPI1_BASE',['../memorymap_8h.html#a50cd8b47929f18b05efbd0f41253bf8d',1,'memorymap.h']]],
-  ['spi1_5fi2s_5fbase',['SPI1_I2S_BASE',['../memorymap_8h.html#a6dda9efeddb04f07a4d82b1503c0db4e',1,'memorymap.h']]],
   ['spi2_5fbase',['SPI2_BASE',['../memorymap_8h.html#ac3e357b4c25106ed375fb1affab6bb86',1,'memorymap.h']]],
-  ['spi2_5fi2s_5fbase',['SPI2_I2S_BASE',['../memorymap_8h.html#ab5b263aca05d63fcdd9a1d58b12eef52',1,'memorymap.h']]],
   ['spi3_5fbase',['SPI3_BASE',['../memorymap_8h.html#ae634fe8faa6922690e90fbec2fc86162',1,'memorymap.h']]],
-  ['spi3_5fi2s_5fbase',['SPI3_I2S_BASE',['../memorymap_8h.html#a4f321921fae1aed23d6e63e857b56669',1,'memorymap.h']]],
   ['st_5ftsense_5fcal1_5f30c',['ST_TSENSE_CAL1_30C',['../memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6',1,'memorymap.h']]],
   ['st_5ftsense_5fcal2_5f110c',['ST_TSENSE_CAL2_110C',['../memorymap_8h.html#aec8ea3ca0b75d7fd5cc5bf6df1539dd0',1,'memorymap.h']]],
   ['st_5fvrefint_5fcal',['ST_VREFINT_CAL',['../memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d',1,'memorymap.h']]],

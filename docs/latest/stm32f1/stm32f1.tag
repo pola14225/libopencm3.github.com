@@ -13801,16 +13801,16 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SPI2_I2S_BASE</name>
+      <name>SPI2_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>ab5b263aca05d63fcdd9a1d58b12eef52</anchor>
+      <anchor>ac3e357b4c25106ed375fb1affab6bb86</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SPI3_I2S_BASE</name>
+      <name>SPI3_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a4f321921fae1aed23d6e63e857b56669</anchor>
+      <anchor>ae634fe8faa6922690e90fbec2fc86162</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -20780,6 +20780,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga56c88bbe7b0cebf95e009b1d2a85046b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae2d6dfc50d00ed8f1b4e8ab7c062d684</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1f5836034bd617f40bdbd215a93d5f0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0e11fc62de28274e95fe42d377d1cab7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga31b8369293c55315e3759bea56a676e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6bae4dc233b9e2258f48de3a2b3fa026</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac6cd07b8922d335a858e36bbc71065b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga74f3f2e1cd063dd4a084610c5eef89e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac7d01b304081503a98592f732061eb74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_CR2</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga417ce5633b4617222b9bd17607d055de</anchor>
@@ -20843,6 +20906,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM15_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacf930e0a37992fcc9cd8af56dbae2434</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9f559e12cac70c13f4f9def868a43355</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f620d303af8a6e7fdcee2795d08e964</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_SMCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gab306d62e29c81641ac27d69f9347d6f5</anchor>
@@ -20888,6 +20972,27 @@
       <name>TIM8_SMCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8f4f9336075d5368893e922b0698981d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabed0f6092f98f521606e5d4bbce803a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae65c41413a45c488f7c894f7dbf46993</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga012281d0111d4dcb02b558db73a17580</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -20955,6 +21060,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac524447b9a1a3cde0564a9d9393e8ee9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa2fadb51ff267a8c3391cff7fb7e7e48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2db4d6792fe1f86f30c2e7bf18ce5941</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4c96a0edb83c22bbd52bdf43d6e41f23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga212a47d613cfd02eea612bb4f35ce0da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1c89774e14c444cb2f8829503ef3afa3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafdde7cd44a435dd2ba70d977a19f901d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga945eb306c76f6aaea0274d7c06f9039f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2b48fe8aeee0dac8ffc1bb6c2b564614</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_SR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gad6fce4212cd7186296dea3e49aae2f8f</anchor>
@@ -21014,6 +21182,69 @@
       <name>TIM8_SR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gaa5eae57915dcab4d8b73407afc2ccff9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga526e973edde2120206ae13a4b61a9d49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa5c14e73035999d555a305762d572e27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga81f869cfcaad05f8533e9453147fe92a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga08959db0ffd83b4c96217c7c052b6680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaeeafb512eb6d7558a4278df5ebc64696</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaece0a6f7a036866d2c41c2b0eb06a74c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4aca4d511a9a924dca9bc454d04b8b56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gada40f127abf9b98a853cfb7676530e48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaafe9b56d346bd0a64a8152ef56459a68</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -21081,6 +21312,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga497d2762c3bb77a0c5e3d79dbb30d262</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadca2e213f998730534efbfc041641a79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga19b6999e42a4dc160e9bddde723f6fa2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0d099db463f3d66c2077510e7d56ad98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad82309d0fdae23ec5729246afe172c17</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga456d0c90888f3d00ceb2f45619e0b925</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaeb29fe1d8ff9a807fd8675962dbd8425</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadde0e8cbc2842c1f901f4b245d7c23f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafdf4cb63e730373fcda7e7449f3585c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_CCMR1</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gacec544086db212a9e00282a14412a97b</anchor>
@@ -21126,6 +21420,69 @@
       <name>TIM8_CCMR1</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8f8b8bc6110c702b5cbd6dc7124032f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga395dc66668e4ea3b101858e841d174f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac057189a10d62de04342820c82438884</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1902faed9da0ba49a7a9801e9b2de1ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaac21c6800f488b53ca5a56fa0b06c281</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae158bd33dc5d82143bf4e066e1b40201</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3ceb360f6d4de5a2b46343b0e6423eb7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga45a317ca9ed3f9842504fd4f5d66e7c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f7c894a1945eb95edf764de860e4f29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7ed327b113e9e0d28cc929f9becb9b2e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -21228,6 +21585,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3e6de7d3bd7ab701531739bd46e0030d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga61bd386c6a406fe8336727a98c2e09f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac5ed3836db5a91838bbd045af35ddbba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga750f0dc3d7c70146663f2912f7421c69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga98ecc727209104d0379aa774959fcc66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf63caef1b5e210d9b136ec4603054900</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafcccee9545ef203faa9764d6c0a8d35e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga80989e0ebfd8694206d74b909cb9b3e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f4ee3bd976c98c5f5e6ecc643ce5c2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_CNT</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga87166273e1733623117942a332dba524</anchor>
@@ -21287,6 +21707,69 @@
       <name>TIM8_CNT</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gadfa3483ac2f834b753818c995381a94b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6922a1593b62bc35d3025b0a4144fb5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5775c18cf39991e76fc92854c6629528</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga67346a554f1fffcd9f402feab833089b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8be53b9a8e75c92460b281ea41c8f945</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaaad818a1e28c21d0c6a7ed92311cca52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae9c9275f356c5ebe3c2ce4820e6520aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaecec00b27950c74c8a1e1182afdcf038</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8961ababc51064bcd86dbc7c36f54c98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6ec56a906e82ec30dce5842ebc29ba74</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -21354,6 +21837,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4253dda92577dc00b1de12d323be41c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga32de96ffe9009ebb57c8177d38fc7b1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabcbe7b6f8bcaa3e04807fdc17d9d7b1c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gace600f72eabd216eb0c56ef61dde8e78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacf3bc94f6b2adb36fd3be164153c8d29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafd5682b2602029571a93257c02465090</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab88565ff06d90fa691273e370adb2108</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7ce9e7be0b3d04c4fea06d0ddaf69fe9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga69749629b197446df85850921d9ed5a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_ARR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga9a6cc4cf3fbac476e55f95357c5dd0eb</anchor>
@@ -21417,6 +21963,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa7d0be034f138a46fe6b321964d9f3f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2364195e1b8c8d950765ad8e64b8b107</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga36a6aa95eb3a015678eda5153397170a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9f3075def4dba01ded15b0908ea69af3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga53c09a00cce9219e18c5dbe706881573</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga73ddad6eaa57696f5dcaea17ab99439e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga46541dd40ebf81e4baf1629342fc735d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0d14811fb3b079046956b173b2ff4dfe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga055965fcc481a64a41822a346742933a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_RCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gad6291f2341244a7292038184bb63330f</anchor>
@@ -21434,6 +22043,27 @@
       <name>TIM8_RCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga43e93d51df7aca023e9023107ea77f1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8cb8cae439bd2d6556bd271eaff2cd4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac3b1e952319a8fdd4f43898a9bc4648b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga863529f7dd1a221307a18f64247d5db4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -21487,6 +22117,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5075290a76c65544f2300f2cdd031005</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga35c4929e1dc8e07f3aaa08c6bd5d9f94</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2fdb707895436d0e7d411f99111f7a27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga47a80a6f850b5300a7c34de7b7a98c81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8053d651bc58166838216b40b195910b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga99db4e8a0b1bd11f54e28b6d4d0a07cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga24ebbb61588928e44c64ab7eab708ce0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6ea4a672c296260702c45ddd08def838</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7fdee7abd6eacd350c860c0f459dce80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_CCR2</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga3ee1951f478c34780dc65f1c609c79af</anchor>
@@ -21532,6 +22225,27 @@
       <name>TIM8_CCR2</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8b3ea6dd16cfacd787cd30b30f765772</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabbeb33b0781c7397e500b56ebe76563b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga822d72789ae7d1119d232e0936bdf0b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga281a196fbd120fa4245b6910e032a4b7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -21655,6 +22369,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM15_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4b1cd28d47564eca71793c9fe0cfb03c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga841aab8abba35f32df5461145787d694</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga888a65c9a04e4bda4120c30fd3a38876</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_DCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga143fed1be5c39c59d598098564440e60</anchor>
@@ -21704,6 +22439,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM15_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf9124f09ae874b1b198aad64a631ba3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1f46f44f4297609049a075e97e9083a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0b7c87e6c9f7737d95afb53c2a1d0741</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_DMAR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga0e1cdd0119f9b184b3c43972bd60b70d</anchor>
@@ -21749,6 +22505,27 @@
       <name>TIM8_DMAR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gabe8bc51d60d8fe81c26930ca7e182a12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga15d41f904f585b2bbf18eff6449650b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga71331e55f29a09196441f013941b22a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2db8ac5fb5c00ccdae059adebabca970</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -39834,6 +40611,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga56c88bbe7b0cebf95e009b1d2a85046b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae2d6dfc50d00ed8f1b4e8ab7c062d684</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1f5836034bd617f40bdbd215a93d5f0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0e11fc62de28274e95fe42d377d1cab7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga31b8369293c55315e3759bea56a676e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6bae4dc233b9e2258f48de3a2b3fa026</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac6cd07b8922d335a858e36bbc71065b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga74f3f2e1cd063dd4a084610c5eef89e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac7d01b304081503a98592f732061eb74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_CR2</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga417ce5633b4617222b9bd17607d055de</anchor>
@@ -39897,6 +40737,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM15_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacf930e0a37992fcc9cd8af56dbae2434</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9f559e12cac70c13f4f9def868a43355</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f620d303af8a6e7fdcee2795d08e964</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_SMCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gab306d62e29c81641ac27d69f9347d6f5</anchor>
@@ -39942,6 +40803,27 @@
       <name>TIM8_SMCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8f4f9336075d5368893e922b0698981d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabed0f6092f98f521606e5d4bbce803a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae65c41413a45c488f7c894f7dbf46993</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga012281d0111d4dcb02b558db73a17580</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -40009,6 +40891,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac524447b9a1a3cde0564a9d9393e8ee9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa2fadb51ff267a8c3391cff7fb7e7e48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2db4d6792fe1f86f30c2e7bf18ce5941</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4c96a0edb83c22bbd52bdf43d6e41f23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga212a47d613cfd02eea612bb4f35ce0da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1c89774e14c444cb2f8829503ef3afa3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafdde7cd44a435dd2ba70d977a19f901d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga945eb306c76f6aaea0274d7c06f9039f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2b48fe8aeee0dac8ffc1bb6c2b564614</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_SR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gad6fce4212cd7186296dea3e49aae2f8f</anchor>
@@ -40068,6 +41013,69 @@
       <name>TIM8_SR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gaa5eae57915dcab4d8b73407afc2ccff9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga526e973edde2120206ae13a4b61a9d49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa5c14e73035999d555a305762d572e27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga81f869cfcaad05f8533e9453147fe92a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga08959db0ffd83b4c96217c7c052b6680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaeeafb512eb6d7558a4278df5ebc64696</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaece0a6f7a036866d2c41c2b0eb06a74c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4aca4d511a9a924dca9bc454d04b8b56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gada40f127abf9b98a853cfb7676530e48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaafe9b56d346bd0a64a8152ef56459a68</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -40135,6 +41143,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga497d2762c3bb77a0c5e3d79dbb30d262</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadca2e213f998730534efbfc041641a79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga19b6999e42a4dc160e9bddde723f6fa2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0d099db463f3d66c2077510e7d56ad98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad82309d0fdae23ec5729246afe172c17</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga456d0c90888f3d00ceb2f45619e0b925</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaeb29fe1d8ff9a807fd8675962dbd8425</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadde0e8cbc2842c1f901f4b245d7c23f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafdf4cb63e730373fcda7e7449f3585c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_CCMR1</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gacec544086db212a9e00282a14412a97b</anchor>
@@ -40180,6 +41251,69 @@
       <name>TIM8_CCMR1</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8f8b8bc6110c702b5cbd6dc7124032f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga395dc66668e4ea3b101858e841d174f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac057189a10d62de04342820c82438884</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1902faed9da0ba49a7a9801e9b2de1ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaac21c6800f488b53ca5a56fa0b06c281</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae158bd33dc5d82143bf4e066e1b40201</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3ceb360f6d4de5a2b46343b0e6423eb7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga45a317ca9ed3f9842504fd4f5d66e7c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f7c894a1945eb95edf764de860e4f29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7ed327b113e9e0d28cc929f9becb9b2e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -40282,6 +41416,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3e6de7d3bd7ab701531739bd46e0030d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga61bd386c6a406fe8336727a98c2e09f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac5ed3836db5a91838bbd045af35ddbba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga750f0dc3d7c70146663f2912f7421c69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga98ecc727209104d0379aa774959fcc66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf63caef1b5e210d9b136ec4603054900</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafcccee9545ef203faa9764d6c0a8d35e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga80989e0ebfd8694206d74b909cb9b3e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f4ee3bd976c98c5f5e6ecc643ce5c2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_CNT</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga87166273e1733623117942a332dba524</anchor>
@@ -40341,6 +41538,69 @@
       <name>TIM8_CNT</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gadfa3483ac2f834b753818c995381a94b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6922a1593b62bc35d3025b0a4144fb5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5775c18cf39991e76fc92854c6629528</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga67346a554f1fffcd9f402feab833089b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8be53b9a8e75c92460b281ea41c8f945</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaaad818a1e28c21d0c6a7ed92311cca52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae9c9275f356c5ebe3c2ce4820e6520aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaecec00b27950c74c8a1e1182afdcf038</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8961ababc51064bcd86dbc7c36f54c98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6ec56a906e82ec30dce5842ebc29ba74</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -40408,6 +41668,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4253dda92577dc00b1de12d323be41c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga32de96ffe9009ebb57c8177d38fc7b1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabcbe7b6f8bcaa3e04807fdc17d9d7b1c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gace600f72eabd216eb0c56ef61dde8e78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacf3bc94f6b2adb36fd3be164153c8d29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafd5682b2602029571a93257c02465090</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab88565ff06d90fa691273e370adb2108</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7ce9e7be0b3d04c4fea06d0ddaf69fe9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga69749629b197446df85850921d9ed5a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_ARR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga9a6cc4cf3fbac476e55f95357c5dd0eb</anchor>
@@ -40471,6 +41794,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa7d0be034f138a46fe6b321964d9f3f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2364195e1b8c8d950765ad8e64b8b107</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga36a6aa95eb3a015678eda5153397170a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9f3075def4dba01ded15b0908ea69af3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga53c09a00cce9219e18c5dbe706881573</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga73ddad6eaa57696f5dcaea17ab99439e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga46541dd40ebf81e4baf1629342fc735d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0d14811fb3b079046956b173b2ff4dfe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga055965fcc481a64a41822a346742933a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_RCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gad6291f2341244a7292038184bb63330f</anchor>
@@ -40488,6 +41874,27 @@
       <name>TIM8_RCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga43e93d51df7aca023e9023107ea77f1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8cb8cae439bd2d6556bd271eaff2cd4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac3b1e952319a8fdd4f43898a9bc4648b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga863529f7dd1a221307a18f64247d5db4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -40541,6 +41948,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM9_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5075290a76c65544f2300f2cdd031005</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga35c4929e1dc8e07f3aaa08c6bd5d9f94</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2fdb707895436d0e7d411f99111f7a27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga47a80a6f850b5300a7c34de7b7a98c81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8053d651bc58166838216b40b195910b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga99db4e8a0b1bd11f54e28b6d4d0a07cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga24ebbb61588928e44c64ab7eab708ce0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6ea4a672c296260702c45ddd08def838</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7fdee7abd6eacd350c860c0f459dce80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_CCR2</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga3ee1951f478c34780dc65f1c609c79af</anchor>
@@ -40586,6 +42056,27 @@
       <name>TIM8_CCR2</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8b3ea6dd16cfacd787cd30b30f765772</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabbeb33b0781c7397e500b56ebe76563b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga822d72789ae7d1119d232e0936bdf0b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga281a196fbd120fa4245b6910e032a4b7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -40709,6 +42200,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM15_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4b1cd28d47564eca71793c9fe0cfb03c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga841aab8abba35f32df5461145787d694</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga888a65c9a04e4bda4120c30fd3a38876</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_DCR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga143fed1be5c39c59d598098564440e60</anchor>
@@ -40758,6 +42270,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM15_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf9124f09ae874b1b198aad64a631ba3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1f46f44f4297609049a075e97e9083a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0b7c87e6c9f7737d95afb53c2a1d0741</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM_DMAR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga0e1cdd0119f9b184b3c43972bd60b70d</anchor>
@@ -40803,6 +42336,27 @@
       <name>TIM8_DMAR</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gabe8bc51d60d8fe81c26930ca7e182a12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga15d41f904f585b2bbf18eff6449650b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga71331e55f29a09196441f013941b22a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2db8ac5fb5c00ccdae059adebabca970</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
