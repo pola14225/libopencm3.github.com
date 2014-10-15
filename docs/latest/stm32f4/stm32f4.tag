@@ -14745,6 +14745,13 @@
       <anchor>ga24a53fce58c72ae809ee796bdf93b693</anchor>
       <arglist>[CLOCK_3V3_END]</arglist>
     </member>
+    <member kind="variable">
+      <type>const clock_scale_t</type>
+      <name>hse_25mhz_3v3</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>ga970180a067c79931795be5222a80981d</anchor>
+      <arglist>[CLOCK_3V3_END]</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>rcc.h</name>
@@ -18586,6 +18593,13 @@
       <name>hse_16mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
       <anchor>ga24a53fce58c72ae809ee796bdf93b693</anchor>
+      <arglist>[CLOCK_3V3_END]</arglist>
+    </member>
+    <member kind="variable">
+      <type>const clock_scale_t</type>
+      <name>hse_25mhz_3v3</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>ga970180a067c79931795be5222a80981d</anchor>
       <arglist>[CLOCK_3V3_END]</arglist>
     </member>
   </compound>
@@ -49727,6 +49741,13 @@
       <name>hse_16mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
       <anchor>ga24a53fce58c72ae809ee796bdf93b693</anchor>
+      <arglist>[CLOCK_3V3_END]</arglist>
+    </member>
+    <member kind="variable">
+      <type>const clock_scale_t</type>
+      <name>hse_25mhz_3v3</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>ga970180a067c79931795be5222a80981d</anchor>
       <arglist>[CLOCK_3V3_END]</arglist>
     </member>
     <docanchor file="group__rcc__file" title="Reset and Clock Control API.">rcc_f4_api_ex</docanchor>

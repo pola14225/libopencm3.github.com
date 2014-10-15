@@ -550,6 +550,7 @@ var rcc_8h =
     [ "rcc_wait_for_sysclk_status", "group__rcc__file.html#gaa768e6d3787b02f6dc93c8392b879ef7", null ],
     [ "hse_12mhz_3v3", "group__rcc__file.html#gafaf3b6c383f86ea1730ceedc0eb5a0c4", null ],
     [ "hse_16mhz_3v3", "group__rcc__file.html#ga24a53fce58c72ae809ee796bdf93b693", null ],
+    [ "hse_25mhz_3v3", "group__rcc__file.html#ga970180a067c79931795be5222a80981d", null ],
     [ "hse_8mhz_3v3", "group__rcc__file.html#ga6732b60b662d0168e6995cddc5027c29", null ],
     [ "rcc_ppre1_frequency", "group__rcc__file.html#ga71455852cfe7420e0c33a63e0e09c4e5", null ],
     [ "rcc_ppre2_frequency", "group__rcc__file.html#gae9ac2772ba7880c2a2941d8a7150c477", null ]
