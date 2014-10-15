@@ -11,6 +11,7 @@ var NAVTREE =
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
     [ "STM32F3", "../../stm32f3/html/modules.html", null ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
+    [ "STM32L0", "../../stm32l0/html/modules.html", null ],
     [ "STM32L1", "../../stm32l1/html/modules.html", null ],
     [ "LM3S", "modules.html", "modules" ],
     [ "LM4F", "../../lm4f/html/modules.html", null ],
@@ -26,6 +27,7 @@ var NAVTREE =
     [ "SAM3S", "../../sam3s/html/modules.html", null ],
     [ "SAM3U", "../../sam3u/html/modules.html", null ],
     [ "SAM3X", "../../sam3x/html/modules.html", null ],
+    [ "VF6XX", "../../vf6xx/html/modules.html", null ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [

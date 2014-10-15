@@ -1,0 +1,5 @@
+<map id="gpio.c" name="gpio.c">
+<area shape="rect" id="node2" href="$gpio_8h.html" title="libopencm3/vf6xx/gpio.h" alt="" coords="31,80,194,107"/>
+<area shape="rect" id="node6" href="$ccm_8h.html" title="libopencm3/vf6xx/ccm.h" alt="" coords="219,80,383,107"/>
+<area shape="rect" id="node4" href="$memorymap_8h.html" title="libopencm3/vf6xx/memorymap.h" alt="" coords="213,155,423,181"/>
+</map>

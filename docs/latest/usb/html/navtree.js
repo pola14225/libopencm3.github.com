@@ -11,6 +11,7 @@ var NAVTREE =
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
     [ "STM32F3", "../../stm32f3/html/modules.html", null ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
+    [ "STM32L0", "../../stm32l0/html/modules.html", null ],
     [ "STM32L1", "../../stm32l1/html/modules.html", null ],
     [ "LM3S", "../../lm3s/html/modules.html", null ],
     [ "LM4F", "../../lm4f/html/modules.html", null ],
@@ -26,6 +27,7 @@ var NAVTREE =
     [ "SAM3S", "../../sam3s/html/modules.html", null ],
     [ "SAM3U", "../../sam3u/html/modules.html", null ],
     [ "SAM3X", "../../sam3x/html/modules.html", null ],
+    [ "VF6XX", "../../vf6xx/html/modules.html", null ],
     [ "Data Structures", null, [
       [ "Data Structures", "annotated.html", "annotated" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -53,9 +55,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f",
-"structusb__config__descriptor_1_1usb__interface.html#a13a3a3923829d695fa85236b83205b1a",
-"usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575"
+"group__usb__driver__defines.html#ga94eba5aff7befd8009cea2f2abb43134",
+"structusb__config__descriptor.html#af50d14a1e97dab1a4483f03b969ca431",
+"usb__standard_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

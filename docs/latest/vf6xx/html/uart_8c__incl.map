@@ -1,0 +1,5 @@
+<map id="uart.c" name="uart.c">
+<area shape="rect" id="node2" href="$uart_8h.html" title="libopencm3/vf6xx/uart.h" alt="" coords="33,80,195,107"/>
+<area shape="rect" id="node6" href="$ccm_8h.html" title="libopencm3/vf6xx/ccm.h" alt="" coords="219,80,383,107"/>
+<area shape="rect" id="node4" href="$memorymap_8h.html" title="libopencm3/vf6xx/memorymap.h" alt="" coords="213,155,423,181"/>
+</map>

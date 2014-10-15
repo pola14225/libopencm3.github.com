@@ -1,0 +1,5 @@
+<map id="iomuxc.c" name="iomuxc.c">
+<area shape="rect" id="node2" href="$iomuxc_8h.html" title="libopencm3/vf6xx/iomuxc.h" alt="" coords="18,80,199,107"/>
+<area shape="rect" id="node6" href="$ccm_8h.html" title="libopencm3/vf6xx/ccm.h" alt="" coords="224,80,388,107"/>
+<area shape="rect" id="node4" href="$memorymap_8h.html" title="libopencm3/vf6xx/memorymap.h" alt="" coords="213,155,423,181"/>
+</map>

@@ -1,0 +1,165 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:409: warning: More #endif's than #if's found.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:411: warning: end of file while inside a group
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:234: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:534: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:561: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:661: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:686: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:710: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:733: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:772: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1208: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1270: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1332: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1394: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1439: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1492: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1582: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1605: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1629: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1653: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1675: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1697: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1719: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1741: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1767: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1792: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1816: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1839: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1864: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1896: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_l1f013.h:147: warning: group dma_if_offset: ignoring title "DMA Interrupt Flag Offsets within channel flag" that does not match old title "DMA Interrupt Flag Offsets within stream flag group."
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/gpio.h:1: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/gpio.h:2: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
+  parameter 'sector'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: The following parameters of flash_program(uint32_t address, uint8_t *data, uint32_t len) are not documented:
+  parameter 'address'
+  parameter 'data'
+  parameter 'len'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: The following parameters of flash_program_byte(uint32_t address, uint8_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: argument 'uint64_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: The following parameters of flash_program_double_word(uint32_t address, uint64_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:214: warning: unable to resolve reference to `flash_options' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: The following parameters of flash_program_option_bytes(uint32_t address, uint16_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:395: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:395: warning: The following parameters of flash_program_option_bytes(uint32_t data) are not documented:
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:132: warning: explicit link request to 'rcc_periph_clken' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:118: warning: explicit link request to 'rcc_periph_clken' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:161: warning: explicit link request to 'rcc_periph_rst' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:145: warning: explicit link request to 'rcc_periph_rst' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:176: warning: explicit link request to 'rcc_periph_rst' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:99: warning: unable to resolve reference to `rcc_ahbrstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:100: warning: unable to resolve reference to `rcc_apb1rstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:101: warning: unable to resolve reference to `rcc_apb2rstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:58: warning: unable to resolve reference to `rcc_ahbenr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:59: warning: unable to resolve reference to `rcc_apb1enr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:60: warning: unable to resolve reference to `rcc_apb2enr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:36: warning: unable to resolve reference to `rcc_ahbenr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:37: warning: unable to resolve reference to `rcc_apb1enr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:38: warning: unable to resolve reference to `rcc_apb2enr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:78: warning: unable to resolve reference to `rcc_ahbrstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:79: warning: unable to resolve reference to `rcc_apb1rstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:80: warning: unable to resolve reference to `rcc_apb2rstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:67: warning: argument 'stream' of command @param is not found in the argument list of dma_clear_interrupt_flags(uint32_t dma, uint8_t channel, uint32_t interrupts)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:317: warning: argument 'stream' of command @param is not found in the argument list of dma_disable_half_transfer_interrupt(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:193: warning: argument 'stream' of command @param is not found in the argument list of dma_disable_memory_increment_mode(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:221: warning: argument 'stream' of command @param is not found in the argument list of dma_disable_peripheral_increment_mode(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:341: warning: argument 'stream' of command @param is not found in the argument list of dma_disable_transfer_complete_interrupt(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:293: warning: argument 'stream' of command @param is not found in the argument list of dma_disable_transfer_error_interrupt(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:233: warning: argument 'stream' of command @param is not found in the argument list of dma_enable_circular_mode(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:305: warning: argument 'stream' of command @param is not found in the argument list of dma_enable_half_transfer_interrupt(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:177: warning: argument 'stream' of command @param is not found in the argument list of dma_enable_memory_increment_mode(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:205: warning: argument 'stream' of command @param is not found in the argument list of dma_enable_peripheral_increment_mode(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:329: warning: argument 'stream' of command @param is not found in the argument list of dma_enable_transfer_complete_interrupt(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:281: warning: argument 'stream' of command @param is not found in the argument list of dma_enable_transfer_error_interrupt(uint32_t dma, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:87: warning: argument 'stream' of command @param is not found in the argument list of dma_get_interrupt_flag(uint32_t dma, uint8_t channel, uint32_t interrupt)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:401: warning: argument 'stream' of command @param is not found in the argument list of dma_set_memory_address(uint32_t dma, uint8_t channel, uint32_t address)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:139: warning: argument 'stream' of command @param is not found in the argument list of dma_set_memory_size(uint32_t dma, uint8_t channel, uint32_t mem_size)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:419: warning: argument 'stream' of command @param is not found in the argument list of dma_set_number_of_data(uint32_t dma, uint8_t channel, uint16_t number)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:380: warning: argument 'stream' of command @param is not found in the argument list of dma_set_peripheral_address(uint32_t dma, uint8_t channel, uint32_t address)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:157: warning: argument 'stream' of command @param is not found in the argument list of dma_set_peripheral_size(uint32_t dma, uint8_t channel, uint32_t peripheral_size)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:122: warning: argument 'stream' of command @param is not found in the argument list of dma_set_priority(uint32_t dma, uint8_t channel, uint32_t prio)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
+  parameter 'sector'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: The following parameters of flash_program(uint32_t address, uint8_t *data, uint32_t len) are not documented:
+  parameter 'address'
+  parameter 'data'
+  parameter 'len'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: The following parameters of flash_program_byte(uint32_t address, uint8_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: argument 'uint64_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: The following parameters of flash_program_double_word(uint32_t address, uint64_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:214: warning: unable to resolve reference to `flash_options' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: The following parameters of flash_program_option_bytes(uint32_t address, uint16_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:395: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:395: warning: The following parameters of flash_program_option_bytes(uint32_t data) are not documented:
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: The following parameters of flash_program_word(uint32_t address, uint32_t data) are not documented:
+  parameter 'address'
+  parameter 'data'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:35: warning: unable to resolve reference to `flash_latency' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:42: warning: unable to resolve reference to `flash_latency' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: The following parameters of flash_set_ws(uint32_t ws) are not documented:
+  parameter 'ws'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:75: warning: argument 'crcl' of command @param is not found in the argument list of spi_init_master(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f24.c:30: warning: The following parameters of timer_set_option(uint32_t timer_peripheral, uint32_t option) are not documented:
+  parameter 'option'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'

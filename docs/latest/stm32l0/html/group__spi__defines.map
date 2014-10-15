@@ -1,0 +1,9 @@
+<map id="Spi_defines" name="Spi_defines">
+<area shape="rect" id="node1" href="$group__spi__reg__base.html" title="SPI Register base address" alt="" coords="144,5,323,32"/>
+<area shape="rect" id="node2" href="$group__spi__dff.html" title="SPI data frame format" alt="" coords="158,56,309,83"/>
+<area shape="rect" id="node3" href="$group__spi__cpha.html" title="SPI clock phase" alt="" coords="174,107,293,133"/>
+<area shape="rect" id="node5" href="$group__spi__lsbfirst.html" title="SPI lsb/msb first" alt="" coords="173,157,293,184"/>
+<area shape="rect" id="node6" href="$group__spi__cpol.html" title="SPI clock polarity" alt="" coords="171,208,296,235"/>
+<area shape="rect" id="node7" href="$group__spi__baudrate.html" title="SPI peripheral baud\l rates" alt="" coords="165,259,301,301"/>
+<area shape="rect" id="node8" href="$group__spi__br__pre.html" title="SPI peripheral baud\l rate prescale values" alt="" coords="162,325,305,366"/>
+</map>

@@ -10,6 +10,7 @@ var NAVTREE =
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
     [ "STM32F3", "../../stm32f3/html/modules.html", null ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
+    [ "STM32L0", "../../stm32l0/html/modules.html", null ],
     [ "STM32L1", "../../stm32l1/html/modules.html", null ],
     [ "LM3S", "../../lm3s/html/modules.html", null ],
     [ "LM4F", "../../lm4f/html/modules.html", null ],
@@ -25,6 +26,7 @@ var NAVTREE =
     [ "SAM3S", "../../sam3s/html/modules.html", null ],
     [ "SAM3U", "../../sam3u/html/modules.html", null ],
     [ "SAM3X", "../../sam3x/html/modules.html", null ],
+    [ "VF6XX", "../../vf6xx/html/modules.html", null ],
     [ "Data Structures", null, [
       [ "Data Structures", "annotated.html", "annotated" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -49,8 +51,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../efm32g/html/modules.html",
-"group__CM3__systick__defines.html#gab3b16fa14f4b2e1be896c24df74f92d3",
-"tpiu_8h.html#a93c1f6789d79fbfce3d9be9c207fdeb8"
+"group__CM3__systick__defines.html#gaaa997323bf7f3378eb78a6277abc913f",
+"tpiu_8h.html#a819c9d9fcf2a17f910382d0747342523"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
