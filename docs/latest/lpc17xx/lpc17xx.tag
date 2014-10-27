@@ -1,6 +1,579 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile>
   <compound kind="file">
+    <name>clock.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc17xx/</path>
+    <filename>clock_8h</filename>
+    <includes id="memorymap_8h" name="memorymap.h" local="no" imported="no">libopencm3/lpc17xx/memorymap.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_SCS</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>af59f68e4ccb5e4d4029714a3feef0a95</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKSRCSEL</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ac1dd457f46f6c92544c989cbcdf1257f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0CON</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a9df0580bd8d1aa8f21fac9dbb54ac800</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0CFG</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a313f87e146a082dace00e9ebf09a73bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0STAT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a36baa39e52228f974708e3fb3794446d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0FEED</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a6d2f8dd829d66f878e44a3842af4e6a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1CON</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ac61eb89510610d433afc92c53b570ab7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1CFG</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>afdc3f60c32fbaf7bae3238c4d48c1310</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1STAT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a0bc684dd617990b6d5b5d88769f116f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1FEED</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a4659d569062144585c67bace3fdf8701</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CCLKCFG</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ab26dd960d1a5e19fe500833677d580b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_USBCLKCFG</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>af0453e64d0431301699a29241a39b863</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a9fe59ecb70604ff2da4a3f7ada862183</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>aeeb48055ad57f846ff59ef404394191e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKOUTCFG</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a8a7014a24336cc5ea98bc70cbf52df21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_SCS_OSCRANGE_01_TO_20MHZ</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>aa7f97f398c43f4645f9ff1f86ba78a15</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_SCS_OSCRANGE_15_TO_25MHZ</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ab58521f16643d461291a1f279d4615c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_SCS_OSCEN</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a22ba32f5f1b46a0a67d8473411b82408</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_SCS_OSCSTAT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a10fc4f264a8df454559ee5da55975263</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKSRCSEL_IRC</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a0d7c49de6a8f5f5b3914d3b756461f7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKSRCSEL_MAIN</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ae2dd5663e8f6cfdce89117f8918027b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKSRCSEL_RTC</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a7b651033c893acdb0adc50cba50fc55e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLLCON_ENABLE</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>abc41241c297278685b359dec9b133304</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLLCON_CONNECT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ab236335a83b1f88a18637178450418b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0_MSEL_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a5d2db19349e698df9280101f0de62caf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0_MSEL_MASK</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>afddc842a73cd827fcae7829c255713a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0_NSEL_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>acffa30633aff7ffceb94d56928559149</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0_NSEL_MASK</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ace706116bb52d9fa14be941f099c7982</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0STAT_ENABLE</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>addc2eab663faf92703be67630770f0d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0STAT_CONNECT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a63d6c805ea0e778ee5b21dc9dfb40f58</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL0STAT_PLOCK</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a9e2d111b462c77bb44b4260167928e0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1_MSEL_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a6e95c54f8a9c658ab98aab538dda5e7f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1_MSEL_MASK</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a5f3bc2d6a7522c874197d947ee86f00f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1_PSEL_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a9f1d85aeaf35ab90f54a1927f6ef8105</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1_PSEL_MASK</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a46118888cbd410bd423c1b85d879b325</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1STAT_ENABLE</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a70d36ce3d7258b4d3c9ba9531bf71137</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1STAT_CONNECT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a415c47484d48ee0d1ad9a217f8ca87de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PLL1STAT_PLOCK</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>adab901ace7f75b997a7f506d2483945c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_USBCLKCFG_DIV6</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a8fec1d7a88a4589c1b9eff8e9bf86622</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_USBCLKCFG_DIV8</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>aadfed3f422ec54c24062c09ce36a6cdb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_USBCLKCFG_DIV10</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ad013a858dc40e5b9523e450e08201b81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL_DIV4</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a4584a5f1f9e3529cd231e323a0f08abf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL_DIV1</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a886202bb8dc798e499ba64b6b12411d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL_DIV2</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>aa58aa83c19605ea46522ac639e101eed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL_DIV8</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a6d6205e0c666cfa814e5739914395b5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_WDT_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a70ba52536994f725a85e4ae058a9b36b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_TIMER0_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ad8ba548613cda2a6ad24d6cddf021949</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_TIMER1_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a695591cd42ddfdf71d557b923c509e80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_UART0_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a3276ffa0ae8fa57d1742f963150ab1b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_UART1_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>abf117f4100b516010e268b125417202e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_PWM1_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a67d1a0c561f508ff7bfcd3dd5d58bda0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_I2C0_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ab3ccf9ce8fb218b3be1853e1376c0001</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_SPI_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a3e677dd5c498d9bc7aa271640143481d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_SSP1_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a04ebc25859c53c8572b3aea6e78fb857</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_DAC_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>aabc7dea0f5b2374e6f8038d8aaba3f1c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_ADC_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a3c319493c16908e6ac3e7e1b26e51a3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_CAN1_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ae5659a89e809210a1ab2ac0b61318ae2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_CAN2_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a9e39d53fb86798528900d8404b86294f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL0_ACF_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>aad57d488da3d604329bc898f7115e1ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_QEI_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a0d992c17ee523a6611fd0c4804320282</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_GPIOINT_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a041c03f98e1c61aa8383fc2f58bfb005</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_PCB_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a14eb87be8988e139e829af9752c4840f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_I2C1_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>af9283ecee7be2c7c8ee1fcaffcf47d17</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_SSP0_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ab34e8a4b528794e3098a09e04a335934</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_TIMER2_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a79bea57efe19a5ccbb9f3356dcb70cd8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_TIMER3_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a8531ed58a30659c4139343a4620c5916</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_UART2_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>abdb9a58a01a3398bfe66d3083df6559f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_UART3_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a4a0e36fbdc89abc5414b48c003c745a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_I2C2_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ab6cc0d45dce010579bcf9b0462de7c43</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_I2S_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a2b39e4f8d3df36d5be420d6d2d1c0ed9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_RIT_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a8ff247952ef0a16478b35ffa85e1aec7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_SYSCON_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a799f236f97c843c25249ee6994dbf966</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_PCLKSEL1_MCPWM_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ab9444f83b2171eeb5e434715462591f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKOUTCFG_SEL_CPU</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a94a16ceaa7349b0873882d1ad00561ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKOUTCFG_SEL_MAIN</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a888592d91536cfc77b7878a8a39fd03c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKOUTCFG_SEL_IRC</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>afcf0234cd64dc062be4895951d0eaea3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKOUTCFG_SEL_USB</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>ade2adc616c0c60ef9e3343c38ca1b986</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKOUTCFG_SEL_RTC</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a083d8077a3946fa77251971ac14561b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKOUTCFG_DIV_SHIFT</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a283d1765f7ff3c51cd6b528a8ac7a867</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKOUTCFG_ENABLE</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a64603fdf3fd9aece92349b1ce5c8a1a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CLK_CLKOUTCFG_ENABLE</name>
+      <anchorfile>clock_8h.html</anchorfile>
+      <anchor>a64603fdf3fd9aece92349b1ce5c8a1a9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>doc-lpc17xx.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc17xx/</path>
     <filename>doc-lpc17xx_8h</filename>
@@ -602,6 +1175,13 @@
     <filename>memorymap_8h</filename>
     <member kind="define">
       <type>#define</type>
+      <name>PERIPH_BASE_GPIO</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a758afa07b72ff26c99ba431546c264a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>PERIPH_BASE_APB0</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>aec51d8b3ae8b4ba45b0254165c7db3cd</anchor>
@@ -619,6 +1199,41 @@
       <name>PERIPH_BASE_AHB</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a793706f3905f7c4a6df525e32144dd4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIO_PIO0_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a1c0bdf678bb824d9de4f8252d54d5b61</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIO_PIO1_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a0d0cfbbba49b9a5788b60e7d4aa9a6e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIO_PIO2_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ae35f890c10dcfb4d51592388cae93076</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIO_PIO3_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a179c793fc31574e3e578cf6b32a1a643</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIO_PIO4_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a3fb5fdec414b0bf57fdce10bf7d36395</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -756,38 +1371,421 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>GPIO_PIO0_BASE</name>
+      <name>SSP0_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a1c0bdf678bb824d9de4f8252d54d5b61</anchor>
+      <anchor>a438689791bcb764cbb8a0aa6a69a4c97</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>GPIO_PIO1_BASE</name>
+      <name>DAC_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a0d0cfbbba49b9a5788b60e7d4aa9a6e2</anchor>
+      <anchor>ad18d0b914c7f68cecbee1a2d23a67d38</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>GPIO_PIO2_BASE</name>
+      <name>TIMER2_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>ae35f890c10dcfb4d51592388cae93076</anchor>
+      <anchor>a933376d74e94dae8f42e17c09bd91faa</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>GPIO_PIO3_BASE</name>
+      <name>TIMER3_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a179c793fc31574e3e578cf6b32a1a643</anchor>
+      <anchor>a2bcbc0fe8296511a1a9d12caff242819</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>GPIO_PIO4_BASE</name>
+      <name>UART2_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a3fb5fdec414b0bf57fdce10bf7d36395</anchor>
+      <anchor>ac9998d643534960b684d45a60b998421</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>UART3_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a2eff3896840fdf741bd67d2d7fe99a34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2C2_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a04bda70f25c795fb79f163b633ad4a5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>I2S_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a50a0c7eb1c7f533adb639599dbad7020</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RIT_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a2b0a8cf7ac4d9730fdaa3d2e809e85e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MCPWM_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aea229c083f633f9876bac041a82ad8e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QEI_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ae806b5e2054111ec113777562541bbbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCON_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aec568b16623f3ddf61c3cdfb985249ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ETHERNET_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aac50fe88c3def553993c61a811d8bbd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPDMA_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a4cb95d790045ab44dccf0f6d4e3376a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aa6c4cbed4ddbb3ecd77de93fab2a2e04</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>pwr.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc17xx/</path>
+    <filename>pwr_8c</filename>
+    <includes id="pwr_8h" name="pwr.h" local="no" imported="no">libopencm3/lpc17xx/pwr.h</includes>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_peripherals</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga1bdc750d035edddd87f7d6f7a3493497</anchor>
+      <arglist>(uint32_t peripherals)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_peripherals</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga4093b6e9c7e7ad2f3cad156f2bf41de7</anchor>
+      <arglist>(uint32_t peripherals)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>pwr.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc17xx/</path>
+    <filename>pwr_8h</filename>
+    <includes id="memorymap_8h" name="memorymap.h" local="no" imported="no">libopencm3/lpc17xx/memorymap.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a2517f23e95779835997c4e76d9cc7401</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a098a8b7587eac7ce10889f649fa7fb3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_MODE_SLEEP</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a503ef39c20eff66c7a3ff5fe9d2a776b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_MODE_POWER_DOWN</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a7e8c00afdea799e1db581638c799693b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_MODE_DEEPSLEEP</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>ad7bc9b909618fd578a6d4ec9570d27af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_BODRPM</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>afd8b9c4da72ce3ced315ae42b636e3c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_BOGD</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a189d8e1dd8c100c78959bf759d09822a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_BORD</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a2fd9dae158d25617d3bbbda9def6a7c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_SMFLAG</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a72f5d8f19237d46a75799da6523fc152</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_DSFLAG</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a27d3e652207bb8202b76eb250e33a749</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_PDFLAG</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a2fd3fd694c73c0edf3c7ef717b78f46b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCON_DPDFLAG</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>aa5bdd21fb6851612d98727d939b9a21a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_TIMER0</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>ad573d47e0d064fff95675d7427ee1729</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_TIMER1</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a0f4e4cac23c737c36fd318debadbef89</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_UART0</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a92a7123201dd7c33989d7b5c901d0b26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_UART1</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a05b9ce1ccd3bc79092d339376247a52c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_PWM1</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a3937a4354d4f58d970a5bfa36ab1ab1c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_I2C0</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a8c0648a5b09513d0cbd5f950a6c7a0e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_SPI</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a5667832b0484274408ebf1aff0768c11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_RTC</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a0be26cc278c1d3eb4c0d3ed6be0a8931</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_SSP1</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>ab6c8051548f6276e67bd005852789cb5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_ADC</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>af5b2d219783e936c77b13f2e80b6ffe9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_CAN1</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a66c8777d19668d0958e256640db3c199</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_CAN2</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>aa5ad7c26b2649b2e9890c4cd2a523c27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_GPIO</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a68f99ee8347fc4c91d0669c0416a5f3a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_RIT</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a29858b7a24caa6eecba05f6c227709a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_MCPWM</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a0725f0f24277b958d18fe42a06a8ab84</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_QEI</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a06230583df681e1fa04063f691e86b7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_I2C1</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>afd84c3cbed2fb31e7913c77ff7669ff0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_SSP0</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a2b3f9a35894ab8eee7150431abe81de0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_TIMER2</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>aa0122a6422c126cf5481130494142b12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_TIMER3</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a44947e4ff05de29f75924807f569d4a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_UART2</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a1b9cf78d395aa4bc8882047483fe6d6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_UART3</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>ab7515cfd5733b49944000d20775b938a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_I2C2</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>acfda1ab0c1b6fc2e749afbb0ac11e78d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_I2S</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a607d3fe58407f8fd170223022ca5fd2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_GPDMA</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>af2e41925ec656134ac4f21c6c556167e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_ETHERNET</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a75277dd1e3d3ea62ab51d5d6301e7599</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_PCONP_USB</name>
+      <anchorfile>pwr_8h.html</anchorfile>
+      <anchor>a55d11447074200b189debe328ad1d1cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_peripherals</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga1bdc750d035edddd87f7d6f7a3493497</anchor>
+      <arglist>(uint32_t peripherals)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_peripherals</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga4093b6e9c7e7ad2f3cad156f2bf41de7</anchor>
+      <arglist>(uint32_t peripherals)</arglist>
     </member>
   </compound>
   <compound kind="page">
@@ -796,16 +1794,24 @@
     <filename>lgpl_license</filename>
   </compound>
   <compound kind="group">
+    <name>clock_defines</name>
+    <title>Clock Defines</title>
+    <filename>group__clock__defines.html</filename>
+  </compound>
+  <compound kind="group">
     <name>LPC17xx</name>
     <title>LPC17xx</title>
     <filename>group__LPC17xx.html</filename>
     <subgroup>gpio_file</subgroup>
+    <subgroup>pwr-file</subgroup>
   </compound>
   <compound kind="group">
     <name>LPC17xx_defines</name>
     <title>LPC17xx Defines</title>
     <filename>group__LPC17xx__defines.html</filename>
+    <subgroup>clock_defines</subgroup>
     <subgroup>gpio_defines</subgroup>
+    <subgroup>pwr_defines</subgroup>
   </compound>
   <compound kind="group">
     <name>gpio_defines</name>
@@ -1373,6 +2379,11 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>pwr_defines</name>
+    <title>Power Defines</title>
+    <filename>group__pwr__defines.html</filename>
+  </compound>
+  <compound kind="group">
     <name>gpio_file</name>
     <title>GPIO</title>
     <filename>group__gpio__file.html</filename>
@@ -1389,6 +2400,25 @@
       <anchorfile>group__gpio__file.html</anchorfile>
       <anchor>gab84d6793fa4dc0c81a522c1cd47c1b7b</anchor>
       <arglist>(uint32_t gpioport, uint32_t gpios)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>pwr-file</name>
+    <title>PWR</title>
+    <filename>group__pwr-file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_peripherals</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga1bdc750d035edddd87f7d6f7a3493497</anchor>
+      <arglist>(uint32_t peripherals)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_peripherals</name>
+      <anchorfile>group__pwr-file.html</anchorfile>
+      <anchor>ga4093b6e9c7e7ad2f3cad156f2bf41de7</anchor>
+      <arglist>(uint32_t peripherals)</arglist>
     </member>
   </compound>
   <compound kind="dir">
@@ -1414,14 +2444,17 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc17xx/</path>
     <filename>dir_f9dfdb53076d236e85e20774ccbdc816.html</filename>
     <file>gpio.c</file>
+    <file>pwr.c</file>
   </compound>
   <compound kind="dir">
     <name>lpc17xx</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc17xx/</path>
     <filename>dir_33c5f16cd77f7881097367e4c9351f70.html</filename>
+    <file>clock.h</file>
     <file>doc-lpc17xx.h</file>
     <file>gpio.h</file>
     <file>memorymap.h</file>
+    <file>pwr.h</file>
   </compound>
   <compound kind="page">
     <name>index</name>

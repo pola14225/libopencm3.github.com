@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['gpio_2ec',['gpio.c',['../gpio_8c.html',1,'']]],
-  ['gpio_2eh',['gpio.h',['../gpio_8h.html',1,'']]]
+  ['doc_2dlpc17xx_2eh',['doc-lpc17xx.h',['../doc-lpc17xx_8h.html',1,'']]]
 ];

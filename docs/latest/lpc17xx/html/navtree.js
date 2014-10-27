@@ -30,9 +30,9 @@ var NAVTREE =
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -40,7 +40,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"../../cm3/html/modules.html"
+"../../cm3/html/modules.html",
+"group__gpio__defines.html#gab92fba35ee462cfd62d4b4c7d22f552a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

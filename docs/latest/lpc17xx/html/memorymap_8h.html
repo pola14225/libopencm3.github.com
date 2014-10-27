@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('memorymap_8h.html','');});
 <div class="title">memorymap.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;libopencm3/cm3/common.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;libopencm3/cm3/memorymap.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for memorymap.h:</div>
 <div class="dyncontent">
@@ -144,19 +144,31 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="memorymap_8h__dep__incl.png" border="0" usemap="#memorymap_8hdep" alt=""/></div>
 <map name="memorymap_8hdep" id="memorymap_8hdep">
-<area shape="rect" id="node2" href="gpio_8h.html" title="gpio.h" alt="" coords="29,80,87,107"/><area shape="rect" id="node3" href="gpio_8c.html" title="gpio.c" alt="" coords="29,155,87,181"/></map>
+<area shape="rect" id="node2" href="clock_8h.html" title="clock.h" alt="" coords="5,80,69,107"/><area shape="rect" id="node3" href="gpio_8h.html" title="gpio.h" alt="" coords="94,80,151,107"/><area shape="rect" id="node5" href="pwr_8h.html" title="pwr.h" alt="" coords="175,80,230,107"/><area shape="rect" id="node4" href="gpio_8c.html" title="gpio.c" alt="" coords="94,155,151,181"/><area shape="rect" id="node6" href="pwr_8c.html" title="pwr.c" alt="" coords="175,155,230,181"/></map>
 </div>
 </div>
 <p><a href="memorymap_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a758afa07b72ff26c99ba431546c264a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a>&#160;&#160;&#160;(0x2009C000U)</td></tr>
+<tr class="separator:a758afa07b72ff26c99ba431546c264a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec51d8b3ae8b4ba45b0254165c7db3cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aec51d8b3ae8b4ba45b0254165c7db3cd">PERIPH_BASE_APB0</a>&#160;&#160;&#160;(0x40000000U)</td></tr>
 <tr class="separator:aec51d8b3ae8b4ba45b0254165c7db3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8507e2608dfc4a5fcd7f3fad11c8b79d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a>&#160;&#160;&#160;(0x40080000U)</td></tr>
 <tr class="separator:a8507e2608dfc4a5fcd7f3fad11c8b79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a793706f3905f7c4a6df525e32144dd4a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a>&#160;&#160;&#160;(0x20000000U)</td></tr>
+<tr class="memitem:a793706f3905f7c4a6df525e32144dd4a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a>&#160;&#160;&#160;(0x50000000U)</td></tr>
 <tr class="separator:a793706f3905f7c4a6df525e32144dd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c0bdf678bb824d9de4f8252d54d5b61"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a1c0bdf678bb824d9de4f8252d54d5b61">GPIO_PIO0_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x00)</td></tr>
+<tr class="separator:a1c0bdf678bb824d9de4f8252d54d5b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d0cfbbba49b9a5788b60e7d4aa9a6e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a0d0cfbbba49b9a5788b60e7d4aa9a6e2">GPIO_PIO1_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x20)</td></tr>
+<tr class="separator:a0d0cfbbba49b9a5788b60e7d4aa9a6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35f890c10dcfb4d51592388cae93076"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ae35f890c10dcfb4d51592388cae93076">GPIO_PIO2_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x40)</td></tr>
+<tr class="separator:ae35f890c10dcfb4d51592388cae93076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a179c793fc31574e3e578cf6b32a1a643"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a179c793fc31574e3e578cf6b32a1a643">GPIO_PIO3_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x60)</td></tr>
+<tr class="separator:a179c793fc31574e3e578cf6b32a1a643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fb5fdec414b0bf57fdce10bf7d36395"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a3fb5fdec414b0bf57fdce10bf7d36395">GPIO_PIO4_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x80)</td></tr>
+<tr class="separator:a3fb5fdec414b0bf57fdce10bf7d36395"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af99229879e6e3249a0ab9bcefcaf208b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#af99229879e6e3249a0ab9bcefcaf208b">WDT_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#aec51d8b3ae8b4ba45b0254165c7db3cd">PERIPH_BASE_APB0</a> + 0x00000)</td></tr>
 <tr class="separator:af99229879e6e3249a0ab9bcefcaf208b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a5c55fc79dee34c91502b0503404375"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a7a5c55fc79dee34c91502b0503404375">TIMER0_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#aec51d8b3ae8b4ba45b0254165c7db3cd">PERIPH_BASE_APB0</a> + 0x04000)</td></tr>
@@ -195,16 +207,36 @@ Macros</h2></td></tr>
 <tr class="separator:af7b8267b0d439f8f3e82f86be4b9fba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd72dbffb1738ca87c838545c4eb85a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#acd72dbffb1738ca87c838545c4eb85a3">I2C1_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#aec51d8b3ae8b4ba45b0254165c7db3cd">PERIPH_BASE_APB0</a> + 0x5C000)</td></tr>
 <tr class="separator:acd72dbffb1738ca87c838545c4eb85a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c0bdf678bb824d9de4f8252d54d5b61"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a1c0bdf678bb824d9de4f8252d54d5b61">GPIO_PIO0_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c000)</td></tr>
-<tr class="separator:a1c0bdf678bb824d9de4f8252d54d5b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d0cfbbba49b9a5788b60e7d4aa9a6e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a0d0cfbbba49b9a5788b60e7d4aa9a6e2">GPIO_PIO1_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c020)</td></tr>
-<tr class="separator:a0d0cfbbba49b9a5788b60e7d4aa9a6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae35f890c10dcfb4d51592388cae93076"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ae35f890c10dcfb4d51592388cae93076">GPIO_PIO2_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c040)</td></tr>
-<tr class="separator:ae35f890c10dcfb4d51592388cae93076"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a179c793fc31574e3e578cf6b32a1a643"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a179c793fc31574e3e578cf6b32a1a643">GPIO_PIO3_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c060)</td></tr>
-<tr class="separator:a179c793fc31574e3e578cf6b32a1a643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fb5fdec414b0bf57fdce10bf7d36395"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a3fb5fdec414b0bf57fdce10bf7d36395">GPIO_PIO4_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c080)</td></tr>
-<tr class="separator:a3fb5fdec414b0bf57fdce10bf7d36395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a438689791bcb764cbb8a0aa6a69a4c97"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a438689791bcb764cbb8a0aa6a69a4c97">SSP0_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x08000)</td></tr>
+<tr class="separator:a438689791bcb764cbb8a0aa6a69a4c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18d0b914c7f68cecbee1a2d23a67d38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ad18d0b914c7f68cecbee1a2d23a67d38">DAC_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x0c000)</td></tr>
+<tr class="separator:ad18d0b914c7f68cecbee1a2d23a67d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a933376d74e94dae8f42e17c09bd91faa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a933376d74e94dae8f42e17c09bd91faa">TIMER2_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x10000)</td></tr>
+<tr class="separator:a933376d74e94dae8f42e17c09bd91faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bcbc0fe8296511a1a9d12caff242819"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a2bcbc0fe8296511a1a9d12caff242819">TIMER3_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x14000)</td></tr>
+<tr class="separator:a2bcbc0fe8296511a1a9d12caff242819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9998d643534960b684d45a60b998421"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ac9998d643534960b684d45a60b998421">UART2_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x18000)</td></tr>
+<tr class="separator:ac9998d643534960b684d45a60b998421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eff3896840fdf741bd67d2d7fe99a34"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a2eff3896840fdf741bd67d2d7fe99a34">UART3_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x1c000)</td></tr>
+<tr class="separator:a2eff3896840fdf741bd67d2d7fe99a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04bda70f25c795fb79f163b633ad4a5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a04bda70f25c795fb79f163b633ad4a5d">I2C2_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x20000)</td></tr>
+<tr class="separator:a04bda70f25c795fb79f163b633ad4a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a0c7eb1c7f533adb639599dbad7020"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a50a0c7eb1c7f533adb639599dbad7020">I2S_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x28000)</td></tr>
+<tr class="separator:a50a0c7eb1c7f533adb639599dbad7020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b0a8cf7ac4d9730fdaa3d2e809e85e9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a2b0a8cf7ac4d9730fdaa3d2e809e85e9">RIT_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x30000)</td></tr>
+<tr class="separator:a2b0a8cf7ac4d9730fdaa3d2e809e85e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea229c083f633f9876bac041a82ad8e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aea229c083f633f9876bac041a82ad8e6">MCPWM_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x38000)</td></tr>
+<tr class="separator:aea229c083f633f9876bac041a82ad8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae806b5e2054111ec113777562541bbbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ae806b5e2054111ec113777562541bbbb">QEI_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x3c000)</td></tr>
+<tr class="separator:ae806b5e2054111ec113777562541bbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec568b16623f3ddf61c3cdfb985249ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aec568b16623f3ddf61c3cdfb985249ad">SYSCON_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x7c000)</td></tr>
+<tr class="separator:aec568b16623f3ddf61c3cdfb985249ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac50fe88c3def553993c61a811d8bbd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3">ETHERNET_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x00000)</td></tr>
+<tr class="separator:aac50fe88c3def553993c61a811d8bbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb95d790045ab44dccf0f6d4e3376a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#a4cb95d790045ab44dccf0f6d4e3376a2">GPDMA_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x04000)</td></tr>
+<tr class="separator:a4cb95d790045ab44dccf0f6d4e3376a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6c4cbed4ddbb3ecd77de93fab2a2e04"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x0c000)</td></tr>
+<tr class="separator:aa6c4cbed4ddbb3ecd77de93fab2a2e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ad06cb9e5985bd216a376f26f22303cd6"></a>
@@ -217,7 +249,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00048">48</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00057">57</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -231,7 +263,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00052">52</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00061">61</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -245,7 +277,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00053">53</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00062">62</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -259,7 +291,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00049">49</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00058">58</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -273,7 +305,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00050">50</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00059">59</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -287,7 +319,49 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00051">51</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00060">60</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad18d0b914c7f68cecbee1a2d23a67d38"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DAC_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x0c000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00070">70</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac50fe88c3def553993c61a811d8bbd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ETHERNET_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x00000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00087">87</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4cb95d790045ab44dccf0f6d4e3376a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPDMA_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x04000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00088">88</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -296,12 +370,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GPIO_PIO0_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c000)</td>
+          <td class="memname">#define GPIO_PIO0_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x00)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00059">59</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00037">37</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -310,12 +384,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GPIO_PIO1_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c020)</td>
+          <td class="memname">#define GPIO_PIO1_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x20)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00060">60</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00038">38</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -324,12 +398,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GPIO_PIO2_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c040)</td>
+          <td class="memname">#define GPIO_PIO2_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x40)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00061">61</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00039">39</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -338,12 +412,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GPIO_PIO3_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c060)</td>
+          <td class="memname">#define GPIO_PIO3_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x60)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00062">62</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00040">40</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -352,12 +426,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GPIO_PIO4_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x9c080)</td>
+          <td class="memname">#define GPIO_PIO4_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a758afa07b72ff26c99ba431546c264a8">PERIPH_BASE_GPIO</a> + 0x80)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00063">63</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00041">41</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -371,7 +445,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00045">45</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00054">54</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -385,7 +459,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00042">42</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00051">51</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -399,7 +473,49 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00055">55</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00064">64</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a04bda70f25c795fb79f163b633ad4a5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2C2_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x20000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00075">75</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a50a0c7eb1c7f533adb639599dbad7020"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2S_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x28000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00077">77</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aea229c083f633f9876bac041a82ad8e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCPWM_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x38000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00081">81</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -408,12 +524,12 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PERIPH_BASE_AHB&#160;&#160;&#160;(0x20000000U)</td>
+          <td class="memname">#define PERIPH_BASE_AHB&#160;&#160;&#160;(0x50000000U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00030">30</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00032">32</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -427,7 +543,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00028">28</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00030">30</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -437,6 +553,20 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define PERIPH_BASE_APB1&#160;&#160;&#160;(0x40080000U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00031">31</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a758afa07b72ff26c99ba431546c264a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PERIPH_BASE_GPIO&#160;&#160;&#160;(0x2009C000U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -455,7 +585,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00046">46</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00055">55</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -469,7 +599,35 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00041">41</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00050">50</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae806b5e2054111ec113777562541bbbb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define QEI_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x3c000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00082">82</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b0a8cf7ac4d9730fdaa3d2e809e85e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RIT_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x30000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00079">79</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -483,7 +641,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00044">44</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00053">53</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -497,7 +655,21 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00043">43</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00052">52</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a438689791bcb764cbb8a0aa6a69a4c97"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSP0_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x08000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00069">69</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -511,7 +683,21 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00047">47</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00056">56</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec568b16623f3ddf61c3cdfb985249ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SYSCON_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x7c000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00084">84</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -525,7 +711,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00036">36</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00045">45</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -539,7 +725,35 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00037">37</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00046">46</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a933376d74e94dae8f42e17c09bd91faa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIMER2_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x10000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00071">71</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2bcbc0fe8296511a1a9d12caff242819"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIMER3_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x14000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00072">72</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -553,7 +767,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00038">38</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00047">47</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -567,7 +781,49 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00039">39</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00048">48</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac9998d643534960b684d45a60b998421"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UART2_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x18000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00073">73</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2eff3896840fdf741bd67d2d7fe99a34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UART3_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">PERIPH_BASE_APB1</a> + 0x1c000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00074">74</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6c4cbed4ddbb3ecd77de93fab2a2e04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USB_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a">PERIPH_BASE_AHB</a> + 0x0c000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00090">90</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -581,7 +837,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00035">35</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00044">44</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
 
 </div>
 </div>
@@ -591,7 +847,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_33c5f16cd77f7881097367e4c9351f70.html">lpc17xx</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Tue Oct 21 2014 17:22:40 for libopencm3 by
+    <li class="footer">Generated on Mon Oct 27 2014 23:22:29 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>
