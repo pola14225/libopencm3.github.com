@@ -15758,6 +15758,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB2RSTR_TIM17RST</name>
+      <anchorfile>group__rcc__apb2rstr__rst.html</anchorfile>
+      <anchor>gafc7f1df686835ef47013b29e8e37a1c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2RSTR_TIM16RST</name>
+      <anchorfile>group__rcc__apb2rstr__rst.html</anchorfile>
+      <anchor>ga90337e162315ad0d44c0b99dd9cc71c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2RSTR_TIM15RST</name>
+      <anchorfile>group__rcc__apb2rstr__rst.html</anchorfile>
+      <anchor>gaa7beb383e8769547599b967c24110ddf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB2RSTR_ADC3RST</name>
       <anchorfile>group__rcc__apb2rstr__rst.html</anchorfile>
       <anchor>ga285db3fa6eae87b5e23595bed50216ae</anchor>
@@ -16090,6 +16111,27 @@
       <name>RCC_AHBENR_DMA1EN</name>
       <anchorfile>group__rcc__ahbenr__en.html</anchorfile>
       <anchor>gac8c3053f1ce37c9f643f0e31471927ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2ENR_TIM17EN</name>
+      <anchorfile>group__rcc__apb2enr__en.html</anchorfile>
+      <anchor>ga29e566fb62e24640c55693324801d87c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2ENR_TIM16EN</name>
+      <anchorfile>group__rcc__apb2enr__en.html</anchorfile>
+      <anchor>gaece1d96f631bcf146e5998314fd90910</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2ENR_TIM15EN</name>
+      <anchorfile>group__rcc__apb2enr__en.html</anchorfile>
+      <anchor>ga3f484ebf07ae2442eb20b588f1f0e858</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -38683,6 +38725,27 @@
     <filename>group__rcc__apb2rstr__rst.html</filename>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB2RSTR_TIM17RST</name>
+      <anchorfile>group__rcc__apb2rstr__rst.html</anchorfile>
+      <anchor>gafc7f1df686835ef47013b29e8e37a1c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2RSTR_TIM16RST</name>
+      <anchorfile>group__rcc__apb2rstr__rst.html</anchorfile>
+      <anchor>ga90337e162315ad0d44c0b99dd9cc71c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2RSTR_TIM15RST</name>
+      <anchorfile>group__rcc__apb2rstr__rst.html</anchorfile>
+      <anchor>gaa7beb383e8769547599b967c24110ddf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB2RSTR_ADC3RST</name>
       <anchorfile>group__rcc__apb2rstr__rst.html</anchorfile>
       <anchor>ga285db3fa6eae87b5e23595bed50216ae</anchor>
@@ -39032,6 +39095,27 @@
     <name>rcc_apb2enr_en</name>
     <title>RCC_APB2ENR enable values</title>
     <filename>group__rcc__apb2enr__en.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2ENR_TIM17EN</name>
+      <anchorfile>group__rcc__apb2enr__en.html</anchorfile>
+      <anchor>ga29e566fb62e24640c55693324801d87c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2ENR_TIM16EN</name>
+      <anchorfile>group__rcc__apb2enr__en.html</anchorfile>
+      <anchor>gaece1d96f631bcf146e5998314fd90910</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2ENR_TIM15EN</name>
+      <anchorfile>group__rcc__apb2enr__en.html</anchorfile>
+      <anchor>ga3f484ebf07ae2442eb20b588f1f0e858</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_APB2ENR_ADC3EN</name>
