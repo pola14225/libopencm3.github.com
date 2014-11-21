@@ -1014,77 +1014,101 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;<span class="comment">/** @defgroup afio_remap2 Alternate Function Remap Controls Secondary Set</span></div>
 <div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;<span class="comment">@ingroup gpio_defines</span></div>
 <div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;<span class="comment">@{*/</span></div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;<span class="comment">/* FSMC_NADV_DISCONNECT: */</span><span class="comment"></span></div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;<span class="comment">/** The NADV is disconnected from its allocated pin */</span></div>
-<div class="line"><a name="l00888"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga21b68fcaebe35f593c78f267358c6e3e">  888</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_FSMC_NADV_DISCONNECT                 (1 &lt;&lt; 10)</span></div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;<span class="comment">/* TIM14_REMAP: */</span><span class="comment"></span></div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;<span class="comment">/**  TIM14 remapping */</span></div>
-<div class="line"><a name="l00892"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gacc1282952d0572b920e98775514c1f98">  892</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM14_REMAP                  (1 &lt;&lt; 9)</span></div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;<span class="comment">/* TIM13_REMAP: */</span><span class="comment"></span></div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;<span class="comment">/**  TIM13 remapping */</span></div>
-<div class="line"><a name="l00896"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga6512a2c5b597acd7405df0dfce2615d6">  896</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM13_REMAP                  (1 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;</div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;<span class="comment">/* TIM11_REMAP: */</span><span class="comment"></span></div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;<span class="comment">/**  TIM11 remapping */</span></div>
-<div class="line"><a name="l00900"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gac023d0d2169a5397ae27f8ddfc8204c5">  900</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM11_REMAP                  (1 &lt;&lt; 7)</span></div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;<span class="comment">/* TIM10_REMAP: */</span><span class="comment"></span></div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;<span class="comment">/**  TIM10 remapping */</span></div>
-<div class="line"><a name="l00904"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gafa39991b0768286307eb2ec20c1e3d59">  904</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM10_REMAP                  (1 &lt;&lt; 6)</span></div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;<span class="comment">/* TIM9_REMAP: */</span><span class="comment"></span></div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;<span class="comment">/**  TIM9 remapping */</span></div>
-<div class="line"><a name="l00908"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga2449ad069a6497df350c1c1c7e13aace">  908</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM9_REMAP                   (1 &lt;&lt; 5)</span></div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;<span class="comment">/* --- AFIO_EXTICR1 values ------------------------------------------------- */</span></div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;<span class="comment">/* --- AFIO_EXTICR2 values ------------------------------------------------- */</span></div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;<span class="comment">/* --- AFIO_EXTICR3 values ------------------------------------------------- */</span></div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;<span class="comment">/* --- AFIO_EXTICR4 values ------------------------------------------------- */</span></div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;<span class="comment">/** @defgroup afio_exti Alternate Function EXTI pin number</span></div>
-<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;<span class="comment">@ingroup gpio_defines</span></div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;<span class="comment">@{*/</span></div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;</div>
-<div class="line"><a name="l00922"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gaed70ce348e250604402706e2104d1671">  922</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI0                 0</span></div>
-<div class="line"><a name="l00923"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gae846b2c6e4d011bbfbf219b6cfe6cc26">  923</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI1                 1</span></div>
-<div class="line"><a name="l00924"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga201be251f8304b326f1b44e0472c033f">  924</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI2                 2</span></div>
-<div class="line"><a name="l00925"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gad8a24e29bea5543b7d615376f08da05c">  925</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI3                 3</span></div>
-<div class="line"><a name="l00926"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga39346e49e775e759a01a890f27c54bd2">  926</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI4                 4</span></div>
-<div class="line"><a name="l00927"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gaf4c7c8c4a7ee13b26f0a605eb6bc5c71">  927</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI5                 5</span></div>
-<div class="line"><a name="l00928"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga1e0b31f1c169303eafef6ac8e1422d0a">  928</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI6                 6</span></div>
-<div class="line"><a name="l00929"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gab98248695a348d74ab86759a4bd9e41a">  929</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI7                 7</span></div>
-<div class="line"><a name="l00930"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gab90114990729d93ec84a67bd8c81f971">  930</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI8                 8</span></div>
-<div class="line"><a name="l00931"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga189c8b5be8697d9916e41db15f88d73d">  931</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI9                 9</span></div>
-<div class="line"><a name="l00932"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga199310d772f7b0fec957415fb5a7a0fe">  932</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI10               10</span></div>
-<div class="line"><a name="l00933"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gabe3e9f0dabeca1b5228e2cc1b40676e6">  933</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI11               11</span></div>
-<div class="line"><a name="l00934"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gae42167f71be6d8557199918b63d9d14e">  934</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI12               12</span></div>
-<div class="line"><a name="l00935"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga2f764deb508601cc7713e0802291e72d">  935</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI13               13</span></div>
-<div class="line"><a name="l00936"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga89c01a9b9eb00da2cda9cd324bae1cb3">  936</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI14               14</span></div>
-<div class="line"><a name="l00937"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga2390b4e22d906ae0a29b794d243060e9">  937</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI15               15</span></div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;</div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;<span class="comment">/* --- Function prototypes ------------------------------------------------- */</span></div>
-<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;BEGIN_DECLS</div>
-<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;</div>
-<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gae4a927a78f0ed245472ba05de9c7e940">gpio_set_mode</a>(uint32_t gpioport, uint8_t mode, uint8_t cnf,</div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;                   uint16_t gpios);</div>
-<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gabab0dfbc150f8658cea822421f5f6ac1">gpio_set_eventout</a>(uint8_t evoutport, uint8_t evoutpin);</div>
-<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga9fa7b8ed1d38d8b3d0e22bdfbabb9003">gpio_primary_remap</a>(uint32_t swjenable, uint32_t maps);</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga3e5ba590258c8bb68b11ffb52d02ecb7">gpio_secondary_remap</a>(uint32_t maps);</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;END_DECLS</div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;</div>
-<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;</div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;<span class="comment">@{*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;<span class="comment">/** various remaps, dma/dac/timer triggers (HD only) */</span></div>
+<div class="line"><a name="l00887"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga6cdbfb4e5699b7f09f29f96fda756781">  887</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_MISC_REMAP                   (1 &lt;&lt; 13)</span></div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;<span class="comment">/** TIM12_CH1 and TIM12_CH2 remapping (HD only) */</span></div>
+<div class="line"><a name="l00890"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gae01623b1038eba6c75d957fa3515bb0d">  890</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM12_REMAP                  (1 &lt;&lt; 12)</span></div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;<span class="comment">/** TIM76_DAC_DMA remap to DMA1/DMA2 */</span></div>
+<div class="line"><a name="l00893"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga1c489d1e644c050895cdfdd793e17091">  893</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM76_DAC_DMA_REMAPE         (1 &lt;&lt; 11)</span></div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;<span class="comment">/* FSMC_NADV_DISCONNECT: */</span><span class="comment"></span></div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;<span class="comment">/** The NADV is disconnected from its allocated pin */</span></div>
+<div class="line"><a name="l00897"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga21b68fcaebe35f593c78f267358c6e3e">  897</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_FSMC_NADV_DISCONNECT                 (1 &lt;&lt; 10)</span></div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;<span class="comment">/* TIM14_REMAP: */</span><span class="comment"></span></div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;<span class="comment">/**  TIM14 remapping */</span></div>
+<div class="line"><a name="l00901"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gacc1282952d0572b920e98775514c1f98">  901</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM14_REMAP                  (1 &lt;&lt; 9)</span></div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;<span class="comment">/* TIM13_REMAP: */</span><span class="comment"></span></div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;<span class="comment">/**  TIM13 remapping */</span></div>
+<div class="line"><a name="l00905"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga6512a2c5b597acd7405df0dfce2615d6">  905</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM13_REMAP                  (1 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;<span class="comment">/* TIM11_REMAP: */</span><span class="comment"></span></div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;<span class="comment">/**  TIM11 remapping */</span></div>
+<div class="line"><a name="l00909"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gac023d0d2169a5397ae27f8ddfc8204c5">  909</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM11_REMAP                  (1 &lt;&lt; 7)</span></div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;<span class="comment">/* TIM10_REMAP: */</span><span class="comment"></span></div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;<span class="comment">/**  TIM10 remapping */</span></div>
+<div class="line"><a name="l00913"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gafa39991b0768286307eb2ec20c1e3d59">  913</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM10_REMAP                  (1 &lt;&lt; 6)</span></div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;<span class="comment">/* TIM9_REMAP: */</span><span class="comment"></span></div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;<span class="comment">/**  TIM9 remapping */</span></div>
+<div class="line"><a name="l00917"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga2449ad069a6497df350c1c1c7e13aace">  917</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM9_REMAP                   (1 &lt;&lt; 5)</span></div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;<span class="comment">/** TIM1_DMA channel 1/2 remapping */</span></div>
+<div class="line"><a name="l00920"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga0d68f2fcb0e6de78f9611ee99b16c4a0">  920</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM1_DMA_REMAP               (1 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;<span class="comment">/** CEC remapping (PB8 vs PB10) */</span></div>
+<div class="line"><a name="l00923"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gac5de8bfe44535e80fa9a12cea03975f1">  923</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_CEC_REMAP                    (1 &lt;&lt; 3)</span></div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;<span class="comment">/** TIM17 remapping (PB9 vs PB7) */</span></div>
+<div class="line"><a name="l00926"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#ga97f544b627c06faf63c4c1cf47f88489">  926</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM17_REMAP                  (1 &lt;&lt; 2)</span></div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;<span class="comment">/** TIM16 remapping (PB8 vs PB6) */</span></div>
+<div class="line"><a name="l00929"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gae3d2217d99473d1bb6502425467a594d">  929</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR2_TIM16_REMAP                  (1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;<span class="comment">/** TIM15 remapping channels 1/2 */</span></div>
+<div class="line"><a name="l00932"></a><span class="lineno"><a class="line" href="group__afio__remap2.html#gafe34cd05b587d3d7f27380c7d01e0ec3">  932</a></span>&#160;<span class="preprocessor">#define AFIO_MAPR1_TIM16_REMAP                  (1 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;<span class="comment">/* --- AFIO_EXTICR1 values ------------------------------------------------- */</span></div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;<span class="comment">/* --- AFIO_EXTICR2 values ------------------------------------------------- */</span></div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;<span class="comment">/* --- AFIO_EXTICR3 values ------------------------------------------------- */</span></div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;<span class="comment">/* --- AFIO_EXTICR4 values ------------------------------------------------- */</span></div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;<span class="comment">/** @defgroup afio_exti Alternate Function EXTI pin number</span></div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;<span class="comment">@ingroup gpio_defines</span></div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;<span class="comment">@{*/</span></div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;</div>
+<div class="line"><a name="l00946"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gaed70ce348e250604402706e2104d1671">  946</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI0                 0</span></div>
+<div class="line"><a name="l00947"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gae846b2c6e4d011bbfbf219b6cfe6cc26">  947</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI1                 1</span></div>
+<div class="line"><a name="l00948"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga201be251f8304b326f1b44e0472c033f">  948</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI2                 2</span></div>
+<div class="line"><a name="l00949"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gad8a24e29bea5543b7d615376f08da05c">  949</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI3                 3</span></div>
+<div class="line"><a name="l00950"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga39346e49e775e759a01a890f27c54bd2">  950</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI4                 4</span></div>
+<div class="line"><a name="l00951"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gaf4c7c8c4a7ee13b26f0a605eb6bc5c71">  951</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI5                 5</span></div>
+<div class="line"><a name="l00952"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga1e0b31f1c169303eafef6ac8e1422d0a">  952</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI6                 6</span></div>
+<div class="line"><a name="l00953"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gab98248695a348d74ab86759a4bd9e41a">  953</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI7                 7</span></div>
+<div class="line"><a name="l00954"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gab90114990729d93ec84a67bd8c81f971">  954</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI8                 8</span></div>
+<div class="line"><a name="l00955"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga189c8b5be8697d9916e41db15f88d73d">  955</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI9                 9</span></div>
+<div class="line"><a name="l00956"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga199310d772f7b0fec957415fb5a7a0fe">  956</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI10               10</span></div>
+<div class="line"><a name="l00957"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gabe3e9f0dabeca1b5228e2cc1b40676e6">  957</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI11               11</span></div>
+<div class="line"><a name="l00958"></a><span class="lineno"><a class="line" href="group__afio__exti.html#gae42167f71be6d8557199918b63d9d14e">  958</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI12               12</span></div>
+<div class="line"><a name="l00959"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga2f764deb508601cc7713e0802291e72d">  959</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI13               13</span></div>
+<div class="line"><a name="l00960"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga89c01a9b9eb00da2cda9cd324bae1cb3">  960</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI14               14</span></div>
+<div class="line"><a name="l00961"></a><span class="lineno"><a class="line" href="group__afio__exti.html#ga2390b4e22d906ae0a29b794d243060e9">  961</a></span>&#160;<span class="preprocessor">#define AFIO_EXTI15               15</span></div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;<span class="comment">/* --- Function prototypes ------------------------------------------------- */</span></div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;BEGIN_DECLS</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;</div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gae4a927a78f0ed245472ba05de9c7e940">gpio_set_mode</a>(uint32_t gpioport, uint8_t mode, uint8_t cnf,</div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;                   uint16_t gpios);</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#gabab0dfbc150f8658cea822421f5f6ac1">gpio_set_eventout</a>(uint8_t evoutport, uint8_t evoutpin);</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga9fa7b8ed1d38d8b3d0e22bdfbabb9003">gpio_primary_remap</a>(uint32_t swjenable, uint32_t maps);</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__defines.html#ga3e5ba590258c8bb68b11ffb52d02ecb7">gpio_secondary_remap</a>(uint32_t maps);</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;</div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;END_DECLS</div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;</div>
+<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;</div>
 <div class="ttc" id="group__gpio__defines_html_ga9fa7b8ed1d38d8b3d0e22bdfbabb9003"><div class="ttname"><a href="group__gpio__defines.html#ga9fa7b8ed1d38d8b3d0e22bdfbabb9003">gpio_primary_remap</a></div><div class="ttdeci">void gpio_primary_remap(uint32_t swjenable, uint32_t maps)</div><div class="ttdoc">Map Alternate Function Port Bits (Main Set) </div><div class="ttdef"><b>Definition:</b> <a href="gpio_8c_source.html#l00169">gpio.c:169</a></div></div>
 <div class="ttc" id="group__gpio__defines_html_ga3e5ba590258c8bb68b11ffb52d02ecb7"><div class="ttname"><a href="group__gpio__defines.html#ga3e5ba590258c8bb68b11ffb52d02ecb7">gpio_secondary_remap</a></div><div class="ttdeci">void gpio_secondary_remap(uint32_t maps)</div><div class="ttdoc">Map Alternate Function Port Bits (Secondary Set) </div><div class="ttdef"><b>Definition:</b> <a href="gpio_8c_source.html#l00188">gpio.c:188</a></div></div>
 <div class="ttc" id="gpio__common__all_8h_html"><div class="ttname"><a href="gpio__common__all_8h.html">gpio_common_all.h</a></div></div>
@@ -1096,7 +1120,7 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_26e2099944f53a27f6cdf710ec04616c.html">f1</a></li><li class="navelem"><a class="el" href="gpio_8h.html">gpio.h</a></li>
-    <li class="footer">Generated on Tue Nov 18 2014 23:21:30 for libopencm3 by
+    <li class="footer">Generated on Fri Nov 21 2014 12:21:32 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

@@ -11746,6 +11746,27 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>AFIO_MAPR2_MISC_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>ga6cdbfb4e5699b7f09f29f96fda756781</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM12_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>gae01623b1038eba6c75d957fa3515bb0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM76_DAC_DMA_REMAPE</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>ga1c489d1e644c050895cdfdd793e17091</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>AFIO_MAPR2_FSMC_NADV_DISCONNECT</name>
       <anchorfile>group__afio__remap2.html</anchorfile>
       <anchor>ga21b68fcaebe35f593c78f267358c6e3e</anchor>
@@ -11784,6 +11805,41 @@
       <name>AFIO_MAPR2_TIM9_REMAP</name>
       <anchorfile>group__afio__remap2.html</anchorfile>
       <anchor>ga2449ad069a6497df350c1c1c7e13aace</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM1_DMA_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>ga0d68f2fcb0e6de78f9611ee99b16c4a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_CEC_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>gac5de8bfe44535e80fa9a12cea03975f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM17_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>ga97f544b627c06faf63c4c1cf47f88489</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM16_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>gae3d2217d99473d1bb6502425467a594d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR1_TIM16_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>gafe34cd05b587d3d7f27380c7d01e0ec3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -34849,6 +34905,27 @@
     <filename>group__afio__remap2.html</filename>
     <member kind="define">
       <type>#define</type>
+      <name>AFIO_MAPR2_MISC_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>ga6cdbfb4e5699b7f09f29f96fda756781</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM12_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>gae01623b1038eba6c75d957fa3515bb0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM76_DAC_DMA_REMAPE</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>ga1c489d1e644c050895cdfdd793e17091</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>AFIO_MAPR2_FSMC_NADV_DISCONNECT</name>
       <anchorfile>group__afio__remap2.html</anchorfile>
       <anchor>ga21b68fcaebe35f593c78f267358c6e3e</anchor>
@@ -34887,6 +34964,41 @@
       <name>AFIO_MAPR2_TIM9_REMAP</name>
       <anchorfile>group__afio__remap2.html</anchorfile>
       <anchor>ga2449ad069a6497df350c1c1c7e13aace</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM1_DMA_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>ga0d68f2fcb0e6de78f9611ee99b16c4a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_CEC_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>gac5de8bfe44535e80fa9a12cea03975f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM17_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>ga97f544b627c06faf63c4c1cf47f88489</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR2_TIM16_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>gae3d2217d99473d1bb6502425467a594d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>AFIO_MAPR1_TIM16_REMAP</name>
+      <anchorfile>group__afio__remap2.html</anchorfile>
+      <anchor>gafe34cd05b587d3d7f27380c7d01e0ec3</anchor>
       <arglist></arglist>
     </member>
   </compound>
