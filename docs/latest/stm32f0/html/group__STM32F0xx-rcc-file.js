@@ -1,7 +1,5 @@
 var group__STM32F0xx_rcc_file =
 [
-    [ "_RCC_BIT", "group__STM32F0xx-rcc-file.html#ga913261b5f48c6ace5e2cfbc0fc9bca78", null ],
-    [ "_RCC_REG", "group__STM32F0xx-rcc-file.html#ga2c87be3073302923a51e2940225ce6f3", null ],
     [ "rcc_clock_setup_in_hsi_out_16mhz", "group__STM32F0xx-rcc-file.html#ga996fd36ac939e39eb2a377064620250f", null ],
     [ "rcc_clock_setup_in_hsi_out_24mhz", "group__STM32F0xx-rcc-file.html#ga63c14a3f3ed2799c6ad21564f97d0e99", null ],
     [ "rcc_clock_setup_in_hsi_out_32mhz", "group__STM32F0xx-rcc-file.html#ga98c89d075aa469fcaa4c892b8833433f", null ],
@@ -20,11 +18,6 @@ var group__STM32F0xx_rcc_file =
     [ "rcc_osc_ready_int_disable", "group__STM32F0xx-rcc-file.html#ga7f7d1d31caae583cd72443e35885902b", null ],
     [ "rcc_osc_ready_int_enable", "group__STM32F0xx-rcc-file.html#ga6507734e493649ea262e10a511581d67", null ],
     [ "rcc_osc_ready_int_flag", "group__STM32F0xx-rcc-file.html#ga01c3b6e7aee2cee13506e3f555539008", null ],
-    [ "rcc_periph_clock_disable", "group__STM32F0xx-rcc-file.html#ga5a10381039ba2cda2f4713060e922455", null ],
-    [ "rcc_periph_clock_enable", "group__STM32F0xx-rcc-file.html#ga6b8897014d6489f7ae9d6d977dd9ae84", null ],
-    [ "rcc_periph_reset_hold", "group__STM32F0xx-rcc-file.html#ga9220bcc1fc5a6fdb7d78beb7ef72ec77", null ],
-    [ "rcc_periph_reset_pulse", "group__STM32F0xx-rcc-file.html#ga8d5a2473dbbb91b1ddf82fc2591b0387", null ],
-    [ "rcc_periph_reset_release", "group__STM32F0xx-rcc-file.html#gaa3237f8654ff2c473dab491d87cabbb8", null ],
     [ "rcc_set_hpre", "group__STM32F0xx-rcc-file.html#gae192b2cd0f37124db5ed76d599a5671b", null ],
     [ "rcc_set_mco", "group__STM32F0xx-rcc-file.html#gaccfc4aa94152abb68e0d5ad473adbf53", null ],
     [ "rcc_set_pll_multiplication_factor", "group__STM32F0xx-rcc-file.html#ga93f0715a42904d8c70bc7d1c862cf89f", null ],

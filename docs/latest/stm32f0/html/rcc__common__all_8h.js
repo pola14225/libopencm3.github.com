@@ -1,10 +1,10 @@
 var rcc__common__all_8h =
 [
-    [ "rcc_periph_clock_disable", "group__rcc__defines.html#ga5a10381039ba2cda2f4713060e922455", null ],
-    [ "rcc_periph_clock_enable", "group__rcc__defines.html#ga6b8897014d6489f7ae9d6d977dd9ae84", null ],
-    [ "rcc_periph_reset_hold", "group__rcc__defines.html#ga9220bcc1fc5a6fdb7d78beb7ef72ec77", null ],
-    [ "rcc_periph_reset_pulse", "group__rcc__defines.html#ga8d5a2473dbbb91b1ddf82fc2591b0387", null ],
-    [ "rcc_periph_reset_release", "group__rcc__defines.html#gaa3237f8654ff2c473dab491d87cabbb8", null ],
+    [ "rcc_periph_clock_disable", "group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721", null ],
+    [ "rcc_periph_clock_enable", "group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c", null ],
+    [ "rcc_periph_reset_hold", "group__rcc__defines.html#ga6f3e2843e5d017717da66599ccc5daef", null ],
+    [ "rcc_periph_reset_pulse", "group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58", null ],
+    [ "rcc_periph_reset_release", "group__rcc__defines.html#ga08aceecc3bebdf33119e8d7daf58b573", null ],
     [ "rcc_peripheral_clear_reset", "group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566", null ],
     [ "rcc_peripheral_disable_clock", "group__rcc__defines.html#gaf9fddc20e14204db6d4a4a54132d191b", null ],
     [ "rcc_peripheral_enable_clock", "group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8", null ],

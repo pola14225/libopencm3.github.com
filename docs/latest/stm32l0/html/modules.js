@@ -13,7 +13,6 @@ var modules =
     [ "I2c_defines", "group__i2c__defines.html", "group__i2c__defines" ],
     [ "Iwdg_defines", "group__iwdg__defines.html", "group__iwdg__defines" ],
     [ "Pwr_defines", "group__pwr__defines.html", "group__pwr__defines" ],
-    [ "Rcc_defines", "group__rcc__defines.html", "group__rcc__defines" ],
     [ "Rtc_defines", "group__rtc__defines.html", "group__rtc__defines" ],
     [ "Spi_defines", "group__spi__defines.html", "group__spi__defines" ],
     [ "Syscfg_defines", "group__syscfg__defines.html", "group__syscfg__defines" ],

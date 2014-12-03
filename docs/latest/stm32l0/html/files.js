@@ -37,6 +37,8 @@ var files =
     [ "memorymap.h", "memorymap_8h.html", "memorymap_8h" ],
     [ "pwr_common_all.c", "pwr__common__all_8c.html", "pwr__common__all_8c" ],
     [ "pwr_common_all.h", "pwr__common__all_8h.html", "pwr__common__all_8h" ],
+    [ "rcc.c", "rcc_8c.html", "rcc_8c" ],
+    [ "rcc.h", "rcc_8h.html", "rcc_8h" ],
     [ "rcc_common_all.c", "rcc__common__all_8c.html", "rcc__common__all_8c" ],
     [ "rcc_common_all.h", "rcc__common__all_8h.html", "rcc__common__all_8h" ],
     [ "rng_common_f24.h", "rng__common__f24_8h.html", "rng__common__f24_8h" ],

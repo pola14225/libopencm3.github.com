@@ -99,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="globals.html"><span>All</span></a></li>
       <li class="current"><a href="globals_func.html"><span>Functions</span></a></li>
+      <li><a href="globals_vars.html"><span>Variables</span></a></li>
       <li><a href="globals_enum.html"><span>Enumerations</span></a></li>
       <li><a href="globals_eval.html"><span>Enumerator</span></a></li>
       <li><a href="globals_defs.html"><span>Macros</span></a></li>
@@ -141,7 +142,7 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -154,21 +155,53 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 &#160;
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>rcc_osc_bypass_disable()
+: <a class="el" href="group__rcc__defines.html#ga5fbe4bc4ca1447fff06e4490f655367e">rcc.h</a>
+, <a class="el" href="group__STM32L0xx-rcc-file.html#ga5fbe4bc4ca1447fff06e4490f655367e">rcc.c</a>
+</li>
+<li>rcc_osc_bypass_enable()
+: <a class="el" href="group__STM32L0xx-rcc-file.html#ga3bccfeb2f4364e18997cbd88e2476270">rcc.c</a>
+, <a class="el" href="group__rcc__defines.html#ga3bccfeb2f4364e18997cbd88e2476270">rcc.h</a>
+</li>
+<li>rcc_osc_off()
+: <a class="el" href="group__rcc__defines.html#ga89d079556639549018fbd8d66cf5fc20">rcc.h</a>
+, <a class="el" href="group__STM32L0xx-rcc-file.html#ga89d079556639549018fbd8d66cf5fc20">rcc.c</a>
+</li>
+<li>rcc_osc_on()
+: <a class="el" href="group__STM32L0xx-rcc-file.html#ga81b16ade2e5d6e024f36e3d568a9fd97">rcc.c</a>
+, <a class="el" href="group__rcc__defines.html#ga81b16ade2e5d6e024f36e3d568a9fd97">rcc.h</a>
+</li>
+<li>rcc_osc_ready_int_clear()
+: <a class="el" href="group__rcc__defines.html#ga1c96c4bce0fe924171980aa993d2a0af">rcc.h</a>
+, <a class="el" href="group__STM32L0xx-rcc-file.html#ga1c96c4bce0fe924171980aa993d2a0af">rcc.c</a>
+</li>
+<li>rcc_osc_ready_int_disable()
+: <a class="el" href="group__rcc__defines.html#ga7f7d1d31caae583cd72443e35885902b">rcc.h</a>
+, <a class="el" href="group__STM32L0xx-rcc-file.html#ga7f7d1d31caae583cd72443e35885902b">rcc.c</a>
+</li>
+<li>rcc_osc_ready_int_enable()
+: <a class="el" href="group__rcc__defines.html#ga6507734e493649ea262e10a511581d67">rcc.h</a>
+, <a class="el" href="group__STM32L0xx-rcc-file.html#ga6507734e493649ea262e10a511581d67">rcc.c</a>
+</li>
+<li>rcc_osc_ready_int_flag()
+: <a class="el" href="group__STM32L0xx-rcc-file.html#ga01c3b6e7aee2cee13506e3f555539008">rcc.c</a>
+, <a class="el" href="group__rcc__defines.html#ga01c3b6e7aee2cee13506e3f555539008">rcc.h</a>
+</li>
 <li>rcc_periph_clock_disable()
 : <a class="el" href="group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721">rcc_common_all.h</a>
 , <a class="el" href="group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721">rcc_common_all.c</a>
 </li>
 <li>rcc_periph_clock_enable()
-: <a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_common_all.c</a>
-, <a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_common_all.h</a>
+: <a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_common_all.h</a>
+, <a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_common_all.c</a>
 </li>
 <li>rcc_periph_reset_hold()
 : <a class="el" href="group__rcc__defines.html#ga6f3e2843e5d017717da66599ccc5daef">rcc_common_all.h</a>
 , <a class="el" href="group__rcc__defines.html#ga6f3e2843e5d017717da66599ccc5daef">rcc_common_all.c</a>
 </li>
 <li>rcc_periph_reset_pulse()
-: <a class="el" href="group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58">rcc_common_all.c</a>
-, <a class="el" href="group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58">rcc_common_all.h</a>
+: <a class="el" href="group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58">rcc_common_all.h</a>
+, <a class="el" href="group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58">rcc_common_all.c</a>
 </li>
 <li>rcc_periph_reset_release()
 : <a class="el" href="group__rcc__defines.html#ga08aceecc3bebdf33119e8d7daf58b573">rcc_common_all.h</a>
@@ -190,29 +223,33 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 : <a class="el" href="group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205">rcc_common_all.h</a>
 , <a class="el" href="group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205">rcc_common_all.c</a>
 </li>
+<li>rcc_wait_for_osc_ready()
+: <a class="el" href="group__STM32L0xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa">rcc.c</a>
+, <a class="el" href="group__rcc__defines.html#ga1dfd0e0ba16285ce16e782e07af2cafa">rcc.h</a>
+</li>
 <li>rtc_clear_wakeup_flag()
-: <a class="el" href="group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5">rtc_common_l1f024.c</a>
-, <a class="el" href="group__rtc__defines.html#gaf12d879a95330d644ab2ec4490004de5">rtc_common_l1f024.h</a>
+: <a class="el" href="group__rtc__defines.html#gaf12d879a95330d644ab2ec4490004de5">rtc_common_l1f024.h</a>
+, <a class="el" href="group__rtc__file.html#gaf12d879a95330d644ab2ec4490004de5">rtc_common_l1f024.c</a>
 </li>
 <li>rtc_lock()
 : <a class="el" href="group__rtc__defines.html#ga3e70e56710b30885a46bae6e88a36f9b">rtc_common_l1f024.h</a>
 , <a class="el" href="group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b">rtc_common_l1f024.c</a>
 </li>
 <li>rtc_set_prescaler()
-: <a class="el" href="group__rtc__defines.html#ga7c05857df37f0631153fdb9893df5c00">rtc_common_l1f024.h</a>
-, <a class="el" href="group__rtc__file.html#ga7c05857df37f0631153fdb9893df5c00">rtc_common_l1f024.c</a>
+: <a class="el" href="group__rtc__file.html#ga7c05857df37f0631153fdb9893df5c00">rtc_common_l1f024.c</a>
+, <a class="el" href="group__rtc__defines.html#ga7c05857df37f0631153fdb9893df5c00">rtc_common_l1f024.h</a>
 </li>
 <li>rtc_set_wakeup_time()
-: <a class="el" href="group__rtc__defines.html#gacffca2b1f3a82b3f82923e9ab14f004f">rtc_common_l1f024.h</a>
-, <a class="el" href="group__rtc__file.html#gacffca2b1f3a82b3f82923e9ab14f004f">rtc_common_l1f024.c</a>
+: <a class="el" href="group__rtc__file.html#gacffca2b1f3a82b3f82923e9ab14f004f">rtc_common_l1f024.c</a>
+, <a class="el" href="group__rtc__defines.html#gacffca2b1f3a82b3f82923e9ab14f004f">rtc_common_l1f024.h</a>
 </li>
 <li>rtc_unlock()
 : <a class="el" href="group__rtc__file.html#ga25813ce258a0d4d2865ec883fea0175b">rtc_common_l1f024.c</a>
 , <a class="el" href="group__rtc__defines.html#ga25813ce258a0d4d2865ec883fea0175b">rtc_common_l1f024.h</a>
 </li>
 <li>rtc_wait_for_synchro()
-: <a class="el" href="group__rtc__defines.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_common_l1f024.h</a>
-, <a class="el" href="group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_common_l1f024.c</a>
+: <a class="el" href="group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_common_l1f024.c</a>
+, <a class="el" href="group__rtc__defines.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_common_l1f024.h</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -220,7 +257,7 @@ $(document).ready(function(){initNavTree('globals_func_r.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 24 2014 02:22:08 for libopencm3 by
+    <li class="footer">Generated on Wed Dec 3 2014 12:22:09 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

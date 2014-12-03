@@ -1,3 +1,4 @@
 <map id="STM32L0xx Defines" name="STM32L0xx Defines">
-<area shape="rect" id="node2" href="$group__gpio__defines.html" title="Defined Constants and Types for the STM32F0xx General Purpose I/O " alt="" coords="195,5,299,32"/>
+<area shape="rect" id="node1" href="$group__rcc__defines.html" title="Defined Constants and Types for the STM32L0xx Reset and Clock Control " alt="" coords="196,5,297,32"/>
+<area shape="rect" id="node3" href="$group__gpio__defines.html" title="Defined Constants and Types for the STM32F0xx General Purpose I/O " alt="" coords="195,56,299,83"/>
 </map>

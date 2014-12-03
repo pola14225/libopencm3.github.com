@@ -10,11 +10,12 @@ var indexSectionsWithContent =
   0: "_acdefghilmprstuw",
   1: "acdefghilmprstu",
   2: "acdefghiprstu",
-  3: "cdet",
-  4: "cdelrt",
-  5: "_acdefgilprstuw",
-  6: "acdefghiprstu",
-  7: "l"
+  3: "r",
+  4: "cdert",
+  5: "cdehlmprst",
+  6: "_acdefgilprstuw",
+  7: "acdefghiprstu",
+  8: "l"
 };
 
 var indexSectionNames =
@@ -22,11 +23,12 @@ var indexSectionNames =
   0: "all",
   1: "files",
   2: "functions",
-  3: "enums",
-  4: "enumvalues",
-  5: "defines",
-  6: "groups",
-  7: "pages"
+  3: "variables",
+  4: "enums",
+  5: "enumvalues",
+  6: "defines",
+  7: "groups",
+  8: "pages"
 };
 
 function convertToId(search)

@@ -4,6 +4,7 @@ var searchData=
   ['periph_5fbase_5fahb',['PERIPH_BASE_AHB',['../memorymap_8h.html#a793706f3905f7c4a6df525e32144dd4a',1,'memorymap.h']]],
   ['periph_5fbase_5fapb1',['PERIPH_BASE_APB1',['../memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d',1,'memorymap.h']]],
   ['periph_5fbase_5fapb2',['PERIPH_BASE_APB2',['../memorymap_8h.html#a9ce09c7342dea5a3dcb66c082e146b09',1,'memorymap.h']]],
+  ['pll',['PLL',['../group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a5c7fe827c28117f11dd14f9197d7d5a2',1,'rcc.h']]],
   ['power_5fcontrol_5fbase',['POWER_CONTROL_BASE',['../memorymap_8h.html#abe53be146f06a961f5fcf569f99a916e',1,'memorymap.h']]],
   ['pwr_5fclear_5fstandby_5fflag',['pwr_clear_standby_flag',['../group__pwr__defines.html#gacee516d449f1015a27246fbfedc534de',1,'pwr_clear_standby_flag(void):&#160;pwr_common_all.c'],['../group__pwr__file.html#gacee516d449f1015a27246fbfedc534de',1,'pwr_clear_standby_flag(void):&#160;pwr_common_all.c']]],
   ['pwr_5fclear_5fwakeup_5fflag',['pwr_clear_wakeup_flag',['../group__pwr__defines.html#ga652ae2d48d4833539f50f0c201e8fff2',1,'pwr_clear_wakeup_flag(void):&#160;pwr_common_all.c'],['../group__pwr__file.html#ga652ae2d48d4833539f50f0c201e8fff2',1,'pwr_clear_wakeup_flag(void):&#160;pwr_common_all.c']]],
