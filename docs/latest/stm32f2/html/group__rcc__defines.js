@@ -545,6 +545,7 @@ var group__rcc__defines =
     [ "rcc_wait_for_osc_ready", "group__rcc__defines.html#ga0f9fac6ac510e119aebe5f62c53f073a", null ],
     [ "rcc_wait_for_sysclk_status", "group__rcc__defines.html#ga6472eba195686b970de6216ab61ebd7c", null ],
     [ "hse_8mhz_3v3", "group__rcc__defines.html#ga6732b60b662d0168e6995cddc5027c29", null ],
-    [ "rcc_ppre1_frequency", "group__rcc__defines.html#ga71455852cfe7420e0c33a63e0e09c4e5", null ],
-    [ "rcc_ppre2_frequency", "group__rcc__defines.html#gae9ac2772ba7880c2a2941d8a7150c477", null ]
+    [ "rcc_ahb_frequency", "group__rcc__defines.html#ga86f90a27c26bc25e22999419f7d08622", null ],
+    [ "rcc_apb1_frequency", "group__rcc__defines.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ],
+    [ "rcc_apb2_frequency", "group__rcc__defines.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ]
 ];

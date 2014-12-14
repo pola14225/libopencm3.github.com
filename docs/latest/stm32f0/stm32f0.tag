@@ -12251,16 +12251,16 @@
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_core_frequency</name>
+      <name>rcc_ahb_frequency</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
-      <anchor>gaba9e03d07373dbae94ca80f2834fb490</anchor>
+      <anchor>ga86f90a27c26bc25e22999419f7d08622</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre_frequency</name>
+      <name>rcc_apb1_frequency</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
-      <anchor>ga22df1ef18004ccf4732c9873433a2067</anchor>
+      <anchor>gaa1594220dae1eb3f9aa3dc30db60d8d1</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -14910,16 +14910,16 @@
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_core_frequency</name>
+      <name>rcc_ahb_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaba9e03d07373dbae94ca80f2834fb490</anchor>
+      <anchor>ga86f90a27c26bc25e22999419f7d08622</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre_frequency</name>
+      <name>rcc_apb1_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga22df1ef18004ccf4732c9873433a2067</anchor>
+      <anchor>gaa1594220dae1eb3f9aa3dc30db60d8d1</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -35905,16 +35905,16 @@
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_core_frequency</name>
+      <name>rcc_ahb_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaba9e03d07373dbae94ca80f2834fb490</anchor>
+      <anchor>ga86f90a27c26bc25e22999419f7d08622</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre_frequency</name>
+      <name>rcc_apb1_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga22df1ef18004ccf4732c9873433a2067</anchor>
+      <anchor>gaa1594220dae1eb3f9aa3dc30db60d8d1</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -47758,16 +47758,16 @@
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_core_frequency</name>
+      <name>rcc_ahb_frequency</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
-      <anchor>gaba9e03d07373dbae94ca80f2834fb490</anchor>
+      <anchor>ga86f90a27c26bc25e22999419f7d08622</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre_frequency</name>
+      <name>rcc_apb1_frequency</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
-      <anchor>ga22df1ef18004ccf4732c9873433a2067</anchor>
+      <anchor>gaa1594220dae1eb3f9aa3dc30db60d8d1</anchor>
       <arglist></arglist>
     </member>
   </compound>

@@ -1,7 +1,7 @@
 var NAVTREEINDEX2 =
 {
-"group__STM32F0xx-rcc-file.html#ga81b16ade2e5d6e024f36e3d568a9fd97":[5,0,11,13],
-"group__STM32F0xx-rcc-file.html#ga81b16ade2e5d6e024f36e3d568a9fd97":[27,0,47,13],
+"group__STM32F0xx-rcc-file.html#ga86f90a27c26bc25e22999419f7d08622":[5,0,11,26],
+"group__STM32F0xx-rcc-file.html#ga86f90a27c26bc25e22999419f7d08622":[27,0,47,26],
 "group__STM32F0xx-rcc-file.html#ga89d079556639549018fbd8d66cf5fc20":[5,0,11,12],
 "group__STM32F0xx-rcc-file.html#ga89d079556639549018fbd8d66cf5fc20":[27,0,47,12],
 "group__STM32F0xx-rcc-file.html#ga93f0715a42904d8c70bc7d1c862cf89f":[5,0,11,20],
@@ -12,10 +12,10 @@ var NAVTREEINDEX2 =
 "group__STM32F0xx-rcc-file.html#ga996fd36ac939e39eb2a377064620250f":[5,0,11,0],
 "group__STM32F0xx-rcc-file.html#ga9d5e2b0fc534c6315d5d57db88812113":[27,0,47,3],
 "group__STM32F0xx-rcc-file.html#ga9d5e2b0fc534c6315d5d57db88812113":[5,0,11,3],
+"group__STM32F0xx-rcc-file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1":[5,0,11,27],
+"group__STM32F0xx-rcc-file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1":[27,0,47,27],
 "group__STM32F0xx-rcc-file.html#gab1b45443e00d0774628de632257ba9f4":[27,0,47,8],
 "group__STM32F0xx-rcc-file.html#gab1b45443e00d0774628de632257ba9f4":[5,0,11,8],
-"group__STM32F0xx-rcc-file.html#gaba9e03d07373dbae94ca80f2834fb490":[5,0,11,26],
-"group__STM32F0xx-rcc-file.html#gaba9e03d07373dbae94ca80f2834fb490":[27,0,47,26],
 "group__STM32F0xx-rcc-file.html#gaccfc4aa94152abb68e0d5ad473adbf53":[5,0,11,19],
 "group__STM32F0xx-rcc-file.html#gaccfc4aa94152abb68e0d5ad473adbf53":[27,0,47,19],
 "group__STM32F0xx-rcc-file.html#gadd6354a9a1404b23b5baa00b51b03cc2":[27,0,47,4],

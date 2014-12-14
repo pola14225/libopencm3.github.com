@@ -28,6 +28,7 @@ var group__rcc__file =
     [ "hse_16mhz_3v3", "group__rcc__file.html#ga24a53fce58c72ae809ee796bdf93b693", null ],
     [ "hse_25mhz_3v3", "group__rcc__file.html#ga970180a067c79931795be5222a80981d", null ],
     [ "hse_8mhz_3v3", "group__rcc__file.html#ga6732b60b662d0168e6995cddc5027c29", null ],
-    [ "rcc_ppre1_frequency", "group__rcc__file.html#ga71455852cfe7420e0c33a63e0e09c4e5", null ],
-    [ "rcc_ppre2_frequency", "group__rcc__file.html#gae9ac2772ba7880c2a2941d8a7150c477", null ]
+    [ "rcc_ahb_frequency", "group__rcc__file.html#ga86f90a27c26bc25e22999419f7d08622", null ],
+    [ "rcc_apb1_frequency", "group__rcc__file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ],
+    [ "rcc_apb2_frequency", "group__rcc__file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ]
 ];

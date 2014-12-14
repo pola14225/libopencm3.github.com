@@ -180,16 +180,16 @@ $(document).ready(function(){initNavTree('usart__common__all_8c_source.html','')
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="group__usart__file.html#ga848295ffaf99550cf92d77dbcf15d416">   49</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__usart__file.html#ga848295ffaf99550cf92d77dbcf15d416">usart_set_baudrate</a>(uint32_t usart, uint32_t baud)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        uint32_t clock = rcc_ppre1_frequency;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        uint32_t clock = <a class="code" href="group__rcc__defines.html#gaa1594220dae1eb3f9aa3dc30db60d8d1">rcc_apb1_frequency</a>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#if defined STM32F2 || defined STM32F4</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span> ((usart == <a class="code" href="usart_8h.html#a92871691058ff7ccffd7635930cb08da">USART1</a>) ||</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            (usart == USART6)) {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                clock = rcc_ppre2_frequency;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                clock = rcc_apb2_frequency;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">if</span> (usart == <a class="code" href="usart_8h.html#a92871691058ff7ccffd7635930cb08da">USART1</a>) {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                clock = rcc_ppre2_frequency;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                clock = rcc_apb2_frequency;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
@@ -523,6 +523,7 @@ $(document).ready(function(){initNavTree('usart__common__all_8c_source.html','')
 <div class="ttc" id="group__usart__file_html_ga709361bc6862187f53a4673508e10178"><div class="ttname"><a href="group__usart__file.html#ga709361bc6862187f53a4673508e10178">usart_disable_rx_interrupt</a></div><div class="ttdeci">void usart_disable_rx_interrupt(uint32_t usart)</div><div class="ttdoc">USART Receiver Interrupt Disable. </div><div class="ttdef"><b>Definition:</b> <a href="usart__common__all_8c_source.html#l00313">usart_common_all.c:313</a></div></div>
 <div class="ttc" id="usart_8h_html_a28330e1568029bd30aefe59554f3d6ea"><div class="ttname"><a href="usart_8h.html#a28330e1568029bd30aefe59554f3d6ea">usart_recv</a></div><div class="ttdeci">uint8_t usart_recv(uint32_t usart)</div><div class="ttdoc">USART Read a Received Data Word. </div><div class="ttdef"><b>Definition:</b> <a href="usart_8c_source.html#l00187">usart.c:187</a></div></div>
 <div class="ttc" id="usart_8h_html_a95f0288b9c6aaeca7cb6550a2e6833e2"><div class="ttname"><a href="usart_8h.html#a95f0288b9c6aaeca7cb6550a2e6833e2">USART_CR1_M</a></div><div class="ttdeci">#define USART_CR1_M</div><div class="ttdef"><b>Definition:</b> <a href="usart_8h_source.html#l00134">usart.h:134</a></div></div>
+<div class="ttc" id="group__rcc__defines_html_gaa1594220dae1eb3f9aa3dc30db60d8d1"><div class="ttname"><a href="group__rcc__defines.html#gaa1594220dae1eb3f9aa3dc30db60d8d1">rcc_apb1_frequency</a></div><div class="ttdeci">uint32_t rcc_apb1_frequency</div><div class="ttdef"><b>Definition:</b> <a href="rcc_8c_source.html#l00045">rcc.c:45</a></div></div>
 <div class="ttc" id="usart_8h_html_a731b110dac1a617cbdc0d251ec91401b"><div class="ttname"><a href="usart_8h.html#a731b110dac1a617cbdc0d251ec91401b">USART_BRR</a></div><div class="ttdeci">#define USART_BRR(usart_base)</div><div class="ttdef"><b>Definition:</b> <a href="usart_8h_source.html#l00065">usart.h:65</a></div></div>
 <div class="ttc" id="group__usart__file_html_gae8458acbe30cf746fd98ff1cc81fcff1"><div class="ttname"><a href="group__usart__file.html#gae8458acbe30cf746fd98ff1cc81fcff1">usart_send_blocking</a></div><div class="ttdeci">void usart_send_blocking(uint32_t usart, uint16_t data)</div><div class="ttdoc">USART Send Data Word with Blocking. </div><div class="ttdef"><b>Definition:</b> <a href="usart__common__all_8c_source.html#l00210">usart_common_all.c:210</a></div></div>
 <div class="ttc" id="group__usart__file_html_ga8333883729d5f460bf02c1f24bd3c37d"><div class="ttname"><a href="group__usart__file.html#ga8333883729d5f460bf02c1f24bd3c37d">usart_set_databits</a></div><div class="ttdeci">void usart_set_databits(uint32_t usart, uint32_t bits)</div><div class="ttdoc">USART Set Word Length. </div><div class="ttdef"><b>Definition:</b> <a href="usart__common__all_8c_source.html#l00088">usart_common_all.c:88</a></div></div>
@@ -542,7 +543,7 @@ $(document).ready(function(){initNavTree('usart__common__all_8c_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="usart__common__all_8c.html">usart_common_all.c</a></li>
-    <li class="footer">Generated on Sun Dec 14 2014 00:21:28 for libopencm3 by
+    <li class="footer">Generated on Sun Dec 14 2014 10:21:24 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

@@ -380,6 +380,6 @@ var rcc_8h =
     [ "rcc_set_sysclk_source", "group__rcc__defines.html#ga0ce4f6c68587faf17a38d98fdcdab338", null ],
     [ "rcc_system_clock_source", "group__rcc__defines.html#ga229c85444fc847f9102dedab40c9165f", null ],
     [ "rcc_wait_for_osc_ready", "group__rcc__defines.html#ga1dfd0e0ba16285ce16e782e07af2cafa", null ],
-    [ "rcc_core_frequency", "group__rcc__defines.html#gaba9e03d07373dbae94ca80f2834fb490", null ],
-    [ "rcc_ppre_frequency", "group__rcc__defines.html#ga22df1ef18004ccf4732c9873433a2067", null ]
+    [ "rcc_ahb_frequency", "group__rcc__defines.html#ga86f90a27c26bc25e22999419f7d08622", null ],
+    [ "rcc_apb1_frequency", "group__rcc__defines.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ]
 ];

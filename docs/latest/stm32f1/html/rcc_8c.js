@@ -38,6 +38,7 @@ var rcc_8c =
     [ "rcc_set_usbpre", "group__STM32F1xx-rcc-file.html#gad434015520b42043657d7478f8308c37", null ],
     [ "rcc_system_clock_source", "group__STM32F1xx-rcc-file.html#ga3373359648b1677ac49d2fe86bff99b7", null ],
     [ "rcc_wait_for_osc_ready", "group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa", null ],
-    [ "rcc_ppre1_frequency", "group__STM32F1xx-rcc-file.html#ga71455852cfe7420e0c33a63e0e09c4e5", null ],
-    [ "rcc_ppre2_frequency", "group__STM32F1xx-rcc-file.html#gae9ac2772ba7880c2a2941d8a7150c477", null ]
+    [ "rcc_ahb_frequency", "group__STM32F1xx-rcc-file.html#ga86f90a27c26bc25e22999419f7d08622", null ],
+    [ "rcc_apb1_frequency", "group__STM32F1xx-rcc-file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ],
+    [ "rcc_apb2_frequency", "group__STM32F1xx-rcc-file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ]
 ];

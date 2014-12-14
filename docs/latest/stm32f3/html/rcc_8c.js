@@ -30,6 +30,7 @@ var rcc_8c =
     [ "rcc_wait_for_osc_ready", "group__rcc__file.html#ga105bf6fab47cf964740b5b02d61559bc", null ],
     [ "rcc_wait_for_sysclk_status", "group__rcc__file.html#gae212889517cd143c9f3c9f1dacba4233", null ],
     [ "hsi_8mhz", "group__rcc__file.html#ga8fc6d67b94c14b66a60f700b14ef702f", null ],
-    [ "rcc_ppre1_frequency", "group__rcc__file.html#ga71455852cfe7420e0c33a63e0e09c4e5", null ],
-    [ "rcc_ppre2_frequency", "group__rcc__file.html#gae9ac2772ba7880c2a2941d8a7150c477", null ]
+    [ "rcc_ahb_frequency", "group__rcc__file.html#ga86f90a27c26bc25e22999419f7d08622", null ],
+    [ "rcc_apb1_frequency", "group__rcc__file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ],
+    [ "rcc_apb2_frequency", "group__rcc__file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ]
 ];

@@ -15383,16 +15383,23 @@
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre1_frequency</name>
+      <name>rcc_ahb_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga71455852cfe7420e0c33a63e0e09c4e5</anchor>
+      <anchor>ga86f90a27c26bc25e22999419f7d08622</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre2_frequency</name>
+      <name>rcc_apb1_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
+      <anchor>gaa1594220dae1eb3f9aa3dc30db60d8d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>rcc_apb2_frequency</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2f1b40f85aa73bc45b6d1cbb255881d9</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -18358,16 +18365,23 @@
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre1_frequency</name>
+      <name>rcc_ahb_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga71455852cfe7420e0c33a63e0e09c4e5</anchor>
+      <anchor>ga86f90a27c26bc25e22999419f7d08622</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre2_frequency</name>
+      <name>rcc_apb1_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
+      <anchor>gaa1594220dae1eb3f9aa3dc30db60d8d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>rcc_apb2_frequency</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2f1b40f85aa73bc45b6d1cbb255881d9</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -41478,16 +41492,23 @@
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre1_frequency</name>
+      <name>rcc_ahb_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga71455852cfe7420e0c33a63e0e09c4e5</anchor>
+      <anchor>ga86f90a27c26bc25e22999419f7d08622</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
-      <name>rcc_ppre2_frequency</name>
+      <name>rcc_apb1_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gae9ac2772ba7880c2a2941d8a7150c477</anchor>
+      <anchor>gaa1594220dae1eb3f9aa3dc30db60d8d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>rcc_apb2_frequency</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2f1b40f85aa73bc45b6d1cbb255881d9</anchor>
       <arglist></arglist>
     </member>
   </compound>
