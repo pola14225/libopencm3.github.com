@@ -12108,6 +12108,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_RTCPRE_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafbed5f23ff2cfab3fbff84760d09fbcb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_PPRE2_SHIFT</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga15a0cbdc8e97c9b49262611b4a999f0e</anchor>
@@ -31916,6 +31923,13 @@
       <name>RCC_CFGR_RTCPRE_SHIFT</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gab72451450208a7c30ad1f075268a5902</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_RTCPRE_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafbed5f23ff2cfab3fbff84760d09fbcb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">

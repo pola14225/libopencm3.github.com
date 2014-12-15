@@ -15516,6 +15516,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CR_RTCPRE_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga9c947f30deec0e4a9a082621480c39f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CR_RTCPRE_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga050535744df1dbda497a01bf35564b9c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CR_CSSON</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacc05308869ad055e1e6f2c32d738aecd</anchor>
@@ -38804,6 +38818,34 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CR_RTCPRE_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga9c947f30deec0e4a9a082621480c39f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CR_RTCPRE_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga9c947f30deec0e4a9a082621480c39f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CR_RTCPRE_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga050535744df1dbda497a01bf35564b9c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CR_RTCPRE_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga050535744df1dbda497a01bf35564b9c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CR_CSSON</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gacc05308869ad055e1e6f2c32d738aecd</anchor>
@@ -38898,20 +38940,6 @@
       <name>RCC_CR_RTCPRE_DIV16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga8250f225fe7a611ec8d08ab835c3d5dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CR_RTCPRE_SHIFT</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga9c947f30deec0e4a9a082621480c39f9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CR_RTCPRE_MASK</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga050535744df1dbda497a01bf35564b9c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">

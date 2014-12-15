@@ -237,6 +237,7 @@ var rcc_8h =
     [ "RCC_CFGR_PPRE_DIV_4", "group__rcc__defines.html#ga565b22e5d2e16a4709d75ba0d3a420c0", null ],
     [ "RCC_CFGR_PPRE_DIV_8", "group__rcc__defines.html#gaab449ad3c4ca08570ff190b3404870e7", null ],
     [ "RCC_CFGR_PPRE_DIV_NONE", "group__rcc__defines.html#gab493f8fe36d0c9a05bd61176bce69ee1", null ],
+    [ "RCC_CFGR_RTCPRE_MASK", "group__rcc__defines.html#gafbed5f23ff2cfab3fbff84760d09fbcb", null ],
     [ "RCC_CFGR_RTCPRE_SHIFT", "group__rcc__defines.html#gab72451450208a7c30ad1f075268a5902", null ],
     [ "RCC_CFGR_SW_HSE", "group__rcc__defines.html#gafb563f217242d969f4355d0818fde705", null ],
     [ "RCC_CFGR_SW_HSI", "group__rcc__defines.html#gacbac8bae4f0808b3c3a5185aa10081fb", null ],

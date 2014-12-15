@@ -15132,6 +15132,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_MCO1_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a6650dcc1f2891ec0e3fc86aa4aef6bdc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_MCO1_HSI</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>ab216bb8a9e2dca216c76fdc23ac90fcb</anchor>
@@ -15167,6 +15174,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_RTCPRE_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>afbed5f23ff2cfab3fbff84760d09fbcb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_PPRE2_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a15a0cbdc8e97c9b49262611b4a999f0e</anchor>
@@ -15174,9 +15188,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_PPRE2_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a41aef118b0611444caa87df8ea302dc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_PPRE1_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>afb5d3be2370b0ec48507ffdac9745c8b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_PPRE1_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a1220a63e00de9ff4a2a45474ead3662d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -15219,6 +15247,13 @@
       <name>RCC_CFGR_HPRE_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>abe81fd6d8e84f74aa4f2e31f26aa2819</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_HPRE_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a437d3c7d4232b6563cda9b2789d2b7e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">

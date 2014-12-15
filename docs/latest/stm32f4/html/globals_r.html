@@ -847,6 +847,9 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 <li>RCC_CFGR_HPRE_DIV_NONE
 : <a class="el" href="rcc_8h.html#a334ce40a0a1c4342acb1eb1282f4b17a">rcc.h</a>
 </li>
+<li>RCC_CFGR_HPRE_MASK
+: <a class="el" href="rcc_8h.html#a437d3c7d4232b6563cda9b2789d2b7e5">rcc.h</a>
+</li>
 <li>RCC_CFGR_HPRE_SHIFT
 : <a class="el" href="rcc_8h.html#abe81fd6d8e84f74aa4f2e31f26aa2819">rcc.h</a>
 </li>
@@ -861,6 +864,9 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 </li>
 <li>RCC_CFGR_MCO1_LSE
 : <a class="el" href="rcc_8h.html#a4fb4578eb95e1f37d83b110db84a0ca5">rcc.h</a>
+</li>
+<li>RCC_CFGR_MCO1_MASK
+: <a class="el" href="rcc_8h.html#a6650dcc1f2891ec0e3fc86aa4aef6bdc">rcc.h</a>
 </li>
 <li>RCC_CFGR_MCO1_PLL
 : <a class="el" href="rcc_8h.html#a3a4385ef54ee7742f4422a85749f6bcb">rcc.h</a>
@@ -904,8 +910,14 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 <li>RCC_CFGR_MCOPRE_DIV_NONE
 : <a class="el" href="rcc_8h.html#a9b6d36c64e38aaa5a7a2dbf8d2750e5e">rcc.h</a>
 </li>
+<li>RCC_CFGR_PPRE1_MASK
+: <a class="el" href="rcc_8h.html#a1220a63e00de9ff4a2a45474ead3662d">rcc.h</a>
+</li>
 <li>RCC_CFGR_PPRE1_SHIFT
 : <a class="el" href="rcc_8h.html#afb5d3be2370b0ec48507ffdac9745c8b">rcc.h</a>
+</li>
+<li>RCC_CFGR_PPRE2_MASK
+: <a class="el" href="rcc_8h.html#a41aef118b0611444caa87df8ea302dc2">rcc.h</a>
 </li>
 <li>RCC_CFGR_PPRE2_SHIFT
 : <a class="el" href="rcc_8h.html#a15a0cbdc8e97c9b49262611b4a999f0e">rcc.h</a>
@@ -924,6 +936,9 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 </li>
 <li>RCC_CFGR_PPRE_DIV_NONE
 : <a class="el" href="rcc_8h.html#ab493f8fe36d0c9a05bd61176bce69ee1">rcc.h</a>
+</li>
+<li>RCC_CFGR_RTCPRE_MASK
+: <a class="el" href="rcc_8h.html#afbed5f23ff2cfab3fbff84760d09fbcb">rcc.h</a>
 </li>
 <li>RCC_CFGR_RTCPRE_SHIFT
 : <a class="el" href="rcc_8h.html#ab72451450208a7c30ad1f075268a5902">rcc.h</a>
@@ -1225,8 +1240,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721">rcc_common_all.c</a>
 </li>
 <li>rcc_periph_clock_enable()
-: <a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_common_all.c</a>
-, <a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_common_all.h</a>
+: <a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_common_all.h</a>
+, <a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_common_all.c</a>
 </li>
 <li>rcc_periph_reset_hold()
 : <a class="el" href="group__rcc__defines.html#ga6f3e2843e5d017717da66599ccc5daef">rcc_common_all.h</a>
@@ -1248,8 +1263,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566">rcc_common_all.c</a>
 </li>
 <li>rcc_peripheral_disable_clock()
-: <a class="el" href="group__rcc__defines.html#gaf9fddc20e14204db6d4a4a54132d191b">rcc_common_all.h</a>
-, <a class="el" href="group__rcc__defines.html#gaf9fddc20e14204db6d4a4a54132d191b">rcc_common_all.c</a>
+: <a class="el" href="group__rcc__defines.html#gaf9fddc20e14204db6d4a4a54132d191b">rcc_common_all.c</a>
+, <a class="el" href="group__rcc__defines.html#gaf9fddc20e14204db6d4a4a54132d191b">rcc_common_all.h</a>
 </li>
 <li>rcc_peripheral_enable_clock()
 : <a class="el" href="group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_common_all.h</a>
@@ -1303,8 +1318,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__rcc__file.html#gae192b2cd0f37124db5ed76d599a5671b">rcc.c</a>
 </li>
 <li>rcc_set_main_pll_hse()
-: <a class="el" href="group__rcc__file.html#gac9cad56153485b68efc5c3b444beddd4">rcc.c</a>
-, <a class="el" href="group__rcc__file.html#gac9cad56153485b68efc5c3b444beddd4">rcc.h</a>
+: <a class="el" href="group__rcc__file.html#gac9cad56153485b68efc5c3b444beddd4">rcc.h</a>
+, <a class="el" href="group__rcc__file.html#gac9cad56153485b68efc5c3b444beddd4">rcc.c</a>
 </li>
 <li>rcc_set_main_pll_hsi()
 : <a class="el" href="group__rcc__file.html#gacfad289e21cd0d348cf2a765ce702aff">rcc.h</a>
@@ -1319,16 +1334,16 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__rcc__file.html#gaaf1b9174131b00a7014c0328a53a65a1">rcc.c</a>
 </li>
 <li>rcc_set_ppre2()
-: <a class="el" href="group__rcc__file.html#gac40c9478480f3a44c381c15482a563cd">rcc.c</a>
-, <a class="el" href="group__rcc__file.html#gac40c9478480f3a44c381c15482a563cd">rcc.h</a>
+: <a class="el" href="group__rcc__file.html#gac40c9478480f3a44c381c15482a563cd">rcc.h</a>
+, <a class="el" href="group__rcc__file.html#gac40c9478480f3a44c381c15482a563cd">rcc.c</a>
 </li>
 <li>rcc_set_rtcpre()
 : <a class="el" href="group__rcc__file.html#ga63aa2b3fb8156ad6b6d2b08d4fe8f12e">rcc.h</a>
 , <a class="el" href="group__rcc__file.html#ga63aa2b3fb8156ad6b6d2b08d4fe8f12e">rcc.c</a>
 </li>
 <li>rcc_set_sysclk_source()
-: <a class="el" href="group__rcc__file.html#ga2c291271812c333d975807cd5ec99a36">rcc.c</a>
-, <a class="el" href="group__rcc__file.html#ga2c291271812c333d975807cd5ec99a36">rcc.h</a>
+: <a class="el" href="group__rcc__file.html#ga2c291271812c333d975807cd5ec99a36">rcc.h</a>
+, <a class="el" href="group__rcc__file.html#ga2c291271812c333d975807cd5ec99a36">rcc.c</a>
 </li>
 <li>RCC_SPI1
 : <a class="el" href="rcc_8h.html#a54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953">rcc.h</a>
@@ -1863,8 +1878,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 : <a class="el" href="group__rtc__defines.html#ga5e0a1419830a16667cea4f6454913226">rtc_common_l1f024.h</a>
 </li>
 <li>rtc_disable_wakeup_timer()
-: <a class="el" href="rtc_8h.html#a1e0c4ee2164c6aac547970a493be7676">rtc.h</a>
-, <a class="el" href="rtc_8c.html#a1e0c4ee2164c6aac547970a493be7676">rtc.c</a>
+: <a class="el" href="rtc_8c.html#a1e0c4ee2164c6aac547970a493be7676">rtc.c</a>
+, <a class="el" href="rtc_8h.html#a1e0c4ee2164c6aac547970a493be7676">rtc.h</a>
 </li>
 <li>rtc_disable_wakeup_timer_interrupt()
 : <a class="el" href="rtc_8c.html#a36e2af549b7d24f24e5255bbbeb5de71">rtc.c</a>
@@ -1916,8 +1931,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 : <a class="el" href="group__rtc__defines.html#gaefe82e362240f92f499e7bf30d22eec6">rtc_common_l1f024.h</a>
 </li>
 <li>rtc_enable_wakeup_timer()
-: <a class="el" href="rtc_8c.html#a09f8be3f6c04c89c445f9fc82a3d5ab7">rtc.c</a>
-, <a class="el" href="rtc_8h.html#a09f8be3f6c04c89c445f9fc82a3d5ab7">rtc.h</a>
+: <a class="el" href="rtc_8h.html#a09f8be3f6c04c89c445f9fc82a3d5ab7">rtc.h</a>
+, <a class="el" href="rtc_8c.html#a09f8be3f6c04c89c445f9fc82a3d5ab7">rtc.c</a>
 </li>
 <li>rtc_enable_wakeup_timer_interrupt()
 : <a class="el" href="rtc_8h.html#a4c6724c645e96d2741e262d5468d5827">rtc.h</a>
@@ -1978,8 +1993,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 : <a class="el" href="group__rtc__defines.html#ga0e753321211e19bc48736fe0d30a7f40">rtc_common_l1f024.h</a>
 </li>
 <li>rtc_lock()
-: <a class="el" href="group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b">rtc_common_l1f024.c</a>
-, <a class="el" href="group__rtc__defines.html#ga3e70e56710b30885a46bae6e88a36f9b">rtc_common_l1f024.h</a>
+: <a class="el" href="group__rtc__defines.html#ga3e70e56710b30885a46bae6e88a36f9b">rtc_common_l1f024.h</a>
+, <a class="el" href="group__rtc__file.html#ga3e70e56710b30885a46bae6e88a36f9b">rtc_common_l1f024.c</a>
 </li>
 <li>RTC_PRER
 : <a class="el" href="group__rtc__defines.html#ga6f602eed6e850324e6864df92284f6c5">rtc_common_l1f024.h</a>
@@ -2001,8 +2016,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__rtc__file.html#ga7c05857df37f0631153fdb9893df5c00">rtc_common_l1f024.c</a>
 </li>
 <li>rtc_set_wakeup_time()
-: <a class="el" href="group__rtc__file.html#gacffca2b1f3a82b3f82923e9ab14f004f">rtc_common_l1f024.c</a>
-, <a class="el" href="group__rtc__defines.html#gacffca2b1f3a82b3f82923e9ab14f004f">rtc_common_l1f024.h</a>
+: <a class="el" href="group__rtc__defines.html#gacffca2b1f3a82b3f82923e9ab14f004f">rtc_common_l1f024.h</a>
+, <a class="el" href="group__rtc__file.html#gacffca2b1f3a82b3f82923e9ab14f004f">rtc_common_l1f024.c</a>
 </li>
 <li>RTC_SHIFTR
 : <a class="el" href="group__rtc__defines.html#gad1f31c8249774ba3fe317d45ee7193ee">rtc_common_l1f024.h</a>
@@ -2231,8 +2246,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__rtc__file.html#ga25813ce258a0d4d2865ec883fea0175b">rtc_common_l1f024.c</a>
 </li>
 <li>rtc_wait_for_synchro()
-: <a class="el" href="group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_common_l1f024.c</a>
-, <a class="el" href="group__rtc__defines.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_common_l1f024.h</a>
+: <a class="el" href="group__rtc__defines.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_common_l1f024.h</a>
+, <a class="el" href="group__rtc__file.html#ga28b448062099ceb6ab758b85d1ddb785">rtc_common_l1f024.c</a>
 </li>
 <li>RTC_WPR
 : <a class="el" href="group__rtc__defines.html#gab6487e9420e94ef109d0431f42c3c740">rtc_common_l1f024.h</a>
@@ -2246,7 +2261,7 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Dec 14 2014 10:22:00 for libopencm3 by
+    <li class="footer">Generated on Mon Dec 15 2014 11:22:09 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

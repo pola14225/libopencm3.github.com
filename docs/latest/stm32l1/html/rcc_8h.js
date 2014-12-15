@@ -204,6 +204,8 @@ var rcc_8h =
     [ "RCC_CR_RTCPRE_DIV4", "group__rcc__defines.html#gab3df2079bcc8455b53c8cb0db91c2fd9", null ],
     [ "RCC_CR_RTCPRE_DIV8", "group__rcc__defines.html#ga92e42a226d9228292aea08d36e7d7548", null ],
     [ "RCC_CR_RTCPRE_MASK", "group__rcc__defines.html#ga050535744df1dbda497a01bf35564b9c", null ],
+    [ "RCC_CR_RTCPRE_MASK", "group__rcc__defines.html#ga050535744df1dbda497a01bf35564b9c", null ],
+    [ "RCC_CR_RTCPRE_SHIFT", "group__rcc__defines.html#ga9c947f30deec0e4a9a082621480c39f9", null ],
     [ "RCC_CR_RTCPRE_SHIFT", "group__rcc__defines.html#ga9c947f30deec0e4a9a082621480c39f9", null ],
     [ "RCC_CSR", "group__rcc__defines.html#ga6e483b8da7b5a5da25e9a745bb19f6ec", null ],
     [ "RCC_CSR_IWDGRSTF", "group__rcc__defines.html#ga22a7079ba87dd7acd5ed7fe7b704e85f", null ],
