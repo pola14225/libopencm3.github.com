@@ -1,6 +1,5 @@
 var usbstd_8h =
 [
-    [ "usb_interface", "structusb__config__descriptor_1_1usb__interface.html", "structusb__config__descriptor_1_1usb__interface" ],
     [ "usb_interface", "structusb__interface.html", "structusb__interface" ],
     [ "usb_language_id", "group__usb__type__defines.html#gaca86007d66ae94421fd4f93c0b96b04a", [
       [ "USB_LANGID_ENGLISH_US", "group__usb__type__defines.html#ggaca86007d66ae94421fd4f93c0b96b04aa069b825fab4882505aca430300ecc9a8", null ]

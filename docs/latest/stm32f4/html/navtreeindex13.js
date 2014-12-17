@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"group__hash__defines.html#ga8fe7196086d41218655e176591247a48":[9,1,8,12],
+"group__hash__defines.html#ga914c3e3bc65355c6f126702dbb76460f":[28,0,42,37],
 "group__hash__defines.html#ga914c3e3bc65355c6f126702dbb76460f":[9,1,8,30],
 "group__hash__defines.html#ga91aaa7657bb24004e61ec1913f4f934c":[28,0,42,32],
 "group__hash__defines.html#ga91aaa7657bb24004e61ec1913f4f934c":[9,1,8,25],
@@ -86,8 +88,8 @@ var NAVTREEINDEX13 =
 "group__i2c__clock.html#ga5f05941340b075f1fa98aa71c94983e4":[9,1,9,1,40],
 "group__i2c__clock.html#ga6cf522ec0d010251d3cd5d982ad2b544":[28,0,46,74],
 "group__i2c__clock.html#ga6cf522ec0d010251d3cd5d982ad2b544":[9,1,9,1,32],
-"group__i2c__clock.html#ga6def53b8ac18b1c614295da2fa80ab34":[9,1,9,1,20],
 "group__i2c__clock.html#ga6def53b8ac18b1c614295da2fa80ab34":[28,0,46,62],
+"group__i2c__clock.html#ga6def53b8ac18b1c614295da2fa80ab34":[9,1,9,1,20],
 "group__i2c__clock.html#ga7f6461981cfadcb7501dd03dcd5cde2d":[28,0,46,47],
 "group__i2c__clock.html#ga7f6461981cfadcb7501dd03dcd5cde2d":[9,1,9,1,5],
 "group__i2c__clock.html#ga8153837ae49620b2fe02f81b61f373d3":[28,0,46,50],
@@ -138,8 +140,8 @@ var NAVTREEINDEX13 =
 "group__i2c__clock.html#gaeba1c8b156cf45c9c77c7cb1de74e52e":[9,1,9,1,0],
 "group__i2c__clock.html#gaf5111a5a72cf7ec21890de795e52e8f0":[9,1,9,1,15],
 "group__i2c__clock.html#gaf5111a5a72cf7ec21890de795e52e8f0":[28,0,46,57],
-"group__i2c__clock.html#gaf8499b5642b94779d31ae8564e3a5f24":[9,1,9,1,39],
 "group__i2c__clock.html#gaf8499b5642b94779d31ae8564e3a5f24":[28,0,46,81],
+"group__i2c__clock.html#gaf8499b5642b94779d31ae8564e3a5f24":[9,1,9,1,39],
 "group__i2c__defines.html":[9,1,9],
 "group__i2c__defines.html#ga001198ff898802888edf58f56d5371c9":[28,0,46,35],
 "group__i2c__defines.html#ga001198ff898802888edf58f56d5371c9":[9,1,9,35],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "group__i2c__defines.html#ga83ec05549c5d3d3412b3e5c902ad1d07":[9,1,9,102],
 "group__i2c__defines.html#ga83fcd4d673ac549bd410e3ef49ef1d7e":[28,0,46,3],
 "group__i2c__defines.html#ga83fcd4d673ac549bd410e3ef49ef1d7e":[9,1,9,6],
-"group__i2c__defines.html#ga8b5fb1ea0be082f192030aa475a0e142":[28,0,46,146],
-"group__i2c__defines.html#ga8b5fb1ea0be082f192030aa475a0e142":[9,1,9,103],
-"group__i2c__defines.html#ga8dc661ef13da02e5bcb943f2003d576d":[28,0,46,39]
+"group__i2c__defines.html#ga8b5fb1ea0be082f192030aa475a0e142":[28,0,46,146]
 };

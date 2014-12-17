@@ -1,6 +1,5 @@
 var structusb__config__descriptor =
 [
-    [ "usb_interface", "structusb__config__descriptor_1_1usb__interface.html", "structusb__config__descriptor_1_1usb__interface" ],
     [ "bConfigurationValue", "structusb__config__descriptor.html#af50d14a1e97dab1a4483f03b969ca431", null ],
     [ "bDescriptorType", "structusb__config__descriptor.html#a69b0a0fe8f2f9152f299a333f352982e", null ],
     [ "bLength", "structusb__config__descriptor.html#aaa38eade89cca96312968258eaeade9d", null ],

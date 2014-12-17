@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"group__i2c__defines.html#gabb626d99345195735bedd6134b6cf3c6":[26,0,30,121],
+"group__i2c__defines.html#gabb626d99345195735bedd6134b6cf3c6":[10,10,78],
 "group__i2c__defines.html#gac49e8baa5610af5907ea5ba76f78c69c":[26,0,30,138],
 "group__i2c__defines.html#gac49e8baa5610af5907ea5ba76f78c69c":[10,10,95],
 "group__i2c__defines.html#gac84a8cc0d49c99f032f7ea87ac0f1302":[26,0,30,134],
@@ -14,8 +16,8 @@ var NAVTREEINDEX14 =
 "group__i2c__defines.html#gace70293f3dfa24d448b600fc58e45223":[10,10,38],
 "group__i2c__defines.html#gad42d2435d2e64bf710c701c9b17adfb4":[26,0,30,102],
 "group__i2c__defines.html#gad42d2435d2e64bf710c701c9b17adfb4":[10,10,60],
-"group__i2c__defines.html#gad86aa0f293c10bd0453c581c4c66b2e3":[10,10,21],
 "group__i2c__defines.html#gad86aa0f293c10bd0453c581c4c66b2e3":[26,0,30,19],
+"group__i2c__defines.html#gad86aa0f293c10bd0453c581c4c66b2e3":[10,10,21],
 "group__i2c__defines.html#gadb81d5c91486b873bd0bf279a4ffcf69":[26,0,30,41],
 "group__i2c__defines.html#gadb81d5c91486b873bd0bf279a4ffcf69":[10,10,41],
 "group__i2c__defines.html#gade4c75f99af3ae41ab4fa369d47ddba2":[26,0,30,40],
@@ -189,8 +191,8 @@ var NAVTREEINDEX14 =
 "group__pwr__defines.html#ga0fae0ca13856ebe2b54921d08011ec53":[26,0,36,32],
 "group__pwr__defines.html#ga13c9ac878969520462439771bbf3e621":[10,12,20],
 "group__pwr__defines.html#ga13c9ac878969520462439771bbf3e621":[26,0,36,27],
-"group__pwr__defines.html#ga1d9e8bb70d3b9c9c2971d1ae2c049b8f":[26,0,36,25],
 "group__pwr__defines.html#ga1d9e8bb70d3b9c9c2971d1ae2c049b8f":[10,12,18],
+"group__pwr__defines.html#ga1d9e8bb70d3b9c9c2971d1ae2c049b8f":[26,0,36,25],
 "group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8":[26,0,36,0],
 "group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8":[10,12,1],
 "group__pwr__defines.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd":[10,12,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "group__pwr__file.html#ga13c9ac878969520462439771bbf3e621":[26,0,35,5],
 "group__pwr__file.html#ga13c9ac878969520462439771bbf3e621":[10,26,5],
 "group__pwr__file.html#ga1d9e8bb70d3b9c9c2971d1ae2c049b8f":[26,0,35,3],
-"group__pwr__file.html#ga1d9e8bb70d3b9c9c2971d1ae2c049b8f":[10,26,3],
-"group__pwr__file.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd":[26,0,35,14],
-"group__pwr__file.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd":[10,26,14]
+"group__pwr__file.html#ga1d9e8bb70d3b9c9c2971d1ae2c049b8f":[10,26,3]
 };

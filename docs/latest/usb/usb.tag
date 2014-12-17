@@ -3032,6 +3032,7 @@
     <class kind="struct">usb_device_descriptor</class>
     <class kind="struct">usb_device_qualifier_descriptor</class>
     <class kind="struct">usb_config_descriptor</class>
+    <class kind="struct">usb_config_descriptor::usb_interface</class>
     <class kind="struct">usb_interface_descriptor</class>
     <class kind="struct">usb_endpoint_descriptor</class>
     <class kind="struct">usb_string_descriptor</class>
@@ -3227,6 +3228,64 @@
     <title>USB Private Structures</title>
     <filename>group__usb__private__defines.html</filename>
     <class kind="struct">_usbd_device</class>
+    <class kind="struct">_usbd_device::usb_control_state</class>
+    <class kind="struct">_usbd_device::user_control_callback</class>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>IDLE</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>STALLED</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>DATA_IN</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>LAST_DATA_IN</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56ad46e499dfabd69eeb4951d6f37350f78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>STATUS_IN</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56a2b8f315a1c77155a8eb55bb2920c387f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>DATA_OUT</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>LAST_DATA_OUT</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56ac4102e7aece07c0cd5679b2b3ff2f953</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>STATUS_OUT</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>_usbd_transaction</name>
@@ -3551,57 +3610,57 @@
     <member kind="enumvalue">
       <type>@</type>
       <name>IDLE</name>
-      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1</anchor>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>STALLED</name>
-      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819</anchor>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>DATA_IN</name>
-      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b</anchor>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>LAST_DATA_IN</name>
-      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a62bcb381cd430830ed90561033b84f56ad46e499dfabd69eeb4951d6f37350f78</anchor>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56ad46e499dfabd69eeb4951d6f37350f78</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>STATUS_IN</name>
-      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a62bcb381cd430830ed90561033b84f56a2b8f315a1c77155a8eb55bb2920c387f</anchor>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56a2b8f315a1c77155a8eb55bb2920c387f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>DATA_OUT</name>
-      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27</anchor>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>LAST_DATA_OUT</name>
-      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a62bcb381cd430830ed90561033b84f56ac4102e7aece07c0cd5679b2b3ff2f953</anchor>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56ac4102e7aece07c0cd5679b2b3ff2f953</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <type>@</type>
       <name>STATUS_OUT</name>
-      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>a62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3</anchor>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['data_5fin',['DATA_IN',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b',1,'_usbd_device::usb_control_state']]],
-  ['data_5fout',['DATA_OUT',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27',1,'_usbd_device::usb_control_state']]],
+  ['data_5fin',['DATA_IN',['../group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b',1,'_usbd_device::usb_control_state']]],
+  ['data_5fout',['DATA_OUT',['../group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27',1,'_usbd_device::usb_control_state']]],
   ['dcbwdatatransferlength',['dCBWDataTransferLength',['../structusb__msc__cbw.html#af2ae2bce99068e5b4ea7081f023bab2a',1,'usb_msc_cbw::dCBWDataTransferLength()'],['../usb__msc_8c.html#ac2c0350283b9f39e01d9fcd06739d44b',1,'dCBWDataTransferLength():&#160;usb_msc.c']]],
   ['dcbwsignature',['dCBWSignature',['../structusb__msc__cbw.html#a06c9f47162709307ab5f5b68c96a3119',1,'usb_msc_cbw::dCBWSignature()'],['../usb__msc_8c.html#a25dd7ce6b77786d6f489dddb6e792922',1,'dCBWSignature():&#160;usb_msc.c']]],
   ['dcbwtag',['dCBWTag',['../structusb__msc__cbw.html#a3b3a4d72d95d8ed9fdfb66d06250e546',1,'usb_msc_cbw::dCBWTag()'],['../usb__msc_8c.html#a6490a217070a49d7b312b9ae89a7a13d',1,'dCBWTag():&#160;usb_msc.c']]],

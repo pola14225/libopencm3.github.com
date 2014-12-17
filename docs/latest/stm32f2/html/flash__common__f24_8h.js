@@ -29,6 +29,7 @@ var flash__common__f24_8h =
     [ "FLASH_CR_SER", "group__flash__defines.html#gae0e561d67b381c4bd8714cd6a9c15f56", null ],
     [ "FLASH_CR_STRT", "group__flash__defines.html#gafe4dd28134f93f52b1d4ec5b36a99864", null ],
     [ "FLASH_OPTCR", "group__flash__defines.html#gadc6174996523c946b3e06cacae79cc3c", null ],
+    [ "FLASH_OPTCR1", "group__flash__defines.html#ga9787014a6cea2c7d200446e3cd14c70b", null ],
     [ "FLASH_OPTCR_BOR_LEVEL_1", "group__flash__defines.html#ga666c091085887d5b78224c2d424fed49", null ],
     [ "FLASH_OPTCR_BOR_LEVEL_2", "group__flash__defines.html#ga0f8359a3668b000537f9e7345366afc0", null ],
     [ "FLASH_OPTCR_BOR_LEVEL_3", "group__flash__defines.html#gadb28ac9db056214a018edd4876442d6f", null ],

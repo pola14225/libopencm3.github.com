@@ -29,7 +29,7 @@ var searchData=
   ['sbc_5fsense_5fkey_5funit_5fattention',['SBC_SENSE_KEY_UNIT_ATTENTION',['../usb__msc_8c.html#af26abd40ddc343bd44bf4c12c93cb20caa2d1609b26c17accb683ff05e2af2c9c',1,'usb_msc.c']]],
   ['sbc_5fsense_5fkey_5fvendor_5fspecific',['SBC_SENSE_KEY_VENDOR_SPECIFIC',['../usb__msc_8c.html#af26abd40ddc343bd44bf4c12c93cb20caba4d8fab974ef4229b2ed5574474cffb',1,'usb_msc.c']]],
   ['sbc_5fsense_5fkey_5fvolume_5foverflow',['SBC_SENSE_KEY_VOLUME_OVERFLOW',['../usb__msc_8c.html#af26abd40ddc343bd44bf4c12c93cb20cab074a7fc1941f268a56266fa803f6363',1,'usb_msc.c']]],
-  ['stalled',['STALLED',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819',1,'_usbd_device::usb_control_state']]],
+  ['stalled',['STALLED',['../group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819',1,'_usbd_device::usb_control_state']]],
   ['state_5fapp_5fdetach',['STATE_APP_DETACH',['../group__usb__dfu__defines.html#gga3f025bde53c777c5e0493ef54bbeb143a1cae6396e56ba1edfd3bc7bf4b9b6dd4',1,'dfu.h']]],
   ['state_5fapp_5fidle',['STATE_APP_IDLE',['../group__usb__dfu__defines.html#gga3f025bde53c777c5e0493ef54bbeb143a2071f71d4f5fb2435f161d1a70167ec1',1,'dfu.h']]],
   ['state_5fdfu_5fdnbusy',['STATE_DFU_DNBUSY',['../group__usb__dfu__defines.html#gga3f025bde53c777c5e0493ef54bbeb143a262a372a18004a540f3486c9d6eb77de',1,'dfu.h']]],
@@ -41,6 +41,6 @@ var searchData=
   ['state_5fdfu_5fmanifest_5fsync',['STATE_DFU_MANIFEST_SYNC',['../group__usb__dfu__defines.html#gga3f025bde53c777c5e0493ef54bbeb143a779788d8fec7d6397b6a352ce62940b7',1,'dfu.h']]],
   ['state_5fdfu_5fmanifest_5fwait_5freset',['STATE_DFU_MANIFEST_WAIT_RESET',['../group__usb__dfu__defines.html#gga3f025bde53c777c5e0493ef54bbeb143a15938a3a729a93ff2003e7c247be8371',1,'dfu.h']]],
   ['state_5fdfu_5fupload_5fidle',['STATE_DFU_UPLOAD_IDLE',['../group__usb__dfu__defines.html#gga3f025bde53c777c5e0493ef54bbeb143a86181ad59e744acb655eaa940cdf42d8',1,'dfu.h']]],
-  ['status_5fin',['STATUS_IN',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56a2b8f315a1c77155a8eb55bb2920c387f',1,'_usbd_device::usb_control_state']]],
-  ['status_5fout',['STATUS_OUT',['../struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3',1,'_usbd_device::usb_control_state']]]
+  ['status_5fin',['STATUS_IN',['../group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56a2b8f315a1c77155a8eb55bb2920c387f',1,'_usbd_device::usb_control_state']]],
+  ['status_5fout',['STATUS_OUT',['../group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3',1,'_usbd_device::usb_control_state']]]
 ];

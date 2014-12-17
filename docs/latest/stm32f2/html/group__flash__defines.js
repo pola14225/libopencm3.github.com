@@ -42,6 +42,7 @@ var group__flash__defines =
     [ "FLASH_KEYR_KEY1", "group__flash__defines.html#gaf75755c3dd5d4157820e95378ae7bb47", null ],
     [ "FLASH_KEYR_KEY2", "group__flash__defines.html#gacb42e782d41d363a3bc986d45962f2ac", null ],
     [ "FLASH_OPTCR", "group__flash__defines.html#gadc6174996523c946b3e06cacae79cc3c", null ],
+    [ "FLASH_OPTCR1", "group__flash__defines.html#ga9787014a6cea2c7d200446e3cd14c70b", null ],
     [ "FLASH_OPTCR_BOR_LEVEL_1", "group__flash__defines.html#ga666c091085887d5b78224c2d424fed49", null ],
     [ "FLASH_OPTCR_BOR_LEVEL_2", "group__flash__defines.html#ga0f8359a3668b000537f9e7345366afc0", null ],
     [ "FLASH_OPTCR_BOR_LEVEL_3", "group__flash__defines.html#gadb28ac9db056214a018edd4876442d6f", null ],

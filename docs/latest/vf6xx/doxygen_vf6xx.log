@@ -4,7 +4,7 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/vf6xx/uart.h:183: warning: end of file while inside a group
 
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/vf6xx/iomuxc.c:5: warning: multiple use of section label 'vf6xx_gpio_api_ex', (first occurrence: /home/esdentem/projects/libopencm3/libopencm3-git/lib/vf6xx/gpio.c, line 5)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/vf6xx/iomuxc.c:5: warning: multiple use of section label 'vf6xx_gpio_api_ex' while adding section, (first occurrence: /home/esdentem/projects/libopencm3/libopencm3-git/lib/vf6xx/gpio.c, line 5)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/vf6xx/gpio.c:116: warning: argument 'gpio' of command @param is not found in the argument list of gpio_port_write(uint32_t gpioport, uint32_t data)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/vf6xx/gpio.c:116: warning: The following parameters of gpio_port_write(uint32_t gpioport, uint32_t data) are not documented:
   parameter 'data'

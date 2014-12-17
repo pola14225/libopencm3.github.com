@@ -8972,6 +8972,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>FLASH_OPTCR1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9787014a6cea2c7d200446e3cd14c70b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>FLASH_ACR_DCRST</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>gac53d7c85551a9829014d6027d67ce6c7</anchor>
@@ -33233,6 +33240,13 @@
       <name>FLASH_OPTCR</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>gadc6174996523c946b3e06cacae79cc3c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OPTCR1</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga9787014a6cea2c7d200446e3cd14c70b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">

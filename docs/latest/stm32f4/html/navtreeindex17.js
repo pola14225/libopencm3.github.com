@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"group__rtc__defines.html#gac929fab94fdca2d1b3b3cf7c93fe6e49":[28,0,66,136],
+"group__rtc__defines.html#gac977dbcaf500f2aae3e4819c69dc6512":[9,1,13,131],
 "group__rtc__defines.html#gac977dbcaf500f2aae3e4819c69dc6512":[28,0,66,131],
 "group__rtc__defines.html#gaca3f81a738023a2a4ba9048f049915b8":[28,0,66,101],
 "group__rtc__defines.html#gaca3f81a738023a2a4ba9048f049915b8":[9,1,13,101],
@@ -225,16 +227,16 @@ var NAVTREEINDEX17 =
 "group__spi__defines.html#ga4cf9bda5fa58c220e6d45d6a809737c4":[28,0,70,118],
 "group__spi__defines.html#ga57072f13c2e54c12186ae8c5fdecb250":[9,1,14,42],
 "group__spi__defines.html#ga57072f13c2e54c12186ae8c5fdecb250":[28,0,70,61],
-"group__spi__defines.html#ga58730be1308b40c92e959bbcc54f3af9":[28,0,70,93],
 "group__spi__defines.html#ga58730be1308b40c92e959bbcc54f3af9":[9,1,14,76],
+"group__spi__defines.html#ga58730be1308b40c92e959bbcc54f3af9":[28,0,70,93],
 "group__spi__defines.html#ga5b22576464ecf00e80edd72c2ecb798f":[9,1,14,34],
 "group__spi__defines.html#ga5b22576464ecf00e80edd72c2ecb798f":[28,0,70,33],
 "group__spi__defines.html#ga5b3b6ae107fc37bf18e14506298d7a55":[9,1,14,44],
 "group__spi__defines.html#ga5b3b6ae107fc37bf18e14506298d7a55":[28,0,70,64],
 "group__spi__defines.html#ga5bd5d21816947fcb25ccae7d3bf8eb2c":[9,1,14,93],
 "group__spi__defines.html#ga5bd5d21816947fcb25ccae7d3bf8eb2c":[28,0,70,109],
-"group__spi__defines.html#ga5c5be1f1c8b4689643e04cd5034e7f5f":[9,1,14,63],
 "group__spi__defines.html#ga5c5be1f1c8b4689643e04cd5034e7f5f":[28,0,70,80],
+"group__spi__defines.html#ga5c5be1f1c8b4689643e04cd5034e7f5f":[9,1,14,63],
 "group__spi__defines.html#ga5cc382fdfc0efda4b928c83b6e4c4cef":[9,1,14,49],
 "group__spi__defines.html#ga5cc382fdfc0efda4b928c83b6e4c4cef":[28,0,70,69],
 "group__spi__defines.html#ga5f154374b58c0234f82ea326cb303a1e":[9,1,14,47],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "group__spi__defines.html#ga66a29efc32a31f903e89b7ddcd20857b":[28,0,70,97],
 "group__spi__defines.html#ga6761207ad6040842b8e9416295204770":[9,1,14,64],
 "group__spi__defines.html#ga6761207ad6040842b8e9416295204770":[28,0,70,81],
-"group__spi__defines.html#ga683b0840af6f7bee227ccb31d57dc36a":[9,1,14,127],
-"group__spi__defines.html#ga683b0840af6f7bee227ccb31d57dc36a":[28,0,70,143],
-"group__spi__defines.html#ga68aa7d1012026ecdd5e19fbb8a376093":[9,1,14,77]
+"group__spi__defines.html#ga683b0840af6f7bee227ccb31d57dc36a":[9,1,14,127]
 };

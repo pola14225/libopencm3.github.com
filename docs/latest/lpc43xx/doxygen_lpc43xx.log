@@ -1,0 +1,2 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc43xx/sgpio.h:16: warning: Refusing to add group sdio_defines to group LPC43xx_defines, since the latter is already a subgroup of the former
+

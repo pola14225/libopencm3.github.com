@@ -71,6 +71,7 @@ var searchData=
   ['flash_5flock_5foption_5fbytes',['flash_lock_option_bytes',['../group__flash__defines.html#ga3e656c078b282798add1874cd398f1eb',1,'flash_lock_option_bytes(void):&#160;flash_common_f24.c'],['../group__flash__file.html#ga3e656c078b282798add1874cd398f1eb',1,'flash_lock_option_bytes(void):&#160;flash_common_f24.c']]],
   ['flash_5fmem_5finterface_5fbase',['FLASH_MEM_INTERFACE_BASE',['../memorymap_8h.html#ae59d1686fa18cf0fb90452e8e51eb51e',1,'memorymap.h']]],
   ['flash_5foptcr',['FLASH_OPTCR',['../group__flash__defines.html#gadc6174996523c946b3e06cacae79cc3c',1,'flash_common_f24.h']]],
+  ['flash_5foptcr1',['FLASH_OPTCR1',['../group__flash__defines.html#ga9787014a6cea2c7d200446e3cd14c70b',1,'flash_common_f24.h']]],
   ['flash_5foptcr_5fbor_5flevel_5f1',['FLASH_OPTCR_BOR_LEVEL_1',['../group__flash__defines.html#ga666c091085887d5b78224c2d424fed49',1,'flash_common_f24.h']]],
   ['flash_5foptcr_5fbor_5flevel_5f2',['FLASH_OPTCR_BOR_LEVEL_2',['../group__flash__defines.html#ga0f8359a3668b000537f9e7345366afc0',1,'flash_common_f24.h']]],
   ['flash_5foptcr_5fbor_5flevel_5f3',['FLASH_OPTCR_BOR_LEVEL_3',['../group__flash__defines.html#gadb28ac9db056214a018edd4876442d6f',1,'flash_common_f24.h']]],

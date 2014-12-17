@@ -1,3 +1,23 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:64: warning: Refusing to add group gpio_config to group gpio_file, since the latter is already a subgroup of the former
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:376: warning: Refusing to add group gpio_control to group gpio_file, since the latter is already a subgroup of the former
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:449: warning: Refusing to add group gpio_irq to group gpio_file, since the latter is already a subgroup of the former
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:82: warning: Refusing to add group rcc_low_level to group rcc_file, since the latter is already a subgroup of the former
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/rcc.c:346: warning: Refusing to add group rcc_high_level to group rcc_file, since the latter is already a subgroup of the former
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:45: warning: Refusing to add group uart_config to group uart_file, since the latter is already a subgroup of the former
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:254: warning: Refusing to add group uart_send_recv to group uart_file, since the latter is already a subgroup of the former
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:351: warning: Refusing to add group uart_irq to group uart_file, since the latter is already a subgroup of the former
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:514: warning: Refusing to add group uart_dma to group uart_file, since the latter is already a subgroup of the former
+
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:563: warning: Refusing to add group uart_fifo to group uart_file, since the latter is already a subgroup of the former
+
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:186: warning: Member gpio_enable_ahb_aperture found in multiple @defgroup groups! The member will be put in group gpio_config, and not in group gpio_file
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:441: warning: Member gpio_toggle found in multiple @defgroup groups! The member will be put in group gpio_control, and not in group gpio_file
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/gpio.c:527: warning: Member gpio_configure_trigger found in multiple @defgroup groups! The member will be put in group gpio_irq, and not in group gpio_file

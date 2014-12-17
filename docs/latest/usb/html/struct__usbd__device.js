@@ -1,7 +1,5 @@
 var struct__usbd__device =
 [
-    [ "usb_control_state", "struct__usbd__device_1_1usb__control__state.html", "struct__usbd__device_1_1usb__control__state" ],
-    [ "user_control_callback", "struct__usbd__device_1_1user__control__callback.html", "struct__usbd__device_1_1user__control__callback" ],
     [ "config", "struct__usbd__device.html#ae60b7e4cb2c404b6e86fdf6bbafdb5d5", null ],
     [ "control_state", "struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816", null ],
     [ "ctrl_buf", "struct__usbd__device.html#ac28d5ce184bf3812d6e85be62ce27ea4", null ],
