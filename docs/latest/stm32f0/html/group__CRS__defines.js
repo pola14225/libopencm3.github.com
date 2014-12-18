@@ -49,5 +49,6 @@ var group__CRS__defines =
     [ "CRS_ISR_SYNCMISS", "group__CRS__defines.html#ga9f2241bd51b436f7b381ad410124aec5", null ],
     [ "CRS_ISR_SYNCOOKF", "group__CRS__defines.html#gab8ae43aa18602b176b69dbf6b8e60141", null ],
     [ "CRS_ISR_SYNCWARNF", "group__CRS__defines.html#ga0f33a79fec47400ab363bbf5b4b9f2b5", null ],
-    [ "CRS_ISR_TRIMOVF", "group__CRS__defines.html#gaf3852f10eb46159b7888c71e6d9cec3b", null ]
+    [ "CRS_ISR_TRIMOVF", "group__CRS__defines.html#gaf3852f10eb46159b7888c71e6d9cec3b", null ],
+    [ "crs_autotrim_usb_enable", "group__CRS__defines.html#ga01a9ce5f79f9244985f2ad45c671cd37", null ]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['lba_5fstart',['lba_start',['../structusb__msc__trans.html#a5fc80ac1c9a0eb75995e534c1d308df7',1,'usb_msc_trans']]],
-  ['lock',['lock',['../struct__usbd__mass__storage.html#a52d5214e9a68910bf14722f9efc6b02e',1,'_usbd_mass_storage']]]
+  ['jack',['jack',['../structusb__midi__endpoint__descriptor.html#a78626cc5657e05998b55fc3d346a7437',1,'usb_midi_endpoint_descriptor::jack()'],['../midi_8h.html#a135f5f40eefc4e98097e8464126b85e8',1,'jack():&#160;midi.h']]]
 ];

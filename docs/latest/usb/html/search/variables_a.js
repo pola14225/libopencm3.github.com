@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['msd_5fbuf',['msd_buf',['../structusb__msc__trans.html#a4725dac7dd085810edbf6962090b108c',1,'usb_msc_trans']]]
+  ['key',['key',['../structsbc__sense__info.html#a58afa6868e1f44924da858936bab08e0',1,'sbc_sense_info']]]
 ];

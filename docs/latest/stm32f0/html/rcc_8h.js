@@ -354,6 +354,7 @@ var rcc_8h =
       [ "RST_GPIOF", "group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a61956334f17966ab11993869be4e2ebb", null ],
       [ "RST_TSC", "group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a57a9f072c532d2a51bc40474dac84ad3", null ]
     ] ],
+    [ "rcc_clock_setup_in_hsi48_out_48mhz", "group__rcc__defines.html#ga8e517e73aea1b2e06447ed5367915a69", null ],
     [ "rcc_clock_setup_in_hsi_out_16mhz", "group__rcc__defines.html#ga996fd36ac939e39eb2a377064620250f", null ],
     [ "rcc_clock_setup_in_hsi_out_24mhz", "group__rcc__defines.html#ga63c14a3f3ed2799c6ad21564f97d0e99", null ],
     [ "rcc_clock_setup_in_hsi_out_32mhz", "group__rcc__defines.html#ga98c89d075aa469fcaa4c892b8833433f", null ],
@@ -378,7 +379,9 @@ var rcc_8h =
     [ "rcc_set_ppre", "group__rcc__defines.html#ga05a5e2fab5bb6e8de484b83588a29bee", null ],
     [ "rcc_set_prediv", "group__rcc__defines.html#ga5b592070405248d60877bba98a054aee", null ],
     [ "rcc_set_sysclk_source", "group__rcc__defines.html#ga0ce4f6c68587faf17a38d98fdcdab338", null ],
+    [ "rcc_set_usbclk_source", "group__rcc__defines.html#ga4d4414e29030719158cfdb56b7a56a1b", null ],
     [ "rcc_system_clock_source", "group__rcc__defines.html#ga229c85444fc847f9102dedab40c9165f", null ],
+    [ "rcc_usb_clock_source", "group__rcc__defines.html#ga338021f579b0bdd5a1554a596e8cd19c", null ],
     [ "rcc_wait_for_osc_ready", "group__rcc__defines.html#ga1dfd0e0ba16285ce16e782e07af2cafa", null ],
     [ "rcc_ahb_frequency", "group__rcc__defines.html#ga86f90a27c26bc25e22999419f7d08622", null ],
     [ "rcc_apb1_frequency", "group__rcc__defines.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ]

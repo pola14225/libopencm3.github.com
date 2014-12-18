@@ -1,8 +1,9 @@
 <map id="rcc_osc_on" name="rcc_osc_on">
-<area shape="rect" id="node2" href="$group__STM32F0xx-rcc-file.html#ga996fd36ac939e39eb2a377064620250f" title="rcc_clock_setup_in\l_hsi_out_16mhz" alt="" coords="143,5,277,47"/>
-<area shape="rect" id="node3" href="$group__STM32F0xx-rcc-file.html#ga63c14a3f3ed2799c6ad21564f97d0e99" title="rcc_clock_setup_in\l_hsi_out_24mhz" alt="" coords="143,71,277,112"/>
-<area shape="rect" id="node4" href="$group__STM32F0xx-rcc-file.html#ga98c89d075aa469fcaa4c892b8833433f" title="rcc_clock_setup_in\l_hsi_out_32mhz" alt="" coords="143,136,277,177"/>
-<area shape="rect" id="node5" href="$group__STM32F0xx-rcc-file.html#ga9d5e2b0fc534c6315d5d57db88812113" title="rcc_clock_setup_in\l_hsi_out_40mhz" alt="" coords="143,201,277,243"/>
-<area shape="rect" id="node6" href="$group__STM32F0xx-rcc-file.html#gadd6354a9a1404b23b5baa00b51b03cc2" title="rcc_clock_setup_in\l_hsi_out_48mhz" alt="" coords="143,267,277,308"/>
-<area shape="rect" id="node7" href="$group__STM32F0xx-rcc-file.html#gae14769a2ed83d96e2ec9ba22d3e3d62a" title="rcc_clock_setup_in\l_hsi_out_8mhz" alt="" coords="143,332,277,373"/>
+<area shape="rect" id="node2" href="$group__STM32F0xx-rcc-file.html#ga8e517e73aea1b2e06447ed5367915a69" title="rcc_clock_setup_in\l_hsi48_out_48mhz" alt="" coords="143,5,277,47"/>
+<area shape="rect" id="node3" href="$group__STM32F0xx-rcc-file.html#ga996fd36ac939e39eb2a377064620250f" title="rcc_clock_setup_in\l_hsi_out_16mhz" alt="" coords="143,71,277,112"/>
+<area shape="rect" id="node4" href="$group__STM32F0xx-rcc-file.html#ga63c14a3f3ed2799c6ad21564f97d0e99" title="rcc_clock_setup_in\l_hsi_out_24mhz" alt="" coords="143,136,277,177"/>
+<area shape="rect" id="node5" href="$group__STM32F0xx-rcc-file.html#ga98c89d075aa469fcaa4c892b8833433f" title="rcc_clock_setup_in\l_hsi_out_32mhz" alt="" coords="143,201,277,243"/>
+<area shape="rect" id="node6" href="$group__STM32F0xx-rcc-file.html#ga9d5e2b0fc534c6315d5d57db88812113" title="rcc_clock_setup_in\l_hsi_out_40mhz" alt="" coords="143,267,277,308"/>
+<area shape="rect" id="node7" href="$group__STM32F0xx-rcc-file.html#gadd6354a9a1404b23b5baa00b51b03cc2" title="rcc_clock_setup_in\l_hsi_out_48mhz" alt="" coords="143,332,277,373"/>
+<area shape="rect" id="node8" href="$group__STM32F0xx-rcc-file.html#gae14769a2ed83d96e2ec9ba22d3e3d62a" title="rcc_clock_setup_in\l_hsi_out_8mhz" alt="" coords="143,397,277,439"/>
 </map>

@@ -1,3 +1,7 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/midi.h:1: warning: group usb_audio_defines: ignoring title "USB MIDI Type Definitions" that does not match old title "USB Audio Type Definitions"
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/midi.h:1: warning: Refusing to add group usb_audio_defines to group USB_defines, since the latter is already a subgroup of the former
+
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/usb_f103.c:84: warning: The following parameters of usb_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
   parameter 'dev'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/usb.c:44: warning: The following parameters of usbd_init(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings, uint8_t *control_buffer, uint16_t control_buffer_size) are not documented:

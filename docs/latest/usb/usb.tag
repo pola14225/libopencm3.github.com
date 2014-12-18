@@ -1,6 +1,69 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile>
   <compound kind="file">
+    <name>audio.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/</path>
+    <filename>audio_8h</filename>
+    <class kind="struct">usb_audio_header_descriptor_head</class>
+    <class kind="struct">usb_audio_header_descriptor_body</class>
+    <member kind="function">
+      <type>struct usb_audio_header_descriptor_head</type>
+      <name>__attribute__</name>
+      <anchorfile>group__usb__audio__defines.html</anchorfile>
+      <anchor>gaaee0a5ff0aa053fd97f61a97733cac25</anchor>
+      <arglist>((packed))</arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bLength</name>
+      <anchorfile>audio_8h.html</anchorfile>
+      <anchor>a1deca1f1d6e5815b290e6e1015bce5b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorType</name>
+      <anchorfile>audio_8h.html</anchorfile>
+      <anchor>a67d7027b9eb9ed268d28e84fbc675707</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorSubtype</name>
+      <anchorfile>audio_8h.html</anchorfile>
+      <anchor>ac9a7544f66e5343048a779cc2f81f79e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>bcdADC</name>
+      <anchorfile>audio_8h.html</anchorfile>
+      <anchor>ada1b9320cf3664015c08cb88a94da803</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>wTotalLength</name>
+      <anchorfile>audio_8h.html</anchorfile>
+      <anchor>a866c5d9bb8a60f25805d37b7a5b5f9e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>binCollection</name>
+      <anchorfile>audio_8h.html</anchorfile>
+      <anchor>adb69d5d9a93742e74fc972022992561c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baInterfaceNr</name>
+      <anchorfile>audio_8h.html</anchorfile>
+      <anchor>ae4fde58bc5cb5b731f95bc7e0a45695e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>cdc.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/</path>
     <filename>cdc_8h</filename>
@@ -592,6 +655,199 @@
     <name>license.dox</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
     <filename>license_8dox</filename>
+  </compound>
+  <compound kind="file">
+    <name>midi.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/</path>
+    <filename>midi_8h</filename>
+    <class kind="struct">usb_midi_header_descriptor</class>
+    <class kind="struct">usb_midi_in_jack_descriptor</class>
+    <class kind="struct">usb_midi_out_jack_descriptor_head</class>
+    <class kind="struct">usb_midi_out_jack_descriptor_body</class>
+    <class kind="struct">usb_midi_out_jack_descriptor_tail</class>
+    <class kind="struct">usb_midi_out_jack_descriptor</class>
+    <class kind="struct">usb_midi_element_descriptor_head</class>
+    <class kind="struct">usb_midi_element_descriptor_body</class>
+    <class kind="struct">usb_midi_element_descriptor_tail</class>
+    <class kind="struct">usb_midi_element_descriptor</class>
+    <class kind="struct">usb_midi_endpoint_descriptor_head</class>
+    <class kind="struct">usb_midi_endpoint_descriptor_body</class>
+    <class kind="struct">usb_midi_endpoint_descriptor</class>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bLength</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a1deca1f1d6e5815b290e6e1015bce5b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorType</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a67d7027b9eb9ed268d28e84fbc675707</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorSubtype</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>ac9a7544f66e5343048a779cc2f81f79e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>bcdMSC</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>af4b12e83986d7c36f6f0b8a3a91165de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>wTotalLength</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a866c5d9bb8a60f25805d37b7a5b5f9e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bJackType</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a3b5975afbb0b59086a87f230def8b686</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bJackID</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a2a87d2bf8fba9c5650a0c93a5fd9dd28</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>iJack</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>af18ec08a72080e93d4b2ece547365ff3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bNrInputPins</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a01ba090448636e4decff2485918c890e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baSourceID</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>af05897f677536d4f86aa4e48f2655e2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baSourcePin</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a16ce648a3a7989830bbe4570588e6a59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_midi_out_jack_descriptor_head</type>
+      <name>head</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>aba8e093cf063a0c36956058434669139</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_midi_out_jack_descriptor_body</type>
+      <name>source</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a2c1444226bf3b33e9bb11e4f68b60cd0</anchor>
+      <arglist>[1]</arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_midi_out_jack_descriptor_tail</type>
+      <name>tail</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>af066436a27cb9606c5ab4249aa3f3055</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bElementID</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a8dbdc392175a725e3dedbd67fe47f45a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bNrOutputPins</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a17e60856c03aff1343beb51f5262be52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bInTerminalLink</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a4dc207e44112476206d878e490b21974</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bOutTerminalLink</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a2232352d0a0dab78271ab003b7b69ee6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bElCapsSize</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a624f0db8374fd0c4c5d49261c7efce95</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>bmElementCaps</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a5406a096e780410e35305c4dbe3e848f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>iElement</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>aa2ff4f5935dab24f9e9a8bd13de7956a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorSubType</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a7569c561e3556e7df6b24aed1ff66f28</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bNumEmbMIDIJack</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a843bf89cebf5ee2f1372fe3a22f36dab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baAssocJackID</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>af5d629eaa4cb5907a3657e1ee3d8112d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_midi_endpoint_descriptor_body</type>
+      <name>jack</name>
+      <anchorfile>midi_8h.html</anchorfile>
+      <anchor>a135f5f40eefc4e98097e8464126b85e8</anchor>
+      <arglist>[1]</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>msc.h</name>
@@ -2311,7 +2567,7 @@
       <type>const void *</type>
       <name>extra</name>
       <anchorfile>usbstd_8h.html</anchorfile>
-      <anchor>a3d34a06d558c673d3aae6ad73fc5dd01</anchor>
+      <anchor>a28cfbca8dce621e74d9da0036b1f5789</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -2403,6 +2659,33 @@
     <name>lgpl_license</name>
     <title>libopencm3 License</title>
     <filename>lgpl_license</filename>
+  </compound>
+  <compound kind="group">
+    <name>usb_audio_defines</name>
+    <title>USB Audio Type Definitions</title>
+    <filename>group__usb__audio__defines.html</filename>
+    <class kind="struct">usb_audio_header_descriptor_head</class>
+    <class kind="struct">usb_audio_header_descriptor_body</class>
+    <class kind="struct">usb_midi_header_descriptor</class>
+    <class kind="struct">usb_midi_in_jack_descriptor</class>
+    <class kind="struct">usb_midi_out_jack_descriptor_head</class>
+    <class kind="struct">usb_midi_out_jack_descriptor_body</class>
+    <class kind="struct">usb_midi_out_jack_descriptor_tail</class>
+    <class kind="struct">usb_midi_out_jack_descriptor</class>
+    <class kind="struct">usb_midi_element_descriptor_head</class>
+    <class kind="struct">usb_midi_element_descriptor_body</class>
+    <class kind="struct">usb_midi_element_descriptor_tail</class>
+    <class kind="struct">usb_midi_element_descriptor</class>
+    <class kind="struct">usb_midi_endpoint_descriptor_head</class>
+    <class kind="struct">usb_midi_endpoint_descriptor_body</class>
+    <class kind="struct">usb_midi_endpoint_descriptor</class>
+    <member kind="function">
+      <type>struct usb_audio_header_descriptor_head</type>
+      <name>__attribute__</name>
+      <anchorfile>group__usb__audio__defines.html</anchorfile>
+      <anchor>gaaee0a5ff0aa053fd97f61a97733cac25</anchor>
+      <arglist>((packed))</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>usb_cdc_defines</name>
@@ -2790,6 +3073,7 @@
     <name>USB_defines</name>
     <title>Generic USB Defines</title>
     <filename>group__USB__defines.html</filename>
+    <subgroup>usb_audio_defines</subgroup>
     <subgroup>usb_cdc_defines</subgroup>
     <subgroup>usb_dfu_defines</subgroup>
     <subgroup>usb_hid_defines</subgroup>
@@ -3961,6 +4245,63 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>usb_audio_header_descriptor_body</name>
+    <filename>structusb__audio__header__descriptor__body.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baInterfaceNr</name>
+      <anchorfile>structusb__audio__header__descriptor__body.html</anchorfile>
+      <anchor>a976e3791523c27a2e413a18ccd159508</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_audio_header_descriptor_head</name>
+    <filename>structusb__audio__header__descriptor__head.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bLength</name>
+      <anchorfile>structusb__audio__header__descriptor__head.html</anchorfile>
+      <anchor>aa0180630d1010542a44113f059a41e79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorType</name>
+      <anchorfile>structusb__audio__header__descriptor__head.html</anchorfile>
+      <anchor>a11555b5c543ad440c48e261498b50bb5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorSubtype</name>
+      <anchorfile>structusb__audio__header__descriptor__head.html</anchorfile>
+      <anchor>a7f68b758aaddfe1f26c6a4929442c020</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>bcdADC</name>
+      <anchorfile>structusb__audio__header__descriptor__head.html</anchorfile>
+      <anchor>a2a1acfe9d8eb5b43d41aa89b46696206</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>wTotalLength</name>
+      <anchorfile>structusb__audio__header__descriptor__head.html</anchorfile>
+      <anchor>a5a922f09d1805e1e2b8313bbe981a3d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>binCollection</name>
+      <anchorfile>structusb__audio__header__descriptor__head.html</anchorfile>
+      <anchor>a8f80de70c5c45029705dc4a53737eda5</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>usb_cdc_acm_descriptor</name>
     <filename>structusb__cdc__acm__descriptor.html</filename>
     <member kind="variable">
@@ -4526,6 +4867,20 @@
       <anchor>a8fbc4ec9a4230f70729db036cfc07c44</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>const void *</type>
+      <name>extra</name>
+      <anchorfile>structusb__endpoint__descriptor.html</anchorfile>
+      <anchor>a2b03a8c37d2c9ae35a59b6303b1beca5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>extralen</name>
+      <anchorfile>structusb__endpoint__descriptor.html</anchorfile>
+      <anchor>ad21f23975ef6f28490dd00ec44d3f404</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="struct">
     <name>usb_hid_descriptor</name>
@@ -4736,6 +5091,380 @@
       <name>extralen</name>
       <anchorfile>structusb__interface__descriptor.html</anchorfile>
       <anchor>ac0a7dff17ffc27fbab51c6c3da13bc8b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_element_descriptor</name>
+    <filename>structusb__midi__element__descriptor.html</filename>
+    <member kind="variable">
+      <type>struct usb_midi_element_descriptor_head</type>
+      <name>head</name>
+      <anchorfile>structusb__midi__element__descriptor.html</anchorfile>
+      <anchor>aceb705a015eba7b502de40d850c91eb4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_midi_element_descriptor_body</type>
+      <name>source</name>
+      <anchorfile>structusb__midi__element__descriptor.html</anchorfile>
+      <anchor>aeee5e8ae77bf5670b1069b7ae9532cba</anchor>
+      <arglist>[1]</arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_midi_element_descriptor_tail</type>
+      <name>tail</name>
+      <anchorfile>structusb__midi__element__descriptor.html</anchorfile>
+      <anchor>a306ed382a9fee059245496738b48e740</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_element_descriptor_body</name>
+    <filename>structusb__midi__element__descriptor__body.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baSourceID</name>
+      <anchorfile>structusb__midi__element__descriptor__body.html</anchorfile>
+      <anchor>a56ccae27bd2185a3a49d3eef491dd562</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baSourcePin</name>
+      <anchorfile>structusb__midi__element__descriptor__body.html</anchorfile>
+      <anchor>a9b77f722793a39050896084c13c43b6d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_element_descriptor_head</name>
+    <filename>structusb__midi__element__descriptor__head.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bLength</name>
+      <anchorfile>structusb__midi__element__descriptor__head.html</anchorfile>
+      <anchor>a1613513e34783e2dfc39611d9379b4ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorType</name>
+      <anchorfile>structusb__midi__element__descriptor__head.html</anchorfile>
+      <anchor>a9db38eb848c29bbe685b5e45f86aa9fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorSubtype</name>
+      <anchorfile>structusb__midi__element__descriptor__head.html</anchorfile>
+      <anchor>a1173d32b63f2677677a722af6e5031bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bElementID</name>
+      <anchorfile>structusb__midi__element__descriptor__head.html</anchorfile>
+      <anchor>af9a621981df317f25f0d629e3045c12a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bNrInputPins</name>
+      <anchorfile>structusb__midi__element__descriptor__head.html</anchorfile>
+      <anchor>af74cec8e345b84098e63feeb07ee2479</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_element_descriptor_tail</name>
+    <filename>structusb__midi__element__descriptor__tail.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bNrOutputPins</name>
+      <anchorfile>structusb__midi__element__descriptor__tail.html</anchorfile>
+      <anchor>a58b3db8faa40dbd42db4ff0a351de91d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bInTerminalLink</name>
+      <anchorfile>structusb__midi__element__descriptor__tail.html</anchorfile>
+      <anchor>ac76d2803aa85e9b2b09f7995fccc13f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bOutTerminalLink</name>
+      <anchorfile>structusb__midi__element__descriptor__tail.html</anchorfile>
+      <anchor>a264924a4abb2c6e27eeffa13c6bd598b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bElCapsSize</name>
+      <anchorfile>structusb__midi__element__descriptor__tail.html</anchorfile>
+      <anchor>aba5ed4471ad63dd812b17df04a3e1daa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>bmElementCaps</name>
+      <anchorfile>structusb__midi__element__descriptor__tail.html</anchorfile>
+      <anchor>a53c8895e3929d39d4353ff8d80ae26e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>iElement</name>
+      <anchorfile>structusb__midi__element__descriptor__tail.html</anchorfile>
+      <anchor>ace2fcaef278792de3ee16706818cd957</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_endpoint_descriptor</name>
+    <filename>structusb__midi__endpoint__descriptor.html</filename>
+    <member kind="variable">
+      <type>struct usb_midi_endpoint_descriptor_head</type>
+      <name>head</name>
+      <anchorfile>structusb__midi__endpoint__descriptor.html</anchorfile>
+      <anchor>a256a365e984c9f6f80586755b2750f04</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_midi_endpoint_descriptor_body</type>
+      <name>jack</name>
+      <anchorfile>structusb__midi__endpoint__descriptor.html</anchorfile>
+      <anchor>a78626cc5657e05998b55fc3d346a7437</anchor>
+      <arglist>[1]</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_endpoint_descriptor_body</name>
+    <filename>structusb__midi__endpoint__descriptor__body.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baAssocJackID</name>
+      <anchorfile>structusb__midi__endpoint__descriptor__body.html</anchorfile>
+      <anchor>a3c4231557c270c5c9c919c5f13d066ab</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_endpoint_descriptor_head</name>
+    <filename>structusb__midi__endpoint__descriptor__head.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bLength</name>
+      <anchorfile>structusb__midi__endpoint__descriptor__head.html</anchorfile>
+      <anchor>acf79b103e6796513067e4ffb838c99db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorType</name>
+      <anchorfile>structusb__midi__endpoint__descriptor__head.html</anchorfile>
+      <anchor>a9fade3298e6b9ee37df3e0159ad02a8e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorSubType</name>
+      <anchorfile>structusb__midi__endpoint__descriptor__head.html</anchorfile>
+      <anchor>ab80ffc4c73740580c3e75105b10abd1c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bNumEmbMIDIJack</name>
+      <anchorfile>structusb__midi__endpoint__descriptor__head.html</anchorfile>
+      <anchor>a1b7f4b897e19a2a19829a3a45a8776fb</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_header_descriptor</name>
+    <filename>structusb__midi__header__descriptor.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bLength</name>
+      <anchorfile>structusb__midi__header__descriptor.html</anchorfile>
+      <anchor>a71087f6c01aaf933a8186974dc4b98a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorType</name>
+      <anchorfile>structusb__midi__header__descriptor.html</anchorfile>
+      <anchor>a38677aa3a7ae341c58b8d1f6296ce1f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorSubtype</name>
+      <anchorfile>structusb__midi__header__descriptor.html</anchorfile>
+      <anchor>acf52a9886f0c38b96316b8b9e4abc84c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>bcdMSC</name>
+      <anchorfile>structusb__midi__header__descriptor.html</anchorfile>
+      <anchor>a11940f34334b36ef8a86aa3a660aa93b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint16_t</type>
+      <name>wTotalLength</name>
+      <anchorfile>structusb__midi__header__descriptor.html</anchorfile>
+      <anchor>afbce7cbe6f6153b4438abf653fe81fdd</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_in_jack_descriptor</name>
+    <filename>structusb__midi__in__jack__descriptor.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bLength</name>
+      <anchorfile>structusb__midi__in__jack__descriptor.html</anchorfile>
+      <anchor>a229fba7c0a7de06c1d4638a931235d28</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorType</name>
+      <anchorfile>structusb__midi__in__jack__descriptor.html</anchorfile>
+      <anchor>a5837aff52eaf6ba4d46162e224a4c343</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorSubtype</name>
+      <anchorfile>structusb__midi__in__jack__descriptor.html</anchorfile>
+      <anchor>ab4da4280a831944a77a096e19b650525</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bJackType</name>
+      <anchorfile>structusb__midi__in__jack__descriptor.html</anchorfile>
+      <anchor>aed3ddc3a4cc4f411629f6f3e3861a398</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bJackID</name>
+      <anchorfile>structusb__midi__in__jack__descriptor.html</anchorfile>
+      <anchor>af0d46ecb58995a0db0162102fbce62b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>iJack</name>
+      <anchorfile>structusb__midi__in__jack__descriptor.html</anchorfile>
+      <anchor>a2ce84280ede3290b9070342f6b1bdc14</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_out_jack_descriptor</name>
+    <filename>structusb__midi__out__jack__descriptor.html</filename>
+    <member kind="variable">
+      <type>struct usb_midi_out_jack_descriptor_head</type>
+      <name>head</name>
+      <anchorfile>structusb__midi__out__jack__descriptor.html</anchorfile>
+      <anchor>ac2b0e4425cf1122ffc97ee49cc7016c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_midi_out_jack_descriptor_body</type>
+      <name>source</name>
+      <anchorfile>structusb__midi__out__jack__descriptor.html</anchorfile>
+      <anchor>af7b76b530ba28038a6f56a2bf9a6b5fd</anchor>
+      <arglist>[1]</arglist>
+    </member>
+    <member kind="variable">
+      <type>struct usb_midi_out_jack_descriptor_tail</type>
+      <name>tail</name>
+      <anchorfile>structusb__midi__out__jack__descriptor.html</anchorfile>
+      <anchor>ad70077e82ee963308027c20645cb3a90</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_out_jack_descriptor_body</name>
+    <filename>structusb__midi__out__jack__descriptor__body.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baSourceID</name>
+      <anchorfile>structusb__midi__out__jack__descriptor__body.html</anchorfile>
+      <anchor>aa1ebef6fbc800a24bd32a37e6022d81e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>baSourcePin</name>
+      <anchorfile>structusb__midi__out__jack__descriptor__body.html</anchorfile>
+      <anchor>a8647e473dfeacbf8ccc03bbada796802</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_out_jack_descriptor_head</name>
+    <filename>structusb__midi__out__jack__descriptor__head.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bLength</name>
+      <anchorfile>structusb__midi__out__jack__descriptor__head.html</anchorfile>
+      <anchor>a1e946d2f405352b9b309459d7aea3993</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorType</name>
+      <anchorfile>structusb__midi__out__jack__descriptor__head.html</anchorfile>
+      <anchor>a20c92b4ba4bdbbed5fb44cc9139fa01a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bDescriptorSubtype</name>
+      <anchorfile>structusb__midi__out__jack__descriptor__head.html</anchorfile>
+      <anchor>a5516979e528f5e0984576d5cb75646f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bJackType</name>
+      <anchorfile>structusb__midi__out__jack__descriptor__head.html</anchorfile>
+      <anchor>ab06ae4e8630351229a6ecc01aedaf460</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bJackID</name>
+      <anchorfile>structusb__midi__out__jack__descriptor__head.html</anchorfile>
+      <anchor>ac208961c0f43a2c9bb6da46f00f09db6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>bNrInputPins</name>
+      <anchorfile>structusb__midi__out__jack__descriptor__head.html</anchorfile>
+      <anchor>a7150189cb6f34f6662304c5648b38916</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>usb_midi_out_jack_descriptor_tail</name>
+    <filename>structusb__midi__out__jack__descriptor__tail.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>iJack</name>
+      <anchorfile>structusb__midi__out__jack__descriptor__tail.html</anchorfile>
+      <anchor>a63d1b9c91210db97e930345a5d268616</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5013,10 +5742,12 @@
     <name>usb</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/</path>
     <filename>dir_279c362110dd2b35533c167407ad7c7c.html</filename>
+    <file>audio.h</file>
     <file>cdc.h</file>
     <file>dfu.h</file>
     <file>doc-usb.h</file>
     <file>hid.h</file>
+    <file>midi.h</file>
     <file>msc.h</file>
     <file>usbd.h</file>
     <file>usbstd.h</file>

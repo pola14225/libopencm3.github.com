@@ -3924,6 +3924,13 @@
     <name>crs.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/</path>
     <filename>crs_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>crs_autotrim_usb_enable</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga01a9ce5f79f9244985f2ad45c671cd37</anchor>
+      <arglist>(void)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>crs.h</name>
@@ -4278,6 +4285,13 @@
       <anchorfile>group__CRS__defines.html</anchorfile>
       <anchor>gaa42110e626aeef3ca9d76c8bda1f08d6</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crs_autotrim_usb_enable</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga01a9ce5f79f9244985f2ad45c671cd37</anchor>
+      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -12167,6 +12181,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_set_usbclk_source</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga4d4414e29030719158cfdb56b7a56a1b</anchor>
+      <arglist>(enum rcc_osc clk)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
       <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
@@ -12205,6 +12226,13 @@
       <name>rcc_system_clock_source</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
       <anchor>ga229c85444fc847f9102dedab40c9165f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>enum rcc_osc</type>
+      <name>rcc_usb_clock_source</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga338021f579b0bdd5a1554a596e8cd19c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -12247,6 +12275,13 @@
       <name>rcc_clock_setup_in_hsi_out_48mhz</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
       <anchor>gadd6354a9a1404b23b5baa00b51b03cc2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_clock_setup_in_hsi48_out_48mhz</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga8e517e73aea1b2e06447ed5367915a69</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">
@@ -14826,6 +14861,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_set_usbclk_source</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga4d4414e29030719158cfdb56b7a56a1b</anchor>
+      <arglist>(enum rcc_osc clk)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
@@ -14864,6 +14906,13 @@
       <name>rcc_system_clock_source</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga229c85444fc847f9102dedab40c9165f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>enum rcc_osc</type>
+      <name>rcc_usb_clock_source</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga338021f579b0bdd5a1554a596e8cd19c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -14906,6 +14955,13 @@
       <name>rcc_clock_setup_in_hsi_out_48mhz</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadd6354a9a1404b23b5baa00b51b03cc2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_clock_setup_in_hsi48_out_48mhz</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga8e517e73aea1b2e06447ed5367915a69</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">
@@ -29103,6 +29159,13 @@
       <anchor>gaa42110e626aeef3ca9d76c8bda1f08d6</anchor>
       <arglist></arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crs_autotrim_usb_enable</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga01a9ce5f79f9244985f2ad45c671cd37</anchor>
+      <arglist>(void)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>dac_defines</name>
@@ -35758,6 +35821,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_set_usbclk_source</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga4d4414e29030719158cfdb56b7a56a1b</anchor>
+      <arglist>(enum rcc_osc clk)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
@@ -35796,6 +35866,13 @@
       <name>rcc_system_clock_source</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga229c85444fc847f9102dedab40c9165f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>enum rcc_osc</type>
+      <name>rcc_usb_clock_source</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga338021f579b0bdd5a1554a596e8cd19c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -35838,6 +35915,13 @@
       <name>rcc_clock_setup_in_hsi_out_48mhz</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gadd6354a9a1404b23b5baa00b51b03cc2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_clock_setup_in_hsi48_out_48mhz</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga8e517e73aea1b2e06447ed5367915a69</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -47674,6 +47758,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_set_usbclk_source</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga4d4414e29030719158cfdb56b7a56a1b</anchor>
+      <arglist>(enum rcc_osc clk)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_set_pll_multiplication_factor</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
       <anchor>ga93f0715a42904d8c70bc7d1c862cf89f</anchor>
@@ -47712,6 +47803,13 @@
       <name>rcc_system_clock_source</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
       <anchor>ga229c85444fc847f9102dedab40c9165f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>enum rcc_osc</type>
+      <name>rcc_usb_clock_source</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga338021f579b0bdd5a1554a596e8cd19c</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
@@ -47754,6 +47852,13 @@
       <name>rcc_clock_setup_in_hsi_out_48mhz</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
       <anchor>gadd6354a9a1404b23b5baa00b51b03cc2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_clock_setup_in_hsi48_out_48mhz</name>
+      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
+      <anchor>ga8e517e73aea1b2e06447ed5367915a69</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">

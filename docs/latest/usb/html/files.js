@@ -1,9 +1,11 @@
 var files =
 [
+    [ "audio.h", "audio_8h.html", "audio_8h" ],
     [ "cdc.h", "cdc_8h.html", "cdc_8h" ],
     [ "dfu.h", "dfu_8h.html", "dfu_8h" ],
     [ "doc-usb.h", "doc-usb_8h.html", null ],
     [ "hid.h", "hid_8h.html", "hid_8h" ],
+    [ "midi.h", "midi_8h.html", "midi_8h" ],
     [ "msc.h", "msc_8h.html", "msc_8h" ],
     [ "usb.c", "usb_8c.html", "usb_8c" ],
     [ "usb_control.c", "usb__control_8c.html", "usb__control_8c" ],

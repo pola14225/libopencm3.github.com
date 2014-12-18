@@ -115,7 +115,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_d.html#index_d"><span>d</span></a></li>
       <li><a href="functions_e.html#index_e"><span>e</span></a></li>
       <li><a href="functions_f.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_h.html#index_h"><span>h</span></a></li>
       <li><a href="functions_i.html#index_i"><span>i</span></a></li>
+      <li><a href="functions_j.html#index_j"><span>j</span></a></li>
       <li><a href="functions_k.html#index_k"><span>k</span></a></li>
       <li><a href="functions_l.html#index_l"><span>l</span></a></li>
       <li><a href="functions_m.html#index_m"><span>m</span></a></li>
@@ -162,17 +164,34 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 <div class="textblock">Here is a list of all struct and union fields with links to the structures/unions they belong to:</div>
 
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
+<li>baAssocJackID
+: <a class="el" href="structusb__midi__endpoint__descriptor__body.html#a3c4231557c270c5c9c919c5f13d066ab">usb_midi_endpoint_descriptor_body</a>
+</li>
+<li>baInterfaceNr
+: <a class="el" href="structusb__audio__header__descriptor__body.html#a976e3791523c27a2e413a18ccd159508">usb_audio_header_descriptor_body</a>
+</li>
 <li>bAlternateSetting
 : <a class="el" href="structusb__interface__descriptor.html#aacc6f1a4e77883f97ffb0453e41c5b10">usb_interface_descriptor</a>
 </li>
 <li>base_address
 : <a class="el" href="struct__usbd__driver.html#a1e10b198b59a86710df51cb76cff31fc">_usbd_driver</a>
 </li>
+<li>baSourceID
+: <a class="el" href="structusb__midi__element__descriptor__body.html#a56ccae27bd2185a3a49d3eef491dd562">usb_midi_element_descriptor_body</a>
+, <a class="el" href="structusb__midi__out__jack__descriptor__body.html#aa1ebef6fbc800a24bd32a37e6022d81e">usb_midi_out_jack_descriptor_body</a>
+</li>
+<li>baSourcePin
+: <a class="el" href="structusb__midi__element__descriptor__body.html#a9b77f722793a39050896084c13c43b6d">usb_midi_element_descriptor_body</a>
+, <a class="el" href="structusb__midi__out__jack__descriptor__body.html#a8647e473dfeacbf8ccc03bbada796802">usb_midi_out_jack_descriptor_body</a>
+</li>
 <li>bCBWCBLength
 : <a class="el" href="structusb__msc__cbw.html#aa27e149aae7423c6dc3e430cb5a57795">usb_msc_cbw</a>
 </li>
 <li>bCBWLUN
 : <a class="el" href="structusb__msc__cbw.html#a10cb317c0fe88d24265168592ed63c6b">usb_msc_cbw</a>
+</li>
+<li>bcdADC
+: <a class="el" href="structusb__audio__header__descriptor__head.html#a2a1acfe9d8eb5b43d41aa89b46696206">usb_audio_header_descriptor_head</a>
 </li>
 <li>bcdCDC
 : <a class="el" href="structusb__cdc__header__descriptor.html#afdcf54326cb9777f27ce491615358eb3">usb_cdc_header_descriptor</a>
@@ -185,6 +204,9 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 </li>
 <li>bcdHID
 : <a class="el" href="structusb__hid__descriptor.html#af5ba1299c6b42c862f2f3e478173218d">usb_hid_descriptor</a>
+</li>
+<li>bcdMSC
+: <a class="el" href="structusb__midi__header__descriptor.html#a11940f34334b36ef8a86aa3a660aa93b">usb_midi_header_descriptor</a>
 </li>
 <li>bcdUSB
 : <a class="el" href="structusb__device__descriptor.html#aa400edb6c3183d4922411cdaf980b84e">usb_device_descriptor</a>
@@ -212,13 +234,24 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 : <a class="el" href="structusb__cdc__call__management__descriptor.html#a30aac28b5b3f592971f4c2927475f53c">usb_cdc_call_management_descriptor</a>
 </li>
 <li>bDescriptorSubtype
-: <a class="el" href="structusb__cdc__acm__descriptor.html#aa3552211a6791f3c28d635af64db5974">usb_cdc_acm_descriptor</a>
+: <a class="el" href="structusb__audio__header__descriptor__head.html#a7f68b758aaddfe1f26c6a4929442c020">usb_audio_header_descriptor_head</a>
+, <a class="el" href="structusb__cdc__acm__descriptor.html#aa3552211a6791f3c28d635af64db5974">usb_cdc_acm_descriptor</a>
 , <a class="el" href="structusb__cdc__call__management__descriptor.html#af0ae057cfc3b3ce11a331c71b55fb141">usb_cdc_call_management_descriptor</a>
 , <a class="el" href="structusb__cdc__header__descriptor.html#a0d866395c42693d23c954afdd891c914">usb_cdc_header_descriptor</a>
 , <a class="el" href="structusb__cdc__union__descriptor.html#aaae2bfc7d765011a39150b818b75b243">usb_cdc_union_descriptor</a>
+, <a class="el" href="structusb__midi__element__descriptor__head.html#a1173d32b63f2677677a722af6e5031bb">usb_midi_element_descriptor_head</a>
+</li>
+<li>bDescriptorSubType
+: <a class="el" href="structusb__midi__endpoint__descriptor__head.html#ab80ffc4c73740580c3e75105b10abd1c">usb_midi_endpoint_descriptor_head</a>
+</li>
+<li>bDescriptorSubtype
+: <a class="el" href="structusb__midi__header__descriptor.html#acf52a9886f0c38b96316b8b9e4abc84c">usb_midi_header_descriptor</a>
+, <a class="el" href="structusb__midi__in__jack__descriptor.html#ab4da4280a831944a77a096e19b650525">usb_midi_in_jack_descriptor</a>
+, <a class="el" href="structusb__midi__out__jack__descriptor__head.html#a5516979e528f5e0984576d5cb75646f3">usb_midi_out_jack_descriptor_head</a>
 </li>
 <li>bDescriptorType
-: <a class="el" href="structusb__cdc__acm__descriptor.html#ab5d042a59b24537a0d5b1987e0f7682f">usb_cdc_acm_descriptor</a>
+: <a class="el" href="structusb__audio__header__descriptor__head.html#a11555b5c543ad440c48e261498b50bb5">usb_audio_header_descriptor_head</a>
+, <a class="el" href="structusb__cdc__acm__descriptor.html#ab5d042a59b24537a0d5b1987e0f7682f">usb_cdc_acm_descriptor</a>
 , <a class="el" href="structusb__cdc__call__management__descriptor.html#a26926afbc81c6d76a0b214f982395c06">usb_cdc_call_management_descriptor</a>
 , <a class="el" href="structusb__cdc__header__descriptor.html#aa888fac376fb790cabe6e103303bc124">usb_cdc_header_descriptor</a>
 , <a class="el" href="structusb__cdc__union__descriptor.html#a12a70496baf70c311a5362d2955e9f78">usb_cdc_union_descriptor</a>
@@ -230,6 +263,11 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 , <a class="el" href="structusb__hid__descriptor.html#a01533992789ba6c7306e0f97c1c01765">usb_hid_descriptor</a>
 , <a class="el" href="structusb__iface__assoc__descriptor.html#a34948c1c676d39917281d2e890f1455b">usb_iface_assoc_descriptor</a>
 , <a class="el" href="structusb__interface__descriptor.html#a757761276c9053ed877cee89cba167ea">usb_interface_descriptor</a>
+, <a class="el" href="structusb__midi__element__descriptor__head.html#a9db38eb848c29bbe685b5e45f86aa9fa">usb_midi_element_descriptor_head</a>
+, <a class="el" href="structusb__midi__endpoint__descriptor__head.html#a9fade3298e6b9ee37df3e0159ad02a8e">usb_midi_endpoint_descriptor_head</a>
+, <a class="el" href="structusb__midi__header__descriptor.html#a38677aa3a7ae341c58b8d1f6296ce1f0">usb_midi_header_descriptor</a>
+, <a class="el" href="structusb__midi__in__jack__descriptor.html#a5837aff52eaf6ba4d46162e224a4c343">usb_midi_in_jack_descriptor</a>
+, <a class="el" href="structusb__midi__out__jack__descriptor__head.html#a20c92b4ba4bdbbed5fb44cc9139fa01a">usb_midi_out_jack_descriptor_head</a>
 , <a class="el" href="structusb__string__descriptor.html#a37d44e07cb6d5b449b03fb70c9677b15">usb_string_descriptor</a>
 </li>
 <li>bDeviceClass
@@ -243,6 +281,12 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 <li>bDeviceSubClass
 : <a class="el" href="structusb__device__descriptor.html#aecfbe730bc3eeccc9c4b5fd17f5f3c3c">usb_device_descriptor</a>
 , <a class="el" href="structusb__device__qualifier__descriptor.html#a9335b5c4955f68463484b55eb480a1fb">usb_device_qualifier_descriptor</a>
+</li>
+<li>bElCapsSize
+: <a class="el" href="structusb__midi__element__descriptor__tail.html#aba5ed4471ad63dd812b17df04a3e1daa">usb_midi_element_descriptor_tail</a>
+</li>
+<li>bElementID
+: <a class="el" href="structusb__midi__element__descriptor__head.html#af9a621981df317f25f0d629e3045c12a">usb_midi_element_descriptor_head</a>
 </li>
 <li>bEndpointAddress
 : <a class="el" href="structusb__endpoint__descriptor.html#a5007051761d339b5bb27268a016947a5">usb_endpoint_descriptor</a>
@@ -265,6 +309,9 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 <li>bFunctionSubClass
 : <a class="el" href="structusb__iface__assoc__descriptor.html#adfcaabfcb88f3965ad3e44641dc4add9">usb_iface_assoc_descriptor</a>
 </li>
+<li>binCollection
+: <a class="el" href="structusb__audio__header__descriptor__head.html#a8f80de70c5c45029705dc4a53737eda5">usb_audio_header_descriptor_head</a>
+</li>
 <li>bInterfaceClass
 : <a class="el" href="structusb__interface__descriptor.html#acccd957d6f023f3d4701abd491c45cf6">usb_interface_descriptor</a>
 </li>
@@ -280,11 +327,23 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 <li>bInterfaceSubClass
 : <a class="el" href="structusb__interface__descriptor.html#ac807fb07b6b89886836ad5c1253dae82">usb_interface_descriptor</a>
 </li>
+<li>bInTerminalLink
+: <a class="el" href="structusb__midi__element__descriptor__tail.html#ac76d2803aa85e9b2b09f7995fccc13f8">usb_midi_element_descriptor_tail</a>
+</li>
 <li>bInterval
 : <a class="el" href="structusb__endpoint__descriptor.html#a8fbc4ec9a4230f70729db036cfc07c44">usb_endpoint_descriptor</a>
 </li>
+<li>bJackID
+: <a class="el" href="structusb__midi__in__jack__descriptor.html#af0d46ecb58995a0db0162102fbce62b9">usb_midi_in_jack_descriptor</a>
+, <a class="el" href="structusb__midi__out__jack__descriptor__head.html#ac208961c0f43a2c9bb6da46f00f09db6">usb_midi_out_jack_descriptor_head</a>
+</li>
+<li>bJackType
+: <a class="el" href="structusb__midi__in__jack__descriptor.html#aed3ddc3a4cc4f411629f6f3e3861a398">usb_midi_in_jack_descriptor</a>
+, <a class="el" href="structusb__midi__out__jack__descriptor__head.html#ab06ae4e8630351229a6ecc01aedaf460">usb_midi_out_jack_descriptor_head</a>
+</li>
 <li>bLength
-: <a class="el" href="structusb__config__descriptor.html#aaa38eade89cca96312968258eaeade9d">usb_config_descriptor</a>
+: <a class="el" href="structusb__audio__header__descriptor__head.html#aa0180630d1010542a44113f059a41e79">usb_audio_header_descriptor_head</a>
+, <a class="el" href="structusb__config__descriptor.html#aaa38eade89cca96312968258eaeade9d">usb_config_descriptor</a>
 , <a class="el" href="structusb__device__descriptor.html#af3f980ad55af3fd6c222a8802996ab63">usb_device_descriptor</a>
 , <a class="el" href="structusb__device__qualifier__descriptor.html#ab1bf7ff669706ee5370f90d72f2a6856">usb_device_qualifier_descriptor</a>
 , <a class="el" href="structusb__dfu__descriptor.html#aaae3ed6f5fc202453e5a295b25c391e0">usb_dfu_descriptor</a>
@@ -292,6 +351,11 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 , <a class="el" href="structusb__hid__descriptor.html#adedc57a5e5e9873d1cb7d00d69bfe1c7">usb_hid_descriptor</a>
 , <a class="el" href="structusb__iface__assoc__descriptor.html#a433ae49c3f435e75e10f401ecb68a1b5">usb_iface_assoc_descriptor</a>
 , <a class="el" href="structusb__interface__descriptor.html#a7959ad865fb5527dba879ded533f5976">usb_interface_descriptor</a>
+, <a class="el" href="structusb__midi__element__descriptor__head.html#a1613513e34783e2dfc39611d9379b4ef">usb_midi_element_descriptor_head</a>
+, <a class="el" href="structusb__midi__endpoint__descriptor__head.html#acf79b103e6796513067e4ffb838c99db">usb_midi_endpoint_descriptor_head</a>
+, <a class="el" href="structusb__midi__header__descriptor.html#a71087f6c01aaf933a8186974dc4b98a9">usb_midi_header_descriptor</a>
+, <a class="el" href="structusb__midi__in__jack__descriptor.html#a229fba7c0a7de06c1d4638a931235d28">usb_midi_in_jack_descriptor</a>
+, <a class="el" href="structusb__midi__out__jack__descriptor__head.html#a1e946d2f405352b9b309459d7aea3993">usb_midi_out_jack_descriptor_head</a>
 , <a class="el" href="structusb__string__descriptor.html#a93d9bb7c2c44f6f0cae1a871a4a18789">usb_string_descriptor</a>
 </li>
 <li>block_count
@@ -317,12 +381,22 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 <li>bmCBWFlags
 : <a class="el" href="structusb__msc__cbw.html#a8331a5d04e78012779cdf5a568af90b9">usb_msc_cbw</a>
 </li>
+<li>bmElementCaps
+: <a class="el" href="structusb__midi__element__descriptor__tail.html#a53c8895e3929d39d4353ff8d80ae26e5">usb_midi_element_descriptor_tail</a>
+</li>
 <li>bmRequestType
 : <a class="el" href="structusb__cdc__notification.html#af7514a608ecfe83cd2a8481b7d62fe3b">usb_cdc_notification</a>
 , <a class="el" href="structusb__setup__data.html#a593d22b430d1bd2f80a7c8795a4659fb">usb_setup_data</a>
 </li>
 <li>bNotification
 : <a class="el" href="structusb__cdc__notification.html#a9d2b9a84431e32f2380bda292eb7c5f2">usb_cdc_notification</a>
+</li>
+<li>bNrInputPins
+: <a class="el" href="structusb__midi__element__descriptor__head.html#af74cec8e345b84098e63feeb07ee2479">usb_midi_element_descriptor_head</a>
+, <a class="el" href="structusb__midi__out__jack__descriptor__head.html#a7150189cb6f34f6662304c5648b38916">usb_midi_out_jack_descriptor_head</a>
+</li>
+<li>bNrOutputPins
+: <a class="el" href="structusb__midi__element__descriptor__tail.html#a58b3db8faa40dbd42db4ff0a351de91d">usb_midi_element_descriptor_tail</a>
 </li>
 <li>bNumConfigurations
 : <a class="el" href="structusb__device__descriptor.html#a603204b0517e9ece9bc0d8476b2a7cdc">usb_device_descriptor</a>
@@ -331,11 +405,17 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 <li>bNumDescriptors
 : <a class="el" href="structusb__hid__descriptor.html#a0f0d0cf9739138f069273f284490e0d8">usb_hid_descriptor</a>
 </li>
+<li>bNumEmbMIDIJack
+: <a class="el" href="structusb__midi__endpoint__descriptor__head.html#a1b7f4b897e19a2a19829a3a45a8776fb">usb_midi_endpoint_descriptor_head</a>
+</li>
 <li>bNumEndpoints
 : <a class="el" href="structusb__interface__descriptor.html#a1fa779eda460fd7f670f7e1adeceed94">usb_interface_descriptor</a>
 </li>
 <li>bNumInterfaces
 : <a class="el" href="structusb__config__descriptor.html#a712744e37c3759b311131278ec2cf074">usb_config_descriptor</a>
+</li>
+<li>bOutTerminalLink
+: <a class="el" href="structusb__midi__element__descriptor__tail.html#a264924a4abb2c6e27eeffa13c6bd598b">usb_midi_element_descriptor_tail</a>
 </li>
 <li>bParityType
 : <a class="el" href="structusb__cdc__line__coding.html#ad1b91d6baa7411fa9f6341140f5ac216">usb_cdc_line_coding</a>
@@ -367,7 +447,7 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Dec 18 2014 23:21:15 for libopencm3 by
+    <li class="footer">Generated on Fri Dec 19 2014 00:21:10 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -11,7 +11,7 @@ var files =
     [ "crc.h", "crc_8h.html", "crc_8h" ],
     [ "crc_common_all.c", "crc__common__all_8c.html", "crc__common__all_8c" ],
     [ "crc_common_all.h", "crc__common__all_8h.html", "crc__common__all_8h" ],
-    [ "crs.c", "crs_8c.html", null ],
+    [ "crs.c", "crs_8c.html", "crs_8c" ],
     [ "crs.h", "crs_8h.html", "crs_8h" ],
     [ "dac.c", "dac_8c.html", null ],
     [ "dac.h", "dac_8h.html", "dac_8h" ],

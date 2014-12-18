@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['usb_20audio_20type_20definitions',['USB Audio Type Definitions',['../group__usb__audio__defines.html',1,'']]],
   ['usb_20cdc_20type_20definitions',['USB CDC Type Definitions',['../group__usb__cdc__defines.html',1,'']]],
   ['usb_20dfu_20type_20definitions',['USB DFU Type Definitions',['../group__usb__dfu__defines.html',1,'']]],
   ['usb_20drivers',['USB Drivers',['../group__usb__driver__defines.html',1,'']]],

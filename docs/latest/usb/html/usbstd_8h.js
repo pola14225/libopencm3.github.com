@@ -36,7 +36,7 @@ var usbstd_8h =
     [ "bRequest", "usbstd_8h.html#a1e7be110861bd4ff75c86d5214f31543", null ],
     [ "bReserved", "usbstd_8h.html#ab8303f57004812636de0daff446b975a", null ],
     [ "endpoint", "usbstd_8h.html#ad9632438abef761b213b1c19f02983ab", null ],
-    [ "extra", "usbstd_8h.html#a3d34a06d558c673d3aae6ad73fc5dd01", null ],
+    [ "extra", "usbstd_8h.html#a28cfbca8dce621e74d9da0036b1f5789", null ],
     [ "extralen", "usbstd_8h.html#aceea3d2ad4e8495c4356caa0afc8d590", null ],
     [ "iConfiguration", "usbstd_8h.html#a5ad4440b4eb1935d66b154d274f8a272", null ],
     [ "idProduct", "usbstd_8h.html#a2cf29745398a958349d784b1911c6b2b", null ],

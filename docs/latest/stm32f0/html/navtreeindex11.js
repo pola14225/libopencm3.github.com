@@ -1,5 +1,14 @@
 var NAVTREEINDEX11 =
 {
+"group__i2c__defines.html#ga9c45f244fee2f34d1cb10fc7accd5af8":[27,0,37,143],
+"group__i2c__defines.html#ga9c45f244fee2f34d1cb10fc7accd5af8":[5,1,10,99],
+"group__i2c__defines.html#gaa07cf3e404f9f57e98d1ba3793079c80":[27,0,37,116],
+"group__i2c__defines.html#gaa07cf3e404f9f57e98d1ba3793079c80":[5,1,10,73],
+"group__i2c__defines.html#gaa3ab44e02ffd8a6808189d7a9deba130":[27,0,37,123],
+"group__i2c__defines.html#gaa3ab44e02ffd8a6808189d7a9deba130":[5,1,10,79],
+"group__i2c__defines.html#gaa41329957878f19aacd29692b605cbb0":[27,0,37,88],
+"group__i2c__defines.html#gaa41329957878f19aacd29692b605cbb0":[5,1,10,46],
+"group__i2c__defines.html#gaa8345463eb1d0075a7e52a5b5627a29c":[27,0,37,7],
 "group__i2c__defines.html#gaa8345463eb1d0075a7e52a5b5627a29c":[5,1,10,10],
 "group__i2c__defines.html#gaa8903f4abb50b0fb39cb5b91987c4d88":[27,0,37,13],
 "group__i2c__defines.html#gaa8903f4abb50b0fb39cb5b91987c4d88":[5,1,10,15],
@@ -240,14 +249,5 @@ var NAVTREEINDEX11 =
 "group__pwr__defines.html#ga8c8075e98772470804c9e3fe74984115":[5,1,12,6],
 "group__pwr__defines.html#ga932a753dc0d66718aaaab22b9d75aa97":[27,0,46,26],
 "group__pwr__defines.html#ga932a753dc0d66718aaaab22b9d75aa97":[5,1,12,19],
-"group__pwr__defines.html#ga9465bb7ad9ca936688344e2a077539e6":[27,0,46,21],
-"group__pwr__defines.html#ga9465bb7ad9ca936688344e2a077539e6":[5,1,12,14],
-"group__pwr__defines.html#gaa985590fc7eadc3a93a41fb59a85c9e1":[27,0,46,35],
-"group__pwr__defines.html#gaa985590fc7eadc3a93a41fb59a85c9e1":[5,1,12,28],
-"group__pwr__defines.html#gab44484cacc35c80cf82eb011d6cbe13a":[27,0,46,1],
-"group__pwr__defines.html#gab44484cacc35c80cf82eb011d6cbe13a":[5,1,12,2],
-"group__pwr__defines.html#gab4fd42f153660593cad6f4fe22ff76bb":[27,0,46,20],
-"group__pwr__defines.html#gab4fd42f153660593cad6f4fe22ff76bb":[5,1,12,13],
-"group__pwr__defines.html#gac69631a0b97e81ef5b94b6a46c22c521":[27,0,46,31],
-"group__pwr__defines.html#gac69631a0b97e81ef5b94b6a46c22c521":[5,1,12,24]
+"group__pwr__defines.html#ga9465bb7ad9ca936688344e2a077539e6":[27,0,46,21]
 };

@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['wdata',['wData',['../structusb__string__descriptor.html#a7a4591429d5e3f3ecc574b31596f851b',1,'usb_string_descriptor::wData()'],['../usbstd_8h.html#a6a2ad4cf42839c148443411bbd9d8805',1,'wData():&#160;usbstd.h']]],
-  ['wdetachtimeout',['wDetachTimeout',['../structusb__dfu__descriptor.html#a1c30b936c3e7ab6d94cd14464394a818',1,'usb_dfu_descriptor::wDetachTimeout()'],['../dfu_8h.html#aba725b47e591dfa9a30a01e80fa1aa49',1,'wDetachTimeout():&#160;dfu.h']]],
-  ['windex',['wIndex',['../structusb__cdc__notification.html#a16a0d11a8158e6b5532d8aa24fc09da6',1,'usb_cdc_notification::wIndex()'],['../structusb__setup__data.html#a2ed7d2d64541da9f237a13435edd3f3a',1,'usb_setup_data::wIndex()'],['../cdc_8h.html#adc578ce35d89d52deba61ee6f312f177',1,'wIndex():&#160;cdc.h'],['../usbstd_8h.html#adc578ce35d89d52deba61ee6f312f177',1,'wIndex():&#160;usbstd.h']]],
-  ['wlength',['wLength',['../structusb__cdc__notification.html#a9fa99e9c9fd2abd8c3bc5fbcb04b290b',1,'usb_cdc_notification::wLength()'],['../structusb__setup__data.html#ae8dc4ecb24d13bb2ad31ab8b313fd3e2',1,'usb_setup_data::wLength()'],['../cdc_8h.html#a496c03443b177fd2e6c93616064d2934',1,'wLength():&#160;cdc.h'],['../usbstd_8h.html#a496c03443b177fd2e6c93616064d2934',1,'wLength():&#160;usbstd.h']]],
-  ['wmaxpacketsize',['wMaxPacketSize',['../structusb__endpoint__descriptor.html#a0b665a4fbe5daf9ede7ae18d75e1c744',1,'usb_endpoint_descriptor::wMaxPacketSize()'],['../usbstd_8h.html#abcc8edb1d5094ce6a16b42c1a7ae67d8',1,'wMaxPacketSize():&#160;usbstd.h']]],
-  ['write_5fblock',['write_block',['../struct__usbd__mass__storage.html#a76a59962f5bd5b26f904b2cd2a763190',1,'_usbd_mass_storage']]],
-  ['wtotallength',['wTotalLength',['../structusb__config__descriptor.html#a09fb7940f26366f7f0aedb496a18b97c',1,'usb_config_descriptor::wTotalLength()'],['../usbstd_8h.html#a866c5d9bb8a60f25805d37b7a5b5f9e8',1,'wTotalLength():&#160;usbstd.h']]],
-  ['wtransfersize',['wTransferSize',['../structusb__dfu__descriptor.html#a6f28ae6870039d8ba994a2aed1d6b8b9',1,'usb_dfu_descriptor::wTransferSize()'],['../dfu_8h.html#abf7c6492df9b515329616580afb383d2',1,'wTransferSize():&#160;dfu.h']]],
-  ['wvalue',['wValue',['../structusb__cdc__notification.html#aefff96f443fd9d7ca49a897a9303d647',1,'usb_cdc_notification::wValue()'],['../structusb__setup__data.html#a8c0e8f7a6d919a7a05c93f6cf5b22b0b',1,'usb_setup_data::wValue()'],['../cdc_8h.html#a7383d0165ad8eab48aa239c005199121',1,'wValue():&#160;cdc.h'],['../usbstd_8h.html#a7383d0165ad8eab48aa239c005199121',1,'wValue():&#160;usbstd.h']]]
+  ['unlock',['unlock',['../struct__usbd__mass__storage.html#a64460c81158a9c6ff1710627140f7372',1,'_usbd_mass_storage']]],
+  ['usbd_5fdev',['usbd_dev',['../struct__usbd__mass__storage.html#a9fec9c49a4e06c7ede13d4b3418eea19',1,'_usbd_mass_storage::usbd_dev()'],['../usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f103.c'],['../usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f107.c'],['../usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f207.c']]],
+  ['user_5fcallback_5fctr',['user_callback_ctr',['../struct__usbd__device.html#a6e82880b623706d1dd345e54fed03445',1,'_usbd_device']]],
+  ['user_5fcallback_5freset',['user_callback_reset',['../struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488',1,'_usbd_device']]],
+  ['user_5fcallback_5fresume',['user_callback_resume',['../struct__usbd__device.html#acaf5ea2b1ee04aaa31407f99dc98316c',1,'_usbd_device']]],
+  ['user_5fcallback_5fset_5fconfig',['user_callback_set_config',['../struct__usbd__device.html#a87d8f0db30486e8a4d2369d95a826e3f',1,'_usbd_device']]],
+  ['user_5fcallback_5fsof',['user_callback_sof',['../struct__usbd__device.html#ac0918a3ad67373dbf43e873c1d1b026e',1,'_usbd_device']]],
+  ['user_5fcallback_5fsuspend',['user_callback_suspend',['../struct__usbd__device.html#a82eeeabe86839be7e3acdd1d6bd81c73',1,'_usbd_device']]],
+  ['user_5fcontrol_5fcallback',['user_control_callback',['../struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4',1,'_usbd_device']]]
 ];

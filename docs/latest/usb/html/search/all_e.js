@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['pm_5ftop',['pm_top',['../struct__usbd__device.html#a46873de4e0e3671bb54bd6f7f7f75acd',1,'_usbd_device']]],
-  ['poll',['poll',['../struct__usbd__driver.html#a89634686f1bc08d0f550d89378700f73',1,'_usbd_driver']]],
-  ['product_5fid',['product_id',['../struct__usbd__mass__storage.html#abb7b48b3662cf537a233db009b74e338',1,'_usbd_mass_storage']]],
-  ['product_5frevision_5flevel',['product_revision_level',['../struct__usbd__mass__storage.html#aaf80a7a068a13697e71898911ffb0ccd',1,'_usbd_mass_storage']]]
+  ['num_5faltsetting',['num_altsetting',['../structusb__config__descriptor_1_1usb__interface.html#a13a3a3923829d695fa85236b83205b1a',1,'usb_config_descriptor::usb_interface::num_altsetting()'],['../structusb__interface.html#aa4f464af60066d059eb5c75b91870a6c',1,'usb_interface::num_altsetting()']]],
+  ['num_5fstrings',['num_strings',['../struct__usbd__device.html#a3fe1f0382e2bc3e687152bc47b7e4342',1,'_usbd_device']]]
 ];

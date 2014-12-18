@@ -1,5 +1,6 @@
 var group__STM32F0xx_rcc_file =
 [
+    [ "rcc_clock_setup_in_hsi48_out_48mhz", "group__STM32F0xx-rcc-file.html#ga8e517e73aea1b2e06447ed5367915a69", null ],
     [ "rcc_clock_setup_in_hsi_out_16mhz", "group__STM32F0xx-rcc-file.html#ga996fd36ac939e39eb2a377064620250f", null ],
     [ "rcc_clock_setup_in_hsi_out_24mhz", "group__STM32F0xx-rcc-file.html#ga63c14a3f3ed2799c6ad21564f97d0e99", null ],
     [ "rcc_clock_setup_in_hsi_out_32mhz", "group__STM32F0xx-rcc-file.html#ga98c89d075aa469fcaa4c892b8833433f", null ],
@@ -24,7 +25,9 @@ var group__STM32F0xx_rcc_file =
     [ "rcc_set_ppre", "group__STM32F0xx-rcc-file.html#ga05a5e2fab5bb6e8de484b83588a29bee", null ],
     [ "rcc_set_prediv", "group__STM32F0xx-rcc-file.html#ga5b592070405248d60877bba98a054aee", null ],
     [ "rcc_set_sysclk_source", "group__STM32F0xx-rcc-file.html#ga0ce4f6c68587faf17a38d98fdcdab338", null ],
+    [ "rcc_set_usbclk_source", "group__STM32F0xx-rcc-file.html#ga4d4414e29030719158cfdb56b7a56a1b", null ],
     [ "rcc_system_clock_source", "group__STM32F0xx-rcc-file.html#ga229c85444fc847f9102dedab40c9165f", null ],
+    [ "rcc_usb_clock_source", "group__STM32F0xx-rcc-file.html#ga338021f579b0bdd5a1554a596e8cd19c", null ],
     [ "rcc_wait_for_osc_ready", "group__STM32F0xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa", null ],
     [ "rcc_ahb_frequency", "group__STM32F0xx-rcc-file.html#ga86f90a27c26bc25e22999419f7d08622", null ],
     [ "rcc_apb1_frequency", "group__STM32F0xx-rcc-file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ]

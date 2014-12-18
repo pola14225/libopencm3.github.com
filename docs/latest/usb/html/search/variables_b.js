@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['num_5faltsetting',['num_altsetting',['../structusb__config__descriptor_1_1usb__interface.html#a13a3a3923829d695fa85236b83205b1a',1,'usb_config_descriptor::usb_interface::num_altsetting()'],['../structusb__interface.html#aa4f464af60066d059eb5c75b91870a6c',1,'usb_interface::num_altsetting()']]],
-  ['num_5fstrings',['num_strings',['../struct__usbd__device.html#a3fe1f0382e2bc3e687152bc47b7e4342',1,'_usbd_device']]]
+  ['lba_5fstart',['lba_start',['../structusb__msc__trans.html#a5fc80ac1c9a0eb75995e534c1d308df7',1,'usb_msc_trans']]],
+  ['lock',['lock',['../struct__usbd__mass__storage.html#a52d5214e9a68910bf14722f9efc6b02e',1,'_usbd_mass_storage']]]
 ];
