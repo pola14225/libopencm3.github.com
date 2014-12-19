@@ -608,7 +608,7 @@ Here is the call graph for this function:</div>
 <p>See the reference manual or the FLASH programming manual for details.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>sector (0 - 11). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>sector (0 - 11 for some parts, 0-23 on others) </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">program_size</td><td>0 (8-bit), 1 (16-bit), 2 (32-bit), 3 (64-bit) </td></tr>
   </table>
   </dd>
@@ -616,7 +616,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00358">358</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00075">FLASH_CR_SER</a>, <a class="el" href="flash__common__f24_8h_source.html#l00073">FLASH_CR_STRT</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00075">FLASH_CR_SER</a>, <a class="el" href="flash__common__f24_8h_source.html#l00078">FLASH_CR_SNB_MASK</a>, <a class="el" href="flash__common__f24_8h_source.html#l00077">FLASH_CR_SNB_SHIFT</a>, <a class="el" href="flash__common__f24_8h_source.html#l00073">FLASH_CR_STRT</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -738,7 +738,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00207">207</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f24_8h_source.html#l00047">FLASH_OPTCR</a>, and <a class="el" href="flash__common__f24_8h_source.html#l00102">FLASH_OPTCR_OPTLOCK</a>.</p>
+<p>References <a class="el" href="flash__common__f24_8h_source.html#l00047">FLASH_OPTCR</a>, and <a class="el" href="flash__common__f24_8h_source.html#l00092">FLASH_OPTCR_OPTLOCK</a>.</p>
 
 </div>
 </div>
@@ -881,7 +881,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00308">308</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00076">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00089">FLASH_CR_PROGRAM_X8</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00076">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00079">FLASH_CR_PROGRAM_X8</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
 
 <p>Referenced by <a class="el" href="flash__common__f24_8c_source.html#l00334">flash_program()</a>.</p>
 
@@ -941,7 +941,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00223">223</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00076">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00092">FLASH_CR_PROGRAM_X64</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00076">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00082">FLASH_CR_PROGRAM_X64</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -990,7 +990,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00283">283</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00076">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00090">FLASH_CR_PROGRAM_X16</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00076">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00080">FLASH_CR_PROGRAM_X16</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1028,7 +1028,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00403">403</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f24_8h_source.html#l00047">FLASH_OPTCR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00102">FLASH_OPTCR_OPTLOCK</a>, <a class="el" href="flash__common__f24_8h_source.html#l00101">FLASH_OPTCR_OPTSTRT</a>, <a class="el" href="flash__common__f24_8c_source.html#l00190">flash_unlock_option_bytes()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f24_8h_source.html#l00047">FLASH_OPTCR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00092">FLASH_OPTCR_OPTLOCK</a>, <a class="el" href="flash__common__f24_8h_source.html#l00091">FLASH_OPTCR_OPTSTRT</a>, <a class="el" href="flash__common__f24_8c_source.html#l00190">flash_unlock_option_bytes()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1077,7 +1077,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00253">253</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00076">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00091">FLASH_CR_PROGRAM_X32</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f234_8h_source.html#l00049">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00076">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00081">FLASH_CR_PROGRAM_X32</a>, <a class="el" href="flash__common__f24_8c_source.html#l00039">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1220,7 +1220,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00190">190</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f24_8h_source.html#l00047">FLASH_OPTCR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00102">FLASH_OPTCR_OPTLOCK</a>, <a class="el" href="flash__common__f234_8h_source.html#l00047">FLASH_OPTKEYR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00114">FLASH_OPTKEYR_KEY1</a>, and <a class="el" href="flash__common__f24_8h_source.html#l00115">FLASH_OPTKEYR_KEY2</a>.</p>
+<p>References <a class="el" href="flash__common__f24_8h_source.html#l00047">FLASH_OPTCR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00092">FLASH_OPTCR_OPTLOCK</a>, <a class="el" href="flash__common__f234_8h_source.html#l00047">FLASH_OPTKEYR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00104">FLASH_OPTKEYR_KEY1</a>, and <a class="el" href="flash__common__f24_8h_source.html#l00105">FLASH_OPTKEYR_KEY2</a>.</p>
 
 <p>Referenced by <a class="el" href="flash__common__f24_8c_source.html#l00403">flash_program_option_bytes()</a>.</p>
 
@@ -1274,7 +1274,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 19 2014 00:21:52 for libopencm3 by
+    <li class="footer">Generated on Fri Dec 19 2014 01:21:51 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

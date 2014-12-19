@@ -9112,86 +9112,16 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>FLASH_CR_SECTOR_0</name>
+      <name>FLASH_CR_SNB_SHIFT</name>
       <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gadedf234cb7d56071dd3ab3b83b672867</anchor>
+      <anchor>gafcbe99c1501d132b669c5691b97da1b6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>FLASH_CR_SECTOR_1</name>
+      <name>FLASH_CR_SNB_MASK</name>
       <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga15dc525a9efdaee6c0a061d0538f795d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_2</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaddb08760505438fd0024425080a0e927</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_3</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga699f7fcfd12322c64b24eb9defa640ae</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_4</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga7595954633d00d0dd0de89f1fc6cec15</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_5</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga0630bac830b41cec535103baaec23ade</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_6</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga90c6a94631d6e7d4ab593f72a77263f3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_7</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaa772f268c3730f61bfb3f1ae367e5361</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_8</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga835f27b04317152b7a36d4d051f1ff8b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_9</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga024ada45db2136b98253a1af26f3398f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_10</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gada7673d66a73dab6730d0f028f130f6a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_11</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaecf27a8596e1fcf563521b6dc0590b9a</anchor>
+      <anchor>ga334706fac8169f5fedc900cd2607f2e3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -33384,86 +33314,16 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>FLASH_CR_SECTOR_0</name>
+      <name>FLASH_CR_SNB_SHIFT</name>
       <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gadedf234cb7d56071dd3ab3b83b672867</anchor>
+      <anchor>gafcbe99c1501d132b669c5691b97da1b6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>FLASH_CR_SECTOR_1</name>
+      <name>FLASH_CR_SNB_MASK</name>
       <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga15dc525a9efdaee6c0a061d0538f795d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_2</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaddb08760505438fd0024425080a0e927</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_3</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga699f7fcfd12322c64b24eb9defa640ae</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_4</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga7595954633d00d0dd0de89f1fc6cec15</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_5</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga0630bac830b41cec535103baaec23ade</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_6</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga90c6a94631d6e7d4ab593f72a77263f3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_7</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaa772f268c3730f61bfb3f1ae367e5361</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_8</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga835f27b04317152b7a36d4d051f1ff8b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_9</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga024ada45db2136b98253a1af26f3398f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_10</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gada7673d66a73dab6730d0f028f130f6a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_SECTOR_11</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaecf27a8596e1fcf563521b6dc0590b9a</anchor>
+      <anchor>ga334706fac8169f5fedc900cd2607f2e3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
