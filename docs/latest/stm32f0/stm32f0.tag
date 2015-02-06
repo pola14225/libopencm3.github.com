@@ -9865,6 +9865,27 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>i2c_set_own_7bit_slave_address_two</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga678d9a7d795c2ae5adaa04bec78393ad</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_enable_dual_addressing_mode</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>gacf830e2f92bb267dde4e147c86e8ab26</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_disable_dual_addressing_mode</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga8273a9f0b7e53a8238d91ead7ea7d90f</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>i2c_set_clock_frequency</name>
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
@@ -10896,6 +10917,27 @@
       <anchorfile>group__i2c__defines.html</anchorfile>
       <anchor>ga9c45f244fee2f34d1cb10fc7accd5af8</anchor>
       <arglist>(uint32_t i2c, uint16_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_set_own_7bit_slave_address_two</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga678d9a7d795c2ae5adaa04bec78393ad</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_enable_dual_addressing_mode</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>gacf830e2f92bb267dde4e147c86e8ab26</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_disable_dual_addressing_mode</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga8273a9f0b7e53a8238d91ead7ea7d90f</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -32828,6 +32870,27 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>i2c_set_own_7bit_slave_address_two</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga678d9a7d795c2ae5adaa04bec78393ad</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_enable_dual_addressing_mode</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>gacf830e2f92bb267dde4e147c86e8ab26</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_disable_dual_addressing_mode</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga8273a9f0b7e53a8238d91ead7ea7d90f</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>i2c_set_clock_frequency</name>
       <anchorfile>group__i2c__defines.html</anchorfile>
       <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
@@ -47348,6 +47411,27 @@
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>ga9c45f244fee2f34d1cb10fc7accd5af8</anchor>
       <arglist>(uint32_t i2c, uint16_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_set_own_7bit_slave_address_two</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga678d9a7d795c2ae5adaa04bec78393ad</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_enable_dual_addressing_mode</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>gacf830e2f92bb267dde4e147c86e8ab26</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_disable_dual_addressing_mode</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga8273a9f0b7e53a8238d91ead7ea7d90f</anchor>
+      <arglist>(uint32_t i2c)</arglist>
     </member>
     <member kind="function">
       <type>void</type>

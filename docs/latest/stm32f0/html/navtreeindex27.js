@@ -1,5 +1,17 @@
 var NAVTREEINDEX27 =
 {
+"i2c_8h.html#a3fa59e8c836c01ee7988b0fa6575e7ef":[27,0,35,104],
+"i2c_8h.html#a40f8fd2508d3b30a732c759443b306e6":[27,0,35,140],
+"i2c_8h.html#a4627c5a89a3cbe9546321418f8cb9da2":[27,0,35,102],
+"i2c_8h.html#a48d81bce8d2faf7acbef9a38510a8542":[27,0,35,126],
+"i2c_8h.html#a4b1336ce032c7c52b3924faf1554a1a4":[27,0,35,101],
+"i2c_8h.html#a4b33b8e33fa18fd49d6d1d8a69777289":[27,0,35,27],
+"i2c_8h.html#a4c6c779bca999450c595fc797a1fdeec":[27,0,35,79],
+"i2c_8h.html#a4f89f1280f8b26fd80ee2baeb4cc26d6":[27,0,35,16],
+"i2c_8h.html#a4f9d237627967f24bd5e56b7c577d3cf":[27,0,35,75],
+"i2c_8h.html#a5454de5709c0e68a0068f9f5d39e5674":[27,0,35,48],
+"i2c_8h.html#a54ae33fec99aa351621ba6b483fbead3":[27,0,35,80],
+"i2c_8h.html#a5789b3006cb2074aa0e7ee47bbbcccb0":[27,0,35,129],
 "i2c_8h.html#a5ac78b87a12a9eaf564f5a3f99928478":[27,0,35,61],
 "i2c_8h.html#a5c4fcd4fccb59fc11fbe14833b644dc8":[27,0,35,19],
 "i2c_8h.html#a5c8996eab52f8e3d835114c84e3ada33":[27,0,35,9],
@@ -237,17 +249,5 @@ var NAVTREEINDEX27 =
 "usart_8h.html#a095ab851c0e05209098e8145c783165f":[27,0,69,140],
 "usart_8h.html#a09f8a368294fb6a5c47de1193484f3b8":[27,0,69,172],
 "usart_8h.html#a0ada1f6fb52d07c59762412fdd4a97b9":[27,0,69,79],
-"usart_8h.html#a0df19201dd47f3bd43954621c88ef4a3":[27,0,69,173],
-"usart_8h.html#a0e79d059998c9734e21567d713fdd21f":[27,0,69,101],
-"usart_8h.html#a0eb8516ebf8f22da4b8a803334fa9925":[27,0,69,38],
-"usart_8h.html#a0f5f2ef10b81c5354d293af82df8cece":[27,0,69,11],
-"usart_8h.html#a14f65309076ce671d0efac5265eb276d":[27,0,69,197],
-"usart_8h.html#a184f3e22cb30ea94b797b02e94e774a1":[27,0,69,188],
-"usart_8h.html#a189fa4a734828de37b625474a1f3822f":[27,0,69,39],
-"usart_8h.html#a1bf035f3a6674183945975fdda9e5d3a":[27,0,69,74],
-"usart_8h.html#a1bf762d52e0cbfb00dab86f7eedb671e":[27,0,69,99],
-"usart_8h.html#a1dc65fcef52616580bbad9b1b71ff808":[27,0,69,4],
-"usart_8h.html#a1fa208f03277ef1ec0bc2c0e2205f22e":[27,0,69,45],
-"usart_8h.html#a2000c42015289291da1c58fe27800d64":[27,0,69,110],
-"usart_8h.html#a22af8d399f1adda62e31186f0309af80":[27,0,69,116]
+"usart_8h.html#a0df19201dd47f3bd43954621c88ef4a3":[27,0,69,173]
 };

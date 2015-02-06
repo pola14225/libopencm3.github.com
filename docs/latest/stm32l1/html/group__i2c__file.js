@@ -4,9 +4,11 @@ var group__i2c__file =
     [ "i2c_clear_stop", "group__i2c__file.html#gabb626d99345195735bedd6134b6cf3c6", null ],
     [ "i2c_disable_ack", "group__i2c__file.html#ga395fd658d7c467511669ba6e1871c160", null ],
     [ "i2c_disable_dma", "group__i2c__file.html#gaa3ab44e02ffd8a6808189d7a9deba130", null ],
+    [ "i2c_disable_dual_addressing_mode", "group__i2c__file.html#ga8273a9f0b7e53a8238d91ead7ea7d90f", null ],
     [ "i2c_disable_interrupt", "group__i2c__file.html#ga0fc2e57eeb3efee6810e6ca3c5df4cf8", null ],
     [ "i2c_enable_ack", "group__i2c__file.html#ga5a96238eca687f4af66247ea570d96dc", null ],
     [ "i2c_enable_dma", "group__i2c__file.html#gaf45142a5b574acf77396134539c90159", null ],
+    [ "i2c_enable_dual_addressing_mode", "group__i2c__file.html#gacf830e2f92bb267dde4e147c86e8ab26", null ],
     [ "i2c_enable_interrupt", "group__i2c__file.html#ga16c892319b9438eab63cf4ea3a15f4ae", null ],
     [ "i2c_get_data", "group__i2c__file.html#gab0fae615ab83fcd0dac9885fd04c4731", null ],
     [ "i2c_nack_current", "group__i2c__file.html#ga437111967f0cc3f37713132ac2e71a5a", null ],
@@ -25,6 +27,7 @@ var group__i2c__file =
     [ "i2c_set_fast_mode", "group__i2c__file.html#ga500a4416fdd04daa0439cf9b887a95e5", null ],
     [ "i2c_set_own_10bit_slave_address", "group__i2c__file.html#ga9c45f244fee2f34d1cb10fc7accd5af8", null ],
     [ "i2c_set_own_7bit_slave_address", "group__i2c__file.html#ga770a4f23cdb45e344a789e32202c4cab", null ],
+    [ "i2c_set_own_7bit_slave_address_two", "group__i2c__file.html#ga678d9a7d795c2ae5adaa04bec78393ad", null ],
     [ "i2c_set_standard_mode", "group__i2c__file.html#ga83ec05549c5d3d3412b3e5c902ad1d07", null ],
     [ "i2c_set_trise", "group__i2c__file.html#ga8b5fb1ea0be082f192030aa475a0e142", null ]
 ];

@@ -690,6 +690,15 @@ Functions</h2></td></tr>
 <tr class="separator:ga64b868336511980e666d8763953b5c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabd519f2c336ccb28340f331258208bde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#gabd519f2c336ccb28340f331258208bde">read_i2c</a> (uint32_t i2c, uint8_t i2c_addr, uint8_t reg, uint8_t size, uint8_t *data)</td></tr>
 <tr class="separator:gabd519f2c336ccb28340f331258208bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga678d9a7d795c2ae5adaa04bec78393ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#ga678d9a7d795c2ae5adaa04bec78393ad">i2c_set_own_7bit_slave_address_two</a> (uint32_t i2c, uint8_t slave)</td></tr>
+<tr class="memdesc:ga678d9a7d795c2ae5adaa04bec78393ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">I2C Set the secondary 7 bit Slave Address for the Peripheral.  <a href="#ga678d9a7d795c2ae5adaa04bec78393ad">More...</a><br /></td></tr>
+<tr class="separator:ga678d9a7d795c2ae5adaa04bec78393ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacf830e2f92bb267dde4e147c86e8ab26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#gacf830e2f92bb267dde4e147c86e8ab26">i2c_enable_dual_addressing_mode</a> (uint32_t i2c)</td></tr>
+<tr class="memdesc:gacf830e2f92bb267dde4e147c86e8ab26"><td class="mdescLeft">&#160;</td><td class="mdescRight">I2C Enable dual addressing mode for the Peripheral.  <a href="#gacf830e2f92bb267dde4e147c86e8ab26">More...</a><br /></td></tr>
+<tr class="separator:gacf830e2f92bb267dde4e147c86e8ab26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8273a9f0b7e53a8238d91ead7ea7d90f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#ga8273a9f0b7e53a8238d91ead7ea7d90f">i2c_disable_dual_addressing_mode</a> (uint32_t i2c)</td></tr>
+<tr class="memdesc:ga8273a9f0b7e53a8238d91ead7ea7d90f"><td class="mdescLeft">&#160;</td><td class="mdescRight">I2C Disable dual addressing mode for the Peripheral.  <a href="#ga8273a9f0b7e53a8238d91ead7ea7d90f">More...</a><br /></td></tr>
+<tr class="separator:ga8273a9f0b7e53a8238d91ead7ea7d90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga500a4416fdd04daa0439cf9b887a95e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c__defines.html#ga500a4416fdd04daa0439cf9b887a95e5">i2c_set_fast_mode</a> (uint32_t i2c)</td></tr>
 <tr class="memdesc:ga500a4416fdd04daa0439cf9b887a95e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">I2C Set Fast Mode.  <a href="#ga500a4416fdd04daa0439cf9b887a95e5">More...</a><br /></td></tr>
 <tr class="separator:ga500a4416fdd04daa0439cf9b887a95e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1316,7 +1325,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8h_source.html#l00087">87</a> of file <a class="el" href="i2c__common__all_8h_source.html">i2c_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00248">i2c_set_ccr()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00371">i2c_set_dutycycle()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00214">i2c_set_fast_mode()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00228">i2c_set_standard_mode()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00289">i2c_set_ccr()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00412">i2c_set_dutycycle()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00255">i2c_set_fast_mode()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00269">i2c_set_standard_mode()</a>.</p>
 
 </div>
 </div>
@@ -1332,7 +1341,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8h_source.html#l00321">321</a> of file <a class="el" href="i2c__common__all_8h_source.html">i2c_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00214">i2c_set_fast_mode()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00228">i2c_set_standard_mode()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00255">i2c_set_fast_mode()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00269">i2c_set_standard_mode()</a>.</p>
 
 </div>
 </div>
@@ -1352,7 +1361,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c_8h_source.html#l00050">50</a> of file <a class="el" href="i2c_8h_source.html">i2c.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00134">i2c_clear_stop()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00337">i2c_disable_ack()</a>, <a class="el" href="i2c_8c_source.html#l00186">i2c_disable_analog_filter()</a>, <a class="el" href="i2c_8c_source.html#l00366">i2c_disable_interrupt()</a>, <a class="el" href="i2c_8c_source.html#l00386">i2c_disable_rxdma()</a>, <a class="el" href="i2c_8c_source.html#l00232">i2c_disable_stretching()</a>, <a class="el" href="i2c_8c_source.html#l00406">i2c_disable_txdma()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00326">i2c_enable_ack()</a>, <a class="el" href="i2c_8c_source.html#l00181">i2c_enable_analog_filter()</a>, <a class="el" href="i2c_8c_source.html#l00355">i2c_enable_interrupt()</a>, <a class="el" href="i2c_8c_source.html#l00376">i2c_enable_rxdma()</a>, <a class="el" href="i2c_8c_source.html#l00227">i2c_enable_stretching()</a>, <a class="el" href="i2c_8c_source.html#l00396">i2c_enable_txdma()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00360">i2c_nack_current()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00348">i2c_nack_next()</a>, <a class="el" href="i2c_8c_source.html#l00081">i2c_peripheral_disable()</a>, <a class="el" href="i2c_8c_source.html#l00066">i2c_peripheral_enable()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00108">i2c_send_start()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00122">i2c_send_stop()</a>, and <a class="el" href="i2c_8c_source.html#l00191">i2c_set_digital_filter()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00134">i2c_clear_stop()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00378">i2c_disable_ack()</a>, <a class="el" href="i2c_8c_source.html#l00186">i2c_disable_analog_filter()</a>, <a class="el" href="i2c_8c_source.html#l00366">i2c_disable_interrupt()</a>, <a class="el" href="i2c_8c_source.html#l00386">i2c_disable_rxdma()</a>, <a class="el" href="i2c_8c_source.html#l00232">i2c_disable_stretching()</a>, <a class="el" href="i2c_8c_source.html#l00406">i2c_disable_txdma()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00367">i2c_enable_ack()</a>, <a class="el" href="i2c_8c_source.html#l00181">i2c_enable_analog_filter()</a>, <a class="el" href="i2c_8c_source.html#l00355">i2c_enable_interrupt()</a>, <a class="el" href="i2c_8c_source.html#l00376">i2c_enable_rxdma()</a>, <a class="el" href="i2c_8c_source.html#l00227">i2c_enable_stretching()</a>, <a class="el" href="i2c_8c_source.html#l00396">i2c_enable_txdma()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00401">i2c_nack_current()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00389">i2c_nack_next()</a>, <a class="el" href="i2c_8c_source.html#l00081">i2c_peripheral_disable()</a>, <a class="el" href="i2c_8c_source.html#l00066">i2c_peripheral_enable()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00108">i2c_send_start()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00122">i2c_send_stop()</a>, and <a class="el" href="i2c_8c_source.html#l00191">i2c_set_digital_filter()</a>.</p>
 
 </div>
 </div>
@@ -1386,7 +1395,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8h_source.html#l00113">113</a> of file <a class="el" href="i2c__common__all_8h_source.html">i2c_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00337">i2c_disable_ack()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00326">i2c_enable_ack()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00378">i2c_disable_ack()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00367">i2c_enable_ack()</a>.</p>
 
 </div>
 </div>
@@ -1872,7 +1881,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8h_source.html#l00110">110</a> of file <a class="el" href="i2c__common__all_8h_source.html">i2c_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00360">i2c_nack_current()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00348">i2c_nack_next()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00401">i2c_nack_current()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00389">i2c_nack_next()</a>.</p>
 
 </div>
 </div>
@@ -2110,7 +2119,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c_8h_source.html#l00055">55</a> of file <a class="el" href="i2c_8h_source.html">i2c.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00415">i2c_clear_dma_last_transfer()</a>, <a class="el" href="i2c_8c_source.html#l00298">i2c_disable_autoend()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00395">i2c_disable_dma()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00315">i2c_disable_interrupt()</a>, <a class="el" href="i2c_8c_source.html#l00293">i2c_enable_autoend()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00385">i2c_enable_dma()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00304">i2c_enable_interrupt()</a>, <a class="el" href="i2c_8c_source.html#l00284">i2c_is_start()</a>, <a class="el" href="i2c_8c_source.html#l00096">i2c_send_start()</a>, <a class="el" href="i2c_8c_source.html#l00110">i2c_send_stop()</a>, <a class="el" href="i2c_8c_source.html#l00251">i2c_set_10bit_addr_mode()</a>, <a class="el" href="i2c_8c_source.html#l00262">i2c_set_10bit_address()</a>, <a class="el" href="i2c_8c_source.html#l00246">i2c_set_7bit_addr_mode()</a>, <a class="el" href="i2c_8c_source.html#l00256">i2c_set_7bit_address()</a>, <a class="el" href="i2c_8c_source.html#l00278">i2c_set_bytes_to_transfer()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00185">i2c_set_clock_frequency()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00405">i2c_set_dma_last_transfer()</a>, <a class="el" href="i2c_8c_source.html#l00273">i2c_set_read_transfer_dir()</a>, and <a class="el" href="i2c_8c_source.html#l00268">i2c_set_write_transfer_dir()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00456">i2c_clear_dma_last_transfer()</a>, <a class="el" href="i2c_8c_source.html#l00298">i2c_disable_autoend()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00436">i2c_disable_dma()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00356">i2c_disable_interrupt()</a>, <a class="el" href="i2c_8c_source.html#l00293">i2c_enable_autoend()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00426">i2c_enable_dma()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00345">i2c_enable_interrupt()</a>, <a class="el" href="i2c_8c_source.html#l00284">i2c_is_start()</a>, <a class="el" href="i2c_8c_source.html#l00096">i2c_send_start()</a>, <a class="el" href="i2c_8c_source.html#l00110">i2c_send_stop()</a>, <a class="el" href="i2c_8c_source.html#l00251">i2c_set_10bit_addr_mode()</a>, <a class="el" href="i2c_8c_source.html#l00262">i2c_set_10bit_address()</a>, <a class="el" href="i2c_8c_source.html#l00246">i2c_set_7bit_addr_mode()</a>, <a class="el" href="i2c_8c_source.html#l00256">i2c_set_7bit_address()</a>, <a class="el" href="i2c_8c_source.html#l00278">i2c_set_bytes_to_transfer()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00226">i2c_set_clock_frequency()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00446">i2c_set_dma_last_transfer()</a>, <a class="el" href="i2c_8c_source.html#l00273">i2c_set_read_transfer_dir()</a>, and <a class="el" href="i2c_8c_source.html#l00268">i2c_set_write_transfer_dir()</a>.</p>
 
 </div>
 </div>
@@ -2176,7 +2185,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8h_source.html#l00152">152</a> of file <a class="el" href="i2c__common__all_8h_source.html">i2c_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00395">i2c_disable_dma()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00385">i2c_enable_dma()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00436">i2c_disable_dma()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00426">i2c_enable_dma()</a>.</p>
 
 </div>
 </div>
@@ -2248,7 +2257,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8h_source.html#l00149">149</a> of file <a class="el" href="i2c__common__all_8h_source.html">i2c_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00415">i2c_clear_dma_last_transfer()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00405">i2c_set_dma_last_transfer()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00456">i2c_clear_dma_last_transfer()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00446">i2c_set_dma_last_transfer()</a>.</p>
 
 </div>
 </div>
@@ -2454,7 +2463,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8h_source.html#l00072">72</a> of file <a class="el" href="i2c__common__all_8h_source.html">i2c_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00293">i2c_get_data()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00283">i2c_send_7bit_address()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00200">i2c_send_data()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00334">i2c_get_data()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00324">i2c_send_7bit_address()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00241">i2c_send_data()</a>.</p>
 
 </div>
 </div>
@@ -3086,6 +3095,8 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c_8h_source.html#l00065">65</a> of file <a class="el" href="i2c_8h_source.html">i2c.h</a>.</p>
 
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00209">i2c_disable_dual_addressing_mode()</a>, <a class="el" href="i2c__common__all_8c_source.html#l00196">i2c_enable_dual_addressing_mode()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00182">i2c_set_own_7bit_slave_address_two()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="gab511d7c24490c014cce3720e5e15061c"></a>
@@ -3117,6 +3128,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="i2c__common__all_8h_source.html#l00235">235</a> of file <a class="el" href="i2c__common__all_8h_source.html">i2c_common_all.h</a>.</p>
+
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00209">i2c_disable_dual_addressing_mode()</a>, and <a class="el" href="i2c__common__all_8c_source.html#l00196">i2c_enable_dual_addressing_mode()</a>.</p>
 
 </div>
 </div>
@@ -3884,7 +3897,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="i2c__common__all_8h_source.html#l00092">92</a> of file <a class="el" href="i2c__common__all_8h_source.html">i2c_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00269">i2c_set_trise()</a>.</p>
+<p>Referenced by <a class="el" href="i2c__common__all_8c_source.html#l00310">i2c_set_trise()</a>.</p>
 
 </div>
 </div>
@@ -3991,7 +4004,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00415">415</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00456">456</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00055">I2C_CR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00149">I2C_CR2_LAST</a>.</p>
 
@@ -4048,7 +4061,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00337">337</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00378">378</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00113">I2C_CR1_ACK</a>.</p>
 
@@ -4127,9 +4140,38 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00395">395</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00436">436</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00055">I2C_CR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00152">I2C_CR2_DMAEN</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8273a9f0b7e53a8238d91ead7ea7d90f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void i2c_disable_dual_addressing_mode </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>i2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>I2C Disable dual addressing mode for the Peripheral. </p>
+<p>Only OAR1 is recognised in 7-bit addressing mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00209">209</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+
+<p>References <a class="el" href="i2c_8h_source.html#l00065">I2C_OAR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00235">I2C_OAR2_ENDUAL</a>.</p>
 
 </div>
 </div>
@@ -4166,7 +4208,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00315">315</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00356">356</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c_8h_source.html#l00055">I2C_CR2</a>.</p>
 
@@ -4270,7 +4312,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00326">326</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00367">367</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00113">I2C_CR1_ACK</a>.</p>
 
@@ -4349,9 +4391,38 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00385">385</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00426">426</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00055">I2C_CR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00152">I2C_CR2_DMAEN</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gacf830e2f92bb267dde4e147c86e8ab26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void i2c_enable_dual_addressing_mode </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>i2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>I2C Enable dual addressing mode for the Peripheral. </p>
+<p>Both OAR1 and OAR2 are recognised in 7-bit addressing mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00196">196</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+
+<p>References <a class="el" href="i2c_8h_source.html#l00065">I2C_OAR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00235">I2C_OAR2_ENDUAL</a>.</p>
 
 </div>
 </div>
@@ -4388,7 +4459,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00304">304</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00345">345</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c_8h_source.html#l00055">I2C_CR2</a>.</p>
 
@@ -4492,7 +4563,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00293">293</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00334">334</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c__common__all_8h_source.html#l00072">I2C_DR</a>, and <a class="el" href="i2c_8h_source.html#l00095">I2C_RXDR</a>.</p>
 
@@ -4594,7 +4665,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00360">360</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00401">401</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00110">I2C_CR1_POS</a>.</p>
 
@@ -4622,7 +4693,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00348">348</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00389">389</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00050">I2C_CR1</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00110">I2C_CR1_POS</a>.</p>
 
@@ -4794,7 +4865,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00283">283</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00324">324</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c__common__all_8h_source.html#l00072">I2C_DR</a>.</p>
 
@@ -4833,7 +4904,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00200">200</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00241">241</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c__common__all_8h_source.html#l00072">I2C_DR</a>, and <a class="el" href="i2c_8h_source.html#l00100">I2C_TXDR</a>.</p>
 
@@ -5105,7 +5176,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00248">248</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00289">289</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c__common__all_8h_source.html#l00087">I2C_CCR</a>.</p>
 
@@ -5145,7 +5216,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00185">185</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00226">226</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00055">I2C_CR2</a>.</p>
 
@@ -5285,7 +5356,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00405">405</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00446">446</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00055">I2C_CR2</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00149">I2C_CR2_LAST</a>.</p>
 
@@ -5324,7 +5395,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00371">371</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00412">412</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c__common__all_8h_source.html#l00087">I2C_CCR</a>, <a class="el" href="i2c__common__all_8h_source.html#l00328">I2C_CCR_DUTY</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00329">I2C_CCR_DUTY_DIV2</a>.</p>
 
@@ -5353,7 +5424,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00214">214</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00255">255</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c__common__all_8h_source.html#l00087">I2C_CCR</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00321">I2C_CCR_FS</a>.</p>
 
@@ -5452,6 +5523,46 @@ Here is the caller graph for this function:</div>
 <p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00148">148</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c_8h_source.html#l00060">I2C_OAR1</a>, and <a class="el" href="i2c_8h_source.html#l00227">I2C_OAR1_OA1MODE</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga678d9a7d795c2ae5adaa04bec78393ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void i2c_set_own_7bit_slave_address_two </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>i2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slave</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>I2C Set the secondary 7 bit Slave Address for the Peripheral. </p>
+<p>This sets a secondary address for Slave mode operation, in 7 bit form.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i2c</td><td>Unsigned int32. I2C register base address <a class="el" href="group__i2c__reg__base.html">I2C register base address</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">slave</td><td>Unsigned int8. Slave address 0...127. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00182">182</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+
+<p>References <a class="el" href="i2c_8h_source.html#l00065">I2C_OAR2</a>.</p>
 
 </div>
 </div>
@@ -5632,7 +5743,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00228">228</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00269">269</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c__common__all_8h_source.html#l00087">I2C_CCR</a>, and <a class="el" href="i2c__common__all_8h_source.html#l00321">I2C_CCR_FS</a>.</p>
 
@@ -5672,7 +5783,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00269">269</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
+<p>Definition at line <a class="el" href="i2c__common__all_8c_source.html#l00310">310</a> of file <a class="el" href="i2c__common__all_8c_source.html">i2c_common_all.c</a>.</p>
 
 <p>References <a class="el" href="i2c__common__all_8h_source.html#l00092">I2C_TRISE</a>.</p>
 
@@ -5879,7 +5990,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Feb 6 2015 04:22:03 for libopencm3 by
+    <li class="footer">Generated on Fri Feb 6 2015 05:21:47 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>
