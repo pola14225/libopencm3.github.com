@@ -13407,6 +13407,591 @@
     <filename>license_8dox</filename>
   </compound>
   <compound kind="file">
+    <name>ltdc.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
+    <filename>ltdc_8c</filename>
+    <includes id="ltdc_8h" name="ltdc.h" local="no" imported="no">libopencm3/stm32/f4/ltdc.h</includes>
+    <member kind="function">
+      <type>void</type>
+      <name>ltdc_set_tft_sync_timings</name>
+      <anchorfile>ltdc_8c.html</anchorfile>
+      <anchor>a7781f7b21765acab80c75f52df33b91a</anchor>
+      <arglist>(uint16_t sync_width, uint16_t sync_height, uint16_t h_back_porch, uint16_t v_back_porch, uint16_t active_width, uint16_t active_height, uint16_t h_front_porch, uint16_t v_front_porch)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ltdc_setup_windowing</name>
+      <anchorfile>ltdc_8c.html</anchorfile>
+      <anchor>aaa67ade773572606b7df0de56cfeb438</anchor>
+      <arglist>(uint8_t layer_number, uint16_t h_back_porch, uint16_t v_back_porch, uint16_t active_width, uint16_t active_height)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ltdc.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/</path>
+    <filename>ltdc_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SSCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ab21abb266b4da71bec5379d1eafd13cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_BPCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a9daf23cb9d1832bda304e52e333b0277</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_AWCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a3f1fd4c484050afafd35d777a1928ae9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_TWCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a5ce4bea807073dc262c7cd073c6eb8eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a768605ee4096ee617ff1cd5299e2ecdc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SRCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>affdab670ae54e0c5a79a33ea5dbe3a5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_BCCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ade0c23813d6768767899941e339117d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_IER</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a61e9656ccae4588e244b0bdedde66a83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ISR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>adcf048764c5751fcb6fecef2221afd30</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ICR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a992016595594ba8f9ea12a9077335501</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LIPCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a960f0d75875a450be97acc6ba43a570b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CPSR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1a5f54764ca8cb22a5bd6a74d60764e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CDSR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a29001e95df3e7c139494194994ac3a1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a8dafed1c8352bfd1851debc41534dc7d</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWHPCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ada3d23566304d42b2389890ec83023e8</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWVPCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a615289528ea9f80bc29e4df4001603c2</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCKCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7ad48bd2436327aa9b63e08f07b7adb4</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxPFCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aae4a99906f648cd10b65cc978c9f61af</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCACR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a52da2740baa16804d8bedfa103e643b4</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxDCCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a4b828bccdab2407f2b1cb8b73896ab54</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxBFCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a924a566d01cd7d746fda678876c0c19f</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBAR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a0b6f9c081a442bbf3977db92c33c3bef</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBLR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7ce8b250e1e56a2c6ba2fb883291ced9</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBLNR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a92ca91cca9664e44a605f6a93db64158</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCLUTWR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7f0afd72e14e3fed147efafddafad932</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LAYER_1</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a129af76cf31623c4d0e22bc990dd85ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LAYER_2</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>afd54985ec8fed9850f0d3aa38f77a857</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_LTDC_ENABLE</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aa7ab29b5abb205cea2f556d1928922b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_DITHER_ENABLE</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a9610c0fe847bfc6175acc85997a9180d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_PCPOL_ACTIVE_LOW</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ab62b80265b2db3ab77b879f36eab0709</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_PCPOL_ACTIVE_HIGH</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a2b99d9794df6090191e36c48d2d1d47b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_DEPOL_ACTIVE_LOW</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ae184622ed31f7a482d52bcc02e363c86</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_DEPOL_ACTIVE_HIGH</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>adf25df19e1b63c07a00bbc0e99cdabe7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_VSPOL_ACTIVE_LOW</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad98092c39c387ec766d8cebefbac919b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_VSPOL_ACTIVE_HIGH</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a650021b94dc98079adce499f4eaa07cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_HSPOL_ACTIVE_LOW</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad6961b350f0e35cbaffeafad106508fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_GCR_HSPOL_ACTIVE_HIGH</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad2229c5553b1eaab5a957d97eb2a2b49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SRCR_RELOAD_IMR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a09f829706f52c4ff5840ef948778c356</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SRCR_RELOAD_VBR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>adc0021f71715f507d619512c62c07410</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CDSR_VDES</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a5e4c498e3baf6490c83ae67b7859b1ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CDSR_HDES</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aea3bfe7426e5ee59e4a136f408a09716</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CDSR_VSYNCS</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1cb94c249cec7aaa63803eb9e4d56863</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CDSR_HSYNCS</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a9556e6ff6318d564c481fb022b9f254e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCR_LAYER_ENABLE</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1fa3c8c1aeb0a0b80709e59219a261d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCR_COLKEY_ENABLE</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ae0189c02f50230ee061bd8ea5f8e6af4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCR_COLTAB_ENABLE</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a54ca9241c1023f265dd089f0b4871c79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxPFCR_ARGB8888</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a4f450a611523ed243072ccdf3e0b7251</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxPFCR_RGB888</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a004c24d2d681660c1ab90beae9bc3b41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxPFCR_RGB565</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a0a2d5219e872f3bd2d41ce1687529326</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxPFCR_ARGB1555</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>af3d02dba4a8671ce917383f3f162606c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxPFCR_ARGB4444</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1f540cf39c6575ec4065710be1de9ec1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxPFCR_L8</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad7be10a2625c5167ed68ac0cf4f4a969</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxPFCR_AL44</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a0acef27912fa1735b3008a4376f9b872</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxPFCR_AL88</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad65c62edfdcc956f6a08c45bb8afffd5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxBFCR_BF1_CONST_ALPHA</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a907ed28635667ee64470a19c759bee56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxBFCR_BF1_PIXEL_ALPHA_x_CONST_ALPHA</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a5455f157d3500a6d2572efed42bae561</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxBFCR_BF2_CONST_ALPHA</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7576c67af1e61cd0491f1fbf828a3024</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxBFCR_BF2_PIXEL_ALPHA_x_CONST_ALPHA</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1453bb1b2c43119fff0c7603611b79e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_ctrl_enable</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a0a01e050a97b2137ca4cbf4d1ce90953</anchor>
+      <arglist>(ctrl_flags)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_ctrl_disable</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7d2b9e01a084e42b1b5619ba9ce15b99</anchor>
+      <arglist>(ctrl_flags)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_reload</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ab920701046dddf312126189312f35f9e</anchor>
+      <arglist>(reload_flags)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_set_background_color</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a570fdeff7accf27476dd34fc0d9ed702</anchor>
+      <arglist>(r, g, b)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_get_current_position</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a98d940901c385c986013b15adeff3167</anchor>
+      <arglist>(x, y)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_get_current_position_x</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a176ce2206cc3f0b6736e8a118a33df65</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_get_current_position_y</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a178811427ebbb33246d39cbf7ec38ce4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_get_display_status</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>af032bd92fc2e1d66e20b29d452a58281</anchor>
+      <arglist>(status_flags)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_layer_ctrl_enable</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a48aae8a29fd74f84865381d7ad29633b</anchor>
+      <arglist>(layer, ctrl_flags)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_layer_ctrl_disable</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7f75892dd962bab80295f41642b9ea3e</anchor>
+      <arglist>(layer, ctrl_flags)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_set_color_key</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ac6c1eb03e9ef538e170408d2d1a73b50</anchor>
+      <arglist>(layer, r, g, b)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_set_pixel_format</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a30011eb405c4717f3cc261a855de04c0</anchor>
+      <arglist>(layer, format)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_set_constant_alpha</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>abd237be685b61053c7822cac7055f4ea</anchor>
+      <arglist>(layer, alpha)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_set_default_colors</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>afa591fba86ea9fc6882312b3e6045cec</anchor>
+      <arglist>(layer, a, r, g, b)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_set_blending_factors</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a12d5037d36aba180f7e4fa1090e15eec</anchor>
+      <arglist>(layer, bf1, bf2)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_set_fbuffer_address</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a2a0cbb6e95c1f9c69abbc2b8edf0595c</anchor>
+      <arglist>(layer, address)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_set_fb_line_length</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a9d6c3127a0694e5a3ea7a4e3cc4031da</anchor>
+      <arglist>(layer, len, pitch)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_set_fb_line_count</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a57ce772790f357c518928fe709501ae1</anchor>
+      <arglist>(layer, linecount)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SRCR_IS_RELOADING</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aa673da70b0741f30886cc72aa64fd646</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ltdc_get_rgb888_from_rgb565</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aae54ab78c0313f53ea133d6ad3492515</anchor>
+      <arglist>(rgb888)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ltdc_set_tft_sync_timings</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7781f7b21765acab80c75f52df33b91a</anchor>
+      <arglist>(uint16_t sync_width, uint16_t sync_height, uint16_t h_back_porch, uint16_t v_back_porch, uint16_t active_width, uint16_t active_height, uint16_t h_front_porch, uint16_t v_front_porch)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ltdc_setup_windowing</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aaa67ade773572606b7df0de56cfeb438</anchor>
+      <arglist>(uint8_t layer_number, uint16_t h_back_porch, uint16_t v_back_porch, uint16_t active_width, uint16_t active_height)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>memorymap.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/</path>
     <filename>memorymap_8h</filename>
@@ -13793,6 +14378,13 @@
       <name>LCD_TFT_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a410a667209c809187db1d96cd1f0addb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ac6e45c39fafa3e82cdedbf447b461704</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -14862,6 +15454,34 @@
       <name>RCC_PLLI2SCFGR</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a7b0d74f7af3e5b94aceee5240ae580bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a65b17df35e471c9bd60865aad38e2adc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ae30781fa708e24eec32da6cfad3ffa20</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CR_PLLSAIRDY</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ab57d64642fb17fa0f3d90db47c7fb95d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CR_PLLSAION</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>afe6e58efc5730641fd3282ba749e4d1b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -16896,6 +17516,69 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_DCKCFGR_PLLSAIDIVR_MSK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>adb6da4d2318290fde8546307117a70dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLSAIDIVR_DIVR_2</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>afc70d03520ea2845cfd5a220b86c7734</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLSAIDIVR_DIVR_4</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>af1f1fdcd0e7bd609ff89854690ef52a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLSAIDIVR_DIVR_8</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a0777bd58351a1015e663bb4ae0dad21d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLSAIDIVR_DIVR_16</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a9a5b57b56d34eddfad3463641faab4ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>rcc_pllsai_enable</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ad271998a7478f3664704fecdd556ed8c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>rcc_pllsai_ready</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a5d038f1a1876fbe8bd1a4bb3435ce648</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>rcc_pllsai_config</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a82debce243c52cb8c4e87cd0bce13f77</anchor>
+      <arglist>(pllsain, pllsaiq, pllsair)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>rcc_ltdc_set_clock_divr</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a962eed2dfb4686e017e2126b7e7693c4</anchor>
+      <arglist>(pllsaidivr)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>_REG_BIT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a859a9ba8fcc7c60a0f7dfd5865001f08</anchor>
@@ -17452,6 +18135,20 @@
       <name>RCC_SPI6</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a54c7db24941f636ee238833c481ada48a3db9f01fb907e0b559c2521ce6998a5a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_SAI1EN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48af80523a8f4cedad5f27d3a9cb417dff2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RCC_LTDC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a89730a93ce35289d709657865bfc47c4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -18369,6 +19066,20 @@
       <name>RST_SPI6</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a2e99fc6ba1c32a37829f641660c7d18d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_SAI1RST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718afac7cbf0813d9a8bf0475a105c99e7ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <type>@</type>
+      <name>RST_LTDC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718afdee0b25d89026a8c5c1a7ea8c092e18</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -32643,6 +33354,7 @@
     <subgroup>hash_file</subgroup>
     <subgroup>i2c_file</subgroup>
     <subgroup>iwdg_file</subgroup>
+    <subgroup>ltdc_file</subgroup>
     <subgroup>pwr_file</subgroup>
     <subgroup>rcc_file</subgroup>
     <subgroup>rtc_file</subgroup>
@@ -49350,6 +50062,11 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>ltdc_file</name>
+    <title>LTDC</title>
+    <filename>group__ltdc__file.html</filename>
+  </compound>
+  <compound kind="group">
     <name>pwr_file</name>
     <title>PWR</title>
     <filename>group__pwr__file.html</filename>
@@ -51022,6 +51739,7 @@
     <file>hash.h</file>
     <file>i2c.h</file>
     <file>iwdg.h</file>
+    <file>ltdc.h</file>
     <file>memorymap.h</file>
     <file>pwr.h</file>
     <file>rcc.h</file>
@@ -51047,6 +51765,7 @@
     <file>hash.c</file>
     <file>i2c.c</file>
     <file>iwdg.c</file>
+    <file>ltdc.c</file>
     <file>pwr.c</file>
     <file>rcc.c</file>
     <file>rtc.c</file>

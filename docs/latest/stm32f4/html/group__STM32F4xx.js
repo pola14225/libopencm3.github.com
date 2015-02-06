@@ -10,6 +10,7 @@ var group__STM32F4xx =
     [ "HASH", "group__hash__file.html", "group__hash__file" ],
     [ "I2C", "group__i2c__file.html", "group__i2c__file" ],
     [ "IWDG", "group__iwdg__file.html", "group__iwdg__file" ],
+    [ "LTDC", "group__ltdc__file.html", null ],
     [ "PWR", "group__pwr__file.html", "group__pwr__file" ],
     [ "RCC", "group__rcc__file.html", "group__rcc__file" ],
     [ "RTC", "group__rtc__file.html", "group__rtc__file" ],

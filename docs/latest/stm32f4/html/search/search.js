@@ -10,12 +10,12 @@ var indexSectionsWithContent =
   0: "_abcdefghilmprstuvw",
   1: "cs",
   2: "acdefghilmprstuv",
-  3: "acdefghiprstu",
+  3: "acdefghilprstu",
   4: "adfhprt",
   5: "cdefrtv",
   6: "cdehlprst",
   7: "_abcdefghilprstuw",
-  8: "acdefghiprstu",
+  8: "acdefghilprstu",
   9: "l"
 };
 

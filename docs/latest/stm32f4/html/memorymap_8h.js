@@ -40,6 +40,7 @@ var memorymap_8h =
     [ "I2S3_EXT_BASE", "memorymap_8h.html#afac07f6cefe66208ad6a411c74a38774", null ],
     [ "IWDG_BASE", "memorymap_8h.html#a8543ee4997296af5536b007cd4748f55", null ],
     [ "LCD_TFT_BASE", "memorymap_8h.html#a410a667209c809187db1d96cd1f0addb", null ],
+    [ "LTDC_BASE", "memorymap_8h.html#ac6e45c39fafa3e82cdedbf447b461704", null ],
     [ "PERIPH_BASE", "memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0", null ],
     [ "PERIPH_BASE_AHB1", "memorymap_8h.html#a6a7a706e5a4df2eed7899e972a183084", null ],
     [ "PERIPH_BASE_AHB2", "memorymap_8h.html#ad9208ba47ecaa9ac1eb39e7db2b9b5f8", null ],
