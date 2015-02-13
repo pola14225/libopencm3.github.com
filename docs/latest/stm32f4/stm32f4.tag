@@ -13878,145 +13878,131 @@
       <anchor>a1453bb1b2c43119fff0c7603611b79e9</anchor>
       <arglist></arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_ctrl_enable</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a0a01e050a97b2137ca4cbf4d1ce90953</anchor>
-      <arglist>(ctrl_flags)</arglist>
+      <anchor>a9a10e967666f68bb9873733fd756d8ea</anchor>
+      <arglist>(uint32_t ctrl_flags)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_ctrl_disable</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a7d2b9e01a084e42b1b5619ba9ce15b99</anchor>
-      <arglist>(ctrl_flags)</arglist>
+      <anchor>a2201a2282713790b63728dc84f3cc526</anchor>
+      <arglist>(uint32_t ctrl_flags)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_reload</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>ab920701046dddf312126189312f35f9e</anchor>
-      <arglist>(reload_flags)</arglist>
+      <anchor>a5f0c8867ff46035ff88392dd491e056e</anchor>
+      <arglist>(uint32_t reload_flags)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_set_background_color</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a570fdeff7accf27476dd34fc0d9ed702</anchor>
-      <arglist>(r, g, b)</arglist>
+      <anchor>a4801b096ee1b0d858c8dabdda8517187</anchor>
+      <arglist>(uint8_t r, uint8_t g, uint8_t b)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_get_current_position</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a98d940901c385c986013b15adeff3167</anchor>
-      <arglist>(x, y)</arglist>
+      <anchor>afaf8baa947fbeb9f6b3e9938be798ade</anchor>
+      <arglist>(uint16_t *x, uint16_t *y)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static uint16_t</type>
       <name>ltdc_get_current_position_x</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a176ce2206cc3f0b6736e8a118a33df65</anchor>
-      <arglist>()</arglist>
+      <anchor>a4f25c0e85064289542fb45a88b4aea92</anchor>
+      <arglist>(void)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static uint16_t</type>
       <name>ltdc_get_current_position_y</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a178811427ebbb33246d39cbf7ec38ce4</anchor>
-      <arglist>()</arglist>
+      <anchor>af1cbe3c2ef5d96fb7254729496fc03df</anchor>
+      <arglist>(void)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static uint32_t</type>
       <name>ltdc_get_display_status</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>af032bd92fc2e1d66e20b29d452a58281</anchor>
-      <arglist>(status_flags)</arglist>
+      <anchor>a562117c89b6ef2fa59da76b07b426bb3</anchor>
+      <arglist>(uint32_t status_flags)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_layer_ctrl_enable</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a48aae8a29fd74f84865381d7ad29633b</anchor>
-      <arglist>(layer, ctrl_flags)</arglist>
+      <anchor>a9443b3f67049b1e4f2d839ef7960142c</anchor>
+      <arglist>(uint32_t layer, uint32_t ctrl_flags)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_layer_ctrl_disable</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a7f75892dd962bab80295f41642b9ea3e</anchor>
-      <arglist>(layer, ctrl_flags)</arglist>
+      <anchor>a33773bb052994eaffd43933779782d74</anchor>
+      <arglist>(uint32_t layer, uint32_t ctrl_flags)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_set_color_key</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>ac6c1eb03e9ef538e170408d2d1a73b50</anchor>
-      <arglist>(layer, r, g, b)</arglist>
+      <anchor>a0de0a46015d6ea66f48db73ac9c14d09</anchor>
+      <arglist>(uint32_t layer, uint8_t r, uint8_t g, uint8_t b)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_set_pixel_format</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a30011eb405c4717f3cc261a855de04c0</anchor>
-      <arglist>(layer, format)</arglist>
+      <anchor>a7406e3dd138e9ef3b2f8d76c2566a019</anchor>
+      <arglist>(uint32_t layer, uint32_t format)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_set_constant_alpha</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>abd237be685b61053c7822cac7055f4ea</anchor>
-      <arglist>(layer, alpha)</arglist>
+      <anchor>a116172c0a96240d47c31ea4e6ca8606f</anchor>
+      <arglist>(uint32_t layer, uint8_t alpha)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_set_default_colors</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>afa591fba86ea9fc6882312b3e6045cec</anchor>
-      <arglist>(layer, a, r, g, b)</arglist>
+      <anchor>a27cc49b827e02bdc133164d7ef98da5c</anchor>
+      <arglist>(uint32_t layer, uint8_t a, uint8_t r, uint8_t g, uint8_t b)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_set_blending_factors</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a12d5037d36aba180f7e4fa1090e15eec</anchor>
-      <arglist>(layer, bf1, bf2)</arglist>
+      <anchor>af1373af7e5a29c47c9f90a286078d13f</anchor>
+      <arglist>(uint32_t layer, uint8_t bf1, uint8_t bf2)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_set_fbuffer_address</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a2a0cbb6e95c1f9c69abbc2b8edf0595c</anchor>
-      <arglist>(layer, address)</arglist>
+      <anchor>a174aaa517f3acc0cb3add1914b4bae16</anchor>
+      <arglist>(uint32_t layer, uint32_t address)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_set_fb_line_length</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a9d6c3127a0694e5a3ea7a4e3cc4031da</anchor>
-      <arglist>(layer, len, pitch)</arglist>
+      <anchor>ae0b61f52864c130fd7c824a6fa1c4c9b</anchor>
+      <arglist>(uint32_t layer, uint16_t len, uint16_t pitch)</arglist>
     </member>
-    <member kind="define">
-      <type>#define</type>
+    <member kind="function" static="yes">
+      <type>static void</type>
       <name>ltdc_set_fb_line_count</name>
       <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>a57ce772790f357c518928fe709501ae1</anchor>
-      <arglist>(layer, linecount)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>LTDC_SRCR_IS_RELOADING</name>
-      <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>aa673da70b0741f30886cc72aa64fd646</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ltdc_get_rgb888_from_rgb565</name>
-      <anchorfile>ltdc_8h.html</anchorfile>
-      <anchor>aae54ab78c0313f53ea133d6ad3492515</anchor>
-      <arglist>(rgb888)</arglist>
+      <anchor>a5fe448ecba02f94ef1a56aa617268cbf</anchor>
+      <arglist>(uint32_t layer, uint16_t linecount)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -14031,6 +14017,20 @@
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>aaa67ade773572606b7df0de56cfeb438</anchor>
       <arglist>(uint8_t layer_number, uint16_t h_back_porch, uint16_t v_back_porch, uint16_t active_width, uint16_t active_height)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>LTDC_SRCR_IS_RELOADING</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a5237cd44baf5dab9bf56e88941911e4f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint16_t</type>
+      <name>ltdc_get_rgb888_from_rgb565</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a92819a292627c1129bbaf7ad2c6d98b0</anchor>
+      <arglist>(uint16_t rgb888)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -14413,13 +14413,6 @@
       <name>SAI1_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a24c1053b754946b512f9c31123e09d21</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>LCD_TFT_BASE</name>
-      <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a410a667209c809187db1d96cd1f0addb</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -17593,34 +17586,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>rcc_pllsai_enable</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>ad271998a7478f3664704fecdd556ed8c</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>rcc_pllsai_ready</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a5d038f1a1876fbe8bd1a4bb3435ce648</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>rcc_pllsai_config</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a82debce243c52cb8c4e87cd0bce13f77</anchor>
-      <arglist>(pllsain, pllsaiq, pllsair)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>rcc_ltdc_set_clock_divr</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a962eed2dfb4686e017e2126b7e7693c4</anchor>
-      <arglist>(pllsaidivr)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>_REG_BIT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a859a9ba8fcc7c60a0f7dfd5865001f08</anchor>
@@ -19123,6 +19088,34 @@
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a4bd6185a4613aaa3ee5447c3d86ba718afdee0b25d89026a8c5c1a7ea8c092e18</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>rcc_pllsai_enable</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a441c624ba75a1a391a725c3d040d14e4</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>rcc_pllsai_ready</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ac02ed5c09dba04a01037f1a8283ed18f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>rcc_pllsai_config</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4c139296dba9d8ec9acc581574ec0c03</anchor>
+      <arglist>(uint16_t pllsain, uint16_t pllsaiq, uint16_t pllsair)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>rcc_ltdc_set_clock_divr</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a7d0737d87e753df8815f5463236d0039</anchor>
+      <arglist>(uint8_t pllsaidivr)</arglist>
     </member>
     <member kind="function">
       <type>void</type>

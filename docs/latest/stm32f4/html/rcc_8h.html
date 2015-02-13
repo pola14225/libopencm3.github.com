@@ -789,7 +789,7 @@ Macros</h2></td></tr>
 <tr class="separator:a618f19d9405b502f241dab9aed8f17c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a1061d38962f6b21c522741f7d4b668"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a0a1061d38962f6b21c522741f7d4b668">RCC_PLLI2SCFGR_PLLI2SN_SHIFT</a>&#160;&#160;&#160;6</td></tr>
 <tr class="separator:a0a1061d38962f6b21c522741f7d4b668"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb6da4d2318290fde8546307117a70dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#adb6da4d2318290fde8546307117a70dc">RCC_DCKCFGR_PLLSAIDIVR_MSK</a>&#160;&#160;&#160;(0x3&lt;&lt;16)</td></tr>
+<tr class="memitem:adb6da4d2318290fde8546307117a70dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#adb6da4d2318290fde8546307117a70dc">RCC_DCKCFGR_PLLSAIDIVR_MSK</a>&#160;&#160;&#160;(0x3 &lt;&lt; 16)</td></tr>
 <tr class="separator:adb6da4d2318290fde8546307117a70dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc70d03520ea2845cfd5a220b86c7734"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#afc70d03520ea2845cfd5a220b86c7734">RCC_DCKCFGR_PLLSAIDIVR_DIVR_2</a>&#160;&#160;&#160;(0x0)</td></tr>
 <tr class="separator:afc70d03520ea2845cfd5a220b86c7734"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -799,14 +799,6 @@ Macros</h2></td></tr>
 <tr class="separator:a0777bd58351a1015e663bb4ae0dad21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a5b57b56d34eddfad3463641faab4ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a9a5b57b56d34eddfad3463641faab4ba">RCC_DCKCFGR_PLLSAIDIVR_DIVR_16</a>&#160;&#160;&#160;(0x3)</td></tr>
 <tr class="separator:a9a5b57b56d34eddfad3463641faab4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad271998a7478f3664704fecdd556ed8c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#ad271998a7478f3664704fecdd556ed8c">rcc_pllsai_enable</a>()&#160;&#160;&#160;<a class="el" href="rcc_8h.html#a3465fac46f8d87fc7e243765777af052">RCC_CR</a> |= <a class="el" href="rcc_8h.html#afe6e58efc5730641fd3282ba749e4d1b">RCC_CR_PLLSAION</a></td></tr>
-<tr class="separator:ad271998a7478f3664704fecdd556ed8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d038f1a1876fbe8bd1a4bb3435ce648"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a5d038f1a1876fbe8bd1a4bb3435ce648">rcc_pllsai_ready</a>()&#160;&#160;&#160;(<a class="el" href="rcc_8h.html#a3465fac46f8d87fc7e243765777af052">RCC_CR</a> &amp; <a class="el" href="rcc_8h.html#ab57d64642fb17fa0f3d90db47c7fb95d">RCC_CR_PLLSAIRDY</a>)</td></tr>
-<tr class="separator:a5d038f1a1876fbe8bd1a4bb3435ce648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82debce243c52cb8c4e87cd0bce13f77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a82debce243c52cb8c4e87cd0bce13f77">rcc_pllsai_config</a>(pllsain, pllsaiq, pllsair)&#160;&#160;&#160;<a class="el" href="rcc_8h.html#a65b17df35e471c9bd60865aad38e2adc">RCC_PLLSAICFGR</a> = (((pllsain&amp;0x1ff)&lt;&lt;6) | ((pllsaiq&amp;0xF)&lt;&lt;24) | ((pllsair&amp;0x7)&lt;&lt;28))</td></tr>
-<tr class="separator:a82debce243c52cb8c4e87cd0bce13f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a962eed2dfb4686e017e2126b7e7693c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a962eed2dfb4686e017e2126b7e7693c4">rcc_ltdc_set_clock_divr</a>(pllsaidivr)&#160;&#160;&#160;<a class="el" href="rcc_8h.html#ae30781fa708e24eec32da6cfad3ffa20">RCC_DCKCFGR</a>    = (((<a class="el" href="rcc_8h.html#ae30781fa708e24eec32da6cfad3ffa20">RCC_DCKCFGR</a> &amp; ~<a class="el" href="rcc_8h.html#adb6da4d2318290fde8546307117a70dc">RCC_DCKCFGR_PLLSAIDIVR_MSK</a>)|((pllsaidivr&amp;0x3)&lt;&lt;16)))</td></tr>
-<tr class="separator:a962eed2dfb4686e017e2126b7e7693c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a859a9ba8fcc7c60a0f7dfd5865001f08"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a859a9ba8fcc7c60a0f7dfd5865001f08">_REG_BIT</a>(base, bit)&#160;&#160;&#160;(((base) &lt;&lt; 5) + (bit))</td></tr>
 <tr class="separator:a859a9ba8fcc7c60a0f7dfd5865001f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -1089,6 +1081,14 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a441c624ba75a1a391a725c3d040d14e4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a441c624ba75a1a391a725c3d040d14e4">rcc_pllsai_enable</a> (void)</td></tr>
+<tr class="separator:a441c624ba75a1a391a725c3d040d14e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac02ed5c09dba04a01037f1a8283ed18f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#ac02ed5c09dba04a01037f1a8283ed18f">rcc_pllsai_ready</a> (void)</td></tr>
+<tr class="separator:ac02ed5c09dba04a01037f1a8283ed18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c139296dba9d8ec9acc581574ec0c03"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a4c139296dba9d8ec9acc581574ec0c03">rcc_pllsai_config</a> (uint16_t pllsain, uint16_t pllsaiq, uint16_t pllsair)</td></tr>
+<tr class="separator:a4c139296dba9d8ec9acc581574ec0c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0737d87e753df8815f5463236d0039"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rcc_8h.html#a7d0737d87e753df8815f5463236d0039">rcc_ltdc_set_clock_divr</a> (uint8_t pllsaidivr)</td></tr>
+<tr class="separator:a7d0737d87e753df8815f5463236d0039"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1c96c4bce0fe924171980aa993d2a0af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__file.html#ga1c96c4bce0fe924171980aa993d2a0af">rcc_osc_ready_int_clear</a> (enum <a class="el" href="rcc_8h.html#a68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
 <tr class="separator:ga1c96c4bce0fe924171980aa993d2a0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6507734e493649ea262e10a511581d67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__file.html#ga6507734e493649ea262e10a511581d67">rcc_osc_ready_int_enable</a> (enum <a class="el" href="rcc_8h.html#a68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
@@ -1180,7 +1180,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rcc_8h_source.html#l00541">541</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8h_source.html#l00560">560</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
 </div>
 </div>
@@ -5130,7 +5130,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00050">50</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00410">rcc_css_disable()</a>, <a class="el" href="rcc_8c_source.html#l00405">rcc_css_enable()</a>, <a class="el" href="rcc_8c_source.html#l00432">rcc_osc_bypass_disable()</a>, <a class="el" href="rcc_8c_source.html#l00415">rcc_osc_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00384">rcc_osc_off()</a>, <a class="el" href="rcc_8c_source.html#l00363">rcc_osc_on()</a>, and <a class="el" href="rcc_8c_source.html#l00324">rcc_wait_for_osc_ready()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00410">rcc_css_disable()</a>, <a class="el" href="rcc_8c_source.html#l00405">rcc_css_enable()</a>, <a class="el" href="rcc_8c_source.html#l00432">rcc_osc_bypass_disable()</a>, <a class="el" href="rcc_8c_source.html#l00415">rcc_osc_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00384">rcc_osc_off()</a>, <a class="el" href="rcc_8c_source.html#l00363">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00496">rcc_pllsai_enable()</a>, <a class="el" href="rcc_8h_source.html#l00501">rcc_pllsai_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00324">rcc_wait_for_osc_ready()</a>.</p>
 
 </div>
 </div>
@@ -5302,6 +5302,8 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00090">90</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
+<p>Referenced by <a class="el" href="rcc_8h_source.html#l00496">rcc_pllsai_enable()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab57d64642fb17fa0f3d90db47c7fb95d"></a>
@@ -5315,6 +5317,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00089">89</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+
+<p>Referenced by <a class="el" href="rcc_8h_source.html#l00501">rcc_pllsai_ready()</a>.</p>
 
 </div>
 </div>
@@ -5490,6 +5494,8 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00085">85</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
+<p>Referenced by <a class="el" href="rcc_8h_source.html#l00516">rcc_ltdc_set_clock_divr()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a9a5b57b56d34eddfad3463641faab4ba"></a>
@@ -5553,30 +5559,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define RCC_DCKCFGR_PLLSAIDIVR_MSK&#160;&#160;&#160;(0x3&lt;&lt;16)</td>
+          <td class="memname">#define RCC_DCKCFGR_PLLSAIDIVR_MSK&#160;&#160;&#160;(0x3 &lt;&lt; 16)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00489">489</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-</div>
-</div>
-<a class="anchor" id="a962eed2dfb4686e017e2126b7e7693c4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define rcc_ltdc_set_clock_divr</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pllsaidivr</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="rcc_8h.html#ae30781fa708e24eec32da6cfad3ffa20">RCC_DCKCFGR</a>    = (((<a class="el" href="rcc_8h.html#ae30781fa708e24eec32da6cfad3ffa20">RCC_DCKCFGR</a> &amp; ~<a class="el" href="rcc_8h.html#adb6da4d2318290fde8546307117a70dc">RCC_DCKCFGR_PLLSAIDIVR_MSK</a>)|((pllsaidivr&amp;0x3)&lt;&lt;16)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rcc_8h_source.html#l00501">501</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8h_source.html#l00516">rcc_ltdc_set_clock_divr()</a>.</p>
 
 </div>
 </div>
@@ -5718,74 +5708,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a82debce243c52cb8c4e87cd0bce13f77"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define rcc_pllsai_config</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pllsain, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pllsaiq, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pllsair&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="rcc_8h.html#a65b17df35e471c9bd60865aad38e2adc">RCC_PLLSAICFGR</a> = (((pllsain&amp;0x1ff)&lt;&lt;6) | ((pllsaiq&amp;0xF)&lt;&lt;24) | ((pllsair&amp;0x7)&lt;&lt;28))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rcc_8h_source.html#l00499">499</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad271998a7478f3664704fecdd556ed8c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define rcc_pllsai_enable</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="rcc_8h.html#a3465fac46f8d87fc7e243765777af052">RCC_CR</a> |= <a class="el" href="rcc_8h.html#afe6e58efc5730641fd3282ba749e4d1b">RCC_CR_PLLSAION</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rcc_8h_source.html#l00496">496</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5d038f1a1876fbe8bd1a4bb3435ce648"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define rcc_pllsai_ready</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="rcc_8h.html#a3465fac46f8d87fc7e243765777af052">RCC_CR</a> &amp; <a class="el" href="rcc_8h.html#ab57d64642fb17fa0f3d90db47c7fb95d">RCC_CR_PLLSAIRDY</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rcc_8h_source.html#l00497">497</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a65b17df35e471c9bd60865aad38e2adc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -5797,6 +5719,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00084">84</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+
+<p>Referenced by <a class="el" href="rcc_8h_source.html#l00507">rcc_pllsai_config()</a>.</p>
 
 </div>
 </div>
@@ -5891,7 +5815,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="rcc_8h_source.html#l00511">511</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8h_source.html#l00530">530</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
 </div>
 </div>
@@ -5917,7 +5841,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="rcc_8h_source.html#l00537">537</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8h_source.html#l00556">556</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
 </div>
 </div>
@@ -6213,7 +6137,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="rcc_8h_source.html#l00543">543</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8h_source.html#l00562">562</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
 </div>
 </div>
@@ -6351,7 +6275,136 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="rcc_8h_source.html#l00708">708</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8h_source.html#l00727">727</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a7d0737d87e753df8815f5463236d0039"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void rcc_ltdc_set_clock_divr </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pllsaidivr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="rcc_8h_source.html#l00516">516</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+
+<p>References <a class="el" href="rcc_8h_source.html#l00085">RCC_DCKCFGR</a>, and <a class="el" href="rcc_8h_source.html#l00489">RCC_DCKCFGR_PLLSAIDIVR_MSK</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4c139296dba9d8ec9acc581574ec0c03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void rcc_pllsai_config </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>pllsain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>pllsaiq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>pllsair</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="rcc_8h_source.html#l00507">507</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+
+<p>References <a class="el" href="rcc_8h_source.html#l00084">RCC_PLLSAICFGR</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a441c624ba75a1a391a725c3d040d14e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void rcc_pllsai_enable </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="rcc_8h_source.html#l00496">496</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+
+<p>References <a class="el" href="rcc_8h_source.html#l00050">RCC_CR</a>, and <a class="el" href="rcc_8h_source.html#l00090">RCC_CR_PLLSAION</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac02ed5c09dba04a01037f1a8283ed18f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool rcc_pllsai_ready </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="rcc_8h_source.html#l00501">501</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
+
+<p>References <a class="el" href="rcc_8h_source.html#l00050">RCC_CR</a>, and <a class="el" href="rcc_8h_source.html#l00089">RCC_CR_PLLSAIRDY</a>.</p>
 
 </div>
 </div>
@@ -6361,7 +6414,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_1fc15a2279e09b93b0b15236ec8117f8.html">f4</a></li><li class="navelem"><a class="el" href="rcc_8h.html">rcc.h</a></li>
-    <li class="footer">Generated on Fri Feb 6 2015 08:22:02 for libopencm3 by
+    <li class="footer">Generated on Fri Feb 13 2015 04:22:11 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>
