@@ -13572,10 +13572,38 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>LTDC_L1CR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>adcbe38e88d0a6c167ba6f1ebd414a7bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2CR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a09f8836856f64ad91d7c5b6ee9d65b30</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>LTDC_LxWHPCR</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>ada3d23566304d42b2389890ec83023e8</anchor>
       <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L1WHPCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a8c6984db5dc68bf16b42e15b16ab70cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2WHPCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aa23563fc635ef7b77304660592b2d0fe</anchor>
+      <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -13586,10 +13614,38 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>LTDC_L1WVPCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>acf59afa7afa390b5e4549d6991209ea5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2WVPCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7cb6f18ebf46462e10613ecb668a1dc4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>LTDC_LxCKCR</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>a7ad48bd2436327aa9b63e08f07b7adb4</anchor>
       <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L1CKCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ab984165c8a9d61f4c49427e8c58cddca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2CKCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a01bc9eee9f8da2d0aef4ee97a462b47d</anchor>
+      <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -13600,10 +13656,38 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>LTDC_L1PFCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ac5bdbd6ebfeee5dfd9bfe36cb9a105f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2PFCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a0a6fd8f6f26b1d7b561dea59a531c23b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>LTDC_LxCACR</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>a52da2740baa16804d8bedfa103e643b4</anchor>
       <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L1CACR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a6c1e5a1ce80377ddb363c4b129c7b20f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2CACR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a857f86693d7cb90447cb35a8658713f9</anchor>
+      <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -13614,10 +13698,38 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>LTDC_L1DCCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ac82688ed178bb6eb49f1b1f4131b40c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2DCCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a297ea24696255057c1fcc3bb9afeab45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>LTDC_LxBFCR</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>a924a566d01cd7d746fda678876c0c19f</anchor>
       <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L1BFCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a6c67d6d3b9793704027d194642d4bf1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2BFCR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a493480d78f2eca5e2eee4076cfcb5185</anchor>
+      <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -13628,10 +13740,38 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>LTDC_L1CFBAR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ae441998c85bf01903ba8b799dc4ee966</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2CFBAR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aa232db9d8c7cec9f5ee5547250e473d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>LTDC_LxCFBLR</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>a7ce8b250e1e56a2c6ba2fb883291ced9</anchor>
       <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L1CFBLR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1951116140e05dc5435ce28f7db1faec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2CFBLR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a8234da6c8419555d240520ddca17eb94</anchor>
+      <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -13642,10 +13782,38 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>LTDC_L1CFBLNR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a5882f4d82e2967545c29ed1af4b1341f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2CFBLNR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a32d77b376dcc9f208d301ddcdd39e276</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>LTDC_LxCLUTWR</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>a7f0afd72e14e3fed147efafddafad932</anchor>
       <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L1CLUTWR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a8568875c939c91f7059b042d1adde1f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_L2CLUTWR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a27c3d4cea4954bc8d15c92489908213d</anchor>
+      <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -13659,6 +13827,118 @@
       <name>LTDC_LAYER_2</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>afd54985ec8fed9850f0d3aa38f77a857</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SSCR_HSW_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a60794056eb09a5ab83458c04364e13bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SSCR_HSW_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a3842da753ffb60c164803c057cbbfbd4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SSCR_VSH_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a5e73693c5b093c7ed75f405205762c59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SSCR_VSH_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aaa5a522434bb15f9e2590eb1da1b4277</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_BPCR_AHBP_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ac641abd1fe72f2e1fdf075cdc094a93a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_BPCR_AHBP_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a11c31f0df3b9ea7a8429b9386520cde1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_BPCR_AVBP_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a9a4158b0fb273c221cd62841361b0b23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_BPCR_AVBP_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>afe8d992f1d1b180f9b6c191812d06203</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_AWCR_AAW_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ac565547ca8e5a6c9fa020625f84906ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_AWCR_AAW_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a9f93f416821ac589a348d99fef4361aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_AWCR_AAH_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a6c7bc4466926a297376e75145d273d6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_AWCR_AAH_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a73316ffd5bc7456244a1858c1e949456</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_TWCR_TOTALW_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a6076ef397f7991ad7d6eae90f67cd291</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_TWCR_TOTALW_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a87ff079ca311a326017eb858905ef0d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_TWCR_TOTALH_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a40af617929478bd78db6d030502f9c2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_TWCR_TOTALH_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1cda3262c24b7d336f340c538f3b239c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -13733,6 +14013,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>LTDC_SRCR_VBR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a6a469ec4989f09bd45c0fa1bcd8fbb0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_SRCR_IMR</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a2bee9f0d3252c465422ad42a3e748c33</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>LTDC_SRCR_RELOAD_IMR</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>a09f829706f52c4ff5840ef948778c356</anchor>
@@ -13743,6 +14037,132 @@
       <name>LTDC_SRCR_RELOAD_VBR</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>adc0021f71715f507d619512c62c07410</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_IER_RRIE</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad8b81bb2975282a8c97904fb27f379b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_IER_TERRIE</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ae31521896ca3734d4ea2d8b0a8c53e6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_IER_FUIE</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a59e996a111de2bfbc7353ad721d23b62</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_IER_LIE</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a986f9c276c5c09d609099fb9df0466f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ISR_RRIF</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ac8735819d356373cd4ee6f5fdb4889fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ISR_TERRIF</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a78d78d256e92cc8fd7c9180c16fe845b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ISR_FUIF</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad25511dce2346382813fbb8f38ed0afe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ISR_LIF</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1430a5052fa2be26d885e6019326f374</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ICR_CRRIF</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a45709c66c8322628434d48bacdc9f92d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ICR_CTERRIF</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a45dfff9d309c4a9b094930d8a2ae259a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ICR_CFUIF</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a36d2e96e5ac6c5a269131c6eadf5f552</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_ICR_CLIF</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a15295bfc88388bbb0472e718dbb2e5e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LIPCR_LIPOS_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>af49f85050359a72d6269b1dcd7b69e91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LIPCR_LIPOS_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a0822568cdee5ecb4c575976a12e16a5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CPSR_CXPOS_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a8790825a1e89db45a01fbb0b40329e55</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CPSR_CXPOS_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a0118a09ca6381ab3348749d30c0c7d81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CPSR_CYPOS_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad85b46da129f53c00685c806ff74d2f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_CPSR_CYPOS_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>adbdbc7b8e4e61c0ba754f84af77aa936</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -13792,6 +14212,104 @@
       <name>LTDC_LxCR_COLTAB_ENABLE</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>a54ca9241c1023f265dd089f0b4871c79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWHPCR_WHSPPOS_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a2c94fd893f2a677c40e0158891c7a8ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWHPCR_WHSPPOS_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>accc28efd78c9b701a5688f9f6d069bc3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWHPCR_WHSTPOS_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a5715a2914991676547b00fbc3cbbbcfd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWHPCR_WHSTPOS_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a012a105570a775594d77ab710fa21bcd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWVPCR_WVSPPOS_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>abb2acd20366fd0c297f88f8ee1ce97c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWVPCR_WVSPPOS_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a54c65a311bdb9e66e80496ad442524da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWVPCR_WVSTPOS_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a33a1c6d9e6f83c291cf048ffd577e80e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxWVPCR_WVSTPOS_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad9bb5aad371bfa6cc688c71bb4fce44a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCKCR_CKRED_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ad734e81f9d0f359154487fdb4f06d966</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCKCR_CKRED_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7108e39f385536c456a1b3a5c8450a7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCKCR_CKGREEN_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a34e086058f1523bfdebc8f82351b5784</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCKCR_CKGREEN_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a6e80093336afe92f401f3af2fb542ab6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCKCR_CKBLUE_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aa1e1dd8bf617060ee0a79982522bca29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCKCR_CKBLUE_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>adc760a9fed4794543ea5fcad988fec79</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -13852,6 +14370,76 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>LTDC_LxCACR_CONSTA_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a9bd880053e64357d0bd58e38877dc18f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCACR_CONSTA_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a4af34439c4f79e4d26eee9d84c685aa2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxDCCR_DCALPHA_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a233f8698fe4d451ad022ec6487a65928</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxDCCR_DCALPHA_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a92779dd6178301290c11d05ababc8d80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxDCCR_DCRED_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a3bae42e2335a31f508d973b0aac031f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxDCCR_DCRED_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aae07c06b53790ae69649b4522ad10e5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxDCCR_DCGREEN_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ac6df51eeb4fba4dea1f9482485a11e51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxDCCR_DCGREEN_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>ae430c5d6582b9ce1eacd1de4c81a303f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxDCCR_DCBLUE_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>af564c17a80500f42e6ed659d406351d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxDCCR_DCBLUE_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a7d58ccd223e2eaf2f445d3f5997f55dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>LTDC_LxBFCR_BF1_CONST_ALPHA</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>a907ed28635667ee64470a19c759bee56</anchor>
@@ -13876,6 +14464,118 @@
       <name>LTDC_LxBFCR_BF2_PIXEL_ALPHA_x_CONST_ALPHA</name>
       <anchorfile>ltdc_8h.html</anchorfile>
       <anchor>a1453bb1b2c43119fff0c7603611b79e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBAR_CFBAR_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a67147d78a56b7f4b3debfaf7fb9aaad9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBAR_CFBAR_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a8591ec2b855213f576e6dd699f4fbb89</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBLR_CFBP_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a6b94b201967a324dd5d3de5506ee602f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBLR_CFBP_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a8afe2515ae30fab89001f6f9ec2ad06f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBLR_CFBLL_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a8d7a6bb981d372b2ac5223e338984e08</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBLR_CFBLL_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a4562ef49db8f4515496fcc90a8f8ad85</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBLNR_CFBLNBR_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a90791808c306277b86cae3e2baed2c09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCFBLNR_CFBLNBR_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a847bc5eb2acea9d2688fc1edac434266</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCLUTWR_CLUTADD_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a250b6925dcbf4a68df89b03a9cc6c8a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCLUTWR_CLUTADD_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a80078ebca5cfa4fbd49b95401302ccbf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCLUTWR_RED_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a8c745c266c24e65bb4cc5e6c3547d439</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCLUTWR_RED_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1be705df4e172d74637661404eea9c2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCLUTWR_GREEN_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>afca1cc9d4124c0858d356d0dc487dfc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCLUTWR_GREEN_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a1bf001377e8bbfcf2befd5ddda6cc0c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCLUTWR_BLUE_SHIFT</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>a3b0d29dfa2bc3de705b0e09cfc383465</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LTDC_LxCLUTWR_BLUE_MASK</name>
+      <anchorfile>ltdc_8h.html</anchorfile>
+      <anchor>aae5250086c615a07fd603e243245013e</anchor>
       <arglist></arglist>
     </member>
     <member kind="function" static="yes">
@@ -16844,6 +17544,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB2ENR_LTDCEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a355bd72d57bef878611abbd68c5e2fa8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2ENR_SAI1EN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a31543bbdce9d1385c43dedde182f6aa9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB2ENR_SPI6EN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>aa3a69871fe2c246de87d6330085f8fb2</anchor>
@@ -17547,6 +18261,48 @@
       <name>RCC_PLLI2SCFGR_PLLI2SN_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a0a1061d38962f6b21c522741f7d4b668</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIR_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a06ba54b2d7e45fa6c181df1197610eb5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIR_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54eb5d4ca5c9875cef238f0039001c38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIQ_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a0fcfd749e108dddb329d2af952ae875b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIQ_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a15828ad0669be390539886967c6f73d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIN_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a944ebe2ee56cbeea81d19bca9a5912b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIN_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a9502a7f340cf91c32ed18eaed2aa98f1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
