@@ -14,5 +14,6 @@ var group__usb__standard__file =
     [ "usb_standard_set_address", "group__usb__standard__file.html#ga2e39a66a58cc636b01e3d90cb70c7625", null ],
     [ "usb_standard_set_configuration", "group__usb__standard__file.html#ga11f2ca9802883c0ff1dc312799e7250d", null ],
     [ "usb_standard_set_interface", "group__usb__standard__file.html#ga137aae06450b52a0c22f7ffa6fba5ba0", null ],
+    [ "usbd_register_set_altsetting_callback", "group__usb__standard__file.html#ga21d5f43101d1e56baf0d9f664401e506", null ],
     [ "usbd_register_set_config_callback", "group__usb__standard__file.html#gab61ace3fbfd23ca3bc3afcee6c231d05", null ]
 ];

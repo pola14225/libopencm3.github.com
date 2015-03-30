@@ -1962,6 +1962,13 @@
       <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
       <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usbd_register_set_altsetting_callback</name>
+      <anchorfile>group__usb__standard__file.html</anchorfile>
+      <anchor>ga21d5f43101d1e56baf0d9f664401e506</anchor>
+      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue))</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static uint16_t</type>
       <name>build_config_descriptor</name>
@@ -2190,6 +2197,13 @@
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
       <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usbd_register_set_altsetting_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ga21d5f43101d1e56baf0d9f664401e506</anchor>
+      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue))</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3218,6 +3232,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>usbd_register_set_altsetting_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ga21d5f43101d1e56baf0d9f664401e506</anchor>
+      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue))</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>usbd_poll</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>ga94eba5aff7befd8009cea2f2abb43134</anchor>
@@ -3610,6 +3631,13 @@
       <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
       <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usbd_register_set_altsetting_callback</name>
+      <anchorfile>group__usb__standard__file.html</anchorfile>
+      <anchor>ga21d5f43101d1e56baf0d9f664401e506</anchor>
+      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue))</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static uint16_t</type>
       <name>build_config_descriptor</name>
@@ -3844,6 +3872,13 @@
       <anchorfile>struct__usbd__device.html</anchorfile>
       <anchor>a87d8f0db30486e8a4d2369d95a826e3f</anchor>
       <arglist>[MAX_USER_SET_CONFIG_CALLBACK])(usbd_device *usbd_dev, uint16_t wValue)</arglist>
+    </member>
+    <member kind="variable">
+      <type>void(*</type>
+      <name>user_callback_set_altsetting</name>
+      <anchorfile>struct__usbd__device.html</anchorfile>
+      <anchor>ae4748f35ebf0e08df31669650eafc87e</anchor>
+      <arglist>)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue)</arglist>
     </member>
     <member kind="variable">
       <type>const struct _usbd_driver *</type>
@@ -4586,10 +4621,17 @@
     <name>usb_config_descriptor::usb_interface</name>
     <filename>structusb__config__descriptor_1_1usb__interface.html</filename>
     <member kind="variable">
-      <type>int</type>
+      <type>uint8_t *</type>
+      <name>cur_altsetting</name>
+      <anchorfile>structusb__config__descriptor_1_1usb__interface.html</anchorfile>
+      <anchor>a06451de61afb655e5e0fb756309248c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
       <name>num_altsetting</name>
       <anchorfile>structusb__config__descriptor_1_1usb__interface.html</anchorfile>
-      <anchor>a13a3a3923829d695fa85236b83205b1a</anchor>
+      <anchor>aeeb7e4ed8d6a6ad1ec1eb0c18ee0f9e3</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -4985,10 +5027,17 @@
     <name>usb_interface</name>
     <filename>structusb__interface.html</filename>
     <member kind="variable">
-      <type>int</type>
+      <type>uint8_t *</type>
+      <name>cur_altsetting</name>
+      <anchorfile>structusb__interface.html</anchorfile>
+      <anchor>aa39c5be41340ee8c3fa71b7a0f7ba240</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
       <name>num_altsetting</name>
       <anchorfile>structusb__interface.html</anchorfile>
-      <anchor>aa4f464af60066d059eb5c75b91870a6c</anchor>
+      <anchor>a9c5a9b0ae7b56dbad13ac3badc546661</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">

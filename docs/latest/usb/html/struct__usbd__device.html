@@ -197,6 +197,8 @@ Data Fields</h2></td></tr>
 <tr class="separator:a6e82880b623706d1dd345e54fed03445"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87d8f0db30486e8a4d2369d95a826e3f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__usbd__device.html#a87d8f0db30486e8a4d2369d95a826e3f">user_callback_set_config</a> [MAX_USER_SET_CONFIG_CALLBACK])(<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, uint16_t <a class="el" href="usbstd_8h.html#a7383d0165ad8eab48aa239c005199121">wValue</a>)</td></tr>
 <tr class="separator:a87d8f0db30486e8a4d2369d95a826e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4748f35ebf0e08df31669650eafc87e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__usbd__device.html#ae4748f35ebf0e08df31669650eafc87e">user_callback_set_altsetting</a> )(<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, uint16_t <a class="el" href="usbstd_8h.html#adc578ce35d89d52deba61ee6f312f177">wIndex</a>, uint16_t <a class="el" href="usbstd_8h.html#a7383d0165ad8eab48aa239c005199121">wValue</a>)</td></tr>
+<tr class="separator:ae4748f35ebf0e08df31669650eafc87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad780343e8e2776ce99b9dd302b77c2e2"><td class="memItemLeft" align="right" valign="top">const struct <a class="el" href="struct__usbd__driver.html">_usbd_driver</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__usbd__device.html#ad780343e8e2776ce99b9dd302b77c2e2">driver</a></td></tr>
 <tr class="separator:ad780343e8e2776ce99b9dd302b77c2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a212245da83ffeb58ceb0b35df4482f82"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__usbd__device.html#a212245da83ffeb58ceb0b35df4482f82">fifo_mem_top</a></td></tr>
@@ -227,7 +229,7 @@ Data Fields</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__private_8h_source.html#l00049">49</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00059">build_config_descriptor()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
+<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00066">build_config_descriptor()</a>, <a class="el" href="usb__standard_8c_source.html#l00335">usb_standard_get_interface()</a>, <a class="el" href="usb__standard_8c_source.html#l00300">usb_standard_set_interface()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
 
 </div>
 </div>
@@ -259,7 +261,7 @@ Data Fields</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__private_8h_source.html#l00053">53</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__control_8c_source.html#l00149">usb_control_setup_read()</a>, <a class="el" href="usb__control_8c_source.html#l00170">usb_control_setup_write()</a>, <a class="el" href="usb__standard_8c_source.html#l00142">usb_standard_get_descriptor()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
+<p>Referenced by <a class="el" href="usb__control_8c_source.html#l00149">usb_control_setup_read()</a>, <a class="el" href="usb__control_8c_source.html#l00170">usb_control_setup_write()</a>, <a class="el" href="usb__standard_8c_source.html#l00149">usb_standard_get_descriptor()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
 
 </div>
 </div>
@@ -291,7 +293,7 @@ Data Fields</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__private_8h_source.html#l00056">56</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb_8c_source.html#l00119">_usbd_reset()</a>, and <a class="el" href="usb__standard_8c_source.html#l00213">usb_standard_set_address()</a>.</p>
+<p>Referenced by <a class="el" href="usb_8c_source.html#l00119">_usbd_reset()</a>, and <a class="el" href="usb__standard_8c_source.html#l00220">usb_standard_set_address()</a>.</p>
 
 </div>
 </div>
@@ -307,7 +309,7 @@ Data Fields</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__private_8h_source.html#l00057">57</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb_8c_source.html#l00119">_usbd_reset()</a>, <a class="el" href="usb__standard_8c_source.html#l00279">usb_standard_get_configuration()</a>, and <a class="el" href="usb__standard_8c_source.html#l00239">usb_standard_set_configuration()</a>.</p>
+<p>Referenced by <a class="el" href="usb_8c_source.html#l00119">_usbd_reset()</a>, <a class="el" href="usb__standard_8c_source.html#l00286">usb_standard_get_configuration()</a>, <a class="el" href="usb__standard_8c_source.html#l00335">usb_standard_get_interface()</a>, <a class="el" href="usb__standard_8c_source.html#l00246">usb_standard_set_configuration()</a>, and <a class="el" href="usb__standard_8c_source.html#l00300">usb_standard_set_interface()</a>.</p>
 
 </div>
 </div>
@@ -323,7 +325,7 @@ Data Fields</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__private_8h_source.html#l00048">48</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__control_8c_source.html#l00213">_usbd_control_out()</a>, <a class="el" href="usb__f103_8c_source.html#l00147">stm32f103_endpoints_reset()</a>, <a class="el" href="usb__control_8c_source.html#l00098">usb_control_recv_chunk()</a>, <a class="el" href="usb__control_8c_source.html#l00074">usb_control_send_chunk()</a>, <a class="el" href="usb__control_8c_source.html#l00170">usb_control_setup_write()</a>, <a class="el" href="usb__standard_8c_source.html#l00142">usb_standard_get_descriptor()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
+<p>Referenced by <a class="el" href="usb__control_8c_source.html#l00213">_usbd_control_out()</a>, <a class="el" href="usb__f103_8c_source.html#l00147">stm32f103_endpoints_reset()</a>, <a class="el" href="usb__control_8c_source.html#l00098">usb_control_recv_chunk()</a>, <a class="el" href="usb__control_8c_source.html#l00074">usb_control_send_chunk()</a>, <a class="el" href="usb__control_8c_source.html#l00170">usb_control_setup_write()</a>, <a class="el" href="usb__standard_8c_source.html#l00149">usb_standard_get_descriptor()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
 
 </div>
 </div>
@@ -337,7 +339,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00103">103</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
+<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00106">106</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__fx07__common_8c_source.html#l00208">stm32fx07_ep_read_packet()</a>, and <a class="el" href="usb__fx07__common_8c_source.html#l00041">stm32fx07_ep_setup()</a>.</p>
 
@@ -353,9 +355,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00092">92</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
+<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00095">95</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__control_8c_source.html#l00259">_usbd_control_in()</a>, <a class="el" href="usb_8c_source.html#l00119">_usbd_reset()</a>, <a class="el" href="usb__fx07__common_8c_source.html#l00041">stm32fx07_ep_setup()</a>, <a class="el" href="usb__fx07__common_8c_source.html#l00236">stm32fx07_poll()</a>, <a class="el" href="usb__standard_8c_source.html#l00213">usb_standard_set_address()</a>, <a class="el" href="usb__standard_8c_source.html#l00239">usb_standard_set_configuration()</a>, <a class="el" href="usb_8c_source.html#l00137">usbd_disconnect()</a>, <a class="el" href="usb_8c_source.html#l00174">usbd_ep_nak_set()</a>, <a class="el" href="usb_8c_source.html#l00158">usbd_ep_read_packet()</a>, <a class="el" href="usb_8c_source.html#l00145">usbd_ep_setup()</a>, <a class="el" href="usb_8c_source.html#l00169">usbd_ep_stall_get()</a>, <a class="el" href="usb_8c_source.html#l00164">usbd_ep_stall_set()</a>, <a class="el" href="usb_8c_source.html#l00152">usbd_ep_write_packet()</a>, <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>, and <a class="el" href="usb_8c_source.html#l00132">usbd_poll()</a>.</p>
+<p>Referenced by <a class="el" href="usb__control_8c_source.html#l00259">_usbd_control_in()</a>, <a class="el" href="usb_8c_source.html#l00119">_usbd_reset()</a>, <a class="el" href="usb__fx07__common_8c_source.html#l00041">stm32fx07_ep_setup()</a>, <a class="el" href="usb__fx07__common_8c_source.html#l00236">stm32fx07_poll()</a>, <a class="el" href="usb__standard_8c_source.html#l00220">usb_standard_set_address()</a>, <a class="el" href="usb__standard_8c_source.html#l00246">usb_standard_set_configuration()</a>, <a class="el" href="usb_8c_source.html#l00137">usbd_disconnect()</a>, <a class="el" href="usb_8c_source.html#l00174">usbd_ep_nak_set()</a>, <a class="el" href="usb_8c_source.html#l00158">usbd_ep_read_packet()</a>, <a class="el" href="usb_8c_source.html#l00145">usbd_ep_setup()</a>, <a class="el" href="usb_8c_source.html#l00169">usbd_ep_stall_get()</a>, <a class="el" href="usb_8c_source.html#l00164">usbd_ep_stall_set()</a>, <a class="el" href="usb_8c_source.html#l00152">usbd_ep_write_packet()</a>, <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>, and <a class="el" href="usb_8c_source.html#l00132">usbd_poll()</a>.</p>
 
 </div>
 </div>
@@ -369,7 +371,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00096">96</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
+<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00099">99</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__f107_8c_source.html#l00053">stm32f107_usbd_init()</a>, <a class="el" href="usb__f207_8c_source.html#l00053">stm32f207_usbd_init()</a>, <a class="el" href="usb__fx07__common_8c_source.html#l00118">stm32fx07_endpoints_reset()</a>, <a class="el" href="usb__fx07__common_8c_source.html#l00041">stm32fx07_ep_setup()</a>, and <a class="el" href="usb__fx07__common_8c_source.html#l00236">stm32fx07_poll()</a>.</p>
 
@@ -385,7 +387,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00097">97</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
+<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00100">100</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__fx07__common_8c_source.html#l00118">stm32fx07_endpoints_reset()</a>, and <a class="el" href="usb__fx07__common_8c_source.html#l00041">stm32fx07_ep_setup()</a>.</p>
 
@@ -401,7 +403,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00098">98</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
+<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00101">101</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__fx07__common_8c_source.html#l00165">stm32fx07_ep_nak_set()</a>, and <a class="el" href="usb__fx07__common_8c_source.html#l00208">stm32fx07_ep_read_packet()</a>.</p>
 
@@ -419,7 +421,7 @@ Data Fields</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__private_8h_source.html#l00051">51</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00142">usb_standard_get_descriptor()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
+<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00149">usb_standard_get_descriptor()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
 
 </div>
 </div>
@@ -451,7 +453,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00109">109</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
+<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00112">112</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__fx07__common_8c_source.html#l00208">stm32fx07_ep_read_packet()</a>, and <a class="el" href="usb__fx07__common_8c_source.html#l00236">stm32fx07_poll()</a>.</p>
 
@@ -469,7 +471,7 @@ Data Fields</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__private_8h_source.html#l00050">50</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00142">usb_standard_get_descriptor()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
+<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00149">usb_standard_get_descriptor()</a>, and <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>.</p>
 
 </div>
 </div>
@@ -521,6 +523,22 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae4748f35ebf0e08df31669650eafc87e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* _usbd_device::user_callback_set_altsetting)(<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, uint16_t <a class="el" href="usbstd_8h.html#adc578ce35d89d52deba61ee6f312f177">wIndex</a>, uint16_t <a class="el" href="usbstd_8h.html#a7383d0165ad8eab48aa239c005199121">wValue</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="usb__private_8h_source.html#l00092">92</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
+
+<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00300">usb_standard_set_interface()</a>, and <a class="el" href="usb__standard_8c_source.html#l00059">usbd_register_set_altsetting_callback()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a87d8f0db30486e8a4d2369d95a826e3f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -533,7 +551,7 @@ Data Fields</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__private_8h_source.html#l00090">90</a> of file <a class="el" href="usb__private_8h_source.html">usb_private.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00239">usb_standard_set_configuration()</a>, <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>, and <a class="el" href="usb__standard_8c_source.html#l00042">usbd_register_set_config_callback()</a>.</p>
+<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00246">usb_standard_set_configuration()</a>, <a class="el" href="usb_8c_source.html#l00064">usbd_init()</a>, and <a class="el" href="usb__standard_8c_source.html#l00042">usbd_register_set_config_callback()</a>.</p>
 
 </div>
 </div>
@@ -579,7 +597,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="usb__control_8c_source.html#l00118">usb_control_request_dispatch()</a>, <a class="el" href="usb__standard_8c_source.html#l00239">usb_standard_set_configuration()</a>, and <a class="el" href="usb__control_8c_source.html#l00054">usbd_register_control_callback()</a>.</p>
+<p>Referenced by <a class="el" href="usb__control_8c_source.html#l00118">usb_control_request_dispatch()</a>, <a class="el" href="usb__standard_8c_source.html#l00246">usb_standard_set_configuration()</a>, and <a class="el" href="usb__control_8c_source.html#l00054">usbd_register_control_callback()</a>.</p>
 
 </div>
 </div>
@@ -592,7 +610,7 @@ Data Fields</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct__usbd__device.html">_usbd_device</a></li>
-    <li class="footer">Generated on Sat Feb 21 2015 05:21:19 for libopencm3 by
+    <li class="footer">Generated on Mon Mar 30 2015 02:21:19 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

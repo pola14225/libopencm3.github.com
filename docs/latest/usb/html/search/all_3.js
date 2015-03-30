@@ -14,6 +14,7 @@ var searchData=
   ['ctrl_5fbuf',['ctrl_buf',['../struct__usbd__device.html#ac28d5ce184bf3812d6e85be62ce27ea4',1,'_usbd_device::ctrl_buf()'],['../struct__usbd__device_1_1usb__control__state.html#a261f6c057a987f0ad538ecc8ad4d49b3',1,'_usbd_device::usb_control_state::ctrl_buf()']]],
   ['ctrl_5fbuf_5flen',['ctrl_buf_len',['../struct__usbd__device.html#a10d573425d5619bf41cf70c0e3bd298d',1,'_usbd_device']]],
   ['ctrl_5flen',['ctrl_len',['../struct__usbd__device_1_1usb__control__state.html#ad9e2cd348bdd9ca9135cedb7679ed916',1,'_usbd_device::usb_control_state']]],
+  ['cur_5faltsetting',['cur_altsetting',['../structusb__config__descriptor_1_1usb__interface.html#a06451de61afb655e5e0fb756309248c4',1,'usb_config_descriptor::usb_interface::cur_altsetting()'],['../structusb__interface.html#aa39c5be41340ee8c3fa71b7a0f7ba240',1,'usb_interface::cur_altsetting()']]],
   ['current_5faddress',['current_address',['../struct__usbd__device.html#acb76927d8afd9bf487d2f8f645e2ee0d',1,'_usbd_device']]],
   ['current_5fblock',['current_block',['../structusb__msc__trans.html#a20a39235ec981a6fa29e9fc739d9b4a9',1,'usb_msc_trans']]],
   ['current_5fconfig',['current_config',['../struct__usbd__device.html#a72a6261b52abbe62672c230967268d59',1,'_usbd_device']]]

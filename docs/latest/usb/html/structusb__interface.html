@@ -146,8 +146,10 @@ Collaboration diagram for usb_interface:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:aa4f464af60066d059eb5c75b91870a6c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structusb__interface.html#aa4f464af60066d059eb5c75b91870a6c">num_altsetting</a></td></tr>
-<tr class="separator:aa4f464af60066d059eb5c75b91870a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa39c5be41340ee8c3fa71b7a0f7ba240"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structusb__interface.html#aa39c5be41340ee8c3fa71b7a0f7ba240">cur_altsetting</a></td></tr>
+<tr class="separator:aa39c5be41340ee8c3fa71b7a0f7ba240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c5a9b0ae7b56dbad13ac3badc546661"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structusb__interface.html#a9c5a9b0ae7b56dbad13ac3badc546661">num_altsetting</a></td></tr>
+<tr class="separator:a9c5a9b0ae7b56dbad13ac3badc546661"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52cfc78c2536053de0c4f1615a057f79"><td class="memItemLeft" align="right" valign="top">const struct <br class="typebreak" />
 <a class="el" href="structusb__iface__assoc__descriptor.html">usb_iface_assoc_descriptor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structusb__interface.html#a52cfc78c2536053de0c4f1615a057f79">iface_assoc</a></td></tr>
 <tr class="separator:a52cfc78c2536053de0c4f1615a057f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,7 +159,7 @@ Data Fields</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="usbstd_8h_source.html#l00126">126</a> of file <a class="el" href="usbstd_8h_source.html">usbstd.h</a>.</p>
+<p>Definition at line <a class="el" href="usbstd_8h_source.html#l00129">129</a> of file <a class="el" href="usbstd_8h_source.html">usbstd.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a5fb4da13363349c7fa027c673ede9812"></a>
 <div class="memitem">
@@ -169,7 +171,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usbstd_8h_source.html#l00129">129</a> of file <a class="el" href="usbstd_8h_source.html">usbstd.h</a>.</p>
+<p>Definition at line <a class="el" href="usbstd_8h_source.html#l00133">133</a> of file <a class="el" href="usbstd_8h_source.html">usbstd.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa39c5be41340ee8c3fa71b7a0f7ba240"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t* usb_interface::cur_altsetting</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="usbstd_8h_source.html#l00130">130</a> of file <a class="el" href="usbstd_8h_source.html">usbstd.h</a>.</p>
+
+<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00335">usb_standard_get_interface()</a>, and <a class="el" href="usb__standard_8c_source.html#l00300">usb_standard_set_interface()</a>.</p>
 
 </div>
 </div>
@@ -183,21 +201,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usbstd_8h_source.html#l00128">128</a> of file <a class="el" href="usbstd_8h_source.html">usbstd.h</a>.</p>
+<p>Definition at line <a class="el" href="usbstd_8h_source.html#l00132">132</a> of file <a class="el" href="usbstd_8h_source.html">usbstd.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa4f464af60066d059eb5c75b91870a6c"></a>
+<a class="anchor" id="a9c5a9b0ae7b56dbad13ac3badc546661"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int usb_interface::num_altsetting</td>
+          <td class="memname">uint8_t usb_interface::num_altsetting</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="usbstd_8h_source.html#l00127">127</a> of file <a class="el" href="usbstd_8h_source.html">usbstd.h</a>.</p>
+<p>Definition at line <a class="el" href="usbstd_8h_source.html#l00131">131</a> of file <a class="el" href="usbstd_8h_source.html">usbstd.h</a>.</p>
+
+<p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00300">usb_standard_set_interface()</a>.</p>
 
 </div>
 </div>
@@ -210,7 +230,7 @@ Data Fields</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structusb__interface.html">usb_interface</a></li>
-    <li class="footer">Generated on Sat Feb 21 2015 05:21:19 for libopencm3 by
+    <li class="footer">Generated on Mon Mar 30 2015 02:21:19 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

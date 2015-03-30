@@ -19,6 +19,7 @@ var struct__usbd__device =
     [ "user_callback_ctr", "struct__usbd__device.html#a6e82880b623706d1dd345e54fed03445", null ],
     [ "user_callback_reset", "struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488", null ],
     [ "user_callback_resume", "struct__usbd__device.html#acaf5ea2b1ee04aaa31407f99dc98316c", null ],
+    [ "user_callback_set_altsetting", "struct__usbd__device.html#ae4748f35ebf0e08df31669650eafc87e", null ],
     [ "user_callback_set_config", "struct__usbd__device.html#a87d8f0db30486e8a4d2369d95a826e3f", null ],
     [ "user_callback_sof", "struct__usbd__device.html#ac0918a3ad67373dbf43e873c1d1b026e", null ],
     [ "user_callback_suspend", "struct__usbd__device.html#a82eeeabe86839be7e3acdd1d6bd81c73", null ],

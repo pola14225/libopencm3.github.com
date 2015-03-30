@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"structusb__msc__trans.html#aab66425ce97f007e56265b3c9f6835bc":[27,0,36,9],
+"structusb__msc__trans.html#aabde15222ad83f6621f744350ffc51ca":[27,0,36,1],
+"structusb__msc__trans.html#adbb4ba8f0aa484d37e01e98a504448d6":[27,0,36,11],
+"structusb__msc__trans.html#af1b071cf466021ddc18cae7994c069f7":[27,0,36,6],
+"structusb__setup__data.html":[4,1,6,0],
+"structusb__setup__data.html#a2ed7d2d64541da9f237a13435edd3f3a":[4,1,6,0,2],
+"structusb__setup__data.html#a30dbf7050fed7686bdf9a87c2dd1eb5c":[4,1,6,0,1],
 "structusb__setup__data.html#a593d22b430d1bd2f80a7c8795a4659fb":[4,1,6,0,0],
 "structusb__setup__data.html#a8c0e8f7a6d919a7a05c93f6cf5b22b0b":[4,1,6,0,4],
 "structusb__setup__data.html#ae8dc4ecb24d13bb2ad31ab8b313fd3e2":[4,1,6,0,3],
