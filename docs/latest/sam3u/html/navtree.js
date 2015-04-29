@@ -24,15 +24,16 @@ var NAVTREE =
     [ "SAM3A", "../../sam3a/html/modules.html", null ],
     [ "SAM3N", "../../sam3n/html/modules.html", null ],
     [ "SAM3S", "../../sam3s/html/modules.html", null ],
+    [ "SAM3U", "modules.html", "modules" ],
     [ "SAM3X", "../../sam3x/html/modules.html", null ],
     [ "VF6XX", "../../vf6xx/html/modules.html", null ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -40,7 +41,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"../../cm3/html/modules.html"
+"../../cm3/html/modules.html",
+"smc__common__3a3u3x_8h.html#a35064b5028fe4bfcd9398e67b85ebed7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

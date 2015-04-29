@@ -66,6 +66,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../efm32lg/html/modules.html"><span>EFM32&#160;Leopard&#160;Gecko</span></a></li>
       <li><a href="../../efm32tg/html/modules.html"><span>EFM32&#160;Tiny&#160;Gecko</span></a></li>
       <li><a href="../../sam3a/html/modules.html"><span>SAM3A</span></a></li>
+      <li><a href="modules.html"><span>SAM3N</span></a></li>
       <li><a href="../../sam3s/html/modules.html"><span>SAM3S</span></a></li>
       <li><a href="../../sam3u/html/modules.html"><span>SAM3U</span></a></li>
       <li><a href="../../sam3x/html/modules.html"><span>SAM3X</span></a></li>
@@ -139,7 +140,7 @@ $(document).ready(function(){initNavTree('globals.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -162,6 +163,33 @@ $(document).ready(function(){initNavTree('globals.html','');});
 <li>CHIPID_BASE
 : <a class="el" href="memorymap_8h.html#aab4f204a90c45f2fec44129bf95f5d40">memorymap.h</a>
 </li>
+<li>CKGR_MOR_WAITMODE
+: <a class="el" href="pmc_8h.html#a0d4e91e3f7fa4bb51841ac6d9776a639">pmc.h</a>
+</li>
+<li>CKGR_PLLR
+: <a class="el" href="pmc_8h.html#ac3306a289bc7223f867537a5dde62dbd">pmc.h</a>
+</li>
+<li>CKGR_PLLR_DIV_MASK
+: <a class="el" href="pmc_8h.html#a51d59ac2deb23aa4dfa756069883570a">pmc.h</a>
+</li>
+<li>CKGR_PLLR_DIV_SHIFT
+: <a class="el" href="pmc_8h.html#ae9bbd56916cfd4bd5f348c796163495d">pmc.h</a>
+</li>
+<li>CKGR_PLLR_MUL_MASK
+: <a class="el" href="pmc_8h.html#a81d6036faba4bfe1a9def5ba3d33905c">pmc.h</a>
+</li>
+<li>CKGR_PLLR_MUL_SHIFT
+: <a class="el" href="pmc_8h.html#a631f7e0ea148b6c0e72f063e065a3d30">pmc.h</a>
+</li>
+<li>CKGR_PLLR_ONE
+: <a class="el" href="pmc_8h.html#a4451f5baabcc705742037bac5959e5b6">pmc.h</a>
+</li>
+<li>CKGR_PLLR_PLLCOUNT_MASK
+: <a class="el" href="pmc_8h.html#a64d3e310e116031ce8122a2501fa45f9">pmc.h</a>
+</li>
+<li>CKGR_PLLR_PLLCOUNT_SHIFT
+: <a class="el" href="pmc_8h.html#a6f3961f57e4a60912745c266a315c7f4">pmc.h</a>
+</li>
 </ul>
 
 
@@ -183,11 +211,18 @@ $(document).ready(function(){initNavTree('globals.html','');});
 <li>GPBR_BASE
 : <a class="el" href="memorymap_8h.html#ae6decd697e1d6411f95e1e056fae0fb2">memorymap.h</a>
 </li>
+<li>gpio_clear()
+: <a class="el" href="gpio__common__all_8c.html#ab84d6793fa4dc0c81a522c1cd47c1b7b">gpio_common_all.c</a>
+</li>
 <li>gpio_init()
-: <a class="el" href="gpio_8c.html#af2683231d96d5db39a6ee7739d455889">gpio.c</a>
+: <a class="el" href="gpio__common__3a3u3x_8c.html#af2683231d96d5db39a6ee7739d455889">gpio_common_3a3u3x.c</a>
+, <a class="el" href="gpio__common__3n3s_8c.html#af2683231d96d5db39a6ee7739d455889">gpio_common_3n3s.c</a>
+</li>
+<li>gpio_set()
+: <a class="el" href="gpio__common__all_8c.html#a337dd6d11654653c466fc76b146727bf">gpio_common_all.c</a>
 </li>
 <li>gpio_toggle()
-: <a class="el" href="gpio_8c.html#abdabe1a001833014d743b229164b21ab">gpio.c</a>
+: <a class="el" href="gpio__common__all_8c.html#abdabe1a001833014d743b229164b21ab">gpio_common_all.c</a>
 </li>
 </ul>
 
@@ -200,6 +235,175 @@ $(document).ready(function(){initNavTree('globals.html','');});
 
 
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>PERIPH_ADC
+: <a class="el" href="periph_8h.html#a5f2b997f59edb34a85e85b6204febf4c">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a5f2b997f59edb34a85e85b6204febf4c">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_CAN0
+: <a class="el" href="periph__common__3a3x_8h.html#a44f8805d65f23831db1e701b3376d527">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_CAN1
+: <a class="el" href="periph__common__3a3x_8h.html#a217a083ef9525e506efbc9a604771f4f">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_DACC
+: <a class="el" href="periph_8h.html#a4e66718b6842fc8d93be202c569db086">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a4e66718b6842fc8d93be202c569db086">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_DMAC
+: <a class="el" href="periph__common__3a3x_8h.html#aa85d0649db328272f5e179cc26a58f44">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_EEFC
+: <a class="el" href="periph_8h.html#af9eb5a6560f75eb91be27675f465d8ee">periph.h</a>
+</li>
+<li>PERIPH_EEFC0
+: <a class="el" href="periph__common__3a3x_8h.html#a2d23b87adae17d925090c0c439273e39">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_EEFC1
+: <a class="el" href="periph__common__3a3x_8h.html#aa952276af226e26cc3e7591c4e1b1eaa">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_EMAC
+: <a class="el" href="periph__common__3a3x_8h.html#aa72104c5005a9cac4352dc282b63e371">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_HSMCI
+: <a class="el" href="periph__common__3a3x_8h.html#af0a169ee1852ce232bf75d2019f454dc">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_PIOA
+: <a class="el" href="periph_8h.html#a1a42c53bea9cead959a6f85ca501e5d1">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a1a42c53bea9cead959a6f85ca501e5d1">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_PIOB
+: <a class="el" href="periph_8h.html#a2153cbaaf618933c072b062af1423cd1">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a2153cbaaf618933c072b062af1423cd1">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_PIOC
+: <a class="el" href="periph_8h.html#a3c83ae7d1404ed7b7dc1aa74dd1a6af5">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a3c83ae7d1404ed7b7dc1aa74dd1a6af5">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_PIOD
+: <a class="el" href="periph__common__3a3x_8h.html#a9ce24c94e4a733a9495fc2449f11b184">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_PIOE
+: <a class="el" href="periph__common__3a3x_8h.html#ad5b6e7336f0acdc11ca67f1a20d35407">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_PIOF
+: <a class="el" href="periph__common__3a3x_8h.html#ac758c4155501afc468f85ac5f8cbfd3b">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_PMC
+: <a class="el" href="periph_8h.html#a821d3469c6a128b685a78ca0134695b2">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a821d3469c6a128b685a78ca0134695b2">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_PWM
+: <a class="el" href="periph_8h.html#abd4e188c47a55879f3df707ef2fe61e6">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#abd4e188c47a55879f3df707ef2fe61e6">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_RSTC
+: <a class="el" href="periph_8h.html#a7ad0ab75d9891cf996f3a07656962102">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a7ad0ab75d9891cf996f3a07656962102">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_RTC
+: <a class="el" href="periph_8h.html#a187ed421fe9121fa452a9ab881bfc214">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a187ed421fe9121fa452a9ab881bfc214">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_RTT
+: <a class="el" href="periph_8h.html#a91debb16ecaff51cc3ed2b2c6edd493d">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a91debb16ecaff51cc3ed2b2c6edd493d">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_SDRAMC
+: <a class="el" href="periph__common__3a3x_8h.html#a82ba011043be3a0a3fc718cd2ce1d80d">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_SMC_SDRAMC
+: <a class="el" href="periph__common__3a3x_8h.html#a38e1160a9f5cb7f496ec278c9771c803">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_SPI
+: <a class="el" href="periph_8h.html#a59f953f0e1e1a4c0f6f035e299ab2342">periph.h</a>
+</li>
+<li>PERIPH_SPI0
+: <a class="el" href="periph__common__3a3x_8h.html#a9eefa8f09de8a8a68fed09c834a335b0">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_SPI1
+: <a class="el" href="periph__common__3a3x_8h.html#ae470c88f0d549ecd8acf7c20722e05ae">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_SSC
+: <a class="el" href="periph__common__3a3x_8h.html#a39927b6d1237daaa3c07665fc543b2ac">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_SUPC
+: <a class="el" href="periph_8h.html#ab71aec521708b88bce306d690504dc66">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#ab71aec521708b88bce306d690504dc66">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TC0
+: <a class="el" href="periph_8h.html#ab89a91fca95fd8c3b2f727373920ef79">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#ab89a91fca95fd8c3b2f727373920ef79">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TC1
+: <a class="el" href="periph_8h.html#a8558187e05848b7bba64b99cd757c39a">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a8558187e05848b7bba64b99cd757c39a">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TC2
+: <a class="el" href="periph_8h.html#a682a1d2582cf01598099d03761410a0a">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a682a1d2582cf01598099d03761410a0a">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TC3
+: <a class="el" href="periph_8h.html#a7b1204959aaa07b90f3083585cde3828">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a7b1204959aaa07b90f3083585cde3828">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TC4
+: <a class="el" href="periph_8h.html#aa231f67918a56e8cbfba5278aab26b08">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#aa231f67918a56e8cbfba5278aab26b08">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TC5
+: <a class="el" href="periph_8h.html#a45418f3ca7c5bc77691d273001210775">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a45418f3ca7c5bc77691d273001210775">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TC6
+: <a class="el" href="periph__common__3a3x_8h.html#a36894780818a3c718991f29be54f69f7">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TC7
+: <a class="el" href="periph__common__3a3x_8h.html#a56db4eea69b953df96693c71308a755e">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TC8
+: <a class="el" href="periph__common__3a3x_8h.html#a396c80161df942c5836d20b39c02996c">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TRNG
+: <a class="el" href="periph__common__3a3x_8h.html#a3b7ee001cf5c1879a86f8a1f4917804d">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TWI0
+: <a class="el" href="periph_8h.html#a52745d56939daf03f2f4eb04f09c2aaa">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a52745d56939daf03f2f4eb04f09c2aaa">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_TWI1
+: <a class="el" href="periph_8h.html#aa9fb1c862d985b17b1eea55101c9dc2e">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#aa9fb1c862d985b17b1eea55101c9dc2e">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_UART
+: <a class="el" href="periph__common__3a3x_8h.html#a318569bfeaca587f1eb775e62d770af1">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_UART0
+: <a class="el" href="periph_8h.html#a0656f61ca7d59cb9994c8f5d93ddb5e9">periph.h</a>
+</li>
+<li>PERIPH_UART1
+: <a class="el" href="periph_8h.html#a2f9f2f171d684e66c9da6d91f964c4f9">periph.h</a>
+</li>
+<li>PERIPH_UOTGHS
+: <a class="el" href="periph__common__3a3x_8h.html#a2faf23f13115e7707643d46142f80c13">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_USART0
+: <a class="el" href="periph_8h.html#a198d8d0b68b0241e6560ff212eb79141">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a198d8d0b68b0241e6560ff212eb79141">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_USART1
+: <a class="el" href="periph_8h.html#a46f48434812d6c7e62eed06c489aacb9">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a46f48434812d6c7e62eed06c489aacb9">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_USART2
+: <a class="el" href="periph__common__3a3x_8h.html#a27e33ecfab5471dbd5f8130f835f32b7">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_USART3
+: <a class="el" href="periph__common__3a3x_8h.html#a82de3a124e1d1c376f158e2ad9047115">periph_common_3a3x.h</a>
+</li>
+<li>PERIPH_WDG
+: <a class="el" href="periph_8h.html#a8ac0dab9a64d876ab973368979dacdfe">periph.h</a>
+, <a class="el" href="periph__common__3a3x_8h.html#a8ac0dab9a64d876ab973368979dacdfe">periph_common_3a3x.h</a>
+</li>
 <li>PIOA_BASE
 : <a class="el" href="memorymap_8h.html#a54c038f709c7b1ceacc393de9789e401">memorymap.h</a>
 </li>
@@ -218,11 +422,65 @@ $(document).ready(function(){initNavTree('globals.html','');});
 <li>pmc_clock_setup_in_xtal_12mhz_out_84mhz()
 : <a class="el" href="pmc_8c.html#a5e938228fbf5480af3d7e0f1f6fb9182">pmc.c</a>
 </li>
+<li>PMC_IDR_LOCK
+: <a class="el" href="pmc_8h.html#a4a7d1b799cf5d8eb40aee8e04606ba1d">pmc.h</a>
+</li>
+<li>PMC_IER_LOCK
+: <a class="el" href="pmc_8h.html#a5cc56143ffe03a492f92640f18331cde">pmc.h</a>
+</li>
+<li>PMC_IMR_LOCK
+: <a class="el" href="pmc_8h.html#ad8ebbbee044b479f7dc7b65b95ecdcc4">pmc.h</a>
+</li>
 <li>pmc_mck_frequency
 : <a class="el" href="pmc_8c.html#a44345097803c4f9a34c361c383ee9a99">pmc.c</a>
 </li>
 <li>pmc_mck_set_source()
 : <a class="el" href="pmc_8c.html#af4f2dabe877cdf9f9d85513b9359c92d">pmc.c</a>
+</li>
+<li>PMC_MCKR_CSS_PLL_CLK
+: <a class="el" href="pmc_8h.html#a5451a2059b0611c9f884fc587a68aaa0">pmc.h</a>
+</li>
+<li>PMC_MCKR_PLLDIV2
+: <a class="el" href="pmc_8h.html#ae671c703c3ad6458fd4796a78b4cbdeb">pmc.h</a>
+</li>
+<li>PMC_OCR
+: <a class="el" href="pmc_8h.html#a4e07128cd3e71bddd22d1cfb46c3fb3c">pmc.h</a>
+</li>
+<li>PMC_OCR_CAL12_MASK
+: <a class="el" href="pmc_8h.html#a10b8a0d72b0edfa4e09541d948709498">pmc.h</a>
+</li>
+<li>PMC_OCR_CAL12_SHIFT
+: <a class="el" href="pmc_8h.html#a003bca07b3845e80c77d8ce0f6aef41e">pmc.h</a>
+</li>
+<li>PMC_OCR_CAL4_MASK
+: <a class="el" href="pmc_8h.html#afa4553db88171424c521bef0ebc79583">pmc.h</a>
+</li>
+<li>PMC_OCR_CAL4_SHIFT
+: <a class="el" href="pmc_8h.html#a3785ab8b90478c624ccd6b1e40294d88">pmc.h</a>
+</li>
+<li>PMC_OCR_CAL8_MASK
+: <a class="el" href="pmc_8h.html#ab68ae9d45485ba186b90e7b52d8ef4c1">pmc.h</a>
+</li>
+<li>PMC_OCR_CAL8_SHIFT
+: <a class="el" href="pmc_8h.html#adacc53a6da3117d8512f84ef85472bf1">pmc.h</a>
+</li>
+<li>PMC_OCR_SEL12
+: <a class="el" href="pmc_8h.html#a2dd373794cde6eef1c27f9a73d54f470">pmc.h</a>
+</li>
+<li>PMC_OCR_SEL4
+: <a class="el" href="pmc_8h.html#a66f57c76dd065ade034713e42feb7f66">pmc.h</a>
+</li>
+<li>PMC_OCR_SEL8
+: <a class="el" href="pmc_8h.html#a78fbc712afb0e5fbacf4cf74ca649d5d">pmc.h</a>
+</li>
+<li>PMC_PCK0_CSS_PLL_CLK
+: <a class="el" href="pmc_8h.html#a55bd4ac5550ec8ecfc1b8e91b4718d73">pmc.h</a>
+</li>
+<li>PMC_PCK1_CSS_PLL_CLK
+: <a class="el" href="pmc_8h.html#a22b105079e2f88552d37ab0de0d602ec">pmc.h</a>
+</li>
+<li>PMC_PCK2_CSS_PLL_CLK
+: <a class="el" href="pmc_8h.html#aaa556d69cb32cd9b80dff3d200f76d04">pmc.h</a>
 </li>
 <li>pmc_peripheral_clock_disable()
 : <a class="el" href="pmc_8c.html#a62e87690b9de705fd6c34dd2be43ed29">pmc.c</a>
@@ -232,6 +490,9 @@ $(document).ready(function(){initNavTree('globals.html','');});
 </li>
 <li>pmc_plla_config()
 : <a class="el" href="pmc_8c.html#a912dd4094c072a0cee89329d3feb6898">pmc.c</a>
+</li>
+<li>PMC_SR_LOCK
+: <a class="el" href="pmc_8h.html#ad28d788f7a8db49f9028568ff8affc95">pmc.h</a>
 </li>
 <li>pmc_xtal_enable()
 : <a class="el" href="pmc_8c.html#a138e34dfdfc205207c33e5352caa1435">pmc.c</a>
@@ -370,7 +631,7 @@ $(document).ready(function(){initNavTree('globals.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 23 2015 17:23:09 for libopencm3 by
+    <li class="footer">Generated on Wed Apr 29 2015 03:22:54 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

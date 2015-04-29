@@ -67,6 +67,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../efm32tg/html/modules.html"><span>EFM32&#160;Tiny&#160;Gecko</span></a></li>
       <li><a href="../../sam3a/html/modules.html"><span>SAM3A</span></a></li>
       <li><a href="../../sam3n/html/modules.html"><span>SAM3N</span></a></li>
+      <li><a href="modules.html"><span>SAM3S</span></a></li>
       <li><a href="../../sam3u/html/modules.html"><span>SAM3U</span></a></li>
       <li><a href="../../sam3x/html/modules.html"><span>SAM3X</span></a></li>
       <li><a href="../../vf6xx/html/modules.html"><span>VF6XX</span></a></li>
@@ -123,7 +124,7 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -134,11 +135,18 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 
 <div class="contents">
 &#160;<ul>
+<li>gpio_clear()
+: <a class="el" href="gpio__common__all_8c.html#ab84d6793fa4dc0c81a522c1cd47c1b7b">gpio_common_all.c</a>
+</li>
 <li>gpio_init()
-: <a class="el" href="gpio_8c.html#af2683231d96d5db39a6ee7739d455889">gpio.c</a>
+: <a class="el" href="gpio__common__3a3u3x_8c.html#af2683231d96d5db39a6ee7739d455889">gpio_common_3a3u3x.c</a>
+, <a class="el" href="gpio__common__3n3s_8c.html#af2683231d96d5db39a6ee7739d455889">gpio_common_3n3s.c</a>
+</li>
+<li>gpio_set()
+: <a class="el" href="gpio__common__all_8c.html#a337dd6d11654653c466fc76b146727bf">gpio_common_all.c</a>
 </li>
 <li>gpio_toggle()
-: <a class="el" href="gpio_8c.html#abdabe1a001833014d743b229164b21ab">gpio.c</a>
+: <a class="el" href="gpio__common__all_8c.html#abdabe1a001833014d743b229164b21ab">gpio_common_all.c</a>
 </li>
 <li>pmc_clock_setup_in_rc_4mhz_out_84mhz()
 : <a class="el" href="pmc_8c.html#a11bf7b639e83cf2abc9fc260419ef918">pmc.c</a>
@@ -215,7 +223,7 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 23 2015 17:23:11 for libopencm3 by
+    <li class="footer">Generated on Wed Apr 29 2015 03:22:56 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -8,11 +8,12 @@
 var indexSectionsWithContent =
 {
   0: "acdeghlmprstuw",
-  1: "glmpu",
+  1: "glmpsu",
   2: "gpu",
   3: "p",
   4: "acdeghmprstuw",
-  5: "l"
+  5: "g",
+  6: "l"
 };
 
 var indexSectionNames =
@@ -22,7 +23,8 @@ var indexSectionNames =
   2: "functions",
   3: "variables",
   4: "defines",
-  5: "pages"
+  5: "groups",
+  6: "pages"
 };
 
 function convertToId(search)

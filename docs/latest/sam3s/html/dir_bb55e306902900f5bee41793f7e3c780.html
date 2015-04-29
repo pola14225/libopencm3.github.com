@@ -67,6 +67,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../efm32tg/html/modules.html"><span>EFM32&#160;Tiny&#160;Gecko</span></a></li>
       <li><a href="../../sam3a/html/modules.html"><span>SAM3A</span></a></li>
       <li><a href="../../sam3n/html/modules.html"><span>SAM3N</span></a></li>
+      <li><a href="modules.html"><span>SAM3S</span></a></li>
       <li><a href="../../sam3u/html/modules.html"><span>SAM3U</span></a></li>
       <li><a href="../../sam3x/html/modules.html"><span>SAM3X</span></a></li>
       <li><a href="../../vf6xx/html/modules.html"><span>VF6XX</span></a></li>
@@ -109,7 +110,7 @@ $(document).ready(function(){initNavTree('dir_bb55e306902900f5bee41793f7e3c780.h
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -133,7 +134,11 @@ Directory dependency graph for common:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
 Files</h2></td></tr>
-<tr class="memitem:gpio_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gpio_8c.html">gpio.c</a> <a href="gpio_8c_source.html">[code]</a></td></tr>
+<tr class="memitem:gpio__common__3a3u3x_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gpio__common__3a3u3x_8c.html">gpio_common_3a3u3x.c</a> <a href="gpio__common__3a3u3x_8c_source.html">[code]</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gpio__common__3n3s_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gpio__common__3n3s_8c.html">gpio_common_3n3s.c</a> <a href="gpio__common__3n3s_8c_source.html">[code]</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gpio__common__all_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gpio__common__all_8c.html">gpio_common_all.c</a> <a href="gpio__common__all_8c_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pmc_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pmc_8c.html">pmc.c</a> <a href="pmc_8c_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,7 +151,7 @@ Files</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_b29bbfd5b5408e5b4712f7e756376875.html">sam</a></li><li class="navelem"><a class="el" href="dir_bb55e306902900f5bee41793f7e3c780.html">common</a></li>
-    <li class="footer">Generated on Thu Apr 23 2015 17:23:11 for libopencm3 by
+    <li class="footer">Generated on Wed Apr 29 2015 03:22:56 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>
