@@ -12257,13 +12257,6 @@
       <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>rcc_set_mco</name>
-      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
-      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
-      <arglist>(uint32_t mcosrc)</arglist>
-    </member>
-    <member kind="function">
       <type>enum rcc_osc</type>
       <name>rcc_system_clock_source</name>
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
@@ -12614,9 +12607,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_MCO</name>
+      <name>RCC_CFGR_MCO_MASK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf2d7212d83114d355736613e6dc1dbde</anchor>
+      <anchor>gaff9c7eae80be545a3ffdacf0ba163c36</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -14937,13 +14930,6 @@
       <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>rcc_set_mco</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
-      <arglist>(uint32_t mcosrc)</arglist>
-    </member>
-    <member kind="function">
       <type>enum rcc_osc</type>
       <name>rcc_system_clock_source</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
@@ -15102,6 +15088,13 @@
       <anchor>ga08aceecc3bebdf33119e8d7daf58b573</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_mco</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>rcc_common_all.h</name>
@@ -15169,6 +15162,13 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga08aceecc3bebdf33119e8d7daf58b573</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_mco</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -33595,9 +33595,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_MCO</name>
+      <name>RCC_CFGR_MCO_MASK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf2d7212d83114d355736613e6dc1dbde</anchor>
+      <anchor>gaff9c7eae80be545a3ffdacf0ba163c36</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -35918,13 +35918,6 @@
       <arglist>(uint32_t prediv)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>rcc_set_mco</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
-      <arglist>(uint32_t mcosrc)</arglist>
-    </member>
-    <member kind="function">
       <type>enum rcc_osc</type>
       <name>rcc_system_clock_source</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
@@ -36049,6 +36042,13 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga08aceecc3bebdf33119e8d7daf58b573</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_mco</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
@@ -47874,13 +47874,6 @@
       <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
       <anchor>ga5b592070405248d60877bba98a054aee</anchor>
       <arglist>(uint32_t prediv)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_set_mco</name>
-      <anchorfile>group__STM32F0xx-rcc-file.html</anchorfile>
-      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
-      <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="function">
       <type>enum rcc_osc</type>

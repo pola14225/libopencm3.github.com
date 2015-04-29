@@ -23,7 +23,6 @@ var rcc_8c =
     [ "rcc_osc_ready_int_flag", "group__STM32F1xx-rcc-file.html#ga01c3b6e7aee2cee13506e3f555539008", null ],
     [ "rcc_set_adcpre", "group__STM32F1xx-rcc-file.html#ga190cb3bbb95d687334d00e15bfab5b56", null ],
     [ "rcc_set_hpre", "group__STM32F1xx-rcc-file.html#gae192b2cd0f37124db5ed76d599a5671b", null ],
-    [ "rcc_set_mco", "group__STM32F1xx-rcc-file.html#gaccfc4aa94152abb68e0d5ad473adbf53", null ],
     [ "rcc_set_pll2_multiplication_factor", "group__STM32F1xx-rcc-file.html#ga648726dbed9b010d181306103c9eb51c", null ],
     [ "rcc_set_pll3_multiplication_factor", "group__STM32F1xx-rcc-file.html#ga548fdeeacbf0c2199b0851a8c71ff872", null ],
     [ "rcc_set_pll_multiplication_factor", "group__STM32F1xx-rcc-file.html#ga93f0715a42904d8c70bc7d1c862cf89f", null ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"usart_8h.html#a0e79d059998c9734e21567d713fdd21f":[27,0,69,101],
 "usart_8h.html#a0eb8516ebf8f22da4b8a803334fa9925":[27,0,69,38],
 "usart_8h.html#a0f5f2ef10b81c5354d293af82df8cece":[27,0,69,11],
 "usart_8h.html#a14f65309076ce671d0efac5265eb276d":[27,0,69,197],

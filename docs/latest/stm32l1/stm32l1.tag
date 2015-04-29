@@ -15775,6 +15775,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_MCOPRE_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga562bc8e3d48d9685f439fb7d150030b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_MCOPRE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2c2055812655d6acfda9a73dd2e94e10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_MCO_NOCLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae5cca64c29290cda14213761e3f69830</anchor>
@@ -15827,6 +15841,20 @@
       <name>RCC_CFGR_MCO_LSECLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad7b6a00f91a4e7d8797d48925ef00d2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_MCO_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga312a8b71910c2651fecef435f8fc8a69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_MCO_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaff9c7eae80be545a3ffdacf0ba163c36</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18459,6 +18487,13 @@
       <anchor>ga08aceecc3bebdf33119e8d7daf58b573</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_mco</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>rcc_common_all.h</name>
@@ -18526,6 +18561,13 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga08aceecc3bebdf33119e8d7daf58b573</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_mco</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -39035,6 +39077,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_MCOPRE_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga562bc8e3d48d9685f439fb7d150030b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_MCOPRE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2c2055812655d6acfda9a73dd2e94e10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_MCO_NOCLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae5cca64c29290cda14213761e3f69830</anchor>
@@ -39087,6 +39143,20 @@
       <name>RCC_CFGR_MCO_LSECLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gad7b6a00f91a4e7d8797d48925ef00d2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_MCO_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga312a8b71910c2651fecef435f8fc8a69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_MCO_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaff9c7eae80be545a3ffdacf0ba163c36</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -41447,6 +41517,13 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga08aceecc3bebdf33119e8d7daf58b573</anchor>
       <arglist>(enum rcc_periph_rst rst)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_mco</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
+      <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="variable">
       <type>const clock_scale_t</type>

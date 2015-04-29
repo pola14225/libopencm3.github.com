@@ -177,6 +177,7 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:131: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:98: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:164: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:189: warning: Found unknown command `\parame'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:223: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/flash.c:246: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_page(uint32_t page_address)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/flash.c:246: warning: The following parameters of flash_erase_page(uint32_t page_address) are not documented:

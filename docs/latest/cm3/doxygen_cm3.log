@@ -2,7 +2,7 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/systick.h:73: warning: Refusing to add group systick_clksource to group CM3_systick_defines, since the latter is already a subgroup of the former
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:237: warning: Example 1 was already documented. Ignoring documentation found here.
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:253: warning: Example 2 was already documented. Ignoring documentation found here.
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:209: warning: included file 1 is not found. Check your EXAMPLE_PATH
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:212: warning: included file 2 is not found. Check your EXAMPLE_PATH
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:240: warning: Example 1 was already documented. Ignoring documentation found here.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:256: warning: Example 2 was already documented. Ignoring documentation found here.
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:212: warning: included file 1 is not found. Check your EXAMPLE_PATH
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:215: warning: included file 2 is not found. Check your EXAMPLE_PATH

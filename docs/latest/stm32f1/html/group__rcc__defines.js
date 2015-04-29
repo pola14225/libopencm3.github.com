@@ -101,8 +101,6 @@ var group__rcc__defines =
     [ "RCC_CFGR_ADCPRE_SHIFT", "group__rcc__defines.html#gae46d6eb30e0bf1cf914cd49a75352915", null ],
     [ "RCC_CFGR_HPRE", "group__rcc__defines.html#gafe10e66938644ee8054a2426ff23efea", null ],
     [ "RCC_CFGR_HPRE_SHIFT", "group__rcc__defines.html#gabe81fd6d8e84f74aa4f2e31f26aa2819", null ],
-    [ "RCC_CFGR_MCO", "group__rcc__defines.html#gaf2d7212d83114d355736613e6dc1dbde", null ],
-    [ "RCC_CFGR_MCO_SHIFT", "group__rcc__defines.html#ga312a8b71910c2651fecef435f8fc8a69", null ],
     [ "RCC_CFGR_OTGFSPRE", "group__rcc__defines.html#gafb1a9f43fe9cd6d65eba268335a3c9aa", null ],
     [ "RCC_CFGR_PLLMUL", "group__rcc__defines.html#ga538fd5df8d890696483a0e901d739309", null ],
     [ "RCC_CFGR_PLLMUL_SHIFT", "group__rcc__defines.html#gab58447b7a74aec862cf32a6e1501bb73", null ],

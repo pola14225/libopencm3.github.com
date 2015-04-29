@@ -196,10 +196,6 @@ Macros</h2></td></tr>
 <tr class="separator:ga9dbac3f2bc04f04ebafe1e66ae3fcf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf4fcacf94a97f7d49a70e089b39cf474"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#gaf4fcacf94a97f7d49a70e089b39cf474">RCC_CR_HSION</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
 <tr class="separator:gaf4fcacf94a97f7d49a70e089b39cf474"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga312a8b71910c2651fecef435f8fc8a69"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga312a8b71910c2651fecef435f8fc8a69">RCC_CFGR_MCO_SHIFT</a>&#160;&#160;&#160;24</td></tr>
-<tr class="separator:ga312a8b71910c2651fecef435f8fc8a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf2d7212d83114d355736613e6dc1dbde"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#gaf2d7212d83114d355736613e6dc1dbde">RCC_CFGR_MCO</a>&#160;&#160;&#160;(0xF &lt;&lt; RCC_CFGR_MCO_SHIFT)</td></tr>
-<tr class="separator:gaf2d7212d83114d355736613e6dc1dbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafb1a9f43fe9cd6d65eba268335a3c9aa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#gafb1a9f43fe9cd6d65eba268335a3c9aa">RCC_CFGR_OTGFSPRE</a>&#160;&#160;&#160;(1 &lt;&lt; 22) /* Connectivity line */</td></tr>
 <tr class="separator:gafb1a9f43fe9cd6d65eba268335a3c9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gade6d5077566e1bf81dd47156743dd05e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#gade6d5077566e1bf81dd47156743dd05e">RCC_CFGR_USBPRE</a>&#160;&#160;&#160;(1 &lt;&lt; 22) /* LD,MD, HD, XL */</td></tr>
@@ -236,6 +232,10 @@ Macros</h2></td></tr>
 <tr class="separator:gac1ff0e57acf7fa261817c5ee5cb714c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0eea5e5f7743a7e8995b8beeb18355c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga0eea5e5f7743a7e8995b8beeb18355c1">RCC_CFGR_SW</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="group__rcc__defines.html#gac1ff0e57acf7fa261817c5ee5cb714c7">RCC_CFGR_SW_SHIFT</a>)</td></tr>
 <tr class="separator:ga0eea5e5f7743a7e8995b8beeb18355c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga312a8b71910c2651fecef435f8fc8a69"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__cfgr__co.html#ga312a8b71910c2651fecef435f8fc8a69">RCC_CFGR_MCO_SHIFT</a>&#160;&#160;&#160;24</td></tr>
+<tr class="separator:ga312a8b71910c2651fecef435f8fc8a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaff9c7eae80be545a3ffdacf0ba163c36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__cfgr__co.html#gaff9c7eae80be545a3ffdacf0ba163c36">RCC_CFGR_MCO_MASK</a>&#160;&#160;&#160;0xf</td></tr>
+<tr class="separator:gaff9c7eae80be545a3ffdacf0ba163c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae5cca64c29290cda14213761e3f69830"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__cfgr__co.html#gae5cca64c29290cda14213761e3f69830">RCC_CFGR_MCO_NOCLK</a>&#160;&#160;&#160;0x0</td></tr>
 <tr class="separator:gae5cca64c29290cda14213761e3f69830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaecf3b078108fdaf7e66d15ae71ec4181"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__cfgr__co.html#gaecf3b078108fdaf7e66d15ae71ec4181">RCC_CFGR_MCO_SYSCLK</a>&#160;&#160;&#160;0x4</td></tr>
@@ -948,8 +948,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2297cce07d5113023bf8eff03fc62c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga2297cce07d5113023bf8eff03fc62c66">rcc_css_disable</a> (void)</td></tr>
 <tr class="memdesc:ga2297cce07d5113023bf8eff03fc62c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">RCC Disable the Clock Security System.  <a href="group__rcc__defines.html#ga2297cce07d5113023bf8eff03fc62c66">More...</a><br /></td></tr>
 <tr class="separator:ga2297cce07d5113023bf8eff03fc62c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaccfc4aa94152abb68e0d5ad473adbf53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#gaccfc4aa94152abb68e0d5ad473adbf53">rcc_set_mco</a> (uint32_t mcosrc)</td></tr>
-<tr class="separator:gaccfc4aa94152abb68e0d5ad473adbf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3bccfeb2f4364e18997cbd88e2476270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga3bccfeb2f4364e18997cbd88e2476270">rcc_osc_bypass_enable</a> (enum <a class="el" href="group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
 <tr class="memdesc:ga3bccfeb2f4364e18997cbd88e2476270"><td class="mdescLeft">&#160;</td><td class="mdescRight">RCC Enable Bypass.  <a href="group__rcc__defines.html#ga3bccfeb2f4364e18997cbd88e2476270">More...</a><br /></td></tr>
 <tr class="separator:ga3bccfeb2f4364e18997cbd88e2476270"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1042,7 +1040,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_26e2099944f53a27f6cdf710ec04616c.html">f1</a></li><li class="navelem"><a class="el" href="rcc_8h.html">rcc.h</a></li>
-    <li class="footer">Generated on Wed Apr 29 2015 03:21:35 for libopencm3 by
+    <li class="footer">Generated on Wed Apr 29 2015 04:21:37 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

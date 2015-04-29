@@ -180,6 +180,7 @@ var rcc_8h =
     [ "RCC_CFGR_MCO_HSI", "rcc_8h.html#a91f0ac507b8c4e5d443c107d934cfdb1", null ],
     [ "RCC_CFGR_MCO_LSE", "rcc_8h.html#ad10ee688b7cf27e652ffd003f177fdcd", null ],
     [ "RCC_CFGR_MCO_LSI", "rcc_8h.html#a96c817553f5f226b1d661b1448ed820a", null ],
+    [ "RCC_CFGR_MCO_MASK", "rcc_8h.html#aff9c7eae80be545a3ffdacf0ba163c36", null ],
     [ "RCC_CFGR_MCO_PLL", "rcc_8h.html#ac1b83ae21df9327e2a705b19ce981da6", null ],
     [ "RCC_CFGR_MCO_SHIFT", "rcc_8h.html#a312a8b71910c2651fecef435f8fc8a69", null ],
     [ "RCC_CFGR_MCO_SYSCLK", "rcc_8h.html#aecf3b078108fdaf7e66d15ae71ec4181", null ],

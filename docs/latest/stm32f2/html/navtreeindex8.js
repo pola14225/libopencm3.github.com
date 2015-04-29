@@ -245,8 +245,8 @@ var NAVTREEINDEX8 =
 "group__gpio__af__num.html#ga134f840f4efbdb994ea47eecde306153":[28,0,33,4],
 "group__gpio__af__num.html#ga5976a97cba5848fba316456534fbd555":[28,0,33,15],
 "group__gpio__af__num.html#ga5976a97cba5848fba316456534fbd555":[7,1,6,6,15],
-"group__gpio__af__num.html#ga5e574af903fe01c85ec2ece496c280a4":[28,0,33,10],
 "group__gpio__af__num.html#ga5e574af903fe01c85ec2ece496c280a4":[7,1,6,6,10],
+"group__gpio__af__num.html#ga5e574af903fe01c85ec2ece496c280a4":[28,0,33,10],
 "group__gpio__af__num.html#ga604ed146ad823719c981f855fb363047":[28,0,33,11],
 "group__gpio__af__num.html#ga604ed146ad823719c981f855fb363047":[7,1,6,6,11],
 "group__gpio__af__num.html#ga6d376657d66d0a5939629b1722b27279":[7,1,6,6,7]

@@ -10,5 +10,6 @@ var rcc__common__all_8c =
     [ "rcc_peripheral_clear_reset", "group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566", null ],
     [ "rcc_peripheral_disable_clock", "group__rcc__defines.html#gaf9fddc20e14204db6d4a4a54132d191b", null ],
     [ "rcc_peripheral_enable_clock", "group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8", null ],
-    [ "rcc_peripheral_reset", "group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205", null ]
+    [ "rcc_peripheral_reset", "group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205", null ],
+    [ "rcc_set_mco", "group__rcc__defines.html#gaccfc4aa94152abb68e0d5ad473adbf53", null ]
 ];
