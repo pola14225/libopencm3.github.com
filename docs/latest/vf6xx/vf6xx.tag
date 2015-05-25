@@ -1524,1350 +1524,6 @@
       <anchor>a84a928e7529bf26b5b2c4d997c9c51e0</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG0_FLEXCAN0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab3fd2e8f4abb99802e8377d4b967964c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG1_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0add5cfcbdded7671733a49fbc460b8299</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG2_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad69422b2209d4009041327b4f0a95394</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG3_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a8214132e6dff263311f14e182d968650</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG4_DMA_MUX0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6f428d7c9e15f8a24ffa02b051fc555d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG5_DMA_MUX1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a3d17c6dfd2293088fa3b8789a9f560c7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG6_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ae14ac8d998d3a1982516a6445e9a8ed9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG7_UART0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0abed4030050a3af1989a4e3ae0295964e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG8_UART1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2ea642906396d039c81efca2dbc5fedb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG9_UART2</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0adab2e367ea725050167d9e28a17368e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG10_UART3</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad482d68fa3f5202f755f882098667b35</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG11_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a967cdcd49f7bb9d2c65092fcb122b6a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG12_SPI0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac5b27fe52830d437c3a77eec8ec5b658</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG13_SPI1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a41f80026744351d2880d202a659289ca</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG14_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a1653b24ce4b4c0401771cdbb4454df97</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG15_SAI0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a403fc93b592cb9c51bcd359b74b687f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG16_SAI1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aeb2e13b2e561aeddfb89476c5ba37a72</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG17_SAI2</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a47e59301866ec4f0ff6f73a1c5d88dfd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG18_SAI3</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a052e1ab4d7952a987416b82a04ed183a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG19_CRC</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0af8375f857521d560fec2b003b6b26cb2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG20_USBC0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad80345766f0a4489e96d8af6ac40b3b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG21_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aaea090420c57fa4a2c17165a864b5f5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG22_PDB</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a668416821a5c92f903f3be648c67b514</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG23_PIT</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0abc66314ce860aa48d0ffb9bcdab3a8f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG24_FTM0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aa8afcb561eb4e0b939d6386308089d09</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG25_FTM1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a7395b74a0da53d3b4b48d32a0f282ff7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG26_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a9404a8efab5f9ec5c69decb395c697d4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG27_ADC0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a26692186b2ed82dbc5311bc38380956c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG28_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a9537d585e0417af2bf8caeafd8c49ab0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG29_TCON0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a8c11a82442a68f44e53868ffeb2bbdef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG30_WDOG_A5</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2f328628126e8cc154f8c0ae9ea9a3b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG31_WDOG_M4</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a79346adbd5f2c0c5541a51a8905bf57c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG32_LPTMR</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6243e9a193893fafcdb42282060a5d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG33_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a02d2cec7aa3b1e6834fec97222534162</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG34_RLE</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6f1abdcba2f54325976b7791a9949df4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG35_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2265af17dcf75550f979546107a30fc5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG36_QSPI0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a59362681c1a9e4d752a9fcca7f070055</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG37_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a1709ff056e1de6894591194f7abbb148</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG38_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a987f1df218118887bc56ddb612192f33</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG39_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a37598302640ebea493498ceffe2690b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG40_IOMUX</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a7abb414719468b836a9f181c81af6126</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG41_PORTA</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a25934a9e8e7e896b782dba2b76adee1f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG42_PORTB</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a5d4d96363b31e7208a34a34eb2813557</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG43_PORTC</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab130613c2e4bd644de4bf6cfef1e6af3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG44_PORTD</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a4d2000f1c45574469936ca9135b5abf2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG45_PORTE</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a0a1ba8f366f5decde95360c6d7904b4a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG46_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a55d88e09cf074a445b5853dff43abcb2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG47_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab66de424645dd4ecb8628d6bc3b37424</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG48_ANADIG</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aa5f6f1238036f14409bc72b650235e4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG49_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6654e6de2de606185a3d0c60397ed31e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG50_SCSCM</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0acbfda8278628e054007f8acc55a3b8f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG51_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a980c85e934a02c392e755b07d9fd3acc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG52_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6f0c09a4af7dfe69a1ab252616cd9c60</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG53_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a89e7e2e34c38e6f2322f2915f3f044e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG54_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a01f919cd7879222590b5323225fdb9a7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG55_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a0677346116d79332a8ac929dd69b979f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG56_DCU0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2e281651e7d12dda60611dc7f29322fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG57_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0af91d9dcbba63a5c157d3107d62c39eba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG58_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aa670f46363159c59e2184911b94a29e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG59_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a06ff78667befbe576e4a0f52fb2e92f5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG60_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab7dd3686c32ea8c1f4cfe6856f53a870</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG61_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a27f13cdd07652856ece5523b26e861a7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG62_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a5f516c9bc0b2a94ac3fde0f3e112c798</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG63_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a4c1efa92459e19131bdeda7821a7d1fa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG64_ASRC</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aa5d7e33573ff7fa81a8acc14945ae9f3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG65_SPDIF</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0abc90c74538a313a8da5388f3f68d8f7b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG66_ESAI</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a159c78c2ed803d113a20c6ac18d8bae6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG67_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a95391534a1cf415ec265f7e333ae237e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG68_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a70ad5f6d96cc5699a8431f0f2ad5432e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG69_EWM</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab22706f26993a70f48fa56ab566e863a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG70_I2C0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad3dab4fb1f7a67f8b1b66f936de4e251</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG71_I2C1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a1a813d74729090dddfde484ccf4966a3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG72_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad404d96a7205a5df5ece43f2a43f19c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG73_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a66edb6bce7ac1afd070d76e713e6fffe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG74_WKUP</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a98e21716e82474afd875052c70a927b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG75_CCM</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ae2dda6fdd0c886bffb6c9df4dfdc4c5d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG76_GPC</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2586bd269e34882f7e3f9adc1c0e8943</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG77_VREG_DIG</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad8e87adfc980ca7a8302c28f69b040fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG78_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2bf29a633ca0a0ae5e842cb55b59b173</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG79_CMU</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a591ddd2480280a826c41592a3dab517f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG80_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6e4768cc1646eb7501feb2f59d992378</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG81_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0abc432bdc84432ea74d0d1fdb151c3d41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG82_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a344b3e6c0e4e9327063a56f3ecf32b98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG83_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aafa20ac08930c70434e7d5a72e4e309b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG84_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a0e367a72a6791d0840e0f5e12e86ba51</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG85_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a9f7bdaac79e38f9415f57757ba182e91</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG86_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a5e1e71186c09dbbea552c7400bc6b924</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG87_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a071d95e0b170c352427778c8bdabb4b7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG88_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a4640884ce2832f921a4a8c3c4c3abe2a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG89_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a97da204552d0dceb5364e24e3725997c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG90_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a23ba0f12c968b6d478d1e513365d9608</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG91_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a4885f65bb740adb2201912f63f3a6e1d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG92_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a44e346dc29109245a0f0656f4e0e931e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG93_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0af69d0645f3dc54196efd62f9327e3738</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG94_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6c78263a3f094b66e4867aa8a4a582fd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG95_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aff3c1e5636229043f1ee4cba3f806fab</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG96_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a5aa873fd51fe5de2315d455fe3dbab82</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG97_DMA_MUX2</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a1b08e0b1296e699ce80fe10684c53a6d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG98_DMA_MUX3</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac5834290d3dcc29e6374b3dbbbe05b83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG99_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6012aaec4456e1ba1c98ed00c3db594b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG100_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac7f657802a488bf0d11151889cc6ff34</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG101_OTP_CTRL</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a67c500c106337fcaf47e3f5799be2eab</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG102_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aa9eac3f8875134691950fd0ab391d70b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG103_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a7ac9d617ae409f85cee4071403206932</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG104_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac266b6d0a67ee66cb6f445bb7fc87b9b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG105_UART4</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab5836c394d3696670f0fb9dba0ef6c09</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG106_UART5</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aae538b5be6d292e8f633e2733b17e14b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG107_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0afddc600b6777942598914678def80802</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG108_SPI2</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a92947d9eb0f9a7f198622e7d7b366df9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG109_SPI3</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a5334245d4f8c3cb53640ed0f2d4ad52d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG110_DDRMC</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a7af641f411741fe4c4f6fbe223bd61e3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG111_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a4cff924dbe88391e6760a1bb97c274ba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG112_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac275ff4d5646713f8a088654fcc5d29e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG113_SDHC0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2225f221bb962e3c60c40a1c686604ea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG114_SDHC1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aa314e6298cb70e0e5e160b834271e66f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG115_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a61ecf9c26879723bb47b21f571b0fd7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG116_USBC1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a5c1dee9d89c6b57e645a2c7d1d27d9e2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG117_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a0c167cce024328663055d5ae3595f191</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG118_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a0895c055caab173b661e12cd703f9927</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG119_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a100540853721556e2f77697ad1b0fede</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG120_FTM2</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a8a5f62d012620fe972a2028c9eafdfff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG121_FTM3</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a72c190a0c9be6e92eb91e9106095b6cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG122_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a0c6dbde858bc77c275f4d7e98ad8996d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG123_ADC1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a1b6f2e645bccde6ddfd20176918bbd8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG124_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab2416e055c9025df01a32b99ab45b880</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG125_TCON1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a7aedab2492fdb92d0da21f58fc857e74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG126_SEG_LCD</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a5fb2f95ec54174e8d333c32f1d36a5a0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG127_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a512f97696944b3a29183ef71d00f093a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG128_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac92c134fb11e0bd80061a7b615e3ff99</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG129_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad98556c5233d6c5dd0607b3bbc62de31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG130_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac39b20475d2865e2328f62073e98a85a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG131_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a4c9e3a77b3c1ef1135a608a42b51ecf6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG132_QSPI1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab2be7a41f3cf2faa9f1e043bf2b66bae</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG133_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac0529ccad9e813937faf7c676122e887</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG134_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0acee76ae36770074cf27a51ae5bebd446</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG135_VADC</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a12fa412a47ffe3b127ebe3527abe40bf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG136_VDEC</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a13f4f984332eb5ad66e3dffed5471cf4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG137_VIU3</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a22a89729bc11e01ea7d66c4ec48432e3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG138_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a5104f383219c606ac793c35668f8ded8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG139_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ade852a878034b5ae8d5a43e04b827d8b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG140_DAC0</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0adae8fabb8439f5ca8b6d021aabd35841</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG141_DAC1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a7447822468594f321416e37e05349015</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG142_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0abb5f93596458fccc1a16184f5c75738a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG143_NOTUSED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ae8cef78ac71c3853643da08b849f38bc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG144_ETH0_1588</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a3ff5e089c579fedd57aede18368fb627</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG145_ETH1_1588</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac5b5a6e6615b6378a1772b0cdc979e54</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG146_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a67418347b0d74f7c98bc47377a618354</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG147_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2a19d56f8b866e698ffd9b22425029b7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG148_FLEXCAN1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a9bbcaf92d09b1f545d9fb61419b7e012</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG149_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aa38a77069c772f280489999f99ec1b92</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG150_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a1cbfd0171a561cec7ec66c1e200e36fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG151_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac32cc0ed3cddb95dbf799a6eadabeb6e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG152_DCU1</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a465ff01f3065decd42510743073842a3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG153_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a98cf932764be6b92a8771c5b47608e20</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG154_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6af46e9a6d15f3af0cde961199810317</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG155_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aab9cdadb3d40fe5712f571254f8ab016</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG156_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a678a13d11945fa601a17c77c40b84818</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG157_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2a2c74264183028ae1dfd18c1480f158</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG158_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a0edbdac71d890134e2f50261ad832cd1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG159_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ae01b8a78194cfa478c54a88e6461efcb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG160_NFC</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a88bbd30407998f8d054903e05ab265d7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG161_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a91ac8c741ff56a6d8f8e1659f44b2a38</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG162_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad043d970653ee7369ef3d22090221198</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG163_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad758e7e6882e78e27fd4333308fc9c50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG164_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a8fed8d6cd3b5b19dbb6b991282724500</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG165_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a4c7b450ec6e0cd21a080b6517db1d027</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG166_I2C2</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0add3d6e0e8f2069f3f239e1b17b5eea68</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG167_I2C3</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a7d012eb2b12162496facd6dcca0402a1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG168_ETH_L2</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aaf3b9e9e9e367aec479d521fd3212624</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG169_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab128a439f65f77a1bb6674ea430ef82b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG170_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a6dd2ac14262e27897d4ed062a5597eac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG171_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a40130d9da47b6b25574500eb39144ee4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG172_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a524a8597521cb7c55652d30b75a22594</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG173_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ac38b257eac89be1c8ea26293308e9824</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG174_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a96ae85cf3aba9278f5b698d7918e9a72</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG175_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aa70a5ca3952f10fa87296aaacb08e6c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG176_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a2717eedb12525d2c97f1ba5af2b0f69b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG177_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ad708998dad5b0cf925df4b08375224f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG178_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a1f491e61a635b1a2ef63392c8c240e2f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG179_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aa4f1dc1c12e46bfd911a4993d541fcd3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG180_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab9aadb28acdd62907cd10c046f3b63c0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG181_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a73a86ef581a5617b270ca593d2d67460</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG182_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a3e22711b70982ceb7977c3df58665fd0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG183_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0affee74de379acdee1f24756e4a539ede</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG184_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0acfe5db43dfac3f8887e0e4cc2b9bb732</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG185_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0ab9dbe31935e2170731e95b3f0acf3108</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG186_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0aad3caaf5fda7145ba000116b14e7b726</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG187_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0afcf2f5c5cebf78bf783dcadaa1c00680</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG188_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a175708e17c8b9e31f16bb8c9ec7e63c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG189_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a39b570314444cbadd2e033e8346fd961</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG190_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a9122c0799269644383a82d6b97dd5aa5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CG191_RESERVED</name>
-      <anchorfile>ccm_8h.html</anchorfile>
-      <anchor>a84a928e7529bf26b5b2c4d997c9c51e0a35a4cde13637b879bbf8f0917af64439</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>ccm_clock_gate_enable</name>
@@ -3401,951 +2057,6 @@
       <name>vf6xx_pad</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>gabe85842e70bd95e3488bbe970ef3e972</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA6</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad27335346f696cfbd58cd8657deedc17</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA8</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa6cca1f492075353cff8ee68f8778079</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA9</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a2a0c8972f710e8580648d7d54148fac6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA10</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a85974247697def6e8334701882e53704</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA11</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a5f284bb19baaa2b63a52c3215ea4289b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA12</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac956da12130e1667361fb82d393e4928</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA16</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972acff859e14d006f5b6d17b680981348c6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA17</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a5aef5d3738663074bd4b30a140f81142</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA18</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a79fb584a5899625b80fcda8d86e77704</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA19</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972afa9b10e4d7e909da2644dfe315798e60</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA20</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a13700caa04ffb634849e385e198bde2f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA21</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a8d659fb6da8850f38f751412c385a95e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA22</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ab3cef15af64d7f03f45b7029c9d54575</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA23</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6b80b210ea3ffc16c5fe25f388614eab</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA24</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ab64e8ca16b57931a8d404f8f8e0dc9f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA25</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac67c9cbe02b7668b408a58a4f75aa0ea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA26</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae744b6c59c30e3f9062b1e67c000159e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA27</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a816cd26cf8a9e4152f75fbedd120c27d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA28</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac6caf144e8e1188430e4c4e26c58a69d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA29</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa4358308f5eca10759db5ae6b92ace9a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA30</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a5941325d48a3f8d25e08f66b76cfba1b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA31</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7bb2fecce151290d177f64016ec11c9c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB0</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a993d476e3d30f26cf676a81186a7186e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB1</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7f9f74ae91a51363142be304bd0ac8b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB2</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3cf4c4ba85dee31382c481c0bd3f2ab0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB3</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae09633c19cf0feb82677809335be6d7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB4</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7a6d8251aa8473201021093a82320424</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB5</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a43805f892e5e951ae0705604bbe44abd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB6</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3a3faf1ad6a9b3643a9bc59e7063614d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB7</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad23532913e04923cfe9a4b5f731a2046</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB8</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7648625043bc1e969b0a76da695b9ffd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB9</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0147aa7f033d42b8aa09a6075ab2e580</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB10</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6f7fdcdfcc99b1e6e1953aefba654f7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB11</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a1158e22b3b102e6fb63dfcb3e0808d16</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB12</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972af71c9da5e0d87280fb53232b8c044fb9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB13</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa0a07a26cd8cc035368187884dc5004a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB14</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972acfe4be1ec82fd703a3a1167435e30157</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB15</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a526740faf29d193b125a081408f9796a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB16</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a665534d75d2bb43535de77879b56e51e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB17</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae22c75cf7b7a0b0a37ce628c65b35e70</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB18</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a71f2c82802f634c9f9e7c6f3028eff93</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB19</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a47a8cd759133cfc0ad6931ef410bb827</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB20</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a11cfad4194ac2c7fa95e23bb876232af</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB21</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a9011b7d59e5ccf1108334928eb8f66c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB22</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac8f0f5fe5fa4f515a778a1e4dbda74c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC0</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a840e2cd3ba1272632cc1e0b3e4f666e0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC1</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa2f5a168dcf0df3622979737b8a81b83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC2</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a37f82f2c46718b7ff7d9287516f5b105</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC3</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae62a7584420564d5b2369167840626eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC4</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0245becc0f80948505441ac9b73cdc47</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC5</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a482c6a9bc6af7949d86168ebfec2d6b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC6</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972af63a9d087962810bfe8cb0432780124c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC7</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0423a19caff273401be088b0126243c1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC8</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a08aa5a51e5cbc8507c7649e2ccd55287</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC9</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a1c2d1d893e04c55c4f9e21d3a4b1131d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC10</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a5be1b6b26324b887a43f6f58a3603497</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC11</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972abfde3ac103ffb6459a0504c2a061a227</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC12</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a9da9906abb1bfe3b9297602ae9e5f15d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC13</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa3b8459bc7d87ce55743ed23f9ad8631</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC14</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a97bfde20a962b086f82cfa6cbc14e152</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC15</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7525892d4be45f46c91ee9615c1adf3f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC16</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a78164afcaf95dbd0311810034c4d0f6d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC17</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a4c975a6b5f8162f6486abf069c215900</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD31</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a02a9b9212fd14326bf4e62d8d0f70e23</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD30</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0bac83d00179fd9197a2ab1c78b30981</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD29</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3b95553a3a04b46f9c8c6b8ee9a699e9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD28</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a2e4b7e1da0693988aad91940cda3e2cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD27</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a2362d27bb671e690676d02aca3e95b46</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD26</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a699cb6d02e88e7247135bf64942ea001</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD25</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3b5e775564d54e89f2ae8d0157a56b8f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD24</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac8bff8356b4f559874637abca1f240a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD23</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa4cccff1269a44c6e79a7ff91340ddc3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD22</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac486ee10c087393ca19ca8614e42287f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD21</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a907e9a2c987a327aa5a8e4a9297bf69e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD20</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6a0fd0ebfa990e90a63dcfe04b12ac08</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD19</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a92e9de9470377987de453f65d9542764</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD18</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aaf0d4031a575e80436e8dd359c70c871</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD17</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae7b61e7d6bb55e78b983edda46689bb4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD16</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972abd90c718e15068c9db632a3c3770ca89</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD0</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa60b638c1ad8ee1120f3ff6ad1713687</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD1</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972adc4be69cd2d22eda496166a06f1e54d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD2</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a4b46c2b7cad6c09c0abec62a87a096cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD3</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a634d16cdb4fad91249d28a0c7a9b94cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD4</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a38cde8ff224f1a8e472cc3860de469d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD5</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a36677afb34e9d3d03afb58659dbe35ff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD6</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6b6a7243e5e4a5f8adef3f890c06fc75</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD7</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6d75275db971bbea05798c141a514df6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD8</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972af976bcd96ff29cb78679a0ce9d0ada73</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD9</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a40c99c4cd9c4be2db1feb9e1f1ef0073</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD10</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a19d86b1c4de90b9169b18da104586d89</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD11</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ab508a5b7f0a99b37bb1683bfe7d33415</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD12</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad3b4d69362b236fcadc5b38d253fcc52</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTD13</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a357abb93ddd411c2efce024def26f448</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB23</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac343ccd2e100acc48b6376095eacd44a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB24</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a08dd5b4e762bb6b4d355734656e4b8be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB25</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad34e2dee384c68ddfc5021cf31ddbedd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB26</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3584e7849e701bd20822417866fef80d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB27</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a00b39345d0820517ed1fcf0e9e7bf2c7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTB28</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6ad8df15701fd5db9dc3e3299295be2b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC26</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0f91f3d7fdfa1e23cf8b19ee0d9370f0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC27</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae40dcd81a50ccfec6eef5ed81dff10cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC28</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a379f519966b613999981bc271e64630a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC29</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae60810cbf9b691030db63ed5a2ae38f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC30</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a769be8f28717d0b819c9a443469d4292</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTC31</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a95d11a5f145ac09bdc422effbed84b38</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE0</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0b1cea148133e3ddebb23ca9097775c6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE1</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7866647b67bed1396f069c1994674d0b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE2</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a496da5ce95a0c7c5ca24e7337b4949f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE3</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a99685cae819f36ba615b90ac53aec992</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE4</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a2a50efa0f85dd1dc6ed41b5a7d7fc414</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE5</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad9347baac5b264cb6d6fc77ca86ab47e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE6</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa3627f6ae3a62d59dbe5fcc0f17d1af6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE7</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a88a981d9788037bde4b6fe06704b4864</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE8</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac989a17f0ab085653d1e7079ff602b02</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE9</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aff08e4c1f110ad16c2ac4be72ad25228</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE10</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a62d80682ad9c8059be21f69a32cf656e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE11</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972afe37b389077a9122a952c4a3391586ab</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE12</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6b3caa41f68f72db0fcecc6146327b01</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE13</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3e5075d2d42e5e859454e2668ce9f3e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE14</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad36ea4396c868cf77dde06fc81a28c61</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE15</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a49cf1de86fd3b19466d902885928246c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE16</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a29c94e9c542e1516ebfb9e083d20e452</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE17</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0de0f4116e4616e2d7a6d8cc06cde048</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE18</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a58f76d8d567c2bd96d503fa8b3c7549f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE19</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa6946c58f8466fc8433fead2ac8de874</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE20</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a41bdd2a5e7880ffc25de01d3d9e7444f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE21</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a905ec94b1054a2203738b1de04beb367</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE22</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972aafaede7103da15a05bc416def1f16ebf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE23</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6894d2a26821e95500b1775e7a337e14</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE24</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad50d73d7fd25463b70c1f7dad2b7ca6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE25</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ab095ae5408917c168774ad2d591783e3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE26</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a56cfe65f95101c384db639a9c10eb91c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE27</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972a313951b6b20bf7c22c2ea3697c31ca04</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTE28</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972ada261be967751a0293f8ae05ff01c618</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PTA7</name>
-      <anchorfile>group__iomuxc__reg.html</anchorfile>
-      <anchor>ggabe85842e70bd95e3488bbe970ef3e972af480e2cdd9c25e3041f050144e2f85d1</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -5238,11 +2949,6 @@
       <arglist></arglist>
     </member>
   </compound>
-  <compound kind="page">
-    <name>lgpl_license</name>
-    <title>libopencm3 License</title>
-    <filename>lgpl_license</filename>
-  </compound>
   <compound kind="group">
     <name>anadig_defines</name>
     <title>ANADIG Defines</title>
@@ -5707,945 +3413,810 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA6</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad27335346f696cfbd58cd8657deedc17</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA8</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa6cca1f492075353cff8ee68f8778079</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA9</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a2a0c8972f710e8580648d7d54148fac6</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA10</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a85974247697def6e8334701882e53704</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA11</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a5f284bb19baaa2b63a52c3215ea4289b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA12</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac956da12130e1667361fb82d393e4928</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA16</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972acff859e14d006f5b6d17b680981348c6</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA17</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a5aef5d3738663074bd4b30a140f81142</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA18</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a79fb584a5899625b80fcda8d86e77704</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA19</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972afa9b10e4d7e909da2644dfe315798e60</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA20</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a13700caa04ffb634849e385e198bde2f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA21</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a8d659fb6da8850f38f751412c385a95e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA22</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ab3cef15af64d7f03f45b7029c9d54575</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA23</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6b80b210ea3ffc16c5fe25f388614eab</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA24</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ab64e8ca16b57931a8d404f8f8e0dc9f2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA25</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac67c9cbe02b7668b408a58a4f75aa0ea</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA26</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae744b6c59c30e3f9062b1e67c000159e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA27</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a816cd26cf8a9e4152f75fbedd120c27d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA28</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac6caf144e8e1188430e4c4e26c58a69d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA29</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa4358308f5eca10759db5ae6b92ace9a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA30</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a5941325d48a3f8d25e08f66b76cfba1b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA31</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7bb2fecce151290d177f64016ec11c9c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB0</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a993d476e3d30f26cf676a81186a7186e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB1</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7f9f74ae91a51363142be304bd0ac8b9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB2</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3cf4c4ba85dee31382c481c0bd3f2ab0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB3</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae09633c19cf0feb82677809335be6d7d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB4</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7a6d8251aa8473201021093a82320424</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB5</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a43805f892e5e951ae0705604bbe44abd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB6</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3a3faf1ad6a9b3643a9bc59e7063614d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB7</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad23532913e04923cfe9a4b5f731a2046</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB8</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7648625043bc1e969b0a76da695b9ffd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB9</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0147aa7f033d42b8aa09a6075ab2e580</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB10</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6f7fdcdfcc99b1e6e1953aefba654f7d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB11</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a1158e22b3b102e6fb63dfcb3e0808d16</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB12</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972af71c9da5e0d87280fb53232b8c044fb9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB13</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa0a07a26cd8cc035368187884dc5004a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB14</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972acfe4be1ec82fd703a3a1167435e30157</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB15</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a526740faf29d193b125a081408f9796a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB16</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a665534d75d2bb43535de77879b56e51e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB17</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae22c75cf7b7a0b0a37ce628c65b35e70</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB18</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a71f2c82802f634c9f9e7c6f3028eff93</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB19</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a47a8cd759133cfc0ad6931ef410bb827</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB20</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a11cfad4194ac2c7fa95e23bb876232af</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB21</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a9011b7d59e5ccf1108334928eb8f66c5</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB22</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac8f0f5fe5fa4f515a778a1e4dbda74c2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC0</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a840e2cd3ba1272632cc1e0b3e4f666e0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC1</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa2f5a168dcf0df3622979737b8a81b83</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC2</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a37f82f2c46718b7ff7d9287516f5b105</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC3</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae62a7584420564d5b2369167840626eb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC4</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0245becc0f80948505441ac9b73cdc47</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC5</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a482c6a9bc6af7949d86168ebfec2d6b6</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC6</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972af63a9d087962810bfe8cb0432780124c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC7</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0423a19caff273401be088b0126243c1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC8</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a08aa5a51e5cbc8507c7649e2ccd55287</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC9</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a1c2d1d893e04c55c4f9e21d3a4b1131d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC10</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a5be1b6b26324b887a43f6f58a3603497</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC11</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972abfde3ac103ffb6459a0504c2a061a227</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC12</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a9da9906abb1bfe3b9297602ae9e5f15d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC13</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa3b8459bc7d87ce55743ed23f9ad8631</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC14</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a97bfde20a962b086f82cfa6cbc14e152</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC15</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7525892d4be45f46c91ee9615c1adf3f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC16</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a78164afcaf95dbd0311810034c4d0f6d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC17</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a4c975a6b5f8162f6486abf069c215900</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD31</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a02a9b9212fd14326bf4e62d8d0f70e23</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD30</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0bac83d00179fd9197a2ab1c78b30981</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD29</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3b95553a3a04b46f9c8c6b8ee9a699e9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD28</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a2e4b7e1da0693988aad91940cda3e2cc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD27</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a2362d27bb671e690676d02aca3e95b46</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD26</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a699cb6d02e88e7247135bf64942ea001</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD25</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3b5e775564d54e89f2ae8d0157a56b8f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD24</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac8bff8356b4f559874637abca1f240a9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD23</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa4cccff1269a44c6e79a7ff91340ddc3</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD22</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac486ee10c087393ca19ca8614e42287f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD21</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a907e9a2c987a327aa5a8e4a9297bf69e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD20</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6a0fd0ebfa990e90a63dcfe04b12ac08</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD19</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a92e9de9470377987de453f65d9542764</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD18</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aaf0d4031a575e80436e8dd359c70c871</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD17</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae7b61e7d6bb55e78b983edda46689bb4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD16</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972abd90c718e15068c9db632a3c3770ca89</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD0</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa60b638c1ad8ee1120f3ff6ad1713687</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD1</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972adc4be69cd2d22eda496166a06f1e54d1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD2</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a4b46c2b7cad6c09c0abec62a87a096cb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD3</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a634d16cdb4fad91249d28a0c7a9b94cd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD4</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a38cde8ff224f1a8e472cc3860de469d9</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD5</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a36677afb34e9d3d03afb58659dbe35ff</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD6</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6b6a7243e5e4a5f8adef3f890c06fc75</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD7</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6d75275db971bbea05798c141a514df6</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD8</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972af976bcd96ff29cb78679a0ce9d0ada73</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD9</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a40c99c4cd9c4be2db1feb9e1f1ef0073</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD10</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a19d86b1c4de90b9169b18da104586d89</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD11</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ab508a5b7f0a99b37bb1683bfe7d33415</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD12</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad3b4d69362b236fcadc5b38d253fcc52</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTD13</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a357abb93ddd411c2efce024def26f448</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB23</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac343ccd2e100acc48b6376095eacd44a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB24</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a08dd5b4e762bb6b4d355734656e4b8be</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB25</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad34e2dee384c68ddfc5021cf31ddbedd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB26</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3584e7849e701bd20822417866fef80d</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB27</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a00b39345d0820517ed1fcf0e9e7bf2c7</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTB28</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6ad8df15701fd5db9dc3e3299295be2b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC26</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0f91f3d7fdfa1e23cf8b19ee0d9370f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC27</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae40dcd81a50ccfec6eef5ed81dff10cd</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC28</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a379f519966b613999981bc271e64630a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC29</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ae60810cbf9b691030db63ed5a2ae38f2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC30</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a769be8f28717d0b819c9a443469d4292</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTC31</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a95d11a5f145ac09bdc422effbed84b38</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE0</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0b1cea148133e3ddebb23ca9097775c6</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE1</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a7866647b67bed1396f069c1994674d0b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE2</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a496da5ce95a0c7c5ca24e7337b4949f2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE3</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a99685cae819f36ba615b90ac53aec992</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE4</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a2a50efa0f85dd1dc6ed41b5a7d7fc414</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE5</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad9347baac5b264cb6d6fc77ca86ab47e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE6</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa3627f6ae3a62d59dbe5fcc0f17d1af6</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE7</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a88a981d9788037bde4b6fe06704b4864</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE8</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ac989a17f0ab085653d1e7079ff602b02</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE9</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aff08e4c1f110ad16c2ac4be72ad25228</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE10</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a62d80682ad9c8059be21f69a32cf656e</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE11</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972afe37b389077a9122a952c4a3391586ab</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE12</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6b3caa41f68f72db0fcecc6146327b01</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE13</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a3e5075d2d42e5e859454e2668ce9f3e7</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE14</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad36ea4396c868cf77dde06fc81a28c61</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE15</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a49cf1de86fd3b19466d902885928246c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE16</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a29c94e9c542e1516ebfb9e083d20e452</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE17</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a0de0f4116e4616e2d7a6d8cc06cde048</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE18</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a58f76d8d567c2bd96d503fa8b3c7549f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE19</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aa6946c58f8466fc8433fead2ac8de874</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE20</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a41bdd2a5e7880ffc25de01d3d9e7444f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE21</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a905ec94b1054a2203738b1de04beb367</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE22</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972aafaede7103da15a05bc416def1f16ebf</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE23</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a6894d2a26821e95500b1775e7a337e14</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE24</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ad50d73d7fd25463b70c1f7dad2b7ca6c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE25</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ab095ae5408917c168774ad2d591783e3</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE26</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a56cfe65f95101c384db639a9c10eb91c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE27</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972a313951b6b20bf7c22c2ea3697c31ca04</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTE28</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972ada261be967751a0293f8ae05ff01c618</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <type>@</type>
       <name>PTA7</name>
       <anchorfile>group__iomuxc__reg.html</anchorfile>
       <anchor>ggabe85842e70bd95e3488bbe970ef3e972af480e2cdd9c25e3041f050144e2f85d1</anchor>
@@ -6664,7 +4235,6 @@
     <title>UART Defines</title>
     <filename>group__VF6xx__uart__defines.html</filename>
     <subgroup>uart_reg_base</subgroup>
-    <subgroup>uart_parity</subgroup>
   </compound>
   <compound kind="group">
     <name>uart_reg_base</name>
@@ -7511,45 +5081,10 @@
     </member>
     <docanchor file="group__VF6xx__uart" title="UART API.">vf6xx_uart_api_ex</docanchor>
   </compound>
-  <compound kind="dir">
-    <name>include</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
-    <filename>dir_d44c64559bbebec7f509842c48db8b23.html</filename>
-    <dir>libopencm3</dir>
-  </compound>
-  <compound kind="dir">
-    <name>lib</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/</path>
-    <filename>dir_97aefd0d527b934f1d99a682da8fe6a9.html</filename>
-    <dir>vf6xx</dir>
-  </compound>
-  <compound kind="dir">
-    <name>libopencm3</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
-    <filename>dir_6a7820b97a7704ff85bcff20dea7ce23.html</filename>
-    <dir>vf6xx</dir>
-  </compound>
-  <compound kind="dir">
-    <name>vf6xx</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/vf6xx/</path>
-    <filename>dir_1991402828ae60ddc1f8fb78245f42fd.html</filename>
-    <file>ccm.c</file>
-    <file>gpio.c</file>
-    <file>iomuxc.c</file>
-    <file>uart.c</file>
-    <file>vector_chipset.c</file>
-  </compound>
-  <compound kind="dir">
-    <name>vf6xx</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/vf6xx/</path>
-    <filename>dir_e2ef95e67ca3d34d3e4c47126531d36f.html</filename>
-    <file>anadig.h</file>
-    <file>ccm.h</file>
-    <file>doc-vf6xx.h</file>
-    <file>gpio.h</file>
-    <file>iomuxc.h</file>
-    <file>memorymap.h</file>
-    <file>uart.h</file>
+  <compound kind="page">
+    <name>lgpl_license</name>
+    <title>libopencm3 License</title>
+    <filename>lgpl_license</filename>
   </compound>
   <compound kind="page">
     <name>index</name>

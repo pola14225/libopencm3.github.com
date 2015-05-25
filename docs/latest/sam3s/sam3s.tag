@@ -1805,79 +1805,14 @@
       <arglist>(uint32_t usart)</arglist>
     </member>
   </compound>
-  <compound kind="page">
-    <name>lgpl_license</name>
-    <title>libopencm3 License</title>
-    <filename>lgpl_license</filename>
-  </compound>
   <compound kind="group">
     <name>gpio_defines</name>
     <title>Gpio_defines</title>
     <filename>group__gpio__defines.html</filename>
   </compound>
-  <compound kind="dir">
-    <name>3s</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/sam/3s/</path>
-    <filename>dir_60cad6a8f509290c06d03e6df7958346.html</filename>
-    <file>gpio.h</file>
-    <file>memorymap.h</file>
-    <file>periph.h</file>
-    <file>pio.h</file>
-    <file>pmc.h</file>
-    <file>smc.h</file>
-  </compound>
-  <compound kind="dir">
-    <name>common</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/sam/common/</path>
-    <filename>dir_bac92f54fa4d274ca05912d88c03399f.html</filename>
-    <file>gpio_common_3n3s.h</file>
-    <file>gpio_common_all.h</file>
-    <file>periph_common_3a3x.h</file>
-    <file>pio_common_3n3s.h</file>
-    <file>pio_common_all.h</file>
-    <file>pmc_common_3a3s3x.h</file>
-    <file>pmc_common_3n3u.h</file>
-    <file>pmc_common_all.h</file>
-  </compound>
-  <compound kind="dir">
-    <name>common</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/sam/common/</path>
-    <filename>dir_bb55e306902900f5bee41793f7e3c780.html</filename>
-    <file>gpio_common_3a3u3x.c</file>
-    <file>gpio_common_3n3s.c</file>
-    <file>gpio_common_all.c</file>
-    <file>pmc.c</file>
-    <file>usart.c</file>
-  </compound>
-  <compound kind="dir">
-    <name>include</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
-    <filename>dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html</filename>
-    <dir>libopencm3</dir>
-  </compound>
-  <compound kind="dir">
-    <name>lib</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/</path>
-    <filename>dir_6c0c766218f8d9406171b3590f525a33.html</filename>
-    <dir>sam</dir>
-  </compound>
-  <compound kind="dir">
-    <name>libopencm3</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
-    <filename>dir_e1040081471ffd682e8357aa53c82f70.html</filename>
-    <dir>sam</dir>
-  </compound>
-  <compound kind="dir">
-    <name>sam</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/sam/</path>
-    <filename>dir_b29bbfd5b5408e5b4712f7e756376875.html</filename>
-    <dir>common</dir>
-  </compound>
-  <compound kind="dir">
-    <name>sam</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/sam/</path>
-    <filename>dir_1365c2b5b9ceac21bf37131f814cead3.html</filename>
-    <dir>3s</dir>
-    <dir>common</dir>
+  <compound kind="page">
+    <name>lgpl_license</name>
+    <title>libopencm3 License</title>
+    <filename>lgpl_license</filename>
   </compound>
 </tagfile>

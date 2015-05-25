@@ -1,6 +1,6 @@
 var usbd_8h =
 [
-    [ "usbd_control_callback", "group__usb__driver__defines.html#gab8605d26c51d69b2b35caac8a095c094", null ],
+    [ "usbd_control_callback", "group__usb__driver__defines.html#gaf05abc6fde0ddaf3b630222a8422579f", null ],
     [ "usbd_device", "group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce", null ],
     [ "usbd_driver", "group__usb__driver__defines.html#gaf89d061a4e982ccc705dbf1fc7f14fca", null ],
     [ "usbd_request_return_codes", "group__usb__driver__defines.html#gae09dc4bce47d0848ddacbd8b08ef76a7", [

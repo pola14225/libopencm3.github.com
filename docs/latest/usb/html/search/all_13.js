@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['unlock',['unlock',['../struct__usbd__mass__storage.html#a64460c81158a9c6ff1710627140f7372',1,'_usbd_mass_storage']]],
+  ['unlock',['unlock',['../struct__usbd__mass__storage.html#af33eabd592737c53c0c40403996687bc',1,'_usbd_mass_storage']]],
   ['usb_2ec',['usb.c',['../usb_8c.html',1,'']]],
   ['usb_20audio_20type_20definitions',['USB Audio Type Definitions',['../group__usb__audio__defines.html',1,'']]],
   ['usb_5faudio_5fheader_5fdescriptor_5fbody',['usb_audio_header_descriptor_body',['../structusb__audio__header__descriptor__body.html',1,'']]],
@@ -96,7 +96,7 @@ var searchData=
   ['usb_20standard_20structure_20definitions',['USB Standard Structure Definitions',['../group__usb__type__defines.html',1,'']]],
   ['usbd_2eh',['usbd.h',['../usbd_8h.html',1,'']]],
   ['usbd_5fcable_5fconnect',['usbd_cable_connect',['../group__usb__driver__defines.html#ga3c83b9f71370e276c4550b25f013d833',1,'usbd.h']]],
-  ['usbd_5fcontrol_5fcallback',['usbd_control_callback',['../group__usb__driver__defines.html#gab8605d26c51d69b2b35caac8a095c094',1,'usbd.h']]],
+  ['usbd_5fcontrol_5fcallback',['usbd_control_callback',['../group__usb__driver__defines.html#gaf05abc6fde0ddaf3b630222a8422579f',1,'usbd.h']]],
   ['usbd_5fdev',['usbd_dev',['../struct__usbd__mass__storage.html#a9fec9c49a4e06c7ede13d4b3418eea19',1,'_usbd_mass_storage::usbd_dev()'],['../usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f103.c'],['../usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f107.c'],['../usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f207.c']]],
   ['usbd_5fdevice',['usbd_device',['../group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce',1,'usbd.h']]],
   ['usbd_5fdisconnect',['usbd_disconnect',['../group__usb__driver__defines.html#gaef20aadd330e4bb9e97635eeb751d8f9',1,'usbd_disconnect(usbd_device *usbd_dev, bool disconnected):&#160;usb.c'],['../group__usb__drivers__file.html#gaef20aadd330e4bb9e97635eeb751d8f9',1,'usbd_disconnect(usbd_device *usbd_dev, bool disconnected):&#160;usb.c']]],
@@ -123,12 +123,12 @@ var searchData=
   ['usbd_5frequest_5freturn_5fcodes',['usbd_request_return_codes',['../group__usb__driver__defines.html#gae09dc4bce47d0848ddacbd8b08ef76a7',1,'usbd.h']]],
   ['usbstd_2eh',['usbstd.h',['../usbstd_8h.html',1,'']]],
   ['user_5fcallback_5fctr',['user_callback_ctr',['../struct__usbd__device.html#a6e82880b623706d1dd345e54fed03445',1,'_usbd_device']]],
-  ['user_5fcallback_5freset',['user_callback_reset',['../struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488',1,'_usbd_device']]],
-  ['user_5fcallback_5fresume',['user_callback_resume',['../struct__usbd__device.html#acaf5ea2b1ee04aaa31407f99dc98316c',1,'_usbd_device']]],
-  ['user_5fcallback_5fset_5faltsetting',['user_callback_set_altsetting',['../struct__usbd__device.html#ae4748f35ebf0e08df31669650eafc87e',1,'_usbd_device']]],
+  ['user_5fcallback_5freset',['user_callback_reset',['../struct__usbd__device.html#a171474ef610c019e11546b98b2cea769',1,'_usbd_device']]],
+  ['user_5fcallback_5fresume',['user_callback_resume',['../struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18',1,'_usbd_device']]],
+  ['user_5fcallback_5fset_5faltsetting',['user_callback_set_altsetting',['../struct__usbd__device.html#affa9de68619473e97bdd4fd669f920ce',1,'_usbd_device']]],
   ['user_5fcallback_5fset_5fconfig',['user_callback_set_config',['../struct__usbd__device.html#a87d8f0db30486e8a4d2369d95a826e3f',1,'_usbd_device']]],
-  ['user_5fcallback_5fsof',['user_callback_sof',['../struct__usbd__device.html#ac0918a3ad67373dbf43e873c1d1b026e',1,'_usbd_device']]],
-  ['user_5fcallback_5fsuspend',['user_callback_suspend',['../struct__usbd__device.html#a82eeeabe86839be7e3acdd1d6bd81c73',1,'_usbd_device']]],
+  ['user_5fcallback_5fsof',['user_callback_sof',['../struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29',1,'_usbd_device']]],
+  ['user_5fcallback_5fsuspend',['user_callback_suspend',['../struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7',1,'_usbd_device']]],
   ['user_5fcontrol_5fcallback',['user_control_callback',['../struct__usbd__device_1_1user__control__callback.html',1,'_usbd_device']]],
   ['user_5fcontrol_5fcallback',['user_control_callback',['../struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4',1,'_usbd_device']]]
 ];

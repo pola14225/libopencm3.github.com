@@ -1,7 +1,3 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/nvic.h:101: warning: Refusing to add group nvic_sysint to group CM3_nvic_defines, since the latter is already a subgroup of the former
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/systick.h:73: warning: Refusing to add group systick_clksource to group CM3_systick_defines, since the latter is already a subgroup of the former
-
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:240: warning: Example 1 was already documented. Ignoring documentation found here.
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:256: warning: Example 2 was already documented. Ignoring documentation found here.
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/cortex.h:212: warning: included file 1 is not found. Check your EXAMPLE_PATH

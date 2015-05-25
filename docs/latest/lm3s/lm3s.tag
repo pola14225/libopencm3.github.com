@@ -676,11 +676,6 @@
       <arglist></arglist>
     </member>
   </compound>
-  <compound kind="page">
-    <name>lgpl_license</name>
-    <title>libopencm3 License</title>
-    <filename>lgpl_license</filename>
-  </compound>
   <compound kind="group">
     <name>LM3Sxx</name>
     <title>LM3S</title>
@@ -1234,38 +1229,10 @@
       <arglist>(uint32_t gpioport, uint8_t gpios)</arglist>
     </member>
   </compound>
-  <compound kind="dir">
-    <name>include</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
-    <filename>dir_d44c64559bbebec7f509842c48db8b23.html</filename>
-    <dir>libopencm3</dir>
-  </compound>
-  <compound kind="dir">
-    <name>lib</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/</path>
-    <filename>dir_97aefd0d527b934f1d99a682da8fe6a9.html</filename>
-    <dir>lm3s</dir>
-  </compound>
-  <compound kind="dir">
-    <name>libopencm3</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
-    <filename>dir_6a7820b97a7704ff85bcff20dea7ce23.html</filename>
-    <dir>lm3s</dir>
-  </compound>
-  <compound kind="dir">
-    <name>lm3s</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm3s/</path>
-    <filename>dir_869293064a8640c73deffbae3587a3ed.html</filename>
-    <file>gpio.c</file>
-  </compound>
-  <compound kind="dir">
-    <name>lm3s</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lm3s/</path>
-    <filename>dir_6e3dc13a724c5ff4444bded2eedde19d.html</filename>
-    <file>doc-lm3s.h</file>
-    <file>gpio.h</file>
-    <file>memorymap.h</file>
-    <file>systemcontrol.h</file>
+  <compound kind="page">
+    <name>lgpl_license</name>
+    <title>libopencm3 License</title>
+    <filename>lgpl_license</filename>
   </compound>
   <compound kind="page">
     <name>index</name>

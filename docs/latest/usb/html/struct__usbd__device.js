@@ -17,11 +17,11 @@ var struct__usbd__device =
     [ "rxbcnt", "struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443", null ],
     [ "strings", "struct__usbd__device.html#a76f748749894cc0316e3e95ea7a8be27", null ],
     [ "user_callback_ctr", "struct__usbd__device.html#a6e82880b623706d1dd345e54fed03445", null ],
-    [ "user_callback_reset", "struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488", null ],
-    [ "user_callback_resume", "struct__usbd__device.html#acaf5ea2b1ee04aaa31407f99dc98316c", null ],
-    [ "user_callback_set_altsetting", "struct__usbd__device.html#ae4748f35ebf0e08df31669650eafc87e", null ],
+    [ "user_callback_reset", "struct__usbd__device.html#a171474ef610c019e11546b98b2cea769", null ],
+    [ "user_callback_resume", "struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18", null ],
+    [ "user_callback_set_altsetting", "struct__usbd__device.html#affa9de68619473e97bdd4fd669f920ce", null ],
     [ "user_callback_set_config", "struct__usbd__device.html#a87d8f0db30486e8a4d2369d95a826e3f", null ],
-    [ "user_callback_sof", "struct__usbd__device.html#ac0918a3ad67373dbf43e873c1d1b026e", null ],
-    [ "user_callback_suspend", "struct__usbd__device.html#a82eeeabe86839be7e3acdd1d6bd81c73", null ],
+    [ "user_callback_sof", "struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29", null ],
+    [ "user_callback_suspend", "struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7", null ],
     [ "user_control_callback", "struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4", null ]
 ];

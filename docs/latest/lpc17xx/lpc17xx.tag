@@ -1788,11 +1788,6 @@
       <arglist>(uint32_t peripherals)</arglist>
     </member>
   </compound>
-  <compound kind="page">
-    <name>lgpl_license</name>
-    <title>libopencm3 License</title>
-    <filename>lgpl_license</filename>
-  </compound>
   <compound kind="group">
     <name>clock_defines</name>
     <title>Clock Defines</title>
@@ -2421,40 +2416,10 @@
       <arglist>(uint32_t peripherals)</arglist>
     </member>
   </compound>
-  <compound kind="dir">
-    <name>include</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
-    <filename>dir_d44c64559bbebec7f509842c48db8b23.html</filename>
-    <dir>libopencm3</dir>
-  </compound>
-  <compound kind="dir">
-    <name>lib</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/</path>
-    <filename>dir_97aefd0d527b934f1d99a682da8fe6a9.html</filename>
-    <dir>lpc17xx</dir>
-  </compound>
-  <compound kind="dir">
-    <name>libopencm3</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
-    <filename>dir_6a7820b97a7704ff85bcff20dea7ce23.html</filename>
-    <dir>lpc17xx</dir>
-  </compound>
-  <compound kind="dir">
-    <name>lpc17xx</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lpc17xx/</path>
-    <filename>dir_f9dfdb53076d236e85e20774ccbdc816.html</filename>
-    <file>gpio.c</file>
-    <file>pwr.c</file>
-  </compound>
-  <compound kind="dir">
-    <name>lpc17xx</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/lpc17xx/</path>
-    <filename>dir_33c5f16cd77f7881097367e4c9351f70.html</filename>
-    <file>clock.h</file>
-    <file>doc-lpc17xx.h</file>
-    <file>gpio.h</file>
-    <file>memorymap.h</file>
-    <file>pwr.h</file>
+  <compound kind="page">
+    <name>lgpl_license</name>
+    <title>libopencm3 License</title>
+    <filename>lgpl_license</filename>
   </compound>
   <compound kind="page">
     <name>index</name>

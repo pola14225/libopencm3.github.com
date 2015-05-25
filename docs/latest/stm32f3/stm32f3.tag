@@ -3355,6 +3355,97 @@
     <filename>adc__common__v1_8c</filename>
     <member kind="function">
       <type>void</type>
+      <name>adc_off</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_analog_watchdog_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaffa5256174cec880eaea7d82a1caf968</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gab4cc03bbad2f235b9fb8ed1b89e24d25</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_analog_watchdog_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac97660f8ac7f23bd22c5a867d86dc80c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_discontinuous_mode_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga57b3c58283977a60ab7e94b33d502ef8</anchor>
+      <arglist>(uint32_t adc, uint8_t length)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_discontinuous_mode_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga3c7c004f76958f5b9d4c2f66dad7f8df</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_discontinuous_mode_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga214a9ead42c311498474678796e8e768</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_discontinuous_mode_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gafe352fb7c779e3b540056f0dd926e8b3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_automatic_injected_group_conversion</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga9965805fdbb3e7dd26a1afed91cc4fd2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_automatic_injected_group_conversion</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga118817f8db889310eb249519d9b8ae39</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_on_all_channels</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga756eb74470362394a05dacf33f3e647d</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_on_selected_channel</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac59be11190b92659467a130485ed3083</anchor>
+      <arglist>(uint32_t adc, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>adc_enable_scan_mode</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
@@ -3365,6 +3456,20 @@
       <name>adc_disable_scan_mode</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eoc_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gab2b359caa41226508e5414a9fdf18fcd</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga59b482216ccaeeeaf22d7c5cfed7f3e2</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -3383,6 +3488,76 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>adc_enable_eoc_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_left_aligned</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_right_aligned</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad2a065923adced21827480f124ff4a61</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gab96e1ce8d28ce696dc70e231a8da936e</anchor>
+      <arglist>(uint32_t adc, uint8_t reg)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_continuous_conversion_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_single_conversion_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>adc_set_watchdog_high_threshold</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
@@ -3394,6 +3569,55 @@
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
       <arglist>(uint32_t adc, uint16_t threshold)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_regular_sequence</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_injected_sequence</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_injected_offset</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac3af5b84c1af074f2c9de07b0ed73470</anchor>
+      <arglist>(uint32_t adc, uint8_t reg, uint32_t offset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_dma</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_dma</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -5619,53 +5843,11 @@
       <anchor>gaddb2a9646f5222113db5545109cc700b</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CHANNEL_1</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>ggaddb2a9646f5222113db5545109cc700badf896c664dde68aea03c05d2097af075</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CHANNEL_2</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>ggaddb2a9646f5222113db5545109cc700baee22a400618eb3e95f039a401ced4e91</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CHANNEL_D</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>ggaddb2a9646f5222113db5545109cc700bae1e491d5c05c78a45f205d2fdaec320b</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>data_align</name>
       <anchorfile>group__dac__defines.html</anchorfile>
       <anchor>ga3f15c2d8c2dcfbc06b58b09e4c2d7b3c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RIGHT8</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca30397d5f6477c6e6281797ef363c43d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RIGHT12</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3cad408f5668e25f95a1de8445228d5c815</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>LEFT12</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca948aa505bffa2979c605da3480876a88</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -7560,6 +7742,48 @@
       <anchor>ga81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
       <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_set_trigger</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga8b05a3586764aeb0dd1366dd46616a65</anchor>
+      <arglist>(uint32_t extis, enum exti_trigger_type trig)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_enable_request</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_disable_request</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga1752fef240fb05e1135548449943ce0b</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_reset_request</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaa86779017820fedee955563adc8b5f4a</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>exti_get_flag_status</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga80d89279aab6cc63a8141b7421cd2dd1</anchor>
+      <arglist>(uint32_t exti)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_select_source</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
+      <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>exti_common_all.h</name>
@@ -7878,27 +8102,6 @@
       <name>exti_trigger_type</name>
       <anchorfile>group__exti__defines.html</anchorfile>
       <anchor>ga217058c9ab9a27e3f4f197ca7889623a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>EXTI_TRIGGER_RISING</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa7db3c45e92eb0cccfca0fcb33485e1bc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>EXTI_TRIGGER_FALLING</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa93d62734fb59270daa09a14c5c040f5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>EXTI_TRIGGER_BOTH</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gga217058c9ab9a27e3f4f197ca7889623aab7646e3e5a3134431c4c58306f0d3f72</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -11074,6 +11277,62 @@
     <filename>i2c__common__all_8c</filename>
     <member kind="function">
       <type>void</type>
+      <name>i2c_reset</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga6c98abcc0cf310ed84795260384d9992</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_peripheral_enable</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga91c48df3ee37b0e960527ba59581a585</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_peripheral_disable</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga600d06defb26076b7b702160a0c5603d</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_send_start</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga5c21ca1eb1791661f78247cdccf82734</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_send_stop</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga90b4cd40407eefb70f18e5aa43630d44</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_clear_stop</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>gabb626d99345195735bedd6134b6cf3c6</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_set_own_7bit_slave_address</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga770a4f23cdb45e344a789e32202c4cab</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_set_own_10bit_slave_address</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga9c45f244fee2f34d1cb10fc7accd5af8</anchor>
+      <arglist>(uint32_t i2c, uint16_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>i2c_set_own_7bit_slave_address_two</name>
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>ga678d9a7d795c2ae5adaa04bec78393ad</anchor>
@@ -11099,6 +11358,13 @@
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
       <arglist>(uint32_t i2c, uint8_t freq)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_send_data</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>gaad83fb76f31941e9d0e1083d8e4ea6f0</anchor>
+      <arglist>(uint32_t i2c, uint8_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -11134,6 +11400,27 @@
       <anchorfile>group__i2c__file.html</anchorfile>
       <anchor>gac84a8cc0d49c99f032f7ea87ac0f1302</anchor>
       <arglist>(uint32_t i2c, uint8_t slave, uint8_t readwrite)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>i2c_get_data</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>gab0fae615ab83fcd0dac9885fd04c4731</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_enable_interrupt</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga16c892319b9438eab63cf4ea3a15f4ae</anchor>
+      <arglist>(uint32_t i2c, uint32_t interrupt)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_disable_interrupt</name>
+      <anchorfile>group__i2c__file.html</anchorfile>
+      <anchor>ga0fc2e57eeb3efee6810e6ca3c5df4cf8</anchor>
+      <arglist>(uint32_t i2c, uint32_t interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -12045,6 +12332,62 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>i2c_reset</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga6c98abcc0cf310ed84795260384d9992</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_peripheral_enable</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga91c48df3ee37b0e960527ba59581a585</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_peripheral_disable</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga600d06defb26076b7b702160a0c5603d</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_send_start</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga5c21ca1eb1791661f78247cdccf82734</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_send_stop</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga90b4cd40407eefb70f18e5aa43630d44</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_clear_stop</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>gabb626d99345195735bedd6134b6cf3c6</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_set_own_7bit_slave_address</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga770a4f23cdb45e344a789e32202c4cab</anchor>
+      <arglist>(uint32_t i2c, uint8_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_set_own_10bit_slave_address</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga9c45f244fee2f34d1cb10fc7accd5af8</anchor>
+      <arglist>(uint32_t i2c, uint16_t slave)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>i2c_set_own_7bit_slave_address_two</name>
       <anchorfile>group__i2c__defines.html</anchorfile>
       <anchor>ga678d9a7d795c2ae5adaa04bec78393ad</anchor>
@@ -12063,6 +12406,20 @@
       <anchorfile>group__i2c__defines.html</anchorfile>
       <anchor>ga8273a9f0b7e53a8238d91ead7ea7d90f</anchor>
       <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_set_clock_frequency</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga5e8fee505dc3d5c99e2385e2074ff3df</anchor>
+      <arglist>(uint32_t i2c, uint8_t freq)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_send_data</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>gaad83fb76f31941e9d0e1083d8e4ea6f0</anchor>
+      <arglist>(uint32_t i2c, uint8_t data)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -12098,6 +12455,27 @@
       <anchorfile>group__i2c__defines.html</anchorfile>
       <anchor>gac84a8cc0d49c99f032f7ea87ac0f1302</anchor>
       <arglist>(uint32_t i2c, uint8_t slave, uint8_t readwrite)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>i2c_get_data</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>gab0fae615ab83fcd0dac9885fd04c4731</anchor>
+      <arglist>(uint32_t i2c)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_enable_interrupt</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga16c892319b9438eab63cf4ea3a15f4ae</anchor>
+      <arglist>(uint32_t i2c, uint32_t interrupt)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>i2c_disable_interrupt</name>
+      <anchorfile>group__i2c__defines.html</anchorfile>
+      <anchor>ga0fc2e57eeb3efee6810e6ca3c5df4cf8</anchor>
+      <arglist>(uint32_t i2c, uint32_t interrupt)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -15432,74 +15810,11 @@
       <anchor>a110888bbf867801a32e47160f98acd06</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CLOCK_44MHZ</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a110888bbf867801a32e47160f98acd06af9ecf76a7bb247f90174a5096d29f5b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CLOCK_48MHZ</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a110888bbf867801a32e47160f98acd06afcebf458231c9b1ce8649eaf59652ec4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CLOCK_64MHZ</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a110888bbf867801a32e47160f98acd06aa322eaffed907e442a44bc8816f03755</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CLOCK_END</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a110888bbf867801a32e47160f98acd06a3aa8e158db8d734ac62ec19842195582</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>osc</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a5e2335f6f6f0aa05413a0546a550ba71</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>PLL</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a5e2335f6f6f0aa05413a0546a550ba71a5c7fe827c28117f11dd14f9197d7d5a2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>HSE</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a5e2335f6f6f0aa05413a0546a550ba71a744bf841212e605b891f8ced6e20eb43</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>HSI</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a5e2335f6f6f0aa05413a0546a550ba71aae2bb333077d91b3c2aa75978f89e084</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>LSE</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a5e2335f6f6f0aa05413a0546a550ba71aa07a47bdd221bde7ab7f08d41c03de40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>LSI</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a5e2335f6f6f0aa05413a0546a550ba71ac59b221b111954833c988555d5972f88</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -15509,732 +15824,11 @@
       <anchor>a54c7db24941f636ee238833c481ada48</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_DMA1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48ad3c1b4bd4d4910ad45903d70ce99c546</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_DMA2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48af6727266dd80b08123851bd3fc641468</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_SRAM</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a7de81948facbcf4690488d21bc3d6cab</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_FLTIF</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48abf55c4b04f554234c00185610ee40774</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_CRC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a667709fea2f55d81d0084c0ab6cd7346</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_GPIOA</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_GPIOB</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48abe0e8ee9db293583511579bffd694b6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_GPIOC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aca99d40a98c0cccaa8dd4a5eb8422dea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_GPIOD</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48ade83c8caa918ccda0766791076460d1e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_GPIOE</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aecccb0767e9ec411349051aa5f055779</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_GPIOF</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48ac2a10a31a77eac6a9e5ef9b59397abf4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TSC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a8a8fe44850460e9578a9ea186e0d86dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_ADC12</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a83ed06fff8f54632495c3c6f7d887103</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_ADC34</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a3e5105bc8b60ef6d85808f72fb7654d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_SYSCFG</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48ab05a237deaa9422ce07e764f7fdafe35</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_ADC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aecec311190c999f58ff3e8a3a74cf385</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a246489e2827e54e0c0e6d4d1296c362e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_SPI1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM8</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a04b8e39ee8c4a6c9e662349b1b45f0b4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_USART1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a6f9bc1664f1972e622f9228606caa3b8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM15</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48ae3a47230b9ec6676e820e933c28e86f5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM16</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aa4fc95bd30dc3fc9b3f1502c1a3c983e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM17</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a3e32bf0959893de29f3408d7668cdfb3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM19</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a0f31926ea9361fafdf55923434781da5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_DBGMCU</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a8e9cdb2a2e34167faf55e2d7f23d208c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_SDADC1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48abee3dd9e0e9f252946666287c13840f1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_SDADC2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a5e0819a0ca9bed747320d1f17dfc27ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_SDADC3</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a90027a4ee9873d68ddd3a834cc90490f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a4d961657b29cd6920dec7df1d6a024e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM3</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM4</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a7605ac255d1f7e3fd0c21907b17bba66</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM5</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aac4c56a3d869baf25b0434beed0e9ff5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM6</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM7</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM12</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aa6a4aed50fc2fb9a4ecd4a6dc655652d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM13</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a7e33c22a28dde91ac18e1df1b2c3e097</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM14</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a6ba31ae3057d17367fd3db48eea02709</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_TIM18</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a88d769dd207ec28db517d47eff1bcf57</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_WWDG</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a1965878d5b5e1b68e85a92ad2da94514</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_SPI2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a191f2ba3eea4493bbfa449bb9e61f99c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_SPI3</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48ad70ccc847d7804abe857efa22e0ab952</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_USART2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aa4be48dd043f5d74f5e4eb9d2516b87b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_USART3</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aaa823140b93403c8dd3395bc5b510155</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_UART4</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48acddaf98763a8dc6edf0b69c983becfd7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_UART5</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a0d7a994107ab9af33f9bdbda74ec4685</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_I2C1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_I2C2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_USB</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a965e89095cbc1ef346c32f30f885d793</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_CAN</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a103d2ed58a3babf641fbe9a3654ab534</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_DAC2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a97699b26c46b12becf4ac732cceb3823</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_PWR</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a653354e7670b00648bd46782e60a780b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_DAC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48adbda7bdfe6f47cc2b36f5ea78d9b56d4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_DAC1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a723ade3fb17eed8c51da2a479033db1f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RCC_CEC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a54c7db24941f636ee238833c481ada48a38ec1bc547ec4365ee3c3ec7054d33e7</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_periph_rst</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a4bd6185a4613aaa3ee5447c3d86ba718</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_SYSCFG</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aaff80227bb0aa65e277e8154a183c7c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_ADC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a92653b0219f77f8e958a3c01020d6ba5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a865f6b809c4016955e290f5c569c85bf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_SPI1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a28ffb322497d5b858fe69ea8551458fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM8</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a6e18446cb73c6b9518ba4045f16e9231</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_USART1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718acd5c7eeeda3799f89bc3da7169384bf1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM15</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a6f8e727fd562ebbb67b2547a813bc9d2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM16</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a56608e4906289387152b2f5aa4babef5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM17</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a7a19340ece9a89667b6b124f47bc288e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM19</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a2f73a198bd99fdec80070cd9ae52c2a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_SDADC1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a449d95a6d487844b19d320bbaf05df68</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_SDADC2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a9e637ccbc9d93e54b5ccf6ba173031c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_SDADC3</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa438eb7fc6bc4c45fbf7a7002516def8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a9a11cf678a1931bc3f8ecd22fccf1304</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM3</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM4</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa94b0829d2505a3d916a3b7bb8e95361</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM5</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aac5933e47e7e98b7096193edfe4bf08a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM6</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM7</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM12</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a7c9f088db1db27834777eceb0592f8f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM13</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a955bf101b2ffaa7c39dfad28a8e742f1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM14</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a618551caa5dd22af8f9c790284fb9247</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TIM18</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a094ae84e018084e9a61a2c64edb96e68</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_WWDG</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ad38183e2f4809aa13b2c149b9158cdb1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_SPI2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a6a2dd34c8278fd2019d4aab6d7dd91fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_SPI3</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a8c3208aa283eea369bdb2697cbe6dff8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_USART2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718af2ed5025a1c665196870ac061ffafd24</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_USART3</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a909ada79d50eabe177c087ae3db578da</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_UART4</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a6db8b2fc3c699ae1b93d0e7e04b16265</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_UART5</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ab1495852f5070c5924815d26636035f2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_I2C1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ae083a448a99ae23e788c79d45f2f0fae</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_I2C2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aba0770678558545d59794049b4ea57f8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_USB</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa268cf3f3421fb383cbd85b70f1f487c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_CAN</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa2e28f01ba83fc92884b9fafc9de413b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_DAC2</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ad6f37ffb322cfcbe016597d515ce0fb2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_PWR</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718acaed17a5e312de489708c67c9933c044</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_DAC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a90b3f78831d25a6f6291744bc0eabd45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_DAC1</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ae669dd01ae72273898327cdb1b93a764</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_CEC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a311d0176ee435d5b7b0281908743b88a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_GPIOA</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a82de36d9219d3b7a8f6e24f7b037d4c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_GPIOB</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a8607fa69d38f8dd406daebb7bf9b8b26</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_GPIOC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a847595db9011d5989097e67215f3f208</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_GPIOD</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a9fed32b2a96d4647ea73ba7926f1121e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_GPIOE</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718ab720e4e6239cb85e2736a4f022e4f64b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_GPIOF</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a61956334f17966ab11993869be4e2ebb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_TSC</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a57a9f072c532d2a51bc40474dac84ad3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_ADC12</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a36f304bb67accc6c480399bd1df8719e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_ADC34</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aa5dbca0f0bc1733b2caa1698df1c147b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RST_BD</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a5d2b972afbce58ab324c73286ea5f55a</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -23019,116 +22613,11 @@
       <anchor>gacd988319d070e7128b530d4ac1a4f4ff</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa7dae30b9cd1ce046d8fbaaf04fc36fc9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC1N</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa4e28548e62af311bdcfbfd7d518dd3e3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffac434465fe88f27cdbd85b10de337f823</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC2N</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffae73a3ea34393520f8f13f33770f5065a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffaa43ac6afb9f73078a3ef6bd46c607410</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC3N</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa93aba37683b433c87bed24e1fa19d2fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa50c9db2fdda5e3473a3b9f94fca60906</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_oc_mode</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga9c6be6e4ccd5dcb325f1ebe499ca5216</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_FROZEN</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a08ecfc9affc04b82a83daffe6ef3d2b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_ACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a7bf8d375cd87670baa6840612527593f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_INACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a3a754a4d91a2c461917c3aa0daeec65c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_TOGGLE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a58d53d7c5f653ccdb3820cb5f4c216c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_FORCE_LOW</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a126c9eaee4fef3b15534ee47ed8153b7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_FORCE_HIGH</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a4bffec6c30733e3958c5f04534f57689</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_PWM1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a77f2a04b04974a2d332803f8f7a24b42</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_PWM2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a5649585668cfa883f69de691a4399102</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -23138,151 +22627,11 @@
       <anchor>gaf76612839feedf9c605872cacb0ac5ac</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaf76612839feedf9c605872cacb0ac5aca4b6755792734c9dd9b1d3079cf1a0a7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaf76612839feedf9c605872cacb0ac5acac14df3fa4a9bca71f25c8253c18fe11a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaf76612839feedf9c605872cacb0ac5acad93c1b280114d4cd6fb97ac683d3a311</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaf76612839feedf9c605872cacb0ac5acae2dbed1021ec5dfc1646f185249196f3</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_ic_filter</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8a2a8722575e6301c3e059b9ec8f50c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a76d65bc64029afa2f1ed52ee2baa9ad0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_CK_INT_N_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a5429214f18c8998abf133557978417ca</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_CK_INT_N_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a3fb12152c21b25dc911abb62a5e41ddd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_CK_INT_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ad35cca55366df3164c8b7bc0d5a75fab</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_2_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ac06cc937da26464fc339e19bd58b25d0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_2_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a3fbf62e9146b3623744663549ee561b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_4_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2acaf810ddf7effe8b2daab4ba21588165</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_4_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a71fbb46d5e57873a4e62fb8a1a840c43</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_8_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a255a1b8917936a7e885806206c2a0ef6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_8_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2adc7d8205f1b63538286047ce3304dc8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_16_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ab974b1c6b9287cf2e3ae6478844e01de</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_16_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a4a6c0026b97291c38d9d5f29c271eb58</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_16_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2aa66eb4fb91e4d5593c7f61795c09fa03</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_32_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a083a020245cd85736ae395dd2ccc4561</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_32_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a0670f921d8894d381b392656c99c4726</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_32_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ae7c1b129145fb86073e8ed7d3ffc729b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -23292,34 +22641,6 @@
       <anchor>ga3231b651e821b33d1adeeb21e2a7ae62</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_PSC_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a75a00e88015eb89ca04af2ac1c43c3db</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_PSC_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62ad275ad3ac456468fa1bb0501dea13b80</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_PSC_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a599d86695c5aa8d0e068b83ef4e952ed</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_PSC_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a210470f6dd4713b60114014c05f9b117</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_ic_input</name>
@@ -23327,67 +22648,11 @@
       <anchor>gad3d3ef84edd2180d79321bac6394bb4d</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_OUT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da5b627e609642f4621699a12c51faaa2b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TI1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4dae04c09ee69729af2d887c6709cf1ad3b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TI2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da623054604bc26d9458a20efbb81189aa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TRC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da5e17d937da575af5b1074acee7460d06</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TI3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da87e62cbc57b773c7fcfb91669f8993cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TI4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da9b9803faff5acc1d1d02110c30d81fbe</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_et_pol</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_ET_RISING</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_ET_FALLING</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -25809,10 +25074,72 @@
       <arglist>(void)</arglist>
     </member>
   </compound>
-  <compound kind="page">
-    <name>lgpl_license</name>
-    <title>libopencm3 License</title>
-    <filename>lgpl_license</filename>
+  <compound kind="struct">
+    <name>clock_scale_t</name>
+    <filename>structclock__scale__t.html</filename>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>pll</name>
+      <anchorfile>structclock__scale__t.html</anchorfile>
+      <anchor>adda26e177f7b3705a8a08c96274964db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>pllsrc</name>
+      <anchorfile>structclock__scale__t.html</anchorfile>
+      <anchor>acdfc52dc893d0fc184cec2a28c5e4a50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>flash_config</name>
+      <anchorfile>structclock__scale__t.html</anchorfile>
+      <anchor>a45be52a3c8cc370503289d762ea6515b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>hpre</name>
+      <anchorfile>structclock__scale__t.html</anchorfile>
+      <anchor>ac8be876648665f481c96a13f39bfd70e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>ppre1</name>
+      <anchorfile>structclock__scale__t.html</anchorfile>
+      <anchor>aac26f149316ef9aea9955454498cd6f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>ppre2</name>
+      <anchorfile>structclock__scale__t.html</anchorfile>
+      <anchor>a1d4d327482ed573f9c5f28f53d8d742a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>power_save</name>
+      <anchorfile>structclock__scale__t.html</anchorfile>
+      <anchor>a16afff7afb797982dc989bfdeaae0e77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>apb1_frequency</name>
+      <anchorfile>structclock__scale__t.html</anchorfile>
+      <anchor>a0efec8dad9231991558c458c12a9b909</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>apb2_frequency</name>
+      <anchorfile>structclock__scale__t.html</anchorfile>
+      <anchor>abd1b982df203472532b6016961fe657d</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>adc_defines</name>
@@ -26556,53 +25883,11 @@
       <anchor>gaddb2a9646f5222113db5545109cc700b</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CHANNEL_1</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>ggaddb2a9646f5222113db5545109cc700badf896c664dde68aea03c05d2097af075</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CHANNEL_2</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>ggaddb2a9646f5222113db5545109cc700baee22a400618eb3e95f039a401ced4e91</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>CHANNEL_D</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>ggaddb2a9646f5222113db5545109cc700bae1e491d5c05c78a45f205d2fdaec320b</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>data_align</name>
       <anchorfile>group__dac__defines.html</anchorfile>
       <anchor>ga3f15c2d8c2dcfbc06b58b09e4c2d7b3c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RIGHT8</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca30397d5f6477c6e6281797ef363c43d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>RIGHT12</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3cad408f5668e25f95a1de8445228d5c815</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>LEFT12</name>
-      <anchorfile>group__dac__defines.html</anchorfile>
-      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca948aa505bffa2979c605da3480876a88</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -28463,27 +27748,6 @@
       <name>exti_trigger_type</name>
       <anchorfile>group__exti__defines.html</anchorfile>
       <anchor>ga217058c9ab9a27e3f4f197ca7889623a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>EXTI_TRIGGER_RISING</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa7db3c45e92eb0cccfca0fcb33485e1bc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>EXTI_TRIGGER_FALLING</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa93d62734fb59270daa09a14c5c040f5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>EXTI_TRIGGER_BOTH</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gga217058c9ab9a27e3f4f197ca7889623aab7646e3e5a3134431c4c58306f0d3f72</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -36421,116 +35685,11 @@
       <anchor>gacd988319d070e7128b530d4ac1a4f4ff</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa7dae30b9cd1ce046d8fbaaf04fc36fc9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC1N</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa4e28548e62af311bdcfbfd7d518dd3e3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffac434465fe88f27cdbd85b10de337f823</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC2N</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffae73a3ea34393520f8f13f33770f5065a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffaa43ac6afb9f73078a3ef6bd46c607410</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC3N</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa93aba37683b433c87bed24e1fa19d2fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OC4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa50c9db2fdda5e3473a3b9f94fca60906</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_oc_mode</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga9c6be6e4ccd5dcb325f1ebe499ca5216</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_FROZEN</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a08ecfc9affc04b82a83daffe6ef3d2b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_ACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a7bf8d375cd87670baa6840612527593f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_INACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a3a754a4d91a2c461917c3aa0daeec65c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_TOGGLE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a58d53d7c5f653ccdb3820cb5f4c216c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_FORCE_LOW</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a126c9eaee4fef3b15534ee47ed8153b7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_FORCE_HIGH</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a4bffec6c30733e3958c5f04534f57689</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_PWM1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a77f2a04b04974a2d332803f8f7a24b42</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_OCM_PWM2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a5649585668cfa883f69de691a4399102</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -36540,151 +35699,11 @@
       <anchor>gaf76612839feedf9c605872cacb0ac5ac</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaf76612839feedf9c605872cacb0ac5aca4b6755792734c9dd9b1d3079cf1a0a7e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaf76612839feedf9c605872cacb0ac5acac14df3fa4a9bca71f25c8253c18fe11a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaf76612839feedf9c605872cacb0ac5acad93c1b280114d4cd6fb97ac683d3a311</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaf76612839feedf9c605872cacb0ac5acae2dbed1021ec5dfc1646f185249196f3</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_ic_filter</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8a2a8722575e6301c3e059b9ec8f50c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a76d65bc64029afa2f1ed52ee2baa9ad0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_CK_INT_N_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a5429214f18c8998abf133557978417ca</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_CK_INT_N_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a3fb12152c21b25dc911abb62a5e41ddd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_CK_INT_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ad35cca55366df3164c8b7bc0d5a75fab</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_2_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ac06cc937da26464fc339e19bd58b25d0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_2_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a3fbf62e9146b3623744663549ee561b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_4_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2acaf810ddf7effe8b2daab4ba21588165</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_4_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a71fbb46d5e57873a4e62fb8a1a840c43</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_8_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a255a1b8917936a7e885806206c2a0ef6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_8_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2adc7d8205f1b63538286047ce3304dc8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_16_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ab974b1c6b9287cf2e3ae6478844e01de</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_16_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a4a6c0026b97291c38d9d5f29c271eb58</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_16_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2aa66eb4fb91e4d5593c7f61795c09fa03</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_32_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a083a020245cd85736ae395dd2ccc4561</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_32_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a0670f921d8894d381b392656c99c4726</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_DTF_DIV_32_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ae7c1b129145fb86073e8ed7d3ffc729b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -36694,34 +35713,6 @@
       <anchor>ga3231b651e821b33d1adeeb21e2a7ae62</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_PSC_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a75a00e88015eb89ca04af2ac1c43c3db</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_PSC_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62ad275ad3ac456468fa1bb0501dea13b80</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_PSC_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a599d86695c5aa8d0e068b83ef4e952ed</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_PSC_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a210470f6dd4713b60114014c05f9b117</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_ic_input</name>
@@ -36729,67 +35720,11 @@
       <anchor>gad3d3ef84edd2180d79321bac6394bb4d</anchor>
       <arglist></arglist>
     </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_OUT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da5b627e609642f4621699a12c51faaa2b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TI1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4dae04c09ee69729af2d887c6709cf1ad3b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TI2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da623054604bc26d9458a20efbb81189aa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TRC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da5e17d937da575af5b1074acee7460d06</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TI3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da87e62cbc57b773c7fcfb91669f8993cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_IC_IN_TI4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da9b9803faff5acc1d1d02110c30d81fbe</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_et_pol</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_ET_RISING</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
-      <type>@</type>
-      <name>TIM_ET_FALLING</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -43958,190 +42893,10 @@
     </member>
     <docanchor file="group__gpio__file" title="Basic GPIO Handling API.">gpio_api_ex</docanchor>
   </compound>
-  <compound kind="struct">
-    <name>clock_scale_t</name>
-    <filename>structclock__scale__t.html</filename>
-    <member kind="variable">
-      <type>uint8_t</type>
-      <name>pll</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>adda26e177f7b3705a8a08c96274964db</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint8_t</type>
-      <name>pllsrc</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>acdfc52dc893d0fc184cec2a28c5e4a50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>flash_config</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a45be52a3c8cc370503289d762ea6515b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint8_t</type>
-      <name>hpre</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>ac8be876648665f481c96a13f39bfd70e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint8_t</type>
-      <name>ppre1</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>aac26f149316ef9aea9955454498cd6f3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint8_t</type>
-      <name>ppre2</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a1d4d327482ed573f9c5f28f53d8d742a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint8_t</type>
-      <name>power_save</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a16afff7afb797982dc989bfdeaae0e77</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>apb1_frequency</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a0efec8dad9231991558c458c12a9b909</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>apb2_frequency</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>abd1b982df203472532b6016961fe657d</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="dir">
-    <name>common</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
-    <filename>dir_c02db4a0946ae9b9bf4f96b1a4904c69.html</filename>
-    <file>adc_common_v1.h</file>
-    <file>crc_common_all.h</file>
-    <file>dac_common_all.h</file>
-    <file>dma_common_l1f013.h</file>
-    <file>exti_common_all.h</file>
-    <file>flash_common_f234.h</file>
-    <file>gpio_common_all.h</file>
-    <file>gpio_common_f234.h</file>
-    <file>i2c_common_all.h</file>
-    <file>iwdg_common_all.h</file>
-    <file>pwr_common_all.h</file>
-    <file>rcc_common_all.h</file>
-    <file>spi_common_all.h</file>
-    <file>spi_common_f03.h</file>
-    <file>syscfg_common_l1f234.h</file>
-    <file>timer_common_all.h</file>
-    <file>usart_common_all.h</file>
-  </compound>
-  <compound kind="dir">
-    <name>common</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>dir_2cc908344f7c033af6399289af991fc7.html</filename>
-    <file>adc_common_v1.c</file>
-    <file>crc_common_all.c</file>
-    <file>dac_common_all.c</file>
-    <file>dma_common_l1f013.c</file>
-    <file>exti_common_all.c</file>
-    <file>flash_common_f234.c</file>
-    <file>gpio_common_all.c</file>
-    <file>gpio_common_f0234.c</file>
-    <file>i2c_common_all.c</file>
-    <file>iwdg_common_all.c</file>
-    <file>pwr_common_all.c</file>
-    <file>rcc_common_all.c</file>
-    <file>spi_common_all.c</file>
-    <file>spi_common_f03.c</file>
-    <file>timer_common_all.c</file>
-    <file>timer_common_f234.c</file>
-    <file>usart_common_all.c</file>
-  </compound>
-  <compound kind="dir">
-    <name>f3</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f3/</path>
-    <filename>dir_3eb84232311319d701132e3ed87729ed.html</filename>
-    <file>adc.h</file>
-    <file>crc.h</file>
-    <file>dac.h</file>
-    <file>dma.h</file>
-    <file>doc-stm32f3.h</file>
-    <file>exti.h</file>
-    <file>flash.h</file>
-    <file>gpio.h</file>
-    <file>i2c.h</file>
-    <file>iwdg.h</file>
-    <file>memorymap.h</file>
-    <file>pwr.h</file>
-    <file>rcc.h</file>
-    <file>rtc.h</file>
-    <file>spi.h</file>
-    <file>syscfg.h</file>
-    <file>timer.h</file>
-    <file>usart.h</file>
-  </compound>
-  <compound kind="dir">
-    <name>f3</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/</path>
-    <filename>dir_6129e60a2d034646ca59a325efd077d8.html</filename>
-    <file>adc.c</file>
-    <file>crc.c</file>
-    <file>dac.c</file>
-    <file>dma.c</file>
-    <file>flash.c</file>
-    <file>i2c.c</file>
-    <file>iwdg.c</file>
-    <file>pwr.c</file>
-    <file>rcc.c</file>
-    <file>rtc.c</file>
-    <file>spi.c</file>
-    <file>timer.c</file>
-    <file>usart.c</file>
-    <file>vector_chipset.c</file>
-  </compound>
-  <compound kind="dir">
-    <name>include</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
-    <filename>dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html</filename>
-    <dir>libopencm3</dir>
-  </compound>
-  <compound kind="dir">
-    <name>lib</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/</path>
-    <filename>dir_6c0c766218f8d9406171b3590f525a33.html</filename>
-    <dir>stm32</dir>
-  </compound>
-  <compound kind="dir">
-    <name>libopencm3</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
-    <filename>dir_e1040081471ffd682e8357aa53c82f70.html</filename>
-    <dir>stm32</dir>
-  </compound>
-  <compound kind="dir">
-    <name>stm32</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/</path>
-    <filename>dir_45f2d6d22892326e20da1249658b8a7a.html</filename>
-    <dir>common</dir>
-    <dir>f3</dir>
-  </compound>
-  <compound kind="dir">
-    <name>stm32</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/</path>
-    <filename>dir_55eaf1e33010ef6e6239f6fb75078880.html</filename>
-    <dir>common</dir>
-    <dir>f3</dir>
+  <compound kind="page">
+    <name>lgpl_license</name>
+    <title>libopencm3 License</title>
+    <filename>lgpl_license</filename>
   </compound>
   <compound kind="page">
     <name>index</name>

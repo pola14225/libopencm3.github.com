@@ -36,7 +36,7 @@ var searchData=
   ['dfu_5fstatus_5ferr_5fwrite',['DFU_STATUS_ERR_WRITE',['../group__usb__dfu__defines.html#ggabcf2757cf1c6281a06a8a6f25ff2aa31a714bc30afe28582ddb38e90702beb1d3',1,'dfu.h']]],
   ['dfu_5fstatus_5fok',['DFU_STATUS_OK',['../group__usb__dfu__defines.html#ggabcf2757cf1c6281a06a8a6f25ff2aa31a3a550674419538042b365d365595dc40',1,'dfu.h']]],
   ['dfu_5fupload',['DFU_UPLOAD',['../group__usb__dfu__defines.html#gga1eb1afd96bccc953e4c19022df7d2171af7427780a3977ec43a36b102c639289c',1,'dfu.h']]],
-  ['disconnect',['disconnect',['../struct__usbd__driver.html#a03f9f050e760c93eb4fd178873214157',1,'_usbd_driver']]],
+  ['disconnect',['disconnect',['../struct__usbd__driver.html#ae320bc137a239caab674916616701f62',1,'_usbd_driver']]],
   ['doc_2dusb_2eh',['doc-usb.h',['../doc-usb_8h.html',1,'']]],
   ['doeptsiz',['doeptsiz',['../struct__usbd__device.html#a56153dea109cdf0eb2b0871bc1ea31ae',1,'_usbd_device']]],
   ['driver',['driver',['../struct__usbd__device.html#ad780343e8e2776ce99b9dd302b77c2e2',1,'_usbd_device']]],

@@ -2265,14 +2265,171 @@
       <type>void(*</type>
       <name>vector_table_entry_t</name>
       <anchorfile>vector_8h.html</anchorfile>
-      <anchor>af437adcc95093319955de53dbb0bd4c6</anchor>
+      <anchor>a643ad4ed6072ebd4eb5412218ee0e0e1</anchor>
       <arglist>)(void)</arglist>
     </member>
   </compound>
-  <compound kind="page">
-    <name>lgpl_license</name>
-    <title>libopencm3 License</title>
-    <filename>lgpl_license</filename>
+  <compound kind="struct">
+    <name>scb_exception_stack_frame</name>
+    <filename>structscb__exception__stack__frame.html</filename>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>r0</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>ae7ebc5fa67cc65d5039f8f978e3a2062</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>r1</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a9fea68a34dc0a9d385390205092162e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>r2</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>ac38c8c267ebaa36b9e8114e0c8da6b33</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>r3</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a974713f74276b9c27efaf8dd8e066784</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>r12</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a0e6126588086c406b720b3961bda7311</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>lr</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>ac66306df89b575b3c3ae413f89211d8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>pc</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a44ebd35215d8e75f0154f26cc14165bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
+      <name>xpsr</name>
+      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
+      <anchor>a2e6e69032909f740145d93bac2fec49b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>vector_table_t</name>
+    <filename>structvector__table__t.html</filename>
+    <member kind="variable">
+      <type>unsigned int *</type>
+      <name>initial_sp_value</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>aeb5ce1efa9b9ecd868829beabf24fd91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>reset</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>adc4942c678a88cab8494a58f80428077</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>nmi</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>a7da79b1d8184e743b15a5c878250b68a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>hard_fault</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>a1489006508850f377a98cd297fa808bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>memory_manage_fault</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>a0f471d2e9ba10298c9a292dbf59aafde</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>bus_fault</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>a4c2b5debe7567df33665bca4ab8a4b2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>usage_fault</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>a9bc2b639e5ac8019bfad3a97cb35e414</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>reserved_x001c</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>a6578b9135633f588aee27e73367546e9</anchor>
+      <arglist>[4]</arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>sv_call</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>ace5b229bd0e04cbc018c8457168640a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>debug_monitor</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>a7bd35c699bccae1299b1f7dbdc049106</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>reserved_x0034</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>aed397ae787125497ae9869cbe2673500</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>pend_sv</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>afe26c2d806f2caef1935e36c053d7023</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>systick</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>acf9d4ecb17d3ebecbcbd24966c18102f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>vector_table_entry_t</type>
+      <name>irq</name>
+      <anchorfile>structvector__table__t.html</anchorfile>
+      <anchor>a14df56a3e6131a72bcd0298a0187239e</anchor>
+      <arglist>[NVIC_IRQ_COUNT]</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>debugging</name>
@@ -2803,200 +2960,10 @@
       <arglist></arglist>
     </member>
   </compound>
-  <compound kind="struct">
-    <name>scb_exception_stack_frame</name>
-    <filename>structscb__exception__stack__frame.html</filename>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>r0</name>
-      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>ae7ebc5fa67cc65d5039f8f978e3a2062</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>r1</name>
-      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a9fea68a34dc0a9d385390205092162e9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>r2</name>
-      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>ac38c8c267ebaa36b9e8114e0c8da6b33</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>r3</name>
-      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a974713f74276b9c27efaf8dd8e066784</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>r12</name>
-      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a0e6126588086c406b720b3961bda7311</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>lr</name>
-      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>ac66306df89b575b3c3ae413f89211d8d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>pc</name>
-      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a44ebd35215d8e75f0154f26cc14165bc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>uint32_t</type>
-      <name>xpsr</name>
-      <anchorfile>structscb__exception__stack__frame.html</anchorfile>
-      <anchor>a2e6e69032909f740145d93bac2fec49b</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>vector_table_t</name>
-    <filename>structvector__table__t.html</filename>
-    <member kind="variable">
-      <type>unsigned int *</type>
-      <name>initial_sp_value</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>aeb5ce1efa9b9ecd868829beabf24fd91</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>reset</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>adc4942c678a88cab8494a58f80428077</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>nmi</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>a7da79b1d8184e743b15a5c878250b68a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>hard_fault</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>a1489006508850f377a98cd297fa808bb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>memory_manage_fault</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>a0f471d2e9ba10298c9a292dbf59aafde</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>bus_fault</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>a4c2b5debe7567df33665bca4ab8a4b2c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>usage_fault</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>a9bc2b639e5ac8019bfad3a97cb35e414</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>reserved_x001c</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>a6578b9135633f588aee27e73367546e9</anchor>
-      <arglist>[4]</arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>sv_call</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>ace5b229bd0e04cbc018c8457168640a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>debug_monitor</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>a7bd35c699bccae1299b1f7dbdc049106</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>reserved_x0034</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>aed397ae787125497ae9869cbe2673500</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>pend_sv</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>afe26c2d806f2caef1935e36c053d7023</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>systick</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>acf9d4ecb17d3ebecbcbd24966c18102f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>vector_table_entry_t</type>
-      <name>irq</name>
-      <anchorfile>structvector__table__t.html</anchorfile>
-      <anchor>a14df56a3e6131a72bcd0298a0187239e</anchor>
-      <arglist>[NVIC_IRQ_COUNT]</arglist>
-    </member>
-  </compound>
-  <compound kind="dir">
-    <name>cm3</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
-    <filename>dir_88dec37158d6513a5d9049c3580b18ba.html</filename>
-    <file>assert.h</file>
-    <file>common.h</file>
-    <file>cortex.h</file>
-    <file>doc-cm3.h</file>
-    <file>dwt.h</file>
-    <file>fpb.h</file>
-    <file>itm.h</file>
-    <file>memorymap.h</file>
-    <file>mpu.h</file>
-    <file>nvic.h</file>
-    <file>scb.h</file>
-    <file>scs.h</file>
-    <file>sync.h</file>
-    <file>systick.h</file>
-    <file>tpiu.h</file>
-    <file>vector.h</file>
-  </compound>
-  <compound kind="dir">
-    <name>include</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/</path>
-    <filename>dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html</filename>
-    <dir>libopencm3</dir>
-  </compound>
-  <compound kind="dir">
-    <name>libopencm3</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/</path>
-    <filename>dir_e1040081471ffd682e8357aa53c82f70.html</filename>
-    <dir>cm3</dir>
+  <compound kind="page">
+    <name>lgpl_license</name>
+    <title>libopencm3 License</title>
+    <filename>lgpl_license</filename>
   </compound>
   <compound kind="page">
     <name>index</name>

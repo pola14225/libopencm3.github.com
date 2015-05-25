@@ -51,6 +51,12 @@ var group__usb__type__defines =
       [ "iface_assoc", "structusb__config__descriptor_1_1usb__interface.html#ae868a8420fe236b5ee4c5dbd554a5b36", null ],
       [ "num_altsetting", "structusb__config__descriptor_1_1usb__interface.html#aeeb7e4ed8d6a6ad1ec1eb0c18ee0f9e3", null ]
     ] ],
+    [ "usb_interface", "structusb__interface.html", [
+      [ "altsetting", "structusb__interface.html#a5fb4da13363349c7fa027c673ede9812", null ],
+      [ "cur_altsetting", "structusb__interface.html#aa39c5be41340ee8c3fa71b7a0f7ba240", null ],
+      [ "iface_assoc", "structusb__interface.html#a52cfc78c2536053de0c4f1615a057f79", null ],
+      [ "num_altsetting", "structusb__interface.html#a9c5a9b0ae7b56dbad13ac3badc546661", null ]
+    ] ],
     [ "usb_interface_descriptor", "structusb__interface__descriptor.html", [
       [ "bAlternateSetting", "structusb__interface__descriptor.html#aacc6f1a4e77883f97ffb0453e41c5b10", null ],
       [ "bDescriptorType", "structusb__interface__descriptor.html#a757761276c9053ed877cee89cba167ea", null ],

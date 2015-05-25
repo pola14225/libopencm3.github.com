@@ -18,13 +18,18 @@ var group__usb__private__defines =
       [ "rxbcnt", "struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443", null ],
       [ "strings", "struct__usbd__device.html#a76f748749894cc0316e3e95ea7a8be27", null ],
       [ "user_callback_ctr", "struct__usbd__device.html#a6e82880b623706d1dd345e54fed03445", null ],
-      [ "user_callback_reset", "struct__usbd__device.html#aa1832fc1867b1f5ca2fbabdd3ec75488", null ],
-      [ "user_callback_resume", "struct__usbd__device.html#acaf5ea2b1ee04aaa31407f99dc98316c", null ],
-      [ "user_callback_set_altsetting", "struct__usbd__device.html#ae4748f35ebf0e08df31669650eafc87e", null ],
+      [ "user_callback_reset", "struct__usbd__device.html#a171474ef610c019e11546b98b2cea769", null ],
+      [ "user_callback_resume", "struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18", null ],
+      [ "user_callback_set_altsetting", "struct__usbd__device.html#affa9de68619473e97bdd4fd669f920ce", null ],
       [ "user_callback_set_config", "struct__usbd__device.html#a87d8f0db30486e8a4d2369d95a826e3f", null ],
-      [ "user_callback_sof", "struct__usbd__device.html#ac0918a3ad67373dbf43e873c1d1b026e", null ],
-      [ "user_callback_suspend", "struct__usbd__device.html#a82eeeabe86839be7e3acdd1d6bd81c73", null ],
+      [ "user_callback_sof", "struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29", null ],
+      [ "user_callback_suspend", "struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7", null ],
       [ "user_control_callback", "struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4", null ]
+    ] ],
+    [ "user_control_callback", "struct__usbd__device_1_1user__control__callback.html", [
+      [ "cb", "struct__usbd__device_1_1user__control__callback.html#a55fd060a0418feea229f2b3b05e5c808", null ],
+      [ "type", "struct__usbd__device_1_1user__control__callback.html#abc76a06a989cd6da83b48edbc5e864b2", null ],
+      [ "type_mask", "struct__usbd__device_1_1user__control__callback.html#ade3ae61e072295839d83cd17c6aa804a", null ]
     ] ],
     [ "usb_control_state", "struct__usbd__device_1_1usb__control__state.html", [
       [ "IDLE", "group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1", null ],
@@ -36,15 +41,10 @@ var group__usb__private__defines =
       [ "LAST_DATA_OUT", "group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56ac4102e7aece07c0cd5679b2b3ff2f953", null ],
       [ "STATUS_OUT", "group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3", null ],
       [ "__attribute__", "struct__usbd__device_1_1usb__control__state.html#a2dfd02e13d09c8452ef9e9d346465027", null ],
-      [ "complete", "struct__usbd__device_1_1usb__control__state.html#a615c531ff2301a9a18f6a49aa1a938c3", null ],
+      [ "complete", "struct__usbd__device_1_1usb__control__state.html#ab344b1656a1e8954d6b0a2c13050e7c0", null ],
       [ "ctrl_buf", "struct__usbd__device_1_1usb__control__state.html#a261f6c057a987f0ad538ecc8ad4d49b3", null ],
       [ "ctrl_len", "struct__usbd__device_1_1usb__control__state.html#ad9e2cd348bdd9ca9135cedb7679ed916", null ],
-      [ "state", "struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e", null ]
-    ] ],
-    [ "user_control_callback", "struct__usbd__device_1_1user__control__callback.html", [
-      [ "cb", "struct__usbd__device_1_1user__control__callback.html#a55fd060a0418feea229f2b3b05e5c808", null ],
-      [ "type", "struct__usbd__device_1_1user__control__callback.html#abc76a06a989cd6da83b48edbc5e864b2", null ],
-      [ "type_mask", "struct__usbd__device_1_1user__control__callback.html#ade3ae61e072295839d83cd17c6aa804a", null ],
+      [ "state", "struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e", null ],
       [ "IDLE", "group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1", null ],
       [ "STALLED", "group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819", null ],
       [ "DATA_IN", "group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b", null ],

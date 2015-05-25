@@ -1,7 +1,7 @@
 var searchData=
 [
   ['sense',['sense',['../struct__usbd__mass__storage.html#a4b8f3d6aae1625ecc4a5ab39633d1cec',1,'_usbd_mass_storage']]],
-  ['set_5faddress',['set_address',['../struct__usbd__driver.html#a83d43957334b79f85d86cb86258db22a',1,'_usbd_driver']]],
+  ['set_5faddress',['set_address',['../struct__usbd__driver.html#abeaa7024a5fd33f0dbaf54204df1fb4e',1,'_usbd_driver']]],
   ['set_5faddress_5fbefore_5fstatus',['set_address_before_status',['../struct__usbd__driver.html#aefdf9ebe191591530450f59fb63bc125',1,'_usbd_driver']]],
   ['source',['source',['../structusb__midi__out__jack__descriptor.html#af7b76b530ba28038a6f56a2bf9a6b5fd',1,'usb_midi_out_jack_descriptor::source()'],['../structusb__midi__element__descriptor.html#aeee5e8ae77bf5670b1069b7ae9532cba',1,'usb_midi_element_descriptor::source()'],['../midi_8h.html#a2c1444226bf3b33e9bb11e4f68b60cd0',1,'source():&#160;midi.h']]],
   ['state',['state',['../struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e',1,'_usbd_device::usb_control_state']]],

@@ -44,7 +44,7 @@ var searchData=
   ['scsi_5fwrite_5f10',['scsi_write_10',['../usb__msc_8c.html#a67ab7f906e09e9fc149b8fa647a91d2f',1,'usb_msc.c']]],
   ['scsi_5fwrite_5f6',['scsi_write_6',['../usb__msc_8c.html#af0e6535bbde2e9a00c6e4c3c77d34540',1,'usb_msc.c']]],
   ['sense',['sense',['../struct__usbd__mass__storage.html#a4b8f3d6aae1625ecc4a5ab39633d1cec',1,'_usbd_mass_storage']]],
-  ['set_5faddress',['set_address',['../struct__usbd__driver.html#a83d43957334b79f85d86cb86258db22a',1,'_usbd_driver']]],
+  ['set_5faddress',['set_address',['../struct__usbd__driver.html#abeaa7024a5fd33f0dbaf54204df1fb4e',1,'_usbd_driver']]],
   ['set_5faddress_5fbefore_5fstatus',['set_address_before_status',['../struct__usbd__driver.html#aefdf9ebe191591530450f59fb63bc125',1,'_usbd_driver']]],
   ['set_5fsbc_5fstatus',['set_sbc_status',['../usb__msc_8c.html#a285558a874e454328ae7cba96306b253',1,'usb_msc.c']]],
   ['set_5fsbc_5fstatus_5fgood',['set_sbc_status_good',['../usb__msc_8c.html#acea2b1d4fda2777c7729104dfb3109ba',1,'usb_msc.c']]],
