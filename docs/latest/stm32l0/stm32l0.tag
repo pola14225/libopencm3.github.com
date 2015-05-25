@@ -17406,6 +17406,13 @@
       <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
       <arglist>(uint32_t spi)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_standard_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gacebc47030a2733da436142828f0c9fa4</anchor>
+      <arglist>(uint32_t spi, uint8_t mode)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>spi_common_all.h</name>
@@ -18516,6 +18523,13 @@
       <anchorfile>group__spi__defines.html</anchorfile>
       <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
       <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_standard_mode</name>
+      <anchorfile>group__spi__defines.html</anchorfile>
+      <anchor>gacebc47030a2733da436142828f0c9fa4</anchor>
+      <arglist>(uint32_t spi, uint8_t mode)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -42637,6 +42651,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>spi_set_standard_mode</name>
+      <anchorfile>group__spi__defines.html</anchorfile>
+      <anchor>gacebc47030a2733da436142828f0c9fa4</anchor>
+      <arglist>(uint32_t spi, uint8_t mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>spi_set_crcl_8bit</name>
       <anchorfile>group__spi__defines.html</anchorfile>
       <anchor>ga5d8532c0b265671ccc8e88eb8276a9f7</anchor>
@@ -49315,6 +49336,13 @@
       <anchorfile>group__spi__file.html</anchorfile>
       <anchor>ga010e94503b79a98060a9920fd8f50806</anchor>
       <arglist>(uint32_t spi)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>spi_set_standard_mode</name>
+      <anchorfile>group__spi__file.html</anchorfile>
+      <anchor>gacebc47030a2733da436142828f0c9fa4</anchor>
+      <arglist>(uint32_t spi, uint8_t mode)</arglist>
     </member>
     <member kind="function">
       <type>int</type>

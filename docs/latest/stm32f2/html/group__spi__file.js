@@ -43,6 +43,7 @@ var group__spi__file =
     [ "spi_set_nss_low", "group__spi__file.html#ga47838ebf43d91e96b65338b6b0a50786", null ],
     [ "spi_set_receive_only_mode", "group__spi__file.html#gaacdf55f39a2de0f53ac356233cc34cbb", null ],
     [ "spi_set_slave_mode", "group__spi__file.html#gae9700a3a5f8301b5b3a8442d257d75dd", null ],
+    [ "spi_set_standard_mode", "group__spi__file.html#gacebc47030a2733da436142828f0c9fa4", null ],
     [ "spi_set_unidirectional_mode", "group__spi__file.html#ga25ed748ce16f85c263594198b702d949", null ],
     [ "spi_write", "group__spi__file.html#ga6c3dfa86916c2c38d4a1957f4704bb47", null ],
     [ "spi_xfer", "group__spi__file.html#gae453ac946166bc51a42c35738d9d005b", null ]

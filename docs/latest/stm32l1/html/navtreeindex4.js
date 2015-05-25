@@ -245,8 +245,8 @@ var NAVTREEINDEX4 =
 "group__dma__defines.html#ga26bfd55e965445ae253a5c5fa8f1769a":[28,0,17,178],
 "group__dma__defines.html#ga277357f800b508b8d2bdb5ce0bd3ca98":[28,0,15,17],
 "group__dma__defines.html#ga277357f800b508b8d2bdb5ce0bd3ca98":[11,1,3,67],
-"group__dma__defines.html#ga27e7f75b0f76da53409eab1c18818541":[28,0,15,101],
 "group__dma__defines.html#ga27e7f75b0f76da53409eab1c18818541":[11,1,3,178],
+"group__dma__defines.html#ga27e7f75b0f76da53409eab1c18818541":[28,0,15,101],
 "group__dma__defines.html#ga28664595df654d9d8052fb6f9cc48495":[11,1,3,348],
 "group__dma__defines.html#ga28664595df654d9d8052fb6f9cc48495":[28,0,17,171],
 "group__dma__defines.html#ga29c5d5c559dd14646fdc170e74f1f03b":[28,0,15,282]
