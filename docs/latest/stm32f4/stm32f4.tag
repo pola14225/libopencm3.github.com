@@ -14599,9 +14599,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>I2S3_EXT_BASE</name>
+      <name>I2S2_EXT_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>afac07f6cefe66208ad6a411c74a38774</anchor>
+      <anchor>a908a324d5a388d9e7800cfa3902af2ab</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -14620,9 +14620,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>I2S2_EXT_BASE</name>
+      <name>I2S3_EXT_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a908a324d5a388d9e7800cfa3902af2ab</anchor>
+      <anchor>afac07f6cefe66208ad6a411c74a38774</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
