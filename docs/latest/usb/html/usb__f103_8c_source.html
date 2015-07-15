@@ -435,9 +435,9 @@ $(document).ready(function(){initNavTree('usb__f103_8c_source.html','');});
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        uint16_t istr = *USB_ISTR_REG;</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        <span class="keywordflow">if</span> (istr &amp; USB_ISTR_RESET) {</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                dev-&gt;<a class="code" href="struct__usbd__device.html#a46873de4e0e3671bb54bd6f7f7f75acd">pm_top</a> = 0x40;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                <a class="code" href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">_usbd_reset</a>(dev);</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                USB_CLR_ISTR_RESET();</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                USB_CLR_ISTR_RESET();</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                dev-&gt;<a class="code" href="struct__usbd__device.html#a46873de4e0e3671bb54bd6f7f7f75acd">pm_top</a> = 0x40;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                <a class="code" href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">_usbd_reset</a>(dev);</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        }</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
@@ -473,12 +473,18 @@ $(document).ready(function(){initNavTree('usb__f103_8c_source.html','');});
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        }</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keywordflow">if</span> (istr &amp; USB_ISTR_SOF) {</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                <span class="keywordflow">if</span> (dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>) {</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                        dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>();</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                }</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                USB_CLR_ISTR_SOF();</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                USB_CLR_ISTR_SOF();</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                <span class="keywordflow">if</span> (dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>) {</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                        dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>();</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                }</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        }</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;}</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>) {</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                BBIO_PERIPH(USB_CNTR_REG, USB_CNTR_SOFM) = 1;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                BBIO_PERIPH(USB_CNTR_REG, USB_CNTR_SOFM) = 0;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        }</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;}</div>
 <div class="ttc" id="group__usb__private__defines_html_gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff"><div class="ttname"><a href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff">USB_TRANSACTION_IN</a></div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00116">usb_private.h:116</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_ae19323e910fc01e5670c46448e5754b7"><div class="ttname"><a href="struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7">_usbd_device::user_callback_suspend</a></div><div class="ttdeci">void(* user_callback_suspend)(void)</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00063">usb_private.h:63</a></div></div>
 <div class="ttc" id="usb__f103_8c_html_a4ea025cca3cc88b8f4000413d174db1c"><div class="ttname"><a href="usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a></div><div class="ttdeci">static struct _usbd_device usbd_dev</div><div class="ttdef"><b>Definition:</b> <a href="usb__f103_8c_source.html#l00046">usb_f103.c:46</a></div></div>
@@ -516,7 +522,7 @@ $(document).ready(function(){initNavTree('usb__f103_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_77fc19f7d89a3cad4d832c4128eaabbf.html">usb</a></li><li class="navelem"><a class="el" href="usb__f103_8c.html">usb_f103.c</a></li>
-    <li class="footer">Generated on Mon Jun 22 2015 03:21:19 for libopencm3 by
+    <li class="footer">Generated on Wed Jul 15 2015 03:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

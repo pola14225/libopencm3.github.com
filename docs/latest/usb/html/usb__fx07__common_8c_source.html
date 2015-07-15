@@ -461,16 +461,22 @@ $(document).ready(function(){initNavTree('usb__fx07__common_8c_source.html','');
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                }</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                REBASE(OTG_GINTSTS) = OTG_FS_GINTSTS_SOF;</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        }</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;}</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
-<div class="line"><a name="l00331"></a><span class="lineno"><a class="line" href="usb__fx07__common_8h.html#a780f34c82133eae2d2e02a5105d7e70c">  331</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="usb__fx07__common_8c.html#a780f34c82133eae2d2e02a5105d7e70c">stm32fx07_disconnect</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, <span class="keywordtype">bool</span> disconnected)</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;{</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <span class="keywordflow">if</span> (disconnected) {</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                REBASE(OTG_DCTL) |= OTG_FS_DCTL_SDIS;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                REBASE(OTG_DCTL) &amp;= ~OTG_FS_DCTL_SDIS;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        }</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;}</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        </div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>) {</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                BBIO_PERIPH(OTG_FS_GINTMSK, OTG_FS_GINTMSK_SOFM) = 1;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                BBIO_PERIPH(OTG_FS_GINTMSK, OTG_FS_GINTMSK_SOFM) = 0;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        }</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;}</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
+<div class="line"><a name="l00337"></a><span class="lineno"><a class="line" href="usb__fx07__common_8h.html#a780f34c82133eae2d2e02a5105d7e70c">  337</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="usb__fx07__common_8c.html#a780f34c82133eae2d2e02a5105d7e70c">stm32fx07_disconnect</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, <span class="keywordtype">bool</span> disconnected)</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;{</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <span class="keywordflow">if</span> (disconnected) {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                REBASE(OTG_DCTL) |= OTG_FS_DCTL_SDIS;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                REBASE(OTG_DCTL) &amp;= ~OTG_FS_DCTL_SDIS;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        }</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;}</div>
 <div class="ttc" id="struct__usbd__driver_html_a5fa81d06fb7e305b7218d5aa83322870"><div class="ttname"><a href="struct__usbd__driver.html#a5fa81d06fb7e305b7218d5aa83322870">_usbd_driver::rx_fifo_size</a></div><div class="ttdeci">uint16_t rx_fifo_size</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00162">usb_private.h:162</a></div></div>
 <div class="ttc" id="group__usb__private__defines_html_gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff"><div class="ttname"><a href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff">USB_TRANSACTION_IN</a></div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00116">usb_private.h:116</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_ae19323e910fc01e5670c46448e5754b7"><div class="ttname"><a href="struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7">_usbd_device::user_callback_suspend</a></div><div class="ttdeci">void(* user_callback_suspend)(void)</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00063">usb_private.h:63</a></div></div>
@@ -490,7 +496,7 @@ $(document).ready(function(){initNavTree('usb__fx07__common_8c_source.html','');
 <div class="ttc" id="struct__usbd__device_html_a1ed037a5f085c91a1ee3872a179e6383"><div class="ttname"><a href="struct__usbd__device.html#a1ed037a5f085c91a1ee3872a179e6383">_usbd_device::force_nak</a></div><div class="ttdeci">uint8_t force_nak[4]</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00101">usb_private.h:101</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_a56153dea109cdf0eb2b0871bc1ea31ae"><div class="ttname"><a href="struct__usbd__device.html#a56153dea109cdf0eb2b0871bc1ea31ae">_usbd_device::doeptsiz</a></div><div class="ttdeci">uint32_t doeptsiz[4]</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00106">usb_private.h:106</a></div></div>
 <div class="ttc" id="usb__fx07__common_8c_html_a4f8070cf295dc3c253c384724b9971d6"><div class="ttname"><a href="usb__fx07__common_8c.html#a4f8070cf295dc3c253c384724b9971d6">stm32fx07_ep_stall_get</a></div><div class="ttdeci">uint8_t stm32fx07_ep_stall_get(usbd_device *usbd_dev, uint8_t addr)</div><div class="ttdef"><b>Definition:</b> <a href="usb__fx07__common_8c_source.html#l00153">usb_fx07_common.c:153</a></div></div>
-<div class="ttc" id="usb__fx07__common_8c_html_a780f34c82133eae2d2e02a5105d7e70c"><div class="ttname"><a href="usb__fx07__common_8c.html#a780f34c82133eae2d2e02a5105d7e70c">stm32fx07_disconnect</a></div><div class="ttdeci">void stm32fx07_disconnect(usbd_device *usbd_dev, bool disconnected)</div><div class="ttdef"><b>Definition:</b> <a href="usb__fx07__common_8c_source.html#l00331">usb_fx07_common.c:331</a></div></div>
+<div class="ttc" id="usb__fx07__common_8c_html_a780f34c82133eae2d2e02a5105d7e70c"><div class="ttname"><a href="usb__fx07__common_8c.html#a780f34c82133eae2d2e02a5105d7e70c">stm32fx07_disconnect</a></div><div class="ttdeci">void stm32fx07_disconnect(usbd_device *usbd_dev, bool disconnected)</div><div class="ttdef"><b>Definition:</b> <a href="usb__fx07__common_8c_source.html#l00337">usb_fx07_common.c:337</a></div></div>
 <div class="ttc" id="usb__fx07__common_8c_html_a0e2ff8af2add12281fffad6aa8bb44a1"><div class="ttname"><a href="usb__fx07__common_8c.html#a0e2ff8af2add12281fffad6aa8bb44a1">stm32fx07_ep_stall_set</a></div><div class="ttdeci">void stm32fx07_ep_stall_set(usbd_device *usbd_dev, uint8_t addr, uint8_t stall)</div><div class="ttdef"><b>Definition:</b> <a href="usb__fx07__common_8c_source.html#l00124">usb_fx07_common.c:124</a></div></div>
 <div class="ttc" id="group__usb__drivers__file_html_ga3bc8dd33500621a1e900c78a42dcaf27"><div class="ttname"><a href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">_usbd_reset</a></div><div class="ttdeci">void _usbd_reset(usbd_device *usbd_dev)</div><div class="ttdef"><b>Definition:</b> <a href="usb_8c_source.html#l00119">usb.c:119</a></div></div>
 <div class="ttc" id="usb__fx07__common_8h_html"><div class="ttname"><a href="usb__fx07__common_8h.html">usb_fx07_common.h</a></div></div>
@@ -508,7 +514,7 @@ $(document).ready(function(){initNavTree('usb__fx07__common_8c_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_77fc19f7d89a3cad4d832c4128eaabbf.html">usb</a></li><li class="navelem"><a class="el" href="usb__fx07__common_8c.html">usb_fx07_common.c</a></li>
-    <li class="footer">Generated on Mon Jun 22 2015 03:21:19 for libopencm3 by
+    <li class="footer">Generated on Wed Jul 15 2015 03:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
