@@ -17811,6 +17811,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>SYSCFG_CFGR1_PA11_PA12_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga707bafeb02f64bf566dda0565079f361</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SYSCFG_CFGR1_ADC_DMA_RMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
       <anchor>gad54abc7be3abb562bbd087897e3bc074</anchor>
@@ -17846,51 +17853,121 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PB6_FMPLUS</name>
+      <name>SYSCFG_CFGR1_TIM16_DMA_RMP2</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga543e467514fca462f26f668c59616667</anchor>
+      <anchor>ga89ad19ead703cd4f9023161b63523d0e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PB7_FMPLUS</name>
+      <name>SYSCFG_CFGR1_TIM17_DMA_RMP2</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga52b286ef26607e1701113c7cdaeb53ca</anchor>
+      <anchor>gaee734a75d349d9981dbde5ef754f6a61</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PB8_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C_PB6_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>gacc2430048d7e8b146894156ecf4be345</anchor>
+      <anchor>gaee5a1ca3b0408d359907fdc8ae1e44ae</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PB9_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C_PB7_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>gae4f20157f0536ce1fd9615fb30decd6c</anchor>
+      <anchor>ga218ec7f8116e53121ba41a9a57f2ab9c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C1_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C_PB8_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga45263687fcf41de78c47ff9347bf5b62</anchor>
+      <anchor>ga1aa82a8f51624e4fa343996c0d6166c2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PA9_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C_PB9_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga9f11eaf9eeb2a40d088ecdc59b64d9af</anchor>
+      <anchor>gadbc009692a61536e59a135d5a6b63afc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PA10_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C1_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga252ce3778f8693a4d71dbbf3fcc57f51</anchor>
+      <anchor>ga97e28a2c5e89597d5d447b3d206a3fd6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_I2C2_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga465e2f2a75b970e887cd2c8fb0b11e54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_I2C_PA9_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga36a89de3f7d1d3c4e38edab2784be3ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_I2C_PA10_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gac0ef23809f7b83bb7e70f95edf17478f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_SPI2_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gafaa6288d460ca9bafd380b4df018f655</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_USART2_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gac987fa700711fa79145236698bacda9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_USART3_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1e894849c75cc67a8147f18af4ddbf41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_I2C1_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae384ead9107fc3fa119616b5bbce8f38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_TIM1_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gadae562faf0557bbbe01279c7c205e752</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_TIM2_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga3b781ab7ab166baf9a05129e421aab7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_TIM3_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga522278f6dafed3625edbf6cf3efecbc4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -37070,6 +37147,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>SYSCFG_CFGR1_PA11_PA12_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga707bafeb02f64bf566dda0565079f361</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>SYSCFG_CFGR1_ADC_DMA_RMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
       <anchor>gad54abc7be3abb562bbd087897e3bc074</anchor>
@@ -37105,51 +37189,121 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PB6_FMPLUS</name>
+      <name>SYSCFG_CFGR1_TIM16_DMA_RMP2</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga543e467514fca462f26f668c59616667</anchor>
+      <anchor>ga89ad19ead703cd4f9023161b63523d0e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PB7_FMPLUS</name>
+      <name>SYSCFG_CFGR1_TIM17_DMA_RMP2</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga52b286ef26607e1701113c7cdaeb53ca</anchor>
+      <anchor>gaee734a75d349d9981dbde5ef754f6a61</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PB8_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C_PB6_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>gacc2430048d7e8b146894156ecf4be345</anchor>
+      <anchor>gaee5a1ca3b0408d359907fdc8ae1e44ae</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PB9_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C_PB7_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>gae4f20157f0536ce1fd9615fb30decd6c</anchor>
+      <anchor>ga218ec7f8116e53121ba41a9a57f2ab9c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C1_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C_PB8_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga45263687fcf41de78c47ff9347bf5b62</anchor>
+      <anchor>ga1aa82a8f51624e4fa343996c0d6166c2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PA9_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C_PB9_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga9f11eaf9eeb2a40d088ecdc59b64d9af</anchor>
+      <anchor>gadbc009692a61536e59a135d5a6b63afc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SYSCFG_CFGR1_I2C_PA10_FMPLUS</name>
+      <name>SYSCFG_CFGR1_I2C1_FMP</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga252ce3778f8693a4d71dbbf3fcc57f51</anchor>
+      <anchor>ga97e28a2c5e89597d5d447b3d206a3fd6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_I2C2_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga465e2f2a75b970e887cd2c8fb0b11e54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_I2C_PA9_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga36a89de3f7d1d3c4e38edab2784be3ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_I2C_PA10_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gac0ef23809f7b83bb7e70f95edf17478f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_SPI2_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gafaa6288d460ca9bafd380b4df018f655</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_USART2_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gac987fa700711fa79145236698bacda9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_USART3_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1e894849c75cc67a8147f18af4ddbf41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_I2C1_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae384ead9107fc3fa119616b5bbce8f38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_TIM1_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gadae562faf0557bbbe01279c7c205e752</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_TIM2_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga3b781ab7ab166baf9a05129e421aab7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_TIM3_DMA_RMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga522278f6dafed3625edbf6cf3efecbc4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
