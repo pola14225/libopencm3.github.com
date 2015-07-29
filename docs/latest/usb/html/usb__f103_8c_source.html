@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('usb__f103_8c_source.html','');});
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        (void)dev;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="comment">/* Set device address and enable. */</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        SET_REG(USB_DADDR_REG, (addr &amp; USB_DADDR_ADDR) | USB_DADDR_ENABLE);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        SET_REG(USB_DADDR_REG, (addr &amp; USB_DADDR_ADDR) | USB_DADDR_EF);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">/**</span></div>
@@ -522,7 +522,7 @@ $(document).ready(function(){initNavTree('usb__f103_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_77fc19f7d89a3cad4d832c4128eaabbf.html">usb</a></li><li class="navelem"><a class="el" href="usb__f103_8c.html">usb_f103.c</a></li>
-    <li class="footer">Generated on Wed Jul 29 2015 16:21:17 for libopencm3 by
+    <li class="footer">Generated on Thu Jul 30 2015 00:21:13 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
