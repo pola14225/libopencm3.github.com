@@ -8,7 +8,7 @@ var searchData=
   ['ep_5fout_5fsize',['ep_out_size',['../struct__usbd__mass__storage.html#a44faed30916340b27dc001b109b1fc41',1,'_usbd_mass_storage']]],
   ['ep_5fread_5fpacket',['ep_read_packet',['../struct__usbd__driver.html#aca16e36e7aa495b0692b39481a99f813',1,'_usbd_driver']]],
   ['ep_5freset',['ep_reset',['../struct__usbd__driver.html#a9b525f7949a638c0a2666d43bf977c04',1,'_usbd_driver']]],
-  ['ep_5fsetup',['ep_setup',['../struct__usbd__driver.html#aa19a8ec1092231647ad4f79badf1c3e4',1,'_usbd_driver']]],
+  ['ep_5fsetup',['ep_setup',['../struct__usbd__driver.html#a1cc2a9b0b2312161082aa4095c73b74a',1,'_usbd_driver']]],
   ['ep_5fstall_5fget',['ep_stall_get',['../struct__usbd__driver.html#ab684ea60d77fa8b9850ba5f1bf499606',1,'_usbd_driver']]],
   ['ep_5fstall_5fset',['ep_stall_set',['../struct__usbd__driver.html#a31a997c03d79427e01c5bb84de1a8de0',1,'_usbd_driver']]],
   ['ep_5fwrite_5fpacket',['ep_write_packet',['../struct__usbd__driver.html#a154dc02a1da75edc580ec29c32f67178',1,'_usbd_driver']]],

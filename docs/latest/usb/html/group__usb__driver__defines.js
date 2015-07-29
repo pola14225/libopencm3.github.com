@@ -1,8 +1,12 @@
 var group__usb__driver__defines =
 [
-    [ "usbd_control_callback", "group__usb__driver__defines.html#gaf05abc6fde0ddaf3b630222a8422579f", null ],
+    [ "usbd_control_callback", "group__usb__driver__defines.html#gad2b25a7c2bc9f4f34a7295c552761f2a", null ],
+    [ "usbd_control_complete_callback", "group__usb__driver__defines.html#ga7fc9a1130176cbe4135883e9a5935750", null ],
     [ "usbd_device", "group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce", null ],
     [ "usbd_driver", "group__usb__driver__defines.html#gaf89d061a4e982ccc705dbf1fc7f14fca", null ],
+    [ "usbd_endpoint_callback", "group__usb__driver__defines.html#gadf842dd68c4c1334ece37faf7715d697", null ],
+    [ "usbd_set_altsetting_callback", "group__usb__driver__defines.html#gaedececd5f821e314f2245a43aafbd12b", null ],
+    [ "usbd_set_config_callback", "group__usb__driver__defines.html#gae96c2c2c620233cfc00495ceed5e1de2", null ],
     [ "usbd_request_return_codes", "group__usb__driver__defines.html#gae09dc4bce47d0848ddacbd8b08ef76a7", [
       [ "USBD_REQ_NOTSUPP", "group__usb__driver__defines.html#ggae09dc4bce47d0848ddacbd8b08ef76a7ae6fb6de05148b303504d1f2855534495", null ],
       [ "USBD_REQ_HANDLED", "group__usb__driver__defines.html#ggae09dc4bce47d0848ddacbd8b08ef76a7ae44b9555863f8ecd5415bef01cb5779f", null ],
@@ -12,7 +16,7 @@ var group__usb__driver__defines =
     [ "usbd_disconnect", "group__usb__driver__defines.html#gaef20aadd330e4bb9e97635eeb751d8f9", null ],
     [ "usbd_ep_nak_set", "group__usb__driver__defines.html#ga2f2a7dac5031fd8d1b5eb076d3f24b42", null ],
     [ "usbd_ep_read_packet", "group__usb__driver__defines.html#gabd42dc86361dbf9c639fd883ada1f572", null ],
-    [ "usbd_ep_setup", "group__usb__driver__defines.html#ga888110ac1598406bb834b494c8db7f6c", null ],
+    [ "usbd_ep_setup", "group__usb__driver__defines.html#gaadc222d45c63e01811952f8478ac7943", null ],
     [ "usbd_ep_stall_get", "group__usb__driver__defines.html#ga396b34ccbe5bf6718417ef3ee0c3b788", null ],
     [ "usbd_ep_stall_set", "group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172", null ],
     [ "usbd_ep_write_packet", "group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f", null ],
@@ -21,8 +25,8 @@ var group__usb__driver__defines =
     [ "usbd_register_control_callback", "group__usb__driver__defines.html#ga86f80b7593ee05d364fd791896213e38", null ],
     [ "usbd_register_reset_callback", "group__usb__driver__defines.html#ga2cdd6f2cd24e7e222b2add6e08283a7e", null ],
     [ "usbd_register_resume_callback", "group__usb__driver__defines.html#ga004c77a73e4dcd6216678925f3fa1f41", null ],
-    [ "usbd_register_set_altsetting_callback", "group__usb__driver__defines.html#ga21d5f43101d1e56baf0d9f664401e506", null ],
-    [ "usbd_register_set_config_callback", "group__usb__driver__defines.html#gab61ace3fbfd23ca3bc3afcee6c231d05", null ],
+    [ "usbd_register_set_altsetting_callback", "group__usb__driver__defines.html#gad662b3f5dbec7c883391912d65b52533", null ],
+    [ "usbd_register_set_config_callback", "group__usb__driver__defines.html#gaca10ef544cb3119cd4f6aa770288c609", null ],
     [ "usbd_register_sof_callback", "group__usb__driver__defines.html#gad8e688f14cac90c4933954e3ebbfc3b7", null ],
     [ "usbd_register_suspend_callback", "group__usb__driver__defines.html#ga064f9d058427b1fb6f40b35e03a8cd5b", null ],
     [ "__attribute__", "group__usb__driver__defines.html#ga2530c9cbb5ab3be81daa4e988c2ce579", null ],

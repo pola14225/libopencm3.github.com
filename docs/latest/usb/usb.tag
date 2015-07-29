@@ -645,8 +645,8 @@
       <type>void</type>
       <name>usbd_ep_setup</name>
       <anchorfile>group__usb__drivers__file.html</anchorfile>
-      <anchor>ga888110ac1598406bb834b494c8db7f6c</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep))</arglist>
+      <anchor>gaadc222d45c63e01811952f8478ac7943</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>uint16_t</type>
@@ -1231,8 +1231,8 @@
       <type>static int</type>
       <name>msc_control_request</name>
       <anchorfile>usb__msc_8c.html</anchorfile>
-      <anchor>a7597112b5390c72fe40dd626ba1c5df6</anchor>
-      <arglist>(usbd_device *usbd_dev, struct usb_setup_data *req, uint8_t **buf, uint16_t *len, void(**complete)(usbd_device *usbd_dev, struct usb_setup_data *req))</arglist>
+      <anchor>a9c2aeb18d9f1d97b8dd471d08417a9b6</anchor>
+      <arglist>(usbd_device *usbd_dev, struct usb_setup_data *req, uint8_t **buf, uint16_t *len, usbd_control_complete_callback *complete)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static void</type>
@@ -1434,15 +1434,15 @@
       <type>int</type>
       <name>usbd_register_set_config_callback</name>
       <anchorfile>group__usb__standard__file.html</anchorfile>
-      <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
-      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
+      <anchor>gaca10ef544cb3119cd4f6aa770288c609</anchor>
+      <arglist>(usbd_device *usbd_dev, usbd_set_config_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usbd_register_set_altsetting_callback</name>
       <anchorfile>group__usb__standard__file.html</anchorfile>
-      <anchor>ga21d5f43101d1e56baf0d9f664401e506</anchor>
-      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue))</arglist>
+      <anchor>gad662b3f5dbec7c883391912d65b52533</anchor>
+      <arglist>(usbd_device *usbd_dev, usbd_set_altsetting_callback callback)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static uint16_t</type>
@@ -1591,10 +1591,38 @@
     </member>
     <member kind="typedef">
       <type>int(*</type>
+      <name>usbd_control_complete_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ga7fc9a1130176cbe4135883e9a5935750</anchor>
+      <arglist>)(usbd_device *usbd_dev, struct usb_setup_data *req)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>int(*</type>
       <name>usbd_control_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>gaf05abc6fde0ddaf3b630222a8422579f</anchor>
-      <arglist>)(usbd_device *usbd_dev, struct usb_setup_data *req, uint8_t **buf, uint16_t *len, void(**complete)(usbd_device *usbd_dev, struct usb_setup_data *req))</arglist>
+      <anchor>gad2b25a7c2bc9f4f34a7295c552761f2a</anchor>
+      <arglist>)(usbd_device *usbd_dev, struct usb_setup_data *req, uint8_t **buf, uint16_t *len, usbd_control_complete_callback *complete)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>void(*</type>
+      <name>usbd_set_config_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>gae96c2c2c620233cfc00495ceed5e1de2</anchor>
+      <arglist>)(usbd_device *usbd_dev, uint16_t wValue)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>void(*</type>
+      <name>usbd_set_altsetting_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>gaedececd5f821e314f2245a43aafbd12b</anchor>
+      <arglist>)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>void(*</type>
+      <name>usbd_endpoint_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>gadf842dd68c4c1334ece37faf7715d697</anchor>
+      <arglist>)(usbd_device *usbd_dev, uint8_t ep)</arglist>
     </member>
     <member kind="enumeration">
       <type></type>
@@ -1649,15 +1677,15 @@
       <type>int</type>
       <name>usbd_register_set_config_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
-      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
+      <anchor>gaca10ef544cb3119cd4f6aa770288c609</anchor>
+      <arglist>(usbd_device *usbd_dev, usbd_set_config_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usbd_register_set_altsetting_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga21d5f43101d1e56baf0d9f664401e506</anchor>
-      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue))</arglist>
+      <anchor>gad662b3f5dbec7c883391912d65b52533</anchor>
+      <arglist>(usbd_device *usbd_dev, usbd_set_altsetting_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -1677,8 +1705,8 @@
       <type>void</type>
       <name>usbd_ep_setup</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga888110ac1598406bb834b494c8db7f6c</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep))</arglist>
+      <anchor>gaadc222d45c63e01811952f8478ac7943</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>uint16_t</type>
@@ -2227,25 +2255,25 @@
       <arglist>[MAX_USER_CONTROL_CALLBACK]</arglist>
     </member>
     <member kind="variable">
-      <type>void(*</type>
+      <type>usbd_endpoint_callback</type>
       <name>user_callback_ctr</name>
       <anchorfile>struct__usbd__device.html</anchorfile>
-      <anchor>a6e82880b623706d1dd345e54fed03445</anchor>
-      <arglist>[8][3])(usbd_device *usbd_dev, uint8_t ea)</arglist>
+      <anchor>af052793766736ae38d58ff876b39bfdd</anchor>
+      <arglist>[8][3]</arglist>
     </member>
     <member kind="variable">
-      <type>void(*</type>
+      <type>usbd_set_config_callback</type>
       <name>user_callback_set_config</name>
       <anchorfile>struct__usbd__device.html</anchorfile>
-      <anchor>a87d8f0db30486e8a4d2369d95a826e3f</anchor>
-      <arglist>[MAX_USER_SET_CONFIG_CALLBACK])(usbd_device *usbd_dev, uint16_t wValue)</arglist>
+      <anchor>a31b4b92ffd4914b6526275dedc7eff58</anchor>
+      <arglist>[MAX_USER_SET_CONFIG_CALLBACK]</arglist>
     </member>
     <member kind="variable">
-      <type>void(*</type>
+      <type>usbd_set_altsetting_callback</type>
       <name>user_callback_set_altsetting</name>
       <anchorfile>struct__usbd__device.html</anchorfile>
-      <anchor>affa9de68619473e97bdd4fd669f920ce</anchor>
-      <arglist>)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue)</arglist>
+      <anchor>a6b3d87c5e3236d5402aa6b43448eedf7</anchor>
+      <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const struct _usbd_driver *</type>
@@ -2311,8 +2339,8 @@
       <type>void(*</type>
       <name>ep_setup</name>
       <anchorfile>struct__usbd__driver.html</anchorfile>
-      <anchor>aa19a8ec1092231647ad4f79badf1c3e4</anchor>
-      <arglist>)(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*cb)(usbd_device *usbd_dev, uint8_t ep))</arglist>
+      <anchor>a1cc2a9b0b2312161082aa4095c73b74a</anchor>
+      <arglist>)(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback cb)</arglist>
     </member>
     <member kind="variable">
       <type>void(*</type>
@@ -2944,11 +2972,11 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>void(*</type>
+      <type>usbd_control_complete_callback</type>
       <name>complete</name>
       <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
-      <anchor>ab344b1656a1e8954d6b0a2c13050e7c0</anchor>
-      <arglist>)(usbd_device *usbd_dev, struct usb_setup_data *req)</arglist>
+      <anchor>a617f3bff0d8d121186ed08d902c63e12</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -4314,10 +4342,38 @@
     </member>
     <member kind="typedef">
       <type>int(*</type>
+      <name>usbd_control_complete_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ga7fc9a1130176cbe4135883e9a5935750</anchor>
+      <arglist>)(usbd_device *usbd_dev, struct usb_setup_data *req)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>int(*</type>
       <name>usbd_control_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>gaf05abc6fde0ddaf3b630222a8422579f</anchor>
-      <arglist>)(usbd_device *usbd_dev, struct usb_setup_data *req, uint8_t **buf, uint16_t *len, void(**complete)(usbd_device *usbd_dev, struct usb_setup_data *req))</arglist>
+      <anchor>gad2b25a7c2bc9f4f34a7295c552761f2a</anchor>
+      <arglist>)(usbd_device *usbd_dev, struct usb_setup_data *req, uint8_t **buf, uint16_t *len, usbd_control_complete_callback *complete)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>void(*</type>
+      <name>usbd_set_config_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>gae96c2c2c620233cfc00495ceed5e1de2</anchor>
+      <arglist>)(usbd_device *usbd_dev, uint16_t wValue)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>void(*</type>
+      <name>usbd_set_altsetting_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>gaedececd5f821e314f2245a43aafbd12b</anchor>
+      <arglist>)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>void(*</type>
+      <name>usbd_endpoint_callback</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>gadf842dd68c4c1334ece37faf7715d697</anchor>
+      <arglist>)(usbd_device *usbd_dev, uint8_t ep)</arglist>
     </member>
     <member kind="enumeration">
       <type></type>
@@ -4372,15 +4428,15 @@
       <type>int</type>
       <name>usbd_register_set_config_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
-      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
+      <anchor>gaca10ef544cb3119cd4f6aa770288c609</anchor>
+      <arglist>(usbd_device *usbd_dev, usbd_set_config_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usbd_register_set_altsetting_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga21d5f43101d1e56baf0d9f664401e506</anchor>
-      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue))</arglist>
+      <anchor>gad662b3f5dbec7c883391912d65b52533</anchor>
+      <arglist>(usbd_device *usbd_dev, usbd_set_altsetting_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -4400,8 +4456,8 @@
       <type>void</type>
       <name>usbd_ep_setup</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga888110ac1598406bb834b494c8db7f6c</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep))</arglist>
+      <anchor>gaadc222d45c63e01811952f8478ac7943</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>uint16_t</type>
@@ -4574,8 +4630,8 @@
       <type>void</type>
       <name>usbd_ep_setup</name>
       <anchorfile>group__usb__drivers__file.html</anchorfile>
-      <anchor>ga888110ac1598406bb834b494c8db7f6c</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep))</arglist>
+      <anchor>gaadc222d45c63e01811952f8478ac7943</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>uint16_t</type>
@@ -4690,15 +4746,15 @@
       <type>int</type>
       <name>usbd_register_set_config_callback</name>
       <anchorfile>group__usb__standard__file.html</anchorfile>
-      <anchor>gab61ace3fbfd23ca3bc3afcee6c231d05</anchor>
-      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wValue))</arglist>
+      <anchor>gaca10ef544cb3119cd4f6aa770288c609</anchor>
+      <arglist>(usbd_device *usbd_dev, usbd_set_config_callback callback)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>usbd_register_set_altsetting_callback</name>
       <anchorfile>group__usb__standard__file.html</anchorfile>
-      <anchor>ga21d5f43101d1e56baf0d9f664401e506</anchor>
-      <arglist>(usbd_device *usbd_dev, void(*callback)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue))</arglist>
+      <anchor>gad662b3f5dbec7c883391912d65b52533</anchor>
+      <arglist>(usbd_device *usbd_dev, usbd_set_altsetting_callback callback)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static uint16_t</type>

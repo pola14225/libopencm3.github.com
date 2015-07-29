@@ -5,7 +5,7 @@ var struct__usbd__driver =
     [ "ep_nak_set", "struct__usbd__driver.html#adcc98ae89ab0e1fd49c470d68e6ff084", null ],
     [ "ep_read_packet", "struct__usbd__driver.html#aca16e36e7aa495b0692b39481a99f813", null ],
     [ "ep_reset", "struct__usbd__driver.html#a9b525f7949a638c0a2666d43bf977c04", null ],
-    [ "ep_setup", "struct__usbd__driver.html#aa19a8ec1092231647ad4f79badf1c3e4", null ],
+    [ "ep_setup", "struct__usbd__driver.html#a1cc2a9b0b2312161082aa4095c73b74a", null ],
     [ "ep_stall_get", "struct__usbd__driver.html#ab684ea60d77fa8b9850ba5f1bf499606", null ],
     [ "ep_stall_set", "struct__usbd__driver.html#a31a997c03d79427e01c5bb84de1a8de0", null ],
     [ "ep_write_packet", "struct__usbd__driver.html#a154dc02a1da75edc580ec29c32f67178", null ],

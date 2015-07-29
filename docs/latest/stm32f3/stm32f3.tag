@@ -111,6 +111,20 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>adc_enable_eos_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga9045439f16ca52685aa626681e14c4aa</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eos_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gabe4796a2e38b2c14988ba6edc1439cd0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>adc_enable_all_awd_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga3cc0e3b399f20c12d730fa2e775df87e</anchor>
@@ -135,6 +149,20 @@
       <name>adc_disable_eoc_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eos_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga44f599a778c63636e1de6c5984b3c6b7</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eos_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga221bb8e9d1d8c2f01cba9ad43ff4b810</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -250,6 +278,20 @@
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
+      <type>bool</type>
+      <name>adc_eos</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eos_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad6a48b6c1eaf99b59eecf65f6de2cfe3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
       <type>uint32_t</type>
       <name>adc_read_regular</name>
       <anchorfile>group__adc__file.html</anchorfile>
@@ -352,20 +394,6 @@
       <name>adc_clear_overrun_flag</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_eoc_after_each</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga7d5d9107ff8181171c5cf5c76b971fff</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_eoc_after_group</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac297992b6d3f1162330dcc84e3245318</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -3077,6 +3105,20 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>adc_enable_eos_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga9045439f16ca52685aa626681e14c4aa</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eos_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gabe4796a2e38b2c14988ba6edc1439cd0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>adc_enable_all_awd_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga3cc0e3b399f20c12d730fa2e775df87e</anchor>
@@ -3101,6 +3143,20 @@
       <name>adc_disable_eoc_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eos_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga44f599a778c63636e1de6c5984b3c6b7</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eos_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga221bb8e9d1d8c2f01cba9ad43ff4b810</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -3230,6 +3286,20 @@
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
+      <type>bool</type>
+      <name>adc_eos</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eos_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad6a48b6c1eaf99b59eecf65f6de2cfe3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
       <type>uint32_t</type>
       <name>adc_read_regular</name>
       <anchorfile>group__adc__file.html</anchorfile>
@@ -3318,20 +3388,6 @@
       <name>adc_awd</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaaecf7b26e7d55235fa4e99c93fc4da9d</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_eoc_after_each</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga7d5d9107ff8181171c5cf5c76b971fff</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_eoc_after_group</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac297992b6d3f1162330dcc84e3245318</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -40196,6 +40252,20 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>adc_enable_eos_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga9045439f16ca52685aa626681e14c4aa</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eos_interrupt_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gabe4796a2e38b2c14988ba6edc1439cd0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>adc_enable_all_awd_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga3cc0e3b399f20c12d730fa2e775df87e</anchor>
@@ -40220,6 +40290,20 @@
       <name>adc_disable_eoc_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eos_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga44f599a778c63636e1de6c5984b3c6b7</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eos_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga221bb8e9d1d8c2f01cba9ad43ff4b810</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -40335,6 +40419,20 @@
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
+      <type>bool</type>
+      <name>adc_eos</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eos_injected</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad6a48b6c1eaf99b59eecf65f6de2cfe3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
       <type>uint32_t</type>
       <name>adc_read_regular</name>
       <anchorfile>group__adc__file.html</anchorfile>
@@ -40437,20 +40535,6 @@
       <name>adc_clear_overrun_flag</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_eoc_after_each</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga7d5d9107ff8181171c5cf5c76b971fff</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_eoc_after_group</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac297992b6d3f1162330dcc84e3245318</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">

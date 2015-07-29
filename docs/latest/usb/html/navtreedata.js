@@ -56,8 +56,8 @@ var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
 "group__usb__dfu__defines.html#ggabcf2757cf1c6281a06a8a6f25ff2aa31abc69336005f3df189e7df6d0f0ad69b2",
-"struct__usbd__driver.html",
-"structusb__msc__trans.html#aab66425ce97f007e56265b3c9f6835bc"
+"struct__usbd__device_1_1usb__control__state.html#a2dfd02e13d09c8452ef9e9d346465027",
+"structusb__msc__trans.html#a3ab127622f76bed43aecf520efb67e24"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

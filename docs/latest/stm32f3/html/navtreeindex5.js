@@ -1,5 +1,17 @@
 var NAVTREEINDEX5 =
 {
+"group__dac__defines.html#gade373c9271f431a6464ef34b36cc5112":[8,1,2,29],
+"group__dac__defines.html#gade373c9271f431a6464ef34b36cc5112":[28,0,11,71],
+"group__dac__defines.html#gae474e0c35329b87c281c933afe656228":[8,1,2,70],
+"group__dac__defines.html#gae474e0c35329b87c281c933afe656228":[28,0,11,112],
+"group__dac__defines.html#gae62e98704ad5d874ce5b4f43109c4fcf":[8,1,2,28],
+"group__dac__defines.html#gae62e98704ad5d874ce5b4f43109c4fcf":[28,0,11,70],
+"group__dac__defines.html#gae6d701dcdcc8349aabf52edfcb4b5d38":[8,1,2,57],
+"group__dac__defines.html#gae6d701dcdcc8349aabf52edfcb4b5d38":[28,0,11,99],
+"group__dac__defines.html#gaeafa2e3644f786ddcd1ff72f8b9697d9":[8,1,2,40],
+"group__dac__defines.html#gaeafa2e3644f786ddcd1ff72f8b9697d9":[28,0,11,82],
+"group__dac__defines.html#gaf0e53585b505d21f5c457476bd5a18f8":[8,1,2,66],
+"group__dac__defines.html#gaf0e53585b505d21f5c457476bd5a18f8":[28,0,11,108],
 "group__dac__defines.html#gaf54e2f45530e9d2edaf7d88c3e13b907":[8,1,2,20],
 "group__dac__defines.html#gaf54e2f45530e9d2edaf7d88c3e13b907":[28,0,11,49],
 "group__dac__defines.html#gaff7ce3b1c6ef6ab6def5cf2cb560af32":[8,1,2,51],
@@ -237,17 +249,5 @@ var NAVTREEINDEX5 =
 "group__dma__defines.html#ga1e523c5cbf5594ffe8540c317bce6933":[8,1,3,131],
 "group__dma__defines.html#ga1e523c5cbf5594ffe8540c317bce6933":[28,0,15,145],
 "group__dma__defines.html#ga1f3ab5e5980b9e15d6200ac3f0191a31":[8,1,3,78],
-"group__dma__defines.html#ga1f3ab5e5980b9e15d6200ac3f0191a31":[28,0,15,79],
-"group__dma__defines.html#ga1f69698a62a464cf9854ec02461bec89":[28,0,15,210],
-"group__dma__defines.html#ga1f69698a62a464cf9854ec02461bec89":[8,1,3,194],
-"group__dma__defines.html#ga209f52ca23a54f28adc7d26dbcb25b44":[8,1,3,124],
-"group__dma__defines.html#ga209f52ca23a54f28adc7d26dbcb25b44":[28,0,15,138],
-"group__dma__defines.html#ga22f770c63ab88ac647e3d29192803fa2":[8,1,3,144],
-"group__dma__defines.html#ga22f770c63ab88ac647e3d29192803fa2":[28,0,15,158],
-"group__dma__defines.html#ga2342cb0ead24ea5274d2cc0e3c7c1c7b":[28,0,15,202],
-"group__dma__defines.html#ga2342cb0ead24ea5274d2cc0e3c7c1c7b":[8,1,3,186],
-"group__dma__defines.html#ga24372b0a92d96913ababcbe0ad0a7e98":[28,0,15,205],
-"group__dma__defines.html#ga24372b0a92d96913ababcbe0ad0a7e98":[8,1,3,189],
-"group__dma__defines.html#ga250c05bdbe73f5e80171599e1f86639b":[8,1,3,163],
-"group__dma__defines.html#ga250c05bdbe73f5e80171599e1f86639b":[28,0,15,177]
+"group__dma__defines.html#ga1f3ab5e5980b9e15d6200ac3f0191a31":[28,0,15,79]
 };

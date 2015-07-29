@@ -4,7 +4,7 @@ var searchData=
   ['cbw',['cbw',['../structusb__msc__trans.html#af1b071cf466021ddc18cae7994c069f7',1,'usb_msc_trans::cbw()'],['../structusb__msc__trans.html#a1d117026e81d2374395c64d7bc76bd7d',1,'usb_msc_trans::cbw()']]],
   ['cbw_5fcnt',['cbw_cnt',['../structusb__msc__trans.html#a2a19069abdeca0556cbe90c8af463fde',1,'usb_msc_trans']]],
   ['cbwcb',['CBWCB',['../structusb__msc__cbw.html#a9b19b64641e14f1f74bc51b0af55974f',1,'usb_msc_cbw::CBWCB()'],['../usb__msc_8c.html#ac7174140836bafcce11192c288d618e7',1,'CBWCB():&#160;usb_msc.c']]],
-  ['complete',['complete',['../struct__usbd__device_1_1usb__control__state.html#ab344b1656a1e8954d6b0a2c13050e7c0',1,'_usbd_device::usb_control_state']]],
+  ['complete',['complete',['../struct__usbd__device_1_1usb__control__state.html#a617f3bff0d8d121186ed08d902c63e12',1,'_usbd_device::usb_control_state']]],
   ['config',['config',['../struct__usbd__device.html#ae60b7e4cb2c404b6e86fdf6bbafdb5d5',1,'_usbd_device']]],
   ['control_5fstate',['control_state',['../struct__usbd__device.html#a4c28e71881bec82fc45d83860c874816',1,'_usbd_device']]],
   ['csw',['csw',['../structusb__msc__trans.html#a43600580255023408f08061721826938',1,'usb_msc_trans::csw()'],['../structusb__msc__trans.html#aab66425ce97f007e56265b3c9f6835bc',1,'usb_msc_trans::csw()']]],
