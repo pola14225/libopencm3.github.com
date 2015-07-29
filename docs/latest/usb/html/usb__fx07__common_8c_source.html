@@ -461,11 +461,11 @@ $(document).ready(function(){initNavTree('usb__fx07__common_8c_source.html','');
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                }</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                REBASE(OTG_GINTSTS) = OTG_FS_GINTSTS_SOF;</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        }</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        </div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>) {</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                BBIO_PERIPH(OTG_FS_GINTMSK, OTG_FS_GINTMSK_SOFM) = 1;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                REBASE(OTG_GINTMSK) |= OTG_FS_GINTMSK_SOFM;</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                BBIO_PERIPH(OTG_FS_GINTMSK, OTG_FS_GINTMSK_SOFM) = 0;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                REBASE(OTG_GINTMSK) &amp;= ~OTG_FS_GINTMSK_SOFM;</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        }</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;}</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
@@ -514,7 +514,7 @@ $(document).ready(function(){initNavTree('usb__fx07__common_8c_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_77fc19f7d89a3cad4d832c4128eaabbf.html">usb</a></li><li class="navelem"><a class="el" href="usb__fx07__common_8c.html">usb_fx07_common.c</a></li>
-    <li class="footer">Generated on Thu Jul 16 2015 21:21:15 for libopencm3 by
+    <li class="footer">Generated on Wed Jul 29 2015 15:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
