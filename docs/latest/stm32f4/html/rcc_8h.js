@@ -336,6 +336,7 @@ var rcc_8h =
     [ "RCC_SSCGR_SSCGEN", "rcc_8h.html#a8885c04bcb786b89e26f066f4ccf06e0", null ],
     [ "clock_3v3_t", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cb", [
       [ "CLOCK_3V3_48MHZ", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cbad14774147c799b99145fa1b40f579152", null ],
+      [ "CLOCK_3V3_84MHZ", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cba8507f1bb15ff79617c244b8d05a721ce", null ],
       [ "CLOCK_3V3_120MHZ", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cba8e7a4f7a812444b60603e1fc9aaab9a5", null ],
       [ "CLOCK_3V3_168MHZ", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cba5d7109dc746593d41af13ea452600c30", null ],
       [ "CLOCK_3V3_END", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cbac8297646d4feef220ebf141158d668cb", null ]
