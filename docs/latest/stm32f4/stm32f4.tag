@@ -8930,29 +8930,43 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>FLASH_CR_PROGRAM_X8</name>
+      <name>FLASH_CR_PROGRAM_MASK</name>
       <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga0f266a239f29307ee7839950bcca8a43</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_SHIFT</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga2ee97feb59a7bcda88cbe87d084e8c1b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_X8</name>
+      <anchorfile>group__flash__cr__program__width.html</anchorfile>
       <anchor>gaaf0a4ebd47ab049a59889ff49df78f2b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_PROGRAM_X16</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchorfile>group__flash__cr__program__width.html</anchorfile>
       <anchor>ga7faf8680e2686755aa1700631efe0992</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_PROGRAM_X32</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchorfile>group__flash__cr__program__width.html</anchorfile>
       <anchor>ga8db70fc58d9b2a1ab4af87e99695c171</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_CR_PROGRAM_X64</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchorfile>group__flash__cr__program__width.html</anchorfile>
       <anchor>ga4a075b9c1833e24b4118bed93488259a</anchor>
       <arglist></arglist>
     </member>
@@ -32543,6 +32557,7 @@
     <name>flash_defines</name>
     <title>FLASH Defines</title>
     <filename>group__flash__defines.html</filename>
+    <subgroup>flash_cr_program_width</subgroup>
     <member kind="define">
       <type>#define</type>
       <name>FLASH_ACR</name>
@@ -32811,30 +32826,16 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>FLASH_CR_PROGRAM_X8</name>
+      <name>FLASH_CR_PROGRAM_MASK</name>
       <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>gaaf0a4ebd47ab049a59889ff49df78f2b</anchor>
+      <anchor>ga0f266a239f29307ee7839950bcca8a43</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>FLASH_CR_PROGRAM_X16</name>
+      <name>FLASH_CR_PROGRAM_SHIFT</name>
       <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga7faf8680e2686755aa1700631efe0992</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_PROGRAM_X32</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga8db70fc58d9b2a1ab4af87e99695c171</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>FLASH_CR_PROGRAM_X64</name>
-      <anchorfile>group__flash__defines.html</anchorfile>
-      <anchor>ga4a075b9c1833e24b4118bed93488259a</anchor>
+      <anchor>ga2ee97feb59a7bcda88cbe87d084e8c1b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -44560,6 +44561,39 @@
       <name>DMA_SxFCR_FS_EMPTY</name>
       <anchorfile>group__dma__fifo__status.html</anchorfile>
       <anchor>gaa64efb2df4b776d95e2a64c1b3cb6a99</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>flash_cr_program_width</name>
+    <title>Flash programming width</title>
+    <filename>group__flash__cr__program__width.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_X8</name>
+      <anchorfile>group__flash__cr__program__width.html</anchorfile>
+      <anchor>gaaf0a4ebd47ab049a59889ff49df78f2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_X16</name>
+      <anchorfile>group__flash__cr__program__width.html</anchorfile>
+      <anchor>ga7faf8680e2686755aa1700631efe0992</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_X32</name>
+      <anchorfile>group__flash__cr__program__width.html</anchorfile>
+      <anchor>ga8db70fc58d9b2a1ab4af87e99695c171</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_CR_PROGRAM_X64</name>
+      <anchorfile>group__flash__cr__program__width.html</anchorfile>
+      <anchor>ga4a075b9c1833e24b4118bed93488259a</anchor>
       <arglist></arglist>
     </member>
   </compound>

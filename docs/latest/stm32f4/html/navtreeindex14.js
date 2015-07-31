@@ -1,5 +1,10 @@
 var NAVTREEINDEX14 =
 {
+"group__i2c__defines.html#ga953b0d38414808db79da116842ed3262":[9,1,9,32],
+"group__i2c__defines.html#ga9a1c593d122706af68c83355ccdf59bc":[28,0,46,132],
+"group__i2c__defines.html#ga9a1c593d122706af68c83355ccdf59bc":[9,1,9,89],
+"group__i2c__defines.html#ga9c45f244fee2f34d1cb10fc7accd5af8":[28,0,46,145],
+"group__i2c__defines.html#ga9c45f244fee2f34d1cb10fc7accd5af8":[9,1,9,102],
 "group__i2c__defines.html#gaa07cf3e404f9f57e98d1ba3793079c80":[28,0,46,116],
 "group__i2c__defines.html#gaa07cf3e404f9f57e98d1ba3793079c80":[9,1,9,74],
 "group__i2c__defines.html#gaa3ab44e02ffd8a6808189d7a9deba130":[28,0,46,123],
@@ -234,8 +239,8 @@ var NAVTREEINDEX14 =
 "group__pwr__defines.html#ga1d9e8bb70d3b9c9c2971d1ae2c049b8f":[9,1,11,18],
 "group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8":[28,0,58,0],
 "group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8":[9,1,11,1],
-"group__pwr__defines.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd":[9,1,11,29],
 "group__pwr__defines.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd":[28,0,58,36],
+"group__pwr__defines.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd":[9,1,11,29],
 "group__pwr__defines.html#ga3535ce181895cc00afeb28dcac68d04c":[28,0,58,19],
 "group__pwr__defines.html#ga3535ce181895cc00afeb28dcac68d04c":[9,1,11,12],
 "group__pwr__defines.html#ga3928de64f633b84770b1cfecea702fa7":[28,0,58,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX14 =
 "group__pwr__defines.html#ga3aeb8d6f2539b0a3a4b851aeba0eea66":[9,1,11,5],
 "group__pwr__defines.html#ga47f30c2ab88b0a18a2f343cf4f9c0743":[28,0,58,24],
 "group__pwr__defines.html#ga47f30c2ab88b0a18a2f343cf4f9c0743":[9,1,11,17],
-"group__pwr__defines.html#ga4bc2e827b1955849d278d1e7be03366e":[28,0,58,15],
-"group__pwr__defines.html#ga4bc2e827b1955849d278d1e7be03366e":[9,1,11,8],
-"group__pwr__defines.html#ga652ae2d48d4833539f50f0c201e8fff2":[28,0,58,23],
-"group__pwr__defines.html#ga652ae2d48d4833539f50f0c201e8fff2":[9,1,11,16],
-"group__pwr__defines.html#ga7ac8c15a08bbee754ea720b0d4a4f580":[28,0,58,18],
-"group__pwr__defines.html#ga7ac8c15a08bbee754ea720b0d4a4f580":[9,1,11,11]
+"group__pwr__defines.html#ga4bc2e827b1955849d278d1e7be03366e":[28,0,58,15]
 };

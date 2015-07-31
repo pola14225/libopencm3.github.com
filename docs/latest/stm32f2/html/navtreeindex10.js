@@ -1,5 +1,10 @@
 var NAVTREEINDEX10 =
 {
+"group__gpio__defines.html#gaf758e94d5da9ad767e177a6e8282cc2d":[7,1,6,22],
+"group__gpio__defines.html#gaf7c27525fb03623c128a96028b64489e":[28,0,34,3],
+"group__gpio__defines.html#gaf7c27525fb03623c128a96028b64489e":[7,1,6,89],
+"group__gpio__defines.html#gaf8c71580243ce9fbce9e4d5542d9a747":[28,0,33,105],
+"group__gpio__defines.html#gaf8c71580243ce9fbce9e4d5542d9a747":[7,1,6,78],
 "group__gpio__defines.html#gaf9a01750c2af4c3780787449f3377d79":[28,0,33,43],
 "group__gpio__defines.html#gaf9a01750c2af4c3780787449f3377d79":[7,1,6,25],
 "group__gpio__defines.html#gafa5b16fcac95c1fc0170c320db14fcfc":[28,0,33,91],
@@ -190,8 +195,8 @@ var NAVTREEINDEX10 =
 "group__hash__defines.html#gacb43968632be04aab02b37b1015ccb6a":[7,1,7,29],
 "group__hash__defines.html#gacffa826f34e3997c3288ed568b391cb1":[28,0,38,8],
 "group__hash__defines.html#gacffa826f34e3997c3288ed568b391cb1":[7,1,7,9],
-"group__hash__defines.html#gad7d828c238e95cab83f262fac028ec4e":[7,1,7,10],
 "group__hash__defines.html#gad7d828c238e95cab83f262fac028ec4e":[28,0,38,9],
+"group__hash__defines.html#gad7d828c238e95cab83f262fac028ec4e":[7,1,7,10],
 "group__hash__defines.html#gaf9273a6086423312265eebb04d9c33f6":[28,0,38,31],
 "group__hash__defines.html#gaf9273a6086423312265eebb04d9c33f6":[7,1,7,24],
 "group__hash__defines.html#gaf96181d145b4ee70ab2e3b418d954a0c":[28,0,38,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX10 =
 "group__i2c__clock.html#ga294f0eada1fdc54297a448fdf70b4e34":[28,0,42,71],
 "group__i2c__clock.html#ga294f0eada1fdc54297a448fdf70b4e34":[7,1,8,1,29],
 "group__i2c__clock.html#ga3744206c8d9c3467d5695e1c3b749162":[28,0,42,66],
-"group__i2c__clock.html#ga3744206c8d9c3467d5695e1c3b749162":[7,1,8,1,24],
-"group__i2c__clock.html#ga40b20ae4a54cf19fb13cf4b7166f3044":[28,0,42,59],
-"group__i2c__clock.html#ga40b20ae4a54cf19fb13cf4b7166f3044":[7,1,8,1,17],
-"group__i2c__clock.html#ga536bd697b493eb3006c06612037ce589":[28,0,42,63],
-"group__i2c__clock.html#ga536bd697b493eb3006c06612037ce589":[7,1,8,1,21],
-"group__i2c__clock.html#ga536f456be51d697a4acefe8cde2ac8e9":[28,0,42,70]
+"group__i2c__clock.html#ga3744206c8d9c3467d5695e1c3b749162":[7,1,8,1,24]
 };

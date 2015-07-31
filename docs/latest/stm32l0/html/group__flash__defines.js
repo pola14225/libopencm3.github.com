@@ -1,5 +1,6 @@
 var group__flash__defines =
 [
+    [ "Flash programming width", "group__flash__cr__program__width.html", "group__flash__cr__program__width" ],
     [ "FLASH_ACR", "group__flash__defines.html#ga17131472a9863dc9ef3fd97ec5b4dafc", null ],
     [ "FLASH_ACR", "group__flash__defines.html#ga17131472a9863dc9ef3fd97ec5b4dafc", null ],
     [ "FLASH_ACR_DCE", "group__flash__defines.html#gae71dc0ac13ad255d45f58ba828d824c3", null ],
@@ -38,10 +39,8 @@ var group__flash__defines =
     [ "FLASH_CR_PER", "group__flash__defines.html#gad845355ade49d56cf70ad0ff09595a23", null ],
     [ "FLASH_CR_PG", "group__flash__defines.html#ga47754b39bd7a7c79c251d6376f97f661", null ],
     [ "FLASH_CR_PG", "group__flash__defines.html#ga47754b39bd7a7c79c251d6376f97f661", null ],
-    [ "FLASH_CR_PROGRAM_X16", "group__flash__defines.html#ga7faf8680e2686755aa1700631efe0992", null ],
-    [ "FLASH_CR_PROGRAM_X32", "group__flash__defines.html#ga8db70fc58d9b2a1ab4af87e99695c171", null ],
-    [ "FLASH_CR_PROGRAM_X64", "group__flash__defines.html#ga4a075b9c1833e24b4118bed93488259a", null ],
-    [ "FLASH_CR_PROGRAM_X8", "group__flash__defines.html#gaaf0a4ebd47ab049a59889ff49df78f2b", null ],
+    [ "FLASH_CR_PROGRAM_MASK", "group__flash__defines.html#ga0f266a239f29307ee7839950bcca8a43", null ],
+    [ "FLASH_CR_PROGRAM_SHIFT", "group__flash__defines.html#ga2ee97feb59a7bcda88cbe87d084e8c1b", null ],
     [ "FLASH_CR_SER", "group__flash__defines.html#gae0e561d67b381c4bd8714cd6a9c15f56", null ],
     [ "FLASH_CR_SNB_MASK", "group__flash__defines.html#ga334706fac8169f5fedc900cd2607f2e3", null ],
     [ "FLASH_CR_SNB_SHIFT", "group__flash__defines.html#gafcbe99c1501d132b669c5691b97da1b6", null ],

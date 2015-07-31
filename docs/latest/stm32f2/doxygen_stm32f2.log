@@ -30,37 +30,37 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1852: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1877: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1909: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:345: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:345: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
   parameter 'sector'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: The following parameters of flash_program(uint32_t address, uint8_t *data, uint32_t len) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:322: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:322: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:322: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:322: warning: The following parameters of flash_program(uint32_t address, uint8_t *data, uint32_t len) are not documented:
   parameter 'address'
   parameter 'data'
   parameter 'len'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: The following parameters of flash_program_byte(uint32_t address, uint8_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:297: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:297: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:297: warning: The following parameters of flash_program_byte(uint32_t address, uint8_t data) are not documented:
   parameter 'address'
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: argument 'uint64_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: The following parameters of flash_program_double_word(uint32_t address, uint64_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:212: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:212: warning: argument 'uint64_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:212: warning: The following parameters of flash_program_double_word(uint32_t address, uint64_t data) are not documented:
   parameter 'address'
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:272: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:272: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:272: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
   parameter 'address'
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:395: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:395: warning: The following parameters of flash_program_option_bytes(uint32_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:394: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:394: warning: The following parameters of flash_program_option_bytes(uint32_t data) are not documented:
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: The following parameters of flash_program_word(uint32_t address, uint32_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:242: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:242: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:242: warning: The following parameters of flash_program_word(uint32_t address, uint32_t data) are not documented:
   parameter 'address'
   parameter 'data'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
@@ -89,37 +89,37 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:346: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:345: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:345: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
   parameter 'sector'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:323: warning: The following parameters of flash_program(uint32_t address, uint8_t *data, uint32_t len) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:322: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:322: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:322: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program(uint32_t address, uint8_t *data, uint32_t len)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:322: warning: The following parameters of flash_program(uint32_t address, uint8_t *data, uint32_t len) are not documented:
   parameter 'address'
   parameter 'data'
   parameter 'len'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:298: warning: The following parameters of flash_program_byte(uint32_t address, uint8_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:297: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:297: warning: argument 'uint8_t' of command @param is not found in the argument list of flash_program_byte(uint32_t address, uint8_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:297: warning: The following parameters of flash_program_byte(uint32_t address, uint8_t data) are not documented:
   parameter 'address'
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: argument 'uint64_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:213: warning: The following parameters of flash_program_double_word(uint32_t address, uint64_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:212: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:212: warning: argument 'uint64_t' of command @param is not found in the argument list of flash_program_double_word(uint32_t address, uint64_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:212: warning: The following parameters of flash_program_double_word(uint32_t address, uint64_t data) are not documented:
   parameter 'address'
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:273: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:272: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:272: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:272: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
   parameter 'address'
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:395: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:395: warning: The following parameters of flash_program_option_bytes(uint32_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:394: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:394: warning: The following parameters of flash_program_option_bytes(uint32_t data) are not documented:
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:243: warning: The following parameters of flash_program_word(uint32_t address, uint32_t data) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:242: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:242: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:242: warning: The following parameters of flash_program_word(uint32_t address, uint32_t data) are not documented:
   parameter 'address'
   parameter 'data'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:30: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
