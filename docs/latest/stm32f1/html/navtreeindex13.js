@@ -1,5 +1,11 @@
 var NAVTREEINDEX13 =
 {
+"group__gpio__defines.html#gad1d58d2ef1d38a865e83b0e65f669a01":[6,1,6,297],
+"group__gpio__defines.html#gad24dbd4cfad856a503509a842df7a08e":[27,0,28,136],
+"group__gpio__defines.html#gad24dbd4cfad856a503509a842df7a08e":[6,1,6,63],
+"group__gpio__defines.html#gad2cbb32ec45ff744575c2f7696abde54":[27,0,28,195],
+"group__gpio__defines.html#gad2cbb32ec45ff744575c2f7696abde54":[6,1,6,122],
+"group__gpio__defines.html#gad2fcc96d6ad02b4054aa908d4f79e765":[27,0,28,180],
 "group__gpio__defines.html#gad2fcc96d6ad02b4054aa908d4f79e765":[6,1,6,107],
 "group__gpio__defines.html#gad34826f44e92a134c72b02ce5c637418":[27,0,28,499],
 "group__gpio__defines.html#gad34826f44e92a134c72b02ce5c637418":[6,1,6,411],
@@ -207,12 +213,12 @@ var NAVTREEINDEX13 =
 "group__gpio__file.html#gaeb877f5252652d6a574a08b085ef14f5":[27,0,29,5],
 "group__gpio__file.html#gaeb877f5252652d6a574a08b085ef14f5":[6,0,5,5],
 "group__gpio__mode.html":[6,1,6,2],
-"group__gpio__mode.html#ga59a8723fe181155fbdf46ca231d4b5e5":[27,0,28,335],
 "group__gpio__mode.html#ga59a8723fe181155fbdf46ca231d4b5e5":[6,1,6,2,2],
+"group__gpio__mode.html#ga59a8723fe181155fbdf46ca231d4b5e5":[27,0,28,335],
 "group__gpio__mode.html#ga6b417f015356fa1b8816fdc9f5b966ce":[6,1,6,2,3],
 "group__gpio__mode.html#ga6b417f015356fa1b8816fdc9f5b966ce":[27,0,28,336],
-"group__gpio__mode.html#gaccaafde9d3ff789887f676fa34cdbecd":[27,0,28,334],
 "group__gpio__mode.html#gaccaafde9d3ff789887f676fa34cdbecd":[6,1,6,2,1],
+"group__gpio__mode.html#gaccaafde9d3ff789887f676fa34cdbecd":[27,0,28,334],
 "group__gpio__mode.html#gaf40bec3146810028a84b628d37d3b391":[6,1,6,2,0],
 "group__gpio__mode.html#gaf40bec3146810028a84b628d37d3b391":[27,0,28,333],
 "group__gpio__pin__id.html":[6,1,6,15],
@@ -242,12 +248,6 @@ var NAVTREEINDEX13 =
 "group__gpio__pin__id.html#gabe59d3a7ce7a18e9440bd54cae1f3fc8":[6,1,6,15,1],
 "group__gpio__pin__id.html#gac376b1c124378935df7b3c171b2bef35":[27,0,30,3],
 "group__gpio__pin__id.html#gac376b1c124378935df7b3c171b2bef35":[6,1,6,15,3],
-"group__gpio__pin__id.html#gad42a78782c6bb99ad7e7c1ec975b5b96":[27,0,30,6],
 "group__gpio__pin__id.html#gad42a78782c6bb99ad7e7c1ec975b5b96":[6,1,6,15,6],
-"group__gpio__pin__id.html#gae285b2475841ecb1ac23d8511b360d0e":[6,1,6,15,2],
-"group__gpio__pin__id.html#gae285b2475841ecb1ac23d8511b360d0e":[27,0,30,2],
-"group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352":[27,0,30,15],
-"group__gpio__pin__id.html#gae2a4c4d28729daf18e1923a1878e7352":[6,1,6,15,15],
-"group__gpio__pin__id.html#gaf3cc04d651b622d5323d74dc2f0999a0":[6,1,6,15,9],
-"group__gpio__pin__id.html#gaf3cc04d651b622d5323d74dc2f0999a0":[27,0,30,9]
+"group__gpio__pin__id.html#gad42a78782c6bb99ad7e7c1ec975b5b96":[27,0,30,6]
 };

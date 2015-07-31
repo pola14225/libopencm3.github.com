@@ -1,0 +1,5 @@
+<map id="rcc_periph_clock_enable" name="rcc_periph_clock_enable">
+<area shape="rect" id="node2" href="$group__rtc__file.html#ga7693c69c9ff726487720b12576a20968" title="RTC Configuration on Wakeup. " alt="" coords="435,24,549,50"/>
+<area shape="rect" id="node3" href="$group__rtc__file.html#gaa4fec0b94caffb25d0acde8813a7ef5b" title="RTC Set Operational from the Off state. " alt="" coords="234,24,371,50"/>
+<area shape="rect" id="node4" href="$group__rtc__file.html#ga19032c3fbc1546712c5bc534e5ddbf48" title="RTC Start RTC after Standby Mode. " alt="" coords="219,74,387,101"/>
+</map>

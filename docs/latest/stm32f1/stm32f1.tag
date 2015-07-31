@@ -14771,6 +14771,27 @@
       <arglist>(uint32_t pllxtpre)</arglist>
     </member>
     <member kind="function">
+      <type>uint32_t</type>
+      <name>rcc_rtc_clock_enabled_flag</name>
+      <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
+      <anchor>gaf58f3540cedf5a15e31e8ac453834079</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_enable_rtc_clock</name>
+      <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
+      <anchor>gabd376925e81df9e2f78110fabcdbd893</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_rtc_clock_source</name>
+      <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
+      <anchor>ga1a7e55c7554def2e7152af495e1565a8</anchor>
+      <arglist>(enum rcc_osc clock_source)</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>rcc_set_adcpre</name>
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
@@ -17204,6 +17225,27 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gae307406af5f22597be382a3eecc7b54b</anchor>
       <arglist>(uint32_t pllxtpre)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rcc_rtc_clock_enabled_flag</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf58f3540cedf5a15e31e8ac453834079</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_enable_rtc_clock</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gabd376925e81df9e2f78110fabcdbd893</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_rtc_clock_source</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga1a7e55c7554def2e7152af495e1565a8</anchor>
+      <arglist>(enum rcc_osc clock_source)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -36193,6 +36235,27 @@
       <arglist>(uint32_t pllxtpre)</arglist>
     </member>
     <member kind="function">
+      <type>uint32_t</type>
+      <name>rcc_rtc_clock_enabled_flag</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf58f3540cedf5a15e31e8ac453834079</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_enable_rtc_clock</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gabd376925e81df9e2f78110fabcdbd893</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_rtc_clock_source</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga1a7e55c7554def2e7152af495e1565a8</anchor>
+      <arglist>(enum rcc_osc clock_source)</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>rcc_set_adcpre</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
@@ -48344,6 +48407,27 @@
       <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
       <anchor>gae307406af5f22597be382a3eecc7b54b</anchor>
       <arglist>(uint32_t pllxtpre)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>rcc_rtc_clock_enabled_flag</name>
+      <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
+      <anchor>gaf58f3540cedf5a15e31e8ac453834079</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_enable_rtc_clock</name>
+      <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
+      <anchor>gabd376925e81df9e2f78110fabcdbd893</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_rtc_clock_source</name>
+      <anchorfile>group__STM32F1xx-rcc-file.html</anchorfile>
+      <anchor>ga1a7e55c7554def2e7152af495e1565a8</anchor>
+      <arglist>(enum rcc_osc clock_source)</arglist>
     </member>
     <member kind="function">
       <type>void</type>

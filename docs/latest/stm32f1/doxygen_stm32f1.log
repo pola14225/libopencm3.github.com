@@ -63,6 +63,9 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:164: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:189: warning: Found unknown command `\parame'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:223: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: argument 'uint32_t' of command @param is not found in the argument list of rtc_set_counter_val(uint32_t counter_val)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: The following parameters of rtc_set_counter_val(uint32_t counter_val) are not documented:
+  parameter 'counter_val'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/flash.c:246: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_page(uint32_t page_address)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/flash.c:246: warning: The following parameters of flash_erase_page(uint32_t page_address) are not documented:
   parameter 'page_address'
@@ -97,3 +100,6 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:98: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:164: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:223: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: argument 'uint32_t' of command @param is not found in the argument list of rtc_set_counter_val(uint32_t counter_val)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: The following parameters of rtc_set_counter_val(uint32_t counter_val) are not documented:
+  parameter 'counter_val'
