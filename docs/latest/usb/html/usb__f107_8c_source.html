@@ -187,23 +187,23 @@ $(document).ready(function(){initNavTree('usb__f107_8c_source.html','');});
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/** Initialize the USB device controller hardware of the STM32. */</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="usb__f107_8c.html#a1d28133aed4b8b0e1d19705324cbd004">   53</a></span>&#160;<span class="keyword">static</span> <a class="code" href="struct__usbd__device.html">usbd_device</a> *<a class="code" href="usb__f107_8c.html#a1d28133aed4b8b0e1d19705324cbd004">stm32f107_usbd_init</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        OTG_FS_GINTSTS = OTG_FS_GINTSTS_MMIS;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        OTG_FS_GINTSTS = OTG_GINTSTS_MMIS;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        OTG_FS_GUSBCFG |= OTG_FS_GUSBCFG_PHYSEL;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        OTG_FS_GUSBCFG |= OTG_GUSBCFG_PHYSEL;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">/* Enable VBUS sensing in device mode and power down the PHY. */</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        OTG_FS_GCCFG |= OTG_FS_GCCFG_VBUSBSEN | OTG_FS_GCCFG_PWRDWN;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        OTG_FS_GCCFG |= OTG_GCCFG_VBUSBSEN | OTG_GCCFG_PWRDWN;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="comment">/* Wait for AHB idle. */</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">while</span> (!(OTG_FS_GRSTCTL &amp; OTG_FS_GRSTCTL_AHBIDL));</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">while</span> (!(OTG_FS_GRSTCTL &amp; OTG_GRSTCTL_AHBIDL));</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="comment">/* Do core soft reset. */</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        OTG_FS_GRSTCTL |= OTG_FS_GRSTCTL_CSRST;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">while</span> (OTG_FS_GRSTCTL &amp; OTG_FS_GRSTCTL_CSRST);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        OTG_FS_GRSTCTL |= OTG_GRSTCTL_CSRST;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">while</span> (OTG_FS_GRSTCTL &amp; OTG_GRSTCTL_CSRST);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">/* Force peripheral only mode. */</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        OTG_FS_GUSBCFG |= OTG_FS_GUSBCFG_FDMOD | OTG_FS_GUSBCFG_TRDT_MASK;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        OTG_FS_GUSBCFG |= OTG_GUSBCFG_FDMOD | OTG_GUSBCFG_TRDT_MASK;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">/* Full speed device. */</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        OTG_FS_DCFG |= OTG_FS_DCFG_DSPD;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        OTG_FS_DCFG |= OTG_DCFG_DSPD;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">/* Restart the PHY clock. */</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        OTG_FS_PCGCCTL = 0;</div>
@@ -212,14 +212,14 @@ $(document).ready(function(){initNavTree('usb__f107_8c_source.html','');});
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>.<a class="code" href="struct__usbd__device.html#a212245da83ffeb58ceb0b35df4482f82">fifo_mem_top</a> = stm32f107_usb_driver.<a class="code" href="struct__usbd__driver.html#a5fa81d06fb7e305b7218d5aa83322870">rx_fifo_size</a>;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="comment">/* Unmask interrupts for TX and RX. */</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        OTG_FS_GAHBCFG |= OTG_FS_GAHBCFG_GINT;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        OTG_FS_GINTMSK = OTG_FS_GINTMSK_ENUMDNEM |</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                         OTG_FS_GINTMSK_RXFLVLM |</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                         OTG_FS_GINTMSK_IEPINT |</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                         OTG_FS_GINTMSK_USBSUSPM |</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                         OTG_FS_GINTMSK_WUIM;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        OTG_FS_GAHBCFG |= OTG_GAHBCFG_GINT;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        OTG_FS_GINTMSK = OTG_GINTMSK_ENUMDNEM |</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                         OTG_GINTMSK_RXFLVLM |</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                         OTG_GINTMSK_IEPINT |</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                         OTG_GINTMSK_USBSUSPM |</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                         OTG_GINTMSK_WUIM;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        OTG_FS_DAINTMSK = 0xF;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        OTG_FS_DIEPMSK = OTG_FS_DIEPMSK_XFRCM;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        OTG_FS_DIEPMSK = OTG_DIEPMSK_XFRCM;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> &amp;<a class="code" href="usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
@@ -250,7 +250,7 @@ $(document).ready(function(){initNavTree('usb__f107_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_77fc19f7d89a3cad4d832c4128eaabbf.html">usb</a></li><li class="navelem"><a class="el" href="usb__f107_8c.html">usb_f107.c</a></li>
-    <li class="footer">Generated on Sun Aug 16 2015 16:21:16 for libopencm3 by
+    <li class="footer">Generated on Mon Aug 17 2015 00:21:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
