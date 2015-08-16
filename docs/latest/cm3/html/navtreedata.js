@@ -51,8 +51,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../efm32g/html/modules.html",
-"group__CM3__systick__defines.html#gaaa997323bf7f3378eb78a6277abc913f",
-"tpiu_8h.html#a819c9d9fcf2a17f910382d0747342523"
+"group__CM3__nvic__defines.html#ga55916a6ef4b3380692dc46bb0135386e",
+"scs_8h.html#a0030bb054f0013f39ef1fa5c015a64a1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -128,15 +128,23 @@ $(document).ready(function(){initNavTree('modules.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock">Here is a list of all modules:</div><div class="directory">
-<div class="levels">[detail level <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span><span onclick="javascript:toggleLevel(3);">3</span>]</div><table class="directory">
+<div class="levels">[detail level <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span><span onclick="javascript:toggleLevel(3);">3</span><span onclick="javascript:toggleLevel(4);">4</span>]</div><table class="directory">
 <tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group__debugging.html" target="_self">Debugging</a></td><td class="desc">Macros and functions to aid in debugging </td></tr>
 <tr id="row_1_"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_1_" class="arrow" onclick="toggleFolder('1_')">&#9660;</span><a class="el" href="group__CM3__defines.html" target="_self">CM3 Defines</a></td><td class="desc">Defined Constants and Types for Cortex M3 core features </td></tr>
 <tr id="row_1_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_1_0_" class="arrow" onclick="toggleFolder('1_0_')">&#9660;</span><a class="el" href="group__CM3__cortex__defines.html" target="_self">Cortex Core Defines</a></td><td class="desc"><b>libopencm3 Defined Constants and Types for the Cortex Core </b> </td></tr>
 <tr id="row_1_0_0_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__CM3__cortex__atomic__defines.html" target="_self">Cortex Core Atomic support Defines</a></td><td class="desc">Atomic operation support </td></tr>
-<tr id="row_1_1_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_1_1_" class="arrow" onclick="toggleFolder('1_1_')">&#9660;</span><a class="el" href="group__CM3__nvic__defines.html" target="_self">NVIC Defines</a></td><td class="desc"><b>libopencm3 Cortex Nested Vectored Interrupt Controller</b> </td></tr>
-<tr id="row_1_1_0_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__nvic__sysint.html" target="_self">Cortex M0/M3/M4 System Interrupts</a></td><td class="desc">IRQ numbers -3 and -6 to -9 are reserved </td></tr>
-<tr id="row_1_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_1_2_" class="arrow" onclick="toggleFolder('1_2_')">&#9660;</span><a class="el" href="group__CM3__systick__defines.html" target="_self">SysTick Defines</a></td><td class="desc"><b>libopencm3 Defined Constants and Types for the Cortex SysTick </b> </td></tr>
-<tr id="row_1_2_0_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__systick__clksource.html" target="_self">Clock source selection</a></td><td class="desc"></td></tr>
+<tr id="row_1_1_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_1_1_" class="arrow" onclick="toggleFolder('1_1_')">&#9660;</span><a class="el" href="group__CM3__mpu__defines.html" target="_self">MPU Defines</a></td><td class="desc"><b>libopencm3 Cortex Memory Protection Unit</b> </td></tr>
+<tr id="row_1_1_0_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__CM3__mpu__registers.html" target="_self">MPU Registers</a></td><td class="desc"></td></tr>
+<tr id="row_1_1_1_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__CM3__mpu__type.html" target="_self">MPU TYPE register fields</a></td><td class="desc">The MPU_TYPE register is always avilable, even if the MPU is not implemented </td></tr>
+<tr id="row_1_1_2_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__CM3__mpu__ctrl.html" target="_self">MPU CTRL register fields</a></td><td class="desc">Defines for the Control Register </td></tr>
+<tr id="row_1_1_3_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__CM3__mpu__rnr.html" target="_self">MPU RNR register fields</a></td><td class="desc">Defines for the Region Number Register </td></tr>
+<tr id="row_1_1_4_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__CM3__mpu__rbar.html" target="_self">MPU RBAR register fields</a></td><td class="desc">Defines for the Region Base Address Register </td></tr>
+<tr id="row_1_1_5_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span id="arr_1_1_5_" class="arrow" onclick="toggleFolder('1_1_5_')">&#9660;</span><a class="el" href="group__CM3__mpu__rasr.html" target="_self">MPU RASR register fields</a></td><td class="desc">Defines for the Region Attribute and Size Register </td></tr>
+<tr id="row_1_1_5_0_"><td class="entry"><span style="width:64px;display:inline-block;">&#160;</span><a class="el" href="group__mpu__rasr__attributes.html" target="_self">MPU RASR Attributes</a></td><td class="desc">Not all attributes are available on v6m </td></tr>
+<tr id="row_1_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_1_2_" class="arrow" onclick="toggleFolder('1_2_')">&#9660;</span><a class="el" href="group__CM3__nvic__defines.html" target="_self">NVIC Defines</a></td><td class="desc"><b>libopencm3 Cortex Nested Vectored Interrupt Controller</b> </td></tr>
+<tr id="row_1_2_0_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__nvic__sysint.html" target="_self">Cortex M0/M3/M4 System Interrupts</a></td><td class="desc">IRQ numbers -3 and -6 to -9 are reserved </td></tr>
+<tr id="row_1_3_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_1_3_" class="arrow" onclick="toggleFolder('1_3_')">&#9660;</span><a class="el" href="group__CM3__systick__defines.html" target="_self">SysTick Defines</a></td><td class="desc"><b>libopencm3 Defined Constants and Types for the Cortex SysTick </b> </td></tr>
+<tr id="row_1_3_0_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><a class="el" href="group__systick__clksource.html" target="_self">Clock source selection</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->
@@ -144,7 +152,7 @@ $(document).ready(function(){initNavTree('modules.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 14 2015 04:21:14 for libopencm3 by
+    <li class="footer">Generated on Sun Aug 16 2015 16:21:14 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

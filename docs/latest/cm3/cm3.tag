@@ -838,11 +838,356 @@
       <anchor>ad55a7ddb8d4b2398b0c1cfec76c0d9fd</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>aa0805ccd2bc4e42d63adb0618d2af571</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>mpu.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/cm3/</path>
     <filename>mpu_8h</filename>
+    <includes id="memorymap_8h" name="memorymap.h" local="no" imported="no">libopencm3/cm3/memorymap.h</includes>
+    <includes id="common_8h" name="common.h" local="no" imported="no">libopencm3/cm3/common.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>ga447fb17881b11fe39f65bb79e5898d55</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_CTRL</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>gac59c1bae8f9382e6becd1c655b38506c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RNR</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>ga10e61f0488920fe60665b3d608a27c29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>ga13d89764ff1b4c817123808df9aa7562</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>ga32d5201e7d796b21783202e5a8e33fea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_IREGION_LSB</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>gab28ae2317dc3aadc16b708e5a1510edc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_IREGION</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>gab5d535bf42471ae98caf7450a50d65a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_DREGION_LSB</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>gafb1971039e90e5497c3c2cfd7b3990bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_DREGION</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>gac3998202404f0fa9004d7372c6e98859</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_SEPARATE</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>ga09d0abb0ddbfbfc79e87b27df6f31efd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_CTRL_PRIVDEFENA</name>
+      <anchorfile>group__CM3__mpu__ctrl.html</anchorfile>
+      <anchor>gaab51c0ef4d298181c4658130e720c126</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_CTRL_HFNMIENA</name>
+      <anchorfile>group__CM3__mpu__ctrl.html</anchorfile>
+      <anchor>gab7ed92a5600fdd190fb3ce6c8b9eef0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_CTRL_ENABLE</name>
+      <anchorfile>group__CM3__mpu__ctrl.html</anchorfile>
+      <anchor>gab3f1e7dbe648778e2401c0a579939585</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RNR_REGION_LSB</name>
+      <anchorfile>group__CM3__mpu__rnr.html</anchorfile>
+      <anchor>ga98123943c5d9a71e1d06ae7eff10807a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RNR_REGION</name>
+      <anchorfile>group__CM3__mpu__rnr.html</anchorfile>
+      <anchor>ga2f22ba6a7bec09dc599be801b1e5f9d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR_ADDR</name>
+      <anchorfile>group__CM3__mpu__rbar.html</anchorfile>
+      <anchor>gae2c6b7cd03ceb7eb82062ce7911086c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR_VALID</name>
+      <anchorfile>group__CM3__mpu__rbar.html</anchorfile>
+      <anchor>ga719f36c3c06a6f5fbe8cc67fd1903e2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR_REGION_LSB</name>
+      <anchorfile>group__CM3__mpu__rbar.html</anchorfile>
+      <anchor>ga0e6633466b3d99bc2c65f7e739a2de59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR_REGION</name>
+      <anchorfile>group__CM3__mpu__rbar.html</anchorfile>
+      <anchor>ga4cb05b1e3cb3a9d635fc85b93e2c4da9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTRS_LSB</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>ga538bf24ca23926eb036e449dc594d806</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTRS</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>ga6cd7e70362f86d68e27cec27a06a4e46</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_SRD_LSB</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>gaa7493f37f4927ec517d9fc55aa7af5d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_SRD</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>gade83657e2b7f62608d7160f14631e6aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_SIZE_LSB</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>ga6b1b4632db54dbe71f400ce26b40db54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_SIZE</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>gaf909fd3ca3b12934dd93f7c1cd4c994b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ENABLE</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>ga8f9403a4a9718e179fd52e6612698e9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_XN</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga8494f9fabba8af1e8f397fde1a5a76a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga9688f6838d3f17fba9eb1581fa5f3b84</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PNO_UNO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga670f8a6bd8f69aefead5e3a2f8059231</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRW_UNO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gad89fc95313103e7723e195d23e50e785</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRW_URO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga4541710ecbda3c1bff720e0086976ff0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRW_URW</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga18c70558bd861f5b1a3352cb7748e4e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRO_UNO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga4760760c666ac9d11dbbe57b471da479</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRO_URO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga8bd0320aea68d3736414c461156033b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRO_URO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga8bd0320aea68d3736414c461156033b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_TEX</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga2e9e119a16470b11f6b156d038f98084</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_S</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga96f81f7253442d78164e662d19b459f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_C</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga29f69c858cf0ca9c9bbf9d2994e1de85</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_B</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga84a14ac83f728272743d3fa779c34684</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga0e681a374dabd53acd3b96e0080b4816</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_STRONG</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gaebcf30a443ccf25fdf378a0ec8af7952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_DEVICE</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gae726afdabe961d8802bb1ea2716beb87</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_NSH_WT</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gac2b174cab49b923e8c917fb3afe6acc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_NSH_WB</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gaad4c05e7670403ae71a753249e314a45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_STRONG</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gaebcf30a443ccf25fdf378a0ec8af7952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_DEVICE</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gae726afdabe961d8802bb1ea2716beb87</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_WT</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga5ccd1bf919f13f7ee79092e05234285f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_WB</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gaf7d8832167d14210cbcedf3f67fa8f65</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>nvic.h</name>
@@ -2571,8 +2916,392 @@
     <title>CM3 Defines</title>
     <filename>group__CM3__defines.html</filename>
     <subgroup>CM3_cortex_defines</subgroup>
+    <subgroup>CM3_mpu_defines</subgroup>
     <subgroup>CM3_nvic_defines</subgroup>
     <subgroup>CM3_systick_defines</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>CM3_mpu_defines</name>
+    <title>MPU Defines</title>
+    <filename>group__CM3__mpu__defines.html</filename>
+    <subgroup>CM3_mpu_registers</subgroup>
+    <subgroup>CM3_mpu_type</subgroup>
+    <subgroup>CM3_mpu_ctrl</subgroup>
+    <subgroup>CM3_mpu_rnr</subgroup>
+    <subgroup>CM3_mpu_rbar</subgroup>
+    <subgroup>CM3_mpu_rasr</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>CM3_mpu_registers</name>
+    <title>MPU Registers</title>
+    <filename>group__CM3__mpu__registers.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>ga447fb17881b11fe39f65bb79e5898d55</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_CTRL</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>gac59c1bae8f9382e6becd1c655b38506c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RNR</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>ga10e61f0488920fe60665b3d608a27c29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>ga13d89764ff1b4c817123808df9aa7562</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR</name>
+      <anchorfile>group__CM3__mpu__registers.html</anchorfile>
+      <anchor>ga32d5201e7d796b21783202e5a8e33fea</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>CM3_mpu_type</name>
+    <title>MPU TYPE register fields</title>
+    <filename>group__CM3__mpu__type.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_IREGION_LSB</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>gab28ae2317dc3aadc16b708e5a1510edc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_IREGION</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>gab5d535bf42471ae98caf7450a50d65a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_DREGION_LSB</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>gafb1971039e90e5497c3c2cfd7b3990bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_DREGION</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>gac3998202404f0fa9004d7372c6e98859</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_TYPE_SEPARATE</name>
+      <anchorfile>group__CM3__mpu__type.html</anchorfile>
+      <anchor>ga09d0abb0ddbfbfc79e87b27df6f31efd</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>CM3_mpu_ctrl</name>
+    <title>MPU CTRL register fields</title>
+    <filename>group__CM3__mpu__ctrl.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_CTRL_PRIVDEFENA</name>
+      <anchorfile>group__CM3__mpu__ctrl.html</anchorfile>
+      <anchor>gaab51c0ef4d298181c4658130e720c126</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_CTRL_HFNMIENA</name>
+      <anchorfile>group__CM3__mpu__ctrl.html</anchorfile>
+      <anchor>gab7ed92a5600fdd190fb3ce6c8b9eef0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_CTRL_ENABLE</name>
+      <anchorfile>group__CM3__mpu__ctrl.html</anchorfile>
+      <anchor>gab3f1e7dbe648778e2401c0a579939585</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>CM3_mpu_rnr</name>
+    <title>MPU RNR register fields</title>
+    <filename>group__CM3__mpu__rnr.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RNR_REGION_LSB</name>
+      <anchorfile>group__CM3__mpu__rnr.html</anchorfile>
+      <anchor>ga98123943c5d9a71e1d06ae7eff10807a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RNR_REGION</name>
+      <anchorfile>group__CM3__mpu__rnr.html</anchorfile>
+      <anchor>ga2f22ba6a7bec09dc599be801b1e5f9d5</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>CM3_mpu_rbar</name>
+    <title>MPU RBAR register fields</title>
+    <filename>group__CM3__mpu__rbar.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR_ADDR</name>
+      <anchorfile>group__CM3__mpu__rbar.html</anchorfile>
+      <anchor>gae2c6b7cd03ceb7eb82062ce7911086c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR_VALID</name>
+      <anchorfile>group__CM3__mpu__rbar.html</anchorfile>
+      <anchor>ga719f36c3c06a6f5fbe8cc67fd1903e2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR_REGION_LSB</name>
+      <anchorfile>group__CM3__mpu__rbar.html</anchorfile>
+      <anchor>ga0e6633466b3d99bc2c65f7e739a2de59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RBAR_REGION</name>
+      <anchorfile>group__CM3__mpu__rbar.html</anchorfile>
+      <anchor>ga4cb05b1e3cb3a9d635fc85b93e2c4da9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>CM3_mpu_rasr</name>
+    <title>MPU RASR register fields</title>
+    <filename>group__CM3__mpu__rasr.html</filename>
+    <subgroup>mpu_rasr_attributes</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTRS_LSB</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>ga538bf24ca23926eb036e449dc594d806</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTRS</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>ga6cd7e70362f86d68e27cec27a06a4e46</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_SRD_LSB</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>gaa7493f37f4927ec517d9fc55aa7af5d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_SRD</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>gade83657e2b7f62608d7160f14631e6aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_SIZE_LSB</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>ga6b1b4632db54dbe71f400ce26b40db54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_SIZE</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>gaf909fd3ca3b12934dd93f7c1cd4c994b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ENABLE</name>
+      <anchorfile>group__CM3__mpu__rasr.html</anchorfile>
+      <anchor>ga8f9403a4a9718e179fd52e6612698e9f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>mpu_rasr_attributes</name>
+    <title>MPU RASR Attributes</title>
+    <filename>group__mpu__rasr__attributes.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_XN</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga8494f9fabba8af1e8f397fde1a5a76a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga9688f6838d3f17fba9eb1581fa5f3b84</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PNO_UNO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga670f8a6bd8f69aefead5e3a2f8059231</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRW_UNO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gad89fc95313103e7723e195d23e50e785</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRW_URO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga4541710ecbda3c1bff720e0086976ff0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRW_URW</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga18c70558bd861f5b1a3352cb7748e4e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRO_UNO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga4760760c666ac9d11dbbe57b471da479</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRO_URO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga8bd0320aea68d3736414c461156033b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_AP_PRO_URO</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga8bd0320aea68d3736414c461156033b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_TEX</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga2e9e119a16470b11f6b156d038f98084</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_S</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga96f81f7253442d78164e662d19b459f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_C</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga29f69c858cf0ca9c9bbf9d2994e1de85</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_B</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga84a14ac83f728272743d3fa779c34684</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga0e681a374dabd53acd3b96e0080b4816</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_STRONG</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gaebcf30a443ccf25fdf378a0ec8af7952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_STRONG</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gaebcf30a443ccf25fdf378a0ec8af7952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_DEVICE</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gae726afdabe961d8802bb1ea2716beb87</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_DEVICE</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gae726afdabe961d8802bb1ea2716beb87</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_NSH_WT</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gac2b174cab49b923e8c917fb3afe6acc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_NSH_WB</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gaad4c05e7670403ae71a753249e314a45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_WT</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>ga5ccd1bf919f13f7ee79092e05234285f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MPU_RASR_ATTR_SCB_SH_WB</name>
+      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
+      <anchor>gaf7d8832167d14210cbcedf3f67fa8f65</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>CM3_nvic_defines</name>

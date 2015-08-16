@@ -7,7 +7,7 @@ var indexSectionsWithContent =
   4: "bdhilmnprsux",
   5: "v",
   6: "bcdefilmnpst",
-  7: "cdns",
+  7: "cdmns",
   8: "l"
 };
 

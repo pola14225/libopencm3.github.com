@@ -140,7 +140,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="memorymap_8h__dep__incl.png" border="0" usemap="#memorymap_8hdep" alt=""/></div>
 <map name="memorymap_8hdep" id="memorymap_8hdep">
-<area shape="rect" id="node2" href="dwt_8h.html" title="dwt.h" alt="" coords="5,80,60,107"/><area shape="rect" id="node3" href="nvic_8h.html" title="nvic.h" alt="" coords="84,80,141,107"/><area shape="rect" id="node5" href="scb_8h.html" title="scb.h" alt="" coords="165,80,220,107"/><area shape="rect" id="node6" href="systick_8h.html" title="systick.h" alt="" coords="245,80,319,107"/><area shape="rect" id="node4" href="vector_8h.html" title="Definitions for handling vector tables. " alt="" coords="78,155,147,181"/></map>
+<area shape="rect" id="node2" href="dwt_8h.html" title="dwt.h" alt="" coords="5,80,60,107"/><area shape="rect" id="node3" href="mpu_8h.html" title="mpu.h" alt="" coords="85,80,143,107"/><area shape="rect" id="node4" href="nvic_8h.html" title="nvic.h" alt="" coords="168,80,225,107"/><area shape="rect" id="node6" href="scb_8h.html" title="scb.h" alt="" coords="249,80,304,107"/><area shape="rect" id="node7" href="systick_8h.html" title="systick.h" alt="" coords="329,80,403,107"/><area shape="rect" id="node5" href="vector_8h.html" title="Definitions for handling vector tables. " alt="" coords="162,155,231,181"/></map>
 </div>
 </div>
 <p><a href="memorymap_8h_source.html">Go to the source code of this file.</a></p>
@@ -157,8 +157,24 @@ Macros</h2></td></tr>
 <tr class="separator:aa0288691785a5f868238e0468b39523d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad55a7ddb8d4b2398b0c1cfec76c0d9fd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#ad55a7ddb8d4b2398b0c1cfec76c0d9fd">SCB_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0D00)</td></tr>
 <tr class="separator:ad55a7ddb8d4b2398b0c1cfec76c0d9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0805ccd2bc4e42d63adb0618d2af571"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="memorymap_8h.html#aa0805ccd2bc4e42d63adb0618d2af571">MPU_BASE</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0D90)</td></tr>
+<tr class="separator:aa0805ccd2bc4e42d63adb0618d2af571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="aa0805ccd2bc4e42d63adb0618d2af571"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MPU_BASE&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#a3c14ed93192c8d9143322bbf77ebf770">SCS_BASE</a> + 0x0D90)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="memorymap_8h_source.html#l00069">69</a> of file <a class="el" href="memorymap_8h_source.html">memorymap.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa0288691785a5f868238e0468b39523d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +251,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Fri Aug 14 2015 04:21:14 for libopencm3 by
+    <li class="footer">Generated on Sun Aug 16 2015 16:21:14 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
