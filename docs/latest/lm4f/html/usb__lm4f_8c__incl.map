@@ -1,6 +1,0 @@
-<map id="usb_lm4f.c" name="usb_lm4f.c">
-<area shape="rect" id="node3" href="$usb_8h.html" title="libopencm3/lm4f/usb.h" alt="" coords="25,155,178,181"/>
-<area shape="rect" id="node5" href="$rcc_8h.html" title="libopencm3/lm4f/rcc.h" alt="" coords="139,80,290,107"/>
-<area shape="rect" id="node4" href="$memorymap_8h.html" title="libopencm3/lm4f/memorymap.h" alt="" coords="75,229,279,256"/>
-<area shape="rect" id="node6" href="$systemcontrol_8h.html" title="libopencm3/lm4f/systemcontrol.h" alt="" coords="202,155,417,181"/>
-</map>

@@ -14,6 +14,7 @@ var files =
     [ "usb_f207.c", "usb__f207_8c.html", "usb__f207_8c" ],
     [ "usb_fx07_common.c", "usb__fx07__common_8c.html", "usb__fx07__common_8c" ],
     [ "usb_fx07_common.h", "usb__fx07__common_8h.html", "usb__fx07__common_8h" ],
+    [ "usb_lm4f.c", "usb__lm4f_8c.html", "usb__lm4f_8c" ],
     [ "usb_msc.c", "usb__msc_8c.html", "usb__msc_8c" ],
     [ "usb_private.h", "usb__private_8h.html", "usb__private_8h" ],
     [ "usb_standard.c", "usb__standard_8c.html", "usb__standard_8c" ],

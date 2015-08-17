@@ -477,10 +477,8 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gad6acfc8a14795d10ae71053b0cfbf717"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#gad6acfc8a14795d10ae71053b0cfbf717">usb_enable_interrupts</a> (enum <a class="el" href="group__usb__defines.html#ga0f2f22f2ab06463da36ae9c6c2a63ea6">usb_interrupt</a> ints, enum <a class="el" href="group__usb__defines.html#gaf0a19719081410c9b09041a7dd65cd11">usb_ep_interrupt</a> rx_ints, enum <a class="el" href="group__usb__defines.html#gaf0a19719081410c9b09041a7dd65cd11">usb_ep_interrupt</a> tx_ints)</td></tr>
-<tr class="memdesc:gad6acfc8a14795d10ae71053b0cfbf717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Specific USB Interrupts.  <a href="#gad6acfc8a14795d10ae71053b0cfbf717">More...</a><br /></td></tr>
 <tr class="separator:gad6acfc8a14795d10ae71053b0cfbf717"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga86efee4380227664681caba4d4c2a010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#ga86efee4380227664681caba4d4c2a010">usb_disable_interrupts</a> (enum <a class="el" href="group__usb__defines.html#ga0f2f22f2ab06463da36ae9c6c2a63ea6">usb_interrupt</a> ints, enum <a class="el" href="group__usb__defines.html#gaf0a19719081410c9b09041a7dd65cd11">usb_ep_interrupt</a> rx_ints, enum <a class="el" href="group__usb__defines.html#gaf0a19719081410c9b09041a7dd65cd11">usb_ep_interrupt</a> tx_ints)</td></tr>
-<tr class="memdesc:ga86efee4380227664681caba4d4c2a010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable Specific USB Interrupts.  <a href="#ga86efee4380227664681caba4d4c2a010">More...</a><br /></td></tr>
 <tr class="separator:ga86efee4380227664681caba4d4c2a010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -1264,8 +1262,6 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb_8h_source.html#l00070">70</a> of file <a class="el" href="usb_8h_source.html">usb.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__lm4f_8c_source.html#l00158">usb_disable_interrupts()</a>, and <a class="el" href="usb__lm4f_8c_source.html#l00132">usb_enable_interrupts()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga7d16c57db8f5544d983924d2234dc79a"></a>
@@ -1936,8 +1932,6 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb_8h_source.html#l00064">64</a> of file <a class="el" href="usb_8h_source.html">usb.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__lm4f_8c_source.html#l00158">usb_disable_interrupts()</a>, and <a class="el" href="usb__lm4f_8c_source.html#l00132">usb_enable_interrupts()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gaf2c9fffa60198a23c882e7ddf8549d83"></a>
@@ -2316,8 +2310,6 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb_8h_source.html#l00061">61</a> of file <a class="el" href="usb_8h_source.html">usb.h</a>.</p>
 
-<p>Referenced by <a class="el" href="usb__lm4f_8c_source.html#l00158">usb_disable_interrupts()</a>, and <a class="el" href="usb__lm4f_8c_source.html#l00132">usb_enable_interrupts()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga03e4c678a0ddae17ca23e85e65f26814"></a>
@@ -2442,22 +2434,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Disable Specific USB Interrupts. </p>
-<p>Disable any combination of interrupts. Interrupts may be OR'ed together to enable them with one call. For example, to disable both the RESUME and RESET interrupts, pass (USB_INT_RESUME | USB_INT_RESET)</p>
-<p>Note that the NVIC must be enabled and properly configured for the interrupt to be routed to the CPU.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ints</td><td>Interrupts which to disable. Any combination of interrupts may be specified by OR'ing then together </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">rx_ints</td><td>Endpoints for which to stop generating an interrupt when a packet packet is received. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">tx_ints</td><td>Endpoints for which to stop generating an interrupt when a packet packet is finished transmitting. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="usb__lm4f_8c_source.html#l00158">158</a> of file <a class="el" href="usb__lm4f_8c_source.html">usb_lm4f.c</a>.</p>
-
-<p>References <a class="el" href="usb_8h_source.html#l00070">USB_IE</a>, <a class="el" href="usb_8h_source.html#l00064">USB_RXIE</a>, and <a class="el" href="usb_8h_source.html#l00061">USB_TXIE</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gad6acfc8a14795d10ae71053b0cfbf717"></a>
@@ -2490,22 +2466,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Enable Specific USB Interrupts. </p>
-<p>Enable any combination of interrupts. Interrupts may be OR'ed together to enable them with one call. For example, to enable both the RESUME and RESET interrupts, pass (USB_INT_RESUME | USB_INT_RESET)</p>
-<p>Note that the NVIC must be enabled and properly configured for the interrupt to be routed to the CPU.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ints</td><td>Interrupts which to enable. Any combination of interrupts may be specified by OR'ing then together </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">rx_ints</td><td>Endpoints for which to generate an interrupt when a packet packet is received. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">tx_ints</td><td>Endpoints for which to generate an interrupt when a packet packet is finished transmitting. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="usb__lm4f_8c_source.html#l00132">132</a> of file <a class="el" href="usb__lm4f_8c_source.html">usb_lm4f.c</a>.</p>
-
-<p>References <a class="el" href="usb_8h_source.html#l00070">USB_IE</a>, <a class="el" href="usb_8h_source.html#l00064">USB_RXIE</a>, and <a class="el" href="usb_8h_source.html#l00061">USB_TXIE</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -2513,7 +2473,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Aug 17 2015 03:22:55 for libopencm3 by
+    <li class="footer">Generated on Mon Aug 17 2015 21:22:37 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

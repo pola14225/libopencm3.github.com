@@ -39,6 +39,3 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:322: warning: The following parameters of uart_send_blocking(uint32_t uart, uint16_t data) are not documented:
   parameter 'data'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/uart.c:358: warning: unable to resolve reference to `nvic_enable_irq()' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/usb_lm4f.c:42: warning: unable to resolve reference to `usbd_poll()' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/usb_lm4f.c:53: warning: unable to resolve reference to `usbd_poll()' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/usb_lm4f.c:70: warning: unable to resolve reference to `usbd_poll()' for \ref command

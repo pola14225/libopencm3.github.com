@@ -45,14 +45,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__gpio__pin__id.html#ga20f88dbc839eb32b5fec903474befdd7",
-"group__ssi__defines.html#gac92b2290be2869027821a1fc31c5a43e",
-"group__systemcontrol__defines.html#ga734cc69a16872dc5b0435dfc8e33ce8c",
-"group__systemcontrol__defines.html#gaf6c69bc3b36566ab6b64e00bff1b2c8a",
-"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7caad3a48f5b917e478e276d137c0854433",
-"group__uart__defines.html#ga4fe2390470f14c8fcb46696182667908",
-"group__uart__defines.html#ggad02c1455d23262a6dbda84d6053d1f7eafcfec516eb93a5484263c358cfe27fe9",
-"group__usb__defines.html#ga9e33ae0ff5e70604f711bc6f391524ab"
+"group__gpio__pin__id.html#ga3820cacb614277004870fc37b33ad084",
+"group__ssi__defines.html#gaca41a444d99801dc07b1609434322289",
+"group__systemcontrol__defines.html#ga7448a6a094aaef1fd7f75728ede64b52",
+"group__systemcontrol__defines.html#gaf73977c87d091aa6159296f472745bf1",
+"group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab043d91156620faf65bd2e7ba3b4892f",
+"group__uart__defines.html#ga5033a846ffa37746dd420f0abbd192f5",
+"group__uart__defines.html#ggaef0010d952178bd0d851bcf3b63daecaa38e4b2e7c5b38024a01f2195748b77f3",
+"group__usb__defines.html#gaa0f1b7e9ac27a773a386af520e89980d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

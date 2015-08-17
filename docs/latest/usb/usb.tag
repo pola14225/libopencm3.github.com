@@ -1079,6 +1079,32 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>usb_lm4f.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
+    <filename>usb__lm4f_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_enable_interrupts</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>gad6acfc8a14795d10ae71053b0cfbf717</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_disable_interrupts</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>ga86efee4380227664681caba4d4c2a010</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="variable">
+      <type>const struct _usbd_driver</type>
+      <name>lm4f_usb_driver</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>gaedb3ad0d80317ac7e69d6e616077df06</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>usb_msc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
     <filename>usb__msc_8c</filename>
@@ -4721,6 +4747,32 @@
       <anchorfile>group__usb__control__file.html</anchorfile>
       <anchor>gab9305438ecc3aaa7359aacdbc4f55c29</anchor>
       <arglist>(usbd_device *usbd_dev, struct usb_setup_data *req)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>usb_file</name>
+    <title>USB</title>
+    <filename>group__usb__file.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_enable_interrupts</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>gad6acfc8a14795d10ae71053b0cfbf717</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usb_disable_interrupts</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>ga86efee4380227664681caba4d4c2a010</anchor>
+      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
+    </member>
+    <member kind="variable">
+      <type>const struct _usbd_driver</type>
+      <name>lm4f_usb_driver</name>
+      <anchorfile>group__usb__file.html</anchorfile>
+      <anchor>gaedb3ad0d80317ac7e69d6e616077df06</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="group">

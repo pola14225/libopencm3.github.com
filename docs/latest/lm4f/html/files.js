@@ -12,6 +12,5 @@ var files =
     [ "systemcontrol.h", "systemcontrol_8h.html", "systemcontrol_8h" ],
     [ "uart.c", "uart_8c.html", "uart_8c" ],
     [ "uart.h", "uart_8h.html", "uart_8h" ],
-    [ "usb.h", "usb_8h.html", "usb_8h" ],
-    [ "usb_lm4f.c", "usb__lm4f_8c.html", "usb__lm4f_8c" ]
+    [ "usb.h", "usb_8h.html", "usb_8h" ]
 ];

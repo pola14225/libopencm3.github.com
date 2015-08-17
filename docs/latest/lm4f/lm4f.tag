@@ -5613,41 +5613,6 @@
       <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
     </member>
   </compound>
-  <compound kind="file">
-    <name>usb_lm4f.c</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/</path>
-    <filename>usb__lm4f_8c</filename>
-    <includes id="usb_8h" name="usb.h" local="no" imported="no">libopencm3/lm4f/usb.h</includes>
-    <includes id="rcc_8h" name="rcc.h" local="no" imported="no">libopencm3/lm4f/rcc.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>MAX_FIFO_RAM</name>
-      <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>gad5f9b20acf4cf9b527ae4463b4940971</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usb_enable_interrupts</name>
-      <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>gad6acfc8a14795d10ae71053b0cfbf717</anchor>
-      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usb_disable_interrupts</name>
-      <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>ga86efee4380227664681caba4d4c2a010</anchor>
-      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
-    </member>
-    <member kind="variable">
-      <type>const struct _usbd_driver</type>
-      <name>lm4f_usb_driver</name>
-      <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>gaedb3ad0d80317ac7e69d6e616077df06</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
   <compound kind="group">
     <name>LM4Fxx</name>
     <title>LM4F</title>
@@ -5655,7 +5620,6 @@
     <subgroup>gpio_file</subgroup>
     <subgroup>rcc_file</subgroup>
     <subgroup>uart_file</subgroup>
-    <subgroup>usb_file</subgroup>
   </compound>
   <compound kind="group">
     <name>LM4Fxx_defines</name>
@@ -11029,39 +10993,6 @@
       <anchorfile>group__uart__fifo.html</anchorfile>
       <anchor>ga840603de8127f2b63abdd1f5d113f938</anchor>
       <arglist>(uint32_t uart)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>usb_file</name>
-    <title>USB</title>
-    <filename>group__usb__file.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>MAX_FIFO_RAM</name>
-      <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>gad5f9b20acf4cf9b527ae4463b4940971</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usb_enable_interrupts</name>
-      <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>gad6acfc8a14795d10ae71053b0cfbf717</anchor>
-      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usb_disable_interrupts</name>
-      <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>ga86efee4380227664681caba4d4c2a010</anchor>
-      <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
-    </member>
-    <member kind="variable">
-      <type>const struct _usbd_driver</type>
-      <name>lm4f_usb_driver</name>
-      <anchorfile>group__usb__file.html</anchorfile>
-      <anchor>gaedb3ad0d80317ac7e69d6e616077df06</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="page">

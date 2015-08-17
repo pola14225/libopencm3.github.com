@@ -1,5 +1,13 @@
 var NAVTREEINDEX2 =
 {
+"struct__usbd__device.html#ad780343e8e2776ce99b9dd302b77c2e2":[4,1,7,0,8],
+"struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7":[4,1,7,0,22],
+"struct__usbd__device.html#ae60b7e4cb2c404b6e86fdf6bbafdb5d5":[4,1,7,0,0],
+"struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd":[4,1,7,0,16],
+"struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18":[4,1,7,0,18],
+"struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29":[4,1,7,0,21],
+"struct__usbd__device_1_1usb__control__state.html":[4,1,7,2],
+"struct__usbd__device_1_1usb__control__state.html#a261f6c057a987f0ad538ecc8ad4d49b3":[4,1,7,2,10],
 "struct__usbd__device_1_1usb__control__state.html#a2dfd02e13d09c8452ef9e9d346465027":[4,1,7,2,8],
 "struct__usbd__device_1_1usb__control__state.html#a617f3bff0d8d121186ed08d902c63e12":[4,1,7,2,9],
 "struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e":[4,1,7,2,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX2 =
 "structusb__msc__cbw.html#a9b19b64641e14f1f74bc51b0af55974f":[27,0,34,3],
 "structusb__msc__cbw.html#aa27e149aae7423c6dc3e430cb5a57795":[27,0,34,0],
 "structusb__msc__cbw.html#af2ae2bce99068e5b4ea7081f023bab2a":[27,0,34,4],
-"structusb__msc__csw.html":[27,0,35],
-"structusb__msc__csw.html#a4c8ecc71a403a7050f071b964028cd73":[27,0,35,3],
-"structusb__msc__csw.html#aa1c2d8d8b2b16b50e9d57e60fd19ca2f":[27,0,35,0],
-"structusb__msc__csw.html#aebc2d944ccc8284dbd9e836d30089aad":[27,0,35,2],
-"structusb__msc__csw.html#af6a50ce0fb8b6daa4dc40167daffa83e":[27,0,35,1],
-"structusb__msc__trans.html":[27,0,36],
-"structusb__msc__trans.html#a1d117026e81d2374395c64d7bc76bd7d":[27,0,36,5],
-"structusb__msc__trans.html#a20a39235ec981a6fa29e9fc739d9b4a9":[27,0,36,12],
-"structusb__msc__trans.html#a2a19069abdeca0556cbe90c8af463fde":[27,0,36,7]
+"structusb__msc__csw.html":[27,0,35]
 };
