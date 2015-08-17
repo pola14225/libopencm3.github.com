@@ -70,5 +70,6 @@ var memorymap_8h =
     [ "USB_CAN_SRAM_BASE", "memorymap_8h.html#ade913a15116e902590e0e0498da77d76", null ],
     [ "USB_DEV_FS_BASE", "memorymap_8h.html#abc2885c95e0fe23dcd7ebf09f495acea", null ],
     [ "USB_OTG_FS_BASE", "memorymap_8h.html#af675fae82dff3dc26f7a080985ef8883", null ],
+    [ "USB_PMA_BASE", "memorymap_8h.html#a80ea708920a3a1202df050a29d67f36c", null ],
     [ "WWDG_BASE", "memorymap_8h.html#a9a5bf4728ab93dea5b569f5b972cbe62", null ]
 ];

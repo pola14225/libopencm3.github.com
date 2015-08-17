@@ -7,5 +7,6 @@ var searchData=
   ['usart3_5fbase',['USART3_BASE',['../memorymap_8h.html#abe0d6539ac0026d598274ee7f45b0251',1,'memorymap.h']]],
   ['usb_5fcan_5fsram_5fbase',['USB_CAN_SRAM_BASE',['../memorymap_8h.html#ade913a15116e902590e0e0498da77d76',1,'memorymap.h']]],
   ['usb_5fdev_5ffs_5fbase',['USB_DEV_FS_BASE',['../memorymap_8h.html#abc2885c95e0fe23dcd7ebf09f495acea',1,'memorymap.h']]],
-  ['usb_5fotg_5ffs_5fbase',['USB_OTG_FS_BASE',['../memorymap_8h.html#af675fae82dff3dc26f7a080985ef8883',1,'memorymap.h']]]
+  ['usb_5fotg_5ffs_5fbase',['USB_OTG_FS_BASE',['../memorymap_8h.html#af675fae82dff3dc26f7a080985ef8883',1,'memorymap.h']]],
+  ['usb_5fpma_5fbase',['USB_PMA_BASE',['../memorymap_8h.html#a80ea708920a3a1202df050a29d67f36c',1,'memorymap.h']]]
 ];

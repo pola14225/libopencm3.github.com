@@ -255,5 +255,5 @@ var searchData=
   ['usart_5fwait_5frecv_5fready',['usart_wait_recv_ready',['../group__usart__defines.html#ga4b3dd5bff30927f603d5acc433cc2073',1,'usart_wait_recv_ready(uint32_t usart):&#160;usart.c'],['../group__usart__defines.html#ga4b3dd5bff30927f603d5acc433cc2073',1,'usart_wait_recv_ready(uint32_t usart):&#160;usart.c']]],
   ['usart_5fwait_5fsend_5fready',['usart_wait_send_ready',['../group__usart__defines.html#ga6d6df6e7a152e4d6e7c433a810403258',1,'usart_wait_send_ready(uint32_t usart):&#160;usart.c'],['../group__usart__defines.html#ga6d6df6e7a152e4d6e7c433a810403258',1,'usart_wait_send_ready(uint32_t usart):&#160;usart.c']]],
   ['usb_5fdev_5ffs_5fbase',['USB_DEV_FS_BASE',['../memorymap_8h.html#abc2885c95e0fe23dcd7ebf09f495acea',1,'memorymap.h']]],
-  ['usb_5fsram_5fbase',['USB_SRAM_BASE',['../memorymap_8h.html#ada0f5e3f2d7f243b73ae631120a6461b',1,'memorymap.h']]]
+  ['usb_5fpma_5fbase',['USB_PMA_BASE',['../memorymap_8h.html#a80ea708920a3a1202df050a29d67f36c',1,'memorymap.h']]]
 ];

@@ -13941,6 +13941,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>USB_PMA_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a80ea708920a3a1202df050a29d67f36c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>USB_CAN_SRAM_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>ade913a15116e902590e0e0498da77d76</anchor>

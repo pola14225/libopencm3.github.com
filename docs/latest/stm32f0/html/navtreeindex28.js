@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"syscfg_8h.html":[27,0,62],
 "syscfg_8h_source.html":[27,0,62],
 "timer_8c.html":[27,0,63],
 "timer_8c_source.html":[27,0,63],

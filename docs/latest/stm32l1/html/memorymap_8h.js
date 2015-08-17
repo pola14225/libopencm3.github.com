@@ -62,6 +62,6 @@ var memorymap_8h =
     [ "USART4_BASE", "memorymap_8h.html#afa384bb1e7d610a806f7c1f1dbc72ac5", null ],
     [ "USART5_BASE", "memorymap_8h.html#ab34de0b56d40b6895b53bb60ced2574f", null ],
     [ "USB_DEV_FS_BASE", "memorymap_8h.html#abc2885c95e0fe23dcd7ebf09f495acea", null ],
-    [ "USB_SRAM_BASE", "memorymap_8h.html#ada0f5e3f2d7f243b73ae631120a6461b", null ],
+    [ "USB_PMA_BASE", "memorymap_8h.html#a80ea708920a3a1202df050a29d67f36c", null ],
     [ "WWDG_BASE", "memorymap_8h.html#a9a5bf4728ab93dea5b569f5b972cbe62", null ]
 ];

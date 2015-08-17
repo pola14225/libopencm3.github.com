@@ -208,5 +208,6 @@ var searchData=
   ['usart_5frtor_5frto_5fshift',['USART_RTOR_RTO_SHIFT',['../usart_8h.html#a302fdfc7e15f8b0484909a5963a3857f',1,'usart.h']]],
   ['usart_5frtor_5frto_5fval',['USART_RTOR_RTO_VAL',['../usart_8h.html#aa9546b2fca47096ed22c4b048033a656',1,'usart.h']]],
   ['usart_5ftdr',['USART_TDR',['../usart_8h.html#a5def5b8ad0056ebbc9c1788004d20651',1,'usart.h']]],
-  ['usb_5fdev_5ffs_5fbase',['USB_DEV_FS_BASE',['../memorymap_8h.html#abc2885c95e0fe23dcd7ebf09f495acea',1,'memorymap.h']]]
+  ['usb_5fdev_5ffs_5fbase',['USB_DEV_FS_BASE',['../memorymap_8h.html#abc2885c95e0fe23dcd7ebf09f495acea',1,'memorymap.h']]],
+  ['usb_5fpma_5fbase',['USB_PMA_BASE',['../memorymap_8h.html#a80ea708920a3a1202df050a29d67f36c',1,'memorymap.h']]]
 ];
