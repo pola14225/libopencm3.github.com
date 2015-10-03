@@ -2,6 +2,7 @@ var modules =
 [
     [ "STM32L0xx", "group__STM32L0xx.html", "group__STM32L0xx" ],
     [ "STM32L0xx Defines", "group__STM32L0xx__defines.html", "group__STM32L0xx__defines" ],
+    [ "USB Defines", "group__usb__defines.html", "group__usb__defines" ],
     [ "Adc_defines", "group__adc__defines.html", "group__adc__defines" ],
     [ "Crc_defines", "group__crc__defines.html", "group__crc__defines" ],
     [ "Crypto_defines", "group__crypto__defines.html", "group__crypto__defines" ],

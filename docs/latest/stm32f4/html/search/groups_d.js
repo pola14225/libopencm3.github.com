@@ -7,5 +7,6 @@ var searchData=
   ['usart_20defines',['USART Defines',['../group__usart__defines.html',1,'']]],
   ['usart',['USART',['../group__usart__file.html',1,'']]],
   ['usart_20register_20base_20addresses',['USART register base addresses',['../group__usart__reg__base.html',1,'']]],
-  ['usart_20status_20register_20flags',['USART Status register Flags',['../group__usart__sr__flags.html',1,'']]]
+  ['usart_20status_20register_20flags',['USART Status register Flags',['../group__usart__sr__flags.html',1,'']]],
+  ['usb_20defines',['USB Defines',['../group__usb__defines.html',1,'']]]
 ];

@@ -17724,6 +17724,1145 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>st_usbfs.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f0/</path>
+    <filename>st__usbfs_8h</filename>
+  </compound>
+  <compound kind="file">
+    <name>st_usbfs_common.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>st__usbfs__common_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga22a9d5bd9c54efca174cf816e07c6cf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaed445badcab6d706e1090b92a86610a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga2787ea63071d1d406060e7ea76ac427c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_DADDR_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga1581f3d0dd4254a01979e029a9219efb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BTABLE_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf6420d08b44350af9c13d7830596061d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga677981b32e8c95c11c0716155e8b8553</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_CTRM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf00ba2990a5f24fb0e05802d82f24abc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_PMAOVRM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaaf2a125a2e5bc4362faa7be62f6dafc6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_ERRM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa5f7187f084256a9445a3cac84b11cb5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_WKUPM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa88ca8d955846272e2541b8e13f29343</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_SUSPM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga0ae46eb0e83618bc7267543b7e6beaea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_RESETM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4542414ab68ac0a722f9f3853b5c7a84</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_SOFM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gae21d26a7822bae0b6cc512782a75d44e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_ESOFM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga71fe7bddc1d39bf24e1bca420210f31c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_RESUME</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4dfc6611f4a04fd70dbe993d81d421e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_FSUSP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaec679add6d4151c3b39e43a33e05466a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_LP_MODE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga1f1470b7921ac311a949ec100cf0228a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_PWDN</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa2973feccbe5b7006e66893ddf5c8b8e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_FRES</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga36c68275445560edf0ccb7aa76bc769f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf7f60ffd5846c9e50d93ae095290c575</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_PMAOVR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa4581fce2e7008ea4be136cdfc3936e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_ERR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga50875e0075a050305a676eadcf6a5c3a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_WKUP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga84e13c7c106d028a20a8af0244f66532</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_SUSP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa4853d529d9326e3d24ef5fd2861b7d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_RESET</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga937fa6afcc3a8fa3b3597ac81b39216b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_SOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga91395f98d9e70d3addcfa2aaca531529</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_ESOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga7b163b7bdc25b4f0671ec2c79cf10c88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_DIR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga81c3cbe7072f6821b808037365962a93</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_EP_ID</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga7aaa1c2bc97b02f8eac69a9a565ad73f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_PMAOVR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gae78a354a44c93cdffd48001104489bed</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_ERR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4f33795e340e702514e78f2690a2f4db</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_WKUP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga6e30ac16fbba01e6be52163bff9f6de5</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_SUSP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga3a703565ead15be91d541e8fc1e12064</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_RESET</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gab09141d4e76bde0b4541cb30a29e488f</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_SOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf450b2d02dc177e057eb974c9fae6eef</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_ESOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gabdfa5d04e6ad9b1dfe6dbab6df2b2812</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_RXDP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaac5d46bbb39223fc1b5fda13cfa8f933</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_RXDM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga111fda8e4479562f1de1891f33e795e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_LCK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa1a3b491dc96066d1123013fad4d2212</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_LSOF_SHIFT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga025e1de928ac77ea428d8cc6841f635a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_LSOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga2ea5d4b642e7fb5143bbc4e87c1bcf77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_FN</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga5d3be7ef58e1f59a72987d64aa5659b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_DADDR_EF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gadf6ef86b3dba82f6bd83c6ae7d02645a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_DADDR_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga5d9c2823701195a94b272e91c2580990</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BTABLE_BTABLE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga36f0fc4eae4218739ae19da47d529829</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP0</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga7148f9b5726dedfd6a36f52fdb9ce66a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP1</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga8ff7e6f3fb1426d9d0bb2eeb4ff20e4e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP2</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga487de857d562aec62e81e9bd0ab11ad4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP3</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gad2dd7082012d04a39d15368605a7b072</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP4</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga60874fded11c6c5d491a5e47ce185ea3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP5</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga3614760777b40aa0f2125acf4fbefc5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP6</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaaed43c78cabd4bf8b55914cbf7942335</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP7</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga58c090fa4a5e2d9963d163f7fe18e732</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga7d0f586943bb53b0287b3940f014804c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_DTOG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga6ea0956229d6869c56afeffe02d290f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga16bba498b368b3d3b70e5ba1134c1179</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_SETUP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga3aa529fb3ed5f1db7e47d2b38a592873</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gae7945bfca6ac5aeac64c6aeebaf7e7d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_KIND</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf841b5618e3e5f1fd02093e58dc91a7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga0e6144f0314021c63e2c42482153452a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_DTOG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gab309ee412267bd084d9c8360e780d59b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga2d111182619f53314f2113a9a4f5490c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga64b450065ac38dc6021b4d88ed62d7f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_NTOGGLE_MSK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4f5d191a84a573db9866c745d4a3a69f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_TOG_MSK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga01d58c51e5250a78fb75599328f4e0b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_TOG_MSK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gab27526db7265b63294e734b22410bf1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_DISABLED</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gabf4889dad7b661cc436f5530df1724be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_STALL</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga6190603904334a7c2f5911339ec9ce52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_NAK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga9ac1deb30bd6022e66da458e2411fdb9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_VALID</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4f854c7995b327439cd33810cf5ec729</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_DISABLED</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga1010cf7b8aea85ee1394c2a08871ecaa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_STALL</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga2ab261391121002af53c225688cd86fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_NAK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga299fda67f1c1dd5c894bf20077bca692</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_VALID</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf58195234758acf6d01d521a4c76fbef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE_BULK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga89eb27133e7e106c3637039f6f49d187</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE_CONTROL</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga1cecaf205acbc73308396af4f540c012</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE_ISO</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gad128f0d04114e8a5d40a943bb58eb7d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE_INTERRUPT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga904b4eef8e7bcab363757e19832617ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_RX_STAT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga38555ba43278c8100edbc16331cd1249</anchor>
+      <arglist>(EP, STAT)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_TX_STAT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga633dd40c9212d596ab3caed7a6717c73</anchor>
+      <arglist>(EP, STAT)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_NTOGGLE_BIT_AND_SET</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gad66269d4c9d40ad5b139785b9ec7a406</anchor>
+      <arglist>(EP, BIT, EXTRA_BITS)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_RX_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaeee1aeb560c6d2a4f7744f6292cc2c8b</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_TX_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga0c3714c83e7a1a3c9519608e255984da</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_TYPE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gae498c38d7c7cc543fb8c42664cf3e6fb</anchor>
+      <arglist>(EP, TYPE)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_KIND</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga057c74a4256b154fee9202267ffd3d02</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_KIND</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga8cb2ffaefe3a2c866da0bfafa5aab23e</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_STAT_OUT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga025f886bba1cd2411bd9ccb45403cbcf</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_STAT_OUT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga89cf847dc71f60e73716b39225bb4c77</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga8526fe08b266b2e93bf9910bd33f5042</anchor>
+      <arglist>(EP, ADDR)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_TX_DTOG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa4535d7cf0e11281e1bc3cf308e263c0</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_RX_DTOG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaba6fa8aa2ce54920ad32d7515b36ebd8</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_BTABLE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga922cb68b4d878762b68b7904ca02319f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_TX_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaefcf5d89c3543441a12841cec0e4ed0a</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_TX_COUNT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gabb6153f56f98b3d058bfec177d765861</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_RX_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga848c41f0f63634da524ebcf9dd0c33d8</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_RX_COUNT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga362de47f868ad830b1b8152762934285</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_TX_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaae5c9c2531ae3f79dd837cf1b9ae9609</anchor>
+      <arglist>(EP, ADDR)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_TX_COUNT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaba3194e878e3552c6ff5992bbff12950</anchor>
+      <arglist>(EP, COUNT)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_RX_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga65976669953887a4ba849332bcf4d03c</anchor>
+      <arglist>(EP, ADDR)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_RX_COUNT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gafb1dd8740dc3c13e78b22041064b6b25</anchor>
+      <arglist>(EP, COUNT)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>st_usbfs_core.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>st__usbfs__core_8c</filename>
+    <includes id="st__usbfs__core_8h" name="st_usbfs_core.h" local="yes" imported="no">st_usbfs_core.h</includes>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_set_address</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>ad9738425ff96aa89736c1782e9f977b0</anchor>
+      <arglist>(usbd_device *dev, uint8_t addr)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_set_ep_rx_bufsize</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>af0848399b9fc0b1e0ee0dd587be73944</anchor>
+      <arglist>(usbd_device *dev, uint8_t ep, uint32_t size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_ep_setup</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>a431e958cb5c53abdb111c8b5abeb4836</anchor>
+      <arglist>(usbd_device *dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep))</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_endpoints_reset</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>a9d753f774050f743688232dc151834e5</anchor>
+      <arglist>(usbd_device *dev)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_ep_stall_set</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>acad75cdc44d1695fd2bd2fcab4e683e9</anchor>
+      <arglist>(usbd_device *dev, uint8_t addr, uint8_t stall)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>st_usbfs_ep_stall_get</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>a7170f478e274a1a8a6f61f823e71e201</anchor>
+      <arglist>(usbd_device *dev, uint8_t addr)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_ep_nak_set</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>a2d3b4cddc97a5dde1bbccd1bedc501a1</anchor>
+      <arglist>(usbd_device *dev, uint8_t addr, uint8_t nak)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>st_usbfs_ep_write_packet</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>a39101f46649e04eaa40ea7800aee35a5</anchor>
+      <arglist>(usbd_device *dev, uint8_t addr, const void *buf, uint16_t len)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>st_usbfs_ep_read_packet</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>aa688c97e4f26a31ae445d2a70cd05f81</anchor>
+      <arglist>(usbd_device *dev, uint8_t addr, void *buf, uint16_t len)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_poll</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>a069f5da24984af82fe888020c347c208</anchor>
+      <arglist>(usbd_device *dev)</arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>st_usbfs_force_nak</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>a4868f7d5c7e71c90e965987b4be3639d</anchor>
+      <arglist>[8]</arglist>
+    </member>
+    <member kind="variable">
+      <type>struct _usbd_device</type>
+      <name>st_usbfs_dev</name>
+      <anchorfile>st__usbfs__core_8c.html</anchorfile>
+      <anchor>a42e2d8e6a66ed5fdd9cb2b816f3e4a16</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>st_usbfs_core.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>st__usbfs__core_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>USBD_PM_TOP</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>ad7c4fdb45c14c289193e35e4c3a4b383</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_set_address</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>ad9738425ff96aa89736c1782e9f977b0</anchor>
+      <arglist>(usbd_device *dev, uint8_t addr)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_set_ep_rx_bufsize</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>af0848399b9fc0b1e0ee0dd587be73944</anchor>
+      <arglist>(usbd_device *dev, uint8_t ep, uint32_t size)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_ep_setup</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>ab438fdd1a259f0ec610310ab74617b9f</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep))</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_endpoints_reset</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>a1dd22371f88b05a2967721d9e8b7aec4</anchor>
+      <arglist>(usbd_device *usbd_dev)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_ep_stall_set</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>a57fa148d5c2e6794132d0a1a8b9f1c08</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t stall)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint8_t</type>
+      <name>st_usbfs_ep_stall_get</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>ad8c8598246c529f5584a52b8efd54052</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_ep_nak_set</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>acce335842d932e14e67aa6a95a6c6a85</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t nak)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>st_usbfs_ep_write_packet</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>a8be70bb568f922c1c319a064f141011d</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint16_t</type>
+      <name>st_usbfs_ep_read_packet</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>ac2965b85d41352d9b515121444e5a0fe</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_poll</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>acdf1dfa321555f6a9fb3d2a2dadf34ec</anchor>
+      <arglist>(usbd_device *usbd_dev)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_copy_from_pm</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>aa730507334a7505678c08d74bd000e4b</anchor>
+      <arglist>(void *buf, const volatile void *vPM, uint16_t len)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>st_usbfs_copy_to_pm</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>a875275dc890bc5dbad8f96a9f5b7f83d</anchor>
+      <arglist>(volatile void *vPM, const void *buf, uint16_t len)</arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>st_usbfs_force_nak</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>a4868f7d5c7e71c90e965987b4be3639d</anchor>
+      <arglist>[8]</arglist>
+    </member>
+    <member kind="variable">
+      <type>struct _usbd_device</type>
+      <name>st_usbfs_dev</name>
+      <anchorfile>st__usbfs__core_8h.html</anchorfile>
+      <anchor>a42e2d8e6a66ed5fdd9cb2b816f3e4a16</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>st_usbfs_v1.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>st__usbfs__v1_8h</filename>
+    <includes id="st__usbfs__common_8h" name="st_usbfs_common.h" local="no" imported="no">libopencm3/stm32/common/st_usbfs_common.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_ADDR</name>
+      <anchorfile>st__usbfs__v1_8h.html</anchorfile>
+      <anchor>ad378532cf8d33ff3d4dcbd50bb5c4222</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_COUNT</name>
+      <anchorfile>st__usbfs__v1_8h.html</anchorfile>
+      <anchor>a25659b5504750e3f2086301eabf4f9ea</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_ADDR</name>
+      <anchorfile>st__usbfs__v1_8h.html</anchorfile>
+      <anchor>a7bc6d213d28787f9983545cb8751066c</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_COUNT</name>
+      <anchorfile>st__usbfs__v1_8h.html</anchorfile>
+      <anchor>a81251f7e700c312cda0244676a683ff1</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_TX_BUFF</name>
+      <anchorfile>st__usbfs__v1_8h.html</anchorfile>
+      <anchor>a5e04dc2bdca37ea8dd54566ea2f40294</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_RX_BUFF</name>
+      <anchorfile>st__usbfs__v1_8h.html</anchorfile>
+      <anchor>a626e132230b8042bb1d51eea38b8a5d0</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>st_usbfs_v2.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>st__usbfs__v2_8h</filename>
+    <includes id="st__usbfs__common_8h" name="st_usbfs_common.h" local="no" imported="no">libopencm3/stm32/common/st_usbfs_common.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_LPMCSR_REG</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>aff37969856bff82369e999b9a9dcc2a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_REG</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a7cc7acad5bd8a9d99b39875ecf50367f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_L1REQM</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a32604e5f0d7fbce212bd68b368ac9bbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_L1RESUME</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>ac3f6dad421c9c8ba00826ae26f8f67c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_L1REQ</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a1d55976b79b67bfec9a3872a038e3fb8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_LPMCSR_BESL_SHIFT</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>ae6f30d17dd18a4f6cba54bdc2d3c9b0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_LPMCSR_BESL</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a898ef87a3f72b4a8809754f0d5180022</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_LPMCSR_REMWAKE</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>afbc1c8014130ce3b116f0955df4d7839</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_LPMCSR_LPMACK</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a58202ab6174c4440d47ec3fc9bbfcd32</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_LPMCSR_LPMEN</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a0dc1de3ca7898dead08768d61f022f2d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_DPPU</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a9ae5b8e24e1bcdcd1b4a5101c556d170</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_PS2DET</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a408587c27d5beadd2793c418768f845e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_SDET</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a5624b3e0be2076f4141ac78e92c68f1c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_PDET</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a5d3282088559cb25f46e7962ecbdcf2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_DCDET</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>abf6b72056e5b9c320de00a089aa3ecce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_SDEN</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a27c9a544ddb1b0c2aa8a769cdb95cc24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_PDEN</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>ab043599cc0ebabfa9840522f04cf6092</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_DCDEN</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>ae0fb11e62c9ee1f4e020a250c2a63469</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BCDR_BCDEN</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>aed8c13f3970a0cdee124029721012ea3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_ADDR</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a73c4cd0fae147780690a3ddb09b41ba8</anchor>
+      <arglist>(ep)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_COUNT</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a8003ccf504179ea40a17b627594931e9</anchor>
+      <arglist>(ep)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_ADDR</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a7113c128eda89f9fef54a303fd7f3c42</anchor>
+      <arglist>(ep)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_COUNT</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a54022a85d4184e6e5c6aadec051e1132</anchor>
+      <arglist>(ep)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_TX_BUFF</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a48bbc49dd1b812008f0d24143fac9712</anchor>
+      <arglist>(ep)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_RX_BUFF</name>
+      <anchorfile>st__usbfs__v2_8h.html</anchorfile>
+      <anchor>a5f8a6d3081313a408ab542f1f21a9dfd</anchor>
+      <arglist>(ep)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>syscfg.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/</path>
     <filename>syscfg_8c</filename>
@@ -43572,6 +44711,711 @@
       <anchorfile>group__spi__dff.html</anchorfile>
       <anchor>gac80232620cca93d658564d903847114f</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>usb_defines</name>
+    <title>USB Defines</title>
+    <filename>group__usb__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga22a9d5bd9c54efca174cf816e07c6cf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaed445badcab6d706e1090b92a86610a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga2787ea63071d1d406060e7ea76ac427c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_DADDR_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga1581f3d0dd4254a01979e029a9219efb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BTABLE_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf6420d08b44350af9c13d7830596061d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_REG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga677981b32e8c95c11c0716155e8b8553</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_CTRM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf00ba2990a5f24fb0e05802d82f24abc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_PMAOVRM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaaf2a125a2e5bc4362faa7be62f6dafc6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_ERRM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa5f7187f084256a9445a3cac84b11cb5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_WKUPM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa88ca8d955846272e2541b8e13f29343</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_SUSPM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga0ae46eb0e83618bc7267543b7e6beaea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_RESETM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4542414ab68ac0a722f9f3853b5c7a84</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_SOFM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gae21d26a7822bae0b6cc512782a75d44e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_ESOFM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga71fe7bddc1d39bf24e1bca420210f31c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_RESUME</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4dfc6611f4a04fd70dbe993d81d421e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_FSUSP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaec679add6d4151c3b39e43a33e05466a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_LP_MODE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga1f1470b7921ac311a949ec100cf0228a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_PWDN</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa2973feccbe5b7006e66893ddf5c8b8e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CNTR_FRES</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga36c68275445560edf0ccb7aa76bc769f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf7f60ffd5846c9e50d93ae095290c575</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_PMAOVR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa4581fce2e7008ea4be136cdfc3936e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_ERR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga50875e0075a050305a676eadcf6a5c3a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_WKUP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga84e13c7c106d028a20a8af0244f66532</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_SUSP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa4853d529d9326e3d24ef5fd2861b7d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_RESET</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga937fa6afcc3a8fa3b3597ac81b39216b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_SOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga91395f98d9e70d3addcfa2aaca531529</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_ESOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga7b163b7bdc25b4f0671ec2c79cf10c88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_DIR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga81c3cbe7072f6821b808037365962a93</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_ISTR_EP_ID</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga7aaa1c2bc97b02f8eac69a9a565ad73f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_PMAOVR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gae78a354a44c93cdffd48001104489bed</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_ERR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4f33795e340e702514e78f2690a2f4db</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_WKUP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga6e30ac16fbba01e6be52163bff9f6de5</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_SUSP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga3a703565ead15be91d541e8fc1e12064</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_RESET</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gab09141d4e76bde0b4541cb30a29e488f</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_SOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf450b2d02dc177e057eb974c9fae6eef</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_ISTR_ESOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gabdfa5d04e6ad9b1dfe6dbab6df2b2812</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_RXDP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaac5d46bbb39223fc1b5fda13cfa8f933</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_RXDM</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga111fda8e4479562f1de1891f33e795e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_LCK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa1a3b491dc96066d1123013fad4d2212</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_LSOF_SHIFT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga025e1de928ac77ea428d8cc6841f635a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_LSOF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga2ea5d4b642e7fb5143bbc4e87c1bcf77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_FNR_FN</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga5d3be7ef58e1f59a72987d64aa5659b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_DADDR_EF</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gadf6ef86b3dba82f6bd83c6ae7d02645a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_DADDR_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga5d9c2823701195a94b272e91c2580990</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_BTABLE_BTABLE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga36f0fc4eae4218739ae19da47d529829</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP0</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga7148f9b5726dedfd6a36f52fdb9ce66a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP1</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga8ff7e6f3fb1426d9d0bb2eeb4ff20e4e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP2</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga487de857d562aec62e81e9bd0ab11ad4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP3</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gad2dd7082012d04a39d15368605a7b072</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP4</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga60874fded11c6c5d491a5e47ce185ea3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP5</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga3614760777b40aa0f2125acf4fbefc5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP6</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaaed43c78cabd4bf8b55914cbf7942335</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP7</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga58c090fa4a5e2d9963d163f7fe18e732</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga7d0f586943bb53b0287b3940f014804c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_DTOG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga6ea0956229d6869c56afeffe02d290f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga16bba498b368b3d3b70e5ba1134c1179</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_SETUP</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga3aa529fb3ed5f1db7e47d2b38a592873</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gae7945bfca6ac5aeac64c6aeebaf7e7d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_KIND</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf841b5618e3e5f1fd02093e58dc91a7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga0e6144f0314021c63e2c42482153452a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_DTOG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gab309ee412267bd084d9c8360e780d59b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga2d111182619f53314f2113a9a4f5490c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga64b450065ac38dc6021b4d88ed62d7f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_NTOGGLE_MSK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4f5d191a84a573db9866c745d4a3a69f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_TOG_MSK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga01d58c51e5250a78fb75599328f4e0b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_TOG_MSK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gab27526db7265b63294e734b22410bf1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_DISABLED</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gabf4889dad7b661cc436f5530df1724be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_STALL</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga6190603904334a7c2f5911339ec9ce52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_NAK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga9ac1deb30bd6022e66da458e2411fdb9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_RX_STAT_VALID</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga4f854c7995b327439cd33810cf5ec729</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_DISABLED</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga1010cf7b8aea85ee1394c2a08871ecaa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_STALL</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga2ab261391121002af53c225688cd86fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_NAK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga299fda67f1c1dd5c894bf20077bca692</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TX_STAT_VALID</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaf58195234758acf6d01d521a4c76fbef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE_BULK</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga89eb27133e7e106c3637039f6f49d187</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE_CONTROL</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga1cecaf205acbc73308396af4f540c012</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE_ISO</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gad128f0d04114e8a5d40a943bb58eb7d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_EP_TYPE_INTERRUPT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga904b4eef8e7bcab363757e19832617ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_RX_STAT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga38555ba43278c8100edbc16331cd1249</anchor>
+      <arglist>(EP, STAT)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_TX_STAT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga633dd40c9212d596ab3caed7a6717c73</anchor>
+      <arglist>(EP, STAT)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_NTOGGLE_BIT_AND_SET</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gad66269d4c9d40ad5b139785b9ec7a406</anchor>
+      <arglist>(EP, BIT, EXTRA_BITS)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_RX_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaeee1aeb560c6d2a4f7744f6292cc2c8b</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_TX_CTR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga0c3714c83e7a1a3c9519608e255984da</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_TYPE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gae498c38d7c7cc543fb8c42664cf3e6fb</anchor>
+      <arglist>(EP, TYPE)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_KIND</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga057c74a4256b154fee9202267ffd3d02</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_KIND</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga8cb2ffaefe3a2c866da0bfafa5aab23e</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_STAT_OUT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga025f886bba1cd2411bd9ccb45403cbcf</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_STAT_OUT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga89cf847dc71f60e73716b39225bb4c77</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga8526fe08b266b2e93bf9910bd33f5042</anchor>
+      <arglist>(EP, ADDR)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_TX_DTOG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaa4535d7cf0e11281e1bc3cf308e263c0</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_CLR_EP_RX_DTOG</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaba6fa8aa2ce54920ad32d7515b36ebd8</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_BTABLE</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga922cb68b4d878762b68b7904ca02319f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_TX_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaefcf5d89c3543441a12841cec0e4ed0a</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_TX_COUNT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gabb6153f56f98b3d058bfec177d765861</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_RX_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga848c41f0f63634da524ebcf9dd0c33d8</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_GET_EP_RX_COUNT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga362de47f868ad830b1b8152762934285</anchor>
+      <arglist>(EP)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_TX_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaae5c9c2531ae3f79dd837cf1b9ae9609</anchor>
+      <arglist>(EP, ADDR)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_TX_COUNT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gaba3194e878e3552c6ff5992bbff12950</anchor>
+      <arglist>(EP, COUNT)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_RX_ADDR</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>ga65976669953887a4ba849332bcf4d03c</anchor>
+      <arglist>(EP, ADDR)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USB_SET_EP_RX_COUNT</name>
+      <anchorfile>group__usb__defines.html</anchorfile>
+      <anchor>gafb1dd8740dc3c13e78b22041064b6b25</anchor>
+      <arglist>(EP, COUNT)</arglist>
     </member>
   </compound>
   <compound kind="group">

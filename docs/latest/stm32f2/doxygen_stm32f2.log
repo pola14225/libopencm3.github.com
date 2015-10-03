@@ -30,6 +30,10 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1852: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1877: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1909: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+  parameter 'dev'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+  parameter 'dev'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:345: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_sector(uint8_t sector, uint32_t program_size)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f24.c:345: warning: The following parameters of flash_erase_sector(uint8_t sector, uint32_t program_size) are not documented:
   parameter 'sector'

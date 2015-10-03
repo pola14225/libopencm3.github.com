@@ -760,123 +760,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>usb_f103.c</name>
-    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
-    <filename>usb__f103_8c</filename>
-    <member kind="function" static="yes">
-      <type>static usbd_device *</type>
-      <name>stm32f103_usbd_init</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a4f1968b72b13c780a719652fdd6a8b8a</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>stm32f103_set_address</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a0228f4fa04e7c7d1ccf05c9c7ed106dc</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>stm32f103_ep_setup</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>af09955f524ada7d17da30b03553bb6ab</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep))</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>stm32f103_endpoints_reset</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a97482ce8f4274239adfd79099109bdc3</anchor>
-      <arglist>(usbd_device *usbd_dev)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>stm32f103_ep_stall_set</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>ade798f44c10e74d77cec089cff0a0f64</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t stall)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static uint8_t</type>
-      <name>stm32f103_ep_stall_get</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a4c524b870ca913f26edbbcddece37975</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>stm32f103_ep_nak_set</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a95ae6b3af911e67ce72b486066c37d55</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t nak)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static uint16_t</type>
-      <name>stm32f103_ep_write_packet</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>ad463af6a14ee4bbdd294a23369f5372d</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static uint16_t</type>
-      <name>stm32f103_ep_read_packet</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a4890673806855a275ed1c467d4034d7f</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>stm32f103_poll</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a755f83aa414568675f88d549675d8d67</anchor>
-      <arglist>(usbd_device *usbd_dev)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>usb_set_ep_rx_bufsize</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a5f29b274550ac5fd30f1d2eb90548fa8</anchor>
-      <arglist>(usbd_device *dev, uint8_t ep, uint32_t size)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>usb_copy_to_pm</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>ab1ab2d5108d7a424fc7d707fe2eaa117</anchor>
-      <arglist>(volatile void *vPM, const void *buf, uint16_t len)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>usb_copy_from_pm</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a65002ec3c6d1073785ef61846bb755ec</anchor>
-      <arglist>(void *buf, const volatile void *vPM, uint16_t len)</arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static uint8_t</type>
-      <name>force_nak</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a2e43380a97ab967fc166330fe9cae37b</anchor>
-      <arglist>[8]</arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static struct _usbd_device</type>
-      <name>usbd_dev</name>
-      <anchorfile>usb__f103_8c.html</anchorfile>
-      <anchor>a4ea025cca3cc88b8f4000413d174db1c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>const struct _usbd_driver</type>
-      <name>stm32f103_usb_driver</name>
-      <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>gaf75394477d6005c2032c0d2aebb7a9a6</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>usb_f107.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
     <filename>usb__f107_8c</filename>
@@ -1785,9 +1668,9 @@
     </member>
     <member kind="variable">
       <type>const usbd_driver</type>
-      <name>stm32f103_usb_driver</name>
+      <name>st_usbfs_v1_usb_driver</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>gaf75394477d6005c2032c0d2aebb7a9a6</anchor>
+      <anchor>gac5a88293ab05d6003fb4f69b1789b672</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -1802,6 +1685,13 @@
       <name>stm32f207_usb_driver</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>ga2170186d661d2005c6b18c06d7f49f12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const usbd_driver</type>
+      <name>st_usbfs_v2_usb_driver</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ga384a75f1c1a8c37d6e992ac9e244b82a</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4536,9 +4426,9 @@
     </member>
     <member kind="variable">
       <type>const usbd_driver</type>
-      <name>stm32f103_usb_driver</name>
+      <name>st_usbfs_v1_usb_driver</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>gaf75394477d6005c2032c0d2aebb7a9a6</anchor>
+      <anchor>gac5a88293ab05d6003fb4f69b1789b672</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -4553,6 +4443,13 @@
       <name>stm32f207_usb_driver</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>ga2170186d661d2005c6b18c06d7f49f12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const usbd_driver</type>
+      <name>st_usbfs_v2_usb_driver</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ga384a75f1c1a8c37d6e992ac9e244b82a</anchor>
       <arglist></arglist>
     </member>
   </compound>

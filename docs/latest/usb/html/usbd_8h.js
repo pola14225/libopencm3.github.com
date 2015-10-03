@@ -30,7 +30,8 @@ var usbd_8h =
     [ "usbd_register_sof_callback", "group__usb__driver__defines.html#gad8e688f14cac90c4933954e3ebbfc3b7", null ],
     [ "usbd_register_suspend_callback", "group__usb__driver__defines.html#ga064f9d058427b1fb6f40b35e03a8cd5b", null ],
     [ "__attribute__", "group__usb__driver__defines.html#ga2530c9cbb5ab3be81daa4e988c2ce579", null ],
-    [ "stm32f103_usb_driver", "group__usb__driver__defines.html#gaf75394477d6005c2032c0d2aebb7a9a6", null ],
+    [ "st_usbfs_v1_usb_driver", "group__usb__driver__defines.html#gac5a88293ab05d6003fb4f69b1789b672", null ],
+    [ "st_usbfs_v2_usb_driver", "group__usb__driver__defines.html#ga384a75f1c1a8c37d6e992ac9e244b82a", null ],
     [ "stm32f107_usb_driver", "group__usb__driver__defines.html#ga5adac4ccb88c72946fa692670d0bfc16", null ],
     [ "stm32f207_usb_driver", "group__usb__driver__defines.html#ga2170186d661d2005c6b18c06d7f49f12", null ]
 ];

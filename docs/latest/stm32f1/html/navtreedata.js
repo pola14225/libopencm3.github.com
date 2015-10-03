@@ -74,7 +74,8 @@ var NAVTREEINDEX =
 "group__timer__defines.html#gadf5f0bb72cb35755c6c3cdd0221ef169",
 "group__timer__file.html#ga3177151403d6d7af037a41739d82fbac",
 "group__usart__defines.html#ga621c8b25b011fdcf56e4a782d8732dd6",
-"lgpl_license.html"
+"group__usb__defines.html#ga111fda8e4479562f1de1891f33e795e2",
+"memorymap_8h.html#aac50fe88c3def553993c61a811d8bbd3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

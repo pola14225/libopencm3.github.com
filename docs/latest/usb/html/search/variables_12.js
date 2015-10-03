@@ -1,7 +1,7 @@
 var searchData=
 [
   ['unlock',['unlock',['../struct__usbd__mass__storage.html#af33eabd592737c53c0c40403996687bc',1,'_usbd_mass_storage']]],
-  ['usbd_5fdev',['usbd_dev',['../struct__usbd__mass__storage.html#a9fec9c49a4e06c7ede13d4b3418eea19',1,'_usbd_mass_storage::usbd_dev()'],['../usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f103.c'],['../usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f107.c'],['../usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f207.c']]],
+  ['usbd_5fdev',['usbd_dev',['../struct__usbd__mass__storage.html#a9fec9c49a4e06c7ede13d4b3418eea19',1,'_usbd_mass_storage::usbd_dev()'],['../usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f107.c'],['../usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f207.c']]],
   ['user_5fcallback_5fctr',['user_callback_ctr',['../struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd',1,'_usbd_device']]],
   ['user_5fcallback_5freset',['user_callback_reset',['../struct__usbd__device.html#a171474ef610c019e11546b98b2cea769',1,'_usbd_device']]],
   ['user_5fcallback_5fresume',['user_callback_resume',['../struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18',1,'_usbd_device']]],

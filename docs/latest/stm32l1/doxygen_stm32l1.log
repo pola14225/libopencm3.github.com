@@ -33,6 +33,10 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_l1f013.h:147: warning: group dma_if_offset: ignoring title "DMA Interrupt Flag Offsets within channel flag" that does not match old title "DMA Interrupt Flag Offsets within stream flag group."
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/lcd.h:49: warning: Member LCD_CR found in multiple @defgroup groups! The member will be put in group lcd_reg_base, and not in group lcd_defines
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+  parameter 'dev'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+  parameter 'dev'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/flash.c:184: warning: argument 'length' of command @param is not found in the argument list of eeprom_program_words(uint32_t address, uint32_t *data, int length_in_words)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/flash.c:184: warning: The following parameters of eeprom_program_words(uint32_t address, uint32_t *data, int length_in_words) are not documented:
   parameter 'length_in_words'

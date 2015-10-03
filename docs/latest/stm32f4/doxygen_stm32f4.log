@@ -32,6 +32,10 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1909: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:80: warning: Member crypto_mode_mac found in multiple @defgroup groups! The member will be put in group crypto_api, and not in group crypto_defines
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:49: warning: Member CRYP_CSGCMCCMR found in multiple @defgroup groups! The member will be put in group crypto_defines_registers, and not in group crypto_defines
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+  parameter 'dev'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+  parameter 'dev'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:2: warning: end of comment block while expecting command </b>
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:2: warning: end of comment block while expecting command </b>
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/crypto.h:2: warning: end of comment block while expecting command </b>

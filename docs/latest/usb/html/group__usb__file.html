@@ -153,7 +153,7 @@ Variables</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2013 Alexandru Gagniuc <a href="#" onclick="location.href='mai'+'lto:'+'mr.'+'nu'+'ke.'+'me'+'@gm'+'ai'+'l.c'+'om'; return false;">mr.nu<span style="display: none;">.nosp@m.</span>ke.m<span style="display: none;">.nosp@m.</span>e@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
 <p>The LM4F USB driver is integrated with the libopencm3 USB stack. You should use the generic stack.</p>
 <p>To use this driver, tell the linker to look for it: </p><div class="fragment"><div class="line"><span class="keyword">extern</span> <a class="code" href="struct__usbd__driver.html">usbd_driver</a> <a class="code" href="group__usb__file.html#gaedb3ad0d80317ac7e69d6e616077df06">lm4f_usb_driver</a>;</div>
-</div><!-- fragment --><p>And pass this driver as an argument when initializing the USB stack: </p><div class="fragment"><div class="line"><a class="code" href="struct__usbd__device.html">usbd_device</a> *<a class="code" href="usb__f103_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>;</div>
+</div><!-- fragment --><p>And pass this driver as an argument when initializing the USB stack: </p><div class="fragment"><div class="line"><a class="code" href="struct__usbd__device.html">usbd_device</a> *<a class="code" href="usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>;</div>
 <div class="line">usbd_dev = <a class="code" href="group__usb__driver__defines.html#ga8bbc488106ca72c2b550c1c9f89d5748">usbd_init</a>(&amp;lm4f_usb_driver, ...);</div>
 </div><!-- fragment --><p><b>Polling or interrupt-driven? </b></p>
 <p>The LM4F USB driver will work fine regardless of whether it is called from an interrupt service routine, or from the main program loop.</p>
@@ -287,7 +287,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Sep 23 2015 01:21:19 for libopencm3 by
+    <li class="footer">Generated on Sat Oct 3 2015 04:21:25 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

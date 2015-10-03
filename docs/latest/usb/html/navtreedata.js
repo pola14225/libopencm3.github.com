@@ -55,7 +55,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__usb__dfu__defines.html#ggabcf2757cf1c6281a06a8a6f25ff2aa31ab7abfa9c48bb721cdbc63a220e0a34a2",
+"group__usb__dfu__defines.html#ggabcf2757cf1c6281a06a8a6f25ff2aa31abc69336005f3df189e7df6d0f0ad69b2",
 "struct__usbd__device.html#ad780343e8e2776ce99b9dd302b77c2e2",
 "structusb__msc__csw.html#a4c8ecc71a403a7050f071b964028cd73"
 ];
