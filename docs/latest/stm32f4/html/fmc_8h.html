@@ -175,115 +175,115 @@ Macros</h2></td></tr>
 <tr class="separator:a8b5b22ce9422ae205081becda6a21eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8df12597f2575b2625b181357bebab18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a8df12597f2575b2625b181357bebab18">FMC_SDSR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a679200df61ecb0695d72c030fdeb50a9">FSMC_BASE</a> + (uint32_t) 0x158)</td></tr>
 <tr class="separator:a8df12597f2575b2625b181357bebab18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d5bfe23593aa9853fd905c7aead468f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 13)</td></tr>
+<tr class="memitem:a4d5bfe23593aa9853fd905c7aead468f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>&#160;&#160;&#160;13</td></tr>
 <tr class="separator:a4d5bfe23593aa9853fd905c7aead468f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb92f14302284981af853a662c8f302f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aeb92f14302284981af853a662c8f302f">FMC_SDCR_RPIPE_MASK</a>&#160;&#160;&#160;(3 &lt;&lt; 13)</td></tr>
+<tr class="memitem:aeb92f14302284981af853a662c8f302f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aeb92f14302284981af853a662c8f302f">FMC_SDCR_RPIPE_MASK</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>)</td></tr>
 <tr class="separator:aeb92f14302284981af853a662c8f302f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bc052bab6bc6e55fa8aca0ab5ad03f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a7bc052bab6bc6e55fa8aca0ab5ad03f1">FMC_SDCR_RPIPE_NONE</a>&#160;&#160;&#160;(0x0)       /* No Delay */</td></tr>
+<tr class="memitem:a7bc052bab6bc6e55fa8aca0ab5ad03f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a7bc052bab6bc6e55fa8aca0ab5ad03f1">FMC_SDCR_RPIPE_NONE</a>&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>)</td></tr>
 <tr class="separator:a7bc052bab6bc6e55fa8aca0ab5ad03f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e731e9a8bf11862edc30a05b3fe5919"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a5e731e9a8bf11862edc30a05b3fe5919">FMC_SDCR_RPIPE_1CLK</a>&#160;&#160;&#160;(1 &lt;&lt; 13)   /* one clock */</td></tr>
+<tr class="memitem:a5e731e9a8bf11862edc30a05b3fe5919"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a5e731e9a8bf11862edc30a05b3fe5919">FMC_SDCR_RPIPE_1CLK</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>)</td></tr>
 <tr class="separator:a5e731e9a8bf11862edc30a05b3fe5919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02640800b7050682155105dd96bb32a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a02640800b7050682155105dd96bb32a1">FMC_SDCR_RPIPE_2CLK</a>&#160;&#160;&#160;(2 &lt;&lt; 13)   /* two clocks */</td></tr>
+<tr class="memitem:a02640800b7050682155105dd96bb32a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a02640800b7050682155105dd96bb32a1">FMC_SDCR_RPIPE_2CLK</a>&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>)</td></tr>
 <tr class="separator:a02640800b7050682155105dd96bb32a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07dca2532ffb1b360f5cb778e2e3811a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a07dca2532ffb1b360f5cb778e2e3811a">FMC_SDCR_RBURST</a>&#160;&#160;&#160;(1 &lt;&lt; 12)</td></tr>
 <tr class="separator:a07dca2532ffb1b360f5cb778e2e3811a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d0abd9dd9358d73a88902379dc45d16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 10)</td></tr>
+<tr class="memitem:a0d0abd9dd9358d73a88902379dc45d16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>&#160;&#160;&#160;10</td></tr>
 <tr class="separator:a0d0abd9dd9358d73a88902379dc45d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa87b4d56992f7c2b55e416b6733dc97f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aa87b4d56992f7c2b55e416b6733dc97f">FMC_SDCR_SDCLK_MASK</a>&#160;&#160;&#160;(3 &lt;&lt; 10)</td></tr>
+<tr class="memitem:aa87b4d56992f7c2b55e416b6733dc97f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aa87b4d56992f7c2b55e416b6733dc97f">FMC_SDCR_SDCLK_MASK</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>)</td></tr>
 <tr class="separator:aa87b4d56992f7c2b55e416b6733dc97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3c837ec1e6256b2422541adc0552c18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#af3c837ec1e6256b2422541adc0552c18">FMC_SDCR_SDCLK_DISABLE</a>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memitem:af3c837ec1e6256b2422541adc0552c18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#af3c837ec1e6256b2422541adc0552c18">FMC_SDCR_SDCLK_DISABLE</a>&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>)</td></tr>
 <tr class="separator:af3c837ec1e6256b2422541adc0552c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdfcea4694b9e9e13b57ff0868f4e873"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#afdfcea4694b9e9e13b57ff0868f4e873">FMC_SDCR_SDCLK_2HCLK</a>&#160;&#160;&#160;(2 &lt;&lt; 10)</td></tr>
+<tr class="memitem:afdfcea4694b9e9e13b57ff0868f4e873"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#afdfcea4694b9e9e13b57ff0868f4e873">FMC_SDCR_SDCLK_2HCLK</a>&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>)</td></tr>
 <tr class="separator:afdfcea4694b9e9e13b57ff0868f4e873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09cac773beb7c2ea3aceedd08697e423"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a09cac773beb7c2ea3aceedd08697e423">FMC_SDCR_SDCLK_3HCLK</a>&#160;&#160;&#160;(3 &lt;&lt; 10)</td></tr>
+<tr class="memitem:a09cac773beb7c2ea3aceedd08697e423"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a09cac773beb7c2ea3aceedd08697e423">FMC_SDCR_SDCLK_3HCLK</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>)</td></tr>
 <tr class="separator:a09cac773beb7c2ea3aceedd08697e423"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d5c99b3530a50e1e721f71757dffb9d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a4d5c99b3530a50e1e721f71757dffb9d">FMC_SDCR_WP_ENABLE</a>&#160;&#160;&#160;(1 &lt;&lt; 9)</td></tr>
 <tr class="separator:a4d5c99b3530a50e1e721f71757dffb9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a4b4d8c722b717da6d6d97f7ec8de4e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">FMC_SDCR_CAS_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 7)</td></tr>
+<tr class="memitem:a9a4b4d8c722b717da6d6d97f7ec8de4e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">FMC_SDCR_CAS_SHIFT</a>&#160;&#160;&#160;7</td></tr>
 <tr class="separator:a9a4b4d8c722b717da6d6d97f7ec8de4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad71993ad316d3d02f5028e0471b8dd2d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ad71993ad316d3d02f5028e0471b8dd2d">FMC_SDCR_CAS_1CYC</a>&#160;&#160;&#160;(1 &lt;&lt; 7)</td></tr>
+<tr class="memitem:ad71993ad316d3d02f5028e0471b8dd2d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ad71993ad316d3d02f5028e0471b8dd2d">FMC_SDCR_CAS_1CYC</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">FMC_SDCR_CAS_SHIFT</a>)</td></tr>
 <tr class="separator:ad71993ad316d3d02f5028e0471b8dd2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a609f559fdf5bf2c26525a074c464e37f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a609f559fdf5bf2c26525a074c464e37f">FMC_SDCR_CAS_2CYC</a>&#160;&#160;&#160;(2 &lt;&lt; 7)</td></tr>
+<tr class="memitem:a609f559fdf5bf2c26525a074c464e37f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a609f559fdf5bf2c26525a074c464e37f">FMC_SDCR_CAS_2CYC</a>&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">FMC_SDCR_CAS_SHIFT</a>)</td></tr>
 <tr class="separator:a609f559fdf5bf2c26525a074c464e37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01ec6164534f0f35e062a0ab38c1c047"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a01ec6164534f0f35e062a0ab38c1c047">FMC_SDCR_CAS_3CYC</a>&#160;&#160;&#160;(3 &lt;&lt; 7)</td></tr>
+<tr class="memitem:a01ec6164534f0f35e062a0ab38c1c047"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a01ec6164534f0f35e062a0ab38c1c047">FMC_SDCR_CAS_3CYC</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">FMC_SDCR_CAS_SHIFT</a>)</td></tr>
 <tr class="separator:a01ec6164534f0f35e062a0ab38c1c047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a434a4b28c2d1c25b15e87e06b7aafe6d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a434a4b28c2d1c25b15e87e06b7aafe6d">FMC_SDCR_NB2</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a434a4b28c2d1c25b15e87e06b7aafe6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b179787bef39c24d184cffd411e2882"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a3b179787bef39c24d184cffd411e2882">FMC_SDCR_NB4</a>&#160;&#160;&#160;(1 &lt;&lt; 6)</td></tr>
 <tr class="separator:a3b179787bef39c24d184cffd411e2882"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8bfa39c008b2121e41f6a87f8c54030"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">FMC_SDCR_MWID_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
+<tr class="memitem:af8bfa39c008b2121e41f6a87f8c54030"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">FMC_SDCR_MWID_SHIFT</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:af8bfa39c008b2121e41f6a87f8c54030"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3f25ca328bd50dbcf29ce519dbb993"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a1b3f25ca328bd50dbcf29ce519dbb993">FMC_SDCR_MWID_8b</a>&#160;&#160;&#160;(0 &lt;&lt; 4)</td></tr>
+<tr class="memitem:a1b3f25ca328bd50dbcf29ce519dbb993"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a1b3f25ca328bd50dbcf29ce519dbb993">FMC_SDCR_MWID_8b</a>&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">FMC_SDCR_MWID_SHIFT</a>)</td></tr>
 <tr class="separator:a1b3f25ca328bd50dbcf29ce519dbb993"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7cbad26d6461738227e1c2ece3d7a2f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#af7cbad26d6461738227e1c2ece3d7a2f">FMC_SDCR_MWID_16b</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
+<tr class="memitem:af7cbad26d6461738227e1c2ece3d7a2f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#af7cbad26d6461738227e1c2ece3d7a2f">FMC_SDCR_MWID_16b</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">FMC_SDCR_MWID_SHIFT</a>)</td></tr>
 <tr class="separator:af7cbad26d6461738227e1c2ece3d7a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a194a9e93b039c4dd3e56f9ffb703f24c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a194a9e93b039c4dd3e56f9ffb703f24c">FMC_SDCR_MWID_32b</a>&#160;&#160;&#160;(2 &lt;&lt; 4)</td></tr>
+<tr class="memitem:a194a9e93b039c4dd3e56f9ffb703f24c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a194a9e93b039c4dd3e56f9ffb703f24c">FMC_SDCR_MWID_32b</a>&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">FMC_SDCR_MWID_SHIFT</a>)</td></tr>
 <tr class="separator:a194a9e93b039c4dd3e56f9ffb703f24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22f65b91654e13dcfff2c9b7d66df11f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">FMC_SDCR_NR_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="memitem:a22f65b91654e13dcfff2c9b7d66df11f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">FMC_SDCR_NR_SHIFT</a>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:a22f65b91654e13dcfff2c9b7d66df11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0657dc04b8893a36eb039336642611f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a0657dc04b8893a36eb039336642611f8">FMC_SDCR_NR_11</a>&#160;&#160;&#160;(0 &lt;&lt; 2)</td></tr>
+<tr class="memitem:a0657dc04b8893a36eb039336642611f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a0657dc04b8893a36eb039336642611f8">FMC_SDCR_NR_11</a>&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">FMC_SDCR_NR_SHIFT</a>)</td></tr>
 <tr class="separator:a0657dc04b8893a36eb039336642611f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a214f82a69a534fd958ee54744a7239d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a214f82a69a534fd958ee54744a7239d8">FMC_SDCR_NR_12</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="memitem:a214f82a69a534fd958ee54744a7239d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a214f82a69a534fd958ee54744a7239d8">FMC_SDCR_NR_12</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">FMC_SDCR_NR_SHIFT</a>)</td></tr>
 <tr class="separator:a214f82a69a534fd958ee54744a7239d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8542339b7bb4e84b01047f8ec3c8c5d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a8542339b7bb4e84b01047f8ec3c8c5d0">FMC_SDCR_NR_13</a>&#160;&#160;&#160;(2 &lt;&lt; 2)</td></tr>
+<tr class="memitem:a8542339b7bb4e84b01047f8ec3c8c5d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a8542339b7bb4e84b01047f8ec3c8c5d0">FMC_SDCR_NR_13</a>&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">FMC_SDCR_NR_SHIFT</a>)</td></tr>
 <tr class="separator:a8542339b7bb4e84b01047f8ec3c8c5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbe7f67559e9c272c8284e7d2c06df0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="memitem:acbe7f67559e9c272c8284e7d2c06df0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:acbe7f67559e9c272c8284e7d2c06df0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa64f6d6da017964f9b0d75a363f41c18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aa64f6d6da017964f9b0d75a363f41c18">FMC_SDCR_NC_8</a>&#160;&#160;&#160;(0 &lt;&lt; 0)</td></tr>
+<tr class="memitem:aa64f6d6da017964f9b0d75a363f41c18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aa64f6d6da017964f9b0d75a363f41c18">FMC_SDCR_NC_8</a>&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>)</td></tr>
 <tr class="separator:aa64f6d6da017964f9b0d75a363f41c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1457b47f2e94f10ce8f79e397c070533"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a1457b47f2e94f10ce8f79e397c070533">FMC_SDCR_NC_9</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="memitem:a1457b47f2e94f10ce8f79e397c070533"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a1457b47f2e94f10ce8f79e397c070533">FMC_SDCR_NC_9</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>)</td></tr>
 <tr class="separator:a1457b47f2e94f10ce8f79e397c070533"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40bddba2051abe780591f1bf2a8a95ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a40bddba2051abe780591f1bf2a8a95ff">FMC_SDCR_NC_10</a>&#160;&#160;&#160;(2 &lt;&lt; 0)</td></tr>
+<tr class="memitem:a40bddba2051abe780591f1bf2a8a95ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a40bddba2051abe780591f1bf2a8a95ff">FMC_SDCR_NC_10</a>&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>)</td></tr>
 <tr class="separator:a40bddba2051abe780591f1bf2a8a95ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a086c9a533e3913f959c69503cc3f6b06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a086c9a533e3913f959c69503cc3f6b06">FMC_SDCR_NC_11</a>&#160;&#160;&#160;(3 &lt;&lt; 0)</td></tr>
+<tr class="memitem:a086c9a533e3913f959c69503cc3f6b06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a086c9a533e3913f959c69503cc3f6b06">FMC_SDCR_NC_11</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>)</td></tr>
 <tr class="separator:a086c9a533e3913f959c69503cc3f6b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee91b857ba7bc0a38a7eb01a53cd9875"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aee91b857ba7bc0a38a7eb01a53cd9875">FMC_SDTR_TRCD_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 24)</td></tr>
+<tr class="memitem:aee91b857ba7bc0a38a7eb01a53cd9875"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aee91b857ba7bc0a38a7eb01a53cd9875">FMC_SDTR_TRCD_SHIFT</a>&#160;&#160;&#160;24</td></tr>
 <tr class="separator:aee91b857ba7bc0a38a7eb01a53cd9875"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a334a93afb6a406066cf5af9394a1aaa3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a334a93afb6a406066cf5af9394a1aaa3">FMC_SDTR_TRCD_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; 24)</td></tr>
+<tr class="memitem:a334a93afb6a406066cf5af9394a1aaa3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a334a93afb6a406066cf5af9394a1aaa3">FMC_SDTR_TRCD_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#aee91b857ba7bc0a38a7eb01a53cd9875">FMC_SDTR_TRCD_SHIFT</a>)</td></tr>
 <tr class="separator:a334a93afb6a406066cf5af9394a1aaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3814b7fee8d77f851622a6cddf14057a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a3814b7fee8d77f851622a6cddf14057a">FMC_SDTR_TRP_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 20)</td></tr>
+<tr class="memitem:a3814b7fee8d77f851622a6cddf14057a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a3814b7fee8d77f851622a6cddf14057a">FMC_SDTR_TRP_SHIFT</a>&#160;&#160;&#160;20</td></tr>
 <tr class="separator:a3814b7fee8d77f851622a6cddf14057a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5955229727a15ba0098285df8229c010"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a5955229727a15ba0098285df8229c010">FMC_SDTR_TRP_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; 20)</td></tr>
+<tr class="memitem:a5955229727a15ba0098285df8229c010"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a5955229727a15ba0098285df8229c010">FMC_SDTR_TRP_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a3814b7fee8d77f851622a6cddf14057a">FMC_SDTR_TRP_SHIFT</a>)</td></tr>
 <tr class="separator:a5955229727a15ba0098285df8229c010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8f35964024c40e4783e04ccc25359db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ad8f35964024c40e4783e04ccc25359db">FMC_SDTR_TWR_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 16)</td></tr>
+<tr class="memitem:ad8f35964024c40e4783e04ccc25359db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ad8f35964024c40e4783e04ccc25359db">FMC_SDTR_TWR_SHIFT</a>&#160;&#160;&#160;16</td></tr>
 <tr class="separator:ad8f35964024c40e4783e04ccc25359db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a457f1c2e599067c76596ae3078bfc26b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a457f1c2e599067c76596ae3078bfc26b">FMC_SDTR_TWR_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; 16)</td></tr>
+<tr class="memitem:a457f1c2e599067c76596ae3078bfc26b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a457f1c2e599067c76596ae3078bfc26b">FMC_SDTR_TWR_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#ad8f35964024c40e4783e04ccc25359db">FMC_SDTR_TWR_SHIFT</a>)</td></tr>
 <tr class="separator:a457f1c2e599067c76596ae3078bfc26b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10f33ed0088c79a9d0ddab73fc1e1417"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a10f33ed0088c79a9d0ddab73fc1e1417">FMC_SDTR_TRC_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 12)</td></tr>
+<tr class="memitem:a10f33ed0088c79a9d0ddab73fc1e1417"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a10f33ed0088c79a9d0ddab73fc1e1417">FMC_SDTR_TRC_SHIFT</a>&#160;&#160;&#160;12</td></tr>
 <tr class="separator:a10f33ed0088c79a9d0ddab73fc1e1417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfaa6093a87bf43ae08aa2b7ff2e9d63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#adfaa6093a87bf43ae08aa2b7ff2e9d63">FMC_SDTR_TRC_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; 12)</td></tr>
+<tr class="memitem:adfaa6093a87bf43ae08aa2b7ff2e9d63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#adfaa6093a87bf43ae08aa2b7ff2e9d63">FMC_SDTR_TRC_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a10f33ed0088c79a9d0ddab73fc1e1417">FMC_SDTR_TRC_SHIFT</a>)</td></tr>
 <tr class="separator:adfaa6093a87bf43ae08aa2b7ff2e9d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01614ba310238e12cedb3a371445d2cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a01614ba310238e12cedb3a371445d2cb">FMC_SDTR_TRAS_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 8)</td></tr>
+<tr class="memitem:a01614ba310238e12cedb3a371445d2cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a01614ba310238e12cedb3a371445d2cb">FMC_SDTR_TRAS_SHIFT</a>&#160;&#160;&#160;8</td></tr>
 <tr class="separator:a01614ba310238e12cedb3a371445d2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbf8cd9385c2919542a0b924c9032100"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#abbf8cd9385c2919542a0b924c9032100">FMC_SDTR_TRAS_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; 8)</td></tr>
+<tr class="memitem:abbf8cd9385c2919542a0b924c9032100"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#abbf8cd9385c2919542a0b924c9032100">FMC_SDTR_TRAS_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a01614ba310238e12cedb3a371445d2cb">FMC_SDTR_TRAS_SHIFT</a>)</td></tr>
 <tr class="separator:abbf8cd9385c2919542a0b924c9032100"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c7f77cbf823e3cfe8cc410f00f0ae06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a7c7f77cbf823e3cfe8cc410f00f0ae06">FMC_SDTR_TXSR_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
+<tr class="memitem:a7c7f77cbf823e3cfe8cc410f00f0ae06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a7c7f77cbf823e3cfe8cc410f00f0ae06">FMC_SDTR_TXSR_SHIFT</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:a7c7f77cbf823e3cfe8cc410f00f0ae06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ea38a0cf1c426d3124117546500950a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a1ea38a0cf1c426d3124117546500950a">FMC_SDTR_TXSR_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; 4)</td></tr>
+<tr class="memitem:a1ea38a0cf1c426d3124117546500950a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a1ea38a0cf1c426d3124117546500950a">FMC_SDTR_TXSR_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a7c7f77cbf823e3cfe8cc410f00f0ae06">FMC_SDTR_TXSR_SHIFT</a>)</td></tr>
 <tr class="separator:a1ea38a0cf1c426d3124117546500950a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2418b4cdcd22ce1cf139b4286bc6a7ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a2418b4cdcd22ce1cf139b4286bc6a7ca">FMC_SDTR_TMRD_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="memitem:a2418b4cdcd22ce1cf139b4286bc6a7ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a2418b4cdcd22ce1cf139b4286bc6a7ca">FMC_SDTR_TMRD_SHIFT</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a2418b4cdcd22ce1cf139b4286bc6a7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42d0483a9e64c6b5bd53fa5f69c6eb30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a42d0483a9e64c6b5bd53fa5f69c6eb30">FMC_SDTR_TMRD_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; 0)</td></tr>
+<tr class="memitem:a42d0483a9e64c6b5bd53fa5f69c6eb30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a42d0483a9e64c6b5bd53fa5f69c6eb30">FMC_SDTR_TMRD_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a2418b4cdcd22ce1cf139b4286bc6a7ca">FMC_SDTR_TMRD_SHIFT</a>)</td></tr>
 <tr class="separator:a42d0483a9e64c6b5bd53fa5f69c6eb30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d66716f85763fd651aa356de9316758"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a7d66716f85763fd651aa356de9316758">FMC_SDTR_DNC_MASK</a>&#160;&#160;&#160;( <a class="el" href="fmc_8h.html#a5955229727a15ba0098285df8229c010">FMC_SDTR_TRP_MASK</a>| <a class="el" href="fmc_8h.html#adfaa6093a87bf43ae08aa2b7ff2e9d63">FMC_SDTR_TRC_MASK</a> )</td></tr>
 <tr class="separator:a7d66716f85763fd651aa356de9316758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c5ba53776486658573c2dd267e7cc02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a4c5ba53776486658573c2dd267e7cc02">FMC_SDCR_DNC_MASK</a></td></tr>
 <tr class="separator:a4c5ba53776486658573c2dd267e7cc02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63bdce1515df6c96abc0149ff71d35a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a63bdce1515df6c96abc0149ff71d35a6">FMC_SDCMR_MRD_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 9)</td></tr>
+<tr class="memitem:a63bdce1515df6c96abc0149ff71d35a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a63bdce1515df6c96abc0149ff71d35a6">FMC_SDCMR_MRD_SHIFT</a>&#160;&#160;&#160;9</td></tr>
 <tr class="separator:a63bdce1515df6c96abc0149ff71d35a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3236a2f2ffb2b6cd98fd9360a3d2bacd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a3236a2f2ffb2b6cd98fd9360a3d2bacd">FMC_SDCMR_MRD_MASK</a>&#160;&#160;&#160;(0x1fff &lt;&lt; 9)</td></tr>
+<tr class="memitem:a3236a2f2ffb2b6cd98fd9360a3d2bacd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a3236a2f2ffb2b6cd98fd9360a3d2bacd">FMC_SDCMR_MRD_MASK</a>&#160;&#160;&#160;(0x1fff &lt;&lt; FMC_SDCMR_MRD_SHIFT)</td></tr>
 <tr class="separator:a3236a2f2ffb2b6cd98fd9360a3d2bacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac849f0e16b6592a974b872ea2daf01c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ac849f0e16b6592a974b872ea2daf01c3">FMC_SDCMR_NRFS_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 5)</td></tr>
+<tr class="memitem:ac849f0e16b6592a974b872ea2daf01c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ac849f0e16b6592a974b872ea2daf01c3">FMC_SDCMR_NRFS_SHIFT</a>&#160;&#160;&#160;5</td></tr>
 <tr class="separator:ac849f0e16b6592a974b872ea2daf01c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8cb33f2a0b223f916be4b54a94dcd4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aa8cb33f2a0b223f916be4b54a94dcd4c">FMC_SDCMR_NRFS_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; 5)</td></tr>
+<tr class="memitem:aa8cb33f2a0b223f916be4b54a94dcd4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#aa8cb33f2a0b223f916be4b54a94dcd4c">FMC_SDCMR_NRFS_MASK</a>&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#ac849f0e16b6592a974b872ea2daf01c3">FMC_SDCMR_NRFS_SHIFT</a>)</td></tr>
 <tr class="separator:aa8cb33f2a0b223f916be4b54a94dcd4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e5ca0bd4982c8354c021b53ef8e65e9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a4e5ca0bd4982c8354c021b53ef8e65e9">FMC_SDCMR_CTB1</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
 <tr class="separator:a4e5ca0bd4982c8354c021b53ef8e65e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87be0a3520cec2885d2fc16589b97ba0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a87be0a3520cec2885d2fc16589b97ba0">FMC_SDCMR_CTB2</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
 <tr class="separator:a87be0a3520cec2885d2fc16589b97ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0782a11a6d37bb0fb0bf8b7654a8ced"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ab0782a11a6d37bb0fb0bf8b7654a8ced">FMC_SDCMR_MODE_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="memitem:ab0782a11a6d37bb0fb0bf8b7654a8ced"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ab0782a11a6d37bb0fb0bf8b7654a8ced">FMC_SDCMR_MODE_SHIFT</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ab0782a11a6d37bb0fb0bf8b7654a8ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0f1ba5cb850c88a5f2d296a4feeb583"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ae0f1ba5cb850c88a5f2d296a4feeb583">FMC_SDCMR_MODE_MASK</a>&#160;&#160;&#160;(7 &lt;&lt; 0)</td></tr>
+<tr class="memitem:ae0f1ba5cb850c88a5f2d296a4feeb583"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ae0f1ba5cb850c88a5f2d296a4feeb583">FMC_SDCMR_MODE_MASK</a>&#160;&#160;&#160;7</td></tr>
 <tr class="separator:ae0f1ba5cb850c88a5f2d296a4feeb583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa9b8f0b6e4a820fab01fc76813c2f13"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#afa9b8f0b6e4a820fab01fc76813c2f13">FMC_SDCMR_MODE_NORMAL</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:afa9b8f0b6e4a820fab01fc76813c2f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,9 +301,9 @@ Macros</h2></td></tr>
 <tr class="separator:a533036f7a76bfd1521c531a167663a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd0a57affeb0e260988e4c2b4f732e19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#acd0a57affeb0e260988e4c2b4f732e19">FMC_SDRTR_REIE</a>&#160;&#160;&#160;(1 &lt;&lt; 14)</td></tr>
 <tr class="separator:acd0a57affeb0e260988e4c2b4f732e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c21db263aa17582e13be970a6ec901b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a9c21db263aa17582e13be970a6ec901b">FMC_SDRTR_COUNT_SHIFT</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="memitem:a9c21db263aa17582e13be970a6ec901b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a9c21db263aa17582e13be970a6ec901b">FMC_SDRTR_COUNT_SHIFT</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:a9c21db263aa17582e13be970a6ec901b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac705d021fb5734bbc1af7f374e3e2e82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ac705d021fb5734bbc1af7f374e3e2e82">FMC_SDRTR_COUNT_MASK</a>&#160;&#160;&#160;(0x1fff &lt;&lt; 1)</td></tr>
+<tr class="memitem:ac705d021fb5734bbc1af7f374e3e2e82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ac705d021fb5734bbc1af7f374e3e2e82">FMC_SDRTR_COUNT_MASK</a>&#160;&#160;&#160;(0x1fff &lt;&lt; FMC_SDRTR_COUNT_SHIFT)</td></tr>
 <tr class="separator:ac705d021fb5734bbc1af7f374e3e2e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81edf1f7343fe344297dd376cd46fc22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a81edf1f7343fe344297dd376cd46fc22">FMC_SDRTR_CRE</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
 <tr class="separator:a81edf1f7343fe344297dd376cd46fc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -315,9 +315,9 @@ Macros</h2></td></tr>
 <tr class="separator:a3588e013e509fd60a3d349691de6ea2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5cf0746d2d4494e629cbc310f3834e4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ad5cf0746d2d4494e629cbc310f3834e4">FMC_SDSR_MODE_POWER_DOWN</a>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:ad5cf0746d2d4494e629cbc310f3834e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39d4d13ce370c5fb8929ddd82e044cd7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a39d4d13ce370c5fb8929ddd82e044cd7">FMC_SDSR_MODE2_SHIFT</a>&#160;&#160;&#160;( 1 &lt;&lt; 3)</td></tr>
+<tr class="memitem:a39d4d13ce370c5fb8929ddd82e044cd7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a39d4d13ce370c5fb8929ddd82e044cd7">FMC_SDSR_MODE2_SHIFT</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:a39d4d13ce370c5fb8929ddd82e044cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5773d51269b36312a9e56e56ab34565"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ae5773d51269b36312a9e56e56ab34565">FMC_SDSR_MODE1_SHIFT</a>&#160;&#160;&#160;( 1 &lt;&lt; 1)</td></tr>
+<tr class="memitem:ae5773d51269b36312a9e56e56ab34565"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#ae5773d51269b36312a9e56e56ab34565">FMC_SDSR_MODE1_SHIFT</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:ae5773d51269b36312a9e56e56ab34565"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6122b8dc3cac5ac09342b843b36ae36d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fmc_8h.html#a6122b8dc3cac5ac09342b843b36ae36d">FMC_SDSR_RE</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
 <tr class="separator:a6122b8dc3cac5ac09342b843b36ae36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -534,7 +534,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCMR_MODE_MASK&#160;&#160;&#160;(7 &lt;&lt; 0)</td>
+          <td class="memname">#define FMC_SDCMR_MODE_MASK&#160;&#160;&#160;7</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -610,7 +610,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCMR_MODE_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+          <td class="memname">#define FMC_SDCMR_MODE_SHIFT&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -624,7 +624,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCMR_MRD_MASK&#160;&#160;&#160;(0x1fff &lt;&lt; 9)</td>
+          <td class="memname">#define FMC_SDCMR_MRD_MASK&#160;&#160;&#160;(0x1fff &lt;&lt; FMC_SDCMR_MRD_SHIFT)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -638,7 +638,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCMR_MRD_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 9)</td>
+          <td class="memname">#define FMC_SDCMR_MRD_SHIFT&#160;&#160;&#160;9</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -654,7 +654,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCMR_NRFS_MASK&#160;&#160;&#160;(15 &lt;&lt; 5)</td>
+          <td class="memname">#define FMC_SDCMR_NRFS_MASK&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#ac849f0e16b6592a974b872ea2daf01c3">FMC_SDCMR_NRFS_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -668,7 +668,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCMR_NRFS_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 5)</td>
+          <td class="memname">#define FMC_SDCMR_NRFS_SHIFT&#160;&#160;&#160;5</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -730,7 +730,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_CAS_1CYC&#160;&#160;&#160;(1 &lt;&lt; 7)</td>
+          <td class="memname">#define FMC_SDCR_CAS_1CYC&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">FMC_SDCR_CAS_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -744,7 +744,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_CAS_2CYC&#160;&#160;&#160;(2 &lt;&lt; 7)</td>
+          <td class="memname">#define FMC_SDCR_CAS_2CYC&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">FMC_SDCR_CAS_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -758,7 +758,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_CAS_3CYC&#160;&#160;&#160;(3 &lt;&lt; 7)</td>
+          <td class="memname">#define FMC_SDCR_CAS_3CYC&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">FMC_SDCR_CAS_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -772,7 +772,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_CAS_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 7)</td>
+          <td class="memname">#define FMC_SDCR_CAS_SHIFT&#160;&#160;&#160;7</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -806,7 +806,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_MWID_16b&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
+          <td class="memname">#define FMC_SDCR_MWID_16b&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">FMC_SDCR_MWID_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -820,7 +820,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_MWID_32b&#160;&#160;&#160;(2 &lt;&lt; 4)</td>
+          <td class="memname">#define FMC_SDCR_MWID_32b&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">FMC_SDCR_MWID_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -834,7 +834,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_MWID_8b&#160;&#160;&#160;(0 &lt;&lt; 4)</td>
+          <td class="memname">#define FMC_SDCR_MWID_8b&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">FMC_SDCR_MWID_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -848,7 +848,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_MWID_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
+          <td class="memname">#define FMC_SDCR_MWID_SHIFT&#160;&#160;&#160;4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -890,7 +890,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_NC_10&#160;&#160;&#160;(2 &lt;&lt; 0)</td>
+          <td class="memname">#define FMC_SDCR_NC_10&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -904,7 +904,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_NC_11&#160;&#160;&#160;(3 &lt;&lt; 0)</td>
+          <td class="memname">#define FMC_SDCR_NC_11&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -918,7 +918,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_NC_8&#160;&#160;&#160;(0 &lt;&lt; 0)</td>
+          <td class="memname">#define FMC_SDCR_NC_8&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -932,7 +932,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_NC_9&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+          <td class="memname">#define FMC_SDCR_NC_9&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">FMC_SDCR_NC_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -946,7 +946,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_NC_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+          <td class="memname">#define FMC_SDCR_NC_SHIFT&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -960,7 +960,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_NR_11&#160;&#160;&#160;(0 &lt;&lt; 2)</td>
+          <td class="memname">#define FMC_SDCR_NR_11&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">FMC_SDCR_NR_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -974,7 +974,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_NR_12&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+          <td class="memname">#define FMC_SDCR_NR_12&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">FMC_SDCR_NR_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -988,7 +988,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_NR_13&#160;&#160;&#160;(2 &lt;&lt; 2)</td>
+          <td class="memname">#define FMC_SDCR_NR_13&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">FMC_SDCR_NR_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1002,7 +1002,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_NR_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+          <td class="memname">#define FMC_SDCR_NR_SHIFT&#160;&#160;&#160;2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1030,7 +1030,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_RPIPE_1CLK&#160;&#160;&#160;(1 &lt;&lt; 13)   /* one clock */</td>
+          <td class="memname">#define FMC_SDCR_RPIPE_1CLK&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1044,7 +1044,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_RPIPE_2CLK&#160;&#160;&#160;(2 &lt;&lt; 13)   /* two clocks */</td>
+          <td class="memname">#define FMC_SDCR_RPIPE_2CLK&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1058,7 +1058,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_RPIPE_MASK&#160;&#160;&#160;(3 &lt;&lt; 13)</td>
+          <td class="memname">#define FMC_SDCR_RPIPE_MASK&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1072,7 +1072,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_RPIPE_NONE&#160;&#160;&#160;(0x0)       /* No Delay */</td>
+          <td class="memname">#define FMC_SDCR_RPIPE_NONE&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">FMC_SDCR_RPIPE_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1086,7 +1086,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_RPIPE_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 13)</td>
+          <td class="memname">#define FMC_SDCR_RPIPE_SHIFT&#160;&#160;&#160;13</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1100,7 +1100,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_SDCLK_2HCLK&#160;&#160;&#160;(2 &lt;&lt; 10)</td>
+          <td class="memname">#define FMC_SDCR_SDCLK_2HCLK&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1114,7 +1114,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_SDCLK_3HCLK&#160;&#160;&#160;(3 &lt;&lt; 10)</td>
+          <td class="memname">#define FMC_SDCR_SDCLK_3HCLK&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1128,7 +1128,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_SDCLK_DISABLE&#160;&#160;&#160;(0)</td>
+          <td class="memname">#define FMC_SDCR_SDCLK_DISABLE&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1142,7 +1142,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_SDCLK_MASK&#160;&#160;&#160;(3 &lt;&lt; 10)</td>
+          <td class="memname">#define FMC_SDCR_SDCLK_MASK&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">FMC_SDCR_SDCLK_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1156,7 +1156,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDCR_SDCLK_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 10)</td>
+          <td class="memname">#define FMC_SDCR_SDCLK_SHIFT&#160;&#160;&#160;10</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1198,7 +1198,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDRTR_COUNT_MASK&#160;&#160;&#160;(0x1fff &lt;&lt; 1)</td>
+          <td class="memname">#define FMC_SDRTR_COUNT_MASK&#160;&#160;&#160;(0x1fff &lt;&lt; FMC_SDRTR_COUNT_SHIFT)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1212,7 +1212,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDRTR_COUNT_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+          <td class="memname">#define FMC_SDRTR_COUNT_SHIFT&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1286,7 +1286,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDSR_MODE1_SHIFT&#160;&#160;&#160;( 1 &lt;&lt; 1)</td>
+          <td class="memname">#define FMC_SDSR_MODE1_SHIFT&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1300,7 +1300,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDSR_MODE2_SHIFT&#160;&#160;&#160;( 1 &lt;&lt; 3)</td>
+          <td class="memname">#define FMC_SDSR_MODE2_SHIFT&#160;&#160;&#160;3</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1430,7 +1430,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TMRD_MASK&#160;&#160;&#160;(15 &lt;&lt; 0)</td>
+          <td class="memname">#define FMC_SDTR_TMRD_MASK&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a2418b4cdcd22ce1cf139b4286bc6a7ca">FMC_SDTR_TMRD_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1444,7 +1444,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TMRD_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+          <td class="memname">#define FMC_SDTR_TMRD_SHIFT&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1460,7 +1460,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TRAS_MASK&#160;&#160;&#160;(15 &lt;&lt; 8)</td>
+          <td class="memname">#define FMC_SDTR_TRAS_MASK&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a01614ba310238e12cedb3a371445d2cb">FMC_SDTR_TRAS_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1474,7 +1474,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TRAS_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 8)</td>
+          <td class="memname">#define FMC_SDTR_TRAS_SHIFT&#160;&#160;&#160;8</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1490,7 +1490,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TRC_MASK&#160;&#160;&#160;(15 &lt;&lt; 12)</td>
+          <td class="memname">#define FMC_SDTR_TRC_MASK&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a10f33ed0088c79a9d0ddab73fc1e1417">FMC_SDTR_TRC_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1504,7 +1504,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TRC_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 12)</td>
+          <td class="memname">#define FMC_SDTR_TRC_SHIFT&#160;&#160;&#160;12</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1520,7 +1520,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TRCD_MASK&#160;&#160;&#160;(15 &lt;&lt; 24)</td>
+          <td class="memname">#define FMC_SDTR_TRCD_MASK&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#aee91b857ba7bc0a38a7eb01a53cd9875">FMC_SDTR_TRCD_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1534,7 +1534,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TRCD_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 24)</td>
+          <td class="memname">#define FMC_SDTR_TRCD_SHIFT&#160;&#160;&#160;24</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1550,7 +1550,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TRP_MASK&#160;&#160;&#160;(15 &lt;&lt; 20)</td>
+          <td class="memname">#define FMC_SDTR_TRP_MASK&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a3814b7fee8d77f851622a6cddf14057a">FMC_SDTR_TRP_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1564,7 +1564,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TRP_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 20)</td>
+          <td class="memname">#define FMC_SDTR_TRP_SHIFT&#160;&#160;&#160;20</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1580,7 +1580,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TWR_MASK&#160;&#160;&#160;(15 &lt;&lt; 16)</td>
+          <td class="memname">#define FMC_SDTR_TWR_MASK&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#ad8f35964024c40e4783e04ccc25359db">FMC_SDTR_TWR_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1594,7 +1594,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TWR_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 16)</td>
+          <td class="memname">#define FMC_SDTR_TWR_SHIFT&#160;&#160;&#160;16</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1610,7 +1610,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TXSR_MASK&#160;&#160;&#160;(15 &lt;&lt; 4)</td>
+          <td class="memname">#define FMC_SDTR_TXSR_MASK&#160;&#160;&#160;(15 &lt;&lt; <a class="el" href="fmc_8h.html#a7c7f77cbf823e3cfe8cc410f00f0ae06">FMC_SDTR_TXSR_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1624,7 +1624,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FMC_SDTR_TXSR_SHIFT&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
+          <td class="memname">#define FMC_SDTR_TXSR_SHIFT&#160;&#160;&#160;4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1926,7 +1926,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_1fc15a2279e09b93b0b15236ec8117f8.html">f4</a></li><li class="navelem"><a class="el" href="fmc_8h.html">fmc.h</a></li>
-    <li class="footer">Generated on Tue Oct 6 2015 03:22:13 for libopencm3 by
+    <li class="footer">Generated on Tue Oct 6 2015 04:22:01 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

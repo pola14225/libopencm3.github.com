@@ -169,13 +169,13 @@ $(document).ready(function(){initNavTree('fmc_8c_source.html','');});
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        uint32_t result;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        result = 0;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#a043a9038c7fd4efe7396342ef2f90306">trcd</a> - 1) &amp; 0xf) * <a class="code" href="fmc_8h.html#aee91b857ba7bc0a38a7eb01a53cd9875">FMC_SDTR_TRCD_SHIFT</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#a66c55ce3fc509e59fc5cfbbbd68da662">trp</a> - 1) &amp; 0xf) * <a class="code" href="fmc_8h.html#a3814b7fee8d77f851622a6cddf14057a">FMC_SDTR_TRP_SHIFT</a>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#ab0dcc72c48b8feda1688e814e57f6428">twr</a> - 1) &amp; 0xf) * <a class="code" href="fmc_8h.html#ad8f35964024c40e4783e04ccc25359db">FMC_SDTR_TWR_SHIFT</a>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#ac4e352e1b1e1d6260b860080b97db667">trc</a> - 1) &amp; 0xf) * <a class="code" href="fmc_8h.html#a10f33ed0088c79a9d0ddab73fc1e1417">FMC_SDTR_TRC_SHIFT</a>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#a37f41b6007e8e3b09b9fc3142bc4dad3">tras</a> - 1) &amp; 0xf) * <a class="code" href="fmc_8h.html#a01614ba310238e12cedb3a371445d2cb">FMC_SDTR_TRAS_SHIFT</a>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#abe8a1f1eba9a1b6fccff1c17a55d760c">txsr</a> - 1) &amp; 0xf) * <a class="code" href="fmc_8h.html#a7c7f77cbf823e3cfe8cc410f00f0ae06">FMC_SDTR_TXSR_SHIFT</a>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#a4663054b8681dd65c5e994eaf035795c">tmrd</a> - 1) &amp; 0xf) * <a class="code" href="fmc_8h.html#a2418b4cdcd22ce1cf139b4286bc6a7ca">FMC_SDTR_TMRD_SHIFT</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#a043a9038c7fd4efe7396342ef2f90306">trcd</a> - 1) &amp; 0xf) &lt;&lt; <a class="code" href="fmc_8h.html#aee91b857ba7bc0a38a7eb01a53cd9875">FMC_SDTR_TRCD_SHIFT</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#a66c55ce3fc509e59fc5cfbbbd68da662">trp</a> - 1) &amp; 0xf) &lt;&lt; <a class="code" href="fmc_8h.html#a3814b7fee8d77f851622a6cddf14057a">FMC_SDTR_TRP_SHIFT</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#ab0dcc72c48b8feda1688e814e57f6428">twr</a> - 1) &amp; 0xf) &lt;&lt; <a class="code" href="fmc_8h.html#ad8f35964024c40e4783e04ccc25359db">FMC_SDTR_TWR_SHIFT</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#ac4e352e1b1e1d6260b860080b97db667">trc</a> - 1) &amp; 0xf) &lt;&lt; <a class="code" href="fmc_8h.html#a10f33ed0088c79a9d0ddab73fc1e1417">FMC_SDTR_TRC_SHIFT</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#a37f41b6007e8e3b09b9fc3142bc4dad3">tras</a> - 1) &amp; 0xf) &lt;&lt; <a class="code" href="fmc_8h.html#a01614ba310238e12cedb3a371445d2cb">FMC_SDTR_TRAS_SHIFT</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#abe8a1f1eba9a1b6fccff1c17a55d760c">txsr</a> - 1) &amp; 0xf) &lt;&lt; <a class="code" href="fmc_8h.html#a7c7f77cbf823e3cfe8cc410f00f0ae06">FMC_SDTR_TXSR_SHIFT</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        result |= ((t-&gt;<a class="code" href="structsdram__timing.html#a4663054b8681dd65c5e994eaf035795c">tmrd</a> - 1) &amp; 0xf) &lt;&lt; <a class="code" href="fmc_8h.html#a2418b4cdcd22ce1cf139b4286bc6a7ca">FMC_SDTR_TMRD_SHIFT</a>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
@@ -200,8 +200,8 @@ $(document).ready(function(){initNavTree('fmc_8c_source.html','');});
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                tmp_reg = <a class="code" href="fmc_8h.html#a4e5ca0bd4982c8354c021b53ef8e65e9">FMC_SDCMR_CTB1</a> | <a class="code" href="fmc_8h.html#a87be0a3520cec2885d2fc16589b97ba0">FMC_SDCMR_CTB2</a>;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        tmp_reg |= autorefresh * <a class="code" href="fmc_8h.html#ac849f0e16b6592a974b872ea2daf01c3">FMC_SDCMR_NRFS_SHIFT</a>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        tmp_reg |= modereg * <a class="code" href="fmc_8h.html#a63bdce1515df6c96abc0149ff71d35a6">FMC_SDCMR_MRD_SHIFT</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        tmp_reg |= autorefresh &lt;&lt; <a class="code" href="fmc_8h.html#ac849f0e16b6592a974b872ea2daf01c3">FMC_SDCMR_NRFS_SHIFT</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        tmp_reg |= modereg &lt;&lt; <a class="code" href="fmc_8h.html#a63bdce1515df6c96abc0149ff71d35a6">FMC_SDCMR_MRD_SHIFT</a>;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">switch</span> (cmd) {</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a3debe7a9f86e2ababdbb3eadf01b8dba">SDRAM_CLK_CONF</a>:</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                        tmp_reg |= <a class="code" href="fmc_8h.html#a8ff9e534758048b1a89c001c6b675bac">FMC_SDCMR_MODE_CLOCK_CONFIG_ENA</a>;</div>
@@ -280,7 +280,7 @@ $(document).ready(function(){initNavTree('fmc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="fmc_8c.html">fmc.c</a></li>
-    <li class="footer">Generated on Tue Oct 6 2015 03:22:13 for libopencm3 by
+    <li class="footer">Generated on Tue Oct 6 2015 04:22:01 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -193,85 +193,85 @@ $(document).ready(function(){initNavTree('fmc_8h_source.html','');});
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">/* Bits [31:15]: Reserved. */</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/* RPIPE: Read Pipe */</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">   61</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_SHIFT            (1 &lt;&lt; 13)</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="fmc_8h.html#aeb92f14302284981af853a662c8f302f">   62</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_MASK             (3 &lt;&lt; 13)</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="fmc_8h.html#a7bc052bab6bc6e55fa8aca0ab5ad03f1">   63</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_NONE             (0x0)       </span><span class="comment">/* No Delay */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="fmc_8h.html#a5e731e9a8bf11862edc30a05b3fe5919">   64</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_1CLK             (1 &lt;&lt; 13)   </span><span class="comment">/* one clock */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="fmc_8h.html#a02640800b7050682155105dd96bb32a1">   65</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_2CLK             (2 &lt;&lt; 13)   </span><span class="comment">/* two clocks */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="fmc_8h.html#a4d5bfe23593aa9853fd905c7aead468f">   61</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_SHIFT            13</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="fmc_8h.html#aeb92f14302284981af853a662c8f302f">   62</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_MASK             (3 &lt;&lt; FMC_SDCR_RPIPE_SHIFT)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="fmc_8h.html#a7bc052bab6bc6e55fa8aca0ab5ad03f1">   63</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_NONE             (0 &lt;&lt; FMC_SDCR_RPIPE_SHIFT)</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="fmc_8h.html#a5e731e9a8bf11862edc30a05b3fe5919">   64</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_1CLK             (1 &lt;&lt; FMC_SDCR_RPIPE_SHIFT)</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="fmc_8h.html#a02640800b7050682155105dd96bb32a1">   65</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RPIPE_2CLK             (2 &lt;&lt; FMC_SDCR_RPIPE_SHIFT)</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">/* RBURST: Burst Read */</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="fmc_8h.html#a07dca2532ffb1b360f5cb778e2e3811a">   68</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_RBURST                 (1 &lt;&lt; 12)</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">/* SDCLK: SDRAM Clock Configuration */</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">   71</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_SHIFT            (1 &lt;&lt; 10)</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="fmc_8h.html#aa87b4d56992f7c2b55e416b6733dc97f">   72</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_MASK             (3 &lt;&lt; 10)</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="fmc_8h.html#af3c837ec1e6256b2422541adc0552c18">   73</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_DISABLE          (0)</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="fmc_8h.html#afdfcea4694b9e9e13b57ff0868f4e873">   74</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_2HCLK            (2 &lt;&lt; 10)</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="fmc_8h.html#a09cac773beb7c2ea3aceedd08697e423">   75</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_3HCLK            (3 &lt;&lt; 10)</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="fmc_8h.html#a0d0abd9dd9358d73a88902379dc45d16">   71</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_SHIFT            10</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="fmc_8h.html#aa87b4d56992f7c2b55e416b6733dc97f">   72</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_MASK             (3 &lt;&lt; FMC_SDCR_SDCLK_SHIFT)</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="fmc_8h.html#af3c837ec1e6256b2422541adc0552c18">   73</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_DISABLE          (0 &lt;&lt; FMC_SDCR_SDCLK_SHIFT)</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="fmc_8h.html#afdfcea4694b9e9e13b57ff0868f4e873">   74</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_2HCLK            (2 &lt;&lt; FMC_SDCR_SDCLK_SHIFT)</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="fmc_8h.html#a09cac773beb7c2ea3aceedd08697e423">   75</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_SDCLK_3HCLK            (3 &lt;&lt; FMC_SDCR_SDCLK_SHIFT)</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">/* WP: Write Protect */</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="fmc_8h.html#a4d5c99b3530a50e1e721f71757dffb9d">   78</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_WP_ENABLE              (1 &lt;&lt; 9)</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">/* CAS: CAS Latency */</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">   81</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_CAS_SHIFT              (1 &lt;&lt; 7)</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="fmc_8h.html#ad71993ad316d3d02f5028e0471b8dd2d">   82</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_CAS_1CYC               (1 &lt;&lt; 7)</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="fmc_8h.html#a609f559fdf5bf2c26525a074c464e37f">   83</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_CAS_2CYC               (2 &lt;&lt; 7)</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="fmc_8h.html#a01ec6164534f0f35e062a0ab38c1c047">   84</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_CAS_3CYC               (3 &lt;&lt; 7)</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="fmc_8h.html#a9a4b4d8c722b717da6d6d97f7ec8de4e">   81</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_CAS_SHIFT              7</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="fmc_8h.html#ad71993ad316d3d02f5028e0471b8dd2d">   82</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_CAS_1CYC               (1 &lt;&lt; FMC_SDCR_CAS_SHIFT)</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="fmc_8h.html#a609f559fdf5bf2c26525a074c464e37f">   83</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_CAS_2CYC               (2 &lt;&lt; FMC_SDCR_CAS_SHIFT)</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="fmc_8h.html#a01ec6164534f0f35e062a0ab38c1c047">   84</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_CAS_3CYC               (3 &lt;&lt; FMC_SDCR_CAS_SHIFT)</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* NB: Number of Internal banks */</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="fmc_8h.html#a434a4b28c2d1c25b15e87e06b7aafe6d">   87</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NB2                    0</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="fmc_8h.html#a3b179787bef39c24d184cffd411e2882">   88</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NB4                    (1 &lt;&lt; 6)</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">/* MWID: Memory width */</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">   91</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_MWID_SHIFT             (1 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="fmc_8h.html#a1b3f25ca328bd50dbcf29ce519dbb993">   92</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_MWID_8b                (0 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="fmc_8h.html#af7cbad26d6461738227e1c2ece3d7a2f">   93</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_MWID_16b               (1 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="fmc_8h.html#a194a9e93b039c4dd3e56f9ffb703f24c">   94</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_MWID_32b               (2 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="fmc_8h.html#af8bfa39c008b2121e41f6a87f8c54030">   91</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_MWID_SHIFT             4</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="fmc_8h.html#a1b3f25ca328bd50dbcf29ce519dbb993">   92</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_MWID_8b                (0 &lt;&lt; FMC_SDCR_MWID_SHIFT)</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="fmc_8h.html#af7cbad26d6461738227e1c2ece3d7a2f">   93</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_MWID_16b               (1 &lt;&lt; FMC_SDCR_MWID_SHIFT)</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="fmc_8h.html#a194a9e93b039c4dd3e56f9ffb703f24c">   94</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_MWID_32b               (2 &lt;&lt; FMC_SDCR_MWID_SHIFT)</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">/* NR: Number of rows */</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">   97</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NR_SHIFT               (1 &lt;&lt; 2)</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="fmc_8h.html#a0657dc04b8893a36eb039336642611f8">   98</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NR_11                  (0 &lt;&lt; 2)</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="fmc_8h.html#a214f82a69a534fd958ee54744a7239d8">   99</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NR_12                  (1 &lt;&lt; 2)</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="fmc_8h.html#a8542339b7bb4e84b01047f8ec3c8c5d0">  100</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NR_13                  (2 &lt;&lt; 2)</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="fmc_8h.html#a22f65b91654e13dcfff2c9b7d66df11f">   97</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NR_SHIFT               2</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="fmc_8h.html#a0657dc04b8893a36eb039336642611f8">   98</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NR_11                  (0 &lt;&lt; FMC_SDCR_NR_SHIFT)</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="fmc_8h.html#a214f82a69a534fd958ee54744a7239d8">   99</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NR_12                  (1 &lt;&lt; FMC_SDCR_NR_SHIFT)</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="fmc_8h.html#a8542339b7bb4e84b01047f8ec3c8c5d0">  100</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NR_13                  (2 &lt;&lt; FMC_SDCR_NR_SHIFT)</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">/* NC: Number of Columns */</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">  103</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_SHIFT               (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="fmc_8h.html#aa64f6d6da017964f9b0d75a363f41c18">  104</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_8                   (0 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="fmc_8h.html#a1457b47f2e94f10ce8f79e397c070533">  105</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_9                   (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="fmc_8h.html#a40bddba2051abe780591f1bf2a8a95ff">  106</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_10                  (2 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="fmc_8h.html#a086c9a533e3913f959c69503cc3f6b06">  107</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_11                  (3 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="fmc_8h.html#acbe7f67559e9c272c8284e7d2c06df0b">  103</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_SHIFT               0</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="fmc_8h.html#aa64f6d6da017964f9b0d75a363f41c18">  104</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_8                   (0 &lt;&lt; FMC_SDCR_NC_SHIFT)</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="fmc_8h.html#a1457b47f2e94f10ce8f79e397c070533">  105</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_9                   (1 &lt;&lt; FMC_SDCR_NC_SHIFT)</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="fmc_8h.html#a40bddba2051abe780591f1bf2a8a95ff">  106</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_10                  (2 &lt;&lt; FMC_SDCR_NC_SHIFT)</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="fmc_8h.html#a086c9a533e3913f959c69503cc3f6b06">  107</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_NC_11                  (3 &lt;&lt; FMC_SDCR_NC_SHIFT)</span></div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">/* --- FMC_SDTRx values --------------------------------------------------- */</span></div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">/* Bits [31:28]: Reserved. */</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">/* TRCD: Row to Column Delay */</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="fmc_8h.html#aee91b857ba7bc0a38a7eb01a53cd9875">  114</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRCD_SHIFT             (1 &lt;&lt; 24)</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="fmc_8h.html#a334a93afb6a406066cf5af9394a1aaa3">  115</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRCD_MASK              (15 &lt;&lt; 24)</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="fmc_8h.html#aee91b857ba7bc0a38a7eb01a53cd9875">  114</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRCD_SHIFT             24</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="fmc_8h.html#a334a93afb6a406066cf5af9394a1aaa3">  115</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRCD_MASK              (15 &lt;&lt; FMC_SDTR_TRCD_SHIFT)</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">/* TRP: Row Precharge Delay */</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="fmc_8h.html#a3814b7fee8d77f851622a6cddf14057a">  118</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRP_SHIFT              (1 &lt;&lt; 20)</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="fmc_8h.html#a5955229727a15ba0098285df8229c010">  119</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRP_MASK               (15 &lt;&lt; 20)</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="fmc_8h.html#a3814b7fee8d77f851622a6cddf14057a">  118</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRP_SHIFT              20</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="fmc_8h.html#a5955229727a15ba0098285df8229c010">  119</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRP_MASK               (15 &lt;&lt; FMC_SDTR_TRP_SHIFT)</span></div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment">/* TWR: Recovery Delay */</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="fmc_8h.html#ad8f35964024c40e4783e04ccc25359db">  122</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TWR_SHIFT              (1 &lt;&lt; 16)</span></div>
-<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="fmc_8h.html#a457f1c2e599067c76596ae3078bfc26b">  123</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TWR_MASK               (15 &lt;&lt; 16)</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="fmc_8h.html#ad8f35964024c40e4783e04ccc25359db">  122</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TWR_SHIFT              16</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="fmc_8h.html#a457f1c2e599067c76596ae3078bfc26b">  123</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TWR_MASK               (15 &lt;&lt; FMC_SDTR_TWR_SHIFT)</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="comment">/* TRC: Row Cycle Delay */</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="fmc_8h.html#a10f33ed0088c79a9d0ddab73fc1e1417">  126</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRC_SHIFT              (1 &lt;&lt; 12)</span></div>
-<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="fmc_8h.html#adfaa6093a87bf43ae08aa2b7ff2e9d63">  127</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRC_MASK               (15 &lt;&lt; 12)</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="fmc_8h.html#a10f33ed0088c79a9d0ddab73fc1e1417">  126</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRC_SHIFT              12</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="fmc_8h.html#adfaa6093a87bf43ae08aa2b7ff2e9d63">  127</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRC_MASK               (15 &lt;&lt; FMC_SDTR_TRC_SHIFT)</span></div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment">/* TRAS: Self Refresh Time */</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="fmc_8h.html#a01614ba310238e12cedb3a371445d2cb">  130</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRAS_SHIFT             (1 &lt;&lt; 8)</span></div>
-<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="fmc_8h.html#abbf8cd9385c2919542a0b924c9032100">  131</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRAS_MASK              (15 &lt;&lt; 8)</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="fmc_8h.html#a01614ba310238e12cedb3a371445d2cb">  130</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRAS_SHIFT             8</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="fmc_8h.html#abbf8cd9385c2919542a0b924c9032100">  131</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TRAS_MASK              (15 &lt;&lt; FMC_SDTR_TRAS_SHIFT)</span></div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment">/* TXSR: Exit Self-refresh Delay */</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="fmc_8h.html#a7c7f77cbf823e3cfe8cc410f00f0ae06">  134</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TXSR_SHIFT             (1 &lt;&lt; 4)</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="fmc_8h.html#a1ea38a0cf1c426d3124117546500950a">  135</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TXSR_MASK              (15 &lt;&lt; 4)</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="fmc_8h.html#a7c7f77cbf823e3cfe8cc410f00f0ae06">  134</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TXSR_SHIFT             4</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="fmc_8h.html#a1ea38a0cf1c426d3124117546500950a">  135</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TXSR_MASK              (15 &lt;&lt; FMC_SDTR_TXSR_SHIFT)</span></div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="comment">/* TRMD: Load Mode Register to Active */</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="fmc_8h.html#a2418b4cdcd22ce1cf139b4286bc6a7ca">  138</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TMRD_SHIFT             (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="fmc_8h.html#a42d0483a9e64c6b5bd53fa5f69c6eb30">  139</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TMRD_MASK              (15 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="fmc_8h.html#a2418b4cdcd22ce1cf139b4286bc6a7ca">  138</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TMRD_SHIFT             0</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="fmc_8h.html#a42d0483a9e64c6b5bd53fa5f69c6eb30">  139</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_TMRD_MASK              (15 &lt;&lt; FMC_SDTR_TMRD_SHIFT)</span></div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="comment"> * Some config bits only count in CR1 or TR1, even if you</span></div>
@@ -289,12 +289,12 @@ $(document).ready(function(){initNavTree('fmc_8h_source.html','');});
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="comment">/* Bits [31:22]: Reserved. */</span></div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">/* MRD: Mode Register Definition */</span></div>
-<div class="line"><a name="l00157"></a><span class="lineno"><a class="line" href="fmc_8h.html#a63bdce1515df6c96abc0149ff71d35a6">  157</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MRD_SHIFT             (1 &lt;&lt; 9)</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="fmc_8h.html#a3236a2f2ffb2b6cd98fd9360a3d2bacd">  158</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MRD_MASK              (0x1fff &lt;&lt; 9)</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno"><a class="line" href="fmc_8h.html#a63bdce1515df6c96abc0149ff71d35a6">  157</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MRD_SHIFT             9</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="fmc_8h.html#a3236a2f2ffb2b6cd98fd9360a3d2bacd">  158</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MRD_MASK              (0x1fff &lt;&lt; FMC_SDCMR_MRD_SHIFT)</span></div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="comment">/* NRFS: Number of Auto-refresh */</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno"><a class="line" href="fmc_8h.html#ac849f0e16b6592a974b872ea2daf01c3">  161</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_NRFS_SHIFT            (1 &lt;&lt; 5)</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno"><a class="line" href="fmc_8h.html#aa8cb33f2a0b223f916be4b54a94dcd4c">  162</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_NRFS_MASK             (15 &lt;&lt; 5)</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno"><a class="line" href="fmc_8h.html#ac849f0e16b6592a974b872ea2daf01c3">  161</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_NRFS_SHIFT            5</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno"><a class="line" href="fmc_8h.html#aa8cb33f2a0b223f916be4b54a94dcd4c">  162</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_NRFS_MASK             (15 &lt;&lt; FMC_SDCMR_NRFS_SHIFT)</span></div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">/* CTB1: Command Target Bank 1 */</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="fmc_8h.html#a4e5ca0bd4982c8354c021b53ef8e65e9">  165</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_CTB1                  (1 &lt;&lt; 4)</span></div>
@@ -303,8 +303,8 @@ $(document).ready(function(){initNavTree('fmc_8h_source.html','');});
 <div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="fmc_8h.html#a87be0a3520cec2885d2fc16589b97ba0">  168</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_CTB2                  (1 &lt;&lt; 3)</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">/* MODE: Command Mode */</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="fmc_8h.html#ab0782a11a6d37bb0fb0bf8b7654a8ced">  171</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MODE_SHIFT            (1 &lt;&lt; 0)</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno"><a class="line" href="fmc_8h.html#ae0f1ba5cb850c88a5f2d296a4feeb583">  172</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MODE_MASK             (7 &lt;&lt; 0)</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="fmc_8h.html#ab0782a11a6d37bb0fb0bf8b7654a8ced">  171</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MODE_SHIFT            0</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno"><a class="line" href="fmc_8h.html#ae0f1ba5cb850c88a5f2d296a4feeb583">  172</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MODE_MASK             7</span></div>
 <div class="line"><a name="l00173"></a><span class="lineno"><a class="line" href="fmc_8h.html#afa9b8f0b6e4a820fab01fc76813c2f13">  173</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MODE_NORMAL                   0</span></div>
 <div class="line"><a name="l00174"></a><span class="lineno"><a class="line" href="fmc_8h.html#a8ff9e534758048b1a89c001c6b675bac">  174</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MODE_CLOCK_CONFIG_ENA         1</span></div>
 <div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="fmc_8h.html#ac3cb320e7085daf97878b7a4442c5e16">  175</a></span>&#160;<span class="preprocessor">#define FMC_SDCMR_MODE_PALL                     2</span></div>
@@ -321,8 +321,8 @@ $(document).ready(function(){initNavTree('fmc_8h_source.html','');});
 <div class="line"><a name="l00186"></a><span class="lineno"><a class="line" href="fmc_8h.html#acd0a57affeb0e260988e4c2b4f732e19">  186</a></span>&#160;<span class="preprocessor">#define FMC_SDRTR_REIE                  (1 &lt;&lt; 14)</span></div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="comment">/* COUNT: Refresh Timer Count */</span></div>
-<div class="line"><a name="l00189"></a><span class="lineno"><a class="line" href="fmc_8h.html#a9c21db263aa17582e13be970a6ec901b">  189</a></span>&#160;<span class="preprocessor">#define FMC_SDRTR_COUNT_SHIFT           (1 &lt;&lt; 1)</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno"><a class="line" href="fmc_8h.html#ac705d021fb5734bbc1af7f374e3e2e82">  190</a></span>&#160;<span class="preprocessor">#define FMC_SDRTR_COUNT_MASK            (0x1fff &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno"><a class="line" href="fmc_8h.html#a9c21db263aa17582e13be970a6ec901b">  189</a></span>&#160;<span class="preprocessor">#define FMC_SDRTR_COUNT_SHIFT           1</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno"><a class="line" href="fmc_8h.html#ac705d021fb5734bbc1af7f374e3e2e82">  190</a></span>&#160;<span class="preprocessor">#define FMC_SDRTR_COUNT_MASK            (0x1fff &lt;&lt; FMC_SDRTR_COUNT_SHIFT)</span></div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="comment">/* CRE: Clear Refresh Error Flag */</span></div>
 <div class="line"><a name="l00193"></a><span class="lineno"><a class="line" href="fmc_8h.html#a81edf1f7343fe344297dd376cd46fc22">  193</a></span>&#160;<span class="preprocessor">#define FMC_SDRTR_CRE                   (1 &lt;&lt; 0)</span></div>
@@ -340,8 +340,8 @@ $(document).ready(function(){initNavTree('fmc_8h_source.html','');});
 <div class="line"><a name="l00205"></a><span class="lineno"><a class="line" href="fmc_8h.html#ad5cf0746d2d4494e629cbc310f3834e4">  205</a></span>&#160;<span class="preprocessor">#define FMC_SDSR_MODE_POWER_DOWN        2</span></div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="comment">/* Mode shift */</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno"><a class="line" href="fmc_8h.html#a39d4d13ce370c5fb8929ddd82e044cd7">  208</a></span>&#160;<span class="preprocessor">#define FMC_SDSR_MODE2_SHIFT            ( 1 &lt;&lt; 3)</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno"><a class="line" href="fmc_8h.html#ae5773d51269b36312a9e56e56ab34565">  209</a></span>&#160;<span class="preprocessor">#define FMC_SDSR_MODE1_SHIFT            ( 1 &lt;&lt; 1)</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno"><a class="line" href="fmc_8h.html#a39d4d13ce370c5fb8929ddd82e044cd7">  208</a></span>&#160;<span class="preprocessor">#define FMC_SDSR_MODE2_SHIFT            3</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno"><a class="line" href="fmc_8h.html#ae5773d51269b36312a9e56e56ab34565">  209</a></span>&#160;<span class="preprocessor">#define FMC_SDSR_MODE1_SHIFT            1</span></div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="comment">/* RE: Refresh Error */</span></div>
 <div class="line"><a name="l00212"></a><span class="lineno"><a class="line" href="fmc_8h.html#a6122b8dc3cac5ac09342b843b36ae36d">  212</a></span>&#160;<span class="preprocessor">#define FMC_SDSR_RE                     (1 &lt;&lt; 0)</span></div>
@@ -408,7 +408,7 @@ $(document).ready(function(){initNavTree('fmc_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_1fc15a2279e09b93b0b15236ec8117f8.html">f4</a></li><li class="navelem"><a class="el" href="fmc_8h.html">fmc.h</a></li>
-    <li class="footer">Generated on Tue Oct 6 2015 03:22:13 for libopencm3 by
+    <li class="footer">Generated on Tue Oct 6 2015 04:22:01 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
