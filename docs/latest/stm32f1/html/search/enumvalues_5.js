@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['range1',['RANGE1',['../pwr__common__l01_8h.html#a03ccf3726008e813551f58725e0bcb40a15e188ed9b712b2d0de04db6b782c4eb',1,'pwr_common_l01.h']]],
+  ['range2',['RANGE2',['../pwr__common__l01_8h.html#a03ccf3726008e813551f58725e0bcb40a69f2f7f39de6f1dcea47320100b82926',1,'pwr_common_l01.h']]],
+  ['range3',['RANGE3',['../pwr__common__l01_8h.html#a03ccf3726008e813551f58725e0bcb40a07a05dfcddb0d6988ed06828b40a2af2',1,'pwr_common_l01.h']]],
   ['rcc_5fadc1',['RCC_ADC1',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a81b9534841bd60ff16455a28481d7a14',1,'rcc.h']]],
   ['rcc_5fadc2',['RCC_ADC2',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a777ad0506337d6e993f2806a9c6e6e67',1,'rcc.h']]],
   ['rcc_5fadc3',['RCC_ADC3',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48aa6241e9482735ceb39aac86fcf16181a',1,'rcc.h']]],

@@ -13,6 +13,6 @@ var searchData=
   ['timx_5fcr1_20cms_5b1_3a0_5d_3a_20center_2daligned_20mode_20selection',['TIMx_CR1 CMS[1:0]: Center-aligned Mode Selection',['../group__tim__x__cr1__cms.html',1,'']]],
   ['timx_5fcr1_20dir_3a_20direction',['TIMx_CR1 DIR: Direction',['../group__tim__x__cr1__dir.html',1,'']]],
   ['timx_5fcr2_5fois_3a_20force_20output_20idle_20state_20control_20values',['TIMx_CR2_OIS: Force Output Idle State Control Values',['../group__tim__x__cr2__ois.html',1,'']]],
-  ['timer_5fdefines',['Timer_defines',['../group__timer__defines.html',1,'']]],
+  ['timer_20defines',['Timer Defines',['../group__timer__defines.html',1,'']]],
   ['timer_5ffile',['Timer_file',['../group__timer__file.html',1,'']]]
 ];

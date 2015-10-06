@@ -1,7 +1,7 @@
 var group__pwr__defines =
 [
-    [ "Voltage Scaling Output level selection", "group__pwr__vos.html", "group__pwr__vos" ],
     [ "PVD level selection", "group__pwr__pls.html", "group__pwr__pls" ],
+    [ "Voltage Scaling Output level selection", "group__pwr__vos.html", "group__pwr__vos" ],
     [ "PWR_CR", "group__pwr__defines.html#ga25cb9de3904b844fcf2f3898894ab8d8", null ],
     [ "PWR_CR_CSBF", "group__pwr__defines.html#gab44484cacc35c80cf82eb011d6cbe13a", null ],
     [ "PWR_CR_CWUF", "group__pwr__defines.html#ga3928de64f633b84770b1cfecea702fa7", null ],

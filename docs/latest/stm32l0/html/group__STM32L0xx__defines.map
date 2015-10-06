@@ -1,4 +1,8 @@
 <map id="STM32L0xx Defines" name="STM32L0xx Defines">
-<area shape="rect" id="node1" href="$group__rcc__defines.html" title="Defined Constants and Types for the STM32L0xx Reset and Clock Control " alt="" coords="196,5,297,32"/>
-<area shape="rect" id="node3" href="$group__gpio__defines.html" title="Defined Constants and Types for the STM32F0xx General Purpose I/O " alt="" coords="195,56,299,83"/>
+<area shape="rect" id="node1" href="$group__rcc__defines.html" title="Defined Constants and Types for the STM32L0xx Reset and Clock Control " alt="" coords="207,5,309,32"/>
+<area shape="rect" id="node2" href="$group__pwr__defines.html" title="Defined Constants and Types for the STM32L0xx PWR Control " alt="" coords="207,56,309,83"/>
+<area shape="rect" id="node3" href="$group__syscfg__defines.html" title="Defined Constants and Types for the STM32L0xx System Config " alt="" coords="195,107,321,133"/>
+<area shape="rect" id="node5" href="$group__exti__defines.html" title="Defined Constants and Types for the STM32L0xx External Interrupts &#160;" alt="" coords="207,157,309,184"/>
+<area shape="rect" id="node6" href="$group__gpio__defines.html" title="Defined Constants and Types for the STM32F0xx General Purpose I/O " alt="" coords="206,208,310,235"/>
+<area shape="rect" id="node7" href="$group__timer__defines.html" title="libopencm3 Defined Constants and Types for the STM32L0xx Timers " alt="" coords="206,259,310,285"/>
 </map>

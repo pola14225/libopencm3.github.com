@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exti_5fdefines',['Exti_defines',['../group__exti__defines.html',1,'']]]
+  ['exti_20defines',['EXTI Defines',['../group__exti__defines.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['weak',['WEAK',['../gpio__common__all_8c.html#ad1480e9557edcc543498ca259cee6c7d',1,'gpio_common_all.c']]],
-  ['wwdg_5fbase',['WWDG_BASE',['../memorymap_8h.html#a9a5bf4728ab93dea5b569f5b972cbe62',1,'memorymap.h']]]
+  ['voltage_20scaling_20output_20level_20selection',['Voltage Scaling Output level selection',['../group__pwr__vos.html',1,'']]],
+  ['vos_5fscale_5ft',['vos_scale_t',['../pwr__common__l01_8h.html#a03ccf3726008e813551f58725e0bcb40',1,'pwr_common_l01.h']]]
 ];

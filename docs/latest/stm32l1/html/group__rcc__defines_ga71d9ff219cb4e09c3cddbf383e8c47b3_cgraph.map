@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$group__flash__defines.html#ga46ea5d4032d7ea65641376eca38202f8" title="Enable 64 Bit Programming Mode. " alt="" coords="213,5,344,32"/>
 <area shape="rect" id="node3" href="$group__flash__defines.html#ga0f76604d23e55a997cef486d8f93c8f7" title="Enable the FLASH Prefetch Buffer. " alt="" coords="204,56,353,83"/>
 <area shape="rect" id="node4" href="$group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2" title="Set the Number of Wait States. " alt="" coords="229,107,328,133"/>
-<area shape="rect" id="node5" href="$pwr_8h.html#aa22ffb6b23613688342c73dd591dcd60" title="pwr_set_vos_scale" alt="" coords="211,157,346,184"/>
+<area shape="rect" id="node5" href="$pwr__common__l01_8h.html#aa22ffb6b23613688342c73dd591dcd60" title="pwr_set_vos_scale" alt="" coords="211,157,346,184"/>
 <area shape="rect" id="node6" href="$group__rcc__defines.html#ga8dbd64d58e019803bf109609203d1afd" title="rcc_osc_on" alt="" coords="234,208,323,235"/>
 <area shape="rect" id="node7" href="$group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8" title="RCC Enable Peripheral Clocks. " alt="" coords="205,259,353,301"/>
 <area shape="rect" id="node8" href="$group__rcc__defines.html#gae192b2cd0f37124db5ed76d599a5671b" title="rcc_set_hpre" alt="" coords="230,325,327,352"/>

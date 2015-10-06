@@ -1,16 +1,17 @@
-<map id="Timer_defines" name="Timer_defines">
-<area shape="rect" id="node1" href="$group__tim2__opt__trigger__remap.html" title="Trigger 1 Remap. " alt="" coords="164,5,333,47"/>
-<area shape="rect" id="node2" href="$group__tim__sms.html" title="SMS Slave mode selection" alt="" coords="159,71,339,98"/>
-<area shape="rect" id="node3" href="$group__tim__mastermode.html" title="TIMx_CR2 MMS[6:4]:\l Master Mode Selection" alt="" coords="169,123,329,164"/>
-<area shape="rect" id="node4" href="$group__tim__lock.html" title="TIM_BDTR_LOCK Timer\l Lock Values" alt="" coords="164,188,333,229"/>
-<area shape="rect" id="node5" href="$group__tim__irq__enable.html" title="TIMx_DIER Timer DMA\l and Interrupt Enable\l Values" alt="" coords="167,253,330,309"/>
-<area shape="rect" id="node6" href="$group__tim__ts.html" title="TS Trigger selection" alt="" coords="179,333,318,359"/>
-<area shape="rect" id="node7" href="$group__tim__event__gen.html" title="TIMx_EGR Timer Event\l Generator Values" alt="" coords="167,384,330,425"/>
-<area shape="rect" id="node8" href="$group__tim__x__cr1__cdr.html" title="TIMx_CR1 CKD[1:0] Clock\l Division Ratio" alt="" coords="157,449,340,491"/>
-<area shape="rect" id="node9" href="$group__tim__sr__values.html" title="TIMx_SR Timer Status\l Register Flags" alt="" coords="170,515,327,556"/>
-<area shape="rect" id="node10" href="$group__tim__reg__base.html" title="Timer register base\l addresses" alt="" coords="181,580,316,621"/>
-<area shape="rect" id="node11" href="$group__tim__x__cr1__cms.html" title="TIMx_CR1 CMS[1:0]:\l Center&#45;aligned Mode\l Selection" alt="" coords="173,645,324,701"/>
-<area shape="rect" id="node12" href="$group__tim5__opt__trigger__remap.html" title="Only available in F2 and F4 series. " alt="" coords="164,725,333,781"/>
-<area shape="rect" id="node13" href="$group__tim__x__cr2__ois.html" title="TIMx_CR2_OIS: Force\l Output Idle State Control\l Values" alt="" coords="163,805,334,861"/>
-<area shape="rect" id="node15" href="$group__tim__x__cr1__dir.html" title="TIMx_CR1 DIR: Direction" alt="" coords="161,885,336,911"/>
+<map id="Timer Defines" name="Timer Defines">
+<area shape="rect" id="node1" href="$group__tim2__opt__trigger__remap.html" title="Trigger 1 Remap. " alt="" coords="353,5,523,47"/>
+<area shape="rect" id="node2" href="$group__tim__sms.html" title="SMS Slave mode selection" alt="" coords="348,71,528,98"/>
+<area shape="rect" id="node3" href="$group__tim__mastermode.html" title="TIMx_CR2 MMS[6:4]:\l Master Mode Selection" alt="" coords="358,123,518,164"/>
+<area shape="rect" id="node4" href="$group__tim__lock.html" title="TIM_BDTR_LOCK Timer\l Lock Values" alt="" coords="353,188,523,229"/>
+<area shape="rect" id="node5" href="$group__tim__irq__enable.html" title="TIMx_DIER Timer DMA\l and Interrupt Enable\l Values" alt="" coords="357,253,519,309"/>
+<area shape="rect" id="node6" href="$group__STM32L0xx__defines.html" title="Defined Constants and Types for the STM32L0xx series. " alt="" coords="5,425,147,451"/>
+<area shape="rect" id="node7" href="$group__tim__ts.html" title="TS Trigger selection" alt="" coords="369,333,507,359"/>
+<area shape="rect" id="node8" href="$group__tim__event__gen.html" title="TIMx_EGR Timer Event\l Generator Values" alt="" coords="357,384,519,425"/>
+<area shape="rect" id="node9" href="$group__tim__x__cr1__cdr.html" title="TIMx_CR1 CKD[1:0] Clock\l Division Ratio" alt="" coords="347,449,529,491"/>
+<area shape="rect" id="node10" href="$group__tim__sr__values.html" title="TIMx_SR Timer Status\l Register Flags" alt="" coords="359,515,517,556"/>
+<area shape="rect" id="node11" href="$group__tim__reg__base.html" title="Timer register base\l addresses" alt="" coords="371,580,505,621"/>
+<area shape="rect" id="node12" href="$group__tim__x__cr1__cms.html" title="TIMx_CR1 CMS[1:0]:\l Center&#45;aligned Mode\l Selection" alt="" coords="363,645,513,701"/>
+<area shape="rect" id="node13" href="$group__tim5__opt__trigger__remap.html" title="Only available in F2 and F4 series. " alt="" coords="353,725,523,781"/>
+<area shape="rect" id="node14" href="$group__tim__x__cr2__ois.html" title="TIMx_CR2_OIS: Force\l Output Idle State Control\l Values" alt="" coords="353,805,523,861"/>
+<area shape="rect" id="node16" href="$group__tim__x__cr1__dir.html" title="TIMx_CR1 DIR: Direction" alt="" coords="351,885,525,911"/>
 </map>

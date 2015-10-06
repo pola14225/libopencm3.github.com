@@ -3473,6 +3473,380 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>crs_common_all.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>crs__common__all_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>crs_autotrim_usb_enable</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga01a9ce5f79f9244985f2ad45c671cd37</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>crs_common_all.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>crs__common__all_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad151b2f8dbc243ac0ce1fad0c4306328</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5b01c27669cebc1e9f8724bc4a6d7e6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga3c91535f9d738a657f8c47149ec6f24a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab03e59be41ea5a84e9a8406ff8294ca8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga871f65d5edeabb8a0616697738d2c04f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_TRIM_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga83c80f57572eff0bdc521c3679cb2e8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_TRIM</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga755d695431db14c1b3b15a48ede61c13</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SWSYNC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga53d79706214ba4ee9310e4b678d67e44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_AUTOTRIMEN</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gafa48432b942f1896e05a2eff91178edd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_CEN</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gace21476d647129c935f84daf84d91699</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_ESYNCIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga3831818c762e279f698faf27f4e7db4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_ERRIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gac616bbfe903ec7cc2be289db5fba0fe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SYNCWARNIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gac27fb8e1741d3b5c19a527955eb00bad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SYNCOKIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga246a4b3d840b5b9a18f6ea414fc48297</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCPOL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab28395cefb0927f2118a9a840a2e2d71</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5987c540969d232c71a7abbe075c509c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga441881d5e657b04236e440918fe63d20</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_GPIO</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab3f24d66e3601fda05f8e85e6e324297</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_LSE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga8a841f5094d9797d208d864da7e2d3bd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_USB_SOF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf45cfad8d9be4cdb6b668797178fb11f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa0cdf9d1d14ebf578d6aa401171fe561</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad0b3ee2ab042802997e57d788c640647</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_NODIV</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaafe74c2f6b00f56f4301f35839231518</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV2</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad8c4a6c090d87059f96b839ec28dfc74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV4</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad22de8eeb153e1d9f336ff6f92e6b390</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV8</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga23f6fc67360d9d3462fd9b7fbdf0424b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV16</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gae4cb9be168a6957b7a8cf1e3aa0b307e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV32</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga1439b9d86cb02ce6122b367070b958eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV64</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gabb2cb8f73d4e7e455cbe4d7fb9e18817</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV128</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab40203a9c7e9c3efbfa63ef1ac89b225</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa1e1bc82a41ff8da8869ac00c926a624</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga48c70ae21b6a35ed520a2b30df2c4852</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM_VAL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad6d4f4be96d0ac19bf23ba45210b65a2</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga079e5a3e3da5c0c34ffa3c968f0b0c5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga7e54b011ada0eeb4b6ed9cdd24d517f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD_VAL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga2066b9094382e2daf4bd9c6950a22147</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FECAP_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5869918f00cfe3b2fa6ce0dac11d59ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FECAP</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf0b8a9757678f28814b1a0c1baca63e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FEDIR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga91196b059d8ff52c4f28bc964c8a446a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_TRIMOVF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf3852f10eb46159b7888c71e6d9cec3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCMISS</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga9f2241bd51b436f7b381ad410124aec5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCERR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga80d05ae1142788a65444c0463a26bcfb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_ESYNCF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga819c4d424be7915f9660ecb19c234a8f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_ERRF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga963b451a4ca8890ee3d323304f0b9298</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCWARNF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga0f33a79fec47400ab363bbf5b4b9f2b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCOOKF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab8ae43aa18602b176b69dbf6b8e60141</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_ESYNCC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gacfaa0b3004143ca5b1a7fe5ed23daccf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_ERRC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gae67dc4a9e576468b0c322902c7c47793</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_SYNCWARNC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab772d21f8bc42ad5761a270d663be1ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_SYNCOKC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa42110e626aeef3ca9d76c8bda1f08d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crs_autotrim_usb_enable</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga01a9ce5f79f9244985f2ad45c671cd37</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>crypto.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>crypto_8c</filename>
@@ -15534,6 +15908,136 @@
       <anchorfile>group__pwr__defines.html</anchorfile>
       <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>pwr_common_l01.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>pwr__common__l01_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_vos_scale</name>
+      <anchorfile>pwr__common__l01_8c.html</anchorfile>
+      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
+      <arglist>(vos_scale_t scale)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>pwr_common_l01.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>pwr__common__l01_8h</filename>
+    <includes id="pwr__common__all_8h" name="pwr_common_all.h" local="no" imported="no">libopencm3/stm32/common/pwr_common_all.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_LPRUN</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>ad420341e83bf995a581a42b49511e2ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_LSB</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a4a38522407ece5ee44560204c7555661</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE1</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>gacf97c6fa060796dc67ec47e6d897aa14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE2</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>ga3428a34be04892007ffaa40a59f2492f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE3</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>gab760fe0b783cb51a37e4d0089c4077fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_MASK</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a06db718126d979cbf61fc27991514e1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_FWU</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a282ffe109edf2466c2a563784a591ec8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_ULP</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a14c19c1188ed2c42acbdba5759bc5e03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_LPSDSR</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a4e3d6a1e77ba526a2bc43343916f0e79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_EWUP2</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a3924963c0b869453e9be2b8f14c929dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_EWUP1</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a2a92d9adb125e24ab1cd1a58a73efe19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_REGLPF</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>afb4741c79606f7fde43e2b88113053d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_VOSF</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a760e9fa30782fc54fec0b0f886eda0f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_VREFINTRDYF</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a918aa3e6e5f97f7032d3eae8ac324eba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>vos_scale_t</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a03ccf3726008e813551f58725e0bcb40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_vos_scale</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
+      <arglist>(vos_scale_t scale)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -36165,6 +36669,7 @@
     <title>PWR Defines</title>
     <filename>group__pwr__defines.html</filename>
     <subgroup>pwr_pls</subgroup>
+    <subgroup>pwr_vos</subgroup>
     <member kind="define">
       <type>#define</type>
       <name>PWR_CR</name>
@@ -44491,6 +44996,368 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>CRS_defines</name>
+    <title>CRS Defines</title>
+    <filename>group__CRS__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad151b2f8dbc243ac0ce1fad0c4306328</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5b01c27669cebc1e9f8724bc4a6d7e6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga3c91535f9d738a657f8c47149ec6f24a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab03e59be41ea5a84e9a8406ff8294ca8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga871f65d5edeabb8a0616697738d2c04f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_TRIM_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga83c80f57572eff0bdc521c3679cb2e8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_TRIM</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga755d695431db14c1b3b15a48ede61c13</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SWSYNC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga53d79706214ba4ee9310e4b678d67e44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_AUTOTRIMEN</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gafa48432b942f1896e05a2eff91178edd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_CEN</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gace21476d647129c935f84daf84d91699</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_ESYNCIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga3831818c762e279f698faf27f4e7db4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_ERRIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gac616bbfe903ec7cc2be289db5fba0fe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SYNCWARNIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gac27fb8e1741d3b5c19a527955eb00bad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SYNCOKIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga246a4b3d840b5b9a18f6ea414fc48297</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCPOL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab28395cefb0927f2118a9a840a2e2d71</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5987c540969d232c71a7abbe075c509c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga441881d5e657b04236e440918fe63d20</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_GPIO</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab3f24d66e3601fda05f8e85e6e324297</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_LSE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga8a841f5094d9797d208d864da7e2d3bd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_USB_SOF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf45cfad8d9be4cdb6b668797178fb11f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa0cdf9d1d14ebf578d6aa401171fe561</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad0b3ee2ab042802997e57d788c640647</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_NODIV</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaafe74c2f6b00f56f4301f35839231518</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV2</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad8c4a6c090d87059f96b839ec28dfc74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV4</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad22de8eeb153e1d9f336ff6f92e6b390</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV8</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga23f6fc67360d9d3462fd9b7fbdf0424b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV16</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gae4cb9be168a6957b7a8cf1e3aa0b307e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV32</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga1439b9d86cb02ce6122b367070b958eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV64</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gabb2cb8f73d4e7e455cbe4d7fb9e18817</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV128</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab40203a9c7e9c3efbfa63ef1ac89b225</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa1e1bc82a41ff8da8869ac00c926a624</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga48c70ae21b6a35ed520a2b30df2c4852</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM_VAL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad6d4f4be96d0ac19bf23ba45210b65a2</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga079e5a3e3da5c0c34ffa3c968f0b0c5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga7e54b011ada0eeb4b6ed9cdd24d517f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD_VAL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga2066b9094382e2daf4bd9c6950a22147</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FECAP_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5869918f00cfe3b2fa6ce0dac11d59ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FECAP</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf0b8a9757678f28814b1a0c1baca63e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FEDIR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga91196b059d8ff52c4f28bc964c8a446a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_TRIMOVF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf3852f10eb46159b7888c71e6d9cec3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCMISS</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga9f2241bd51b436f7b381ad410124aec5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCERR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga80d05ae1142788a65444c0463a26bcfb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_ESYNCF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga819c4d424be7915f9660ecb19c234a8f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_ERRF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga963b451a4ca8890ee3d323304f0b9298</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCWARNF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga0f33a79fec47400ab363bbf5b4b9f2b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCOOKF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab8ae43aa18602b176b69dbf6b8e60141</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_ESYNCC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gacfaa0b3004143ca5b1a7fe5ed23daccf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_ERRC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gae67dc4a9e576468b0c322902c7c47793</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_SYNCWARNC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab772d21f8bc42ad5761a270d663be1ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_SYNCOKC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa42110e626aeef3ca9d76c8bda1f08d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crs_autotrim_usb_enable</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga01a9ce5f79f9244985f2ad45c671cd37</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
     <name>crypto_registers_gen</name>
     <title>Registers (Generic)</title>
     <filename>group__crypto__registers__gen.html</filename>
@@ -46754,6 +47621,32 @@
       <name>PWR_CR_PLS_2V9</name>
       <anchorfile>group__pwr__pls.html</anchorfile>
       <anchor>gac179ee1e4ceef0c1b1b3bafe2326b047</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>pwr_vos</name>
+    <title>Voltage Scaling Output level selection</title>
+    <filename>group__pwr__vos.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE1</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>gacf97c6fa060796dc67ec47e6d897aa14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE2</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>ga3428a34be04892007ffaa40a59f2492f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE3</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>gab760fe0b783cb51a37e4d0089c4077fa</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -51757,6 +52650,11 @@
       <anchor>ga761c6089dcd796e78f4f5ba495f7fc37</anchor>
       <arglist>(uint32_t usart, uint32_t flag)</arglist>
     </member>
+  </compound>
+  <compound kind="group">
+    <name>crs_file</name>
+    <title>CRS</title>
+    <filename>group__crs__file.html</filename>
   </compound>
   <compound kind="page">
     <name>lgpl_license</name>

@@ -4,7 +4,6 @@ var group__STM32F0xx__defines =
     [ "CEC Defines", "group__CEC__defines.html", "group__CEC__defines" ],
     [ "COMP Defines", "group__comp__defines.html", "group__comp__defines" ],
     [ "CRC Defines", "group__crc__defines.html", "group__crc__defines" ],
-    [ "CRS Defines", "group__CRS__defines.html", "group__CRS__defines" ],
     [ "DAC Defines", "group__dac__defines.html", "group__dac__defines" ],
     [ "DMA Defines", "group__dma__defines.html", "group__dma__defines" ],
     [ "EXTI Defines", "group__exti__defines.html", "group__exti__defines" ],

@@ -11,6 +11,6 @@ var searchData=
   ['spi_20register_20base_20address',['SPI Register base address',['../group__spi__reg__base.html',1,'']]],
   ['stm32l0xx',['STM32L0xx',['../group__STM32L0xx.html',1,'']]],
   ['stm32l0xx_20defines',['STM32L0xx Defines',['../group__STM32L0xx__defines.html',1,'']]],
-  ['syscfg_5fdefines',['Syscfg_defines',['../group__syscfg__defines.html',1,'']]],
+  ['syscfg_20defines',['SYSCFG Defines',['../group__syscfg__defines.html',1,'']]],
   ['sms_20slave_20mode_20selection',['SMS Slave mode selection',['../group__tim__sms.html',1,'']]]
 ];

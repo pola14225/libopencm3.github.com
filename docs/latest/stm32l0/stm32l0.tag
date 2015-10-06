@@ -1498,6 +1498,380 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>crs_common_all.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>crs__common__all_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>crs_autotrim_usb_enable</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga01a9ce5f79f9244985f2ad45c671cd37</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>crs_common_all.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>crs__common__all_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad151b2f8dbc243ac0ce1fad0c4306328</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5b01c27669cebc1e9f8724bc4a6d7e6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga3c91535f9d738a657f8c47149ec6f24a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab03e59be41ea5a84e9a8406ff8294ca8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga871f65d5edeabb8a0616697738d2c04f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_TRIM_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga83c80f57572eff0bdc521c3679cb2e8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_TRIM</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga755d695431db14c1b3b15a48ede61c13</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SWSYNC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga53d79706214ba4ee9310e4b678d67e44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_AUTOTRIMEN</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gafa48432b942f1896e05a2eff91178edd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_CEN</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gace21476d647129c935f84daf84d91699</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_ESYNCIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga3831818c762e279f698faf27f4e7db4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_ERRIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gac616bbfe903ec7cc2be289db5fba0fe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SYNCWARNIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gac27fb8e1741d3b5c19a527955eb00bad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SYNCOKIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga246a4b3d840b5b9a18f6ea414fc48297</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCPOL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab28395cefb0927f2118a9a840a2e2d71</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5987c540969d232c71a7abbe075c509c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga441881d5e657b04236e440918fe63d20</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_GPIO</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab3f24d66e3601fda05f8e85e6e324297</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_LSE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga8a841f5094d9797d208d864da7e2d3bd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_USB_SOF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf45cfad8d9be4cdb6b668797178fb11f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa0cdf9d1d14ebf578d6aa401171fe561</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad0b3ee2ab042802997e57d788c640647</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_NODIV</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaafe74c2f6b00f56f4301f35839231518</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV2</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad8c4a6c090d87059f96b839ec28dfc74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV4</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad22de8eeb153e1d9f336ff6f92e6b390</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV8</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga23f6fc67360d9d3462fd9b7fbdf0424b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV16</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gae4cb9be168a6957b7a8cf1e3aa0b307e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV32</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga1439b9d86cb02ce6122b367070b958eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV64</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gabb2cb8f73d4e7e455cbe4d7fb9e18817</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV128</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab40203a9c7e9c3efbfa63ef1ac89b225</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa1e1bc82a41ff8da8869ac00c926a624</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga48c70ae21b6a35ed520a2b30df2c4852</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM_VAL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad6d4f4be96d0ac19bf23ba45210b65a2</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga079e5a3e3da5c0c34ffa3c968f0b0c5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga7e54b011ada0eeb4b6ed9cdd24d517f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD_VAL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga2066b9094382e2daf4bd9c6950a22147</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FECAP_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5869918f00cfe3b2fa6ce0dac11d59ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FECAP</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf0b8a9757678f28814b1a0c1baca63e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FEDIR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga91196b059d8ff52c4f28bc964c8a446a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_TRIMOVF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf3852f10eb46159b7888c71e6d9cec3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCMISS</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga9f2241bd51b436f7b381ad410124aec5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCERR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga80d05ae1142788a65444c0463a26bcfb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_ESYNCF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga819c4d424be7915f9660ecb19c234a8f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_ERRF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga963b451a4ca8890ee3d323304f0b9298</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCWARNF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga0f33a79fec47400ab363bbf5b4b9f2b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCOOKF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab8ae43aa18602b176b69dbf6b8e60141</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_ESYNCC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gacfaa0b3004143ca5b1a7fe5ed23daccf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_ERRC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gae67dc4a9e576468b0c322902c7c47793</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_SYNCWARNC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab772d21f8bc42ad5761a270d663be1ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_SYNCOKC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa42110e626aeef3ca9d76c8bda1f08d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crs_autotrim_usb_enable</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga01a9ce5f79f9244985f2ad45c671cd37</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>crypto_common_f24.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>crypto__common__f24_8c</filename>
@@ -7479,6 +7853,12 @@
     <filename>doc-stm32l0_8h</filename>
   </compound>
   <compound kind="file">
+    <name>exti.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/</path>
+    <filename>exti_8h</filename>
+    <includes id="exti__common__all_8h" name="exti_common_all.h" local="no" imported="no">libopencm3/stm32/common/exti_common_all.h</includes>
+  </compound>
+  <compound kind="file">
     <name>exti_common_all.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>exti__common__all_8c</filename>
@@ -12828,6 +13208,12 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>pwr.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/</path>
+    <filename>pwr_8h</filename>
+    <includes id="pwr__common__l01_8h" name="pwr_common_l01.h" local="no" imported="no">libopencm3/stm32/common/pwr_common_l01.h</includes>
+  </compound>
+  <compound kind="file">
     <name>pwr_common_all.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>pwr__common__all_8c</filename>
@@ -13202,6 +13588,136 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>pwr_common_l01.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>pwr__common__l01_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_vos_scale</name>
+      <anchorfile>pwr__common__l01_8c.html</anchorfile>
+      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
+      <arglist>(vos_scale_t scale)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>pwr_common_l01.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>pwr__common__l01_8h</filename>
+    <includes id="pwr__common__all_8h" name="pwr_common_all.h" local="no" imported="no">libopencm3/stm32/common/pwr_common_all.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_LPRUN</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>ad420341e83bf995a581a42b49511e2ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_LSB</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a4a38522407ece5ee44560204c7555661</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE1</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>gacf97c6fa060796dc67ec47e6d897aa14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE2</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>ga3428a34be04892007ffaa40a59f2492f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE3</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>gab760fe0b783cb51a37e4d0089c4077fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_MASK</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a06db718126d979cbf61fc27991514e1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_FWU</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a282ffe109edf2466c2a563784a591ec8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_ULP</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a14c19c1188ed2c42acbdba5759bc5e03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_LPSDSR</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a4e3d6a1e77ba526a2bc43343916f0e79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_EWUP2</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a3924963c0b869453e9be2b8f14c929dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_EWUP1</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a2a92d9adb125e24ab1cd1a58a73efe19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_REGLPF</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>afb4741c79606f7fde43e2b88113053d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_VOSF</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a760e9fa30782fc54fec0b0f886eda0f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_VREFINTRDYF</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a918aa3e6e5f97f7032d3eae8ac324eba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>vos_scale_t</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a03ccf3726008e813551f58725e0bcb40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_vos_scale</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
+      <arglist>(vos_scale_t scale)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>rcc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/</path>
     <filename>rcc_8c</filename>
@@ -13267,6 +13783,62 @@
       <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
       <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hsi48_source_rc48</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gae10b86d0e8437b531f34745e881038df</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hsi48_source_pll</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>ga7978886aa7813a304157562b8fbd7016</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_sysclk_source</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gafd82204202c577cffe2a434c730bf375</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pll_multiplier</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gafc17e0dd46387b2ae1e38c69ba5f09be</anchor>
+      <arglist>(uint32_t factor)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pll_divider</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>ga014d24c75c6cd9615ed517746aa9f3b5</anchor>
+      <arglist>(uint32_t factor)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_ppre1</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gae48ce980c5b0bf1b623145c745b8a8d9</anchor>
+      <arglist>(uint32_t ppre)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_ppre2</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gae05ff64cfbc32d60f4225c4daeaf4331</anchor>
+      <arglist>(uint32_t ppre)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hpre</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
+      <arglist>(uint32_t hpre)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -13955,191 +14527,261 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_NODIV</name>
+      <name>RCC_CFGR_PPRE2_NODIV</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga1a780d4b6db101967459b5af2477d43d</anchor>
+      <anchor>ga4cf88ccf9fa68048c52dd87b3b70f6c5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_DIV2</name>
+      <name>RCC_CFGR_PPRE2_DIV2</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga29c729d03a8e109b3fcbab256cc91fbd</anchor>
+      <anchor>ga99d9c91eaad122460d324a71cc939d1b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_DIV4</name>
+      <name>RCC_CFGR_PPRE2_DIV4</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga12a4ef2243261b35dff52d4d9ca2a168</anchor>
+      <anchor>ga4340fc3fc52eca36eb302959fbecb715</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_DIV8</name>
+      <name>RCC_CFGR_PPRE2_DIV8</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaa86bd8b7295aa4b086fdbf77584aeb1f</anchor>
+      <anchor>ga412b382a1134e0ee5614e0f4bcf97552</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_DIV16</name>
+      <name>RCC_CFGR_PPRE2_DIV16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga129b052c1e232ce982b3793335d5aecd</anchor>
+      <anchor>gaece3ee58d4138f7452733bfa1ad37eb9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_NODIV</name>
+      <name>RCC_CFGR_PPRE2_MASK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga2f566d03233f7da450d0e3575694cfb1</anchor>
+      <anchor>ga41aef118b0611444caa87df8ea302dc2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_DIV2</name>
+      <name>RCC_CFGR_PPRE2_SHIFT</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga0c4ecccb2a31f8816d04bbcc6d7b1bf9</anchor>
+      <anchor>ga15a0cbdc8e97c9b49262611b4a999f0e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_DIV4</name>
+      <name>RCC_CFGR_PPRE1_NODIV</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gae7f3ac3b95111b2255b13ae26098e8a1</anchor>
+      <anchor>ga57c70528f386eb1fbaa1ba7fd6140071</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_DIV8</name>
+      <name>RCC_CFGR_PPRE1_DIV2</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga5e8eb17532dc779e98abcb5b4d877aa6</anchor>
+      <anchor>gaf832ad6844c907d9bb37c1536defcb0d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_DIV16</name>
+      <name>RCC_CFGR_PPRE1_DIV4</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga1c08b15bfcdddd7cd1fcfe0088ff5632</anchor>
+      <anchor>ga0e340725f46e9462d9b02a079b9fa8ae</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_NODIV</name>
+      <name>RCC_CFGR_PPRE1_DIV8</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga40c164dc946f4cba1e3fc87b0c997016</anchor>
+      <anchor>ga9ddd6d657837e1971bb86e3bf1c15e72</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV2</name>
+      <name>RCC_CFGR_PPRE1_DIV16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gad7a5dc47685ce3efb764848512e0c862</anchor>
+      <anchor>ga5c38ba326bde7c7a18c4f7f2aacf823f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV4</name>
+      <name>RCC_CFGR_PPRE1_MASK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga184a0c682421a2321442448a3918b434</anchor>
+      <anchor>ga1220a63e00de9ff4a2a45474ead3662d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV8</name>
+      <name>RCC_CFGR_PPRE1_SHIFT</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaefb930af5334ee30be8179dbd7a816ea</anchor>
+      <anchor>gafb5d3be2370b0ec48507ffdac9745c8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV16</name>
+      <name>RCC_CFGR_HPRE_NODIV</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gab8246eb4443f6ad431f68e288c657c25</anchor>
+      <anchor>ga2b5c237044af2e4d7343d46cf6c24318</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV64</name>
+      <name>RCC_CFGR_HPRE_DIV2</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga47d0a7e326c0acf2e2f834aa22e0faf3</anchor>
+      <anchor>gaa9eeb5e38e53e79b08a4ac438497ebea</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV128</name>
+      <name>RCC_CFGR_HPRE_DIV4</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf008cd8819deee072bd97bf975e7d14a</anchor>
+      <anchor>gaffe860867ae4b1b6d28473ded1546d91</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV256</name>
+      <name>RCC_CFGR_HPRE_DIV8</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga431e24972b5319db8aa2cac25bba73ed</anchor>
+      <anchor>gaca71d6b42bdb83b5ff5320578869a058</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV512</name>
+      <name>RCC_CFGR_HPRE_DIV16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga91a35a9a7294fbc6375cc53e35d544c2</anchor>
+      <anchor>ga3806da4f1afc9e5be0fca001c8c57815</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SWS_SYSCLKSEL_MSICLK</name>
+      <name>RCC_CFGR_HPRE_DIV64</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gabe5aa19975462aec49f2163e975311cf</anchor>
+      <anchor>ga1caeba8dc2b4c0bb11be600e983e3370</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SWS_SYSCLKSEL_HSI16CLK</name>
+      <name>RCC_CFGR_HPRE_DIV128</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga12c967a7acaf0766d358753c85526105</anchor>
+      <anchor>ga280da821f0da1bec1f4c0e132ddf8eab</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SWS_SYSCLKSEL_HSECLK</name>
+      <name>RCC_CFGR_HPRE_DIV256</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga3c892bf770b3b7c2b55bf1b6b9d9c35b</anchor>
+      <anchor>ga089930cedd5b2cb201e717438f29d25b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SWS_SYSCLKSEL_PLLCLK</name>
+      <name>RCC_CFGR_HPRE_DIV512</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gadcc8b3374113007079d1aafaaf896825</anchor>
+      <anchor>gae5088dcbaefc55d4b6693e9b1e595ed0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SW_SYSCLKSEL_MSICLK</name>
+      <name>RCC_CFGR_HPRE_MASK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga6d265ba683e52e5b471b71b1669e82f3</anchor>
+      <anchor>ga437d3c7d4232b6563cda9b2789d2b7e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SW_SYSCLKSEL_HSI16CLK</name>
+      <name>RCC_CFGR_HPRE_SHIFT</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga8835a1f8ce68e804c9658de3d062d1ed</anchor>
+      <anchor>gabe81fd6d8e84f74aa4f2e31f26aa2819</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SW_SYSCLKSEL_HSECLK</name>
+      <name>RCC_CFGR_SWS_MSI</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gad3d957694199b9ed8475d2470fa3ecff</anchor>
+      <anchor>gab22f5fe5aca788772b1596d5155628c5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SW_SYSCLKSEL_PLLCLK</name>
+      <name>RCC_CFGR_SWS_HSI16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga81ce757b20164fa21501b15fd91c9691</anchor>
+      <anchor>ga5bcfe95ad62808cee34bbb97cad1acc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_HSE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae09a0202f441c1a43e69c62331d50a08</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_PLL</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2c67e2279804a83ef24438267d9d4a6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga451045d952eb1caaa0090c9e8dc75082</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaaee06473ada7ed1bf2cae8e52ce2e9ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_MSI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf76678c7a8f1366e115dbdd95e3568eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_HSI16</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gab4d7be9f5546cdafea5505ed8a1984a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_HSE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafb563f217242d969f4355d0818fde705</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_PLL</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga87389cacb2eaf53730da13a2a33cd487</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga7e5e28699fe923870e15fef3651ff3ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gac1ff0e57acf7fa261817c5ee5cb714c7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -15513,6 +16155,62 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hsi48_source_rc48</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae10b86d0e8437b531f34745e881038df</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hsi48_source_pll</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga7978886aa7813a304157562b8fbd7016</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_sysclk_source</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafd82204202c577cffe2a434c730bf375</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pll_multiplier</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafc17e0dd46387b2ae1e38c69ba5f09be</anchor>
+      <arglist>(uint32_t factor)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pll_divider</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga014d24c75c6cd9615ed517746aa9f3b5</anchor>
+      <arglist>(uint32_t factor)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_ppre2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gac40c9478480f3a44c381c15482a563cd</anchor>
+      <arglist>(uint32_t ppre2)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_ppre1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaaf1b9174131b00a7014c0328a53a65a1</anchor>
+      <arglist>(uint32_t ppre1)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hpre</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
+      <arglist>(uint32_t hpre)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
@@ -18995,6 +19693,11 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>st_usbfs.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/</path>
+    <filename>st__usbfs_8h</filename>
+  </compound>
+  <compound kind="file">
     <name>st_usbfs_common.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>st__usbfs__common_8h</filename>
@@ -20129,6 +20832,361 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>syscfg.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/</path>
+    <filename>syscfg_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga4fbc0e616ec890f98cf73696cba93c9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga0748c13240bb7ed611c804f34afed05e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae817e40e86c38da470d9a40a5584277d</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR1</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga55e119f87c84a7b1b9ba01c2ec3a6b4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR2</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga80c96b4d593d8ef618392d6db611979a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR3</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaa5daf054b73b2895e304e8a36463a616</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR4</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gafa4bb2e0a5c22355be556b7734fe0c59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>COMP1_CTRL</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga152676a496f47fafbdeee8d86bc2cef3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>COMP2_CTRL</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga415003aff3a6d53a9e070843d3f273bd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1ab41981f694f77140eeb78712b4cd88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE_SHIFT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga63f3a84d8166743e715520fac03ce1cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae844133af99402c342767b0406cb874d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE_FLASH</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae7ddea3b0650d32a414d667695efb623</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE_SYSTEM</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaef8d70653124d8a243e888c3c5403b47</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE_SRAM</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gada16853bb8a797791db22974aed5ffeb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_UFB</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaeba7f447616aadc7e3addc509d019a21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE_SHIFT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga2f1c1b86855356887a37e966f0f441c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gac23fc5eceb687434386c9240f2c8e56e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE_FLASH</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gab1fbdf8c0855344c9b42e3a9c44e5c71</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE_SYSTEM</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1fa202d14bf9586bd7d2778cc1c3294e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE_SRAM</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga3cedf8f55ea21c1c20683d93473d89a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_FWDIS</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga71bbbd851708464038fadbdaa362ea56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C_PB6_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1fe2c5ef2e471eb78db30ebb11ea4ece</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C_PB7_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga3bab94853f7a3ec839c4657e955191ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C_PB8_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga22ed3ee3be68eb48b3079a2d5ad81501</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C_PB9_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaea4c744061b6d2771b0ed2b0204027b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C1_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaff4f145409e2367b240d295730797ac0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C2_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gacdc25fbbc97c91dc2980234ac5850b43</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C3_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga5a18c5cea9477325e68f7253f9b20423</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_EN_VREFINT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1b545a8ca1fc9f0acdc84c9b992b45ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SEL_VREF_OUT_SHIFT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga5d58a00f4e00cbb46a63017403632c0e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SEL_VREF_OUT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gabb0eca8e4845191bf2e8e80eeef75436</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SEL_VREF_OUT_PB0</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga7c6fc3ad97bf4d148a7b57428303eac2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SEL_VREF_OUT_PB1</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga929b4684a63676ff6f35c34c4d337b80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_ENBUF_VREFINT_ADC</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga7ef647f162683ec06541e3426b0b7fc4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_ENBUF_SENSOR_ADC</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga43aa65cb0fc90e504616262a1e645ac5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_ENBUF_VREFINT_COMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga044d528006cca0d9bfd0ee86e07976b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_ENREF_HSI48</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaa2834270628936cc315fd68315679615</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_REF_HSI48_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gac8bb27cc5ff7d86f717967747fd90b0e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SENSOR_ADC_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gafd4e498091405a08fbcbd09407254be4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_VREFINT_ADC_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga9d4f72405702c4db3cae43c12a95246f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_VREFINT_COMP_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaf3899e3ffa82413fab6e8068ce883dd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_VREFINT_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga52c6a86e352651c91b2f5bddb0c5d483</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_REF_LOCK</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga759086565096701e9c38115bd410d49c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOA</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga988ee8acf5543ea958f6a9df1a1809c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOB</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga0adfc67996300aea9a6ddb59be74886d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOC</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga2b509c17c82d47ae6b5fbe9b774d3021</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOD</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga8f7675c325631c7cb403f8453bf2ad6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOE</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga3fbad3701b857e13fdcaeebcc316b499</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOH</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gad16e02b2051a131622b9e5b11823ffa4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>syscfg_common_l1f234.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
     <filename>syscfg__common__l1f234_8h</filename>
@@ -20186,6 +21244,971 @@
       <name>SYSCFG_CMPCR</name>
       <anchorfile>group__syscfg__defines.html</anchorfile>
       <anchor>ga76822f104934b3c0682ec2e12e903f30</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>timer.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/</path>
+    <filename>timer_8h</filename>
+    <includes id="timer__common__all_8h" name="timer_common_all.h" local="no" imported="no">libopencm3/stm32/common/timer_common_all.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_OR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a771caff3f9ee766b27e3658e24629d58</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a1d0a9ed79cfba2ccd0606a8a887224af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a044eafdc78cb7829f8cc25933b7131c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ac22ebf14e6412c94ea92a4b665b71e93</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_ETR_RMP_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae53d3fbca138c6316ded5d5fae085d10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_ETR_RMP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ab4fc0e09857ccb50a0ecebca599b2b37</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_ETR_RMP_GPIO</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>af2075ce77fc797e08aed7bf90eff1e23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_ETR_RMP_HSI48</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a7786f2cd50f958166d5070f165249320</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_ETR_RMP_LSE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ad45699d3819edeef2c1f5e549c4be4b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_ETR_RMP_COMP2_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aa23ebab13b161cb2019c0dc8eb586227</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_ETR_RMP_COMP1_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a5df107d1d0d068a71daf5109134c26d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_TI4_RMP_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a683135775522f6287a4149d4bd1725b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_TI4_RMP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>afa63524558c46f34dd892cf6127076e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_TI4_RMP_GPIO</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a1153a012d71ed9fc64bc5b12a648c462</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_TI4_RMP_COMP2_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a2700b3b611c0fe5854a2018580c16463</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_OR_TI4_RMP_COMP1_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a440bcd4a08d3621dba441c50eb1b0824</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_ETR_RMP_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aa9abd69ffe53df95656d259716895ea4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_ETR_RMP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae7846af64a6436f5fc9844fe3f7eec74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_ETR_RMP_GPIO</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a6b6002851165ed8df89abaac7dabeb72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_ETR_RMP_COMP2_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a201ebce9270d9db9fd1ef2bac00bf53a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_ETR_RMP_COMP1_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a5a0aa59cd275b1fefa0bc0c1e4503e51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_ETR_RMP_LSE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a76893a2ed34752031e5050015c6e4da2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>af1d5525c7f6e6fc5f20537691eb787c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae47355d37433be539be0edc989631238</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP_GPIO</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a478ee48c2384e6261e33a83dc5c31cc6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP_RTC_WAKEUP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ab9489852b34c18ac612d8f170470d8a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP_HSE_RTC</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a3120ee7384c9fe5f238e689f63c98019</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP_MSI</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a4c86f21002a62f177f5f1898978f8634</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP_LSE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ac776062a0f9541911b634262d92d86f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP_LSI</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a5f724bc2cdcf10c1e3a5058b90f770ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP_COMP1_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a7ff510f2c47932280286e606da8f731f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI1_RMP_MCO</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae44a9037024e4c45b393532e5819ba53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI2_RMP_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ab54c03576cdea4923b5bb58de78d3155</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI2_RMP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a700ddc401a636c68276196cc51166ef5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI2_RMP_GPIO</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a870759ae9fd47e37bea76aee97c45e82</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM21_OR_TI2_RMP_COMP2_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ab81004b1d3207578b4396e0a8362ddd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_ETR_RMP_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aba42912a7728a23e2c4a5b37ffe07bc4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_ETR_RMP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a5522252e3c89a0e789a7480cf36e4f54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_ETR_GPIO</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a9673a5069502cb6d01959602e306af48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_ETR_COMP2_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>af01dfd58a648c42b4d754b81f14e11c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_ETR_COMP1_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ac0284d537493877dcc55a706573c08a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_ETR_LSE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a321344ddb63277acede6ff5e6d0d392e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_TI1_RMP_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a35e56be23801e51dff7975c808cad86d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_TI1_RMP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae4911b9ecd4fb849499534e44302f8cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_TI1_RMP_GPIO</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>addb072830f52059caf6815cea43f3b40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_TI1_RMP_COMP2_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aff1d4141a87607af62be7996e8c68341</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM22_OR_TI1_RMP_COMP1_OUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a0a667e0e69724650244a70b4b5ba431b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ISR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a8b595d1652dfa2aca9a110dca36caa2d</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ICR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a29a077aaea0a284bc4c8f8a45d71d9b3</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_IER</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a80b5cb9fe442e8f55f08d6fb956b5834</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a069eea053f8a51c02022aa7283cd20fe</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a74a1e6dce638b5cfbf5bdef917b4adb4</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CMP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>abb4d4cff5cebb65252d3bc99d8197793</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ARR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aef08a2e009c76919875cd795bff14051</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CNT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a8cf4ac72ec477527a9c15d7cd80b456a</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM1_ISR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a1032e86661e5aefb1f3eb3885716b89c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM1_ICR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>acd8da08e51cfd5605f42ae79d649e440</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM1_IER</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae4a721a2f84417894f3d8db6bc3ad914</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM1_CFGR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae64368d6ab73f21aa15cba05271dacb6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM1_CR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a85be7876baad48fa6cf9f3a9a870ed9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM1_CMP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a98f9653f206e51d9f65de436804a360e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM1_ARR</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ab27daef2b685397e36fa5aa3f6c8ed0f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM1_CNT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a926a5d36745a308cdd50d87b83ebc0ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ISR_CMPM</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aad268979549e2ab5d4e0227e37964e29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ISR_ARRM</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a8dca1da3466dc935eebf232c120a42f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ISR_EXTTRIG</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a5d6fe3ef932a42040b0f9530eae1d014</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ISR_CMPOK</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a3cad30aa68cb71dd75c78c01ee3ae870</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ISR_ARROK</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ab444687af1f8f9863455191ad061a1d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ISR_UP</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aa5c22c593384daf21fbf0648c7157609</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ISR_DOWN</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae419eeabea5979ae2658ab6597cb8223</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ICR_CMPMCF</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ac1a73f097347bc05382105a527ee7f2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ICR_ARRMCF</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aaf43a4be174c9303faef371ec31ab44c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ICR_EXTTRIGCF</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a0bdc0939c831c305f180c9d1518b852f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ICR_CMPOKCF</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a407e8ab4f0c1dfdca950ca20c5f2527d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ICR_ARROKCF</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a3e0e5526e60b99a2a4958145207bff7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ICR_UPCF</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a94cea7a7a350f428dc1255dd6d143969</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_ICR_DOWNCF</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ad7d337943cd5849f0b67df2bae113ffe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_IER_CMPMIE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a84f1c6ec830c564596756452fac0f057</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_IER_ARRMIE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>abddf28358beda70d5cabb8bbd2f7acd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_IER_EXTTRIGIE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a8e2214a5cacaee65aa8487788edac8d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_IER_CMPOKIE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ac117a13cff0f470f7e9645e479301684</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_IER_ARROKIE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a8e16757ed47e0ee03238f7ac41f54119</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_IER_UPIE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a6f4fea67fb509ddc013229335c241211</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_IER_DOWNIE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a2e63fa15734a5d03c1879752ac4ea3e4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKSEL</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae51756ab9cdc0e908f6f272ccc3e221a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKPOL_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a4e803d3135743b9ec64ad0f7288ad771</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKPOL</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a0b93ee347b6a137a97020e71fe2a44ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKPOL_RISING</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a0e47a8c4786a42695447f33b67dcfee4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKPOL_FALLING</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a0dda81b1df21a9e573b8bac9aed6dae6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKPOL_BOTH</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a4f019fa558797670481b28cddd015523</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKPOL_ENC_1</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ab3264cc6312b58bda9113994f8c9d52b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKPOL_ENC_2</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ac45683a7b6bc4beef1602dc60f17d9a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKPOL_ENC_3</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a812231bdb526bc02a71a2020792d7e96</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKFLT_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ade250ae0da4fd9dec147651272f44745</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKFLT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a967fdd5160e383d5740de6c393ae76a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKFLT_2</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>af542440edaf9c0ca4ffd55f98edc75be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKFLT_4</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aff4989dc0b497241de83ac355dadb4f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_CKFLT_8</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a2f0cc625e61922d83ad6f7e7a434d9a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRGFLT_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a67e947d4db95db382a9d20f40719f2f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRGFLT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a1fbec2ad1910a83bb7ffbf4f2f9ade9c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRGFLT_2</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a5338643f838c9ba623a87de039e319af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRGFLT_4</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a8bcf02e289aa02e6266441dc1e698200</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRGFLT_8</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a3b21d1d73cfa8d8cd69b4bc5a3a3cccf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a9450b09849d184a90a6aa9cc7f63b546</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>add72b0a5dbce113393e4d367b49f5d0c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC_1</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a4dee510fa2963d13fdf4aa81bb995e9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC_2</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a703c870efbbe78646002653cf2333a74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC_4</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a48ca72f8f5ec664f20dfe329487f8397</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC_8</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a3073a25385ea3a685da224a51e2dccbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC_16</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ab80469d64840b48108b10ea375f38e27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC_32</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ae0ae6cbb70ef6d4a2f0d208655bf9e04</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC_64</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a56f383db9352a7501846b7012edfe9d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRESC_128</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>af13fcabb0684ee2343207e0a9aa06532</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGSEL_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aaf0620a21b603a8742341cbf41927473</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGSEL</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a519aa19bd79204f1eb94a1d378655634</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGSEL_EXT_TRIG0</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a1a4252b144c2107a3496cd4518bd69ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGSEL_EXT_TRIG1</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a3c6ec3609dadfe62174429ec8b4afa83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGSEL_EXT_TRIG2</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a9b0dddba973db9622f8bf8cfbd1f5be0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGSEL_EXT_TRIG3</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ade1bd8a35de65d1c131eb73bb16d78fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGSEL_EXT_TRIG4</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>abff0ad39b5066323c0b18444642b855d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGSEL_EXT_TRIG6</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>af71ce924051f8879f3215e9df7c0e06b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGSEL_EXT_TRIG7</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a3b048dea964b1d90d971e3cbd794f6a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGEN_SHIFT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a3b87486dc145a5f44817c6ecc3b1603c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGEN</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>adbf1ffffa1a91f49efb93dc6a1571ea4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGEN_SW</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a9b21d104a9d8d6307fb25c761fdb886f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGEN_RISING</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a636eab055044cf349ee0011deacd9c96</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGEN_FALLING</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>afc01fdcd4443383810d0b073af7d6e4b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TRIGEN_BOTH</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>adb55aed96ec3ec23082dc52be1ae6368</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_TIMOUT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a2ca64047a63144f4d0d4663d1d6ee6da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_WAVE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a21d04d4b6c31e68728a6c515aa36571c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_WAVPOL</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>af953b0b77f31228a0ddac549eb0b470e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_PRELOAD</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>ad5dc1fa00988177012c9cb933e50db5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_COUNTMODE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a360d483b0d8b2a36bf8634319cf3c4a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CFGR_ENC</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>acd13a5203732ee6743bf9025ad9f9172</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CR_ENABLE</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a8a1f4b2d79870055c5c7b622a301ad73</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CR_SNGSTRT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>aa0c59145554d8bfa0d636f225a932514</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>LPTIM_CR_CNTSTRT</name>
+      <anchorfile>timer_8h.html</anchorfile>
+      <anchor>a7c8912f46b6f529d6c632ad2de408ff3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -26826,8 +28849,374 @@
     <name>STM32L0xx_defines</name>
     <title>STM32L0xx Defines</title>
     <filename>group__STM32L0xx__defines.html</filename>
+    <subgroup>exti_defines</subgroup>
     <subgroup>gpio_defines</subgroup>
+    <subgroup>pwr_defines</subgroup>
     <subgroup>rcc_defines</subgroup>
+    <subgroup>syscfg_defines</subgroup>
+    <subgroup>timer_defines</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>exti_defines</name>
+    <title>EXTI Defines</title>
+    <filename>group__exti__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_IMR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga69ab94ebc8de242b77e596dd2bbcef49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_EMR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga4e9575b4d9ffe40c460aff68c928e497</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_RTSR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaa38744d6066068db3e1d165af594133d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_FTSR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gada970d90e15dafefbab3bb5b3a3530a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_SWIER</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf2f1ba804ff20d23e6c2e78eccf7232b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI_PR</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gab6c08bdd29b216dff011819b71328272</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI0</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga77d55cf55a67ff5d43794d24f7cb9922</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI1</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gabcd18cd089259e5c95d338adc4949821</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI2</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gac1864c46eb6702208ff59e4ececd3776</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI3</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga205d284100ff421b0b4b13fd5950d912</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI4</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga57183bff31f5cbbfbb5d24856c2ded44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI5</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga45517e7df564fbe372635ad985bb45cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI6</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga2632bbf3e8339f3c752ef81ad39e669f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI7</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga5038306ffbb0de285cdba9430594b581</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI8</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gae0d1ad40c69f700f52e10ade98a81094</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI9</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf8f6b46d0fb67f0722f18a57bb09324d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI10</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga817593ea889dea68dcf74434ad2ec311</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI11</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gae951b07cf003fb3f2652843087057ed6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI12</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaee672b592634fafdf6192753bd1eec07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI13</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga015e5403458c6ba88f552edf6a8e89d1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI14</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga557168bcf9644708d3ad1ee01c7fe54a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI15</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf9c95aa8bce16e9f9903a354fb0327fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI16</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga08c3a430730f8ed59b2a8f13259f2ad7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI17</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga70fa93598715b662d570d5e9f02add04</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI18</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga46d5e165580f7e0d8a32500b68682d19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI19</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gabd3c95edc24047d4d80a4451978d1d77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI20</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga7442c6138768b6f9063aa06339f4f018</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI21</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga5424e78536b2ad7c9286dd4a25aa2fbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI22</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga106b779d4271f872067630bfd4b2ae64</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI23</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga8ff4dbe8329a5402095e9a5450e84072</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI24</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gac92e5f3f95ec9ec77e48b0fad9cbfcda</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI25</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga2273c2876c1cc39cbc7c30a85bc4d7d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI26</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga014f6dcebe49208bdd41334229596a3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI27</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga0f50bc289c9e0f21bc939365872e9fce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI28</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaf812fb0470be67c3f169882cb87efdc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI29</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga6e136fa99050d7a35059478c04623591</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI30</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga6151c1b4295ac63c36a64c60e226fc6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI31</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga0b2dbaaacad0af85f6a085da73898bfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI32</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacf1940515c6bc08400e2b0288088a4ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI33</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga6a7b8b44715182de7901f8707fdb9f50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI34</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga0145d11f36a706ee83f8f3efc076c4fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI35</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga5b462d6e2c86100f7d8ed285b2156c78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI36</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gabb89112c70417656df2587bc4e09db7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXTI37</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacc51dec6598c83bda320c1be854168fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>exti_trigger_type</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga217058c9ab9a27e3f4f197ca7889623a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_set_trigger</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga8b05a3586764aeb0dd1366dd46616a65</anchor>
+      <arglist>(uint32_t extis, enum exti_trigger_type trig)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_enable_request</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gacb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_disable_request</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga1752fef240fb05e1135548449943ce0b</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_reset_request</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gaa86779017820fedee955563adc8b5f4a</anchor>
+      <arglist>(uint32_t extis)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>exti_select_source</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
+      <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>exti_get_flag_status</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>ga80d89279aab6cc63a8141b7421cd2dd1</anchor>
+      <arglist>(uint32_t exti)</arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>gpio_defines</name>
@@ -27736,6 +30125,216 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>pwr_defines</name>
+    <title>PWR Defines</title>
+    <filename>group__pwr__defines.html</filename>
+    <subgroup>pwr_pls</subgroup>
+    <subgroup>pwr_vos</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga25cb9de3904b844fcf2f3898894ab8d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gafcc10bfc0bea18d4f6ba0e1e567d2e02</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_DBP</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gaf5c65ab845794ef48f09faa2ee44f718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_PLS_LSB</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gad85eef6c44b6b338dacdf882cc4d149f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_PLS_MASK</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga4bc2e827b1955849d278d1e7be03366e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_PVDE</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga05d5c39759e69a294c0ab9bea8f142e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_CSBF</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gab44484cacc35c80cf82eb011d6cbe13a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_CWUF</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga3928de64f633b84770b1cfecea702fa7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_PDDS</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga8c8075e98772470804c9e3fe74984115</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_LPDS</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga3aeb8d6f2539b0a3a4b851aeba0eea66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_EWUP</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga7ac8c15a08bbee754ea720b0d4a4f580</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_PVDO</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga3535ce181895cc00afeb28dcac68d04c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_SBF</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gab4fd42f153660593cad6f4fe22ff76bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CSR_WUF</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga9465bb7ad9ca936688344e2a077539e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_backup_domain_write_protect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_power_voltage_detect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
+      <arglist>(uint32_t pvd_level)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_power_voltage_detect</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_standby_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_clear_wakeup_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_standby_mode</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_set_stop_mode</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_on_in_stop</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_voltage_regulator_low_power_in_stop</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_enable_wakeup_pin</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pwr_disable_wakeup_pin</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_voltage_high</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_standby_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>pwr_get_wakeup_flag</name>
+      <anchorfile>group__pwr__defines.html</anchorfile>
+      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
     <name>rcc_defines</name>
     <title>RCC Defines</title>
     <filename>group__rcc__defines.html</filename>
@@ -28423,191 +31022,261 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_NODIV</name>
+      <name>RCC_CFGR_PPRE2_NODIV</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga1a780d4b6db101967459b5af2477d43d</anchor>
+      <anchor>ga4cf88ccf9fa68048c52dd87b3b70f6c5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_DIV2</name>
+      <name>RCC_CFGR_PPRE2_DIV2</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga29c729d03a8e109b3fcbab256cc91fbd</anchor>
+      <anchor>ga99d9c91eaad122460d324a71cc939d1b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_DIV4</name>
+      <name>RCC_CFGR_PPRE2_DIV4</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga12a4ef2243261b35dff52d4d9ca2a168</anchor>
+      <anchor>ga4340fc3fc52eca36eb302959fbecb715</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_DIV8</name>
+      <name>RCC_CFGR_PPRE2_DIV8</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaa86bd8b7295aa4b086fdbf77584aeb1f</anchor>
+      <anchor>ga412b382a1134e0ee5614e0f4bcf97552</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE2_HCLK_DIV16</name>
+      <name>RCC_CFGR_PPRE2_DIV16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga129b052c1e232ce982b3793335d5aecd</anchor>
+      <anchor>gaece3ee58d4138f7452733bfa1ad37eb9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_NODIV</name>
+      <name>RCC_CFGR_PPRE2_MASK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga2f566d03233f7da450d0e3575694cfb1</anchor>
+      <anchor>ga41aef118b0611444caa87df8ea302dc2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_DIV2</name>
+      <name>RCC_CFGR_PPRE2_SHIFT</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga0c4ecccb2a31f8816d04bbcc6d7b1bf9</anchor>
+      <anchor>ga15a0cbdc8e97c9b49262611b4a999f0e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_DIV4</name>
+      <name>RCC_CFGR_PPRE1_NODIV</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gae7f3ac3b95111b2255b13ae26098e8a1</anchor>
+      <anchor>ga57c70528f386eb1fbaa1ba7fd6140071</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_DIV8</name>
+      <name>RCC_CFGR_PPRE1_DIV2</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga5e8eb17532dc779e98abcb5b4d877aa6</anchor>
+      <anchor>gaf832ad6844c907d9bb37c1536defcb0d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_PPRE1_HCLK_DIV16</name>
+      <name>RCC_CFGR_PPRE1_DIV4</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga1c08b15bfcdddd7cd1fcfe0088ff5632</anchor>
+      <anchor>ga0e340725f46e9462d9b02a079b9fa8ae</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_NODIV</name>
+      <name>RCC_CFGR_PPRE1_DIV8</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga40c164dc946f4cba1e3fc87b0c997016</anchor>
+      <anchor>ga9ddd6d657837e1971bb86e3bf1c15e72</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV2</name>
+      <name>RCC_CFGR_PPRE1_DIV16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gad7a5dc47685ce3efb764848512e0c862</anchor>
+      <anchor>ga5c38ba326bde7c7a18c4f7f2aacf823f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV4</name>
+      <name>RCC_CFGR_PPRE1_MASK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga184a0c682421a2321442448a3918b434</anchor>
+      <anchor>ga1220a63e00de9ff4a2a45474ead3662d</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV8</name>
+      <name>RCC_CFGR_PPRE1_SHIFT</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaefb930af5334ee30be8179dbd7a816ea</anchor>
+      <anchor>gafb5d3be2370b0ec48507ffdac9745c8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV16</name>
+      <name>RCC_CFGR_HPRE_NODIV</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gab8246eb4443f6ad431f68e288c657c25</anchor>
+      <anchor>ga2b5c237044af2e4d7343d46cf6c24318</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV64</name>
+      <name>RCC_CFGR_HPRE_DIV2</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga47d0a7e326c0acf2e2f834aa22e0faf3</anchor>
+      <anchor>gaa9eeb5e38e53e79b08a4ac438497ebea</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV128</name>
+      <name>RCC_CFGR_HPRE_DIV4</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf008cd8819deee072bd97bf975e7d14a</anchor>
+      <anchor>gaffe860867ae4b1b6d28473ded1546d91</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV256</name>
+      <name>RCC_CFGR_HPRE_DIV8</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga431e24972b5319db8aa2cac25bba73ed</anchor>
+      <anchor>gaca71d6b42bdb83b5ff5320578869a058</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_HPRE_SYSCLK_DIV512</name>
+      <name>RCC_CFGR_HPRE_DIV16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga91a35a9a7294fbc6375cc53e35d544c2</anchor>
+      <anchor>ga3806da4f1afc9e5be0fca001c8c57815</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SWS_SYSCLKSEL_MSICLK</name>
+      <name>RCC_CFGR_HPRE_DIV64</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gabe5aa19975462aec49f2163e975311cf</anchor>
+      <anchor>ga1caeba8dc2b4c0bb11be600e983e3370</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SWS_SYSCLKSEL_HSI16CLK</name>
+      <name>RCC_CFGR_HPRE_DIV128</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga12c967a7acaf0766d358753c85526105</anchor>
+      <anchor>ga280da821f0da1bec1f4c0e132ddf8eab</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SWS_SYSCLKSEL_HSECLK</name>
+      <name>RCC_CFGR_HPRE_DIV256</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga3c892bf770b3b7c2b55bf1b6b9d9c35b</anchor>
+      <anchor>ga089930cedd5b2cb201e717438f29d25b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SWS_SYSCLKSEL_PLLCLK</name>
+      <name>RCC_CFGR_HPRE_DIV512</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gadcc8b3374113007079d1aafaaf896825</anchor>
+      <anchor>gae5088dcbaefc55d4b6693e9b1e595ed0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SW_SYSCLKSEL_MSICLK</name>
+      <name>RCC_CFGR_HPRE_MASK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga6d265ba683e52e5b471b71b1669e82f3</anchor>
+      <anchor>ga437d3c7d4232b6563cda9b2789d2b7e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SW_SYSCLKSEL_HSI16CLK</name>
+      <name>RCC_CFGR_HPRE_SHIFT</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga8835a1f8ce68e804c9658de3d062d1ed</anchor>
+      <anchor>gabe81fd6d8e84f74aa4f2e31f26aa2819</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SW_SYSCLKSEL_HSECLK</name>
+      <name>RCC_CFGR_SWS_MSI</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gad3d957694199b9ed8475d2470fa3ecff</anchor>
+      <anchor>gab22f5fe5aca788772b1596d5155628c5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR_SW_SYSCLKSEL_PLLCLK</name>
+      <name>RCC_CFGR_SWS_HSI16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga81ce757b20164fa21501b15fd91c9691</anchor>
+      <anchor>ga5bcfe95ad62808cee34bbb97cad1acc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_HSE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae09a0202f441c1a43e69c62331d50a08</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_PLL</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2c67e2279804a83ef24438267d9d4a6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga451045d952eb1caaa0090c9e8dc75082</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaaee06473ada7ed1bf2cae8e52ce2e9ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_MSI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaf76678c7a8f1366e115dbdd95e3568eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_HSI16</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gab4d7be9f5546cdafea5505ed8a1984a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_HSE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafb563f217242d969f4355d0818fde705</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_PLL</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga87389cacb2eaf53730da13a2a33cd487</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga7e5e28699fe923870e15fef3651ff3ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gac1ff0e57acf7fa261817c5ee5cb714c7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -29788,6 +32457,62 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_set_hsi48_source_rc48</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae10b86d0e8437b531f34745e881038df</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hsi48_source_pll</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga7978886aa7813a304157562b8fbd7016</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_sysclk_source</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafd82204202c577cffe2a434c730bf375</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pll_multiplier</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafc17e0dd46387b2ae1e38c69ba5f09be</anchor>
+      <arglist>(uint32_t factor)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pll_divider</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga014d24c75c6cd9615ed517746aa9f3b5</anchor>
+      <arglist>(uint32_t factor)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_ppre2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gac40c9478480f3a44c381c15482a563cd</anchor>
+      <arglist>(uint32_t ppre2)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_ppre1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaaf1b9174131b00a7014c0328a53a65a1</anchor>
+      <arglist>(uint32_t ppre1)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hpre</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
+      <arglist>(uint32_t hpre)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_peripheral_enable_clock</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaaf3dd53c1ced02082fce0076976547a8</anchor>
@@ -30087,6 +32812,4321 @@
       <anchorfile>group__rcc__apb1enr__en.html</anchorfile>
       <anchor>gacd3966a4d6ae47f06b3c095eaf26a610</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>syscfg_defines</name>
+    <title>SYSCFG Defines</title>
+    <filename>group__syscfg__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga4fbc0e616ec890f98cf73696cba93c9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga0748c13240bb7ed611c804f34afed05e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae817e40e86c38da470d9a40a5584277d</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR1</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga55e119f87c84a7b1b9ba01c2ec3a6b4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR2</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga80c96b4d593d8ef618392d6db611979a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR3</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaa5daf054b73b2895e304e8a36463a616</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR4</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gafa4bb2e0a5c22355be556b7734fe0c59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>COMP1_CTRL</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga152676a496f47fafbdeee8d86bc2cef3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>COMP2_CTRL</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga415003aff3a6d53a9e070843d3f273bd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1ab41981f694f77140eeb78712b4cd88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE_SHIFT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga63f3a84d8166743e715520fac03ce1cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae844133af99402c342767b0406cb874d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE_FLASH</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae7ddea3b0650d32a414d667695efb623</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE_SYSTEM</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaef8d70653124d8a243e888c3c5403b47</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_MEM_MODE_SRAM</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gada16853bb8a797791db22974aed5ffeb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_UFB</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaeba7f447616aadc7e3addc509d019a21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE_SHIFT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga2f1c1b86855356887a37e966f0f441c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gac23fc5eceb687434386c9240f2c8e56e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE_FLASH</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gab1fbdf8c0855344c9b42e3a9c44e5c71</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE_SYSTEM</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1fa202d14bf9586bd7d2778cc1c3294e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR1_BOOT_MODE_SRAM</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga3cedf8f55ea21c1c20683d93473d89a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_FWDIS</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga71bbbd851708464038fadbdaa362ea56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C_PB6_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1fe2c5ef2e471eb78db30ebb11ea4ece</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C_PB7_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga3bab94853f7a3ec839c4657e955191ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C_PB8_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga22ed3ee3be68eb48b3079a2d5ad81501</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C_PB9_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaea4c744061b6d2771b0ed2b0204027b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C1_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaff4f145409e2367b240d295730797ac0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C2_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gacdc25fbbc97c91dc2980234ac5850b43</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR2_I2C3_FMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga5a18c5cea9477325e68f7253f9b20423</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_EN_VREFINT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga1b545a8ca1fc9f0acdc84c9b992b45ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SEL_VREF_OUT_SHIFT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga5d58a00f4e00cbb46a63017403632c0e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SEL_VREF_OUT</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gabb0eca8e4845191bf2e8e80eeef75436</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SEL_VREF_OUT_PB0</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga7c6fc3ad97bf4d148a7b57428303eac2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SEL_VREF_OUT_PB1</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga929b4684a63676ff6f35c34c4d337b80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_ENBUF_VREFINT_ADC</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga7ef647f162683ec06541e3426b0b7fc4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_ENBUF_SENSOR_ADC</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga43aa65cb0fc90e504616262a1e645ac5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_ENBUF_VREFINT_COMP</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga044d528006cca0d9bfd0ee86e07976b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_ENREF_HSI48</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaa2834270628936cc315fd68315679615</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_REF_HSI48_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gac8bb27cc5ff7d86f717967747fd90b0e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_SENSOR_ADC_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gafd4e498091405a08fbcbd09407254be4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_VREFINT_ADC_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga9d4f72405702c4db3cae43c12a95246f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_VREFINT_COMP_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaf3899e3ffa82413fab6e8068ce883dd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_VREFINT_RDYF</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga52c6a86e352651c91b2f5bddb0c5d483</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CFGR3_REF_LOCK</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga759086565096701e9c38115bd410d49c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOA</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga988ee8acf5543ea958f6a9df1a1809c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOB</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga0adfc67996300aea9a6ddb59be74886d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOC</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga2b509c17c82d47ae6b5fbe9b774d3021</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOD</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga8f7675c325631c7cb403f8453bf2ad6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOE</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga3fbad3701b857e13fdcaeebcc316b499</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR_GPIOH</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gad16e02b2051a131622b9e5b11823ffa4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_MEMRM</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae2c143dc8c0abf30726dd46a816bb7c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_PMC</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga463d835825838c01773347be05fa9ef8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gae817e40e86c38da470d9a40a5584277d</anchor>
+      <arglist>(i)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR1</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga55e119f87c84a7b1b9ba01c2ec3a6b4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR2</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga80c96b4d593d8ef618392d6db611979a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR3</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gaa5daf054b73b2895e304e8a36463a616</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_EXTICR4</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>gafa4bb2e0a5c22355be556b7734fe0c59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SYSCFG_CMPCR</name>
+      <anchorfile>group__syscfg__defines.html</anchorfile>
+      <anchor>ga76822f104934b3c0682ec2e12e903f30</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>timer_defines</name>
+    <title>Timer Defines</title>
+    <filename>group__timer__defines.html</filename>
+    <subgroup>tim_reg_base</subgroup>
+    <subgroup>tim_x_cr1_cdr</subgroup>
+    <subgroup>tim_x_cr1_cms</subgroup>
+    <subgroup>tim_x_cr1_dir</subgroup>
+    <subgroup>tim_x_cr2_ois</subgroup>
+    <subgroup>tim_mastermode</subgroup>
+    <subgroup>tim_ts</subgroup>
+    <subgroup>tim_sms</subgroup>
+    <subgroup>tim_irq_enable</subgroup>
+    <subgroup>tim_sr_values</subgroup>
+    <subgroup>tim_event_gen</subgroup>
+    <subgroup>tim_lock</subgroup>
+    <subgroup>tim2_opt_trigger_remap</subgroup>
+    <subgroup>tim5_opt_trigger_remap</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabbe85582623cd1c614a2eff05d5bb358</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0504f1e8351b7903aff3e6f0553ba1f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab24fffc378e2c8b41357f644a85db741</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga914023d2b66fefd0be90010d4f0490ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad9115066b2eaf225506ac38d482d3f1d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3b5096c474802c0efb85ce23ac5145e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM6_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga15ddbbe6a31ddf943539fb64f1bd54e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM7_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa27262377a4416dd484953f129d5d3de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6d9c4fd5e28c940b01fee0df7de831f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga56c88bbe7b0cebf95e009b1d2a85046b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae2d6dfc50d00ed8f1b4e8ab7c062d684</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1f5836034bd617f40bdbd215a93d5f0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0e11fc62de28274e95fe42d377d1cab7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga31b8369293c55315e3759bea56a676e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6bae4dc233b9e2258f48de3a2b3fa026</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac6cd07b8922d335a858e36bbc71065b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga74f3f2e1cd063dd4a084610c5eef89e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac7d01b304081503a98592f732061eb74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga417ce5633b4617222b9bd17607d055de</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f8bc0e5b09ce56609b09c5b13c8787f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f08b823fb5ac8f8251cd2ee41739d35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7cb0ba8209e09353e380c72c6190f22f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6a6ef08c3742846e53eaa8b50ed7e955</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2482a59ce5d11f7da5cd05872a876adf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM6_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae4df779f1336a26c4720d3c2aa179723</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM7_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1ff547558fe0d86aed943fa687d8420d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5e2a12b7f8386a5c7cccea7354c52c26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacf930e0a37992fcc9cd8af56dbae2434</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9f559e12cac70c13f4f9def868a43355</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f620d303af8a6e7fdcee2795d08e964</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab306d62e29c81641ac27d69f9347d6f5</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5b2f12fb1abe043b47b4779c533540bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6688e92852a8ff8f23fe06cb3c49fd79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga01b48df40e84e344910bc03db75c2419</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf5de3e217f1338b815817465fd670ccd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga384b5ff954bc275e8daed53c4a2e5008</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8f4f9336075d5368893e922b0698981d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabed0f6092f98f521606e5d4bbce803a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae65c41413a45c488f7c894f7dbf46993</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_SMCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga012281d0111d4dcb02b558db73a17580</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafb372bc5cefaf90f11524646564429b2</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga16a27b7e53fb6dfdd3fd071d1ab54f07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaca496f20d9af3b4758a5ea16e5fb820e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab99ac8a707c1a24420cf82097895d730</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae4a737f30252d2eb09158a89e65a3862</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad253f9940bc46f77f0754832c8f7a577</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM6_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga23ff6184a89986fea232d70303c40214</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM7_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga21ebe3bf7c5d758e8129c6bebaa2b7d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga96a5c55d0de97581cef662391e67db9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac524447b9a1a3cde0564a9d9393e8ee9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa2fadb51ff267a8c3391cff7fb7e7e48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2db4d6792fe1f86f30c2e7bf18ce5941</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4c96a0edb83c22bbd52bdf43d6e41f23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga212a47d613cfd02eea612bb4f35ce0da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1c89774e14c444cb2f8829503ef3afa3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafdde7cd44a435dd2ba70d977a19f901d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga945eb306c76f6aaea0274d7c06f9039f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_DIER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2b48fe8aeee0dac8ffc1bb6c2b564614</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad6fce4212cd7186296dea3e49aae2f8f</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6fcf6b03de3bb24ab243e24818d9c078</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa3efa1c66b0bae318673f65cfce9f617</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga441ba2fd2bb3f79e1d33c50eb6835a6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga33bba96f735b44aa9ff86eec615dfea8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5d197cb0b2f14f77c2daa2c62e2e2081</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM6_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0d8b07792f4a03261222caa1b307af21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM7_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga58d1f3dfb9fca69a0f632b6759a5262d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa5eae57915dcab4d8b73407afc2ccff9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga526e973edde2120206ae13a4b61a9d49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa5c14e73035999d555a305762d572e27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga81f869cfcaad05f8533e9453147fe92a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga08959db0ffd83b4c96217c7c052b6680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaeeafb512eb6d7558a4278df5ebc64696</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaece0a6f7a036866d2c41c2b0eb06a74c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4aca4d511a9a924dca9bc454d04b8b56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gada40f127abf9b98a853cfb7676530e48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_SR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaafe9b56d346bd0a64a8152ef56459a68</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3f35c2a494c54b3e4c7cb702c8ca46df</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga677c4f343289d3362dde3f4b1854f883</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga20a254ef5effa48e066764ef61f2b8db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9034b1fa521e98a94ffbdc53ae27b7e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3d411d251a5ca841ecacd5b593754cd8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga821db801ee2f60b8ccf0cec2b50ae8fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM6_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga11bb7aef893920ecf0604183573ce38d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM7_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa75b680bb8617a7e61f72ae54cb64ae3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga96dc161ed0d4b50baed9ed041a703d2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga497d2762c3bb77a0c5e3d79dbb30d262</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadca2e213f998730534efbfc041641a79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga19b6999e42a4dc160e9bddde723f6fa2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0d099db463f3d66c2077510e7d56ad98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad82309d0fdae23ec5729246afe172c17</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga456d0c90888f3d00ceb2f45619e0b925</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaeb29fe1d8ff9a807fd8675962dbd8425</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadde0e8cbc2842c1f901f4b245d7c23f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_EGR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafdf4cb63e730373fcda7e7449f3585c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacec544086db212a9e00282a14412a97b</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac1a4bdd697ae5330529de9c15ed12681</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga805228ae9456a296165b49af8767fdea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaaeeb3c149217ed5607caca47af11053a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8b20496394d16153885d3e3c2f5bddf6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf168a89c3ddea861c857007b5d6cf82f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8f8b8bc6110c702b5cbd6dc7124032f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga395dc66668e4ea3b101858e841d174f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac057189a10d62de04342820c82438884</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1902faed9da0ba49a7a9801e9b2de1ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaac21c6800f488b53ca5a56fa0b06c281</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae158bd33dc5d82143bf4e066e1b40201</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3ceb360f6d4de5a2b46343b0e6423eb7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga45a317ca9ed3f9842504fd4f5d66e7c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f7c894a1945eb95edf764de860e4f29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CCMR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7ed327b113e9e0d28cc929f9becb9b2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabe120e0a6651b6f599d8af9339a41bcc</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CCMR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0f57185d2b2e5f69e14397a7e001e1a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CCMR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga14ec6bd56f829e0fa585198a4a3b9115</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CCMR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga38a6fcc2931c651317ab802efed90363</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CCMR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga38e86bf7a638e33164c1263b43bd70b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CCMR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f13a88b42a90bd40350201df5017531</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CCMR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1474525756f066bad1a9920ba8077c37</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab19604aad5675e73253134ace4a3f588</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadf5f0bb72cb35755c6c3cdd0221ef169</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga80fc209e74f4074596daeafe34adc232</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9ccfc55a10dacecc30513d76df26978e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafb18d1c757b4779e2a7959d7db94ce30</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga23299a3877d810a9e98fd8883ab61cc3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga10b8c5aa595d75f8016db5a46626190d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3e6de7d3bd7ab701531739bd46e0030d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga61bd386c6a406fe8336727a98c2e09f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac5ed3836db5a91838bbd045af35ddbba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga750f0dc3d7c70146663f2912f7421c69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga98ecc727209104d0379aa774959fcc66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf63caef1b5e210d9b136ec4603054900</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafcccee9545ef203faa9764d6c0a8d35e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga80989e0ebfd8694206d74b909cb9b3e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CCER</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7f4ee3bd976c98c5f5e6ecc643ce5c2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga87166273e1733623117942a332dba524</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab233471879bc30e909511b0a1d124924</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadaca4b7a298da08c4795d6a1177c1abe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad6c942eea47484ad2a4335e652d08582</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga823b4d6aa21658a779408078339ad133</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6f4e7bbfce0713cfa9db6263f1f67b47</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM6_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae40998484ad58d407369595a95390915</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM7_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaaf06e05be59b2727f47d231782a59a10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadfa3483ac2f834b753818c995381a94b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6922a1593b62bc35d3025b0a4144fb5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5775c18cf39991e76fc92854c6629528</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga67346a554f1fffcd9f402feab833089b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8be53b9a8e75c92460b281ea41c8f945</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaaad818a1e28c21d0c6a7ed92311cca52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae9c9275f356c5ebe3c2ce4820e6520aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaecec00b27950c74c8a1e1182afdcf038</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8961ababc51064bcd86dbc7c36f54c98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CNT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6ec56a906e82ec30dce5842ebc29ba74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1f28289330b39c92bdb4646ed0cf00aa</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab7004d6c468b3f5c61d3198ac54c83eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf0e1e8b150a6a80588c2de7b4abe1994</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac70450173b13bec8f174d15fddd67b54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4dc83aa0af4f47aadb28371f49867af1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae1d38c736861dd174ddaf347a283610e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM6_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga28ad46bc901a256a2471b03ff370afda</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM7_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa1a8c62909786fac3199ae1813905ad3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac3ed85da25c573a4041206a49b7819db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4253dda92577dc00b1de12d323be41c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga32de96ffe9009ebb57c8177d38fc7b1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabcbe7b6f8bcaa3e04807fdc17d9d7b1c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gace600f72eabd216eb0c56ef61dde8e78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacf3bc94f6b2adb36fd3be164153c8d29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafd5682b2602029571a93257c02465090</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab88565ff06d90fa691273e370adb2108</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7ce9e7be0b3d04c4fea06d0ddaf69fe9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_PSC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga69749629b197446df85850921d9ed5a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9a6cc4cf3fbac476e55f95357c5dd0eb</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab2571aab4a6b067e3495ea706b516394</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7e23a551449bab7a29e421d494b5fb4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabbb05799701831220decfd8e7f99b4df</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa4e85dba3117993dd6281efa8d0eef6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5e4686907be775d72d41b57c847de5b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM6_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga753133d147dce153cab682f0774426d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM7_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga90842f50cf44a625e2232abe759e7fee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad34e09b4ac40fe18e47fd573b86f425d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa7d0be034f138a46fe6b321964d9f3f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2364195e1b8c8d950765ad8e64b8b107</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga36a6aa95eb3a015678eda5153397170a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9f3075def4dba01ded15b0908ea69af3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga53c09a00cce9219e18c5dbe706881573</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga73ddad6eaa57696f5dcaea17ab99439e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga46541dd40ebf81e4baf1629342fc735d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0d14811fb3b079046956b173b2ff4dfe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_ARR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga055965fcc481a64a41822a346742933a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad6291f2341244a7292038184bb63330f</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7e6467aa148d5c7cde1718a92754ac1d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga43e93d51df7aca023e9023107ea77f1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8cb8cae439bd2d6556bd271eaff2cd4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac3b1e952319a8fdd4f43898a9bc4648b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_RCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga863529f7dd1a221307a18f64247d5db4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8433d838d712fa5fb6f94d417f7560e1</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaded93b511a33afd7dc0a972b0179e561</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6521924eaaa3365f52a534bed3b2393e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1314499918e010b770a93407ae2624ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8a743f335dba6dedc4ef4b50db2dc52f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga091e7b2c7346c99faddcfdf0de00ab46</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf9ecc5c23dc878f68399c710f8d1899f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5075290a76c65544f2300f2cdd031005</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM10_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga35c4929e1dc8e07f3aaa08c6bd5d9f94</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM11_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2fdb707895436d0e7d411f99111f7a27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga47a80a6f850b5300a7c34de7b7a98c81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM13_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8053d651bc58166838216b40b195910b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM14_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga99db4e8a0b1bd11f54e28b6d4d0a07cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga24ebbb61588928e44c64ab7eab708ce0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6ea4a672c296260702c45ddd08def838</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_CCR1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7fdee7abd6eacd350c860c0f459dce80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3ee1951f478c34780dc65f1c609c79af</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8f269c23498905687314df19cd7d6932</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga90dc350645b31d39018ccdf2a7f17cfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga607d016f1fc57fb32bde410de2151e32</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga96650f2dd1b2cadc3ba0c9122d75a023</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae591176045e87b1a9db8d7bbcd9aac6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8b3ea6dd16cfacd787cd30b30f765772</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM9_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabbeb33b0781c7397e500b56ebe76563b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM12_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga822d72789ae7d1119d232e0936bdf0b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_CCR2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga281a196fbd120fa4245b6910e032a4b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCR3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaab693675f76d680f55fbed7516f73036</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CCR3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0ecb39022b2c3e7a4dfb1d1e2d317dcb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CCR3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9fa8857ebda1411d658df6c82475c748</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CCR3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga54b0ced2f99adf7dbed557e8ac588801</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CCR3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga81323e7c904263ecdf90bc918a77d4e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CCR3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga11c42861918aa63f8a985a7d1e3e73fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CCR3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7095d4d700bc871b3048e20728f3b746</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCR4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga15d4bd837f06b4905e2f0b94c1dba4e6</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_CCR4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gada096b019c30844e22093143ae7bb9b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_CCR4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4534249afad65e30e8342fff338f73e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_CCR4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga917d9571d4cb983b994b6d2e48c70910</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_CCR4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae02852131845616785999c731a3cae10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_CCR4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafc85aeeba7bd80d6ddb14d802a71b20b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_CCR4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3523723d26048c03b9ed67d3c4b1b92f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad08a97a1493e6a16255077906c651047</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga59f8b461019da90c812424b4310bf5f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5226d6178afcaca2cee2e60302400a1c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4b1cd28d47564eca71793c9fe0cfb03c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga841aab8abba35f32df5461145787d694</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_BDTR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga888a65c9a04e4bda4120c30fd3a38876</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga143fed1be5c39c59d598098564440e60</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaeb9c5d1dc6e7802d19f750ecddac0980</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1431526eed4330a860e626a514d95a5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga54550517f596eb2da346873710107609</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6447971b09c9afaea3be9cdbd354c3bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad24433302713ba98c535ff00b7d061f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga865f70c412c10ff0f863b1c5cdaf9139</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf9124f09ae874b1b198aad64a631ba3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1f46f44f4297609049a075e97e9083a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_DCR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0b7c87e6c9f7737d95afb53c2a1d0741</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0e1cdd0119f9b184b3c43972bd60b70d</anchor>
+      <arglist>(tim_base)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM1_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3f0a2d64498fd9eb6a7cd382fcc9b805</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM2_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0557d3b82283c67260a37b96e034a443</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM3_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf72d9f316e81dae0730db90e4a0fb301</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM4_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga886498c52ebff2d3e834cdbd07786a59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM5_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga13a5f9f2c6c42cc651e71846a7c21d2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM8_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabe8bc51d60d8fe81c26930ca7e182a12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM15_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga15d41f904f585b2bbf18eff6449650b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM16_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga71331e55f29a09196441f013941b22a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM17_DMAR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2db8ac5fb5c00ccdae059adebabca970</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR1_ARPE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4a3ad409f6b147cdcbafbfe29102f3fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR1_OPM</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6d3d1488296350af6d36fbbf71905d29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR1_URS</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga06c997c2c23e8bef7ca07579762c113b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR1_UDIS</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa4f2a9f0cf7b60e3c623af451f141f3c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR1_CEN</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga93d86355e5e3b399ed45e1ca83abed2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR2_TI1S</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad07504497b70af628fa1aee8fe7ef63c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR2_CCDS</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gade656832d3ec303a2a7a422638dd560e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR2_CCUS</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf0328c1339b2b1633ef7a8db4c02d0d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CR2_CCPC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaae22c9c1197107d6fa629f419a29541e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETP</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2a5f335c3d7a4f82d1e91dc1511e3322</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ECE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga331a1d5f39d5f47b5409054e693fc651</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETPS_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae90362f1bb2ebe103300ce092ea17915</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETPS_ETRP_DIV_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4b216bcea8792f8954db12bb544907d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETPS_ETRP_DIV_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5e9689503705332c3bb5675a254b3f36</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETPS_ETRP_DIV_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadabb2e255bc8058f0e5a3da45d44ce06</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETPS_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7ab3c856ec9166730aa79722cef1f8ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga776c22afe791781f0c45f86a6b1b7b76</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_CK_INT_N_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7e52a3d7402b4ea63e18e92d33330792</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_CK_INT_N_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7e6da9b1ed1f1d2ce1681eb6f89b2a2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_CK_INT_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7ee023d570d5f624c143c3b97da6a63b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_2_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad4a0382912674d590c5d66856d056045</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_2_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga720bb9ac13e8666c5a829d11b83c2487</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_4_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga50bdc795812f6834a4657dbd15befd9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_4_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7e2fc6985db057bb1d737def5e317ad0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_8_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga91e4930d89cab78394f889d6d033cb14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_8_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3c7ac1aa04c82a9d86adeacc6da853fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_16_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae9d47c53524fb0dce0da1387c7da91c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_16_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga726dada34e571a8e0ee4fbdfc0e069bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_16_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4ae97abb2ba5dd97c12293ec4b31289a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_32_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac9ecb77f187647d35579a3927368cbbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_32_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga291c446631855fd5da0b35ea63507ac6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_DTS_DIV_32_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5e91bbef00493bd9320f51cc26d963d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_ETF_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2d012d6938557c07e95622919cb119ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_SMCR_MSM</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga52101db4ca2c7b3003f1b16a49b2032c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2CE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga19a8dd4ea04d262ec4e97b5c7a8677a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2M_FROZEN</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4e5b9708fd71f1ab7364142045a18355</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2M_ACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae5fe435189f0bfcd82a4a88087897be8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2M_INACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga933df0a1b64e8755ffc4411085768543</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2M_TOGGLE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaaeb2e405e2dec85a052a7a84d46f3243</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2M_FORCE_LOW</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae7f8c2331de81147c1c340d0e7b97cf2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2M_FORCE_HIGH</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad0f22548570f099a29e30dc1e87067b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2M_PWM1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8f0b001cebcb79ae850e0a44a638feb6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2M_PWM2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga396d8e314cf79710ca81818558ab45ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2M_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1d08d6d32e7f082cff3e6b3aaa2828b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2PE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabddbf508732039730125ab3e87e9d370</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC2FE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3bf610cf77c3c6c936ce7c4f85992e6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC2S_OUT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9c9a3e65cf112667a8271a492b271fb3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC2S_IN_TI2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1f8af000a72996f62a59f8ec0c18088d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC2S_IN_TI1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0fe3330ce232db411f800738f3cf3a0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC2S_IN_TRC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga73924c8035f8767ff038bf7f61ce5fe4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC2S_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga19e058a6d3575336734eecf30dff3956</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1CE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8f44c50cf9928d2afab014e2ca29baba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1M_FROZEN</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacf096661509bb0f727aed089e697caa9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1M_ACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga89bf2811fcf526110a92ae68d58a7b3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1M_INACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3adc0eb921186670a10bdf1c66034e68</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1M_TOGGLE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4d60d7dc02a3d5ee2a5bfccdbd9fb566</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1M_FORCE_LOW</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf3be714f4a5f5e2902e853384ac56773</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1M_FORCE_HIGH</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6cd3b7db953ad2c52c8c0c4af36c1f63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1M_PWM1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga428f1b4fd1affbc5c4df27a6959a327b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1M_PWM2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3e653890d2219bebb5800dd7d8c3505a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1M_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8a5e4921b4a21be23e62233e04f331f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1PE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1aa54ddf87a4b339881a8d5368ec80eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_OC1FE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab9c5878e85ce02c22d8a374deebd1b6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC1S_OUT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaee21cdca4a238f0ab2afa6c99c301c8c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC1S_IN_TI2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga89b4914c1eade8a42449e79166e99d80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC1S_IN_TI1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0575edbe52e8b691108b0062f6c927ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC1S_IN_TRC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga01a96a0fd8b6b838c0aef97e35bfd465</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_CC1S_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga39d7af7f3efb07fb7c14eda9ad4d17f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0853c977bce772acab580138cf32c3ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_CK_INT_N_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6f5eb6db36e6936523c5d6a78f518e3a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_CK_INT_N_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5a561ea6e6b53a940c8c2211079562ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_CK_INT_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga64674bab021ef8a90bd753105c265f37</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_2_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad272abbfeac29532a161e46dcdaf0865</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_2_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad88668b8d1e2eab2c76536508566e3ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_4_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac0924543c6e248ab796f2dd75c58da82</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_4_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa6e1fdc52e6df310e2eb6983bef68ac7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_8_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7458cfbeadc5d299eaeca36b5adbfd41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_8_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafdfcb162d66f5f478b755371670f29d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_16_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab05a38d41b6d09cef265d964e118f123</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_16_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga62e1e6824fea5e65b4f8e349980bb2d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_16_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga743c3596097cd192b10bfdfef36b6fbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_32_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga79a3fff844af39bff64036fc7c82a06b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_32_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0936ae92c7335876871b1f4a9cf6662e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_DTF_DIV_32_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga532457f6ad073912f05f6aa8796257c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2F_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4c52c2d1c31cd23d843a075c5c56beb8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2PSC_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2c12c7773de8b2e1d88562ae5794e67b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2PSC_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6604b12fe0a7a097025dbf96fe9739cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2PSC_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga05f10ff0450998631bc4220c7ec323ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2PSC_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3521ef4b8518cd9c383cc3d52a534168</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC2PSC_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga807ddc527d1ebdcb6e9b8af5177661e4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac29e74edcffe0e4e09c193e349ea2f21</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_CK_INT_N_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf3a529b2a77b0f3203ad53b243b787c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_CK_INT_N_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab1573fd192f76b55c110180c8693e64b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_CK_INT_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga257409bb0d24fb96ae835472b5789312</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_2_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab357581b37be578d914c1b76b5822c52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_2_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2453cf707f877a3d3fa489bfb858bc60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_4_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa64b1b36907a6e14fcc428283bd257f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_4_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad83832d9937b8a17509de11c5c72453b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_8_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9d9530efbed997a45ebca4cc05d3426d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_8_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5cbf3ac03998fd20b1931d9b320c8d02</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_16_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafa862cb173c4ef63704f31e8bb70508d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_16_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8f95ca3adb556e6227e5f2014e893932</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_16_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6408468164f385dd4e9acc22fade095b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_32_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7178f106837f46d46c0c3d9869693b5e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_32_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga776b7960b4de127a0408ab2f63bd16fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_DTF_DIV_32_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga2672675e72f12d530330c1f56175db54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1F_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafa814b88ecd4b164ed50f596acc8bb2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1PSC_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga16d780b41455056a143765380ef22de8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1PSC_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf09d6b5c3fde43aa72401676574d7452</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1PSC_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga102fc0a98b68ee19d8f5bb77a21b7c2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1PSC_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad4d7ea0113e5e8500306248c9f9250a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR1_IC1PSC_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf81a04805b3255a1d8ada0b90e2bceb9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4CE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1447dfe94bdd234382bb1f43307ea5c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4M_FROZEN</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab35685675dfa4d0d85cba86e8734cab5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4M_ACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga70d518566091c7f176dbe3cfc7e518c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4M_INACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga67f5a3cf37e0c60eb23bdd9ca7736451</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4M_TOGGLE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0418cd1a5865636e7379ece29af4604b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4M_FORCE_LOW</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafea74ff9483d9922b2a9501ce0810c85</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4M_FORCE_HIGH</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga07c5dec5bfdfc0ffa912c7a40472df5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4M_PWM1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7d2bea2e08d52debb389c02a85461080</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4M_PWM2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga34cc3a475d6d4e6a6f95d0a3cf72e751</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4M_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1f66cc1fddb123a45d442e7e23c6cbb8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4PE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3e951cd3f6593e321cf79b662a1deaaa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC4FE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga70dc197250c2699d470aea1a7a42ad57</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC4S_OUT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga03b13b470bc248626bfc35eef0855fc8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC4S_IN_TI2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac748768fc51e344ef8fdd68ae19c8d7f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC4S_IN_TI1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacd81044725401aaaa2d32ce41cdfcac5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC4S_IN_TRC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae9def2b238de8f640eac14b6e3409015</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC4S_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaadb0098b16662824450ea098732e2bb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3CE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4209d414df704ce96c54abb2ea2df66a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3M_FROZEN</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga94a24cc44d06723542fa0b41d5c4b0d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3M_ACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga732a5c7c2c0f7588688a729879b9aa67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3M_INACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadb6f6d66965e5093ac07cbc726c2cd59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3M_TOGGLE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga938607915352b952c2feaff1797034de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3M_FORCE_LOW</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga73de273e96ade498afdadaff04a16e70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3M_FORCE_HIGH</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1c3f735217a2cf72ecc3725a90e91728</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3M_PWM1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga58ae030d70d5c1aa78ddb5100368efee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3M_PWM2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafcd61dcd19426be7e3208a1047ab7755</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3M_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaef521b94240225ae3feef5a7b6923753</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3PE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga276fd2250d2b085b73ef51cb4c099d24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_OC3FE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae6d8d2847058747ce23a648668ce4dba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC3S_OUT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4fb7a8f752911b0e998a75cc91ea2e25</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC3S_IN_TI2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacfd196e36220b06c03cfc5c8d09b3579</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC3S_IN_TI1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6bd11435a6fc49cce686434834cf9400</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC3S_IN_TRC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabe7fd25ed64d1d0e020e5b611c11270f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_CC3S_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac6269fe08f9e32a4b9b9df0b44dc6462</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6205f4d60dfe87ce898cf7feb58d947f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_CK_INT_N_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab7da8cf0bd155efa58bc36c9b598f96e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_CK_INT_N_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3bec2bd7a6ac8bba83b112c7110a48c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_CK_INT_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf9f2def8aa27f8ed564822e2008b7497</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_2_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae4efb126e4ce4ab649527f53385bc43a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_2_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa94a0c4d0ab967e092db1b04808cea0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_4_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga123f8fdde9f4f87a1f2382c893fcfa89</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_4_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga139a315986a30f0e1bd87d3638efa1c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_8_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gafba0e37982071fdea9562f6da9e6d1ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_8_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab0d6c44f13730ec5cbc1eebcedfacdc4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_16_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac858d737fa8337ca2cc1e30a886c062b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_16_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad9a2909fc564266d9d648436fef853cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_16_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga97e222dd2b2294c842912160b90234f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_32_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadd2695b5373673b9843c7f68bde69ca5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_32_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac88a8c038420c25a6e47aa95f5646997</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_DTF_DIV_32_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaec8abfcf11690728a0765ef5d0596fb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4F_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1ce6c47e2e65930169feab6297292c6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4PSC_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab190171bd8860f276cb59e32b649a7cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4PSC_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4dbec5039fff6e1f8c3e6268265f05ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4PSC_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae8573e236b0ddde3e083bba688cc548d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4PSC_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7320edc3c288f3c4298ec09a0ccaff8c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC4PSC_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga152240da2ac92de972f3af0e4e5a5262</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga032cff052b083d1af49603b5c884052b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_CK_INT_N_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga08c41500cccb47ffb29935c7ade19f0e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_CK_INT_N_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9199dc5988be41d81d239af75284d48b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_CK_INT_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaaeeb4d5fd703a06dc77540966bdc2808</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_2_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga742b4e29c25c62807bf652ae2a3e58fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_2_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabe260ee71c6a26d3653693b0a9d75c11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_4_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga19659e80d34fcbe10fb657179a48be06</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_4_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf1db4b3775191cfa4efe6cc1646d1798</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_8_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga43329e4c3b0be257dcb5aafa46358837</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_8_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga28b06f46a9274a77659305c4149c84ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_16_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3bd8489383230c486508cdb4f0ad434d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_16_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga47c9aeb19015b54baf62d78910c66acc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_16_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0f23215a66639e77f8899d7711878ea4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_32_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7491b4bacf2ba82f0dd05c3e9d5a5cca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_32_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa7f37184b0936aa5441d56cf60167e2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_DTF_DIV_32_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1d12ce2a0f99f992ad2ea5d459cea49a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3F_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf4f3f9b4e6789f73b56bde767874b7b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3PSC_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad603e4719c0ed0a16766b84f4c225b60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3PSC_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga31b71469ea84db429e3b945246937617</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3PSC_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae13293d18d511cb88ca67d0ef7e4e61f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3PSC_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga94100c78fa30968c9e31ba683b4515e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCMR2_IC3PSC_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga365fb3fbd8e2c285f21747b92d967ae9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC4P</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3faf23dc47e1b0877352d7f5a00f72e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC4E</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga940b041ab5975311f42f26d314a4b621</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC3NP</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4029686d3307111d3f9f4400e29e4521</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC3NE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad46cce61d3bd83b64257ba75e54ee1aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC3P</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6220a5cd34c7a7a39e10c854aa00d2e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC3E</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1da114e666b61f09cf25f50cdaa7f81f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC2NP</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga387de559d8b16b16f3934fddd2aa969f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC2NE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6a784649120eddec31998f34323d4156</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC2P</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3136c6e776c6066509d298b6a9b34912</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC2E</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga76392a4d63674cd0db0a55762458f16c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC1NP</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga403fc501d4d8de6cabee6b07acb81a36</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC1NE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga813056b3f90a13c4432aeba55f28957e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC1P</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0ca0aedba14241caff739afb3c3ee291</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_CCER_CC1E</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3f494b9881e7b97bb2d79f7ad4e79937</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR_MOE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga277a096614829feba2d0a4fbb7d3dffc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR_AOE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga59f15008050f91fa3ecc9eaaa971a509</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR_BKP</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3247abbbf0d00260be051d176d88020e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR_BKE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga74250b040dd9fd9c09dcc54cdd6d86d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR_OSSR</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf9435f36d53c6be1107e57ab6a82c16e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR_OSSI</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab1cf04e70ccf3d4aba5afcf2496a411a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR_DTG_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4507181ba8f9710645a6af80ee37133c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR_DBL_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac78f3575becde2cd60aba791937103d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM_BDTR_DBA_MASK</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga436e1dc308845c8abe4f2ffd55bcc2b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>tim_oc_id</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacd988319d070e7128b530d4ac1a4f4ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>tim_oc_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9c6be6e4ccd5dcb325f1ebe499ca5216</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>tim_ic_id</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf76612839feedf9c605872cacb0ac5ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>tim_ic_filter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8a2a8722575e6301c3e059b9ec8f50c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>tim_ic_psc</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3231b651e821b33d1adeeb21e2a7ae62</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>tim_ic_input</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad3d3ef84edd2180d79321bac6394bb4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>tim_et_pol</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_reset</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga90cade2e35c32d50534a531903e642be</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_irq</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabe7ccf1e2f9d2d8be692b58ad4e5b304</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t irq)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_irq</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf653149dc5374ff126d7ab8b63ea6d37</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t irq)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>timer_interrupt_source</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5ac041bc0363fbb857b2c783e675fc69</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>timer_get_flag</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3515ea09b71ac6aad4df293e4d15c540</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_clear_flag</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf3686ed077ae1d79bf34050cb23ee373</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3d24e3347572755cc1d95a3ed6307aa8</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t clock_div, uint32_t alignment, uint32_t direction)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_clock_division</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaf7ee4b3730e8989df3b7366ded65ad07</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t clock_div)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_preload</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1311e6fc4fcd830db8cacc6f1cab99c3</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_preload</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga45cb21df9ad54411ad2cde8eb29f1a9f</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_alignment</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga6bda1a80f9b7474a2faea5d8cc8ae9fd</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t alignment)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_direction_up</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac60be2f7fedf3ac0b234eb721a74ec17</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_direction_down</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa9a7db17cdc0078e5f1a4a7f6f72d3e6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_one_shot_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1697ca3e864a9cfd07ce47bef8313525</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_continuous_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga0055340e46362635c32a117c6b2bbe2e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_update_on_any</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaba4fbba9e50b02eac3c909e09d7cdb00</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_update_on_overflow</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga279cd24b158ccd2e2209c88d9853d09d</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_update_event</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga83b865bbaba61578793c252cce77e177</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_update_event</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacd3de4978e884feb8a7ab8d190d9b08b</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8d2e8fb94b1988df5239852f2b3301d6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga48290e3b69592031f0d29066fafc780e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_output_idle_state</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga74493385947c60267324ad52658aeaae</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t outputs)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_reset_output_idle_state</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1588d783af458b13957c92d0a61ebc48</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t outputs)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_ti1_ch123_xor</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gacddad82e5abc73bdbcf87514c935b9cc</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_ti1_ch1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga9e943f5e6af679422c7eb45a53c1f926</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_master_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga17f2e416e48d857ad6ff2dd6b4651b65</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_dma_on_compare_event</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga222af772ac588e4cce08b4d4c30aade6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_dma_on_update_event</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga77c7e3f0358e1747ce7802ccf0ab0519</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_compare_control_update_on_trigger</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga36de90953e6ad0da84ddc353ea451fb8</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_compare_control_update_on_trigger</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa9c3942a9b647d8e92b07275e9dd2c58</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_preload_complementry_enable_bits</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga88dabeaade4785e8711b682cbecc68b3</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_preload_complementry_enable_bits</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga1d84b1bb9bd6496a09fa2914a3665797</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_prescaler</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga45e2ff5caa76f1baac62985affa04908</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_repetition_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaeeeee34f61f1b5494c96a777502d40bb</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_period</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaea0fda57594cc30e644de916dff31b98</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t period)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_oc_clear</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4c1e08343758db3ed4bceaadceb4360c</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_oc_clear</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga413d13a8ed5f52729ae847b5d51731bd</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_oc_fast_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga23ff68b1e45d180ad74eb04d660e8088</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_oc_slow_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga097426b09f737df077536d59f0e8b499</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_oc_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga518f01cdb7d391eb7e884d49defcc0a1</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id, enum tim_oc_mode oc_mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_oc_preload</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga71f1515c2ab3f2ccc74077337ded51ec</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_oc_preload</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa89f1b35bc6616d12999b59559f5317c</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_oc_polarity_high</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3c3b4a7253fe8b383695a995bc772719</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_oc_polarity_low</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadb746de22bafa181826f3911f9be5023</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_oc_output</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaca2dbcb8b8f3fd059c5a9342a3a9728a</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_oc_output</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga988310ebc85afe99caaa00d18e23805a</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_oc_idle_state_set</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa6d2d7f0f8ac9940c7ed90718b6b0d71</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_oc_idle_state_unset</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga547d7a817bc3588bbe5b5a80967a42e7</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_oc_value</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad25fd7a45af7d78d27473421897a28e0</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id, uint32_t value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_break_main_output</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac85d21c50ab47956f23b1413531509e6</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_break_main_output</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga38de2ddba2d0da279f17e976f92ba43a</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_break_automatic_output</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac0fa6733dce1b400df606f9d46ed171a</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_break_automatic_output</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gadc5affbaaa9aced0f28cf3b7b385b67d</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_break_polarity_high</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4ceb747a6c4de3b6f8f687fc208b2e81</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_break_polarity_low</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gade854ae04e5ac57770cb0249b6533f10</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_enable_break</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3a3a36222ab1f686e4da5a8355056097</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_disable_break</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gabb206669c5e556ccbcccb4205ed872a3</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_enabled_off_state_in_run_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac450e52a726bc05532369ff445839a6c</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_disabled_off_state_in_run_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gac912b678e1b5142001e3f69eaaae74bc</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_enabled_off_state_in_idle_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7afd7dae739404fa2bb305feb7a4d95e</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_disabled_off_state_in_idle_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga3177151403d6d7af037a41739d82fbac</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_break_lock</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga42351ef19afe18243e5b2337ad14f2ca</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t lock)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_deadtime</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga635cae0b5d26ee04a7d0f04ee647c5be</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t deadtime)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_generate_event</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae4eef64c8f1c7d9a3c5f187541adb697</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t event)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>timer_get_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae2d6fd0793f48922743ae64d04671f6b</anchor>
+      <arglist>(uint32_t timer_peripheral)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_set_counter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga7057701df512bf79f039da9d6379a895</anchor>
+      <arglist>(uint32_t timer_peripheral, uint32_t count)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_set_filter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad66bd6d423e567ced06998f21f967de9</anchor>
+      <arglist>(uint32_t timer, enum tim_ic_id ic, enum tim_ic_filter flt)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_set_prescaler</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gad4119b7a4b113b23670b7f5b853d291b</anchor>
+      <arglist>(uint32_t timer, enum tim_ic_id ic, enum tim_ic_psc psc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_set_input</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaa7affc7be4805d85e1c9317246e91be6</anchor>
+      <arglist>(uint32_t timer, enum tim_ic_id ic, enum tim_ic_input in)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_enable</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gaad0cbee73b77b42610388bdbd880bb8c</anchor>
+      <arglist>(uint32_t timer, enum tim_ic_id ic)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_disable</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gab8cc3cdf2f771ef0124428b6e8e1ba61</anchor>
+      <arglist>(uint32_t timer, enum tim_ic_id ic)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_slave_set_filter</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gae598cd24adc8ce5d9142e28cdb997f9b</anchor>
+      <arglist>(uint32_t timer, enum tim_ic_filter flt)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_slave_set_prescaler</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga5348e14d023df2552879eb294c794f3c</anchor>
+      <arglist>(uint32_t timer, enum tim_ic_psc psc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_slave_set_polarity</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga8c001c695335a6068fe1e769a0e6fca7</anchor>
+      <arglist>(uint32_t timer, enum tim_et_pol pol)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_slave_set_mode</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga74a5ed72e113b3496ba8d6c5054b9f77</anchor>
+      <arglist>(uint32_t timer, uint8_t mode)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_slave_set_trigger</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ga4dd4ddde0168f7213126e1b9bca63077</anchor>
+      <arglist>(uint32_t timer, uint8_t trigger)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -31081,6 +38121,368 @@
       <anchorfile>group__adc__jsqr__jl.html</anchorfile>
       <anchor>gaa0b1c6b1e9184bbcdf46a9dc74f6343a</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>CRS_defines</name>
+    <title>CRS Defines</title>
+    <filename>group__CRS__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad151b2f8dbc243ac0ce1fad0c4306328</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5b01c27669cebc1e9f8724bc4a6d7e6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga3c91535f9d738a657f8c47149ec6f24a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab03e59be41ea5a84e9a8406ff8294ca8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga871f65d5edeabb8a0616697738d2c04f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_TRIM_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga83c80f57572eff0bdc521c3679cb2e8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_TRIM</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga755d695431db14c1b3b15a48ede61c13</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SWSYNC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga53d79706214ba4ee9310e4b678d67e44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_AUTOTRIMEN</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gafa48432b942f1896e05a2eff91178edd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_CEN</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gace21476d647129c935f84daf84d91699</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_ESYNCIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga3831818c762e279f698faf27f4e7db4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_ERRIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gac616bbfe903ec7cc2be289db5fba0fe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SYNCWARNIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gac27fb8e1741d3b5c19a527955eb00bad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CR_SYNCOKIE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga246a4b3d840b5b9a18f6ea414fc48297</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCPOL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab28395cefb0927f2118a9a840a2e2d71</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5987c540969d232c71a7abbe075c509c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga441881d5e657b04236e440918fe63d20</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_GPIO</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab3f24d66e3601fda05f8e85e6e324297</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_LSE</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga8a841f5094d9797d208d864da7e2d3bd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCSRC_USB_SOF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf45cfad8d9be4cdb6b668797178fb11f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa0cdf9d1d14ebf578d6aa401171fe561</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad0b3ee2ab042802997e57d788c640647</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_NODIV</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaafe74c2f6b00f56f4301f35839231518</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV2</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad8c4a6c090d87059f96b839ec28dfc74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV4</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad22de8eeb153e1d9f336ff6f92e6b390</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV8</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga23f6fc67360d9d3462fd9b7fbdf0424b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV16</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gae4cb9be168a6957b7a8cf1e3aa0b307e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV32</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga1439b9d86cb02ce6122b367070b958eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV64</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gabb2cb8f73d4e7e455cbe4d7fb9e18817</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_SYNCDIV_DIV128</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab40203a9c7e9c3efbfa63ef1ac89b225</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa1e1bc82a41ff8da8869ac00c926a624</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga48c70ae21b6a35ed520a2b30df2c4852</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_FELIM_VAL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gad6d4f4be96d0ac19bf23ba45210b65a2</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga079e5a3e3da5c0c34ffa3c968f0b0c5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga7e54b011ada0eeb4b6ed9cdd24d517f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_CFGR_RELOAD_VAL</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga2066b9094382e2daf4bd9c6950a22147</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FECAP_SHIFT</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga5869918f00cfe3b2fa6ce0dac11d59ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FECAP</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf0b8a9757678f28814b1a0c1baca63e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_FEDIR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga91196b059d8ff52c4f28bc964c8a446a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_TRIMOVF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaf3852f10eb46159b7888c71e6d9cec3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCMISS</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga9f2241bd51b436f7b381ad410124aec5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCERR</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga80d05ae1142788a65444c0463a26bcfb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_ESYNCF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga819c4d424be7915f9660ecb19c234a8f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_ERRF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga963b451a4ca8890ee3d323304f0b9298</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCWARNF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga0f33a79fec47400ab363bbf5b4b9f2b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ISR_SYNCOOKF</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab8ae43aa18602b176b69dbf6b8e60141</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_ESYNCC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gacfaa0b3004143ca5b1a7fe5ed23daccf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_ERRC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gae67dc4a9e576468b0c322902c7c47793</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_SYNCWARNC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gab772d21f8bc42ad5761a270d663be1ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>CRS_ICR_SYNCOKC</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>gaa42110e626aeef3ca9d76c8bda1f08d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>crs_autotrim_usb_enable</name>
+      <anchorfile>group__CRS__defines.html</anchorfile>
+      <anchor>ga01a9ce5f79f9244985f2ad45c671cd37</anchor>
+      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -33485,6 +40887,32 @@
     </member>
   </compound>
   <compound kind="group">
+    <name>pwr_vos</name>
+    <title>Voltage Scaling Output level selection</title>
+    <filename>group__pwr__vos.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE1</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>gacf97c6fa060796dc67ec47e6d897aa14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE2</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>ga3428a34be04892007ffaa40a59f2492f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>PWR_CR_VOS_RANGE3</name>
+      <anchorfile>group__pwr__vos.html</anchorfile>
+      <anchor>gab760fe0b783cb51a37e4d0089c4077fa</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
     <name>spi_reg_base</name>
     <title>SPI Register base address</title>
     <filename>group__spi__reg__base.html</filename>
@@ -35580,6 +43008,67 @@
       <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hsi48_source_rc48</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gae10b86d0e8437b531f34745e881038df</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hsi48_source_pll</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>ga7978886aa7813a304157562b8fbd7016</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_sysclk_source</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gafd82204202c577cffe2a434c730bf375</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pll_multiplier</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gafc17e0dd46387b2ae1e38c69ba5f09be</anchor>
+      <arglist>(uint32_t factor)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_pll_divider</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>ga014d24c75c6cd9615ed517746aa9f3b5</anchor>
+      <arglist>(uint32_t factor)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_ppre1</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gae48ce980c5b0bf1b623145c745b8a8d9</anchor>
+      <arglist>(uint32_t ppre)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_ppre2</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gae05ff64cfbc32d60f4225c4daeaf4331</anchor>
+      <arglist>(uint32_t ppre)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_set_hpre</name>
+      <anchorfile>group__STM32L0xx-rcc-file.html</anchorfile>
+      <anchor>gae192b2cd0f37124db5ed76d599a5671b</anchor>
+      <arglist>(uint32_t hpre)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>crs_file</name>
+    <title>CRS</title>
+    <filename>group__crs__file.html</filename>
   </compound>
   <compound kind="group">
     <name>adc_defines</name>
@@ -39620,368 +47109,6 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>exti_defines</name>
-    <title>Exti_defines</title>
-    <filename>group__exti__defines.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI_IMR</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga69ab94ebc8de242b77e596dd2bbcef49</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI_EMR</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga4e9575b4d9ffe40c460aff68c928e497</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI_RTSR</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gaa38744d6066068db3e1d165af594133d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI_FTSR</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gada970d90e15dafefbab3bb5b3a3530a1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI_SWIER</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gaf2f1ba804ff20d23e6c2e78eccf7232b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI_PR</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gab6c08bdd29b216dff011819b71328272</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI0</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga77d55cf55a67ff5d43794d24f7cb9922</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI1</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gabcd18cd089259e5c95d338adc4949821</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI2</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gac1864c46eb6702208ff59e4ececd3776</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI3</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga205d284100ff421b0b4b13fd5950d912</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI4</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga57183bff31f5cbbfbb5d24856c2ded44</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI5</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga45517e7df564fbe372635ad985bb45cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI6</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga2632bbf3e8339f3c752ef81ad39e669f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI7</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga5038306ffbb0de285cdba9430594b581</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI8</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gae0d1ad40c69f700f52e10ade98a81094</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI9</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gaf8f6b46d0fb67f0722f18a57bb09324d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI10</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga817593ea889dea68dcf74434ad2ec311</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI11</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gae951b07cf003fb3f2652843087057ed6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI12</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gaee672b592634fafdf6192753bd1eec07</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI13</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga015e5403458c6ba88f552edf6a8e89d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI14</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga557168bcf9644708d3ad1ee01c7fe54a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI15</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gaf9c95aa8bce16e9f9903a354fb0327fb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI16</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga08c3a430730f8ed59b2a8f13259f2ad7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI17</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga70fa93598715b662d570d5e9f02add04</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI18</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga46d5e165580f7e0d8a32500b68682d19</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI19</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gabd3c95edc24047d4d80a4451978d1d77</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI20</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga7442c6138768b6f9063aa06339f4f018</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI21</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga5424e78536b2ad7c9286dd4a25aa2fbb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI22</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga106b779d4271f872067630bfd4b2ae64</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI23</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga8ff4dbe8329a5402095e9a5450e84072</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI24</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gac92e5f3f95ec9ec77e48b0fad9cbfcda</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI25</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga2273c2876c1cc39cbc7c30a85bc4d7d5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI26</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga014f6dcebe49208bdd41334229596a3e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI27</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga0f50bc289c9e0f21bc939365872e9fce</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI28</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gaf812fb0470be67c3f169882cb87efdc7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI29</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga6e136fa99050d7a35059478c04623591</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI30</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga6151c1b4295ac63c36a64c60e226fc6b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI31</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga0b2dbaaacad0af85f6a085da73898bfa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI32</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gacf1940515c6bc08400e2b0288088a4ea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI33</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga6a7b8b44715182de7901f8707fdb9f50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI34</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga0145d11f36a706ee83f8f3efc076c4fa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI35</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga5b462d6e2c86100f7d8ed285b2156c78</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI36</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gabb89112c70417656df2587bc4e09db7a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>EXTI37</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gacc51dec6598c83bda320c1be854168fa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>exti_trigger_type</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga217058c9ab9a27e3f4f197ca7889623a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>exti_set_trigger</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga8b05a3586764aeb0dd1366dd46616a65</anchor>
-      <arglist>(uint32_t extis, enum exti_trigger_type trig)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>exti_enable_request</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gacb53c6b7ac0a8908568b7a1f7bc50d25</anchor>
-      <arglist>(uint32_t extis)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>exti_disable_request</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga1752fef240fb05e1135548449943ce0b</anchor>
-      <arglist>(uint32_t extis)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>exti_reset_request</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>gaa86779017820fedee955563adc8b5f4a</anchor>
-      <arglist>(uint32_t extis)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>exti_select_source</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga81a7fb7a4718cb2cf33b94f92ebd721a</anchor>
-      <arglist>(uint32_t exti, uint32_t gpioport)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>exti_get_flag_status</name>
-      <anchorfile>group__exti__defines.html</anchorfile>
-      <anchor>ga80d89279aab6cc63a8141b7421cd2dd1</anchor>
-      <arglist>(uint32_t exti)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
     <name>flash_defines</name>
     <title>Flash_defines</title>
     <filename>group__flash__defines.html</filename>
@@ -41851,215 +48978,6 @@
       <name>iwdg_reset</name>
       <anchorfile>group__iwdg__defines.html</anchorfile>
       <anchor>gacd206e0c18f9f66937da3e790384dda2</anchor>
-      <arglist>(void)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>pwr_defines</name>
-    <title>Pwr_defines</title>
-    <filename>group__pwr__defines.html</filename>
-    <subgroup>pwr_pls</subgroup>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga25cb9de3904b844fcf2f3898894ab8d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gafcc10bfc0bea18d4f6ba0e1e567d2e02</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_DBP</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gaf5c65ab845794ef48f09faa2ee44f718</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_PLS_LSB</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gad85eef6c44b6b338dacdf882cc4d149f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_PLS_MASK</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga4bc2e827b1955849d278d1e7be03366e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_PVDE</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga05d5c39759e69a294c0ab9bea8f142e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_CSBF</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gab44484cacc35c80cf82eb011d6cbe13a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_CWUF</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga3928de64f633b84770b1cfecea702fa7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_PDDS</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga8c8075e98772470804c9e3fe74984115</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CR_LPDS</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga3aeb8d6f2539b0a3a4b851aeba0eea66</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR_EWUP</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga7ac8c15a08bbee754ea720b0d4a4f580</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR_PVDO</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga3535ce181895cc00afeb28dcac68d04c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR_SBF</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gab4fd42f153660593cad6f4fe22ff76bb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>PWR_CSR_WUF</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga9465bb7ad9ca936688344e2a077539e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga47f30c2ab88b0a18a2f343cf4f9c0743</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_backup_domain_write_protect</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga13c9ac878969520462439771bbf3e621</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_power_voltage_detect</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gae3c5f82cadc5bf29f0dc2dbe259a8fcf</anchor>
-      <arglist>(uint32_t pvd_level)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_power_voltage_detect</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga1d9e8bb70d3b9c9c2971d1ae2c049b8f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_standby_flag</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gacee516d449f1015a27246fbfedc534de</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_clear_wakeup_flag</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga652ae2d48d4833539f50f0c201e8fff2</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_standby_mode</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga0fae0ca13856ebe2b54921d08011ec53</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_set_stop_mode</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gaf79db56cf3c904ff69d1cc12984cfd1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_on_in_stop</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga2f84386ff3dc643ecd18a2d23d7e5cbd</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_voltage_regulator_low_power_in_stop</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gaa985590fc7eadc3a93a41fb59a85c9e1</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_enable_wakeup_pin</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gae6f11b3114892d8a0d754a6f3fa5c3ec</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>pwr_disable_wakeup_pin</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga932a753dc0d66718aaaab22b9d75aa97</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_voltage_high</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gadf5ec836f6a94f6ea6fb99b16e9efe1b</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_standby_flag</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>ga88aa01d26288b01a95d0a2dfc407ff7f</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>pwr_get_wakeup_flag</name>
-      <anchorfile>group__pwr__defines.html</anchorfile>
-      <anchor>gac69631a0b97e81ef5b94b6a46c22c521</anchor>
       <arglist>(void)</arglist>
     </member>
   </compound>
@@ -44587,3971 +51505,6 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>Syscfg_defines</name>
-    <title>Syscfg_defines</title>
-    <filename>group__syscfg__defines.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_MEMRM</name>
-      <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>gae2c143dc8c0abf30726dd46a816bb7c7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_PMC</name>
-      <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga463d835825838c01773347be05fa9ef8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR</name>
-      <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>gae817e40e86c38da470d9a40a5584277d</anchor>
-      <arglist>(i)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR1</name>
-      <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga55e119f87c84a7b1b9ba01c2ec3a6b4f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR2</name>
-      <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga80c96b4d593d8ef618392d6db611979a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR3</name>
-      <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>gaa5daf054b73b2895e304e8a36463a616</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_EXTICR4</name>
-      <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>gafa4bb2e0a5c22355be556b7734fe0c59</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>SYSCFG_CMPCR</name>
-      <anchorfile>group__syscfg__defines.html</anchorfile>
-      <anchor>ga76822f104934b3c0682ec2e12e903f30</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="group">
-    <name>timer_defines</name>
-    <title>Timer_defines</title>
-    <filename>group__timer__defines.html</filename>
-    <subgroup>tim_reg_base</subgroup>
-    <subgroup>tim_x_cr1_cdr</subgroup>
-    <subgroup>tim_x_cr1_cms</subgroup>
-    <subgroup>tim_x_cr1_dir</subgroup>
-    <subgroup>tim_x_cr2_ois</subgroup>
-    <subgroup>tim_mastermode</subgroup>
-    <subgroup>tim_ts</subgroup>
-    <subgroup>tim_sms</subgroup>
-    <subgroup>tim_irq_enable</subgroup>
-    <subgroup>tim_sr_values</subgroup>
-    <subgroup>tim_event_gen</subgroup>
-    <subgroup>tim_lock</subgroup>
-    <subgroup>tim2_opt_trigger_remap</subgroup>
-    <subgroup>tim5_opt_trigger_remap</subgroup>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabbe85582623cd1c614a2eff05d5bb358</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0504f1e8351b7903aff3e6f0553ba1f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab24fffc378e2c8b41357f644a85db741</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga914023d2b66fefd0be90010d4f0490ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad9115066b2eaf225506ac38d482d3f1d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3b5096c474802c0efb85ce23ac5145e1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM6_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga15ddbbe6a31ddf943539fb64f1bd54e9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM7_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa27262377a4416dd484953f129d5d3de</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6d9c4fd5e28c940b01fee0df7de831f0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga56c88bbe7b0cebf95e009b1d2a85046b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae2d6dfc50d00ed8f1b4e8ab7c062d684</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1f5836034bd617f40bdbd215a93d5f0a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0e11fc62de28274e95fe42d377d1cab7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga31b8369293c55315e3759bea56a676e3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6bae4dc233b9e2258f48de3a2b3fa026</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac6cd07b8922d335a858e36bbc71065b3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga74f3f2e1cd063dd4a084610c5eef89e0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_CR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac7d01b304081503a98592f732061eb74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga417ce5633b4617222b9bd17607d055de</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7f8bc0e5b09ce56609b09c5b13c8787f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7f08b823fb5ac8f8251cd2ee41739d35</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7cb0ba8209e09353e380c72c6190f22f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6a6ef08c3742846e53eaa8b50ed7e955</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2482a59ce5d11f7da5cd05872a876adf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM6_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae4df779f1336a26c4720d3c2aa179723</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM7_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1ff547558fe0d86aed943fa687d8420d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5e2a12b7f8386a5c7cccea7354c52c26</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gacf930e0a37992fcc9cd8af56dbae2434</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9f559e12cac70c13f4f9def868a43355</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_CR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7f620d303af8a6e7fdcee2795d08e964</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab306d62e29c81641ac27d69f9347d6f5</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5b2f12fb1abe043b47b4779c533540bf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6688e92852a8ff8f23fe06cb3c49fd79</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga01b48df40e84e344910bc03db75c2419</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf5de3e217f1338b815817465fd670ccd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga384b5ff954bc275e8daed53c4a2e5008</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8f4f9336075d5368893e922b0698981d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabed0f6092f98f521606e5d4bbce803a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae65c41413a45c488f7c894f7dbf46993</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_SMCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga012281d0111d4dcb02b558db73a17580</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafb372bc5cefaf90f11524646564429b2</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga16a27b7e53fb6dfdd3fd071d1ab54f07</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaca496f20d9af3b4758a5ea16e5fb820e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab99ac8a707c1a24420cf82097895d730</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae4a737f30252d2eb09158a89e65a3862</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad253f9940bc46f77f0754832c8f7a577</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM6_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga23ff6184a89986fea232d70303c40214</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM7_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga21ebe3bf7c5d758e8129c6bebaa2b7d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga96a5c55d0de97581cef662391e67db9f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac524447b9a1a3cde0564a9d9393e8ee9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa2fadb51ff267a8c3391cff7fb7e7e48</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2db4d6792fe1f86f30c2e7bf18ce5941</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4c96a0edb83c22bbd52bdf43d6e41f23</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga212a47d613cfd02eea612bb4f35ce0da</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1c89774e14c444cb2f8829503ef3afa3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafdde7cd44a435dd2ba70d977a19f901d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga945eb306c76f6aaea0274d7c06f9039f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_DIER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2b48fe8aeee0dac8ffc1bb6c2b564614</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad6fce4212cd7186296dea3e49aae2f8f</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6fcf6b03de3bb24ab243e24818d9c078</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa3efa1c66b0bae318673f65cfce9f617</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga441ba2fd2bb3f79e1d33c50eb6835a6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga33bba96f735b44aa9ff86eec615dfea8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5d197cb0b2f14f77c2daa2c62e2e2081</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM6_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0d8b07792f4a03261222caa1b307af21</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM7_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga58d1f3dfb9fca69a0f632b6759a5262d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa5eae57915dcab4d8b73407afc2ccff9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga526e973edde2120206ae13a4b61a9d49</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa5c14e73035999d555a305762d572e27</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga81f869cfcaad05f8533e9453147fe92a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga08959db0ffd83b4c96217c7c052b6680</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaeeafb512eb6d7558a4278df5ebc64696</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaece0a6f7a036866d2c41c2b0eb06a74c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4aca4d511a9a924dca9bc454d04b8b56</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gada40f127abf9b98a853cfb7676530e48</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_SR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaafe9b56d346bd0a64a8152ef56459a68</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3f35c2a494c54b3e4c7cb702c8ca46df</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga677c4f343289d3362dde3f4b1854f883</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga20a254ef5effa48e066764ef61f2b8db</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9034b1fa521e98a94ffbdc53ae27b7e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3d411d251a5ca841ecacd5b593754cd8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga821db801ee2f60b8ccf0cec2b50ae8fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM6_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga11bb7aef893920ecf0604183573ce38d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM7_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa75b680bb8617a7e61f72ae54cb64ae3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga96dc161ed0d4b50baed9ed041a703d2b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga497d2762c3bb77a0c5e3d79dbb30d262</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadca2e213f998730534efbfc041641a79</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga19b6999e42a4dc160e9bddde723f6fa2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0d099db463f3d66c2077510e7d56ad98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad82309d0fdae23ec5729246afe172c17</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga456d0c90888f3d00ceb2f45619e0b925</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaeb29fe1d8ff9a807fd8675962dbd8425</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadde0e8cbc2842c1f901f4b245d7c23f3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_EGR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafdf4cb63e730373fcda7e7449f3585c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gacec544086db212a9e00282a14412a97b</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac1a4bdd697ae5330529de9c15ed12681</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga805228ae9456a296165b49af8767fdea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaaeeb3c149217ed5607caca47af11053a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8b20496394d16153885d3e3c2f5bddf6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf168a89c3ddea861c857007b5d6cf82f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8f8b8bc6110c702b5cbd6dc7124032f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga395dc66668e4ea3b101858e841d174f8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac057189a10d62de04342820c82438884</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1902faed9da0ba49a7a9801e9b2de1ad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaac21c6800f488b53ca5a56fa0b06c281</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae158bd33dc5d82143bf4e066e1b40201</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3ceb360f6d4de5a2b46343b0e6423eb7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga45a317ca9ed3f9842504fd4f5d66e7c6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7f7c894a1945eb95edf764de860e4f29</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_CCMR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7ed327b113e9e0d28cc929f9becb9b2e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabe120e0a6651b6f599d8af9339a41bcc</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CCMR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0f57185d2b2e5f69e14397a7e001e1a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CCMR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga14ec6bd56f829e0fa585198a4a3b9115</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CCMR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga38a6fcc2931c651317ab802efed90363</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CCMR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga38e86bf7a638e33164c1263b43bd70b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CCMR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7f13a88b42a90bd40350201df5017531</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CCMR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1474525756f066bad1a9920ba8077c37</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab19604aad5675e73253134ace4a3f588</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadf5f0bb72cb35755c6c3cdd0221ef169</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga80fc209e74f4074596daeafe34adc232</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9ccfc55a10dacecc30513d76df26978e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafb18d1c757b4779e2a7959d7db94ce30</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga23299a3877d810a9e98fd8883ab61cc3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga10b8c5aa595d75f8016db5a46626190d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3e6de7d3bd7ab701531739bd46e0030d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga61bd386c6a406fe8336727a98c2e09f5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac5ed3836db5a91838bbd045af35ddbba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga750f0dc3d7c70146663f2912f7421c69</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga98ecc727209104d0379aa774959fcc66</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf63caef1b5e210d9b136ec4603054900</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafcccee9545ef203faa9764d6c0a8d35e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga80989e0ebfd8694206d74b909cb9b3e2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_CCER</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7f4ee3bd976c98c5f5e6ecc643ce5c2c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga87166273e1733623117942a332dba524</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab233471879bc30e909511b0a1d124924</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadaca4b7a298da08c4795d6a1177c1abe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad6c942eea47484ad2a4335e652d08582</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga823b4d6aa21658a779408078339ad133</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6f4e7bbfce0713cfa9db6263f1f67b47</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM6_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae40998484ad58d407369595a95390915</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM7_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaaf06e05be59b2727f47d231782a59a10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadfa3483ac2f834b753818c995381a94b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6922a1593b62bc35d3025b0a4144fb5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5775c18cf39991e76fc92854c6629528</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga67346a554f1fffcd9f402feab833089b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8be53b9a8e75c92460b281ea41c8f945</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaaad818a1e28c21d0c6a7ed92311cca52</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae9c9275f356c5ebe3c2ce4820e6520aa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaecec00b27950c74c8a1e1182afdcf038</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8961ababc51064bcd86dbc7c36f54c98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_CNT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6ec56a906e82ec30dce5842ebc29ba74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1f28289330b39c92bdb4646ed0cf00aa</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab7004d6c468b3f5c61d3198ac54c83eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf0e1e8b150a6a80588c2de7b4abe1994</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac70450173b13bec8f174d15fddd67b54</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4dc83aa0af4f47aadb28371f49867af1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae1d38c736861dd174ddaf347a283610e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM6_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga28ad46bc901a256a2471b03ff370afda</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM7_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa1a8c62909786fac3199ae1813905ad3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac3ed85da25c573a4041206a49b7819db</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4253dda92577dc00b1de12d323be41c8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga32de96ffe9009ebb57c8177d38fc7b1f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabcbe7b6f8bcaa3e04807fdc17d9d7b1c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gace600f72eabd216eb0c56ef61dde8e78</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gacf3bc94f6b2adb36fd3be164153c8d29</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafd5682b2602029571a93257c02465090</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab88565ff06d90fa691273e370adb2108</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7ce9e7be0b3d04c4fea06d0ddaf69fe9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_PSC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga69749629b197446df85850921d9ed5a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9a6cc4cf3fbac476e55f95357c5dd0eb</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab2571aab4a6b067e3495ea706b516394</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7e23a551449bab7a29e421d494b5fb4f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabbb05799701831220decfd8e7f99b4df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa4e85dba3117993dd6281efa8d0eef6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5e4686907be775d72d41b57c847de5b9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM6_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga753133d147dce153cab682f0774426d3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM7_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga90842f50cf44a625e2232abe759e7fee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad34e09b4ac40fe18e47fd573b86f425d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa7d0be034f138a46fe6b321964d9f3f0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2364195e1b8c8d950765ad8e64b8b107</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga36a6aa95eb3a015678eda5153397170a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9f3075def4dba01ded15b0908ea69af3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga53c09a00cce9219e18c5dbe706881573</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga73ddad6eaa57696f5dcaea17ab99439e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga46541dd40ebf81e4baf1629342fc735d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0d14811fb3b079046956b173b2ff4dfe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_ARR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga055965fcc481a64a41822a346742933a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_RCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad6291f2341244a7292038184bb63330f</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_RCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7e6467aa148d5c7cde1718a92754ac1d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_RCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga43e93d51df7aca023e9023107ea77f1a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_RCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8cb8cae439bd2d6556bd271eaff2cd4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_RCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac3b1e952319a8fdd4f43898a9bc4648b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_RCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga863529f7dd1a221307a18f64247d5db4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8433d838d712fa5fb6f94d417f7560e1</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaded93b511a33afd7dc0a972b0179e561</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6521924eaaa3365f52a534bed3b2393e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1314499918e010b770a93407ae2624ab</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8a743f335dba6dedc4ef4b50db2dc52f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga091e7b2c7346c99faddcfdf0de00ab46</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf9ecc5c23dc878f68399c710f8d1899f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5075290a76c65544f2300f2cdd031005</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM10_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga35c4929e1dc8e07f3aaa08c6bd5d9f94</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM11_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2fdb707895436d0e7d411f99111f7a27</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga47a80a6f850b5300a7c34de7b7a98c81</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM13_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8053d651bc58166838216b40b195910b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM14_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga99db4e8a0b1bd11f54e28b6d4d0a07cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga24ebbb61588928e44c64ab7eab708ce0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6ea4a672c296260702c45ddd08def838</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_CCR1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7fdee7abd6eacd350c860c0f459dce80</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3ee1951f478c34780dc65f1c609c79af</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8f269c23498905687314df19cd7d6932</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga90dc350645b31d39018ccdf2a7f17cfa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga607d016f1fc57fb32bde410de2151e32</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga96650f2dd1b2cadc3ba0c9122d75a023</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae591176045e87b1a9db8d7bbcd9aac6f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8b3ea6dd16cfacd787cd30b30f765772</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM9_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabbeb33b0781c7397e500b56ebe76563b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM12_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga822d72789ae7d1119d232e0936bdf0b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_CCR2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga281a196fbd120fa4245b6910e032a4b7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCR3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaab693675f76d680f55fbed7516f73036</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CCR3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0ecb39022b2c3e7a4dfb1d1e2d317dcb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CCR3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9fa8857ebda1411d658df6c82475c748</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CCR3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga54b0ced2f99adf7dbed557e8ac588801</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CCR3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga81323e7c904263ecdf90bc918a77d4e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CCR3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga11c42861918aa63f8a985a7d1e3e73fa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CCR3</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7095d4d700bc871b3048e20728f3b746</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCR4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga15d4bd837f06b4905e2f0b94c1dba4e6</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_CCR4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gada096b019c30844e22093143ae7bb9b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_CCR4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4534249afad65e30e8342fff338f73e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_CCR4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga917d9571d4cb983b994b6d2e48c70910</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_CCR4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae02852131845616785999c731a3cae10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_CCR4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafc85aeeba7bd80d6ddb14d802a71b20b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_CCR4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3523723d26048c03b9ed67d3c4b1b92f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad08a97a1493e6a16255077906c651047</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_BDTR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga59f8b461019da90c812424b4310bf5f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_BDTR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5226d6178afcaca2cee2e60302400a1c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_BDTR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4b1cd28d47564eca71793c9fe0cfb03c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_BDTR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga841aab8abba35f32df5461145787d694</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_BDTR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga888a65c9a04e4bda4120c30fd3a38876</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga143fed1be5c39c59d598098564440e60</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaeb9c5d1dc6e7802d19f750ecddac0980</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1431526eed4330a860e626a514d95a5b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga54550517f596eb2da346873710107609</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6447971b09c9afaea3be9cdbd354c3bb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad24433302713ba98c535ff00b7d061f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga865f70c412c10ff0f863b1c5cdaf9139</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf9124f09ae874b1b198aad64a631ba3e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1f46f44f4297609049a075e97e9083a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_DCR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0b7c87e6c9f7737d95afb53c2a1d0741</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0e1cdd0119f9b184b3c43972bd60b70d</anchor>
-      <arglist>(tim_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM1_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3f0a2d64498fd9eb6a7cd382fcc9b805</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM2_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0557d3b82283c67260a37b96e034a443</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM3_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf72d9f316e81dae0730db90e4a0fb301</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM4_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga886498c52ebff2d3e834cdbd07786a59</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM5_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga13a5f9f2c6c42cc651e71846a7c21d2b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM8_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabe8bc51d60d8fe81c26930ca7e182a12</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM15_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga15d41f904f585b2bbf18eff6449650b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM16_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga71331e55f29a09196441f013941b22a7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM17_DMAR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2db8ac5fb5c00ccdae059adebabca970</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR1_ARPE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4a3ad409f6b147cdcbafbfe29102f3fd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR1_OPM</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6d3d1488296350af6d36fbbf71905d29</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR1_URS</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga06c997c2c23e8bef7ca07579762c113b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR1_UDIS</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa4f2a9f0cf7b60e3c623af451f141f3c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR1_CEN</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga93d86355e5e3b399ed45e1ca83abed2a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR2_TI1S</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad07504497b70af628fa1aee8fe7ef63c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR2_CCDS</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gade656832d3ec303a2a7a422638dd560e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR2_CCUS</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf0328c1339b2b1633ef7a8db4c02d0d5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CR2_CCPC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaae22c9c1197107d6fa629f419a29541e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETP</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2a5f335c3d7a4f82d1e91dc1511e3322</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ECE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga331a1d5f39d5f47b5409054e693fc651</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETPS_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae90362f1bb2ebe103300ce092ea17915</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETPS_ETRP_DIV_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4b216bcea8792f8954db12bb544907d5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETPS_ETRP_DIV_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5e9689503705332c3bb5675a254b3f36</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETPS_ETRP_DIV_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadabb2e255bc8058f0e5a3da45d44ce06</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETPS_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7ab3c856ec9166730aa79722cef1f8ac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga776c22afe791781f0c45f86a6b1b7b76</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_CK_INT_N_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7e52a3d7402b4ea63e18e92d33330792</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_CK_INT_N_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7e6da9b1ed1f1d2ce1681eb6f89b2a2f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_CK_INT_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7ee023d570d5f624c143c3b97da6a63b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_2_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad4a0382912674d590c5d66856d056045</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_2_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga720bb9ac13e8666c5a829d11b83c2487</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_4_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga50bdc795812f6834a4657dbd15befd9f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_4_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7e2fc6985db057bb1d737def5e317ad0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_8_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga91e4930d89cab78394f889d6d033cb14</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_8_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3c7ac1aa04c82a9d86adeacc6da853fd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_16_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae9d47c53524fb0dce0da1387c7da91c3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_16_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga726dada34e571a8e0ee4fbdfc0e069bf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_16_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4ae97abb2ba5dd97c12293ec4b31289a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_32_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac9ecb77f187647d35579a3927368cbbd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_32_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga291c446631855fd5da0b35ea63507ac6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_DTS_DIV_32_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5e91bbef00493bd9320f51cc26d963d4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_ETF_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2d012d6938557c07e95622919cb119ce</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_SMCR_MSM</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga52101db4ca2c7b3003f1b16a49b2032c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2CE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga19a8dd4ea04d262ec4e97b5c7a8677a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2M_FROZEN</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4e5b9708fd71f1ab7364142045a18355</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2M_ACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae5fe435189f0bfcd82a4a88087897be8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2M_INACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga933df0a1b64e8755ffc4411085768543</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2M_TOGGLE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaaeb2e405e2dec85a052a7a84d46f3243</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2M_FORCE_LOW</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae7f8c2331de81147c1c340d0e7b97cf2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2M_FORCE_HIGH</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad0f22548570f099a29e30dc1e87067b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2M_PWM1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8f0b001cebcb79ae850e0a44a638feb6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2M_PWM2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga396d8e314cf79710ca81818558ab45ac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2M_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1d08d6d32e7f082cff3e6b3aaa2828b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2PE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabddbf508732039730125ab3e87e9d370</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC2FE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3bf610cf77c3c6c936ce7c4f85992e6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC2S_OUT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9c9a3e65cf112667a8271a492b271fb3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC2S_IN_TI2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1f8af000a72996f62a59f8ec0c18088d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC2S_IN_TI1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0fe3330ce232db411f800738f3cf3a0d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC2S_IN_TRC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga73924c8035f8767ff038bf7f61ce5fe4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC2S_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga19e058a6d3575336734eecf30dff3956</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1CE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8f44c50cf9928d2afab014e2ca29baba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1M_FROZEN</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gacf096661509bb0f727aed089e697caa9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1M_ACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga89bf2811fcf526110a92ae68d58a7b3d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1M_INACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3adc0eb921186670a10bdf1c66034e68</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1M_TOGGLE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4d60d7dc02a3d5ee2a5bfccdbd9fb566</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1M_FORCE_LOW</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf3be714f4a5f5e2902e853384ac56773</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1M_FORCE_HIGH</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6cd3b7db953ad2c52c8c0c4af36c1f63</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1M_PWM1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga428f1b4fd1affbc5c4df27a6959a327b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1M_PWM2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3e653890d2219bebb5800dd7d8c3505a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1M_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8a5e4921b4a21be23e62233e04f331f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1PE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1aa54ddf87a4b339881a8d5368ec80eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_OC1FE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab9c5878e85ce02c22d8a374deebd1b6e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC1S_OUT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaee21cdca4a238f0ab2afa6c99c301c8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC1S_IN_TI2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga89b4914c1eade8a42449e79166e99d80</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC1S_IN_TI1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0575edbe52e8b691108b0062f6c927ba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC1S_IN_TRC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga01a96a0fd8b6b838c0aef97e35bfd465</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_CC1S_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga39d7af7f3efb07fb7c14eda9ad4d17f6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0853c977bce772acab580138cf32c3ff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_CK_INT_N_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6f5eb6db36e6936523c5d6a78f518e3a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_CK_INT_N_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5a561ea6e6b53a940c8c2211079562ea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_CK_INT_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga64674bab021ef8a90bd753105c265f37</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_2_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad272abbfeac29532a161e46dcdaf0865</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_2_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad88668b8d1e2eab2c76536508566e3ec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_4_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac0924543c6e248ab796f2dd75c58da82</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_4_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa6e1fdc52e6df310e2eb6983bef68ac7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_8_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7458cfbeadc5d299eaeca36b5adbfd41</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_8_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafdfcb162d66f5f478b755371670f29d7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_16_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab05a38d41b6d09cef265d964e118f123</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_16_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga62e1e6824fea5e65b4f8e349980bb2d4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_16_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga743c3596097cd192b10bfdfef36b6fbb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_32_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga79a3fff844af39bff64036fc7c82a06b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_32_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0936ae92c7335876871b1f4a9cf6662e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_DTF_DIV_32_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga532457f6ad073912f05f6aa8796257c3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2F_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4c52c2d1c31cd23d843a075c5c56beb8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2PSC_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2c12c7773de8b2e1d88562ae5794e67b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2PSC_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6604b12fe0a7a097025dbf96fe9739cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2PSC_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga05f10ff0450998631bc4220c7ec323ad</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2PSC_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3521ef4b8518cd9c383cc3d52a534168</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC2PSC_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga807ddc527d1ebdcb6e9b8af5177661e4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac29e74edcffe0e4e09c193e349ea2f21</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_CK_INT_N_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf3a529b2a77b0f3203ad53b243b787c5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_CK_INT_N_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab1573fd192f76b55c110180c8693e64b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_CK_INT_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga257409bb0d24fb96ae835472b5789312</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_2_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab357581b37be578d914c1b76b5822c52</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_2_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2453cf707f877a3d3fa489bfb858bc60</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_4_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa64b1b36907a6e14fcc428283bd257f8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_4_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad83832d9937b8a17509de11c5c72453b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_8_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9d9530efbed997a45ebca4cc05d3426d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_8_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5cbf3ac03998fd20b1931d9b320c8d02</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_16_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafa862cb173c4ef63704f31e8bb70508d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_16_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8f95ca3adb556e6227e5f2014e893932</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_16_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6408468164f385dd4e9acc22fade095b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_32_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7178f106837f46d46c0c3d9869693b5e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_32_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga776b7960b4de127a0408ab2f63bd16fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_DTF_DIV_32_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga2672675e72f12d530330c1f56175db54</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1F_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafa814b88ecd4b164ed50f596acc8bb2f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1PSC_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga16d780b41455056a143765380ef22de8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1PSC_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf09d6b5c3fde43aa72401676574d7452</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1PSC_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga102fc0a98b68ee19d8f5bb77a21b7c2f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1PSC_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad4d7ea0113e5e8500306248c9f9250a9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR1_IC1PSC_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf81a04805b3255a1d8ada0b90e2bceb9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4CE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1447dfe94bdd234382bb1f43307ea5c3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4M_FROZEN</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab35685675dfa4d0d85cba86e8734cab5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4M_ACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga70d518566091c7f176dbe3cfc7e518c1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4M_INACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga67f5a3cf37e0c60eb23bdd9ca7736451</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4M_TOGGLE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0418cd1a5865636e7379ece29af4604b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4M_FORCE_LOW</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafea74ff9483d9922b2a9501ce0810c85</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4M_FORCE_HIGH</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga07c5dec5bfdfc0ffa912c7a40472df5d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4M_PWM1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7d2bea2e08d52debb389c02a85461080</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4M_PWM2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga34cc3a475d6d4e6a6f95d0a3cf72e751</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4M_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1f66cc1fddb123a45d442e7e23c6cbb8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4PE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3e951cd3f6593e321cf79b662a1deaaa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC4FE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga70dc197250c2699d470aea1a7a42ad57</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC4S_OUT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga03b13b470bc248626bfc35eef0855fc8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC4S_IN_TI2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac748768fc51e344ef8fdd68ae19c8d7f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC4S_IN_TI1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gacd81044725401aaaa2d32ce41cdfcac5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC4S_IN_TRC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae9def2b238de8f640eac14b6e3409015</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC4S_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaadb0098b16662824450ea098732e2bb1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3CE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4209d414df704ce96c54abb2ea2df66a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3M_FROZEN</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga94a24cc44d06723542fa0b41d5c4b0d6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3M_ACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga732a5c7c2c0f7588688a729879b9aa67</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3M_INACTIVE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadb6f6d66965e5093ac07cbc726c2cd59</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3M_TOGGLE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga938607915352b952c2feaff1797034de</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3M_FORCE_LOW</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga73de273e96ade498afdadaff04a16e70</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3M_FORCE_HIGH</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1c3f735217a2cf72ecc3725a90e91728</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3M_PWM1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga58ae030d70d5c1aa78ddb5100368efee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3M_PWM2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafcd61dcd19426be7e3208a1047ab7755</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3M_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaef521b94240225ae3feef5a7b6923753</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3PE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga276fd2250d2b085b73ef51cb4c099d24</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_OC3FE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae6d8d2847058747ce23a648668ce4dba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC3S_OUT</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4fb7a8f752911b0e998a75cc91ea2e25</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC3S_IN_TI2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gacfd196e36220b06c03cfc5c8d09b3579</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC3S_IN_TI1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6bd11435a6fc49cce686434834cf9400</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC3S_IN_TRC</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabe7fd25ed64d1d0e020e5b611c11270f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_CC3S_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac6269fe08f9e32a4b9b9df0b44dc6462</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6205f4d60dfe87ce898cf7feb58d947f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_CK_INT_N_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab7da8cf0bd155efa58bc36c9b598f96e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_CK_INT_N_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3bec2bd7a6ac8bba83b112c7110a48c6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_CK_INT_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf9f2def8aa27f8ed564822e2008b7497</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_2_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae4efb126e4ce4ab649527f53385bc43a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_2_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa94a0c4d0ab967e092db1b04808cea0d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_4_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga123f8fdde9f4f87a1f2382c893fcfa89</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_4_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga139a315986a30f0e1bd87d3638efa1c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_8_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gafba0e37982071fdea9562f6da9e6d1ce</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_8_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab0d6c44f13730ec5cbc1eebcedfacdc4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_16_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac858d737fa8337ca2cc1e30a886c062b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_16_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad9a2909fc564266d9d648436fef853cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_16_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga97e222dd2b2294c842912160b90234f7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_32_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadd2695b5373673b9843c7f68bde69ca5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_32_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac88a8c038420c25a6e47aa95f5646997</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_DTF_DIV_32_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaec8abfcf11690728a0765ef5d0596fb1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4F_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1ce6c47e2e65930169feab6297292c6e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4PSC_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab190171bd8860f276cb59e32b649a7cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4PSC_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4dbec5039fff6e1f8c3e6268265f05ba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4PSC_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae8573e236b0ddde3e083bba688cc548d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4PSC_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7320edc3c288f3c4298ec09a0ccaff8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC4PSC_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga152240da2ac92de972f3af0e4e5a5262</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga032cff052b083d1af49603b5c884052b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_CK_INT_N_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga08c41500cccb47ffb29935c7ade19f0e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_CK_INT_N_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9199dc5988be41d81d239af75284d48b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_CK_INT_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaaeeb4d5fd703a06dc77540966bdc2808</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_2_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga742b4e29c25c62807bf652ae2a3e58fc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_2_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabe260ee71c6a26d3653693b0a9d75c11</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_4_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga19659e80d34fcbe10fb657179a48be06</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_4_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf1db4b3775191cfa4efe6cc1646d1798</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_8_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga43329e4c3b0be257dcb5aafa46358837</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_8_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga28b06f46a9274a77659305c4149c84ac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_16_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3bd8489383230c486508cdb4f0ad434d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_16_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga47c9aeb19015b54baf62d78910c66acc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_16_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0f23215a66639e77f8899d7711878ea4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_32_N_5</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7491b4bacf2ba82f0dd05c3e9d5a5cca</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_32_N_6</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa7f37184b0936aa5441d56cf60167e2a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_DTF_DIV_32_N_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1d12ce2a0f99f992ad2ea5d459cea49a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3F_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf4f3f9b4e6789f73b56bde767874b7b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3PSC_OFF</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad603e4719c0ed0a16766b84f4c225b60</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3PSC_2</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga31b71469ea84db429e3b945246937617</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3PSC_4</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae13293d18d511cb88ca67d0ef7e4e61f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3PSC_8</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga94100c78fa30968c9e31ba683b4515e2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCMR2_IC3PSC_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga365fb3fbd8e2c285f21747b92d967ae9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC4P</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3faf23dc47e1b0877352d7f5a00f72e1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC4E</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga940b041ab5975311f42f26d314a4b621</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC3NP</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4029686d3307111d3f9f4400e29e4521</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC3NE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad46cce61d3bd83b64257ba75e54ee1aa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC3P</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6220a5cd34c7a7a39e10c854aa00d2e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC3E</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1da114e666b61f09cf25f50cdaa7f81f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC2NP</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga387de559d8b16b16f3934fddd2aa969f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC2NE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6a784649120eddec31998f34323d4156</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC2P</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3136c6e776c6066509d298b6a9b34912</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC2E</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga76392a4d63674cd0db0a55762458f16c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC1NP</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga403fc501d4d8de6cabee6b07acb81a36</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC1NE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga813056b3f90a13c4432aeba55f28957e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC1P</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0ca0aedba14241caff739afb3c3ee291</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_CCER_CC1E</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3f494b9881e7b97bb2d79f7ad4e79937</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR_MOE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga277a096614829feba2d0a4fbb7d3dffc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR_AOE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga59f15008050f91fa3ecc9eaaa971a509</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR_BKP</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3247abbbf0d00260be051d176d88020e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR_BKE</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga74250b040dd9fd9c09dcc54cdd6d86d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR_OSSR</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf9435f36d53c6be1107e57ab6a82c16e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR_OSSI</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab1cf04e70ccf3d4aba5afcf2496a411a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR_DTG_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4507181ba8f9710645a6af80ee37133c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR_DBL_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac78f3575becde2cd60aba791937103d0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>TIM_BDTR_DBA_MASK</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga436e1dc308845c8abe4f2ffd55bcc2b5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>tim_oc_id</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gacd988319d070e7128b530d4ac1a4f4ff</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>tim_oc_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9c6be6e4ccd5dcb325f1ebe499ca5216</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>tim_ic_id</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf76612839feedf9c605872cacb0ac5ac</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>tim_ic_filter</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8a2a8722575e6301c3e059b9ec8f50c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>tim_ic_psc</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3231b651e821b33d1adeeb21e2a7ae62</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>tim_ic_input</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad3d3ef84edd2180d79321bac6394bb4d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>tim_et_pol</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_reset</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga90cade2e35c32d50534a531903e642be</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_irq</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabe7ccf1e2f9d2d8be692b58ad4e5b304</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t irq)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_irq</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf653149dc5374ff126d7ab8b63ea6d37</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t irq)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>timer_interrupt_source</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5ac041bc0363fbb857b2c783e675fc69</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>timer_get_flag</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3515ea09b71ac6aad4df293e4d15c540</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_clear_flag</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf3686ed077ae1d79bf34050cb23ee373</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t flag)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3d24e3347572755cc1d95a3ed6307aa8</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t clock_div, uint32_t alignment, uint32_t direction)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_clock_division</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaf7ee4b3730e8989df3b7366ded65ad07</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t clock_div)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_preload</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1311e6fc4fcd830db8cacc6f1cab99c3</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_preload</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga45cb21df9ad54411ad2cde8eb29f1a9f</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_alignment</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga6bda1a80f9b7474a2faea5d8cc8ae9fd</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t alignment)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_direction_up</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac60be2f7fedf3ac0b234eb721a74ec17</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_direction_down</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa9a7db17cdc0078e5f1a4a7f6f72d3e6</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_one_shot_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1697ca3e864a9cfd07ce47bef8313525</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_continuous_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga0055340e46362635c32a117c6b2bbe2e</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_update_on_any</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaba4fbba9e50b02eac3c909e09d7cdb00</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_update_on_overflow</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga279cd24b158ccd2e2209c88d9853d09d</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_update_event</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga83b865bbaba61578793c252cce77e177</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_update_event</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gacd3de4978e884feb8a7ab8d190d9b08b</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_counter</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8d2e8fb94b1988df5239852f2b3301d6</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_counter</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga48290e3b69592031f0d29066fafc780e</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_output_idle_state</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga74493385947c60267324ad52658aeaae</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t outputs)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_reset_output_idle_state</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1588d783af458b13957c92d0a61ebc48</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t outputs)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_ti1_ch123_xor</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gacddad82e5abc73bdbcf87514c935b9cc</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_ti1_ch1</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga9e943f5e6af679422c7eb45a53c1f926</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_master_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga17f2e416e48d857ad6ff2dd6b4651b65</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t mode)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_dma_on_compare_event</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga222af772ac588e4cce08b4d4c30aade6</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_dma_on_update_event</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga77c7e3f0358e1747ce7802ccf0ab0519</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_compare_control_update_on_trigger</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga36de90953e6ad0da84ddc353ea451fb8</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_compare_control_update_on_trigger</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa9c3942a9b647d8e92b07275e9dd2c58</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_preload_complementry_enable_bits</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga88dabeaade4785e8711b682cbecc68b3</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_preload_complementry_enable_bits</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga1d84b1bb9bd6496a09fa2914a3665797</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_prescaler</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga45e2ff5caa76f1baac62985affa04908</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t value)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_repetition_counter</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaeeeee34f61f1b5494c96a777502d40bb</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t value)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_period</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaea0fda57594cc30e644de916dff31b98</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t period)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_oc_clear</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4c1e08343758db3ed4bceaadceb4360c</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_oc_clear</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga413d13a8ed5f52729ae847b5d51731bd</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_oc_fast_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga23ff68b1e45d180ad74eb04d660e8088</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_oc_slow_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga097426b09f737df077536d59f0e8b499</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_oc_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga518f01cdb7d391eb7e884d49defcc0a1</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id, enum tim_oc_mode oc_mode)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_oc_preload</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga71f1515c2ab3f2ccc74077337ded51ec</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_oc_preload</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa89f1b35bc6616d12999b59559f5317c</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_oc_polarity_high</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3c3b4a7253fe8b383695a995bc772719</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_oc_polarity_low</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadb746de22bafa181826f3911f9be5023</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_oc_output</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaca2dbcb8b8f3fd059c5a9342a3a9728a</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_oc_output</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga988310ebc85afe99caaa00d18e23805a</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_oc_idle_state_set</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa6d2d7f0f8ac9940c7ed90718b6b0d71</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_oc_idle_state_unset</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga547d7a817bc3588bbe5b5a80967a42e7</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_oc_value</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad25fd7a45af7d78d27473421897a28e0</anchor>
-      <arglist>(uint32_t timer_peripheral, enum tim_oc_id oc_id, uint32_t value)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_break_main_output</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac85d21c50ab47956f23b1413531509e6</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_break_main_output</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga38de2ddba2d0da279f17e976f92ba43a</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_break_automatic_output</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac0fa6733dce1b400df606f9d46ed171a</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_break_automatic_output</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gadc5affbaaa9aced0f28cf3b7b385b67d</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_break_polarity_high</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4ceb747a6c4de3b6f8f687fc208b2e81</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_break_polarity_low</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gade854ae04e5ac57770cb0249b6533f10</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_enable_break</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3a3a36222ab1f686e4da5a8355056097</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_disable_break</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gabb206669c5e556ccbcccb4205ed872a3</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_enabled_off_state_in_run_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac450e52a726bc05532369ff445839a6c</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_disabled_off_state_in_run_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gac912b678e1b5142001e3f69eaaae74bc</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_enabled_off_state_in_idle_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7afd7dae739404fa2bb305feb7a4d95e</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_disabled_off_state_in_idle_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga3177151403d6d7af037a41739d82fbac</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_break_lock</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga42351ef19afe18243e5b2337ad14f2ca</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t lock)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_deadtime</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga635cae0b5d26ee04a7d0f04ee647c5be</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t deadtime)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_generate_event</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae4eef64c8f1c7d9a3c5f187541adb697</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t event)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>timer_get_counter</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae2d6fd0793f48922743ae64d04671f6b</anchor>
-      <arglist>(uint32_t timer_peripheral)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_set_counter</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga7057701df512bf79f039da9d6379a895</anchor>
-      <arglist>(uint32_t timer_peripheral, uint32_t count)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_ic_set_filter</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad66bd6d423e567ced06998f21f967de9</anchor>
-      <arglist>(uint32_t timer, enum tim_ic_id ic, enum tim_ic_filter flt)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_ic_set_prescaler</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gad4119b7a4b113b23670b7f5b853d291b</anchor>
-      <arglist>(uint32_t timer, enum tim_ic_id ic, enum tim_ic_psc psc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_ic_set_input</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaa7affc7be4805d85e1c9317246e91be6</anchor>
-      <arglist>(uint32_t timer, enum tim_ic_id ic, enum tim_ic_input in)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_ic_enable</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gaad0cbee73b77b42610388bdbd880bb8c</anchor>
-      <arglist>(uint32_t timer, enum tim_ic_id ic)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_ic_disable</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gab8cc3cdf2f771ef0124428b6e8e1ba61</anchor>
-      <arglist>(uint32_t timer, enum tim_ic_id ic)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_slave_set_filter</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>gae598cd24adc8ce5d9142e28cdb997f9b</anchor>
-      <arglist>(uint32_t timer, enum tim_ic_filter flt)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_slave_set_prescaler</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga5348e14d023df2552879eb294c794f3c</anchor>
-      <arglist>(uint32_t timer, enum tim_ic_psc psc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_slave_set_polarity</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga8c001c695335a6068fe1e769a0e6fca7</anchor>
-      <arglist>(uint32_t timer, enum tim_et_pol pol)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_slave_set_mode</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga74a5ed72e113b3496ba8d6c5054b9f77</anchor>
-      <arglist>(uint32_t timer, uint8_t mode)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>timer_slave_set_trigger</name>
-      <anchorfile>group__timer__defines.html</anchorfile>
-      <anchor>ga4dd4ddde0168f7213126e1b9bca63077</anchor>
-      <arglist>(uint32_t timer, uint8_t trigger)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
     <name>usart_defines</name>
     <title>Usart_defines</title>
     <filename>group__usart__defines.html</filename>
@@ -50750,7 +53703,7 @@
   </compound>
   <compound kind="group">
     <name>pwr_file</name>
-    <title>PWR</title>
+    <title>Pwr_file</title>
     <filename>group__pwr__file.html</filename>
     <member kind="function">
       <type>void</type>
