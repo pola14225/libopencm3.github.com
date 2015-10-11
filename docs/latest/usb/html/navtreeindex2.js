@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"struct__usbd__device.html#ac28d5ce184bf3812d6e85be62ce27ea4":[4,1,7,0,2],
+"struct__usbd__device.html#acb76927d8afd9bf487d2f8f645e2ee0d":[4,1,7,0,4],
+"struct__usbd__device.html#ad0879153fd5676dda54f0c122420af2e":[4,1,7,0,10],
 "struct__usbd__device.html#ad780343e8e2776ce99b9dd302b77c2e2":[4,1,7,0,8],
 "struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7":[4,1,7,0,22],
 "struct__usbd__device.html#ae60b7e4cb2c404b6e86fdf6bbafdb5d5":[4,1,7,0,0],
@@ -10,7 +13,8 @@ var NAVTREEINDEX2 =
 "struct__usbd__device_1_1usb__control__state.html#a261f6c057a987f0ad538ecc8ad4d49b3":[4,1,7,2,10],
 "struct__usbd__device_1_1usb__control__state.html#a2dfd02e13d09c8452ef9e9d346465027":[4,1,7,2,8],
 "struct__usbd__device_1_1usb__control__state.html#a617f3bff0d8d121186ed08d902c63e12":[4,1,7,2,9],
-"struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e":[4,1,7,2,12],
+"struct__usbd__device_1_1usb__control__state.html#ab762312b3bcec660ddfb9baeed64b0b4":[4,1,7,2,12],
+"struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e":[4,1,7,2,13],
 "struct__usbd__device_1_1usb__control__state.html#ad9e2cd348bdd9ca9135cedb7679ed916":[4,1,7,2,11],
 "struct__usbd__device_1_1user__control__callback.html":[4,1,7,1],
 "struct__usbd__device_1_1user__control__callback.html#a55fd060a0418feea229f2b3b05e5c808":[4,1,7,1,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "structusb__msc__cbw.html#a06c9f47162709307ab5f5b68c96a3119":[27,0,34,5],
 "structusb__msc__cbw.html#a10cb317c0fe88d24265168592ed63c6b":[27,0,34,1],
 "structusb__msc__cbw.html#a3b3a4d72d95d8ed9fdfb66d06250e546":[27,0,34,6],
-"structusb__msc__cbw.html#a8331a5d04e78012779cdf5a568af90b9":[27,0,34,2],
-"structusb__msc__cbw.html#a9b19b64641e14f1f74bc51b0af55974f":[27,0,34,3],
-"structusb__msc__cbw.html#aa27e149aae7423c6dc3e430cb5a57795":[27,0,34,0],
-"structusb__msc__cbw.html#af2ae2bce99068e5b4ea7081f023bab2a":[27,0,34,4],
-"structusb__msc__csw.html":[27,0,35]
+"structusb__msc__cbw.html#a8331a5d04e78012779cdf5a568af90b9":[27,0,34,2]
 };

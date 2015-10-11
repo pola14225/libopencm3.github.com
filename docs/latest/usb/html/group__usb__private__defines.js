@@ -44,6 +44,7 @@ var group__usb__private__defines =
       [ "complete", "struct__usbd__device_1_1usb__control__state.html#a617f3bff0d8d121186ed08d902c63e12", null ],
       [ "ctrl_buf", "struct__usbd__device_1_1usb__control__state.html#a261f6c057a987f0ad538ecc8ad4d49b3", null ],
       [ "ctrl_len", "struct__usbd__device_1_1usb__control__state.html#ad9e2cd348bdd9ca9135cedb7679ed916", null ],
+      [ "needs_zlp", "struct__usbd__device_1_1usb__control__state.html#ab762312b3bcec660ddfb9baeed64b0b4", null ],
       [ "state", "struct__usbd__device_1_1usb__control__state.html#ad23533845acfed1371d89d2703610d9e", null ],
       [ "IDLE", "group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1", null ],
       [ "STALLED", "group__usb__private__defines.html#gga62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819", null ],

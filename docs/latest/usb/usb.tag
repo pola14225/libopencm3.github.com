@@ -695,6 +695,13 @@
       <anchor>gaf6f522923d66ffdea79fbbd4decc31d4</anchor>
       <arglist>(usbd_device *usbd_dev)</arglist>
     </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>needs_zlp</name>
+      <anchorfile>group__usb__control__file.html</anchorfile>
+      <anchor>ga2af2fb78551d9e7f89f031698d972238</anchor>
+      <arglist>(uint16_t len, uint16_t wLength, uint8_t ep_size)</arglist>
+    </member>
     <member kind="function">
       <type>int</type>
       <name>usbd_register_control_callback</name>
@@ -2894,6 +2901,13 @@
       <anchor>a617f3bff0d8d121186ed08d902c63e12</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>needs_zlp</name>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>ab762312b3bcec660ddfb9baeed64b0b4</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="struct">
     <name>usb_device_descriptor</name>
@@ -4602,6 +4616,13 @@
       <anchorfile>group__usb__control__file.html</anchorfile>
       <anchor>gaf6f522923d66ffdea79fbbd4decc31d4</anchor>
       <arglist>(usbd_device *usbd_dev)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>needs_zlp</name>
+      <anchorfile>group__usb__control__file.html</anchorfile>
+      <anchor>ga2af2fb78551d9e7f89f031698d972238</anchor>
+      <arglist>(uint16_t len, uint16_t wLength, uint8_t ep_size)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
