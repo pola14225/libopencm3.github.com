@@ -1,7 +1,7 @@
 var searchData=
 [
   ['usbd_5fcontrol_5fcallback',['usbd_control_callback',['../group__usb__driver__defines.html#gad2b25a7c2bc9f4f34a7295c552761f2a',1,'usbd.h']]],
-  ['usbd_5fcontrol_5fcomplete_5fcallback',['usbd_control_complete_callback',['../group__usb__driver__defines.html#ga7fc9a1130176cbe4135883e9a5935750',1,'usbd.h']]],
+  ['usbd_5fcontrol_5fcomplete_5fcallback',['usbd_control_complete_callback',['../group__usb__driver__defines.html#gaf45f1c81b5fb2550d2f99902eaa2f389',1,'usbd.h']]],
   ['usbd_5fdevice',['usbd_device',['../group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce',1,'usbd.h']]],
   ['usbd_5fdriver',['usbd_driver',['../group__usb__driver__defines.html#gaf89d061a4e982ccc705dbf1fc7f14fca',1,'usbd.h']]],
   ['usbd_5fendpoint_5fcallback',['usbd_endpoint_callback',['../group__usb__driver__defines.html#gadf842dd68c4c1334ece37faf7715d697',1,'usbd.h']]],

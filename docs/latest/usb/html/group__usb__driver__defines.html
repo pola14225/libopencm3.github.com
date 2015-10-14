@@ -150,9 +150,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:gaf89d061a4e982ccc705dbf1fc7f14fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga398cbe724daaf03b101d88163e7c1fce"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__usbd__device.html">_usbd_device</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a></td></tr>
 <tr class="separator:ga398cbe724daaf03b101d88163e7c1fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7fc9a1130176cbe4135883e9a5935750"><td class="memItemLeft" align="right" valign="top">typedef int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#ga7fc9a1130176cbe4135883e9a5935750">usbd_control_complete_callback</a>) (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, struct <a class="el" href="structusb__setup__data.html">usb_setup_data</a> *req)</td></tr>
-<tr class="separator:ga7fc9a1130176cbe4135883e9a5935750"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad2b25a7c2bc9f4f34a7295c552761f2a"><td class="memItemLeft" align="right" valign="top">typedef int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#gad2b25a7c2bc9f4f34a7295c552761f2a">usbd_control_callback</a>) (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, struct <a class="el" href="structusb__setup__data.html">usb_setup_data</a> *req, uint8_t **buf, uint16_t *len, <a class="el" href="group__usb__driver__defines.html#ga7fc9a1130176cbe4135883e9a5935750">usbd_control_complete_callback</a> *complete)</td></tr>
+<tr class="memitem:gaf45f1c81b5fb2550d2f99902eaa2f389"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#gaf45f1c81b5fb2550d2f99902eaa2f389">usbd_control_complete_callback</a>) (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, struct <a class="el" href="structusb__setup__data.html">usb_setup_data</a> *req)</td></tr>
+<tr class="separator:gaf45f1c81b5fb2550d2f99902eaa2f389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2b25a7c2bc9f4f34a7295c552761f2a"><td class="memItemLeft" align="right" valign="top">typedef int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#gad2b25a7c2bc9f4f34a7295c552761f2a">usbd_control_callback</a>) (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, struct <a class="el" href="structusb__setup__data.html">usb_setup_data</a> *req, uint8_t **buf, uint16_t *len, <a class="el" href="group__usb__driver__defines.html#gaf45f1c81b5fb2550d2f99902eaa2f389">usbd_control_complete_callback</a> *complete)</td></tr>
 <tr class="separator:gad2b25a7c2bc9f4f34a7295c552761f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae96c2c2c620233cfc00495ceed5e1de2"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__driver__defines.html#gae96c2c2c620233cfc00495ceed5e1de2">usbd_set_config_callback</a>) (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, uint16_t <a class="el" href="usbstd_8h.html#a7383d0165ad8eab48aa239c005199121">wValue</a>)</td></tr>
 <tr class="separator:gae96c2c2c620233cfc00495ceed5e1de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,7 +232,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int(* usbd_control_callback) (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, struct <a class="el" href="structusb__setup__data.html">usb_setup_data</a> *req, uint8_t **buf, uint16_t *len, <a class="el" href="group__usb__driver__defines.html#ga7fc9a1130176cbe4135883e9a5935750">usbd_control_complete_callback</a> *complete)</td>
+          <td class="memname">typedef int(* usbd_control_callback) (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, struct <a class="el" href="structusb__setup__data.html">usb_setup_data</a> *req, uint8_t **buf, uint16_t *len, <a class="el" href="group__usb__driver__defines.html#gaf45f1c81b5fb2550d2f99902eaa2f389">usbd_control_complete_callback</a> *complete)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -241,12 +241,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga7fc9a1130176cbe4135883e9a5935750"></a>
+<a class="anchor" id="gaf45f1c81b5fb2550d2f99902eaa2f389"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int(* usbd_control_complete_callback) (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, struct <a class="el" href="structusb__setup__data.html">usb_setup_data</a> *req)</td>
+          <td class="memname">typedef void(* usbd_control_complete_callback) (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, struct <a class="el" href="structusb__setup__data.html">usb_setup_data</a> *req)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1113,7 +1113,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 13 2015 18:21:19 for libopencm3 by
+    <li class="footer">Generated on Wed Oct 14 2015 12:21:17 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1506,10 +1506,10 @@
       <arglist></arglist>
     </member>
     <member kind="typedef">
-      <type>int(*</type>
+      <type>void(*</type>
       <name>usbd_control_complete_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga7fc9a1130176cbe4135883e9a5935750</anchor>
+      <anchor>gaf45f1c81b5fb2550d2f99902eaa2f389</anchor>
       <arglist>)(usbd_device *usbd_dev, struct usb_setup_data *req)</arglist>
     </member>
     <member kind="typedef">
@@ -4271,10 +4271,10 @@
       <arglist></arglist>
     </member>
     <member kind="typedef">
-      <type>int(*</type>
+      <type>void(*</type>
       <name>usbd_control_complete_callback</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga7fc9a1130176cbe4135883e9a5935750</anchor>
+      <anchor>gaf45f1c81b5fb2550d2f99902eaa2f389</anchor>
       <arglist>)(usbd_device *usbd_dev, struct usb_setup_data *req)</arglist>
     </member>
     <member kind="typedef">

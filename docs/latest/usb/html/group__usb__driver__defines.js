@@ -1,7 +1,7 @@
 var group__usb__driver__defines =
 [
     [ "usbd_control_callback", "group__usb__driver__defines.html#gad2b25a7c2bc9f4f34a7295c552761f2a", null ],
-    [ "usbd_control_complete_callback", "group__usb__driver__defines.html#ga7fc9a1130176cbe4135883e9a5935750", null ],
+    [ "usbd_control_complete_callback", "group__usb__driver__defines.html#gaf45f1c81b5fb2550d2f99902eaa2f389", null ],
     [ "usbd_device", "group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce", null ],
     [ "usbd_driver", "group__usb__driver__defines.html#gaf89d061a4e982ccc705dbf1fc7f14fca", null ],
     [ "usbd_endpoint_callback", "group__usb__driver__defines.html#gadf842dd68c4c1334ece37faf7715d697", null ],
