@@ -3,8 +3,8 @@
 <area shape="rect" id="node3" href="$group__usb__control__file.html#gaf6f522923d66ffdea79fbbd4decc31d4" title="stall_transaction" alt="" coords="451,20,569,47"/>
 <area shape="rect" id="node5" href="$group__usb__control__file.html#ga883123627c0bed716ec41d4d7f3c0a46" title="usb_control_request\l_dispatch" alt="" coords="227,209,366,250"/>
 <area shape="rect" id="node25" href="$group__usb__control__file.html#ga46375610ee21a2c8ab4a06fe3bd70291" title="usb_control_send_chunk" alt="" coords="213,325,380,352"/>
-<area shape="rect" id="node26" href="$group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f" title="usbd_ep_write_packet" alt="" coords="434,311,586,337"/>
-<area shape="rect" id="node4" href="$group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="usbd_ep_stall_set" alt="" coords="1121,35,1247,61"/>
+<area shape="rect" id="node26" href="$group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f" title="Write a packet. " alt="" coords="434,311,586,337"/>
+<area shape="rect" id="node4" href="$group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="Set/clear STALL condition on an endpoint. " alt="" coords="1121,35,1247,61"/>
 <area shape="rect" id="node6" href="$usb__private_8h.html#a3347ca42a15acf3ae31d02126ba7d695" title="_usbd_standard_request" alt="" coords="428,245,592,272"/>
 <area shape="rect" id="node7" href="$usb__standard_8c.html#abd588664d0803d5bf7d4d263f34f2575" title="_usbd_standard_request\l_device" alt="" coords="640,307,804,349"/>
 <area shape="rect" id="node16" href="$usb__standard_8c.html#aed9aa74939234f607611928534d3b1b9" title="_usbd_standard_request\l_endpoint" alt="" coords="640,126,804,167"/>
@@ -20,7 +20,7 @@
 <area shape="rect" id="node17" href="$group__usb__standard__file.html#ga4cfdd2484f7002da2cc98eea1e6a69e9" title="usb_standard_endpoint\l_get_status" alt="" coords="877,158,1033,199"/>
 <area shape="rect" id="node19" href="$group__usb__standard__file.html#gad24d6daf25ffd5539979b9ea1648ec6f" title="usb_standard_endpoint\l_stall" alt="" coords="877,27,1033,69"/>
 <area shape="rect" id="node20" href="$group__usb__standard__file.html#ga9714d02e4367d72d66f7d71abe10a70f" title="usb_standard_endpoint\l_unstall" alt="" coords="877,93,1033,134"/>
-<area shape="rect" id="node18" href="$group__usb__driver__defines.html#ga396b34ccbe5bf6718417ef3ee0c3b788" title="usbd_ep_stall_get" alt="" coords="1121,165,1247,192"/>
+<area shape="rect" id="node18" href="$group__usb__driver__defines.html#ga396b34ccbe5bf6718417ef3ee0c3b788" title="Get STALL status of an endpoint. " alt="" coords="1121,165,1247,192"/>
 <area shape="rect" id="node22" href="$group__usb__standard__file.html#ga22c09fa8b89c6d0cb46e290cfecdf33f" title="usb_standard_get_interface" alt="" coords="864,492,1047,519"/>
 <area shape="rect" id="node23" href="$group__usb__standard__file.html#ga3af045144aef2572263f2ec0a2fdbef9" title="usb_standard_interface\l_get_status" alt="" coords="877,543,1034,585"/>
 <area shape="rect" id="node24" href="$group__usb__standard__file.html#ga137aae06450b52a0c22f7ffa6fba5ba0" title="usb_standard_set_interface" alt="" coords="864,609,1047,636"/>

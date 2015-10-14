@@ -1,7 +1,7 @@
 <map id="msc_data_rx_cb" name="msc_data_rx_cb">
 <area shape="rect" id="node2" href="$usb__msc_8c.html#ad834e80e08a1fc52cb6c2a7e4c60e7c4" title="scsi_command" alt="" coords="193,245,303,272"/>
-<area shape="rect" id="node15" href="$group__usb__driver__defines.html#gabd42dc86361dbf9c639fd883ada1f572" title="usbd_ep_read_packet" alt="" coords="173,296,323,323"/>
-<area shape="rect" id="node16" href="$group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f" title="usbd_ep_write_packet" alt="" coords="172,347,324,373"/>
+<area shape="rect" id="node15" href="$group__usb__driver__defines.html#gabd42dc86361dbf9c639fd883ada1f572" title="Read a packet. " alt="" coords="173,296,323,323"/>
+<area shape="rect" id="node16" href="$group__usb__driver__defines.html#gaa5b245bdd9757cdc79d1fe721ebcf03f" title="Write a packet. " alt="" coords="172,347,324,373"/>
 <area shape="rect" id="node3" href="$usb__msc_8c.html#acea2b1d4fda2777c7729104dfb3109ba" title="set_sbc_status_good" alt="" coords="559,169,705,196"/>
 <area shape="rect" id="node4" href="$usb__msc_8c.html#a285558a874e454328ae7cba96306b253" title="set_sbc_status" alt="" coords="753,169,864,196"/>
 <area shape="rect" id="node5" href="$usb__msc_8c.html#a0ba002041133ce594072c4669a888423" title="scsi_format_unit" alt="" coords="382,43,501,69"/>

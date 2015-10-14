@@ -144,8 +144,10 @@ Collaboration diagram for Generic USB Standard Request Interface:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gaca10ef544cb3119cd4f6aa770288c609"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__standard__file.html#gaca10ef544cb3119cd4f6aa770288c609">usbd_register_set_config_callback</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, <a class="el" href="group__usb__driver__defines.html#gae96c2c2c620233cfc00495ceed5e1de2">usbd_set_config_callback</a> callback)</td></tr>
+<tr class="memdesc:gaca10ef544cb3119cd4f6aa770288c609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a "Set Config" callback.  <a href="#gaca10ef544cb3119cd4f6aa770288c609">More...</a><br /></td></tr>
 <tr class="separator:gaca10ef544cb3119cd4f6aa770288c609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad662b3f5dbec7c883391912d65b52533"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__standard__file.html#gad662b3f5dbec7c883391912d65b52533">usbd_register_set_altsetting_callback</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, <a class="el" href="group__usb__driver__defines.html#gaedececd5f821e314f2245a43aafbd12b">usbd_set_altsetting_callback</a> callback)</td></tr>
+<tr class="memdesc:gad662b3f5dbec7c883391912d65b52533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a "Set Interface" (alternate setting) callback.  <a href="#gad662b3f5dbec7c883391912d65b52533">More...</a><br /></td></tr>
 <tr class="separator:gad662b3f5dbec7c883391912d65b52533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf8a21c66ec88535a258872791c468098"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__standard__file.html#gaf8a21c66ec88535a258872791c468098">build_config_descriptor</a> (<a class="el" href="group__usb__driver__defines.html#ga398cbe724daaf03b101d88163e7c1fce">usbd_device</a> *<a class="el" href="usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, uint8_t index, uint8_t *buf, uint16_t len)</td></tr>
 <tr class="separator:gaf8a21c66ec88535a258872791c468098"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,7 +231,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00064">64</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
-<p>References <a class="el" href="usbstd_8h_source.html#l00169">usb_config_descriptor::usb_interface::altsetting</a>, <a class="el" href="usbstd_8h_source.html#l00155">usb_config_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00184">usb_interface_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00203">usb_endpoint_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00246">usb_iface_assoc_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00188">usb_interface_descriptor::bNumEndpoints</a>, <a class="el" href="usbstd_8h_source.html#l00158">usb_config_descriptor::bNumInterfaces</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, <a class="el" href="usbstd_8h_source.html#l00195">usb_interface_descriptor::endpoint</a>, <a class="el" href="usbstd_8h_source.html#l00196">usb_interface_descriptor::extra</a>, <a class="el" href="usbstd_8h_source.html#l00211">usb_endpoint_descriptor::extra</a>, <a class="el" href="usbstd_8h_source.html#l00197">usb_interface_descriptor::extralen</a>, <a class="el" href="usbstd_8h_source.html#l00212">usb_endpoint_descriptor::extralen</a>, <a class="el" href="usbstd_8h_source.html#l00168">usb_config_descriptor::usb_interface::iface_assoc</a>, <a class="el" href="structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a">usb_config_descriptor::interface</a>, and <a class="el" href="usbstd_8h_source.html#l00167">usb_config_descriptor::usb_interface::num_altsetting</a>.</p>
+<p>References <a class="el" href="usbstd_8h_source.html#l00172">usb_config_descriptor::usb_interface::altsetting</a>, <a class="el" href="usbstd_8h_source.html#l00158">usb_config_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00188">usb_interface_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00207">usb_endpoint_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00254">usb_iface_assoc_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00192">usb_interface_descriptor::bNumEndpoints</a>, <a class="el" href="usbstd_8h_source.html#l00161">usb_config_descriptor::bNumInterfaces</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, <a class="el" href="usbstd_8h_source.html#l00199">usb_interface_descriptor::endpoint</a>, <a class="el" href="usbstd_8h_source.html#l00200">usb_interface_descriptor::extra</a>, <a class="el" href="usbstd_8h_source.html#l00215">usb_endpoint_descriptor::extra</a>, <a class="el" href="usbstd_8h_source.html#l00201">usb_interface_descriptor::extralen</a>, <a class="el" href="usbstd_8h_source.html#l00216">usb_endpoint_descriptor::extralen</a>, <a class="el" href="usbstd_8h_source.html#l00171">usb_config_descriptor::usb_interface::iface_assoc</a>, <a class="el" href="structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a">usb_config_descriptor::interface</a>, and <a class="el" href="usbstd_8h_source.html#l00170">usb_config_descriptor::usb_interface::num_altsetting</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00147">usb_standard_get_descriptor()</a>.</p>
 
@@ -423,7 +425,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00407">407</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
-<p>References <a class="el" href="usb_8c_source.html#l00168">usbd_ep_stall_get()</a>, and <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>.</p>
+<p>References <a class="el" href="usb_8c_source.html#l00146">usbd_ep_stall_get()</a>, and <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00533">_usbd_standard_request_endpoint()</a>.</p>
 
@@ -432,7 +434,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__usb__standard__file_ga4cfdd2484f7002da2cc98eea1e6a69e9_cgraph.png" border="0" usemap="#group__usb__standard__file_ga4cfdd2484f7002da2cc98eea1e6a69e9_cgraph" alt=""/></div>
 <map name="group__usb__standard__file_ga4cfdd2484f7002da2cc98eea1e6a69e9_cgraph" id="group__usb__standard__file_ga4cfdd2484f7002da2cc98eea1e6a69e9_cgraph">
-<area shape="rect" id="node2" href="group__usb__driver__defines.html#ga396b34ccbe5bf6718417ef3ee0c3b788" title="usbd_ep_stall_get" alt="" coords="209,13,336,39"/></map>
+<area shape="rect" id="node2" href="group__usb__driver__defines.html#ga396b34ccbe5bf6718417ef3ee0c3b788" title="Get STALL status of an endpoint. " alt="" coords="209,13,336,39"/></map>
 </div>
 </p>
 
@@ -493,7 +495,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00422">422</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
-<p>References <a class="el" href="usb_8c_source.html#l00163">usbd_ep_stall_set()</a>, and <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>.</p>
+<p>References <a class="el" href="usb_8c_source.html#l00141">usbd_ep_stall_set()</a>, and <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00533">_usbd_standard_request_endpoint()</a>.</p>
 
@@ -502,7 +504,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__usb__standard__file_gad24d6daf25ffd5539979b9ea1648ec6f_cgraph.png" border="0" usemap="#group__usb__standard__file_gad24d6daf25ffd5539979b9ea1648ec6f_cgraph" alt=""/></div>
 <map name="group__usb__standard__file_gad24d6daf25ffd5539979b9ea1648ec6f_cgraph" id="group__usb__standard__file_gad24d6daf25ffd5539979b9ea1648ec6f_cgraph">
-<area shape="rect" id="node2" href="group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="usbd_ep_stall_set" alt="" coords="209,13,336,39"/></map>
+<area shape="rect" id="node2" href="group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="Set/clear STALL condition on an endpoint. " alt="" coords="209,13,336,39"/></map>
 </div>
 </p>
 
@@ -563,7 +565,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00434">434</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
-<p>References <a class="el" href="usb_8c_source.html#l00163">usbd_ep_stall_set()</a>, and <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>.</p>
+<p>References <a class="el" href="usb_8c_source.html#l00141">usbd_ep_stall_set()</a>, and <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00533">_usbd_standard_request_endpoint()</a>.</p>
 
@@ -572,7 +574,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__usb__standard__file_ga9714d02e4367d72d66f7d71abe10a70f_cgraph.png" border="0" usemap="#group__usb__standard__file_ga9714d02e4367d72d66f7d71abe10a70f_cgraph" alt=""/></div>
 <map name="group__usb__standard__file_ga9714d02e4367d72d66f7d71abe10a70f_cgraph" id="group__usb__standard__file_ga9714d02e4367d72d66f7d71abe10a70f_cgraph">
-<area shape="rect" id="node2" href="group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="usbd_ep_stall_set" alt="" coords="209,13,336,39"/></map>
+<area shape="rect" id="node2" href="group__usb__driver__defines.html#ga6d16be856512df298e40dfa31a216172" title="Set/clear STALL condition on an endpoint. " alt="" coords="209,13,336,39"/></map>
 </div>
 </p>
 
@@ -633,7 +635,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00304">304</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
-<p>References <a class="el" href="usbstd_8h_source.html#l00159">usb_config_descriptor::bConfigurationValue</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, and <a class="el" href="usb__private_8h_source.html#l00057">_usbd_device::current_config</a>.</p>
+<p>References <a class="el" href="usbstd_8h_source.html#l00162">usb_config_descriptor::bConfigurationValue</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, and <a class="el" href="usb__private_8h_source.html#l00057">_usbd_device::current_config</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00449">_usbd_standard_request_device()</a>.</p>
 
@@ -694,7 +696,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00147">147</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
-<p>References <a class="el" href="usbstd_8h_source.html#l00240">usb_string_descriptor::bDescriptorType</a>, <a class="el" href="usbstd_8h_source.html#l00120">usb_device_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00239">usb_string_descriptor::bLength</a>, <a class="el" href="usb__standard_8c_source.html#l00064">build_config_descriptor()</a>, <a class="el" href="usb__private_8h_source.html#l00053">_usbd_device::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00048">_usbd_device::desc</a>, <a class="el" href="usb__private_8h_source.html#l00051">_usbd_device::num_strings</a>, <a class="el" href="usb__private_8h_source.html#l00050">_usbd_device::strings</a>, <a class="el" href="usb__standard_8c_source.html#l00142">usb_descriptor_index()</a>, <a class="el" href="usb__standard_8c_source.html#l00137">usb_descriptor_type()</a>, <a class="el" href="usbstd_8h_source.html#l00259">USB_LANGID_ENGLISH_US</a>, <a class="el" href="usbd_8h_source.html#l00048">USBD_REQ_HANDLED</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, <a class="el" href="usbstd_8h_source.html#l00241">usb_string_descriptor::wData</a>, <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>, and <a class="el" href="usbstd_8h_source.html#l00059">usb_setup_data::wValue</a>.</p>
+<p>References <a class="el" href="usbstd_8h_source.html#l00248">usb_string_descriptor::bDescriptorType</a>, <a class="el" href="usbstd_8h_source.html#l00123">usb_device_descriptor::bLength</a>, <a class="el" href="usbstd_8h_source.html#l00247">usb_string_descriptor::bLength</a>, <a class="el" href="usb__standard_8c_source.html#l00064">build_config_descriptor()</a>, <a class="el" href="usb__private_8h_source.html#l00053">_usbd_device::ctrl_buf</a>, <a class="el" href="usb__private_8h_source.html#l00048">_usbd_device::desc</a>, <a class="el" href="usb__private_8h_source.html#l00051">_usbd_device::num_strings</a>, <a class="el" href="usb__private_8h_source.html#l00050">_usbd_device::strings</a>, <a class="el" href="usb__standard_8c_source.html#l00142">usb_descriptor_index()</a>, <a class="el" href="usb__standard_8c_source.html#l00137">usb_descriptor_type()</a>, <a class="el" href="usbstd_8h_source.html#l00267">USB_LANGID_ENGLISH_US</a>, <a class="el" href="usbd_8h_source.html#l00048">USBD_REQ_HANDLED</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, <a class="el" href="usbstd_8h_source.html#l00249">usb_string_descriptor::wData</a>, <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>, and <a class="el" href="usbstd_8h_source.html#l00059">usb_setup_data::wValue</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00449">_usbd_standard_request_device()</a>.</p>
 
@@ -764,7 +766,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00354">354</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
-<p>References <a class="el" href="usbstd_8h_source.html#l00158">usb_config_descriptor::bNumInterfaces</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, <a class="el" href="usbstd_8h_source.html#l00139">usb_interface::cur_altsetting</a>, <a class="el" href="usbstd_8h_source.html#l00166">usb_config_descriptor::usb_interface::cur_altsetting</a>, <a class="el" href="usb__private_8h_source.html#l00057">_usbd_device::current_config</a>, <a class="el" href="structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a">usb_config_descriptor::interface</a>, <a class="el" href="usbd_8h_source.html#l00048">USBD_REQ_HANDLED</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, and <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>.</p>
+<p>References <a class="el" href="usbstd_8h_source.html#l00161">usb_config_descriptor::bNumInterfaces</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, <a class="el" href="usbstd_8h_source.html#l00169">usb_config_descriptor::usb_interface::cur_altsetting</a>, <a class="el" href="usbstd_8h_source.html#l00203">usb_interface::cur_altsetting</a>, <a class="el" href="usb__private_8h_source.html#l00057">_usbd_device::current_config</a>, <a class="el" href="structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a">usb_config_descriptor::interface</a>, <a class="el" href="usbd_8h_source.html#l00048">USBD_REQ_HANDLED</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, and <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00503">_usbd_standard_request_interface()</a>.</p>
 
@@ -945,7 +947,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00244">244</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
-<p>References <a class="el" href="usbstd_8h_source.html#l00159">usb_config_descriptor::bConfigurationValue</a>, <a class="el" href="usbstd_8h_source.html#l00133">usb_device_descriptor::bNumConfigurations</a>, <a class="el" href="usbstd_8h_source.html#l00158">usb_config_descriptor::bNumInterfaces</a>, <a class="el" href="usb__private_8h_source.html#l00081">_usbd_device::user_control_callback::cb</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, <a class="el" href="usbstd_8h_source.html#l00166">usb_config_descriptor::usb_interface::cur_altsetting</a>, <a class="el" href="usb__private_8h_source.html#l00057">_usbd_device::current_config</a>, <a class="el" href="usb__private_8h_source.html#l00048">_usbd_device::desc</a>, <a class="el" href="usb__private_8h_source.html#l00093">_usbd_device::driver</a>, <a class="el" href="usb__private_8h_source.html#l00146">_usbd_driver::ep_reset</a>, <a class="el" href="structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a">usb_config_descriptor::interface</a>, <a class="el" href="usb__f107_8c_source.html#l00033">usbd_dev</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::user_callback_set_config</a>, <a class="el" href="struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4">_usbd_device::user_control_callback</a>, and <a class="el" href="usbstd_8h_source.html#l00059">usb_setup_data::wValue</a>.</p>
+<p>References <a class="el" href="usbstd_8h_source.html#l00162">usb_config_descriptor::bConfigurationValue</a>, <a class="el" href="usbstd_8h_source.html#l00136">usb_device_descriptor::bNumConfigurations</a>, <a class="el" href="usbstd_8h_source.html#l00161">usb_config_descriptor::bNumInterfaces</a>, <a class="el" href="usb__private_8h_source.html#l00081">_usbd_device::user_control_callback::cb</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, <a class="el" href="usbstd_8h_source.html#l00169">usb_config_descriptor::usb_interface::cur_altsetting</a>, <a class="el" href="usb__private_8h_source.html#l00057">_usbd_device::current_config</a>, <a class="el" href="usb__private_8h_source.html#l00048">_usbd_device::desc</a>, <a class="el" href="usb__private_8h_source.html#l00093">_usbd_device::driver</a>, <a class="el" href="usb__private_8h_source.html#l00146">_usbd_driver::ep_reset</a>, <a class="el" href="structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a">usb_config_descriptor::interface</a>, <a class="el" href="usb__f107_8c_source.html#l00033">usbd_dev</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::user_callback_set_config</a>, <a class="el" href="struct__usbd__device.html#a31606577bf4ff006a56ef0f8d57a29d4">_usbd_device::user_control_callback</a>, and <a class="el" href="usbstd_8h_source.html#l00059">usb_setup_data::wValue</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00449">_usbd_standard_request_device()</a>.</p>
 
@@ -1006,7 +1008,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00319">319</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
-<p>References <a class="el" href="usbstd_8h_source.html#l00158">usb_config_descriptor::bNumInterfaces</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, <a class="el" href="usbstd_8h_source.html#l00139">usb_interface::cur_altsetting</a>, <a class="el" href="usb__private_8h_source.html#l00057">_usbd_device::current_config</a>, <a class="el" href="structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a">usb_config_descriptor::interface</a>, <a class="el" href="usbstd_8h_source.html#l00140">usb_interface::num_altsetting</a>, <a class="el" href="usbd_8h_source.html#l00048">USBD_REQ_HANDLED</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, <a class="el" href="usb__private_8h_source.html#l00091">_usbd_device::user_callback_set_altsetting</a>, <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>, and <a class="el" href="usbstd_8h_source.html#l00059">usb_setup_data::wValue</a>.</p>
+<p>References <a class="el" href="usbstd_8h_source.html#l00161">usb_config_descriptor::bNumInterfaces</a>, <a class="el" href="usb__private_8h_source.html#l00049">_usbd_device::config</a>, <a class="el" href="usbstd_8h_source.html#l00203">usb_interface::cur_altsetting</a>, <a class="el" href="usb__private_8h_source.html#l00057">_usbd_device::current_config</a>, <a class="el" href="structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a">usb_config_descriptor::interface</a>, <a class="el" href="usbstd_8h_source.html#l00204">usb_interface::num_altsetting</a>, <a class="el" href="usbd_8h_source.html#l00048">USBD_REQ_HANDLED</a>, <a class="el" href="usbd_8h_source.html#l00047">USBD_REQ_NOTSUPP</a>, <a class="el" href="usb__private_8h_source.html#l00091">_usbd_device::user_callback_set_altsetting</a>, <a class="el" href="usbstd_8h_source.html#l00060">usb_setup_data::wIndex</a>, and <a class="el" href="usbstd_8h_source.html#l00059">usb_setup_data::wValue</a>.</p>
 
 <p>Referenced by <a class="el" href="usb__standard_8c_source.html#l00503">_usbd_standard_request_interface()</a>.</p>
 
@@ -1045,6 +1047,8 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Registers a "Set Interface" (alternate setting) callback. </p>
+
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00058">58</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00091">_usbd_device::user_callback_set_altsetting</a>.</p>
@@ -1075,6 +1079,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Registers a "Set Config" callback. </p>
+<dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
+
 <p>Definition at line <a class="el" href="usb__standard_8c_source.html#l00042">42</a> of file <a class="el" href="usb__standard_8c_source.html">usb_standard.c</a>.</p>
 
 <p>References <a class="el" href="usb__private_8h_source.html#l00089">_usbd_device::user_callback_set_config</a>.</p>
@@ -1097,7 +1104,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 14 2015 12:21:17 for libopencm3 by
+    <li class="footer">Generated on Wed Oct 14 2015 23:21:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
