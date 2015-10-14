@@ -178,7 +178,7 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/* Timer 2/3 option register (TIMx_OR) */</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">   46</a></span>&#160;<span class="preprocessor">#define TIM_OR(tim_base)                MMIO32(tim_base + 0x50)</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">   46</a></span>&#160;<span class="preprocessor">#define TIM_OR(tim_base)                MMIO32((tim_base) + 0x50)</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="timer_8h.html#a1d0a9ed79cfba2ccd0606a8a887224af">   47</a></span>&#160;<span class="preprocessor">#define TIM2_OR                         TIM_OR(TIM2)</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="timer_8h.html#a298fb778fe0c87ec4872685814f696a6">   48</a></span>&#160;<span class="preprocessor">#define TIM3_OR                         TIM_OR(TIM3)</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
@@ -230,7 +230,7 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_5042fe5b58720bedf351b6ae0cadd586.html">l1</a></li><li class="navelem"><a class="el" href="timer_8h.html">timer.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:27 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:03 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

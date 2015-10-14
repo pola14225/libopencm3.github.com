@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('scb_8h_source.html','');});
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">/* SHP: System Handler Priority Registers */</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/* Note: 12 8bit registers */</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="scb_8h.html#aee9878a9669b283c7a8b6cba2d32c2cc">   49</a></span>&#160;<span class="preprocessor">#define SCB_SHPR(shpr_id)                       MMIO8(SCB_BASE + 0x18 + shpr_id)</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="scb_8h.html#aee9878a9669b283c7a8b6cba2d32c2cc">   49</a></span>&#160;<span class="preprocessor">#define SCB_SHPR(shpr_id)                       MMIO8(SCB_BASE + 0x18 + (shpr_id))</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="scb_8h.html#af09aa434b2e83324ecf55cc2688ee163">   50</a></span>&#160;<span class="preprocessor">#define SCB_SHPR1                               MMIO32(SCB_BASE + 0x18)</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="scb_8h.html#a8ae524551cd0a9cee2b7e4484d926c5a">   51</a></span>&#160;<span class="preprocessor">#define SCB_SHPR2                               MMIO32(SCB_BASE + 0x1C)</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="scb_8h.html#ac0a168427d861c6175c07a2da89bca40">   52</a></span>&#160;<span class="preprocessor">#define SCB_SHPR3                               MMIO32(SCB_BASE + 0x20)</span></div>
@@ -597,7 +597,7 @@ $(document).ready(function(){initNavTree('scb_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="scb_8h.html">scb.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:21:12 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

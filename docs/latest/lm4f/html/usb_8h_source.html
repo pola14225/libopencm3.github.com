@@ -248,25 +248,25 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="group__usb__defines.html#gaf7ecfad56454fbf1f8192323bdced3aa">  114</a></span>&#160;<span class="preprocessor">#define USB_COUNT0                      MMIO8(USB_BASE + 0x108)</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment">/* USB Maximum Transmit Data Endpoint [1-7] */</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="group__usb__defines.html#gaf0769e1a61a5341db94173a0acd332c8">  117</a></span>&#160;<span class="preprocessor">#define USB_TXMAXP(n)                   MMIO16(USB_BASE + 0x100 + n*0x10)</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="group__usb__defines.html#gaf0769e1a61a5341db94173a0acd332c8">  117</a></span>&#160;<span class="preprocessor">#define USB_TXMAXP(n)                   MMIO16(USB_BASE + 0x100 + (n)*0x10)</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">/* USB Transmit Control and Status Endpoint [1-7] Low */</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="group__usb__defines.html#gaf324f8096f3711bdb9580b294157dc60">  120</a></span>&#160;<span class="preprocessor">#define USB_TXCSRL(n)                   MMIO8(USB_BASE + 0x102 + n*0x10)</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="group__usb__defines.html#gaf324f8096f3711bdb9580b294157dc60">  120</a></span>&#160;<span class="preprocessor">#define USB_TXCSRL(n)                   MMIO8(USB_BASE + 0x102 + (n)*0x10)</span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment">/* USB Transmit Control and Status Endpoint [1-7] High */</span></div>
-<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga27de1c7931c1f9ea6021fe6581ac66c6">  123</a></span>&#160;<span class="preprocessor">#define USB_TXCSRH(n)                   MMIO8(USB_BASE + 0x103 + n*0x10)</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga27de1c7931c1f9ea6021fe6581ac66c6">  123</a></span>&#160;<span class="preprocessor">#define USB_TXCSRH(n)                   MMIO8(USB_BASE + 0x103 + (n)*0x10)</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="comment">/* USB Maximum Receive Data Endpoint [1-7] */</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga7b0b108a19aaca9923d40c5801dcbac2">  126</a></span>&#160;<span class="preprocessor">#define USB_RXMAXP(n)                   MMIO16(USB_BASE + 0x104 + n*0x10)</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga7b0b108a19aaca9923d40c5801dcbac2">  126</a></span>&#160;<span class="preprocessor">#define USB_RXMAXP(n)                   MMIO16(USB_BASE + 0x104 + (n)*0x10)</span></div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">/* USB Receive Control and Status Endpoint [1-7] Low */</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga50c1e6369d5fdb2971a17abaa5d1e8b5">  129</a></span>&#160;<span class="preprocessor">#define USB_RXCSRL(n)                   MMIO8(USB_BASE + 0x106 + n*0x10)</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga50c1e6369d5fdb2971a17abaa5d1e8b5">  129</a></span>&#160;<span class="preprocessor">#define USB_RXCSRL(n)                   MMIO8(USB_BASE + 0x106 + (n)*0x10)</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">/* USB Receive Control and Status Endpoint [1-7] High */</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga1b512c91287f77cb42345427b8143ace">  132</a></span>&#160;<span class="preprocessor">#define USB_RXCSRH(n)                   MMIO8(USB_BASE + 0x107 + n*0x10)</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga1b512c91287f77cb42345427b8143ace">  132</a></span>&#160;<span class="preprocessor">#define USB_RXCSRH(n)                   MMIO8(USB_BASE + 0x107 + (n)*0x10)</span></div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">/* USB Receive Byte Count Endpoint [1-7] */</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga3ad7f9f4d763a4736ce92aa59eb590b8">  135</a></span>&#160;<span class="preprocessor">#define USB_RXCOUNT(n)                  MMIO16(USB_BASE + 0x108 + n*0x10)</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga3ad7f9f4d763a4736ce92aa59eb590b8">  135</a></span>&#160;<span class="preprocessor">#define USB_RXCOUNT(n)                  MMIO16(USB_BASE + 0x108 + (n)*0x10)</span></div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="comment">/* USB Receive Double Packet Buffer Disable */</span></div>
 <div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="group__usb__defines.html#gac3f01ef4204c55f6c827476bf53dc354">  138</a></span>&#160;<span class="preprocessor">#define USB_RXDPKTBUFDIS                MMIO16(USB_BASE + 0x340)</span></div>
@@ -591,7 +591,7 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_16a49d58821e47b8957c58c692243696.html">lm4f</a></li><li class="navelem"><a class="el" href="usb_8h.html">usb.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:39 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:21 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

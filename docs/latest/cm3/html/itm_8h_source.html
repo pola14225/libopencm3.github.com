@@ -165,9 +165,9 @@ $(document).ready(function(){initNavTree('itm_8h_source.html','');});
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">/* --- ITM registers ------------------------------------------------------- */</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">/* Stimulus Port x (ITM_STIM&lt;sz&gt;(x)) */</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="itm_8h.html#abd4042d94a1484166f88bb42ec86b44f">   33</a></span>&#160;<span class="preprocessor">#define ITM_STIM8(n)                    (MMIO8(ITM_BASE + (n*4)))</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="itm_8h.html#ae0edd6a4d2a32e569800c1a41b4f49c4">   34</a></span>&#160;<span class="preprocessor">#define ITM_STIM16(n)                   (MMIO16(ITM_BASE + (n*4)))</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="itm_8h.html#afd1e8011912b712f1a88fe1a78f24d13">   35</a></span>&#160;<span class="preprocessor">#define ITM_STIM32(n)                   (MMIO32(ITM_BASE + (n*4)))</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="itm_8h.html#abd4042d94a1484166f88bb42ec86b44f">   33</a></span>&#160;<span class="preprocessor">#define ITM_STIM8(n)                    (MMIO8(ITM_BASE + ((n)*4)))</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="itm_8h.html#ae0edd6a4d2a32e569800c1a41b4f49c4">   34</a></span>&#160;<span class="preprocessor">#define ITM_STIM16(n)                   (MMIO16(ITM_BASE + ((n)*4)))</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="itm_8h.html#afd1e8011912b712f1a88fe1a78f24d13">   35</a></span>&#160;<span class="preprocessor">#define ITM_STIM32(n)                   (MMIO32(ITM_BASE + ((n)*4)))</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">/* Trace Enable ports (ITM_TER[x]) */</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="itm_8h.html#a18c94f3236b7d64c83e63cdd586e5e9b">   38</a></span>&#160;<span class="preprocessor">#define ITM_TER                         (&amp;MMIO32(ITM_BASE + 0xE00))</span></div>
@@ -227,7 +227,7 @@ $(document).ready(function(){initNavTree('itm_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="itm_8h.html">itm.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:21:12 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

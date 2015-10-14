@@ -151,17 +151,17 @@ Macros</h2></td></tr>
 <tr class="separator:gaf3cc04d651b622d5323d74dc2f0999a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga98aeff9c8b3bbdfd119e4ec4d3f615c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">GPIO4</a>&#160;&#160;&#160;(<a class="el" href="memorymap_8h.html#acce3b8a909ed8b957b4e411dfb7cbd91">GPIO_BASE</a> + 0x100)</td></tr>
 <tr class="separator:ga98aeff9c8b3bbdfd119e4ec4d3f615c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga818ab67c31ae580a2a69a612ca367636"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#ga818ab67c31ae580a2a69a612ca367636">GPIO_OFFSET</a>(gpio)&#160;&#160;&#160;(0x1 &lt;&lt; (gpio % 32))</td></tr>
+<tr class="memitem:ga818ab67c31ae580a2a69a612ca367636"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#ga818ab67c31ae580a2a69a612ca367636">GPIO_OFFSET</a>(gpio)&#160;&#160;&#160;(0x1 &lt;&lt; ((gpio) % 32))</td></tr>
 <tr class="separator:ga818ab67c31ae580a2a69a612ca367636"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5770347332067232f740789d48d981b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#ga5770347332067232f740789d48d981b8">GPIO_PDOR</a>(gpio_base)&#160;&#160;&#160;MMIO32(gpio_base + 0x00)</td></tr>
+<tr class="memitem:ga5770347332067232f740789d48d981b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#ga5770347332067232f740789d48d981b8">GPIO_PDOR</a>(gpio_base)&#160;&#160;&#160;MMIO32((gpio_base) + 0x00)</td></tr>
 <tr class="separator:ga5770347332067232f740789d48d981b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1be85d716551f31e1e0dad7bd33dd77e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#ga1be85d716551f31e1e0dad7bd33dd77e">GPIO_PSOR</a>(gpio_base)&#160;&#160;&#160;MMIO32(gpio_base + 0x04)</td></tr>
+<tr class="memitem:ga1be85d716551f31e1e0dad7bd33dd77e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#ga1be85d716551f31e1e0dad7bd33dd77e">GPIO_PSOR</a>(gpio_base)&#160;&#160;&#160;MMIO32((gpio_base) + 0x04)</td></tr>
 <tr class="separator:ga1be85d716551f31e1e0dad7bd33dd77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabaa5a4dcfdd54049351141cfc819edf3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#gabaa5a4dcfdd54049351141cfc819edf3">GPIO_PCOR</a>(gpio_base)&#160;&#160;&#160;MMIO32(gpio_base + 0x08)</td></tr>
+<tr class="memitem:gabaa5a4dcfdd54049351141cfc819edf3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#gabaa5a4dcfdd54049351141cfc819edf3">GPIO_PCOR</a>(gpio_base)&#160;&#160;&#160;MMIO32((gpio_base) + 0x08)</td></tr>
 <tr class="separator:gabaa5a4dcfdd54049351141cfc819edf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e5e080f71cdd8627ae691b88fb2dd57"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#ga0e5e080f71cdd8627ae691b88fb2dd57">GPIO_PTOR</a>(gpio_base)&#160;&#160;&#160;MMIO32(gpio_base + 0x0C)</td></tr>
+<tr class="memitem:ga0e5e080f71cdd8627ae691b88fb2dd57"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#ga0e5e080f71cdd8627ae691b88fb2dd57">GPIO_PTOR</a>(gpio_base)&#160;&#160;&#160;MMIO32((gpio_base) + 0x0C)</td></tr>
 <tr class="separator:ga0e5e080f71cdd8627ae691b88fb2dd57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaad3f82da6354acc16f061e465378c1dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#gaad3f82da6354acc16f061e465378c1dd">GPIO_PDIR</a>(gpio_base)&#160;&#160;&#160;MMIO32(gpio_base + 0x10)</td></tr>
+<tr class="memitem:gaad3f82da6354acc16f061e465378c1dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__reg__base.html#gaad3f82da6354acc16f061e465378c1dd">GPIO_PDIR</a>(gpio_base)&#160;&#160;&#160;MMIO32((gpio_base) + 0x10)</td></tr>
 <tr class="separator:gaad3f82da6354acc16f061e465378c1dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -286,7 +286,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">gpio</td><td>)</td>
-          <td>&#160;&#160;&#160;(0x1 &lt;&lt; (gpio % 32))</td>
+          <td>&#160;&#160;&#160;(0x1 &lt;&lt; ((gpio) % 32))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -306,7 +306,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">gpio_base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(gpio_base + 0x08)</td>
+          <td>&#160;&#160;&#160;MMIO32((gpio_base) + 0x08)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -326,7 +326,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">gpio_base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(gpio_base + 0x10)</td>
+          <td>&#160;&#160;&#160;MMIO32((gpio_base) + 0x10)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -346,7 +346,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">gpio_base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(gpio_base + 0x00)</td>
+          <td>&#160;&#160;&#160;MMIO32((gpio_base) + 0x00)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -366,7 +366,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">gpio_base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(gpio_base + 0x04)</td>
+          <td>&#160;&#160;&#160;MMIO32((gpio_base) + 0x04)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -386,7 +386,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">gpio_base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(gpio_base + 0x0C)</td>
+          <td>&#160;&#160;&#160;MMIO32((gpio_base) + 0x0C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -590,7 +590,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:53 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:42 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -168,7 +168,7 @@ Macros</h2></td></tr>
 <tr class="separator:a046351cf4159d1e8953730326c31ec5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a899566f16668d16cc5f7c7a1e9025bdd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scb_8h.html#a899566f16668d16cc5f7c7a1e9025bdd">SCB_CCR</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#ad55a7ddb8d4b2398b0c1cfec76c0d9fd">SCB_BASE</a> + 0x14)</td></tr>
 <tr class="separator:a899566f16668d16cc5f7c7a1e9025bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee9878a9669b283c7a8b6cba2d32c2cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scb_8h.html#aee9878a9669b283c7a8b6cba2d32c2cc">SCB_SHPR</a>(shpr_id)&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(<a class="el" href="memorymap_8h.html#ad55a7ddb8d4b2398b0c1cfec76c0d9fd">SCB_BASE</a> + 0x18 + shpr_id)</td></tr>
+<tr class="memitem:aee9878a9669b283c7a8b6cba2d32c2cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scb_8h.html#aee9878a9669b283c7a8b6cba2d32c2cc">SCB_SHPR</a>(shpr_id)&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(<a class="el" href="memorymap_8h.html#ad55a7ddb8d4b2398b0c1cfec76c0d9fd">SCB_BASE</a> + 0x18 + (shpr_id))</td></tr>
 <tr class="separator:aee9878a9669b283c7a8b6cba2d32c2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af09aa434b2e83324ecf55cc2688ee163"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scb_8h.html#af09aa434b2e83324ecf55cc2688ee163">SCB_SHPR1</a>&#160;&#160;&#160;<a class="el" href="common_8h.html#aa424823d5a675828feee4e8be0a64a65">MMIO32</a>(<a class="el" href="memorymap_8h.html#ad55a7ddb8d4b2398b0c1cfec76c0d9fd">SCB_BASE</a> + 0x18)</td></tr>
 <tr class="separator:af09aa434b2e83324ecf55cc2688ee163"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -870,7 +870,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">shpr_id</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(<a class="el" href="memorymap_8h.html#ad55a7ddb8d4b2398b0c1cfec76c0d9fd">SCB_BASE</a> + 0x18 + shpr_id)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="common_8h.html#a90fa73df23b66cce82b8633dd05e2b02">MMIO8</a>(<a class="el" href="memorymap_8h.html#ad55a7ddb8d4b2398b0c1cfec76c0d9fd">SCB_BASE</a> + 0x18 + (shpr_id))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1126,7 +1126,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="scb_8h.html">scb.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:21:12 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

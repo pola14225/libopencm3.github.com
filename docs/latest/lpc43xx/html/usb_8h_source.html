@@ -185,7 +185,7 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="usb_8h.html#adf9ee38bf40aea5ad77ed3d62e0565b9">   51</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_TOTAL_BYTES_SHIFT (16)</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="usb_8h.html#a3f94f5ca77bba9c808f7348e591d0132">   52</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_TOTAL_BYTES_WIDTH (15)</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="usb_8h.html#a1420ad66f4dee24eeb191a166856ea3f">   53</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_TOTAL_BYTES_MASK BIT_MASK(USB_TD_DTD_TOKEN_TOTAL_BYTES)</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="usb_8h.html#af0c774d04ff735d17d27884792e18fb7">   54</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_TOTAL_BYTES(x) BIT_ARG(USB_TD_DTD_TOKEN_TOTAL_BYTES, x)</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="usb_8h.html#af0c774d04ff735d17d27884792e18fb7">   54</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_TOTAL_BYTES(x) BIT_ARG(USB_TD_DTD_TOKEN_TOTAL_BYTES, (x))</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="usb_8h.html#aab0f9e5373faa9c9f32766ad0bddac71">   56</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_IOC_SHIFT (15)</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="usb_8h.html#ad5803a8b75fd62b0e2b7c0081fb079a5">   57</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_IOC (1 &lt;&lt; USB_TD_DTD_TOKEN_IOC_SHIFT)</span></div>
@@ -193,7 +193,7 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="usb_8h.html#a9acb9e68ffa348b8303a809734bf88c1">   59</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_MULTO_SHIFT (10)</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="usb_8h.html#afb6c66907348cfaf72c8b81b7f2f9974">   60</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_MULTO_WIDTH (2)</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="usb_8h.html#a830a8f0bce2310dab9766837f0e772c7">   61</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_MULTO_MASK BIT_MASK(USB_TD_DTD_TOKEN_MULTO)</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="usb_8h.html#aab93a38f4597b996cbd4a78fbd51acf0">   62</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_MULTO(x) BIT_ARG(USB_TD_DTD_TOKEN_MULTO, x)</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="usb_8h.html#aab93a38f4597b996cbd4a78fbd51acf0">   62</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_MULTO(x) BIT_ARG(USB_TD_DTD_TOKEN_MULTO, (x))</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="usb_8h.html#a1abd0baefdcba2d07827936c57f73678">   64</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_STATUS_ACTIVE_SHIFT (7)</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="usb_8h.html#aba17c731e8e0355afe6b6bcdddc089fa">   65</a></span>&#160;<span class="preprocessor">#define USB_TD_DTD_TOKEN_STATUS_ACTIVE \</span></div>
@@ -231,7 +231,7 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="usb_8h.html#a74d35db28d0bbdc2cf28fa8cfdbc312e">   97</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MPL_SHIFT (16)</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="usb_8h.html#ae73fa0291f4c6898c85c0ee5b418966b">   98</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MPL_WIDTH (11)</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="usb_8h.html#ac6a9f53c0419807ad7be018a3c82050b">   99</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MPL_MASK BIT_MASK(USB_QH_CAPABILITIES_MPL)</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="usb_8h.html#a3c5e12d680acbc1a3088185c1f0fff7d">  100</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MPL(x) BIT_ARG(USB_QH_CAPABILITIES_MPL, x)</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="usb_8h.html#a3c5e12d680acbc1a3088185c1f0fff7d">  100</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MPL(x) BIT_ARG(USB_QH_CAPABILITIES_MPL, (x))</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
 <div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="usb_8h.html#a3eb817b26648e73905afe73ff63ce4a1">  102</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_ZLT_SHIFT (29)</span></div>
 <div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="usb_8h.html#ad3d7f2575282fd7adcba0c507c26f8d2">  103</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_ZLT (1 &lt;&lt; USB_QH_CAPABILITIES_ZLT_SHIFT)</span></div>
@@ -239,7 +239,7 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="usb_8h.html#a988457b06a934efe9ef74468740047c2">  105</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MULT_SHIFT (30)</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="usb_8h.html#a291d3ec0d816e8c43cf9927d7b416324">  106</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MULT_WIDTH (2)</span></div>
 <div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="usb_8h.html#a62d3b82f1c9ee23a839ece701e82b804">  107</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MULT_MASK BIT_MASK(USB_QH_CAPABILITIES_MULT)</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="usb_8h.html#aa5b6845fa01bfd264c4d11d7f4654d30">  108</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MULT(x) BIT_ARG(USB_QH_CAPABILITIES_MULT, x)</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="usb_8h.html#aa5b6845fa01bfd264c4d11d7f4654d30">  108</a></span>&#160;<span class="preprocessor">#define USB_QH_CAPABILITIES_MULT(x) BIT_ARG(USB_QH_CAPABILITIES_MULT, (x))</span></div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">/* --- USB0 registers ------------------------------------------------------ */</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
@@ -352,7 +352,7 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="comment">/* Endpoint control */</span></div>
 <div class="line"><a name="l00220"></a><span class="lineno"><a class="line" href="usb_8h.html#a6beaa8120e29741ab8901461a3773b14">  220</a></span>&#160;<span class="preprocessor">#define USB0_ENDPTCTRL(logical_ep)      MMIO32(USB0_BASE + 0x1C0 + \</span></div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="preprocessor">                                                        (logical_ep * 4))</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="preprocessor">                                                        ((logical_ep) * 4))</span></div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="comment">/* Endpoint control 0 */</span></div>
 <div class="line"><a name="l00224"></a><span class="lineno"><a class="line" href="usb_8h.html#ad9dcfb9cdbff6aaa6ba1783f6a0b8638">  224</a></span>&#160;<span class="preprocessor">#define USB0_ENDPTCTRL0                 USB0_ENDPTCTRL(0)</span></div>
@@ -1487,7 +1487,7 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="usb_8h.html">usb.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:44 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

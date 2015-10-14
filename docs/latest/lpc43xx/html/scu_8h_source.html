@@ -221,7 +221,7 @@ $(document).ready(function(){initNavTree('scu_8h_source.html','');});
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">/* Pin configuration registers */</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="group__scu__defines.html#ga086c7972ff913bf888c28d4478c9a555">   90</a></span>&#160;<span class="preprocessor">#define SCU_SFS(group, pin)             MMIO32(group + pin)</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="group__scu__defines.html#ga086c7972ff913bf888c28d4478c9a555">   90</a></span>&#160;<span class="preprocessor">#define SCU_SFS(group, pin)             MMIO32((group) + (pin))</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/* Pins P0_n */</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="group__scu__defines.html#ga576073a3cff9436ccbc469485668ba55">   93</a></span>&#160;<span class="preprocessor">#define SCU_SFSP0_0                     SCU_SFS(PIN_GROUP0, PIN0)</span></div>
@@ -1137,7 +1137,7 @@ $(document).ready(function(){initNavTree('scu_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="scu_8h.html">scu.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:44 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

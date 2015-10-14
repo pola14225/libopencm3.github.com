@@ -176,9 +176,9 @@ Macros</h2></td></tr>
 <tr class="separator:ga506520140eec1708bc7570c49bdf972d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga373edae826e8be329bd95655b5524642"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port,  n)&#160;&#160;&#160;((port) + 0x10 + (24 * (n)))</td></tr>
 <tr class="separator:ga373edae826e8be329bd95655b5524642"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga237da62e1a3cd1d7df5f97453a123d4a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga237da62e1a3cd1d7df5f97453a123d4a">DMA1_STREAM</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td></tr>
+<tr class="memitem:ga237da62e1a3cd1d7df5f97453a123d4a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga237da62e1a3cd1d7df5f97453a123d4a">DMA1_STREAM</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td></tr>
 <tr class="separator:ga237da62e1a3cd1d7df5f97453a123d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa50ac3f6fce8e2d6783c4b241b3b9298"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaa50ac3f6fce8e2d6783c4b241b3b9298">DMA2_STREAM</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td></tr>
+<tr class="memitem:gaa50ac3f6fce8e2d6783c4b241b3b9298"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaa50ac3f6fce8e2d6783c4b241b3b9298">DMA2_STREAM</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td></tr>
 <tr class="separator:gaa50ac3f6fce8e2d6783c4b241b3b9298"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabb325344bf3ab820d93354e366861e70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gabb325344bf3ab820d93354e366861e70">DMA1_STREAM0</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga237da62e1a3cd1d7df5f97453a123d4a">DMA1_STREAM</a>(0)</td></tr>
 <tr class="separator:gabb325344bf3ab820d93354e366861e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,35 +212,35 @@ Macros</h2></td></tr>
 <tr class="separator:gaa805a63d66104f6f0dc048f9d063ed49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf73ac59b037781c5cc0cc3562ffacadc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaf73ac59b037781c5cc0cc3562ffacadc">DMA2_STREAM7</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaa50ac3f6fce8e2d6783c4b241b3b9298">DMA2_STREAM</a>(7)</td></tr>
 <tr class="separator:gaf73ac59b037781c5cc0cc3562ffacadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1cf8882b2c868df74fc89f835110900c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga1cf8882b2c868df74fc89f835110900c">DMA_LISR</a>(port)&#160;&#160;&#160;MMIO32(port + 0x00)</td></tr>
+<tr class="memitem:ga1cf8882b2c868df74fc89f835110900c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga1cf8882b2c868df74fc89f835110900c">DMA_LISR</a>(port)&#160;&#160;&#160;MMIO32((port) + 0x00)</td></tr>
 <tr class="separator:ga1cf8882b2c868df74fc89f835110900c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gada1651a6726ca6dc707018fa0dcd1e0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gada1651a6726ca6dc707018fa0dcd1e0a">DMA1_LISR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga1cf8882b2c868df74fc89f835110900c">DMA_LISR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>)</td></tr>
 <tr class="separator:gada1651a6726ca6dc707018fa0dcd1e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga006a5b530e31ba5ee55890983deffb25"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga006a5b530e31ba5ee55890983deffb25">DMA2_LISR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga1cf8882b2c868df74fc89f835110900c">DMA_LISR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>)</td></tr>
 <tr class="separator:ga006a5b530e31ba5ee55890983deffb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c1afc873de85a731bbb5f6691071b4e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga6c1afc873de85a731bbb5f6691071b4e">DMA_HISR</a>(port)&#160;&#160;&#160;MMIO32(port + 0x04)</td></tr>
+<tr class="memitem:ga6c1afc873de85a731bbb5f6691071b4e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga6c1afc873de85a731bbb5f6691071b4e">DMA_HISR</a>(port)&#160;&#160;&#160;MMIO32((port) + 0x04)</td></tr>
 <tr class="separator:ga6c1afc873de85a731bbb5f6691071b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2eedb4c57bfb6541a33eb01d7507d805"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga2eedb4c57bfb6541a33eb01d7507d805">DMA1_HISR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga6c1afc873de85a731bbb5f6691071b4e">DMA_HISR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>)</td></tr>
 <tr class="separator:ga2eedb4c57bfb6541a33eb01d7507d805"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab09df81a2839f59c46f13f8550c6346d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gab09df81a2839f59c46f13f8550c6346d">DMA2_HISR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga6c1afc873de85a731bbb5f6691071b4e">DMA_HISR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>)</td></tr>
 <tr class="separator:gab09df81a2839f59c46f13f8550c6346d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5c986a020aa4a378754bb99615d94d7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga5c986a020aa4a378754bb99615d94d7b">DMA_LIFCR</a>(port)&#160;&#160;&#160;MMIO32(port + 0x08)</td></tr>
+<tr class="memitem:ga5c986a020aa4a378754bb99615d94d7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga5c986a020aa4a378754bb99615d94d7b">DMA_LIFCR</a>(port)&#160;&#160;&#160;MMIO32((port) + 0x08)</td></tr>
 <tr class="separator:ga5c986a020aa4a378754bb99615d94d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafcab6410344e059272e6f6f08eb75368"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gafcab6410344e059272e6f6f08eb75368">DMA1_LIFCR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga5c986a020aa4a378754bb99615d94d7b">DMA_LIFCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>)</td></tr>
 <tr class="separator:gafcab6410344e059272e6f6f08eb75368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga781231b235ba0433a0c0c939b3516ff0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga781231b235ba0433a0c0c939b3516ff0">DMA2_LIFCR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga5c986a020aa4a378754bb99615d94d7b">DMA_LIFCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>)</td></tr>
 <tr class="separator:ga781231b235ba0433a0c0c939b3516ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2b9dfd8607d952ee263d992491e543d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga2b9dfd8607d952ee263d992491e543d1">DMA_HIFCR</a>(port)&#160;&#160;&#160;MMIO32(port + 0x0C)</td></tr>
+<tr class="memitem:ga2b9dfd8607d952ee263d992491e543d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga2b9dfd8607d952ee263d992491e543d1">DMA_HIFCR</a>(port)&#160;&#160;&#160;MMIO32((port) + 0x0C)</td></tr>
 <tr class="separator:ga2b9dfd8607d952ee263d992491e543d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga72bdd3df3f0f6beddc8f3d6e1c50304c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga72bdd3df3f0f6beddc8f3d6e1c50304c">DMA1_HIFCR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2b9dfd8607d952ee263d992491e543d1">DMA_HIFCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>)</td></tr>
 <tr class="separator:ga72bdd3df3f0f6beddc8f3d6e1c50304c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3f95cefca1b883b04d48a7cd21a14ecf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga3f95cefca1b883b04d48a7cd21a14ecf">DMA2_HIFCR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2b9dfd8607d952ee263d992491e543d1">DMA_HIFCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>)</td></tr>
 <tr class="separator:ga3f95cefca1b883b04d48a7cd21a14ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga84ffa5dbbb264df435db69e9cdd84e49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(port,  n)&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port, n) + 0x00)</td></tr>
+<tr class="memitem:ga84ffa5dbbb264df435db69e9cdd84e49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(port,  n)&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>((port), (n)) + 0x00)</td></tr>
 <tr class="separator:ga84ffa5dbbb264df435db69e9cdd84e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga11456f79e1e295e75cd8bad72486181f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga11456f79e1e295e75cd8bad72486181f">DMA1_SCR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td></tr>
+<tr class="memitem:ga11456f79e1e295e75cd8bad72486181f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga11456f79e1e295e75cd8bad72486181f">DMA1_SCR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td></tr>
 <tr class="separator:ga11456f79e1e295e75cd8bad72486181f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0ed5bf07e2aa31f9a6cf529cf1fff8dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga0ed5bf07e2aa31f9a6cf529cf1fff8dc">DMA2_SCR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td></tr>
+<tr class="memitem:ga0ed5bf07e2aa31f9a6cf529cf1fff8dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga0ed5bf07e2aa31f9a6cf529cf1fff8dc">DMA2_SCR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td></tr>
 <tr class="separator:ga0ed5bf07e2aa31f9a6cf529cf1fff8dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac6f9b86977b4ea6c4851bca8f794e132"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gac6f9b86977b4ea6c4851bca8f794e132">DMA1_S0CR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga11456f79e1e295e75cd8bad72486181f">DMA1_SCR</a>(0)</td></tr>
 <tr class="separator:gac6f9b86977b4ea6c4851bca8f794e132"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,11 +274,11 @@ Macros</h2></td></tr>
 <tr class="separator:ga7069fea64397b32559b70fa2f1ae8318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6fa0eb413131b25edb469fa679460ce4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga6fa0eb413131b25edb469fa679460ce4">DMA2_S7CR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga0ed5bf07e2aa31f9a6cf529cf1fff8dc">DMA2_SCR</a>(7)</td></tr>
 <tr class="separator:ga6fa0eb413131b25edb469fa679460ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf0ae68be4984d257d353fe849f95e230"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(port,  n)&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port, n) + 0x04)</td></tr>
+<tr class="memitem:gaf0ae68be4984d257d353fe849f95e230"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(port,  n)&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>((port), (n)) + 0x04)</td></tr>
 <tr class="separator:gaf0ae68be4984d257d353fe849f95e230"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7ab1262c4cee97ee0284e819c2809605"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga7ab1262c4cee97ee0284e819c2809605">DMA1_SNDTR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td></tr>
+<tr class="memitem:ga7ab1262c4cee97ee0284e819c2809605"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga7ab1262c4cee97ee0284e819c2809605">DMA1_SNDTR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td></tr>
 <tr class="separator:ga7ab1262c4cee97ee0284e819c2809605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga200f073b5fd4a5a65c81136c4c2237c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga200f073b5fd4a5a65c81136c4c2237c0">DMA2_SNDTR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td></tr>
+<tr class="memitem:ga200f073b5fd4a5a65c81136c4c2237c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga200f073b5fd4a5a65c81136c4c2237c0">DMA2_SNDTR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td></tr>
 <tr class="separator:ga200f073b5fd4a5a65c81136c4c2237c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac486d784a2b1e591e97277ff37d19bc9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gac486d784a2b1e591e97277ff37d19bc9">DMA1_S0NDTR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga7ab1262c4cee97ee0284e819c2809605">DMA1_SNDTR</a>(0)</td></tr>
 <tr class="separator:gac486d784a2b1e591e97277ff37d19bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -314,9 +314,9 @@ Macros</h2></td></tr>
 <tr class="separator:ga19e2919f6dc9b31bfdd40fb7d406e4e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf1e6eef691bf13f842b2f140fab99369"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaf1e6eef691bf13f842b2f140fab99369">DMA_SPAR</a>(port,  n)</td></tr>
 <tr class="separator:gaf1e6eef691bf13f842b2f140fab99369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae403e30129e2a688b7bc5bad28324a7d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gae403e30129e2a688b7bc5bad28324a7d">DMA1_SPAR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf1e6eef691bf13f842b2f140fab99369">DMA_SPAR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td></tr>
+<tr class="memitem:gae403e30129e2a688b7bc5bad28324a7d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gae403e30129e2a688b7bc5bad28324a7d">DMA1_SPAR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf1e6eef691bf13f842b2f140fab99369">DMA_SPAR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td></tr>
 <tr class="separator:gae403e30129e2a688b7bc5bad28324a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49b36810f1afe62ee5d4afc0379995e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga49b36810f1afe62ee5d4afc0379995e8">DMA2_SPAR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf1e6eef691bf13f842b2f140fab99369">DMA_SPAR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td></tr>
+<tr class="memitem:ga49b36810f1afe62ee5d4afc0379995e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga49b36810f1afe62ee5d4afc0379995e8">DMA2_SPAR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf1e6eef691bf13f842b2f140fab99369">DMA_SPAR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td></tr>
 <tr class="separator:ga49b36810f1afe62ee5d4afc0379995e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1081f1ed6b15d96b8e4f341f31847241"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga1081f1ed6b15d96b8e4f341f31847241">DMA1_S0PAR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gae403e30129e2a688b7bc5bad28324a7d">DMA1_SPAR</a>(0)</td></tr>
 <tr class="separator:ga1081f1ed6b15d96b8e4f341f31847241"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -352,9 +352,9 @@ Macros</h2></td></tr>
 <tr class="separator:gac707973374874490b6502686dc57e84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2ac093c52bc4db800b46204d12356da4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4">DMA_SM0AR</a>(port,  n)</td></tr>
 <tr class="separator:ga2ac093c52bc4db800b46204d12356da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac285ba585d732b0bbf04dad369d7a48a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gac285ba585d732b0bbf04dad369d7a48a">DMA1_SM0AR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4">DMA_SM0AR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td></tr>
+<tr class="memitem:gac285ba585d732b0bbf04dad369d7a48a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gac285ba585d732b0bbf04dad369d7a48a">DMA1_SM0AR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4">DMA_SM0AR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td></tr>
 <tr class="separator:gac285ba585d732b0bbf04dad369d7a48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga86c782f1c908d5059379beee7f4752e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga86c782f1c908d5059379beee7f4752e5">DMA2_SM0AR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4">DMA_SM0AR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td></tr>
+<tr class="memitem:ga86c782f1c908d5059379beee7f4752e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga86c782f1c908d5059379beee7f4752e5">DMA2_SM0AR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4">DMA_SM0AR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td></tr>
 <tr class="separator:ga86c782f1c908d5059379beee7f4752e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab44d309cf18a811acd58ea1762f055a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gab44d309cf18a811acd58ea1762f055a9">DMA1_S0M0AR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gac285ba585d732b0bbf04dad369d7a48a">DMA1_SM0AR</a>(0)</td></tr>
 <tr class="separator:gab44d309cf18a811acd58ea1762f055a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -390,9 +390,9 @@ Macros</h2></td></tr>
 <tr class="separator:gaf73db9fc4f0d1872c1dff809e54f927e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga220658f19d3669ad1fa71049f9bae5fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga220658f19d3669ad1fa71049f9bae5fc">DMA_SM1AR</a>(port,  n)</td></tr>
 <tr class="separator:ga220658f19d3669ad1fa71049f9bae5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf357d97bb0f447e9f0f437a17cebfc46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaf357d97bb0f447e9f0f437a17cebfc46">DMA1_SM1AR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga220658f19d3669ad1fa71049f9bae5fc">DMA_SM1AR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td></tr>
+<tr class="memitem:gaf357d97bb0f447e9f0f437a17cebfc46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaf357d97bb0f447e9f0f437a17cebfc46">DMA1_SM1AR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga220658f19d3669ad1fa71049f9bae5fc">DMA_SM1AR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td></tr>
 <tr class="separator:gaf357d97bb0f447e9f0f437a17cebfc46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad952f8b347452937c6b59ac521441482"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gad952f8b347452937c6b59ac521441482">DMA2_SM1AR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga220658f19d3669ad1fa71049f9bae5fc">DMA_SM1AR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td></tr>
+<tr class="memitem:gad952f8b347452937c6b59ac521441482"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gad952f8b347452937c6b59ac521441482">DMA2_SM1AR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga220658f19d3669ad1fa71049f9bae5fc">DMA_SM1AR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td></tr>
 <tr class="separator:gad952f8b347452937c6b59ac521441482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga48730e56ed07531c301aa1dc67e53e2d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga48730e56ed07531c301aa1dc67e53e2d">DMA1_S0M1AR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf357d97bb0f447e9f0f437a17cebfc46">DMA1_SM1AR</a>(0)</td></tr>
 <tr class="separator:ga48730e56ed07531c301aa1dc67e53e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -426,11 +426,11 @@ Macros</h2></td></tr>
 <tr class="separator:ga5920fd5e01c765884b8266fee1e5145c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2386377436ee318192d16941759dda7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga2386377436ee318192d16941759dda7b">DMA2_S7M1AR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gad952f8b347452937c6b59ac521441482">DMA2_SM1AR</a>(7)</td></tr>
 <tr class="separator:ga2386377436ee318192d16941759dda7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga02a15265c2385224ab3a1391f53e1c62"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(port,  n)&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port, n) + 0x14)</td></tr>
+<tr class="memitem:ga02a15265c2385224ab3a1391f53e1c62"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(port,  n)&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>((port), (n)) + 0x14)</td></tr>
 <tr class="separator:ga02a15265c2385224ab3a1391f53e1c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52b9ad2b38d46241eb8c2fa52a392606"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga52b9ad2b38d46241eb8c2fa52a392606">DMA1_SFCR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td></tr>
+<tr class="memitem:ga52b9ad2b38d46241eb8c2fa52a392606"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga52b9ad2b38d46241eb8c2fa52a392606">DMA1_SFCR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td></tr>
 <tr class="separator:ga52b9ad2b38d46241eb8c2fa52a392606"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga97b29777056c1ff5fbacbc533ea32371"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga97b29777056c1ff5fbacbc533ea32371">DMA2_SFCR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td></tr>
+<tr class="memitem:ga97b29777056c1ff5fbacbc533ea32371"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga97b29777056c1ff5fbacbc533ea32371">DMA2_SFCR</a>(n)&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td></tr>
 <tr class="separator:ga97b29777056c1ff5fbacbc533ea32371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2eb0680f6f0d599c680d5660ee024d19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga2eb0680f6f0d599c680d5660ee024d19">DMA1_S0FCR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga52b9ad2b38d46241eb8c2fa52a392606">DMA1_SFCR</a>(0)</td></tr>
 <tr class="separator:ga2eb0680f6f0d599c680d5660ee024d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -464,7 +464,7 @@ Macros</h2></td></tr>
 <tr class="separator:ga7d0940d23c958e809357ff22b37021b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3058aec22f6a176f48e99d27c4209ade"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga3058aec22f6a176f48e99d27c4209ade">DMA2_S7FCR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga97b29777056c1ff5fbacbc533ea32371">DMA2_SFCR</a>(7)</td></tr>
 <tr class="separator:ga3058aec22f6a176f48e99d27c4209ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabb6767ef7efe5b6e57580e8f615e6ec2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gabb6767ef7efe5b6e57580e8f615e6ec2">DMA_ISR_OFFSET</a>(stream)&#160;&#160;&#160;(6*(stream &amp; 0x01)+16*((stream &amp; 0x02) &gt;&gt; 1))</td></tr>
+<tr class="memitem:gabb6767ef7efe5b6e57580e8f615e6ec2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gabb6767ef7efe5b6e57580e8f615e6ec2">DMA_ISR_OFFSET</a>(stream)&#160;&#160;&#160;(6*((stream) &amp; 0x01)+16*(((stream) &amp; 0x02) &gt;&gt; 1))</td></tr>
 <tr class="separator:gabb6767ef7efe5b6e57580e8f615e6ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b10d190e03d234b3e45a6e2b0becdde"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga3b10d190e03d234b3e45a6e2b0becdde">DMA_ISR_FLAGS</a></td></tr>
 <tr class="separator:ga3b10d190e03d234b3e45a6e2b0becdde"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -682,7 +682,7 @@ Macros</h2></td></tr>
 <tr class="separator:ga03a71dcd8185ccfaa16725ebe9ec487a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa94af3601c6eb8edb1ded8e74198799f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaa94af3601c6eb8edb1ded8e74198799f">DMA_SxCR_CHSEL_MASK</a>&#160;&#160;&#160;(7 &lt;&lt; 25)</td></tr>
 <tr class="separator:gaa94af3601c6eb8edb1ded8e74198799f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf9160d70a35242586b9fb074d2e6b25a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaf9160d70a35242586b9fb074d2e6b25a">DMA_SxCR_CHSEL</a>(n)&#160;&#160;&#160;(n &lt;&lt; <a class="el" href="group__dma__defines.html#ga03a71dcd8185ccfaa16725ebe9ec487a">DMA_SxCR_CHSEL_SHIFT</a>)</td></tr>
+<tr class="memitem:gaf9160d70a35242586b9fb074d2e6b25a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gaf9160d70a35242586b9fb074d2e6b25a">DMA_SxCR_CHSEL</a>(n)&#160;&#160;&#160;((n) &lt;&lt; <a class="el" href="group__dma__defines.html#ga03a71dcd8185ccfaa16725ebe9ec487a">DMA_SxCR_CHSEL_SHIFT</a>)</td></tr>
 <tr class="separator:gaf9160d70a35242586b9fb074d2e6b25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9cf93147a7d186ea14fe06b3de860cbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga9cf93147a7d186ea14fe06b3de860cbb">DMA_SxFCR_FTH_SHIFT</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ga9cf93147a7d186ea14fe06b3de860cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1586,7 +1586,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1604,7 +1604,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1622,7 +1622,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4">DMA_SM0AR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4">DMA_SM0AR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1640,7 +1640,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga220658f19d3669ad1fa71049f9bae5fc">DMA_SM1AR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga220658f19d3669ad1fa71049f9bae5fc">DMA_SM1AR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1658,7 +1658,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1676,7 +1676,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf1e6eef691bf13f842b2f140fab99369">DMA_SPAR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf1e6eef691bf13f842b2f140fab99369">DMA_SPAR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1694,7 +1694,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2566,7 +2566,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga84ffa5dbbb264df435db69e9cdd84e49">DMA_SCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2584,7 +2584,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga02a15265c2385224ab3a1391f53e1c62">DMA_SFCR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2602,7 +2602,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4">DMA_SM0AR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga2ac093c52bc4db800b46204d12356da4">DMA_SM0AR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2620,7 +2620,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga220658f19d3669ad1fa71049f9bae5fc">DMA_SM1AR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga220658f19d3669ad1fa71049f9bae5fc">DMA_SM1AR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2638,7 +2638,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf0ae68be4984d257d353fe849f95e230">DMA_SNDTR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2656,7 +2656,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf1e6eef691bf13f842b2f140fab99369">DMA_SPAR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#gaf1e6eef691bf13f842b2f140fab99369">DMA_SPAR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2674,7 +2674,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, n)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>, (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2804,7 +2804,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">port</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(port + 0x0C)</td>
+          <td>&#160;&#160;&#160;MMIO32((port) + 0x0C)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3104,7 +3104,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">port</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(port + 0x04)</td>
+          <td>&#160;&#160;&#160;MMIO32((port) + 0x04)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3445,7 +3445,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">stream</td><td>)</td>
-          <td>&#160;&#160;&#160;(6*(stream &amp; 0x01)+16*((stream &amp; 0x02) &gt;&gt; 1))</td>
+          <td>&#160;&#160;&#160;(6*((stream) &amp; 0x01)+16*(((stream) &amp; 0x02) &gt;&gt; 1))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3465,7 +3465,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">port</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(port + 0x08)</td>
+          <td>&#160;&#160;&#160;MMIO32((port) + 0x08)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3765,7 +3765,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">port</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(port + 0x00)</td>
+          <td>&#160;&#160;&#160;MMIO32((port) + 0x00)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4075,7 +4075,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port, n) + 0x00)</td>
+          <td></td><td>&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>((port), (n)) + 0x00)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4105,7 +4105,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port, n) + 0x14)</td>
+          <td></td><td>&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>((port), (n)) + 0x14)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4140,7 +4140,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(*(<span class="keyword">volatile</span> <span class="keywordtype">void</span> **) \</div>
-<div class="line">                                         (<a class="code" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port, n) + 0x0c))</div>
+<div class="line">                                         (<a class="code" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>((port), (n)) + 0x0c))</div>
 <div class="ttc" id="group__dma__defines_html_ga373edae826e8be329bd95655b5524642"><div class="ttname"><a href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a></div><div class="ttdeci">#define DMA_STREAM(port, n)</div><div class="ttdef"><b>Definition:</b> <a href="dma__common__f24_8h_source.html#l00062">dma_common_f24.h:62</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="dma__common__f24_8h_source.html#l00179">179</a> of file <a class="el" href="dma__common__f24_8h_source.html">dma_common_f24.h</a>.</p>
@@ -4173,7 +4173,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(*(<span class="keyword">volatile</span> <span class="keywordtype">void</span> **)\</div>
-<div class="line">                                         (<a class="code" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port, n) + 0x10))</div>
+<div class="line">                                         (<a class="code" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>((port), (n)) + 0x10))</div>
 <div class="ttc" id="group__dma__defines_html_ga373edae826e8be329bd95655b5524642"><div class="ttname"><a href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a></div><div class="ttdeci">#define DMA_STREAM(port, n)</div><div class="ttdef"><b>Definition:</b> <a href="dma__common__f24_8h_source.html#l00062">dma_common_f24.h:62</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="dma__common__f24_8h_source.html#l00203">203</a> of file <a class="el" href="dma__common__f24_8h_source.html">dma_common_f24.h</a>.</p>
@@ -4201,7 +4201,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port, n) + 0x04)</td>
+          <td></td><td>&#160;&#160;&#160;MMIO32(<a class="el" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>((port), (n)) + 0x04)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4236,7 +4236,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(*(<span class="keyword">volatile</span> <span class="keywordtype">void</span> **)\</div>
-<div class="line">                                         (<a class="code" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>(port, n) + 0x08))</div>
+<div class="line">                                         (<a class="code" href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a>((port), (n)) + 0x08))</div>
 <div class="ttc" id="group__dma__defines_html_ga373edae826e8be329bd95655b5524642"><div class="ttname"><a href="group__dma__defines.html#ga373edae826e8be329bd95655b5524642">DMA_STREAM</a></div><div class="ttdeci">#define DMA_STREAM(port, n)</div><div class="ttdef"><b>Definition:</b> <a href="dma__common__f24_8h_source.html#l00062">dma_common_f24.h:62</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="dma__common__f24_8h_source.html#l00155">155</a> of file <a class="el" href="dma__common__f24_8h_source.html">dma_common_f24.h</a>.</p>
@@ -4282,7 +4282,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;(n &lt;&lt; <a class="el" href="group__dma__defines.html#ga03a71dcd8185ccfaa16725ebe9ec487a">DMA_SxCR_CHSEL_SHIFT</a>)</td>
+          <td>&#160;&#160;&#160;((n) &lt;&lt; <a class="el" href="group__dma__defines.html#ga03a71dcd8185ccfaa16725ebe9ec487a">DMA_SxCR_CHSEL_SHIFT</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6640,7 +6640,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:03 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:22:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

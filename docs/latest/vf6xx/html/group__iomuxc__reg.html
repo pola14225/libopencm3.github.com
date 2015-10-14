@@ -141,7 +141,7 @@ Collaboration diagram for IO MUX Controller register:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga436e446972150f18ca9061e1303538ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__iomuxc__reg.html#ga436e446972150f18ca9061e1303538ec">IOMUXC</a>(pad)&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a35e55d6b5f68a44e06548fd5559baae1">IOMUXC_BASE</a> + (0x4 * pad))</td></tr>
+<tr class="memitem:ga436e446972150f18ca9061e1303538ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__iomuxc__reg.html#ga436e446972150f18ca9061e1303538ec">IOMUXC</a>(pad)&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a35e55d6b5f68a44e06548fd5559baae1">IOMUXC_BASE</a> + (0x4 * (pad)))</td></tr>
 <tr class="separator:ga436e446972150f18ca9061e1303538ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabb3cfa2d414ed57119c18e93dfb9e676"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__iomuxc__reg.html#gabb3cfa2d414ed57119c18e93dfb9e676">IOMUXC_PAD</a>(mode,  speed,  dse,  pus,  flags)</td></tr>
 <tr class="separator:gabb3cfa2d414ed57119c18e93dfb9e676"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -415,7 +415,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">pad</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a35e55d6b5f68a44e06548fd5559baae1">IOMUXC_BASE</a> + (0x4 * pad))</td>
+          <td>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a35e55d6b5f68a44e06548fd5559baae1">IOMUXC_BASE</a> + (0x4 * (pad)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1348,7 +1348,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:53 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:42 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

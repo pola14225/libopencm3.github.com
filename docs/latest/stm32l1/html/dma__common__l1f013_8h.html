@@ -152,13 +152,13 @@ Macros</h2></td></tr>
 <tr class="separator:gacc16d2a5937f7585320a98f7f6b578f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga506520140eec1708bc7570c49bdf972d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>&#160;&#160;&#160;<a class="el" href="memorymap_8h.html#ab72a9ae145053ee13d1d491fb5c1df64">DMA2_BASE</a></td></tr>
 <tr class="separator:ga506520140eec1708bc7570c49bdf972d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6d94c9580957aec3c23a0b1ca7d47468"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga6d94c9580957aec3c23a0b1ca7d47468">DMA_ISR</a>(dma_base)&#160;&#160;&#160;MMIO32(dma_base + 0x00)</td></tr>
+<tr class="memitem:ga6d94c9580957aec3c23a0b1ca7d47468"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga6d94c9580957aec3c23a0b1ca7d47468">DMA_ISR</a>(dma_base)&#160;&#160;&#160;MMIO32((dma_base) + 0x00)</td></tr>
 <tr class="separator:ga6d94c9580957aec3c23a0b1ca7d47468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae546dd4d4b5b4c1f75926c572b9b4b6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gae546dd4d4b5b4c1f75926c572b9b4b6c">DMA1_ISR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga6d94c9580957aec3c23a0b1ca7d47468">DMA_ISR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>)</td></tr>
 <tr class="separator:gae546dd4d4b5b4c1f75926c572b9b4b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab6ce8d56cb4b93eb312539ed3721e052"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gab6ce8d56cb4b93eb312539ed3721e052">DMA2_ISR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga6d94c9580957aec3c23a0b1ca7d47468">DMA_ISR</a>(<a class="el" href="group__dma__defines.html#ga506520140eec1708bc7570c49bdf972d">DMA2</a>)</td></tr>
 <tr class="separator:gab6ce8d56cb4b93eb312539ed3721e052"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8df83f6a1d06f281f9b4d2b8e6edc8a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga8df83f6a1d06f281f9b4d2b8e6edc8a1">DMA_IFCR</a>(dma_base)&#160;&#160;&#160;MMIO32(dma_base + 0x04)</td></tr>
+<tr class="memitem:ga8df83f6a1d06f281f9b4d2b8e6edc8a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga8df83f6a1d06f281f9b4d2b8e6edc8a1">DMA_IFCR</a>(dma_base)&#160;&#160;&#160;MMIO32((dma_base) + 0x04)</td></tr>
 <tr class="separator:ga8df83f6a1d06f281f9b4d2b8e6edc8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac7525286f8eee2ac190de94811075900"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#gac7525286f8eee2ac190de94811075900">DMA1_IFCR</a>&#160;&#160;&#160;<a class="el" href="group__dma__defines.html#ga8df83f6a1d06f281f9b4d2b8e6edc8a1">DMA_IFCR</a>(<a class="el" href="group__dma__defines.html#gacc16d2a5937f7585320a98f7f6b578f9">DMA1</a>)</td></tr>
 <tr class="separator:gac7525286f8eee2ac190de94811075900"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,7 +296,7 @@ Macros</h2></td></tr>
 <tr class="memitem:ga2c361a2f90c1e5852a62ffc23704416a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__if__offset.html#ga2c361a2f90c1e5852a62ffc23704416a">DMA_GIF</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
 <tr class="memdesc:ga2c361a2f90c1e5852a62ffc23704416a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global Interrupt Flag.  <a href="group__dma__if__offset.html#ga2c361a2f90c1e5852a62ffc23704416a">More...</a><br /></td></tr>
 <tr class="separator:ga2c361a2f90c1e5852a62ffc23704416a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga53d418dcbe069d230ea7fe4c7f65ffd5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga53d418dcbe069d230ea7fe4c7f65ffd5">DMA_FLAG_OFFSET</a>(channel)&#160;&#160;&#160;(4*(channel - 1))</td></tr>
+<tr class="memitem:ga53d418dcbe069d230ea7fe4c7f65ffd5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga53d418dcbe069d230ea7fe4c7f65ffd5">DMA_FLAG_OFFSET</a>(channel)&#160;&#160;&#160;(4*((channel) - 1))</td></tr>
 <tr class="separator:ga53d418dcbe069d230ea7fe4c7f65ffd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga850db3ca90d45af6e76e7163a8af7dfe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dma__defines.html#ga850db3ca90d45af6e76e7163a8af7dfe">DMA_FLAGS</a></td></tr>
 <tr class="separator:ga850db3ca90d45af6e76e7163a8af7dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -613,7 +613,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="dma__common__l1f013_8h.html">dma_common_l1f013.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:27 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:03 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -179,7 +179,7 @@ $(document).ready(function(){initNavTree('scs_8h_source.html','');});
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/* System Handler Priority 8 bits Registers, SHPR1/2/3 */</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/* Note: 12 8bit Registers */</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="scs_8h.html#a0b01cbe730330dfdd47c4a779f804212">   47</a></span>&#160;<span class="preprocessor">#define SCS_SHPR(ipr_id)                MMIO8(SCS_BASE + 0xD18 + ipr_id)</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="scs_8h.html#a0b01cbe730330dfdd47c4a779f804212">   47</a></span>&#160;<span class="preprocessor">#define SCS_SHPR(ipr_id)                MMIO8(SCS_BASE + 0xD18 + (ipr_id))</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"> * Debug Halting Control and Status Register (DHCSR).</span></div>
@@ -489,7 +489,7 @@ $(document).ready(function(){initNavTree('scs_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="scs_8h.html">scs.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:21:12 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

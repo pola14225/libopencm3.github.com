@@ -218,7 +218,7 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">/* --- GPIO registers ------------------------------------------------------ */</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">/* GPIO data direction register (GPIOn_DIR) */</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gac3ff1d81b6ee02147458f7741b9877be">   88</a></span>&#160;<span class="preprocessor">#define GPIO_DIR(port)                  MMIO32(port + 0x00)</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gac3ff1d81b6ee02147458f7741b9877be">   88</a></span>&#160;<span class="preprocessor">#define GPIO_DIR(port)                  MMIO32((port) + 0x00)</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga0b50a4a494b54e799cd7c50ca4791695">   89</a></span>&#160;<span class="preprocessor">#define GPIO0_DIR                       GPIO_DIR(GPIO0)</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaeeb90ac05bd29dd3fcebd4f3eb7e2a48">   90</a></span>&#160;<span class="preprocessor">#define GPIO1_DIR                       GPIO_DIR(GPIO1)</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gacdae5625372a6ce7468c5358401da560">   91</a></span>&#160;<span class="preprocessor">#define GPIO2_DIR                       GPIO_DIR(GPIO2)</span></div>
@@ -226,7 +226,7 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gacf4f2ba194124af783993807d8453c71">   93</a></span>&#160;<span class="preprocessor">#define GPIO4_DIR                       GPIO_DIR(GPIO4)</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">/* GPIO fast mask register (GPIOn_DIR) */</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gafb61e564aaaaf972e7c0822af62790e5">   96</a></span>&#160;<span class="preprocessor">#define GPIO_MASK(port)                 MMIO32(port + 0x10)</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gafb61e564aaaaf972e7c0822af62790e5">   96</a></span>&#160;<span class="preprocessor">#define GPIO_MASK(port)                 MMIO32((port) + 0x10)</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga084723ed5c80c596c613b13b8e29131f">   97</a></span>&#160;<span class="preprocessor">#define GPIO0_MASK                      GPIO_MASK(GPIO0)</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gac82c864a10364309ce9c82dca35d50fd">   98</a></span>&#160;<span class="preprocessor">#define GPIO1_MASK                      GPIO_MASK(GPIO1)</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga981ec5e09790f5c217f2d47404c7138f">   99</a></span>&#160;<span class="preprocessor">#define GPIO2_MASK                      GPIO_MASK(GPIO2)</span></div>
@@ -234,7 +234,7 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga34836fb7e592269c53ce53ba07338eb2">  101</a></span>&#160;<span class="preprocessor">#define GPIO4_MASK                      GPIO_MASK(GPIO4)</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">/* GPIO port pin value register (GPIOn_PIN) */</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gae8e0313254238928a211259699b48dd2">  104</a></span>&#160;<span class="preprocessor">#define GPIO_PIN(port)                  MMIO32(port + 0x14)</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gae8e0313254238928a211259699b48dd2">  104</a></span>&#160;<span class="preprocessor">#define GPIO_PIN(port)                  MMIO32((port) + 0x14)</span></div>
 <div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga1170424ae60a94b8f955711c14499399">  105</a></span>&#160;<span class="preprocessor">#define GPIO0_PIN                       GPIO_PIN(GPIO0)</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gac6393fe1d938819aca2ba630c9b6b799">  106</a></span>&#160;<span class="preprocessor">#define GPIO1_PIN                       GPIO_PIN(GPIO1)</span></div>
 <div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gae6faa64b4d3214fc6d738657701eb01d">  107</a></span>&#160;<span class="preprocessor">#define GPIO2_PIN                       GPIO_PIN(GPIO2)</span></div>
@@ -242,7 +242,7 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gad34742086d3bed4a50818b6e7aecb029">  109</a></span>&#160;<span class="preprocessor">#define GPIO4_PIN                       GPIO_PIN(GPIO4)</span></div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">/* GPIO port output set register (GPIOn_SET) */</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gabdd35958f8a65c99ac36d92631e47968">  112</a></span>&#160;<span class="preprocessor">#define GPIO_SET(port)                  MMIO32(port + 0x18)</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gabdd35958f8a65c99ac36d92631e47968">  112</a></span>&#160;<span class="preprocessor">#define GPIO_SET(port)                  MMIO32((port) + 0x18)</span></div>
 <div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gab92fba35ee462cfd62d4b4c7d22f552a">  113</a></span>&#160;<span class="preprocessor">#define GPIO0_SET                       GPIO_SET(GPIO0)</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga61be6a1582c0cab8413c5eed461f5758">  114</a></span>&#160;<span class="preprocessor">#define GPIO1_SET                       GPIO_SET(GPIO1)</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga1c1d4d9ecaa37442943fb62326624481">  115</a></span>&#160;<span class="preprocessor">#define GPIO2_SET                       GPIO_SET(GPIO2)</span></div>
@@ -250,7 +250,7 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga252fffbf5520e74ddb88bca2ad0399a9">  117</a></span>&#160;<span class="preprocessor">#define GPIO4_SET                       GPIO_SET(GPIO4)</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">/* GPIO port output clear register (GPIOn_CLR) */</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga10e62eb07e5c02dcdadd0cc1c072f504">  120</a></span>&#160;<span class="preprocessor">#define GPIO_CLR(port)                  MMIO32(port + 0x1C)</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga10e62eb07e5c02dcdadd0cc1c072f504">  120</a></span>&#160;<span class="preprocessor">#define GPIO_CLR(port)                  MMIO32((port) + 0x1C)</span></div>
 <div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gacd131bfc0882b681f9a6c4e23e3033ec">  121</a></span>&#160;<span class="preprocessor">#define GPIO0_CLR                       GPIO_CLR(GPIO0)</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga474ad64aa9ca4208fd7643e50bb982c5">  122</a></span>&#160;<span class="preprocessor">#define GPIO1_CLR                       GPIO_CLR(GPIO1)</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga206c730fda6109a20ed300f21a7bb3eb">  123</a></span>&#160;<span class="preprocessor">#define GPIO2_CLR                       GPIO_CLR(GPIO2)</span></div>
@@ -300,7 +300,7 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_33c5f16cd77f7881097367e4c9351f70.html">lpc17xx</a></li><li class="navelem"><a class="el" href="gpio_8h.html">gpio.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:42 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

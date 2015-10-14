@@ -230,7 +230,7 @@ $(document).ready(function(){initNavTree('rtc__common__l1f024_8h_source.html',''
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">/* RTC backup registers (RTC_BKPxR) */</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="group__rtc__defines.html#ga1d7765dbc5fc80310d28f75cb3d71089">   97</a></span>&#160;<span class="preprocessor">#define RTC_BKP_BASE    (RTC_BASE + 0x50)</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="group__rtc__defines.html#gab701eac43b9bf61cd11922c15a4d8ee1">   98</a></span>&#160;<span class="preprocessor">#define RTC_BKPXR(reg)  MMIO32(RTC_BKP_BASE + (4*reg))</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="group__rtc__defines.html#gab701eac43b9bf61cd11922c15a4d8ee1">   98</a></span>&#160;<span class="preprocessor">#define RTC_BKPXR(reg)  MMIO32(RTC_BKP_BASE + (4 * (reg)))</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">/* RTC time register (RTC_TR) ----------------------------------- */</span></div>
@@ -492,7 +492,7 @@ $(document).ready(function(){initNavTree('rtc__common__l1f024_8h_source.html',''
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="rtc__common__l1f024_8h.html">rtc_common_l1f024.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:02 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:22:29 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('nvic_8h_source.html','');});
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/* Note: 8 32bit Registers */</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">/* Note: Single register on CM0 */</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="group__CM3__nvic__defines.html#ga56d60698b9aa6c8bc051d3c81e1a1ee3">   48</a></span>&#160;<span class="preprocessor">#define NVIC_ISER(iser_id)              MMIO32(NVIC_BASE + 0x00 + \</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">                                                (iser_id * 4))</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">                                                ((iser_id) * 4))</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/* NVIC_BASE + 0x020 (0xE000 E120 - 0xE000 E17F): Reserved */</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('nvic_8h_source.html','');});
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">/* Note: 8 32bit Registers */</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">/* Note: Single register on CM0 */</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="group__CM3__nvic__defines.html#ga3fa79c5ca67b7a9037cf9ddc28e43c00">   56</a></span>&#160;<span class="preprocessor">#define NVIC_ICER(icer_id)              MMIO32(NVIC_BASE + 0x80 + \</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">                                                (icer_id * 4))</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">                                                ((icer_id) * 4))</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">/* NVIC_BASE + 0x0A0 (0xE000 E1A0 - 0xE000 E1FF): Reserved */</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
@@ -197,7 +197,7 @@ $(document).ready(function(){initNavTree('nvic_8h_source.html','');});
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">/* Note: 8 32bit Registers */</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">/* Note: Single register on CM0 */</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="group__CM3__nvic__defines.html#ga6be3b05499bafab037e23f25d63d621c">   64</a></span>&#160;<span class="preprocessor">#define NVIC_ISPR(ispr_id)              MMIO32(NVIC_BASE + 0x100 + \</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">                                                (ispr_id * 4))</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">                                                ((ispr_id) * 4))</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">/* NVIC_BASE + 0x120 (0xE000 E220 - 0xE000 E27F): Reserved */</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
@@ -205,7 +205,7 @@ $(document).ready(function(){initNavTree('nvic_8h_source.html','');});
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">/* Note: 8 32bit Registers */</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">/* Note: Single register on CM0 */</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="group__CM3__nvic__defines.html#gabbdb5811b29c0b99ebd769b35fc6b77d">   72</a></span>&#160;<span class="preprocessor">#define NVIC_ICPR(icpr_id)              MMIO32(NVIC_BASE + 0x180 + \</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">                                                (icpr_id * 4))</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">                                                ((icpr_id) * 4))</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">/* NVIC_BASE + 0x1A0 (0xE000 E2A0 - 0xE00 E2FF): Reserved */</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
@@ -214,7 +214,7 @@ $(document).ready(function(){initNavTree('nvic_8h_source.html','');});
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">/* IABR: Interrupt Active Bit Register */</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">/* Note: 8 32bit Registers */</span></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#define NVIC_IABR(iabr_id)              MMIO32(NVIC_BASE + 0x200 + \</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">                                                (iabr_id * 4))</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">                                                ((iabr_id) * 4))</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">/* NVIC_BASE + 0x220 (0xE000 E320 - 0xE000 E3FF): Reserved */</span></div>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('nvic_8h_source.html','');});
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">/* Note: 240 8bit Registers */</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">/* Note: 32 8bit Registers on CM0 */</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="group__CM3__nvic__defines.html#gac70cd532c336bcab3735403a1e0a8c48">   90</a></span>&#160;<span class="preprocessor">#define NVIC_IPR(ipr_id)                MMIO8(NVIC_BASE + 0x300 + \</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">                                                ipr_id)</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">                                                (ipr_id))</span></div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#if defined(__ARM_ARCH_7M__) || defined(__ARM_ARCH_7EM__)</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">/* STIR: Software Trigger Interrupt Register */</span></div>
@@ -331,7 +331,7 @@ $(document).ready(function(){initNavTree('nvic_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="nvic_8h.html">nvic.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:21:12 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

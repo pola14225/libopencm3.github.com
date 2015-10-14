@@ -185,15 +185,15 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#gaf3cc04d651b622d5323d74dc2f0999a0">   52</a></span>&#160;<span class="preprocessor">#define GPIO3                           (GPIO_BASE + 0x0C0)</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">   53</a></span>&#160;<span class="preprocessor">#define GPIO4                           (GPIO_BASE + 0x100)</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#ga818ab67c31ae580a2a69a612ca367636">   55</a></span>&#160;<span class="preprocessor">#define GPIO_OFFSET(gpio)               (0x1 &lt;&lt; (gpio % 32))</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#ga818ab67c31ae580a2a69a612ca367636">   55</a></span>&#160;<span class="preprocessor">#define GPIO_OFFSET(gpio)               (0x1 &lt;&lt; ((gpio) % 32))</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">/* --- GPIO registers ------------------------------------------------------ */</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#ga5770347332067232f740789d48d981b8">   59</a></span>&#160;<span class="preprocessor">#define GPIO_PDOR(gpio_base)            MMIO32(gpio_base + 0x00)</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#ga1be85d716551f31e1e0dad7bd33dd77e">   60</a></span>&#160;<span class="preprocessor">#define GPIO_PSOR(gpio_base)            MMIO32(gpio_base + 0x04)</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#gabaa5a4dcfdd54049351141cfc819edf3">   61</a></span>&#160;<span class="preprocessor">#define GPIO_PCOR(gpio_base)            MMIO32(gpio_base + 0x08)</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#ga0e5e080f71cdd8627ae691b88fb2dd57">   62</a></span>&#160;<span class="preprocessor">#define GPIO_PTOR(gpio_base)            MMIO32(gpio_base + 0x0C)</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#gaad3f82da6354acc16f061e465378c1dd">   63</a></span>&#160;<span class="preprocessor">#define GPIO_PDIR(gpio_base)            MMIO32(gpio_base + 0x10)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#ga5770347332067232f740789d48d981b8">   59</a></span>&#160;<span class="preprocessor">#define GPIO_PDOR(gpio_base)            MMIO32((gpio_base) + 0x00)</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#ga1be85d716551f31e1e0dad7bd33dd77e">   60</a></span>&#160;<span class="preprocessor">#define GPIO_PSOR(gpio_base)            MMIO32((gpio_base) + 0x04)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#gabaa5a4dcfdd54049351141cfc819edf3">   61</a></span>&#160;<span class="preprocessor">#define GPIO_PCOR(gpio_base)            MMIO32((gpio_base) + 0x08)</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#ga0e5e080f71cdd8627ae691b88fb2dd57">   62</a></span>&#160;<span class="preprocessor">#define GPIO_PTOR(gpio_base)            MMIO32((gpio_base) + 0x0C)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="group__gpio__reg__base.html#gaad3f82da6354acc16f061e465378c1dd">   63</a></span>&#160;<span class="preprocessor">#define GPIO_PDIR(gpio_base)            MMIO32((gpio_base) + 0x10)</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/* --- Function prototypes ------------------------------------------------- */</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
@@ -224,7 +224,7 @@ $(document).ready(function(){initNavTree('gpio_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_e2ef95e67ca3d34d3e4c47126531d36f.html">vf6xx</a></li><li class="navelem"><a class="el" href="gpio_8h.html">gpio.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:53 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:42 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

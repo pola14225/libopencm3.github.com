@@ -168,66 +168,66 @@ $(document).ready(function(){initNavTree('uart_8h_source.html','');});
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">/* --- UART registers ------------------------------------------------------- */</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">/* Receiver Buffer Register (DLAB=0) Read Only */</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="uart_8h.html#ad4e1d9aac3dff12d9dc7f6c0f0ad7bcb">   37</a></span>&#160;<span class="preprocessor">#define UART_RBR(port)                  MMIO32(port + 0x000) </span><span class="comment">/* 8bits */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="uart_8h.html#ad4e1d9aac3dff12d9dc7f6c0f0ad7bcb">   37</a></span>&#160;<span class="preprocessor">#define UART_RBR(port)                  MMIO32((port) + 0x000) </span><span class="comment">/* 8bits */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">/* Transmitter Holding Register (DLAB=0) Write Only */</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="uart_8h.html#a9b3cbfc366c0535e994fdff205b12d32">   40</a></span>&#160;<span class="preprocessor">#define UART_THR(port)                  MMIO32(port + 0x000) </span><span class="comment">/* 8bits */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="uart_8h.html#a9b3cbfc366c0535e994fdff205b12d32">   40</a></span>&#160;<span class="preprocessor">#define UART_THR(port)                  MMIO32((port) + 0x000) </span><span class="comment">/* 8bits */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/* Divisor Latch LSB Register (DLAB=1) */</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="uart_8h.html#a1c288c990807eb88e5f16a169559ab45">   43</a></span>&#160;<span class="preprocessor">#define UART_DLL(port)                  MMIO32(port + 0x000) </span><span class="comment">/* 8bits */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="uart_8h.html#a1c288c990807eb88e5f16a169559ab45">   43</a></span>&#160;<span class="preprocessor">#define UART_DLL(port)                  MMIO32((port) + 0x000) </span><span class="comment">/* 8bits */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/* Divisor Latch MSB Register (DLAB=1) */</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="uart_8h.html#a9ae767b689b24215dd418d03ac8cdf0e">   46</a></span>&#160;<span class="preprocessor">#define UART_DLM(port)                  MMIO32(port + 0x004) </span><span class="comment">/* 8bits */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="uart_8h.html#a9ae767b689b24215dd418d03ac8cdf0e">   46</a></span>&#160;<span class="preprocessor">#define UART_DLM(port)                  MMIO32((port) + 0x004) </span><span class="comment">/* 8bits */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/* Interrupt Enable Register (DLAB=0) */</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="uart_8h.html#af9dc77090bcf5662eff4afe80c26ff79">   49</a></span>&#160;<span class="preprocessor">#define UART_IER(port)                  MMIO32(port + 0x004)</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="uart_8h.html#af9dc77090bcf5662eff4afe80c26ff79">   49</a></span>&#160;<span class="preprocessor">#define UART_IER(port)                  MMIO32((port) + 0x004)</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/* Interrupt ID Register Read Only */</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="uart_8h.html#a82c7162a30190188141fc6bef671a7eb">   52</a></span>&#160;<span class="preprocessor">#define UART_IIR(port)                  MMIO32(port + 0x008)</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="uart_8h.html#a82c7162a30190188141fc6bef671a7eb">   52</a></span>&#160;<span class="preprocessor">#define UART_IIR(port)                  MMIO32((port) + 0x008)</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">/* FIFO Control Register Write Only */</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="uart_8h.html#afeb225146f1feb89226c7bb19b1cb360">   55</a></span>&#160;<span class="preprocessor">#define UART_FCR(port)                  MMIO32(port + 0x008)</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="uart_8h.html#afeb225146f1feb89226c7bb19b1cb360">   55</a></span>&#160;<span class="preprocessor">#define UART_FCR(port)                  MMIO32((port) + 0x008)</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">/* Line Control Register */</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="uart_8h.html#a84442521d3913d86d5f9e0ac16d3d6b5">   58</a></span>&#160;<span class="preprocessor">#define UART_LCR(port)                  MMIO32(port + 0x00C)</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="uart_8h.html#a84442521d3913d86d5f9e0ac16d3d6b5">   58</a></span>&#160;<span class="preprocessor">#define UART_LCR(port)                  MMIO32((port) + 0x00C)</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/* MCR only for UART1 */</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">/* Line Status Register */</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="uart_8h.html#ad824a21be3269bce380968485396aa24">   63</a></span>&#160;<span class="preprocessor">#define UART_LSR(port)                  MMIO32(port + 0x014)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="uart_8h.html#ad824a21be3269bce380968485396aa24">   63</a></span>&#160;<span class="preprocessor">#define UART_LSR(port)                  MMIO32((port) + 0x014)</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/* Auto Baud Control Register */</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="uart_8h.html#ae7e9f98d69035df9881a88b8850c6383">   66</a></span>&#160;<span class="preprocessor">#define UART_ACR(port)                  MMIO32(port + 0x020)</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="uart_8h.html#ae7e9f98d69035df9881a88b8850c6383">   66</a></span>&#160;<span class="preprocessor">#define UART_ACR(port)                  MMIO32((port) + 0x020)</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">/* IrDA Control Register only for UART0/2/3 */</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="uart_8h.html#a03d7b67206a0669d193a27149db26b90">   69</a></span>&#160;<span class="preprocessor">#define UART_ICR(port)                  MMIO32(port + 0x024)</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="uart_8h.html#a03d7b67206a0669d193a27149db26b90">   69</a></span>&#160;<span class="preprocessor">#define UART_ICR(port)                  MMIO32((port) + 0x024)</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">/* Fractional Divider Register */</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="uart_8h.html#ae640f6764405d969645c89c052c608fe">   72</a></span>&#160;<span class="preprocessor">#define UART_FDR(port)                  MMIO32(port + 0x028)</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="uart_8h.html#ae640f6764405d969645c89c052c608fe">   72</a></span>&#160;<span class="preprocessor">#define UART_FDR(port)                  MMIO32((port) + 0x028)</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">/* Oversampling Register only for UART0/2/3 */</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="uart_8h.html#a008dc31f41dda54e44094d93001eae5a">   75</a></span>&#160;<span class="preprocessor">#define UART_OSR(port)                  MMIO32(port + 0x02C)</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="uart_8h.html#a008dc31f41dda54e44094d93001eae5a">   75</a></span>&#160;<span class="preprocessor">#define UART_OSR(port)                  MMIO32((port) + 0x02C)</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">/* Half-Duplex enable Register only for UART0/2/3 */</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="uart_8h.html#a142f1c14716c2ecc09bd4d961132c703">   78</a></span>&#160;<span class="preprocessor">#define UART_HDEN(port)                 MMIO32(port + 0x040)</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="uart_8h.html#a142f1c14716c2ecc09bd4d961132c703">   78</a></span>&#160;<span class="preprocessor">#define UART_HDEN(port)                 MMIO32((port) + 0x040)</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">/* Smart card Interface Register Only for UART0/2/3 */</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="uart_8h.html#a89779fa47e97929ebb663599dbb9b503">   81</a></span>&#160;<span class="preprocessor">#define UART_SCICTRL(port)              MMIO32(port + 0x048)</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="uart_8h.html#a89779fa47e97929ebb663599dbb9b503">   81</a></span>&#160;<span class="preprocessor">#define UART_SCICTRL(port)              MMIO32((port) + 0x048)</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">/* RS-485/EIA-485 Control Register */</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="uart_8h.html#a11f4b959bbece72f970eacc3283735e3">   84</a></span>&#160;<span class="preprocessor">#define UART_RS485CTRL(port)            MMIO32(port + 0x04C)</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="uart_8h.html#a11f4b959bbece72f970eacc3283735e3">   84</a></span>&#160;<span class="preprocessor">#define UART_RS485CTRL(port)            MMIO32((port) + 0x04C)</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* RS-485/EIA-485 Address Match Register */</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="uart_8h.html#ae7056bf41426dccc3fd7f66f41c6e01a">   87</a></span>&#160;<span class="preprocessor">#define UART_RS485ADRMATCH(port)        MMIO32(port + 0x050)</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="uart_8h.html#ae7056bf41426dccc3fd7f66f41c6e01a">   87</a></span>&#160;<span class="preprocessor">#define UART_RS485ADRMATCH(port)        MMIO32((port) + 0x050)</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">/* RS-485/EIA-485 Direction Control Delay Register */</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="uart_8h.html#a17960663327bc01ef95e03bdab8c08d0">   90</a></span>&#160;<span class="preprocessor">#define UART_RS485DLY(port)             MMIO32(port + 0x054)</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="uart_8h.html#a17960663327bc01ef95e03bdab8c08d0">   90</a></span>&#160;<span class="preprocessor">#define UART_RS485DLY(port)             MMIO32((port) + 0x054)</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/* Synchronous Mode Control Register only for UART0/2/3 */</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="uart_8h.html#a2fde2ab446b290e4a29f75a34eec955c">   93</a></span>&#160;<span class="preprocessor">#define UART_SYNCCTRL(port)             MMIO32(port + 0x058)</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="uart_8h.html#a2fde2ab446b290e4a29f75a34eec955c">   93</a></span>&#160;<span class="preprocessor">#define UART_SYNCCTRL(port)             MMIO32((port) + 0x058)</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">/* Transmit Enable Register */</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="uart_8h.html#aa6d3bea45e0c0f88130889dc8198862e">   96</a></span>&#160;<span class="preprocessor">#define UART_TER(port)                  MMIO32(port + 0x05C)</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="uart_8h.html#aa6d3bea45e0c0f88130889dc8198862e">   96</a></span>&#160;<span class="preprocessor">#define UART_TER(port)                  MMIO32((port) + 0x05C)</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">/* --------------------- BIT DEFINITIONS ----------------------------------- */</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">/***********************************************************************</span></div>
@@ -425,7 +425,7 @@ $(document).ready(function(){initNavTree('uart_8h_source.html','');});
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment">/* IrDA fixed pulse width mode */</span></div>
 <div class="line"><a name="l00292"></a><span class="lineno"><a class="line" href="uart_8h.html#ae022dc3e5ad94f95d2805294d97594cd">  292</a></span>&#160;<span class="preprocessor">#define UART_ICR_FIXPULSE_EN            (1 &lt;&lt; 2)</span></div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="comment">/* PulseDiv - Configures the pulse when FixPulseEn = 1 */</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="uart_8h.html#a2c4fd2b4e5050b400349138942bfb307">  294</a></span>&#160;<span class="preprocessor">#define UART_ICR_PULSEDIV(n)            ((uint32_t)((n&amp;0x07)&lt;&lt;3))</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="uart_8h.html#a2c4fd2b4e5050b400349138942bfb307">  294</a></span>&#160;<span class="preprocessor">#define UART_ICR_PULSEDIV(n)            ((uint32_t)(((n)&amp;0x07)&lt;&lt;3))</span></div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="comment">/* UART IRDA bit mask */</span></div>
 <div class="line"><a name="l00296"></a><span class="lineno"><a class="line" href="uart_8h.html#a822d618fad4a8a146fd8113f827b5d09">  296</a></span>&#160;<span class="preprocessor">#define UART_ICR_BITMASK                ((uint32_t)(0x3F))</span></div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
@@ -445,9 +445,9 @@ $(document).ready(function(){initNavTree('uart_8h_source.html','');});
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="comment">/* ISO7816-3 protocol T1 is selected*/</span></div>
 <div class="line"><a name="l00312"></a><span class="lineno"><a class="line" href="uart_8h.html#a48e869912cabe85bef5d11cda3b773f4">  312</a></span>&#160;<span class="preprocessor">#define UART_SCICTRL_PROTSEL_T1         (1 &lt;&lt; 2)</span></div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="comment">/* number of retransmission*/</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="uart_8h.html#add17c8f0f6239c42d18e4af35ee3effc">  314</a></span>&#160;<span class="preprocessor">#define UART_SCICTRL_TXRETRY(n)         ((uint32_t)((n&amp;0x07)&lt;&lt;5))</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="uart_8h.html#add17c8f0f6239c42d18e4af35ee3effc">  314</a></span>&#160;<span class="preprocessor">#define UART_SCICTRL_TXRETRY(n)         ((uint32_t)(((n)&amp;0x07)&lt;&lt;5))</span></div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="comment">/* Extra guard time*/</span></div>
-<div class="line"><a name="l00316"></a><span class="lineno"><a class="line" href="uart_8h.html#ac74665d22f8c0c1b18f46a65bbe5031a">  316</a></span>&#160;<span class="preprocessor">#define UART_SCICTRL_GUARDTIME(n)       ((uint32_t)((n&amp;0xFF)&lt;&lt;8))</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno"><a class="line" href="uart_8h.html#ac74665d22f8c0c1b18f46a65bbe5031a">  316</a></span>&#160;<span class="preprocessor">#define UART_SCICTRL_GUARDTIME(n)       ((uint32_t)(((n)&amp;0xFF)&lt;&lt;8))</span></div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment">/*********************************************************************</span></div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment">* Macro defines for Macro defines for UART synchronous control register</span></div>
@@ -472,9 +472,9 @@ $(document).ready(function(){initNavTree('uart_8h_source.html','');});
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="comment">**********************************************************************/</span></div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="comment">/* Baud-rate generation pre-scaler divisor */</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno"><a class="line" href="uart_8h.html#a08ae53568f606c894a5ffd764cef6171">  341</a></span>&#160;<span class="preprocessor">#define UART_FDR_DIVADDVAL(n)           ((uint32_t)(n&amp;0x0F))</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno"><a class="line" href="uart_8h.html#a08ae53568f606c894a5ffd764cef6171">  341</a></span>&#160;<span class="preprocessor">#define UART_FDR_DIVADDVAL(n)           ((uint32_t)((n)&amp;0x0F))</span></div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="comment">/* Baud-rate pre-scaler multiplier value */</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno"><a class="line" href="uart_8h.html#a728a262cba31ffd0d7b4fb172f6dead7">  343</a></span>&#160;<span class="preprocessor">#define UART_FDR_MULVAL(n)              ((uint32_t)((n&lt;&lt;4)&amp;0xF0))</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno"><a class="line" href="uart_8h.html#a728a262cba31ffd0d7b4fb172f6dead7">  343</a></span>&#160;<span class="preprocessor">#define UART_FDR_MULVAL(n)              ((uint32_t)(((n)&lt;&lt;4)&amp;0xF0))</span></div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="comment">/* UART Fractional Divider register bit mask */</span></div>
 <div class="line"><a name="l00345"></a><span class="lineno"><a class="line" href="uart_8h.html#a61a8f74c3fc22574793c6218b90fec50">  345</a></span>&#160;<span class="preprocessor">#define UART_FDR_BITMASK                ((uint32_t)(0xFF))</span></div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
@@ -488,9 +488,9 @@ $(document).ready(function(){initNavTree('uart_8h_source.html','');});
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="comment">* Macro defines for Macro defines for UART FIFO Level register</span></div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="comment">**********************************************************************/</span></div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="comment">/* Reflects the current level of the UART receiver FIFO */</span></div>
-<div class="line"><a name="l00357"></a><span class="lineno"><a class="line" href="uart_8h.html#ab93514420a7e165ae356862b5dc4b4b5">  357</a></span>&#160;<span class="preprocessor">#define UART_FIFOLVL_RX(n)              ((uint32_t)(n&amp;0x0F))</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno"><a class="line" href="uart_8h.html#ab93514420a7e165ae356862b5dc4b4b5">  357</a></span>&#160;<span class="preprocessor">#define UART_FIFOLVL_RX(n)              ((uint32_t)((n)&amp;0x0F))</span></div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="comment">/* Reflects the current level of the UART transmitter FIFO */</span></div>
-<div class="line"><a name="l00359"></a><span class="lineno"><a class="line" href="uart_8h.html#a437c8974d628c29552e801835cd2231d">  359</a></span>&#160;<span class="preprocessor">#define UART_FIFOLVL_TX(n)              ((uint32_t)((n&gt;&gt;8)&amp;0x0F))</span></div>
+<div class="line"><a name="l00359"></a><span class="lineno"><a class="line" href="uart_8h.html#a437c8974d628c29552e801835cd2231d">  359</a></span>&#160;<span class="preprocessor">#define UART_FIFOLVL_TX(n)              ((uint32_t)(((n)&gt;&gt;8)&amp;0x0F))</span></div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<span class="comment">/* UART FIFO Level Register bit mask */</span></div>
 <div class="line"><a name="l00361"></a><span class="lineno"><a class="line" href="uart_8h.html#a82a3ea474232bf0d4f9811099ab6e236">  361</a></span>&#160;<span class="preprocessor">#define UART_FIFOLVL_BITMASK            ((uint32_t)(0x0F0F))</span></div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;</div>
@@ -624,7 +624,7 @@ $(document).ready(function(){initNavTree('uart_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_12cbe415035b10731c6746d0c7b754c9.html">lpc43xx</a></li><li class="navelem"><a class="el" href="uart_8h.html">uart.h</a></li>
-    <li class="footer">Generated on Wed Oct 14 2015 23:22:44 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 00:23:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
