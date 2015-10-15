@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"st__usbfs__core_8h.html#acce335842d932e14e67aa6a95a6c6a85":[27,0,51,4],
 "st__usbfs__core_8h.html#acdf1dfa321555f6a9fb3d2a2dadf34ec":[27,0,51,10],
 "st__usbfs__core_8h.html#ad7c4fdb45c14c289193e35e4c3a4b383":[27,0,51,0],
 "st__usbfs__core_8h.html#ad8c8598246c529f5584a52b8efd54052":[27,0,51,7],
