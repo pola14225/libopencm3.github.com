@@ -11,6 +11,7 @@ var NAVTREE =
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
     [ "STM32F3", "../../stm32f3/html/modules.html", null ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
+    [ "STM32F7", "../../stm32f7/html/modules.html", null ],
     [ "STM32L0", "../../stm32l0/html/modules.html", null ],
     [ "STM32L1", "../../stm32l1/html/modules.html", null ],
     [ "LM3S", "../../lm3s/html/modules.html", null ],
@@ -45,8 +46,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__gpio__pin__id.html#ga3820cacb614277004870fc37b33ad084",
-"group__ssi__defines.html#gaca41a444d99801dc07b1609434322289",
+"group__gpio__pin__id.html#ga20f88dbc839eb32b5fec903474befdd7",
+"group__ssi__defines.html#gac92b2290be2869027821a1fc31c5a43e",
 "group__systemcontrol__defines.html#ga7448a6a094aaef1fd7f75728ede64b52",
 "group__systemcontrol__defines.html#gaf73977c87d091aa6159296f472745bf1",
 "group__systemcontrol__defines.html#gga216f3c694b4491151311f37062d17d7cab043d91156620faf65bd2e7ba3b4892f",

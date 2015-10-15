@@ -10,6 +10,7 @@ var NAVTREE =
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
     [ "STM32F3", "../../stm32f3/html/modules.html", null ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
+    [ "STM32F7", "../../stm32f7/html/modules.html", null ],
     [ "STM32L0", "../../stm32l0/html/modules.html", null ],
     [ "STM32L1", "../../stm32l1/html/modules.html", null ],
     [ "LM3S", "../../lm3s/html/modules.html", null ],
@@ -42,7 +43,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"smc__common__3a3u3x_8h.html#a3cbd4655ae5878036c136f239b3d2cc2"
+"smc__common__3a3u3x_8h.html#a3ab67a1fdf6b41f3b61dc6c8e532ad63"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

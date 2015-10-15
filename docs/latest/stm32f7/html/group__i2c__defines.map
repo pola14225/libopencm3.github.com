@@ -1,0 +1,6 @@
+<map id="I2c_defines" name="I2c_defines">
+<area shape="rect" id="node1" href="$group__i2c__duty__cycle.html" title="I2C peripheral clock\l duty cycles" alt="" coords="159,5,298,47"/>
+<area shape="rect" id="node2" href="$group__i2c__clock.html" title="I2C clock frequency\l settings" alt="" coords="159,71,298,112"/>
+<area shape="rect" id="node4" href="$group__i2c__reg__base.html" title="I2C register base address" alt="" coords="143,137,315,163"/>
+<area shape="rect" id="node5" href="$group__i2c__rw.html" title="I2C Read/Write bit" alt="" coords="163,187,294,214"/>
+</map>

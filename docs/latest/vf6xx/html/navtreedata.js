@@ -11,6 +11,8 @@ var NAVTREE =
     [ "STM32F2", "../../stm32f2/html/modules.html", null ],
     [ "STM32F3", "../../stm32f3/html/modules.html", null ],
     [ "STM32F4", "../../stm32f4/html/modules.html", null ],
+    [ "STM32F7", "../../stm32f7/html/modules.html", null ],
+    [ "STM32L0", "../../stm32l0/html/modules.html", null ],
     [ "STM32L1", "../../stm32l1/html/modules.html", null ],
     [ "LM3S", "../../lm3s/html/modules.html", null ],
     [ "LM4F", "../../lm4f/html/modules.html", null ],
@@ -44,11 +46,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"ccm_8h.html#a84a928e7529bf26b5b2c4d997c9c51e0a4640884ce2832f921a4a8c3c4c3abe2a",
-"group__VF6xx__uart.html#gaf6523bb8fcd1477c415ac872cc3230f8",
-"group__iomuxc__reg.html#ggabe85842e70bd95e3488bbe970ef3e972a3e5075d2d42e5e859454e2668ce9f3e7",
+"ccm_8h.html#a84a928e7529bf26b5b2c4d997c9c51e0a41f80026744351d2880d202a659289ca",
+"group__VF6xx__uart.html#gaeeeab1eb4a05f24958eeb38a93c9e0e8",
+"group__iomuxc__reg.html#ggabe85842e70bd95e3488bbe970ef3e972a3cf4c4ba85dee31382c481c0bd3f2ab0",
 "group__iomuxc__reg.html#ggabe85842e70bd95e3488bbe970ef3e972ad36ea4396c868cf77dde06fc81a28c61",
-"memorymap_8h.html#a69607989f61611605a2bc360c4683d26"
+"memorymap_8h.html#a383bf0c4670c3a7fa72df80f66331a46"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

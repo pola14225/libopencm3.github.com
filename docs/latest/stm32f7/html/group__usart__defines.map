@@ -1,0 +1,8 @@
+<map id="Usart_defines" name="Usart_defines">
+<area shape="rect" id="node1" href="$group__usart__cr1__mode.html" title="USART Tx/Rx Mode Selection" alt="" coords="156,5,359,32"/>
+<area shape="rect" id="node2" href="$group__usart__cr2__stopbits.html" title="USART Stop Bit Selection" alt="" coords="169,56,346,83"/>
+<area shape="rect" id="node3" href="$group__usart__cr3__flowcontrol.html" title="USART Hardware Flow\l Control Selection" alt="" coords="177,107,337,149"/>
+<area shape="rect" id="node4" href="$group__usart__sr__flags.html" title="USART Status register\l Flags" alt="" coords="179,173,336,214"/>
+<area shape="rect" id="node5" href="$group__usart__reg__base.html" title="USART register base\l addresses" alt="" coords="184,238,331,279"/>
+<area shape="rect" id="node6" href="$group__usart__cr1__parity.html" title="USART Parity Selection" alt="" coords="175,304,339,331"/>
+</map>
