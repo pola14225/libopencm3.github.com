@@ -8,8 +8,6 @@ var files =
     [ "crc.h", "crc_8h.html", "crc_8h" ],
     [ "crc_common_all.c", "crc__common__all_8c.html", "crc__common__all_8c" ],
     [ "crc_common_all.h", "crc__common__all_8h.html", "crc__common__all_8h" ],
-    [ "crs_common_all.c", "crs__common__all_8c.html", "crs__common__all_8c" ],
-    [ "crs_common_all.h", "crs__common__all_8h.html", "crs__common__all_8h" ],
     [ "dac.c", "dac_8c.html", null ],
     [ "dac.h", "dac_8h.html", null ],
     [ "dac_common_all.c", "dac__common__all_8c.html", "dac__common__all_8c" ],

@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['_5frcc_5fbit',['_RCC_BIT',['../rcc__common__all_8c.html#a913261b5f48c6ace5e2cfbc0fc9bca78',1,'rcc_common_all.c']]],
-  ['_5frcc_5freg',['_RCC_REG',['../rcc__common__all_8c.html#a2c87be3073302923a51e2940225ce6f3',1,'rcc_common_all.c']]]
+  ['adc1_5fbase',['ADC1_BASE',['../memorymap_8h.html#a695c9a2f892363a1c942405c8d351b91',1,'memorymap.h']]],
+  ['adc2_5fbase',['ADC2_BASE',['../memorymap_8h.html#a6544abc57f9759f610eee09a02442ae6',1,'memorymap.h']]],
+  ['adc3_5fbase',['ADC3_BASE',['../memorymap_8h.html#aca766f86c8e0b00a8e2b0224dcbb4c82',1,'memorymap.h']]],
+  ['afio_5fbase',['AFIO_BASE',['../memorymap_8h.html#a5f7e3eacfcf4c313c25012795148a680',1,'memorymap.h']]]
 ];

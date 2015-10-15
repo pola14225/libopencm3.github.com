@@ -183,8 +183,6 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="crc__common__all_8h_source.html#l00053">53</a> of file <a class="el" href="crc__common__all_8h_source.html">crc_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="crc__common__all_8c_source.html#l00037">crc_reset()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga7d57481fb891a0964b40f721354c56d7"></a>
@@ -199,8 +197,6 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="crc__common__all_8h_source.html#l00074">74</a> of file <a class="el" href="crc__common__all_8h_source.html">crc_common_all.h</a>.</p>
 
-<p>Referenced by <a class="el" href="crc__common__all_8c_source.html#l00037">crc_reset()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gabd554ab402ee4c39b7982ecbc2b4bc80"></a>
@@ -214,8 +210,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="crc__common__all_8h_source.html#l00047">47</a> of file <a class="el" href="crc__common__all_8h_source.html">crc_common_all.h</a>.</p>
-
-<p>Referenced by <a class="el" href="crc__common__all_8c_source.html#l00052">crc_calculate()</a>, and <a class="el" href="crc__common__all_8c_source.html#l00070">crc_calculate_block()</a>.</p>
 
 </div>
 </div>
@@ -255,20 +249,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>final CRC calculator value</dd></dl>
-<p>Add a word to the CRC calculator and return the result.</p>
-<p>Writes a data word to the register, the write operation stalling until the computation is complete.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Unsigned int32. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int32 Computed CRC result </dd></dl>
-
-<p>Definition at line <a class="el" href="crc__common__all_8c_source.html#l00052">52</a> of file <a class="el" href="crc__common__all_8c_source.html">crc_common_all.c</a>.</p>
-
-<p>References <a class="el" href="crc__common__all_8h_source.html#l00047">CRC_DR</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd>final CRC calculator value </dd></dl>
 
 </div>
 </div>
@@ -304,21 +285,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>final CRC calculator value</dd></dl>
-<p>Add a block of data to the CRC calculator and return the final result.</p>
-<p>Writes data words consecutively to the register, the write operation stalling until the computation of each word is complete.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">datap</td><td>Unsigned int32. pointer to an array of 32 bit data words. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>int. Size of the array. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int32 Final computed CRC result </dd></dl>
-
-<p>Definition at line <a class="el" href="crc__common__all_8c_source.html#l00070">70</a> of file <a class="el" href="crc__common__all_8c_source.html">crc_common_all.c</a>.</p>
-
-<p>References <a class="el" href="crc__common__all_8h_source.html#l00047">CRC_DR</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd>final CRC calculator value </dd></dl>
 
 </div>
 </div>
@@ -337,12 +304,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reset the CRC calculator to initial values. </p>
-<p>Reset the CRC calculator to initial values.</p>
-<p>Reset the CRC unit and forces the data register to all 1s. </p>
-
-<p>Definition at line <a class="el" href="crc__common__all_8c_source.html#l00037">37</a> of file <a class="el" href="crc__common__all_8c_source.html">crc_common_all.c</a>.</p>
-
-<p>References <a class="el" href="crc__common__all_8h_source.html#l00053">CRC_CR</a>, and <a class="el" href="crc__common__all_8h_source.html#l00074">CRC_CR_RESET</a>.</p>
 
 </div>
 </div>
@@ -351,7 +312,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Oct 15 2015 01:21:34 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 02:21:32 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

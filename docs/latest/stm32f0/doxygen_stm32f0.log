@@ -38,8 +38,8 @@
   parameter 'dev'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/usart.c:392: warning: unable to resolve reference to `usart_sr_flags' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/usart.c:410: warning: unable to resolve reference to `usart_sr_flags' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:280: warning: argument 'chan' of command @param is not found in the argument list of adc_enable_analog_watchdog_on_selected_channel(uint32_t adc, uint8_t channel)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:281: warning: unable to resolve reference to `adc_api_channel' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:279: warning: argument 'chan' of command @param is not found in the argument list of adc_enable_analog_watchdog_on_selected_channel(uint32_t adc, uint8_t channel)
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:280: warning: unable to resolve reference to `adc_api_channel' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:186: warning: Found unknown command `\parADC'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:146: warning: The following parameters of adc_set_operation_mode(uint32_t adc, enum adc_opmode opmode) are not documented:
   parameter 'opmode'

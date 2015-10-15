@@ -10,5 +10,6 @@
 <area shape="rect" id="node10" href="$group__adc__file.html" title="libopencm3 STM32L1xx Analog to Digital Converters " alt="" coords="154,411,205,437"/>
 <area shape="rect" id="node11" href="$group__i2c__file.html" title="libopencm3 STM32L1xx I2C " alt="" coords="158,461,201,488"/>
 <area shape="rect" id="node12" href="$group__flash__file.html" title="libopencm3 STM32L1xx FLASH " alt="" coords="147,512,212,539"/>
-<area shape="rect" id="node13" href="$group__timer__file.html" title="libopencm3 STM32L1xx Timers " alt="" coords="148,563,211,589"/>
+<area shape="rect" id="node13" href="$group__STM32L1xx-rcc-file.html" title="libopencm3 STM32F1xx Reset and Clock Control " alt="" coords="153,563,205,589"/>
+<area shape="rect" id="node14" href="$group__timer__file.html" title="libopencm3 STM32L1xx Timers " alt="" coords="148,613,211,640"/>
 </map>

@@ -2,40 +2,6 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:411: warning: end of file while inside a group
 
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:48: warning: multiple use of section label 'adc_api_ex' while adding section, (first occurrence: /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/adc.c, line 50)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:28: warning: multiple use of section label 'gpio_api_ex' while adding section, (first occurrence: /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/gpio.c, line 36)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:247: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:547: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:574: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:674: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:699: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:723: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:746: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:785: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1221: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1283: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1345: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1407: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1452: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1505: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1595: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1618: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1642: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1666: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1688: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1710: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1732: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1754: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1780: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1805: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1829: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1852: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1877: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1909: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
-  parameter 'dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
-  parameter 'dev'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/flash.c:246: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_page(uint32_t page_address)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/flash.c:246: warning: The following parameters of flash_erase_page(uint32_t page_address) are not documented:
   parameter 'page_address'
@@ -44,19 +10,6 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/flash.c:216: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
   parameter 'address'
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: The following parameters of flash_program_option_bytes(uint32_t address, uint16_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: The following parameters of flash_program_word(uint32_t address, uint32_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:57: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:57: warning: The following parameters of flash_set_ws(uint32_t ws) are not documented:
-  parameter 'ws'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:400: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:367: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:306: warning: explicit link request to 'osc_t' could not be resolved
@@ -65,7 +18,6 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:131: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:98: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:164: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:189: warning: Found unknown command `\parame'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:223: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: argument 'uint32_t' of command @param is not found in the argument list of rtc_set_counter_val(uint32_t counter_val)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: The following parameters of rtc_set_counter_val(uint32_t counter_val) are not documented:
@@ -78,23 +30,6 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/flash.c:216: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
   parameter 'address'
   parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: The following parameters of flash_program_option_bytes(uint32_t address, uint16_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: The following parameters of flash_program_word(uint32_t address, uint32_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:57: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:57: warning: The following parameters of flash_set_ws(uint32_t ws) are not documented:
-  parameter 'ws'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:82: warning: unable to resolve reference to `gpio_pup' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:171: warning: unable to resolve reference to `gpio_af_num' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:124: warning: unable to resolve reference to `gpio_output_type' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:125: warning: unable to resolve reference to `gpio_speed' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:400: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:367: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:306: warning: explicit link request to 'osc_t' could not be resolved

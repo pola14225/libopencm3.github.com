@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['flash_5fbase',['FLASH_BASE',['../memorymap_8h.html#a23a9099a5f8fc9c6e253c0eecb2be8db',1,'memorymap.h']]],
-  ['flash_5fmem_5finterface_5fbase',['FLASH_MEM_INTERFACE_BASE',['../memorymap_8h.html#ae59d1686fa18cf0fb90452e8e51eb51e',1,'memorymap.h']]],
-  ['fsmc_5fbase',['FSMC_BASE',['../memorymap_8h.html#a679200df61ecb0695d72c030fdeb50a9',1,'memorymap.h']]]
+  ['gpio_5fport_5fa_5fbase',['GPIO_PORT_A_BASE',['../memorymap_8h.html#aadfedde7941fa484de08872551516cd9',1,'memorymap.h']]],
+  ['gpio_5fport_5fb_5fbase',['GPIO_PORT_B_BASE',['../memorymap_8h.html#a76f2426fde990408388cc7e23d63444e',1,'memorymap.h']]],
+  ['gpio_5fport_5fc_5fbase',['GPIO_PORT_C_BASE',['../memorymap_8h.html#ac3754540649792975085507caf98b70f',1,'memorymap.h']]],
+  ['gpio_5fport_5fd_5fbase',['GPIO_PORT_D_BASE',['../memorymap_8h.html#afc8d20f5f6ce85201a9682a37036445d',1,'memorymap.h']]],
+  ['gpio_5fport_5fe_5fbase',['GPIO_PORT_E_BASE',['../memorymap_8h.html#a512bc9a47ce4bccdcbcaa9a80620d559',1,'memorymap.h']]],
+  ['gpio_5fport_5ff_5fbase',['GPIO_PORT_F_BASE',['../memorymap_8h.html#aeb59b5ce54ec229dc4697a0d3b387401',1,'memorymap.h']]],
+  ['gpio_5fport_5fg_5fbase',['GPIO_PORT_G_BASE',['../memorymap_8h.html#a0800377c4f11f41b21e6aa46d20ae6ac',1,'memorymap.h']]]
 ];

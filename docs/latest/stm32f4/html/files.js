@@ -8,8 +8,6 @@ var files =
     [ "crc.h", "crc_8h.html", null ],
     [ "crc_common_all.c", "crc__common__all_8c.html", "crc__common__all_8c" ],
     [ "crc_common_all.h", "crc__common__all_8h.html", "crc__common__all_8h" ],
-    [ "crs_common_all.c", "crs__common__all_8c.html", "crs__common__all_8c" ],
-    [ "crs_common_all.h", "crs__common__all_8h.html", "crs__common__all_8h" ],
     [ "crypto.c", "crypto_8c.html", "crypto_8c" ],
     [ "crypto.h", "crypto_8h.html", "crypto_8h" ],
     [ "crypto_common_f24.c", "crypto__common__f24_8c.html", "crypto__common__f24_8c" ],
