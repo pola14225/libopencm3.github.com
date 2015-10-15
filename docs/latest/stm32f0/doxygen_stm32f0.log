@@ -43,27 +43,6 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:186: warning: Found unknown command `\parADC'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:146: warning: The following parameters of adc_set_operation_mode(uint32_t adc, enum adc_opmode opmode) are not documented:
   parameter 'opmode'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:112: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_page(uint32_t page_address)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:112: warning: The following parameters of flash_erase_page(uint32_t page_address) are not documented:
-  parameter 'page_address'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:86: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:86: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:86: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: The following parameters of flash_program_option_bytes(uint32_t address, uint16_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: The following parameters of flash_program_word(uint32_t address, uint32_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:57: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:57: warning: The following parameters of flash_set_ws(uint32_t ws) are not documented:
-  parameter 'ws'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:50: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:65: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:126: warning: unable to resolve reference to `gpio_port_id' for \ref command
@@ -118,27 +97,6 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:493: warning: The following parameters of adc_set_clk_source(uint32_t adc, uint32_t source) are not documented:
   parameter 'source'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:784: warning: unable to resolve reference to `adc_api_channel' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:112: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_erase_page(uint32_t page_address)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:112: warning: The following parameters of flash_erase_page(uint32_t page_address) are not documented:
-  parameter 'page_address'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:86: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:86: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_half_word(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/flash.c:86: warning: The following parameters of flash_program_half_word(uint32_t address, uint16_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: argument 'uint16_t' of command @param is not found in the argument list of flash_program_option_bytes(uint32_t address, uint16_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:208: warning: The following parameters of flash_program_option_bytes(uint32_t address, uint16_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_program_word(uint32_t address, uint32_t data)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:153: warning: The following parameters of flash_program_word(uint32_t address, uint32_t data) are not documented:
-  parameter 'address'
-  parameter 'data'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:57: warning: argument 'uint32_t' of command @param is not found in the argument list of flash_set_ws(uint32_t ws)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:57: warning: The following parameters of flash_set_ws(uint32_t ws) are not documented:
-  parameter 'ws'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:50: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:65: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:79: warning: unable to resolve reference to `gpio_port_id' for \ref command

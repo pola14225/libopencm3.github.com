@@ -1427,7 +1427,7 @@ Here is the call graph for this function:</div>
 <p>Note that the page sizes differ between devices. See the reference manual or the FLASH programming manual for details.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>page_address. Full address of flash page to be erased. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">page_address</td><td>Full address of flash page to be erased. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1581,8 +1581,8 @@ Here is the caller graph for this function:</div>
 <p>Status bit polling is used to detect end of operation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address. Full address of flash half word to be programmed. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint16_t</td><td>data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Full address of flash half word to be programmed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>half word to write </td></tr>
   </table>
   </dd>
 </dl>
@@ -1642,8 +1642,8 @@ Here is the caller graph for this function:</div>
 <p>Only the lower 8 bits of the data is significant.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address. Address of option byte from <a class="el" href="group__flash__options.html">Option Byte Addresses</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint16_t</td><td>data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Address of option byte from <a class="el" href="group__flash__options.html">Option Byte Addresses</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>value to write </td></tr>
   </table>
   </dd>
 </dl>
@@ -1692,8 +1692,8 @@ Here is the call graph for this function:</div>
 <p>Status bit polling is used to detect end of operation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address. Full address of flash word to be programmed. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Full address of flash word to be programmed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>word to write </td></tr>
   </table>
   </dd>
 </dl>
@@ -1731,7 +1731,7 @@ Here is the call graph for this function:</div>
 <p>Used to match the system clock to the FLASH memory access time. See the reference manual for more information on clock speed ranges for each wait state. The latency must be changed to the appropriate value <b>before</b> any increase in clock speed, or <b>after</b> any decrease in clock speed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>ws: values from <a class="el" href="group__flash__latency.html">FLASH Wait States</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ws</td><td>values from <a class="el" href="group__flash__latency.html">FLASH Wait States</a>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1858,7 +1858,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Oct 15 2015 02:21:23 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:21:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

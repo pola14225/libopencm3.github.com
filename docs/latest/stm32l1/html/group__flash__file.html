@@ -368,7 +368,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>must point to EEPROM space, no checking! </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>pointer to data to write </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>size of of data in WORDS! </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">length_in_words</td><td>size of of data in WORDS! </td></tr>
   </table>
   </dd>
 </dl>
@@ -581,7 +581,7 @@ Here is the caller graph for this function:</div>
 
 <p>Clear the Programming Error Status Flag. </p>
 
-<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00083">83</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
+<p>Definition at line <a class="el" href="flash__common__f234_8c_source.html#l00082">82</a> of file <a class="el" href="flash__common__f234_8c_source.html">flash_common_f234.c</a>.</p>
 
 <p>References <a class="el" href="flash_8h_source.html#l00055">FLASH_SR</a>, and <a class="el" href="flash__common__f24_8h_source.html#l00062">FLASH_SR_PGPERR</a>.</p>
 
@@ -651,7 +651,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00172">172</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f234_8c_source.html#l00103">flash_clear_bsy_flag()</a>, <a class="el" href="flash__common__f234_8c_source.html#l00093">flash_clear_eop_flag()</a>, <a class="el" href="flash__common__f24_8c_source.html#l00151">flash_clear_pgaerr_flag()</a>, <a class="el" href="flash__common__f234_8c_source.html#l00083">flash_clear_pgperr_flag()</a>, <a class="el" href="flash__common__f24_8c_source.html#l00141">flash_clear_pgserr_flag()</a>, and <a class="el" href="flash__common__f24_8c_source.html#l00161">flash_clear_wrperr_flag()</a>.</p>
+<p>References <a class="el" href="flash__common__f234_8c_source.html#l00102">flash_clear_bsy_flag()</a>, <a class="el" href="flash__common__f234_8c_source.html#l00092">flash_clear_eop_flag()</a>, <a class="el" href="flash__common__f24_8c_source.html#l00151">flash_clear_pgaerr_flag()</a>, <a class="el" href="flash__common__f234_8c_source.html#l00082">flash_clear_pgperr_flag()</a>, <a class="el" href="flash__common__f24_8c_source.html#l00141">flash_clear_pgserr_flag()</a>, and <a class="el" href="flash__common__f24_8c_source.html#l00161">flash_clear_wrperr_flag()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -811,7 +811,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00381">381</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00082">FLASH_CR_MER</a>, <a class="el" href="flash__common__f01_8h_source.html#l00079">FLASH_CR_STRT</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00082">FLASH_CR_MER</a>, <a class="el" href="flash__common__f01_8h_source.html#l00079">FLASH_CR_STRT</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00115">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -885,7 +885,7 @@ Here is the call graph for this function:</div>
 <p>See the reference manual or the FLASH programming manual for details.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>sector (0 - 11 for some parts, 0-23 on others) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sector</td><td>(0 - 11 for some parts, 0-23 on others) </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">program_size</td><td>0 (8-bit), 1 (16-bit), 2 (32-bit), 3 (64-bit) </td></tr>
   </table>
   </dd>
@@ -893,7 +893,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00357">357</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00075">FLASH_CR_SER</a>, <a class="el" href="flash__common__f24_8h_source.html#l00078">FLASH_CR_SNB_MASK</a>, <a class="el" href="flash__common__f24_8h_source.html#l00077">FLASH_CR_SNB_SHIFT</a>, <a class="el" href="flash__common__f01_8h_source.html#l00079">FLASH_CR_STRT</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00075">FLASH_CR_SER</a>, <a class="el" href="flash__common__f24_8h_source.html#l00078">FLASH_CR_SNB_MASK</a>, <a class="el" href="flash__common__f24_8h_source.html#l00077">FLASH_CR_SNB_SHIFT</a>, <a class="el" href="flash__common__f01_8h_source.html#l00079">FLASH_CR_STRT</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00115">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1244,9 +1244,9 @@ Here is the caller graph for this function:</div>
 <p>This programs an arbitrary length data block to FLASH memory. The program error flag should be checked separately for the event that memory was not properly erased.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address. Starting address in Flash. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint8_t</td><td>*data. Pointer to start of data block. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>len. Length of data block. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Starting address in Flash. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Pointer to start of data block. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Length of data block. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1294,15 +1294,15 @@ Here is the call graph for this function:</div>
 <p>This performs all operations necessary to program an 8 bit byte to FLASH memory. The program error flag should be checked separately for the event that memory was not properly erased.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint8_t</td><td>data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Starting address in Flash. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>byte to write </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00307">307</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00085">FLASH_CR_PROGRAM_X8</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00085">FLASH_CR_PROGRAM_X8</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00115">flash_wait_for_last_operation()</a>.</p>
 
 <p>Referenced by <a class="el" href="flash__common__f24_8c_source.html#l00333">flash_program()</a>.</p>
 
@@ -1354,15 +1354,15 @@ Here is the caller graph for this function:</div>
 <p>This performs all operations necessary to program a 64 bit word to FLASH memory. The program error flag should be checked separately for the event that memory was not properly erased.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint64_t</td><td>data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Starting address in Flash. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Double word to write </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00222">222</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00088">FLASH_CR_PROGRAM_X64</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00088">FLASH_CR_PROGRAM_X64</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00115">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1403,15 +1403,15 @@ Here is the call graph for this function:</div>
 <p>This performs all operations necessary to program a 16 bit word to FLASH memory. The program error flag should be checked separately for the event that memory was not properly erased.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint16_t</td><td>data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Starting address in Flash. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>half word to write </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00282">282</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00086">FLASH_CR_PROGRAM_X16</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00086">FLASH_CR_PROGRAM_X16</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00115">flash_wait_for_last_operation()</a>.</p>
 
 <p>Referenced by <a class="el" href="flash__common__f01_8c_source.html#l00165">flash_program_word()</a>.</p>
 
@@ -1464,8 +1464,8 @@ Here is the caller graph for this function:</div>
 <p>Only the lower 8 bits of the data is significant.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address. Address of option byte from flash_options. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint16_t</td><td>data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Address of option byte from flash_options. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>value to write </td></tr>
   </table>
   </dd>
 </dl>
@@ -1503,14 +1503,14 @@ Here is the call graph for this function:</div>
 <p>This performs all operations necessary to program the option bytes. The option bytes do not need to be erased first.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>data to be programmed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>value to be programmed. </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="flash__common__f24_8c_source.html#l00402">402</a> of file <a class="el" href="flash__common__f24_8c_source.html">flash_common_f24.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f24_8h_source.html#l00047">FLASH_OPTCR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00099">FLASH_OPTCR_OPTLOCK</a>, <a class="el" href="flash__common__f24_8h_source.html#l00098">FLASH_OPTCR_OPTSTRT</a>, <a class="el" href="flash__common__f01_8c_source.html#l00178">flash_unlock_option_bytes()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f24_8h_source.html#l00047">FLASH_OPTCR</a>, <a class="el" href="flash__common__f24_8h_source.html#l00099">FLASH_OPTCR_OPTLOCK</a>, <a class="el" href="flash__common__f24_8h_source.html#l00098">FLASH_OPTCR_OPTSTRT</a>, <a class="el" href="flash__common__f01_8c_source.html#l00178">flash_unlock_option_bytes()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00115">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1552,23 +1552,23 @@ Here is the call graph for this function:</div>
 <p>Status bit polling is used to detect end of operation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address. Full address of flash word to be programmed. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>data.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Full address of flash word to be programmed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>word to write</td></tr>
   </table>
   </dd>
 </dl>
 <p>This performs all operations necessary to program a 32 bit word to FLASH memory. The program error flag should be checked separately for the event that memory was not properly erased.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>Starting address in Flash. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>word to write </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="flash__common__f01_8c_source.html#l00165">165</a> of file <a class="el" href="flash__common__f01_8c_source.html">flash_common_f01.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00087">FLASH_CR_PROGRAM_X32</a>, <a class="el" href="flash__common__f24_8c_source.html#l00282">flash_program_half_word()</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00116">flash_wait_for_last_operation()</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, <a class="el" href="flash__common__f24_8h_source.html#l00087">FLASH_CR_PROGRAM_X32</a>, <a class="el" href="flash__common__f24_8c_source.html#l00282">flash_program_half_word()</a>, <a class="el" href="flash__common__f24_8c_source.html#l00038">flash_set_program_size()</a>, and <a class="el" href="flash__common__f234_8c_source.html#l00115">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1646,21 +1646,21 @@ Here is the caller graph for this function:</div>
 <p>Used to match the system clock to the FLASH memory access time. See the programming manual for more information on clock speed and voltage ranges. The latency must be changed to the appropriate value <b>before</b> any increase in clock speed, or <b>after</b> any decrease in clock speed. A latency setting of zero only applies if 64-bit mode is not used.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>ws: values from <a class="el" href="group__flash__latency.html">FLASH Wait States</a>.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ws</td><td>values from <a class="el" href="group__flash__latency.html">FLASH Wait States</a>.</td></tr>
   </table>
   </dd>
 </dl>
 <p>Used to match the system clock to the FLASH memory access time. See the reference manual for more information on clock speed ranges for each wait state. The latency must be changed to the appropriate value <b>before</b> any increase in clock speed, or <b>after</b> any decrease in clock speed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>ws: values from <a class="el" href="group__flash__latency.html">FLASH Wait States</a>.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ws</td><td>values from <a class="el" href="group__flash__latency.html">FLASH Wait States</a>.</td></tr>
   </table>
   </dd>
 </dl>
 <p>Used to match the system clock to the FLASH memory access time. See the programming manual for more information on clock speed ranges. The latency must be changed to the appropriate value <b>before</b> any increase in clock speed, or <b>after</b> any decrease in clock speed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">uint32_t</td><td>ws: values from <a class="el" href="group__flash__latency.html">FLASH Wait States</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ws</td><td>values from <a class="el" href="group__flash__latency.html">FLASH Wait States</a>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1877,7 +1877,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Oct 15 2015 02:22:24 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:22:42 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

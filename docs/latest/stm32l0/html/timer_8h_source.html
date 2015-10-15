@@ -172,7 +172,7 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">/* Timer 2/21/22 option register (TIMx_OR) */</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">   42</a></span>&#160;<span class="preprocessor">#define TIM_OR(tim_base)                MMIO32(tim_base + 0x50)</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="timer_8h.html#a771caff3f9ee766b27e3658e24629d58">   42</a></span>&#160;<span class="preprocessor">#define TIM_OR(tim_base)                MMIO32((tim_base) + 0x50)</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="timer_8h.html#a1d0a9ed79cfba2ccd0606a8a887224af">   43</a></span>&#160;<span class="preprocessor">#define TIM2_OR                         TIM_OR(TIM2)</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="timer_8h.html#a044eafdc78cb7829f8cc25933b7131c6">   44</a></span>&#160;<span class="preprocessor">#define TIM21_OR                        TIM_OR(TIM21)</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="timer_8h.html#ac22ebf14e6412c94ea92a4b665b71e93">   45</a></span>&#160;<span class="preprocessor">#define TIM22_OR                        TIM_OR(TIM22)</span></div>
@@ -229,14 +229,14 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">/* --- LPTIM (low power timer) ------------------------------------------- */</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="timer_8h.html#a8b595d1652dfa2aca9a110dca36caa2d">   99</a></span>&#160;<span class="preprocessor">#define LPTIM_ISR(tim_base)             MMIO32(tim_base + 0x00)</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="timer_8h.html#a29a077aaea0a284bc4c8f8a45d71d9b3">  100</a></span>&#160;<span class="preprocessor">#define LPTIM_ICR(tim_base)             MMIO32(tim_base + 0x04)</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="timer_8h.html#a80b5cb9fe442e8f55f08d6fb956b5834">  101</a></span>&#160;<span class="preprocessor">#define LPTIM_IER(tim_base)             MMIO32(tim_base + 0x08)</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="timer_8h.html#a069eea053f8a51c02022aa7283cd20fe">  102</a></span>&#160;<span class="preprocessor">#define LPTIM_CFGR(tim_base)            MMIO32(tim_base + 0x0C)</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="timer_8h.html#a74a1e6dce638b5cfbf5bdef917b4adb4">  103</a></span>&#160;<span class="preprocessor">#define LPTIM_CR(tim_base)              MMIO32(tim_base + 0x10)</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="timer_8h.html#abb4d4cff5cebb65252d3bc99d8197793">  104</a></span>&#160;<span class="preprocessor">#define LPTIM_CMP(tim_base)             MMIO32(tim_base + 0x14)</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="timer_8h.html#aef08a2e009c76919875cd795bff14051">  105</a></span>&#160;<span class="preprocessor">#define LPTIM_ARR(tim_base)             MMIO32(tim_base + 0x18)</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="timer_8h.html#a8cf4ac72ec477527a9c15d7cd80b456a">  106</a></span>&#160;<span class="preprocessor">#define LPTIM_CNT(tim_base)             MMIO32(tim_base + 0x1C)</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="timer_8h.html#a8b595d1652dfa2aca9a110dca36caa2d">   99</a></span>&#160;<span class="preprocessor">#define LPTIM_ISR(tim_base)             MMIO32((tim_base) + 0x00)</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="timer_8h.html#a29a077aaea0a284bc4c8f8a45d71d9b3">  100</a></span>&#160;<span class="preprocessor">#define LPTIM_ICR(tim_base)             MMIO32((tim_base) + 0x04)</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="timer_8h.html#a80b5cb9fe442e8f55f08d6fb956b5834">  101</a></span>&#160;<span class="preprocessor">#define LPTIM_IER(tim_base)             MMIO32((tim_base) + 0x08)</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="timer_8h.html#a069eea053f8a51c02022aa7283cd20fe">  102</a></span>&#160;<span class="preprocessor">#define LPTIM_CFGR(tim_base)            MMIO32((tim_base) + 0x0C)</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="timer_8h.html#a74a1e6dce638b5cfbf5bdef917b4adb4">  103</a></span>&#160;<span class="preprocessor">#define LPTIM_CR(tim_base)              MMIO32((tim_base) + 0x10)</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="timer_8h.html#abb4d4cff5cebb65252d3bc99d8197793">  104</a></span>&#160;<span class="preprocessor">#define LPTIM_CMP(tim_base)             MMIO32((tim_base) + 0x14)</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="timer_8h.html#aef08a2e009c76919875cd795bff14051">  105</a></span>&#160;<span class="preprocessor">#define LPTIM_ARR(tim_base)             MMIO32((tim_base) + 0x18)</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="timer_8h.html#a8cf4ac72ec477527a9c15d7cd80b456a">  106</a></span>&#160;<span class="preprocessor">#define LPTIM_CNT(tim_base)             MMIO32((tim_base) + 0x1C)</span></div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="timer_8h.html#a1032e86661e5aefb1f3eb3885716b89c">  108</a></span>&#160;<span class="preprocessor">#define LPTIM1_ISR                      LPTIM_ISR(LPTIM1_BASE)</span></div>
 <div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="timer_8h.html#acd8da08e51cfd5605f42ae79d649e440">  109</a></span>&#160;<span class="preprocessor">#define LPTIM1_ICR                      LPTIM_ICR(LPTIM1_BASE)</span></div>
@@ -349,7 +349,7 @@ $(document).ready(function(){initNavTree('timer_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_79c924a68419a545931041b18390d4ad.html">l0</a></li><li class="navelem"><a class="el" href="timer_8h.html">timer.h</a></li>
-    <li class="footer">Generated on Thu Oct 15 2015 02:22:13 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:22:29 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

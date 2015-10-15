@@ -355,8 +355,8 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="comment">Status bit polling is used to detect end of operation.</span></div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="comment">@param[in] uint32_t address. Full address of flash half word to be programmed.</span></div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="comment">@param[in] uint16_t data.</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="comment">@param[in] address Full address of flash half word to be programmed.</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="comment">@param[in] data half word to write</span></div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
 <div class="line"><a name="l00228"></a><span class="lineno"><a class="line" href="group__flash__file.html#gaf5077b5726c70fa9418db9d73182f89d">  228</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__flash__file.html#gaf5077b5726c70fa9418db9d73182f89d">flash_program_half_word</a>(uint32_t address, uint16_t data)</div>
@@ -386,7 +386,7 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="comment">Note that the page sizes differ between devices. See the reference manual or</span></div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment">the FLASH programming manual for details.</span></div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="comment">@param[in] uint32_t page_address. Full address of flash page to be erased.</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="comment">@param[in] page_address Full address of flash page to be erased.</span></div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
 <div class="line"><a name="l00258"></a><span class="lineno"><a class="line" href="group__flash__file.html#ga0aee649731aaa8c1316c12f5bea7c31b">  258</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__flash__file.html#ga0aee649731aaa8c1316c12f5bea7c31b">flash_erase_page</a>(uint32_t page_address)</div>
@@ -484,7 +484,7 @@ $(document).ready(function(){initNavTree('flash_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="flash_8c.html">flash.c</a></li>
-    <li class="footer">Generated on Thu Oct 15 2015 02:21:32 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:21:39 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

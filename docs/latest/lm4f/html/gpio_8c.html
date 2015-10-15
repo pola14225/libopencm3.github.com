@@ -151,9 +151,9 @@ Include dependency graph for gpio.c:</div>
 Macros</h2></td></tr>
 <tr class="memitem:ga7b4058c05682f371e3c210e272a2d003"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__file.html#ga7b4058c05682f371e3c210e272a2d003">GPIO_LOCK_UNLOCK_CODE</a>&#160;&#160;&#160;0x4C4F434B</td></tr>
 <tr class="separator:ga7b4058c05682f371e3c210e272a2d003"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gada5265d9b7ca84756a8876b34ae5a65c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__config.html#gada5265d9b7ca84756a8876b34ae5a65c">PCTL_AF</a>(pin,  af)&#160;&#160;&#160;(af &lt;&lt; (pin &lt;&lt; 2))</td></tr>
+<tr class="memitem:gada5265d9b7ca84756a8876b34ae5a65c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__config.html#gada5265d9b7ca84756a8876b34ae5a65c">PCTL_AF</a>(pin,  af)&#160;&#160;&#160;((af) &lt;&lt; ((pin) &lt;&lt; 2))</td></tr>
 <tr class="separator:gada5265d9b7ca84756a8876b34ae5a65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7af7fa835329184da3a5a53bd4ce6a72"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__config.html#ga7af7fa835329184da3a5a53bd4ce6a72">PCTL_MASK</a>(pin)&#160;&#160;&#160;<a class="el" href="group__gpio__config.html#gada5265d9b7ca84756a8876b34ae5a65c">PCTL_AF</a>(pin, 0xf)</td></tr>
+<tr class="memitem:ga7af7fa835329184da3a5a53bd4ce6a72"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gpio__config.html#ga7af7fa835329184da3a5a53bd4ce6a72">PCTL_MASK</a>(pin)&#160;&#160;&#160;<a class="el" href="group__gpio__config.html#gada5265d9b7ca84756a8876b34ae5a65c">PCTL_AF</a>((pin), 0xf)</td></tr>
 <tr class="separator:ga7af7fa835329184da3a5a53bd4ce6a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -192,7 +192,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_12fee2a8ab17b1bb753631ffb3fddc2a.html">lm4f</a></li><li class="navelem"><a class="el" href="gpio_8c.html">gpio.c</a></li>
-    <li class="footer">Generated on Thu Oct 15 2015 02:22:37 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:23:00 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -166,11 +166,11 @@ Macros</h2></td></tr>
 <tr class="separator:ga5950b670d8ea2f0a93627f84fdcb402a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga64956051c35bf0ef75d23c974697e078"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#ga64956051c35bf0ef75d23c974697e078">USB_TEST</a>&#160;&#160;&#160;MMIO8(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x0F)</td></tr>
 <tr class="separator:ga64956051c35bf0ef75d23c974697e078"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga38333c938233a8c2ad9d3c19f3bb1e2d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#ga38333c938233a8c2ad9d3c19f3bb1e2d">USB_FIFO8</a>(n)&#160;&#160;&#160;MMIO8(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + n*0x04)</td></tr>
+<tr class="memitem:ga38333c938233a8c2ad9d3c19f3bb1e2d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#ga38333c938233a8c2ad9d3c19f3bb1e2d">USB_FIFO8</a>(n)&#160;&#160;&#160;MMIO8(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + (n)*0x04)</td></tr>
 <tr class="separator:ga38333c938233a8c2ad9d3c19f3bb1e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6f48d071c29984bd3bdb53f92189c14f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#ga6f48d071c29984bd3bdb53f92189c14f">USB_FIFO16</a>(n)&#160;&#160;&#160;MMIO16(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + n*0x04)</td></tr>
+<tr class="memitem:ga6f48d071c29984bd3bdb53f92189c14f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#ga6f48d071c29984bd3bdb53f92189c14f">USB_FIFO16</a>(n)&#160;&#160;&#160;MMIO16(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + (n)*0x04)</td></tr>
 <tr class="separator:ga6f48d071c29984bd3bdb53f92189c14f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6492869d57f9cfd220a782ff7833ba0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#ga6492869d57f9cfd220a782ff7833ba0a">USB_FIFO32</a>(n)&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + n*0x04)</td></tr>
+<tr class="memitem:ga6492869d57f9cfd220a782ff7833ba0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#ga6492869d57f9cfd220a782ff7833ba0a">USB_FIFO32</a>(n)&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + (n)*0x04)</td></tr>
 <tr class="separator:ga6492869d57f9cfd220a782ff7833ba0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf5861a491d3a9671ed07dbc2db38e781"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__usb__defines.html#gaf5861a491d3a9671ed07dbc2db38e781">USB_TXFIFOSZ</a>&#160;&#160;&#160;MMIO8(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x62)</td></tr>
 <tr class="separator:gaf5861a491d3a9671ed07dbc2db38e781"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1005,7 +1005,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO16(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + n*0x04)</td>
+          <td>&#160;&#160;&#160;MMIO16(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + (n)*0x04)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1023,7 +1023,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + n*0x04)</td>
+          <td>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + (n)*0x04)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1041,7 +1041,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO8(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + n*0x04)</td>
+          <td>&#160;&#160;&#160;MMIO8(<a class="el" href="memorymap_8h.html#aa6c4cbed4ddbb3ecd77de93fab2a2e04">USB_BASE</a> + 0x20 + (n)*0x04)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2473,7 +2473,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Oct 15 2015 02:22:37 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:23:00 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

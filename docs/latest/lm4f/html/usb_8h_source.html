@@ -213,9 +213,9 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga64956051c35bf0ef75d23c974697e078">   79</a></span>&#160;<span class="preprocessor">#define USB_TEST                        MMIO8(USB_BASE + 0x0F)</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">/* USB FIFO Endpoint [0-7] */</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga38333c938233a8c2ad9d3c19f3bb1e2d">   82</a></span>&#160;<span class="preprocessor">#define USB_FIFO8(n)                    MMIO8(USB_BASE + 0x20 + n*0x04)</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga6f48d071c29984bd3bdb53f92189c14f">   83</a></span>&#160;<span class="preprocessor">#define USB_FIFO16(n)                   MMIO16(USB_BASE + 0x20 + n*0x04)</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga6492869d57f9cfd220a782ff7833ba0a">   84</a></span>&#160;<span class="preprocessor">#define USB_FIFO32(n)                   MMIO32(USB_BASE + 0x20 + n*0x04)</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga38333c938233a8c2ad9d3c19f3bb1e2d">   82</a></span>&#160;<span class="preprocessor">#define USB_FIFO8(n)                    MMIO8(USB_BASE + 0x20 + (n)*0x04)</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga6f48d071c29984bd3bdb53f92189c14f">   83</a></span>&#160;<span class="preprocessor">#define USB_FIFO16(n)                   MMIO16(USB_BASE + 0x20 + (n)*0x04)</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="group__usb__defines.html#ga6492869d57f9cfd220a782ff7833ba0a">   84</a></span>&#160;<span class="preprocessor">#define USB_FIFO32(n)                   MMIO32(USB_BASE + 0x20 + (n)*0x04)</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* USB Transmit Dynamic FIFO Sizing */</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__usb__defines.html#gaf5861a491d3a9671ed07dbc2db38e781">   87</a></span>&#160;<span class="preprocessor">#define USB_TXFIFOSZ                    MMIO8(USB_BASE + 0x62)</span></div>
@@ -591,7 +591,7 @@ $(document).ready(function(){initNavTree('usb_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_16a49d58821e47b8957c58c692243696.html">lm4f</a></li><li class="navelem"><a class="el" href="usb_8h.html">usb.h</a></li>
-    <li class="footer">Generated on Thu Oct 15 2015 02:22:37 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:23:00 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

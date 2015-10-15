@@ -183,47 +183,47 @@ $(document).ready(function(){initNavTree('i2c__common__all_8h_source.html','');}
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/* --- I2C registers ------------------------------------------------------- */</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/* Control register 1 (I2Cx_CR1) */</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga24ab62763434be2583beb20bd2b98c5f">   52</a></span>&#160;<span class="preprocessor">#define I2C_CR1(i2c_base)               MMIO32(i2c_base + 0x00)</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga24ab62763434be2583beb20bd2b98c5f">   52</a></span>&#160;<span class="preprocessor">#define I2C_CR1(i2c_base)               MMIO32((i2c_base) + 0x00)</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga64532b3cb1d370389ddc22ee0f3677bc">   53</a></span>&#160;<span class="preprocessor">#define I2C1_CR1                        I2C_CR1(I2C1)</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gae3b43469f1a7e6f505366f9f30323e4d">   54</a></span>&#160;<span class="preprocessor">#define I2C2_CR1                        I2C_CR1(I2C2)</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">/* Control register 2 (I2Cx_CR2) */</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gade4c75f99af3ae41ab4fa369d47ddba2">   57</a></span>&#160;<span class="preprocessor">#define I2C_CR2(i2c_base)               MMIO32(i2c_base + 0x04)</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gade4c75f99af3ae41ab4fa369d47ddba2">   57</a></span>&#160;<span class="preprocessor">#define I2C_CR2(i2c_base)               MMIO32((i2c_base) + 0x04)</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga83fcd4d673ac549bd410e3ef49ef1d7e">   58</a></span>&#160;<span class="preprocessor">#define I2C1_CR2                        I2C_CR2(I2C1)</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gaa8903f4abb50b0fb39cb5b91987c4d88">   59</a></span>&#160;<span class="preprocessor">#define I2C2_CR2                        I2C_CR2(I2C2)</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">/* Own address register 1 (I2Cx_OAR1) */</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gaa41329957878f19aacd29692b605cbb0">   62</a></span>&#160;<span class="preprocessor">#define I2C_OAR1(i2c_base)              MMIO32(i2c_base + 0x08)</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gaa41329957878f19aacd29692b605cbb0">   62</a></span>&#160;<span class="preprocessor">#define I2C_OAR1(i2c_base)              MMIO32((i2c_base) + 0x08)</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga7b5e5096a80e0b9cc4fb2eaa0e50cc30">   63</a></span>&#160;<span class="preprocessor">#define I2C1_OAR1                       I2C_OAR1(I2C1)</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gaee6b4ce794c23eafaf0f4b8dff2076de">   64</a></span>&#160;<span class="preprocessor">#define I2C2_OAR1                       I2C_OAR1(I2C2)</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">/* Own address register 2 (I2Cx_OAR2) */</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gab511d7c24490c014cce3720e5e15061c">   67</a></span>&#160;<span class="preprocessor">#define I2C_OAR2(i2c_base)              MMIO32(i2c_base + 0x0c)</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gab511d7c24490c014cce3720e5e15061c">   67</a></span>&#160;<span class="preprocessor">#define I2C_OAR2(i2c_base)              MMIO32((i2c_base) + 0x0c)</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga369a05ef03f8db625c4f97074ebf11d7">   68</a></span>&#160;<span class="preprocessor">#define I2C1_OAR2                       I2C_OAR2(I2C1)</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gab5d2c1ddfe3c1b465f9e523f2cc757db">   69</a></span>&#160;<span class="preprocessor">#define I2C2_OAR2                       I2C_OAR2(I2C2)</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">/* Data register (I2Cx_DR) */</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gae8845ecf4ac64d94c53d8f2046d79a92">   72</a></span>&#160;<span class="preprocessor">#define I2C_DR(i2c_base)                MMIO32(i2c_base + 0x10)</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gae8845ecf4ac64d94c53d8f2046d79a92">   72</a></span>&#160;<span class="preprocessor">#define I2C_DR(i2c_base)                MMIO32((i2c_base) + 0x10)</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gae9d45cba078c17c937f9fbf3eaa3e762">   73</a></span>&#160;<span class="preprocessor">#define I2C1_DR                         I2C_DR(I2C1)</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gaef549010831e48894529ba6b45f6679a">   74</a></span>&#160;<span class="preprocessor">#define I2C2_DR                         I2C_DR(I2C2)</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">/* Status register 1 (I2Cx_SR1) */</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga573a42a0f7378a5242a07ce3c59b1599">   77</a></span>&#160;<span class="preprocessor">#define I2C_SR1(i2c_base)               MMIO32(i2c_base + 0x14)</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga573a42a0f7378a5242a07ce3c59b1599">   77</a></span>&#160;<span class="preprocessor">#define I2C_SR1(i2c_base)               MMIO32((i2c_base) + 0x14)</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gaa8345463eb1d0075a7e52a5b5627a29c">   78</a></span>&#160;<span class="preprocessor">#define I2C1_SR1                        I2C_SR1(I2C1)</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gab722a3e66c5e060055566ec2fbf3597d">   79</a></span>&#160;<span class="preprocessor">#define I2C2_SR1                        I2C_SR1(I2C2)</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">/* Status register 2 (I2Cx_SR2) */</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga5f21dd07c5089cf417fa5a746c8a4022">   82</a></span>&#160;<span class="preprocessor">#define I2C_SR2(i2c_base)               MMIO32(i2c_base + 0x18)</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga5f21dd07c5089cf417fa5a746c8a4022">   82</a></span>&#160;<span class="preprocessor">#define I2C_SR2(i2c_base)               MMIO32((i2c_base) + 0x18)</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga737e98b2ed556825c5a2d8a40cb8df61">   83</a></span>&#160;<span class="preprocessor">#define I2C1_SR2                        I2C_SR2(I2C1)</span></div>
 <div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gaca80e71681ff0644aeb4b3a0ef00ca5f">   84</a></span>&#160;<span class="preprocessor">#define I2C2_SR2                        I2C_SR2(I2C2)</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* Clock control register (I2Cx_CCR) */</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga0c0648dd9ea73bcf81fe5fcae6dfa5b5">   87</a></span>&#160;<span class="preprocessor">#define I2C_CCR(i2c_base)               MMIO32(i2c_base + 0x1c)</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga0c0648dd9ea73bcf81fe5fcae6dfa5b5">   87</a></span>&#160;<span class="preprocessor">#define I2C_CCR(i2c_base)               MMIO32((i2c_base) + 0x1c)</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga53b3a2028f89192de338269ac9914cee">   88</a></span>&#160;<span class="preprocessor">#define I2C1_CCR                        I2C_CCR(I2C1)</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gaff0e79d1f17fb16349955103b9ad3e2e">   89</a></span>&#160;<span class="preprocessor">#define I2C2_CCR                        I2C_CCR(I2C2)</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">/* TRISE register (I2Cx_CCR) */</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga3d4dc2ec88d11cef0f94ac81f90a072c">   92</a></span>&#160;<span class="preprocessor">#define I2C_TRISE(i2c_base)             MMIO32(i2c_base + 0x20)</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga3d4dc2ec88d11cef0f94ac81f90a072c">   92</a></span>&#160;<span class="preprocessor">#define I2C_TRISE(i2c_base)             MMIO32((i2c_base) + 0x20)</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#ga16d4a2829b42406e571316f3cbcc28fe">   93</a></span>&#160;<span class="preprocessor">#define I2C1_TRISE                      I2C_TRISE(I2C1)</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="group__i2c__defines.html#gad86aa0f293c10bd0453c581c4c66b2e3">   94</a></span>&#160;<span class="preprocessor">#define I2C2_TRISE                      I2C_TRISE(I2C2)</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
@@ -572,7 +572,7 @@ $(document).ready(function(){initNavTree('i2c__common__all_8h_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="i2c__common__all_8h.html">i2c_common_all.h</a></li>
-    <li class="footer">Generated on Thu Oct 15 2015 02:21:23 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:21:27 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

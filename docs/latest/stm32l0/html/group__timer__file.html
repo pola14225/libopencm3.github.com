@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('group__timer__file.html','');});
 Macros</h2></td></tr>
 <tr class="memitem:ga711ae4623ab95c5cad3d35fd10cb2859"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga711ae4623ab95c5cad3d35fd10cb2859">ADVANCED_TIMERS</a>&#160;&#160;&#160;(defined(TIM1_BASE) || defined(TIM8_BASE))</td></tr>
 <tr class="separator:ga711ae4623ab95c5cad3d35fd10cb2859"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga93610472688804fb0690d3934a356ba1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga93610472688804fb0690d3934a356ba1">TIMER_IS_ADVANCED</a>(periph)&#160;&#160;&#160;(periph == <a class="el" href="group__tim__reg__base.html#ga2e87451fea8dc9380056d3cfc5ed81fb">TIM1</a>)</td></tr>
+<tr class="memitem:ga93610472688804fb0690d3934a356ba1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga93610472688804fb0690d3934a356ba1">TIMER_IS_ADVANCED</a>(periph)&#160;&#160;&#160;((periph) == <a class="el" href="group__tim__reg__base.html#ga2e87451fea8dc9380056d3cfc5ed81fb">TIM1</a>)</td></tr>
 <tr class="separator:ga93610472688804fb0690d3934a356ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -440,7 +440,7 @@ Basic TIMER handling API.</h1>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">periph</td><td>)</td>
-          <td>&#160;&#160;&#160;(periph == <a class="el" href="group__tim__reg__base.html#ga2e87451fea8dc9380056d3cfc5ed81fb">TIM1</a>)</td>
+          <td>&#160;&#160;&#160;((periph) == <a class="el" href="group__tim__reg__base.html#ga2e87451fea8dc9380056d3cfc5ed81fb">TIM1</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3324,7 +3324,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Oct 15 2015 02:22:14 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:22:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

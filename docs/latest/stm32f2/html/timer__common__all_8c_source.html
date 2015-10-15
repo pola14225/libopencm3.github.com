@@ -252,9 +252,9 @@ $(document).ready(function(){initNavTree('timer__common__all_8c_source.html','')
 <div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="group__timer__file.html#ga711ae4623ab95c5cad3d35fd10cb2859">  117</a></span>&#160;<span class="preprocessor">#define ADVANCED_TIMERS (defined(TIM1_BASE) || defined(TIM8_BASE))</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#if defined(TIM8)</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#define TIMER_IS_ADVANCED(periph) ((periph == TIM1) || (periph == TIM8))</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#define TIMER_IS_ADVANCED(periph) (((periph) == TIM1) || ((periph) == TIM8))</span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="group__timer__file.html#ga93610472688804fb0690d3934a356ba1">  122</a></span>&#160;<span class="preprocessor">#define TIMER_IS_ADVANCED(periph) (periph == TIM1)</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="group__timer__file.html#ga93610472688804fb0690d3934a356ba1">  122</a></span>&#160;<span class="preprocessor">#define TIMER_IS_ADVANCED(periph) ((periph) == TIM1)</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -2579,7 +2579,7 @@ $(document).ready(function(){initNavTree('timer__common__all_8c_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="timer__common__all_8c.html">timer_common_all.c</a></li>
-    <li class="footer">Generated on Thu Oct 15 2015 02:21:42 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:21:50 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

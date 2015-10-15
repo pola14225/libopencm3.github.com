@@ -184,45 +184,45 @@ $(document).ready(function(){initNavTree('adc_8h_source.html','');});
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/* ADC interrupt and status register */</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="adc_8h.html#a3aea417c25d6f1f0d7aa87e218b538e3">   53</a></span>&#160;<span class="preprocessor">#define ADC_ISR(base)                   MMIO32(base + 0x00)</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="adc_8h.html#a3aea417c25d6f1f0d7aa87e218b538e3">   53</a></span>&#160;<span class="preprocessor">#define ADC_ISR(base)                   MMIO32((base) + 0x00)</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="adc_8h.html#a034c846c648f6111bbf722710ff0d5f4">   54</a></span>&#160;<span class="preprocessor">#define ADC1_ISR                        ADC_ISR(ADC)</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">/* Interrupt Enable Register */</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="adc_8h.html#a9aa1397a072573686d250e07708a8c8c">   57</a></span>&#160;<span class="preprocessor">#define ADC_IER(base)                   MMIO32(base + 0x04)</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="adc_8h.html#a9aa1397a072573686d250e07708a8c8c">   57</a></span>&#160;<span class="preprocessor">#define ADC_IER(base)                   MMIO32((base) + 0x04)</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="adc_8h.html#a8b037dfa8b6fef23d2a6d1144bd9ab27">   58</a></span>&#160;<span class="preprocessor">#define ADC1_IER                        ADC_IER(ADC)</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/* Control Register */</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="adc_8h.html#afd74ebbf08fac6fc61468c86006ebc00">   61</a></span>&#160;<span class="preprocessor">#define ADC_CR(base)                    MMIO32(base + 0x08)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="adc_8h.html#afd74ebbf08fac6fc61468c86006ebc00">   61</a></span>&#160;<span class="preprocessor">#define ADC_CR(base)                    MMIO32((base) + 0x08)</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="adc_8h.html#a65c1c4023922a9eebefb5976b4239ba5">   62</a></span>&#160;<span class="preprocessor">#define ADC1_CR                         ADC_CR(ADC)</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/* Configuration Register 1 */</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">   66</a></span>&#160;<span class="preprocessor">#define ADC_CFGR1(base)                 MMIO32(base + 0x0C)</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">   66</a></span>&#160;<span class="preprocessor">#define ADC_CFGR1(base)                 MMIO32((base) + 0x0C)</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="adc_8h.html#a5c07e7dca6ab93fae85a12836be1a2e5">   67</a></span>&#160;<span class="preprocessor">#define ADC1_CFGR1                      ADC_CFGR1(ADC)</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">/* Configuration Register 2 */</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="adc_8h.html#a8cc0346f4f073f1512761a1e7440b6de">   71</a></span>&#160;<span class="preprocessor">#define ADC_CFGR2(base)                 MMIO32(base + 0x10)</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="adc_8h.html#a8cc0346f4f073f1512761a1e7440b6de">   71</a></span>&#160;<span class="preprocessor">#define ADC_CFGR2(base)                 MMIO32((base) + 0x10)</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="adc_8h.html#ac6b3bab2f824d8dd14f64181db46e698">   72</a></span>&#160;<span class="preprocessor">#define ADC1_CFGR2                      ADC_CFGR2(ADC)</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">/* Sample Time Register 1 */</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="adc_8h.html#a5ed01fff8f9721f2182e0362b5e3c82a">   76</a></span>&#160;<span class="preprocessor">#define ADC_SMPR(base)                  MMIO32(base + 0x14)</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="adc_8h.html#a5ed01fff8f9721f2182e0362b5e3c82a">   76</a></span>&#160;<span class="preprocessor">#define ADC_SMPR(base)                  MMIO32((base) + 0x14)</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="adc_8h.html#aada42d850f6039bb1aec9a5d11698729">   77</a></span>&#160;<span class="preprocessor">#define ADC1_SMPR                       ADC_SMPR(ADC)</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">/* Watchdog Threshold Register */</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="adc_8h.html#a4ad9f3677efdaffa8c448e7a59015d09">   81</a></span>&#160;<span class="preprocessor">#define ADC_TR(base)                    MMIO32(base + 0x20)</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="adc_8h.html#a4ad9f3677efdaffa8c448e7a59015d09">   81</a></span>&#160;<span class="preprocessor">#define ADC_TR(base)                    MMIO32((base) + 0x20)</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="adc_8h.html#a21c55cde32a73b2464bae9b4cd64ce22">   82</a></span>&#160;<span class="preprocessor">#define ADC1_TR                         ADC_TR(ADC)</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">/* Channel Select Register */</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="adc_8h.html#a4377b2f429dedc81df03937ed06a6a41">   86</a></span>&#160;<span class="preprocessor">#define ADC_CHSELR(base)                MMIO32(base + 0x28)</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="adc_8h.html#a4377b2f429dedc81df03937ed06a6a41">   86</a></span>&#160;<span class="preprocessor">#define ADC_CHSELR(base)                MMIO32((base) + 0x28)</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="adc_8h.html#afb09106165989682d52438b8f59d26a7">   87</a></span>&#160;<span class="preprocessor">#define ADC1_CHSELR                     ADC_CHSELR(ADC)</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">/* Regular Data Register */</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="adc_8h.html#a0bf4bbc4236428f2e1d4324681a22043">   91</a></span>&#160;<span class="preprocessor">#define ADC_DR(base)                    MMIO32(base + 0x40)</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="adc_8h.html#a0bf4bbc4236428f2e1d4324681a22043">   91</a></span>&#160;<span class="preprocessor">#define ADC_DR(base)                    MMIO32((base) + 0x40)</span></div>
 <div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="adc_8h.html#a851f62156cf9d539d12693259f93500b">   92</a></span>&#160;<span class="preprocessor">#define ADC1_DR                         ADC_DR(ADC)</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
@@ -540,7 +540,7 @@ $(document).ready(function(){initNavTree('adc_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_7d765688839e3eda4be687451f518130.html">f0</a></li><li class="navelem"><a class="el" href="adc_8h.html">adc.h</a></li>
-    <li class="footer">Generated on Thu Oct 15 2015 02:21:23 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 03:21:27 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
