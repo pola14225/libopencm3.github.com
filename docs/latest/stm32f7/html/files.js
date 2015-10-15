@@ -38,6 +38,7 @@ var files =
     [ "pwr_common_all.h", "pwr__common__all_8h.html", "pwr__common__all_8h" ],
     [ "pwr_common_l01.c", "pwr__common__l01_8c.html", "pwr__common__l01_8c" ],
     [ "pwr_common_l01.h", "pwr__common__l01_8h.html", "pwr__common__l01_8h" ],
+    [ "rcc.h", "rcc_8h.html", "rcc_8h" ],
     [ "rcc_common_all.c", "rcc__common__all_8c.html", "rcc__common__all_8c" ],
     [ "rcc_common_all.h", "rcc__common__all_8h.html", "rcc__common__all_8h" ],
     [ "rng_common_f24.h", "rng__common__f24_8h.html", "rng__common__f24_8h" ],

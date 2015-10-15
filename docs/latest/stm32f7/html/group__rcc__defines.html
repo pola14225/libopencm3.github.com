@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.9.1"/>
-<title>libopencm3: Rcc_defines</title>
+<title>libopencm3: RCC Defines</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -125,9 +125,20 @@ $(document).ready(function(){initNavTree('group__rcc__defines.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Rcc_defines</div>  </div>
+<div class="title">RCC Defines<div class="ingroups"><a class="el" href="group__STM32F7xx__defines.html">STM32F7xx Defines</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><b>Defined Constants and Types for the STM32F7xx Reset and Clock Control</b>  
+<a href="#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for RCC Defines:</div>
+<div class="dyncontent">
+<center><table><tr><td><img src="group__rcc__defines.png" border="0" alt="" usemap="#group____rcc____defines"/>
+<map name="group____rcc____defines" id="group____rcc____defines">
+<area shape="rect" id="node2" href="group__STM32F7xx__defines.html" title="Defined Constants and Types for the STM32F7xx series. " alt="" coords="5,5,148,32"/></map>
+</td></tr></table></center>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -143,10 +154,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gabb1b312c6db8db25447460742dcdb566"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566">rcc_peripheral_clear_reset</a> (volatile uint32_t *reg, uint32_t clear_reset)</td></tr>
 <tr class="memdesc:gabb1b312c6db8db25447460742dcdb566"><td class="mdescLeft">&#160;</td><td class="mdescRight">RCC Remove Reset on Peripherals.  <a href="#gabb1b312c6db8db25447460742dcdb566">More...</a><br /></td></tr>
 <tr class="separator:gabb1b312c6db8db25447460742dcdb566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga90aa2b7801b2b42debc0536d38c5b07c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_periph_clock_enable</a> (enum rcc_periph_clken clken)</td></tr>
+<tr class="memitem:ga90aa2b7801b2b42debc0536d38c5b07c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_periph_clock_enable</a> (enum <a class="el" href="rcc_8h.html#a54c7db24941f636ee238833c481ada48">rcc_periph_clken</a> clken)</td></tr>
 <tr class="memdesc:ga90aa2b7801b2b42debc0536d38c5b07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Peripheral Clock in running mode.  <a href="#ga90aa2b7801b2b42debc0536d38c5b07c">More...</a><br /></td></tr>
 <tr class="separator:ga90aa2b7801b2b42debc0536d38c5b07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87325ef1019f246cd84ba8aa73100721"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721">rcc_periph_clock_disable</a> (enum rcc_periph_clken clken)</td></tr>
+<tr class="memitem:ga87325ef1019f246cd84ba8aa73100721"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721">rcc_periph_clock_disable</a> (enum <a class="el" href="rcc_8h.html#a54c7db24941f636ee238833c481ada48">rcc_periph_clken</a> clken)</td></tr>
 <tr class="memdesc:ga87325ef1019f246cd84ba8aa73100721"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable Peripheral Clock in running mode.  <a href="#ga87325ef1019f246cd84ba8aa73100721">More...</a><br /></td></tr>
 <tr class="separator:ga87325ef1019f246cd84ba8aa73100721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae8846a0bf49a46bcdc10a412bc69ee58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58">rcc_periph_reset_pulse</a> (enum rcc_periph_rst rst)</td></tr>
@@ -163,6 +174,11 @@ Functions</h2></td></tr>
 <tr class="separator:gaccfc4aa94152abb68e0d5ad473adbf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p><b>Defined Constants and Types for the STM32F7xx Reset and Clock Control</b> </p>
+<dl class="section version"><dt>Version</dt><dd>1.0.0</dd></dl>
+<dl class="section author"><dt>Author</dt><dd> &copy;  2015 Karl Palsson <a href="#" onclick="location.href='mai'+'lto:'+'kar'+'lp'+'@tw'+'ea'+'k.n'+'et'+'.au'; return false;">karlp<span style="display: none;">.nosp@m.</span>@twe<span style="display: none;">.nosp@m.</span>ak.ne<span style="display: none;">.nosp@m.</span>t.au</a></dd></dl>
+<dl class="section date"><dt>Date</dt><dd>October, 2015</dd></dl>
+<p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2013 Frantisek Burian <a href="#" onclick="location.href='mai'+'lto:'+'BuF'+'ra'+'n@s'+'ez'+'nam'+'.c'+'z'; return false;">BuFra<span style="display: none;">.nosp@m.</span>n@se<span style="display: none;">.nosp@m.</span>znam.<span style="display: none;">.nosp@m.</span>cz</a> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga87325ef1019f246cd84ba8aa73100721"></a>
@@ -172,7 +188,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void rcc_periph_clock_disable </td>
           <td>(</td>
-          <td class="paramtype">enum rcc_periph_clken&#160;</td>
+          <td class="paramtype">enum <a class="el" href="rcc_8h.html#a54c7db24941f636ee238833c481ada48">rcc_periph_clken</a>&#160;</td>
           <td class="paramname"><em>clken</em></td><td>)</td>
           <td></td>
         </tr>
@@ -187,7 +203,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>For available constants, see #rcc_periph_clken (RCC_UART1 for example) </p>
+<p>For available constants, see <a class="el" href="rcc_8h.html#a54c7db24941f636ee238833c481ada48">rcc_periph_clken</a> (RCC_UART1 for example) </p>
 
 <p>Definition at line <a class="el" href="rcc__common__all_8c_source.html#l00135">135</a> of file <a class="el" href="rcc__common__all_8c_source.html">rcc_common_all.c</a>.</p>
 
@@ -202,7 +218,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void rcc_periph_clock_enable </td>
           <td>(</td>
-          <td class="paramtype">enum rcc_periph_clken&#160;</td>
+          <td class="paramtype">enum <a class="el" href="rcc_8h.html#a54c7db24941f636ee238833c481ada48">rcc_periph_clken</a>&#160;</td>
           <td class="paramname"><em>clken</em></td><td>)</td>
           <td></td>
         </tr>
@@ -217,7 +233,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>For available constants, see #rcc_periph_clken (RCC_UART1 for example) </p>
+<p>For available constants, see <a class="el" href="rcc_8h.html#a54c7db24941f636ee238833c481ada48">rcc_periph_clken</a> (RCC_UART1 for example) </p>
 
 <p>Definition at line <a class="el" href="rcc__common__all_8c_source.html#l00121">121</a> of file <a class="el" href="rcc__common__all_8c_source.html">rcc_common_all.c</a>.</p>
 
@@ -529,6 +545,8 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rcc__common__all_8c_source.html#l00194">194</a> of file <a class="el" href="rcc__common__all_8c_source.html">rcc_common_all.c</a>.</p>
 
+<p>References <a class="el" href="rcc_8h_source.html#l00043">RCC_CFGR</a>, <a class="el" href="rcc_8h_source.html#l00130">RCC_CFGR_MCO_MASK</a>, and <a class="el" href="rcc_8h_source.html#l00129">RCC_CFGR_MCO_SHIFT</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -536,7 +554,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Oct 15 2015 13:22:09 for libopencm3 by
+    <li class="footer">Generated on Thu Oct 15 2015 14:22:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
