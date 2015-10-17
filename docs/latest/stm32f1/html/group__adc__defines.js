@@ -154,6 +154,5 @@ var group__adc__defines =
     [ "adc_on", "group__adc__defines.html#ga3ec44a6d5e28b3626c59ef9a85c7c4e5", null ],
     [ "adc_reset_calibration", "group__adc__defines.html#ga640d0e7ddeb7b7be90693edee48b10f1", null ],
     [ "adc_set_dual_mode", "group__adc__defines.html#gac6f35b3d65fcda9f9599058799f2dbf0", null ],
-    [ "adc_set_single_channel", "group__adc__defines.html#ga196e492cbc237675e6a5c2cbebad2639", null ],
     [ "adc_start_conversion_direct", "group__adc__defines.html#ga455f91c3461744ff38517f4cd54c31b4", null ]
 ];

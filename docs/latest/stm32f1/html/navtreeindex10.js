@@ -1,7 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"group__gpio__defines.html#ga25f77abfd13bacb790f5f4c55c26c23b":[28,0,22,469],
-"group__gpio__defines.html#ga25f77abfd13bacb790f5f4c55c26c23b":[6,1,6,385],
 "group__gpio__defines.html#ga26160d8eadccfe5e95eae006e8641052":[28,0,22,368],
 "group__gpio__defines.html#ga26160d8eadccfe5e95eae006e8641052":[6,1,6,285],
 "group__gpio__defines.html#ga27d131628b244c715a06cd20476c4b60":[28,0,22,296],
@@ -104,8 +102,8 @@ var NAVTREEINDEX10 =
 "group__gpio__defines.html#ga44ed4308d14771a0118579569d250868":[6,1,6,382],
 "group__gpio__defines.html#ga4569fcfd839432db427d2345320527ff":[28,0,22,401],
 "group__gpio__defines.html#ga4569fcfd839432db427d2345320527ff":[6,1,6,318],
-"group__gpio__defines.html#ga45fb89cb4417a6cf680d1864e70c7941":[28,0,22,231],
 "group__gpio__defines.html#ga45fb89cb4417a6cf680d1864e70c7941":[6,1,6,158],
+"group__gpio__defines.html#ga45fb89cb4417a6cf680d1864e70c7941":[28,0,22,231],
 "group__gpio__defines.html#ga464524a11dd41cc545a21810404572ad":[6,1,6,22],
 "group__gpio__defines.html#ga464524a11dd41cc545a21810404572ad":[28,0,22,43],
 "group__gpio__defines.html#ga465bb970e9612a970d0e5ee904a3b156":[28,0,22,357],
@@ -246,8 +244,10 @@ var NAVTREEINDEX10 =
 "group__gpio__defines.html#ga7423203aecd61f00e9cd7cd6616b2cee":[6,1,6,404],
 "group__gpio__defines.html#ga749adc86df621552b5a0908ecf5b2ebe":[28,0,23,20],
 "group__gpio__defines.html#ga749adc86df621552b5a0908ecf5b2ebe":[6,1,6,431],
-"group__gpio__defines.html#ga74d4616c4cb6dabb936cdcde7b9ea938":[6,1,6,130],
 "group__gpio__defines.html#ga74d4616c4cb6dabb936cdcde7b9ea938":[28,0,22,203],
+"group__gpio__defines.html#ga74d4616c4cb6dabb936cdcde7b9ea938":[6,1,6,130],
 "group__gpio__defines.html#ga75663a6a7b7ee350db25c260837a9fae":[28,0,22,456],
-"group__gpio__defines.html#ga75663a6a7b7ee350db25c260837a9fae":[6,1,6,373]
+"group__gpio__defines.html#ga75663a6a7b7ee350db25c260837a9fae":[6,1,6,373],
+"group__gpio__defines.html#ga76375064fca5fa0c9597e5794c06ed30":[28,0,22,323],
+"group__gpio__defines.html#ga76375064fca5fa0c9597e5794c06ed30":[6,1,6,243]
 };

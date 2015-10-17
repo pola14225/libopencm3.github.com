@@ -1,7 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2":[6,1,5,69],
-"group__flash__defines.html#ga9c1b3869d9a031db08c634e7f8a396bb":[28,0,20,39],
 "group__flash__defines.html#ga9c1b3869d9a031db08c634e7f8a396bb":[6,1,5,54],
 "group__flash__defines.html#gab25f1fa4127fa015361b61a6f3180784":[28,0,20,11],
 "group__flash__defines.html#gab25f1fa4127fa015361b61a6f3180784":[6,1,5,14],
@@ -83,8 +81,8 @@ var NAVTREEINDEX9 =
 "group__flash__latency.html#ga936324709ea40109331b76849da2c8b2":[6,1,5,1,0],
 "group__flash__latency.html#gad9b09ca8db6df455d0b8f810f8521257":[28,0,19,3],
 "group__flash__latency.html#gad9b09ca8db6df455d0b8f810f8521257":[6,1,5,1,2],
-"group__flash__latency.html#gaec66af244e6afb5bbf9816d7c76e1621":[6,1,5,1,1],
 "group__flash__latency.html#gaec66af244e6afb5bbf9816d7c76e1621":[28,0,19,2],
+"group__flash__latency.html#gaec66af244e6afb5bbf9816d7c76e1621":[6,1,5,1,1],
 "group__flash__options.html":[6,1,5,0],
 "group__flash__options.html#ga079db47e9bc72b974b894c8ff9f7edca":[28,0,19,11],
 "group__flash__options.html#ga079db47e9bc72b974b894c8ff9f7edca":[6,1,5,0,3],
@@ -198,8 +196,8 @@ var NAVTREEINDEX9 =
 "group__gpio__defines.html#ga1411f8f04d1d7ea301bf4dbe7530b9b0":[28,0,22,42],
 "group__gpio__defines.html#ga14ce463ac45a2d789f40883ec094c227":[6,1,6,46],
 "group__gpio__defines.html#ga14ce463ac45a2d789f40883ec094c227":[28,0,22,119],
-"group__gpio__defines.html#ga14f329c0df1815c36bd6ebf0160a7de4":[6,1,6,368],
 "group__gpio__defines.html#ga14f329c0df1815c36bd6ebf0160a7de4":[28,0,22,451],
+"group__gpio__defines.html#ga14f329c0df1815c36bd6ebf0160a7de4":[6,1,6,368],
 "group__gpio__defines.html#ga15d3763407e9f21027f45fbc8cb19f40":[28,0,22,383],
 "group__gpio__defines.html#ga15d3763407e9f21027f45fbc8cb19f40":[6,1,6,300],
 "group__gpio__defines.html#ga1677a2f4d8575a04d91d1fe8bb0c7812":[28,0,22,437],
@@ -249,5 +247,7 @@ var NAVTREEINDEX9 =
 "group__gpio__defines.html#ga24e6c4f336806b3cd0b0a107b185d9dc":[28,0,22,509],
 "group__gpio__defines.html#ga24e6c4f336806b3cd0b0a107b185d9dc":[6,1,6,420],
 "group__gpio__defines.html#ga25d4a78cf33a8ff44a5a7cfddd1a5eb3":[28,0,22,165],
-"group__gpio__defines.html#ga25d4a78cf33a8ff44a5a7cfddd1a5eb3":[6,1,6,92]
+"group__gpio__defines.html#ga25d4a78cf33a8ff44a5a7cfddd1a5eb3":[6,1,6,92],
+"group__gpio__defines.html#ga25f77abfd13bacb790f5f4c55c26c23b":[28,0,22,469],
+"group__gpio__defines.html#ga25f77abfd13bacb790f5f4c55c26c23b":[6,1,6,385]
 };

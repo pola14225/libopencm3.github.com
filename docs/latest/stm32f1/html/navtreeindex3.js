@@ -1,7 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"group__adc__defines.html#ga4899b8efa60e3970a92a924d32a6e462":[28,0,1,91],
-"group__adc__defines.html#ga49bb71a868c9d88a0f7bbe48918b2140":[6,1,0,42],
 "group__adc__defines.html#ga49bb71a868c9d88a0f7bbe48918b2140":[28,0,1,22],
 "group__adc__defines.html#ga53d366c241faccff9206efc4c0d306f0":[6,1,0,47],
 "group__adc__defines.html#ga53d366c241faccff9206efc4c0d306f0":[28,0,1,45],
@@ -131,8 +129,8 @@ var NAVTREEINDEX3 =
 "group__adc__defines.html#gaaef91c441f758e59b3e0456f215e4f31":[28,0,1,103],
 "group__adc__defines.html#gab02f7bc7ef2574f1849d78941866bbd4":[6,1,0,118],
 "group__adc__defines.html#gab02f7bc7ef2574f1849d78941866bbd4":[28,0,1,135],
-"group__adc__defines.html#gab632d8822368a841ee2c9ad70002de8b":[28,0,1,157],
 "group__adc__defines.html#gab632d8822368a841ee2c9ad70002de8b":[6,1,0,140],
+"group__adc__defines.html#gab632d8822368a841ee2c9ad70002de8b":[28,0,1,157],
 "group__adc__defines.html#gab68daa6c08a77d012977895bd115b701":[6,1,0,76],
 "group__adc__defines.html#gab68daa6c08a77d012977895bd115b701":[28,0,1,86],
 "group__adc__defines.html#gab99895f3a1c337bc34c5b5b7b60fce7f":[6,1,0,92],
@@ -157,8 +155,8 @@ var NAVTREEINDEX3 =
 "group__adc__defines.html#gac53a196d96a9af508f6cc12b0dad958f":[28,0,1,96],
 "group__adc__defines.html#gac63130ac37df7211d6a64955ba91bea0":[6,1,0,105],
 "group__adc__defines.html#gac63130ac37df7211d6a64955ba91bea0":[28,0,1,114],
-"group__adc__defines.html#gac6805070a80a5fe4633ed0e18e279f42":[6,1,0,126],
 "group__adc__defines.html#gac6805070a80a5fe4633ed0e18e279f42":[28,0,1,143],
+"group__adc__defines.html#gac6805070a80a5fe4633ed0e18e279f42":[6,1,0,126],
 "group__adc__defines.html#gac6f35b3d65fcda9f9599058799f2dbf0":[28,0,1,169],
 "group__adc__defines.html#gac6f35b3d65fcda9f9599058799f2dbf0":[6,1,0,153],
 "group__adc__defines.html#gac78ef1c5c32a20f9059af58f33b6b83c":[6,1,0,34],
@@ -249,5 +247,7 @@ var NAVTREEINDEX3 =
 "group__adc__file.html#gac6f35b3d65fcda9f9599058799f2dbf0":[6,0,0,10],
 "group__adc__file.html#gac6f35b3d65fcda9f9599058799f2dbf0":[28,0,0,10],
 "group__adc__file.html#gaf91d45a5dcbc9d884a9f878ff6323bbe":[28,0,0,2],
-"group__adc__file.html#gaf91d45a5dcbc9d884a9f878ff6323bbe":[6,0,0,2]
+"group__adc__file.html#gaf91d45a5dcbc9d884a9f878ff6323bbe":[6,0,0,2],
+"group__adc__file.html#gafdd1cc3cf5cb0833e881c0f9b3d54a85":[6,0,0,7],
+"group__adc__file.html#gafdd1cc3cf5cb0833e881c0f9b3d54a85":[28,0,0,7]
 };

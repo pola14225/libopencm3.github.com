@@ -46,7 +46,6 @@ var searchData=
   ['adc_5fset_5fright_5faligned',['adc_set_right_aligned',['../group__adc__channel.html#ga923b0eb25e1ba298000bdc80cab9702a',1,'adc_common_v1.h']]],
   ['adc_5fset_5fsample_5ftime',['adc_set_sample_time',['../group__adc__channel.html#ga0350c814893ca4055629da6498d1dfad',1,'adc_set_sample_time(uint32_t adc, uint8_t channel, uint8_t time):&#160;adc.c'],['../group__adc__file.html#ga0350c814893ca4055629da6498d1dfad',1,'adc_set_sample_time(uint32_t adc, uint8_t channel, uint8_t time):&#160;adc.c']]],
   ['adc_5fset_5fsample_5ftime_5fon_5fall_5fchannels',['adc_set_sample_time_on_all_channels',['../group__adc__channel.html#ga028c905528d6187936c2d2ed61967d73',1,'adc_set_sample_time_on_all_channels(uint32_t adc, uint8_t time):&#160;adc.c'],['../group__adc__file.html#ga028c905528d6187936c2d2ed61967d73',1,'adc_set_sample_time_on_all_channels(uint32_t adc, uint8_t time):&#160;adc.c']]],
-  ['adc_5fset_5fsingle_5fchannel',['adc_set_single_channel',['../group__adc__defines.html#ga196e492cbc237675e6a5c2cbebad2639',1,'adc.h']]],
   ['adc_5fset_5fsingle_5fconversion_5fmode',['adc_set_single_conversion_mode',['../group__adc__channel.html#ga3b730353f6e1bb97b546101edb6c80c0',1,'adc_common_v1.h']]],
   ['adc_5fset_5fwatchdog_5fhigh_5fthreshold',['adc_set_watchdog_high_threshold',['../group__adc__channel.html#ga1385e9ff5bd39f15330d2c8d88ef54e6',1,'adc_common_v1.h']]],
   ['adc_5fset_5fwatchdog_5flow_5fthreshold',['adc_set_watchdog_low_threshold',['../group__adc__channel.html#gad625ff5ca8d177b0df9673274623f927',1,'adc_common_v1.h']]],

@@ -1251,13 +1251,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_set_single_channel</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga196e492cbc237675e6a5c2cbebad2639</anchor>
-      <arglist>(uint32_t adc, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_set_dual_mode</name>
       <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>gac6f35b3d65fcda9f9599058799f2dbf0</anchor>
@@ -25274,13 +25267,6 @@
       <anchorfile>group__adc__defines.html</anchorfile>
       <anchor>ga455f91c3461744ff38517f4cd54c31b4</anchor>
       <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_single_channel</name>
-      <anchorfile>group__adc__defines.html</anchorfile>
-      <anchor>ga196e492cbc237675e6a5c2cbebad2639</anchor>
-      <arglist>(uint32_t adc, uint8_t channel)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
