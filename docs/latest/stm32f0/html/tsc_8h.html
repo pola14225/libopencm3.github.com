@@ -160,7 +160,7 @@ Macros</h2></td></tr>
 <tr class="separator:ga5e713e2ddebdc880534fc2ddf3308328"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab50e0dd5e7ad5000ce735fc47635b13b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tsc__defines.html#gab50e0dd5e7ad5000ce735fc47635b13b">TSC_IOGCSR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a2bba7a31caeacaacd433abb71781e0af">TSC_BASE</a> + 0x30)</td></tr>
 <tr class="separator:gab50e0dd5e7ad5000ce735fc47635b13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad1363f5f547d585384ef34a0b800fc82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tsc__defines.html#gad1363f5f547d585384ef34a0b800fc82">TSC_IOGxCR</a>(x)&#160;&#160;&#160;MMIO8(<a class="el" href="memorymap_8h.html#a2bba7a31caeacaacd433abb71781e0af">TSC_BASE</a> + 0x34 + (x)*4)</td></tr>
+<tr class="memitem:gad1363f5f547d585384ef34a0b800fc82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tsc__defines.html#gad1363f5f547d585384ef34a0b800fc82">TSC_IOGxCR</a>(x)&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a2bba7a31caeacaacd433abb71781e0af">TSC_BASE</a> + 0x34 + ((x)-1)*4)</td></tr>
 <tr class="separator:gad1363f5f547d585384ef34a0b800fc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1e9a911d5474352a7f4c59e01fb72d06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tsc__defines.html#ga1e9a911d5474352a7f4c59e01fb72d06">TSC_CR_CTPH_SHIFT</a>&#160;&#160;&#160;28</td></tr>
 <tr class="separator:ga1e9a911d5474352a7f4c59e01fb72d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,7 +269,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_7d765688839e3eda4be687451f518130.html">f0</a></li><li class="navelem"><a class="el" href="tsc_8h.html">tsc.h</a></li>
-    <li class="footer">Generated on Sat Oct 17 2015 04:21:21 for libopencm3 by
+    <li class="footer">Generated on Sun Oct 25 2015 12:21:25 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

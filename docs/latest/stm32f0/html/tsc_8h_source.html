@@ -187,7 +187,7 @@ $(document).ready(function(){initNavTree('tsc_8h_source.html','');});
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="group__tsc__defines.html#ga0af8440ef5d347a17087a1f9d38cfa00">   52</a></span>&#160;<span class="preprocessor">#define TSC_IOSCR                       MMIO32(TSC_BASE + 0x20)</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="group__tsc__defines.html#ga5e713e2ddebdc880534fc2ddf3308328">   53</a></span>&#160;<span class="preprocessor">#define TSC_IOCCR                       MMIO32(TSC_BASE + 0x28)</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="group__tsc__defines.html#gab50e0dd5e7ad5000ce735fc47635b13b">   54</a></span>&#160;<span class="preprocessor">#define TSC_IOGCSR                      MMIO32(TSC_BASE + 0x30)</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="group__tsc__defines.html#gad1363f5f547d585384ef34a0b800fc82">   55</a></span>&#160;<span class="preprocessor">#define TSC_IOGxCR(x)                   MMIO8(TSC_BASE + 0x34 + (x)*4)</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="group__tsc__defines.html#gad1363f5f547d585384ef34a0b800fc82">   55</a></span>&#160;<span class="preprocessor">#define TSC_IOGxCR(x)                   MMIO32(TSC_BASE + 0x34 + ((x)-1)*4)</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">/*****************************************************************************/</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">/* Register values                                                           */</span></div>
@@ -298,7 +298,7 @@ $(document).ready(function(){initNavTree('tsc_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_7d765688839e3eda4be687451f518130.html">f0</a></li><li class="navelem"><a class="el" href="tsc_8h.html">tsc.h</a></li>
-    <li class="footer">Generated on Sat Oct 17 2015 04:21:21 for libopencm3 by
+    <li class="footer">Generated on Sun Oct 25 2015 12:21:25 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
