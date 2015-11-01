@@ -11374,9 +11374,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ST_TSENSE_CAL2_110</name>
+      <name>ST_TSENSE_CAL2_110C</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a180b2568bd311857514f6f845b36aeb0</anchor>
+      <anchor>aec8ea3ca0b75d7fd5cc5bf6df1539dd0</anchor>
       <arglist></arglist>
     </member>
   </compound>

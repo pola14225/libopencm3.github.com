@@ -273,7 +273,7 @@ var searchData=
   ['spi_5fwrite',['spi_write',['../group__spi__defines.html#ga6c3dfa86916c2c38d4a1957f4704bb47',1,'spi_write(uint32_t spi, uint16_t data):&#160;spi_common_all.c'],['../group__spi__file.html#ga6c3dfa86916c2c38d4a1957f4704bb47',1,'spi_write(uint32_t spi, uint16_t data):&#160;spi_common_all.c']]],
   ['spi_5fxfer',['spi_xfer',['../group__spi__defines.html#gae453ac946166bc51a42c35738d9d005b',1,'spi_xfer(uint32_t spi, uint16_t data):&#160;spi_common_all.c'],['../group__spi__file.html#gae453ac946166bc51a42c35738d9d005b',1,'spi_xfer(uint32_t spi, uint16_t data):&#160;spi_common_all.c']]],
   ['st_5ftsense_5fcal1_5f30c',['ST_TSENSE_CAL1_30C',['../memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6',1,'memorymap.h']]],
-  ['st_5ftsense_5fcal2_5f110',['ST_TSENSE_CAL2_110',['../memorymap_8h.html#a180b2568bd311857514f6f845b36aeb0',1,'memorymap.h']]],
+  ['st_5ftsense_5fcal2_5f110c',['ST_TSENSE_CAL2_110C',['../memorymap_8h.html#aec8ea3ca0b75d7fd5cc5bf6df1539dd0',1,'memorymap.h']]],
   ['st_5fusbfs_5fcommon_2eh',['st_usbfs_common.h',['../st__usbfs__common_8h.html',1,'']]],
   ['st_5fusbfs_5fcopy_5ffrom_5fpm',['st_usbfs_copy_from_pm',['../st__usbfs__core_8h.html#aa730507334a7505678c08d74bd000e4b',1,'st_usbfs_core.h']]],
   ['st_5fusbfs_5fcopy_5fto_5fpm',['st_usbfs_copy_to_pm',['../st__usbfs__core_8h.html#a875275dc890bc5dbad8f96a9f5b7f83d',1,'st_usbfs_core.h']]],
