@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;libopencm3/cm3/memorymap.h&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">/* --- STM32F4 specific peripheral definitions ----------------------------- */</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">/* --- STM32F7 specific peripheral definitions ----------------------------- */</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">/* Memory map for all busses */</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a9171f49478fa86d932f89e78e73b88b0">   26</a></span>&#160;<span class="preprocessor">#define PERIPH_BASE                     (0x40000000U)</span></div>
@@ -280,15 +280,15 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a884f2d8b782b9e0980b7edea3b96af80">  146</a></span>&#160;<span class="preprocessor">#define FMC5_BASE                       (PERIPH_BASE_AHB3 + 0x60000000U)</span></div>
 <div class="line"><a name="l00147"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a12f1822423a1d22f31619e7e441a3b70">  147</a></span>&#160;<span class="preprocessor">#define FMC6_BASE                       (PERIPH_BASE_AHB3 + 0x70000000U)</span></div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment">/* PPIB */</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a4adaf4fd82ccc3a538f1f27a70cdbbef">  150</a></span>&#160;<span class="preprocessor">#define DBGMCU_BASE                     (PPBI_BASE + 0x00042000)        </span><span class="comment">/* TODO */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment">/* Private peripherals */</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a4adaf4fd82ccc3a538f1f27a70cdbbef">  150</a></span>&#160;<span class="preprocessor">#define DBGMCU_BASE                     (PPBI_BASE + 0x00042000)</span></div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment">/* Device Electronic Signature */</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1">  153</a></span>&#160;<span class="preprocessor">#define DESIG_FLASH_SIZE_BASE           (0x1FFF7A22U)                   </span><span class="comment">/* TODO */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">  154</a></span>&#160;<span class="preprocessor">#define DESIG_UNIQUE_ID_BASE            (0x1FFF7A10U)                   </span><span class="comment">/* TODO */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aaf41f46cf83d59e7f2b040c3ad7ed592">  155</a></span>&#160;<span class="preprocessor">#define DESIG_UNIQUE_ID0                MMIO32(DESIG_UNIQUE_ID_BASE)    </span><span class="comment">/* TODO */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a121c59863db1db56b26e70978089b931">  156</a></span>&#160;<span class="preprocessor">#define DESIG_UNIQUE_ID1                MMIO32(DESIG_UNIQUE_ID_BASE + 4)</span><span class="comment">/* TODO */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00157"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a58267039858b45fc2b5948a79d8a038e">  157</a></span>&#160;<span class="preprocessor">#define DESIG_UNIQUE_ID2                MMIO32(DESIG_UNIQUE_ID_BASE + 8)</span><span class="comment">/* TODO */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00153"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1">  153</a></span>&#160;<span class="preprocessor">#define DESIG_FLASH_SIZE_BASE           (0x1FF0F422U)</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b">  154</a></span>&#160;<span class="preprocessor">#define DESIG_UNIQUE_ID_BASE            (0x1FF0F420U)</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aaf41f46cf83d59e7f2b040c3ad7ed592">  155</a></span>&#160;<span class="preprocessor">#define DESIG_UNIQUE_ID0                MMIO32(DESIG_UNIQUE_ID_BASE)</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a121c59863db1db56b26e70978089b931">  156</a></span>&#160;<span class="preprocessor">#define DESIG_UNIQUE_ID1                MMIO32(DESIG_UNIQUE_ID_BASE + 4)</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a58267039858b45fc2b5948a79d8a038e">  157</a></span>&#160;<span class="preprocessor">#define DESIG_UNIQUE_ID2                MMIO32(DESIG_UNIQUE_ID_BASE + 8)</span></div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="comment">/* ST provided factory calibration values @ 3.3V */</span></div>
 <div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d">  160</a></span>&#160;<span class="preprocessor">#define ST_VREFINT_CAL                  MMIO16(0x1FF07A4A)</span></div>
@@ -302,7 +302,7 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_932fb815597189fe3a7cd069b5886ae6.html">f7</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Sun Nov 1 2015 15:22:20 for libopencm3 by
+    <li class="footer">Generated on Sun Nov 1 2015 16:22:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
