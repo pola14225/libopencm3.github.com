@@ -13998,112 +13998,112 @@
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_NODIV</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga8a587751e0aa065d5cc0597ddafcbe2f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV2</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga8beaa356ccf238b4f9d8ef61dbeae7b1</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV3</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga554c3890138f4fabc86af31ec7508f26</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV4</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga03989668fed9fe564f60fb13cfcae681</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV5</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga51d5a6f6ad3d9865ed8b6ab562c254d0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV6</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>gad76c4165380e49e9d9784e7bf5fab1b6</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV7</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>gaa63b565a6b48cee1ea49a0be9f2f9185</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV8</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga25aec8f8ebb84c4716db308dc179339b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV9</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga97a9c6bb08a63295636119df733d0f9f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV10</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga2b94190a5066c1679c7d82c652536445</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV11</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>gac9932904c30e68bb7b52cea28cbeae69</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV12</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga5402db0b8522c06ce3e1ff6813a508f0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV13</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>gae35fc61c8c5b86c6b1d484a132bb3e45</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV14</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga7d58f429410f5aaa9475a3a4b63492bc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV15</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga579a0cc7dcca708fef65e3217c55666e</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CFGR2_PREDIV_DIV16</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
       <anchor>ga95d845a26c3d1e98a883e6e1007c401e</anchor>
       <arglist></arglist>
     </member>
@@ -33304,6 +33304,7 @@
     <name>rcc_defines</name>
     <title>RCC Defines</title>
     <filename>group__rcc__defines.html</filename>
+    <subgroup>rcc_cfgr2_prediv</subgroup>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR</name>
@@ -34867,118 +34868,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_NODIV</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga8a587751e0aa065d5cc0597ddafcbe2f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV2</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga8beaa356ccf238b4f9d8ef61dbeae7b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV3</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga554c3890138f4fabc86af31ec7508f26</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV4</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga03989668fed9fe564f60fb13cfcae681</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV5</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga51d5a6f6ad3d9865ed8b6ab562c254d0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV6</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gad76c4165380e49e9d9784e7bf5fab1b6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV7</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaa63b565a6b48cee1ea49a0be9f2f9185</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV8</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga25aec8f8ebb84c4716db308dc179339b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV9</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga97a9c6bb08a63295636119df733d0f9f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV10</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga2b94190a5066c1679c7d82c652536445</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV11</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gac9932904c30e68bb7b52cea28cbeae69</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV12</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga5402db0b8522c06ce3e1ff6813a508f0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV13</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gae35fc61c8c5b86c6b1d484a132bb3e45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV14</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga7d58f429410f5aaa9475a3a4b63492bc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV15</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga579a0cc7dcca708fef65e3217c55666e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>RCC_CFGR2_PREDIV_DIV16</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga95d845a26c3d1e98a883e6e1007c401e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>RCC_CFGR3_USART2SW_SHIFT</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga92c2dbd9d344dcb5536e20878e4450de</anchor>
@@ -35472,6 +35361,123 @@
       <name>rcc_apb1_frequency</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaa1594220dae1eb3f9aa3dc30db60d8d1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>rcc_cfgr2_prediv</name>
+    <title>PLL source predividers</title>
+    <filename>group__rcc__cfgr2__prediv.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_NODIV</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga8a587751e0aa065d5cc0597ddafcbe2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV2</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga8beaa356ccf238b4f9d8ef61dbeae7b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV3</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga554c3890138f4fabc86af31ec7508f26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV4</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga03989668fed9fe564f60fb13cfcae681</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV5</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga51d5a6f6ad3d9865ed8b6ab562c254d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV6</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>gad76c4165380e49e9d9784e7bf5fab1b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV7</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>gaa63b565a6b48cee1ea49a0be9f2f9185</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV8</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga25aec8f8ebb84c4716db308dc179339b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV9</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga97a9c6bb08a63295636119df733d0f9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV10</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga2b94190a5066c1679c7d82c652536445</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV11</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>gac9932904c30e68bb7b52cea28cbeae69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV12</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga5402db0b8522c06ce3e1ff6813a508f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV13</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>gae35fc61c8c5b86c6b1d484a132bb3e45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV14</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga7d58f429410f5aaa9475a3a4b63492bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV15</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga579a0cc7dcca708fef65e3217c55666e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR2_PREDIV_DIV16</name>
+      <anchorfile>group__rcc__cfgr2__prediv.html</anchorfile>
+      <anchor>ga95d845a26c3d1e98a883e6e1007c401e</anchor>
       <arglist></arglist>
     </member>
   </compound>

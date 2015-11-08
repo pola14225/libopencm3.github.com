@@ -220,7 +220,7 @@ Basic DAC handling API.</h1>
 <p>Set the DAC's GPIO port to Analog IN. Enable the DAC clock. Enable the DAC, set a trigger source and load the buffer with the first value. After the DAC is triggered, load the buffer with the next value. This example uses software triggering and added noise. The trigger and further buffer load calls are made when data is to be sent out.</p>
 <div class="fragment"><div class="line">gpio_set_mode(<a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, GPIO_MODE_OUTPUT_50_MHZ,</div>
 <div class="line">              GPIO_CNF_OUTPUT_ALTFN_PUSHPULL, <a class="code" href="group__gpio__pin__id.html#ga98aeff9c8b3bbdfd119e4ec4d3f615c8">GPIO4</a>);</div>
-<div class="line"><a class="code" href="group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="rcc_8h.html#ad4baa1f26b04719fe3d4e2f02d7dde40">RCC_APB1ENR</a>, <a class="code" href="rcc_8h.html#a087968e2786321fb8645c46b22eea132">RCC_APB1ENR_DACEN</a>);</div>
+<div class="line"><a class="code" href="group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="rcc_8h.html#ad4baa1f26b04719fe3d4e2f02d7dde40">RCC_APB1ENR</a>, RCC_APB1ENR_DACEN);</div>
 <div class="line"><a class="code" href="group__dac__defines.html#ga22d83a8b387dffeed4a134ee25d0fa8b">dac_disable</a>(<a class="code" href="group__dac__defines.html#ggaddb2a9646f5222113db5545109cc700badf896c664dde68aea03c05d2097af075">CHANNEL_1</a>);</div>
 <div class="line"><a class="code" href="group__dac__defines.html#ga89fb44b8fd880a1c0415e77f2762c6af">dac_set_waveform_characteristics</a>(<a class="code" href="group__dac__mamp1.html#ga46f969ccec00fe0900d16cf83b8a73c8">DAC_CR_MAMP1_8</a>);</div>
 <div class="line"><a class="code" href="group__dac__defines.html#gaa0a78f45943398ea085e7332611e95f9">dac_set_waveform_generation</a>(<a class="code" href="group__dac__wave1__en.html#ga0bdbd7bb6004048e7eaa6c0d1ec21608">DAC_CR_WAVE1_NOISE</a>);</div>
@@ -767,7 +767,7 @@ The DAC trigger must be enabled for this to work.</dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 6 2015 01:21:58 for libopencm3 by
+    <li class="footer">Generated on Sun Nov 8 2015 17:22:09 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,5 +1,6 @@
 var group__rcc__defines =
 [
+    [ "PLL source predividers", "group__rcc__cfgr2__prediv.html", "group__rcc__cfgr2__prediv" ],
     [ "rcc_periph_clock_disable", "group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721", null ],
     [ "rcc_periph_clock_enable", "group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c", null ],
     [ "rcc_periph_reset_hold", "group__rcc__defines.html#ga6f3e2843e5d017717da66599ccc5daef", null ],

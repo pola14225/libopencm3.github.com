@@ -1,5 +1,6 @@
 var rcc_8c =
 [
+    [ "rcc_adc_prescale", "group__rcc__file.html#gaa789502b32056e44d7f18de033389504", null ],
     [ "rcc_backupdomain_reset", "group__rcc__file.html#gaa02e63deae78644c393004fb900fe584", null ],
     [ "rcc_clock_setup_hsi", "group__rcc__file.html#ga3d30e886f8749e059865bd3fc7a14ccd", null ],
     [ "rcc_css_disable", "group__rcc__file.html#ga2297cce07d5113023bf8eff03fc62c66", null ],
@@ -19,10 +20,11 @@ var rcc_8c =
     [ "rcc_set_hpre", "group__rcc__file.html#gae192b2cd0f37124db5ed76d599a5671b", null ],
     [ "rcc_set_i2c_clock_hsi", "group__rcc__file.html#gadbcdaf32248e0d9ded409b30639cf51c", null ],
     [ "rcc_set_i2c_clock_sysclk", "group__rcc__file.html#ga100c2d4772724c26a569a33ca69b1955", null ],
-    [ "rcc_set_main_pll_hsi", "group__rcc__file.html#gaaceaec3b38f15aeec2ba44f5c0e3d1fd", null ],
+    [ "rcc_set_pll_multiplier", "group__rcc__file.html#ga99f4c5253d4c77dcd9ca9177cf096c81", null ],
     [ "rcc_set_pll_source", "group__rcc__file.html#ga2f2bd45ad9c8b32e0fe5affe9bf181bf", null ],
     [ "rcc_set_ppre1", "group__rcc__file.html#gaaf1b9174131b00a7014c0328a53a65a1", null ],
     [ "rcc_set_ppre2", "group__rcc__file.html#gac40c9478480f3a44c381c15482a563cd", null ],
+    [ "rcc_set_prediv", "group__rcc__file.html#ga5b592070405248d60877bba98a054aee", null ],
     [ "rcc_set_sysclk_source", "group__rcc__file.html#ga2c291271812c333d975807cd5ec99a36", null ],
     [ "rcc_usb_prescale_1", "group__rcc__file.html#ga3c462ec9b669b0592bdbac64b8165596", null ],
     [ "rcc_usb_prescale_1_5", "group__rcc__file.html#ga70255ecf6601ea9349aad2f0a001af83", null ],
