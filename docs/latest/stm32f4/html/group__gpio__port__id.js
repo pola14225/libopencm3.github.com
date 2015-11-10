@@ -8,5 +8,7 @@ var group__gpio__port__id =
     [ "GPIOF", "group__gpio__port__id.html#ga43c3022dede7c9db7a58d3c3409dbc8d", null ],
     [ "GPIOG", "group__gpio__port__id.html#ga02a2a23a32f9b02166a8c64012842414", null ],
     [ "GPIOH", "group__gpio__port__id.html#gadeacbb43ae86c879945afe98c679b285", null ],
-    [ "GPIOI", "group__gpio__port__id.html#gad15f13545ecdbbabfccf43d5997e5ade", null ]
+    [ "GPIOI", "group__gpio__port__id.html#gad15f13545ecdbbabfccf43d5997e5ade", null ],
+    [ "GPIOJ", "group__gpio__port__id.html#ga7d3020a351195b6600a5d64c01c461fa", null ],
+    [ "GPIOK", "group__gpio__port__id.html#ga273d78d198f0221223b3e9d7798f1649", null ]
 ];

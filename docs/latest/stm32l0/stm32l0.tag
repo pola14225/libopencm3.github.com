@@ -10808,6 +10808,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ</name>
+      <anchorfile>group__gpio__port__id.html</anchorfile>
+      <anchor>ga7d3020a351195b6600a5d64c01c461fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK</name>
+      <anchorfile>group__gpio__port__id.html</anchorfile>
+      <anchor>ga273d78d198f0221223b3e9d7798f1649</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_MODER</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga5843d7116f1adb424198a807391c764e</anchor>
@@ -10825,6 +10839,20 @@
       <name>GPIOI_MODER</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga742e4861f6e34bc8eef0ad61b587efbf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_MODER</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga68354b86ba7acab1dd672683f30da9dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_MODER</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gae9e250e929b1b3a17e00dce99499b132</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -10850,6 +10878,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_OTYPER</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gafc23f46c65c1a300578085260274ed03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_OTYPER</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaaabde27f478d19fc7701b5d0deca8dfc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_OSPEEDR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga834b048b962846dff8935e1afb516db9</anchor>
@@ -10867,6 +10909,20 @@
       <name>GPIOI_OSPEEDR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga61dee3e055d1e1c741fb6976e95ea94a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_OSPEEDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga8e364ecc5ebfdc573a4f406093f775ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_OSPEEDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga488f0ddb1c33f4f966334f2ab9883971</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -10892,6 +10948,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_PUPDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga8e67812a246f017b8e050a96aec4131d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_PUPDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gafd8200931db8ef233e1d791857cfa3cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_IDR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>gafe5c5bf512dd760c4d8c8199e49e5b16</anchor>
@@ -10909,6 +10979,20 @@
       <name>GPIOI_IDR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga3323062cdd9d5812759edcb3ab55a2cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_IDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaabab90fdcfea93c4289755df84f0eb39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_IDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga4d476871cdaceda97fc81d8e275a8fdc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -10934,6 +11018,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_ODR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga1dc97c1f02dbf6b4057782f87b68085b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_ODR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga6407bff8dc834aad050416e51d9fa1e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_BSRR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>gaf7c27525fb03623c128a96028b64489e</anchor>
@@ -10951,6 +11049,20 @@
       <name>GPIOI_BSRR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga736b30c227d1e7abd606d0e7b490983d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_BSRR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaf4d0fd48a2e322619dfba876c510a02d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_BSRR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga0196177383528da3aa2e663dd564386b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -10976,6 +11088,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_LCKR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga8b8a699afc83a0222f59f0100cda96d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_LCKR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga116980adf33d0c56db193d2ad4a7e3c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_AFRL</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga18416b94513871a97a366e852ba15985</anchor>
@@ -10997,6 +11123,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_AFRL</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga9594b843047460742f13de758fab774d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_AFRL</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga042a8e9af8cce3317bafec0c089022e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_AFRH</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga1787012db69ac0d48bedc67af4c6443d</anchor>
@@ -11014,6 +11154,20 @@
       <name>GPIOI_AFRH</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>gac1d790793d69e2bccf841e39e1aa45ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_AFRH</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaca0944e0b56356fdd9a4d58ae086f84d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_AFRH</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gad53cd1f74ada3ea1751ad01ede3e5f5c</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -29812,6 +29966,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_MODER</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga68354b86ba7acab1dd672683f30da9dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_MODER</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gae9e250e929b1b3a17e00dce99499b132</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_OTYPER</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>gaecac8548c4b01a26745fad598350cbfa</anchor>
@@ -29829,6 +29997,20 @@
       <name>GPIOI_OTYPER</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga96816b52220074d3830e5b34804592db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_OTYPER</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gafc23f46c65c1a300578085260274ed03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_OTYPER</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaaabde27f478d19fc7701b5d0deca8dfc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -29854,6 +30036,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_OSPEEDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga8e364ecc5ebfdc573a4f406093f775ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_OSPEEDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga488f0ddb1c33f4f966334f2ab9883971</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_PUPDR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga52391b6e11802e47eee5ed8af2fdcdfb</anchor>
@@ -29871,6 +30067,20 @@
       <name>GPIOI_PUPDR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>gad37b17f9cece3cbbb2d2c7c53b6aece4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_PUPDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga8e67812a246f017b8e050a96aec4131d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_PUPDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gafd8200931db8ef233e1d791857cfa3cc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -29896,6 +30106,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_IDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaabab90fdcfea93c4289755df84f0eb39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_IDR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga4d476871cdaceda97fc81d8e275a8fdc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_ODR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>gaf6c66591bad804d5e29360387e25d40a</anchor>
@@ -29913,6 +30137,20 @@
       <name>GPIOI_ODR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga13af2f435da053eab0c7a9ab9a5789d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_ODR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga1dc97c1f02dbf6b4057782f87b68085b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_ODR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga6407bff8dc834aad050416e51d9fa1e3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -29938,6 +30176,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_BSRR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaf4d0fd48a2e322619dfba876c510a02d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_BSRR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga0196177383528da3aa2e663dd564386b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_LCKR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga639ecc5a7b2226fbf42990e810ba799a</anchor>
@@ -29955,6 +30207,20 @@
       <name>GPIOI_LCKR</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga38c667678ae4080667cdc471030cbd63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_LCKR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga8b8a699afc83a0222f59f0100cda96d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_LCKR</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga116980adf33d0c56db193d2ad4a7e3c2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -29980,6 +30246,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>GPIOJ_AFRL</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga9594b843047460742f13de758fab774d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_AFRL</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>ga042a8e9af8cce3317bafec0c089022e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIOG_AFRH</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>ga1787012db69ac0d48bedc67af4c6443d</anchor>
@@ -29997,6 +30277,20 @@
       <name>GPIOI_AFRH</name>
       <anchorfile>group__gpio__defines.html</anchorfile>
       <anchor>gac1d790793d69e2bccf841e39e1aa45ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ_AFRH</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gaca0944e0b56356fdd9a4d58ae086f84d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK_AFRH</name>
+      <anchorfile>group__gpio__defines.html</anchorfile>
+      <anchor>gad53cd1f74ada3ea1751ad01ede3e5f5c</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -40082,6 +40376,20 @@
       <name>GPIOI</name>
       <anchorfile>group__gpio__port__id.html</anchorfile>
       <anchor>gad15f13545ecdbbabfccf43d5997e5ade</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOJ</name>
+      <anchorfile>group__gpio__port__id.html</anchorfile>
+      <anchor>ga7d3020a351195b6600a5d64c01c461fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>GPIOK</name>
+      <anchorfile>group__gpio__port__id.html</anchorfile>
+      <anchor>ga273d78d198f0221223b3e9d7798f1649</anchor>
       <arglist></arglist>
     </member>
   </compound>

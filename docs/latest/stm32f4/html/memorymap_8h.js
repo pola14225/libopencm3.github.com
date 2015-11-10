@@ -32,6 +32,8 @@ var memorymap_8h =
     [ "GPIO_PORT_G_BASE", "memorymap_8h.html#a0800377c4f11f41b21e6aa46d20ae6ac", null ],
     [ "GPIO_PORT_H_BASE", "memorymap_8h.html#ac7ee51bf6d1394318fef30cb44e39752", null ],
     [ "GPIO_PORT_I_BASE", "memorymap_8h.html#a104e1285ac9f0c216d36f90b7b325542", null ],
+    [ "GPIO_PORT_J_BASE", "memorymap_8h.html#a147348bc3eea830dde6c8437004b44cf", null ],
+    [ "GPIO_PORT_K_BASE", "memorymap_8h.html#ac5172be75df3550d41ee7d994d7dda85", null ],
     [ "HASH_BASE", "memorymap_8h.html#a398d121ca28c3f0f90a140b62184e242", null ],
     [ "I2C1_BASE", "memorymap_8h.html#acd72dbffb1738ca87c838545c4eb85a3", null ],
     [ "I2C2_BASE", "memorymap_8h.html#a04bda70f25c795fb79f163b633ad4a5d", null ],

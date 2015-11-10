@@ -29,6 +29,8 @@ var searchData=
   ['scc_5fgpiog',['SCC_GPIOG',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48adb087b1ddece696b0c76a7fc03e44de7',1,'rcc.h']]],
   ['scc_5fgpioh',['SCC_GPIOH',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48a3869bb86c68604dc9015445cad5aa173',1,'rcc.h']]],
   ['scc_5fgpioi',['SCC_GPIOI',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48ada9ed8e8f6ba782141fb5b68b2becf5e',1,'rcc.h']]],
+  ['scc_5fgpioj',['SCC_GPIOJ',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48a6db1e5291f26eac23359ac9dae6d950c',1,'rcc.h']]],
+  ['scc_5fgpiok',['SCC_GPIOK',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48ae33b8aad16ccb33ebba1d1eaa6f855f5',1,'rcc.h']]],
   ['scc_5fhash',['SCC_HASH',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48abb93f05863beaac5987e7595fa8e85fe',1,'rcc.h']]],
   ['scc_5fi2c1',['SCC_I2C1',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48aac1edecb6b1268334dd61d0be70eb8b5',1,'rcc.h']]],
   ['scc_5fi2c2',['SCC_I2C2',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48a6e133432144b494871b9fc7434a91214',1,'rcc.h']]],

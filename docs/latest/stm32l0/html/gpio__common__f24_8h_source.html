@@ -182,67 +182,89 @@ $(document).ready(function(){initNavTree('gpio__common__f24_8h_source.html','');
 <div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="group__gpio__port__id.html#ga02a2a23a32f9b02166a8c64012842414">   48</a></span>&#160;<span class="preprocessor">#define GPIOG                           GPIO_PORT_G_BASE</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="group__gpio__port__id.html#gadeacbb43ae86c879945afe98c679b285">   49</a></span>&#160;<span class="preprocessor">#define GPIOH                           GPIO_PORT_H_BASE</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="group__gpio__port__id.html#gad15f13545ecdbbabfccf43d5997e5ade">   50</a></span>&#160;<span class="preprocessor">#define GPIOI                           GPIO_PORT_I_BASE</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">/* --- GPIO registers for STM32F2, STM32F3 and STM32F4 --------------------- */</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="group__gpio__port__id.html#ga7d3020a351195b6600a5d64c01c461fa">   51</a></span>&#160;<span class="preprocessor">#define GPIOJ                           GPIO_PORT_J_BASE</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="group__gpio__port__id.html#ga273d78d198f0221223b3e9d7798f1649">   52</a></span>&#160;<span class="preprocessor">#define GPIOK                           GPIO_PORT_K_BASE</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">/**@}*/</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">/* Port mode register (GPIOx_MODER) */</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga5843d7116f1adb424198a807391c764e">   56</a></span>&#160;<span class="preprocessor">#define GPIOG_MODER                     GPIO_MODER(GPIOG)</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga140e9424154ac9cfaff6e528850f6fe4">   57</a></span>&#160;<span class="preprocessor">#define GPIOH_MODER                     GPIO_MODER(GPIOH)</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga742e4861f6e34bc8eef0ad61b587efbf">   58</a></span>&#160;<span class="preprocessor">#define GPIOI_MODER                     GPIO_MODER(GPIOI)</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/* Port output type register (GPIOx_OTYPER) */</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaecac8548c4b01a26745fad598350cbfa">   61</a></span>&#160;<span class="preprocessor">#define GPIOG_OTYPER                    GPIO_OTYPER(GPIOG)</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga8125b3bb1ab6367d04f3b0cb2d2a1e98">   62</a></span>&#160;<span class="preprocessor">#define GPIOH_OTYPER                    GPIO_OTYPER(GPIOH)</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga96816b52220074d3830e5b34804592db">   63</a></span>&#160;<span class="preprocessor">#define GPIOI_OTYPER                    GPIO_OTYPER(GPIOI)</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/* Port output speed register (GPIOx_OSPEEDR) */</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga834b048b962846dff8935e1afb516db9">   66</a></span>&#160;<span class="preprocessor">#define GPIOG_OSPEEDR                   GPIO_OSPEEDR(GPIOG)</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga7e7321e18a22ad8258e25033e191db7b">   67</a></span>&#160;<span class="preprocessor">#define GPIOH_OSPEEDR                   GPIO_OSPEEDR(GPIOH)</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga61dee3e055d1e1c741fb6976e95ea94a">   68</a></span>&#160;<span class="preprocessor">#define GPIOI_OSPEEDR                   GPIO_OSPEEDR(GPIOI)</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">/* Port pull-up/pull-down register (GPIOx_PUPDR) */</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga52391b6e11802e47eee5ed8af2fdcdfb">   71</a></span>&#160;<span class="preprocessor">#define GPIOG_PUPDR                     GPIO_PUPDR(GPIOG)</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga7a8a7c3e039a6ccc66870506d038f809">   72</a></span>&#160;<span class="preprocessor">#define GPIOH_PUPDR                     GPIO_PUPDR(GPIOH)</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gad37b17f9cece3cbbb2d2c7c53b6aece4">   73</a></span>&#160;<span class="preprocessor">#define GPIOI_PUPDR                     GPIO_PUPDR(GPIOI)</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">/* Port input data register (GPIOx_IDR) */</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gafe5c5bf512dd760c4d8c8199e49e5b16">   76</a></span>&#160;<span class="preprocessor">#define GPIOG_IDR                       GPIO_IDR(GPIOG)</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaec38460a442238d6428150c3376bfe2f">   77</a></span>&#160;<span class="preprocessor">#define GPIOH_IDR                       GPIO_IDR(GPIOH)</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga3323062cdd9d5812759edcb3ab55a2cd">   78</a></span>&#160;<span class="preprocessor">#define GPIOI_IDR                       GPIO_IDR(GPIOI)</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">/* Port output data register (GPIOx_ODR) */</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaf6c66591bad804d5e29360387e25d40a">   81</a></span>&#160;<span class="preprocessor">#define GPIOG_ODR                       GPIO_ODR(GPIOG)</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga446bd2be4354e28998a3a2f57ee09d7b">   82</a></span>&#160;<span class="preprocessor">#define GPIOH_ODR                       GPIO_ODR(GPIOH)</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga13af2f435da053eab0c7a9ab9a5789d5">   83</a></span>&#160;<span class="preprocessor">#define GPIOI_ODR                       GPIO_ODR(GPIOI)</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">/* --- GPIO registers for STM32F2, STM32F3 and STM32F4 --------------------- */</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">/* Port mode register (GPIOx_MODER) */</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga5843d7116f1adb424198a807391c764e">   58</a></span>&#160;<span class="preprocessor">#define GPIOG_MODER                     GPIO_MODER(GPIOG)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga140e9424154ac9cfaff6e528850f6fe4">   59</a></span>&#160;<span class="preprocessor">#define GPIOH_MODER                     GPIO_MODER(GPIOH)</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga742e4861f6e34bc8eef0ad61b587efbf">   60</a></span>&#160;<span class="preprocessor">#define GPIOI_MODER                     GPIO_MODER(GPIOI)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga68354b86ba7acab1dd672683f30da9dc">   61</a></span>&#160;<span class="preprocessor">#define GPIOJ_MODER                     GPIO_MODER(GPIOJ)</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gae9e250e929b1b3a17e00dce99499b132">   62</a></span>&#160;<span class="preprocessor">#define GPIOK_MODER                     GPIO_MODER(GPIOK)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">/* Port output type register (GPIOx_OTYPER) */</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaecac8548c4b01a26745fad598350cbfa">   65</a></span>&#160;<span class="preprocessor">#define GPIOG_OTYPER                    GPIO_OTYPER(GPIOG)</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga8125b3bb1ab6367d04f3b0cb2d2a1e98">   66</a></span>&#160;<span class="preprocessor">#define GPIOH_OTYPER                    GPIO_OTYPER(GPIOH)</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga96816b52220074d3830e5b34804592db">   67</a></span>&#160;<span class="preprocessor">#define GPIOI_OTYPER                    GPIO_OTYPER(GPIOI)</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gafc23f46c65c1a300578085260274ed03">   68</a></span>&#160;<span class="preprocessor">#define GPIOJ_OTYPER                    GPIO_OTYPER(GPIOJ)</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaaabde27f478d19fc7701b5d0deca8dfc">   69</a></span>&#160;<span class="preprocessor">#define GPIOK_OTYPER                    GPIO_OTYPER(GPIOK)</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">/* Port output speed register (GPIOx_OSPEEDR) */</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga834b048b962846dff8935e1afb516db9">   72</a></span>&#160;<span class="preprocessor">#define GPIOG_OSPEEDR                   GPIO_OSPEEDR(GPIOG)</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga7e7321e18a22ad8258e25033e191db7b">   73</a></span>&#160;<span class="preprocessor">#define GPIOH_OSPEEDR                   GPIO_OSPEEDR(GPIOH)</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga61dee3e055d1e1c741fb6976e95ea94a">   74</a></span>&#160;<span class="preprocessor">#define GPIOI_OSPEEDR                   GPIO_OSPEEDR(GPIOI)</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga8e364ecc5ebfdc573a4f406093f775ff">   75</a></span>&#160;<span class="preprocessor">#define GPIOJ_OSPEEDR                   GPIO_OSPEEDR(GPIOJ)</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga488f0ddb1c33f4f966334f2ab9883971">   76</a></span>&#160;<span class="preprocessor">#define GPIOK_OSPEEDR                   GPIO_OSPEEDR(GPIOK)</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">/* Port pull-up/pull-down register (GPIOx_PUPDR) */</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga52391b6e11802e47eee5ed8af2fdcdfb">   79</a></span>&#160;<span class="preprocessor">#define GPIOG_PUPDR                     GPIO_PUPDR(GPIOG)</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga7a8a7c3e039a6ccc66870506d038f809">   80</a></span>&#160;<span class="preprocessor">#define GPIOH_PUPDR                     GPIO_PUPDR(GPIOH)</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gad37b17f9cece3cbbb2d2c7c53b6aece4">   81</a></span>&#160;<span class="preprocessor">#define GPIOI_PUPDR                     GPIO_PUPDR(GPIOI)</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga8e67812a246f017b8e050a96aec4131d">   82</a></span>&#160;<span class="preprocessor">#define GPIOJ_PUPDR                     GPIO_PUPDR(GPIOJ)</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gafd8200931db8ef233e1d791857cfa3cc">   83</a></span>&#160;<span class="preprocessor">#define GPIOK_PUPDR                     GPIO_PUPDR(GPIOK)</span></div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">/* Port bit set/reset register (GPIOx_BSRR) */</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaf7c27525fb03623c128a96028b64489e">   86</a></span>&#160;<span class="preprocessor">#define GPIOG_BSRR                      GPIO_BSRR(GPIOG)</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga5e586f29f17156f0a323eae3566ca252">   87</a></span>&#160;<span class="preprocessor">#define GPIOH_BSRR                      GPIO_BSRR(GPIOH)</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga736b30c227d1e7abd606d0e7b490983d">   88</a></span>&#160;<span class="preprocessor">#define GPIOI_BSRR                      GPIO_BSRR(GPIOI)</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">/* Port configuration lock register (GPIOx_LCKR) */</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga639ecc5a7b2226fbf42990e810ba799a">   91</a></span>&#160;<span class="preprocessor">#define GPIOG_LCKR                      GPIO_LCKR(GPIOG)</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga75a1dfc85b9b2c004339a7484fe40573">   92</a></span>&#160;<span class="preprocessor">#define GPIOH_LCKR                      GPIO_LCKR(GPIOH)</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga38c667678ae4080667cdc471030cbd63">   93</a></span>&#160;<span class="preprocessor">#define GPIOI_LCKR                      GPIO_LCKR(GPIOI)</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">/* Alternate function low register (GPIOx_AFRL) */</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga18416b94513871a97a366e852ba15985">   96</a></span>&#160;<span class="preprocessor">#define GPIOG_AFRL                      GPIO_AFRL(GPIOG)</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga01949fadbf0e4f41922b947850bcd51e">   97</a></span>&#160;<span class="preprocessor">#define GPIOH_AFRL                      GPIO_AFRL(GPIOH)</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga744d841c613136cd38aa7b43b21875ed">   98</a></span>&#160;<span class="preprocessor">#define GPIOI_AFRL                      GPIO_AFRL(GPIOI)</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">/* Alternate function high register (GPIOx_AFRH) */</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga1787012db69ac0d48bedc67af4c6443d">  101</a></span>&#160;<span class="preprocessor">#define GPIOG_AFRH                      GPIO_AFRH(GPIOG)</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga517a8f03fb0e0c1a05e1f1408bd556ad">  102</a></span>&#160;<span class="preprocessor">#define GPIOH_AFRH                      GPIO_AFRH(GPIOH)</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gac1d790793d69e2bccf841e39e1aa45ca">  103</a></span>&#160;<span class="preprocessor">#define GPIOI_AFRH                      GPIO_AFRH(GPIOI)</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">/** @cond */</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">#warning &quot;gpio_common_f24.h should not be included explicitly, only via gpio.h&quot;</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">/** @endcond */</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">/* Port input data register (GPIOx_IDR) */</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gafe5c5bf512dd760c4d8c8199e49e5b16">   86</a></span>&#160;<span class="preprocessor">#define GPIOG_IDR                       GPIO_IDR(GPIOG)</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaec38460a442238d6428150c3376bfe2f">   87</a></span>&#160;<span class="preprocessor">#define GPIOH_IDR                       GPIO_IDR(GPIOH)</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga3323062cdd9d5812759edcb3ab55a2cd">   88</a></span>&#160;<span class="preprocessor">#define GPIOI_IDR                       GPIO_IDR(GPIOI)</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaabab90fdcfea93c4289755df84f0eb39">   89</a></span>&#160;<span class="preprocessor">#define GPIOJ_IDR                       GPIO_IDR(GPIOJ)</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga4d476871cdaceda97fc81d8e275a8fdc">   90</a></span>&#160;<span class="preprocessor">#define GPIOK_IDR                       GPIO_IDR(GPIOK)</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/* Port output data register (GPIOx_ODR) */</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaf6c66591bad804d5e29360387e25d40a">   93</a></span>&#160;<span class="preprocessor">#define GPIOG_ODR                       GPIO_ODR(GPIOG)</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga446bd2be4354e28998a3a2f57ee09d7b">   94</a></span>&#160;<span class="preprocessor">#define GPIOH_ODR                       GPIO_ODR(GPIOH)</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga13af2f435da053eab0c7a9ab9a5789d5">   95</a></span>&#160;<span class="preprocessor">#define GPIOI_ODR                       GPIO_ODR(GPIOI)</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga1dc97c1f02dbf6b4057782f87b68085b">   96</a></span>&#160;<span class="preprocessor">#define GPIOJ_ODR                       GPIO_ODR(GPIOJ)</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga6407bff8dc834aad050416e51d9fa1e3">   97</a></span>&#160;<span class="preprocessor">#define GPIOK_ODR                       GPIO_ODR(GPIOK)</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">/* Port bit set/reset register (GPIOx_BSRR) */</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaf7c27525fb03623c128a96028b64489e">  100</a></span>&#160;<span class="preprocessor">#define GPIOG_BSRR                      GPIO_BSRR(GPIOG)</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga5e586f29f17156f0a323eae3566ca252">  101</a></span>&#160;<span class="preprocessor">#define GPIOH_BSRR                      GPIO_BSRR(GPIOH)</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga736b30c227d1e7abd606d0e7b490983d">  102</a></span>&#160;<span class="preprocessor">#define GPIOI_BSRR                      GPIO_BSRR(GPIOI)</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaf4d0fd48a2e322619dfba876c510a02d">  103</a></span>&#160;<span class="preprocessor">#define GPIOJ_BSRR                      GPIO_BSRR(GPIOJ)</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga0196177383528da3aa2e663dd564386b">  104</a></span>&#160;<span class="preprocessor">#define GPIOK_BSRR                      GPIO_BSRR(GPIOK)</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">/* Port configuration lock register (GPIOx_LCKR) */</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga639ecc5a7b2226fbf42990e810ba799a">  107</a></span>&#160;<span class="preprocessor">#define GPIOG_LCKR                      GPIO_LCKR(GPIOG)</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga75a1dfc85b9b2c004339a7484fe40573">  108</a></span>&#160;<span class="preprocessor">#define GPIOH_LCKR                      GPIO_LCKR(GPIOH)</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga38c667678ae4080667cdc471030cbd63">  109</a></span>&#160;<span class="preprocessor">#define GPIOI_LCKR                      GPIO_LCKR(GPIOI)</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga8b8a699afc83a0222f59f0100cda96d6">  110</a></span>&#160;<span class="preprocessor">#define GPIOJ_LCKR                      GPIO_LCKR(GPIOJ)</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga116980adf33d0c56db193d2ad4a7e3c2">  111</a></span>&#160;<span class="preprocessor">#define GPIOK_LCKR                      GPIO_LCKR(GPIOK)</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">/* Alternate function low register (GPIOx_AFRL) */</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga18416b94513871a97a366e852ba15985">  114</a></span>&#160;<span class="preprocessor">#define GPIOG_AFRL                      GPIO_AFRL(GPIOG)</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga01949fadbf0e4f41922b947850bcd51e">  115</a></span>&#160;<span class="preprocessor">#define GPIOH_AFRL                      GPIO_AFRL(GPIOH)</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga744d841c613136cd38aa7b43b21875ed">  116</a></span>&#160;<span class="preprocessor">#define GPIOI_AFRL                      GPIO_AFRL(GPIOI)</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga9594b843047460742f13de758fab774d">  117</a></span>&#160;<span class="preprocessor">#define GPIOJ_AFRL                      GPIO_AFRL(GPIOJ)</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga042a8e9af8cce3317bafec0c089022e3">  118</a></span>&#160;<span class="preprocessor">#define GPIOK_AFRL                      GPIO_AFRL(GPIOK)</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">/* Alternate function high register (GPIOx_AFRH) */</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga1787012db69ac0d48bedc67af4c6443d">  121</a></span>&#160;<span class="preprocessor">#define GPIOG_AFRH                      GPIO_AFRH(GPIOG)</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#ga517a8f03fb0e0c1a05e1f1408bd556ad">  122</a></span>&#160;<span class="preprocessor">#define GPIOH_AFRH                      GPIO_AFRH(GPIOH)</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gac1d790793d69e2bccf841e39e1aa45ca">  123</a></span>&#160;<span class="preprocessor">#define GPIOI_AFRH                      GPIO_AFRH(GPIOI)</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gaca0944e0b56356fdd9a4d58ae086f84d">  124</a></span>&#160;<span class="preprocessor">#define GPIOJ_AFRH                      GPIO_AFRH(GPIOJ)</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="group__gpio__defines.html#gad53cd1f74ada3ea1751ad01ede3e5f5c">  125</a></span>&#160;<span class="preprocessor">#define GPIOK_AFRH                      GPIO_AFRH(GPIOK)</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment">/** @cond */</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor">#warning &quot;gpio_common_f24.h should not be included explicitly, only via gpio.h&quot;</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment">/** @endcond */</span></div>
 <div class="ttc" id="gpio__common__f234_8h_html"><div class="ttname"><a href="gpio__common__f234_8h.html">gpio_common_f234.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -250,7 +272,7 @@ $(document).ready(function(){initNavTree('gpio__common__f24_8h_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_c02db4a0946ae9b9bf4f96b1a4904c69.html">common</a></li><li class="navelem"><a class="el" href="gpio__common__f24_8h.html">gpio_common_f24.h</a></li>
-    <li class="footer">Generated on Sun Nov 8 2015 17:22:48 for libopencm3 by
+    <li class="footer">Generated on Tue Nov 10 2015 23:22:27 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

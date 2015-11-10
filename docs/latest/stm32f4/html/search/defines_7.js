@@ -8,5 +8,7 @@ var searchData=
   ['gpio_5fport_5ff_5fbase',['GPIO_PORT_F_BASE',['../memorymap_8h.html#aeb59b5ce54ec229dc4697a0d3b387401',1,'memorymap.h']]],
   ['gpio_5fport_5fg_5fbase',['GPIO_PORT_G_BASE',['../memorymap_8h.html#a0800377c4f11f41b21e6aa46d20ae6ac',1,'memorymap.h']]],
   ['gpio_5fport_5fh_5fbase',['GPIO_PORT_H_BASE',['../memorymap_8h.html#ac7ee51bf6d1394318fef30cb44e39752',1,'memorymap.h']]],
-  ['gpio_5fport_5fi_5fbase',['GPIO_PORT_I_BASE',['../memorymap_8h.html#a104e1285ac9f0c216d36f90b7b325542',1,'memorymap.h']]]
+  ['gpio_5fport_5fi_5fbase',['GPIO_PORT_I_BASE',['../memorymap_8h.html#a104e1285ac9f0c216d36f90b7b325542',1,'memorymap.h']]],
+  ['gpio_5fport_5fj_5fbase',['GPIO_PORT_J_BASE',['../memorymap_8h.html#a147348bc3eea830dde6c8437004b44cf',1,'memorymap.h']]],
+  ['gpio_5fport_5fk_5fbase',['GPIO_PORT_K_BASE',['../memorymap_8h.html#ac5172be75df3550d41ee7d994d7dda85',1,'memorymap.h']]]
 ];
