@@ -59,6 +59,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../stm32f7/html/modules.html"><span>STM32F7</span></a></li>
       <li><a href="../../stm32l0/html/modules.html"><span>STM32L0</span></a></li>
       <li><a href="../../stm32l1/html/modules.html"><span>STM32L1</span></a></li>
+      <li><a href="modules.html"><span>STM32L4</span></a></li>
       <li><a href="../../lm3s/html/modules.html"><span>LM3S</span></a></li>
       <li><a href="../../lm4f/html/modules.html"><span>LM4F</span></a></li>
       <li><a href="../../lpc13xx/html/modules.html"><span>LPC13</span></a></li>
@@ -167,7 +168,7 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a8507e2608dfc4a5fcd7f3fad11c8b79d">   32</a></span>&#160;<span class="preprocessor">#define PERIPH_BASE_APB1                (PERIPH_BASE + 0x00000)</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a9ce09c7342dea5a3dcb66c082e146b09">   33</a></span>&#160;<span class="preprocessor">#define PERIPH_BASE_APB2                (PERIPH_BASE + 0x10000)</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a6a7a706e5a4df2eed7899e972a183084">   34</a></span>&#160;<span class="preprocessor">#define PERIPH_BASE_AHB1                (PERIPH_BASE + 0x20000)</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ad9208ba47ecaa9ac1eb39e7db2b9b5f8">   35</a></span>&#160;<span class="preprocessor">#define PERIPH_BASE_AHB2                (PERIPH_BASE + 0x80000)</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ad9208ba47ecaa9ac1eb39e7db2b9b5f8">   35</a></span>&#160;<span class="preprocessor">#define PERIPH_BASE_AHB2                (0x48000000U)</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">/* Register boundary addresses */</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
@@ -228,10 +229,10 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a2bba7a31caeacaacd433abb71781e0af">   93</a></span>&#160;<span class="preprocessor">#define TSC_BASE                        (PERIPH_BASE_AHB1 + 0x4000)</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">/* AHB2 */</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aadfedde7941fa484de08872551516cd9">   96</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_A_BASE                (PERIPH_BASE_AHB2 + 0x00000)</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a76f2426fde990408388cc7e23d63444e">   97</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_B_BASE                (PERIPH_BASE_AHB2 + 0x00000)</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ac3754540649792975085507caf98b70f">   98</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_C_BASE                (PERIPH_BASE_AHB2 + 0x00000)</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="memorymap_8h.html#afc8d20f5f6ce85201a9682a37036445d">   99</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_D_BASE                (PERIPH_BASE_AHB2 + 0x00000)</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aadfedde7941fa484de08872551516cd9">   96</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_A_BASE                (PERIPH_BASE_AHB2 + 0x0000)</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a76f2426fde990408388cc7e23d63444e">   97</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_B_BASE                (PERIPH_BASE_AHB2 + 0x0400)</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="memorymap_8h.html#ac3754540649792975085507caf98b70f">   98</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_C_BASE                (PERIPH_BASE_AHB2 + 0x0800)</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="memorymap_8h.html#afc8d20f5f6ce85201a9682a37036445d">   99</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_D_BASE                (PERIPH_BASE_AHB2 + 0x0c00)</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a512bc9a47ce4bccdcbcaa9a80620d559">  100</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_E_BASE                (PERIPH_BASE_AHB2 + 0x1000)</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="memorymap_8h.html#aeb59b5ce54ec229dc4697a0d3b387401">  101</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_F_BASE                (PERIPH_BASE_AHB2 + 0x1400)</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="memorymap_8h.html#a0800377c4f11f41b21e6aa46d20ae6ac">  102</a></span>&#160;<span class="preprocessor">#define GPIO_PORT_G_BASE                (PERIPH_BASE_AHB2 + 0x1800)</span></div>
@@ -264,8 +265,8 @@ $(document).ready(function(){initNavTree('memorymap_8h_source.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_9417be1a17550340f19505b8a524537b.html">stm32</a></li><li class="navelem"><a class="el" href="dir_ff32f69c42dc37b8cba38d89b3790816.html">l4</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
-    <li class="footer">Generated on Wed Nov 11 2015 02:23:10 for libopencm3 by
+    <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_57eae45f20f6fce8891407cf95fdfc5b.html">l4</a></li><li class="navelem"><a class="el" href="memorymap_8h.html">memorymap.h</a></li>
+    <li class="footer">Generated on Fri Nov 13 2015 03:22:53 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

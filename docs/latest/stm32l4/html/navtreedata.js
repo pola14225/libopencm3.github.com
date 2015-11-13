@@ -13,6 +13,7 @@ var NAVTREE =
     [ "STM32F7", "../../stm32f7/html/modules.html", null ],
     [ "STM32L0", "../../stm32l0/html/modules.html", null ],
     [ "STM32L1", "../../stm32l1/html/modules.html", null ],
+    [ "STM32L4", "modules.html", "modules" ],
     [ "LM3S", "../../lm3s/html/modules.html", null ],
     [ "LM4F", "../../lm4f/html/modules.html", null ],
     [ "LPC13", "../../lpc13xx/html/modules.html", null ],
@@ -31,8 +32,11 @@ var NAVTREE =
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "All", "globals.html", "globals_dup" ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -40,7 +44,14 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"../../cm3/html/modules.html"
+"../../cm3/html/modules.html",
+"group__gpio__defines.html#ga6dfbea535dac35864fd1a087ed45aed9",
+"group__gpio__port__id.html#gad15f13545ecdbbabfccf43d5997e5ade",
+"group__rcc__defines.html#ga1824c6f3be6d2f36f85bf434fc0aad51",
+"group__rcc__defines.html#ga677557daa9e14cb8675914bea5865d7a",
+"group__rcc__defines.html#gabd458ef42c959fcfb7be1e35765a71f9",
+"group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a655cddebf084e82f2cf10328b1584dc5",
+"group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48ac10c1e0cf96884f1ee034cd729faea26"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,15 +1,14 @@
 var searchData=
 [
-  ['tim15_5fbase',['TIM15_BASE',['../memorymap_8h.html#a7ab42ce1846930569d742d339b554078',1,'memorymap.h']]],
-  ['tim16_5fbase',['TIM16_BASE',['../memorymap_8h.html#a16c97093a531d763b0794c3e6d09e1bf',1,'memorymap.h']]],
-  ['tim17_5fbase',['TIM17_BASE',['../memorymap_8h.html#affbedbe30e8c4cffdea326d6c1800574',1,'memorymap.h']]],
-  ['tim1_5fbase',['TIM1_BASE',['../memorymap_8h.html#af8aa324ca5011b8173ab16585ed7324a',1,'memorymap.h']]],
-  ['tim2_5fbase',['TIM2_BASE',['../memorymap_8h.html#a00d0fe6ad532ab32f0f81cafca8d3aa5',1,'memorymap.h']]],
-  ['tim3_5fbase',['TIM3_BASE',['../memorymap_8h.html#af0c34a518f87e1e505cd2332e989564a',1,'memorymap.h']]],
-  ['tim4_5fbase',['TIM4_BASE',['../memorymap_8h.html#a56e2d44b0002f316527b8913866a370d',1,'memorymap.h']]],
-  ['tim5_5fbase',['TIM5_BASE',['../memorymap_8h.html#a3e1671477190d065ba7c944558336d7e',1,'memorymap.h']]],
-  ['tim6_5fbase',['TIM6_BASE',['../memorymap_8h.html#a8268ec947929f192559f28c6bf7d1eac',1,'memorymap.h']]],
-  ['tim7_5fbase',['TIM7_BASE',['../memorymap_8h.html#a0ebf54364c6a2be6eb19ded6b18b6387',1,'memorymap.h']]],
-  ['tim8_5fbase',['TIM8_BASE',['../memorymap_8h.html#a5b72f698b7a048a6f9fcfe2efe5bc1db',1,'memorymap.h']]],
-  ['tsc_5fbase',['TSC_BASE',['../memorymap_8h.html#a2bba7a31caeacaacd433abb71781e0af',1,'memorymap.h']]]
+  ['sai1_5fbase',['SAI1_BASE',['../memorymap_8h.html#a24c1053b754946b512f9c31123e09d21',1,'memorymap.h']]],
+  ['sai2_5fbase',['SAI2_BASE',['../memorymap_8h.html#a4b4d5c95ea5f835f9ac37fab90a2d700',1,'memorymap.h']]],
+  ['sdmmc1_5fbase',['SDMMC1_BASE',['../memorymap_8h.html#a8129623b8d7bc74a5f707729439590c4',1,'memorymap.h']]],
+  ['spi1_5fbase',['SPI1_BASE',['../memorymap_8h.html#a50cd8b47929f18b05efbd0f41253bf8d',1,'memorymap.h']]],
+  ['spi2_5fbase',['SPI2_BASE',['../memorymap_8h.html#ac3e357b4c25106ed375fb1affab6bb86',1,'memorymap.h']]],
+  ['spi3_5fbase',['SPI3_BASE',['../memorymap_8h.html#ae634fe8faa6922690e90fbec2fc86162',1,'memorymap.h']]],
+  ['st_5ftsense_5fcal1_5f30c',['ST_TSENSE_CAL1_30C',['../memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6',1,'memorymap.h']]],
+  ['st_5ftsense_5fcal2_5f110c',['ST_TSENSE_CAL2_110C',['../memorymap_8h.html#aec8ea3ca0b75d7fd5cc5bf6df1539dd0',1,'memorymap.h']]],
+  ['st_5fvrefint_5fcal',['ST_VREFINT_CAL',['../memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d',1,'memorymap.h']]],
+  ['swpmi1_5fbase',['SWPMI1_BASE',['../memorymap_8h.html#a21f79975bb4c5edda5a1f1311b8e658c',1,'memorymap.h']]],
+  ['syscfg_5fbase',['SYSCFG_BASE',['../memorymap_8h.html#a62246020bf3b34b6a4d8d0e84ec79d3d',1,'memorymap.h']]]
 ];

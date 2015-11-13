@@ -1,0 +1,21 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l4/gpio.h:1: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l4/gpio.h:2: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:99: warning: unable to resolve reference to `rcc_ahbrstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:100: warning: unable to resolve reference to `rcc_apb1rstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:101: warning: unable to resolve reference to `rcc_apb2rstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:58: warning: unable to resolve reference to `rcc_ahbenr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:59: warning: unable to resolve reference to `rcc_apb1enr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:36: warning: unable to resolve reference to `rcc_ahbenr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:37: warning: unable to resolve reference to `rcc_apb1enr_en' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:78: warning: unable to resolve reference to `rcc_ahbrstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:79: warning: unable to resolve reference to `rcc_apb1rstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:80: warning: unable to resolve reference to `rcc_apb2rstr_rst' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:189: warning: Found unknown command `\parame'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'

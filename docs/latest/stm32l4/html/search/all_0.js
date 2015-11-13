@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['adc1_5fbase',['ADC1_BASE',['../memorymap_8h.html#a695c9a2f892363a1c942405c8d351b91',1,'memorymap.h']]],
-  ['aes_5fbase',['AES_BASE',['../memorymap_8h.html#ad099ae8679538f6c00294639d67528bf',1,'memorymap.h']]]
+  ['_5frcc_5fbit',['_RCC_BIT',['../rcc__common__all_8c.html#a913261b5f48c6ace5e2cfbc0fc9bca78',1,'rcc_common_all.c']]],
+  ['_5frcc_5freg',['_RCC_REG',['../rcc__common__all_8c.html#a2c87be3073302923a51e2940225ce6f3',1,'rcc_common_all.c']]],
+  ['_5freg_5fbit',['_REG_BIT',['../group__rcc__defines.html#ga859a9ba8fcc7c60a0f7dfd5865001f08',1,'rcc.h']]]
 ];

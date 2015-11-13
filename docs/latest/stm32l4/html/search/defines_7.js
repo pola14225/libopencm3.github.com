@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['lcd_5fbase',['LCD_BASE',['../memorymap_8h.html#a017749aad23300240ef5ac4c3d5ca750',1,'memorymap.h']]],
-  ['lptim1_5fbase',['LPTIM1_BASE',['../memorymap_8h.html#a012ceb003fbb615eedb39a8d7f31c9c6',1,'memorymap.h']]],
-  ['lptim2_5fbase',['LPTIM2_BASE',['../memorymap_8h.html#a74dc5e8a0008c0e16598591753b71b17',1,'memorymap.h']]],
-  ['lpuart1_5fbase',['LPUART1_BASE',['../memorymap_8h.html#a42584c807077cea9525819eaf29c7e34',1,'memorymap.h']]]
+  ['i2c1_5fbase',['I2C1_BASE',['../memorymap_8h.html#acd72dbffb1738ca87c838545c4eb85a3',1,'memorymap.h']]],
+  ['i2c2_5fbase',['I2C2_BASE',['../memorymap_8h.html#a04bda70f25c795fb79f163b633ad4a5d',1,'memorymap.h']]],
+  ['i2c3_5fbase',['I2C3_BASE',['../memorymap_8h.html#a4e8b9198748235a1729e1e8f8f24983b',1,'memorymap.h']]],
+  ['info_5fbase',['INFO_BASE',['../memorymap_8h.html#a006269cecc227cac15beae74acf1a13c',1,'memorymap.h']]],
+  ['iwdg_5fbase',['IWDG_BASE',['../memorymap_8h.html#a8543ee4997296af5536b007cd4748f55',1,'memorymap.h']]]
 ];

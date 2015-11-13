@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['rcc_5fbase',['RCC_BASE',['../memorymap_8h.html#a0e681b03f364532055d88f63fec0d99d',1,'memorymap.h']]],
-  ['rng_5fbase',['RNG_BASE',['../memorymap_8h.html#ab92662976cfe62457141e5b4f83d541c',1,'memorymap.h']]],
-  ['rtc_5fbase',['RTC_BASE',['../memorymap_8h.html#a4265e665d56225412e57a61d87417022',1,'memorymap.h']]]
+  ['quadspi_5fbank_5fbase',['QUADSPI_BANK_BASE',['../memorymap_8h.html#ad41b007149d21ca47679652783aaded9',1,'memorymap.h']]]
 ];

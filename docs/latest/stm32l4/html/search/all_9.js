@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['opamp_5fbase',['OPAMP_BASE',['../memorymap_8h.html#a6e9722d15c7ed794f0eca9682f64c03c',1,'memorymap.h']]],
-  ['otg_5ffs_5fbase',['OTG_FS_BASE',['../memorymap_8h.html#a811fa5a2430fa60672d993ab7b972d55',1,'memorymap.h']]]
+  ['memorymap_2eh',['memorymap.h',['../memorymap_8h.html',1,'']]],
+  ['msi_20range',['MSI Range',['../group__rcc__cr__msirange.html',1,'']]],
+  ['msi_20range_20after_20standby_20values',['MSI Range after standby values',['../group__rcc__csr__msirange.html',1,'']]]
 ];
