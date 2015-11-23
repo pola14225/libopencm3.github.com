@@ -2,8 +2,8 @@ var clock_8h =
 [
     [ "CLK_CCLKCFG", "clock_8h.html#ab26dd960d1a5e19fe500833677d580b3", null ],
     [ "CLK_CLKOUTCFG", "clock_8h.html#a8a7014a24336cc5ea98bc70cbf52df21", null ],
+    [ "CLK_CLKOUTCFG_ACTIVITY", "clock_8h.html#ae0b906ae7df640b4ef189ecd875038b9", null ],
     [ "CLK_CLKOUTCFG_DIV_SHIFT", "clock_8h.html#a283d1765f7ff3c51cd6b528a8ac7a867", null ],
-    [ "CLK_CLKOUTCFG_ENABLE", "clock_8h.html#a64603fdf3fd9aece92349b1ce5c8a1a9", null ],
     [ "CLK_CLKOUTCFG_ENABLE", "clock_8h.html#a64603fdf3fd9aece92349b1ce5c8a1a9", null ],
     [ "CLK_CLKOUTCFG_SEL_CPU", "clock_8h.html#a94a16ceaa7349b0873882d1ad00561ad", null ],
     [ "CLK_CLKOUTCFG_SEL_IRC", "clock_8h.html#afcf0234cd64dc062be4895951d0eaea3", null ],

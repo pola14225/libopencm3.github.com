@@ -567,9 +567,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>CLK_CLKOUTCFG_ENABLE</name>
+      <name>CLK_CLKOUTCFG_ACTIVITY</name>
       <anchorfile>clock_8h.html</anchorfile>
-      <anchor>a64603fdf3fd9aece92349b1ce5c8a1a9</anchor>
+      <anchor>ae0b906ae7df640b4ef189ecd875038b9</anchor>
       <arglist></arglist>
     </member>
   </compound>
