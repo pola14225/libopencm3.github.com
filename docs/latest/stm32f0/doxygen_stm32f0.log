@@ -43,13 +43,13 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:186: warning: Found unknown command `\parADC'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:146: warning: The following parameters of adc_set_operation_mode(uint32_t adc, enum adc_opmode opmode) are not documented:
   parameter 'opmode'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:50: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:65: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:126: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:98: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:111: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:35: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:81: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:48: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:63: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:124: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:96: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:109: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:33: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:79: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:371: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:341: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:285: warning: explicit link request to 'osc_t' could not be resolved
@@ -97,20 +97,20 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:493: warning: The following parameters of adc_set_clk_source(uint32_t adc, uint32_t source) are not documented:
   parameter 'source'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/adc.c:784: warning: unable to resolve reference to `adc_api_channel' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:50: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:65: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:48: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:63: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:79: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:80: warning: unable to resolve reference to `gpio_mode' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:82: warning: unable to resolve reference to `gpio_pup' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:126: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:98: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:111: warning: unable to resolve reference to `gpio_port_id' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:35: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:124: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:96: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:109: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:33: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:169: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:171: warning: unable to resolve reference to `gpio_af_num' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:123: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_f0234.c:124: warning: unable to resolve reference to `gpio_output_type' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:81: warning: unable to resolve reference to `gpio_port_id' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/gpio_common_all.c:79: warning: unable to resolve reference to `gpio_port_id' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:371: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:341: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:285: warning: explicit link request to 'osc_t' could not be resolved

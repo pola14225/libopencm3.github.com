@@ -20,7 +20,6 @@ var NAVTREEINDEX1 =
 "gpio_8h.html#ac7dec0235cd22aa5c0bc17fe8f1b723c":[29,0,30,7],
 "gpio_8h_source.html":[29,0,30],
 "gpio__common__all_8c.html":[29,0,31],
-"gpio__common__all_8c.html#ad1480e9557edcc543498ca259cee6c7d":[29,0,31,0],
 "gpio__common__all_8c_source.html":[29,0,31],
 "gpio__common__all_8h.html":[29,0,32],
 "gpio__common__all_8h_source.html":[29,0,32],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__STM32F0xx-rcc-file.html#ga4d4414e29030719158cfdb56b7a56a1b":[5,0,10,24],
 "group__STM32F0xx-rcc-file.html#ga4d4414e29030719158cfdb56b7a56a1b":[29,0,49,24],
 "group__STM32F0xx-rcc-file.html#ga5b592070405248d60877bba98a054aee":[5,0,10,22],
-"group__STM32F0xx-rcc-file.html#ga5b592070405248d60877bba98a054aee":[29,0,49,22]
+"group__STM32F0xx-rcc-file.html#ga5b592070405248d60877bba98a054aee":[29,0,49,22],
+"group__STM32F0xx-rcc-file.html#ga5fbe4bc4ca1447fff06e4490f655367e":[5,0,10,11]
 };

@@ -158,7 +158,6 @@ var NAVTREEINDEX0 =
 "gpio_8h.html":[30,0,29],
 "gpio_8h_source.html":[30,0,29],
 "gpio__common__all_8c.html":[30,0,30],
-"gpio__common__all_8c.html#ad1480e9557edcc543498ca259cee6c7d":[30,0,30,0],
 "gpio__common__all_8c_source.html":[30,0,30],
 "gpio__common__all_8h.html":[30,0,31],
 "gpio__common__all_8h_source.html":[30,0,31],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "group__adc__channel.html#ga59b482216ccaeeeaf22d7c5cfed7f3e2":[30,0,1,128],
 "group__adc__channel.html#ga5c46fc1dc6c63acf88821f46a8f6d5e7":[7,3,1,35],
 "group__adc__channel.html#ga5c46fc1dc6c63acf88821f46a8f6d5e7":[30,0,1,80],
-"group__adc__channel.html#ga5c9fc31f19c04033dfa98e982519c451":[7,3,1,27]
+"group__adc__channel.html#ga5c9fc31f19c04033dfa98e982519c451":[7,3,1,27],
+"group__adc__channel.html#ga5c9fc31f19c04033dfa98e982519c451":[30,0,1,64]
 };

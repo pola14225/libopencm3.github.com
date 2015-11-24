@@ -9949,13 +9949,6 @@
     <name>gpio_common_all.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
     <filename>gpio__common__all_8c</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>WEAK</name>
-      <anchorfile>gpio__common__all_8c.html</anchorfile>
-      <anchor>ad1480e9557edcc543498ca259cee6c7d</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>gpio_set</name>

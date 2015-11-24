@@ -1,6 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"i2c_8h.html#a4b33b8e33fa18fd49d6d1d8a69777289":[29,0,35,27],
 "i2c_8h.html#a4c6c779bca999450c595fc797a1fdeec":[29,0,35,79],
 "i2c_8h.html#a4f89f1280f8b26fd80ee2baeb4cc26d6":[29,0,35,16],
 "i2c_8h.html#a4f9d237627967f24bd5e56b7c577d3cf":[29,0,35,75],
@@ -249,5 +248,6 @@ var NAVTREEINDEX28 =
 "st__usbfs__core_8c.html#a39101f46649e04eaa40ea7800aee35a5":[29,0,65,6],
 "st__usbfs__core_8c.html#a42e2d8e6a66ed5fdd9cb2b816f3e4a16":[29,0,65,10],
 "st__usbfs__core_8c.html#a431e958cb5c53abdb111c8b5abeb4836":[29,0,65,3],
-"st__usbfs__core_8c.html#a4868f7d5c7e71c90e965987b4be3639d":[29,0,65,11]
+"st__usbfs__core_8c.html#a4868f7d5c7e71c90e965987b4be3639d":[29,0,65,11],
+"st__usbfs__core_8c.html#a7170f478e274a1a8a6f61f823e71e201":[29,0,65,4]
 };

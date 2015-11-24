@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reset_5fhandler',['reset_handler',['../group__CM3__nvic__defines.html#gaa13f582a41a6b190667d0ecd9c31072f',1,'nvic.h']]]
+  ['reset_5fhandler',['reset_handler',['../group__CM3__nvic__defines.html#gab6f9dd2f8d080cf7cdf92705862892ba',1,'nvic.h']]]
 ];

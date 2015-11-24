@@ -1,6 +1,5 @@
 var gpio__common__all_8c =
 [
-    [ "WEAK", "gpio__common__all_8c.html#ad1480e9557edcc543498ca259cee6c7d", null ],
     [ "gpio_clear", "group__gpio__file.html#ga8970f778a63c9d78ffd8d4d36628c7e1", null ],
     [ "gpio_get", "group__gpio__file.html#ga5fee90e8e5af7de567890ffae5ed50c8", null ],
     [ "gpio_port_config_lock", "group__gpio__file.html#ga749adc86df621552b5a0908ecf5b2ebe", null ],

@@ -134,7 +134,6 @@ var NAVTREEINDEX0 =
 "gpio_8h.html":[28,0,20],
 "gpio_8h_source.html":[28,0,20],
 "gpio__common__all_8c.html":[28,0,21],
-"gpio__common__all_8c.html#ad1480e9557edcc543498ca259cee6c7d":[28,0,21,0],
 "gpio__common__all_8c_source.html":[28,0,21],
 "gpio__common__all_8h.html":[28,0,22],
 "gpio__common__all_8h_source.html":[28,0,22],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "group__CRS__defines.html#gafa48432b942f1896e05a2eff91178edd":[10,2,25],
 "group__CRS__defines.html#gafa48432b942f1896e05a2eff91178edd":[28,0,5,25],
 "group__STM32F7xx.html":[10,0],
-"group__STM32F7xx__defines.html":[10,1]
+"group__STM32F7xx__defines.html":[10,1],
+"group__adc__channel.html":[10,5,1]
 };

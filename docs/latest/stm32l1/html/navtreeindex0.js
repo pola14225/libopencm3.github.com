@@ -209,7 +209,6 @@ var NAVTREEINDEX0 =
 "gpio_8h.html":[30,0,31],
 "gpio_8h_source.html":[30,0,31],
 "gpio__common__all_8c.html":[30,0,32],
-"gpio__common__all_8c.html#ad1480e9557edcc543498ca259cee6c7d":[30,0,32,0],
 "gpio__common__all_8c_source.html":[30,0,32],
 "gpio__common__all_8h.html":[30,0,33],
 "gpio__common__all_8h_source.html":[30,0,33],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "group__STM32L1xx-rcc-file.html#ga6472eba195686b970de6216ab61ebd7c":[12,0,8,25],
 "group__STM32L1xx-rcc-file.html#ga6472eba195686b970de6216ab61ebd7c":[30,0,53,25],
 "group__STM32L1xx-rcc-file.html#ga71d9ff219cb4e09c3cddbf383e8c47b3":[30,0,53,1],
-"group__STM32L1xx-rcc-file.html#ga71d9ff219cb4e09c3cddbf383e8c47b3":[12,0,8,1]
+"group__STM32L1xx-rcc-file.html#ga71d9ff219cb4e09c3cddbf383e8c47b3":[12,0,8,1],
+"group__STM32L1xx-rcc-file.html#ga76b12063e828a7af960d375dee952d31":[30,0,53,2]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"group__CRS__defines.html#gaf45cfad8d9be4cdb6b668797178fb11f":[11,2,23],
 "group__CRS__defines.html#gafa48432b942f1896e05a2eff91178edd":[28,0,5,25],
 "group__CRS__defines.html#gafa48432b942f1896e05a2eff91178edd":[11,2,25],
 "group__STM32L0xx-rcc-file.html":[11,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__adc__channel.html#gafafd9e765f45da4c9139a04608ea0553":[28,0,1,35],
 "group__adc__channel.html#gafb7e580ba6b1a01cb0133b97314070c7":[11,5,1,18],
 "group__adc__channel.html#gafb7e580ba6b1a01cb0133b97314070c7":[28,0,1,36],
-"group__adc__channel.html#gafceea73a31aa4e020baf383313dddaa3":[11,5,1,13]
+"group__adc__channel.html#gafceea73a31aa4e020baf383313dddaa3":[11,5,1,13],
+"group__adc__channel.html#gafceea73a31aa4e020baf383313dddaa3":[28,0,1,31]
 };

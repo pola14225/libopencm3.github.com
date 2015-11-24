@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"group__STM32L1xx-rcc-file.html#ga76b12063e828a7af960d375dee952d31":[30,0,53,2],
 "group__STM32L1xx-rcc-file.html#ga76b12063e828a7af960d375dee952d31":[12,0,8,2],
 "group__STM32L1xx-rcc-file.html#ga86f90a27c26bc25e22999419f7d08622":[12,0,8,27],
 "group__STM32L1xx-rcc-file.html#ga86f90a27c26bc25e22999419f7d08622":[30,0,53,27],
@@ -219,8 +218,8 @@ var NAVTREEINDEX1 =
 "group__adc__channel.html#gad625ff5ca8d177b0df9673274623f927":[12,1,0,6,107],
 "group__adc__channel.html#gae6e9ad153b3c4bd7ad0d15af82cb84d3":[12,1,0,6,21],
 "group__adc__channel.html#gae6e9ad153b3c4bd7ad0d15af82cb84d3":[30,0,3,39],
-"group__adc__channel.html#gae7cd4a63e213f0c72c9d7fbfe5633718":[30,0,3,61],
 "group__adc__channel.html#gae7cd4a63e213f0c72c9d7fbfe5633718":[12,1,0,6,24],
+"group__adc__channel.html#gae7cd4a63e213f0c72c9d7fbfe5633718":[30,0,3,61],
 "group__adc__channel.html#gaf297c53a2e00673df5b85eeb87683ba2":[30,0,3,144],
 "group__adc__channel.html#gaf297c53a2e00673df5b85eeb87683ba2":[12,1,0,6,91],
 "group__adc__channel.html#gaf54e4d83fd3e1adddfd673d09877f224":[30,0,3,104],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__adc__cr1__discnum.html#ga202ad2804755bd688b1e4005d8ecaf6a":[12,1,0,6,0,6],
 "group__adc__cr1__discnum.html#ga202ad2804755bd688b1e4005d8ecaf6a":[30,0,3,72],
 "group__adc__cr1__discnum.html#ga230a3ec56dbcb2c5ec07980247a3e9f7":[12,1,0,6,0,3],
-"group__adc__cr1__discnum.html#ga230a3ec56dbcb2c5ec07980247a3e9f7":[30,0,3,69]
+"group__adc__cr1__discnum.html#ga230a3ec56dbcb2c5ec07980247a3e9f7":[30,0,3,69],
+"group__adc__cr1__discnum.html#ga44fd0ef0fe1fe927e7476ffaf9b11351":[30,0,3,71]
 };
