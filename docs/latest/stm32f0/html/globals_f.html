@@ -299,6 +299,9 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 <li>FLASH_OBR
 : <a class="el" href="group__flash__defines.html#ga69b9f041a2b3c573904bb99f4568e7a9">flash_common_f01.h</a>
 </li>
+<li>FLASH_OBR_BOOT_SEL
+: <a class="el" href="group__flash__defines.html#gadb9d87bf387354b1c6595f15956b47a6">flash.h</a>
+</li>
 <li>FLASH_OBR_DATA0
 : <a class="el" href="group__flash__defines.html#ga9380684d6fc14b681adf7eb97964c0bf">flash.h</a>
 </li>
@@ -310,6 +313,9 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 </li>
 <li>FLASH_OBR_DATA1_SHIFT
 : <a class="el" href="group__flash__defines.html#gade74774206b974fc8281d4dc6a03b0d2">flash.h</a>
+</li>
+<li>FLASH_OBR_NBOOT0
+: <a class="el" href="group__flash__defines.html#ga413f877de96ad11b5f5c5a64463d1257">flash.h</a>
 </li>
 <li>FLASH_OBR_NBOOT1
 : <a class="el" href="group__flash__defines.html#ga2a5609c5b6d766f499971addcbd7782c">flash.h</a>
@@ -380,8 +386,8 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 , <a class="el" href="group__flash__file.html#ga1f646323f7860901e86ca15027838396">flash_common_f01.c</a>
 </li>
 <li>flash_program_half_word()
-: <a class="el" href="group__flash__file.html#gaf5077b5726c70fa9418db9d73182f89d">flash.c</a>
-, <a class="el" href="group__flash__defines.html#gaf5077b5726c70fa9418db9d73182f89d">flash_common_f01.h</a>
+: <a class="el" href="group__flash__defines.html#gaf5077b5726c70fa9418db9d73182f89d">flash_common_f01.h</a>
+, <a class="el" href="group__flash__file.html#gaf5077b5726c70fa9418db9d73182f89d">flash.c</a>
 </li>
 <li>flash_program_option_bytes()
 : <a class="el" href="group__flash__defines.html#gab759a6e89a54cfb15a60c0e8f4eb66df">flash_common_f01.h</a>
@@ -415,12 +421,12 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 , <a class="el" href="group__flash__defines.html#ga4b86181a96fd2f1cc3828e9d8d83d368">flash.h</a>
 </li>
 <li>FLASH_SR_EOP
-: <a class="el" href="group__flash__defines.html#gae1301c6b487cfefa247c54a576a0c12b">flash_common_f01.h</a>
-, <a class="el" href="group__flash__defines.html#gae1301c6b487cfefa247c54a576a0c12b">flash.h</a>
+: <a class="el" href="group__flash__defines.html#gae1301c6b487cfefa247c54a576a0c12b">flash.h</a>
+, <a class="el" href="group__flash__defines.html#gae1301c6b487cfefa247c54a576a0c12b">flash_common_f01.h</a>
 </li>
 <li>FLASH_SR_PGERR
-: <a class="el" href="group__flash__defines.html#ga60f40ca765714598a62aa216a5ccd8e4">flash.h</a>
-, <a class="el" href="group__flash__defines.html#ga60f40ca765714598a62aa216a5ccd8e4">flash_common_f01.h</a>
+: <a class="el" href="group__flash__defines.html#ga60f40ca765714598a62aa216a5ccd8e4">flash_common_f01.h</a>
+, <a class="el" href="group__flash__defines.html#ga60f40ca765714598a62aa216a5ccd8e4">flash.h</a>
 </li>
 <li>FLASH_SR_WRPRTERR
 : <a class="el" href="group__flash__defines.html#ga2e403606e5ac23cb07701aeebc1f73e5">flash_common_f01.h</a>
@@ -431,8 +437,8 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 , <a class="el" href="group__flash__file.html#ga4da79f8ffb9ed9576ca165e74f496dbe">flash_common_f01.c</a>
 </li>
 <li>flash_unlock_option_bytes()
-: <a class="el" href="group__flash__defines.html#ga5458fca5ecb9ec90b21bebbb64c861c4">flash_common_f01.h</a>
-, <a class="el" href="group__flash__file.html#ga5458fca5ecb9ec90b21bebbb64c861c4">flash_common_f01.c</a>
+: <a class="el" href="group__flash__file.html#ga5458fca5ecb9ec90b21bebbb64c861c4">flash_common_f01.c</a>
+, <a class="el" href="group__flash__defines.html#ga5458fca5ecb9ec90b21bebbb64c861c4">flash_common_f01.h</a>
 </li>
 <li>flash_wait_for_last_operation()
 : <a class="el" href="group__flash__file.html#ga72ce389bb20296771479ace8cdb62dff">flash_common_f01.c</a>
@@ -447,7 +453,7 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Dec 7 2015 13:21:26 for libopencm3 by
+    <li class="footer">Generated on Sun Dec 13 2015 02:21:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

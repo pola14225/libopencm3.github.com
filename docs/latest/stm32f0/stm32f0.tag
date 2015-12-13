@@ -7827,6 +7827,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>FLASH_OBR_BOOT_SEL</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gadb9d87bf387354b1c6595f15956b47a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>FLASH_OBR_RAM_PARITY_CHECK</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>ga480034fa68984d8e717e4648896d29a6</anchor>
@@ -7844,6 +7851,13 @@
       <name>FLASH_OBR_NBOOT1</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>ga2a5609c5b6d766f499971addcbd7782c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_NBOOT0</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga413f877de96ad11b5f5c5a64463d1257</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -31632,6 +31646,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>FLASH_OBR_BOOT_SEL</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>gadb9d87bf387354b1c6595f15956b47a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>FLASH_OBR_RAM_PARITY_CHECK</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>ga480034fa68984d8e717e4648896d29a6</anchor>
@@ -31649,6 +31670,13 @@
       <name>FLASH_OBR_NBOOT1</name>
       <anchorfile>group__flash__defines.html</anchorfile>
       <anchor>ga2a5609c5b6d766f499971addcbd7782c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FLASH_OBR_NBOOT0</name>
+      <anchorfile>group__flash__defines.html</anchorfile>
+      <anchor>ga413f877de96ad11b5f5c5a64463d1257</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
