@@ -612,15 +612,17 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;</div>
 <div class="line"><a name="l00476"></a><span class="lineno"><a class="line" href="group__rcc__file.html#gaa789502b32056e44d7f18de033389504">  476</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__rcc__file.html#gaa789502b32056e44d7f18de033389504">rcc_adc_prescale</a>(uint32_t prescale1, uint32_t prescale2)</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;{</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        uint32_t clear_mask = (<a class="code" href="rcc_8h.html#ae3160e1bb57fbca574b9f9aa52a7775b">RCC_CFGR2_ADCxPRES_MASK</a> &lt;&lt; <a class="code" href="rcc_8h.html#a0876167dfa1dd49d6f3a745c0487d511">RCC_CFGR2_ADC12PRES_SHIFT</a>) |</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                (<a class="code" href="rcc_8h.html#ae3160e1bb57fbca574b9f9aa52a7775b">RCC_CFGR2_ADCxPRES_MASK</a> &lt;&lt; <a class="code" href="rcc_8h.html#ae533099dc286f284a0701501b7f640c7">RCC_CFGR2_ADC34PRES_SHIFT</a>);</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        uint32_t set = (prescale1 &lt;&lt; <a class="code" href="rcc_8h.html#a0876167dfa1dd49d6f3a745c0487d511">RCC_CFGR2_ADC12PRES_SHIFT</a>) |</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;                (prescale2 &lt;&lt; <a class="code" href="rcc_8h.html#ae533099dc286f284a0701501b7f640c7">RCC_CFGR2_ADC34PRES_SHIFT</a>);</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;        <a class="code" href="rcc_8h.html#a64199667e9ebcac6859f3f9c275fc7d9">RCC_CFGR2</a> &amp;= ~(clear_mask);</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        <a class="code" href="rcc_8h.html#a64199667e9ebcac6859f3f9c275fc7d9">RCC_CFGR2</a> |= (set);</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;}<span class="comment"></span></div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        uint32_t clear_mask = (<a class="code" href="rcc_8h.html#ae3160e1bb57fbca574b9f9aa52a7775b">RCC_CFGR2_ADCxPRES_MASK</a></div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                               &lt;&lt; <a class="code" href="rcc_8h.html#a0876167dfa1dd49d6f3a745c0487d511">RCC_CFGR2_ADC12PRES_SHIFT</a>)</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;                              | (<a class="code" href="rcc_8h.html#ae3160e1bb57fbca574b9f9aa52a7775b">RCC_CFGR2_ADCxPRES_MASK</a></div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;                                 &lt;&lt; <a class="code" href="rcc_8h.html#ae533099dc286f284a0701501b7f640c7">RCC_CFGR2_ADC34PRES_SHIFT</a>);</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;        uint32_t set = (prescale1 &lt;&lt; <a class="code" href="rcc_8h.html#a0876167dfa1dd49d6f3a745c0487d511">RCC_CFGR2_ADC12PRES_SHIFT</a>) |</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                (prescale2 &lt;&lt; <a class="code" href="rcc_8h.html#ae533099dc286f284a0701501b7f640c7">RCC_CFGR2_ADC34PRES_SHIFT</a>);</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;        <a class="code" href="rcc_8h.html#a64199667e9ebcac6859f3f9c275fc7d9">RCC_CFGR2</a> &amp;= ~(clear_mask);</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        <a class="code" href="rcc_8h.html#a64199667e9ebcac6859f3f9c275fc7d9">RCC_CFGR2</a> |= (set);</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;}<span class="comment"></span></div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;</div>
 <div class="ttc" id="group__rcc__file_html_ga5b592070405248d60877bba98a054aee"><div class="ttname"><a href="group__rcc__file.html#ga5b592070405248d60877bba98a054aee">rcc_set_prediv</a></div><div class="ttdeci">void rcc_set_prediv(uint32_t prediv)</div><div class="ttdoc">Set PLL Source pre-divider CAUTION. </div><div class="ttdef"><b>Definition:</b> <a href="rcc_8c_source.html#l00374">rcc.c:374</a></div></div>
 <div class="ttc" id="group__rcc__file_html_ga00de34a0e682684693db5e2e3b087f63"><div class="ttname"><a href="group__rcc__file.html#ga00de34a0e682684693db5e2e3b087f63">rcc_osc_ready_int_flag</a></div><div class="ttdeci">int rcc_osc_ready_int_flag(enum osc osc)</div><div class="ttdef"><b>Definition:</b> <a href="rcc_8c_source.html#l00143">rcc.c:143</a></div></div>
 <div class="ttc" id="group__rcc__file_html_gaa1594220dae1eb3f9aa3dc30db60d8d1"><div class="ttname"><a href="group__rcc__file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1">rcc_apb1_frequency</a></div><div class="ttdeci">uint32_t rcc_apb1_frequency</div><div class="ttdef"><b>Definition:</b> <a href="rcc_8c_source.html#l00044">rcc.c:44</a></div></div>
@@ -750,7 +752,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_6129e60a2d034646ca59a325efd077d8.html">f3</a></li><li class="navelem"><a class="el" href="rcc_8c.html">rcc.c</a></li>
-    <li class="footer">Generated on Mon Dec 14 2015 20:22:03 for libopencm3 by
+    <li class="footer">Generated on Mon Dec 14 2015 23:22:13 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

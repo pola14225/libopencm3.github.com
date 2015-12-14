@@ -281,10 +281,10 @@ $(document).ready(function(){initNavTree('fmc_8h_source.html','');});
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="comment"> * out those bits after you have computed values for CR2 and</span></div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment"> * TR2 and put them into CR1 and TR1</span></div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00147"></a><span class="lineno"><a class="line" href="fmc_8h.html#a7d66716f85763fd651aa356de9316758">  147</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_DNC_MASK       ( FMC_SDTR_TRP_MASK| FMC_SDTR_TRC_MASK )</span></div>
-<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="fmc_8h.html#a4c5ba53776486658573c2dd267e7cc02">  148</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_DNC_MASK       ( FMC_SDCR_SDCLK_MASK |\</span></div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="preprocessor">                                  FMC_SDCR_RPIPE_MASK  |\</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">                                  FMC_SDCR_RBURST )</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno"><a class="line" href="fmc_8h.html#a7d66716f85763fd651aa356de9316758">  147</a></span>&#160;<span class="preprocessor">#define FMC_SDTR_DNC_MASK       (FMC_SDTR_TRP_MASK | FMC_SDTR_TRC_MASK)</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="fmc_8h.html#a4c5ba53776486658573c2dd267e7cc02">  148</a></span>&#160;<span class="preprocessor">#define FMC_SDCR_DNC_MASK       (FMC_SDCR_SDCLK_MASK | \</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="preprocessor">                                 FMC_SDCR_RPIPE_MASK  | \</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">                                 FMC_SDCR_RBURST)</span></div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment">/* --- FMC_SDCMR values --------------------------------------------------- */</span></div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
@@ -377,11 +377,13 @@ $(document).ready(function(){initNavTree('fmc_8h_source.html','');});
 <div class="line"><a name="l00240"></a><span class="lineno"><a class="line" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239ae8ca4c8c6bdd2dfbc81710e3b484ed60">  240</a></span>&#160;                         <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a423d080069db8404a71a0535cad7e2d7">SDRAM_AUTO_REFRESH</a>, <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239ae8ca4c8c6bdd2dfbc81710e3b484ed60">SDRAM_LOAD_MODE</a>,</div>
 <div class="line"><a name="l00241"></a><span class="lineno"><a class="line" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239abf24b0bc7c8123e94b427997ac326a28">  241</a></span>&#160;                         <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239abf24b0bc7c8123e94b427997ac326a28">SDRAM_SELF_REFRESH</a>, <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a7a5bba46e7a6c2191171ad47de92c47d">SDRAM_POWER_DOWN</a> };</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment">/* Send an array of timing parameters (indices above) to create SDTR register value */</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;uint32_t <a class="code" href="fmc_8h.html#a62b47f701175fba00a77c4aa28ddfc09">sdram_timing</a>(<span class="keyword">struct</span> <a class="code" href="structsdram__timing.html">sdram_timing</a> *t);</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="keywordtype">void</span> <a class="code" href="fmc_8h.html#abb4e029a61d010276e4ba89117c1d40b">sdram_command</a>(<span class="keyword">enum</span> <a class="code" href="fmc_8h.html#a7697862636ad38e8bac2e4e9591fd5dd">fmc_sdram_bank</a> bank, <span class="keyword">enum</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239">fmc_sdram_command</a> cmd,</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                        <span class="keywordtype">int</span> autorefresh, <span class="keywordtype">int</span> modereg);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment">/* Send an array of timing parameters (indices above) to create SDTR register</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="comment"> * value</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;uint32_t <a class="code" href="fmc_8h.html#a62b47f701175fba00a77c4aa28ddfc09">sdram_timing</a>(<span class="keyword">struct</span> <a class="code" href="structsdram__timing.html">sdram_timing</a> *t);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="keywordtype">void</span> <a class="code" href="fmc_8h.html#abb4e029a61d010276e4ba89117c1d40b">sdram_command</a>(<span class="keyword">enum</span> <a class="code" href="fmc_8h.html#a7697862636ad38e8bac2e4e9591fd5dd">fmc_sdram_bank</a> bank, <span class="keyword">enum</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239">fmc_sdram_command</a> cmd,</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                        <span class="keywordtype">int</span> autorefresh, <span class="keywordtype">int</span> modereg);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="fmc_8h_html_a8b33fbb7358ddc1d91de19de9255f239a3debe7a9f86e2ababdbb3eadf01b8dba"><div class="ttname"><a href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a3debe7a9f86e2ababdbb3eadf01b8dba">SDRAM_CLK_CONF</a></div><div class="ttdef"><b>Definition:</b> <a href="fmc_8h_source.html#l00239">fmc.h:239</a></div></div>
 <div class="ttc" id="structsdram__timing_html_a043a9038c7fd4efe7396342ef2f90306"><div class="ttname"><a href="structsdram__timing.html#a043a9038c7fd4efe7396342ef2f90306">sdram_timing::trcd</a></div><div class="ttdeci">int trcd</div><div class="ttdef"><b>Definition:</b> <a href="fmc_8h_source.html#l00216">fmc.h:216</a></div></div>
 <div class="ttc" id="structsdram__timing_html_a37f41b6007e8e3b09b9fc3142bc4dad3"><div class="ttname"><a href="structsdram__timing.html#a37f41b6007e8e3b09b9fc3142bc4dad3">sdram_timing::tras</a></div><div class="ttdeci">int tras</div><div class="ttdef"><b>Definition:</b> <a href="fmc_8h_source.html#l00220">fmc.h:220</a></div></div>
@@ -410,7 +412,7 @@ $(document).ready(function(){initNavTree('fmc_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_1fc15a2279e09b93b0b15236ec8117f8.html">f4</a></li><li class="navelem"><a class="el" href="fmc_8h.html">fmc.h</a></li>
-    <li class="footer">Generated on Mon Dec 14 2015 20:22:14 for libopencm3 by
+    <li class="footer">Generated on Mon Dec 14 2015 23:22:27 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -866,10 +866,10 @@ $(document).ready(function(){initNavTree('spi__common__all_8c_source.html','');}
 <div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;</div>
 <div class="line"><a name="l00731"></a><span class="lineno"><a class="line" href="group__spi__file.html#gacebc47030a2733da436142828f0c9fa4">  731</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__spi__file.html#gacebc47030a2733da436142828f0c9fa4">spi_set_standard_mode</a>(uint32_t spi, uint8_t mode)</div>
 <div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;{</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;        <span class="keywordflow">if</span>(mode &gt; 3) {</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;        <span class="keywordflow">if</span> (mode &gt; 3) {</div>
 <div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;        }</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        </div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;</div>
 <div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        uint32_t reg32 = <a class="code" href="group__spi__defines.html#ga5b22576464ecf00e80edd72c2ecb798f">SPI_CR1</a>(spi) &amp; ~(<a class="code" href="group__spi__defines.html#ga2616a10f5118cdc68fbdf0582481e124">SPI_CR1_CPOL</a> | <a class="code" href="group__spi__defines.html#ga97602d8ded14bbd2c1deadaf308755a3">SPI_CR1_CPHA</a>);</div>
 <div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;        <a class="code" href="group__spi__defines.html#ga5b22576464ecf00e80edd72c2ecb798f">SPI_CR1</a>(spi) = reg32 | mode;</div>
 <div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;}</div>
@@ -955,7 +955,7 @@ $(document).ready(function(){initNavTree('spi__common__all_8c_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="spi__common__all_8c.html">spi_common_all.c</a></li>
-    <li class="footer">Generated on Mon Dec 14 2015 20:21:33 for libopencm3 by
+    <li class="footer">Generated on Mon Dec 14 2015 23:21:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

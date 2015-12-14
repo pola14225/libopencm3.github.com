@@ -205,31 +205,31 @@ $(document).ready(function(){initNavTree('fmc_8c_source.html','');});
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        tmp_reg |= autorefresh &lt;&lt; <a class="code" href="fmc_8h.html#ac849f0e16b6592a974b872ea2daf01c3">FMC_SDCMR_NRFS_SHIFT</a>;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        tmp_reg |= modereg &lt;&lt; <a class="code" href="fmc_8h.html#a63bdce1515df6c96abc0149ff71d35a6">FMC_SDCMR_MRD_SHIFT</a>;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">switch</span> (cmd) {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a3debe7a9f86e2ababdbb3eadf01b8dba">SDRAM_CLK_CONF</a>:</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                        tmp_reg |= <a class="code" href="fmc_8h.html#a8ff9e534758048b1a89c001c6b675bac">FMC_SDCMR_MODE_CLOCK_CONFIG_ENA</a>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a423d080069db8404a71a0535cad7e2d7">SDRAM_AUTO_REFRESH</a>:</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                        tmp_reg |= <a class="code" href="fmc_8h.html#a724abf30fd6f22e4d234995364ed84ca">FMC_SDCMR_MODE_AUTO_REFRESH</a>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239ae8ca4c8c6bdd2dfbc81710e3b484ed60">SDRAM_LOAD_MODE</a>:</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                        tmp_reg |= <a class="code" href="fmc_8h.html#adf4c8b2ef62f7335e3b54daca35d5b96">FMC_SDCMR_MODE_LOAD_MODE_REGISTER</a>;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a2c0887973aa33b8fa7872354c126b753">SDRAM_PALL</a>:</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                        tmp_reg |= <a class="code" href="fmc_8h.html#ac3cb320e7085daf97878b7a4442c5e16">FMC_SDCMR_MODE_PALL</a>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239abf24b0bc7c8123e94b427997ac326a28">SDRAM_SELF_REFRESH</a>:</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                        tmp_reg |= <a class="code" href="fmc_8h.html#ac5474b9f5c2c992842177e0ff2b63acf">FMC_SDCMR_MODE_SELF_REFRESH</a>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a7a5bba46e7a6c2191171ad47de92c47d">SDRAM_POWER_DOWN</a>:</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                        tmp_reg |= <a class="code" href="fmc_8h.html#a533036f7a76bfd1521c531a167663a8a">FMC_SDCMR_MODE_POWER_DOWN</a>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a3781d93a22a1f68806154b6de323ca53">SDRAM_NORMAL</a>:</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a3debe7a9f86e2ababdbb3eadf01b8dba">SDRAM_CLK_CONF</a>:</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                tmp_reg |= <a class="code" href="fmc_8h.html#a8ff9e534758048b1a89c001c6b675bac">FMC_SDCMR_MODE_CLOCK_CONFIG_ENA</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a423d080069db8404a71a0535cad7e2d7">SDRAM_AUTO_REFRESH</a>:</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                tmp_reg |= <a class="code" href="fmc_8h.html#a724abf30fd6f22e4d234995364ed84ca">FMC_SDCMR_MODE_AUTO_REFRESH</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239ae8ca4c8c6bdd2dfbc81710e3b484ed60">SDRAM_LOAD_MODE</a>:</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                tmp_reg |= <a class="code" href="fmc_8h.html#adf4c8b2ef62f7335e3b54daca35d5b96">FMC_SDCMR_MODE_LOAD_MODE_REGISTER</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a2c0887973aa33b8fa7872354c126b753">SDRAM_PALL</a>:</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                tmp_reg |= <a class="code" href="fmc_8h.html#ac3cb320e7085daf97878b7a4442c5e16">FMC_SDCMR_MODE_PALL</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239abf24b0bc7c8123e94b427997ac326a28">SDRAM_SELF_REFRESH</a>:</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                tmp_reg |= <a class="code" href="fmc_8h.html#ac5474b9f5c2c992842177e0ff2b63acf">FMC_SDCMR_MODE_SELF_REFRESH</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a7a5bba46e7a6c2191171ad47de92c47d">SDRAM_POWER_DOWN</a>:</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                tmp_reg |= <a class="code" href="fmc_8h.html#a533036f7a76bfd1521c531a167663a8a">FMC_SDCMR_MODE_POWER_DOWN</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="fmc_8h.html#a8b33fbb7358ddc1d91de19de9255f239a3781d93a22a1f68806154b6de323ca53">SDRAM_NORMAL</a>:</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="comment">/* Wait for the next chance to talk to the controller */</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="fmc_8h.html#a8df12597f2575b2625b181357bebab18">FMC_SDSR</a> &amp; <a class="code" href="fmc_8h.html#a4a1fac2c6ca51889b974cae07f51839b">FMC_SDSR_BUSY</a>) ;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="fmc_8h.html#a8df12597f2575b2625b181357bebab18">FMC_SDSR</a> &amp; <a class="code" href="fmc_8h.html#a4a1fac2c6ca51889b974cae07f51839b">FMC_SDSR_BUSY</a>);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="comment">/* Send the next command */</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="fmc_8h.html#ac076e9dbf9c84509b2e26e6286d143b5">FMC_SDCMR</a> = tmp_reg;</div>
@@ -282,7 +282,7 @@ $(document).ready(function(){initNavTree('fmc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8603a816839418b9ab8fedea07208ea8.html">f4</a></li><li class="navelem"><a class="el" href="fmc_8c.html">fmc.c</a></li>
-    <li class="footer">Generated on Mon Dec 14 2015 20:22:14 for libopencm3 by
+    <li class="footer">Generated on Mon Dec 14 2015 23:22:27 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

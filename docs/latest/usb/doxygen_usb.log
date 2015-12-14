@@ -1,44 +1,44 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/midi.h:1: warning: group usb_audio_defines: ignoring title "USB MIDI Type Definitions" that does not match old title "USB Audio Type Definitions"
 
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:183: warning: The following parameters of usbd_ep_nak_set(usbd_device *usbd_dev, uint8_t addr, uint8_t nak) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:185: warning: The following parameters of usbd_ep_nak_set(usbd_device *usbd_dev, uint8_t addr, uint8_t nak) are not documented:
   parameter 'usbd_dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:163: warning: The following parameters of usbd_ep_read_packet(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:165: warning: The following parameters of usbd_ep_read_packet(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len) are not documented:
   parameter 'usbd_dev'
   parameter 'buf'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:148: warning: The following parameters of usbd_ep_setup(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback callback) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:150: warning: The following parameters of usbd_ep_setup(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback callback) are not documented:
   parameter 'usbd_dev'
   parameter 'max_size'
   parameter 'callback'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:177: warning: The following parameters of usbd_ep_stall_get(usbd_device *usbd_dev, uint8_t addr) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:179: warning: The following parameters of usbd_ep_stall_get(usbd_device *usbd_dev, uint8_t addr) are not documented:
   parameter 'usbd_dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:170: warning: The following parameters of usbd_ep_stall_set(usbd_device *usbd_dev, uint8_t addr, uint8_t stall) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:172: warning: The following parameters of usbd_ep_stall_set(usbd_device *usbd_dev, uint8_t addr, uint8_t stall) are not documented:
   parameter 'usbd_dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:155: warning: The following parameters of usbd_ep_write_packet(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:157: warning: The following parameters of usbd_ep_write_packet(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len) are not documented:
   parameter 'usbd_dev'
   parameter 'buf'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:66: warning: The following parameters of usbd_init(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings, uint8_t *control_buffer, uint16_t control_buffer_size) are not documented:
   parameter 'num_strings'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:123: warning: The following parameters of usbd_register_control_callback(usbd_device *usbd_dev, uint8_t type, uint8_t type_mask, usbd_control_callback callback) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:124: warning: The following parameters of usbd_register_control_callback(usbd_device *usbd_dev, uint8_t type, uint8_t type_mask, usbd_control_callback callback) are not documented:
   parameter 'usbd_dev'
   parameter 'callback'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:183: warning: The following parameters of usbd_ep_nak_set(usbd_device *usbd_dev, uint8_t addr, uint8_t nak) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:185: warning: The following parameters of usbd_ep_nak_set(usbd_device *usbd_dev, uint8_t addr, uint8_t nak) are not documented:
   parameter 'usbd_dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:163: warning: The following parameters of usbd_ep_read_packet(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:165: warning: The following parameters of usbd_ep_read_packet(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len) are not documented:
   parameter 'usbd_dev'
   parameter 'buf'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:148: warning: The following parameters of usbd_ep_setup(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback callback) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:150: warning: The following parameters of usbd_ep_setup(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback callback) are not documented:
   parameter 'usbd_dev'
   parameter 'max_size'
   parameter 'callback'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:177: warning: The following parameters of usbd_ep_stall_get(usbd_device *usbd_dev, uint8_t addr) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:179: warning: The following parameters of usbd_ep_stall_get(usbd_device *usbd_dev, uint8_t addr) are not documented:
   parameter 'usbd_dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:170: warning: The following parameters of usbd_ep_stall_set(usbd_device *usbd_dev, uint8_t addr, uint8_t stall) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:172: warning: The following parameters of usbd_ep_stall_set(usbd_device *usbd_dev, uint8_t addr, uint8_t stall) are not documented:
   parameter 'usbd_dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:155: warning: The following parameters of usbd_ep_write_packet(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:157: warning: The following parameters of usbd_ep_write_packet(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len) are not documented:
   parameter 'usbd_dev'
   parameter 'buf'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:66: warning: The following parameters of usbd_init(const usbd_driver *driver, const struct usb_device_descriptor *dev, const struct usb_config_descriptor *conf, const char **strings, int num_strings, uint8_t *control_buffer, uint16_t control_buffer_size) are not documented:
   parameter 'num_strings'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:123: warning: The following parameters of usbd_register_control_callback(usbd_device *usbd_dev, uint8_t type, uint8_t type_mask, usbd_control_callback callback) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/usb/usbd.h:124: warning: The following parameters of usbd_register_control_callback(usbd_device *usbd_dev, uint8_t type, uint8_t type_mask, usbd_control_callback callback) are not documented:
   parameter 'usbd_dev'
   parameter 'callback'

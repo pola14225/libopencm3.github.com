@@ -659,7 +659,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;<span class="comment"> * @returns ::osc_t USB clock source:</span></div>
 <div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160; </div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;</div>
 <div class="line"><a name="l00527"></a><span class="lineno"><a class="line" href="group__STM32F0xx-rcc-file.html#ga338021f579b0bdd5a1554a596e8cd19c">  527</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a> <a class="code" href="group__STM32F0xx-rcc-file.html#ga338021f579b0bdd5a1554a596e8cd19c">rcc_usb_clock_source</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;{</div>
 <div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="group__rcc__defines.html#ga6912e879823f06f07b1b81b8889b4670">RCC_CFGR3</a> &amp; <a class="code" href="group__rcc__defines.html#ga503920c61d15d8950905089bea2957cf">RCC_CFGR3_USBSW</a>) ? <a class="code" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a5c7fe827c28117f11dd14f9197d7d5a2">PLL</a> : <a class="code" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a095efc05f73876565a1afb0f199e19d6">HSI48</a>;</div>
@@ -805,10 +805,10 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;{</div>
 <div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;        <a class="code" href="group__STM32F0xx-rcc-file.html#ga81b16ade2e5d6e024f36e3d568a9fd97">rcc_osc_on</a>(<a class="code" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a095efc05f73876565a1afb0f199e19d6">HSI48</a>);</div>
 <div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;        <a class="code" href="group__STM32F0xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa">rcc_wait_for_osc_ready</a>(<a class="code" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a095efc05f73876565a1afb0f199e19d6">HSI48</a>);</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;        </div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;</div>
 <div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;        <a class="code" href="group__STM32F0xx-rcc-file.html#gae192b2cd0f37124db5ed76d599a5671b">rcc_set_hpre</a>(<a class="code" href="group__rcc__defines.html#ga2b5c237044af2e4d7343d46cf6c24318">RCC_CFGR_HPRE_NODIV</a>);</div>
 <div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;        <a class="code" href="group__STM32F0xx-rcc-file.html#ga05a5e2fab5bb6e8de484b83588a29bee">rcc_set_ppre</a>(<a class="code" href="group__rcc__defines.html#ga36ce88e772b602635e4da27c4d772851">RCC_CFGR_PPRE_NODIV</a>);</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;        </div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;</div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        <a class="code" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws</a>(<a class="code" href="group__flash__latency.html#gaf384c9adf1cda424877cd0d87dba224e">FLASH_ACR_LATENCY_024_048MHZ</a>);</div>
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;</div>
 <div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;        <a class="code" href="group__STM32F0xx-rcc-file.html#ga0ce4f6c68587faf17a38d98fdcdab338">rcc_set_sysclk_source</a>(<a class="code" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a095efc05f73876565a1afb0f199e19d6">HSI48</a>);</div>
@@ -936,7 +936,7 @@ $(document).ready(function(){initNavTree('rcc_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_ace2446e1478f8c15fd23194905c6ee6.html">f0</a></li><li class="navelem"><a class="el" href="rcc_8c.html">rcc.c</a></li>
-    <li class="footer">Generated on Mon Dec 14 2015 20:21:33 for libopencm3 by
+    <li class="footer">Generated on Mon Dec 14 2015 23:21:33 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

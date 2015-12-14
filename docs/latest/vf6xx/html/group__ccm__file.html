@@ -199,7 +199,7 @@ Clock Controller Module API.</h1>
 <p>This function calculates the root clocks from the registers. On Vybrid, we assume that the clocks/device is setup by the main operating system running on the Cortex-A5 (for instance Linux). However, in order to calculate clocks for peripherals its important to know the current value of those clocks.</p>
 <p>This are mainly the <a class="el" href="group__ccm__file.html#ga5d1499d552340b3f7442cd0d577a9972">ccm_core_clk</a> which the Cortex-A5 is running with and lots of other clocks derive from. The <a class="el" href="group__ccm__file.html#gaddc5f6ce8fb9518c63d43bd71a65da70">ccm_platform_bus_clk</a> is the clock which the Cortex-M4 is running with. And the <a class="el" href="group__ccm__file.html#gaed161e46ae988e4310a1506ddaf7bf95">ccm_ipg_bus_clk</a> is the clock most peripherals run with. </p>
 
-<p>Definition at line <a class="el" href="ccm_8c_source.html#l00151">151</a> of file <a class="el" href="ccm_8c_source.html">ccm.c</a>.</p>
+<p>Definition at line <a class="el" href="ccm_8c_source.html#l00150">150</a> of file <a class="el" href="ccm_8c_source.html">ccm.c</a>.</p>
 
 <p>References <a class="el" href="anadig_8h_source.html#l00069">ANADIG_PLL1_PFD</a>, <a class="el" href="anadig_8h_source.html#l00058">ANADIG_PLL2_PFD</a>, <a class="el" href="ccm_8h_source.html#l00046">CCM_CACRR</a>, <a class="el" href="ccm_8h_source.html#l00133">CCM_CACRR_ARM_CLK_DIV_MASK</a>, <a class="el" href="ccm_8h_source.html#l00131">CCM_CACRR_BUS_CLK_DIV_MASK</a>, <a class="el" href="ccm_8h_source.html#l00130">CCM_CACRR_BUS_CLK_DIV_SHIFT</a>, <a class="el" href="ccm_8h_source.html#l00127">CCM_CACRR_IPG_CLK_DIV_MASK</a>, <a class="el" href="ccm_8h_source.html#l00126">CCM_CACRR_IPG_CLK_DIV_SHIFT</a>, <a class="el" href="ccm_8h_source.html#l00045">CCM_CCSR</a>, <a class="el" href="ccm_8h_source.html#l00088">CCM_CCSR_PLL1_PFD_CLK_SEL_MASK</a>, <a class="el" href="ccm_8h_source.html#l00087">CCM_CCSR_PLL1_PFD_CLK_SEL_SHIFT</a>, <a class="el" href="ccm_8h_source.html#l00086">CCM_CCSR_PLL2_PFD_CLK_SEL_MASK</a>, <a class="el" href="ccm_8h_source.html#l00085">CCM_CCSR_PLL2_PFD_CLK_SEL_SHIFT</a>, <a class="el" href="ccm_8h_source.html#l00112">CCM_CCSR_SYS_CLK_SEL_FAST</a>, <a class="el" href="ccm_8h_source.html#l00111">CCM_CCSR_SYS_CLK_SEL_MASK</a>, <a class="el" href="ccm_8h_source.html#l00116">CCM_CCSR_SYS_CLK_SEL_PLL1_PFD</a>, <a class="el" href="ccm_8h_source.html#l00115">CCM_CCSR_SYS_CLK_SEL_PLL2</a>, <a class="el" href="ccm_8h_source.html#l00114">CCM_CCSR_SYS_CLK_SEL_PLL2_PFD</a>, <a class="el" href="ccm_8h_source.html#l00117">CCM_CCSR_SYS_CLK_SEL_PLL3</a>, <a class="el" href="ccm_8h_source.html#l00113">CCM_CCSR_SYS_CLK_SEL_SLOW</a>, <a class="el" href="ccm_8c_source.html#l00048">ccm_core_clk</a>, <a class="el" href="ccm_8c_source.html#l00100">ccm_get_pll_pfd()</a>, <a class="el" href="ccm_8c_source.html#l00054">ccm_ipg_bus_clk</a>, <a class="el" href="ccm_8c_source.html#l00051">ccm_platform_bus_clk</a>, <a class="el" href="ccm_8c_source.html#l00043">pll1_main_clk</a>, <a class="el" href="ccm_8c_source.html#l00044">pll2_main_clk</a>, and <a class="el" href="ccm_8c_source.html#l00045">pll3_main_clk</a>.</p>
 
@@ -315,7 +315,7 @@ Here is the call graph for this function:</div>
 
 <p>References <a class="el" href="anadig_8h_source.html#l00171">ANADIG_PLL_PFD1_FRAC_MASK</a>, <a class="el" href="anadig_8h_source.html#l00170">ANADIG_PLL_PFD1_FRAC_SHIFT</a>, <a class="el" href="anadig_8h_source.html#l00167">ANADIG_PLL_PFD2_FRAC_MASK</a>, <a class="el" href="anadig_8h_source.html#l00166">ANADIG_PLL_PFD2_FRAC_SHIFT</a>, <a class="el" href="anadig_8h_source.html#l00163">ANADIG_PLL_PFD3_FRAC_MASK</a>, <a class="el" href="anadig_8h_source.html#l00162">ANADIG_PLL_PFD3_FRAC_SHIFT</a>, <a class="el" href="anadig_8h_source.html#l00159">ANADIG_PLL_PFD4_FRAC_MASK</a>, <a class="el" href="anadig_8h_source.html#l00158">ANADIG_PLL_PFD4_FRAC_SHIFT</a>, <a class="el" href="ccm_8h_source.html#l00090">CCM_CCSR_PLL_PFD_CLK_SEL_MAIN</a>, <a class="el" href="ccm_8h_source.html#l00091">CCM_CCSR_PLL_PFD_CLK_SEL_PFD1</a>, <a class="el" href="ccm_8h_source.html#l00092">CCM_CCSR_PLL_PFD_CLK_SEL_PFD2</a>, <a class="el" href="ccm_8h_source.html#l00093">CCM_CCSR_PLL_PFD_CLK_SEL_PFD3</a>, and <a class="el" href="ccm_8h_source.html#l00094">CCM_CCSR_PLL_PFD_CLK_SEL_PFD4</a>.</p>
 
-<p>Referenced by <a class="el" href="ccm_8c_source.html#l00151">ccm_calculate_clocks()</a>.</p>
+<p>Referenced by <a class="el" href="ccm_8c_source.html#l00150">ccm_calculate_clocks()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -341,7 +341,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="ccm_8c_source.html#l00048">48</a> of file <a class="el" href="ccm_8c_source.html">ccm.c</a>.</p>
 
-<p>Referenced by <a class="el" href="ccm_8c_source.html#l00151">ccm_calculate_clocks()</a>.</p>
+<p>Referenced by <a class="el" href="ccm_8c_source.html#l00150">ccm_calculate_clocks()</a>.</p>
 
 </div>
 </div>
@@ -357,7 +357,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="ccm_8c_source.html#l00054">54</a> of file <a class="el" href="ccm_8c_source.html">ccm.c</a>.</p>
 
-<p>Referenced by <a class="el" href="ccm_8c_source.html#l00151">ccm_calculate_clocks()</a>, and <a class="el" href="uart_8c_source.html#l00053">uart_set_baudrate()</a>.</p>
+<p>Referenced by <a class="el" href="ccm_8c_source.html#l00150">ccm_calculate_clocks()</a>, and <a class="el" href="uart_8c_source.html#l00053">uart_set_baudrate()</a>.</p>
 
 </div>
 </div>
@@ -373,7 +373,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="ccm_8c_source.html#l00051">51</a> of file <a class="el" href="ccm_8c_source.html">ccm.c</a>.</p>
 
-<p>Referenced by <a class="el" href="ccm_8c_source.html#l00151">ccm_calculate_clocks()</a>.</p>
+<p>Referenced by <a class="el" href="ccm_8c_source.html#l00150">ccm_calculate_clocks()</a>.</p>
 
 </div>
 </div>
@@ -397,7 +397,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="ccm_8c_source.html#l00043">43</a> of file <a class="el" href="ccm_8c_source.html">ccm.c</a>.</p>
 
-<p>Referenced by <a class="el" href="ccm_8c_source.html#l00151">ccm_calculate_clocks()</a>.</p>
+<p>Referenced by <a class="el" href="ccm_8c_source.html#l00150">ccm_calculate_clocks()</a>.</p>
 
 </div>
 </div>
@@ -421,7 +421,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="ccm_8c_source.html#l00044">44</a> of file <a class="el" href="ccm_8c_source.html">ccm.c</a>.</p>
 
-<p>Referenced by <a class="el" href="ccm_8c_source.html#l00151">ccm_calculate_clocks()</a>.</p>
+<p>Referenced by <a class="el" href="ccm_8c_source.html#l00150">ccm_calculate_clocks()</a>.</p>
 
 </div>
 </div>
@@ -445,7 +445,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="ccm_8c_source.html#l00045">45</a> of file <a class="el" href="ccm_8c_source.html">ccm.c</a>.</p>
 
-<p>Referenced by <a class="el" href="ccm_8c_source.html#l00151">ccm_calculate_clocks()</a>.</p>
+<p>Referenced by <a class="el" href="ccm_8c_source.html#l00150">ccm_calculate_clocks()</a>.</p>
 
 </div>
 </div>
@@ -454,7 +454,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Dec 14 2015 20:23:24 for libopencm3 by
+    <li class="footer">Generated on Mon Dec 14 2015 23:23:36 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

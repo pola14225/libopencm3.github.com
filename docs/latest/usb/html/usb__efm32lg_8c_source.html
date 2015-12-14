@@ -187,7 +187,7 @@ $(document).ready(function(){initNavTree('usb__efm32lg_8c_source.html','');});
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        CMU_CMD = CMU_CMD_USBCCLKSEL_HFCLKNODIV;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">/* wait till clock not selected */</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">while</span>(!(CMU_STATUS &amp; CMU_STATUS_USBCHFCLKSEL));</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">while</span> (!(CMU_STATUS &amp; CMU_STATUS_USBCHFCLKSEL));</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        USB_GINTSTS = USB_GINTSTS_MMIS;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
@@ -315,283 +315,284 @@ $(document).ready(function(){initNavTree('usb__efm32lg_8c_source.html','');});
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a212245da83ffeb58ceb0b35df4482f82">fifo_mem_top</a> = usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ad0879153fd5676dda54f0c122420af2e">fifo_mem_top_ep0</a>;</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
-<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#af6e92b2ac1f04e53bcb1b84fe6aa657d">  182</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="usb__efm32lg_8c.html#af6e92b2ac1f04e53bcb1b84fe6aa657d">efm32lg_ep_stall_set</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr, uint8_t stall)</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;{</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        (void)usbd_dev;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">if</span> (addr == 0) {</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                <span class="keywordflow">if</span> (stall) {</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                        USB_DIEPx_CTL(addr) |= USB_DIEP0CTL_STALL;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                        USB_DIEPx_CTL(addr) &amp;= ~USB_DIEP0CTL_STALL;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                }</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        }</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">if</span> (addr &amp; 0x80) {</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                addr &amp;= 0x7F;</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                <span class="keywordflow">if</span> (stall) {</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                        USB_DIEPx_CTL(addr) |= USB_DIEP0CTL_STALL;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                        USB_DIEPx_CTL(addr) &amp;= ~USB_DIEP0CTL_STALL;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                        USB_DIEPx_CTL(addr) |= USB_DIEP0CTL_SD0PID;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                }</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                <span class="keywordflow">if</span> (stall) {</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                        USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_STALL;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                        USB_DOEPx_CTL(addr) &amp;= ~USB_DOEP0CTL_STALL;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                        USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_SD0PID;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                }</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        }</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;}</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
-<div class="line"><a name="l00212"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#a33c038a1d1d367168d4d64b7970ff883">  212</a></span>&#160;<span class="keyword">static</span> uint8_t <a class="code" href="usb__efm32lg_8c.html#a33c038a1d1d367168d4d64b7970ff883">efm32lg_ep_stall_get</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr)</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;{</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        (void)usbd_dev;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <span class="comment">/* Return non-zero if STALL set. */</span></div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keywordflow">if</span> (addr &amp; 0x80) {</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                <span class="keywordflow">return</span> (USB_DIEPx_CTL(addr &amp; 0x7f) &amp;</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                                USB_DIEP0CTL_STALL) ? 1 : 0;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                <span class="keywordflow">return</span> (USB_DOEPx_CTL(addr) &amp;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                USB_DOEP0CTL_STALL) ? 1 : 0;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        }</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;}</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
-<div class="line"><a name="l00226"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#a2dd5dc53dd4caa8e02330ab5302a36ba">  226</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="usb__efm32lg_8c.html#a2dd5dc53dd4caa8e02330ab5302a36ba">efm32lg_ep_nak_set</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr, uint8_t nak)</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;{</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="comment">/* It does not make sence to force NAK on IN endpoints. */</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordflow">if</span> (addr &amp; 0x80) {</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        }</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a1ed037a5f085c91a1ee3872a179e6383">force_nak</a>[addr] = nak;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <span class="keywordflow">if</span> (nak) {</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_SNAK;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_CNAK;</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        }</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;}</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
-<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#a94e368d2e364214b53a236e334e93f7c">  242</a></span>&#160;<span class="keyword">static</span> uint16_t <a class="code" href="usb__efm32lg_8c.html#a94e368d2e364214b53a236e334e93f7c">efm32lg_ep_write_packet</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr,</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                              <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, uint16_t len)</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;{</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        (void)usbd_dev;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keyword">const</span> uint32_t *buf32 = buf;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keywordtype">int</span> i;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        addr &amp;= 0x7F;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="comment">/* Return if endpoint is already enabled. */</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">if</span> (USB_DIEPx_TSIZ(addr) &amp; USB_DIEP0TSIZ_PKTCNT) {</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        }</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="comment">/* Enable endpoint for transmission. */</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        USB_DIEPx_TSIZ(addr) = USB_DIEP0TSIZ_PKTCNT | len;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        USB_DIEPx_CTL(addr) |= USB_DIEP0CTL_EPENA |</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                                     USB_DIEP0CTL_CNAK;</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keyword">volatile</span> uint32_t *fifo = USB_FIFOxD(addr);</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="comment">/* Copy buffer to endpoint FIFO, note - memcpy does not work */</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <span class="keywordflow">for</span> (i = len; i &gt; 0; i -= 4) {</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                *fifo++ = *buf32++;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        }</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">return</span> len;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;}</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
-<div class="line"><a name="l00270"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#ad44f70a3d65d6d73697370e61b09f8d9">  270</a></span>&#160;<span class="keyword">static</span> uint16_t <a class="code" href="usb__efm32lg_8c.html#ad44f70a3d65d6d73697370e61b09f8d9">efm32lg_ep_read_packet</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr,</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                                  <span class="keywordtype">void</span> *buf, uint16_t len)</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;{</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <span class="keywordtype">int</span> i;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        uint32_t *buf32 = buf;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        uint32_t <a class="code" href="usbstd_8h.html#a28cfbca8dce621e74d9da0036b1f5789">extra</a>;</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        len = MIN(len, usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a>);</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a> -= len;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <span class="keyword">volatile</span> uint32_t *fifo = USB_FIFOxD(addr);</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <span class="keywordflow">for</span> (i = len; i &gt;= 4; i -= 4) {</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                *buf32++ = *fifo++;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        }</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordflow">if</span> (i) {</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                extra = *fifo++;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                memcpy(buf32, &amp;extra, i);</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        }</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        USB_DOEPx_TSIZ(addr) = usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a56153dea109cdf0eb2b0871bc1ea31ae">doeptsiz</a>[addr];</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_EPENA |</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a1ed037a5f085c91a1ee3872a179e6383">force_nak</a>[addr] ?</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;             USB_DOEP0CTL_SNAK : USB_DOEP0CTL_CNAK);</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="keywordflow">return</span> len;</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;}</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
-<div class="line"><a name="l00298"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#ae6137be73cdb8121da393fd95d56fd48">  298</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="usb__efm32lg_8c.html#ae6137be73cdb8121da393fd95d56fd48">efm32lg_poll</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev)</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;{</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <span class="comment">/* Read interrupt status register. */</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        uint32_t intsts = USB_GINTSTS;</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        <span class="keywordtype">int</span> i;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_ENUMDNE) {</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                <span class="comment">/* Handle USB RESET condition. */</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                USB_GINTSTS = USB_GINTSTS_ENUMDNE;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a212245da83ffeb58ceb0b35df4482f82">fifo_mem_top</a> = usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ad780343e8e2776ce99b9dd302b77c2e2">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a5fa81d06fb7e305b7218d5aa83322870">rx_fifo_size</a>;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                <a class="code" href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">_usbd_reset</a>(usbd_dev);</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        }</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        <span class="comment">/* Note: RX and TX handled differently in this device. */</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_RXFLVL) {</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                <span class="comment">/* Receive FIFO non-empty. */</span></div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                uint32_t rxstsp = USB_GRXSTSP;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                uint32_t pktsts = rxstsp &amp; USB_GRXSTSP_PKTSTS_MASK;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                <span class="keywordflow">if</span> ((pktsts != USB_GRXSTSP_PKTSTS_OUT) &amp;&amp;</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                    (pktsts != USB_GRXSTSP_PKTSTS_SETUP)) {</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                }</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                uint8_t ep = rxstsp &amp; USB_GRXSTSP_EPNUM_MASK;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                uint8_t type;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                <span class="keywordflow">if</span> (pktsts == USB_GRXSTSP_PKTSTS_SETUP) {</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                        type = <a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018">USB_TRANSACTION_SETUP</a>;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                        type = <a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994ab016c2caf10af8d5cd6adbb926a18c90">USB_TRANSACTION_OUT</a>;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                }</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                <span class="comment">/* Save packet size for stm32f107_ep_read_packet(). */</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a> = (rxstsp &amp; USB_GRXSTSP_BCNT_MASK) &gt;&gt; 4;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                <span class="comment">/*</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="comment">                 * FIXME: Why is a delay needed here?</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="comment">                 * This appears to fix a problem where the first 4 bytes</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="comment">                 * of the DATA OUT stage of a control transaction are lost.</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="comment">                 */</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                <span class="keywordflow">for</span> (i = 0; i &lt; 1000; i++) {</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                        __asm__(<span class="stringliteral">&quot;nop&quot;</span>);</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                }</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd">user_callback_ctr</a>[ep][type]) {</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd">user_callback_ctr</a>[ep][type] (<a class="code" href="usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, ep);</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                }</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                <span class="comment">/* Discard unread packet data. */</span></div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                <span class="keywordflow">for</span> (i = 0; i &lt; usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a>; i += 4) {</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                        (void)*USB_FIFOxD(ep);</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                }</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a> = 0;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        }</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <span class="comment">/*</span></div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="comment">         * There is no global interrupt flag for transmit complete.</span></div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="comment">         * The XFRC bit must be checked in each USB_DIEPx_INT(x).</span></div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; ENDPOINT_COUNT; i++) { <span class="comment">/* Iterate over endpoints. */</span></div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;                <span class="keywordflow">if</span> (USB_DIEPx_INT(i) &amp; USB_DIEP_INT_XFRC) {</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                        <span class="comment">/* Transfer complete. */</span></div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;                        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd">user_callback_ctr</a>[i]</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;                                                       [<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff">USB_TRANSACTION_IN</a>]) {</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd">user_callback_ctr</a>[i]</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                                        [<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff">USB_TRANSACTION_IN</a>](<a class="code" href="usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, i);</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                        }</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                        USB_DIEPx_INT(i) = USB_DIEP_INT_XFRC;</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                }</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        }</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_USBSUSP) {</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7">user_callback_suspend</a>) {</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;                        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7">user_callback_suspend</a>();</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                }</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;                USB_GINTSTS = USB_GINTSTS_USBSUSP;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        }</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_WKUPINT) {</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18">user_callback_resume</a>) {</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18">user_callback_resume</a>();</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;                }</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;                USB_GINTSTS = USB_GINTSTS_WKUPINT;</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        }</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_SOF) {</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>) {</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;                        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>();</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                }</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                USB_GINTSTS = USB_GINTSTS_SOF;</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        }</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>) {</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;                USB_GINTMSK |= USB_GINTMSK_SOFM;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                USB_GINTMSK &amp;= ~USB_GINTMSK_SOFM;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        }</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;}</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
-<div class="line"><a name="l00399"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#a129860eb2fa9363a0f585563882139ef">  399</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="usb__efm32lg_8c.html#a129860eb2fa9363a0f585563882139ef">efm32lg_disconnect</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, <span class="keywordtype">bool</span> disconnected)</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;{</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        (void)usbd_dev;</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="keywordflow">if</span> (disconnected) {</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                USB_DCTL |= USB_DCTL_SDIS;</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;                USB_DCTL &amp;= ~USB_DCTL_SDIS;</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        }</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;}</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;</div>
-<div class="line"><a name="l00410"></a><span class="lineno"><a class="line" href="group__usb__driver__defines.html#gaf3bd0f5611bd5254b3069a072bcca11f">  410</a></span>&#160;<span class="keyword">const</span> <span class="keyword">struct </span><a class="code" href="struct__usbd__driver.html">_usbd_driver</a> <a class="code" href="group__usb__driver__defines.html#gaf3bd0f5611bd5254b3069a072bcca11f">efm32lg_usb_driver</a> = {</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        .<a class="code" href="struct__usbd__driver.html#a8b540de0300579f8f705c2837f09dbb6">init</a> = <a class="code" href="usb__efm32lg_8c.html#a46b39f7425706c5e229ab6637de8f8b1">efm32lg_usbd_init</a>,</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        .set_address = <a class="code" href="usb__efm32lg_8c.html#a47c84965dd6cfa7d1226135715a78540">efm32lg_set_address</a>,</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        .ep_setup = <a class="code" href="usb__efm32lg_8c.html#a7b3c1c5b7d6942d2e53a5c5ef63268ab">efm32lg_ep_setup</a>,</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        .ep_reset = <a class="code" href="usb__efm32lg_8c.html#a1d925106b0957feb568758bcb7070c28">efm32lg_endpoints_reset</a>,</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        .ep_stall_set = <a class="code" href="usb__efm32lg_8c.html#af6e92b2ac1f04e53bcb1b84fe6aa657d">efm32lg_ep_stall_set</a>,</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        .ep_stall_get = <a class="code" href="usb__efm32lg_8c.html#a33c038a1d1d367168d4d64b7970ff883">efm32lg_ep_stall_get</a>,</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        .ep_nak_set = <a class="code" href="usb__efm32lg_8c.html#a2dd5dc53dd4caa8e02330ab5302a36ba">efm32lg_ep_nak_set</a>,</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        .ep_write_packet = <a class="code" href="usb__efm32lg_8c.html#a94e368d2e364214b53a236e334e93f7c">efm32lg_ep_write_packet</a>,</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        .ep_read_packet = <a class="code" href="usb__efm32lg_8c.html#ad44f70a3d65d6d73697370e61b09f8d9">efm32lg_ep_read_packet</a>,</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        .poll = <a class="code" href="usb__efm32lg_8c.html#ae6137be73cdb8121da393fd95d56fd48">efm32lg_poll</a>,</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        .disconnect = <a class="code" href="usb__efm32lg_8c.html#a129860eb2fa9363a0f585563882139ef">efm32lg_disconnect</a>,</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        .base_address = USB_BASE,</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        .set_address_before_status = 1,</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        .rx_fifo_size = RX_FIFO_SIZE,</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;};</div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#af6e92b2ac1f04e53bcb1b84fe6aa657d">  182</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="usb__efm32lg_8c.html#af6e92b2ac1f04e53bcb1b84fe6aa657d">efm32lg_ep_stall_set</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr,</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                                 uint8_t stall)</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;{</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        (void)usbd_dev;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">if</span> (addr == 0) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                <span class="keywordflow">if</span> (stall) {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                        USB_DIEPx_CTL(addr) |= USB_DIEP0CTL_STALL;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                        USB_DIEPx_CTL(addr) &amp;= ~USB_DIEP0CTL_STALL;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordflow">if</span> (addr &amp; 0x80) {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                addr &amp;= 0x7F;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                <span class="keywordflow">if</span> (stall) {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                        USB_DIEPx_CTL(addr) |= USB_DIEP0CTL_STALL;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                        USB_DIEPx_CTL(addr) &amp;= ~USB_DIEP0CTL_STALL;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                        USB_DIEPx_CTL(addr) |= USB_DIEP0CTL_SD0PID;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                }</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                <span class="keywordflow">if</span> (stall) {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                        USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_STALL;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                        USB_DOEPx_CTL(addr) &amp;= ~USB_DOEP0CTL_STALL;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                        USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_SD0PID;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                }</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        }</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;}</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#a33c038a1d1d367168d4d64b7970ff883">  213</a></span>&#160;<span class="keyword">static</span> uint8_t <a class="code" href="usb__efm32lg_8c.html#a33c038a1d1d367168d4d64b7970ff883">efm32lg_ep_stall_get</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr)</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;{</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        (void)usbd_dev;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="comment">/* Return non-zero if STALL set. */</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keywordflow">if</span> (addr &amp; 0x80) {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                <span class="keywordflow">return</span> (USB_DIEPx_CTL(addr &amp; 0x7f) &amp;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                USB_DIEP0CTL_STALL) ? 1 : 0;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                <span class="keywordflow">return</span> (USB_DOEPx_CTL(addr) &amp;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                                USB_DOEP0CTL_STALL) ? 1 : 0;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        }</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;}</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
+<div class="line"><a name="l00227"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#a2dd5dc53dd4caa8e02330ab5302a36ba">  227</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="usb__efm32lg_8c.html#a2dd5dc53dd4caa8e02330ab5302a36ba">efm32lg_ep_nak_set</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr, uint8_t nak)</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;{</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="comment">/* It does not make sence to force NAK on IN endpoints. */</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">if</span> (addr &amp; 0x80) {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a1ed037a5f085c91a1ee3872a179e6383">force_nak</a>[addr] = nak;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">if</span> (nak) {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_SNAK;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_CNAK;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;}</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
+<div class="line"><a name="l00243"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#a94e368d2e364214b53a236e334e93f7c">  243</a></span>&#160;<span class="keyword">static</span> uint16_t <a class="code" href="usb__efm32lg_8c.html#a94e368d2e364214b53a236e334e93f7c">efm32lg_ep_write_packet</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr,</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                              <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, uint16_t len)</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;{</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        (void)usbd_dev;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keyword">const</span> uint32_t *buf32 = buf;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        addr &amp;= 0x7F;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="comment">/* Return if endpoint is already enabled. */</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <span class="keywordflow">if</span> (USB_DIEPx_TSIZ(addr) &amp; USB_DIEP0TSIZ_PKTCNT) {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <span class="comment">/* Enable endpoint for transmission. */</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        USB_DIEPx_TSIZ(addr) = USB_DIEP0TSIZ_PKTCNT | len;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        USB_DIEPx_CTL(addr) |= USB_DIEP0CTL_EPENA |</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                                     USB_DIEP0CTL_CNAK;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keyword">volatile</span> uint32_t *fifo = USB_FIFOxD(addr);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <span class="comment">/* Copy buffer to endpoint FIFO, note - memcpy does not work */</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordflow">for</span> (i = len; i &gt; 0; i -= 4) {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                *fifo++ = *buf32++;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        }</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">return</span> len;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;}</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;</div>
+<div class="line"><a name="l00271"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#ad44f70a3d65d6d73697370e61b09f8d9">  271</a></span>&#160;<span class="keyword">static</span> uint16_t <a class="code" href="usb__efm32lg_8c.html#ad44f70a3d65d6d73697370e61b09f8d9">efm32lg_ep_read_packet</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr,</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                                  <span class="keywordtype">void</span> *buf, uint16_t len)</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;{</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        uint32_t *buf32 = buf;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        uint32_t <a class="code" href="usbstd_8h.html#a28cfbca8dce621e74d9da0036b1f5789">extra</a>;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        len = MIN(len, usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a>);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a> -= len;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <span class="keyword">volatile</span> uint32_t *fifo = USB_FIFOxD(addr);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <span class="keywordflow">for</span> (i = len; i &gt;= 4; i -= 4) {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                *buf32++ = *fifo++;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        }</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">if</span> (i) {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                extra = *fifo++;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                memcpy(buf32, &amp;extra, i);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        }</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        USB_DOEPx_TSIZ(addr) = usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a56153dea109cdf0eb2b0871bc1ea31ae">doeptsiz</a>[addr];</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        USB_DOEPx_CTL(addr) |= USB_DOEP0CTL_EPENA |</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a1ed037a5f085c91a1ee3872a179e6383">force_nak</a>[addr] ?</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;             USB_DOEP0CTL_SNAK : USB_DOEP0CTL_CNAK);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <span class="keywordflow">return</span> len;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;}</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
+<div class="line"><a name="l00299"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#ae6137be73cdb8121da393fd95d56fd48">  299</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="usb__efm32lg_8c.html#ae6137be73cdb8121da393fd95d56fd48">efm32lg_poll</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev)</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;{</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <span class="comment">/* Read interrupt status register. */</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        uint32_t intsts = USB_GINTSTS;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_ENUMDNE) {</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                <span class="comment">/* Handle USB RESET condition. */</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                USB_GINTSTS = USB_GINTSTS_ENUMDNE;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a212245da83ffeb58ceb0b35df4482f82">fifo_mem_top</a> = usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ad780343e8e2776ce99b9dd302b77c2e2">driver</a>-&gt;<a class="code" href="struct__usbd__driver.html#a5fa81d06fb7e305b7218d5aa83322870">rx_fifo_size</a>;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                <a class="code" href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">_usbd_reset</a>(usbd_dev);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <span class="comment">/* Note: RX and TX handled differently in this device. */</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_RXFLVL) {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                <span class="comment">/* Receive FIFO non-empty. */</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                uint32_t rxstsp = USB_GRXSTSP;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                uint32_t pktsts = rxstsp &amp; USB_GRXSTSP_PKTSTS_MASK;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                <span class="keywordflow">if</span> ((pktsts != USB_GRXSTSP_PKTSTS_OUT) &amp;&amp;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                    (pktsts != USB_GRXSTSP_PKTSTS_SETUP)) {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                }</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                uint8_t ep = rxstsp &amp; USB_GRXSTSP_EPNUM_MASK;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                uint8_t type;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                <span class="keywordflow">if</span> (pktsts == USB_GRXSTSP_PKTSTS_SETUP) {</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                        type = <a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018">USB_TRANSACTION_SETUP</a>;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                        type = <a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994ab016c2caf10af8d5cd6adbb926a18c90">USB_TRANSACTION_OUT</a>;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                }</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                <span class="comment">/* Save packet size for stm32f107_ep_read_packet(). */</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a> = (rxstsp &amp; USB_GRXSTSP_BCNT_MASK) &gt;&gt; 4;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                <span class="comment">/*</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="comment">                 * FIXME: Why is a delay needed here?</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="comment">                 * This appears to fix a problem where the first 4 bytes</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="comment">                 * of the DATA OUT stage of a control transaction are lost.</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="comment">                 */</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                <span class="keywordflow">for</span> (i = 0; i &lt; 1000; i++) {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                        __asm__(<span class="stringliteral">&quot;nop&quot;</span>);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                }</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd">user_callback_ctr</a>[ep][type]) {</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd">user_callback_ctr</a>[ep][type] (<a class="code" href="usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, ep);</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                }</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                <span class="comment">/* Discard unread packet data. */</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                <span class="keywordflow">for</span> (i = 0; i &lt; usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a>; i += 4) {</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                        (void)*USB_FIFOxD(ep);</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                }</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">rxbcnt</a> = 0;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="comment">         * There is no global interrupt flag for transmit complete.</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="comment">         * The XFRC bit must be checked in each USB_DIEPx_INT(x).</span></div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; ENDPOINT_COUNT; i++) { <span class="comment">/* Iterate over endpoints. */</span></div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                <span class="keywordflow">if</span> (USB_DIEPx_INT(i) &amp; USB_DIEP_INT_XFRC) {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;                        <span class="comment">/* Transfer complete. */</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;                        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd">user_callback_ctr</a>[i]</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                                                       [<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff">USB_TRANSACTION_IN</a>]) {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                                usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd">user_callback_ctr</a>[i]</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                                        [<a class="code" href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff">USB_TRANSACTION_IN</a>](<a class="code" href="usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a>, i);</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                        }</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                        USB_DIEPx_INT(i) = USB_DIEP_INT_XFRC;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                }</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        }</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_USBSUSP) {</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;                <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7">user_callback_suspend</a>) {</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7">user_callback_suspend</a>();</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;                }</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;                USB_GINTSTS = USB_GINTSTS_USBSUSP;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        }</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_WKUPINT) {</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18">user_callback_resume</a>) {</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;                        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18">user_callback_resume</a>();</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;                }</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;                USB_GINTSTS = USB_GINTSTS_WKUPINT;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        }</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        <span class="keywordflow">if</span> (intsts &amp; USB_GINTSTS_SOF) {</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;                <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>) {</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                        usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>();</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                }</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;                USB_GINTSTS = USB_GINTSTS_SOF;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        }</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <span class="keywordflow">if</span> (usbd_dev-&gt;<a class="code" href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">user_callback_sof</a>) {</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                USB_GINTMSK |= USB_GINTMSK_SOFM;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;                USB_GINTMSK &amp;= ~USB_GINTMSK_SOFM;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        }</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;}</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
+<div class="line"><a name="l00400"></a><span class="lineno"><a class="line" href="usb__efm32lg_8c.html#a129860eb2fa9363a0f585563882139ef">  400</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="usb__efm32lg_8c.html#a129860eb2fa9363a0f585563882139ef">efm32lg_disconnect</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, <span class="keywordtype">bool</span> disconnected)</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;{</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        (void)usbd_dev;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        <span class="keywordflow">if</span> (disconnected) {</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;                USB_DCTL |= USB_DCTL_SDIS;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;                USB_DCTL &amp;= ~USB_DCTL_SDIS;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        }</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;}</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;</div>
+<div class="line"><a name="l00411"></a><span class="lineno"><a class="line" href="group__usb__driver__defines.html#gaf3bd0f5611bd5254b3069a072bcca11f">  411</a></span>&#160;<span class="keyword">const</span> <span class="keyword">struct </span><a class="code" href="struct__usbd__driver.html">_usbd_driver</a> <a class="code" href="group__usb__driver__defines.html#gaf3bd0f5611bd5254b3069a072bcca11f">efm32lg_usb_driver</a> = {</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        .<a class="code" href="struct__usbd__driver.html#a8b540de0300579f8f705c2837f09dbb6">init</a> = <a class="code" href="usb__efm32lg_8c.html#a46b39f7425706c5e229ab6637de8f8b1">efm32lg_usbd_init</a>,</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        .set_address = <a class="code" href="usb__efm32lg_8c.html#a47c84965dd6cfa7d1226135715a78540">efm32lg_set_address</a>,</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        .ep_setup = <a class="code" href="usb__efm32lg_8c.html#a7b3c1c5b7d6942d2e53a5c5ef63268ab">efm32lg_ep_setup</a>,</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        .ep_reset = <a class="code" href="usb__efm32lg_8c.html#a1d925106b0957feb568758bcb7070c28">efm32lg_endpoints_reset</a>,</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        .ep_stall_set = <a class="code" href="usb__efm32lg_8c.html#af6e92b2ac1f04e53bcb1b84fe6aa657d">efm32lg_ep_stall_set</a>,</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        .ep_stall_get = <a class="code" href="usb__efm32lg_8c.html#a33c038a1d1d367168d4d64b7970ff883">efm32lg_ep_stall_get</a>,</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        .ep_nak_set = <a class="code" href="usb__efm32lg_8c.html#a2dd5dc53dd4caa8e02330ab5302a36ba">efm32lg_ep_nak_set</a>,</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        .ep_write_packet = <a class="code" href="usb__efm32lg_8c.html#a94e368d2e364214b53a236e334e93f7c">efm32lg_ep_write_packet</a>,</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        .ep_read_packet = <a class="code" href="usb__efm32lg_8c.html#ad44f70a3d65d6d73697370e61b09f8d9">efm32lg_ep_read_packet</a>,</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        .poll = <a class="code" href="usb__efm32lg_8c.html#ae6137be73cdb8121da393fd95d56fd48">efm32lg_poll</a>,</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        .disconnect = <a class="code" href="usb__efm32lg_8c.html#a129860eb2fa9363a0f585563882139ef">efm32lg_disconnect</a>,</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        .base_address = USB_BASE,</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        .set_address_before_status = 1,</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        .rx_fifo_size = RX_FIFO_SIZE,</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;};</div>
 <div class="ttc" id="usb__efm32lg_8c_html_af6e92b2ac1f04e53bcb1b84fe6aa657d"><div class="ttname"><a href="usb__efm32lg_8c.html#af6e92b2ac1f04e53bcb1b84fe6aa657d">efm32lg_ep_stall_set</a></div><div class="ttdeci">static void efm32lg_ep_stall_set(usbd_device *usbd_dev, uint8_t addr, uint8_t stall)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00182">usb_efm32lg.c:182</a></div></div>
 <div class="ttc" id="struct__usbd__driver_html_a5fa81d06fb7e305b7218d5aa83322870"><div class="ttname"><a href="struct__usbd__driver.html#a5fa81d06fb7e305b7218d5aa83322870">_usbd_driver::rx_fifo_size</a></div><div class="ttdeci">uint16_t rx_fifo_size</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00159">usb_private.h:159</a></div></div>
 <div class="ttc" id="group__usb__private__defines_html_gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff"><div class="ttname"><a href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff">USB_TRANSACTION_IN</a></div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00114">usb_private.h:114</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_ae19323e910fc01e5670c46448e5754b7"><div class="ttname"><a href="struct__usbd__device.html#ae19323e910fc01e5670c46448e5754b7">_usbd_device::user_callback_suspend</a></div><div class="ttdeci">void(* user_callback_suspend)(void)</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00063">usb_private.h:63</a></div></div>
 <div class="ttc" id="group__usb__private__defines_html_gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018"><div class="ttname"><a href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018">USB_TRANSACTION_SETUP</a></div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00116">usb_private.h:116</a></div></div>
-<div class="ttc" id="usb__efm32lg_8c_html_ad44f70a3d65d6d73697370e61b09f8d9"><div class="ttname"><a href="usb__efm32lg_8c.html#ad44f70a3d65d6d73697370e61b09f8d9">efm32lg_ep_read_packet</a></div><div class="ttdeci">static uint16_t efm32lg_ep_read_packet(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00270">usb_efm32lg.c:270</a></div></div>
+<div class="ttc" id="usb__efm32lg_8c_html_ad44f70a3d65d6d73697370e61b09f8d9"><div class="ttname"><a href="usb__efm32lg_8c.html#ad44f70a3d65d6d73697370e61b09f8d9">efm32lg_ep_read_packet</a></div><div class="ttdeci">static uint16_t efm32lg_ep_read_packet(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00271">usb_efm32lg.c:271</a></div></div>
 <div class="ttc" id="struct__usbd__device_html"><div class="ttname"><a href="struct__usbd__device.html">_usbd_device</a></div><div class="ttdoc">Internal collection of device information. </div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00047">usb_private.h:47</a></div></div>
-<div class="ttc" id="group__usb__driver__defines_html_gaf3bd0f5611bd5254b3069a072bcca11f"><div class="ttname"><a href="group__usb__driver__defines.html#gaf3bd0f5611bd5254b3069a072bcca11f">efm32lg_usb_driver</a></div><div class="ttdeci">const struct _usbd_driver efm32lg_usb_driver</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00410">usb_efm32lg.c:410</a></div></div>
+<div class="ttc" id="group__usb__driver__defines_html_gaf3bd0f5611bd5254b3069a072bcca11f"><div class="ttname"><a href="group__usb__driver__defines.html#gaf3bd0f5611bd5254b3069a072bcca11f">efm32lg_usb_driver</a></div><div class="ttdeci">const struct _usbd_driver efm32lg_usb_driver</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00411">usb_efm32lg.c:411</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_a55283552010d81ebafde0c663f2d5443"><div class="ttname"><a href="struct__usbd__device.html#a55283552010d81ebafde0c663f2d5443">_usbd_device::rxbcnt</a></div><div class="ttdeci">uint16_t rxbcnt</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00110">usb_private.h:110</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_a212245da83ffeb58ceb0b35df4482f82"><div class="ttname"><a href="struct__usbd__device.html#a212245da83ffeb58ceb0b35df4482f82">_usbd_device::fifo_mem_top</a></div><div class="ttdeci">uint16_t fifo_mem_top</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00097">usb_private.h:97</a></div></div>
 <div class="ttc" id="usb__f107_8c_html_a4ea025cca3cc88b8f4000413d174db1c"><div class="ttname"><a href="usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c">usbd_dev</a></div><div class="ttdeci">static struct _usbd_device usbd_dev</div><div class="ttdef"><b>Definition:</b> <a href="usb__f107_8c_source.html#l00033">usb_f107.c:33</a></div></div>
-<div class="ttc" id="usb__efm32lg_8c_html_a94e368d2e364214b53a236e334e93f7c"><div class="ttname"><a href="usb__efm32lg_8c.html#a94e368d2e364214b53a236e334e93f7c">efm32lg_ep_write_packet</a></div><div class="ttdeci">static uint16_t efm32lg_ep_write_packet(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00242">usb_efm32lg.c:242</a></div></div>
+<div class="ttc" id="usb__efm32lg_8c_html_a94e368d2e364214b53a236e334e93f7c"><div class="ttname"><a href="usb__efm32lg_8c.html#a94e368d2e364214b53a236e334e93f7c">efm32lg_ep_write_packet</a></div><div class="ttdeci">static uint16_t efm32lg_ep_write_packet(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00243">usb_efm32lg.c:243</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_af22d910c0ba8b4565a7fd7d92f15bc18"><div class="ttname"><a href="struct__usbd__device.html#af22d910c0ba8b4565a7fd7d92f15bc18">_usbd_device::user_callback_resume</a></div><div class="ttdeci">void(* user_callback_resume)(void)</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00064">usb_private.h:64</a></div></div>
 <div class="ttc" id="usb__private_8h_html"><div class="ttname"><a href="usb__private_8h.html">usb_private.h</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_af052793766736ae38d58ff876b39bfdd"><div class="ttname"><a href="struct__usbd__device.html#af052793766736ae38d58ff876b39bfdd">_usbd_device::user_callback_ctr</a></div><div class="ttdeci">usbd_endpoint_callback user_callback_ctr[8][3]</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00086">usb_private.h:86</a></div></div>
 <div class="ttc" id="usb__efm32lg_8c_html_a46b39f7425706c5e229ab6637de8f8b1"><div class="ttname"><a href="usb__efm32lg_8c.html#a46b39f7425706c5e229ab6637de8f8b1">efm32lg_usbd_init</a></div><div class="ttdeci">static usbd_device * efm32lg_usbd_init(void)</div><div class="ttdoc">Initialize the USB_FS device controller hardware of the STM32. </div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00047">usb_efm32lg.c:47</a></div></div>
-<div class="ttc" id="usb__efm32lg_8c_html_a33c038a1d1d367168d4d64b7970ff883"><div class="ttname"><a href="usb__efm32lg_8c.html#a33c038a1d1d367168d4d64b7970ff883">efm32lg_ep_stall_get</a></div><div class="ttdeci">static uint8_t efm32lg_ep_stall_get(usbd_device *usbd_dev, uint8_t addr)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00212">usb_efm32lg.c:212</a></div></div>
+<div class="ttc" id="usb__efm32lg_8c_html_a33c038a1d1d367168d4d64b7970ff883"><div class="ttname"><a href="usb__efm32lg_8c.html#a33c038a1d1d367168d4d64b7970ff883">efm32lg_ep_stall_get</a></div><div class="ttdeci">static uint8_t efm32lg_ep_stall_get(usbd_device *usbd_dev, uint8_t addr)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00213">usb_efm32lg.c:213</a></div></div>
 <div class="ttc" id="usb__efm32lg_8c_html_a1d925106b0957feb568758bcb7070c28"><div class="ttname"><a href="usb__efm32lg_8c.html#a1d925106b0957feb568758bcb7070c28">efm32lg_endpoints_reset</a></div><div class="ttdeci">static void efm32lg_endpoints_reset(usbd_device *usbd_dev)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00176">usb_efm32lg.c:176</a></div></div>
 <div class="ttc" id="struct__usbd__driver_html"><div class="ttname"><a href="struct__usbd__driver.html">_usbd_driver</a></div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00141">usb_private.h:141</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_afed1960c9106fe7b483390b83cd3bf29"><div class="ttname"><a href="struct__usbd__device.html#afed1960c9106fe7b483390b83cd3bf29">_usbd_device::user_callback_sof</a></div><div class="ttdeci">void(* user_callback_sof)(void)</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00065">usb_private.h:65</a></div></div>
-<div class="ttc" id="usb__efm32lg_8c_html_a129860eb2fa9363a0f585563882139ef"><div class="ttname"><a href="usb__efm32lg_8c.html#a129860eb2fa9363a0f585563882139ef">efm32lg_disconnect</a></div><div class="ttdeci">static void efm32lg_disconnect(usbd_device *usbd_dev, bool disconnected)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00399">usb_efm32lg.c:399</a></div></div>
+<div class="ttc" id="usb__efm32lg_8c_html_a129860eb2fa9363a0f585563882139ef"><div class="ttname"><a href="usb__efm32lg_8c.html#a129860eb2fa9363a0f585563882139ef">efm32lg_disconnect</a></div><div class="ttdeci">static void efm32lg_disconnect(usbd_device *usbd_dev, bool disconnected)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00400">usb_efm32lg.c:400</a></div></div>
 <div class="ttc" id="usb__efm32lg_8c_html_a7b3c1c5b7d6942d2e53a5c5ef63268ab"><div class="ttname"><a href="usb__efm32lg_8c.html#a7b3c1c5b7d6942d2e53a5c5ef63268ab">efm32lg_ep_setup</a></div><div class="ttdeci">static void efm32lg_ep_setup(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep))</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00099">usb_efm32lg.c:99</a></div></div>
-<div class="ttc" id="usb__efm32lg_8c_html_ae6137be73cdb8121da393fd95d56fd48"><div class="ttname"><a href="usb__efm32lg_8c.html#ae6137be73cdb8121da393fd95d56fd48">efm32lg_poll</a></div><div class="ttdeci">static void efm32lg_poll(usbd_device *usbd_dev)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00298">usb_efm32lg.c:298</a></div></div>
+<div class="ttc" id="usb__efm32lg_8c_html_ae6137be73cdb8121da393fd95d56fd48"><div class="ttname"><a href="usb__efm32lg_8c.html#ae6137be73cdb8121da393fd95d56fd48">efm32lg_poll</a></div><div class="ttdeci">static void efm32lg_poll(usbd_device *usbd_dev)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00299">usb_efm32lg.c:299</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_a1ed037a5f085c91a1ee3872a179e6383"><div class="ttname"><a href="struct__usbd__device.html#a1ed037a5f085c91a1ee3872a179e6383">_usbd_device::force_nak</a></div><div class="ttdeci">uint8_t force_nak[4]</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00099">usb_private.h:99</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_a56153dea109cdf0eb2b0871bc1ea31ae"><div class="ttname"><a href="struct__usbd__device.html#a56153dea109cdf0eb2b0871bc1ea31ae">_usbd_device::doeptsiz</a></div><div class="ttdeci">uint32_t doeptsiz[4]</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00104">usb_private.h:104</a></div></div>
 <div class="ttc" id="usb__efm32lg_8c_html_a47c84965dd6cfa7d1226135715a78540"><div class="ttname"><a href="usb__efm32lg_8c.html#a47c84965dd6cfa7d1226135715a78540">efm32lg_set_address</a></div><div class="ttdeci">static void efm32lg_set_address(usbd_device *usbd_dev, uint8_t addr)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00092">usb_efm32lg.c:92</a></div></div>
 <div class="ttc" id="group__usb__drivers__file_html_ga3bc8dd33500621a1e900c78a42dcaf27"><div class="ttname"><a href="group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27">_usbd_reset</a></div><div class="ttdeci">void _usbd_reset(usbd_device *usbd_dev)</div><div class="ttdef"><b>Definition:</b> <a href="usb_8c_source.html#l00097">usb.c:97</a></div></div>
 <div class="ttc" id="group__usb__private__defines_html_gga1cf959928954ac5fe754b82f75ce4994ab016c2caf10af8d5cd6adbb926a18c90"><div class="ttname"><a href="group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994ab016c2caf10af8d5cd6adbb926a18c90">USB_TRANSACTION_OUT</a></div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00115">usb_private.h:115</a></div></div>
 <div class="ttc" id="struct__usbd__driver_html_a8b540de0300579f8f705c2837f09dbb6"><div class="ttname"><a href="struct__usbd__driver.html#a8b540de0300579f8f705c2837f09dbb6">_usbd_driver::init</a></div><div class="ttdeci">usbd_device *(* init)(void)</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00142">usb_private.h:142</a></div></div>
-<div class="ttc" id="usbstd_8h_html_a28cfbca8dce621e74d9da0036b1f5789"><div class="ttname"><a href="usbstd_8h.html#a28cfbca8dce621e74d9da0036b1f5789">extra</a></div><div class="ttdeci">const void * extra</div><div class="ttdef"><b>Definition:</b> <a href="usbstd_8h_source.html#l00205">usbstd.h:205</a></div></div>
+<div class="ttc" id="usbstd_8h_html_a28cfbca8dce621e74d9da0036b1f5789"><div class="ttname"><a href="usbstd_8h.html#a28cfbca8dce621e74d9da0036b1f5789">extra</a></div><div class="ttdeci">const void * extra</div><div class="ttdef"><b>Definition:</b> <a href="usbstd_8h_source.html#l00207">usbstd.h:207</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_ad780343e8e2776ce99b9dd302b77c2e2"><div class="ttname"><a href="struct__usbd__device.html#ad780343e8e2776ce99b9dd302b77c2e2">_usbd_device::driver</a></div><div class="ttdeci">const struct _usbd_driver * driver</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00093">usb_private.h:93</a></div></div>
 <div class="ttc" id="usb__efm32lg_8c_html_a1ffec6cadee80151dc30e796d5e4d19f"><div class="ttname"><a href="usb__efm32lg_8c.html#a1ffec6cadee80151dc30e796d5e4d19f">_usbd_dev</a></div><div class="ttdeci">static struct _usbd_device _usbd_dev</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00044">usb_efm32lg.c:44</a></div></div>
-<div class="ttc" id="usb__efm32lg_8c_html_a2dd5dc53dd4caa8e02330ab5302a36ba"><div class="ttname"><a href="usb__efm32lg_8c.html#a2dd5dc53dd4caa8e02330ab5302a36ba">efm32lg_ep_nak_set</a></div><div class="ttdeci">static void efm32lg_ep_nak_set(usbd_device *usbd_dev, uint8_t addr, uint8_t nak)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00226">usb_efm32lg.c:226</a></div></div>
+<div class="ttc" id="usb__efm32lg_8c_html_a2dd5dc53dd4caa8e02330ab5302a36ba"><div class="ttname"><a href="usb__efm32lg_8c.html#a2dd5dc53dd4caa8e02330ab5302a36ba">efm32lg_ep_nak_set</a></div><div class="ttdeci">static void efm32lg_ep_nak_set(usbd_device *usbd_dev, uint8_t addr, uint8_t nak)</div><div class="ttdef"><b>Definition:</b> <a href="usb__efm32lg_8c_source.html#l00227">usb_efm32lg.c:227</a></div></div>
 <div class="ttc" id="struct__usbd__device_html_ad0879153fd5676dda54f0c122420af2e"><div class="ttname"><a href="struct__usbd__device.html#ad0879153fd5676dda54f0c122420af2e">_usbd_device::fifo_mem_top_ep0</a></div><div class="ttdeci">uint16_t fifo_mem_top_ep0</div><div class="ttdef"><b>Definition:</b> <a href="usb__private_8h_source.html#l00098">usb_private.h:98</a></div></div>
 <div class="ttc" id="usbd_8h_html"><div class="ttname"><a href="usbd_8h.html">usbd.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -600,7 +601,7 @@ $(document).ready(function(){initNavTree('usb__efm32lg_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_77fc19f7d89a3cad4d832c4128eaabbf.html">usb</a></li><li class="navelem"><a class="el" href="usb__efm32lg_8c.html">usb_efm32lg.c</a></li>
-    <li class="footer">Generated on Mon Dec 14 2015 20:21:27 for libopencm3 by
+    <li class="footer">Generated on Mon Dec 14 2015 23:21:24 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
