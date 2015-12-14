@@ -15264,8 +15264,8 @@
       <type>void</type>
       <name>pwr_set_vos_scale</name>
       <anchorfile>pwr_8c.html</anchorfile>
-      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
-      <arglist>(vos_scale_t scale)</arglist>
+      <anchor>a5c20c3e54554d82e05cf53cc02fba118</anchor>
+      <arglist>(enum pwr_vos_scale scale)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15310,17 +15310,17 @@
     </member>
     <member kind="enumeration">
       <type></type>
-      <name>vos_scale_t</name>
+      <name>pwr_vos_scale</name>
       <anchorfile>pwr_8h.html</anchorfile>
-      <anchor>a03ccf3726008e813551f58725e0bcb40</anchor>
+      <anchor>a763ebcf54b3996fea95742ecf772f19f</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_vos_scale</name>
       <anchorfile>pwr_8h.html</anchorfile>
-      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
-      <arglist>(vos_scale_t scale)</arglist>
+      <anchor>a5c20c3e54554d82e05cf53cc02fba118</anchor>
+      <arglist>(enum pwr_vos_scale scale)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15705,8 +15705,8 @@
       <type>void</type>
       <name>pwr_set_vos_scale</name>
       <anchorfile>pwr__common__l01_8c.html</anchorfile>
-      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
-      <arglist>(vos_scale_t scale)</arglist>
+      <anchor>a5c20c3e54554d82e05cf53cc02fba118</anchor>
+      <arglist>(enum pwr_vos_scale scale)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15814,17 +15814,24 @@
     </member>
     <member kind="enumeration">
       <type></type>
-      <name>vos_scale_t</name>
+      <name>pwr_vos_scale</name>
       <anchorfile>pwr__common__l01_8h.html</anchorfile>
-      <anchor>a03ccf3726008e813551f58725e0bcb40</anchor>
+      <anchor>a763ebcf54b3996fea95742ecf772f19f</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_vos_scale</name>
       <anchorfile>pwr__common__l01_8h.html</anchorfile>
-      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
-      <arglist>(vos_scale_t scale)</arglist>
+      <anchor>a5c20c3e54554d82e05cf53cc02fba118</anchor>
+      <arglist>(enum pwr_vos_scale scale)</arglist>
+    </member>
+    <member kind="variable">
+      <type>enum pwr_vos_scale</type>
+      <name>vos_scale_t</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a547523e32833ef81f20f4d758c72ca17</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15996,8 +16003,8 @@
       <type>void</type>
       <name>rcc_clock_setup_hse_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga85e0da920f4567f343a9b812df7a5687</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga04fd1ed2bbe9564b636fe3d0b0db2a54</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
@@ -16021,32 +16028,32 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_8mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_8mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga6732b60b662d0168e6995cddc5027c29</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>ga37cb32c16269b987b4c03c6797f13ead</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_12mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_12mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>gafaf3b6c383f86ea1730ceedc0eb5a0c4</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>ga632de5dc30424686d0a939595bab1e60</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_16mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_16mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga24a53fce58c72ae809ee796bdf93b693</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>gaebccff0a4dc3212b784204b700b77e62</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_25mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_25mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga970180a067c79931795be5222a80981d</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>ga63abc006051f205b5ef2827a6a6e4b35</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -16054,7 +16061,7 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/</path>
     <filename>rcc_8h</filename>
     <includes id="rcc__common__all_8h" name="rcc_common_all.h" local="no" imported="no">libopencm3/stm32/common/rcc_common_all.h</includes>
-    <class kind="struct">clock_scale_t</class>
+    <class kind="struct">rcc_clock_scale</class>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR</name>
@@ -18388,9 +18395,9 @@
     </member>
     <member kind="enumeration">
       <type></type>
-      <name>clock_3v3_t</name>
+      <name>rcc_clock_3v3</name>
       <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>acae56f4b5e84d794b6bcd14481dd11cb</anchor>
+      <anchor>a959b2a203b3b1916245b1a2be3e10c78</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -18607,8 +18614,8 @@
       <type>void</type>
       <name>rcc_clock_setup_hse_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga85e0da920f4567f343a9b812df7a5687</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga04fd1ed2bbe9564b636fe3d0b0db2a54</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
@@ -18632,32 +18639,32 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_8mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_8mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga6732b60b662d0168e6995cddc5027c29</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>ga37cb32c16269b987b4c03c6797f13ead</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_12mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_12mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>gafaf3b6c383f86ea1730ceedc0eb5a0c4</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>ga632de5dc30424686d0a939595bab1e60</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_16mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_16mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga24a53fce58c72ae809ee796bdf93b693</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>gaebccff0a4dc3212b784204b700b77e62</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_25mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_25mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga970180a067c79931795be5222a80981d</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>ga63abc006051f205b5ef2827a6a6e4b35</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -29703,83 +29710,83 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>clock_scale_t</name>
-    <filename>structclock__scale__t.html</filename>
+    <name>rcc_clock_scale</name>
+    <filename>structrcc__clock__scale.html</filename>
     <member kind="variable">
       <type>uint8_t</type>
       <name>pllm</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>af529b713744995d39878f6954ad6e576</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a6bb210da8a08db133dc8ddf65d733b2f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint16_t</type>
       <name>plln</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>ad9e813c3a0093ba7a95a954aa2ae2308</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a94dcd6599cd32825ba32f3239f7ea194</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>pllp</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>ad9cdc535a720177e5d63c41808fa7e7a</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a584ebe494b799187784b8fa2daac0378</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>pllq</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a36708c358ff0cc8a88301f6b3ba1698f</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a2161bf15792f7d00b9943837680b9029</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>flash_config</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a45be52a3c8cc370503289d762ea6515b</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>ab30ab0c5ae7fc805dd60b015cd31b0aa</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>hpre</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>ac8be876648665f481c96a13f39bfd70e</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>ac1080df4a18fe56b21c8f2590940a062</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>ppre1</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>aac26f149316ef9aea9955454498cd6f3</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a048213f39f44ac722aa64a67b3a2d24c</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>ppre2</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a1d4d327482ed573f9c5f28f53d8d742a</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a51bf5cb2161fd71090f1ddf580114d76</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>power_save</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a16afff7afb797982dc989bfdeaae0e77</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a7adcf19ff4ad3fb9a7c72d5711bbd363</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>apb1_frequency</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a0efec8dad9231991558c458c12a9b909</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a618efb7b6d896f2b5310a582593195d3</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>apb2_frequency</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>abd1b982df203472532b6016961fe657d</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>ad79ab725f939331a2797964608313b8f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -51041,8 +51048,8 @@
       <type>void</type>
       <name>rcc_clock_setup_hse_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga85e0da920f4567f343a9b812df7a5687</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga04fd1ed2bbe9564b636fe3d0b0db2a54</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
@@ -51066,32 +51073,32 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_8mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_8mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga6732b60b662d0168e6995cddc5027c29</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>ga37cb32c16269b987b4c03c6797f13ead</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_12mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_12mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>gafaf3b6c383f86ea1730ceedc0eb5a0c4</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>ga632de5dc30424686d0a939595bab1e60</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_16mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_16mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga24a53fce58c72ae809ee796bdf93b693</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>gaebccff0a4dc3212b784204b700b77e62</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>hse_25mhz_3v3</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_hse_25mhz_3v3</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>ga970180a067c79931795be5222a80981d</anchor>
-      <arglist>[CLOCK_3V3_END]</arglist>
+      <anchor>ga63abc006051f205b5ef2827a6a6e4b35</anchor>
+      <arglist>[RCC_CLOCK_3V3_END]</arglist>
     </member>
     <docanchor file="group__rcc__file" title="Reset and Clock Control API.">rcc_f4_api_ex</docanchor>
   </compound>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['apb1_5ffrequency',['apb1_frequency',['../structclock__scale__t.html#a0efec8dad9231991558c458c12a9b909',1,'clock_scale_t']]],
-  ['apb2_5ffrequency',['apb2_frequency',['../structclock__scale__t.html#abd1b982df203472532b6016961fe657d',1,'clock_scale_t']]]
+  ['apb1_5ffrequency',['apb1_frequency',['../structrcc__clock__scale.html#a618efb7b6d896f2b5310a582593195d3',1,'rcc_clock_scale']]],
+  ['apb2_5ffrequency',['apb2_frequency',['../structrcc__clock__scale.html#ad79ab725f939331a2797964608313b8f',1,'rcc_clock_scale']]]
 ];

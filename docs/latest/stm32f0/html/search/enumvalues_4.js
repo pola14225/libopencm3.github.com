@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['left12',['LEFT12',['../group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca948aa505bffa2979c605da3480876a88',1,'dac_common_all.h']]],
-  ['lse',['LSE',['../group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aa07a47bdd221bde7ab7f08d41c03de40',1,'rcc.h']]],
-  ['lsi',['LSI',['../group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354ac59b221b111954833c988555d5972f88',1,'rcc.h']]]
+  ['pwr_5fscale1',['PWR_SCALE1',['../pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa6103eef86f1471f041ea7ae1138d202b',1,'pwr_common_l01.h']]],
+  ['pwr_5fscale2',['PWR_SCALE2',['../pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa7210fec0c5b6d36e39a19ff4f3235cce',1,'pwr_common_l01.h']]],
+  ['pwr_5fscale3',['PWR_SCALE3',['../pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa8a1f79e1e14d8083b39a96146d2ba01c',1,'pwr_common_l01.h']]]
 ];

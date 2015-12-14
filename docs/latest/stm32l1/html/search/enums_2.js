@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exti_5ftrigger_5ftype',['exti_trigger_type',['../group__exti__defines.html#ga217058c9ab9a27e3f4f197ca7889623a',1,'exti_common_all.h']]]
+  ['pwr_5fvos_5fscale',['pwr_vos_scale',['../pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f',1,'pwr_common_l01.h']]]
 ];

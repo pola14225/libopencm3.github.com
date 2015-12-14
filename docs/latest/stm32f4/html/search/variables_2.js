@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flash_5fconfig',['flash_config',['../structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b',1,'clock_scale_t']]]
+  ['flash_5fconfig',['flash_config',['../structrcc__clock__scale.html#ab30ab0c5ae7fc805dd60b015cd31b0aa',1,'rcc_clock_scale']]]
 ];

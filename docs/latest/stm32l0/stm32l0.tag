@@ -13742,8 +13742,8 @@
       <type>void</type>
       <name>pwr_set_vos_scale</name>
       <anchorfile>pwr__common__l01_8c.html</anchorfile>
-      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
-      <arglist>(vos_scale_t scale)</arglist>
+      <anchor>a5c20c3e54554d82e05cf53cc02fba118</anchor>
+      <arglist>(enum pwr_vos_scale scale)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -13851,17 +13851,24 @@
     </member>
     <member kind="enumeration">
       <type></type>
-      <name>vos_scale_t</name>
+      <name>pwr_vos_scale</name>
       <anchorfile>pwr__common__l01_8h.html</anchorfile>
-      <anchor>a03ccf3726008e813551f58725e0bcb40</anchor>
+      <anchor>a763ebcf54b3996fea95742ecf772f19f</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_vos_scale</name>
       <anchorfile>pwr__common__l01_8h.html</anchorfile>
-      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
-      <arglist>(vos_scale_t scale)</arglist>
+      <anchor>a5c20c3e54554d82e05cf53cc02fba118</anchor>
+      <arglist>(enum pwr_vos_scale scale)</arglist>
+    </member>
+    <member kind="variable">
+      <type>enum pwr_vos_scale</type>
+      <name>vos_scale_t</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a547523e32833ef81f20f4d758c72ca17</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">

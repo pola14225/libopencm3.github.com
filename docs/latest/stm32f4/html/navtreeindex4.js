@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"group__adc__trigger__injected.html#ga98a8c7b985884713a972a5df0923cd8c":[9,1,0,4,4],
 "group__adc__trigger__injected.html#gaa48ff23fa6e2e88818a9c5248bc671ce":[30,0,1,121],
 "group__adc__trigger__injected.html#gaa48ff23fa6e2e88818a9c5248bc671ce":[9,1,0,4,14],
 "group__adc__trigger__injected.html#gac831e3fd2321eee3dae9faed50a902e8":[30,0,1,109],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "group__crypto__registers__gen.html#ga03eb6f14043a083c78fd0b27d1432530":[30,0,11,5],
 "group__crypto__registers__gen.html#ga04ca7302961b816f45a629b858794276":[9,1,2,2,33],
 "group__crypto__registers__gen.html#ga04ca7302961b816f45a629b858794276":[30,0,11,33],
-"group__crypto__registers__gen.html#ga0f8ba0b38dc10dc82928df2a6c3dc1fa":[9,1,2,2,7]
+"group__crypto__registers__gen.html#ga0f8ba0b38dc10dc82928df2a6c3dc1fa":[9,1,2,2,7],
+"group__crypto__registers__gen.html#ga0f8ba0b38dc10dc82928df2a6c3dc1fa":[30,0,11,7]
 };

@@ -97,7 +97,5 @@ var searchData=
   ['lptim_5fisr_5fexttrig',['LPTIM_ISR_EXTTRIG',['../timer_8h.html#a5d6fe3ef932a42040b0f9530eae1d014',1,'timer.h']]],
   ['lptim_5fisr_5fup',['LPTIM_ISR_UP',['../timer_8h.html#aa5c22c593384daf21fbf0648c7157609',1,'timer.h']]],
   ['lpuart1_5fbase',['LPUART1_BASE',['../memorymap_8h.html#a42584c807077cea9525819eaf29c7e34',1,'memorymap.h']]],
-  ['lse',['LSE',['../group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aa07a47bdd221bde7ab7f08d41c03de40',1,'rcc.h']]],
-  ['lsi',['LSI',['../group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354ac59b221b111954833c988555d5972f88',1,'rcc.h']]],
   ['lsi_5ffrequency',['LSI_FREQUENCY',['../group__iwdg__file.html#gac3a052b86bfb2e144bff152e95ec8f2b',1,'iwdg_common_all.c']]]
 ];

@@ -15534,8 +15534,8 @@
       <type>void</type>
       <name>pwr_set_vos_scale</name>
       <anchorfile>pwr__common__l01_8c.html</anchorfile>
-      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
-      <arglist>(vos_scale_t scale)</arglist>
+      <anchor>a5c20c3e54554d82e05cf53cc02fba118</anchor>
+      <arglist>(enum pwr_vos_scale scale)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15643,17 +15643,24 @@
     </member>
     <member kind="enumeration">
       <type></type>
-      <name>vos_scale_t</name>
+      <name>pwr_vos_scale</name>
       <anchorfile>pwr__common__l01_8h.html</anchorfile>
-      <anchor>a03ccf3726008e813551f58725e0bcb40</anchor>
+      <anchor>a763ebcf54b3996fea95742ecf772f19f</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_vos_scale</name>
       <anchorfile>pwr__common__l01_8h.html</anchorfile>
-      <anchor>aa22ffb6b23613688342c73dd591dcd60</anchor>
-      <arglist>(vos_scale_t scale)</arglist>
+      <anchor>a5c20c3e54554d82e05cf53cc02fba118</anchor>
+      <arglist>(enum pwr_vos_scale scale)</arglist>
+    </member>
+    <member kind="variable">
+      <type>enum pwr_vos_scale</type>
+      <name>vos_scale_t</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a547523e32833ef81f20f4d758c72ca17</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15664,29 +15671,29 @@
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga451b64c9cf47aaa4977f1c4a5c9eb170</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga1c96c4bce0fe924171980aa993d2a0af</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_enable</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga147836b03e1dd972e365ce0732818078</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga6507734e493649ea262e10a511581d67</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_disable</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>gab6ebab9be1d0f9fe163a4d8dd88f6522</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga7f7d1d31caae583cd72443e35885902b</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>rcc_osc_ready_int_flag</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>gab01089842913b18e3df6e0e3ec89fd71</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga01c3b6e7aee2cee13506e3f555539008</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -15706,29 +15713,29 @@
       <type>void</type>
       <name>rcc_wait_for_osc_ready</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga0f9fac6ac510e119aebe5f62c53f073a</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_sysclk_status</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga6472eba195686b970de6216ab61ebd7c</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>gaa768e6d3787b02f6dc93c8392b879ef7</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_on</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga8dbd64d58e019803bf109609203d1afd</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga81b16ade2e5d6e024f36e3d568a9fd97</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_off</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga5f5d6161e92d2708ee1e2d0517c10c28</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga89d079556639549018fbd8d66cf5fc20</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -15748,15 +15755,15 @@
       <type>void</type>
       <name>rcc_osc_bypass_enable</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga3e144ef62bd737fe6cab45eddec41da3</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga3bccfeb2f4364e18997cbd88e2476270</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_bypass_disable</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga9152b74c16322ae76cec62ef93403916</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga5fbe4bc4ca1447fff06e4490f655367e</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -15825,22 +15832,22 @@
       <type>void</type>
       <name>rcc_clock_setup_msi</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga71d9ff219cb4e09c3cddbf383e8c47b3</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga1e7007a97265f845a0e55d46e3076288</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_hsi</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga3d30e886f8749e059865bd3fc7a14ccd</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>gafebecc597753020e983a9c2eb52ffb86</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_pll</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga76b12063e828a7af960d375dee952d31</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga4bbf49936af50688a96ec4f309f710c6</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
@@ -15864,11 +15871,11 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>clock_config</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_clock_config</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>gaeb8ec930fbb38a02df9f93b40d3bb559</anchor>
-      <arglist>[CLOCK_CONFIG_END]</arglist>
+      <anchor>ga98e91ee34c2bccf6919637aae7d965e1</anchor>
+      <arglist>[RCC_CLOCK_CONFIG_END]</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15876,7 +15883,7 @@
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/</path>
     <filename>rcc_8h</filename>
     <includes id="rcc__common__all_8h" name="rcc_common_all.h" local="no" imported="no">libopencm3/stm32/common/rcc_common_all.h</includes>
-    <class kind="struct">clock_scale_t</class>
+    <class kind="struct">rcc_clock_scale</class>
     <member kind="define">
       <type>#define</type>
       <name>RCC_CR</name>
@@ -17650,16 +17657,16 @@
     </member>
     <member kind="enumeration">
       <type></type>
-      <name>clock_config_entry_t</name>
+      <name>rcc_clock_config_entry</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga1dc330cb0220b652d6e56df924c825ff</anchor>
+      <anchor>gaf5795d348e5c34a3c322c8be8f204d00</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
       <type></type>
-      <name>osc_t</name>
+      <name>rcc_osc</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf2418102b7993f2a6f0060e1efdca823</anchor>
+      <anchor>ga68c2b48bd51903ccf423c86458194354</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -17680,29 +17687,29 @@
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga451b64c9cf47aaa4977f1c4a5c9eb170</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga1c96c4bce0fe924171980aa993d2a0af</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_enable</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga147836b03e1dd972e365ce0732818078</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga6507734e493649ea262e10a511581d67</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_disable</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gab6ebab9be1d0f9fe163a4d8dd88f6522</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga7f7d1d31caae583cd72443e35885902b</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>rcc_osc_ready_int_flag</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gab01089842913b18e3df6e0e3ec89fd71</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga01c3b6e7aee2cee13506e3f555539008</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -17722,29 +17729,29 @@
       <type>void</type>
       <name>rcc_wait_for_osc_ready</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga0f9fac6ac510e119aebe5f62c53f073a</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_sysclk_status</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga6472eba195686b970de6216ab61ebd7c</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>gaa768e6d3787b02f6dc93c8392b879ef7</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_on</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga8dbd64d58e019803bf109609203d1afd</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga81b16ade2e5d6e024f36e3d568a9fd97</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_off</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga5f5d6161e92d2708ee1e2d0517c10c28</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga89d079556639549018fbd8d66cf5fc20</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -17764,15 +17771,15 @@
       <type>void</type>
       <name>rcc_osc_bypass_enable</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga3e144ef62bd737fe6cab45eddec41da3</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga3bccfeb2f4364e18997cbd88e2476270</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_bypass_disable</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga9152b74c16322ae76cec62ef93403916</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga5fbe4bc4ca1447fff06e4490f655367e</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -17855,22 +17862,22 @@
       <type>void</type>
       <name>rcc_clock_setup_msi</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga71d9ff219cb4e09c3cddbf383e8c47b3</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga1e7007a97265f845a0e55d46e3076288</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_hsi</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga3d30e886f8749e059865bd3fc7a14ccd</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>gafebecc597753020e983a9c2eb52ffb86</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_pll</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga76b12063e828a7af960d375dee952d31</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga4bbf49936af50688a96ec4f309f710c6</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -17880,11 +17887,11 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>clock_config</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_clock_config</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaeb8ec930fbb38a02df9f93b40d3bb559</anchor>
-      <arglist>[CLOCK_CONFIG_END]</arglist>
+      <anchor>ga98e91ee34c2bccf6919637aae7d965e1</anchor>
+      <arglist>[RCC_CLOCK_CONFIG_END]</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
@@ -29190,83 +29197,83 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>clock_scale_t</name>
-    <filename>structclock__scale__t.html</filename>
+    <name>rcc_clock_scale</name>
+    <filename>structrcc__clock__scale.html</filename>
     <member kind="variable">
       <type>uint8_t</type>
       <name>pll_mul</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>ad569e0685f37c790a13ce62ba3d10fb9</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a69c7bceb5325cbe6ca7c22bae27bf557</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint16_t</type>
       <name>pll_div</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a0502b4e2fe6fb84bb1ff419131f4c401</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>aa098e8ae25ebb97e2047bdf14cc1d8f5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>pll_source</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>af3d417bfd67229858e79c124c679fc01</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>aed590264a530cbaa6c6b6cad8cf738b8</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>flash_config</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a45be52a3c8cc370503289d762ea6515b</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>ab30ab0c5ae7fc805dd60b015cd31b0aa</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>hpre</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>ac8be876648665f481c96a13f39bfd70e</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>ac1080df4a18fe56b21c8f2590940a062</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>ppre1</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>aac26f149316ef9aea9955454498cd6f3</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a048213f39f44ac722aa64a67b3a2d24c</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>ppre2</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a1d4d327482ed573f9c5f28f53d8d742a</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a51bf5cb2161fd71090f1ddf580114d76</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>vos_scale_t</type>
+      <type>enum pwr_vos_scale</type>
       <name>voltage_scale</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>adf712c2b16e70d8a025694db5453b2cd</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a9f91a8056a58aae21441803d6492de18</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>apb1_frequency</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a0efec8dad9231991558c458c12a9b909</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a618efb7b6d896f2b5310a582593195d3</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
       <name>apb2_frequency</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>abd1b982df203472532b6016961fe657d</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>ad79ab725f939331a2797964608313b8f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
       <name>msi_range</name>
-      <anchorfile>structclock__scale__t.html</anchorfile>
-      <anchor>a154a6cea0f42bd7bd466b280312cee3c</anchor>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>aa7d19b6129fc05ab939560b575486eab</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -39000,7 +39007,7 @@
     <name>rcc_defines</name>
     <title>RCC Defines</title>
     <filename>group__rcc__defines.html</filename>
-    <class kind="struct">clock_scale_t</class>
+    <class kind="struct">rcc_clock_scale</class>
     <subgroup>rcc_ahbenr_en</subgroup>
     <subgroup>rcc_apb2enr_en</subgroup>
     <subgroup>rcc_apb1enr_en</subgroup>
@@ -40553,16 +40560,16 @@
     </member>
     <member kind="enumeration">
       <type></type>
-      <name>clock_config_entry_t</name>
+      <name>rcc_clock_config_entry</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga1dc330cb0220b652d6e56df924c825ff</anchor>
+      <anchor>gaf5795d348e5c34a3c322c8be8f204d00</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
       <type></type>
-      <name>osc_t</name>
+      <name>rcc_osc</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaf2418102b7993f2a6f0060e1efdca823</anchor>
+      <anchor>ga68c2b48bd51903ccf423c86458194354</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -40583,29 +40590,29 @@
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga451b64c9cf47aaa4977f1c4a5c9eb170</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga1c96c4bce0fe924171980aa993d2a0af</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_enable</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga147836b03e1dd972e365ce0732818078</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga6507734e493649ea262e10a511581d67</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_disable</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gab6ebab9be1d0f9fe163a4d8dd88f6522</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga7f7d1d31caae583cd72443e35885902b</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>rcc_osc_ready_int_flag</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gab01089842913b18e3df6e0e3ec89fd71</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga01c3b6e7aee2cee13506e3f555539008</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -40625,29 +40632,29 @@
       <type>void</type>
       <name>rcc_wait_for_osc_ready</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga0f9fac6ac510e119aebe5f62c53f073a</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_sysclk_status</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga6472eba195686b970de6216ab61ebd7c</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>gaa768e6d3787b02f6dc93c8392b879ef7</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_on</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga8dbd64d58e019803bf109609203d1afd</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga81b16ade2e5d6e024f36e3d568a9fd97</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_off</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga5f5d6161e92d2708ee1e2d0517c10c28</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga89d079556639549018fbd8d66cf5fc20</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -40667,15 +40674,15 @@
       <type>void</type>
       <name>rcc_osc_bypass_enable</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga3e144ef62bd737fe6cab45eddec41da3</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga3bccfeb2f4364e18997cbd88e2476270</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_bypass_disable</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga9152b74c16322ae76cec62ef93403916</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga5fbe4bc4ca1447fff06e4490f655367e</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -40758,22 +40765,22 @@
       <type>void</type>
       <name>rcc_clock_setup_msi</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga71d9ff219cb4e09c3cddbf383e8c47b3</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga1e7007a97265f845a0e55d46e3076288</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_hsi</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga3d30e886f8749e059865bd3fc7a14ccd</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>gafebecc597753020e983a9c2eb52ffb86</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_pll</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga76b12063e828a7af960d375dee952d31</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga4bbf49936af50688a96ec4f309f710c6</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -40853,11 +40860,11 @@
       <arglist>(uint32_t mcosrc)</arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>clock_config</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_clock_config</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gaeb8ec930fbb38a02df9f93b40d3bb559</anchor>
-      <arglist>[CLOCK_CONFIG_END]</arglist>
+      <anchor>ga98e91ee34c2bccf6919637aae7d965e1</anchor>
+      <arglist>[RCC_CLOCK_CONFIG_END]</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
@@ -54491,29 +54498,29 @@
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga451b64c9cf47aaa4977f1c4a5c9eb170</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga1c96c4bce0fe924171980aa993d2a0af</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_enable</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga147836b03e1dd972e365ce0732818078</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga6507734e493649ea262e10a511581d67</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_disable</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>gab6ebab9be1d0f9fe163a4d8dd88f6522</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga7f7d1d31caae583cd72443e35885902b</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>rcc_osc_ready_int_flag</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>gab01089842913b18e3df6e0e3ec89fd71</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga01c3b6e7aee2cee13506e3f555539008</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -54533,29 +54540,29 @@
       <type>void</type>
       <name>rcc_wait_for_osc_ready</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga0f9fac6ac510e119aebe5f62c53f073a</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_sysclk_status</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga6472eba195686b970de6216ab61ebd7c</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>gaa768e6d3787b02f6dc93c8392b879ef7</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_on</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga8dbd64d58e019803bf109609203d1afd</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga81b16ade2e5d6e024f36e3d568a9fd97</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_off</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga5f5d6161e92d2708ee1e2d0517c10c28</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga89d079556639549018fbd8d66cf5fc20</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -54575,15 +54582,15 @@
       <type>void</type>
       <name>rcc_osc_bypass_enable</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga3e144ef62bd737fe6cab45eddec41da3</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga3bccfeb2f4364e18997cbd88e2476270</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_bypass_disable</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga9152b74c16322ae76cec62ef93403916</anchor>
-      <arglist>(osc_t osc)</arglist>
+      <anchor>ga5fbe4bc4ca1447fff06e4490f655367e</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -54652,22 +54659,22 @@
       <type>void</type>
       <name>rcc_clock_setup_msi</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga71d9ff219cb4e09c3cddbf383e8c47b3</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga1e7007a97265f845a0e55d46e3076288</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_hsi</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga3d30e886f8749e059865bd3fc7a14ccd</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>gafebecc597753020e983a9c2eb52ffb86</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_clock_setup_pll</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>ga76b12063e828a7af960d375dee952d31</anchor>
-      <arglist>(const clock_scale_t *clock)</arglist>
+      <anchor>ga4bbf49936af50688a96ec4f309f710c6</anchor>
+      <arglist>(const struct rcc_clock_scale *clock)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>
@@ -54691,11 +54698,11 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const clock_scale_t</type>
-      <name>clock_config</name>
+      <type>const struct rcc_clock_scale</type>
+      <name>rcc_clock_config</name>
       <anchorfile>group__STM32L1xx-rcc-file.html</anchorfile>
-      <anchor>gaeb8ec930fbb38a02df9f93b40d3bb559</anchor>
-      <arglist>[CLOCK_CONFIG_END]</arglist>
+      <anchor>ga98e91ee34c2bccf6919637aae7d965e1</anchor>
+      <arglist>[RCC_CLOCK_CONFIG_END]</arglist>
     </member>
   </compound>
   <compound kind="group">

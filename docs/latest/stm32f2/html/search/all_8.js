@@ -55,8 +55,5 @@ var searchData=
   ['hash_5fstr',['HASH_STR',['../group__hash__defines.html#ga91aaa7657bb24004e61ec1913f4f934c',1,'hash_common_f24.h']]],
   ['hash_5fstr_5fdcal',['HASH_STR_DCAL',['../group__hash__defines.html#ga0728426e6f0324be8633a6b5a72ec185',1,'hash_common_f24.h']]],
   ['hash_5fstr_5fnbw',['HASH_STR_NBW',['../group__hash__defines.html#ga7bf9d52ad29a5e3a891f533c04be625f',1,'hash_common_f24.h']]],
-  ['hpre',['hpre',['../structclock__scale__t.html#ac8be876648665f481c96a13f39bfd70e',1,'clock_scale_t']]],
-  ['hse',['HSE',['../group__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823a744bf841212e605b891f8ced6e20eb43',1,'rcc.h']]],
-  ['hse_5f8mhz_5f3v3',['hse_8mhz_3v3',['../group__rcc__defines.html#ga6732b60b662d0168e6995cddc5027c29',1,'hse_8mhz_3v3():&#160;rcc.c'],['../group__rcc__file.html#ga6732b60b662d0168e6995cddc5027c29',1,'hse_8mhz_3v3():&#160;rcc.c']]],
-  ['hsi',['HSI',['../group__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823aae2bb333077d91b3c2aa75978f89e084',1,'rcc.h']]]
+  ['hpre',['hpre',['../structrcc__clock__scale.html#ac1080df4a18fe56b21c8f2590940a062',1,'rcc_clock_scale']]]
 ];

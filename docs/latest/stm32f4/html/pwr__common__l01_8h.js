@@ -14,12 +14,13 @@ var pwr__common__l01_8h =
     [ "PWR_CSR_REGLPF", "pwr__common__l01_8h.html#afb4741c79606f7fde43e2b88113053d7", null ],
     [ "PWR_CSR_VOSF", "pwr__common__l01_8h.html#a760e9fa30782fc54fec0b0f886eda0f1", null ],
     [ "PWR_CSR_VREFINTRDYF", "pwr__common__l01_8h.html#a918aa3e6e5f97f7032d3eae8ac324eba", null ],
-    [ "vos_scale_t", "pwr__common__l01_8h.html#a03ccf3726008e813551f58725e0bcb40", [
-      [ "SCALE1", "pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a09689abe50d1577a43c296951050af57", null ],
-      [ "SCALE2", "pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a5132140ed531dfa4a08549302c36731a", null ],
-      [ "RANGE1", "pwr__common__l01_8h.html#a03ccf3726008e813551f58725e0bcb40a15e188ed9b712b2d0de04db6b782c4eb", null ],
-      [ "RANGE2", "pwr__common__l01_8h.html#a03ccf3726008e813551f58725e0bcb40a69f2f7f39de6f1dcea47320100b82926", null ],
-      [ "RANGE3", "pwr__common__l01_8h.html#a03ccf3726008e813551f58725e0bcb40a07a05dfcddb0d6988ed06828b40a2af2", null ]
+    [ "pwr_vos_scale", "pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f", [
+      [ "PWR_SCALE1", "pwr_8h.html#a763ebcf54b3996fea95742ecf772f19fa6103eef86f1471f041ea7ae1138d202b", null ],
+      [ "PWR_SCALE2", "pwr_8h.html#a763ebcf54b3996fea95742ecf772f19fa7210fec0c5b6d36e39a19ff4f3235cce", null ],
+      [ "PWR_SCALE1", "pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa6103eef86f1471f041ea7ae1138d202b", null ],
+      [ "PWR_SCALE2", "pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa7210fec0c5b6d36e39a19ff4f3235cce", null ],
+      [ "PWR_SCALE3", "pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa8a1f79e1e14d8083b39a96146d2ba01c", null ]
     ] ],
-    [ "pwr_set_vos_scale", "pwr__common__l01_8h.html#aa22ffb6b23613688342c73dd591dcd60", null ]
+    [ "pwr_set_vos_scale", "pwr__common__l01_8h.html#a5c20c3e54554d82e05cf53cc02fba118", null ],
+    [ "vos_scale_t", "pwr__common__l01_8h.html#a547523e32833ef81f20f4d758c72ca17", null ]
 ];

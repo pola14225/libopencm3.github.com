@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clock_5fscale_5ft',['clock_scale_t',['../structclock__scale__t.html',1,'']]]
+  ['rcc_5fclock_5fscale',['rcc_clock_scale',['../structrcc__clock__scale.html',1,'']]]
 ];

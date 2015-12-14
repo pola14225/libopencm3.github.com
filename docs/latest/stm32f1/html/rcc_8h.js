@@ -305,13 +305,13 @@ var rcc_8h =
     [ "RCC_CSR_SFTRSTF", "group__rcc__defines.html#ga16e89534934436ee8958440882b71e6f", null ],
     [ "RCC_CSR_WWDGRSTF", "group__rcc__defines.html#gacabd7bbde7e78c9c8f5fd46e34771826", null ],
     [ "rcc_osc", "group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354", [
-      [ "PLL", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a5c7fe827c28117f11dd14f9197d7d5a2", null ],
-      [ "PLL2", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a98d505f310a7a1e3a1cb888397e8b456", null ],
-      [ "PLL3", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a2be1996c2c7e2cdf1e614e4f9a18f10c", null ],
-      [ "HSE", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a744bf841212e605b891f8ced6e20eb43", null ],
-      [ "HSI", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aae2bb333077d91b3c2aa75978f89e084", null ],
-      [ "LSE", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aa07a47bdd221bde7ab7f08d41c03de40", null ],
-      [ "LSI", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354ac59b221b111954833c988555d5972f88", null ]
+      [ "RCC_PLL", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a627d71402d403a5517bd652ece1d5013", null ],
+      [ "RCC_PLL2", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a4056125ad3ce893cf89f45da4488ae0a", null ],
+      [ "RCC_PLL3", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354ab9853e566b40436a1d6aef6230b37bc3", null ],
+      [ "RCC_HSE", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aa72a0e027ef7492439824d675d4a2fb4", null ],
+      [ "RCC_HSI", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a1876e08e92a9ea07faac183d918ac1fc", null ],
+      [ "RCC_LSE", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aa0d54244420168e28b671a94bf2c75e4", null ],
+      [ "RCC_LSI", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a4e5d0c838caa0e75a56ea47ef36ad782", null ]
     ] ],
     [ "rcc_periph_clken", "group__rcc__defines.html#ga54c7db24941f636ee238833c481ada48", [
       [ "RCC_DMA1", "group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48ad3c1b4bd4d4910ad45903d70ce99c546", null ],

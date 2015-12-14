@@ -120,7 +120,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_e.html#index_e"><span>e</span></a></li>
       <li><a href="globals_f.html#index_f"><span>f</span></a></li>
       <li><a href="globals_g.html#index_g"><span>g</span></a></li>
-      <li><a href="globals_h.html#index_h"><span>h</span></a></li>
       <li><a href="globals_i.html#index_i"><span>i</span></a></li>
       <li><a href="globals_l.html#index_l"><span>l</span></a></li>
       <li><a href="globals_m.html#index_m"><span>m</span></a></li>
@@ -1220,26 +1219,38 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 <li>RCC_GPIOG
 : <a class="el" href="group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a5db55f45d23bd84c2e4b9a36c7cdb57e">rcc.h</a>
 </li>
+<li>RCC_HSE
+: <a class="el" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aa72a0e027ef7492439824d675d4a2fb4">rcc.h</a>
+</li>
+<li>RCC_HSI
+: <a class="el" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a1876e08e92a9ea07faac183d918ac1fc">rcc.h</a>
+</li>
 <li>RCC_I2C1
 : <a class="el" href="group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0">rcc.h</a>
 </li>
 <li>RCC_I2C2
 : <a class="el" href="group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a">rcc.h</a>
 </li>
+<li>RCC_LSE
+: <a class="el" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aa0d54244420168e28b671a94bf2c75e4">rcc.h</a>
+</li>
+<li>RCC_LSI
+: <a class="el" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a4e5d0c838caa0e75a56ea47ef36ad782">rcc.h</a>
+</li>
 <li>rcc_osc
 : <a class="el" href="group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc.h</a>
 </li>
 <li>rcc_osc_bypass_disable()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#ga5fbe4bc4ca1447fff06e4490f655367e">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#ga5fbe4bc4ca1447fff06e4490f655367e">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#ga5fbe4bc4ca1447fff06e4490f655367e">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#ga5fbe4bc4ca1447fff06e4490f655367e">rcc.c</a>
 </li>
 <li>rcc_osc_bypass_enable()
 : <a class="el" href="group__rcc__defines.html#ga3bccfeb2f4364e18997cbd88e2476270">rcc.h</a>
 , <a class="el" href="group__STM32F1xx-rcc-file.html#ga3bccfeb2f4364e18997cbd88e2476270">rcc.c</a>
 </li>
 <li>rcc_osc_off()
-: <a class="el" href="group__rcc__defines.html#ga89d079556639549018fbd8d66cf5fc20">rcc.h</a>
-, <a class="el" href="group__STM32F1xx-rcc-file.html#ga89d079556639549018fbd8d66cf5fc20">rcc.c</a>
+: <a class="el" href="group__STM32F1xx-rcc-file.html#ga89d079556639549018fbd8d66cf5fc20">rcc.c</a>
+, <a class="el" href="group__rcc__defines.html#ga89d079556639549018fbd8d66cf5fc20">rcc.h</a>
 </li>
 <li>rcc_osc_on()
 : <a class="el" href="group__rcc__defines.html#ga81b16ade2e5d6e024f36e3d568a9fd97">rcc.h</a>
@@ -1254,8 +1265,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__STM32F1xx-rcc-file.html#ga7f7d1d31caae583cd72443e35885902b">rcc.c</a>
 </li>
 <li>rcc_osc_ready_int_enable()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#ga6507734e493649ea262e10a511581d67">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#ga6507734e493649ea262e10a511581d67">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#ga6507734e493649ea262e10a511581d67">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#ga6507734e493649ea262e10a511581d67">rcc.c</a>
 </li>
 <li>rcc_osc_ready_int_flag()
 : <a class="el" href="group__rcc__defines.html#ga01c3b6e7aee2cee13506e3f555539008">rcc.h</a>
@@ -1297,12 +1308,21 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 <li>rcc_peripheral_reset()
 : <a class="el" href="group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205">rcc_common_all.h</a>
 </li>
+<li>RCC_PLL
+: <a class="el" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a627d71402d403a5517bd652ece1d5013">rcc.h</a>
+</li>
+<li>RCC_PLL2
+: <a class="el" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a4056125ad3ce893cf89f45da4488ae0a">rcc.h</a>
+</li>
+<li>RCC_PLL3
+: <a class="el" href="group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354ab9853e566b40436a1d6aef6230b37bc3">rcc.h</a>
+</li>
 <li>RCC_PWR
 : <a class="el" href="group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a653354e7670b00648bd46782e60a780b">rcc.h</a>
 </li>
 <li>rcc_rtc_clock_enabled_flag()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#gaf58f3540cedf5a15e31e8ac453834079">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#gaf58f3540cedf5a15e31e8ac453834079">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#gaf58f3540cedf5a15e31e8ac453834079">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#gaf58f3540cedf5a15e31e8ac453834079">rcc.c</a>
 </li>
 <li>RCC_SDIO
 : <a class="el" href="group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a1df9684e164cf1ce919d187c0dde60d3">rcc.h</a>
@@ -1312,31 +1332,31 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__STM32F1xx-rcc-file.html#ga190cb3bbb95d687334d00e15bfab5b56">rcc.c</a>
 </li>
 <li>rcc_set_hpre()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#gae192b2cd0f37124db5ed76d599a5671b">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#gae192b2cd0f37124db5ed76d599a5671b">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#gae192b2cd0f37124db5ed76d599a5671b">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#gae192b2cd0f37124db5ed76d599a5671b">rcc.c</a>
 </li>
 <li>rcc_set_mco()
 : <a class="el" href="group__rcc__defines.html#gaccfc4aa94152abb68e0d5ad473adbf53">rcc_common_all.h</a>
 </li>
 <li>rcc_set_pll2_multiplication_factor()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#ga648726dbed9b010d181306103c9eb51c">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#ga648726dbed9b010d181306103c9eb51c">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#ga648726dbed9b010d181306103c9eb51c">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#ga648726dbed9b010d181306103c9eb51c">rcc.c</a>
 </li>
 <li>rcc_set_pll3_multiplication_factor()
-: <a class="el" href="group__rcc__defines.html#ga548fdeeacbf0c2199b0851a8c71ff872">rcc.h</a>
-, <a class="el" href="group__STM32F1xx-rcc-file.html#ga548fdeeacbf0c2199b0851a8c71ff872">rcc.c</a>
+: <a class="el" href="group__STM32F1xx-rcc-file.html#ga548fdeeacbf0c2199b0851a8c71ff872">rcc.c</a>
+, <a class="el" href="group__rcc__defines.html#ga548fdeeacbf0c2199b0851a8c71ff872">rcc.h</a>
 </li>
 <li>rcc_set_pll_multiplication_factor()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#ga93f0715a42904d8c70bc7d1c862cf89f">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#ga93f0715a42904d8c70bc7d1c862cf89f">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#ga93f0715a42904d8c70bc7d1c862cf89f">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#ga93f0715a42904d8c70bc7d1c862cf89f">rcc.c</a>
 </li>
 <li>rcc_set_pll_source()
-: <a class="el" href="group__rcc__defines.html#ga2f2bd45ad9c8b32e0fe5affe9bf181bf">rcc.h</a>
-, <a class="el" href="group__STM32F1xx-rcc-file.html#ga2f2bd45ad9c8b32e0fe5affe9bf181bf">rcc.c</a>
+: <a class="el" href="group__STM32F1xx-rcc-file.html#ga2f2bd45ad9c8b32e0fe5affe9bf181bf">rcc.c</a>
+, <a class="el" href="group__rcc__defines.html#ga2f2bd45ad9c8b32e0fe5affe9bf181bf">rcc.h</a>
 </li>
 <li>rcc_set_pllxtpre()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#gae307406af5f22597be382a3eecc7b54b">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#gae307406af5f22597be382a3eecc7b54b">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#gae307406af5f22597be382a3eecc7b54b">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#gae307406af5f22597be382a3eecc7b54b">rcc.c</a>
 </li>
 <li>rcc_set_ppre1()
 : <a class="el" href="group__rcc__defines.html#gaaf1b9174131b00a7014c0328a53a65a1">rcc.h</a>
@@ -1351,24 +1371,24 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__STM32F1xx-rcc-file.html#ga3002a6fe10a813069b1d13c98c0a6da7">rcc.c</a>
 </li>
 <li>rcc_set_prediv1_source()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#ga2ce7e31318695e354e955004c0050a85">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#ga2ce7e31318695e354e955004c0050a85">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#ga2ce7e31318695e354e955004c0050a85">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#ga2ce7e31318695e354e955004c0050a85">rcc.c</a>
 </li>
 <li>rcc_set_prediv2()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#ga3a206a5322c1c6f7737654e13a01c6b8">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#ga3a206a5322c1c6f7737654e13a01c6b8">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#ga3a206a5322c1c6f7737654e13a01c6b8">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#ga3a206a5322c1c6f7737654e13a01c6b8">rcc.c</a>
 </li>
 <li>rcc_set_rtc_clock_source()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#ga1a7e55c7554def2e7152af495e1565a8">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#ga1a7e55c7554def2e7152af495e1565a8">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#ga1a7e55c7554def2e7152af495e1565a8">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#ga1a7e55c7554def2e7152af495e1565a8">rcc.c</a>
 </li>
 <li>rcc_set_sysclk_source()
 : <a class="el" href="group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36">rcc.c</a>
 , <a class="el" href="group__rcc__defines.html#ga2c291271812c333d975807cd5ec99a36">rcc.h</a>
 </li>
 <li>rcc_set_usbpre()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#gad434015520b42043657d7478f8308c37">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#gad434015520b42043657d7478f8308c37">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#gad434015520b42043657d7478f8308c37">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#gad434015520b42043657d7478f8308c37">rcc.c</a>
 </li>
 <li>RCC_SPI1
 : <a class="el" href="group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953">rcc.h</a>
@@ -1383,8 +1403,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 : <a class="el" href="group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a7de81948facbcf4690488d21bc3d6cab">rcc.h</a>
 </li>
 <li>rcc_system_clock_source()
-: <a class="el" href="group__STM32F1xx-rcc-file.html#ga3373359648b1677ac49d2fe86bff99b7">rcc.c</a>
-, <a class="el" href="group__rcc__defines.html#ga3373359648b1677ac49d2fe86bff99b7">rcc.h</a>
+: <a class="el" href="group__rcc__defines.html#ga3373359648b1677ac49d2fe86bff99b7">rcc.h</a>
+, <a class="el" href="group__STM32F1xx-rcc-file.html#ga3373359648b1677ac49d2fe86bff99b7">rcc.c</a>
 </li>
 <li>RCC_TIM1
 : <a class="el" href="group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a246489e2827e54e0c0e6d4d1296c362e">rcc.h</a>
@@ -1640,8 +1660,8 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 : <a class="el" href="memorymap_8h.html#a4265e665d56225412e57a61d87417022">memorymap.h</a>
 </li>
 <li>rtc_check_flag()
-: <a class="el" href="group__rtc__defines.html#ga94da35b2f8d7af8985c2e21bc1253349">rtc.h</a>
-, <a class="el" href="group__rtc__file.html#ga94da35b2f8d7af8985c2e21bc1253349">rtc.c</a>
+: <a class="el" href="group__rtc__file.html#ga94da35b2f8d7af8985c2e21bc1253349">rtc.c</a>
+, <a class="el" href="group__rtc__defines.html#ga94da35b2f8d7af8985c2e21bc1253349">rtc.h</a>
 </li>
 <li>rtc_clear_flag()
 : <a class="el" href="group__rtc__defines.html#ga1dd7ccbdf65c6f7b4d714bcb43a57528">rtc.h</a>
@@ -1705,20 +1725,20 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 , <a class="el" href="group__rtc__file.html#gaf911a07f668e8be5f719065c44015b02">rtc.c</a>
 </li>
 <li>rtc_exit_config_mode()
-: <a class="el" href="group__rtc__defines.html#ga9adb9cf0f6b7d17a7c8ee0e6addf5be9">rtc.h</a>
-, <a class="el" href="group__rtc__file.html#ga9adb9cf0f6b7d17a7c8ee0e6addf5be9">rtc.c</a>
+: <a class="el" href="group__rtc__file.html#ga9adb9cf0f6b7d17a7c8ee0e6addf5be9">rtc.c</a>
+, <a class="el" href="group__rtc__defines.html#ga9adb9cf0f6b7d17a7c8ee0e6addf5be9">rtc.h</a>
 </li>
 <li>rtc_get_alarm_val()
 : <a class="el" href="group__rtc__file.html#ga7cbe2e2000e3f9d3420c9e130d4019e8">rtc.c</a>
 , <a class="el" href="group__rtc__defines.html#ga7cbe2e2000e3f9d3420c9e130d4019e8">rtc.h</a>
 </li>
 <li>rtc_get_counter_val()
-: <a class="el" href="group__rtc__defines.html#ga16c4bf05c4660f7782efacb0b6f13069">rtc.h</a>
-, <a class="el" href="group__rtc__file.html#ga16c4bf05c4660f7782efacb0b6f13069">rtc.c</a>
+: <a class="el" href="group__rtc__file.html#ga16c4bf05c4660f7782efacb0b6f13069">rtc.c</a>
+, <a class="el" href="group__rtc__defines.html#ga16c4bf05c4660f7782efacb0b6f13069">rtc.h</a>
 </li>
 <li>rtc_get_prescale_div_val()
-: <a class="el" href="group__rtc__file.html#gac18d0fabc363be97a41cf05cb220739a">rtc.c</a>
-, <a class="el" href="group__rtc__defines.html#gac18d0fabc363be97a41cf05cb220739a">rtc.h</a>
+: <a class="el" href="group__rtc__defines.html#gac18d0fabc363be97a41cf05cb220739a">rtc.h</a>
+, <a class="el" href="group__rtc__file.html#gac18d0fabc363be97a41cf05cb220739a">rtc.c</a>
 </li>
 <li>rtc_interrupt_disable()
 : <a class="el" href="group__rtc__file.html#ga4de126c91f7eedf70262a99e663a6fc5">rtc.c</a>
@@ -1761,7 +1781,7 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Dec 14 2015 23:21:47 for libopencm3 by
+    <li class="footer">Generated on Tue Dec 15 2015 00:21:39 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

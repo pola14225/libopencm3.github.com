@@ -1,5 +1,5 @@
 var annotated =
 [
-    [ "clock_scale_t", "structclock__scale__t.html", "structclock__scale__t" ],
+    [ "rcc_clock_scale", "structrcc__clock__scale.html", "structrcc__clock__scale" ],
     [ "sdram_timing", "structsdram__timing.html", "structsdram__timing" ]
 ];

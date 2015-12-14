@@ -1,6 +1,6 @@
 var rcc_8h =
 [
-    [ "clock_scale_t", "structclock__scale__t.html", "structclock__scale__t" ],
+    [ "rcc_clock_scale", "structrcc__clock__scale.html", "structrcc__clock__scale" ],
     [ "_REG_BIT", "rcc_8h.html#a859a9ba8fcc7c60a0f7dfd5865001f08", null ],
     [ "RCC_AHB1ENR", "rcc_8h.html#a305184464592fe039a4e47e9d88bdcc4", null ],
     [ "RCC_AHB1ENR_BKPSRAMEN", "rcc_8h.html#aee10e5e11a2043e4ff865c3d7b804233", null ],
@@ -334,19 +334,19 @@ var rcc_8h =
     [ "RCC_SSCGR_MODPER_SHIFT", "rcc_8h.html#aedcd8f566ad34243368aa46ddf7a590e", null ],
     [ "RCC_SSCGR_SPREADSEL", "rcc_8h.html#a392689f6486224a7f19d7ad0cd195687", null ],
     [ "RCC_SSCGR_SSCGEN", "rcc_8h.html#a8885c04bcb786b89e26f066f4ccf06e0", null ],
-    [ "clock_3v3_t", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cb", [
-      [ "CLOCK_3V3_48MHZ", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cbad14774147c799b99145fa1b40f579152", null ],
-      [ "CLOCK_3V3_84MHZ", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cba8507f1bb15ff79617c244b8d05a721ce", null ],
-      [ "CLOCK_3V3_120MHZ", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cba8e7a4f7a812444b60603e1fc9aaab9a5", null ],
-      [ "CLOCK_3V3_168MHZ", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cba5d7109dc746593d41af13ea452600c30", null ],
-      [ "CLOCK_3V3_END", "rcc_8h.html#acae56f4b5e84d794b6bcd14481dd11cbac8297646d4feef220ebf141158d668cb", null ]
+    [ "rcc_clock_3v3", "rcc_8h.html#a959b2a203b3b1916245b1a2be3e10c78", [
+      [ "RCC_CLOCK_3V3_48MHZ", "rcc_8h.html#a959b2a203b3b1916245b1a2be3e10c78ab1680583b61f8d7cdf09ae84cc916d15", null ],
+      [ "RCC_CLOCK_3V3_84MHZ", "rcc_8h.html#a959b2a203b3b1916245b1a2be3e10c78aa45421b8822fd2614d845c133041ea56", null ],
+      [ "RCC_CLOCK_3V3_120MHZ", "rcc_8h.html#a959b2a203b3b1916245b1a2be3e10c78a12513ceb0e7543e1321f821f8ff72b77", null ],
+      [ "RCC_CLOCK_3V3_168MHZ", "rcc_8h.html#a959b2a203b3b1916245b1a2be3e10c78a82cbee11931811ac2d0986cd8a281e63", null ],
+      [ "RCC_CLOCK_3V3_END", "rcc_8h.html#a959b2a203b3b1916245b1a2be3e10c78a73499fc80bea7fbb80861c15f78ffe24", null ]
     ] ],
     [ "rcc_osc", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354", [
-      [ "PLL", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354a5c7fe827c28117f11dd14f9197d7d5a2", null ],
-      [ "HSE", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354a744bf841212e605b891f8ced6e20eb43", null ],
-      [ "HSI", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354aae2bb333077d91b3c2aa75978f89e084", null ],
-      [ "LSE", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354aa07a47bdd221bde7ab7f08d41c03de40", null ],
-      [ "LSI", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354ac59b221b111954833c988555d5972f88", null ]
+      [ "RCC_PLL", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354a627d71402d403a5517bd652ece1d5013", null ],
+      [ "RCC_HSE", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354aa72a0e027ef7492439824d675d4a2fb4", null ],
+      [ "RCC_HSI", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354a1876e08e92a9ea07faac183d918ac1fc", null ],
+      [ "RCC_LSE", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354aa0d54244420168e28b671a94bf2c75e4", null ],
+      [ "RCC_LSI", "rcc_8h.html#a68c2b48bd51903ccf423c86458194354a4e5d0c838caa0e75a56ea47ef36ad782", null ]
     ] ],
     [ "rcc_periph_clken", "rcc_8h.html#a54c7db24941f636ee238833c481ada48", [
       [ "RCC_GPIOA", "rcc_8h.html#a54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680", null ],
@@ -559,7 +559,7 @@ var rcc_8h =
       [ "RST_SAI1RST", "rcc_8h.html#a4bd6185a4613aaa3ee5447c3d86ba718afac7cbf0813d9a8bf0475a105c99e7ed", null ],
       [ "RST_LTDC", "rcc_8h.html#a4bd6185a4613aaa3ee5447c3d86ba718afdee0b25d89026a8c5c1a7ea8c092e18", null ]
     ] ],
-    [ "rcc_clock_setup_hse_3v3", "group__rcc__file.html#ga85e0da920f4567f343a9b812df7a5687", null ],
+    [ "rcc_clock_setup_hse_3v3", "group__rcc__file.html#ga04fd1ed2bbe9564b636fe3d0b0db2a54", null ],
     [ "rcc_css_disable", "group__rcc__file.html#ga2297cce07d5113023bf8eff03fc62c66", null ],
     [ "rcc_css_enable", "group__rcc__file.html#gaddb943f9f25dc2df52890c90d468f373", null ],
     [ "rcc_css_int_clear", "group__rcc__file.html#gab1b45443e00d0774628de632257ba9f4", null ],
@@ -587,11 +587,11 @@ var rcc_8h =
     [ "rcc_system_clock_source", "group__rcc__file.html#ga3373359648b1677ac49d2fe86bff99b7", null ],
     [ "rcc_wait_for_osc_ready", "group__rcc__file.html#ga1dfd0e0ba16285ce16e782e07af2cafa", null ],
     [ "rcc_wait_for_sysclk_status", "group__rcc__file.html#gaa768e6d3787b02f6dc93c8392b879ef7", null ],
-    [ "hse_12mhz_3v3", "group__rcc__file.html#gafaf3b6c383f86ea1730ceedc0eb5a0c4", null ],
-    [ "hse_16mhz_3v3", "group__rcc__file.html#ga24a53fce58c72ae809ee796bdf93b693", null ],
-    [ "hse_25mhz_3v3", "group__rcc__file.html#ga970180a067c79931795be5222a80981d", null ],
-    [ "hse_8mhz_3v3", "group__rcc__file.html#ga6732b60b662d0168e6995cddc5027c29", null ],
     [ "rcc_ahb_frequency", "group__rcc__file.html#ga86f90a27c26bc25e22999419f7d08622", null ],
     [ "rcc_apb1_frequency", "group__rcc__file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ],
-    [ "rcc_apb2_frequency", "group__rcc__file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ]
+    [ "rcc_apb2_frequency", "group__rcc__file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ],
+    [ "rcc_hse_12mhz_3v3", "group__rcc__file.html#ga632de5dc30424686d0a939595bab1e60", null ],
+    [ "rcc_hse_16mhz_3v3", "group__rcc__file.html#gaebccff0a4dc3212b784204b700b77e62", null ],
+    [ "rcc_hse_25mhz_3v3", "group__rcc__file.html#ga63abc006051f205b5ef2827a6a6e4b35", null ],
+    [ "rcc_hse_8mhz_3v3", "group__rcc__file.html#ga37cb32c16269b987b4c03c6797f13ead", null ]
 ];

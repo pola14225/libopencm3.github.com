@@ -1,8 +1,6 @@
 var searchData=
 [
   ['sai1_5fbase',['SAI1_BASE',['../memorymap_8h.html#a24c1053b754946b512f9c31123e09d21',1,'memorymap.h']]],
-  ['scale1',['SCALE1',['../pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a09689abe50d1577a43c296951050af57',1,'pwr.h']]],
-  ['scale2',['SCALE2',['../pwr_8h.html#a03ccf3726008e813551f58725e0bcb40a5132140ed531dfa4a08549302c36731a',1,'pwr.h']]],
   ['scc_5fadc1',['SCC_ADC1',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48a5000d6ca5e3b40a5865485dd8dac5ab8',1,'rcc.h']]],
   ['scc_5fadc2',['SCC_ADC2',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48a4a7f1d947ae8309257ee0209274e9823',1,'rcc.h']]],
   ['scc_5fadc3',['SCC_ADC3',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48a93737b3224bb84014525b84df996faa8',1,'rcc.h']]],

@@ -1,7 +1,7 @@
 var rcc_8c =
 [
     [ "rcc_backupdomain_reset", "group__rcc__file.html#gaa02e63deae78644c393004fb900fe584", null ],
-    [ "rcc_clock_setup_hse_3v3", "group__rcc__file.html#ga85e0da920f4567f343a9b812df7a5687", null ],
+    [ "rcc_clock_setup_hse_3v3", "group__rcc__file.html#ga04fd1ed2bbe9564b636fe3d0b0db2a54", null ],
     [ "rcc_css_disable", "group__rcc__file.html#ga2297cce07d5113023bf8eff03fc62c66", null ],
     [ "rcc_css_enable", "group__rcc__file.html#gaddb943f9f25dc2df52890c90d468f373", null ],
     [ "rcc_css_int_clear", "group__rcc__file.html#gab1b45443e00d0774628de632257ba9f4", null ],
@@ -25,8 +25,8 @@ var rcc_8c =
     [ "rcc_system_clock_source", "group__rcc__file.html#ga3373359648b1677ac49d2fe86bff99b7", null ],
     [ "rcc_wait_for_osc_ready", "group__rcc__file.html#ga0f9fac6ac510e119aebe5f62c53f073a", null ],
     [ "rcc_wait_for_sysclk_status", "group__rcc__file.html#ga6472eba195686b970de6216ab61ebd7c", null ],
-    [ "hse_8mhz_3v3", "group__rcc__file.html#ga6732b60b662d0168e6995cddc5027c29", null ],
     [ "rcc_ahb_frequency", "group__rcc__file.html#ga86f90a27c26bc25e22999419f7d08622", null ],
     [ "rcc_apb1_frequency", "group__rcc__file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ],
-    [ "rcc_apb2_frequency", "group__rcc__file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ]
+    [ "rcc_apb2_frequency", "group__rcc__file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ],
+    [ "rcc_hse_8mhz_3v3", "group__rcc__file.html#ga37cb32c16269b987b4c03c6797f13ead", null ]
 ];

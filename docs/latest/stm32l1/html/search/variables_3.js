@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hpre',['hpre',['../structclock__scale__t.html#ac8be876648665f481c96a13f39bfd70e',1,'clock_scale_t']]]
+  ['msi_5frange',['msi_range',['../structrcc__clock__scale.html#aa7d19b6129fc05ab939560b575486eab',1,'rcc_clock_scale']]]
 ];

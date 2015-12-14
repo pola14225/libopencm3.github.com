@@ -173,13 +173,14 @@ $(document).ready(function(){initNavTree('crs__common__all_8c_source.html','');}
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="group__CRS__defines.html#ga01a9ce5f79f9244985f2ad45c671cd37">   38</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__CRS__defines.html#ga01a9ce5f79f9244985f2ad45c671cd37">crs_autotrim_usb_enable</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_periph_clock_enable</a>(RCC_CRS);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="group__CRS__defines.html#ga3c91535f9d738a657f8c47149ec6f24a">CRS_CFGR</a> &amp;= ~<a class="code" href="group__CRS__defines.html#ga441881d5e657b04236e440918fe63d20">CRS_CFGR_SYNCSRC</a>;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="group__CRS__defines.html#ga3c91535f9d738a657f8c47149ec6f24a">CRS_CFGR</a> |= <a class="code" href="group__CRS__defines.html#gaf45cfad8d9be4cdb6b668797178fb11f">CRS_CFGR_SYNCSRC_USB_SOF</a>;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="group__CRS__defines.html#ga5b01c27669cebc1e9f8724bc4a6d7e6f">CRS_CR</a> |= <a class="code" href="group__CRS__defines.html#gafa48432b942f1896e05a2eff91178edd">CRS_CR_AUTOTRIMEN</a>;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="group__CRS__defines.html#ga5b01c27669cebc1e9f8724bc4a6d7e6f">CRS_CR</a> |= <a class="code" href="group__CRS__defines.html#gace21476d647129c935f84daf84d91699">CRS_CR_CEN</a>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="ttc" id="group__rcc__defines_html_ga90aa2b7801b2b42debc0536d38c5b07c"><div class="ttname"><a href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_periph_clock_enable</a></div><div class="ttdeci">void rcc_periph_clock_enable(enum rcc_periph_clken clken)</div><div class="ttdoc">Enable Peripheral Clock in running mode. </div><div class="ttdef"><b>Definition:</b> <a href="rcc__common__all_8c_source.html#l00121">rcc_common_all.c:121</a></div></div>
 <div class="ttc" id="group__CRS__defines_html_gace21476d647129c935f84daf84d91699"><div class="ttname"><a href="group__CRS__defines.html#gace21476d647129c935f84daf84d91699">CRS_CR_CEN</a></div><div class="ttdeci">#define CRS_CR_CEN</div><div class="ttdef"><b>Definition:</b> <a href="crs__common__all_8h_source.html#l00062">crs_common_all.h:62</a></div></div>
 <div class="ttc" id="group__CRS__defines_html_ga3c91535f9d738a657f8c47149ec6f24a"><div class="ttname"><a href="group__CRS__defines.html#ga3c91535f9d738a657f8c47149ec6f24a">CRS_CFGR</a></div><div class="ttdeci">#define CRS_CFGR</div><div class="ttdef"><b>Definition:</b> <a href="crs__common__all_8h_source.html#l00047">crs_common_all.h:47</a></div></div>
@@ -194,7 +195,7 @@ $(document).ready(function(){initNavTree('crs__common__all_8c_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="crs__common__all_8c.html">crs_common_all.c</a></li>
-    <li class="footer">Generated on Mon Dec 14 2015 23:22:41 for libopencm3 by
+    <li class="footer">Generated on Tue Dec 15 2015 00:22:23 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

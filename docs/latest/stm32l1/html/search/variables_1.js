@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clock_5fconfig',['clock_config',['../group__rcc__defines.html#gaeb8ec930fbb38a02df9f93b40d3bb559',1,'clock_config():&#160;rcc.c'],['../group__STM32L1xx-rcc-file.html#gaeb8ec930fbb38a02df9f93b40d3bb559',1,'clock_config():&#160;rcc.c']]]
+  ['flash_5fconfig',['flash_config',['../structrcc__clock__scale.html#ab30ab0c5ae7fc805dd60b015cd31b0aa',1,'rcc_clock_scale']]]
 ];

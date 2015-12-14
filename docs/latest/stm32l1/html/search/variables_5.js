@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['pll_5fdiv',['pll_div',['../structclock__scale__t.html#a0502b4e2fe6fb84bb1ff419131f4c401',1,'clock_scale_t']]],
-  ['pll_5fmul',['pll_mul',['../structclock__scale__t.html#ad569e0685f37c790a13ce62ba3d10fb9',1,'clock_scale_t']]],
-  ['pll_5fsource',['pll_source',['../structclock__scale__t.html#af3d417bfd67229858e79c124c679fc01',1,'clock_scale_t']]],
-  ['ppre1',['ppre1',['../structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3',1,'clock_scale_t']]],
-  ['ppre2',['ppre2',['../structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a',1,'clock_scale_t']]]
+  ['rcc_5fahb_5ffrequency',['rcc_ahb_frequency',['../group__rcc__defines.html#ga86f90a27c26bc25e22999419f7d08622',1,'rcc_ahb_frequency():&#160;rcc.c'],['../group__STM32L1xx-rcc-file.html#ga86f90a27c26bc25e22999419f7d08622',1,'rcc_ahb_frequency():&#160;rcc.c']]],
+  ['rcc_5fapb1_5ffrequency',['rcc_apb1_frequency',['../group__rcc__defines.html#gaa1594220dae1eb3f9aa3dc30db60d8d1',1,'rcc_apb1_frequency():&#160;rcc.c'],['../group__STM32L1xx-rcc-file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1',1,'rcc_apb1_frequency():&#160;rcc.c']]],
+  ['rcc_5fapb2_5ffrequency',['rcc_apb2_frequency',['../group__rcc__defines.html#ga2f1b40f85aa73bc45b6d1cbb255881d9',1,'rcc_apb2_frequency():&#160;rcc.c'],['../group__STM32L1xx-rcc-file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9',1,'rcc_apb2_frequency():&#160;rcc.c']]],
+  ['rcc_5fclock_5fconfig',['rcc_clock_config',['../group__rcc__defines.html#ga98e91ee34c2bccf6919637aae7d965e1',1,'rcc_clock_config():&#160;rcc.c'],['../group__STM32L1xx-rcc-file.html#ga98e91ee34c2bccf6919637aae7d965e1',1,'rcc_clock_config():&#160;rcc.c']]]
 ];

@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['pll',['pll',['../structclock__scale__t.html#adda26e177f7b3705a8a08c96274964db',1,'clock_scale_t']]],
-  ['pllsrc',['pllsrc',['../structclock__scale__t.html#acdfc52dc893d0fc184cec2a28c5e4a50',1,'clock_scale_t']]],
-  ['power_5fsave',['power_save',['../structclock__scale__t.html#a16afff7afb797982dc989bfdeaae0e77',1,'clock_scale_t']]],
-  ['ppre1',['ppre1',['../structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3',1,'clock_scale_t']]],
-  ['ppre2',['ppre2',['../structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a',1,'clock_scale_t']]]
+  ['pll',['pll',['../structrcc__clock__scale.html#a2cc62b333f3d9b9a6b76da006b836273',1,'rcc_clock_scale']]],
+  ['pllsrc',['pllsrc',['../structrcc__clock__scale.html#a63d8fce8443e8a5efa09348e14b37523',1,'rcc_clock_scale']]],
+  ['power_5fsave',['power_save',['../structrcc__clock__scale.html#a7adcf19ff4ad3fb9a7c72d5711bbd363',1,'rcc_clock_scale']]],
+  ['ppre1',['ppre1',['../structrcc__clock__scale.html#a048213f39f44ac722aa64a67b3a2d24c',1,'rcc_clock_scale']]],
+  ['ppre2',['ppre2',['../structrcc__clock__scale.html#a51bf5cb2161fd71090f1ddf580114d76',1,'rcc_clock_scale']]]
 ];

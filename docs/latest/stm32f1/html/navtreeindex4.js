@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"group__adc__file.html#gafdd1cc3cf5cb0833e881c0f9b3d54a85":[29,0,0,7],
 "group__adc__jsqr__jl.html":[6,1,0,7,2],
 "group__adc__jsqr__jl.html#ga3375db2feddb8a9c2ce4d9501c1478e7":[6,1,0,7,2,0],
 "group__adc__jsqr__jl.html#ga3375db2feddb8a9c2ce4d9501c1478e7":[29,0,2,93],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "group__afio__remap2.html#ga97f544b627c06faf63c4c1cf47f88489":[6,1,6,13,10],
 "group__afio__remap2.html#ga97f544b627c06faf63c4c1cf47f88489":[29,0,22,56],
 "group__afio__remap2.html#gac023d0d2169a5397ae27f8ddfc8204c5":[6,1,6,13,5],
-"group__afio__remap2.html#gac023d0d2169a5397ae27f8ddfc8204c5":[29,0,22,51]
+"group__afio__remap2.html#gac023d0d2169a5397ae27f8ddfc8204c5":[29,0,22,51],
+"group__afio__remap2.html#gac5de8bfe44535e80fa9a12cea03975f1":[6,1,6,13,1]
 };

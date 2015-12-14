@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['osc',['osc',['../rcc_8h.html#a5e2335f6f6f0aa05413a0546a550ba71',1,'rcc.h']]]
+  ['pwr_5fvos_5fscale',['pwr_vos_scale',['../pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f',1,'pwr_common_l01.h']]]
 ];

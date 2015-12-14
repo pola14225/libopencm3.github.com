@@ -1,14 +1,13 @@
 var NAVTREEINDEX1 =
 {
-"globals_m.html":[29,1,0,11],
-"globals_p.html":[29,1,0,12],
-"globals_r.html":[29,1,0,13],
-"globals_s.html":[29,1,0,14],
-"globals_t.html":[29,1,0,15],
-"globals_u.html":[29,1,0,16],
-"globals_v.html":[29,1,0,17],
+"globals_p.html":[29,1,0,11],
+"globals_r.html":[29,1,0,12],
+"globals_s.html":[29,1,0,13],
+"globals_t.html":[29,1,0,14],
+"globals_u.html":[29,1,0,15],
+"globals_v.html":[29,1,0,16],
 "globals_vars.html":[29,1,2],
-"globals_w.html":[29,1,0,18],
+"globals_w.html":[29,1,0,17],
 "gpio_8c.html":[29,0,29],
 "gpio_8c_source.html":[29,0,29],
 "gpio_8h.html":[29,0,30],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__STM32F0xx-rcc-file.html#ga4d4414e29030719158cfdb56b7a56a1b":[29,0,49,24],
 "group__STM32F0xx-rcc-file.html#ga5b592070405248d60877bba98a054aee":[5,0,10,22],
 "group__STM32F0xx-rcc-file.html#ga5b592070405248d60877bba98a054aee":[29,0,49,22],
-"group__STM32F0xx-rcc-file.html#ga5fbe4bc4ca1447fff06e4490f655367e":[5,0,10,11]
+"group__STM32F0xx-rcc-file.html#ga5fbe4bc4ca1447fff06e4490f655367e":[5,0,10,11],
+"group__STM32F0xx-rcc-file.html#ga5fbe4bc4ca1447fff06e4490f655367e":[29,0,49,11]
 };

@@ -1,17 +1,17 @@
 var group__rcc__defines =
 [
-    [ "clock_scale_t", "structclock__scale__t.html", [
-      [ "apb1_frequency", "structclock__scale__t.html#a0efec8dad9231991558c458c12a9b909", null ],
-      [ "apb2_frequency", "structclock__scale__t.html#abd1b982df203472532b6016961fe657d", null ],
-      [ "flash_config", "structclock__scale__t.html#a45be52a3c8cc370503289d762ea6515b", null ],
-      [ "hpre", "structclock__scale__t.html#ac8be876648665f481c96a13f39bfd70e", null ],
-      [ "msi_range", "structclock__scale__t.html#a154a6cea0f42bd7bd466b280312cee3c", null ],
-      [ "pll_div", "structclock__scale__t.html#a0502b4e2fe6fb84bb1ff419131f4c401", null ],
-      [ "pll_mul", "structclock__scale__t.html#ad569e0685f37c790a13ce62ba3d10fb9", null ],
-      [ "pll_source", "structclock__scale__t.html#af3d417bfd67229858e79c124c679fc01", null ],
-      [ "ppre1", "structclock__scale__t.html#aac26f149316ef9aea9955454498cd6f3", null ],
-      [ "ppre2", "structclock__scale__t.html#a1d4d327482ed573f9c5f28f53d8d742a", null ],
-      [ "voltage_scale", "structclock__scale__t.html#adf712c2b16e70d8a025694db5453b2cd", null ]
+    [ "rcc_clock_scale", "structrcc__clock__scale.html", [
+      [ "apb1_frequency", "structrcc__clock__scale.html#a618efb7b6d896f2b5310a582593195d3", null ],
+      [ "apb2_frequency", "structrcc__clock__scale.html#ad79ab725f939331a2797964608313b8f", null ],
+      [ "flash_config", "structrcc__clock__scale.html#ab30ab0c5ae7fc805dd60b015cd31b0aa", null ],
+      [ "hpre", "structrcc__clock__scale.html#ac1080df4a18fe56b21c8f2590940a062", null ],
+      [ "msi_range", "structrcc__clock__scale.html#aa7d19b6129fc05ab939560b575486eab", null ],
+      [ "pll_div", "structrcc__clock__scale.html#aa098e8ae25ebb97e2047bdf14cc1d8f5", null ],
+      [ "pll_mul", "structrcc__clock__scale.html#a69c7bceb5325cbe6ca7c22bae27bf557", null ],
+      [ "pll_source", "structrcc__clock__scale.html#aed590264a530cbaa6c6b6cad8cf738b8", null ],
+      [ "ppre1", "structrcc__clock__scale.html#a048213f39f44ac722aa64a67b3a2d24c", null ],
+      [ "ppre2", "structrcc__clock__scale.html#a51bf5cb2161fd71090f1ddf580114d76", null ],
+      [ "voltage_scale", "structrcc__clock__scale.html#a9f91a8056a58aae21441803d6492de18", null ]
     ] ],
     [ "RCC_AHBENR enable values", "group__rcc__ahbenr__en.html", "group__rcc__ahbenr__en" ],
     [ "RCC_APB2ENR enable values", "group__rcc__apb2enr__en.html", "group__rcc__apb2enr__en" ],
@@ -237,22 +237,22 @@ var group__rcc__defines =
     [ "RCC_ICSCR_MSIRANGE_SHIFT", "group__rcc__defines.html#ga0b99b849f9aff5c74f5beaeab5bb206e", null ],
     [ "RCC_ICSCR_MSITRIM_MASK", "group__rcc__defines.html#ga4938eb41feca4bb20697a641bf702c04", null ],
     [ "RCC_ICSCR_MSITRIM_SHIFT", "group__rcc__defines.html#ga5d8282300cdf12c415ca4dc079fd7320", null ],
-    [ "clock_config_entry_t", "group__rcc__defines.html#ga1dc330cb0220b652d6e56df924c825ff", [
-      [ "CLOCK_VRANGE1_HSI_PLL_24MHZ", "group__rcc__defines.html#gga1dc330cb0220b652d6e56df924c825ffa5473571a1c0ea0ba0904b2a66d52be97", null ],
-      [ "CLOCK_VRANGE1_HSI_PLL_32MHZ", "group__rcc__defines.html#gga1dc330cb0220b652d6e56df924c825ffa40ea6c4375e56e77801499577d71e77b", null ],
-      [ "CLOCK_VRANGE1_HSI_RAW_16MHZ", "group__rcc__defines.html#gga1dc330cb0220b652d6e56df924c825ffa28e1f7d247cef0b5fbee2c4bf5144603", null ],
-      [ "CLOCK_VRANGE1_HSI_RAW_4MHZ", "group__rcc__defines.html#gga1dc330cb0220b652d6e56df924c825ffa54dd7228dcbe17ffe67c45c0344942eb", null ],
-      [ "CLOCK_VRANGE1_MSI_RAW_4MHZ", "group__rcc__defines.html#gga1dc330cb0220b652d6e56df924c825ffa71593b5a26211fada4e664193e1563f1", null ],
-      [ "CLOCK_VRANGE1_MSI_RAW_2MHZ", "group__rcc__defines.html#gga1dc330cb0220b652d6e56df924c825ffa6aad103c8a3db272fb70341e1cf5fb37", null ],
-      [ "CLOCK_CONFIG_END", "group__rcc__defines.html#gga1dc330cb0220b652d6e56df924c825ffa07ea5eaa32d8254785bbdcfce2f825f3", null ]
+    [ "rcc_clock_config_entry", "group__rcc__defines.html#gaf5795d348e5c34a3c322c8be8f204d00", [
+      [ "RCC_CLOCK_VRANGE1_HSI_PLL_24MHZ", "group__rcc__defines.html#ggaf5795d348e5c34a3c322c8be8f204d00ac566788d5f1e5d4dc7dcd659246d7917", null ],
+      [ "RCC_CLOCK_VRANGE1_HSI_PLL_32MHZ", "group__rcc__defines.html#ggaf5795d348e5c34a3c322c8be8f204d00a73c17a02205676598c7890c4fb20f084", null ],
+      [ "RCC_CLOCK_VRANGE1_HSI_RAW_16MHZ", "group__rcc__defines.html#ggaf5795d348e5c34a3c322c8be8f204d00a74d66f4f14bdde3fe286381045f586ea", null ],
+      [ "RCC_CLOCK_VRANGE1_HSI_RAW_4MHZ", "group__rcc__defines.html#ggaf5795d348e5c34a3c322c8be8f204d00a54120ef2fd8bb5d9dc40e14b6fb80b1c", null ],
+      [ "RCC_CLOCK_VRANGE1_MSI_RAW_4MHZ", "group__rcc__defines.html#ggaf5795d348e5c34a3c322c8be8f204d00a3c40096e832c51fe79f09df2e19531f5", null ],
+      [ "RCC_CLOCK_VRANGE1_MSI_RAW_2MHZ", "group__rcc__defines.html#ggaf5795d348e5c34a3c322c8be8f204d00aa2f91c03603b0512f0c4aa954b759427", null ],
+      [ "RCC_CLOCK_CONFIG_END", "group__rcc__defines.html#ggaf5795d348e5c34a3c322c8be8f204d00aff480cbaca166e0df3965f8a0cf02492", null ]
     ] ],
-    [ "osc_t", "group__rcc__defines.html#gaf2418102b7993f2a6f0060e1efdca823", [
-      [ "PLL", "group__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823a5c7fe827c28117f11dd14f9197d7d5a2", null ],
-      [ "HSE", "group__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823a744bf841212e605b891f8ced6e20eb43", null ],
-      [ "HSI", "group__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823aae2bb333077d91b3c2aa75978f89e084", null ],
-      [ "MSI", "group__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823a5f40776aa9bfa517edb2e38dd1a2baca", null ],
-      [ "LSE", "group__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823aa07a47bdd221bde7ab7f08d41c03de40", null ],
-      [ "LSI", "group__rcc__defines.html#ggaf2418102b7993f2a6f0060e1efdca823ac59b221b111954833c988555d5972f88", null ]
+    [ "rcc_osc", "group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354", [
+      [ "RCC_PLL", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a627d71402d403a5517bd652ece1d5013", null ],
+      [ "RCC_HSE", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aa72a0e027ef7492439824d675d4a2fb4", null ],
+      [ "RCC_HSI", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a1876e08e92a9ea07faac183d918ac1fc", null ],
+      [ "RCC_MSI", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a67c15598461deba3bfb9a7ae7836cc9d", null ],
+      [ "RCC_LSE", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354aa0d54244420168e28b671a94bf2c75e4", null ],
+      [ "RCC_LSI", "group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a4e5d0c838caa0e75a56ea47ef36ad782", null ]
     ] ],
     [ "rcc_periph_clken", "group__rcc__defines.html#ga54c7db24941f636ee238833c481ada48", [
       [ "RCC_GPIOA", "group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680", null ],
@@ -386,21 +386,21 @@ var group__rcc__defines =
       [ "RST_COMP", "group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a6be8a7b3d1233e3a0aa0d1a7b12a50fb", null ]
     ] ],
     [ "rcc_backupdomain_reset", "group__rcc__defines.html#gaa02e63deae78644c393004fb900fe584", null ],
-    [ "rcc_clock_setup_hsi", "group__rcc__defines.html#ga3d30e886f8749e059865bd3fc7a14ccd", null ],
-    [ "rcc_clock_setup_msi", "group__rcc__defines.html#ga71d9ff219cb4e09c3cddbf383e8c47b3", null ],
-    [ "rcc_clock_setup_pll", "group__rcc__defines.html#ga76b12063e828a7af960d375dee952d31", null ],
+    [ "rcc_clock_setup_hsi", "group__rcc__defines.html#gafebecc597753020e983a9c2eb52ffb86", null ],
+    [ "rcc_clock_setup_msi", "group__rcc__defines.html#ga1e7007a97265f845a0e55d46e3076288", null ],
+    [ "rcc_clock_setup_pll", "group__rcc__defines.html#ga4bbf49936af50688a96ec4f309f710c6", null ],
     [ "rcc_css_disable", "group__rcc__defines.html#ga2297cce07d5113023bf8eff03fc62c66", null ],
     [ "rcc_css_enable", "group__rcc__defines.html#gaddb943f9f25dc2df52890c90d468f373", null ],
     [ "rcc_css_int_clear", "group__rcc__defines.html#gab1b45443e00d0774628de632257ba9f4", null ],
     [ "rcc_css_int_flag", "group__rcc__defines.html#ga0d3d34d807e0934127960914833a1b4d", null ],
-    [ "rcc_osc_bypass_disable", "group__rcc__defines.html#ga9152b74c16322ae76cec62ef93403916", null ],
-    [ "rcc_osc_bypass_enable", "group__rcc__defines.html#ga3e144ef62bd737fe6cab45eddec41da3", null ],
-    [ "rcc_osc_off", "group__rcc__defines.html#ga5f5d6161e92d2708ee1e2d0517c10c28", null ],
-    [ "rcc_osc_on", "group__rcc__defines.html#ga8dbd64d58e019803bf109609203d1afd", null ],
-    [ "rcc_osc_ready_int_clear", "group__rcc__defines.html#ga451b64c9cf47aaa4977f1c4a5c9eb170", null ],
-    [ "rcc_osc_ready_int_disable", "group__rcc__defines.html#gab6ebab9be1d0f9fe163a4d8dd88f6522", null ],
-    [ "rcc_osc_ready_int_enable", "group__rcc__defines.html#ga147836b03e1dd972e365ce0732818078", null ],
-    [ "rcc_osc_ready_int_flag", "group__rcc__defines.html#gab01089842913b18e3df6e0e3ec89fd71", null ],
+    [ "rcc_osc_bypass_disable", "group__rcc__defines.html#ga5fbe4bc4ca1447fff06e4490f655367e", null ],
+    [ "rcc_osc_bypass_enable", "group__rcc__defines.html#ga3bccfeb2f4364e18997cbd88e2476270", null ],
+    [ "rcc_osc_off", "group__rcc__defines.html#ga89d079556639549018fbd8d66cf5fc20", null ],
+    [ "rcc_osc_on", "group__rcc__defines.html#ga81b16ade2e5d6e024f36e3d568a9fd97", null ],
+    [ "rcc_osc_ready_int_clear", "group__rcc__defines.html#ga1c96c4bce0fe924171980aa993d2a0af", null ],
+    [ "rcc_osc_ready_int_disable", "group__rcc__defines.html#ga7f7d1d31caae583cd72443e35885902b", null ],
+    [ "rcc_osc_ready_int_enable", "group__rcc__defines.html#ga6507734e493649ea262e10a511581d67", null ],
+    [ "rcc_osc_ready_int_flag", "group__rcc__defines.html#ga01c3b6e7aee2cee13506e3f555539008", null ],
     [ "rcc_periph_clock_disable", "group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721", null ],
     [ "rcc_periph_clock_enable", "group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c", null ],
     [ "rcc_periph_reset_hold", "group__rcc__defines.html#ga6f3e2843e5d017717da66599ccc5daef", null ],
@@ -422,10 +422,10 @@ var group__rcc__defines =
     [ "rcc_set_sysclk_source", "group__rcc__defines.html#ga2c291271812c333d975807cd5ec99a36", null ],
     [ "rcc_set_usbpre", "group__rcc__defines.html#gad434015520b42043657d7478f8308c37", null ],
     [ "rcc_system_clock_source", "group__rcc__defines.html#ga3373359648b1677ac49d2fe86bff99b7", null ],
-    [ "rcc_wait_for_osc_ready", "group__rcc__defines.html#ga0f9fac6ac510e119aebe5f62c53f073a", null ],
-    [ "rcc_wait_for_sysclk_status", "group__rcc__defines.html#ga6472eba195686b970de6216ab61ebd7c", null ],
-    [ "clock_config", "group__rcc__defines.html#gaeb8ec930fbb38a02df9f93b40d3bb559", null ],
+    [ "rcc_wait_for_osc_ready", "group__rcc__defines.html#ga1dfd0e0ba16285ce16e782e07af2cafa", null ],
+    [ "rcc_wait_for_sysclk_status", "group__rcc__defines.html#gaa768e6d3787b02f6dc93c8392b879ef7", null ],
     [ "rcc_ahb_frequency", "group__rcc__defines.html#ga86f90a27c26bc25e22999419f7d08622", null ],
     [ "rcc_apb1_frequency", "group__rcc__defines.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ],
-    [ "rcc_apb2_frequency", "group__rcc__defines.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ]
+    [ "rcc_apb2_frequency", "group__rcc__defines.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ],
+    [ "rcc_clock_config", "group__rcc__defines.html#ga98e91ee34c2bccf6919637aae7d965e1", null ]
 ];
