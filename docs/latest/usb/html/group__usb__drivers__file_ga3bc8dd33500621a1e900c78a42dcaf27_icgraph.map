@@ -1,3 +1,4 @@
 <map id="_usbd_reset" name="_usbd_reset">
-<area shape="rect" id="node2" href="$usb__fx07__common_8h.html#a6ac887edf6cf4f3bc7233df12ba9eefd" title="stm32fx07_poll" alt="" coords="147,5,257,32"/>
+<area shape="rect" id="node2" href="$usb__efm32lg_8c.html#ae6137be73cdb8121da393fd95d56fd48" title="efm32lg_poll" alt="" coords="155,5,249,32"/>
+<area shape="rect" id="node3" href="$usb__fx07__common_8h.html#a6ac887edf6cf4f3bc7233df12ba9eefd" title="stm32fx07_poll" alt="" coords="147,56,257,83"/>
 </map>

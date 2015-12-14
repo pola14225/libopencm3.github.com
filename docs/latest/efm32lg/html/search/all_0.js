@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['doc_2defm32lg_2eh',['doc-efm32lg.h',['../doc-efm32lg_8h.html',1,'']]]
+  ['libopencm3_20license',['libopencm3 License',['../lgpl_license.html',1,'']]],
+  ['license_2edox',['license.dox',['../license_8dox.html',1,'']]]
 ];

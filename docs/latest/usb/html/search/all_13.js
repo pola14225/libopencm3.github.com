@@ -38,6 +38,7 @@ var searchData=
   ['usb_5fdfu_5fdescriptor',['usb_dfu_descriptor',['../structusb__dfu__descriptor.html',1,'']]],
   ['usb_5fdisable_5finterrupts',['usb_disable_interrupts',['../group__usb__file.html#ga86efee4380227664681caba4d4c2a010',1,'usb_lm4f.c']]],
   ['usb_20drivers',['USB Drivers',['../group__usb__driver__defines.html',1,'']]],
+  ['usb_5fefm32lg_2ec',['usb_efm32lg.c',['../usb__efm32lg_8c.html',1,'']]],
   ['usb_5fenable_5finterrupts',['usb_enable_interrupts',['../group__usb__file.html#gad6acfc8a14795d10ae71053b0cfbf717',1,'usb_lm4f.c']]],
   ['usb_5fendpoint_5fdescriptor',['usb_endpoint_descriptor',['../structusb__endpoint__descriptor.html',1,'']]],
   ['usb_5ff107_2ec',['usb_f107.c',['../usb__f107_8c.html',1,'']]],

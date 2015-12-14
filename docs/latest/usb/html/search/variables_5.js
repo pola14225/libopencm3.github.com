@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['efm32lg_5fusb_5fdriver',['efm32lg_usb_driver',['../group__usb__driver__defines.html#gaf3bd0f5611bd5254b3069a072bcca11f',1,'efm32lg_usb_driver():&#160;usb_efm32lg.c'],['../group__usb__driver__defines.html#gaf3bd0f5611bd5254b3069a072bcca11f',1,'efm32lg_usb_driver():&#160;usb_efm32lg.c']]],
   ['endpoint',['endpoint',['../structusb__interface__descriptor.html#a241f94bbfcabf012866de8a34a46c10d',1,'usb_interface_descriptor::endpoint()'],['../usbstd_8h.html#ad9632438abef761b213b1c19f02983ab',1,'endpoint():&#160;usbstd.h']]],
   ['ep_5fin',['ep_in',['../struct__usbd__mass__storage.html#a3fa979e1953045744f4122c0f015e07e',1,'_usbd_mass_storage']]],
   ['ep_5fin_5fsize',['ep_in_size',['../struct__usbd__mass__storage.html#a0bf69fdf2e153ea290fbef99e938ad40',1,'_usbd_mass_storage']]],

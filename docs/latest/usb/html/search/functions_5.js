@@ -1,28 +1,4 @@
 var searchData=
 [
-  ['scsi_5fcommand',['scsi_command',['../usb__msc_8c.html#ad834e80e08a1fc52cb6c2a7e4c60e7c4',1,'usb_msc.c']]],
-  ['scsi_5fformat_5funit',['scsi_format_unit',['../usb__msc_8c.html#a0ba002041133ce594072c4669a888423',1,'usb_msc.c']]],
-  ['scsi_5finquiry',['scsi_inquiry',['../usb__msc_8c.html#a85cd7451c1bfc24383b60bd8b53073a1',1,'usb_msc.c']]],
-  ['scsi_5fmode_5fsense_5f6',['scsi_mode_sense_6',['../usb__msc_8c.html#a3a155b5971bdfabd70a4d964fd175da1',1,'usb_msc.c']]],
-  ['scsi_5fread_5f10',['scsi_read_10',['../usb__msc_8c.html#aa9340553bfc7682037cce665df163506',1,'usb_msc.c']]],
-  ['scsi_5fread_5f6',['scsi_read_6',['../usb__msc_8c.html#a700c7b32d7db1ab7d9a55fb750cfed1a',1,'usb_msc.c']]],
-  ['scsi_5fread_5fcapacity',['scsi_read_capacity',['../usb__msc_8c.html#a40e07cb7889a673d30d93cae4187a5ec',1,'usb_msc.c']]],
-  ['scsi_5frequest_5fsense',['scsi_request_sense',['../usb__msc_8c.html#a4db898a25d3e9e5a3187c6489a8fcd9d',1,'usb_msc.c']]],
-  ['scsi_5fwrite_5f10',['scsi_write_10',['../usb__msc_8c.html#a67ab7f906e09e9fc149b8fa647a91d2f',1,'usb_msc.c']]],
-  ['scsi_5fwrite_5f6',['scsi_write_6',['../usb__msc_8c.html#af0e6535bbde2e9a00c6e4c3c77d34540',1,'usb_msc.c']]],
-  ['set_5fsbc_5fstatus',['set_sbc_status',['../usb__msc_8c.html#a285558a874e454328ae7cba96306b253',1,'usb_msc.c']]],
-  ['set_5fsbc_5fstatus_5fgood',['set_sbc_status_good',['../usb__msc_8c.html#acea2b1d4fda2777c7729104dfb3109ba',1,'usb_msc.c']]],
-  ['stall_5ftransaction',['stall_transaction',['../group__usb__control__file.html#gaf6f522923d66ffdea79fbbd4decc31d4',1,'usb_control.c']]],
-  ['stm32f107_5fusbd_5finit',['stm32f107_usbd_init',['../usb__f107_8c.html#a1d28133aed4b8b0e1d19705324cbd004',1,'usb_f107.c']]],
-  ['stm32f207_5fusbd_5finit',['stm32f207_usbd_init',['../usb__f207_8c.html#a68c4ceb309e31e2895e61e4248adc958',1,'usb_f207.c']]],
-  ['stm32fx07_5fdisconnect',['stm32fx07_disconnect',['../usb__fx07__common_8c.html#a780f34c82133eae2d2e02a5105d7e70c',1,'stm32fx07_disconnect(usbd_device *usbd_dev, bool disconnected):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#a780f34c82133eae2d2e02a5105d7e70c',1,'stm32fx07_disconnect(usbd_device *usbd_dev, bool disconnected):&#160;usb_fx07_common.c']]],
-  ['stm32fx07_5fendpoints_5freset',['stm32fx07_endpoints_reset',['../usb__fx07__common_8c.html#a5f11ba15e82378b9c64ffe3421adf464',1,'stm32fx07_endpoints_reset(usbd_device *usbd_dev):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#a5f11ba15e82378b9c64ffe3421adf464',1,'stm32fx07_endpoints_reset(usbd_device *usbd_dev):&#160;usb_fx07_common.c']]],
-  ['stm32fx07_5fep_5fnak_5fset',['stm32fx07_ep_nak_set',['../usb__fx07__common_8c.html#a5be6f7b00bfb0d98dd96e54b798e376e',1,'stm32fx07_ep_nak_set(usbd_device *usbd_dev, uint8_t addr, uint8_t nak):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#a5be6f7b00bfb0d98dd96e54b798e376e',1,'stm32fx07_ep_nak_set(usbd_device *usbd_dev, uint8_t addr, uint8_t nak):&#160;usb_fx07_common.c']]],
-  ['stm32fx07_5fep_5fread_5fpacket',['stm32fx07_ep_read_packet',['../usb__fx07__common_8c.html#aa263b30fa161295b25907aed2167503a',1,'stm32fx07_ep_read_packet(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#aa263b30fa161295b25907aed2167503a',1,'stm32fx07_ep_read_packet(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len):&#160;usb_fx07_common.c']]],
-  ['stm32fx07_5fep_5fsetup',['stm32fx07_ep_setup',['../usb__fx07__common_8c.html#ae2625812391f4d41bfce2007187a68bc',1,'stm32fx07_ep_setup(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep)):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#ae2625812391f4d41bfce2007187a68bc',1,'stm32fx07_ep_setup(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep)):&#160;usb_fx07_common.c']]],
-  ['stm32fx07_5fep_5fstall_5fget',['stm32fx07_ep_stall_get',['../usb__fx07__common_8c.html#a4f8070cf295dc3c253c384724b9971d6',1,'stm32fx07_ep_stall_get(usbd_device *usbd_dev, uint8_t addr):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#a4f8070cf295dc3c253c384724b9971d6',1,'stm32fx07_ep_stall_get(usbd_device *usbd_dev, uint8_t addr):&#160;usb_fx07_common.c']]],
-  ['stm32fx07_5fep_5fstall_5fset',['stm32fx07_ep_stall_set',['../usb__fx07__common_8c.html#a0e2ff8af2add12281fffad6aa8bb44a1',1,'stm32fx07_ep_stall_set(usbd_device *usbd_dev, uint8_t addr, uint8_t stall):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#a0e2ff8af2add12281fffad6aa8bb44a1',1,'stm32fx07_ep_stall_set(usbd_device *usbd_dev, uint8_t addr, uint8_t stall):&#160;usb_fx07_common.c']]],
-  ['stm32fx07_5fep_5fwrite_5fpacket',['stm32fx07_ep_write_packet',['../usb__fx07__common_8c.html#ae1410725ae62247feeb257c608f43542',1,'stm32fx07_ep_write_packet(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#ae1410725ae62247feeb257c608f43542',1,'stm32fx07_ep_write_packet(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len):&#160;usb_fx07_common.c']]],
-  ['stm32fx07_5fpoll',['stm32fx07_poll',['../usb__fx07__common_8c.html#a6ac887edf6cf4f3bc7233df12ba9eefd',1,'stm32fx07_poll(usbd_device *usbd_dev):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#a6ac887edf6cf4f3bc7233df12ba9eefd',1,'stm32fx07_poll(usbd_device *usbd_dev):&#160;usb_fx07_common.c']]],
-  ['stm32fx07_5fset_5faddress',['stm32fx07_set_address',['../usb__fx07__common_8c.html#a13ff93197dbe1e4a33c382718ab936a4',1,'stm32fx07_set_address(usbd_device *usbd_dev, uint8_t addr):&#160;usb_fx07_common.c'],['../usb__fx07__common_8h.html#a13ff93197dbe1e4a33c382718ab936a4',1,'stm32fx07_set_address(usbd_device *usbd_dev, uint8_t addr):&#160;usb_fx07_common.c']]]
+  ['needs_5fzlp',['needs_zlp',['../group__usb__control__file.html#ga2af2fb78551d9e7f89f031698d972238',1,'usb_control.c']]]
 ];

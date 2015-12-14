@@ -767,6 +767,102 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>usb_efm32lg.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
+    <filename>usb__efm32lg_8c</filename>
+    <member kind="function" static="yes">
+      <type>static usbd_device *</type>
+      <name>efm32lg_usbd_init</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>a46b39f7425706c5e229ab6637de8f8b1</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>efm32lg_set_address</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>a47c84965dd6cfa7d1226135715a78540</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>efm32lg_ep_setup</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>a7b3c1c5b7d6942d2e53a5c5ef63268ab</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, void(*callback)(usbd_device *usbd_dev, uint8_t ep))</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>efm32lg_endpoints_reset</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>a1d925106b0957feb568758bcb7070c28</anchor>
+      <arglist>(usbd_device *usbd_dev)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>efm32lg_ep_stall_set</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>af6e92b2ac1f04e53bcb1b84fe6aa657d</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t stall)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint8_t</type>
+      <name>efm32lg_ep_stall_get</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>a33c038a1d1d367168d4d64b7970ff883</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>efm32lg_ep_nak_set</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>a2dd5dc53dd4caa8e02330ab5302a36ba</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t nak)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint16_t</type>
+      <name>efm32lg_ep_write_packet</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>a94e368d2e364214b53a236e334e93f7c</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, const void *buf, uint16_t len)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static uint16_t</type>
+      <name>efm32lg_ep_read_packet</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>ad44f70a3d65d6d73697370e61b09f8d9</anchor>
+      <arglist>(usbd_device *usbd_dev, uint8_t addr, void *buf, uint16_t len)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>efm32lg_poll</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>ae6137be73cdb8121da393fd95d56fd48</anchor>
+      <arglist>(usbd_device *usbd_dev)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>efm32lg_disconnect</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>a129860eb2fa9363a0f585563882139ef</anchor>
+      <arglist>(usbd_device *usbd_dev, bool disconnected)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static struct _usbd_device</type>
+      <name>_usbd_dev</name>
+      <anchorfile>usb__efm32lg_8c.html</anchorfile>
+      <anchor>a1ffec6cadee80151dc30e796d5e4d19f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const struct _usbd_driver</type>
+      <name>efm32lg_usb_driver</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>gaf3bd0f5611bd5254b3069a072bcca11f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>usb_f107.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/usb/</path>
     <filename>usb__f107_8c</filename>
@@ -1699,6 +1795,13 @@
       <name>st_usbfs_v2_usb_driver</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>ga384a75f1c1a8c37d6e992ac9e244b82a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const usbd_driver</type>
+      <name>efm32lg_usb_driver</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>gaf3bd0f5611bd5254b3069a072bcca11f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4464,6 +4567,13 @@
       <name>st_usbfs_v2_usb_driver</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>ga384a75f1c1a8c37d6e992ac9e244b82a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const usbd_driver</type>
+      <name>efm32lg_usb_driver</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>gaf3bd0f5611bd5254b3069a072bcca11f</anchor>
       <arglist></arglist>
     </member>
   </compound>

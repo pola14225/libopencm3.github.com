@@ -2,6 +2,7 @@ var searchData=
 [
   ['usb_2ec',['usb.c',['../usb_8c.html',1,'']]],
   ['usb_5fcontrol_2ec',['usb_control.c',['../usb__control_8c.html',1,'']]],
+  ['usb_5fefm32lg_2ec',['usb_efm32lg.c',['../usb__efm32lg_8c.html',1,'']]],
   ['usb_5ff107_2ec',['usb_f107.c',['../usb__f107_8c.html',1,'']]],
   ['usb_5ff207_2ec',['usb_f207.c',['../usb__f207_8c.html',1,'']]],
   ['usb_5ffx07_5fcommon_2ec',['usb_fx07_common.c',['../usb__fx07__common_8c.html',1,'']]],
