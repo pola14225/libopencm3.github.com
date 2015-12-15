@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"group__dac__defines.html#gad63b211f5822d9489272f90af2934c54":[28,0,9,98],
 "group__dac__defines.html#gadd6f660a5f15262beca06b9098a559e9":[10,8,8],
 "group__dac__defines.html#gadd6f660a5f15262beca06b9098a559e9":[28,0,9,2],
 "group__dac__defines.html#gaddb2a9646f5222113db5545109cc700b":[10,8,68],
@@ -9,8 +8,8 @@ var NAVTREEINDEX4 =
 "group__dac__defines.html#gade373c9271f431a6464ef34b36cc5112":[10,8,29],
 "group__dac__defines.html#gae474e0c35329b87c281c933afe656228":[10,8,70],
 "group__dac__defines.html#gae474e0c35329b87c281c933afe656228":[28,0,9,112],
-"group__dac__defines.html#gae62e98704ad5d874ce5b4f43109c4fcf":[10,8,28],
 "group__dac__defines.html#gae62e98704ad5d874ce5b4f43109c4fcf":[28,0,9,70],
+"group__dac__defines.html#gae62e98704ad5d874ce5b4f43109c4fcf":[10,8,28],
 "group__dac__defines.html#gae6d701dcdcc8349aabf52edfcb4b5d38":[10,8,57],
 "group__dac__defines.html#gae6d701dcdcc8349aabf52edfcb4b5d38":[28,0,9,99],
 "group__dac__defines.html#gaeafa2e3644f786ddcd1ff72f8b9697d9":[10,8,40],
@@ -19,8 +18,8 @@ var NAVTREEINDEX4 =
 "group__dac__defines.html#gaf0e53585b505d21f5c457476bd5a18f8":[28,0,9,108],
 "group__dac__defines.html#gaf54e2f45530e9d2edaf7d88c3e13b907":[10,8,20],
 "group__dac__defines.html#gaf54e2f45530e9d2edaf7d88c3e13b907":[28,0,9,49],
-"group__dac__defines.html#gaff7ce3b1c6ef6ab6def5cf2cb560af32":[28,0,9,93],
 "group__dac__defines.html#gaff7ce3b1c6ef6ab6def5cf2cb560af32":[10,8,51],
+"group__dac__defines.html#gaff7ce3b1c6ef6ab6def5cf2cb560af32":[28,0,9,93],
 "group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca30397d5f6477c6e6281797ef363c43d9":[10,8,67,0],
 "group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca30397d5f6477c6e6281797ef363c43d9":[28,0,9,109,0],
 "group__dac__defines.html#gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca948aa505bffa2979c605da3480876a88":[10,8,67,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "group__dma__defines.html#ga1a5e1a8ed679141575cfd595ff1a5c41":[10,9,77],
 "group__dma__defines.html#ga1a5e1a8ed679141575cfd595ff1a5c41":[28,0,11,66],
 "group__dma__defines.html#ga1a7ec01955fb504a5aa4f9f16a9ac52c":[10,9,187],
-"group__dma__defines.html#ga1a7ec01955fb504a5aa4f9f16a9ac52c":[28,0,11,178]
+"group__dma__defines.html#ga1a7ec01955fb504a5aa4f9f16a9ac52c":[28,0,11,178],
+"group__dma__defines.html#ga1cf8882b2c868df74fc89f835110900c":[10,9,213]
 };

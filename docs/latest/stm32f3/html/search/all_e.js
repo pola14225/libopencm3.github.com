@@ -317,7 +317,7 @@ var searchData=
   ['rcc_5fgpioh',['RCC_GPIOH',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48a600bd6f61da0eaed2c2f8fdf49fbb9c9',1,'rcc.h']]],
   ['rcc_5fhse',['RCC_HSE',['../rcc_8h.html#a68c2b48bd51903ccf423c86458194354aa72a0e027ef7492439824d675d4a2fb4',1,'rcc.h']]],
   ['rcc_5fhsi',['RCC_HSI',['../rcc_8h.html#a68c2b48bd51903ccf423c86458194354a1876e08e92a9ea07faac183d918ac1fc',1,'rcc.h']]],
-  ['rcc_5fhsi_5f8mhz',['rcc_hsi_8mhz',['../group__rcc__file.html#gac0bdd1ad521b831229290756079239ce',1,'rcc.c']]],
+  ['rcc_5fhsi_5f8mhz',['rcc_hsi_8mhz',['../group__rcc__file.html#gac0bdd1ad521b831229290756079239ce',1,'rcc_hsi_8mhz():&#160;rcc.c'],['../group__rcc__file.html#gac0bdd1ad521b831229290756079239ce',1,'rcc_hsi_8mhz():&#160;rcc.c']]],
   ['rcc_5fi2c1',['RCC_I2C1',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0',1,'rcc.h']]],
   ['rcc_5fi2c2',['RCC_I2C2',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a',1,'rcc.h']]],
   ['rcc_5fi2c3',['RCC_I2C3',['../rcc_8h.html#a54c7db24941f636ee238833c481ada48aead627335ffc92260faac70ef409eff7',1,'rcc.h']]],

@@ -1,7 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"st__usbfs__v2_8h.html#ab043599cc0ebabfa9840522f04cf6092":[30,0,82,4],
-"st__usbfs__v2_8h.html#abf6b72056e5b9c320de00a089aa3ecce":[30,0,82,2],
 "st__usbfs__v2_8h.html#ac3f6dad421c9c8ba00826ae26f8f67c9":[30,0,82,11],
 "st__usbfs__v2_8h.html#ae0fb11e62c9ee1f4e020a250c2a63469":[30,0,82,1],
 "st__usbfs__v2_8h.html#ae6f30d17dd18a4f6cba54bdc2d3c9b0a":[30,0,82,20],

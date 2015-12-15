@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"group__dac__file.html#gabdef300140d86666393d9d66102bc76d":[30,0,10,10],
 "group__dac__file.html#gabdef300140d86666393d9d66102bc76d":[12,0,2,10],
 "group__dac__file.html#gae474e0c35329b87c281c933afe656228":[30,0,10,3],
 "group__dac__file.html#gae474e0c35329b87c281c933afe656228":[12,0,2,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "group__dma__defines.html#ga15b404d9e1601cf3627cbf0163b50221":[12,1,3,236],
 "group__dma__defines.html#ga15b404d9e1601cf3627cbf0163b50221":[30,0,15,140],
 "group__dma__defines.html#ga15bdb91b645f13dac1b9b7b269a56f77":[30,0,17,26],
-"group__dma__defines.html#ga15bdb91b645f13dac1b9b7b269a56f77":[12,1,3,42]
+"group__dma__defines.html#ga15bdb91b645f13dac1b9b7b269a56f77":[12,1,3,42],
+"group__dma__defines.html#ga198f3a664e5da472ad3598d8fcb667d8":[30,0,17,52]
 };

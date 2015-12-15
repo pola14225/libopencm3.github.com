@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"group__STM32F0xx-rcc-file.html#ga63c14a3f3ed2799c6ad21564f97d0e99":[29,0,49,2],
 "group__STM32F0xx-rcc-file.html#ga63c14a3f3ed2799c6ad21564f97d0e99":[5,0,10,2],
 "group__STM32F0xx-rcc-file.html#ga6507734e493649ea262e10a511581d67":[5,0,10,17],
 "group__STM32F0xx-rcc-file.html#ga6507734e493649ea262e10a511581d67":[29,0,49,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "group__adc__channel.html#ga0d0868797d7c295c9f780a0b035f12cb":[5,1,0,4,71],
 "group__adc__channel.html#ga0d0868797d7c295c9f780a0b035f12cb":[29,0,3,102],
 "group__adc__channel.html#ga117c2cf0428216dae7e16d546479c415":[5,1,0,4,49],
-"group__adc__channel.html#ga117c2cf0428216dae7e16d546479c415":[29,0,3,75]
+"group__adc__channel.html#ga117c2cf0428216dae7e16d546479c415":[29,0,3,75],
+"group__adc__channel.html#ga118817f8db889310eb249519d9b8ae39":[5,1,0,4,88]
 };

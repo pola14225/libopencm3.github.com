@@ -1,7 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"usart__common__f24_8h.html#a4ac2db6ebf78dda8e93a6c742b0ef8ed":[30,0,92,4],
-"usart__common__f24_8h.html#a5688c0678e08f354cb72a4307d59d985":[30,0,92,13],
 "usart__common__f24_8h.html#a7c9da23c110fd48e0f31b0cfe3a0e5f0":[30,0,92,15],
 "usart__common__f24_8h.html#a7da70cf0849a40f941eb0e4c4682d036":[30,0,92,7],
 "usart__common__f24_8h.html#a9a96fb1a7beab602cbc8cb0393593826":[30,0,92,25],

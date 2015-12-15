@@ -92,8 +92,8 @@ var NAVTREEINDEX0 =
 "globals_defs_w.html":[28,1,5,18],
 "globals_e.html":[28,1,0,5],
 "globals_enum.html":[28,1,3],
-"globals_eval.html":[28,1,4],
 "globals_eval.html":[28,1,4,0],
+"globals_eval.html":[28,1,4],
 "globals_eval_d.html":[28,1,4,1],
 "globals_eval_e.html":[28,1,4,2],
 "globals_eval_l.html":[28,1,4,3],
@@ -127,9 +127,8 @@ var NAVTREEINDEX0 =
 "globals_s.html":[28,1,0,15],
 "globals_t.html":[28,1,0,16],
 "globals_u.html":[28,1,0,17],
-"globals_v.html":[28,1,0,18],
 "globals_vars.html":[28,1,2],
-"globals_w.html":[28,1,0,19],
+"globals_w.html":[28,1,0,18],
 "gpio_8c.html":[28,0,19],
 "gpio_8c_source.html":[28,0,19],
 "gpio_8h.html":[28,0,20],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "group__CRS__defines.html#gafa48432b942f1896e05a2eff91178edd":[10,2,25],
 "group__CRS__defines.html#gafa48432b942f1896e05a2eff91178edd":[28,0,5,25],
 "group__STM32F7xx.html":[10,0],
-"group__STM32F7xx__defines.html":[10,1]
+"group__STM32F7xx__defines.html":[10,1],
+"group__adc__channel.html":[10,5,1]
 };

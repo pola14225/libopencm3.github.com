@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"group__STM32L1xx-rcc-file.html#ga81b16ade2e5d6e024f36e3d568a9fd97":[30,0,53,10],
 "group__STM32L1xx-rcc-file.html#ga81b16ade2e5d6e024f36e3d568a9fd97":[12,0,8,10],
 "group__STM32L1xx-rcc-file.html#ga86f90a27c26bc25e22999419f7d08622":[12,0,8,26],
 "group__STM32L1xx-rcc-file.html#ga86f90a27c26bc25e22999419f7d08622":[30,0,53,26],
@@ -107,8 +106,8 @@ var NAVTREEINDEX1 =
 "group__adc__channel.html#ga59b482216ccaeeeaf22d7c5cfed7f3e2":[12,1,0,6,75],
 "group__adc__channel.html#ga5c46fc1dc6c63acf88821f46a8f6d5e7":[30,0,3,80],
 "group__adc__channel.html#ga5c46fc1dc6c63acf88821f46a8f6d5e7":[12,1,0,6,35],
-"group__adc__channel.html#ga5c9fc31f19c04033dfa98e982519c451":[30,0,3,64],
 "group__adc__channel.html#ga5c9fc31f19c04033dfa98e982519c451":[12,1,0,6,27],
+"group__adc__channel.html#ga5c9fc31f19c04033dfa98e982519c451":[30,0,3,64],
 "group__adc__channel.html#ga5de6fc1832c959e4d6caff4991383752":[30,0,3,97],
 "group__adc__channel.html#ga5de6fc1832c959e4d6caff4991383752":[12,1,0,6,47],
 "group__adc__channel.html#ga62a03bfb8e5a9db5689f9b32cb96bea4":[30,0,3,86],
@@ -125,8 +124,8 @@ var NAVTREEINDEX1 =
 "group__adc__channel.html#ga6b97e2da7fdae970ac3a21e9a06f89db":[30,0,3,38],
 "group__adc__channel.html#ga6cb3d778d07c0d1622a56fb2aa377ec8":[30,0,3,127],
 "group__adc__channel.html#ga6cb3d778d07c0d1622a56fb2aa377ec8":[12,1,0,6,74],
-"group__adc__channel.html#ga6e006d43fcb9fe1306745c95a1bdd651":[30,0,3,62],
 "group__adc__channel.html#ga6e006d43fcb9fe1306745c95a1bdd651":[12,1,0,6,25],
+"group__adc__channel.html#ga6e006d43fcb9fe1306745c95a1bdd651":[30,0,3,62],
 "group__adc__channel.html#ga7340a01ffec051c06e80a037eee58a14":[30,0,3,118],
 "group__adc__channel.html#ga7340a01ffec051c06e80a037eee58a14":[12,1,0,6,65],
 "group__adc__channel.html#ga7381ba120239e1039e278182088b0212":[12,1,0,6,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__adc__cr1__discnum.html#ga230a3ec56dbcb2c5ec07980247a3e9f7":[12,1,0,6,0,3],
 "group__adc__cr1__discnum.html#ga230a3ec56dbcb2c5ec07980247a3e9f7":[30,0,3,69],
 "group__adc__cr1__discnum.html#ga44fd0ef0fe1fe927e7476ffaf9b11351":[30,0,3,71],
-"group__adc__cr1__discnum.html#ga44fd0ef0fe1fe927e7476ffaf9b11351":[12,1,0,6,0,5]
+"group__adc__cr1__discnum.html#ga44fd0ef0fe1fe927e7476ffaf9b11351":[12,1,0,6,0,5],
+"group__adc__cr1__discnum.html#ga551afeb565bd3ccb00becd14fd5253d4":[12,1,0,6,0,4]
 };

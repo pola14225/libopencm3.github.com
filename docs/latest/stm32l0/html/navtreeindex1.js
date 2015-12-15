@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"group__CRS__defines.html#gafa48432b942f1896e05a2eff91178edd":[28,0,5,25],
 "group__CRS__defines.html#gafa48432b942f1896e05a2eff91178edd":[11,2,25],
 "group__STM32L0xx-rcc-file.html":[11,0,1],
 "group__STM32L0xx-rcc-file.html#ga014d24c75c6cd9615ed517746aa9f3b5":[11,0,1,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__adc__channel.html#gafb7e580ba6b1a01cb0133b97314070c7":[11,5,1,18],
 "group__adc__channel.html#gafb7e580ba6b1a01cb0133b97314070c7":[28,0,1,36],
 "group__adc__channel.html#gafceea73a31aa4e020baf383313dddaa3":[11,5,1,13],
-"group__adc__channel.html#gafceea73a31aa4e020baf383313dddaa3":[28,0,1,31]
+"group__adc__channel.html#gafceea73a31aa4e020baf383313dddaa3":[28,0,1,31],
+"group__adc__channel.html#gafe352fb7c779e3b540056f0dd926e8b3":[28,0,1,124]
 };

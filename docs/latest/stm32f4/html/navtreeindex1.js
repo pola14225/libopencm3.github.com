@@ -174,9 +174,8 @@ var NAVTREEINDEX1 =
 "globals_s.html":[30,1,0,14],
 "globals_t.html":[30,1,0,15],
 "globals_u.html":[30,1,0,16],
-"globals_v.html":[30,1,0,17],
 "globals_vars.html":[30,1,2],
-"globals_w.html":[30,1,0,18],
+"globals_w.html":[30,1,0,17],
 "gpio_8c.html":[30,0,32],
 "gpio_8c_source.html":[30,0,32],
 "gpio_8h.html":[30,0,33],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__adc__channel.html#ga34e6ba8d77e1769082ca26d430658e53":[30,0,3,34],
 "group__adc__channel.html#ga366654c02369a57e3a79cb395966fbeb":[9,1,0,11,97],
 "group__adc__channel.html#ga366654c02369a57e3a79cb395966fbeb":[30,0,3,150],
-"group__adc__channel.html#ga381d087af319941eead086e683c2e54f":[9,1,0,11,56]
+"group__adc__channel.html#ga381d087af319941eead086e683c2e54f":[9,1,0,11,56],
+"group__adc__channel.html#ga381d087af319941eead086e683c2e54f":[30,0,3,106]
 };

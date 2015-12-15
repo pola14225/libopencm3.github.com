@@ -13891,13 +13891,6 @@
       <anchor>a5c20c3e54554d82e05cf53cc02fba118</anchor>
       <arglist>(enum pwr_vos_scale scale)</arglist>
     </member>
-    <member kind="variable">
-      <type>enum pwr_vos_scale</type>
-      <name>vos_scale_t</name>
-      <anchorfile>pwr__common__l01_8h.html</anchorfile>
-      <anchor>a547523e32833ef81f20f4d758c72ca17</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>rcc.c</name>
@@ -16313,9 +16306,9 @@
     </member>
     <member kind="variable">
       <type>const struct rcc_clock_scale</type>
-      <name>hsi_8mhz</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a86afb1875d14c6c6156f154e4ea8f3b0</anchor>
+      <name>rcc_hsi_8mhz</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>gac0bdd1ad521b831229290756079239ce</anchor>
       <arglist>[RCC_CLOCK_END]</arglist>
     </member>
   </compound>

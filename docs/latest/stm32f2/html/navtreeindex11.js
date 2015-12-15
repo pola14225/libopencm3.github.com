@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"group__hash__file.html#ga3c9cadeb7129afcd008a3a6a2ed6ec33":[30,0,37,4],
 "group__hash__file.html#ga412cfb777385884a25fda92c9dcdfadc":[7,0,6,0],
 "group__hash__file.html#ga412cfb777385884a25fda92c9dcdfadc":[30,0,37,0],
 "group__hash__file.html#ga683e547b89f26dd62e5445cd1f044079":[7,0,6,3],
@@ -93,16 +92,16 @@ var NAVTREEINDEX11 =
 "group__i2c__clock.html#gac754d23150a56ff9a17dc90fbfbf58af":[7,1,8,1,26],
 "group__i2c__clock.html#gac8c0fbd764129b7c46bcf3f98ed5a469":[30,0,42,73],
 "group__i2c__clock.html#gac8c0fbd764129b7c46bcf3f98ed5a469":[7,1,8,1,31],
-"group__i2c__clock.html#gac93742dc6b11252a03c00d4a7d8f6c90":[7,1,8,1,30],
 "group__i2c__clock.html#gac93742dc6b11252a03c00d4a7d8f6c90":[30,0,42,72],
+"group__i2c__clock.html#gac93742dc6b11252a03c00d4a7d8f6c90":[7,1,8,1,30],
 "group__i2c__clock.html#gacba95d563e2054412a16c38ab3584aaf":[30,0,42,46],
 "group__i2c__clock.html#gacba95d563e2054412a16c38ab3584aaf":[7,1,8,1,4],
 "group__i2c__clock.html#gade1464a188dba5c09d50e0ba8cce7df4":[30,0,42,45],
 "group__i2c__clock.html#gade1464a188dba5c09d50e0ba8cce7df4":[7,1,8,1,3],
 "group__i2c__clock.html#gae08c1f7f7da2f32858a3adeca738ed9b":[30,0,42,77],
 "group__i2c__clock.html#gae08c1f7f7da2f32858a3adeca738ed9b":[7,1,8,1,35],
-"group__i2c__clock.html#gae611e483335474d48c166c1277b1ba9a":[7,1,8,1,34],
 "group__i2c__clock.html#gae611e483335474d48c166c1277b1ba9a":[30,0,42,76],
+"group__i2c__clock.html#gae611e483335474d48c166c1277b1ba9a":[7,1,8,1,34],
 "group__i2c__clock.html#gae839895426720282c4f737ef83717413":[30,0,42,78],
 "group__i2c__clock.html#gae839895426720282c4f737ef83717413":[7,1,8,1,36],
 "group__i2c__clock.html#gaeb18bc8aee62ce8eac7959ef196d1836":[30,0,42,56],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "group__i2c__defines.html#gaa8345463eb1d0075a7e52a5b5627a29c":[30,0,42,7],
 "group__i2c__defines.html#gaa8345463eb1d0075a7e52a5b5627a29c":[7,1,8,10],
 "group__i2c__defines.html#gaa8903f4abb50b0fb39cb5b91987c4d88":[30,0,42,13],
-"group__i2c__defines.html#gaa8903f4abb50b0fb39cb5b91987c4d88":[7,1,8,15]
+"group__i2c__defines.html#gaa8903f4abb50b0fb39cb5b91987c4d88":[7,1,8,15],
+"group__i2c__defines.html#gaab41a0f945051eb6a66eb885ee68b884":[30,0,42,90]
 };

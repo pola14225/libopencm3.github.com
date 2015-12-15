@@ -432,8 +432,8 @@ var rcc_8h =
     [ "rcc_wait_for_osc_not_ready", "group__rcc__file.html#gaf70338e8856cc235ff8e79e126fa95fd", null ],
     [ "rcc_wait_for_osc_ready", "group__rcc__file.html#ga1dfd0e0ba16285ce16e782e07af2cafa", null ],
     [ "rcc_wait_for_sysclk_status", "group__rcc__file.html#gaa768e6d3787b02f6dc93c8392b879ef7", null ],
-    [ "hsi_8mhz", "rcc_8h.html#a86afb1875d14c6c6156f154e4ea8f3b0", null ],
     [ "rcc_ahb_frequency", "group__rcc__file.html#ga86f90a27c26bc25e22999419f7d08622", null ],
     [ "rcc_apb1_frequency", "group__rcc__file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ],
-    [ "rcc_apb2_frequency", "group__rcc__file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ]
+    [ "rcc_apb2_frequency", "group__rcc__file.html#ga2f1b40f85aa73bc45b6d1cbb255881d9", null ],
+    [ "rcc_hsi_8mhz", "group__rcc__file.html#gac0bdd1ad521b831229290756079239ce", null ]
 ];
