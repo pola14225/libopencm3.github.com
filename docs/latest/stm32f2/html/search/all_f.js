@@ -199,7 +199,7 @@ var searchData=
   ['spi_5fi2scfgr_5fi2scfg_5fslave_5ftransmit',['SPI_I2SCFGR_I2SCFG_SLAVE_TRANSMIT',['../group__spi__defines.html#ga021b67c5ec104ba218e8d7f4ab85bbe0',1,'spi_common_all.h']]],
   ['spi_5fi2scfgr_5fi2se',['SPI_I2SCFGR_I2SE',['../group__spi__defines.html#ga30d76c7552c91bbd5cbac70d9c56ebb3',1,'spi_common_all.h']]],
   ['spi_5fi2scfgr_5fi2smod',['SPI_I2SCFGR_I2SMOD',['../group__spi__defines.html#gae99763414b3c2f11fcfecb1f93eb6701',1,'spi_common_all.h']]],
-  ['spi_5fi2scfgr_5fi2sstd_5fi2s_5fphillips',['SPI_I2SCFGR_I2SSTD_I2S_PHILLIPS',['../group__spi__defines.html#ga83935e725d3e35c26b77ea39731cac09',1,'spi_common_all.h']]],
+  ['spi_5fi2scfgr_5fi2sstd_5fi2s_5fphilips',['SPI_I2SCFGR_I2SSTD_I2S_PHILIPS',['../group__spi__defines.html#ga34dee429fd22f9b47750db633f5d71ab',1,'spi_common_all.h']]],
   ['spi_5fi2scfgr_5fi2sstd_5flsb',['SPI_I2SCFGR_I2SSTD_LSB',['../group__spi__defines.html#ga58730be1308b40c92e959bbcc54f3af9',1,'spi_common_all.h']]],
   ['spi_5fi2scfgr_5fi2sstd_5flsb_5fjustified',['SPI_I2SCFGR_I2SSTD_LSB_JUSTIFIED',['../group__spi__defines.html#ga68aa7d1012026ecdd5e19fbb8a376093',1,'spi_common_all.h']]],
   ['spi_5fi2scfgr_5fi2sstd_5fmsb_5fjustified',['SPI_I2SCFGR_I2SSTD_MSB_JUSTIFIED',['../group__spi__defines.html#ga1c5c1e4e476536930f41dddde0d8a242',1,'spi_common_all.h']]],

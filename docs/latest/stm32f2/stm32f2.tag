@@ -16816,9 +16816,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SPI_I2SCFGR_I2SSTD_I2S_PHILLIPS</name>
+      <name>SPI_I2SCFGR_I2SSTD_I2S_PHILIPS</name>
       <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga83935e725d3e35c26b77ea39731cac09</anchor>
+      <anchor>ga34dee429fd22f9b47750db633f5d71ab</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -35505,9 +35505,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>SPI_I2SCFGR_I2SSTD_I2S_PHILLIPS</name>
+      <name>SPI_I2SCFGR_I2SSTD_I2S_PHILIPS</name>
       <anchorfile>group__spi__defines.html</anchorfile>
-      <anchor>ga83935e725d3e35c26b77ea39731cac09</anchor>
+      <anchor>ga34dee429fd22f9b47750db633f5d71ab</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">

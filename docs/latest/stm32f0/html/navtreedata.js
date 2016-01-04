@@ -64,7 +64,7 @@ var NAVTREEINDEX =
 "group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a7a19340ece9a89667b6b124f47bc288e",
 "group__rtc__defines.html#ga45ec20978a87b7a4371acd0a32f19816",
 "group__rtc__defines.html#gaf93bb190463ff2a2a01fc3fa8ffdc7be",
-"group__spi__defines.html#ga7b1c503ecf5888ada9c06b9a06bc12c0",
+"group__spi__defines.html#ga7696e2020f1d0087b185eea74d031c7e",
 "group__spi__file.html#gad05d3885fad620fc84d284fc9b42554e",
 "group__tim__sr__values.html#ga449a61344a97608d85384c29f003c0e9",
 "group__timer__defines.html#ga257409bb0d24fb96ae835472b5789312",

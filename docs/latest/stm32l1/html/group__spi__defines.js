@@ -98,7 +98,7 @@ var group__spi__defines =
     [ "SPI_I2SCFGR_I2SCFG_SLAVE_TRANSMIT", "group__spi__defines.html#ga021b67c5ec104ba218e8d7f4ab85bbe0", null ],
     [ "SPI_I2SCFGR_I2SE", "group__spi__defines.html#ga30d76c7552c91bbd5cbac70d9c56ebb3", null ],
     [ "SPI_I2SCFGR_I2SMOD", "group__spi__defines.html#gae99763414b3c2f11fcfecb1f93eb6701", null ],
-    [ "SPI_I2SCFGR_I2SSTD_I2S_PHILLIPS", "group__spi__defines.html#ga83935e725d3e35c26b77ea39731cac09", null ],
+    [ "SPI_I2SCFGR_I2SSTD_I2S_PHILIPS", "group__spi__defines.html#ga34dee429fd22f9b47750db633f5d71ab", null ],
     [ "SPI_I2SCFGR_I2SSTD_LSB", "group__spi__defines.html#ga58730be1308b40c92e959bbcc54f3af9", null ],
     [ "SPI_I2SCFGR_I2SSTD_LSB_JUSTIFIED", "group__spi__defines.html#ga68aa7d1012026ecdd5e19fbb8a376093", null ],
     [ "SPI_I2SCFGR_I2SSTD_MSB_JUSTIFIED", "group__spi__defines.html#ga1c5c1e4e476536930f41dddde0d8a242", null ],

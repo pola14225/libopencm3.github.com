@@ -69,7 +69,7 @@ var NAVTREEINDEX =
 "group__i2c__defines.html#gace70293f3dfa24d448b600fc58e45223",
 "group__i2c__rw.html#gab5c0fbe837494c5f9130a5914854250d",
 "group__rcc__file.html#ga100c2d4772724c26a569a33ca69b1955",
-"group__spi__defines.html#ga43608d3c2959fc9ca64398d61cbf484e",
+"group__spi__defines.html#ga4307af8c6b3812b86dfea621f1f40d37",
 "group__spi__file.html#ga1fcf7661af69bcf8999ae3f6d102fd8b",
 "group__tim__sr__values.html#ga6d52cd5a57c9a26b0d993c93d9875097",
 "group__timer__defines.html#ga2672675e72f12d530330c1f56175db54",
