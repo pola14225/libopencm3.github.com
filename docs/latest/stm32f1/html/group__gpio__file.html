@@ -213,7 +213,7 @@ Basic GPIO Handling API.</h1>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">swjdisable</td><td>Unsigned int8. Disable parts of the SWJ capability <a class="el" href="group__afio__swj__disable.html">Serial Wire JTAG disables</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">maps</td><td>Unsigned int32. Logical OR of map enable controls from <a class="el" href="group__afio__remap.html">Alternate Function Remap Controls</a>, <a class="el" href="group__afio__remap__can1.html">Alternate Function Remap Controls for CAN 1</a>, <a class="el" href="group__afio__remap__tim3.html">Alternate Function Remap Controls for Timer 3</a>, <a class="el" href="group__afio__remap__tim2.html">Alternate Function Remap Controls for Timer 2</a>, <a class="el" href="group__afio__remap__tim1.html">Alternate Function Remap Controls for Timer 1</a>, <a class="el" href="group__afio__remap__usart3.html">Alternate Function Remap Controls for USART 3</a>. For connectivity line devices only <a class="el" href="group__afio__remap__cld.html">Alternate Function Remap Controls for Connectivity</a> are also available. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maps</td><td>Unsigned int32. Bitwise OR of map enable controls from <a class="el" href="group__afio__remap.html">Alternate Function Remap Controls</a>, <a class="el" href="group__afio__remap__can1.html">Alternate Function Remap Controls for CAN 1</a>, <a class="el" href="group__afio__remap__tim3.html">Alternate Function Remap Controls for Timer 3</a>, <a class="el" href="group__afio__remap__tim2.html">Alternate Function Remap Controls for Timer 2</a>, <a class="el" href="group__afio__remap__tim1.html">Alternate Function Remap Controls for Timer 1</a>, <a class="el" href="group__afio__remap__usart3.html">Alternate Function Remap Controls for USART 3</a>. For connectivity line devices only <a class="el" href="group__afio__remap__cld.html">Alternate Function Remap Controls for Connectivity</a> are also available. </td></tr>
   </table>
   </dd>
 </dl>
@@ -243,7 +243,7 @@ Basic GPIO Handling API.</h1>
 <p>The AFIO remapping feature is used only with the STM32F10x series.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">maps</td><td>Unsigned int32. Logical OR of map enable controls from <a class="el" href="group__afio__remap2.html">Alternate Function Remap Controls Secondary Set</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maps</td><td>Unsigned int32. Bitwise OR of map enable controls from <a class="el" href="group__afio__remap2.html">Alternate Function Remap Controls Secondary Set</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -337,7 +337,7 @@ Basic GPIO Handling API.</h1>
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier <a class="el" href="group__gpio__port__id.html">GPIO Port IDs</a> </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Unsigned int8. Pin mode <a class="el" href="group__gpio__mode.html">GPIO Pin Mode</a> </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">cnf</td><td>Unsigned int8. Pin configuration <a class="el" href="group__gpio__cnf.html">GPIO Pin Configuration</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be set, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be set, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -353,7 +353,7 @@ Basic GPIO Handling API.</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 6 2016 16:21:37 for libopencm3 by
+    <li class="footer">Generated on Sat Jan 9 2016 22:21:34 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

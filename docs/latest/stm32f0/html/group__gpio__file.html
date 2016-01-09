@@ -234,7 +234,7 @@ Basic GPIO Handling API.</h1>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -271,7 +271,7 @@ Basic GPIO Handling API.</h1>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be read, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be read, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -373,7 +373,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be locked, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be locked, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -490,7 +490,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -626,7 +626,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">gpioport</td><td>Unsigned int32. Port identifier gpio_port_id </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use logical OR '|' to separate them. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gpios</td><td>Unsigned int16. Pin identifiers <a class="el" href="group__gpio__pin__id.html">GPIO Pin Identifiers</a> If multiple pins are to be changed, use bitwise OR '|' to separate them. </td></tr>
   </table>
   </dd>
 </dl>
@@ -640,7 +640,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 6 2016 16:21:26 for libopencm3 by
+    <li class="footer">Generated on Sat Jan 9 2016 22:21:24 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
