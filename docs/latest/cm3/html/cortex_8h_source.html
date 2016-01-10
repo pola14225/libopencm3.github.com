@@ -180,7 +180,7 @@ $(document).ready(function(){initNavTree('cortex_8h_source.html','');});
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="group__CM3__cortex__defines.html#ga06a8f1e988ceacd262f4fbd14633b481">   44</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__CM3__cortex__defines.html#ga06a8f1e988ceacd262f4fbd14633b481">cm_enable_interrupts</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        __asm__(<span class="stringliteral">&quot;CPSIE I\n&quot;</span>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        __asm__ <span class="keyword">volatile</span> (<span class="stringliteral">&quot;CPSIE I\n&quot;</span>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('cortex_8h_source.html','');});
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="group__CM3__cortex__defines.html#ga30836716e88c3eccaf6c5fb872493450">   54</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__CM3__cortex__defines.html#ga30836716e88c3eccaf6c5fb872493450">cm_disable_interrupts</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        __asm__(<span class="stringliteral">&quot;CPSID I\n&quot;</span>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        __asm__ <span class="keyword">volatile</span> (<span class="stringliteral">&quot;CPSID I\n&quot;</span>);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('cortex_8h_source.html','');});
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="group__CM3__cortex__defines.html#ga257d0ea270a0854aecb4856ab70f9c14">   64</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__CM3__cortex__defines.html#ga257d0ea270a0854aecb4856ab70f9c14">cm_enable_faults</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        __asm__(<span class="stringliteral">&quot;CPSIE F\n&quot;</span>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        __asm__ <span class="keyword">volatile</span> (<span class="stringliteral">&quot;CPSIE F\n&quot;</span>);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -210,7 +210,7 @@ $(document).ready(function(){initNavTree('cortex_8h_source.html','');});
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="group__CM3__cortex__defines.html#ga0c65e90023b9244419cdb60b209c78f3">   74</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__CM3__cortex__defines.html#ga0c65e90023b9244419cdb60b209c78f3">cm_disable_faults</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        __asm__(<span class="stringliteral">&quot;CPSID F\n&quot;</span>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        __asm__ <span class="keyword">volatile</span> (<span class="stringliteral">&quot;CPSID F\n&quot;</span>);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -224,7 +224,7 @@ $(document).ready(function(){initNavTree('cortex_8h_source.html','');});
 <div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__CM3__cortex__defines.html#gacf65bc8e51a84d537167765189984f91">   87</a></span>&#160;static inline <span class="keywordtype">bool</span> <a class="code" href="group__CM3__cortex__defines.html#gacf65bc8e51a84d537167765189984f91">cm_is_masked_interrupts</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keyword">register</span> uint32_t result;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        __asm__ (<span class="stringliteral">&quot;MRS %0, PRIMASK&quot;</span>  : <span class="stringliteral">&quot;=r&quot;</span> (result));</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        __asm__ <span class="keyword">volatile</span> (<span class="stringliteral">&quot;MRS %0, PRIMASK&quot;</span>  : <span class="stringliteral">&quot;=r&quot;</span> (result));</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
@@ -239,7 +239,7 @@ $(document).ready(function(){initNavTree('cortex_8h_source.html','');});
 <div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="group__CM3__cortex__defines.html#gab3105858d73c77436822df3e9f4a0de6">  102</a></span>&#160;static inline <span class="keywordtype">bool</span> <a class="code" href="group__CM3__cortex__defines.html#gab3105858d73c77436822df3e9f4a0de6">cm_is_masked_faults</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;{</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keyword">register</span> uint32_t result;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        __asm__ (<span class="stringliteral">&quot;MRS %0, FAULTMASK&quot;</span>  : <span class="stringliteral">&quot;=r&quot;</span> (result));</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        __asm__ <span class="keyword">volatile</span> (<span class="stringliteral">&quot;MRS %0, FAULTMASK&quot;</span>  : <span class="stringliteral">&quot;=r&quot;</span> (result));</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
@@ -431,7 +431,7 @@ $(document).ready(function(){initNavTree('cortex_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_88dec37158d6513a5d9049c3580b18ba.html">cm3</a></li><li class="navelem"><a class="el" href="cortex_8h.html">cortex.h</a></li>
-    <li class="footer">Generated on Sat Jan 9 2016 22:21:15 for libopencm3 by
+    <li class="footer">Generated on Sun Jan 10 2016 21:21:20 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
