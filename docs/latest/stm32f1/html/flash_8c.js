@@ -1,6 +1,5 @@
 var flash_8c =
 [
-    [ "MEMORY_SIZE_REG", "group__flash__file.html#gae4fb6219eec6740b4ae77742c0d32aab", null ],
     [ "flash_clear_bsy_flag_upper", "group__flash__file.html#gab85b386ab0dad64e2bd7b6ff5c8faef8", null ],
     [ "flash_clear_eop_flag_upper", "group__flash__file.html#gaf47d7e8bd53d4ac625b221c00a9023c5", null ],
     [ "flash_clear_pgerr_flag_upper", "group__flash__file.html#ga747583805875c2008de75d23f9eaf410", null ],

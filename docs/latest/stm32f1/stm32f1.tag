@@ -6771,13 +6771,6 @@
     <name>flash.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/</path>
     <filename>flash_8c</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>MEMORY_SIZE_REG</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>gae4fb6219eec6740b4ae77742c0d32aab</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>flash_halfcycle_enable</name>
@@ -46200,13 +46193,6 @@
     <name>flash_file</name>
     <title>FLASH</title>
     <filename>group__flash__file.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>MEMORY_SIZE_REG</name>
-      <anchorfile>group__flash__file.html</anchorfile>
-      <anchor>gae4fb6219eec6740b4ae77742c0d32aab</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>flash_halfcycle_enable</name>

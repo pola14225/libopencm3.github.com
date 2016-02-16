@@ -125,7 +125,6 @@ $(document).ready(function(){initNavTree('group__flash__file.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">FLASH<div class="ingroups"><a class="el" href="group__STM32F1xx.html">STM32F1xx</a></div></div>  </div>
@@ -143,11 +142,6 @@ Collaboration diagram for FLASH:</div>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:gae4fb6219eec6740b4ae77742c0d32aab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__flash__file.html#gae4fb6219eec6740b4ae77742c0d32aab">MEMORY_SIZE_REG</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1">DESIG_FLASH_SIZE_BASE</a>)</td></tr>
-<tr class="separator:gae4fb6219eec6740b4ae77742c0d32aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gad1bac4f23619580572e4d2d1c947c8b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__flash__file.html#gad1bac4f23619580572e4d2d1c947c8b8">flash_halfcycle_enable</a> (void)</td></tr>
@@ -203,23 +197,6 @@ Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>: don't forget to lock it again when all operations are complete.</dd></dl>
 <p>For the large memory XL series, with two banks of FLASH, the upper bank is accessed with a second set of registers. In principle both banks can be written simultaneously, or one read while the other is written. This module does not support the simultaneous write feature.</p>
 <p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a> </p>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="gae4fb6219eec6740b4ae77742c0d32aab"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MEMORY_SIZE_REG&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#a995576aa6d86cbe35e60c82530d745c1">DESIG_FLASH_SIZE_BASE</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00065">65</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
-
-<p>Referenced by <a class="el" href="flash_8c_source.html#l00165">flash_clear_bsy_flag_upper()</a>, <a class="el" href="flash_8c_source.html#l00141">flash_clear_eop_flag_upper()</a>, <a class="el" href="flash_8c_source.html#l00129">flash_clear_pgerr_flag_upper()</a>, <a class="el" href="flash_8c_source.html#l00178">flash_clear_status_flags()</a>, <a class="el" href="flash_8c_source.html#l00153">flash_clear_wrprterr_flag_upper()</a>, <a class="el" href="flash_8c_source.html#l00268">flash_erase_page()</a>, <a class="el" href="flash_8c_source.html#l00205">flash_get_status_flags()</a>, <a class="el" href="flash_8c_source.html#l00234">flash_program_half_word()</a>, and <a class="el" href="flash_8c_source.html#l00100">flash_unlock_upper()</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gab85b386ab0dad64e2bd7b6ff5c8faef8"></a>
 <div class="memitem">
@@ -237,11 +214,11 @@ Functions</h2></td></tr>
 
 <p>Clear the Busy Status Flag, upper Bank. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00165">165</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00163">163</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, <a class="el" href="flash_8h_source.html#l00083">FLASH_SR_BSY</a>, and <a class="el" href="flash_8c_source.html#l00065">MEMORY_SIZE_REG</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, and <a class="el" href="flash_8h_source.html#l00083">FLASH_SR_BSY</a>.</p>
 
-<p>Referenced by <a class="el" href="flash_8c_source.html#l00178">flash_clear_status_flags()</a>.</p>
+<p>Referenced by <a class="el" href="flash_8c_source.html#l00176">flash_clear_status_flags()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -270,11 +247,11 @@ Here is the caller graph for this function:</div>
 
 <p>Clear the End of Operation Status Flag, upper Bank. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00141">141</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00139">139</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, <a class="el" href="flash_8h_source.html#l00080">FLASH_SR_EOP</a>, and <a class="el" href="flash_8c_source.html#l00065">MEMORY_SIZE_REG</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, and <a class="el" href="flash_8h_source.html#l00080">FLASH_SR_EOP</a>.</p>
 
-<p>Referenced by <a class="el" href="flash_8c_source.html#l00178">flash_clear_status_flags()</a>.</p>
+<p>Referenced by <a class="el" href="flash_8c_source.html#l00176">flash_clear_status_flags()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -303,11 +280,11 @@ Here is the caller graph for this function:</div>
 
 <p>Clear the Programming Error Status Flag, upper Bank. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00129">129</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00127">127</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, <a class="el" href="flash_8h_source.html#l00082">FLASH_SR_PGERR</a>, and <a class="el" href="flash_8c_source.html#l00065">MEMORY_SIZE_REG</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, and <a class="el" href="flash_8h_source.html#l00082">FLASH_SR_PGERR</a>.</p>
 
-<p>Referenced by <a class="el" href="flash_8c_source.html#l00178">flash_clear_status_flags()</a>.</p>
+<p>Referenced by <a class="el" href="flash_8c_source.html#l00176">flash_clear_status_flags()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -337,9 +314,9 @@ Here is the caller graph for this function:</div>
 <p>Clear All Status Flags. </p>
 <p>Program error, end of operation, write protect error, busy. Both banks cleared. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00178">178</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00176">176</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="group__flash__defines.html#ga37dfda93743e7b6285c3d01a7d519001">flash_clear_bsy_flag()</a>, <a class="el" href="flash_8c_source.html#l00165">flash_clear_bsy_flag_upper()</a>, <a class="el" href="group__flash__defines.html#ga824b51d54d30e1ab5e3c47f4bc8b3031">flash_clear_eop_flag()</a>, <a class="el" href="flash_8c_source.html#l00141">flash_clear_eop_flag_upper()</a>, <a class="el" href="group__flash__defines.html#ga8b028c13f819606dfb542931cc87c22e">flash_clear_pgerr_flag()</a>, <a class="el" href="flash_8c_source.html#l00129">flash_clear_pgerr_flag_upper()</a>, <a class="el" href="group__flash__defines.html#ga9c1b3869d9a031db08c634e7f8a396bb">flash_clear_wrprterr_flag()</a>, <a class="el" href="flash_8c_source.html#l00153">flash_clear_wrprterr_flag_upper()</a>, and <a class="el" href="flash_8c_source.html#l00065">MEMORY_SIZE_REG</a>.</p>
+<p>References <a class="el" href="group__flash__defines.html#ga37dfda93743e7b6285c3d01a7d519001">flash_clear_bsy_flag()</a>, <a class="el" href="flash_8c_source.html#l00163">flash_clear_bsy_flag_upper()</a>, <a class="el" href="group__flash__defines.html#ga824b51d54d30e1ab5e3c47f4bc8b3031">flash_clear_eop_flag()</a>, <a class="el" href="flash_8c_source.html#l00139">flash_clear_eop_flag_upper()</a>, <a class="el" href="group__flash__defines.html#ga8b028c13f819606dfb542931cc87c22e">flash_clear_pgerr_flag()</a>, <a class="el" href="flash_8c_source.html#l00127">flash_clear_pgerr_flag_upper()</a>, <a class="el" href="group__flash__defines.html#ga9c1b3869d9a031db08c634e7f8a396bb">flash_clear_wrprterr_flag()</a>, and <a class="el" href="flash_8c_source.html#l00151">flash_clear_wrprterr_flag_upper()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -368,11 +345,11 @@ Here is the call graph for this function:</div>
 
 <p>Clear the Write Protect Error Status Flag, upper Bank. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00153">153</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00151">151</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, <a class="el" href="flash_8h_source.html#l00081">FLASH_SR_WRPRTERR</a>, and <a class="el" href="flash_8c_source.html#l00065">MEMORY_SIZE_REG</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, and <a class="el" href="flash_8h_source.html#l00081">FLASH_SR_WRPRTERR</a>.</p>
 
-<p>Referenced by <a class="el" href="flash_8c_source.html#l00178">flash_clear_status_flags()</a>.</p>
+<p>Referenced by <a class="el" href="flash_8c_source.html#l00176">flash_clear_status_flags()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -402,7 +379,7 @@ Here is the caller graph for this function:</div>
 <p>Erase All FLASH. </p>
 <p>This performs all operations necessary to erase all user pages in the FLASH memory. The information block is unaffected. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00300">300</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00298">298</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00051">FLASH_CR2</a>, <a class="el" href="flash__common__f01_8h_source.html#l00082">FLASH_CR_MER</a>, <a class="el" href="flash__common__f01_8h_source.html#l00079">FLASH_CR_STRT</a>, and <a class="el" href="group__flash__defines.html#ga72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation()</a>.</p>
 
@@ -441,9 +418,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00268">268</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00266">266</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00045">FLASH_AR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00052">FLASH_AR2</a>, <a class="el" href="memorymap_8h_source.html#l00028">FLASH_BASE</a>, <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00051">FLASH_CR2</a>, <a class="el" href="flash__common__f01_8h_source.html#l00083">FLASH_CR_PER</a>, <a class="el" href="flash__common__f01_8h_source.html#l00079">FLASH_CR_STRT</a>, <a class="el" href="group__flash__defines.html#ga72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation()</a>, and <a class="el" href="flash_8c_source.html#l00065">MEMORY_SIZE_REG</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00045">FLASH_AR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00052">FLASH_AR2</a>, <a class="el" href="memorymap_8h_source.html#l00028">FLASH_BASE</a>, <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00051">FLASH_CR2</a>, <a class="el" href="flash__common__f01_8h_source.html#l00083">FLASH_CR_PER</a>, <a class="el" href="flash__common__f01_8h_source.html#l00079">FLASH_CR_STRT</a>, and <a class="el" href="group__flash__defines.html#ga72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -475,9 +452,9 @@ Here is the call graph for this function:</div>
 <p>Flags for the upper bank, where appropriate, are combined with those for the lower bank using bitwise OR, without distinction.</p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t. bit 0: busy, bit 2: programming error, bit 4: write protect error, bit 5: end of operation. </dd></dl>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00205">205</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00203">203</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00043">FLASH_SR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, <a class="el" href="flash_8h_source.html#l00083">FLASH_SR_BSY</a>, <a class="el" href="flash_8h_source.html#l00080">FLASH_SR_EOP</a>, <a class="el" href="flash_8h_source.html#l00082">FLASH_SR_PGERR</a>, <a class="el" href="flash_8h_source.html#l00081">FLASH_SR_WRPRTERR</a>, and <a class="el" href="flash_8c_source.html#l00065">MEMORY_SIZE_REG</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00043">FLASH_SR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00050">FLASH_SR2</a>, <a class="el" href="flash_8h_source.html#l00083">FLASH_SR_BSY</a>, <a class="el" href="flash_8h_source.html#l00080">FLASH_SR_EOP</a>, <a class="el" href="flash_8h_source.html#l00082">FLASH_SR_PGERR</a>, and <a class="el" href="flash_8h_source.html#l00081">FLASH_SR_WRPRTERR</a>.</p>
 
 </div>
 </div>
@@ -497,7 +474,7 @@ Here is the call graph for this function:</div>
 
 <p>Disable the FLASH Half Cycle Mode. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00088">88</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00086">86</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f01_8h_source.html#l00040">FLASH_ACR</a>, and <a class="el" href="flash_8h_source.html#l00076">FLASH_ACR_HLFCYA</a>.</p>
 
@@ -521,7 +498,7 @@ Here is the call graph for this function:</div>
 <p>This mode is used for power saving during read access. It is disabled by default on reset.</p>
 <p>Note carefully the clock restrictions under which the half cycle mode may be enabled or disabled. This mode may only be used while the clock is running at 8MHz. See the reference manual for details. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00078">78</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00076">76</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f01_8h_source.html#l00040">FLASH_ACR</a>, and <a class="el" href="flash_8h_source.html#l00076">FLASH_ACR_HLFCYA</a>.</p>
 
@@ -544,7 +521,7 @@ Here is the call graph for this function:</div>
 <p>Lock the Flash Program and Erase Controller, upper Bank. </p>
 <p>Used to prevent spurious writes to FLASH. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00119">119</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00117">117</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
 <p>References <a class="el" href="flash__common__f01_8h_source.html#l00051">FLASH_CR2</a>, and <a class="el" href="flash__common__f01_8h_source.html#l00078">FLASH_CR_LOCK</a>.</p>
 
@@ -585,9 +562,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00234">234</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00232">232</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="memorymap_8h_source.html#l00028">FLASH_BASE</a>, <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00051">FLASH_CR2</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, <a class="el" href="group__flash__defines.html#ga72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation()</a>, and <a class="el" href="flash_8c_source.html#l00065">MEMORY_SIZE_REG</a>.</p>
+<p>References <a class="el" href="memorymap_8h_source.html#l00028">FLASH_BASE</a>, <a class="el" href="flash__common__f01_8h_source.html#l00044">FLASH_CR</a>, <a class="el" href="flash__common__f01_8h_source.html#l00051">FLASH_CR2</a>, <a class="el" href="flash__common__f01_8h_source.html#l00084">FLASH_CR_PG</a>, and <a class="el" href="group__flash__defines.html#ga72ce389bb20296771479ace8cdb62dff">flash_wait_for_last_operation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -617,9 +594,9 @@ Here is the call graph for this function:</div>
 <p>Unlock the Flash Program and Erase Controller, upper Bank. </p>
 <p>This enables write access to the upper bank of the Flash memory in XL devices. It is locked by default on reset. </p>
 
-<p>Definition at line <a class="el" href="flash_8c_source.html#l00100">100</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
+<p>Definition at line <a class="el" href="flash_8c_source.html#l00098">98</a> of file <a class="el" href="flash_8c_source.html">flash.c</a>.</p>
 
-<p>References <a class="el" href="flash__common__f01_8h_source.html#l00051">FLASH_CR2</a>, <a class="el" href="flash__common__f01_8h_source.html#l00078">FLASH_CR_LOCK</a>, <a class="el" href="flash__common__f01_8h_source.html#l00049">FLASH_KEYR2</a>, <a class="el" href="flash__common__f01_8h_source.html#l00093">FLASH_KEYR_KEY1</a>, <a class="el" href="flash__common__f01_8h_source.html#l00094">FLASH_KEYR_KEY2</a>, and <a class="el" href="flash_8c_source.html#l00065">MEMORY_SIZE_REG</a>.</p>
+<p>References <a class="el" href="flash__common__f01_8h_source.html#l00051">FLASH_CR2</a>, <a class="el" href="flash__common__f01_8h_source.html#l00078">FLASH_CR_LOCK</a>, <a class="el" href="flash__common__f01_8h_source.html#l00049">FLASH_KEYR2</a>, <a class="el" href="flash__common__f01_8h_source.html#l00093">FLASH_KEYR_KEY1</a>, and <a class="el" href="flash__common__f01_8h_source.html#l00094">FLASH_KEYR_KEY2</a>.</p>
 
 </div>
 </div>
@@ -628,7 +605,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 16 2016 11:21:35 for libopencm3 by
+    <li class="footer">Generated on Tue Feb 16 2016 23:21:26 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
