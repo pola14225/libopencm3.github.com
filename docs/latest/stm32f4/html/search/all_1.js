@@ -441,6 +441,7 @@ var searchData=
   ['adc_20trigger_20identifier_20for_20regular_20group',['ADC Trigger Identifier for Regular group',['../group__adc__trigger__regular.html',1,'']]],
   ['adc_20watchdog_20channel',['ADC watchdog channel',['../group__adc__watchdog__channel.html',1,'']]],
   ['advanced_5ftimers',['ADVANCED_TIMERS',['../group__timer__file.html#ga711ae4623ab95c5cad3d35fd10cb2859',1,'timer_common_all.c']]],
+  ['ahb_5ffrequency',['ahb_frequency',['../structrcc__clock__scale.html#a7fbc133bd6b6f14df2821c8f1ba76ab6',1,'rcc_clock_scale']]],
   ['apb1_5ffrequency',['apb1_frequency',['../structrcc__clock__scale.html#a618efb7b6d896f2b5310a582593195d3',1,'rcc_clock_scale']]],
   ['apb2_5ffrequency',['apb2_frequency',['../structrcc__clock__scale.html#ad79ab725f939331a2797964608313b8f',1,'rcc_clock_scale']]],
   ['api_20_28for_20f42xx_20or_20f43xx_20only_29',['API (for F42xx or F43xx only)',['../group__crypto__api.html',1,'']]],

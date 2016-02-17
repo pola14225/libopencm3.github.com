@@ -29250,6 +29250,13 @@
     </member>
     <member kind="variable">
       <type>uint32_t</type>
+      <name>ahb_frequency</name>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>a7fbc133bd6b6f14df2821c8f1ba76ab6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint32_t</type>
       <name>apb1_frequency</name>
       <anchorfile>structrcc__clock__scale.html</anchorfile>
       <anchor>a618efb7b6d896f2b5310a582593195d3</anchor>

@@ -277,6 +277,7 @@ var searchData=
   ['adc_20watchdog_20channel',['ADC watchdog channel',['../group__adc__watchdog__channel.html',1,'']]],
   ['advanced_5ftimers',['ADVANCED_TIMERS',['../group__timer__file.html#ga711ae4623ab95c5cad3d35fd10cb2859',1,'timer_common_all.c']]],
   ['aes_5fbase',['AES_BASE',['../memorymap_8h.html#ad099ae8679538f6c00294639d67528bf',1,'memorymap.h']]],
+  ['ahb_5ffrequency',['ahb_frequency',['../structrcc__clock__scale.html#a7fbc133bd6b6f14df2821c8f1ba76ab6',1,'rcc_clock_scale']]],
   ['apb1_5ffrequency',['apb1_frequency',['../structrcc__clock__scale.html#a618efb7b6d896f2b5310a582593195d3',1,'rcc_clock_scale']]],
   ['apb2_5ffrequency',['apb2_frequency',['../structrcc__clock__scale.html#ad79ab725f939331a2797964608313b8f',1,'rcc_clock_scale']]],
   ['alternate_20function_20pin_20selection',['Alternate Function Pin Selection',['../group__gpio__af__num.html',1,'']]]
