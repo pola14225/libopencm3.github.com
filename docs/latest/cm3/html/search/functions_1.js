@@ -8,6 +8,6 @@ var searchData=
   ['cm_5fenable_5finterrupts',['cm_enable_interrupts',['../group__CM3__cortex__defines.html#ga06a8f1e988ceacd262f4fbd14633b481',1,'cortex.h']]],
   ['cm_5fis_5fmasked_5ffaults',['cm_is_masked_faults',['../group__CM3__cortex__defines.html#gab3105858d73c77436822df3e9f4a0de6',1,'cortex.h']]],
   ['cm_5fis_5fmasked_5finterrupts',['cm_is_masked_interrupts',['../group__CM3__cortex__defines.html#gacf65bc8e51a84d537167765189984f91',1,'cortex.h']]],
-  ['cm_5fmask_5ffaults',['cm_mask_faults',['../group__CM3__cortex__defines.html#ga2716cd387030655888a4b35b766e0800',1,'cortex.h']]],
-  ['cm_5fmask_5finterrupts',['cm_mask_interrupts',['../group__CM3__cortex__defines.html#ga2cd22ed39720f21f182064caaa9ee05a',1,'cortex.h']]]
+  ['cm_5fmask_5ffaults',['cm_mask_faults',['../group__CM3__cortex__defines.html#gaf0b2e04fd9377b5e0272edc3e19ba880',1,'cortex.h']]],
+  ['cm_5fmask_5finterrupts',['cm_mask_interrupts',['../group__CM3__cortex__defines.html#gaf18d826285fad19472b328742eae6c6b',1,'cortex.h']]]
 ];

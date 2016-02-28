@@ -148,15 +148,15 @@ Collaboration diagram for Cortex Core Atomic support Defines:</div>
 Macros</h2></td></tr>
 <tr class="memitem:ga03ee33aa307c41ceb35288a40539ecbc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(state)</td></tr>
 <tr class="separator:ga03ee33aa307c41ceb35288a40539ecbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6904952be4c789ef4957c8c9bce83fc6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#ga6904952be4c789ef4957c8c9bce83fc6">CM_ATOMIC_BLOCK</a>()&#160;&#160;&#160;for (bool <a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(true), __my = true; __my; __my = false)</td></tr>
+<tr class="memitem:ga6904952be4c789ef4957c8c9bce83fc6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#ga6904952be4c789ef4957c8c9bce83fc6">CM_ATOMIC_BLOCK</a>()&#160;&#160;&#160;for (uint32_t <a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(true), __my = true; __my; __my = false)</td></tr>
 <tr class="separator:ga6904952be4c789ef4957c8c9bce83fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd996a426e72e63e0d4d100d3dd6ff87"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#gabd996a426e72e63e0d4d100d3dd6ff87">CM_ATOMIC_CONTEXT</a>()&#160;&#160;&#160;bool <a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(true)</td></tr>
+<tr class="memitem:gabd996a426e72e63e0d4d100d3dd6ff87"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#gabd996a426e72e63e0d4d100d3dd6ff87">CM_ATOMIC_CONTEXT</a>()&#160;&#160;&#160;uint32_t <a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(true)</td></tr>
 <tr class="separator:gabd996a426e72e63e0d4d100d3dd6ff87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga3250af4be4a3a81baae03814d898c507"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">__cm_atomic_set</a> (bool *val)</td></tr>
-<tr class="separator:ga3250af4be4a3a81baae03814d898c507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63d8cc4da4cf40652535e8af71a5675b"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__atomic__defines.html#ga63d8cc4da4cf40652535e8af71a5675b">__cm_atomic_set</a> (uint32_t *val)</td></tr>
+<tr class="separator:ga63d8cc4da4cf40652535e8af71a5675b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Atomic operation support. </p>
@@ -175,9 +175,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">__val = state,                                          \</div>
-<div class="line">        __save __attribute__((__cleanup__(<a class="code" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">__cm_atomic_set</a>))) =  <a class="code" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">\</a></div>
-<div class="line"><a class="code" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">	__cm_atomic_set</a>(&amp;__val)</div>
-<div class="ttc" id="group__CM3__cortex__atomic__defines_html_ga3250af4be4a3a81baae03814d898c507"><div class="ttname"><a href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507">__cm_atomic_set</a></div><div class="ttdeci">static bool __cm_atomic_set(bool *val)</div><div class="ttdef"><b>Definition:</b> <a href="cortex_8h_source.html#l00162">cortex.h:162</a></div></div>
+<div class="line">        __save __attribute__((__cleanup__(<a class="code" href="group__CM3__cortex__atomic__defines.html#ga63d8cc4da4cf40652535e8af71a5675b">__cm_atomic_set</a>))) =  <a class="code" href="group__CM3__cortex__atomic__defines.html#ga63d8cc4da4cf40652535e8af71a5675b">\</a></div>
+<div class="line"><a class="code" href="group__CM3__cortex__atomic__defines.html#ga63d8cc4da4cf40652535e8af71a5675b">	__cm_atomic_set</a>(&amp;__val)</div>
+<div class="ttc" id="group__CM3__cortex__atomic__defines_html_ga63d8cc4da4cf40652535e8af71a5675b"><div class="ttname"><a href="group__CM3__cortex__atomic__defines.html#ga63d8cc4da4cf40652535e8af71a5675b">__cm_atomic_set</a></div><div class="ttdeci">static uint32_t __cm_atomic_set(uint32_t *val)</div><div class="ttdef"><b>Definition:</b> <a href="cortex_8h_source.html#l00162">cortex.h:162</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="cortex_8h_source.html#l00167">167</a> of file <a class="el" href="cortex_8h_source.html">cortex.h</a>.</p>
 
@@ -191,7 +191,7 @@ Functions</h2></td></tr>
           <td class="memname">#define CM_ATOMIC_BLOCK</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;for (bool <a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(true), __my = true; __my; __my = false)</td>
+          <td>&#160;&#160;&#160;for (uint32_t <a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(true), __my = true; __my; __my = false)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -209,7 +209,7 @@ Functions</h2></td></tr>
           <td class="memname">#define CM_ATOMIC_CONTEXT</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;bool <a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(true)</td>
+          <td>&#160;&#160;&#160;uint32_t <a class="el" href="group__CM3__cortex__atomic__defines.html#ga03ee33aa307c41ceb35288a40539ecbc">__CM_SAVER</a>(true)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -219,7 +219,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga3250af4be4a3a81baae03814d898c507"></a>
+<a class="anchor" id="ga63d8cc4da4cf40652535e8af71a5675b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -227,9 +227,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool __cm_atomic_set </td>
+          <td class="memname">static uint32_t __cm_atomic_set </td>
           <td>(</td>
-          <td class="paramtype">bool *&#160;</td>
+          <td class="paramtype">uint32_t *&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
           <td></td>
         </tr>
@@ -248,9 +248,9 @@ Functions</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__CM3__cortex__atomic__defines_ga3250af4be4a3a81baae03814d898c507_cgraph.png" border="0" usemap="#group__CM3__cortex__atomic__defines_ga3250af4be4a3a81baae03814d898c507_cgraph" alt=""/></div>
-<map name="group__CM3__cortex__atomic__defines_ga3250af4be4a3a81baae03814d898c507_cgraph" id="group__CM3__cortex__atomic__defines_ga3250af4be4a3a81baae03814d898c507_cgraph">
-<area shape="rect" id="node2" href="group__CM3__cortex__defines.html#ga2cd22ed39720f21f182064caaa9ee05a" title="Cortex M Mask interrupts. " alt="" coords="179,5,319,32"/></map>
+<div class="center"><img src="group__CM3__cortex__atomic__defines_ga63d8cc4da4cf40652535e8af71a5675b_cgraph.png" border="0" usemap="#group__CM3__cortex__atomic__defines_ga63d8cc4da4cf40652535e8af71a5675b_cgraph" alt=""/></div>
+<map name="group__CM3__cortex__atomic__defines_ga63d8cc4da4cf40652535e8af71a5675b_cgraph" id="group__CM3__cortex__atomic__defines_ga63d8cc4da4cf40652535e8af71a5675b_cgraph">
+<area shape="rect" id="node2" href="group__CM3__cortex__defines.html#gaf18d826285fad19472b328742eae6c6b" title="Cortex M Mask interrupts. " alt="" coords="179,5,319,32"/></map>
 </div>
 </p>
 
@@ -261,7 +261,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Feb 17 2016 18:21:12 for libopencm3 by
+    <li class="footer">Generated on Sun Feb 28 2016 19:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -401,25 +401,25 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static bool</type>
+      <type>static uint32_t</type>
       <name>cm_mask_interrupts</name>
       <anchorfile>group__CM3__cortex__defines.html</anchorfile>
-      <anchor>ga2cd22ed39720f21f182064caaa9ee05a</anchor>
-      <arglist>(bool mask)</arglist>
+      <anchor>gaf18d826285fad19472b328742eae6c6b</anchor>
+      <arglist>(uint32_t mask)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static bool</type>
+      <type>static uint32_t</type>
       <name>cm_mask_faults</name>
       <anchorfile>group__CM3__cortex__defines.html</anchorfile>
-      <anchor>ga2716cd387030655888a4b35b766e0800</anchor>
-      <arglist>(bool mask)</arglist>
+      <anchor>gaf0b2e04fd9377b5e0272edc3e19ba880</anchor>
+      <arglist>(uint32_t mask)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static bool</type>
+      <type>static uint32_t</type>
       <name>__cm_atomic_set</name>
       <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
-      <anchor>ga3250af4be4a3a81baae03814d898c507</anchor>
-      <arglist>(bool *val)</arglist>
+      <anchor>ga63d8cc4da4cf40652535e8af71a5675b</anchor>
+      <arglist>(uint32_t *val)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1092,13 +1092,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>MPU_RASR_ATTR_AP_PRO_URO</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>ga8bd0320aea68d3736414c461156033b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>MPU_RASR_ATTR_TEX</name>
       <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
       <anchor>ga2e9e119a16470b11f6b156d038f98084</anchor>
@@ -1130,62 +1123,6 @@
       <name>MPU_RASR_ATTR_SCB</name>
       <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
       <anchor>ga0e681a374dabd53acd3b96e0080b4816</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_STRONG</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gaebcf30a443ccf25fdf378a0ec8af7952</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_DEVICE</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gae726afdabe961d8802bb1ea2716beb87</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_NSH_WT</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gac2b174cab49b923e8c917fb3afe6acc7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_NSH_WB</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gaad4c05e7670403ae71a753249e314a45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_STRONG</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gaebcf30a443ccf25fdf378a0ec8af7952</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_DEVICE</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gae726afdabe961d8802bb1ea2716beb87</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_WT</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>ga5ccd1bf919f13f7ee79092e05234285f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_WB</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gaf7d8832167d14210cbcedf3f67fa8f65</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2857,18 +2794,18 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static bool</type>
+      <type>static uint32_t</type>
       <name>cm_mask_interrupts</name>
       <anchorfile>group__CM3__cortex__defines.html</anchorfile>
-      <anchor>ga2cd22ed39720f21f182064caaa9ee05a</anchor>
-      <arglist>(bool mask)</arglist>
+      <anchor>gaf18d826285fad19472b328742eae6c6b</anchor>
+      <arglist>(uint32_t mask)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static bool</type>
+      <type>static uint32_t</type>
       <name>cm_mask_faults</name>
       <anchorfile>group__CM3__cortex__defines.html</anchorfile>
-      <anchor>ga2716cd387030655888a4b35b766e0800</anchor>
-      <arglist>(bool mask)</arglist>
+      <anchor>gaf0b2e04fd9377b5e0272edc3e19ba880</anchor>
+      <arglist>(uint32_t mask)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -2897,11 +2834,11 @@
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static bool</type>
+      <type>static uint32_t</type>
       <name>__cm_atomic_set</name>
       <anchorfile>group__CM3__cortex__atomic__defines.html</anchorfile>
-      <anchor>ga3250af4be4a3a81baae03814d898c507</anchor>
-      <arglist>(bool *val)</arglist>
+      <anchor>ga63d8cc4da4cf40652535e8af71a5675b</anchor>
+      <arglist>(uint32_t *val)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -3199,13 +3136,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>MPU_RASR_ATTR_AP_PRO_URO</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>ga8bd0320aea68d3736414c461156033b1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>MPU_RASR_ATTR_TEX</name>
       <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
       <anchor>ga2e9e119a16470b11f6b156d038f98084</anchor>
@@ -3237,62 +3167,6 @@
       <name>MPU_RASR_ATTR_SCB</name>
       <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
       <anchor>ga0e681a374dabd53acd3b96e0080b4816</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_STRONG</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gaebcf30a443ccf25fdf378a0ec8af7952</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_STRONG</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gaebcf30a443ccf25fdf378a0ec8af7952</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_DEVICE</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gae726afdabe961d8802bb1ea2716beb87</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_DEVICE</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gae726afdabe961d8802bb1ea2716beb87</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_NSH_WT</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gac2b174cab49b923e8c917fb3afe6acc7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_NSH_WB</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gaad4c05e7670403ae71a753249e314a45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_WT</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>ga5ccd1bf919f13f7ee79092e05234285f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MPU_RASR_ATTR_SCB_SH_WB</name>
-      <anchorfile>group__mpu__rasr__attributes.html</anchorfile>
-      <anchor>gaf7d8832167d14210cbcedf3f67fa8f65</anchor>
       <arglist></arglist>
     </member>
   </compound>

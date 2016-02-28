@@ -297,37 +297,43 @@ $(document).ready(function(){initNavTree('gpio_8c_source.html','');});
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment">@param[in] swjdisable Unsigned int8. Disable parts of the SWJ capability @ref</span></div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="comment">afio_swj_disable.</span></div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">@param[in] maps Unsigned int32. Bitwise OR of map enable controls from @ref</span></div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="comment">afio_remap, @ref afio_remap_can1, @ref afio_remap_tim3, @ref afio_remap_tim2,</span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment">@ref afio_remap_tim1, @ref afio_remap_usart3. For connectivity line devices</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">only @ref afio_remap_cld are also available.</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">@param[in] maps Unsigned int32. Bitwise OR of map enable controls you wish to</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="comment">enable from @ref afio_remap, @ref afio_remap_can1, @ref afio_remap_tim3,</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment">@ref afio_remap_tim2, @ref afio_remap_tim1, @ref afio_remap_usart3. For</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">connectivity line devices only @ref afio_remap_cld are also available.</span></div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="group__gpio__file.html#ga793f728ea95a83f58e1d27d07d2fe0eb">  169</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga793f728ea95a83f58e1d27d07d2fe0eb">gpio_primary_remap</a>(uint32_t swjdisable, uint32_t maps)</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <a class="code" href="group__gpio__defines.html#gae4983ba45516afa359733c5515ffe233">AFIO_MAPR</a> |= (swjdisable &amp; <a class="code" href="group__afio__swj__disable.html#ga29fff43023c3494539c938f107764416">AFIO_MAPR_SWJ_MASK</a>) | (maps &amp; 0x1FFFFF);</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;}</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment">/** @brief Map Alternate Function Port Bits (Secondary Set)</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="comment">A number of alternate function ports can be remapped to defined alternative</span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment">port bits to avoid clashes in cases where multiple alternate functions are</span></div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="comment">present.  Refer to the datasheets for the particular mapping desired. This</span></div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment">provides the second smaller and less used set of remap functionality. See @ref</span></div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="comment">gpio_primary_remap for the main set of remaps.</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">         * the SWJ_CFG bits are write only.  (read is explicitly undefined)</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment">         * To be sure we set only the bits we want we must clear them first.</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">         * However, we are still trying to only enable the map bits desired.</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        uint32_t reg = <a class="code" href="group__gpio__defines.html#gae4983ba45516afa359733c5515ffe233">AFIO_MAPR</a> &amp; ~<a class="code" href="group__afio__swj__disable.html#ga29fff43023c3494539c938f107764416">AFIO_MAPR_SWJ_MASK</a>;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="group__gpio__defines.html#gae4983ba45516afa359733c5515ffe233">AFIO_MAPR</a> = reg | swjdisable | maps;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;}</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="comment">/** @brief Map Alternate Function Port Bits (Secondary Set)</span></div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="comment">The AFIO remapping feature is used only with the STM32F10x series.</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="comment">@param[in] maps Unsigned int32. Bitwise OR of map enable controls from @ref</span></div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="comment">afio_remap2</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00188"></a><span class="lineno"><a class="line" href="group__gpio__file.html#ga3e5ba590258c8bb68b11ffb52d02ecb7">  188</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga3e5ba590258c8bb68b11ffb52d02ecb7">gpio_secondary_remap</a>(uint32_t maps)</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;{</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <a class="code" href="group__gpio__defines.html#gaf56a5ab920e31a5ee165baa43cde3a27">AFIO_MAPR2</a> |= maps;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;}</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="comment">A number of alternate function ports can be remapped to defined alternative</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="comment">port bits to avoid clashes in cases where multiple alternate functions are</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="comment">present.  Refer to the datasheets for the particular mapping desired. This</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="comment">provides the second smaller and less used set of remap functionality. See @ref</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="comment">gpio_primary_remap for the main set of remaps.</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="comment">The AFIO remapping feature is used only with the STM32F10x series.</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<span class="comment">@param[in] maps Unsigned int32. Bitwise OR of map enable controls from @ref</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="comment">afio_remap2</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno"><a class="line" href="group__gpio__file.html#ga3e5ba590258c8bb68b11ffb52d02ecb7">  194</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__gpio__file.html#ga3e5ba590258c8bb68b11ffb52d02ecb7">gpio_secondary_remap</a>(uint32_t maps)</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;{</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <a class="code" href="group__gpio__defines.html#gaf56a5ab920e31a5ee165baa43cde3a27">AFIO_MAPR2</a> |= maps;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;}</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
 <div class="ttc" id="group__gpio__file_html_gabab0dfbc150f8658cea822421f5f6ac1"><div class="ttname"><a href="group__gpio__file.html#gabab0dfbc150f8658cea822421f5f6ac1">gpio_set_eventout</a></div><div class="ttdeci">void gpio_set_eventout(uint8_t evoutport, uint8_t evoutpin)</div><div class="ttdoc">Map the EVENTOUT signal. </div><div class="ttdef"><b>Definition:</b> <a href="gpio_8c_source.html#l00141">gpio.c:141</a></div></div>
 <div class="ttc" id="group__gpio__defines_html_gaececd10abafc7c089e25b664523bd6f3"><div class="ttname"><a href="group__gpio__defines.html#gaececd10abafc7c089e25b664523bd6f3">GPIO_CRH</a></div><div class="ttdeci">#define GPIO_CRH(port)</div><div class="ttdef"><b>Definition:</b> <a href="gpio_8h_source.html#l00536">gpio.h:536</a></div></div>
 <div class="ttc" id="group__gpio__file_html_ga793f728ea95a83f58e1d27d07d2fe0eb"><div class="ttname"><a href="group__gpio__file.html#ga793f728ea95a83f58e1d27d07d2fe0eb">gpio_primary_remap</a></div><div class="ttdeci">void gpio_primary_remap(uint32_t swjdisable, uint32_t maps)</div><div class="ttdoc">Map Alternate Function Port Bits (Main Set) </div><div class="ttdef"><b>Definition:</b> <a href="gpio_8c_source.html#l00169">gpio.c:169</a></div></div>
@@ -338,14 +344,14 @@ $(document).ready(function(){initNavTree('gpio_8c_source.html','');});
 <div class="ttc" id="group__gpio__defines_html_ga90bab4153925083cd23931c7d6507df6"><div class="ttname"><a href="group__gpio__defines.html#ga90bab4153925083cd23931c7d6507df6">AFIO_EVCR</a></div><div class="ttdeci">#define AFIO_EVCR</div><div class="ttdef"><b>Definition:</b> <a href="gpio_8h_source.html#l00662">gpio.h:662</a></div></div>
 <div class="ttc" id="group__gpio__defines_html_gae4983ba45516afa359733c5515ffe233"><div class="ttname"><a href="group__gpio__defines.html#gae4983ba45516afa359733c5515ffe233">AFIO_MAPR</a></div><div class="ttdeci">#define AFIO_MAPR</div><div class="ttdef"><b>Definition:</b> <a href="gpio_8h_source.html#l00665">gpio.h:665</a></div></div>
 <div class="ttc" id="group__gpio__file_html_gae4a927a78f0ed245472ba05de9c7e940"><div class="ttname"><a href="group__gpio__file.html#gae4a927a78f0ed245472ba05de9c7e940">gpio_set_mode</a></div><div class="ttdeci">void gpio_set_mode(uint32_t gpioport, uint8_t mode, uint8_t cnf, uint16_t gpios)</div><div class="ttdoc">Set GPIO Pin Mode. </div><div class="ttdef"><b>Definition:</b> <a href="gpio_8c_source.html#l00095">gpio.c:95</a></div></div>
-<div class="ttc" id="group__gpio__file_html_ga3e5ba590258c8bb68b11ffb52d02ecb7"><div class="ttname"><a href="group__gpio__file.html#ga3e5ba590258c8bb68b11ffb52d02ecb7">gpio_secondary_remap</a></div><div class="ttdeci">void gpio_secondary_remap(uint32_t maps)</div><div class="ttdoc">Map Alternate Function Port Bits (Secondary Set) </div><div class="ttdef"><b>Definition:</b> <a href="gpio_8c_source.html#l00188">gpio.c:188</a></div></div>
+<div class="ttc" id="group__gpio__file_html_ga3e5ba590258c8bb68b11ffb52d02ecb7"><div class="ttname"><a href="group__gpio__file.html#ga3e5ba590258c8bb68b11ffb52d02ecb7">gpio_secondary_remap</a></div><div class="ttdeci">void gpio_secondary_remap(uint32_t maps)</div><div class="ttdoc">Map Alternate Function Port Bits (Secondary Set) </div><div class="ttdef"><b>Definition:</b> <a href="gpio_8c_source.html#l00194">gpio.c:194</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_bf0eb9e8e0931d11dae58c0d8e3d737d.html">f1</a></li><li class="navelem"><a class="el" href="gpio_8c.html">gpio.c</a></li>
-    <li class="footer">Generated on Wed Feb 17 2016 18:21:25 for libopencm3 by
+    <li class="footer">Generated on Sun Feb 28 2016 19:21:36 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

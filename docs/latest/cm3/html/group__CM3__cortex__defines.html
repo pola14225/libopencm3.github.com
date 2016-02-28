@@ -170,12 +170,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gab3105858d73c77436822df3e9f4a0de6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__defines.html#gab3105858d73c77436822df3e9f4a0de6">cm_is_masked_faults</a> (void)</td></tr>
 <tr class="memdesc:gab3105858d73c77436822df3e9f4a0de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cortex M Check if Fault interrupt is masked.  <a href="#gab3105858d73c77436822df3e9f4a0de6">More...</a><br /></td></tr>
 <tr class="separator:gab3105858d73c77436822df3e9f4a0de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2cd22ed39720f21f182064caaa9ee05a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__defines.html#ga2cd22ed39720f21f182064caaa9ee05a">cm_mask_interrupts</a> (bool mask)</td></tr>
-<tr class="memdesc:ga2cd22ed39720f21f182064caaa9ee05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cortex M Mask interrupts.  <a href="#ga2cd22ed39720f21f182064caaa9ee05a">More...</a><br /></td></tr>
-<tr class="separator:ga2cd22ed39720f21f182064caaa9ee05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2716cd387030655888a4b35b766e0800"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__defines.html#ga2716cd387030655888a4b35b766e0800">cm_mask_faults</a> (bool mask)</td></tr>
-<tr class="memdesc:ga2716cd387030655888a4b35b766e0800"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cortex M Mask HardFault interrupt.  <a href="#ga2716cd387030655888a4b35b766e0800">More...</a><br /></td></tr>
-<tr class="separator:ga2716cd387030655888a4b35b766e0800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf18d826285fad19472b328742eae6c6b"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__defines.html#gaf18d826285fad19472b328742eae6c6b">cm_mask_interrupts</a> (uint32_t mask)</td></tr>
+<tr class="memdesc:gaf18d826285fad19472b328742eae6c6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cortex M Mask interrupts.  <a href="#gaf18d826285fad19472b328742eae6c6b">More...</a><br /></td></tr>
+<tr class="separator:gaf18d826285fad19472b328742eae6c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf0b2e04fd9377b5e0272edc3e19ba880"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CM3__cortex__defines.html#gaf0b2e04fd9377b5e0272edc3e19ba880">cm_mask_faults</a> (uint32_t mask)</td></tr>
+<tr class="memdesc:gaf0b2e04fd9377b5e0272edc3e19ba880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cortex M Mask HardFault interrupt.  <a href="#gaf0b2e04fd9377b5e0272edc3e19ba880">More...</a><br /></td></tr>
+<tr class="separator:gaf0b2e04fd9377b5e0272edc3e19ba880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>libopencm3 Defined Constants and Types for the Cortex Core </b> </p>
@@ -358,7 +358,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga2716cd387030655888a4b35b766e0800"></a>
+<a class="anchor" id="gaf0b2e04fd9377b5e0272edc3e19ba880"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -366,9 +366,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool cm_mask_faults </td>
+          <td class="memname">static uint32_t cm_mask_faults </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>mask</em></td><td>)</td>
           <td></td>
         </tr>
@@ -384,17 +384,17 @@ Functions</h2></td></tr>
 <p>This function switches the mask of the HardFault interrupt. If mask is true, the HardFault interrupt will be disabled. The result of this function can be used for restoring previous state of the mask.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mask</td><td>bool New state of the HardFault interrupt mask </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mask</td><td>uint32_t New state of the HardFault interrupt mask </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bool old state of the HardFault interrupt mask </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>uint32_t old state of the HardFault interrupt mask </dd></dl>
 
 <p>Definition at line <a class="el" href="cortex_8h_source.html#l00140">140</a> of file <a class="el" href="cortex_8h_source.html">cortex.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ga2cd22ed39720f21f182064caaa9ee05a"></a>
+<a class="anchor" id="gaf18d826285fad19472b328742eae6c6b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -402,9 +402,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool cm_mask_interrupts </td>
+          <td class="memname">static uint32_t cm_mask_interrupts </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>mask</em></td><td>)</td>
           <td></td>
         </tr>
@@ -420,11 +420,11 @@ Functions</h2></td></tr>
 <p>This function switches the mask of the interrupts. If mask is true, the interrupts will be disabled. The result of this function can be used for restoring previous state of the mask.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mask</td><td>bool New state of the interrupt mask </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mask</td><td>uint32_t New state of the interrupt mask </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bool old state of the interrupt mask </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>uint32_t old state of the interrupt mask </dd></dl>
 
 <p>Definition at line <a class="el" href="cortex_8h_source.html#l00120">120</a> of file <a class="el" href="cortex_8h_source.html">cortex.h</a>.</p>
 
@@ -433,9 +433,9 @@ Functions</h2></td></tr>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__CM3__cortex__defines_ga2cd22ed39720f21f182064caaa9ee05a_icgraph.png" border="0" usemap="#group__CM3__cortex__defines_ga2cd22ed39720f21f182064caaa9ee05a_icgraph" alt=""/></div>
-<map name="group__CM3__cortex__defines_ga2cd22ed39720f21f182064caaa9ee05a_icgraph" id="group__CM3__cortex__defines_ga2cd22ed39720f21f182064caaa9ee05a_icgraph">
-<area shape="rect" id="node2" href="group__CM3__cortex__atomic__defines.html#ga3250af4be4a3a81baae03814d898c507" title="__cm_atomic_set" alt="" coords="193,5,319,32"/></map>
+<div class="center"><img src="group__CM3__cortex__defines_gaf18d826285fad19472b328742eae6c6b_icgraph.png" border="0" usemap="#group__CM3__cortex__defines_gaf18d826285fad19472b328742eae6c6b_icgraph" alt=""/></div>
+<map name="group__CM3__cortex__defines_gaf18d826285fad19472b328742eae6c6b_icgraph" id="group__CM3__cortex__defines_gaf18d826285fad19472b328742eae6c6b_icgraph">
+<area shape="rect" id="node2" href="group__CM3__cortex__atomic__defines.html#ga63d8cc4da4cf40652535e8af71a5675b" title="__cm_atomic_set" alt="" coords="193,5,319,32"/></map>
 </div>
 </p>
 
@@ -446,7 +446,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Feb 17 2016 18:21:12 for libopencm3 by
+    <li class="footer">Generated on Sun Feb 28 2016 19:21:18 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
