@@ -299,8 +299,8 @@ $(document).ready(function(){initNavTree('flash__common__f01_8c_source.html','')
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
 <div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="group__flash__file.html#ga73937aa6df8710e95425b165730626a2">  165</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__flash__file.html#ga73937aa6df8710e95425b165730626a2">flash_program_word</a>(uint32_t address, uint32_t data)</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;{</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <a class="code" href="group__flash__defines.html#gaf5077b5726c70fa9418db9d73182f89d">flash_program_half_word</a>(address, (uint16_t)data);</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="group__flash__defines.html#gaf5077b5726c70fa9418db9d73182f89d">flash_program_half_word</a>(address+2, (uint16_t)(data&gt;&gt;16));</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <a class="code" href="group__flash__defines.html#gaf5077b5726c70fa9418db9d73182f89d">flash_program_half_word</a>(address, (uint16_t)data);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <a class="code" href="group__flash__defines.html#gaf5077b5726c70fa9418db9d73182f89d">flash_program_half_word</a>(address+2, (uint16_t)(data&gt;&gt;16));</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;}</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="comment">/*---------------------------------------------------------------------------*/</span><span class="comment"></span></div>
@@ -408,7 +408,7 @@ $(document).ready(function(){initNavTree('flash__common__f01_8c_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6c0c766218f8d9406171b3590f525a33.html">lib</a></li><li class="navelem"><a class="el" href="dir_55eaf1e33010ef6e6239f6fb75078880.html">stm32</a></li><li class="navelem"><a class="el" href="dir_2cc908344f7c033af6399289af991fc7.html">common</a></li><li class="navelem"><a class="el" href="flash__common__f01_8c.html">flash_common_f01.c</a></li>
-    <li class="footer">Generated on Mon Feb 29 2016 22:22:13 for libopencm3 by
+    <li class="footer">Generated on Mon Feb 29 2016 23:22:07 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
