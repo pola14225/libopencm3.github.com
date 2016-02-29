@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"struct__usbd__device.html#a6b3d87c5e3236d5402aa6b43448eedf7":[4,1,7,0,19],
-"struct__usbd__device.html#a72a6261b52abbe62672c230967268d59":[4,1,7,0,5],
 "struct__usbd__device.html#a76f748749894cc0316e3e95ea7a8be27":[4,1,7,0,15],
 "struct__usbd__device.html#abf8c97de9264969c27b342cc569a8ed9":[4,1,7,0,6],
 "struct__usbd__device.html#ac28d5ce184bf3812d6e85be62ce27ea4":[4,1,7,0,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "structusb__midi__out__jack__descriptor__head.html#ac208961c0f43a2c9bb6da46f00f09db6":[4,1,0,4,2],
 "structusb__midi__out__jack__descriptor__tail.html":[4,1,0,6],
 "structusb__midi__out__jack__descriptor__tail.html#a63d1b9c91210db97e930345a5d268616":[4,1,0,6,0],
-"structusb__msc__cbw.html":[28,0,34]
+"structusb__msc__cbw.html":[28,0,34],
+"structusb__msc__cbw.html#a06c9f47162709307ab5f5b68c96a3119":[28,0,34,5],
+"structusb__msc__cbw.html#a10cb317c0fe88d24265168592ed63c6b":[28,0,34,1]
 };

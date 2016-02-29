@@ -12,7 +12,6 @@ var usbd_8h =
       [ "USBD_REQ_HANDLED", "group__usb__driver__defines.html#ggae09dc4bce47d0848ddacbd8b08ef76a7ae44b9555863f8ecd5415bef01cb5779f", null ],
       [ "USBD_REQ_NEXT_CALLBACK", "group__usb__driver__defines.html#ggae09dc4bce47d0848ddacbd8b08ef76a7a2de82a2c4708a6cd78384a3362e86d7f", null ]
     ] ],
-    [ "usbd_cable_connect", "group__usb__driver__defines.html#ga3c83b9f71370e276c4550b25f013d833", null ],
     [ "usbd_disconnect", "group__usb__driver__defines.html#gaef20aadd330e4bb9e97635eeb751d8f9", null ],
     [ "usbd_ep_nak_set", "group__usb__driver__defines.html#ga2f2a7dac5031fd8d1b5eb076d3f24b42", null ],
     [ "usbd_ep_read_packet", "group__usb__driver__defines.html#gabd42dc86361dbf9c639fd883ada1f572", null ],

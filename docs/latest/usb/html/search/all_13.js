@@ -96,7 +96,6 @@ var searchData=
   ['usb_5ftransaction_5fsetup',['USB_TRANSACTION_SETUP',['../group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018',1,'usb_private.h']]],
   ['usb_20standard_20structure_20definitions',['USB Standard Structure Definitions',['../group__usb__type__defines.html',1,'']]],
   ['usbd_2eh',['usbd.h',['../usbd_8h.html',1,'']]],
-  ['usbd_5fcable_5fconnect',['usbd_cable_connect',['../group__usb__driver__defines.html#ga3c83b9f71370e276c4550b25f013d833',1,'usbd.h']]],
   ['usbd_5fcontrol_5fcallback',['usbd_control_callback',['../group__usb__driver__defines.html#gad2b25a7c2bc9f4f34a7295c552761f2a',1,'usbd.h']]],
   ['usbd_5fcontrol_5fcomplete_5fcallback',['usbd_control_complete_callback',['../group__usb__driver__defines.html#gaf45f1c81b5fb2550d2f99902eaa2f389',1,'usbd.h']]],
   ['usbd_5fdev',['usbd_dev',['../struct__usbd__mass__storage.html#a9fec9c49a4e06c7ede13d4b3418eea19',1,'_usbd_mass_storage::usbd_dev()'],['../usb__f107_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f107.c'],['../usb__f207_8c.html#a4ea025cca3cc88b8f4000413d174db1c',1,'usbd_dev():&#160;usb_f207.c']]],

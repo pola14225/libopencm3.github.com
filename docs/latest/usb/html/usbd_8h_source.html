@@ -324,15 +324,12 @@ $(document).ready(function(){initNavTree('usbd_8h_source.html','');});
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga2f2a7dac5031fd8d1b5eb076d3f24b42">usbd_ep_nak_set</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t addr, uint8_t nak);</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<span class="comment">/* Optional */</span></div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__usb__driver__defines.html#ga3c83b9f71370e276c4550b25f013d833">usbd_cable_connect</a>(<a class="code" href="struct__usbd__device.html">usbd_device</a> *usbd_dev, uint8_t on);</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;END_DECLS</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="comment">/**@}*/</span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;END_DECLS</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="comment">/**@}*/</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
 <div class="ttc" id="group__usb__driver__defines_html_gaadc222d45c63e01811952f8478ac7943"><div class="ttname"><a href="group__usb__driver__defines.html#gaadc222d45c63e01811952f8478ac7943">usbd_ep_setup</a></div><div class="ttdeci">void usbd_ep_setup(usbd_device *usbd_dev, uint8_t addr, uint8_t type, uint16_t max_size, usbd_endpoint_callback callback)</div><div class="ttdoc">Setup an endpoint. </div><div class="ttdef"><b>Definition:</b> <a href="usb_8c_source.html#l00123">usb.c:123</a></div></div>
 <div class="ttc" id="group__usb__driver__defines_html_ggae09dc4bce47d0848ddacbd8b08ef76a7ae6fb6de05148b303504d1f2855534495"><div class="ttname"><a href="group__usb__driver__defines.html#ggae09dc4bce47d0848ddacbd8b08ef76a7ae6fb6de05148b303504d1f2855534495">USBD_REQ_NOTSUPP</a></div><div class="ttdef"><b>Definition:</b> <a href="usbd_8h_source.html#l00047">usbd.h:47</a></div></div>
 <div class="ttc" id="group__usb__driver__defines_html_ga396b34ccbe5bf6718417ef3ee0c3b788"><div class="ttname"><a href="group__usb__driver__defines.html#ga396b34ccbe5bf6718417ef3ee0c3b788">usbd_ep_stall_get</a></div><div class="ttdeci">uint8_t usbd_ep_stall_get(usbd_device *usbd_dev, uint8_t addr)</div><div class="ttdoc">Get STALL status of an endpoint. </div><div class="ttdef"><b>Definition:</b> <a href="usb_8c_source.html#l00146">usb.c:146</a></div></div>
@@ -366,7 +363,6 @@ $(document).ready(function(){initNavTree('usbd_8h_source.html','');});
 <div class="ttc" id="group__usb__driver__defines_html_ga384a75f1c1a8c37d6e992ac9e244b82a"><div class="ttname"><a href="group__usb__driver__defines.html#ga384a75f1c1a8c37d6e992ac9e244b82a">st_usbfs_v2_usb_driver</a></div><div class="ttdeci">const usbd_driver st_usbfs_v2_usb_driver</div></div>
 <div class="ttc" id="group__usb__driver__defines_html_gad8e688f14cac90c4933954e3ebbfc3b7"><div class="ttname"><a href="group__usb__driver__defines.html#gad8e688f14cac90c4933954e3ebbfc3b7">usbd_register_sof_callback</a></div><div class="ttdeci">void usbd_register_sof_callback(usbd_device *usbd_dev, void(*callback)(void))</div><div class="ttdoc">Registers a SOF callback. </div><div class="ttdef"><b>Definition:</b> <a href="usb_8c_source.html#l00092">usb.c:92</a></div></div>
 <div class="ttc" id="group__usb__driver__defines_html_gaef20aadd330e4bb9e97635eeb751d8f9"><div class="ttname"><a href="group__usb__driver__defines.html#gaef20aadd330e4bb9e97635eeb751d8f9">usbd_disconnect</a></div><div class="ttdeci">void usbd_disconnect(usbd_device *usbd_dev, bool disconnected)</div><div class="ttdoc">Disconnect, if supported by the driver. </div><div class="ttdef"><b>Definition:</b> <a href="usb_8c_source.html#l00115">usb.c:115</a></div></div>
-<div class="ttc" id="group__usb__driver__defines_html_ga3c83b9f71370e276c4550b25f013d833"><div class="ttname"><a href="group__usb__driver__defines.html#ga3c83b9f71370e276c4550b25f013d833">usbd_cable_connect</a></div><div class="ttdeci">void usbd_cable_connect(usbd_device *usbd_dev, uint8_t on)</div></div>
 <div class="ttc" id="group__usb__driver__defines_html_gaedececd5f821e314f2245a43aafbd12b"><div class="ttname"><a href="group__usb__driver__defines.html#gaedececd5f821e314f2245a43aafbd12b">usbd_set_altsetting_callback</a></div><div class="ttdeci">void(* usbd_set_altsetting_callback)(usbd_device *usbd_dev, uint16_t wIndex, uint16_t wValue)</div><div class="ttdef"><b>Definition:</b> <a href="usbd_8h_source.html#l00116">usbd.h:116</a></div></div>
 <div class="ttc" id="group__usb__driver__defines_html_ga5adac4ccb88c72946fa692670d0bfc16"><div class="ttname"><a href="group__usb__driver__defines.html#ga5adac4ccb88c72946fa692670d0bfc16">stm32f107_usb_driver</a></div><div class="ttdeci">const usbd_driver stm32f107_usb_driver</div><div class="ttdef"><b>Definition:</b> <a href="usb__f107_8c_source.html#l00035">usb_f107.c:35</a></div></div>
 <div class="ttc" id="group__usb__driver__defines_html_ggae09dc4bce47d0848ddacbd8b08ef76a7ae44b9555863f8ecd5415bef01cb5779f"><div class="ttname"><a href="group__usb__driver__defines.html#ggae09dc4bce47d0848ddacbd8b08ef76a7ae44b9555863f8ecd5415bef01cb5779f">USBD_REQ_HANDLED</a></div><div class="ttdef"><b>Definition:</b> <a href="usbd_8h_source.html#l00048">usbd.h:48</a></div></div>
@@ -382,7 +378,7 @@ $(document).ready(function(){initNavTree('usbd_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_279c362110dd2b35533c167407ad7c7c.html">usb</a></li><li class="navelem"><a class="el" href="usbd_8h.html">usbd.h</a></li>
-    <li class="footer">Generated on Sun Feb 28 2016 19:21:20 for libopencm3 by
+    <li class="footer">Generated on Mon Feb 29 2016 22:21:22 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

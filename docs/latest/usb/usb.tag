@@ -1755,13 +1755,6 @@
       <anchor>ga2f2a7dac5031fd8d1b5eb076d3f24b42</anchor>
       <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t nak)</arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usbd_cable_connect</name>
-      <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga3c83b9f71370e276c4550b25f013d833</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t on)</arglist>
-    </member>
     <member kind="variable">
       <type>BEGIN_DECLS enum usbd_request_return_codes</type>
       <name>__attribute__</name>
@@ -4526,13 +4519,6 @@
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>ga2f2a7dac5031fd8d1b5eb076d3f24b42</anchor>
       <arglist>(usbd_device *usbd_dev, uint8_t addr, uint8_t nak)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>usbd_cable_connect</name>
-      <anchorfile>group__usb__driver__defines.html</anchorfile>
-      <anchor>ga3c83b9f71370e276c4550b25f013d833</anchor>
-      <arglist>(usbd_device *usbd_dev, uint8_t on)</arglist>
     </member>
     <member kind="variable">
       <type>BEGIN_DECLS enum usbd_request_return_codes</type>
