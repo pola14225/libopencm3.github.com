@@ -2598,9 +2598,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CR_CSSEON</name>
+      <name>RCC_CR_CSSON</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gafce572787dfee5b1ffa844265d930b34</anchor>
+      <anchor>gacc05308869ad055e1e6f2c32d738aecd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -7029,9 +7029,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_CR_CSSEON</name>
+      <name>RCC_CR_CSSON</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>gafce572787dfee5b1ffa844265d930b34</anchor>
+      <anchor>gacc05308869ad055e1e6f2c32d738aecd</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">

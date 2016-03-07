@@ -381,7 +381,7 @@ var rcc_8h =
     [ "RCC_CIFR_PLLSAI1RDYF", "group__rcc__defines.html#gac34294bfbeda24a1223564ab7e682d2d", null ],
     [ "RCC_CIFR_PLLSAI2RDYF", "group__rcc__defines.html#ga3b6794c26ece8d674ef2ed1412125bbf", null ],
     [ "RCC_CR", "group__rcc__defines.html#ga3465fac46f8d87fc7e243765777af052", null ],
-    [ "RCC_CR_CSSEON", "group__rcc__defines.html#gafce572787dfee5b1ffa844265d930b34", null ],
+    [ "RCC_CR_CSSON", "group__rcc__defines.html#gacc05308869ad055e1e6f2c32d738aecd", null ],
     [ "RCC_CR_HSEBYP", "group__rcc__defines.html#gaa3288090671af5a959aae4d7f7696d55", null ],
     [ "RCC_CR_HSEON", "group__rcc__defines.html#gadb8228c9020595b4cf9995137b8c9a7d", null ],
     [ "RCC_CR_HSERDY", "group__rcc__defines.html#ga86a34e00182c83409d89ff566cb02cc4", null ],
