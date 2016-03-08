@@ -708,7 +708,7 @@ Here is the caller graph for this function:</div>
 
 <p>System clock frequency. </p>
 <p>This variable is provided to keep track of the system clock frequency. It should be updated every time the system clock is changed via the fine-grained mechanisms. The initial value is 16MHz, which corresponds to the clock of the internal 16MHz oscillator.</p>
-<p>High-level routines update the system clock automatically. For read access, it is recommended to acces this variable via </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;rcc_get_system_clock_frequency();</div>
+<p>High-level routines update the system clock automatically. For read access, it is recommended to access this variable via </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;rcc_get_system_clock_frequency();</div>
 </div><!-- fragment --><p>If write access is desired (i.e. when changing the system clock via the fine-grained mechanisms), then include the following line in your code: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;extern uint32_t lm4f_rcc_sysclk_freq;</div>
 </div><!-- fragment --> 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00106">106</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
@@ -722,7 +722,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Mar 7 2016 01:22:29 for libopencm3 by
+    <li class="footer">Generated on Tue Mar 8 2016 20:22:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

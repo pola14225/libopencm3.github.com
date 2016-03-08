@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" href="$group__CM3__defines.html" title="Defined Constants and Types for Cortex M3 core features. " alt="" coords="5,132,104,159"/>
 <area shape="rect" id="node2" href="$group__CM3__mpu__rnr.html" title="Defines for the Region Number Register. " alt="" coords="305,5,473,32"/>
 <area shape="rect" id="node3" href="$group__CM3__mpu__ctrl.html" title="Defines for the Control Register. " alt="" coords="303,56,476,83"/>
-<area shape="rect" id="node4" href="$group__CM3__mpu__type.html" title="The MPU_TYPE register is always avilable, even if the MPU is not implemented. " alt="" coords="303,107,476,133"/>
+<area shape="rect" id="node4" href="$group__CM3__mpu__type.html" title="The MPU_TYPE register is always available, even if the MPU is not implemented. " alt="" coords="303,107,476,133"/>
 <area shape="rect" id="node5" href="$group__CM3__mpu__rbar.html" title="Defines for the Region Base Address Register. " alt="" coords="301,157,477,184"/>
 <area shape="rect" id="node7" href="$group__CM3__mpu__rasr.html" title="Defines for the Region Attribute and Size Register. " alt="" coords="301,208,477,235"/>
 <area shape="rect" id="node8" href="$group__CM3__mpu__registers.html" title="MPU Registers" alt="" coords="333,259,445,285"/>

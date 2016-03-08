@@ -392,7 +392,7 @@ $(document).ready(function(){initNavTree('uart_8c_source.html','');});
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment"> * \brief &lt;b&gt;Sending and receiving data through the UART&lt;/b&gt;</span></div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment"> * Primitives for sending and recieving data are provided, @ref uart_send() and</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment"> * Primitives for sending and receiving data are provided, @ref uart_send() and</span></div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="comment"> * @ref uart_recv(). These primitives do not check if data can be transmitted</span></div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment"> * or wait for data. If waiting until data is available or can be transmitted is</span></div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="comment"> * desired, blocking primitives are also available, @ref uart_send_blocking()</span></div>
@@ -543,7 +543,7 @@ $(document).ready(function(){initNavTree('uart_8c_source.html','');});
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;<span class="comment"> *              serviced_irq |= UART_INT_CTS;</span></div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;<span class="comment"> *      }</span></div>
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;<span class="comment"> *      // Clear the interupt flag for the processed IRQs</span></div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;<span class="comment"> *      // Clear the interrupt flag for the processed IRQs</span></div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;<span class="comment"> *      uart_clear_interrupt_flag(UART0, serviced_irqs);</span></div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;<span class="comment"> * }</span></div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;<span class="comment"> * @endcode</span></div>
@@ -793,7 +793,7 @@ $(document).ready(function(){initNavTree('uart_8c_source.html','');});
 <div class="ttc" id="group__uart__defines_html_gafc8eff880490901a538ee6ea23364d18"><div class="ttname"><a href="group__uart__defines.html#gafc8eff880490901a538ee6ea23364d18">UART_CC_CS_SYSCLK</a></div><div class="ttdeci">#define UART_CC_CS_SYSCLK</div><div class="ttdef"><b>Definition:</b> <a href="uart_8h_source.html#l00358">uart.h:358</a></div></div>
 <div class="ttc" id="group__uart__config_html_gadafb5a1c4596fb687bdc99dff191d88f"><div class="ttname"><a href="group__uart__config.html#gadafb5a1c4596fb687bdc99dff191d88f">uart_set_databits</a></div><div class="ttdeci">void uart_set_databits(uint32_t uart, uint8_t databits)</div><div class="ttdoc">Set UART databits. </div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00139">uart.c:139</a></div></div>
 <div class="ttc" id="group__uart__irq_html_ga2fdf35d91a90e2452368b0358d942f93"><div class="ttname"><a href="group__uart__irq.html#ga2fdf35d91a90e2452368b0358d942f93">uart_disable_interrupts</a></div><div class="ttdeci">void uart_disable_interrupts(uint32_t uart, enum uart_interrupt_flag ints)</div><div class="ttdoc">Enable Specific UART Interrupts. </div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00446">uart.c:446</a></div></div>
-<div class="ttc" id="group__uart__defines_html_gad01fa53a8abced4fbc821b3c34289d1a"><div class="ttname"><a href="group__uart__defines.html#gad01fa53a8abced4fbc821b3c34289d1a">UART_DMACTL_RXDMAE</a></div><div class="ttdeci">#define UART_DMACTL_RXDMAE</div><div class="ttdoc">Recieve DMA enable. </div><div class="ttdef"><b>Definition:</b> <a href="uart_8h_source.html#l00323">uart.h:323</a></div></div>
+<div class="ttc" id="group__uart__defines_html_gad01fa53a8abced4fbc821b3c34289d1a"><div class="ttname"><a href="group__uart__defines.html#gad01fa53a8abced4fbc821b3c34289d1a">UART_DMACTL_RXDMAE</a></div><div class="ttdeci">#define UART_DMACTL_RXDMAE</div><div class="ttdoc">Receive DMA enable. </div><div class="ttdef"><b>Definition:</b> <a href="uart_8h_source.html#l00323">uart.h:323</a></div></div>
 <div class="ttc" id="group__uart__send__recv_html_ga5a7498f353526e8cb9e6c8bc5735d1f1"><div class="ttname"><a href="group__uart__send__recv.html#ga5a7498f353526e8cb9e6c8bc5735d1f1">uart_recv_blocking</a></div><div class="ttdeci">uint16_t uart_recv_blocking(uint32_t uart)</div><div class="ttdoc">UART Read a Received Data Word with Blocking. </div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00344">uart.c:344</a></div></div>
 <div class="ttc" id="group__uart__defines_html_gaa97170d41c922b22fbcee85d846d9723"><div class="ttname"><a href="group__uart__defines.html#gaa97170d41c922b22fbcee85d846d9723">UART_IFLS</a></div><div class="ttdeci">#define UART_IFLS(uart_base)</div><div class="ttdef"><b>Definition:</b> <a href="uart_8h_source.html#l00089">uart.h:89</a></div></div>
 <div class="ttc" id="group__uart__defines_html_ga237d4a08c2819e668fb7d7fb5ad308cd"><div class="ttname"><a href="group__uart__defines.html#ga237d4a08c2819e668fb7d7fb5ad308cd">UART_DMACTL_TXDMAE</a></div><div class="ttdeci">#define UART_DMACTL_TXDMAE</div><div class="ttdoc">Transmit DMA enable. </div><div class="ttdef"><b>Definition:</b> <a href="uart_8h_source.html#l00321">uart.h:321</a></div></div>
@@ -844,7 +844,7 @@ $(document).ready(function(){initNavTree('uart_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_12fee2a8ab17b1bb753631ffb3fddc2a.html">lm4f</a></li><li class="navelem"><a class="el" href="uart_8c.html">uart.c</a></li>
-    <li class="footer">Generated on Mon Mar 7 2016 01:22:29 for libopencm3 by
+    <li class="footer">Generated on Tue Mar 8 2016 20:22:30 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
