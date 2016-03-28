@@ -21401,23 +21401,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM_SMCR_TS_IT1F_ED</name>
+      <name>TIM_SMCR_TS_TI1F_ED</name>
       <anchorfile>group__tim__ts.html</anchorfile>
-      <anchor>gab991e8491157b0d41a3e794b576263f1</anchor>
+      <anchor>gabc9e47ff6c9b598162b179b619bd09a0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM_SMCR_TS_IT1FP1</name>
+      <name>TIM_SMCR_TS_TI1FP1</name>
       <anchorfile>group__tim__ts.html</anchorfile>
-      <anchor>ga445955937d10bcfb9ca45308339769e6</anchor>
+      <anchor>ga3d8d692e2786263849001fbf6790301f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM_SMCR_TS_IT1FP2</name>
+      <name>TIM_SMCR_TS_TI2FP2</name>
       <anchorfile>group__tim__ts.html</anchorfile>
-      <anchor>gac0ba6562d9d4f69e883a752c1926df4a</anchor>
+      <anchor>gabcf91f34b038dbc00552955525219ec0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -45300,23 +45300,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM_SMCR_TS_IT1F_ED</name>
+      <name>TIM_SMCR_TS_TI1F_ED</name>
       <anchorfile>group__tim__ts.html</anchorfile>
-      <anchor>gab991e8491157b0d41a3e794b576263f1</anchor>
+      <anchor>gabc9e47ff6c9b598162b179b619bd09a0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM_SMCR_TS_IT1FP1</name>
+      <name>TIM_SMCR_TS_TI1FP1</name>
       <anchorfile>group__tim__ts.html</anchorfile>
-      <anchor>ga445955937d10bcfb9ca45308339769e6</anchor>
+      <anchor>ga3d8d692e2786263849001fbf6790301f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>TIM_SMCR_TS_IT1FP2</name>
+      <name>TIM_SMCR_TS_TI2FP2</name>
       <anchorfile>group__tim__ts.html</anchorfile>
-      <anchor>gac0ba6562d9d4f69e883a752c1926df4a</anchor>
+      <anchor>gabcf91f34b038dbc00552955525219ec0</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
