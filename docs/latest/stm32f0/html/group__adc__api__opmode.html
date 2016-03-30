@@ -153,12 +153,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga366654c02369a57e3a79cb395966fbeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__opmode.html#ga366654c02369a57e3a79cb395966fbeb">adc_set_continuous_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga366654c02369a57e3a79cb395966fbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Continuous Conversion Mode.  <a href="#ga366654c02369a57e3a79cb395966fbeb">More...</a><br /></td></tr>
-<tr class="separator:ga366654c02369a57e3a79cb395966fbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__opmode.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga3b730353f6e1bb97b546101edb6c80c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Single Conversion Mode.  <a href="#ga3b730353f6e1bb97b546101edb6c80c0">More...</a><br /></td></tr>
-<tr class="separator:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9f5205c61cfa5a08d5235704b0bdae90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__opmode.html#ga9f5205c61cfa5a08d5235704b0bdae90">adc_enable_discontinuous_mode</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga9f5205c61cfa5a08d5235704b0bdae90"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Discontinuous Mode for Regular Conversions.  <a href="#ga9f5205c61cfa5a08d5235704b0bdae90">More...</a><br /></td></tr>
 <tr class="separator:ga9f5205c61cfa5a08d5235704b0bdae90"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,7 +184,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00277">277</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00145">145</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -217,9 +211,9 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00093">93</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00064">64</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00066">ADC_CFGR1</a>, and <a class="el" href="adc_8h_source.html#l00136">ADC_CFGR1_DISCEN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00116">ADC_CFGR1_DISCEN</a>.</p>
 
 </div>
 </div>
@@ -245,38 +239,9 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00082">82</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00053">53</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00066">ADC_CFGR1</a>, and <a class="el" href="adc_8h_source.html#l00136">ADC_CFGR1_DISCEN</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga366654c02369a57e3a79cb395966fbeb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void adc_set_continuous_conversion_mode </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>adc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>ADC Enable Continuous Conversion Mode. </p>
-<p>In this mode the ADC starts a new conversion of a single channel or a channel group immediately following completion of the previous channel group conversion.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC base address (<a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>) </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00057">57</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
-
-<p>References <a class="el" href="adc_8h_source.html#l00066">ADC_CFGR1</a>, and <a class="el" href="adc_8h_source.html#l00139">ADC_CFGR1_CONT</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00116">ADC_CFGR1_DISCEN</a>.</p>
 
 </div>
 </div>
@@ -342,38 +307,9 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00155">155</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00126">126</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00066">ADC_CFGR1</a>, <a class="el" href="adc_8h_source.html#l00139">ADC_CFGR1_CONT</a>, <a class="el" href="adc_8h_source.html#l00136">ADC_CFGR1_DISCEN</a>, <a class="el" href="adc_8h_source.html#l00279">ADC_MODE_SCAN</a>, <a class="el" href="adc_8h_source.html#l00280">ADC_MODE_SCAN_INFINITE</a>, and <a class="el" href="adc_8h_source.html#l00278">ADC_MODE_SEQUENTIAL</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga3b730353f6e1bb97b546101edb6c80c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void adc_set_single_conversion_mode </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>adc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>ADC Enable Single Conversion Mode. </p>
-<p>In this mode the ADC performs a conversion of one channel or a channel group and stops.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC base address (<a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>) </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00071">71</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
-
-<p>References <a class="el" href="adc_8h_source.html#l00066">ADC_CFGR1</a>, and <a class="el" href="adc_8h_source.html#l00139">ADC_CFGR1_CONT</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00122">ADC_CFGR1_CONT</a>, <a class="el" href="adc__common__v2_8h_source.html#l00116">ADC_CFGR1_DISCEN</a>, <a class="el" href="adc_8h_source.html#l00147">ADC_MODE_SCAN</a>, <a class="el" href="adc_8h_source.html#l00148">ADC_MODE_SCAN_INFINITE</a>, and <a class="el" href="adc_8h_source.html#l00146">ADC_MODE_SEQUENTIAL</a>.</p>
 
 </div>
 </div>
@@ -382,7 +318,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 29 2016 01:21:28 for libopencm3 by
+    <li class="footer">Generated on Wed Mar 30 2016 20:21:31 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

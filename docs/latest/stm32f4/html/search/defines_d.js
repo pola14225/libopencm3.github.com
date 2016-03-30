@@ -20,7 +20,7 @@ var searchData=
   ['spi5_5fbase',['SPI5_BASE',['../memorymap_8h.html#ac1c58d33414e167d478ecd0e31331dfa',1,'memorymap.h']]],
   ['spi6_5fbase',['SPI6_BASE',['../memorymap_8h.html#af69c602bd348dc0aa1b4e829e40ebb70',1,'memorymap.h']]],
   ['st_5ftsense_5fcal1_5f30c',['ST_TSENSE_CAL1_30C',['../memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6',1,'memorymap.h']]],
-  ['st_5ftsense_5fcal2_5f110',['ST_TSENSE_CAL2_110',['../memorymap_8h.html#a180b2568bd311857514f6f845b36aeb0',1,'memorymap.h']]],
+  ['st_5ftsense_5fcal2_5f110c',['ST_TSENSE_CAL2_110C',['../memorymap_8h.html#aec8ea3ca0b75d7fd5cc5bf6df1539dd0',1,'memorymap.h']]],
   ['st_5fvrefint_5fcal',['ST_VREFINT_CAL',['../memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d',1,'memorymap.h']]],
   ['syscfg_5fbase',['SYSCFG_BASE',['../memorymap_8h.html#a62246020bf3b34b6a4d8d0e84ec79d3d',1,'memorymap.h']]]
 ];

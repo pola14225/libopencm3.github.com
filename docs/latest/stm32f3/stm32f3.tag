@@ -6,13 +6,6 @@
     <filename>adc_8c</filename>
     <member kind="function">
       <type>void</type>
-      <name>adc_off</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_enable_analog_watchdog_regular</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
@@ -139,20 +132,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_enable_eoc_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_eoc_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_enable_eos_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga44f599a778c63636e1de6c5984b3c6b7</anchor>
@@ -167,73 +146,10 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_start_conversion_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_start_conversion_injected</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
       <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_left_aligned</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_right_aligned</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_dma</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_dma</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_continuous_conversion_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_single_conversion_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_sample_time</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
-      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_sample_time_on_all_channels</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
-      <arglist>(uint32_t adc, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -251,24 +167,10 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_set_regular_sequence</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
-      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_set_injected_sequence</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
       <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>adc_eoc</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
-      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -279,23 +181,9 @@
     </member>
     <member kind="function">
       <type>bool</type>
-      <name>adc_eos</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
       <name>adc_eos_injected</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gad6a48b6c1eaf99b59eecf65f6de2cfe3</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>adc_read_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -314,24 +202,17 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_power_on</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_set_clk_prescale</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga84de145d34b425fda2854ce2d0797c71</anchor>
-      <arglist>(uint32_t prescale)</arglist>
+      <anchor>gaa13f44a0450640bfab057bd8bb64dd94</anchor>
+      <arglist>(uint32_t adc, uint32_t prescale)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_multi_mode</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga78cb8303ee1036a3c8019c5653390ea1</anchor>
-      <arglist>(uint32_t mode)</arglist>
+      <anchor>gaa6b95e470c2454150c6157a1a18a43a1</anchor>
+      <arglist>(uint32_t adc, uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -362,41 +243,6 @@
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>adc_set_resolution</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga459708aeaf8e709264c4b96fed706ae3</anchor>
-      <arglist>(uint32_t adc, uint16_t resolution)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_overrun_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga9f618863d8b3ae15dc18035ce894e746</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_overrun_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga154b9e664c58d05e70fb194f9457a61e</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>adc_get_overrun_flag</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gad8748ca84ef6a2301ea78d0a88bdb177</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_clear_overrun_flag</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
       <type>bool</type>
       <name>adc_awd</name>
       <anchorfile>group__adc__file.html</anchorfile>
@@ -405,23 +251,25 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_enable_temperature_sensor</name>
+      <name>adc_enable_regulator</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga9e06102aeaf2f57f34c2b12124bd8be6</anchor>
-      <arglist>()</arglist>
+      <anchor>gaacaa93447c7767aa01b098491a271245</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_disable_temperature_sensor</name>
+      <name>adc_disable_regulator</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaf48a61c4eabe5a06980f2379fe21e250</anchor>
-      <arglist>()</arglist>
+      <anchor>ga392863de891d13da5a318a133f32b6a1</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
   </compound>
   <compound kind="file">
     <name>adc.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f3/</path>
     <filename>adc_8h</filename>
+    <includes id="adc__common__v2_8h" name="adc_common_v2.h" local="no" imported="no">libopencm3/stm32/common/adc_common_v2.h</includes>
+    <includes id="adc__common__v2__multi_8h" name="adc_common_v2_multi.h" local="no" imported="no">libopencm3/stm32/common/adc_common_v2_multi.h</includes>
     <member kind="define">
       <type>#define</type>
       <name>ADC1</name>
@@ -449,13 +297,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>af89e07bd5958276f10d90865d55628ff</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a2bb222f3e414d4be2b2cb14b622d19cc</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -487,13 +328,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_IER</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ac17948b7bd22103fcf7c4c62d8dccdf2</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_IER</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a8b037dfa8b6fef23d2a6d1144bd9ab27</anchor>
@@ -519,13 +353,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>abdf07cf55be4b6ebed5d70e4131fca81</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a1c968682b33c52acd1f3d93e8fe5b8be</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -557,10 +384,38 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>ADC1_CFGR1</name>
+      <anchorfile>adc_8h.html</anchorfile>
+      <anchor>a5c07e7dca6ab93fae85a12836be1a2e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC2_CFGR1</name>
+      <anchorfile>adc_8h.html</anchorfile>
+      <anchor>abdeb7e15084fd8d0bf7c3bcc9473aae8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC3_CFGR1</name>
+      <anchorfile>adc_8h.html</anchorfile>
+      <anchor>a4bc3c2c4614d6a1e0a2a9137aaced28c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC4_CFGR1</name>
+      <anchorfile>adc_8h.html</anchorfile>
+      <anchor>a8fd5268eb4652675dd0c490cebb820fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>ADC_CFGR</name>
       <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aa8af4d4e921f05aac2fb083c9f056407</anchor>
-      <arglist>(adc_base)</arglist>
+      <anchor>a55982d2862e8304173356b4da2f78c0b</anchor>
+      <arglist>(adc)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -592,13 +447,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a11786888a0294a5dcb4bc56065fa7a75</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_SMPR1</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a8088f1d2624782aeb0252f8d1f38e749</anchor>
@@ -624,13 +472,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a77df6d821ac1b23a11f3fb1e1014612c</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR2</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a061182f05ebd33dbef5220162b2d74b4</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -662,13 +503,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_TR1</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a92f86e08300315ee8124fdf8cf400fe7</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_TR1</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a1ceb4c489d13b0c223031059b5e0d174</anchor>
@@ -694,13 +528,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a472bbe21aa25b1887e6af9671a681cd5</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_TR2</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ac7bf46fc69ec8b007836899909177bbd</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -732,13 +559,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_TR3</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ab566c33feeba812f4063c776077d3a58</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_TR3</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a84eff12fbbd6ac016125485e36b5fd5a</anchor>
@@ -764,13 +584,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a0fa09c7e766a9252a61bf70248f34724</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>af41cedc467aa526b7e3634c587be3ca5</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -802,13 +615,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SQR2</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a41a8427da09e0b3b5abc07e6b024cbbf</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_SQR2</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>ad0231e0c9235e2432d58e2ab91b44707</anchor>
@@ -834,13 +640,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>ab63e4d963e0966602ac627f2744d4608</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR3</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a64cc998e26e79d377c38d46350dd4052</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -872,13 +671,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SQR4</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a7e43c13186a1fa6ef674d00a097a45f3</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_SQR4</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a62dd2dfe9ff9f3ae4fe7b151eeec18e3</anchor>
@@ -904,13 +696,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>acab3623db8240e8d2d889aa211e826e8</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_DR</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a0841fb7507b3a845757f4aef66bfb69b</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -942,13 +727,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_JSQR</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a23755c4b6cd9526b23cf9446339705f8</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_JSQR</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a7ae457e7eebea2a92f45d2f5427aba26</anchor>
@@ -974,13 +752,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a280a0722a15f251479dabe340a73d0b3</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_OFR1</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a733578091903c54a9bac14fccedb9eb6</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -1012,13 +783,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_OFR2</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae207ff2a6890f00270b2e2a17b64f983</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_OFR2</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>abac4f55e7d69da1823c8376b5f65d52d</anchor>
@@ -1044,13 +808,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a80a16418b1c60a5fa8dbca52b121b67b</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_OFR3</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a4ae52e37954190b03f1cae61bcb8660c</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -1082,13 +839,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_OFR4</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ad032b488c78c068e26a5500869c15430</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_OFR4</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>afbb000052b662965b75ed4d4935c8f5a</anchor>
@@ -1114,13 +864,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a8faf13fad19e7e400e711b75bca031e5</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JDR1</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a3807fd4fb8f4e9517313512ff7ff415d</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -1152,13 +895,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_JDR2</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a90945a3eb3889eb974900e6aec6241b7</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_JDR2</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>aa3c7518d66e4f67500ccf91157e4b790</anchor>
@@ -1184,13 +920,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a0ecbb9dbb43b93945cdffc31574d5bfc</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JDR3</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a61cae18d395c255d4a35d6b2315ed3d9</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -1222,13 +951,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_JDR4</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a72603babce1f8310aeca27f2001bb468</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_JDR4</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a477e0ea8e64c6d795af5db339958803d</anchor>
@@ -1254,13 +976,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>af7369039bd835649fc9d599feca984cc</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_AWD2CR</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a3efa41c068ac36a6dfca45efcae48e12</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -1292,13 +1007,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_AWD3CR</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a781e1af765c1582891d7062456bd7be8</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_AWD3CR</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a7457f8f3f0a3c0d167adbb5379a11673</anchor>
@@ -1324,13 +1032,6 @@
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>a9097fb65aeb2e19f9d625f60e62a1502</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_DIFSEL</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a71c884f7c1d34c81b2bc09cf14e9046e</anchor>
-      <arglist>(adc_base)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -1362,13 +1063,6 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_CALFACT</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>af3c157c5e63d56b16090308e9fdb6997</anchor>
-      <arglist>(adc_base)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>ADC1_CALFACT</name>
       <anchorfile>adc_8h.html</anchorfile>
       <anchor>ad0f889af6665395a6d382777889e07e5</anchor>
@@ -1397,205 +1091,44 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_COMMON_REGISTERS_BASE</name>
+      <name>ADC12_CSR</name>
       <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a8ddcf4b69b4876e29e1a22d432fecd16</anchor>
+      <anchor>aa7bd18e57496268aa82cdd38a72e9c30</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_CSR</name>
+      <name>ADC12_CCR</name>
       <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a3958319a91ffb26274393646f9bec746</anchor>
+      <anchor>a88872e6d255626c7bc59cffe8d406f9f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_CCR</name>
+      <name>ADC12_CDR</name>
       <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a8c424b8782f24df4cb071562651bac84</anchor>
+      <anchor>a041e5ee09c7cdcf65abaa1740206c0c7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_CDR</name>
+      <name>ADC34_CSR</name>
       <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aab50b7d99c3665945442d1f48c0c595c</anchor>
+      <anchor>a490539c57de56c540bffeb57c11fb7bc</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_ISR_JQOVF</name>
+      <name>ADC34_CCR</name>
       <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a7d6a4052be04c997a1cab7082f27f6fc</anchor>
+      <anchor>a656559ad68b01efb75bc97803b0a2c93</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_ISR_AWD3</name>
+      <name>ADC34_CDR</name>
       <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a4f54365f9b93d2d07f7e7bc32cf7468f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR_AWD2</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a914b7e03179cd60a8f24b3779b6bb696</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR_AWD1</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a83a11e5b28a1002826ef26b0b272b239</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR_JEOS</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ada657b2ea5dcfce0c60ea6c9a0018da4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR_JEOC</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a399f91d7a99478c39f3b1af135aa2d74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR_OVR</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a66f58970a53712eed20aaac04c6a6f61</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR_EOS</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a56b6edb70e1c04c5e03a935d2c945f50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR_EOC</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a949681e78b978c1ccd680f11137a1550</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR_EOSMP</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a0e8d87957a25e701a13575d635628d11</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_ISR_ADRDY</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a06cdc9a3bf111d8c50ecba178daa90d8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_JQOVFIE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ac699152ae847b4c8aaf33cfd2c03b884</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_AWD3IE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a2737968030d4fe33a440231316f5407c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_AWD2IE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a40598e8fe688a7da26a4f2f111a549f3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_AWD1IE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a2e70aa6f498afb91d459327c314c8f69</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_JEOSIE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a3ca0001e6467e508394cf7f72aba2ec8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_JEOCIE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ac6662fc8e92986aa733c01837bac8c50</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_OVRIE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a150e154d48f6069e324aa642ec30f107</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_EOSIE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a5ba8c4da5807ce6cea8b14be76f6243d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_EOCIE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a367429f3a07068668ffefd84c7c60985</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_EOSMPIE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>afe38c621f1e8239fefbb8585911d2138</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_IER_ADRDYIE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a55d9fb25dbbbaa72791a52fedfecca7b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR_ADCAL</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a87c66f671af3241a20d7dfa2a048b40a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR_ADCALDIF</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a602da64684da4f219320006e99afa3a6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR_ADVREGEN_INTERMEDIATE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a4b6fea4e6715482dc5a305cb1e572079</anchor>
+      <anchor>aacd65b934ac05ca75dab4297a5e39de5</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -1614,863 +1147,65 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_CR_JADSTP</name>
+      <name>ADC_CR_ADVREGEN_MASK</name>
       <anchorfile>adc_8h.html</anchorfile>
-      <anchor>acae9f86a9852402b380d49f9781d75b9</anchor>
+      <anchor>a6a75bdc647ab95b14ad1801b3380fade</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_CR_ADSTP</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a56c924ba75bdb8b75aa9130b75effbe5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR_JADSTART</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a27b3e6a6bfa0c60d25674e43da3387ca</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR_ADSTART</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a25021284fb6bfad3e8448edc6ef81218</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR_ADDIS</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ad99494f414a25f32a5f00ea39ea2150a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR_ADEN</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a26fe09dfd6969dd95591942e80cc3d2b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_1</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a06940e62212ece6d7be41a527936292b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_2</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a0a5ee56911da34bdda4999269a101d44</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_3</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a93e4d303e7d2a03020217df2ca752982</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_4</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a933185c8ea674ac2a924e5c28c0fb13e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_5</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aa4ee130b815b838892a005bcae431dd3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_6</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aeb3c4542cb7e6406149d3114d838332f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_7</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a3855523ce6ce30f0762eaf93636f474c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_8</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>af88c772938b46e25add4f66e7defd2cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_9</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a0076d383df98f8cfbfac68681ec39e10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_10</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a2e18a6124675ac9ef89a84ba5783650f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_11</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a646fca49cace55f865512533b835eefc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_12</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aff54be5c94e0b0b0410857b7b028caf1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_13</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a143d9f3cb9f14d06d4fd5c8f47a6a017</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_14</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a5bef814944b8fd36e875cd77bc2e97bd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_15</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ad4f0be13c3b0fc5f4ac624bbc4bf05a5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_16</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a99db93aded7884d45a297407447fefc0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_ADC_IN_CH_17</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a31cadcc5143a0132c492a48ef8f46508</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1CH_MASK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a9e884e7cd4accf91666b422f8ae6c5ed</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_JAUTO</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a16ad6df507751f55e64b21412f34664b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_JAWD1EN</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a73249abd113dec0f23baad8ed97a519b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1EN</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aaa348e5a8262fa4004bca7049df8ec8a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AWD1SGL</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ad9e80cddd31bb22e69abe0fa914515f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_JQM</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae04353744e03fd108feb56f6a08bc2f0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_JDISCEN</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae9f75ebf90f85ba43654ce84312221a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCNUM_1_CH</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a7355b4a5e46a31b406bc20df450c6020</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCNUM_2_CH</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a44fe7f61fee4f6b432011d2136863fee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCNUM_3_CH</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ab0ce0e9936814bf94506e141b7b49b8b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCNUM_4_CH</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a4e58506adeefe33131ef9781a6dd5603</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCNUM_5_CH</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ad60a1249080c9358f9154bb237298c4f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCNUM_6_CH</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a315fe90f1a2021e9a647234de3c95a9f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCNUM_7_CH</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a37b5a2f07459934f4d99106704c9903e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCNUM_8_CH</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a36bc404c3024e4c31f066ead2adfa355</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCNUM_SHIFT</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>adeb88170db19a6f4edcc20e0e4f5a66d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DISCEN</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a213e7ac73ff5f6d57ef808b55a5d06d2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_AUTDLY</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a6c745a8afc373cfb30d2eea5c3e2b539</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_CONT</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a821c516b84062c1548d1ec679449ae5f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_OVRMOD</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>af19413a93e5983d4c2a3caa18c569b14</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTEN_DISABLED</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a952978b158b6a0f720ad4fc4f9e2ca12</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTEN_RISING_EDGE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>adaed74c695f613e32a1407ba4d9bb7b8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTEN_FALLING_EDGE</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a2000ee8cbb473246c4df4e4f6c4d9b6d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTEN_BOTH_EDGES</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a4db2864e96cd2d54de3c5775cbd8aad1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTEN_MASK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a8e1f7a83911820d7d24612e583a22bc2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_0</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>afebf1e7fca54928eaad768bba7ee00b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_1</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ad705bb424b12519e7cf8365f9767b7ef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_2</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a931f4297f2dc1b40e556fd185fd3318c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_3</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a54121d3b0b50315e11111c5bd1e3cfd3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_4</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae67d6445fe8220707f1f657d5de91496</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_5</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a1f688230e1dea87ce1690c6925d9a788</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_6</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a5332ee6bcd5466afffd7b75e371499a4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_7</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a95ab180ef8f24d1bc2729b7d894d95e9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_8</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ac2e40e0b055c2bf2729b2fc1320862d1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_9</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a6dc1648a7433cddb9958f778b7d61972</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_10</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a0ccfbc7e2976c6011c319d12ee4d6945</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_11</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a2957e905565f06e80e87ab74e4742adb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_12</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a3e1ddb279cc18fb7254fc724c161add4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_13</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aa35510086569ad87d6b2f029e36b9e5e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_14</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a0268eb5b51d88929d8a6bd3f92fe406b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_EVENT_15</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ad20c8d0fbc68a4ad4982afc450ca4f40</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_EXTSEL_MASK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a9803b36411b3de19cce504564014fa45</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_ALIGN</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aed2f858a86778698f9294da72af89642</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_RES_12_BIT</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a4b127f4bb68c3b53b6eb83d86ed486d7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_RES_10_BIT</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a5191dfb05c97dd8992cddbfd73f87407</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_RES_8_BIT</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>af16b799be2838811aa17630b363c7545</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_RES_6_BIT</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a662c39c94011adc16e4dd5118b42c981</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_RES_MASK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ab59271016fa812dbd0a5039ebf6198cf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DMACFG</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a54bcccd92a204be96e683968b57d6863</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CFGR_DMAEN</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a3ad505a73bda99d0d888aad0b0d78df5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP8_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a97077c3a5d16ba45e45ebd01d69888a7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP7_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aa98a7f4b32f8347210ec8098b36644d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP6_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae2af5308124c91d41d8fc6a1b9c51c64</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP5_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a33a000a877cffb848379f6281d637753</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP4_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ab2b37047251f93c74f3225ffde93a839</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP3_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae8ac4e09a68461d1f9fe6bae7a4d7aba</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP2_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a13334b67d79a149e091af7a0b4244bf8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP1_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>acd5b018f4d50942b23164c61db8ef300</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP8_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>af33a66f8646faab2a06d2c7fc919c1e9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP7_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a0841a8197c7229559e4ebba4440bb55b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP6_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae74a09f0593d09cb06ec497657d5f0bc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP5_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a4040752c515af822d3b3373cdafc0553</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP4_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a25364f20aabe330c151ee3dcf5800417</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP3_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ad85dc63333a600186f1b766c4d08dc48</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP2_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a26a2cba167dfbb88308669f6e012fefe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP1_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>af5f57c79a471d205a3d4d9dbe41017aa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_1DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gae18cb818a4acbb827613d8eec1167370</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_2DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga6f58207bf415530053b8ce31401debdd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_4DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga1e6763ca9ec25bd57bbe314f25124b37</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_7DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gafc835fc8754b0be3eabd6fd6ca5cd826</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_19DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga55ca75fc62239b8349428b406d296d7d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_61DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga5377792b525c2729c6574deb7be3d606</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_181DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga51b8ba7a465176c90952ff6a885b827b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SMPR1_SMP_601DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga0f6f48a62f716d8e722bf5f499f6db03</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a96ec1ebd69432213c0185124da3e9c9d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_SQ1_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae54eda1a9e3e74883ad5c86f5924946e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_SQ2_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a4e689dd07542325e61331598cb1acca1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_SQ3_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ab806c1bbbd9d30085c9222be9afb3c24</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_SQ4_LSB</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>acc609c2460769aba2583bcd9bf0edb31</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a796fd60244042f8b978839e62eda1ef1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_SQ1_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a202c550e9541d6ab804f7fd3351d6737</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_SQ2_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a84791a0b9b62b1ff89a837d18eeeb3ef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_SQ3_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a0c5f49680f182d67ceffc38d2c5630e5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_SQ4_MSK</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ab4f046e9a2a7cd1cf280ae64759e0708</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_1_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a7e7dd4f7fa5e93fc1f36437c773326b8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_2_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>aa9c58676001af977d181fd098bfb35c8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_3_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a0205cda3263da3836073d26479ea2a5d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_4_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae83a85a6fd2efe4f1763101c921f5551</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_5_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a69380a6c76b5d65b779dce0a9f6b2a4b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_6_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a958991817d795964dda80ba02f1977b8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_7_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a549126fbf6129fc6d836f6e9350702ef</anchor>
+      <name>ADC_SMPR_SMP_1DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga5aa19a076dac19e8d0dc6cfe7f2adff3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SQR1_L_8_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a8e2f37a0d3ead676d643549edf2b3e8e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_9_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a8e34e5439eb8566c25770c7c87589965</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_10_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a730095304a65676125fbadf9aac5ccbe</anchor>
+      <name>ADC_SMPR_SMP_2DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga592e562563fdc314f98c724382c0857a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SQR1_L_11_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a5544a848dde49eeaec9ed2b0ab1ecfda</anchor>
+      <name>ADC_SMPR_SMP_4DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>gacc1a30559289386c9bf4cd7915436119</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SQR1_L_12_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ad4ef684332751f8db861d74a491882c4</anchor>
+      <name>ADC_SMPR_SMP_7DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>gabf7890b80fec07e5f672d7ed8f547a75</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SQR1_L_13_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>ae47b27107121a3736a4e415ba60ed30f</anchor>
+      <name>ADC_SMPR_SMP_19DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>gafd4713e4fe06c600000bb24a1630f211</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SQR1_L_14_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a14825cdbdfd3423337622f349b04abc5</anchor>
+      <name>ADC_SMPR_SMP_61DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga1edba3f5ba9d3f7dd7e980311cacbd37</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SQR1_L_15_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>a28ab67b0c7ef02c9dbb414138ebf8e80</anchor>
+      <name>ADC_SMPR_SMP_181DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga12ae55973b8cc84459432552e3d8a04a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SQR1_L_16_CONVERSION</name>
-      <anchorfile>adc_8h.html</anchorfile>
-      <anchor>abc3d7c5178deb7ba3c7414e304ccc38f</anchor>
+      <name>ADC_SMPR_SMP_601DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga3ff3ed73ec243084e2e51b686f51b567</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -2991,19 +1726,26 @@
       <anchor>a56a59ca179806638351f077da58f455d</anchor>
       <arglist></arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_power_on</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
-      <arglist>(uint32_t adc)</arglist>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL_TEMP</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga7e176664c3a3e340c070fe54d507b800</anchor>
+      <arglist></arglist>
     </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_off</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
-      <arglist>(uint32_t adc)</arglist>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL_VBAT</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga60210f1e9305301dea9e42afedd9093f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL_VREF</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga67f64399503e2ac1457bbf3799d5fe07</anchor>
+      <arglist></arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3133,20 +1875,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_enable_eoc_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_eoc_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_enable_eos_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga44f599a778c63636e1de6c5984b3c6b7</anchor>
@@ -3157,13 +1885,6 @@
       <name>adc_disable_eos_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga221bb8e9d1d8c2f01cba9ad43ff4b810</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_start_conversion_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -3189,62 +1910,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_set_left_aligned</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_right_aligned</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_dma</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_dma</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_continuous_conversion_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_single_conversion_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_sample_time</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
-      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_sample_time_on_all_channels</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
-      <arglist>(uint32_t adc, uint8_t time)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_set_watchdog_high_threshold</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga67518b54943940933f4515a2f3c6711f</anchor>
@@ -3259,24 +1924,10 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_set_regular_sequence</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
-      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_set_injected_sequence</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
       <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>adc_eoc</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
-      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -3287,23 +1938,9 @@
     </member>
     <member kind="function">
       <type>bool</type>
-      <name>adc_eos</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
       <name>adc_eos_injected</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gad6a48b6c1eaf99b59eecf65f6de2cfe3</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>adc_read_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -3324,15 +1961,15 @@
       <type>void</type>
       <name>adc_set_clk_prescale</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga84de145d34b425fda2854ce2d0797c71</anchor>
-      <arglist>(uint32_t prescaler)</arglist>
+      <anchor>gaa13f44a0450640bfab057bd8bb64dd94</anchor>
+      <arglist>(uint32_t adc, uint32_t prescaler)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_multi_mode</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga78cb8303ee1036a3c8019c5653390ea1</anchor>
-      <arglist>(uint32_t mode)</arglist>
+      <anchor>gaa6b95e470c2454150c6157a1a18a43a1</anchor>
+      <arglist>(uint32_t adc, uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -3349,60 +1986,11 @@
       <arglist>(uint32_t adc, uint32_t trigger, uint32_t polarity)</arglist>
     </member>
     <member kind="function">
-      <type>void</type>
-      <name>adc_set_resolution</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga459708aeaf8e709264c4b96fed706ae3</anchor>
-      <arglist>(uint32_t adc, uint16_t resolution)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_overrun_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga9f618863d8b3ae15dc18035ce894e746</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_overrun_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga154b9e664c58d05e70fb194f9457a61e</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>adc_get_overrun_flag</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gad8748ca84ef6a2301ea78d0a88bdb177</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_clear_overrun_flag</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
       <type>bool</type>
       <name>adc_awd</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gaaecf7b26e7d55235fa4e99c93fc4da9d</anchor>
       <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_temperature_sensor</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga9e06102aeaf2f57f34c2b12124bd8be6</anchor>
-      <arglist>(void)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_temperature_sensor</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaf48a61c4eabe5a06980f2379fe21e250</anchor>
-      <arglist>(void)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -3411,9 +1999,9 @@
     <filename>adc__common__v1_8c</filename>
     <member kind="function">
       <type>void</type>
-      <name>adc_off</name>
+      <name>adc_power_off</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
+      <anchor>ga1ac745d1052240adb5cf55d3ed8b5aad</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -4529,9 +3117,9 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_off</name>
+      <name>adc_power_off</name>
       <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
+      <anchor>ga1ac745d1052240adb5cf55d3ed8b5aad</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -4820,6 +3408,1375 @@
       <anchorfile>group__adc__channel.html</anchorfile>
       <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
       <arglist>(uint32_t adc)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>adc_common_v2.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>adc__common__v2_8c</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eos</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_on_async</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga44915d9f756c0f5ddb23166ad82a70bf</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_is_power_on</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga3c68941e820f12bce95b73ed065dabd3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_on</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_off_async</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga8bc7f5a8d119376087ff5b73db34b013</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_is_power_off</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gae55af0a75a5724cb3776a283f786e939</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_off</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga1ac745d1052240adb5cf55d3ed8b5aad</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_continuous_conversion_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_single_conversion_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_resolution</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga459708aeaf8e709264c4b96fed706ae3</anchor>
+      <arglist>(uint32_t adc, uint16_t resolution)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_left_aligned</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_right_aligned</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_dma</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_dma</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_overrun_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga9f618863d8b3ae15dc18035ce894e746</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_overrun_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga154b9e664c58d05e70fb194f9457a61e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_get_overrun_flag</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad8748ca84ef6a2301ea78d0a88bdb177</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_clear_overrun_flag</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eoc_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_temperature_sensor</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga7728b2073c9f35ec8dc86e4464a80d14</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_temperature_sensor</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga0c63fddac8988654e5c84f318387d2dd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_vrefint</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga1b85ace40c2c67808739eac33b2f2204</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_vrefint</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga358a386b41f5f1de40e1db58fcbcf883</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>adc_common_v2.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>adc__common__v2_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3503dcdf4d1a0a5ac1f5bf5d38a80cbf</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga776e9e8824c8c8bbfe4e8ce502719818</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga15af8753284efa3acb4e29dcbeb793f3</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafab9be99e42f992911676f38adef7307</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gacc48270d940fc844d2a393de37167cfa</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SMPR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2dd31b45ee7e7b1606c1dd4f25239843</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafad03a1d621a3af736997ffd9538f614</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_DR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga7e1b5101658a24ce6d077989d1c0d2d1</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CCR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3da79b20f5a4a5890e4385fe3827db8d</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_AWD1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga83a11e5b28a1002826ef26b0b272b239</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_OVR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga66f58970a53712eed20aaac04c6a6f61</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_EOS</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga56b6edb70e1c04c5e03a935d2c945f50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_EOSEQ</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2250856b1a5661a7e778b90ca52e92c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_EOC</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga949681e78b978c1ccd680f11137a1550</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_EOSMP</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0e8d87957a25e701a13575d635628d11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_ADRDY</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga06cdc9a3bf111d8c50ecba178daa90d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_AWD1IE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2e70aa6f498afb91d459327c314c8f69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_OVRIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga150e154d48f6069e324aa642ec30f107</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_EOSIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga5ba8c4da5807ce6cea8b14be76f6243d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_EOSEQIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa35cb3b8d136e2f793e02ecf91f6fc05</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_EOCIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga367429f3a07068668ffefd84c7c60985</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_EOSMPIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafe38c621f1e8239fefbb8585911d2138</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_ADRDYIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga55d9fb25dbbbaa72791a52fedfecca7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADCAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga87c66f671af3241a20d7dfa2a048b40a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADSTP</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga56c924ba75bdb8b75aa9130b75effbe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADSTART</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga25021284fb6bfad3e8448edc6ef81218</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADDIS</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad99494f414a25f32a5f00ea39ea2150a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga26fe09dfd6969dd95591942e80cc3d2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1CH_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga353ffbbb142cda7444129dd432ebf6eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1CH</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad806d97ed9f53a934977b9cf445358c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1CH_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga27b68b684bd3ea78756303e9340f8ef3</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1EN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa9773f646ed95db8219dc935e15bffa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1SGL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga697af08860622dd7b88c9d3038456ba5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DISCEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae26a4779335193192049e1d58e3b2718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AUTDLY</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga88cba4b5835e6defb1b6888c9640eeb0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_CONT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2a68ef1ef5f97552db10e8a4303eb0a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_OVRMOD</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gadbd980c2b24383afb370bfe69860064f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_DISABLED</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0f8375de0fec86e6ae8cc20a40162c16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_RISING_EDGE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaead8dcfdc7aa1bd5f29e2ef5bce766fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_FALLING_EDGE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gabf3b1655bd44d64fa41fe1cba09fe012</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_BOTH_EDGES</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga1bf0f197022425d2e0e9e5a1be12920e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8f19f291355f2677428eb674a8143485</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_ALIGN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga48d91913f0fe8acb7a07de52505a1fa7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_12_BIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0120641bdb3de60af9c13361ace1ca0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_10_BIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga006a1177cdd18b1e6496b04b472bd5ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_8_BIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4a2cd6e803f11203ed89e56161513185</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_6_BIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga5698e310969fb8e11ede349780d80021</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0e4c685de6247ff44840a0fe23d18ba0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DMACFG</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gab698a32d964b2c094ba4d42931c21068</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DMAEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga1466dacc8afdc2a11ed1d10720834c0f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_LT_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac2ca443b29200e43b960bc5cad037496</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_LT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga824aa14c28f6e6cfa5a9d1aaa201e176</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_LT_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafd53688bf7c0781064484851a139329d</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_HT_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga05e0eee950427d4c82b7973ff82bd728</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_HT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafad54f9ae1f3b8bef62045cf9fb582cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_HT_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaef60bf836bafd41939126cddf10fde66</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CCR_VBATEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaaeefa6f00268db0df10fb97112a9f456</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CCR_TSEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaec05330012f52f35421531c72819fada</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CCR_VREFEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaecc47464aaa52f565d8daa9cf1a86054</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_on_async</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga44915d9f756c0f5ddb23166ad82a70bf</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_on</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_is_power_on</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3c68941e820f12bce95b73ed065dabd3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_off_async</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8bc7f5a8d119376087ff5b73db34b013</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_off</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga1ac745d1052240adb5cf55d3ed8b5aad</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_is_power_off</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae55af0a75a5724cb3776a283f786e939</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_continuous_conversion_mode</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_single_conversion_mode</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_regular_sequence</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_sample_time_on_all_channels</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
+      <arglist>(uint32_t adc, uint8_t time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_temperature_sensor</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga7728b2073c9f35ec8dc86e4464a80d14</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_temperature_sensor</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0c63fddac8988654e5c84f318387d2dd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_vrefint</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga1b85ace40c2c67808739eac33b2f2204</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_vrefint</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga358a386b41f5f1de40e1db58fcbcf883</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_resolution</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga459708aeaf8e709264c4b96fed706ae3</anchor>
+      <arglist>(uint32_t adc, uint16_t resolution)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_left_aligned</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_right_aligned</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_dma</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_dma</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eos</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eoc_interrupt</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_overrun_interrupt</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9f618863d8b3ae15dc18035ce894e746</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_overrun_interrupt</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga154b9e664c58d05e70fb194f9457a61e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_get_overrun_flag</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad8748ca84ef6a2301ea78d0a88bdb177</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_clear_overrun_flag</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_regular</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_regular</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>adc_common_v2_multi.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>adc__common__v2__multi_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_sample_time</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_sample_time_on_all_channels</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
+      <arglist>(uint32_t adc, uint8_t time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_regular_sequence</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>adc_common_v2_multi.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>adc__common__v2__multi_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SMPR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaf96e40abafe4349fd5a83907176b19bd</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae69f746049bae9836fa57daace188f99</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0b553062b18d33b6248f1aa804cab7b1</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga978a3b4684e8c95c773a6447d7de3728</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga69f27c343e020888de94054aff69d770</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga122e6e1a5795ac6ca9318453e812bdf0</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR4</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga37b08f87b06b9b0d9898821beb5f93aa</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gab192732dcd021f34b361ffa8b085750d</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_OFR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8b4e3a778d9584ce34fe796ae70fb7f2</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_OFR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad9be0082cc1c639c11351ad69bd3b385</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_OFR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac7515db0b1c89140142dbca6af08d995</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_OFR4</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa4eee3ba59bcf48977da36c0a898764c</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JDR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9f234ed17bf9cea53c0b103ea93734a9</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JDR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad65401ddb7ea41fb11b1956f7f15f444</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JDR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga691da2a85fce61d7b202ff8d0a7b1f2b</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JDR4</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9ba508b7bae72cf5e5a45cc1e2991eec</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_AWD2CR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga436297a55022f3dff696215eba3911e0</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_AWD3CR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga54d7aa8245e75b9056d109c0bafc8a31</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_DIFSEL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9b31e3d7ac267b4490ecb93f515c67d9</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CALFACT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gadadd03e78b018bfece9ac2d5be76e378</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CSR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga40661c2e5aab13e74940d6bd530cc619</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CDR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0ba9915af3d56cfa384931ed0a00395d</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_JQOVF</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga7d6a4052be04c997a1cab7082f27f6fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_AWD3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4f54365f9b93d2d07f7e7bc32cf7468f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_AWD2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga914b7e03179cd60a8f24b3779b6bb696</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_JEOS</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gada657b2ea5dcfce0c60ea6c9a0018da4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_JEOC</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga399f91d7a99478c39f3b1af135aa2d74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_JQOVFIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac699152ae847b4c8aaf33cfd2c03b884</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_AWD3IE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2737968030d4fe33a440231316f5407c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_AWD2IE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga40598e8fe688a7da26a4f2f111a549f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_JEOSIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3ca0001e6467e508394cf7f72aba2ec8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_JEOCIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac6662fc8e92986aa733c01837bac8c50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADCALDIF</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga602da64684da4f219320006e99afa3a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_JADSTP</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gacae9f86a9852402b380d49f9781d75b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_JADSTART</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga27b3e6a6bfa0c60d25674e43da3387ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_JAUTO</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga30436b32348248e8be373f005475e654</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_JAWD1EN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3b9eda5f54cf4dae9d5ee147c7a40106</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_JQM</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae78096546efa2adb7bc7df3dcfb92f14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_JDISCEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga579177fc1eb5d6c5f79478c1fbb2d8b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DISCNUM_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4b79cebfe7d24249b0ab9869c9b28c16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DISCNUM_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae17f929b71f45c904cc13d2dd3c68919</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DISCNUM_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8bd03f28f17484dcde7737ea1133e2ce</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae791ddaa80f37bd1f363e132af4c809a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad74b3ac2a8f6b0d5fddc14f734cd01da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4f20aa62478a6bd4721653c7f0b5e419</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_L_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga107d6631efdf1b531bd5590c29e511bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_L_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gabb611b3a7788261002bb3cf0fd394a90</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQRx_SQx_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga086d10e33840f9d98f26a7315ea54474</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_SQ1_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad030d6d7a8d3236849c9c0eb902e7600</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_SQ2_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaf77527d83d65dc0a8fcb80936a19783a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_SQ3_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga64d1b3b742489a75a9558d933d9734ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_SQ4_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gab6e7cad5fc1c4f296f2fa712f1729157</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ5_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8156be89435c21c0c589ffbb955d5c72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ6_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac430ad604394efd2aa9744b963881808</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ7_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9f32c5561f523629d6bfd9fba02764d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ8_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga38ecc5643ea82e85c01841a80ac2bea6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ9_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9674ff7d40dbad57d4365de2f9cc3171</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ10_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0b8cc56278f4dfe570833b4f1bc5a49b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ11_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga73e52ca993fe6edbb4593f260fa3f84d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ12_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac1124f6e37d7b039804688e1dc3a6f81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ13_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa3d6163eff27ea12905af370ad87d3b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ14_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaf501b3c39951bd485a0261d4d5a87525</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR4_SQ15_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaab34f0c34786583764327e619154adfd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR4_SQ16_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac9287756cc73815a620a2c311ec34ac0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_sample_time</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_regulator</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaacaa93447c7767aa01b098491a271245</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_regulator</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga392863de891d13da5a318a133f32b6a1</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>adc_common_v2_single.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>adc__common__v2__single_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHSELR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga44411affbc39bc4b3d80e3e429e71ac4</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_WAIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2fe986e2a65282b01053839f8c0877a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae791ddaa80f37bd1f363e132af4c809a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga01460f832e7bd04e150f86425aa922dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4f20aa62478a6bd4721653c7f0b5e419</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_SCANDIR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga138c4d67e5735326ffc922409f3fc8f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHSELR_CHSEL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gadd90bd1aaaa40daf7442a7ef19e86258</anchor>
+      <arglist>(x)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -13294,9 +13251,9 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ST_TSENSE_CAL2_110</name>
+      <name>ST_TSENSE_CAL2_110C</name>
       <anchorfile>memorymap_8h.html</anchorfile>
-      <anchor>a180b2568bd311857514f6f845b36aeb0</anchor>
+      <anchor>aec8ea3ca0b75d7fd5cc5bf6df1539dd0</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -26554,9 +26511,9 @@
     <name>adc_defines</name>
     <title>ADC Defines</title>
     <filename>group__adc__defines.html</filename>
-    <subgroup>adc_sample_r1</subgroup>
-    <subgroup>adc_reg_base</subgroup>
+    <subgroup>adc_sample</subgroup>
     <subgroup>adc_channel</subgroup>
+    <subgroup>adc_reg_base</subgroup>
     <member kind="define">
       <type>#define</type>
       <name>ADC_SR</name>
@@ -26732,66 +26689,1978 @@
       <anchor>ga851f62156cf9d539d12693259f93500b</anchor>
       <arglist></arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3503dcdf4d1a0a5ac1f5bf5d38a80cbf</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga776e9e8824c8c8bbfe4e8ce502719818</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga15af8753284efa3acb4e29dcbeb793f3</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafab9be99e42f992911676f38adef7307</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gacc48270d940fc844d2a393de37167cfa</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SMPR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2dd31b45ee7e7b1606c1dd4f25239843</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafad03a1d621a3af736997ffd9538f614</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_DR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga7e1b5101658a24ce6d077989d1c0d2d1</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CCR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3da79b20f5a4a5890e4385fe3827db8d</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_AWD1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga83a11e5b28a1002826ef26b0b272b239</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_OVR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga66f58970a53712eed20aaac04c6a6f61</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_EOS</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga56b6edb70e1c04c5e03a935d2c945f50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_EOSEQ</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2250856b1a5661a7e778b90ca52e92c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_EOC</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga949681e78b978c1ccd680f11137a1550</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_EOSMP</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0e8d87957a25e701a13575d635628d11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_ADRDY</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga06cdc9a3bf111d8c50ecba178daa90d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_AWD1IE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2e70aa6f498afb91d459327c314c8f69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_OVRIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga150e154d48f6069e324aa642ec30f107</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_EOSIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga5ba8c4da5807ce6cea8b14be76f6243d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_EOSEQIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa35cb3b8d136e2f793e02ecf91f6fc05</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_EOCIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga367429f3a07068668ffefd84c7c60985</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_EOSMPIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafe38c621f1e8239fefbb8585911d2138</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_ADRDYIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga55d9fb25dbbbaa72791a52fedfecca7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADCAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga87c66f671af3241a20d7dfa2a048b40a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADSTP</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga56c924ba75bdb8b75aa9130b75effbe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADSTART</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga25021284fb6bfad3e8448edc6ef81218</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADDIS</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad99494f414a25f32a5f00ea39ea2150a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga26fe09dfd6969dd95591942e80cc3d2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1CH_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga353ffbbb142cda7444129dd432ebf6eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1CH</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad806d97ed9f53a934977b9cf445358c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1CH_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga27b68b684bd3ea78756303e9340f8ef3</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1EN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa9773f646ed95db8219dc935e15bffa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AWD1SGL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga697af08860622dd7b88c9d3038456ba5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DISCEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae26a4779335193192049e1d58e3b2718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_AUTDLY</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga88cba4b5835e6defb1b6888c9640eeb0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_CONT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2a68ef1ef5f97552db10e8a4303eb0a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_OVRMOD</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gadbd980c2b24383afb370bfe69860064f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_DISABLED</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0f8375de0fec86e6ae8cc20a40162c16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_RISING_EDGE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaead8dcfdc7aa1bd5f29e2ef5bce766fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_FALLING_EDGE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gabf3b1655bd44d64fa41fe1cba09fe012</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_BOTH_EDGES</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga1bf0f197022425d2e0e9e5a1be12920e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTEN_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8f19f291355f2677428eb674a8143485</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_ALIGN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga48d91913f0fe8acb7a07de52505a1fa7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_12_BIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0120641bdb3de60af9c13361ace1ca0a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_10_BIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga006a1177cdd18b1e6496b04b472bd5ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_8_BIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4a2cd6e803f11203ed89e56161513185</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_6_BIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga5698e310969fb8e11ede349780d80021</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_RES_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0e4c685de6247ff44840a0fe23d18ba0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DMACFG</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gab698a32d964b2c094ba4d42931c21068</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DMAEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga1466dacc8afdc2a11ed1d10720834c0f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_LT_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac2ca443b29200e43b960bc5cad037496</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_LT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga824aa14c28f6e6cfa5a9d1aaa201e176</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_LT_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafd53688bf7c0781064484851a139329d</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_HT_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga05e0eee950427d4c82b7973ff82bd728</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_HT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gafad54f9ae1f3b8bef62045cf9fb582cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR1_HT_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaef60bf836bafd41939126cddf10fde66</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CCR_VBATEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaaeefa6f00268db0df10fb97112a9f456</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CCR_TSEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaec05330012f52f35421531c72819fada</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CCR_VREFEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaecc47464aaa52f565d8daa9cf1a86054</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SMPR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaf96e40abafe4349fd5a83907176b19bd</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae69f746049bae9836fa57daace188f99</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_TR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0b553062b18d33b6248f1aa804cab7b1</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga978a3b4684e8c95c773a6447d7de3728</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga69f27c343e020888de94054aff69d770</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga122e6e1a5795ac6ca9318453e812bdf0</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR4</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga37b08f87b06b9b0d9898821beb5f93aa</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gab192732dcd021f34b361ffa8b085750d</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_OFR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8b4e3a778d9584ce34fe796ae70fb7f2</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_OFR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad9be0082cc1c639c11351ad69bd3b385</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_OFR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac7515db0b1c89140142dbca6af08d995</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_OFR4</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa4eee3ba59bcf48977da36c0a898764c</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JDR1</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9f234ed17bf9cea53c0b103ea93734a9</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JDR2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad65401ddb7ea41fb11b1956f7f15f444</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JDR3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga691da2a85fce61d7b202ff8d0a7b1f2b</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JDR4</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9ba508b7bae72cf5e5a45cc1e2991eec</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_AWD2CR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga436297a55022f3dff696215eba3911e0</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_AWD3CR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga54d7aa8245e75b9056d109c0bafc8a31</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_DIFSEL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9b31e3d7ac267b4490ecb93f515c67d9</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CALFACT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gadadd03e78b018bfece9ac2d5be76e378</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CSR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga40661c2e5aab13e74940d6bd530cc619</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CDR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0ba9915af3d56cfa384931ed0a00395d</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_JQOVF</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga7d6a4052be04c997a1cab7082f27f6fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_AWD3</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4f54365f9b93d2d07f7e7bc32cf7468f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_AWD2</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga914b7e03179cd60a8f24b3779b6bb696</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_JEOS</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gada657b2ea5dcfce0c60ea6c9a0018da4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_ISR_JEOC</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga399f91d7a99478c39f3b1af135aa2d74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_JQOVFIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac699152ae847b4c8aaf33cfd2c03b884</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_AWD3IE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2737968030d4fe33a440231316f5407c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_AWD2IE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga40598e8fe688a7da26a4f2f111a549f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_JEOSIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3ca0001e6467e508394cf7f72aba2ec8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_IER_JEOCIE</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac6662fc8e92986aa733c01837bac8c50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_ADCALDIF</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga602da64684da4f219320006e99afa3a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_JADSTP</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gacae9f86a9852402b380d49f9781d75b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR_JADSTART</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga27b3e6a6bfa0c60d25674e43da3387ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_JAUTO</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga30436b32348248e8be373f005475e654</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_JAWD1EN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3b9eda5f54cf4dae9d5ee147c7a40106</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_JQM</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae78096546efa2adb7bc7df3dcfb92f14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_JDISCEN</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga579177fc1eb5d6c5f79478c1fbb2d8b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DISCNUM_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4b79cebfe7d24249b0ab9869c9b28c16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DISCNUM_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae17f929b71f45c904cc13d2dd3c68919</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_DISCNUM_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8bd03f28f17484dcde7737ea1133e2ce</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae791ddaa80f37bd1f363e132af4c809a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad74b3ac2a8f6b0d5fddc14f734cd01da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4f20aa62478a6bd4721653c7f0b5e419</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_L_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga107d6631efdf1b531bd5590c29e511bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_L_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gabb611b3a7788261002bb3cf0fd394a90</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQRx_SQx_MASK</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga086d10e33840f9d98f26a7315ea54474</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_SQ1_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad030d6d7a8d3236849c9c0eb902e7600</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_SQ2_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaf77527d83d65dc0a8fcb80936a19783a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_SQ3_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga64d1b3b742489a75a9558d933d9734ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_SQ4_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gab6e7cad5fc1c4f296f2fa712f1729157</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ5_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8156be89435c21c0c589ffbb955d5c72</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ6_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac430ad604394efd2aa9744b963881808</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ7_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9f32c5561f523629d6bfd9fba02764d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ8_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga38ecc5643ea82e85c01841a80ac2bea6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR2_SQ9_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9674ff7d40dbad57d4365de2f9cc3171</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ10_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0b8cc56278f4dfe570833b4f1bc5a49b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ11_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga73e52ca993fe6edbb4593f260fa3f84d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ12_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac1124f6e37d7b039804688e1dc3a6f81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ13_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaa3d6163eff27ea12905af370ad87d3b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR3_SQ14_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaf501b3c39951bd485a0261d4d5a87525</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR4_SQ15_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaab34f0c34786583764327e619154adfd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR4_SQ16_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac9287756cc73815a620a2c311ec34ac0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHSELR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga44411affbc39bc4b3d80e3e429e71ac4</anchor>
+      <arglist>(adc)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_WAIT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga2fe986e2a65282b01053839f8c0877a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_SHIFT</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae791ddaa80f37bd1f363e132af4c809a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga01460f832e7bd04e150f86425aa922dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_EXTSEL_VAL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga4f20aa62478a6bd4721653c7f0b5e419</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CFGR1_SCANDIR</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga138c4d67e5735326ffc922409f3fc8f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHSELR_CHSEL</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gadd90bd1aaaa40daf7442a7ef19e86258</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_on_async</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga44915d9f756c0f5ddb23166ad82a70bf</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_on</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_is_power_on</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3c68941e820f12bce95b73ed065dabd3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_off_async</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8bc7f5a8d119376087ff5b73db34b013</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_off</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga1ac745d1052240adb5cf55d3ed8b5aad</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_is_power_off</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gae55af0a75a5724cb3776a283f786e939</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_continuous_conversion_mode</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_single_conversion_mode</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_regular_sequence</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_sample_time_on_all_channels</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
+      <arglist>(uint32_t adc, uint8_t time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_temperature_sensor</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga7728b2073c9f35ec8dc86e4464a80d14</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_temperature_sensor</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0c63fddac8988654e5c84f318387d2dd</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_vrefint</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga1b85ace40c2c67808739eac33b2f2204</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_vrefint</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga358a386b41f5f1de40e1db58fcbcf883</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_resolution</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga459708aeaf8e709264c4b96fed706ae3</anchor>
+      <arglist>(uint32_t adc, uint16_t resolution)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_left_aligned</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_right_aligned</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_dma</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_dma</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eos</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eoc_interrupt</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_overrun_interrupt</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga9f618863d8b3ae15dc18035ce894e746</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_overrun_interrupt</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga154b9e664c58d05e70fb194f9457a61e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_get_overrun_flag</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gad8748ca84ef6a2301ea78d0a88bdb177</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_clear_overrun_flag</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga397913c6f9e83653e20fd54233a77dac</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_regular</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_regular</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_sample_time</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_regulator</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>gaacaa93447c7767aa01b098491a271245</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_regulator</name>
+      <anchorfile>group__adc__defines.html</anchorfile>
+      <anchor>ga392863de891d13da5a318a133f32b6a1</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
   </compound>
   <compound kind="group">
-    <name>adc_sample_r1</name>
-    <title>ADC Sample Time Selection for ADC1</title>
-    <filename>group__adc__sample__r1.html</filename>
+    <name>adc_sample</name>
+    <title>ADC Sample Time Selection values</title>
+    <filename>group__adc__sample.html</filename>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1_SMP_1DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gae18cb818a4acbb827613d8eec1167370</anchor>
+      <name>ADC_SMPR_SMP_1DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga5aa19a076dac19e8d0dc6cfe7f2adff3</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1_SMP_2DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga6f58207bf415530053b8ce31401debdd</anchor>
+      <name>ADC_SMPR_SMP_2DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga592e562563fdc314f98c724382c0857a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1_SMP_4DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga1e6763ca9ec25bd57bbe314f25124b37</anchor>
+      <name>ADC_SMPR_SMP_4DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>gacc1a30559289386c9bf4cd7915436119</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1_SMP_7DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>gafc835fc8754b0be3eabd6fd6ca5cd826</anchor>
+      <name>ADC_SMPR_SMP_7DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>gabf7890b80fec07e5f672d7ed8f547a75</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1_SMP_19DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga55ca75fc62239b8349428b406d296d7d</anchor>
+      <name>ADC_SMPR_SMP_19DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>gafd4713e4fe06c600000bb24a1630f211</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1_SMP_61DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga5377792b525c2729c6574deb7be3d606</anchor>
+      <name>ADC_SMPR_SMP_61DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga1edba3f5ba9d3f7dd7e980311cacbd37</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1_SMP_181DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga51b8ba7a465176c90952ff6a885b827b</anchor>
+      <name>ADC_SMPR_SMP_181DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga12ae55973b8cc84459432552e3d8a04a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>ADC_SMPR1_SMP_601DOT5CYC</name>
-      <anchorfile>group__adc__sample__r1.html</anchorfile>
-      <anchor>ga0f6f48a62f716d8e722bf5f499f6db03</anchor>
+      <name>ADC_SMPR_SMP_601DOT5CYC</name>
+      <anchorfile>group__adc__sample.html</anchorfile>
+      <anchor>ga3ff3ed73ec243084e2e51b686f51b567</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>adc_channel</name>
+    <title>ADC Channel Numbers</title>
+    <filename>group__adc__channel.html</filename>
+    <subgroup>adc_cr1_discnum</subgroup>
+    <subgroup>adc_watchdog_channel</subgroup>
+    <subgroup>adc_jsqr_jl</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL_TEMP</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga7e176664c3a3e340c070fe54d507b800</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL_VBAT</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga60210f1e9305301dea9e42afedd9093f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL_VREF</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga67f64399503e2ac1457bbf3799d5fe07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL0</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga9624905d53d0560f4b4a6e5983e11ae0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL1</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga69f3aec885e14d094d5a3fd0ba0b0d74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL2</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga7381ba120239e1039e278182088b0212</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL3</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaf952b863bef9494c45515fb27b4834e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL4</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga34e6ba8d77e1769082ca26d430658e53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL5</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gafafd9e765f45da4c9139a04608ea0553</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL6</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gafb7e580ba6b1a01cb0133b97314070c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL7</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga9805bc76d02d85fe76805c4ecd9f04cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL8</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga6b97e2da7fdae970ac3a21e9a06f89db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL9</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gae6e9ad153b3c4bd7ad0d15af82cb84d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL10</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga17aabad9af01899b7e0dd0359735b7be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL11</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga1829a7877602d71c2e05903749951ec7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL12</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga52e871da9f9331d3d5a4044382578dc8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL13</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gad4a0a0051f40445b0d486d28fbd55d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL14</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga77569b9617e08730986a8b4e73dd1c24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL15</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga14cf7ce6f6ebd0de0e9687d1d8390ea0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL16</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga745ab7092749d4c9b70c6c7b71cf96fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL17</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gad0b3c8dcb5285aae5f680574b7980cdf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL18</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gafceea73a31aa4e020baf383313dddaa3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CHANNEL_MASK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gac27a51b6463cc29161b78eddab440a24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SR_STRT</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga45eb11ad986d8220cde9fa47a91ed222</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SR_JSTRT</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga7340a01ffec051c06e80a037eee58a14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SR_JEOC</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gabc9f07589bb1a4e398781df372389b56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SR_EOC</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga3dc295c5253743aeb2cda582953b7b53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SR_AWD</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga8b7f27694281e4cad956da567e5583b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_AWDEN</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga6e006d43fcb9fe1306745c95a1bdd651</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_JAWDEN</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga4886de74bcd3a1e545094089f76fd0b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_DISCNUM_MASK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga1727991cac68d4ef02b162a671d90a77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_DISCNUM_SHIFT</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga117c2cf0428216dae7e16d546479c415</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_JDISCEN</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gacd06a2840346bf45ff335707db0b6e30</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_DISCEN</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gabd690297fc73fca40d797f4c90800b9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_JAUTO</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga6353cb0d564410358b3a086dd0241f8c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_AWDSGL</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga5c9fc31f19c04033dfa98e982519c451</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_SCAN</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaaeab75ece0c73dd97e8f21911ed22d06</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_JEOCIE</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga5c46fc1dc6c63acf88821f46a8f6d5e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_AWDIE</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gacd44f86b189696d5a3780342516de722</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_EOCIE</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaa39fee2e812a7ca45998cccf32e90aea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_AWDCH_MASK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga4f54c32c22a663da6dc39dc12a3cabfd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR1_AWDCH_SHIFT</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gae7cd4a63e213f0c72c9d7fbfe5633718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR2_ALIGN_RIGHT</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga62a03bfb8e5a9db5689f9b32cb96bea4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR2_ALIGN_LEFT</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaf7b5368b592edef5f01793afdf897533</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR2_ALIGN</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaf5950b5a7438a447584f6dd86c343362</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR2_DMA</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga017309ac4b532bc8c607388f4e2cbbec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR2_CONT</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga49bb71a868c9d88a0f7bbe48918b2140</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_CR2_ADON</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga89b646f092b052d8488d2016f6290f0e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JOFFSET_LSB</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga3e7342ed87a38bf56a4450da5fcf0535</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JOFFSET_MSK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaaebe61b5b4917952871ddc1e0eb4ea6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_HT_LSB</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga007c214feb69891e97648a641a260cb3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_HT_MSK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaa6306d52698ea51e3d35474abb5a47fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_LT_LSB</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga294e5223072fb995b645f1ed730a1a4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_LT_MSK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaaddb1cd35d2bed152e80b1096e1b82b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_SQR1_L_LSB</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga96ec1ebd69432213c0185124da3e9c9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JL_LSB</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga5de6fc1832c959e4d6caff4991383752</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JSQ4_LSB</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga381d087af319941eead086e683c2e54f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JSQ3_LSB</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaf54e4d83fd3e1adddfd673d09877f224</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JSQ2_LSB</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga0d0868797d7c295c9f780a0b035f12cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JSQ1_LSB</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga1cc573927f776cbad045bcbaa67cd85c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JL_MSK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga879de268e46807ada83b9c9c1f04fd67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JSQ4_MSK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga74eaabc439c27e5aa25e15a7f559b280</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JSQ3_MSK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaa523b506b309a5984206994e3e448ff4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JSQ2_MSK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga297737b887887820c507bd945e9b1865</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JSQ1_MSK</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaa112893c55b5d2bb97781edf3fb77a43</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JSQ_VAL</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga349b7c58d316a87cd5f494638030df4b</anchor>
+      <arglist>(n, val)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ADC_JSQR_JL_VAL</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga244139b4a14d7a4c9760f5cc6da43b74</anchor>
+      <arglist>(val)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_on</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_off</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga1ac745d1052240adb5cf55d3ed8b5aad</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_regular</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_analog_watchdog_regular</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaffa5256174cec880eaea7d82a1caf968</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gab4cc03bbad2f235b9fb8ed1b89e24d25</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_analog_watchdog_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gac97660f8ac7f23bd22c5a867d86dc80c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_discontinuous_mode_regular</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga57b3c58283977a60ab7e94b33d502ef8</anchor>
+      <arglist>(uint32_t adc, uint8_t length)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_discontinuous_mode_regular</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga3c7c004f76958f5b9d4c2f66dad7f8df</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_discontinuous_mode_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga214a9ead42c311498474678796e8e768</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_discontinuous_mode_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gafe352fb7c779e3b540056f0dd926e8b3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_automatic_injected_group_conversion</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga9965805fdbb3e7dd26a1afed91cc4fd2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_automatic_injected_group_conversion</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga118817f8db889310eb249519d9b8ae39</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_on_all_channels</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga756eb74470362394a05dacf33f3e647d</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_analog_watchdog_on_selected_channel</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gac59be11190b92659467a130485ed3083</anchor>
+      <arglist>(uint32_t adc, uint8_t channel)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_scan_mode</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_scan_mode</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eoc_interrupt_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gab2b359caa41226508e5414a9fdf18fcd</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga59b482216ccaeeeaf22d7c5cfed7f3e2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_awd_interrupt</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_awd_interrupt</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eoc_interrupt</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_left_aligned</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_right_aligned</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gad2a065923adced21827480f124ff4a61</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_regular</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gab96e1ce8d28ce696dc70e231a8da936e</anchor>
+      <arglist>(uint32_t adc, uint8_t reg)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_continuous_conversion_mode</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_single_conversion_mode</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_regular_sequence</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_injected_sequence</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_injected_offset</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gac3af5b84c1af074f2c9de07b0ed73470</anchor>
+      <arglist>(uint32_t adc, uint8_t reg, uint32_t offset)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_watchdog_high_threshold</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_watchdog_low_threshold</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_regular</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_dma</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_dma</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_sample_time</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_sample_time_on_all_channels</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
+      <arglist>(uint32_t adc, uint8_t time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_external_trigger_regular</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>gaf91d45a5dcbc9d884a9f878ff6323bbe</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_external_trigger_injected</name>
+      <anchorfile>group__adc__channel.html</anchorfile>
+      <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
+      <arglist>(uint32_t adc)</arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -38110,763 +39979,6 @@
     </member>
   </compound>
   <compound kind="group">
-    <name>adc_channel</name>
-    <title>ADC Channel Numbers</title>
-    <filename>group__adc__channel.html</filename>
-    <subgroup>adc_cr1_discnum</subgroup>
-    <subgroup>adc_watchdog_channel</subgroup>
-    <subgroup>adc_jsqr_jl</subgroup>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL0</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga9624905d53d0560f4b4a6e5983e11ae0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL1</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga69f3aec885e14d094d5a3fd0ba0b0d74</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL2</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga7381ba120239e1039e278182088b0212</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL3</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaf952b863bef9494c45515fb27b4834e6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL4</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga34e6ba8d77e1769082ca26d430658e53</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL5</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gafafd9e765f45da4c9139a04608ea0553</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL6</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gafb7e580ba6b1a01cb0133b97314070c7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL7</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga9805bc76d02d85fe76805c4ecd9f04cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL8</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga6b97e2da7fdae970ac3a21e9a06f89db</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL9</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gae6e9ad153b3c4bd7ad0d15af82cb84d3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL10</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga17aabad9af01899b7e0dd0359735b7be</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL11</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga1829a7877602d71c2e05903749951ec7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL12</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga52e871da9f9331d3d5a4044382578dc8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL13</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gad4a0a0051f40445b0d486d28fbd55d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL14</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga77569b9617e08730986a8b4e73dd1c24</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL15</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga14cf7ce6f6ebd0de0e9687d1d8390ea0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL16</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga745ab7092749d4c9b70c6c7b71cf96fb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL17</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gad0b3c8dcb5285aae5f680574b7980cdf</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL18</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gafceea73a31aa4e020baf383313dddaa3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CHANNEL_MASK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gac27a51b6463cc29161b78eddab440a24</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SR_STRT</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga45eb11ad986d8220cde9fa47a91ed222</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SR_JSTRT</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga7340a01ffec051c06e80a037eee58a14</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SR_JEOC</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gabc9f07589bb1a4e398781df372389b56</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SR_EOC</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga3dc295c5253743aeb2cda582953b7b53</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SR_AWD</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga8b7f27694281e4cad956da567e5583b2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_AWDEN</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga6e006d43fcb9fe1306745c95a1bdd651</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_JAWDEN</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga4886de74bcd3a1e545094089f76fd0b3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_DISCNUM_MASK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga1727991cac68d4ef02b162a671d90a77</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_DISCNUM_SHIFT</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga117c2cf0428216dae7e16d546479c415</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_JDISCEN</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gacd06a2840346bf45ff335707db0b6e30</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_DISCEN</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gabd690297fc73fca40d797f4c90800b9a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_JAUTO</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga6353cb0d564410358b3a086dd0241f8c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_AWDSGL</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga5c9fc31f19c04033dfa98e982519c451</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_SCAN</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaaeab75ece0c73dd97e8f21911ed22d06</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_JEOCIE</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga5c46fc1dc6c63acf88821f46a8f6d5e7</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_AWDIE</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gacd44f86b189696d5a3780342516de722</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_EOCIE</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaa39fee2e812a7ca45998cccf32e90aea</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_AWDCH_MASK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga4f54c32c22a663da6dc39dc12a3cabfd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR1_AWDCH_SHIFT</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gae7cd4a63e213f0c72c9d7fbfe5633718</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR2_ALIGN_RIGHT</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga62a03bfb8e5a9db5689f9b32cb96bea4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR2_ALIGN_LEFT</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaf7b5368b592edef5f01793afdf897533</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR2_ALIGN</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaf5950b5a7438a447584f6dd86c343362</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR2_DMA</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga017309ac4b532bc8c607388f4e2cbbec</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR2_CONT</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga49bb71a868c9d88a0f7bbe48918b2140</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_CR2_ADON</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga89b646f092b052d8488d2016f6290f0e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JOFFSET_LSB</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga3e7342ed87a38bf56a4450da5fcf0535</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JOFFSET_MSK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaaebe61b5b4917952871ddc1e0eb4ea6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_HT_LSB</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga007c214feb69891e97648a641a260cb3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_HT_MSK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaa6306d52698ea51e3d35474abb5a47fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_LT_LSB</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga294e5223072fb995b645f1ed730a1a4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_LT_MSK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaaddb1cd35d2bed152e80b1096e1b82b4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_SQR1_L_LSB</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga96ec1ebd69432213c0185124da3e9c9d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JL_LSB</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga5de6fc1832c959e4d6caff4991383752</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JSQ4_LSB</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga381d087af319941eead086e683c2e54f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JSQ3_LSB</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaf54e4d83fd3e1adddfd673d09877f224</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JSQ2_LSB</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga0d0868797d7c295c9f780a0b035f12cb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JSQ1_LSB</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga1cc573927f776cbad045bcbaa67cd85c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JL_MSK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga879de268e46807ada83b9c9c1f04fd67</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JSQ4_MSK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga74eaabc439c27e5aa25e15a7f559b280</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JSQ3_MSK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaa523b506b309a5984206994e3e448ff4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JSQ2_MSK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga297737b887887820c507bd945e9b1865</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JSQ1_MSK</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaa112893c55b5d2bb97781edf3fb77a43</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JSQ_VAL</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga349b7c58d316a87cd5f494638030df4b</anchor>
-      <arglist>(n, val)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>ADC_JSQR_JL_VAL</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga244139b4a14d7a4c9760f5cc6da43b74</anchor>
-      <arglist>(val)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_power_on</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_off</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_analog_watchdog_regular</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_analog_watchdog_regular</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaffa5256174cec880eaea7d82a1caf968</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_analog_watchdog_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gab4cc03bbad2f235b9fb8ed1b89e24d25</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_analog_watchdog_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gac97660f8ac7f23bd22c5a867d86dc80c</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_discontinuous_mode_regular</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga57b3c58283977a60ab7e94b33d502ef8</anchor>
-      <arglist>(uint32_t adc, uint8_t length)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_discontinuous_mode_regular</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga3c7c004f76958f5b9d4c2f66dad7f8df</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_discontinuous_mode_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga214a9ead42c311498474678796e8e768</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_discontinuous_mode_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gafe352fb7c779e3b540056f0dd926e8b3</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_automatic_injected_group_conversion</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga9965805fdbb3e7dd26a1afed91cc4fd2</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_automatic_injected_group_conversion</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga118817f8db889310eb249519d9b8ae39</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_analog_watchdog_on_all_channels</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga756eb74470362394a05dacf33f3e647d</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_analog_watchdog_on_selected_channel</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gac59be11190b92659467a130485ed3083</anchor>
-      <arglist>(uint32_t adc, uint8_t channel)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_scan_mode</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_scan_mode</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_eoc_interrupt_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gab2b359caa41226508e5414a9fdf18fcd</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_eoc_interrupt_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga59b482216ccaeeeaf22d7c5cfed7f3e2</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_awd_interrupt</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_awd_interrupt</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_eoc_interrupt</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_eoc_interrupt</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_left_aligned</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_right_aligned</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>adc_eoc</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>adc_eoc_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gad2a065923adced21827480f124ff4a61</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>adc_read_regular</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>adc_read_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gab96e1ce8d28ce696dc70e231a8da936e</anchor>
-      <arglist>(uint32_t adc, uint8_t reg)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_continuous_conversion_mode</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_single_conversion_mode</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_regular_sequence</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
-      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_injected_sequence</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
-      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_injected_offset</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gac3af5b84c1af074f2c9de07b0ed73470</anchor>
-      <arglist>(uint32_t adc, uint8_t reg, uint32_t offset)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_watchdog_high_threshold</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
-      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_watchdog_low_threshold</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
-      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_start_conversion_regular</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_start_conversion_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_dma</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_dma</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_sample_time</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
-      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_sample_time_on_all_channels</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
-      <arglist>(uint32_t adc, uint8_t time)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_external_trigger_regular</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>gaf91d45a5dcbc9d884a9f878ff6323bbe</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_external_trigger_injected</name>
-      <anchorfile>group__adc__channel.html</anchorfile>
-      <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-  </compound>
-  <compound kind="group">
     <name>adc_cr1_discnum</name>
     <title>ADC Number of channels in discontinuous mode.</title>
     <filename>group__adc__cr1__discnum.html</filename>
@@ -42336,13 +43448,6 @@
     <filename>group__adc__file.html</filename>
     <member kind="function">
       <type>void</type>
-      <name>adc_off</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga929c3401331118aecf2aba217d88a108</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_enable_analog_watchdog_regular</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gad184024fbe1151c8d15fb09aaaf05328</anchor>
@@ -42469,20 +43574,6 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_enable_eoc_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_eoc_interrupt</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_enable_eos_interrupt</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga44f599a778c63636e1de6c5984b3c6b7</anchor>
@@ -42497,73 +43588,10 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_start_conversion_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_start_conversion_injected</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga4c58ab34f4fd19171b47c5b9165fa919</anchor>
       <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_left_aligned</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_right_aligned</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_enable_dma</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_disable_dma</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_continuous_conversion_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_single_conversion_mode</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_sample_time</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
-      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_sample_time_on_all_channels</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
-      <arglist>(uint32_t adc, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -42581,24 +43609,10 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_set_regular_sequence</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
-      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_set_injected_sequence</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga63cd6fdcf7156d16992b278a25acf27e</anchor>
       <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>adc_eoc</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
-      <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -42609,23 +43623,9 @@
     </member>
     <member kind="function">
       <type>bool</type>
-      <name>adc_eos</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
       <name>adc_eos_injected</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>gad6a48b6c1eaf99b59eecf65f6de2cfe3</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>uint32_t</type>
-      <name>adc_read_regular</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -42644,24 +43644,17 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_power_on</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
       <name>adc_set_clk_prescale</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga84de145d34b425fda2854ce2d0797c71</anchor>
-      <arglist>(uint32_t prescale)</arglist>
+      <anchor>gaa13f44a0450640bfab057bd8bb64dd94</anchor>
+      <arglist>(uint32_t adc, uint32_t prescale)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_set_multi_mode</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga78cb8303ee1036a3c8019c5653390ea1</anchor>
-      <arglist>(uint32_t mode)</arglist>
+      <anchor>gaa6b95e470c2454150c6157a1a18a43a1</anchor>
+      <arglist>(uint32_t adc, uint32_t mode)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -42689,6 +43682,202 @@
       <name>adc_disable_external_trigger_injected</name>
       <anchorfile>group__adc__file.html</anchorfile>
       <anchor>ga8b130efffc0025a70451ea3f26c714b6</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_awd</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaaecf7b26e7d55235fa4e99c93fc4da9d</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_regulator</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaacaa93447c7767aa01b098491a271245</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_regulator</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga392863de891d13da5a318a133f32b6a1</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_off</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga1ac745d1052240adb5cf55d3ed8b5aad</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_scan_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_scan_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_awd_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_awd_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_eoc_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga676a51c5de3ef536538c89d7cdab0e1c</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_eoc_interrupt</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga6cb3d778d07c0d1622a56fb2aa377ec8</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_left_aligned</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga87e3c678306379082761a3b096ab8ccb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_right_aligned</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga923b0eb25e1ba298000bdc80cab9702a</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eoc</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gaf297c53a2e00673df5b85eeb87683ba2</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>uint32_t</type>
+      <name>adc_read_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga52c4b90afb2a3aa032794342b8eaf38e</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_continuous_conversion_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga366654c02369a57e3a79cb395966fbeb</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_single_conversion_mode</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga3b730353f6e1bb97b546101edb6c80c0</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_watchdog_high_threshold</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_watchdog_low_threshold</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
+      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_set_regular_sequence</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gace14daa8c089f21f710eeeebce100227</anchor>
+      <arglist>(uint32_t adc, uint8_t length, uint8_t channel[])</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_start_conversion_regular</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga0b3b2251b860a0370967c2ee326ad338</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_enable_dma</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gac33cd693a63bc2ae46110c758c49308f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_disable_dma</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga8743bf8b2acc4299a15480e2c5d0c54f</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_eos</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga72cafc5c71fd0cf6b239547fdab49930</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_on_async</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga44915d9f756c0f5ddb23166ad82a70bf</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_is_power_on</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga3c68941e820f12bce95b73ed065dabd3</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_on</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga51f01f6dedbcfc4231e0fc1d8943d956</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>adc_power_off_async</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>ga8bc7f5a8d119376087ff5b73db34b013</anchor>
+      <arglist>(uint32_t adc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>adc_is_power_off</name>
+      <anchorfile>group__adc__file.html</anchorfile>
+      <anchor>gae55af0a75a5724cb3776a283f786e939</anchor>
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
@@ -42727,67 +43916,46 @@
       <arglist>(uint32_t adc)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
-      <name>adc_awd</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaaecf7b26e7d55235fa4e99c93fc4da9d</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
       <type>void</type>
       <name>adc_enable_temperature_sensor</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga9e06102aeaf2f57f34c2b12124bd8be6</anchor>
-      <arglist>()</arglist>
+      <anchor>ga7728b2073c9f35ec8dc86e4464a80d14</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>adc_disable_temperature_sensor</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaf48a61c4eabe5a06980f2379fe21e250</anchor>
-      <arglist>()</arglist>
+      <anchor>ga0c63fddac8988654e5c84f318387d2dd</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_enable_scan_mode</name>
+      <name>adc_enable_vrefint</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gaf599bfe1fc547a24acbfc573995a4688</anchor>
-      <arglist>(uint32_t adc)</arglist>
+      <anchor>ga1b85ace40c2c67808739eac33b2f2204</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_disable_scan_mode</name>
+      <name>adc_disable_vrefint</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga7ec33198b40d7c344d9ed3fb5ee07eb3</anchor>
-      <arglist>(uint32_t adc)</arglist>
+      <anchor>ga358a386b41f5f1de40e1db58fcbcf883</anchor>
+      <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_enable_awd_interrupt</name>
+      <name>adc_set_sample_time</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga0b700b6e953c56968935b00e335978be</anchor>
-      <arglist>(uint32_t adc)</arglist>
+      <anchor>ga0350c814893ca4055629da6498d1dfad</anchor>
+      <arglist>(uint32_t adc, uint8_t channel, uint8_t time)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>adc_disable_awd_interrupt</name>
+      <name>adc_set_sample_time_on_all_channels</name>
       <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga069b1bda1850860eae190ecfb28fd9f4</anchor>
-      <arglist>(uint32_t adc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_watchdog_high_threshold</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>ga1385e9ff5bd39f15330d2c8d88ef54e6</anchor>
-      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>adc_set_watchdog_low_threshold</name>
-      <anchorfile>group__adc__file.html</anchorfile>
-      <anchor>gad625ff5ca8d177b0df9673274623f927</anchor>
-      <arglist>(uint32_t adc, uint16_t threshold)</arglist>
+      <anchor>ga028c905528d6187936c2d2ed61967d73</anchor>
+      <arglist>(uint32_t adc, uint8_t time)</arglist>
     </member>
     <docanchor file="group__adc__file" title="Basic ADC Handling API.">adc_f3_api_ex</docanchor>
     <docanchor file="group__adc__file" title="Basic ADC Handling API.">adc_api_ex</docanchor>

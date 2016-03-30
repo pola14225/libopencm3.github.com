@@ -37,7 +37,7 @@ var memorymap_8h =
     [ "SPI1_BASE", "memorymap_8h.html#a50cd8b47929f18b05efbd0f41253bf8d", null ],
     [ "SPI2_BASE", "memorymap_8h.html#ac3e357b4c25106ed375fb1affab6bb86", null ],
     [ "ST_TSENSE_CAL1_30C", "memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6", null ],
-    [ "ST_TSENSE_CAL2_110", "memorymap_8h.html#a180b2568bd311857514f6f845b36aeb0", null ],
+    [ "ST_TSENSE_CAL2_110C", "memorymap_8h.html#aec8ea3ca0b75d7fd5cc5bf6df1539dd0", null ],
     [ "ST_VREFINT_CAL", "memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d", null ],
     [ "SYSCFG_COMP_BASE", "memorymap_8h.html#a70087e880605630c30ef65ddee201046", null ],
     [ "TIM14_BASE", "memorymap_8h.html#a862855347d6e1d92730dfe17ee8e90b8", null ],

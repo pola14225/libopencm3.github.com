@@ -1,5 +1,6 @@
 var group__STM32L0xx__defines =
 [
+    [ "ADC Defines", "group__adc__defines.html", "group__adc__defines" ],
     [ "EXTI Defines", "group__exti__defines.html", "group__exti__defines" ],
     [ "GPIO Defines", "group__gpio__defines.html", "group__gpio__defines" ],
     [ "PWR Defines", "group__pwr__defines.html", "group__pwr__defines" ],

@@ -1,3 +1,4 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l4/flash.c:75: warning: unable to resolve reference to `flash_latency' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l4/gpio.h:1: warning: Found unknown command `\list'
@@ -17,5 +18,6 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l4/flash.c:75: warning: unable to resolve reference to `flash_latency' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/gpio_common_f234.h:165: warning: Found unknown command `\list'

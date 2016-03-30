@@ -5,7 +5,6 @@ var searchData=
   ['adc_20interrupt_20configuration_20api',['ADC Interrupt configuration API',['../group__adc__api__interrupts.html',1,'']]],
   ['adc_20operation_20modes',['ADC Operation Modes',['../group__adc__api__opmode.html',1,'']]],
   ['adc_20resolutions',['ADC resolutions',['../group__adc__api__res.html',1,'']]],
-  ['adc_20result_20api',['ADC Result API',['../group__adc__api__result.html',1,'']]],
   ['adc_20sampling_20time',['ADC sampling time',['../group__adc__api__smptime.html',1,'']]],
   ['adc_20trigger_20api',['ADC Trigger API',['../group__adc__api__trigger.html',1,'']]],
   ['adc_20analog_20watchdog_20api',['ADC Analog watchdog API',['../group__adc__api__wdg.html',1,'']]],

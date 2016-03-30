@@ -3,6 +3,7 @@ var searchData=
   ['sai1_5fbase',['SAI1_BASE',['../memorymap_8h.html#a24c1053b754946b512f9c31123e09d21',1,'memorymap.h']]],
   ['sai2_5fbase',['SAI2_BASE',['../memorymap_8h.html#a4b4d5c95ea5f835f9ac37fab90a2d700',1,'memorymap.h']]],
   ['scc_5fadc',['SCC_ADC',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a2740fd0f59ddf9c73922977ecb745f7d',1,'rcc.h']]],
+  ['scc_5fadc1',['SCC_ADC1',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a5000d6ca5e3b40a5865485dd8dac5ab8',1,'rcc.h']]],
   ['scc_5faes',['SCC_AES',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48afccb5beacf6a12dc2a320df8c61d9707',1,'rcc.h']]],
   ['scc_5fcan1',['SCC_CAN1',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48ace6a0c67861a7f9063364e3c23996b7c',1,'rcc.h']]],
   ['scc_5fcrc',['SCC_CRC',['../group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48a003dc04b6d63c5197748e8be1cb6bbac',1,'rcc.h']]],
@@ -67,6 +68,8 @@ var searchData=
   ['st_5ftsense_5fcal1_5f30c',['ST_TSENSE_CAL1_30C',['../memorymap_8h.html#a27770fe4499d5825fe65b1b4278401b6',1,'memorymap.h']]],
   ['st_5ftsense_5fcal2_5f110c',['ST_TSENSE_CAL2_110C',['../memorymap_8h.html#aec8ea3ca0b75d7fd5cc5bf6df1539dd0',1,'memorymap.h']]],
   ['st_5fvrefint_5fcal',['ST_VREFINT_CAL',['../memorymap_8h.html#ab5bad40ac86464835f00d01559a3302d',1,'memorymap.h']]],
+  ['stm32l4xx',['STM32L4xx',['../group__STM32L4xx.html',1,'']]],
+  ['stm32l4xx_20defines',['STM32L4xx Defines',['../group__STM32L4xx__defines.html',1,'']]],
   ['swpmi1_5fbase',['SWPMI1_BASE',['../memorymap_8h.html#a21f79975bb4c5edda5a1f1311b8e658c',1,'memorymap.h']]],
   ['syscfg_5fbase',['SYSCFG_BASE',['../memorymap_8h.html#a62246020bf3b34b6a4d8d0e84ec79d3d',1,'memorymap.h']]]
 ];

@@ -4,7 +4,7 @@
 <area shape="rect" id="node3" href="$group__adc__multi__mode.html" title="ADC Multi mode selection" alt="" coords="354,56,529,83"/>
 <area shape="rect" id="node4" href="$group__adc__trigger__regular.html" title="ADC Trigger Identifier\l for Regular group" alt="" coords="367,107,516,149"/>
 <area shape="rect" id="node5" href="$group__adc__dma__mode.html" title="ADC DMA mode for multi\l ADC mode" alt="" coords="355,173,527,214"/>
-<area shape="rect" id="node6" href="$group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="361,239,521,265"/>
+<area shape="rect" id="node6" href="$group__adc__channel.html" title="Thanks ST! F40x and F41x are on 16, F42x and F43x are on 18! " alt="" coords="361,239,521,265"/>
 <area shape="rect" id="node7" href="$group__adc__trigger__polarity__injected.html" title="ADC Injected Trigger\l Polarity" alt="" coords="369,290,514,331"/>
 <area shape="rect" id="node8" href="$group__adc__cr1__res.html" title="ADC Resolution." alt="" coords="381,356,502,383"/>
 <area shape="rect" id="node9" href="$group__adc__trigger__polarity__regular.html" title="ADC Trigger Polarity" alt="" coords="370,407,513,433"/>

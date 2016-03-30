@@ -1,5 +1,11 @@
 var searchData=
 [
-  ['msi_20range',['MSI Range',['../group__rcc__cr__msirange.html',1,'']]],
-  ['msi_20range_20after_20standby_20values',['MSI Range after standby values',['../group__rcc__csr__msirange.html',1,'']]]
+  ['gpio_20defines',['GPIO Defines',['../group__gpio__defines.html',1,'']]],
+  ['gpio_5ffile',['Gpio_file',['../group__gpio__file.html',1,'']]],
+  ['gpio_20pin_20direction_20and_20analog_2fdigital_20mode',['GPIO Pin Direction and Analog/Digital Mode',['../group__gpio__mode.html',1,'']]],
+  ['gpio_20output_20pin_20driver_20type',['GPIO Output Pin Driver Type',['../group__gpio__output__type.html',1,'']]],
+  ['gpio_20pin_20identifiers',['GPIO Pin Identifiers',['../group__gpio__pin__id.html',1,'']]],
+  ['gpio_20port_20ids',['GPIO Port IDs',['../group__gpio__port__id.html',1,'']]],
+  ['gpio_20output_20pin_20pullup',['GPIO Output Pin Pullup',['../group__gpio__pup.html',1,'']]],
+  ['gpio_20output_20pin_20speed',['GPIO Output Pin Speed',['../group__gpio__speed.html',1,'']]]
 ];

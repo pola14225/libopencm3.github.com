@@ -2,6 +2,12 @@
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:411: warning: end of file while inside a group
 
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v2.h:209: warning: More #endif's than #if's found.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v2_multi.h:181: warning: More #endif's than #if's found.
+
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v2_single.h:71: warning: More #endif's than #if's found.
+
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:400: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:367: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:306: warning: explicit link request to 'osc_t' could not be resolved

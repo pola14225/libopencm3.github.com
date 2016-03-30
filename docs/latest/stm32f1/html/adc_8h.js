@@ -2,8 +2,8 @@ var adc_8h =
 [
     [ "ADC_ADC2DATA_LSB", "group__adc__defines.html#ga71573fdbfb72fe9df505f18928810617", null ],
     [ "ADC_ADC2DATA_MSK", "group__adc__defines.html#gadcd73e7b938addf1b7755061dbd496aa", null ],
-    [ "ADC_CHANNEL_TEMP", "group__adc__defines.html#ga7e176664c3a3e340c070fe54d507b800", null ],
-    [ "ADC_CHANNEL_VREFINT", "group__adc__defines.html#ga2647a044275a295693e8fb01db3172f9", null ],
+    [ "ADC_CHANNEL_TEMP", "group__adc__channel.html#ga7e176664c3a3e340c070fe54d507b800", null ],
+    [ "ADC_CHANNEL_VREF", "group__adc__channel.html#ga67f64399503e2ac1457bbf3799d5fe07", null ],
     [ "ADC_CR1_AWDCH_MAX", "group__adc__defines.html#ga9a3c61b0fdec3c955cb4bb4f54d92981", null ],
     [ "ADC_CR1_DUALMOD_ATM", "group__adc__cr1__dualmod.html#ga96e7345f99bc7763a61d6e24c8eec935", null ],
     [ "ADC_CR1_DUALMOD_CISFIM", "group__adc__cr1__dualmod.html#gabf42d6d11039b0a6af0dd16e50f18fb5", null ],

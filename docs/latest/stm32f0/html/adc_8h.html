@@ -138,7 +138,16 @@ $(document).ready(function(){initNavTree('adc_8h.html','');});
 <div class="title">adc.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;<a class="el" href="adc__common__v2_8h_source.html">libopencm3/stm32/common/adc_common_v2.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="adc__common__v2__single_8h_source.html">libopencm3/stm32/common/adc_common_v2_single.h</a>&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for adc.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="adc_8h__incl.png" border="0" usemap="#adc_8h" alt=""/></div>
+<map name="adc_8h" id="adc_8h">
+<area shape="rect" id="node2" href="adc__common__v2_8h.html" title="libopencm3/stm32/common\l/adc_common_v2.h" alt="" coords="5,80,188,121"/><area shape="rect" id="node3" href="adc__common__v2__single_8h.html" title="libopencm3/stm32/common\l/adc_common_v2_single.h" alt="" coords="212,80,395,121"/></map>
+</div>
+</div>
 <p><a href="adc_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -147,136 +156,32 @@ Macros</h2></td></tr>
 <tr class="separator:ga54d148b91f3d356713f7e367a2243bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga90d2d5c526ce5c0a551f533eccbee71a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>&#160;&#160;&#160;<a class="el" href="memorymap_8h.html#ad06cb9e5985bd216a376f26f22303cd6">ADC_BASE</a>/* for API compatibility */</td></tr>
 <tr class="separator:ga90d2d5c526ce5c0a551f533eccbee71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aea417c25d6f1f0d7aa87e218b538e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a3aea417c25d6f1f0d7aa87e218b538e3">ADC_ISR</a>(base)&#160;&#160;&#160;MMIO32((base) + 0x00)</td></tr>
-<tr class="separator:a3aea417c25d6f1f0d7aa87e218b538e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a034c846c648f6111bbf722710ff0d5f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a034c846c648f6111bbf722710ff0d5f4">ADC1_ISR</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a3aea417c25d6f1f0d7aa87e218b538e3">ADC_ISR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="memitem:a034c846c648f6111bbf722710ff0d5f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a034c846c648f6111bbf722710ff0d5f4">ADC1_ISR</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga3503dcdf4d1a0a5ac1f5bf5d38a80cbf">ADC_ISR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
 <tr class="separator:a034c846c648f6111bbf722710ff0d5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9aa1397a072573686d250e07708a8c8c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a9aa1397a072573686d250e07708a8c8c">ADC_IER</a>(base)&#160;&#160;&#160;MMIO32((base) + 0x04)</td></tr>
-<tr class="separator:a9aa1397a072573686d250e07708a8c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b037dfa8b6fef23d2a6d1144bd9ab27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a8b037dfa8b6fef23d2a6d1144bd9ab27">ADC1_IER</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a9aa1397a072573686d250e07708a8c8c">ADC_IER</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="memitem:a8b037dfa8b6fef23d2a6d1144bd9ab27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a8b037dfa8b6fef23d2a6d1144bd9ab27">ADC1_IER</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga776e9e8824c8c8bbfe4e8ce502719818">ADC_IER</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
 <tr class="separator:a8b037dfa8b6fef23d2a6d1144bd9ab27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd74ebbf08fac6fc61468c86006ebc00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#afd74ebbf08fac6fc61468c86006ebc00">ADC_CR</a>(base)&#160;&#160;&#160;MMIO32((base) + 0x08)</td></tr>
-<tr class="separator:afd74ebbf08fac6fc61468c86006ebc00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65c1c4023922a9eebefb5976b4239ba5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a65c1c4023922a9eebefb5976b4239ba5">ADC1_CR</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#afd74ebbf08fac6fc61468c86006ebc00">ADC_CR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="memitem:a65c1c4023922a9eebefb5976b4239ba5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a65c1c4023922a9eebefb5976b4239ba5">ADC1_CR</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga15af8753284efa3acb4e29dcbeb793f3">ADC_CR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
 <tr class="separator:a65c1c4023922a9eebefb5976b4239ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5ce3e944529380c57befe3b47d2cd58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">ADC_CFGR1</a>(base)&#160;&#160;&#160;MMIO32((base) + 0x0C)</td></tr>
-<tr class="separator:ad5ce3e944529380c57befe3b47d2cd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c07e7dca6ab93fae85a12836be1a2e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a5c07e7dca6ab93fae85a12836be1a2e5">ADC1_CFGR1</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">ADC_CFGR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="memitem:a5c07e7dca6ab93fae85a12836be1a2e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a5c07e7dca6ab93fae85a12836be1a2e5">ADC1_CFGR1</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gafab9be99e42f992911676f38adef7307">ADC_CFGR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
 <tr class="separator:a5c07e7dca6ab93fae85a12836be1a2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cc0346f4f073f1512761a1e7440b6de"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a8cc0346f4f073f1512761a1e7440b6de">ADC_CFGR2</a>(base)&#160;&#160;&#160;MMIO32((base) + 0x10)</td></tr>
-<tr class="separator:a8cc0346f4f073f1512761a1e7440b6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6b3bab2f824d8dd14f64181db46e698"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ac6b3bab2f824d8dd14f64181db46e698">ADC1_CFGR2</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a8cc0346f4f073f1512761a1e7440b6de">ADC_CFGR2</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="memitem:ac6b3bab2f824d8dd14f64181db46e698"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ac6b3bab2f824d8dd14f64181db46e698">ADC1_CFGR2</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gacc48270d940fc844d2a393de37167cfa">ADC_CFGR2</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
 <tr class="separator:ac6b3bab2f824d8dd14f64181db46e698"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ed01fff8f9721f2182e0362b5e3c82a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a5ed01fff8f9721f2182e0362b5e3c82a">ADC_SMPR</a>(base)&#160;&#160;&#160;MMIO32((base) + 0x14)</td></tr>
-<tr class="separator:a5ed01fff8f9721f2182e0362b5e3c82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aada42d850f6039bb1aec9a5d11698729"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#aada42d850f6039bb1aec9a5d11698729">ADC1_SMPR</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a5ed01fff8f9721f2182e0362b5e3c82a">ADC_SMPR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="memitem:a8088f1d2624782aeb0252f8d1f38e749"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a8088f1d2624782aeb0252f8d1f38e749">ADC1_SMPR1</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga2dd31b45ee7e7b1606c1dd4f25239843">ADC_SMPR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="separator:a8088f1d2624782aeb0252f8d1f38e749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a312ef3dfc03b3df15c7924b3428937d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a312ef3dfc03b3df15c7924b3428937d0">ADC_SMPR</a>(adc)&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga2dd31b45ee7e7b1606c1dd4f25239843">ADC_SMPR1</a>(adc)  /* Compatibility */</td></tr>
+<tr class="separator:a312ef3dfc03b3df15c7924b3428937d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada42d850f6039bb1aec9a5d11698729"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#aada42d850f6039bb1aec9a5d11698729">ADC1_SMPR</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga2dd31b45ee7e7b1606c1dd4f25239843">ADC_SMPR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>) /* Compatibility */</td></tr>
 <tr class="separator:aada42d850f6039bb1aec9a5d11698729"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ad9f3677efdaffa8c448e7a59015d09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a4ad9f3677efdaffa8c448e7a59015d09">ADC_TR</a>(base)&#160;&#160;&#160;MMIO32((base) + 0x20)</td></tr>
-<tr class="separator:a4ad9f3677efdaffa8c448e7a59015d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21c55cde32a73b2464bae9b4cd64ce22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a21c55cde32a73b2464bae9b4cd64ce22">ADC1_TR</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a4ad9f3677efdaffa8c448e7a59015d09">ADC_TR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="memitem:a1ceb4c489d13b0c223031059b5e0d174"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a1ceb4c489d13b0c223031059b5e0d174">ADC1_TR1</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gafad03a1d621a3af736997ffd9538f614">ADC_TR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="separator:a1ceb4c489d13b0c223031059b5e0d174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8748a3439276b7ca1b64be90db25af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a3f8748a3439276b7ca1b64be90db25af">ADC_TR</a>(adc)&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gafad03a1d621a3af736997ffd9538f614">ADC_TR1</a>(adc) /* Compatibility */</td></tr>
+<tr class="separator:a3f8748a3439276b7ca1b64be90db25af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c55cde32a73b2464bae9b4cd64ce22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a21c55cde32a73b2464bae9b4cd64ce22">ADC1_TR</a>&#160;&#160;&#160;ADC1_TR(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>) /* Compatibility */</td></tr>
 <tr class="separator:a21c55cde32a73b2464bae9b4cd64ce22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4377b2f429dedc81df03937ed06a6a41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a4377b2f429dedc81df03937ed06a6a41">ADC_CHSELR</a>(base)&#160;&#160;&#160;MMIO32((base) + 0x28)</td></tr>
-<tr class="separator:a4377b2f429dedc81df03937ed06a6a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb09106165989682d52438b8f59d26a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#afb09106165989682d52438b8f59d26a7">ADC1_CHSELR</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a4377b2f429dedc81df03937ed06a6a41">ADC_CHSELR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="memitem:afb09106165989682d52438b8f59d26a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#afb09106165989682d52438b8f59d26a7">ADC1_CHSELR</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga44411affbc39bc4b3d80e3e429e71ac4">ADC_CHSELR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
 <tr class="separator:afb09106165989682d52438b8f59d26a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf4bbc4236428f2e1d4324681a22043"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a0bf4bbc4236428f2e1d4324681a22043">ADC_DR</a>(base)&#160;&#160;&#160;MMIO32((base) + 0x40)</td></tr>
-<tr class="separator:a0bf4bbc4236428f2e1d4324681a22043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a851f62156cf9d539d12693259f93500b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a851f62156cf9d539d12693259f93500b">ADC1_DR</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a0bf4bbc4236428f2e1d4324681a22043">ADC_DR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
+<tr class="memitem:a851f62156cf9d539d12693259f93500b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a851f62156cf9d539d12693259f93500b">ADC1_DR</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga7e1b5101658a24ce6d077989d1c0d2d1">ADC_DR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td></tr>
 <tr class="separator:a851f62156cf9d539d12693259f93500b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c424b8782f24df4cb071562651bac84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a8c424b8782f24df4cb071562651bac84">ADC_CCR</a>&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#ad06cb9e5985bd216a376f26f22303cd6">ADC_BASE</a> + 0x308)</td></tr>
-<tr class="separator:a8c424b8782f24df4cb071562651bac84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e6b127a64fba5b26f7e118f2c1bc461"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a7e6b127a64fba5b26f7e118f2c1bc461">ADC_ISR_AWD</a>&#160;&#160;&#160;(1 &lt;&lt; 7)</td></tr>
-<tr class="separator:a7e6b127a64fba5b26f7e118f2c1bc461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f58970a53712eed20aaac04c6a6f61"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a66f58970a53712eed20aaac04c6a6f61">ADC_ISR_OVR</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
-<tr class="separator:a66f58970a53712eed20aaac04c6a6f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2250856b1a5661a7e778b90ca52e92c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a2250856b1a5661a7e778b90ca52e92c1">ADC_ISR_EOSEQ</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
-<tr class="separator:a2250856b1a5661a7e778b90ca52e92c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a949681e78b978c1ccd680f11137a1550"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a949681e78b978c1ccd680f11137a1550">ADC_ISR_EOC</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
-<tr class="separator:a949681e78b978c1ccd680f11137a1550"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e8d87957a25e701a13575d635628d11"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a0e8d87957a25e701a13575d635628d11">ADC_ISR_EOSMP</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
-<tr class="separator:a0e8d87957a25e701a13575d635628d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06cdc9a3bf111d8c50ecba178daa90d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a06cdc9a3bf111d8c50ecba178daa90d8">ADC_ISR_ADRDY</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
-<tr class="separator:a06cdc9a3bf111d8c50ecba178daa90d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5e3e81e48728060a8815256bb7e555d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ab5e3e81e48728060a8815256bb7e555d">ADC_IER_AWDIE</a>&#160;&#160;&#160;(1 &lt;&lt; 7)</td></tr>
-<tr class="separator:ab5e3e81e48728060a8815256bb7e555d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150e154d48f6069e324aa642ec30f107"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a150e154d48f6069e324aa642ec30f107">ADC_IER_OVRIE</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
-<tr class="separator:a150e154d48f6069e324aa642ec30f107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa35cb3b8d136e2f793e02ecf91f6fc05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#aa35cb3b8d136e2f793e02ecf91f6fc05">ADC_IER_EOSEQIE</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
-<tr class="separator:aa35cb3b8d136e2f793e02ecf91f6fc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a367429f3a07068668ffefd84c7c60985"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a367429f3a07068668ffefd84c7c60985">ADC_IER_EOCIE</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
-<tr class="separator:a367429f3a07068668ffefd84c7c60985"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe38c621f1e8239fefbb8585911d2138"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#afe38c621f1e8239fefbb8585911d2138">ADC_IER_EOSMPIE</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
-<tr class="separator:afe38c621f1e8239fefbb8585911d2138"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55d9fb25dbbbaa72791a52fedfecca7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a55d9fb25dbbbaa72791a52fedfecca7b">ADC_IER_ADRDYIE</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
-<tr class="separator:a55d9fb25dbbbaa72791a52fedfecca7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87c66f671af3241a20d7dfa2a048b40a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a87c66f671af3241a20d7dfa2a048b40a">ADC_CR_ADCAL</a>&#160;&#160;&#160;(1 &lt;&lt; 31)</td></tr>
-<tr class="separator:a87c66f671af3241a20d7dfa2a048b40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56c924ba75bdb8b75aa9130b75effbe5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a56c924ba75bdb8b75aa9130b75effbe5">ADC_CR_ADSTP</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
-<tr class="separator:a56c924ba75bdb8b75aa9130b75effbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25021284fb6bfad3e8448edc6ef81218"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a25021284fb6bfad3e8448edc6ef81218">ADC_CR_ADSTART</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
-<tr class="separator:a25021284fb6bfad3e8448edc6ef81218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad99494f414a25f32a5f00ea39ea2150a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ad99494f414a25f32a5f00ea39ea2150a">ADC_CR_ADDIS</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
-<tr class="separator:ad99494f414a25f32a5f00ea39ea2150a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26fe09dfd6969dd95591942e80cc3d2b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a26fe09dfd6969dd95591942e80cc3d2b">ADC_CR_ADEN</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
-<tr class="separator:a26fe09dfd6969dd95591942e80cc3d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63978665d17422c5ef4fe16a82dd3c66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a63978665d17422c5ef4fe16a82dd3c66">ADC_CFGR1_AWDCH_SHIFT</a>&#160;&#160;&#160;26</td></tr>
-<tr class="separator:a63978665d17422c5ef4fe16a82dd3c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2eb115721c8054f7a2ba23c21bc68e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#af2eb115721c8054f7a2ba23c21bc68e1">ADC_CFGR1_AWDCH</a>&#160;&#160;&#160;(0x1F &lt;&lt; ADC_CFGR1_AWDCH_SHIFT)</td></tr>
-<tr class="separator:af2eb115721c8054f7a2ba23c21bc68e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb5bc0d40f3ef97b783903d46858b9f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#acb5bc0d40f3ef97b783903d46858b9f9">ADC_CFGR1_AWDCH_VAL</a>(x)&#160;&#160;&#160;((x) &lt;&lt; <a class="el" href="adc_8h.html#a63978665d17422c5ef4fe16a82dd3c66">ADC_CFGR1_AWDCH_SHIFT</a>)</td></tr>
-<tr class="separator:acb5bc0d40f3ef97b783903d46858b9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afee9f0fa04e0201a43856080e37c4508"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#afee9f0fa04e0201a43856080e37c4508">ADC_CFGR1_AWDEN</a>&#160;&#160;&#160;(1 &lt;&lt; 23)</td></tr>
-<tr class="separator:afee9f0fa04e0201a43856080e37c4508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfab18aa9b57f8ed8979f62d5d3900d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#abfab18aa9b57f8ed8979f62d5d3900d2">ADC_CFGR1_AWDSGL</a>&#160;&#160;&#160;(1 &lt;&lt; 22)</td></tr>
-<tr class="separator:abfab18aa9b57f8ed8979f62d5d3900d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae26a4779335193192049e1d58e3b2718"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ae26a4779335193192049e1d58e3b2718">ADC_CFGR1_DISCEN</a>&#160;&#160;&#160;(1 &lt;&lt; 16)</td></tr>
-<tr class="separator:ae26a4779335193192049e1d58e3b2718"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ff56271bc473179a89b075fda664512"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a2ff56271bc473179a89b075fda664512">ADC_CFGR1_AUTOFF</a>&#160;&#160;&#160;(1 &lt;&lt; 15)</td></tr>
-<tr class="separator:a2ff56271bc473179a89b075fda664512"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fe986e2a65282b01053839f8c0877a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a2fe986e2a65282b01053839f8c0877a3">ADC_CFGR1_WAIT</a>&#160;&#160;&#160;(1 &lt;&lt; 14)</td></tr>
-<tr class="separator:a2fe986e2a65282b01053839f8c0877a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a68ef1ef5f97552db10e8a4303eb0a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a2a68ef1ef5f97552db10e8a4303eb0a2">ADC_CFGR1_CONT</a>&#160;&#160;&#160;(1 &lt;&lt; 13)</td></tr>
-<tr class="separator:a2a68ef1ef5f97552db10e8a4303eb0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbd980c2b24383afb370bfe69860064f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#adbd980c2b24383afb370bfe69860064f">ADC_CFGR1_OVRMOD</a>&#160;&#160;&#160;(1 &lt;&lt; 12)</td></tr>
-<tr class="separator:adbd980c2b24383afb370bfe69860064f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3eb7b12995847d9d1ecad59edb97410"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>&#160;&#160;&#160;10</td></tr>
-<tr class="separator:ae3eb7b12995847d9d1ecad59edb97410"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc48e957d935d791a767c763b9225832"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#afc48e957d935d791a767c763b9225832">ADC_CFGR1_EXTEN</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td></tr>
-<tr class="separator:afc48e957d935d791a767c763b9225832"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f5c82bfa6b9f137423b84c8c9fbc2be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a0f5c82bfa6b9f137423b84c8c9fbc2be">ADC_CFGR1_EXTEN_DISABLE</a>&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td></tr>
-<tr class="separator:a0f5c82bfa6b9f137423b84c8c9fbc2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8711abcefe5824bc0a0856619ae0665"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ac8711abcefe5824bc0a0856619ae0665">ADC_CFGR1_EXTEN_RISING</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td></tr>
-<tr class="separator:ac8711abcefe5824bc0a0856619ae0665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e8a50ae42120db679e597fcc9fa32ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a4e8a50ae42120db679e597fcc9fa32ef">ADC_CFGR1_EXTEN_FALLING</a>&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td></tr>
-<tr class="separator:a4e8a50ae42120db679e597fcc9fa32ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c800113f78924d677d804922996e364"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a0c800113f78924d677d804922996e364">ADC_CFGR1_EXTEN_BOTH</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td></tr>
-<tr class="separator:a0c800113f78924d677d804922996e364"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae791ddaa80f37bd1f363e132af4c809a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ae791ddaa80f37bd1f363e132af4c809a">ADC_CFGR1_EXTSEL_SHIFT</a>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:ae791ddaa80f37bd1f363e132af4c809a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01460f832e7bd04e150f86425aa922dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a01460f832e7bd04e150f86425aa922dd">ADC_CFGR1_EXTSEL</a>&#160;&#160;&#160;(7 &lt;&lt; <a class="el" href="adc_8h.html#ae791ddaa80f37bd1f363e132af4c809a">ADC_CFGR1_EXTSEL_SHIFT</a>)</td></tr>
-<tr class="separator:a01460f832e7bd04e150f86425aa922dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f20aa62478a6bd4721653c7f0b5e419"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a4f20aa62478a6bd4721653c7f0b5e419">ADC_CFGR1_EXTSEL_VAL</a>(x)&#160;&#160;&#160;((x) &lt;&lt; <a class="el" href="adc_8h.html#ae791ddaa80f37bd1f363e132af4c809a">ADC_CFGR1_EXTSEL_SHIFT</a>)</td></tr>
-<tr class="separator:a4f20aa62478a6bd4721653c7f0b5e419"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48d91913f0fe8acb7a07de52505a1fa7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a48d91913f0fe8acb7a07de52505a1fa7">ADC_CFGR1_ALIGN</a>&#160;&#160;&#160;(1 &lt;&lt; 5)</td></tr>
-<tr class="separator:a48d91913f0fe8acb7a07de52505a1fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6832129e084d665da7363942b3c81cba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:a6832129e084d665da7363942b3c81cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d5676c559f66561a86e6236ba803f98"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a9d5676c559f66561a86e6236ba803f98">ADC_CFGR1_RES</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td></tr>
-<tr class="separator:a9d5676c559f66561a86e6236ba803f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0120641bdb3de60af9c13361ace1ca0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a0120641bdb3de60af9c13361ace1ca0a">ADC_CFGR1_RES_12_BIT</a>&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td></tr>
-<tr class="separator:a0120641bdb3de60af9c13361ace1ca0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a006a1177cdd18b1e6496b04b472bd5ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a006a1177cdd18b1e6496b04b472bd5ee">ADC_CFGR1_RES_10_BIT</a>&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td></tr>
-<tr class="separator:a006a1177cdd18b1e6496b04b472bd5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a2cd6e803f11203ed89e56161513185"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a4a2cd6e803f11203ed89e56161513185">ADC_CFGR1_RES_8_BIT</a>&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td></tr>
-<tr class="separator:a4a2cd6e803f11203ed89e56161513185"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5698e310969fb8e11ede349780d80021"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a5698e310969fb8e11ede349780d80021">ADC_CFGR1_RES_6_BIT</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td></tr>
-<tr class="separator:a5698e310969fb8e11ede349780d80021"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a138c4d67e5735326ffc922409f3fc8f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a138c4d67e5735326ffc922409f3fc8f4">ADC_CFGR1_SCANDIR</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
-<tr class="separator:a138c4d67e5735326ffc922409f3fc8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab698a32d964b2c094ba4d42931c21068"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ab698a32d964b2c094ba4d42931c21068">ADC_CFGR1_DMACFG</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
-<tr class="separator:ab698a32d964b2c094ba4d42931c21068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1466dacc8afdc2a11ed1d10720834c0f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a1466dacc8afdc2a11ed1d10720834c0f">ADC_CFGR1_DMAEN</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
-<tr class="separator:a1466dacc8afdc2a11ed1d10720834c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638ab218762a194141e1c3810be43314"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a638ab218762a194141e1c3810be43314">ADC_CFGR2_CKMODE_SHIFT</a>&#160;&#160;&#160;30</td></tr>
 <tr class="separator:a638ab218762a194141e1c3810be43314"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5821334c58af9ea7fa1205c1459f5a3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a5821334c58af9ea7fa1205c1459f5a3a">ADC_CFGR2_CKMODE</a>&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="adc_8h.html#a638ab218762a194141e1c3810be43314">ADC_CFGR2_CKMODE_SHIFT</a>)</td></tr>
@@ -307,35 +212,13 @@ Macros</h2></td></tr>
 <tr class="separator:a050a3820a3db71ec66428a064b0cb612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b8684e26f87e51b72e02ebf0c31afdb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a9b8684e26f87e51b72e02ebf0c31afdb">ADC_SMPR_SMP_239DOT5</a>&#160;&#160;&#160;(7 &lt;&lt; <a class="el" href="adc_8h.html#a1fa48fc2412e45984bc52d02df871595">ADC_SMPR_SMP_SHIFT</a>)</td></tr>
 <tr class="separator:a9b8684e26f87e51b72e02ebf0c31afdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af607827edc90ae4b4d8aab1e8fe54f86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#af607827edc90ae4b4d8aab1e8fe54f86">ADC_TR_LT_SHIFT</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:af607827edc90ae4b4d8aab1e8fe54f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a256ca600edc7d15a8f5123730822667b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a256ca600edc7d15a8f5123730822667b">ADC_TR_LT</a>&#160;&#160;&#160;(0xFFF &lt;&lt; ADC_TR_LT_SHIFT)</td></tr>
-<tr class="separator:a256ca600edc7d15a8f5123730822667b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f21850632bf5fd8a235937d2a7435e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a1f21850632bf5fd8a235937d2a7435e0">ADC_TR_LT_VAL</a>(x)&#160;&#160;&#160;((x) &lt;&lt; <a class="el" href="adc_8h.html#af607827edc90ae4b4d8aab1e8fe54f86">ADC_TR_LT_SHIFT</a>)</td></tr>
-<tr class="separator:a1f21850632bf5fd8a235937d2a7435e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a255ce9af741b8da92fcd3b6846274425"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a255ce9af741b8da92fcd3b6846274425">ADC_TR_HT_SHIFT</a>&#160;&#160;&#160;16</td></tr>
-<tr class="separator:a255ce9af741b8da92fcd3b6846274425"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17fba2a9cb9dac07a81afc606a3c742a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#a17fba2a9cb9dac07a81afc606a3c742a">ADC_TR_HT</a>&#160;&#160;&#160;(0xFFF &lt;&lt; ADC_TR_HT_SHIFT)</td></tr>
-<tr class="separator:a17fba2a9cb9dac07a81afc606a3c742a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd0df7bcdc4cfb109bdadaf0ed466ce0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#abd0df7bcdc4cfb109bdadaf0ed466ce0">ADC_TR_HT_VAL</a>(x)&#160;&#160;&#160;((x) &lt;&lt; <a class="el" href="adc_8h.html#a255ce9af741b8da92fcd3b6846274425">ADC_TR_HT_SHIFT</a>)</td></tr>
-<tr class="separator:abd0df7bcdc4cfb109bdadaf0ed466ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add90bd1aaaa40daf7442a7ef19e86258"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#add90bd1aaaa40daf7442a7ef19e86258">ADC_CHSELR_CHSEL</a>(x)&#160;&#160;&#160;(1 &lt;&lt; (x))</td></tr>
-<tr class="separator:add90bd1aaaa40daf7442a7ef19e86258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada596183c4087696c486546e88176038"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#ada596183c4087696c486546e88176038">ADC_DR_DATA</a>&#160;&#160;&#160;0xFFFF</td></tr>
-<tr class="separator:ada596183c4087696c486546e88176038"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeefa6f00268db0df10fb97112a9f456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#aaeefa6f00268db0df10fb97112a9f456">ADC_CCR_VBATEN</a>&#160;&#160;&#160;(1 &lt;&lt; 24)</td></tr>
-<tr class="separator:aaeefa6f00268db0df10fb97112a9f456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec05330012f52f35421531c72819fada"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#aec05330012f52f35421531c72819fada">ADC_CCR_TSEN</a>&#160;&#160;&#160;(1 &lt;&lt; 23)</td></tr>
-<tr class="separator:aec05330012f52f35421531c72819fada"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecc47464aaa52f565d8daa9cf1a86054"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="adc_8h.html#aecc47464aaa52f565d8daa9cf1a86054">ADC_CCR_VREFEN</a>&#160;&#160;&#160;(1 &lt;&lt; 22)</td></tr>
-<tr class="separator:aecc47464aaa52f565d8daa9cf1a86054"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac1c41d620b2ca698d257aaa1f6de82e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__res.html#gac1c41d620b2ca698d257aaa1f6de82e5">ADC_RESOLUTION_12BIT</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a0120641bdb3de60af9c13361ace1ca0a">ADC_CFGR1_RES_12_BIT</a></td></tr>
+<tr class="memitem:gac1c41d620b2ca698d257aaa1f6de82e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__res.html#gac1c41d620b2ca698d257aaa1f6de82e5">ADC_RESOLUTION_12BIT</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga0120641bdb3de60af9c13361ace1ca0a">ADC_CFGR1_RES_12_BIT</a></td></tr>
 <tr class="separator:gac1c41d620b2ca698d257aaa1f6de82e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadad68ae96e01445e33b2ca91be2d5db2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__res.html#gadad68ae96e01445e33b2ca91be2d5db2">ADC_RESOLUTION_10BIT</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a006a1177cdd18b1e6496b04b472bd5ee">ADC_CFGR1_RES_10_BIT</a></td></tr>
+<tr class="memitem:gadad68ae96e01445e33b2ca91be2d5db2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__res.html#gadad68ae96e01445e33b2ca91be2d5db2">ADC_RESOLUTION_10BIT</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga006a1177cdd18b1e6496b04b472bd5ee">ADC_CFGR1_RES_10_BIT</a></td></tr>
 <tr class="separator:gadad68ae96e01445e33b2ca91be2d5db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga602571a2293ba97c8a6177277c0e11c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__res.html#ga602571a2293ba97c8a6177277c0e11c9">ADC_RESOLUTION_8BIT</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a4a2cd6e803f11203ed89e56161513185">ADC_CFGR1_RES_8_BIT</a></td></tr>
+<tr class="memitem:ga602571a2293ba97c8a6177277c0e11c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__res.html#ga602571a2293ba97c8a6177277c0e11c9">ADC_RESOLUTION_8BIT</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga4a2cd6e803f11203ed89e56161513185">ADC_CFGR1_RES_8_BIT</a></td></tr>
 <tr class="separator:ga602571a2293ba97c8a6177277c0e11c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab9f79035f9896298e64fdcb4f1bf6466"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__res.html#gab9f79035f9896298e64fdcb4f1bf6466">ADC_RESOLUTION_6BIT</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a5698e310969fb8e11ede349780d80021">ADC_CFGR1_RES_6_BIT</a></td></tr>
+<tr class="memitem:gab9f79035f9896298e64fdcb4f1bf6466"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__res.html#gab9f79035f9896298e64fdcb4f1bf6466">ADC_RESOLUTION_6BIT</a>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga5698e310969fb8e11ede349780d80021">ADC_CFGR1_RES_6_BIT</a></td></tr>
 <tr class="separator:gab9f79035f9896298e64fdcb4f1bf6466"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf42c2360d50fbb5f93988db27910d325"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__smptime.html#gaf42c2360d50fbb5f93988db27910d325">ADC_SMPTIME_001DOT5</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#af2602e3956c3d1ff98c8eab16ffd4a3a">ADC_SMPR_SMP_001DOT5</a></td></tr>
 <tr class="separator:gaf42c2360d50fbb5f93988db27910d325"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -359,43 +242,11 @@ Macros</h2></td></tr>
 <tr class="separator:gabbcc74e3093f5f2427b494bc974153c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga638e7a5acebe73a3cda9f9ea8f93ec11"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__clksource.html#ga638e7a5acebe73a3cda9f9ea8f93ec11">ADC_CLKSOURCE_PCLK_DIV4</a>&#160;&#160;&#160;<a class="el" href="adc_8h.html#a17e52f6862676acded497b29501591d4">ADC_CFGR2_CKMODE_PCLK_DIV4</a></td></tr>
 <tr class="separator:ga638e7a5acebe73a3cda9f9ea8f93ec11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9624905d53d0560f4b4a6e5983e11ae0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="separator:ga9624905d53d0560f4b4a6e5983e11ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga69f3aec885e14d094d5a3fd0ba0b0d74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga69f3aec885e14d094d5a3fd0ba0b0d74">ADC_CHANNEL1</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="separator:ga69f3aec885e14d094d5a3fd0ba0b0d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7381ba120239e1039e278182088b0212"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga7381ba120239e1039e278182088b0212">ADC_CHANNEL2</a>&#160;&#160;&#160;0x02</td></tr>
-<tr class="separator:ga7381ba120239e1039e278182088b0212"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf952b863bef9494c45515fb27b4834e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#gaf952b863bef9494c45515fb27b4834e6">ADC_CHANNEL3</a>&#160;&#160;&#160;0x03</td></tr>
-<tr class="separator:gaf952b863bef9494c45515fb27b4834e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga34e6ba8d77e1769082ca26d430658e53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga34e6ba8d77e1769082ca26d430658e53">ADC_CHANNEL4</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="separator:ga34e6ba8d77e1769082ca26d430658e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafafd9e765f45da4c9139a04608ea0553"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#gafafd9e765f45da4c9139a04608ea0553">ADC_CHANNEL5</a>&#160;&#160;&#160;0x05</td></tr>
-<tr class="separator:gafafd9e765f45da4c9139a04608ea0553"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb7e580ba6b1a01cb0133b97314070c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#gafb7e580ba6b1a01cb0133b97314070c7">ADC_CHANNEL6</a>&#160;&#160;&#160;0x06</td></tr>
-<tr class="separator:gafb7e580ba6b1a01cb0133b97314070c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9805bc76d02d85fe76805c4ecd9f04cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga9805bc76d02d85fe76805c4ecd9f04cc">ADC_CHANNEL7</a>&#160;&#160;&#160;0x07</td></tr>
-<tr class="separator:ga9805bc76d02d85fe76805c4ecd9f04cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b97e2da7fdae970ac3a21e9a06f89db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga6b97e2da7fdae970ac3a21e9a06f89db">ADC_CHANNEL8</a>&#160;&#160;&#160;0x08</td></tr>
-<tr class="separator:ga6b97e2da7fdae970ac3a21e9a06f89db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae6e9ad153b3c4bd7ad0d15af82cb84d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#gae6e9ad153b3c4bd7ad0d15af82cb84d3">ADC_CHANNEL9</a>&#160;&#160;&#160;0x09</td></tr>
-<tr class="separator:gae6e9ad153b3c4bd7ad0d15af82cb84d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga17aabad9af01899b7e0dd0359735b7be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga17aabad9af01899b7e0dd0359735b7be">ADC_CHANNEL10</a>&#160;&#160;&#160;0x0A</td></tr>
-<tr class="separator:ga17aabad9af01899b7e0dd0359735b7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1829a7877602d71c2e05903749951ec7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga1829a7877602d71c2e05903749951ec7">ADC_CHANNEL11</a>&#160;&#160;&#160;0x0B</td></tr>
-<tr class="separator:ga1829a7877602d71c2e05903749951ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52e871da9f9331d3d5a4044382578dc8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga52e871da9f9331d3d5a4044382578dc8">ADC_CHANNEL12</a>&#160;&#160;&#160;0x0C</td></tr>
-<tr class="separator:ga52e871da9f9331d3d5a4044382578dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad4a0a0051f40445b0d486d28fbd55d83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#gad4a0a0051f40445b0d486d28fbd55d83">ADC_CHANNEL13</a>&#160;&#160;&#160;0x0D</td></tr>
-<tr class="separator:gad4a0a0051f40445b0d486d28fbd55d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga77569b9617e08730986a8b4e73dd1c24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga77569b9617e08730986a8b4e73dd1c24">ADC_CHANNEL14</a>&#160;&#160;&#160;0x0E</td></tr>
-<tr class="separator:ga77569b9617e08730986a8b4e73dd1c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga14cf7ce6f6ebd0de0e9687d1d8390ea0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga14cf7ce6f6ebd0de0e9687d1d8390ea0">ADC_CHANNEL15</a>&#160;&#160;&#160;0x0F</td></tr>
-<tr class="separator:ga14cf7ce6f6ebd0de0e9687d1d8390ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7e176664c3a3e340c070fe54d507b800"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga7e176664c3a3e340c070fe54d507b800">ADC_CHANNEL_TEMP</a>&#160;&#160;&#160;0x10</td></tr>
+<tr class="memitem:ga7e176664c3a3e340c070fe54d507b800"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga7e176664c3a3e340c070fe54d507b800">ADC_CHANNEL_TEMP</a>&#160;&#160;&#160;16</td></tr>
 <tr class="separator:ga7e176664c3a3e340c070fe54d507b800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga67f64399503e2ac1457bbf3799d5fe07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga67f64399503e2ac1457bbf3799d5fe07">ADC_CHANNEL_VREF</a>&#160;&#160;&#160;0x11</td></tr>
+<tr class="memitem:ga67f64399503e2ac1457bbf3799d5fe07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga67f64399503e2ac1457bbf3799d5fe07">ADC_CHANNEL_VREF</a>&#160;&#160;&#160;17</td></tr>
 <tr class="separator:ga67f64399503e2ac1457bbf3799d5fe07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga60210f1e9305301dea9e42afedd9093f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga60210f1e9305301dea9e42afedd9093f">ADC_CHANNEL_VBAT</a>&#160;&#160;&#160;0x12</td></tr>
+<tr class="memitem:ga60210f1e9305301dea9e42afedd9093f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__channel.html#ga60210f1e9305301dea9e42afedd9093f">ADC_CHANNEL_VBAT</a>&#160;&#160;&#160;18</td></tr>
 <tr class="separator:ga60210f1e9305301dea9e42afedd9093f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -408,12 +259,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga366654c02369a57e3a79cb395966fbeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__opmode.html#ga366654c02369a57e3a79cb395966fbeb">adc_set_continuous_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga366654c02369a57e3a79cb395966fbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Continuous Conversion Mode.  <a href="group__adc__api__opmode.html#ga366654c02369a57e3a79cb395966fbeb">More...</a><br /></td></tr>
-<tr class="separator:ga366654c02369a57e3a79cb395966fbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__opmode.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga3b730353f6e1bb97b546101edb6c80c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Single Conversion Mode.  <a href="group__adc__api__opmode.html#ga3b730353f6e1bb97b546101edb6c80c0">More...</a><br /></td></tr>
-<tr class="separator:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9f5205c61cfa5a08d5235704b0bdae90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__opmode.html#ga9f5205c61cfa5a08d5235704b0bdae90">adc_enable_discontinuous_mode</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga9f5205c61cfa5a08d5235704b0bdae90"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Discontinuous Mode for Regular Conversions.  <a href="group__adc__api__opmode.html#ga9f5205c61cfa5a08d5235704b0bdae90">More...</a><br /></td></tr>
 <tr class="separator:ga9f5205c61cfa5a08d5235704b0bdae90"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -429,15 +274,6 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf91d45a5dcbc9d884a9f878ff6323bbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__trigger.html#gaf91d45a5dcbc9d884a9f878ff6323bbe">adc_disable_external_trigger_regular</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:gaf91d45a5dcbc9d884a9f878ff6323bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable an External Trigger for Regular Channels.  <a href="group__adc__api__trigger.html#gaf91d45a5dcbc9d884a9f878ff6323bbe">More...</a><br /></td></tr>
 <tr class="separator:gaf91d45a5dcbc9d884a9f878ff6323bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b3b2251b860a0370967c2ee326ad338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__result.html#ga0b3b2251b860a0370967c2ee326ad338">adc_start_conversion_regular</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga0b3b2251b860a0370967c2ee326ad338"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Software Triggered Conversion on Regular Channels.  <a href="group__adc__api__result.html#ga0b3b2251b860a0370967c2ee326ad338">More...</a><br /></td></tr>
-<tr class="separator:ga0b3b2251b860a0370967c2ee326ad338"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf297c53a2e00673df5b85eeb87683ba2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__result.html#gaf297c53a2e00673df5b85eeb87683ba2">adc_eoc</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:gaf297c53a2e00673df5b85eeb87683ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Read the End-of-Conversion Flag.  <a href="group__adc__api__result.html#gaf297c53a2e00673df5b85eeb87683ba2">More...</a><br /></td></tr>
-<tr class="separator:gaf297c53a2e00673df5b85eeb87683ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52c4b90afb2a3aa032794342b8eaf38e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__result.html#ga52c4b90afb2a3aa032794342b8eaf38e">adc_read_regular</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga52c4b90afb2a3aa032794342b8eaf38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Read from the Regular Conversion Result Register.  <a href="group__adc__api__result.html#ga52c4b90afb2a3aa032794342b8eaf38e">More...</a><br /></td></tr>
-<tr class="separator:ga52c4b90afb2a3aa032794342b8eaf38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8f8231d239f1edf4b58aa1c467206d55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#ga8f8231d239f1edf4b58aa1c467206d55">adc_enable_watchdog_interrupt</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga8f8231d239f1edf4b58aa1c467206d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Analog Watchdog Interrupt.  <a href="group__adc__api__interrupts.html#ga8f8231d239f1edf4b58aa1c467206d55">More...</a><br /></td></tr>
 <tr class="separator:ga8f8231d239f1edf4b58aa1c467206d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -450,18 +286,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga05cbbf29006f783f8efa68bad2dd1646"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#ga05cbbf29006f783f8efa68bad2dd1646">adc_clear_watchdog_flag</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga05cbbf29006f783f8efa68bad2dd1646"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Clear Analog Watchdog Flag.  <a href="group__adc__api__interrupts.html#ga05cbbf29006f783f8efa68bad2dd1646">More...</a><br /></td></tr>
 <tr class="separator:ga05cbbf29006f783f8efa68bad2dd1646"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9f618863d8b3ae15dc18035ce894e746"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#ga9f618863d8b3ae15dc18035ce894e746">adc_enable_overrun_interrupt</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga9f618863d8b3ae15dc18035ce894e746"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable the Overrun Interrupt.  <a href="group__adc__api__interrupts.html#ga9f618863d8b3ae15dc18035ce894e746">More...</a><br /></td></tr>
-<tr class="separator:ga9f618863d8b3ae15dc18035ce894e746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga154b9e664c58d05e70fb194f9457a61e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#ga154b9e664c58d05e70fb194f9457a61e">adc_disable_overrun_interrupt</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga154b9e664c58d05e70fb194f9457a61e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable the Overrun Interrupt.  <a href="group__adc__api__interrupts.html#ga154b9e664c58d05e70fb194f9457a61e">More...</a><br /></td></tr>
-<tr class="separator:ga154b9e664c58d05e70fb194f9457a61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad8748ca84ef6a2301ea78d0a88bdb177"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#gad8748ca84ef6a2301ea78d0a88bdb177">adc_get_overrun_flag</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:gad8748ca84ef6a2301ea78d0a88bdb177"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Read the Overrun Flag.  <a href="group__adc__api__interrupts.html#gad8748ca84ef6a2301ea78d0a88bdb177">More...</a><br /></td></tr>
-<tr class="separator:gad8748ca84ef6a2301ea78d0a88bdb177"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga397913c6f9e83653e20fd54233a77dac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#ga397913c6f9e83653e20fd54233a77dac">adc_clear_overrun_flag</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga397913c6f9e83653e20fd54233a77dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Clear Overrun Flags.  <a href="group__adc__api__interrupts.html#ga397913c6f9e83653e20fd54233a77dac">More...</a><br /></td></tr>
-<tr class="separator:ga397913c6f9e83653e20fd54233a77dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf46c3a3e56180d4f914af663490f820d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#gaf46c3a3e56180d4f914af663490f820d">adc_enable_eoc_sequence_interrupt</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:gaf46c3a3e56180d4f914af663490f820d"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Regular End-Of-Conversion Sequence Interrupt.  <a href="group__adc__api__interrupts.html#gaf46c3a3e56180d4f914af663490f820d">More...</a><br /></td></tr>
 <tr class="separator:gaf46c3a3e56180d4f914af663490f820d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -471,54 +295,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gacfd9a1c51e7c122de4192766a4f3a5b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#gacfd9a1c51e7c122de4192766a4f3a5b6">adc_get_eoc_sequence_flag</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:gacfd9a1c51e7c122de4192766a4f3a5b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Read the Regular End-Of-Conversion Sequence Flag.  <a href="group__adc__api__interrupts.html#gacfd9a1c51e7c122de4192766a4f3a5b6">More...</a><br /></td></tr>
 <tr class="separator:gacfd9a1c51e7c122de4192766a4f3a5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga676a51c5de3ef536538c89d7cdab0e1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#ga676a51c5de3ef536538c89d7cdab0e1c">adc_enable_eoc_interrupt</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga676a51c5de3ef536538c89d7cdab0e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Regular End-Of-Conversion Interrupt.  <a href="group__adc__api__interrupts.html#ga676a51c5de3ef536538c89d7cdab0e1c">More...</a><br /></td></tr>
-<tr class="separator:ga676a51c5de3ef536538c89d7cdab0e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6cb3d778d07c0d1622a56fb2aa377ec8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__interrupts.html#ga6cb3d778d07c0d1622a56fb2aa377ec8">adc_disable_eoc_interrupt</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga6cb3d778d07c0d1622a56fb2aa377ec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable Regular End-Of-Conversion Interrupt.  <a href="group__adc__api__interrupts.html#ga6cb3d778d07c0d1622a56fb2aa377ec8">More...</a><br /></td></tr>
-<tr class="separator:ga6cb3d778d07c0d1622a56fb2aa377ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga1ac745d1052240adb5cf55d3ed8b5aad">adc_power_off</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Power Off.  <a href="group__adc__api__config.html#ga1ac745d1052240adb5cf55d3ed8b5aad">More...</a><br /></td></tr>
-<tr class="separator:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga51f01f6dedbcfc4231e0fc1d8943d956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga51f01f6dedbcfc4231e0fc1d8943d956">adc_power_on</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga51f01f6dedbcfc4231e0fc1d8943d956"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Power On.  <a href="group__adc__api__config.html#ga51f01f6dedbcfc4231e0fc1d8943d956">More...</a><br /></td></tr>
-<tr class="separator:ga51f01f6dedbcfc4231e0fc1d8943d956"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf3a2342bd08663caa9e27b005feb629f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#gaf3a2342bd08663caa9e27b005feb629f">adc_set_clk_source</a> (uint32_t adc, uint32_t source)</td></tr>
 <tr class="memdesc:gaf3a2342bd08663caa9e27b005feb629f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Clock Prescale.  <a href="group__adc__api__config.html#gaf3a2342bd08663caa9e27b005feb629f">More...</a><br /></td></tr>
 <tr class="separator:gaf3a2342bd08663caa9e27b005feb629f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gace14daa8c089f21f710eeeebce100227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#gace14daa8c089f21f710eeeebce100227">adc_set_regular_sequence</a> (uint32_t adc, uint8_t length, uint8_t channel[])</td></tr>
-<tr class="memdesc:gace14daa8c089f21f710eeeebce100227"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set a Regular Channel Conversion Sequence.  <a href="group__adc__api__config.html#gace14daa8c089f21f710eeeebce100227">More...</a><br /></td></tr>
-<tr class="separator:gace14daa8c089f21f710eeeebce100227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga028c905528d6187936c2d2ed61967d73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga028c905528d6187936c2d2ed61967d73">adc_set_sample_time_on_all_channels</a> (uint32_t adc, uint8_t time)</td></tr>
-<tr class="memdesc:ga028c905528d6187936c2d2ed61967d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set the Sample Time for All Channels.  <a href="group__adc__api__config.html#ga028c905528d6187936c2d2ed61967d73">More...</a><br /></td></tr>
-<tr class="separator:ga028c905528d6187936c2d2ed61967d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga459708aeaf8e709264c4b96fed706ae3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga459708aeaf8e709264c4b96fed706ae3">adc_set_resolution</a> (uint32_t adc, uint16_t resolution)</td></tr>
-<tr class="memdesc:ga459708aeaf8e709264c4b96fed706ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Resolution.  <a href="group__adc__api__config.html#ga459708aeaf8e709264c4b96fed706ae3">More...</a><br /></td></tr>
-<tr class="separator:ga459708aeaf8e709264c4b96fed706ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87e3c678306379082761a3b096ab8ccb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga87e3c678306379082761a3b096ab8ccb">adc_set_left_aligned</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga87e3c678306379082761a3b096ab8ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set the Data as Left Aligned.  <a href="group__adc__api__config.html#ga87e3c678306379082761a3b096ab8ccb">More...</a><br /></td></tr>
-<tr class="separator:ga87e3c678306379082761a3b096ab8ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga923b0eb25e1ba298000bdc80cab9702a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga923b0eb25e1ba298000bdc80cab9702a">adc_set_right_aligned</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga923b0eb25e1ba298000bdc80cab9702a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set the Data as Right Aligned.  <a href="group__adc__api__config.html#ga923b0eb25e1ba298000bdc80cab9702a">More...</a><br /></td></tr>
-<tr class="separator:ga923b0eb25e1ba298000bdc80cab9702a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac33cd693a63bc2ae46110c758c49308f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#gac33cd693a63bc2ae46110c758c49308f">adc_enable_dma</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:gac33cd693a63bc2ae46110c758c49308f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable DMA Transfers.  <a href="group__adc__api__config.html#gac33cd693a63bc2ae46110c758c49308f">More...</a><br /></td></tr>
-<tr class="separator:gac33cd693a63bc2ae46110c758c49308f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8743bf8b2acc4299a15480e2c5d0c54f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga8743bf8b2acc4299a15480e2c5d0c54f">adc_disable_dma</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga8743bf8b2acc4299a15480e2c5d0c54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable DMA Transfers.  <a href="group__adc__api__config.html#ga8743bf8b2acc4299a15480e2c5d0c54f">More...</a><br /></td></tr>
-<tr class="separator:ga8743bf8b2acc4299a15480e2c5d0c54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7728b2073c9f35ec8dc86e4464a80d14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga7728b2073c9f35ec8dc86e4464a80d14">adc_enable_temperature_sensor</a> (void)</td></tr>
-<tr class="memdesc:ga7728b2073c9f35ec8dc86e4464a80d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable The Temperature Sensor.  <a href="group__adc__api__config.html#ga7728b2073c9f35ec8dc86e4464a80d14">More...</a><br /></td></tr>
-<tr class="separator:ga7728b2073c9f35ec8dc86e4464a80d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0c63fddac8988654e5c84f318387d2dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga0c63fddac8988654e5c84f318387d2dd">adc_disable_temperature_sensor</a> (void)</td></tr>
-<tr class="memdesc:ga0c63fddac8988654e5c84f318387d2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable The Temperature Sensor.  <a href="group__adc__api__config.html#ga0c63fddac8988654e5c84f318387d2dd">More...</a><br /></td></tr>
-<tr class="separator:ga0c63fddac8988654e5c84f318387d2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga55ed34f9164dde5e9a34a382938553ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga55ed34f9164dde5e9a34a382938553ef">adc_enable_vref_sensor</a> (void)</td></tr>
-<tr class="memdesc:ga55ed34f9164dde5e9a34a382938553ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable The VRef Sensor.  <a href="group__adc__api__config.html#ga55ed34f9164dde5e9a34a382938553ef">More...</a><br /></td></tr>
-<tr class="separator:ga55ed34f9164dde5e9a34a382938553ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaefa3789b9f59e617d44f2ae4540b303a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#gaefa3789b9f59e617d44f2ae4540b303a">adc_disable_vref_sensor</a> (void)</td></tr>
-<tr class="memdesc:gaefa3789b9f59e617d44f2ae4540b303a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable The VRef Sensor.  <a href="group__adc__api__config.html#gaefa3789b9f59e617d44f2ae4540b303a">More...</a><br /></td></tr>
-<tr class="separator:gaefa3789b9f59e617d44f2ae4540b303a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9f86faf42849041518d4f15e26499ac4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__api__config.html#ga9f86faf42849041518d4f15e26499ac4">adc_enable_vbat_sensor</a> (void)</td></tr>
 <tr class="memdesc:ga9f86faf42849041518d4f15e26499ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable The VBat Sensor.  <a href="group__adc__api__config.html#ga9f86faf42849041518d4f15e26499ac4">More...</a><br /></td></tr>
 <tr class="separator:ga9f86faf42849041518d4f15e26499ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -553,77 +332,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC1_CFGR1&#160;&#160;&#160;<a class="el" href="adc_8h.html#ad5ce3e944529380c57befe3b47d2cd58">ADC_CFGR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00067">67</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac6b3bab2f824d8dd14f64181db46e698"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC1_CFGR2&#160;&#160;&#160;<a class="el" href="adc_8h.html#a8cc0346f4f073f1512761a1e7440b6de">ADC_CFGR2</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00072">72</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afb09106165989682d52438b8f59d26a7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC1_CHSELR&#160;&#160;&#160;<a class="el" href="adc_8h.html#a4377b2f429dedc81df03937ed06a6a41">ADC_CHSELR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00087">87</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a65c1c4023922a9eebefb5976b4239ba5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC1_CR&#160;&#160;&#160;<a class="el" href="adc_8h.html#afd74ebbf08fac6fc61468c86006ebc00">ADC_CR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00062">62</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a851f62156cf9d539d12693259f93500b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC1_DR&#160;&#160;&#160;<a class="el" href="adc_8h.html#a0bf4bbc4236428f2e1d4324681a22043">ADC_DR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00092">92</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8b037dfa8b6fef23d2a6d1144bd9ab27"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC1_IER&#160;&#160;&#160;<a class="el" href="adc_8h.html#a9aa1397a072573686d250e07708a8c8c">ADC_IER</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+          <td class="memname">#define ADC1_CFGR1&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gafab9be99e42f992911676f38adef7307">ADC_CFGR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -632,17 +341,87 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac6b3bab2f824d8dd14f64181db46e698"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_CFGR2&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gacc48270d940fc844d2a393de37167cfa">ADC_CFGR2</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00059">59</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afb09106165989682d52438b8f59d26a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_CHSELR&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga44411affbc39bc4b3d80e3e429e71ac4">ADC_CHSELR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00066">66</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a65c1c4023922a9eebefb5976b4239ba5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_CR&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga15af8753284efa3acb4e29dcbeb793f3">ADC_CR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00057">57</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a851f62156cf9d539d12693259f93500b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_DR&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga7e1b5101658a24ce6d077989d1c0d2d1">ADC_DR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00067">67</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b037dfa8b6fef23d2a6d1144bd9ab27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_IER&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga776e9e8824c8c8bbfe4e8ce502719818">ADC_IER</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00056">56</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a034c846c648f6111bbf722710ff0d5f4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC1_ISR&#160;&#160;&#160;<a class="el" href="adc_8h.html#a3aea417c25d6f1f0d7aa87e218b538e3">ADC_ISR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+          <td class="memname">#define ADC1_ISR&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga3503dcdf4d1a0a5ac1f5bf5d38a80cbf">ADC_ISR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00054">54</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00055">55</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -651,12 +430,26 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC1_SMPR&#160;&#160;&#160;<a class="el" href="adc_8h.html#a5ed01fff8f9721f2182e0362b5e3c82a">ADC_SMPR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+          <td class="memname">#define ADC1_SMPR&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga2dd31b45ee7e7b1606c1dd4f25239843">ADC_SMPR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>) /* Compatibility */</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00077">77</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00062">62</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8088f1d2624782aeb0252f8d1f38e749"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADC1_SMPR1&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga2dd31b45ee7e7b1606c1dd4f25239843">ADC_SMPR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00060">60</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -665,554 +458,26 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC1_TR&#160;&#160;&#160;<a class="el" href="adc_8h.html#a4ad9f3677efdaffa8c448e7a59015d09">ADC_TR</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
+          <td class="memname">#define ADC1_TR&#160;&#160;&#160;ADC1_TR(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>) /* Compatibility */</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00082">82</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00065">65</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8c424b8782f24df4cb071562651bac84"></a>
+<a class="anchor" id="a1ceb4c489d13b0c223031059b5e0d174"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC_CCR&#160;&#160;&#160;MMIO32(<a class="el" href="memorymap_8h.html#ad06cb9e5985bd216a376f26f22303cd6">ADC_BASE</a> + 0x308)</td>
+          <td class="memname">#define ADC1_TR1&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gafad03a1d621a3af736997ffd9538f614">ADC_TR1</a>(<a class="el" href="group__adc__reg__base.html#ga54d148b91f3d356713f7e367a2243bea">ADC</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00096">96</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00649">adc_disable_temperature_sensor()</a>, <a class="el" href="adc_8c_source.html#l00695">adc_disable_vbat_sensor()</a>, <a class="el" href="adc_8c_source.html#l00672">adc_disable_vref_sensor()</a>, <a class="el" href="adc_8c_source.html#l00637">adc_enable_temperature_sensor()</a>, <a class="el" href="adc_8c_source.html#l00683">adc_enable_vbat_sensor()</a>, and <a class="el" href="adc_8c_source.html#l00660">adc_enable_vref_sensor()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aec05330012f52f35421531c72819fada"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CCR_TSEN&#160;&#160;&#160;(1 &lt;&lt; 23)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00208">208</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00649">adc_disable_temperature_sensor()</a>, and <a class="el" href="adc_8c_source.html#l00637">adc_enable_temperature_sensor()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aaeefa6f00268db0df10fb97112a9f456"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CCR_VBATEN&#160;&#160;&#160;(1 &lt;&lt; 24)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00207">207</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00695">adc_disable_vbat_sensor()</a>, and <a class="el" href="adc_8c_source.html#l00683">adc_enable_vbat_sensor()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aecc47464aaa52f565d8daa9cf1a86054"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CCR_VREFEN&#160;&#160;&#160;(1 &lt;&lt; 22)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00209">209</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00672">adc_disable_vref_sensor()</a>, and <a class="el" href="adc_8c_source.html#l00660">adc_enable_vref_sensor()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad5ce3e944529380c57befe3b47d2cd58"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32((base) + 0x0C)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00066">66</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00802">adc_disable_analog_watchdog()</a>, <a class="el" href="adc_8c_source.html#l00093">adc_disable_discontinuous_mode()</a>, <a class="el" href="adc_8c_source.html#l00626">adc_disable_dma()</a>, <a class="el" href="adc_8c_source.html#l00274">adc_disable_external_trigger_regular()</a>, <a class="el" href="adc_8c_source.html#l00776">adc_enable_analog_watchdog_on_all_channels()</a>, <a class="el" href="adc_8c_source.html#l00789">adc_enable_analog_watchdog_on_selected_channel()</a>, <a class="el" href="adc_8c_source.html#l00082">adc_enable_discontinuous_mode()</a>, <a class="el" href="adc_8c_source.html#l00615">adc_enable_dma()</a>, <a class="el" href="adc_8c_source.html#l00261">adc_enable_external_trigger_regular()</a>, <a class="el" href="adc_8c_source.html#l00057">adc_set_continuous_conversion_mode()</a>, <a class="el" href="adc_8c_source.html#l00593">adc_set_left_aligned()</a>, <a class="el" href="adc_8c_source.html#l00155">adc_set_operation_mode()</a>, <a class="el" href="adc_8c_source.html#l00523">adc_set_regular_sequence()</a>, <a class="el" href="adc_8c_source.html#l00582">adc_set_resolution()</a>, <a class="el" href="adc_8c_source.html#l00604">adc_set_right_aligned()</a>, and <a class="el" href="adc_8c_source.html#l00071">adc_set_single_conversion_mode()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a48d91913f0fe8acb7a07de52505a1fa7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_ALIGN&#160;&#160;&#160;(1 &lt;&lt; 5)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00153">153</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00593">adc_set_left_aligned()</a>, and <a class="el" href="adc_8c_source.html#l00604">adc_set_right_aligned()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2ff56271bc473179a89b075fda664512"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_AUTOFF&#160;&#160;&#160;(1 &lt;&lt; 15)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00137">137</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af2eb115721c8054f7a2ba23c21bc68e1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_AWDCH&#160;&#160;&#160;(0x1F &lt;&lt; ADC_CFGR1_AWDCH_SHIFT)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00131">131</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00789">adc_enable_analog_watchdog_on_selected_channel()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a63978665d17422c5ef4fe16a82dd3c66"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_AWDCH_SHIFT&#160;&#160;&#160;26</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00130">130</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="acb5bc0d40f3ef97b783903d46858b9f9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_AWDCH_VAL</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;((x) &lt;&lt; <a class="el" href="adc_8h.html#a63978665d17422c5ef4fe16a82dd3c66">ADC_CFGR1_AWDCH_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00132">132</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00789">adc_enable_analog_watchdog_on_selected_channel()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afee9f0fa04e0201a43856080e37c4508"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_AWDEN&#160;&#160;&#160;(1 &lt;&lt; 23)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00134">134</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00802">adc_disable_analog_watchdog()</a>, <a class="el" href="adc_8c_source.html#l00776">adc_enable_analog_watchdog_on_all_channels()</a>, and <a class="el" href="adc_8c_source.html#l00789">adc_enable_analog_watchdog_on_selected_channel()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abfab18aa9b57f8ed8979f62d5d3900d2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_AWDSGL&#160;&#160;&#160;(1 &lt;&lt; 22)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00135">135</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00776">adc_enable_analog_watchdog_on_all_channels()</a>, and <a class="el" href="adc_8c_source.html#l00789">adc_enable_analog_watchdog_on_selected_channel()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2a68ef1ef5f97552db10e8a4303eb0a2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_CONT&#160;&#160;&#160;(1 &lt;&lt; 13)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00139">139</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00057">adc_set_continuous_conversion_mode()</a>, <a class="el" href="adc_8c_source.html#l00155">adc_set_operation_mode()</a>, and <a class="el" href="adc_8c_source.html#l00071">adc_set_single_conversion_mode()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae26a4779335193192049e1d58e3b2718"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_DISCEN&#160;&#160;&#160;(1 &lt;&lt; 16)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00136">136</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00093">adc_disable_discontinuous_mode()</a>, <a class="el" href="adc_8c_source.html#l00082">adc_enable_discontinuous_mode()</a>, and <a class="el" href="adc_8c_source.html#l00155">adc_set_operation_mode()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab698a32d964b2c094ba4d42931c21068"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_DMACFG&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00163">163</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1466dacc8afdc2a11ed1d10720834c0f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_DMAEN&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00164">164</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00626">adc_disable_dma()</a>, and <a class="el" href="adc_8c_source.html#l00615">adc_enable_dma()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afc48e957d935d791a767c763b9225832"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_EXTEN&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00143">143</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00274">adc_disable_external_trigger_regular()</a>, and <a class="el" href="adc_8c_source.html#l00261">adc_enable_external_trigger_regular()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0c800113f78924d677d804922996e364"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_EXTEN_BOTH&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00147">147</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0f5c82bfa6b9f137423b84c8c9fbc2be"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_EXTEN_DISABLE&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00144">144</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4e8a50ae42120db679e597fcc9fa32ef"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_EXTEN_FALLING&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00146">146</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac8711abcefe5824bc0a0856619ae0665"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_EXTEN_RISING&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="adc_8h.html#ae3eb7b12995847d9d1ecad59edb97410">ADC_CFGR1_EXTEN_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00145">145</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae3eb7b12995847d9d1ecad59edb97410"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_EXTEN_SHIFT&#160;&#160;&#160;10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00142">142</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a01460f832e7bd04e150f86425aa922dd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_EXTSEL&#160;&#160;&#160;(7 &lt;&lt; <a class="el" href="adc_8h.html#ae791ddaa80f37bd1f363e132af4c809a">ADC_CFGR1_EXTSEL_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00150">150</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00261">adc_enable_external_trigger_regular()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae791ddaa80f37bd1f363e132af4c809a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_EXTSEL_SHIFT&#160;&#160;&#160;6</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00149">149</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4f20aa62478a6bd4721653c7f0b5e419"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_EXTSEL_VAL</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;((x) &lt;&lt; <a class="el" href="adc_8h.html#ae791ddaa80f37bd1f363e132af4c809a">ADC_CFGR1_EXTSEL_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00151">151</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adbd980c2b24383afb370bfe69860064f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_OVRMOD&#160;&#160;&#160;(1 &lt;&lt; 12)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00140">140</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9d5676c559f66561a86e6236ba803f98"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_RES&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00156">156</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00582">adc_set_resolution()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a006a1177cdd18b1e6496b04b472bd5ee"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_RES_10_BIT&#160;&#160;&#160;(1 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00158">158</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0120641bdb3de60af9c13361ace1ca0a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_RES_12_BIT&#160;&#160;&#160;(0 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00157">157</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5698e310969fb8e11ede349780d80021"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_RES_6_BIT&#160;&#160;&#160;(3 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00160">160</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4a2cd6e803f11203ed89e56161513185"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_RES_8_BIT&#160;&#160;&#160;(2 &lt;&lt; <a class="el" href="adc_8h.html#a6832129e084d665da7363942b3c81cba">ADC_CFGR1_RES_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00159">159</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6832129e084d665da7363942b3c81cba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_RES_SHIFT&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00155">155</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a138c4d67e5735326ffc922409f3fc8f4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_SCANDIR&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00162">162</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00523">adc_set_regular_sequence()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2fe986e2a65282b01053839f8c0877a3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR1_WAIT&#160;&#160;&#160;(1 &lt;&lt; 14)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00138">138</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8cc0346f4f073f1512761a1e7440b6de"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CFGR2</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32((base) + 0x10)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00071">71</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00501">adc_set_clk_source()</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00063">63</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1226,9 +491,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00169">169</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00076">76</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00501">adc_set_clk_source()</a>.</p>
+<p>Referenced by <a class="el" href="adc_8c_source.html#l00305">adc_set_clk_source()</a>.</p>
 
 </div>
 </div>
@@ -1242,7 +507,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00170">170</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00077">77</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1256,7 +521,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00171">171</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00078">78</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1270,7 +535,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00172">172</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00079">79</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1284,403 +549,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00168">168</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00075">75</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4377b2f429dedc81df03937ed06a6a41"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CHSELR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32((base) + 0x28)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00086">86</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00523">adc_set_regular_sequence()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="add90bd1aaaa40daf7442a7ef19e86258"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CHSELR_CHSEL</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;(1 &lt;&lt; (x))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00199">199</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afd74ebbf08fac6fc61468c86006ebc00"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32((base) + 0x08)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00061">61</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00706">adc_calibrate_start()</a>, <a class="el" href="adc_8c_source.html#l00717">adc_calibrate_wait_finish()</a>, <a class="el" href="adc_8c_source.html#l00472">adc_power_off()</a>, <a class="el" href="adc_8c_source.html#l00487">adc_power_on()</a>, and <a class="el" href="adc_8c_source.html#l00195">adc_start_conversion_regular()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a87c66f671af3241a20d7dfa2a048b40a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR_ADCAL&#160;&#160;&#160;(1 &lt;&lt; 31)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00122">122</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00706">adc_calibrate_start()</a>, and <a class="el" href="adc_8c_source.html#l00717">adc_calibrate_wait_finish()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad99494f414a25f32a5f00ea39ea2150a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR_ADDIS&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00125">125</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a26fe09dfd6969dd95591942e80cc3d2b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR_ADEN&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00126">126</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00472">adc_power_off()</a>, and <a class="el" href="adc_8c_source.html#l00487">adc_power_on()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a25021284fb6bfad3e8448edc6ef81218"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR_ADSTART&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00124">124</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00195">adc_start_conversion_regular()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a56c924ba75bdb8b75aa9130b75effbe5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_CR_ADSTP&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00123">123</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0bf4bbc4236428f2e1d4324681a22043"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_DR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32((base) + 0x40)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00091">91</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00230">adc_read_regular()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ada596183c4087696c486546e88176038"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_DR_DATA&#160;&#160;&#160;0xFFFF</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00203">203</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9aa1397a072573686d250e07708a8c8c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_IER</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32((base) + 0x04)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00057">57</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00447">adc_disable_eoc_interrupt()</a>, <a class="el" href="adc_8c_source.html#l00414">adc_disable_eoc_sequence_interrupt()</a>, <a class="el" href="adc_8c_source.html#l00361">adc_disable_overrun_interrupt()</a>, <a class="el" href="adc_8c_source.html#l00309">adc_disable_watchdog_interrupt()</a>, <a class="el" href="adc_8c_source.html#l00436">adc_enable_eoc_interrupt()</a>, <a class="el" href="adc_8c_source.html#l00403">adc_enable_eoc_sequence_interrupt()</a>, <a class="el" href="adc_8c_source.html#l00350">adc_enable_overrun_interrupt()</a>, and <a class="el" href="adc_8c_source.html#l00298">adc_enable_watchdog_interrupt()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a55d9fb25dbbbaa72791a52fedfecca7b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_IER_ADRDYIE&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00118">118</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab5e3e81e48728060a8815256bb7e555d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_IER_AWDIE&#160;&#160;&#160;(1 &lt;&lt; 7)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00113">113</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00309">adc_disable_watchdog_interrupt()</a>, and <a class="el" href="adc_8c_source.html#l00298">adc_enable_watchdog_interrupt()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a367429f3a07068668ffefd84c7c60985"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_IER_EOCIE&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00116">116</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00447">adc_disable_eoc_interrupt()</a>, and <a class="el" href="adc_8c_source.html#l00436">adc_enable_eoc_interrupt()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa35cb3b8d136e2f793e02ecf91f6fc05"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_IER_EOSEQIE&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00115">115</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00414">adc_disable_eoc_sequence_interrupt()</a>, and <a class="el" href="adc_8c_source.html#l00403">adc_enable_eoc_sequence_interrupt()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afe38c621f1e8239fefbb8585911d2138"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_IER_EOSMPIE&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00117">117</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a150e154d48f6069e324aa642ec30f107"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_IER_OVRIE&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00114">114</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00361">adc_disable_overrun_interrupt()</a>, and <a class="el" href="adc_8c_source.html#l00350">adc_enable_overrun_interrupt()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3aea417c25d6f1f0d7aa87e218b538e3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_ISR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32((base) + 0x00)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00053">53</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00392">adc_clear_overrun_flag()</a>, <a class="el" href="adc_8c_source.html#l00335">adc_clear_watchdog_flag()</a>, <a class="el" href="adc_8c_source.html#l00214">adc_eoc()</a>, <a class="el" href="adc_8c_source.html#l00425">adc_get_eoc_sequence_flag()</a>, <a class="el" href="adc_8c_source.html#l00376">adc_get_overrun_flag()</a>, and <a class="el" href="adc_8c_source.html#l00324">adc_get_watchdog_flag()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a06cdc9a3bf111d8c50ecba178daa90d8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_ISR_ADRDY&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00109">109</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7e6b127a64fba5b26f7e118f2c1bc461"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_ISR_AWD&#160;&#160;&#160;(1 &lt;&lt; 7)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00104">104</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00335">adc_clear_watchdog_flag()</a>, and <a class="el" href="adc_8c_source.html#l00324">adc_get_watchdog_flag()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a949681e78b978c1ccd680f11137a1550"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_ISR_EOC&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00107">107</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00214">adc_eoc()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2250856b1a5661a7e778b90ca52e92c1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_ISR_EOSEQ&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00106">106</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00425">adc_get_eoc_sequence_flag()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0e8d87957a25e701a13575d635628d11"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_ISR_EOSMP&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00108">108</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a66f58970a53712eed20aaac04c6a6f61"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_ISR_OVR&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00105">105</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00392">adc_clear_overrun_flag()</a>, and <a class="el" href="adc_8c_source.html#l00376">adc_get_overrun_flag()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5ed01fff8f9721f2182e0362b5e3c82a"></a>
+<a class="anchor" id="a312ef3dfc03b3df15c7924b3428937d0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1688,15 +561,15 @@ Functions</h2></td></tr>
           <td class="memname">#define ADC_SMPR</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32((base) + 0x14)</td>
+          <td class="paramname">adc</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#ga2dd31b45ee7e7b1606c1dd4f25239843">ADC_SMPR1</a>(adc)  /* Compatibility */</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00076">76</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00061">61</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00567">adc_set_sample_time_on_all_channels()</a>.</p>
+<p>Referenced by <a class="el" href="adc_8c_source.html#l00371">adc_set_sample_time_on_all_channels()</a>.</p>
 
 </div>
 </div>
@@ -1710,9 +583,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00177">177</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00084">84</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00567">adc_set_sample_time_on_all_channels()</a>.</p>
+<p>Referenced by <a class="el" href="adc_8c_source.html#l00371">adc_set_sample_time_on_all_channels()</a>.</p>
 
 </div>
 </div>
@@ -1726,7 +599,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00178">178</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00085">85</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1740,7 +613,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00179">179</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00086">86</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1754,7 +627,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00180">180</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00087">87</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1768,7 +641,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00181">181</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00088">88</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1782,7 +655,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00182">182</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00089">89</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1796,7 +669,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00183">183</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00090">90</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1810,7 +683,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00184">184</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00091">91</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1824,7 +697,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00185">185</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00092">92</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1838,11 +711,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00176">176</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00083">83</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4ad9f3677efdaffa8c448e7a59015d09"></a>
+<a class="anchor" id="a3f8748a3439276b7ca1b64be90db25af"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1850,115 +723,13 @@ Functions</h2></td></tr>
           <td class="memname">#define ADC_TR</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">base</td><td>)</td>
-          <td>&#160;&#160;&#160;MMIO32((base) + 0x20)</td>
+          <td class="paramname">adc</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__adc__defines.html#gafad03a1d621a3af736997ffd9538f614">ADC_TR1</a>(adc) /* Compatibility */</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00081">81</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00814">adc_set_watchdog_high_threshold()</a>, and <a class="el" href="adc_8c_source.html#l00826">adc_set_watchdog_low_threshold()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a17fba2a9cb9dac07a81afc606a3c742a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_TR_HT&#160;&#160;&#160;(0xFFF &lt;&lt; ADC_TR_HT_SHIFT)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00194">194</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00814">adc_set_watchdog_high_threshold()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a255ce9af741b8da92fcd3b6846274425"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_TR_HT_SHIFT&#160;&#160;&#160;16</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00193">193</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abd0df7bcdc4cfb109bdadaf0ed466ce0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_TR_HT_VAL</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;((x) &lt;&lt; <a class="el" href="adc_8h.html#a255ce9af741b8da92fcd3b6846274425">ADC_TR_HT_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00195">195</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00814">adc_set_watchdog_high_threshold()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a256ca600edc7d15a8f5123730822667b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_TR_LT&#160;&#160;&#160;(0xFFF &lt;&lt; ADC_TR_LT_SHIFT)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00190">190</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00826">adc_set_watchdog_low_threshold()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af607827edc90ae4b4d8aab1e8fe54f86"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_TR_LT_SHIFT&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00189">189</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1f21850632bf5fd8a235937d2a7435e0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ADC_TR_LT_VAL</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;((x) &lt;&lt; <a class="el" href="adc_8h.html#af607827edc90ae4b4d8aab1e8fe54f86">ADC_TR_LT_SHIFT</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="adc_8h_source.html#l00191">191</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="adc_8c_source.html#l00826">adc_set_watchdog_low_threshold()</a>.</p>
+<p>Definition at line <a class="el" href="adc_8h_source.html#l00064">64</a> of file <a class="el" href="adc_8h_source.html">adc.h</a>.</p>
 
 </div>
 </div>
@@ -1968,7 +739,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ead20f0c10569fc5b4f0cc70c3cf6bea.html">include</a></li><li class="navelem"><a class="el" href="dir_e1040081471ffd682e8357aa53c82f70.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_45f2d6d22892326e20da1249658b8a7a.html">stm32</a></li><li class="navelem"><a class="el" href="dir_7d765688839e3eda4be687451f518130.html">f0</a></li><li class="navelem"><a class="el" href="adc_8h.html">adc.h</a></li>
-    <li class="footer">Generated on Tue Mar 29 2016 01:21:28 for libopencm3 by
+    <li class="footer">Generated on Wed Mar 30 2016 20:21:31 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

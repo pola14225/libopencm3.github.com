@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['gpio_5fasc',['GPIO_ASC',['../gpio_8h.html#aa4c24fcaecdaba66a0b4a0d1b4c5135b',1,'gpio.h']]],
-  ['gpio_5fbrr',['GPIO_BRR',['../gpio_8h.html#a790c77e8320ce9c7dc9132862cdc4a59',1,'gpio.h']]],
   ['gpio_5fport_5fa_5fbase',['GPIO_PORT_A_BASE',['../memorymap_8h.html#aadfedde7941fa484de08872551516cd9',1,'memorymap.h']]],
   ['gpio_5fport_5fb_5fbase',['GPIO_PORT_B_BASE',['../memorymap_8h.html#a76f2426fde990408388cc7e23d63444e',1,'memorymap.h']]],
   ['gpio_5fport_5fc_5fbase',['GPIO_PORT_C_BASE',['../memorymap_8h.html#ac3754540649792975085507caf98b70f',1,'memorymap.h']]],
@@ -9,21 +7,5 @@ var searchData=
   ['gpio_5fport_5fe_5fbase',['GPIO_PORT_E_BASE',['../memorymap_8h.html#a512bc9a47ce4bccdcbcaa9a80620d559',1,'memorymap.h']]],
   ['gpio_5fport_5ff_5fbase',['GPIO_PORT_F_BASE',['../memorymap_8h.html#aeb59b5ce54ec229dc4697a0d3b387401',1,'memorymap.h']]],
   ['gpio_5fport_5fg_5fbase',['GPIO_PORT_G_BASE',['../memorymap_8h.html#a0800377c4f11f41b21e6aa46d20ae6ac',1,'memorymap.h']]],
-  ['gpio_5fport_5fh_5fbase',['GPIO_PORT_H_BASE',['../memorymap_8h.html#ac7ee51bf6d1394318fef30cb44e39752',1,'memorymap.h']]],
-  ['gpioa_5fasc',['GPIOA_ASC',['../gpio_8h.html#ad7235fec4098706d375a9bbeb45bd1f8',1,'gpio.h']]],
-  ['gpioa_5fbrr',['GPIOA_BRR',['../gpio_8h.html#a9c111ddc85e66775e6d3e6ed2e44eb4f',1,'gpio.h']]],
-  ['gpiob_5fasc',['GPIOB_ASC',['../gpio_8h.html#abc4b0d82de86ac1de15a31119f253e51',1,'gpio.h']]],
-  ['gpiob_5fbrr',['GPIOB_BRR',['../gpio_8h.html#a0c7c0db6bb2dc88162cec23b7d90700f',1,'gpio.h']]],
-  ['gpioc_5fasc',['GPIOC_ASC',['../gpio_8h.html#adc81e5d68a04915c0d85cf1f6dd91806',1,'gpio.h']]],
-  ['gpioc_5fbrr',['GPIOC_BRR',['../gpio_8h.html#ac6a4510b46cf898d3c3a2f56c84386b7',1,'gpio.h']]],
-  ['gpiod_5fasc',['GPIOD_ASC',['../gpio_8h.html#a79b08ebe80ec8399a8f30def0ce673b8',1,'gpio.h']]],
-  ['gpiod_5fbrr',['GPIOD_BRR',['../gpio_8h.html#ac7dec0235cd22aa5c0bc17fe8f1b723c',1,'gpio.h']]],
-  ['gpioe_5fasc',['GPIOE_ASC',['../gpio_8h.html#a770e6aebf42e401a9979a364e0c8a10b',1,'gpio.h']]],
-  ['gpioe_5fbrr',['GPIOE_BRR',['../gpio_8h.html#ac0f863955e19d161cfba73c210e8776a',1,'gpio.h']]],
-  ['gpiof_5fasc',['GPIOF_ASC',['../gpio_8h.html#ab7fd27da4b0e4d3c8f007b1fde90010b',1,'gpio.h']]],
-  ['gpiof_5fbrr',['GPIOF_BRR',['../gpio_8h.html#a35e53847bccba5ae1e79b28748ee9aac',1,'gpio.h']]],
-  ['gpiog_5fasc',['GPIOG_ASC',['../gpio_8h.html#a43023cfdd141930ee13c5a87848093f2',1,'gpio.h']]],
-  ['gpiog_5fbrr',['GPIOG_BRR',['../gpio_8h.html#ad4581080385ecb68827837e066998377',1,'gpio.h']]],
-  ['gpioh_5fasc',['GPIOH_ASC',['../gpio_8h.html#a5e67f65ded8872a6d1d3f248e8331232',1,'gpio.h']]],
-  ['gpioh_5fbrr',['GPIOH_BRR',['../gpio_8h.html#ade650b2b2690c60a7cc1e601121f6f20',1,'gpio.h']]]
+  ['gpio_5fport_5fh_5fbase',['GPIO_PORT_H_BASE',['../memorymap_8h.html#ac7ee51bf6d1394318fef30cb44e39752',1,'memorymap.h']]]
 ];

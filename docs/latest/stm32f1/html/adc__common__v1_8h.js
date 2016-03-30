@@ -146,7 +146,7 @@ var adc__common__v1_8h =
     [ "adc_enable_scan_mode", "group__adc__channel.html#gaf599bfe1fc547a24acbfc573995a4688", null ],
     [ "adc_eoc", "group__adc__channel.html#gaf297c53a2e00673df5b85eeb87683ba2", null ],
     [ "adc_eoc_injected", "group__adc__channel.html#gad2a065923adced21827480f124ff4a61", null ],
-    [ "adc_off", "group__adc__channel.html#ga929c3401331118aecf2aba217d88a108", null ],
+    [ "adc_power_off", "group__adc__channel.html#ga1ac745d1052240adb5cf55d3ed8b5aad", null ],
     [ "adc_power_on", "group__adc__channel.html#ga51f01f6dedbcfc4231e0fc1d8943d956", null ],
     [ "adc_read_injected", "group__adc__channel.html#gab96e1ce8d28ce696dc70e231a8da936e", null ],
     [ "adc_read_regular", "group__adc__channel.html#ga52c4b90afb2a3aa032794342b8eaf38e", null ],

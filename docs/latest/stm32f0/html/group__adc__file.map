@@ -3,7 +3,6 @@
 <area shape="rect" id="node2" href="$group__adc__api__opmode.html" title="ADC Result API. " alt="" coords="271,56,426,83"/>
 <area shape="rect" id="node3" href="$group__adc__api__trigger.html" title="ADC Trigger API. " alt="" coords="288,107,409,133"/>
 <area shape="rect" id="node4" href="$group__adc__api__config.html" title="ADC Basic configuration API. " alt="" coords="253,157,445,184"/>
-<area shape="rect" id="node5" href="$group__STM32F0xx.html" title="Libraries for ST Microelectronics STM32F0xx series. " alt="" coords="5,132,99,159"/>
+<area shape="rect" id="node5" href="$group__STM32F0xx.html" title="Libraries for ST Microelectronics STM32F0xx series. " alt="" coords="5,107,99,133"/>
 <area shape="rect" id="node6" href="$group__adc__api__interrupts.html" title="ADC Interrupt configuration API. " alt="" coords="245,208,452,235"/>
-<area shape="rect" id="node8" href="$group__adc__api__result.html" title="ADC Result API. " alt="" coords="289,259,408,285"/>
 </map>

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['libopencm3_20stm32l4',['libopencm3 STM32L4',['../index.html',1,'']]],
   ['lcd_5fbase',['LCD_BASE',['../memorymap_8h.html#a017749aad23300240ef5ac4c3d5ca750',1,'memorymap.h']]],
   ['libopencm3_20license',['libopencm3 License',['../lgpl_license.html',1,'']]],
   ['license_2edox',['license.dox',['../license_8dox.html',1,'']]],

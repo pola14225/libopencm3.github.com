@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "libopencm3", "index.html", [
+    [ "libopencm3 STM32L4", "index.html", null ],
     [ "libopencm3 License", "lgpl_license.html", null ],
     [ "Back to Top", "../../html/index.html", null ],
     [ "CM3 Core", "../../cm3/html/modules.html", null ],
@@ -34,6 +35,7 @@ var NAVTREE =
       [ "Globals", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", "globals_defs" ]
@@ -45,13 +47,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
-"group__gpio__defines.html#ga733d745a0b6840f22b516979ce7a92c9",
-"group__gpio__port__id.html#gad15f13545ecdbbabfccf43d5997e5ade",
-"group__rcc__defines.html#ga1824c6f3be6d2f36f85bf434fc0aad51",
-"group__rcc__defines.html#ga678c6dfd3eeade45bb4647beaaae24df",
-"group__rcc__defines.html#gabd458ef42c959fcfb7be1e35765a71f9",
-"group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a69ce223f136ad1abf50abac168f31f2a",
-"group__rcc__defines.html#gga54c7db24941f636ee238833c481ada48ac2a10a31a77eac6a9e5ef9b59397abf4"
+"group__flash__defines.html#ga6293710a5145793a40d4ad7cd6071141",
+"group__gpio__af__num.html#gac832d890950c1e5e99e8090829303ac5",
+"group__gpio__defines.html#gaca0944e0b56356fdd9a4d58ae086f84d",
+"group__pwr__defines.html#ga633d809286b1e03055734e7eb447b00e",
+"group__rcc__cr__msirange.html#ga3bd84690434fbad3112b7434cd24d162",
+"group__rcc__defines.html#ga3b6794c26ece8d674ef2ed1412125bbf",
+"group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721",
+"group__rcc__defines.html#gad04629713149ad47d52316341118bcea",
+"group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718acd5c7eeeda3799f89bc3da7169384bf1",
+"group__rcc__defines.html#gga68c2b48bd51903ccf423c86458194354a4e5d0c838caa0e75a56ea47ef36ad782"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

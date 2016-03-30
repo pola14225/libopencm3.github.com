@@ -2,6 +2,11 @@ var files =
 [
     [ "adc_common_v1.c", "adc__common__v1_8c.html", "adc__common__v1_8c" ],
     [ "adc_common_v1.h", "adc__common__v1_8h.html", "adc__common__v1_8h" ],
+    [ "adc_common_v2.c", "adc__common__v2_8c.html", "adc__common__v2_8c" ],
+    [ "adc_common_v2.h", "adc__common__v2_8h.html", "adc__common__v2_8h" ],
+    [ "adc_common_v2_multi.c", "adc__common__v2__multi_8c.html", "adc__common__v2__multi_8c" ],
+    [ "adc_common_v2_multi.h", "adc__common__v2__multi_8h.html", "adc__common__v2__multi_8h" ],
+    [ "adc_common_v2_single.h", "adc__common__v2__single_8h.html", "adc__common__v2__single_8h" ],
     [ "crc.c", "crc_8c.html", null ],
     [ "crc.h", "crc_8h.html", null ],
     [ "crc_common_all.c", "crc__common__all_8c.html", "crc__common__all_8c" ],

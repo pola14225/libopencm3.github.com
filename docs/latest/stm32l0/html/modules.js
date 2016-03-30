@@ -5,7 +5,6 @@ var modules =
     [ "CRS Defines", "group__CRS__defines.html", "group__CRS__defines" ],
     [ "USB Defines", "group__usb__defines.html", "group__usb__defines" ],
     [ "CRS", "group__crs__file.html", null ],
-    [ "Adc_defines", "group__adc__defines.html", "group__adc__defines" ],
     [ "Crc_defines", "group__crc__defines.html", "group__crc__defines" ],
     [ "Crypto_defines", "group__crypto__defines.html", "group__crypto__defines" ],
     [ "Dac_defines", "group__dac__defines.html", "group__dac__defines" ],

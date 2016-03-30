@@ -11,5 +11,7 @@ var searchData=
   ['tim6_5fbase',['TIM6_BASE',['../memorymap_8h.html#a8268ec947929f192559f28c6bf7d1eac',1,'memorymap.h']]],
   ['tim7_5fbase',['TIM7_BASE',['../memorymap_8h.html#a0ebf54364c6a2be6eb19ded6b18b6387',1,'memorymap.h']]],
   ['tim8_5fbase',['TIM8_BASE',['../memorymap_8h.html#a5b72f698b7a048a6f9fcfe2efe5bc1db',1,'memorymap.h']]],
+  ['timer_2eh',['timer.h',['../timer_8h.html',1,'']]],
+  ['timer_20defines',['Timer Defines',['../group__timer__defines.html',1,'']]],
   ['tsc_5fbase',['TSC_BASE',['../memorymap_8h.html#a2bba7a31caeacaacd433abb71781e0af',1,'memorymap.h']]]
 ];

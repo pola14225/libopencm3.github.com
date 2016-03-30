@@ -209,7 +209,7 @@ Functions</h2></td></tr>
 Basic ADC Handling API.</h1>
 <p>Example 1: Simple single channel conversion polled. Enable the peripheral clock and ADC, reset ADC and set the prescaler divider. Set dual mode to independent (default). Enable triggering for a software trigger.</p>
 <div class="fragment"><div class="line"><a class="code" href="group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="group__rcc__defines.html#ga6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, <a class="code" href="group__rcc__apb2enr__en.html#ga57b9f50cb96a2e4ceba37728b4a32a42">RCC_APB2ENR_ADC1EN</a>);</div>
-<div class="line"><a class="code" href="group__adc__channel.html#ga929c3401331118aecf2aba217d88a108">adc_off</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
+<div class="line"><a class="code" href="group__adc__channel.html#ga1ac745d1052240adb5cf55d3ed8b5aad">adc_power_off</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div>
 <div class="line"><a class="code" href="group__rcc__defines.html#ga3779f1460275e6788f706c61d7f77205">rcc_peripheral_reset</a>(&amp;<a class="code" href="group__rcc__defines.html#gaec8fff978fdbc3903c85e1bb5b4fa698">RCC_APB2RSTR</a>, <a class="code" href="group__rcc__apb2rstr__rst.html#ga7b818d0d9747621c936ad16c93a4956a">RCC_APB2RSTR_ADC1RST</a>);</div>
 <div class="line"><a class="code" href="group__rcc__defines.html#gabb1b312c6db8db25447460742dcdb566">rcc_peripheral_clear_reset</a>(&amp;<a class="code" href="group__rcc__defines.html#gaec8fff978fdbc3903c85e1bb5b4fa698">RCC_APB2RSTR</a>, <a class="code" href="group__rcc__apb2rstr__rst.html#ga7b818d0d9747621c936ad16c93a4956a">RCC_APB2RSTR_ADC1RST</a>);</div>
 <div class="line"><a class="code" href="group__rcc__defines.html#ga190cb3bbb95d687334d00e15bfab5b56">rcc_set_adcpre</a>(<a class="code" href="group__rcc__cfgr__adcpre.html#ga50bd290837f7ae680b618759ad27bad9">RCC_CFGR_ADCPRE_PCLK2_DIV2</a>);</div>
@@ -252,7 +252,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00364">364</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00274">ADC_CR2_CAL</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00270">ADC_CR2_CAL</a>.</p>
 
 </div>
 </div>
@@ -280,7 +280,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00329">329</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00201">ADC_CR2_JEXTTRIG</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00197">ADC_CR2_JEXTTRIG</a>.</p>
 
 </div>
 </div>
@@ -308,7 +308,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00275">275</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00144">ADC_CR2_EXTTRIG</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00140">ADC_CR2_EXTTRIG</a>.</p>
 
 </div>
 </div>
@@ -337,7 +337,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00221">221</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00135">ADC_CR2_TSVREFE</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00131">ADC_CR2_TSVREFE</a>.</p>
 
 </div>
 </div>
@@ -397,7 +397,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00311">311</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, <a class="el" href="adc_8h_source.html#l00255">ADC_CR2_JEXTSEL_MASK</a>, and <a class="el" href="adc_8h_source.html#l00201">ADC_CR2_JEXTTRIG</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, <a class="el" href="adc_8h_source.html#l00251">ADC_CR2_JEXTSEL_MASK</a>, and <a class="el" href="adc_8h_source.html#l00197">ADC_CR2_JEXTTRIG</a>.</p>
 
 </div>
 </div>
@@ -457,7 +457,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00258">258</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, <a class="el" href="adc_8h_source.html#l00195">ADC_CR2_EXTSEL_MASK</a>, and <a class="el" href="adc_8h_source.html#l00144">ADC_CR2_EXTTRIG</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, <a class="el" href="adc_8h_source.html#l00191">ADC_CR2_EXTSEL_MASK</a>, and <a class="el" href="adc_8h_source.html#l00140">ADC_CR2_EXTTRIG</a>.</p>
 
 </div>
 </div>
@@ -486,7 +486,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00206">206</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00135">ADC_CR2_TSVREFE</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00131">ADC_CR2_TSVREFE</a>.</p>
 
 </div>
 </div>
@@ -515,7 +515,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00383">383</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00285">ADC_CR2_ADON</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00281">ADC_CR2_ADON</a>.</p>
 
 </div>
 </div>
@@ -544,7 +544,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00125">125</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00285">ADC_CR2_ADON</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00281">ADC_CR2_ADON</a>.</p>
 
 </div>
 </div>
@@ -573,7 +573,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00344">344</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00271">ADC_CR2_RSTCAL</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00267">ADC_CR2_RSTCAL</a>.</p>
 
 </div>
 </div>
@@ -732,7 +732,7 @@ Basic ADC Handling API.</h1>
 
 <p>ADC Start a Conversion Without Trigger. </p>
 <p>This initiates a conversion by software without a trigger. The ADC needs to be powered on before this is called, otherwise this function has no effect.</p>
-<p>Note that this is not available in other STM32F families. To ensure code compatibility, enable triggering and use a software trigger source </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="group__adc__channel.html#ga0b3b2251b860a0370967c2ee326ad338">adc_start_conversion_regular</a>.</dd></dl>
+<p>Note that this is not available in other STM32F families. To ensure code compatibility, enable triggering and use a software trigger source </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="group__adc__defines.html#ga0b3b2251b860a0370967c2ee326ad338">adc_start_conversion_regular</a>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
@@ -742,7 +742,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00145">145</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00285">ADC_CR2_ADON</a>.</p>
+<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc_8h_source.html#l00281">ADC_CR2_ADON</a>.</p>
 
 </div>
 </div>
@@ -751,7 +751,7 @@ Basic ADC Handling API.</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 29 2016 01:21:35 for libopencm3 by
+    <li class="footer">Generated on Wed Mar 30 2016 20:21:39 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
