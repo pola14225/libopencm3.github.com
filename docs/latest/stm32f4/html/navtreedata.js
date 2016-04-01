@@ -83,11 +83,12 @@ var NAVTREEINDEX =
 "group__timer__defines.html#gaf63caef1b5e210d9b136ec4603054900",
 "group__timer__file.html#gaba637f20873990bcd2349c6845d07d2b",
 "group__usart__defines.html#gaac35e7ef814d1a7a5c28ababd16436c0",
-"group__usb__defines.html#ga81c3cbe7072f6821b808037365962a93",
-"ltdc_8h.html#a960f0d75875a450be97acc6ba43a570b",
-"rcc_8h.html#a1e1a62db5389edab149e78d164b2e528",
-"rcc_8h.html#a54c7db24941f636ee238833c481ada48ace6a0c67861a7f9063364e3c23996b7c",
-"rcc_8h.html#afa12d7ac6a7f0f91d066aeb2c6071888"
+"group__usb__defines.html#ga4f5d191a84a573db9866c745d4a3a69f",
+"ltdc_8h.html#a6a469ec4989f09bd45c0fa1bcd8fbb0a",
+"rcc_8h.html#a0569d91f3b18ae130b7a09e0100c4459",
+"rcc_8h.html#a54c7db24941f636ee238833c481ada48a875c8c688efc053d1af23b0d18361549",
+"rcc_8h.html#ad7dcc662cce20de5eb8a10fb189b5c97",
+"usart__common__f24_8h.html#ab08007a5a998177b3a423fc11c0daaf5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

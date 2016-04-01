@@ -175,8 +175,6 @@ var usart_8h =
     [ "USART_RQR_SBKRQ", "usart_8h.html#a2d1a36c6b492c425b4e5cc94d983ecf1", null ],
     [ "USART_RQR_TXFRQ", "usart_8h.html#aa40d2e52b5955b30c9399eb3dec769e8", null ],
     [ "USART_RTOR", "usart_8h.html#a63dba75e7db0b6b5783fe678403e9e5e", null ],
-    [ "USART_RTOR_BLEN1_MASK", "usart_8h.html#a50e2bdfec365d92668220392610b89b3", null ],
-    [ "USART_RTOR_BLEN2_MASK", "usart_8h.html#ac636706777030ce65b612dbcfe6925a4", null ],
     [ "USART_SR_CTS", "group__usart__sr__flags.html#ga9250ae2793db0541e6c4bb8837424541", null ],
     [ "USART_SR_FE", "group__usart__sr__flags.html#ga9eb6fd3f820bd12e0b5a981de1894804", null ],
     [ "USART_SR_IDLE", "group__usart__sr__flags.html#ga336fa8c9965ce18c10972ac80ded611f", null ],

@@ -25425,6 +25425,144 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="file">
+    <name>usart_common_v2.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/</path>
+    <filename>usart__common__v2_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_RTOR_BLEN_SHIFT</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a7965a44ed2afc9fff6bc92d1cc98e532</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_RTOR_BLEN_MASK</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a03bb7147195b008be7119768e0931d8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_RTOR_BLEN_VAL</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>aed49aa7b90f0a05ac28178fec4a52eed</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_RTOR_RTO_SHIFT</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a302fdfc7e15f8b0484909a5963a3857f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_RTOR_RTO_MASK</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a8558701a22e4bac4c5a11106b535b314</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>USART_RTOR_RTO_VAL</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>aa9546b2fca47096ed22c4b048033a656</anchor>
+      <arglist>(x)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_data_inversion</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a181335b50a337406330a0618cb96632c</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_data_inversion</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>ad8b0d640ed8046fe619a9a63d65a5c60</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_tx_inversion</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>ad98d0c43db9abb00d796d2836c3c747f</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_tx_inversion</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a7b0b66137c62abe804a3ab6330fb1b59</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_rx_inversion</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>ad801cb1471ec1686a6bbd98b6b6d73ca</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_rx_inversion</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>aadbf66902e7ccae0a20aa1efbe1e61ce</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_halfduplex</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a6521d74c9874ec293b6179066a08c062</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_halfduplex</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a1f884b66a31469ef873c0d589e6f963d</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_set_rx_timeout_value</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a6151e5dd0a0de248589017da8577efa9</anchor>
+      <arglist>(uint32_t usart, uint32_t value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_rx_timeout</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a2675cd47bbd55df9cb700e2250c1561e</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_rx_timeout</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a7ee9ed4b1bdcb6b5e56fa0037499a009</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_enable_rx_timeout_interrupt</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>ad2b352eb3e4f48ce571c1e1b26e93cc9</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usart_disable_rx_timeout_interrupt</name>
+      <anchorfile>usart__common__v2_8h.html</anchorfile>
+      <anchor>a76120f8d1a9775d2d2f3041fc945a985</anchor>
+      <arglist>(uint32_t usart)</arglist>
+    </member>
+  </compound>
   <compound kind="group">
     <name>adc_defines</name>
     <title>ADC Defines</title>

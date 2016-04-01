@@ -99,5 +99,11 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f234.c:34: warning: explicit link request to 'tim_ic_pol' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/timer.c:38: warning: The following parameters of timer_set_option(uint32_t timer_peripheral, uint32_t option) are not documented:
   parameter 'option'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:140: warning: Found unknown command `\This'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:105: warning: Found unknown command `\This'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:128: warning: Found unknown command `\This'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:91: warning: Found unknown command `\This'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:201: warning: unable to resolve reference to `usart_isr' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:153: warning: unable to resolve reference to `usart_isr_rtof' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:164: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'

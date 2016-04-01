@@ -73,6 +73,12 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/hash_common_f24.c:143: warning: argument 'algorithm' of command @param is not found in the argument list of hash_get_result(uint32_t *data)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f24.c:30: warning: The following parameters of timer_set_option(uint32_t timer_peripheral, uint32_t option) are not documented:
   parameter 'option'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:140: warning: Found unknown command `\This'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:105: warning: Found unknown command `\This'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:128: warning: Found unknown command `\This'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:91: warning: Found unknown command `\This'
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:201: warning: unable to resolve reference to `usart_isr' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:153: warning: unable to resolve reference to `usart_isr_rtof' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2.c:174: warning: unable to resolve reference to `adc_api_res' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:42: warning: unable to resolve reference to `adc_sample' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:67: warning: unable to resolve reference to `adc_sample' for \ref command

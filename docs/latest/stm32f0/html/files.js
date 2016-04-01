@@ -84,5 +84,7 @@ var files =
     [ "usart.c", "usart_8c.html", "usart_8c" ],
     [ "usart.h", "usart_8h.html", "usart_8h" ],
     [ "usart_common_all.c", "usart__common__all_8c.html", "usart__common__all_8c" ],
-    [ "usart_common_all.h", "usart__common__all_8h.html", "usart__common__all_8h" ]
+    [ "usart_common_all.h", "usart__common__all_8h.html", "usart__common__all_8h" ],
+    [ "usart_common_v2.c", "usart__common__v2_8c.html", "usart__common__v2_8c" ],
+    [ "usart_common_v2.h", "usart__common__v2_8h.html", "usart__common__v2_8h" ]
 ];
